@@ -1,0 +1,76 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>71</BIN><Night><黑屏2><BGM>BGM_Room</BGM>:Inside the Sangvis base... +RO635 carefully enters the main control room by herself.
+RO635Mod(0)<Speaker>RO635</Speaker>||:There weren't any signs of movement on SOP-II's end either... Looks like there really are no S.F. left in this place.
+()||:After re-examining the comms equipment, RO inspects the surrounding objects. +Ever since she entered the base, the path forward has been perfectly clear, and she has followed it all the way to the control room.
+RO635Mod(0)<Speaker>RO635</Speaker>||:This isn't too different from other Sangvis bases. +Ah, this is the main control console. +Looks like it's still usable, so let's connect to it... Good. +Commencing download...
+()||:What exactly did M16A1 go through after being converted to S.F.? Currently, records concerning those events are a complete blank to Griffin. +However, due to Sangvis Ferri's hive-style management system, anyone with sufficient clearance can access the main server and search for information. +Therefore, the Commander has given a special mission to RO. +After entering the S.F. base, she is to use its main control room to connect to the Sangvis databases, download all the logs pertaining to "M16A1", and bring them back to Griffin. +Perhaps that information might end up being helpful in finding M4 or M16.
+RO635Mod(0)<Speaker>RO635</Speaker>||:What was M16 thinking when she joined S.F.? +Had she planned everything out since that time?
+()||:The data download is proceeding smoothly. +While most of the base exterior is in ruins, the machinery at its core is still solid.
+RO635Mod(0)<Speaker>RO635</Speaker>||:If only I had picked up on that earlier and stopped her in time, perhaps things might have turned out very differently.
+()||:RO shakes her head.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Well, there's no point crying over spilt milk. +I should finish the download quickly and rendezvous with SOP-II. +I wonder if it's okay to leave her alone with Architect...
+()||<SE1>AVG_tele_connect</SE1>:Whum—+Just as RO's attention is fully focused on her work... +An ear-piercing screech of feedback blasts through the PA system.
+()<Speaker>Gager</Speaker>||<BGM>BGM_Empty</BGM>:<color=#00CCFF>—Attention.</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:...Is that Gager? +Did she finally take the bait?
+()<Speaker>Gager</Speaker>||:<color=#00CCFF>Attention, Griffin Dolls.</color> +<color=#00CCFF>You have stepped into my trap.</color> +<color=#00CCFF>Release Architect immediately.</color> +<color=#00CCFF>Otherwise... All the surrounding cannon emplacements have been aimed at this place.</color> +<color=#00CCFF>I will blast this place until not even your stains remain.</color> +<color=#00CCFF>You have five minutes to decide. I repeat;</color> +<color=#00CCFF>Release Architect.</color>
+RO635Mod(0)<Speaker>RO635</Speaker>||:—! +Are the cannons outside still operational?
+()||:The download is complete just as the broadcast suddenly cuts off.
+RO635Mod(0)<Speaker>RO635</Speaker>||:I need to hurry and link up with them—!
+BOSS-7(0)<Speaker>Gager</Speaker>||<BGM>BGM_Empty</BGM>:—!
+()||<BGM>BGM_Danger</BGM>:RO runs straight into Gager at the doorway to the main control room. +Clearly, neither of them expected to bump into each other here, and they both do a double take. +But the next second...their guns are already pointed at each other.
+()||<SE2>Gunfight</SE2>:Bangbang—
+()||:Neither of them wastes time on speaking. +Their exchange of fire instantly engulfs the space in a hail of bullets.
+()||<SE2>Gunfight</SE2>:Bangbangbang—
+()||:RO is a little amazed by what she's feeling. +She feels strangely at ease now that she is actually fighting Gager. +The excessive responsibility weighing on her shoulders and the discomfort caused by being around Architect have all been eating away at her. +But now, all her frustration is spewing out of her gun's muzzle, carried by tongues of fire and bullets of lead.
+()||:Things really are easier as a T-Doll, she thinks.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Ahhhh, what a pain!
+()||:The main control room is too small, and the bullets from both sides end up bouncing off the walls and ricocheting into parts unknown. +RO might have finished her download, but there's no telling what will happen if she ends up wrecking something important. +...Just as that notion flashes through RO's mind, a shot buries itself deep into the cables of the main control computer.
+()||:Crack!
+()||:A brilliant blue flame flares up!
+BOSS-7(0)<Speaker>Gager</Speaker>||:What— Oh no!
+()||:As RO cries out in surprise, the bad feeling she had comes to pass.
+()||<SE1>AVG_door_storehouse</SE1>:Clang!
+()||<BIN>71</BIN><Night>:The thick blast door for the main control room slams down and the lights go out.
+BOSS-7(0)<Speaker>Gager</Speaker>||<BGM>BGM_Empty</BGM>:What the hell did you do?!
+()||<BGM>BGM_Room</BGM>:Both sides have stopped firing due to the sudden developments. +The silence in the darkened room is only interrupted by intermittent sprays of sparks from the ruined cables.
+()||:Just then, RO and Gager simultaneously emerge from behind their respective cover. Upon spotting each other, they raise their weapons again.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Drop your weapon. You can't escape.
+BOSS-7(0)<Speaker>Gager</Speaker>||:The same goes for you. Drop your gun now and I might spare your life.
+()||:As the two Dolls face off, they glance at the blast door that has closed over the entrance. It doesn't look like it can be lifted by just one or two people. +The fact that they're both trapped inside slowly begins to sink in. +Right now, fighting itself seems pointless.
+RO635Mod(0)<Speaker>RO635</Speaker>||:...I honestly didn't expect you to fall for it so easily.
+BOSS-7(0)<Speaker>Gager</Speaker>||:Who fell for what? +Did you not consider that I might have deliberately leaked the information of my sightings to Griffin?
+RO635Mod(0)<Speaker>RO635</Speaker>||:In order to bait us into bringing Architect along? +Talk about being confident.
+BOSS-7(0)<Speaker>Gager</Speaker>||:Considering Griffin is nothing more than crushed scraps at this point, I could take you all out by myself.
+RO635Mod(0)<Speaker>RO635</Speaker>||:If you ask me, S.F. isn't doing much better. +Otherwise, the Commander wouldn't have sent just the few of us here.
+()||:Gager does not reply. The current state of this base is answer enough—Sangvis Ferri is in ruins.
+RO635Mod(0)<Speaker>RO635</Speaker>||:So how do you open that blast door?
+BOSS-7(0)<Speaker>Gager</Speaker>||:...Without electrical supply, you'll need to use brute force. +While I could engage the backup circuits, I lack the authorization to access the control systems.
+RO635Mod(0)<Speaker>RO635</Speaker>||:I see.
+()||:RO lowers her gun.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Gager, listen to me. +The feud between Griffin and Sangvis Ferri is over. There is no point in fighting each other anymore.
+BOSS-7(0)<Speaker>Gager</Speaker>||:My mission isn't over yet. As long as Architect is still alive, I have a reason to fight.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Humph... +So are we going to stare each other down here?
+BOSS-7(0)<Speaker>Gager</Speaker>||:Architect must have come with you, right? +She'd have a way to activate the backup power supply.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Who knows? What if I came alone?
+BOSS-7(0)<Speaker>Gager</Speaker>||:Cut the crap. +I set a ton of traps on the way here. +You couldn't have made it this far if Architect hadn't come along!
+RO635Mod(0)<Speaker>RO635</Speaker>||:Even if she were here, I wouldn't let her touch the S.F. network. +There are still all those cannons outside; did you really think I'd give you the chance to try any funny business?
+BOSS-7(0)<Speaker>Gager</Speaker>||:The electrical systems are finished. Even with the backup power, you couldn't activate the cannon batteries.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Then, like I said earlier, there is no point in fighting any further. +If you're willing to put down your weapon and come to Griffin with me, I can try logging into the system to activate the backup power supply.
+BOSS-7(0)<Speaker>Gager</Speaker>||:You have Sangvis clearance?
+RO635Mod(0)<Speaker>RO635</Speaker>||:I've already hacked them once; I can easily do it again.
+BOSS-7(0)<Speaker>Gager</Speaker>||:...Is Architect with you? +If I go with you, will I be able to see her again?
+RO635Mod(0)<Speaker>RO635</Speaker>||:I will ask the Commander for permission. Once it is safe, I can arrange for the two of you to meet.
+()||:Gager puts down her gun, as if in defeat.
+BOSS-7(0)<Speaker>Gager</Speaker>||:Alright, I accept. +Now hurry up and open this stupid door.
+()||:RO635 eyes Gager warily before returning to the main control console. +After entering the network, she soon finds the control interface for the backup power supply.
+RO635Mod(0)<Speaker>RO635</Speaker>||:It's done.
+()||<BIN>71</BIN>:The lights in the room flicker back on, and the fallen blast door slowly rises. +RO looks at Gager, and Gager looks at RO. +Just as RO is about to say something, Gager suddenly turns and runs.
+RO635Mod(0)<Speaker>RO635</Speaker>||:!
+()||<SE1>Explode</SE1>:A massive explosion thunders overhead, and a huge hole appears in the main control room. +Chunks of concrete and rebar rain down from the ceiling, and it is only by virtue of her lightning speed that RO is not squashed underneath.
+RO635Mod(0)<Speaker>RO635</Speaker>||:Jupiter?!
+BOSS-7(0)<Speaker>Gager</Speaker>||:Even with just backup power, I can still control a single Jupiter Cannon!
+RO635Mod(0)<Speaker>RO635</Speaker>||:You damn liar!
+BOSS-7(0)<Speaker>Gager</Speaker>||:Like hell I'd go with you to Griffin! +I'm going to find Architect while you can stay buried here with your regrets forever!
+()||<SE1>Explode</SE1>:BOOM!
+()||:Another shell strikes home, blasting the control room to smithereens. +Though RO manages to duck outside in time, she can no longer pass through the main control room to pursue Gager.
+RO635Mod(0)<Speaker>RO635</Speaker>||<黑屏1>:I need to get out of the targeted area and rendezvous with SOP-II before going after Gager. +As I thought, you can't trust a single word that comes out of the mouth of a Sangvis Doll!

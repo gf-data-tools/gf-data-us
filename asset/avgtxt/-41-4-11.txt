@@ -1,0 +1,111 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>270</BIN><BGM>BGM_Room</BGM>:...Zone B, Refugee Settlement.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:(Inhales and gags) +Oof, this room stinks. I thought this organization was as "cheery" as it advertised itself, but...
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Morridow(1)||:I didn't take you for the type who'd fall for marketing ploys.
+NPC-Keven(0);NPC-Morridow(1)<Speaker>Morridow</Speaker>||:I know it's all about marketing, but the least they could do is keep up a certain level of appearances. I didn't expect such a large difference.
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Morridow(1)||:There are two sides to everything. This is also true about people.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Hopps(0)||:The HR records here are intriguing. What do you make of this? +Some refugees have found employment in the White Zone—all floriculturists. There are about 1,400 of them, and all of them are working for that botanical institute you investigated.
+NPC-Keven(0);NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Huh? Surely the Flora Institute doesn't have that many vacancies?!
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Morridow(1)||:This is confirmed in the ledger, and coincidentally, Powell is also the one who signed these receipts. +This place has ties with both the orphanage and the botanical research institute.
+NPC-Ange(2);NPC-Keven(0)<Speaker>J</Speaker>||:So the GIP is really working with Paradeus?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Keven(0)||:Most definitely, but we need more incontestable evidence. +It wouldn't mean a thing to those bastards even if Ulrich threw what we've found at their faces. +Lucia, how are things out there?
+NPC-Ange(2);AK12(12)<Speaker>AK-12</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>There are more and more refugees surrounding the church.</color> +<color=#00CCFF>There are also people who don't look like refugees hidden in the crowd.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:We can't stay here for long. +Renate, report. +... +Renate?
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:Ange attempts to establish contact with RPK-16, but before the call can connect, a thunderous explosion erupts in Zone A.
+()<Speaker></Speaker>||<BGM>BGM_Danger</BGM>:Hopps immediately moves Ange behind him, but Ange steps around him and stares outside the window in silence. +More refugees have taken to the disordered streets due to the noise and tremor of the explosion.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What was that?!
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:The enemy must be on the move.
+AN94(11)<Speaker>AN-94</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Ange, there was an explosion of unknown origin in Zone A. The refugees are getting agitated. This is bad.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>;AN94(11)||:That must've been a signal. Someone is about to get serious.
+AN94(12)<Speaker>AN-94</Speaker>||:<color=#00CCFF>We can't get in touch with Renate or AK-15.</color> +<color=#00CCFF>Ange, their comms are offline. </color>
+AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Is it because of the explosion?</color>
+()<Speaker></Speaker>||<SE2>Alarm</SE2>:Just then, the "silence" is shattered by the klaxons that are blaring throughout the settlement.
+NPC-Keven(0)<Speaker>J</Speaker>||:Good God, what is it this time?!
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:(Beep)
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Speaking. What? Then what should we do? +...Understood. We'll think of something.
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:What's wrong?
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:The garrison guarding the gates are sustaining casualties... +Someone has activated the turrets along the wall. Those things are now firing indiscriminately.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>;NPC-Hopps(0)||:What?! Then...what about the refugees?!
+NPC-Morridow(1);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...They will prevent anything from passing through the gates alive—us, the refugees, or even just a rat...
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Looks like someone is trying to start a riot. It's easier for them to act when everyone is distracted by the chaos.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Yeah, even our escape route is no-go. +Our only hope of getting out of here is that helicopter.
+NPC-Ange(2);NPC-Keven(0)<Speaker>J</Speaker>||:Isn't this supposed to be a disastrous situation? +Somehow you said that in the same tone as how someone would say, "oh drat, there's only bread for breakfast today."
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:It's kinda like that, actually. +Lucia, can you join us?
+AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>I can jump in through the roof.</color>
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:AK-12 leans out of the window but AN-94, sensing something wrong in the distance, immediately pulls her back inside. +Bullets smash the window to bits. The two Dolls switch positions and try to locate the shooter.
+AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Ange, someone's firing at us!</color> +<color=#00CCFF>Can you see them from where you are?</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I heard it. Holy crap, what the heck are those?
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:A row of automatons are advancing on the church with riot shields and submachine guns, muzzles flashing menacingly. +The surrounding refugees scatter in panic but a lot of them are shot.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:The garrison's anti-riot automatons. Have they also been hacked?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Not necessarily.
+NPC-Ange(2);NPC-Keven(0)<Speaker>J</Speaker>||:Our pistols won't even leave a dent on them. +They're closing in fast!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Lucia, can you hack them?
+NPC-Ange(2);AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>I've tried, but they can't be accessed remotely at all.</color> +<color=#00CCFF>All their ports are closed.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>;AK12(12)||:They know us and they came prepared. +You have permission to use your weapons. Link up with us once you destroy those automatons. +We'll be leaving soon.
+AK12(12)<Speaker>AK-12</Speaker>||:<color=#00CCFF>Acknowledged.</color> +<color=#00CCFF>Antje, get out our rifles and prepare to move.</color>
+AN94(11)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Right.</color> +<color=#00CCFF>We don't have much ammo with us so we need to make every shot count.</color>
+()<Speaker></Speaker>||:AK-12 takes a second to observe the situation. Under such intense enemy fire, it's impossible to reach the church by jumping across rooftops.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:She and AN-94 promptly return to ground level. A few of the anti-riot automatons are charging straight toward the church. The two Dolls take out the closest ones from around the corner.
+()<Speaker></Speaker>||<SE1>Select</SE1>:With the most imminent threats neutralized, AK-12 reloads and makes for the church while keeping her body close to the ground. +The automatons start shifting their attention to AN-94, who proceeds to switch positions and lay down suppressive fire. Meanwhile, AK-12 dives next to a refugee's corpse, using it as a meat shield while returning fire at the enemies.
+AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>They're pretty slow. This won't be too difficult.</color>
+AN94(11)<Speaker>AN-94</Speaker><通讯框>||:<color=#00CCFF>Lucia, watch out!</color>
+()<Speaker></Speaker>||<SE1>Explode</SE1><震屏3>:The anti-riot automaton that got shot down in front of AK-12 suddenly blows up. +Understanding the dreadful implication, she scrambles quickly to her feet and dashes towards the church. +94 also makes a run for it under the cover of the billowing smoke. They both reach the perimeter of the church with lightning speed.
+AK12(13)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Ange, get out of there!</color> +<color=#00CCFF>The automatons are rigged with explosives! This church can't withstand the impact!</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Shit! They must be insane. Everyone out the windows!! NOW!!
+()<Speaker></Speaker>||:More exploding anti-riot automatons are trying to break into the church. AK-12 stops their approach with accurate shots.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1>:But the explosions are getting dangerously close to this eighth-century church. The weathered stones and bricks are starting to shake.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><SE1>AVG_Broken_Glass</SE1><BIN>168</BIN>:Ange smashes one of the mosaic glass windows on the second floor and jumps out. The others promptly follow suit.
+NPC-Keven(0)<Speaker>J</Speaker>||:Where did they get this amount of explosives?! +What the hell are they trying to do?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:We can't stay here any longer! We should retreat to the wall!
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:And get shot full of holes by those turrets? +Follow me! +Morridow, can you run?
+NPC-Ange(2);NPC-Morridow(1)<Speaker>Morridow</Speaker>||:I...I suppose...
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Morridow(1)||:When I give the word, run with all your might and do not stop! +J, if she can't keep up, carry her.
+NPC-Ange(2);NPC-Keven(0)<Speaker>J</Speaker>||:Alright!
+NPC-Ange(2);AK12(12)<Speaker>AK-12</Speaker><通讯框>||:<color=#00CCFF>Ange, go!</color> +<color=#00CCFF>We're almost out of ammo!</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:We're leaving our backs to you!
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:Ange's group start running towards the residential area while the two Dolls cover their escape.
+AN94(11)<Speaker>AN-94</Speaker>||:...We've got to go too.
+AK12(12)<Speaker>AK-12</Speaker>;AN94(11)||:No, we need to stay just a little longer.
+AK12(12);AN94(12)<Speaker>AN-94</Speaker>||:But we're running dangerously low on ammo and those automatons are getting close.
+AK12(12)<Speaker>AK-12</Speaker>;AN94(12)||:Trust me, trust Ange, and trust our stupid teammates. +We have to make our stand here.
+AN94(11)<Speaker>AN-94</Speaker>||:... +Understood. I trust you. +Enemy reinforcements incoming!
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Anti-riot automatons are making a beeline for the church, but the DEFY Dolls shoot them down accurately one after the other.
+AK12(12)<Speaker>AK-12</Speaker>||:Tsk, I'm out of ammo.
+AN94(11)<Speaker>AN-94</Speaker>||:Lucia, straight ahead!
+()<Speaker></Speaker>||:With only one Doll firing, one of the anti-riot automatons has made it to the entrance of the church. AN-94's final round hits it on a weak spot. It topples and slides along the muddy ground, stopping right next to a building.
+()<Speaker></Speaker>||<震屏3><SE1>Explode</SE1><BGM>BGM_Empty</BGM>:The next second, the automaton erupts in a dazzling ball of fire. The impact causes the rickety building to collapse instantaneously. +When the smoke and dust finally settle, there is already no sign of AK-12 and AN-94.
+()<Speaker></Speaker>||:... +In an abandoned house about 100 meters away, a person puts down their binoculars.
+不明人员()<Speaker>Unknown Personnel</Speaker>||:Sir, two of the target's Tactical Dolls are confirmed to be KIA.
+经过处理的声音()<Speaker>Distorted Voice</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Acknowledged. The target's unit is down to four people, and we will encounter no further T-Doll intervention.</color>
+不明人员()<Speaker>Unknown Personnel</Speaker>||:Only four? What about the other two Dolls?
+经过处理的声音()<Speaker>Distorted Voice</Speaker>||:<color=#00CCFF>Unknown. Nobody has been in touch since the explosion in Zone A 15 minutes ago. We haven't heard from our recon unit or task force either.</color>
+不明人员()<Speaker>Unknown Personnel</Speaker>||:Did the Dolls wipe them out? +But how is that possible? There are only two of them, and they're not armed with explosives. Don't tell me... +Oh crap, it must be them. Those bastards are making their move. +Is the ground unit ready to deploy?
+经过处理的声音()<Speaker>Distorted Voice</Speaker>||:<color=#00CCFF>Yes, all ready.</color>
+不明人员()<Speaker>Unknown Personnel</Speaker>||:Then tell them to get the fire burning. We've got work to do, brothers.
+经过处理的声音()<Speaker>Distorted Voice</Speaker>||:<color=#00CCFF>Understood. Do you have any instructions for Pigeon?</color>
+不明人员()<Speaker>Unknown Personnel</Speaker>||:No, Pigeon is free to use their discretion.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>85</BIN><黑屏2>:Meanwhile, in a room on the second floor of a building in Zone B that was formerly the Kunsthalle Bremen, a unit of masked and well-armed personnel are listening to this conversation.
+武装人员()<Speaker>Armed Operative</Speaker>||:Your heard the man. Let's get to work.
+指挥人员()<Speaker>Officer in Command</Speaker>||:Finally, the foreplay is over. It's time we made our entrance. +Since we're all showing our hand, don't blame me for not pulling my punches. +These voodoo fanatics think they'll be bagging all the chips, but little do they know we still have an ace up our sleeve. +Alright, listen up. I don't want any of them to leave the refugee settlement alive. Send them all to meet their beloved maker.
+一众武装人员()<Speaker>Armed Force</Speaker>||:Yes, sir!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>168</BIN><黑屏2><BGM>BGM_Danger</BGM><SE1>AVG_Crowd_Run</SE1>:Ange's group move rapidly down the street while keeping their eyes on their surroundings. +Ange watches as wafts of black smoke billow into the sky. She knows what's producing them. Garbage and tires being burned. An omen of imminent pandemonium.
+()<Speaker></Speaker>||:After looking left and right, Ange kicks open the door to a tall building and leads the others inside. +From the window upstairs, she can see that a massive crowd has been gathering. Dreadful howls fill the air. +Another explosion erupts in the distance. Morridow stares at Ange hesitantly. +There are questions she is burning to ask, but somehow she can't bring herself to voice them as she studies Ange's calm features.
+NPC-Keven(0)<Speaker>J</Speaker>||:The refugees are already on the verge of a riot in a matter of minutes. +The GIP aren't the only ones that have infiltrated the settlement. It looks like even Powell himself has been stirring the pot here. He must be far more influential than we thought.
+NPC-Keven(0);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:They rile up the refugees and start a riot; we conveniently "go missing" in the midst of this chaos and won't cause any more trouble. +Did you expect this to happen, Frau Ange?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Their plan isn't all that surprising. Actually, it's so logical it's almost unnerving. +It's true that I didn't expect them to go to such great lengths just to eliminate us, but it's not over for us yet. +We may still be able to capture Powell.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Are you out of your mind?! +How are we supposed to catch that bastard when all hell has broken loose out there?! +We should find a safe location and wait for the helicopter to extract us!
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:My Dolls have sent me Powell's last-known coordinates. +I'm not leaving until I have him. If you're scared of the mess outside, stay here and keep Morridow safe.
+NPC-Ange(2);NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Huh?! Do we have to stay here? +I'd rather go with Ange!
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Are you all insane?! +I can't keep all of you safe out there without any extra help!
+NPC-Keven(0)<Speaker>J</Speaker>;NPC-Hopps(0)||:Don't worry, I will also guard the ladies with my life~
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:With K being the only exception, do all German guys talk like idiots? +Still, even though you're cringy as hell, I do appreciate the support. +Well, Hopps? You can stay here by yourself if that's what you want.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Tsk...! +Fine, but we'd better hurry! +Do you know where to find Powell?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I'll manage. +But hold on a sec. Something doesn't look right down there.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:The weird howling is getting closer... +It sounds really scary...
+()<Speaker></Speaker>||:Ange looks out of the window again. +Amid the rising black smoke and surging crowds, she catches sight of creatures that don't exactly look human.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I knew you'd be here. +It's time I dragged you out of your hidey hole...William.
+()||<黑屏1>:

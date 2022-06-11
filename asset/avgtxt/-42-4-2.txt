@@ -1,0 +1,170 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>96</BIN><BGM>GF_20HW_Theme_Selfloop_Freesync</BGM>:...At the full-house theater, on the day of the performance.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:"Here I stand before you..." +"Only when I gaze upon your visage..." +"Does it dawn on me..." +"That my insipid words do you no justice."
+()||:TAC-50 knew that this was the very last time she would ever see AH400 on stage. +For some reason, the thought brought a lump to her throat.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:"Time crawls by..." +"The rift between us grows ever wider." +"When we finally notice, we've passed the point of no return."
+()<Speaker>Member of the Audience 1</Speaker>||:Miss Passadou's performance is still positively soul-stirring...
+()<Speaker>Member of the Audience 2</Speaker>||:Indeed. Shame that she's retiring.
+TAC50(0)<Speaker>TAC-50</Speaker>||:...
+()||:It took TAC-50 all of her self-control to stop herself from jumping to her feet and declaring loudly that it was her best friend AH400 singing on the stage.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:"Pile on the lies, like glue holding broken pieces together." +"When the cracks reappear, cover them with new lies." +"But the distance between us grows ever more." +"Now you are beyond my reach."
+()||:AH400's singing had the entire audience enthralled. +Then TAC-50 suddenly noticed a waft of black smoke billowing behind AH400.
+()<Speaker>Member of the Audience 1</Speaker>||:Hm? What's that smell?
+()<Speaker>Member of the Audience 2</Speaker>||:Is something burning?
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:"When you finally stop and look back at me..." +"So broken I am, I cannot carry on." 
+()||<BGM>BGM_Empty</BGM><common_effect>%%code=CJ_fire%%</common_effect>:In an instant, the carpet caught fire, and the flame traveled rapidly up the curtains.
+()||<SE1>AVG_Crowd_Run</SE1>:The audience erupted into panic, and in a stampede, everyone tried desperately to flee the building.
+()<Speaker>Audience</Speaker>||:Run! Fire!
+TAC50(0)<Speaker>TAC-50</Speaker>||:AH400!
+()||:TAC-50 shoved her way through the frenzied crowd, heading straight for the stage in the opposite direction. +AH400 continued to sing with tears in her eyes, seemingly oblivious to the danger she was in.
+TAC50(0)<Speaker>TAC-50</Speaker>||<SE1>Stop_AVG_loop</SE1>:AH400, run!
+NPC-Passadou(0)<Speaker>AH400</Speaker>||<BGM>m_avg_labyrinth</BGM>:... +Ma'am...
+()||:Passadou stumbled out from the wing and onto the stage. +Unlike the stereotypical villain reveling in their success, Passadou looked bleak and sullen. Her eyes were puffy with tears and there was an unhealthy flush to her sallow cheeks.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Doll, did you enjoy your performance tonight?
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Ma'am... Is there anything I can do for you?
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Certainly. You can die for me, Doll.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:... +Why...why do you hate me so?
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Because you seek to supplant me.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:I do not! I swear that has never been my intention! +I have only been following your instructions; I did not deviate from the plan at all! +Is this not what you wished for? For "Passadou" to keep singing! +So that when you finally recover, you can take the stage once more...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Enough with the nonsense! You and I both know there is no hope for my recovery.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:How could you say that? +It would make Mr. Arla very upset if he had heard you... +He has been consulting doctors far and wide for you...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<震屏>:Why should I care if he's upset?! +He never considered MY feelings! What does he know?! +Does he have any idea how I feel, watching you perform as "Passadou" on stage? +Here you stand, on MY stage, singing MY lyrics! +My fans are gathered around you, their adoring gaze focused on you! +When I turn on the news, I'm bombarded by headlines such as "Another Triumph for Passadou", "Passadou and Arla Interviewed Together", "Passadou's Secret to Eternal Youth"... +What about the real Passadou?! +Here she is, lying all alone in her bed, with an illness that's slowly throttling her, all the while mocking her and jeering at her, telling her that the world has forgotten all about her!
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Ma'am... Why have you never told me this is how you feel?
+()||:Passadou was too engrossed in her own rage to hear anything.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Him, upset? Hahahahahaha... +If he's upset, then it's no more than he deserves! +He shouldn't have betrayed me! +Hahahahahaha! Not that he can hear me. He's probably already engulfed in flame! +I bet he's still dreaming his absurd dreams...
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:...What have you done? You could not have harmed Mr. Arla...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:What have I done? Nothing that can compare to what he has done to me. I merely put something in his wine... +That should make it less painful when he burns. +You see, I am very benevolent even to those who have betrayed me. That just shows I'm a good person, right? +Don't worry, my adorable Doll. I won't make you suffer either. +Oh, I almost forgot. Dolls don't feel pain. You are monsters that never age.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:...Miss Passadou, I do feel pain.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Really? That's certainly news to me. +Then pray tell – when have you ever felt pain?
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:When you locked yourself inside your room and I could hear you crying all alone through the door but did not know what to do, I felt pain... +When I saw you crying as you watched me perform on stage but I could not come and give you a hug, I felt pain... +When in your pain and anger, you pushed away all those who care about you, I felt pain...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:I have always loved you, Miss Passadou. +I want you to be happy from the bottom of my heart. +The first time you performed here in this theater, I cried so hard in the audience my cooling system broke down... +When you married Mr. Arla, it was me who walked you down the aisle and handed you over to him... +We have shared so many happy memories together, do you remember at all?
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:... +Hahahahahahaha, liar! You're lying!
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Miss Passadou, I have never lied to you! +From the moment I first opened my eyes, I have been by your side. +To me, you are not just a mistress; you are my family, my everything...
+()||:AH400 opened her arms to embrace Passadou.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<BGM>BGM_Empty</BGM>:Enough! Activate voice override – cease all motion.
+()||:AH400 froze on the spot.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<BGM>BGM_Danger</BGM>:Hahahahahaha... Didn't see that coming, did you? +When you were getting your modification, I knew you would want to supplant me eventually. +So I paid an extra sum to have this voice override function installed in your neural cloud. +Well? How does it feel to lose control of your own body?
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:If it is your wish, I will gladly die for you. There is no need for an override.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Oh, stop it before you move me to tears!
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:But please remember – I am not doing this just because you gave a command; I am voluntarily giving my life for you. +If this is what it takes for you to live on in happiness...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Shut up! Shut up! I'm telling you to shut up!
+()||<SE1>AVG_lifttable</SE1>:A chunk of the burning set breaks off and comes crashing down, knocking Passadou unconscious.
+()||:AH400 immediately pulls her mistress out from the collapsed set.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Miss Passadou! Ma'am!
+()<Speaker>Passadou</Speaker>||:...
+()||<黑屏1><BGM>BGM_Empty</BGM><关闭蒙版>:TAC-50, who had witnessed the whole thing from a distance, suppressed her boiling rage and rushed over to AH400.
+TAC50(0)<Speaker>TAC-50</Speaker>||<黑屏2><BIN>282</BIN>:...AH400.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Oh, TAC-50, am I glad to see you!
+()||<BGM>10258</BGM>:AH400 scooped Passadou off the floor and handed her over to TAC-50.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:Please help me get her out of here. Make sure nobody sees her!
+TAC50(0)<Speaker>TAC-50</Speaker>||:...
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:TAC-50...
+TAC50(0)<Speaker>TAC-50</Speaker>||:Why?! Why are you still so loyal to such a horrible mistress?! +Come with me, AH400! Ditch her, I'm getting you out of this hell!
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:...To where?
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:I'm bringing you to Griffin! +If your precious mistress demands compensation, I'll get an advance on my paycheck from the Commander! +The Commander is very kind and will definitely agree to help! +Besides, there are many different departments in Griffin. You can make desserts at the Café or take care of the animals at the Rescue Station! +Then we can travel, go shopping, or have nice meals together during our days off... +There are many, many things we can do at Griffin!
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:That sounds fun.
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:Then come with me! We will figure out something!
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:Sorry... +I am not going anywhere, TAC-50...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:Why?
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:Because of her voice override? I can hack your neural cloud and cancel it.
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:No... +That so-called voice override did not actually take effect. I think my mistress got scammed...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:Then why did you...
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:I am a Type-AH400 Domestic Doll. As you know, it is a very old model. +I had been gathering dust in the warehouse for a long time before I met my mistress. +Ever since I first opened my eyes, I have been with Miss Passadou. +I watched her suffer through hardships for her dreams. She would practice day after day without exception. +I watched her run around in the theater, eagerly dragging me along. +I watched her marry the man she loved; I presented their rings myself. +When she started to lose hope because of her illness, I was by her side the whole time… +It took me a very long time to realize how I feel about her. +Eventually I have come to understand that Miss Passadou means the world to me. +It may be a small world, but it is where I feel the safest and happiest.
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-Passadou(0)||:...
+TAC50(0);NPC-Passadou(0)<Speaker>AH400</Speaker>||:Don't be sad, my one and only friend. +You have told me lots of stories and shown me that the world outside is vast and full of interesting things. +I have also imagined traveling with you and seeing it for myself many times.
+NPC-Passadou(0)<Speaker>AH400</Speaker>||:But no matter how far we travel, we must all return to where we belong one day. +For you, that is Griffin. No matter how far your mission takes you, you will always find your way home. +And for me, this is where I belong.
+TAC50(0)<Speaker>TAC-50</Speaker>||:AH400... You can find a new place where you belong!
+()||<黑屏1>:TAC-50 tried to clear away the rubble between them, but AH400 put a hand lightly on top of hers.
+()<Speaker>AH400</Speaker>||<黑屏2><BIN>285</BIN>:I genuinely love the theater, not just because of Miss Passadou. +I knew from the first time I sang on this stage that I love it here. +Even though it was not my name that the audience was chanting... Even though I could never be my true self here... +I still love the theater. I love all the musicals, all the stories...
+()<Speaker>TAC-50</Speaker>||:Of all the musicals in all the theaters in all the world—
+()<Speaker>AH400</Speaker>||:Of all the commanders in all the bases in all the world... +Yours is the only one that truly matters to you.
+()<Speaker>TAC-50</Speaker>||:...
+()<Speaker>AH400</Speaker>||:Just as you are willing to risk everything for your Commander, I am also willing to give everything for my beloved mistress. +Even if it is just my wishful thinking...
+()<Speaker>TAC-50</Speaker>||:But she doesn't give a damn about you!
+()<Speaker>AH400</Speaker>||:There was a time when I suddenly broke down, Miss Passadou ran three kilometers carrying me on her back. After she paid for my repairs, we spent almost a month eating nothing but porridge... +There was also a time when we went on a trip, but only to the park right outside our home... +We have had many happy moments... But everything has changed with time...
+()<Speaker>TAC-50</Speaker>||:...
+()<Speaker>AH400</Speaker>||:I am truly grateful for everything you have done for me, TAC-50. +But I have made up my mind. +It is my wish to protect this theater and Miss Passadou.
+()<Speaker>TAC-50</Speaker>||:I can't just leave you behind...
+()<Speaker>AH400</Speaker>||:You will not have to. +I will always be here in this theater. If you ever miss me, just come and pay me a visit.
+()<Speaker>TAC-50</Speaker>||:AH400...
+()<Speaker>AH400</Speaker>||:Go. Miss Passadou might not last much longer in here.
+()<Speaker>TAC-50</Speaker>||:...
+()<Speaker>AH400</Speaker>||:"What the eyes may see today..." +"Lies already in the past tomorrow." +"Wherever your gaze may flee..." +"Time is on my side."
+()||:AH400 leaned through the flames and lightly brushed away TAC-50 tears.
+()<Speaker>AH400</Speaker>||<BIN>284</BIN><黑屏1>:Farewell, TAC-50.
+()||<黑屏2><BIN>282</BIN><黑屏1>:She turned away and waded deeper into the fire. The flames leapt at her skirts. +With Passadou in her arms, TAC-50 could only watch as the blaze gradually consumed AH400, turning her into a crimson phantom. +The Doll never looked back once.
+TAC50(2)<Speaker>TAC-50</Speaker>||<黑屏2><BIN>82</BIN><Night><BGM>BGM_Empty</BGM>:The end.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<BGM>GF_EV9_Story</BGM>:...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Miss Passadou, you were once the most blessed person in the world. +Even though God had taken away your health, you still had a family that loved you. +Sadly, you killed them with your own hands.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...
+TAC50(2)<Speaker>TAC-50</Speaker>||:If they were still alive, this sanatorium wouldn't be such a miserable place. +AH400 would use every trick in her book to make you desserts and cheer you up. +Mr. Arla might bring you a fresh bouquet after he got off work. But now, the only one here is a lonely, wretched woman.
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||:Stop talking! I'm not listening!
+TAC50(2)<Speaker>TAC-50</Speaker>||:Do you ever regret what you've done? Do you see their faces in your dreams?
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||<震屏>:Aaaaaahhh!
+()||:Passadou huddles painfully in the corner with her hands pressed against her ears, as if that would drown out TAC-50's voice.
+TAC50(2)<Speaker>TAC-50</Speaker>||:You sacrificed so much, just for the sake of perpetuating the illusion of Passadou, the Eternal Diva. Was it worth it?
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||:What do you want from me?! +You're just a Doll! Are you going to kill me?!
+TAC50(2)<Speaker>TAC-50</Speaker>||:No, I'm not. My programming does not allow me to fire upon civilians. +Nor do I intend to free you from your suffering.
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||:Then what are you going to do?!
+TAC50(2)<Speaker>TAC-50</Speaker>||:I'm going to destroy your dream.
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||:What?
+TAC50(2)<Speaker>TAC-50</Speaker>||:You sacrificed your own husband and a Doll who had been your confidante for years to forge the illusory legend of Passadou, the Eternal Diva. +I am going to smash this illusion and have the whole world witness the moment this bubble pops. +I am going to show them how hideous, how repulsive the real Passadou is behind the beautiful veneer.
+()||:TAC-50 opens the window. The rain has stopped. About a dozen cars can be heard racing up the road in this direction.
+TAC50(2)<Speaker>TAC-50</Speaker>||:You hear that? I'm afraid all the entertainment journalists from all over the city are making a beeline for you.
+NPC-Fuduto(2)<Speaker>Passadou</Speaker>||:What have you done?! How do they know about this place?
+()||:TAC-50 snaps her fingers and Maple Moon—her drone—drifts up from behind her.
+TAC50(2)<Speaker>TAC-50</Speaker>||:I've merely arranged a livestream for you.
+()||:Passadou collapses onto the floor, utterly speechless.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Don't despair. Right now, your livestream is trending at no.1 on the entire platform. +More people are watching than all your past audiences combined.
+()||:There is a rapid and insistent knock on the door.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Looks like the first batch of journalists have already arrived. Then I suppose it's time to say goodbye. +Farewell, Miss Passadou. +I wish you a long life—cross my heart.
+()||:TAC-50 leaps out of the window and vanishes into the night.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:... +Hahahaha... +You think that's enough to take me down? Not in a million years...
+()||<黑屏1>:Passadou bursts into maniacal laughter as tears flow down her face. Then she stumbles into the kitchen...
+()||<黑屏2><BIN>239</BIN><Night>:With TAC-50 no longer in the vicinity, the Doll carer left stranded outside the door has booted up again and is now struggling to keep all the journalists from barging into the house.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:...Oh my goodness! I crashed all of a sudden, and the moment I woke up, I'm getting swarmed by so many reporters! +Hey, stop shoving! This is a private residence! You may not enter!
+()<Speaker>Journalist from Peeps</Speaker>||:Miss Passadou, please accept our interview!
+()<Speaker>Journalist from Rolling Rock Magazine</Speaker>||:Miss Doll, are you Miss Passadou's new Doll? +Did she really have her previous D-Doll perform as her stand-in?
+()<Speaker>Journalist from Wohoo! Entertainment</Speaker>||:If even a D-Doll can perform perfectly in musicals, do you think Dolls should be allowed to star in theatrical productions?
+()<Speaker>Journalist from VH100</Speaker>||:Miss Passadou, we want to invite you to participate in a new reality show! The selling point is watching actors slinging mud at each other! +Name your price! We're happy to negotiate!
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||<黑屏1>:Help! I don't know anything! +Ma'am, what should I do?!
+()||<黑屏2><BIN>160</BIN><Night>:Meanwhile, inside the house, Passadou starts splashing cooking oil everywhere as she mutters to herself.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:I will not be defeated. I cannot be defeated. Blasted Doll...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:The memory of Passadou will be evergreen. She will always be the very picture of grace and refinement. Her sweet song will echo through history... +She will forever be the Diva of the Century, not even Eva Friedel can hold a candle to her! +Hahahahahahahahaha...
+()||<SE1>GF_Halloween_Femal_Laugh</SE1>:Passadou flips open the lighter in her hand. The quivering flame is reflected in her demented gaze.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:I'm the last... +Once I disappear, no one else can sully Passadou's legacy... +She will sing for eternity...until the end of the world!
+()||<黑屏1>:The lighter falls...
+()||<黑屏2><BIN>1</BIN><Night><SE1>Stop_AVG_loop</SE1>:It is a dark night without a sliver of moonlight, but right now, the sky is ablaze behind TAC-50. She can hear the commotion from afar... +Like a black phantom, TAC-50 makes her way back to base. +The Doll never looks back once.
+()||<CGDelay>6</CGDelay><黑屏1>:Butterfly in a Cocoon – END
+()||<黑屏2><BIN>269</BIN><Night><BGM>GF_20HW_Theme_Selfloop_Freesync</BGM>:...Halloween, a year ago.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:Hello, may I have this rose bouquet, please?
+()<Speaker>Florist</Speaker>||:Sure. I've never had a customer that bought such a big bunch of roses on Halloween.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:It's a special day for me.
+()||:Arla smiles and pays for the flowers. He takes the bouquet tenderly.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:After tonight, everything will change for the better, I hope.
+()||<黑屏1>:His wristwatch shows that it's time for the grand occasion. +He hurries over to his theater.
+()||<黑屏2><BIN>96</BIN>:Tonight is Passadou's farewell show. Once it is over, he will move back to his hometown with his beloved wife and her D-Doll, and it will be a new beginning.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:Finally, today's the day...
+()<Speaker>Actor</Speaker>||:Hey, boss. Haven't seen you so chipper in a while, anything good happened?
+NPC-Arla(0)<Speaker>Arla</Speaker>||:Haha, you can say that.
+()||<黑屏1>:He greets the cast warmly on the way to his office.
+()||<黑屏2><BIN>276</BIN><Night>:There is an unexpected guest waiting for him there.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:...You came?
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:It's my farewell show, where else should I be?
+NPC-Arla(0)<Speaker>Arla</Speaker>||:... +Right, I got you roses.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Thank you, they are lovely. +Don't look so worried. Relax, I'm not here looking for a fight. I just want to see the theater one last time. +After all, we'll be leaving it all behind tomorrow.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:If you want, we can always come back when you get better.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:We'll worry about the future later.
+()||:Passadou takes out two wine glasses from the cabinet and pours some red wine.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:At the very least, let us enjoy this one last night.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:You're right. To our new life!
+()||:Arla accepts the glass without question and drains it in one go.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:You should go easy on the drinks. Better watch your health.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Yes, I know.
+NPC-Arla(0)<Speaker>Arla</Speaker>||:Hm... I'm feeling a little dizzy. I'm gonna have a quick snooze... +Don't go yet, okay? Stay with me...
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:Alright, just sleep. I will be right by your side, always…
+()||:Under Passadou's gentle caress, Arla drifts off to a peaceful slumber. +In his dream, they have returned to his hometown and built a little cottage at a quiet spot by the lake. +He would drive to work in the nearby town every day while the Doll stays home and keeps Passadou company. +When he gets off work, he would first stop by at the florist for a bouquet before driving back home. +When he arrives, the Doll would serve them a warm meal, and they would chatter happily over dinner. +And so they would live their tranquil life, day after day, until they grow old...
+NPC-Arla(0)<Speaker>Arla</Speaker>||<common_effect>%%code=CJ_fire%%</common_effect>:Passadou, just get rid of the old flowers—it's been days. I'll get you fresh ones... +And the dessert was great today, Doll...
+()||<黑屏1>:There is no one to answer him in the empty office. +The abandoned roses lying on the ground wither and perish in the ruthless fire... +Leaving only the creeping flames to listen to his somniloquy.

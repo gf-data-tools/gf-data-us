@@ -1,0 +1,99 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker>Hint</Speaker>||<黑屏2><BIN>9</BIN>:<color=#FFFF00>For the sake of continuity, please read this excerpt after you have completed "Delta Attack - Beginning".</color>
+()||<黑屏1>:...
+()||<BIN>168</BIN><黑屏2><BGM>m_avg_casual</BGM>:After a brief conversation with Morridow, the military officer at the checkpoint heads inside the sentry box to make a phone call, all the while observing Ange and co. +The mechanical gate of the refugee settlement soon starts rising slowly. +When the gate is fully open, the speakers inside the wall, which have been silent for a long time, start playing music.
+()<Speaker>Broadcast</Speaker>||:Welcome to the Free Hanseatic City of Bremen! We wish you a pleasant journey!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Do they expect us to visit the refugee settlement as tourists?
+NPC-Keven(0)<Speaker>J</Speaker>||:I don't think the PA system has made a peep ever since the wall was built.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:This is the main gate that leads directly to the city. It's practically impossible for refugees to be granted passage, so this gate has pretty much never been opened. +There are very strong objections to integrating refugees into our population. It will take a lot of lengthy discussions for the Volkskammer to reach a consensus, and the issue won't be solved until then.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:It isn't our issue to solve.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:So this is why the settlement has degenerated into lawlessness. +Lucia.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:Yes, Ange.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Take your team and scout this area quickly. I'm going to make some human friends and see what we're dealing with here.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:Understood.
+()||<BGM>BGM_Room</BGM>:The streets look clean enough, but they are lined with dilapidated brick apartment blocks and wooden houses, most of which predate WWIII.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:It looks pretty bleak.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Not many venture out during the day. +Most of the residents are unemployed, and there aren't any shops or other entertainment facilities for them to go to. +Regular refugees only tend to head outside to collect rations distributed by the government.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:That makes for a very convenient place for crooks and hustlers to get around. +Powell has picked a great place for his business.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:PECMAR has organized fundraising events and contributed a lot to the reconstruction of the settlement. +At least it is now reasonably habitable. +This used to be a wasteland with nothing apart from ruins, dirt, and weeds.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Really...? +That's all well and good, but the way I see it, this is essentially no different than a ghetto.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Well, it's a long and gradual process...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Long and gradual, eh? +You see those people who are avoiding our eyes? Their complexion suggests that they're infected with ELID.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Hm...
+()||:Ange picks a hand-rolled cigarette butt off the ground and gives it a sniff.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Also, they're on drugs.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Drugs?
+NPC-Keven(0)<Speaker>J</Speaker>||:Painkillers, psychedelics - drugs that cannot cure their sickness but give them a false sense of comfort.
+()||:Ange lowers the cigarette butt and looks around. +A few gaunt and emaciated refugees are glaring at them with malice. +Ange returns their gaze squarely. The group mutter under their breath and retreat deeper into an alley.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Why are we stopping?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:This settlement seems even more dangerous than I expected. +Ange flicks the cigarette butt away and cleans her fingers with her handkerchief.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Humph, it's just drugs. +Hardly surprising in a piss-hole like this.
+NPC-Keven(0)<Speaker>J</Speaker>||:...Hopps, you sound like a conservative?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...I'm not particularly political. +What, you can't put me under investigation just because I'm telling the truth.
+NPC-Keven(0)<Speaker>J</Speaker>||:I wasn't questioning you. The Stasi also takes the refugee issue very seriously. It's natural for people who have lost hope of salvation to turn to other things.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I suppose no one's offering any treatment for these people?
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:The Bremen government is very eager to establish a comprehensive healthcare system and provide the required facility and equipment for the refugees. +Unfortunately, it is extremely difficult to obtain medical resources outside the White Zone. There is only limited healthcare services even for German citizens. +Not to mention the shortage of medical staff. +That's why the only thing the government can do for the settlement is to support the efforts of the local refugee relief organizations and give them what little medical supplies we can spare.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Even so, the government shouldn't be wasting our tax revenue on places like this.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Is that why your superiors have decided to leave these people here to die?
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:It can't be helped... +PECMAR has been trying to push a bill to solve the refugee issue, but nobody wants to invest the necessary resources. +Before we can secure healthcare and basic welfare for the refugees, a strict quarantine is the best measure we can take at the moment. +We can't let the ELID epidemic spread into the city... +Even uninfected refugees would require sufficient education and training to integrate into society. +In our current situation, we simply do not have the funding or the human resources for that.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:This settlement is pretty much a microcosm of what's happening in the world.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Ange, we're onto something.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Go on.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>We've scanned the relevant areas and detected a target that appears to be Powell.</color> +<color=#00CCFF>Our analysis on his facial features and gait gives us reason to believe that this is the high-value target we are looking for.</color> +<color=#00CCFF>The HVT is currently heading towards the Refugee Support Center, which is his rendezvous point according to our intel.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Understood. We're coming your way. Tail him from a safe distance. Don't get spotted.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:We are fairly far away from the HVT. +But the refugees nearby are starting to congregate and they don't look too friendly.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Stay low... This is just a refugee settlement, but the GIP must have people in here. I'm sure they've already heard of what happened yesterday.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:You mean they're waiting for us to come?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:That's exactly what I want. +Give me visuals on the target. I need to confirm it.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>Hold on... You are now synced to my vision.</color>
+()||:—Connection established. +An overweight man peers left and right before entering a small alley. He knocks on a door, which opens to let him in, and he disappears from sight. +Farther down the alley, a group of young refugees are beating up a middle-aged man. A ration can rolls out of the paper bag that he is desperately trying to protect. He reaches for the can but one of his attackers pins a foot firmly on his hand.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>We've lost sight of the HVT, but that man over there...</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:We're not here to do the police's job.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:We know better than to get sidetracked. It just doesn't sit right with Antje. +Renate, can you see the target from your location? +He's in our blind spot.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>We have our eyes firmly on him.</color> +<color=#00CCFF>Ah, it's absolutely delightful to see him so flustered.</color>
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:Enjoy the view. +Antje, we're switching locations.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position><通讯框>||<SE1>AVG_tele_disconnect</SE1>:<color=#00CCFF>Roger.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Lucia and the others have spotted Powell. He is on his way to the Refugee Support Center.
+NPC-Keven(0)<Speaker>J</Speaker>||:That was quick! +Our recon people could really take a page out of the Doll ladies' book.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Ready your weapons. The GIP may show themselves. +They will not be giving us a warm welcome.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:No, they're already here.
+()||:Following Ange's gaze, her associates notice a group of people heading their way. They appear as physically unkempt as the other refugees, but they hold themselves in a completely different way.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:These people mean business.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Unfriendly business.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Keep moving and maintain a safe distance.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Huh?! +Who are they? +What do they want?
+NPC-Keven(0)<Speaker>J</Speaker>||:They don't look like local gangsters. Their tailing method reminds me more of plainclothes. +In any case, they're definitely not here to welcome us, though I certainly didn't expect an attack so soon.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Aren't they your friends?
+NPC-Keven(0)<Speaker>J</Speaker>||:My friends? +I have no such friends. The Stasi and the Polizei don't really see eye to eye. +But one thing's for sure⁠—I'm the only one the Stasi sent.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:There are many who have a stake in the refugee settlement. We are being watched by multiple factions. +Someone might have decided to intervene to protect their own interests.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Humph... Interests...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Lucia, we're being stalked. Track them down.</color>
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>Piece of cake. Their disguise is pretty flimsy.</color> +<color=#00CCFF>What should we do with them? Do we engage?</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:<color=#00CCFF>I don't want to cause a commotion if I can help it, but I don't think they really care.</color>
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>Judging by the way they're moving, they're definitely armed.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:<color=#00CCFF>We can't afford to be bogged down here.</color> +<color=#00CCFF>Renate, keep pursuing the HVT. Antje, get to a rooftop and watch the surroundings.</color> +<color=#00CCFF>Lucia, go and help out that poor fellow.</color>
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>Ha... Another good deed of the day?</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||<SE1>AVG_tele_disconnect</SE1>:<color=#00CCFF>Yep, we are the good guys, after all.</color>
+()||:By the time Ange gets off the comms, their pursuers have already closed the distance between them. +Both J and Hopps move their hands toward their concealed weapons and look at Ange for instructions.
+NPC-Keven(0)<Speaker>J</Speaker>||:What's the plan?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:We split up at the alley up ahead to scatter them. DEFY will then pick them off. +Morridow, we're going this way.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Huh? Do we really have to split up?
+NPC-Keven(0)<Speaker>J</Speaker>||:What a shame. Guess I'll team up with the big burly man then.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...
+()||:Ange puts her arm around Morridow and guides her down a small path while J and Hopps turn the other way and enter a different alley. +The "refugees" follow suit. They stop at the junction uncertainly. After a brief discussion, they also break into two teams.
+()||:Ange glances in J and Hopp's direction. As she expected, some of their pursuers have splintered off to follow them. +Only three are still on Ange and Morridow's trail; they probably think the women would be easy pickings.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>I'm in position.</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:<color=#00CCFF>Make it clean.</color>
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>There are only three of them. Don't insult me.</color>
+()||:With Morridow in tow, Ange suddenly darts into the alley. She picks up a piece of brick from the ground when she's temporarily out of the enemies' sight. +At the end of the alley, the group of young refugees have already seized the middle-aged man's paper bag. Ange watches as they take pleasure in tormenting their victim, who is curled up on the ground.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Ten seconds.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position><通讯框>||:<color=#00CCFF>Copy that.</color>
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What...what are you planning to do?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:...Hush. +Stay close.
+()||:With brick in hand, Ange starts walking towards the group of thugs. +Completely engrossed in pulverizing their victim, the young men remain oblivious to Ange's advance. She raises the piece of brick and bashes it hard into one of the thugs' skull. +The thug lets out a cry and collapses. The others immediately straighten up and turn around to confront the attacker. +Meanwhile, Ange has already dragged Morridow out of their sight. All they see are the "refugees" who have come running this way upon hearing that yelp of pain.
+()||:These "refugees" have no idea what has transpired mere seconds ago, but when the young men come charging at them with knives unsheathed, they realize they're in danger and immediately draw their pistols. +The thugs freeze at the sight of the firearms, while the "refugees" also hesitate bemusedly at the sudden turn of events. +Before the "refugees" can figure out the situation, AK-12 suddenly leaps down from the rooftop and lands behind the last man in the file. Using her momentum, she jabs him in the back of the neck. +The man crumples to the ground in a heap. His two associates realize immediately that this is a trap, but just as they are about to turn around, AK-12 punches one of them squarely in the jaw. +The other tries to take aim at her, so she grabs the man with the recently-broken jaw by the arm and flings him into the one still with the pistol. As he loses his balance, AK-12 strikes him in the wrist. His grip loosens out of pain and the pistol falls onto the ground with a clatter. + Finally, she gives him a shove, giving her the space to execute a roundhouse kick, which sends the last "refugee" and his friends all hurtling into the back alley bins, rendering them unconscious.
+AK12(12)<Speaker>AK-12</Speaker><Position>0,-70</Position>||:Voilà.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:That was insanely fast!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Check their stuff.
+()||:AK-12 nods and starts rummaging through their pockets. +Ange picks up their weapons and removes the magazines, then she dismantles the pistols and tosses the parts into the bins. +She shoves the loaded magazines into Morridow's bag, while the latter is still in a daze. +Everything happened too quickly. The thugs, knives still in hand, are still trying to wrap their heads around what just happened. +AK-12 simply shoots them a glance. They immediately give a start and scramble away in fright.
+()||<黑屏1>:The middle-aged man huddling on the ground once again hears footsteps approaching. He looks up and sees a woman dressed in a black suit place a ration can that has rolled off right in front of him. +Without any word of gratitude, the shell-shocked man grabs the can and takes off running.

@@ -1,0 +1,126 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>80</BIN><黑屏2><BGM>GF_Cafe</BGM>:...The first social gathering of all Frontline Combat Team members at Griffin's Café. +The cozy little café is filled with about 60 Dolls, who are either conversing softly with each other or keeping to themselves.
+AR(0)<Speaker>Galil</Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Ha, I didn't expect there to be so many Dolls on the Frontline Combat Team.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Griffin has been getting new recruits all the time; I'm sure quite a lot of brilliant Dolls have made it in.
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:For all we know, it isn't our time anymore.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:That doesn't sound like you at all.
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Haha, let's find Tavor and Negev.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Negev? She's right there.
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:She seems to be talking to some reserve members...
+()||<黑屏1>:Galil looks toward where Micro Uzi is pointing and sees Negev chatting with a few unfamiliar Dolls. +As she watches Negev gesticulating inaudibly, Galil is swept away by memories of the past.
+()||<BIN>73</BIN><黑屏2><回忆><BGM>BGM_Empty</BGM>:...At a daily training session of the Frontline Combat Team.
+AR(0)<Speaker>Galil</Speaker>||<BGM>m_avg_casual</BGM>:Phew... Negev, I'm done with my training for today!
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Alright, let me have a look.
+()||:Negev walked over to Galil and studied her scores.
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Damage - B; accuracy - B; rate of fire - B. You still got grade B for everything, but the exact figures do show some improvement.
+AR(0)<Speaker>Galil</Speaker>||:Gosh, looks like I'll be spending the rest of my life trying to surpass grade B.
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Now don't despair just yet. You definitely stand a chance of achieving that if you get to receive a neural upgrade.
+AR(0)<Speaker>Galil</Speaker>||:Ha, I was just kid—
+()<Speaker>Unfamiliar Doll A</Speaker>||:Miss Negev! Could you please take a look at my training results?
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Sure, I'll be right there.
+()||:Galil watched as Negev made her way to the Doll who called her over.
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Grade A. That's pretty good for a new recruit.
+()<Speaker>Unfamiliar Doll A</Speaker>||:Huh, still A...
+()<Speaker>Unfamiliar Doll B</Speaker>||:What about me, Miss Negev?
+NEGEV(0)<Speaker>Negev</Speaker><Position>0,100</Position>||:Grade S. Well done.
+()<Speaker>Unfamiliar Doll B</Speaker>||:Heheh, thank you!
+()<Speaker>Unfamiliar Doll</Speaker>||:Whoa... The competition is so intense on Negev's reserve squad!
+AR(0)<Speaker>Galil</Speaker>||:...
+()||<黑屏1><BGM>BGM_Empty</BGM>:As Galil overheard the conversation, she stared down at her own grade. +A big, pathetic "B".
+AR(0)<Speaker>Galil</Speaker>||<黑屏2><BIN>80</BIN><关闭蒙版><BGM>GF_Cafe</BGM>:Hm, they all seem to be having a good time. Let's not interrupt them for now. +Oh right, Uzi—
+HS2000(0)<Speaker>HS2000</Speaker>||:...Uzi, have you sorted out the problem you told me about last time?
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Oh, Hot Sauce! Yep, it's all sorted! +I followed your instructions and it has stopped rattling...
+HS2000(0)<Speaker>HS2000</Speaker>||:My name is HS2000, not Hot Sauce... +But I'm very glad to hear that...
+()||:While Galil is lost in her own thoughts, Micro Uzi is chattering away with another member of the Frontline Combat Team. +Galil politely gives them some privacy and drifts through the bustling crowd on her own.
+AR(0)<Speaker>Galil</Speaker>||:Huh, so many new faces. They all look super competent... +Hm... I wonder what Tavor is up to?
+()<Speaker>TAR-21</Speaker>||:Excuse me, passing through.
+AR(0)<Speaker>Galil</Speaker>||:Aha! Wait, why is she dressed like that? +Hey, Tavor!
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:There you are, Galil. +Would you like something to drink?
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:No, thanks. But what's this? What's with the getup?
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:It's a favor for Miss Kalina. She asked me to give out beverages to all the attendants.
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:...I see. The uniform certainly suits you.
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:Thanks, Galil.
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:I haven't seen you on the training ground for days. Negev said Kalina had been borrowing you. How have you been doing?
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:I've been well enough. I spent the last few days helping Miss Kalina with the preparations for this event. +There were a lot to do, but I enjoyed striking items off the to-do list.
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:Just make sure that woman doesn't sell you off...
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:Haha, Miss Kalina wants me to help with organizing the Frontline Combat Team's regular events in the future.
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>||:Things are going to get busy for me.
+TAR21(2)<Position>0,150</Position>;NPC-Kalin(4)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Tavor! Tavor, where are you?</color>
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>||:I'm here, Miss Kalina. +I need to get back to work, Galil. I'll catch you later. +Here, take this cocktail. It doesn't contain that much alcohol, and the color matches your hair.
+AR(0)<Speaker>Galil</Speaker>||:Alright, get on with your work. See you.
+()||<BGM>BGM_Empty</BGM>:Tavor soon vanishes amidst the crowd. +With a lonesome glass in hand, Galil finds a corner to accommodate herself. +Through the thick, invisible wall that isolates her, she observes as the other Dolls engage in lively conversation.
+AR(0)<Speaker>Galil</Speaker>||<BGM>m_avg_hope</BGM>:(Sighs) Everyone seems to have found their place.
+()||:She looks down at her cocktail - her impassive face is reflected on the still surface. +She forces a small smile - her reflection in the glass smiles drily back at her.
+AR(0)<Speaker>Galil</Speaker>||:...What about you?
+()||:Galil swirls her cocktail. The orange-y mixture veers on the rim of the glass dangerously...
+AR(0)<Speaker>Galil</Speaker>||:Have you found your own place?
+()||<SE1>RunStep</SE1>:A hasty Dolls runs into Galil and knocks her cocktail over.
+()<Speaker>Unfamiliar Doll</Speaker>||:Oh my gosh, I'm so sorry!
+AR(0)<Speaker>Galil</Speaker>||:Don't worry about it.
+()||<黑屏1>:Galil smiles and dabs at the stain on her clothes with a handkerchief. She mutters quietly to herself...
+AR(0)<Speaker>Galil</Speaker>||<黑屏2><BIN>9</BIN><黑屏1>:Welcome to the Real World.
+()||<黑屏2><BIN>80</BIN>:...Some time later.
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Hey, Galil! Why are you drinking all by yourself in the corner? +I've been looking for you!
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Ha, I'm just hanging around where I'm meant to be.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:What? Her Ladyship Negev's right-hand woman skulking in the corner?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Oh, please. There are enough potential candidates for that position to form a queue from the Café all the way to the Rescue Station.
+AR(0)<Speaker>Galil</Speaker>||:Me? I'm just a humble T-Doll who barely made the cut of being in this team after the restructuring.
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:...That's nonsense.
+()||:The two Dolls sip their cocktails in silence. The hustle and bustle drowns them like seawater.
+AR(0)<Speaker>Galil</Speaker>||:Hey, Uzi.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Yeah?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Do you like it here?
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:I think so. +I occasionally get some really tricky assignments, but I can usually handle them just fine. +Why are you asking about this all of a sudden? Trouble at work?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Hm... I've just been thinking... +That perhaps it's time I started exploring other possibilities.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:What do you mean?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:You know how middle-aged humans are forced to reconsider their career choices and find themselves among more talented successors? +I know I'm not human, but I believe I'm having the same problem. 
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Huh? I still don't get it.
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:To put it in a way that you understand... +I'm at a disadvantage in the fierce competition here at Griffin, so I'm wondering if I'll get a new breakthrough in my career if I look elsewhere.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:That kinda makes sense... +But have you told Negev about this, Galil?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Not yet, but I don't really want to bother her with this.
+AR(0)<Speaker>Galil</Speaker>||:She always plays the Devil's advocate; even the Devil's advocate should catch a break once in a while.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:...
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>||:What are you two doing here, being all furtive?
+TAR21(2)<Position>0,150</Position>;MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:I'm listening to Galil's complaints about the dark and treacherous road to a successful career!
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:Ha, don't listen to Uzi's nonsense. +Tavor, I enjoyed the cocktail.
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:I'm glad you liked it. +By the way, Miss Kalina has been looking for you.
+TAR21(2)<Position>0,150</Position>;AR(0)<Speaker>Galil</Speaker>||:Me?
+TAR21(2)<Speaker>TAR-21</Speaker><Position>0,150</Position>;AR(0)||:It seems to be something very important. She wants you to report to the Research Lab after the gathering.
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>;AR(0)||:The Research Lab...?
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:It may be good news!
+AR(0)<Speaker>Galil</Speaker>||<黑屏1>:...Who knows?
+()||<黑屏2><BIN>22</BIN><BGM>BGM_Empty</BGM>:...When the gathering is over, Galil, accompanied by Micro Uzi, comes to the Research Lab.
+AR(0)<Speaker>Galil</Speaker>||<BGM>BGM_Hello</BGM><SE1>AVG_door_elecport</SE1>:...Miss Kalina?
+NPC-Kalin(1)<Speaker>Kalina</Speaker>;AR(0)||:Galil, there you are! I've got some good news for you!
+NPC-Kalin(1);AR(0)<Speaker>Galil</Speaker>||:You have the same face as when you're giving me your usual furniture sales pitch...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>;AR(0)||:Oh my, why so mean? It really is good news this time! +We've secured a spot for you in this batch of upgrades!
+NPC-Kalin(1);AR(0)<Speaker>Galil</Speaker>||:...Me?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>;AR(0)||:Unfortunately, your body is too old and dated, so in order to receive an upgrade, you'll need a completely new body.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Come take a look at it!
+()||:Kalina opens the hatch of the body container, revealing the unfamiliar Doll with honey blond hair lying within.
+AR(0)<Speaker>Galil</Speaker>||:... +If I undergo the upgrade, will I be up to par with the new recruits of the Frontline Combat Team?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>;AR(0)||:Hm... To be honest, in terms of pure statistics, there will still be some catching-up to do... +But you will see a marked improvement in every aspect! It will definitely be beneficial in combat! +<size=25>Though the new body does weigh a bit more than your current one...</size>
+NPC-Kalin(4);AR(0)<Speaker>Galil</Speaker>||:You mean even if I receive the upgrade, there won't be much difference when it comes to my combat stats... +Hold on! What's that important keyword that you just said?!
+NPC-Kalin(1)<Speaker>Kalina</Speaker>;AR(0)||:Oh, nothing. It's just a bit...heftier!
+NPC-Kalin(1);AR(0)<Speaker>Galil</Speaker><Shake>||:Don't be so vague about such an important matter!
+NPC-Kalin(6)<Speaker>Kalina</Speaker>;AR(0)||:It...weighs about t-ten kilos more...
+NPC-Kalin(6);AR(0)<Speaker>Galil</Speaker>||:<size=25>Ten kilos?!!!!</size>
+NPC-Kalin(1)<Speaker>Kalina</Speaker>;AR(0)||:Um, I've still got work to do!
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:I'll send you the details later! Remember to check your inbox~ ♪
+()||<SE1>AVG_door_elecport</SE1><黑屏1>:Kalina desperately tries to distract Galil as she shoves her out of the Research Lab.
+AR(0)<Speaker>Galil</Speaker>||<BIN>97</BIN><黑屏2>:...
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Hahaha, I heard it all. +Congrats, Galil. So much for switching careers.
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:<size=50>TEN FREAKING KILOS!!!!!!</size>
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Hahahahahaha...
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:Stop laughing! This upgrade comes with a heavy price. +If I get reassigned to a different position, I doubt all the new functions will see much use.
+AR(0);MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:You're not thinking about rejecting the upgrade, are you?
+AR(0)<Speaker>Galil</Speaker>;MicroUZIMod(0)||:I'm seriously considering it.
+AR(0)<Speaker>Galil</Speaker>||:Even with the upgrade, my combat stats still won't be able to compete with the newbies.
+()||:Galil gazes at Micro Uzi with feigned sobriety as she waits for her friend's usual gibe.
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:...Huh? +Well, it's your call. Do what you want.
+AR(0)<Speaker>Galil</Speaker>||:...What?
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:No matter what you decide, you'll have my support.
+AR(0)<Speaker>Galil</Speaker>||:Damn, that's super cheesy...
+MicroUZIMod(0)<Speaker>Micro Uzi</Speaker>||:Hahaha. +Right, I just received a small assignment so I need to go. I'll see you back at the dorm later.
+AR(0)<Speaker>Galil</Speaker>||<黑屏1>:Okay, see you later.
+()||<黑屏2><BIN>82</BIN><Night><黑屏1><BGM>BGM_Empty</BGM>:...Galil returns to the dorm alone. +She sits in the dark room with the lights turned off and pores over the details regarding her neural upgrade on the blindingly bright monitor. +Her finger hovers over the 【Agree】 button for a very long time...

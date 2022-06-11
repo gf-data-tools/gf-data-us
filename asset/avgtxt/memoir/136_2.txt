@@ -1,0 +1,68 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||<BIN>8</BIN><BGM>BGM_Room</BGM>:Commander, is it really okay to let her go by herself? +Bandit activity has been reported in the area.
+NPC-Kalin(3)<Speaker>Commander</Speaker>||:It's only 100km to the next town, it'll be fine. +Besides, even if there are bandits, Bizon can easily bull her way through them.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Sounds like you're tripping some sort of death flag.
+NPC-Kalin(3)<Speaker>Commander</Speaker>||:If all this voodoo crap actually worked, then I ought to put K5 in charge of everything.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:This is no time for jokes!
+NPC-Kalin(3)<Speaker>Commander</Speaker>||<黑屏1><BGM>BGM_Empty</BGM>:Alright, relax. I've arranged for someone to follow her, it'll be fine.
+()||<黑屏2><BIN>187</BIN><BGM>BGM_Hello</BGM>:...+A truck drives steadily over a lightly-contaminated patch of wasteland. +PP-19 is in the front seat. She has a little girl in her arms and is staring out the window, utterly bored.
+NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:You're pretty curious about the outdoors, aren't you?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Yes, it's not often that I get to see stretches of wilderness without enemies, like this.
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:...This is unusual. It's the first time I've seen an armed Doll like yourself who's able to hold a conversation like this. +And it looks like your interest in the outdoors isn't simply limited to watching the surroundings.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Well, all my colleagues can converse like this, I don't consider it to be anything special. +Is this your first time hiring a PMC?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Yup. I've made enough money over the past two years that I can afford it. +A few years before, when things were bad, I didn't even dare drive my truck for fear of being robbed by wasteland bandits.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:But why is that? Surely bandits can't beat a truck, no matter how strong they are.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Yeah! Papa, why is that?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:(Sighs) Why would these bandits attack head-on? +They're vicious and cunning. You can't compare them to the average thug.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:How so?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:They lay traps on the road to burst your tires, then when you get out of the vehicle, they pop out of grass patches or some other place, grab you by the neck and loot your cargo... +Then there are the bandits who pretend to be explorers in trouble, but once they get on the vehicle, they stick you up. You just can't win with them.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker><Shake>||:That sounds so scary! Have you ever met bandits like that before, Papa?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Haha... Papa is lucky. If I had met them, I wouldn't be able to bring Shelley home to Mama.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Then you've got to be lucky every time, Papa!
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Alright, Papa will do his best.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Are you sure you haven't met them before? You sound like you've had first-hand experience with them.
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:I truly haven't. One of my colleagues did though, and the best thing that could be said about that was that he escaped with his life.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Are biological samples really so valuable?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Why wouldn't they be? Nowadays, uninfected lifeforms sell for a lot, especially ones raised in the wild. +But they're very ill-tempered, and just transporting them is a challenge, let alone protecting and capturing them.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:I don't hear anything from the truck bed, though. Are they sedated?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:As if we could keep them under for so long. That's the result of driving technique, separated cages and simulated environments. +Hope I don't come off like I'm tooting my own horn, but this truck alone probably costs close to three times what it cost to build you.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:But how... Do you have a whole other universe in the back?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Haha, it sure comes close! It took a lot of doing to make them think that they're still in their old environment during transit and to keep them calm despite the vibrations from driving. +My seniors brought me into the business several years ago. For the past three to four years, I've been learning from them and being a gopher. Heck, I copied them when making this vehicle too. It's really expensive.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:I don't quite understand. Wouldn't that make the truck more valuable than the creatures in the back?
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Let me think. If I raised the animals myself and took all the profits, about five trips would pay for this truck.
+pp19(0)<Speaker>PP-19</Speaker><Shake>;NPC-PasserbyM(0)||:Those are some crazy profits!
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:I know, right? People like us are fattened lambs for those bandits. +They think that we're opportunistic profiteers, so they rob us if they can. And I've heard that a band of robbers have been roaming the region recently. To be frank, I wouldn't want to bring Shelley along for this if it wasn't for the fact that the new year was coming...
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:That sounds scary...
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Don't worry, Shelley. I'll protect you.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Are you strong, Big Sis?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Hey, I may not look it, but I'm pretty strong, you know. +Big Sis over here can take out ten of those gunslinger bandits by herself!
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Are all Big Sisters so strong?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||<BGM>BGM_Empty</BGM>:Big Sisters?
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:All the Big Sisters in Griffin with you!
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||<BGM>BGM_Hello</BGM>:Of course, they're all very strong.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:How strong are they? Are there any who are stronger than you?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Certainly, but I'm plenty strong as it is. You'll be fine as long as I'm around. +If any bandits are clueless enough to try and rob us, I'll snap their guns in half and hang them up on the trees.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||<黑屏1>:Okay!
+()||<黑屏2><BIN>83</BIN>:An hour later, the truck parks in front of a rest stop.
+NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Let's take a break here for a while.
+NPC-Shelley(0)<Speaker>Shelley</Speaker>||:(Groans) I don't feel too good.
+NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Are you carsick, Shelley? Just wait outside for a bit, then. Papa is going to the nearby shop to buy something. I'll be back right away.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Let me go with you.
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:The shops here are safe. Please help me look after Shelley and the truck instead. The animal in the back of the truck's pretty fierce. Something's bound to happen if nobody keeps an eye on it.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Alright.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Then I'll wait for Papa!
+NPC-Shelley(0)<Speaker></Speaker>||:Julian hugs his daughter, who gives him a loud peck on the cheek. +After this brief moment of tenderness, Julian leaves.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Shelley, have you seen another big sis like me before?
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Sure did! I saw her before we set out.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Before we set out? Could you tell me what that big sis looked like?
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Hmmm... She had very very light lilac-colored hair, black and white clothes, and a biiiig case on her back. +She was slim and pretty, like a fairy...
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Wow, she does sound like a fairy. Where did you see her?
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:She went behind the truck. +I might just be seeing things, because she was gone in a flash.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:You might not be, Shelley. Let's go take a look, shall we?
+NPC-Shelley(0)<Speaker>Shelley</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:Sure!
+()||<黑屏2><BIN>86</BIN><BGM>BGM_Room</BGM>:The two of them jabber along as they leave the truck stop and return to the side of the truck. +There is no sound from the truck bed apart from the hum of the environmental control devices.
+NPC-Shelley(0)<Speaker>Shelley</Speaker>||:It doesn't look like there's anyone here...
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Come, Shelley, I'm going to show you a magic trick.
+pp19(0);NPC-Shelley(0)<Speaker>Shelley</Speaker>||:A magic trick?
+pp19(0)<Speaker>PP-19</Speaker>||:Yup. And the first thing about magic is that it turns what you believe in into reality—
+pp19(0)<Speaker>PP-19</Speaker>||<黑屏1>:<Size=55>Get out here, AK-Alfa! I know you're in there!</Size>

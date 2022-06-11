@@ -1,0 +1,49 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BGM>BGM_Battle</BGM><BIN>222</BIN><黑屏2>:A few minutes ago.
+RO635(0)<Speaker>RO635</Speaker>||:SOP-II, maintain suppressive fire! We're going to punch through any second now!
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Alright! +15, six enemy units on the right!
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:I see them!
+()<Speaker>Commander</Speaker>||:The sea valves are about to blow. We need to get to high ground!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:The ladders are too busy, we can't get on them! +Where do we go?
+NytoIsomer(4)<Speaker>Dandelion</Speaker><通讯框>||:<color=#00CCFF>There is another elevator at the end of the passage on the right that can take you to the roof.</color>
+RO635(0)<Speaker>RO635</Speaker>||:Copy that! Rerouting! +Everyone still with me?
+HK416Mod(0)<Speaker>416</Speaker>||:The enemy is still hot on our heels, but we should be able to lose them! +Give me more ammo!
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Use mine!
+()<Speaker>Commander</Speaker>||:Is M4 still down there?
+NytoIsomer(4)<Speaker>Dandelion</Speaker><通讯框>||:<color=#00CCFF>I'm with her. She'll be fine.</color>
+()||:The Commander and the escort Dolls have finally shaken off their pursuers and reached the elevator. +The blue radiance seeping through the pit in the distance still lingers. In fact, it grows even more intense as the elevator rises.
+()||<SE1>Explode</SE1>:While the elevator is still ascending, a thunderous boom can be heard from down below. +The explosives have completely destroyed the sea valves, and a torrent of seawater surges into the base with great ferocity, quickly submerging most of the constructions within sight.
+()||<黑屏1>:At last, the elevator reaches the rooftop. The Dolls scan the area carefully and find no sign of the enemy. +The base is filled only with the echoing rush of seawater. The sound of gunshots has gradually died down.
+()||<黑屏2><BIN>245</BIN>:The Griffin Dolls, huddling close together, finally let out a sigh of relief. +Though they have lost many friends, they know that everyone will still come back. +The Commander is also sitting limply on the floor, almost overwhelmed by the immense pressure. It is only in times like this that they truly appreciate the preciousness of time not spent on fighting for their life.
+()||<黑屏1>:But their moment of respite is brief. +The mission isn't over yet. There are still things to wrap up.
+()<Speaker>Commander</Speaker>||<BIN>232</BIN><黑屏2>:There should be sluice gates in a base like this. We have to stop the seawater from pouring in any further.
+NytoIsomer(4)<Speaker>Dandelion</Speaker><通讯框>||:<color=#00CCFF>I can seal off the entire area. That will keep the seawater at bay.</color>
+()<Speaker>Commander</Speaker>||:Do it. We can't swim our way out of here.
+NPC-Kalin(4)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Commander, do you copy?!</color> +<color=#00CCFF>Are you alright?!</color>
+()<Speaker>Commander</Speaker>||:Yes, I hear you loud and clear. We have all linked up, we're now on the rooftop, taking refuge from the flood. +What's your situation?
+NPC-Kalin(0)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>We've also retreated to safety!</color> +<color=#00CCFF>A few Military soldiers have also escaped in our direction, but we can handle them just fine.</color> +<color=#00CCFF>By the way, the other members of Squad 404 have returned to our outpost with several children.</color>
+()<Speaker>Commander</Speaker>||:Understood. Keep safe, I'll deal with this once I'm back.
+NPC-Kalin(2)<Speaker>Kalina</Speaker><通讯框>||:<color=#00CCFF>Is Miss Ange not with you?</color>
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:She's gone down there to pursue Yegor's mech. I'll try to contact her now. Hopefully she's okay.
+()||<BGM>BGM_Room</BGM><BIN>229</BIN><黑屏2>:Ange pulls down hard on the sluice gate lever. +The seawater stops pouring into the generator room. She has anticipated the Commander's decision. +Taking in the scene of utter devastation, Ange realizes that she still has a move to make.
+()||<SE1>AVG_tele_connect</SE1>:Click.
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:Commander? +Thank you for your assistance. My predicament has been resolved. +I'll make my way up there, no need to worry about me. +Yeah, the blue light has disappeared. +Really...? M4 still hasn't returned? I see.
+()||:Ange terminates the transmission and jumps off to the lower level from the fire escape staircase. +She walks up to the mutilated body of a Doll, pries open the plating on her back, and extracts her core.
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:Yikes, this is going to cost me an arm and a leg...
+()||:She places the core into her backpack and peers across the room at the other end. +The once deadly mech has been crushed against the wall by the seawater and is now in shambles. +Without having to check, it's obvious that the machine is wrecked beyond repair. +Ange strolls toward the mech and turns the emergency release knob next to the cockpit. +With a hiss of depressurized air, the cockpit of the Sinner slowly opens up.
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:I knew it. You're still alive.
+NPC-Yegor(4)<Speaker>Yegor</Speaker><Shake>||:Cough...cough... +Well? Are you going to finish me off yourself?
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:Why, I was thinking of having some tea with you.
+()||:Ange draws her own pistol and aims it at Yegor's bloody head.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:Humph... I failed, so I have no complaints. +Go ahead.
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:...
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:Why did you have to go so far? You know full well how dangerous the Relic is. +Will you warmongers only rest easy when the world is thrown off its axis?
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:...You really think we took such a great risk just to activate the Relic?
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:What other reason do you have?
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:Peace... If only it were so easy. +The blood spilled by our brethren is still flowing afield, but those oligarchs are already so eager to sell out on their own country. +Cough...cough... Surely you know what's going to happen afterwards. +I know we're nothing but tools that are being used, but as long as we can save the country...
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:No matter how righteous you sound, I do not approve of your methods.
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:When you're in my position, you won't be so concerned about your methods. +The future of this country is being snuffed out... And you are one of the accomplices. +My comrades will inherit our unfinished work. They will never let our country be handed over to the West...
+NPC-Ange(1)<Speaker>Angelia</Speaker>||:What are your plans?
+NPC-Yegor(4)<Speaker>Yegor</Speaker>||:They will never...let our country be handed over...to the West...+When...the moment comes, we will purge those traitors once and for all... +Long live...the Soviet Union...
+()||:Ange's pistol is still trained on the man's forehead, but he says nothing more. +She lowers her weapon.
+NPC-Ange(1)<Speaker>Angelia</Speaker>||<黑屏1>:When that happens, I will stop them, just as I stopped you. +...To have drowned to death in such hatred and misguided ideals... What a pitiful man. +The people of this country are broken and scarred. They don't need more hatred and death. What they need is the opportunity to rebuild their home. +For all your self-righteousness, I will never forgive you for your betrayal. The world has no lack of people who rationalize their evildoing in the name of so-called justice. +Farewell, Yegor. +If we hadn't been enemies... +We could have enjoyed a nice cup of tea together.

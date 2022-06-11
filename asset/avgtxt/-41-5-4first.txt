@@ -1,0 +1,142 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><BGM>BGM_Sneak</BGM>:...Zone B, Refugee Settlement.
+难民A()<Speaker>Refugee A</Speaker>||:Any word?!
+难民B()<Speaker>Refugee B</Speaker>||:No, the connection keeps failing...
+难民A()<Speaker>Refugee A</Speaker>||:But the signal isn't down...
+难民B()<Speaker>Refugee B</Speaker>||:Has...has Mr. Powell left us behind?
+难民A()<Speaker>Refugee A</Speaker>||:The mission failed all because of our incompetence...
+()<Speaker></Speaker>||:Just then, the sound of rapid footsteps can be heard from above.
+难民A()<Speaker>Refugee A</Speaker>||:What?! Are they here already?!
+难民B()<Speaker>Refugee B</Speaker>||:Hush... Run!
+？？？()<Speaker>???</Speaker>||:Confirmed. Commencing clean-up.
+()<Speaker></Speaker>||<SE2>Gunfight</SE2>:Bangbangbang!
+难民A()<Speaker>Refugee A</Speaker>||:Ugh... +Are we...finally free...?
+？？？()<Speaker>???</Speaker>||:Yep, congratulations, trash. You're free.
+()<Speaker></Speaker>||<SE1>AVG_rifle_finalshot_h</SE1>:Bang!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>168</BIN><黑屏2>:...In an alley inside the refugee settlement.
+()<Speaker></Speaker>||:The feeble gunfire is utterly futile against the massive wave that comes crashing in. +The enemies are elusive, but there's no doubt about it—danger is stalking Powell and his followers.
+随行人员()<Speaker>Attendant</Speaker>||:Mr. Powell, watch out— ARGH!
+()<Speaker></Speaker>||:Powell's right-hand man jumps in front of him and is shot by a bullet that has seemingly come out of nowhere. +However, there is no time for Powell to grieve. He stumbles along and finally reaches the refugee support center branch located in the Bremen Ratskeller. +By then, only two of his guards are still with him.
+？？？()<Speaker>???</Speaker>||:Surrender, Herr Powell.
+()<Speaker></Speaker>||:His hunters call out to him outside the ratskeller. +They are being surrounded.
+？？？()<Speaker>???</Speaker>||:I don't know what you have hiding in here, Herr Powell, but you're finished. There is nowhere to run, so how about you all just lay down your weapons. It's game over. +I really wish I don't have to kill you. After all, we're still friends.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Friends? As long as I'm still useful to you, you mean.
+？？？()<Speaker>???</Speaker>||:That's a bit blunt, but yes, you can think of it that way. +You know, things would not have gotten so ugly if you had just played nice.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:You forced my hand! +If I'm to be a sacrificial pawn, then I'm bringing you down with me!
+？？？()<Speaker>???</Speaker>||:Save your breath and spare me this nonsense. +I'm coming down. Keep your lackeys on a tight leash. If anybody shoots, I'll have to resort to hand grenades.
+护卫()<Speaker>Bodyguard</Speaker>||:What now, Mr. Powell?
+()<Speaker></Speaker>||:Powell's bodyguards eye him questioningly. He says nothing as he stares at the only entrance to the ratskeller.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Are you willing to die for the freedom that we seek?
+()<Speaker></Speaker>||:He asks his followers quietly.
+护卫()<Speaker>Bodyguard</Speaker>||:Of course. We wouldn't be alive if it hadn't been for you.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Then put down your weapons.
+护卫()<Speaker>Bodyguard</Speaker>||:What?!
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Trust me.
+()<Speaker></Speaker>||:A group of well-armed operatives walk down the stairs. Powell recognizes the leader even through the mask.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:My men didn't die in vain. I wasn't expecting you to come, Lieutenant Butler. +An officer of the mighty garrison coming after me in person... Why degrade yourself like that?
+NPC-Powell(0)<Speaker>Armed Operative</Speaker>||:Looks like you haven't done your homework. We've already implied who's in the main cast here.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:I don't have time for your riddles. What do you want?
+NPC-Powell(0)<Speaker>Armed Operative</Speaker>||:You know exactly what I want. What we all want. Your ledger.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:You want to destroy the evidence of our partnership? +...How do I know you won't kill me after I give it to you?
+NPC-Powell(0)<Speaker>Armed Operative</Speaker>||:You don't, but you don't have a choice either. +Either you hand it over yourself or I search your dead body for it.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:...
+NPC-Powell(0)<Speaker>Powell</Speaker>||:... +Fine, I suppose I'll just hand it over.
+()<Speaker></Speaker>||:Powell reaches into his breast pocket and retrieves an item. +He raises an arm and bellows.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:FIRE!
+()<Speaker></Speaker>||:His two bodyguards raise their weapons immediately.
+()<Speaker></Speaker>||:Bangbangbang!
+()<Speaker></Speaker>||:But they are just a little too slow. The two men are shot full of holes in an instant. +However, this has given Powell the opportunity to throw something onto the floor while covering his mouth and nose with his left hand. +Yellow smoke permeates the cellar in a matter of seconds.
+()<Speaker></Speaker>||:Powell knows that a normal adult will not last longer than a minute in such concentrated smoke. +He simply has to get out before the pollen settles. He sprints towards the wall of the cellar.
+()<Speaker></Speaker>||:Bang!
+()<Speaker></Speaker>||:However, a bullet whisks through the smoke and penetrates his lower leg. He falls in pain and disbelief in front of a row of large wooden wine barrels that must have been centuries old. +The operatives, who are armed to the teeth, emerge from the smoke. +The leader lifts his infrared goggles and reveals that he's wearing an oxygen mask.
+武装人员()<Speaker>Armed Operative</Speaker>||:You underestimate me. You really think I wouldn't be prepared against your worthless hallucinogen? +You think too little of the armed forces, Powell. +Maybe I should take off your gas mask and let you have a taste of your own medicine.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:You treacherous Krauts!
+NPC-Powell(0)<Speaker>Armed Operative</Speaker>||:Now, now, no reason to be vicious. We both know we've only been taking advantage of each other. +And that this mutually-beneficial relationship is bound to end someday.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:So you really have no idea what this is. +But that doesn't matter anymore. It's people you want, right? +Then...why don't you look behind you?
+()<Speaker></Speaker>||:Just then, a monstrous, blood-curdling growl comes from behind them. The armed unit turn around out of reflex and are greeted by a nightmarish sight. +The two men that were shot repeatedly—that should have been lying on the floor—are now standing upright. +They aren't men anymore. They are monsters.
+()<Speaker></Speaker>||:Their clothes are torn by the jagged crystalline clumps protruding from their joints, exposing skins that are covered in faded marks of silicification. +But the most frightening of all is the crystallization that is already occurring within the freshly inflicted bullet holes all over their bodies. +If experts on Relic technology were present, they would realize what the two men are turning into right away. +Zombies infected with Eurosky Low-Emission Infectious Disease, or simply known as ELIDs.
+武装人员()<Speaker>Armed Operative</Speaker>||:Powell you son of a...!!!
+()<Speaker></Speaker>||:The leader's exclamation is cut short because there is suddenly no sign of Powell anywhere inside the cellar. +They are the only ones who are still enclosed with the two monsters.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>47</BIN><黑屏2>:Meanwhile, in the Bremen Ratskeller. +The elevator goes up a level. This elevator hidden inside one of the gigantic medieval barrels is a secret known only to a few. +This secret has saved Powell once again.
+()<Speaker></Speaker>||:Powell stumbles out of the elevator and leans painfully against the desk in the secret chamber.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Dammit, I still got hit. +I need to stop the bleeding...
+？？？()<Speaker>???</Speaker>||:Here, bandages.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Oh, thanks...
+()<Speaker></Speaker>||:He starts sweating uncontrollably. +He turns around and finds someone sitting at the desk.
+()<Speaker></Speaker>||:The woman who just offered him bandages is pointing a pistol straight at him. +Of course, he knows that she is Angelia.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I've finally got you, Powell. +We have a lot to talk about.
+NPC-Ange(2);NPC-Powell(0)<Speaker>Powell</Speaker>||:This is impossible. The entrance is locked!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:You're right, this is a safe house for visiting senior state officials. +But I also happen to have with me a secretary who has participated in state visits in the past.
+()<Speaker></Speaker>||:She gestures at the young woman standing behind her. +The young woman smirks in amusement.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:...You took advantage of our infighting... How did you slip past my brethren?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Powell(0)||:Your brethren are pretty much all wiped out by the anti-riot dolls. You think a few guns would win you a war against a military force armed to the teeth? +Though, your followers did manage to pin down those corrupt cops, so its still a win-win scenario for you.
+NPC-Ange(2);NPC-Powell(0)<Speaker>Powell</Speaker>||:You bitch!
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Powell(0)||:Whatever you say. Alright, we should take you somewhere nice before your nasty little war is over. +J, tie him up.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:J? Didn't you hear me?
+()<Speaker>Hopps</Speaker>||:I don't think he can hear you, Angelia.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:...?!
+()<Speaker></Speaker>||:Hopps emerges from the shadow. +He drags an unconscious J along and drops him onto the floor.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:He tried to put up a fight, as futile as it was. +The same goes for you, you don't have much ammo left. Don't make things difficult and put down your gun. +I don't wish to hurt a future collaborator but if you leave me no choice...
+()<Speaker></Speaker>||:Morridow shuffles closer to Ange in fear. Ange falls silent for a moment before lowering her pistol.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:There's a good girl. Now cuff that fatty.
+()<Speaker></Speaker>||:Ange takes out a pair of handcuffs and puts them around Powell's wrists. Then she knocks him off his feet with a casual kick.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Finally dropping the act then, Mr. Nationalist? +Our itinerary kept getting leaked; I knew we had a mole among us.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Hopps! +How could you?!
+NPC-Morridow(1);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Shut up, girl. The grown-ups are talking. +That's right, it was me all along. +You've suspected me since the start, haven't you?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:I'm suspicious of everyone. +So tell me, why would a member of the GIP infiltrate PECMAR as a spy?
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Why? That hardly matters anymore, does it?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Didn't you mention something about a future collaboration? +Then at least show some sincerity. +Tell me why. You're not doing it for the money. Your service record is immaculate and you have a bright future ahead of you. It's not out of vengeance either. You're one of the few federal soldiers who passed the political vetting process, and the Unity Party government has done nothing to wrong you.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:You've looked me up quite thoroughly.
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:I want to know... +How long do you think the GIP will endure when it becomes increasingly obvious that the Rossartrists are working together with the Neo-Soviet Union?
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Answer me, Wolfgang Hopps, former senior master sergeant of the Kommando Spezialkräfte. +What exactly did I miss? Tell me why you believe the so-called future lies with a junk heap of a far-right nationalist party like the GIP. +Forgive me for being blunt. After all, if we are to be collaborators, I need to think ahead.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:You've got guts. No wonder you're such a valuable asset. +Alright, I'll answer your question. First of all, my name is not Hopps. I am Franz Schreck. I was indeed a platoon leader in the 2nd Commando Company of the KSK during the war, but what you Stasi don't know...
+()<Speaker></Speaker>||:Hopps gives J, who is sprawled on the floor, a kick.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...is that I am also an intelligence officer at the Federal Office for the Protection of the Constitution. As for why I'm doing this... I'm doing this to restore my country to its full glory, of course!
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:What, you want to resurrect the Third Reich?
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Hahahahaha! +The GIP is just a useful signboard that attracts an endless supply of malcontent rats who make perfect fodder for us. +The questions you should be asking are—how is it possible for us to infiltrate the protective security unit of the PECMAR chairwoman herself? Why is the Stasi unaware of my identity? How come we have the capability to wipe out the rioters in the settlement today?
+()<Speaker></Speaker>||:Just then, the elevator to the hidden chamber chimes again. The doors open to reveal the armed unit. +All the operatives are wounded, but not too severely.
+武装人员()<Speaker>Armed Operative</Speaker>||:Cap, you could've told us you're here already. We thought you'd lost control of the situation.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:What happened down there?
+NPC-Hopps(0)<Speaker>Armed Operative</Speaker>||:We lost three of our men, but we eliminated the rioters. +These bastards released some highly radioactive pollen; good thing none of us inhaled any, so we should be fine.
+()<Speaker></Speaker>||:The leader steps roughly on Powell's leg wound as he says so.
+鲍威尔()<Speaker>Powell</Speaker>||:(Groans)
+武装人员()<Speaker>Armed Operative</Speaker>||:Shut up, Saukerl.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Returning to the subject at hand, Frau Angelia, we lost the last war. We failed to defend German blood and soil, as well as this fragile Volksgemeinschaft. We lost to you. +I concur that the victors are at liberty to deal with the losers however they want, so I have no complaint about that. However, I will never allow my country—a country that my comrades and I protected with our lives—to be handed over to a bunch of Rossartrist zealots who live in fantasy and those corpse-worshipping fanatics in the Yellow Zone. +Many, many others share my sentiment. We have far more support than what you imagine. +Guys, tell this devochka of the Neo-Soviet Union who we are.
+所有武装人员()<Speaker>All Armed Personnel</Speaker>||<震屏3>:GSG 9 der Bundespolizei!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:...
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Right, by now you must have a pretty good idea about our capability. It's my turn to ask questions +Frau Angelia, what do you want?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:I want world peace. I want children to be spared from living in strife and fear.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...Quite the jokester you are, Frau Angelia.
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Life is hard in this line of work if one doesn't have a sense of humor.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:You're absolutely right. So can you tell me how you plan to achieve world peace?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:I'm a simple woman. I never risk my life for lofty aspirations. +All I want right now is some decent money and a quiet life. It's hard having bloodsuckers on the payroll.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:I was expecting a higher price from someone like you. +Money, freedom... These are all easy demands to meet, so easy they're almost dull. +As long as you give us what we want, we will never let anyone lay a finger on you, not even the refugees. +That's right, we're the ones actually in charge here.
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:This is just a refugee settlement. Surely this is not all you have for show after that grand speech of yours?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Certainly not, though the rest of the demonstration will have to take place at a safer location. +So please come along, Frau Ange. I would not like to use violence against a future partner.
+()<Speaker></Speaker>||:The armed operatives start edging closer to Ange.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||<BIN>47</BIN>:Ange...
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Oh, I almost forgot. +Before we set off, we should eliminate the final witness.
+()<Speaker></Speaker>||:Black muzzles are trained on Morridow.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:What a pity for the sweet and diligent secretary to meet her end under such unfortunate circumstances. +But don't worry, I'll tell Chairwoman Ulrich of the "truth"... +Auf Wiedersehen, Frau Morridow. It's been a pleasure working with you.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:N-No!
+()<Speaker></Speaker>||:Morridow pleads weakly, but her eyes betray no fear at all. +She stares unblinkingly at Hopps, her body tense like a nocked arrow. +She holds her hand behind her back, as if waiting for her fate in resignation, but in fact, she is reaching for her lifeline—a movement that Ange recognizes immediately. +An idea flashes in Ange's mind.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I have another request.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:You want me to spare her?
+NPC-Ange(2)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:Not that. You've heard the story, right? The one about a band formed by a rooster, a cat, a dog, and a donkey. +I want a ticket to a concert given by the Town Musicians of Bremen. +No, make that five tickets. I want to see it with my own band.
+NPC-Ange(2);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:This is hardly the time for jokes.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||<BGM>BGM_Empty</BGM>:What makes you think I'm joking?
+()<Speaker></Speaker>||<SE1>Explode</SE1>:BOOM!
+()<Speaker></Speaker>||:At the sound of the mighty crash, the wall to the side is smashed to pieces. A tall figure steps through the hole and sends one of the armed operatives flying with a strong kick.
+AK15(6)<Speaker>AK-15</Speaker>||<BGM>BGM_stage3</BGM>:Am I late?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Please don't be late ever again. I'm not sure if I can come up with another stupid joke to buy time for you.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:How are you still alive?!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I didn't find this place with just my gut feeling, dumbass!
+武装人员()<Speaker>Armed Operative</Speaker>||:Captain, behind you!
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:What?!
+RPK16(7)<Speaker>RPK-16</Speaker>||:Today is such a beautiful day. The world is ablaze and humans have all turned into moths, fluttering among the flames.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Another Doll?! +Where did she come from?!
+RPK16(7)<Speaker>RPK-16</Speaker>||:Maybe it is in a moth's nature to self-destruct?
+()||<黑屏1>:

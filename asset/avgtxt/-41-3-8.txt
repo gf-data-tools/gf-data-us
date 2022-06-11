@@ -1,0 +1,82 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker>Hint</Speaker>||<黑屏2><BIN>9</BIN>:<color=#FFFF00>For the sake of continuity, please read this excerpt after you have completed "Sweet Dreams Box - Beginning".</color>
+()||:...
+()<Speaker></Speaker>||<黑屏1><BGM>BGM_Room</BGM>:Even before the police arrive at the scene, Ange has already got Berle Orphanage sealed off as Task Force DEFY starts collecting evidence.
+()||<BIN>270</BIN><Night><黑屏2>:The children have been gathered in the music room. Krone is giving them a lesson to keep them calm.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:..."Look, the rats start following him." +"As if totally entranced, the rats trail after the Pied Piper mindlessly. The music draws them to the river, and the mesmerized rats jump into the water one after the other, until they all get washed away..."
+()||:RPK-16 enters the music room and takes a seat in the back.
+()<Speaker>Neele</Speaker>||:I know! The townspeople later refuse to give the Pied Piper his due reward and only offer a single gold coin for his service, so the Pied Piper plays his pipe and kidnaps all the children from the town. +Frau Krone, the housemother has told this story many times!
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Silence! Mind your manners in front of our guest.
+()||:Upon noticing RPK-16 sitting in the back, the lively and boisterous children immediately grow hushed and uneasy.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Ahaha, don't mind me. +Just think of me as Frau Krone's assistant.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:That...that won't do at all!
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:In spite of the tragedy that has struck the orphanage, the investigation is still in progress. +We would like to keep aiding the orphanage in its operation depending on the situation.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Are...are you sure?
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Of course. That's why if there's anything you want, do go ahead and tell me, okay? I'm a magician who can make wishes come true.
+()||:RPK-16 reaches into her pocket and fishes out sweets that she has prepared beforehand. The children immediately have her surrounded with glowing eyes. +She smiles as all the sweets are seized up in an instant.
+()<Speaker>Blue-eyed Boy</Speaker>||:Hurray! Another nice lady with lots of candy!
+RPK16(8)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Another?
+()<Speaker>Blue-eyed Boy</Speaker>||:The dark-haired lady with you had also given us lots of snacks before! +Pity she isn't here right now.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Dark-haired lady... You mean Miss Morridow?
+()||:A girl with light blond hair shuffles closer. RPK-16 sees her and hands her another piece of candy. +The girl shakes her head and does not accept it.
+()<Speaker>Girl with Light Blond Hair</Speaker>||:Um...
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Call me Renate.
+()<Speaker>Girl with Light Blond Hair</Speaker>||:Renate, what will happen to us with Housemother gone? +Will we be sent somewhere else? Will we have to starve?
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Hm...?
+()<Speaker>Girl with Light Blond Hair</Speaker>||:Both my parents are missing. Housemother took me in. +She said I could stay here for as long as I want. But if Housemother isn't here anymore... Will the orphanage also close down...?
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Well...
+()<Speaker>Blue-eyed Boy</Speaker>||:Dummkopf! What a silly question! With Housemother gone, there'll be no one to tell us off and we can eat as much as we want!
+()<Speaker>Children</Speaker>||:Yay! Hahahahahahaha...
+()||:The young children laugh and seem altogether unaffected by what happened, but the older ones look considerably more worried. +They look expectantly at RPK-16, hoping she could give them some definite answers. +RPK-16 smiles. She could easily make up something to comfort these children, but just as the words reach the tip of her tongue, she stops.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Don't worry. There will be a way.
+()||:The blond girl looks visibly disappointed. She has heard such perfunctory reassurance all too many times.
+()<Speaker>Girl with Light Blond Hair</Speaker>||:Housemother said we had to stay where she could see us or the demons would snatch us away. +The demons have already got to a few of my friends. Now that Housemother is gone, will the demons come again?
+RPK16(8)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Demons?
+()||:The children fall silent. Their fear is palpable. +Tears are trailing down the blond girl's face. +Even the blue-eyed boy looks down with unease.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Ms. Krone... What's the deal with these demons?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:I'm sorry, we shouldn't talk about such things in front of the children. Let's speak somewhere else.
+()||<黑点1>:Krone gestures to RPK-16. +The Doll gets the message and follows her out of the music room.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||<黑点2>:Apologies. That must have been very confusing.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Hm, it didn't sound like mere fairy tales. +I would like to know more about their "demons".
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:(Sighs) I suppose there's no way we can hide this from you any longer. +Now that the housemother is dead, there's no point in hiding it anyway.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:What have you been hiding?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:To tell you the truth...there have been four cases of missing children at the orphanage... +Every time it happened, the child was present at dinner but nowhere to be found the next morning during roll call. +After the first child had gone missing, in an attempt to prevent it from happening again, we gathered all the children and kept them in one place at a time. However, children still kept going missing.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Did you not call the police?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:We did, but police investigation was inconclusive. +They couldn't care less that a few orphans disappeared. +I once suggested to Housemother that we could hire journalists to report the cases in the papers. +But she was worried that the bad press would endanger the operation of the orphanage, so I gave up on that idea. +Still, weird rumors started circulating that our orphanage was involved in child trafficking...
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Child trafficking?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:They were all baseless rumors, you must believe me! +The housemother handpicked all our teachers and caretakers from the local churches! I swear to God we would never do something so abominable! +We really do love these children. We don't want any harm to come to them.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Has security been tightened since the incidents?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:We've arranged for the security guards to rotate shifts; I myself have also patrolled the dormitories through the night a few times. +But whenever it happened, I would always find myself passed out for some reason, and by the time I woke up, a child would be gone. +The guards would also say that they hadn't noticed anything unusual...
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Hm...
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:The housemother was devastated; I could sense her dismay. +I've always heard that some refugees would resort to abducting children and selling them for money. Now they even had the audacity to target the housemother.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:You believe this was the refugees' doing?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:It...it was just a guess. +I can't think of anyone who would be so ruthless.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Did the housemother have any enemies or rivals?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:She devoted her life to doing good... How could she have any enemies? +And she was a philanthropist - what rival could there be?
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:No suspects then...
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:(Sighs) Without the housemother, I'm afraid these poor children will have to suffer.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Why is that?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:This could very well be the end of the orphanage.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Can't anyone succeed the housemother in her position? I believe you're a suitable candidate.
+()||:Krone sighs and shakes her head.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:The housemother kept the orphanage running with her own savings. Money has always been tight supporting so many children. With the housemother gone, we will soon run out... +And due to the cases with the missing children, no one would be willing to help out an orphanage that allegedly participates in child trafficking... +Our only hope was receiving funding from PECMAR, but now that you've learned of what happened, I doubt our application would be approved...
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:So why did you tell me about this?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Once the police gets here, you and the other representatives will find out about our history soon enough. +I thought it would be better if you hear about it from me.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:I see. I appreciate your honesty. I will liaise with the commissioner regarding your PECMAR funding. +Oh... I do have another question; it could be a bit impertinent.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Go ahead, I will not take offense.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Did you enter the housemother's office this evening?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:I was with the children the whole time, preparing for your arrival. The children can testify for me.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:And you didn't leave them, not even for a little?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Oh... I did head outside for a short while. +It started storming after dinner, a little after 6pm. +Some of the younger children were spooked by the loud thunder and started crying. +Lillian is particularly afraid of thunderstorms and kept asking for the housemother. I couldn't soothe her, so I phoned the housemother. +She said she would take care of Lillian and asked me to bring the girl to her office. I did as she asked me, then I returned to the hall to read. +After a while, the housemother told me to collect Lillian and take her back to the hall. I don't remember the exact time, but I'm certain it was before 8. +I knew because I definitely heard the rose cuckoo clock chiming the time inside the housemother's office while I was escorting Lillian down the hallway.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Which means the housemother was still alive at 8 o'clock.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:I believe so. +Other than the clock, I didn't hear anything else coming from the office. +Lillian was with me; she can back me up.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Whoever broke into the housemother's office must've made quite a ruckus. +Didn't anyone hear anything at all?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Her office is located in the deepest section of the building and some distance away from the hall. +Besides, it's been raining very heavily throughout the evening. +Neither the children nor I heard anything unusual...
+RPK16(8)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Then congratulations. If everything you said is true, you are completely in the clear. +One last question - apart from you, who else has free access to this main building?
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:Other staff members can also enter and exit the building, but they have all gone home since it's late. +I only stayed behind to receive your party. +The security personnel also has a set of keys. Herr André, whom you've met earlier, is on duty tonight. +The only other person I can think of is Herr Adam, our handyman. The housemother occasionally had him run some errands, so he also has the keys to the rooms.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Thank you, I now have a general picture of the situation. +That's all for now.
+NPC-Oldartist(0)<Speaker>Krone</Speaker>||:(Sighs) I feel somewhat better, having come clean about what happened. +The world is cruel enough as it is, so why are the kind-hearted never rewarded for their good deeds? +Even the previous housemother passed away because of heart disease. Poor woman, she was still so young. +I wish God had more mercy on the good.
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||<SE1>AVG_tele_connect</SE1>:Ange, I'm sending you everything I've logged.
+NPC-Ange(2)<Speaker>Angelia</Speaker><通讯框>||:<color=#00CCFF>Received. Thanks, this will be very helpful.</color>
+RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Have you figured it out?
+NPC-Ange(2)<Speaker>Angelia</Speaker><通讯框>||<黑屏1>:<color=#00CCFF>Patience. We are very close to the truth.</color>

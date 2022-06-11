@@ -1,0 +1,140 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>158</BIN><BGM>GF_EV9_Story</BGM>:...RO635 activates the upgrade assistant that Persica has sent her on Level III. +The scene immediately starts shifting.
+()<Speaker>Upgrade Assistant</Speaker>||:We finally meet, RO. +Now let us begin.
+RO635(0)<Speaker>RO635</Speaker>||:...
+()<Speaker>Upgrade Assistant</Speaker>||:I am going to ask you a series of questions. Just relax and answer them succinctly.
+()||:RO635 eyes the antique-looking device sitting on the desk with a slight frown.
+()<Speaker>Upgrade Assistant</Speaker>||:You are watching television when suddenly, you see a little mouse scuttling around the room.
+RO635(3)<Speaker>RO635</Speaker>||:I catch it and release it outside before SOP-II spots it.
+()<Speaker>Upgrade Assistant</Speaker>||:You are flipping through a magazine when you come across a swimsuit photo shoot featuring Griffin Dolls.
+RO635(4)<Speaker>RO635</Speaker>||:...I snap the magazine shut.
+()<Speaker>Upgrade Assistant</Speaker>||:The Commander sees your magazine and likes it a lot. They have it framed and hung on the office wall.
+RO635(3)<Speaker>RO635</Speaker>||:...I-I try to persuade the Commander to get rid of such distractions.
+()<Speaker>Upgrade Assistant</Speaker>||:Haha, moving on...
+RO635(0)<Speaker>RO635</Speaker>||:Is there even a point in conducting a test that dates back to more than a century ago?
+()<Speaker>Upgrade Assistant</Speaker>||:I'm simply trying to help get you into the right state of mind.
+RO635(0)<Speaker>RO635</Speaker>||:My state of mind is perfectly fine. It'll help even more if we can talk face-to-face.
+()<Speaker>Upgrade Assistant</Speaker>||:I've been sitting opposite you the whole time, RO.
+()||:A familiar figure hops lightly onto the table.
+RO635(6)<Speaker>Upgrade Assistant</Speaker>||:Better?
+RO635(5)<Speaker>RO635</Speaker><Shake>||:Why have you taken this form?!
+RO635(5);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:You sound a lot more spirited. You're right, talking face-to-face does make for more effective communication.
+RO635(4)<Speaker>RO635</Speaker>;RO635(6)||:...
+RO635(4);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:Since you believe you're ready, let us begin in earnest.
+RO635(5)<Speaker>RO635</Speaker>;RO635(6)||:Be quick about it.
+RO635(5);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:First question.
+RO635(6)<Speaker>Upgrade Assistant</Speaker>||:You've once turned down an upgrade offered by Persica. Why?
+RO635(0)<Speaker>RO635</Speaker>||<黑屏1>:... +Because I...was afraid...
+()||<回忆><黑屏2><BIN>72</BIN><BGM>BGM_Empty</BGM>:...Following Operation Continuum Turbulence. +After SOP-II's upgrade was complete, Persica loaded RO's neural cloud into a new body.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||<BGM>m_avg_labyrinth</BGM>:<color=#00CCFF>...Now it's your turn, RO.</color>
+NPC-Persica(0)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>Finally? I've almost finished reconstructing the entire Griffin base.</color>
+NPC-Persica(2)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>Trust me, your new body is definitely worth the wait.</color> +<color=#00CCFF>I've poured a lot of painstaking effort into it, you know.</color> +<color=#00CCFF>Once you're done allocating your neural storage space, you can wake up and see for yourself just how awesome it is.</color>
+NPC-Persica(0)<通讯框>;RO635(2)<Speaker>RO635</Speaker>||:<color=#00CCFF>Alright, I'll look forward to it.</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(2)||:<color=#00CCFF>By the way, RO.</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Do you know what sets you apart from the other Dolls?</color>
+RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>Um, my advanced command module and superior electronic warfare capability?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Those are just superficial features. I'm talking about your neural cloud.</color>
+()||:RO watched thoughtfully as Persica pointed at her heart.
+NPC-Persica(2)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>It's okay, you'll soon understand more about your own inner workings.</color> +<color=#00CCFF>Unlike other Griffin Dolls, unlike other members of the AR Team even, you have full, complete access to your entire neural space.</color>
+NPC-Persica(2)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>Full access?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>That's right. That includes all of your memory fragments, base codes, and even the very base layer...</color>
+NPC-Persica(0)<通讯框>;RO635(3)<Speaker>RO635</Speaker>||:<color=#00CCFF>Even the base layer is accessible to me...? I'm not sure that's a good thing.</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(3)||:<color=#00CCFF>Me neither.</color> +<color=#00CCFF>However, it certainly isn't a privilege that's given to just any Doll.</color>
+NPC-Persica(0)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>...Would any Doll really want to know how her own emotions are simulated from strings of codes?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(3)||:<color=#00CCFF>What about you, RO?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Aren't you curious about what lies in the bottom of your heart?</color>
+RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>...</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Don't be afraid. There is a first for everything, and you will be the one to open the door to a brand new world.</color> +<color=#00CCFF>No one knows for sure if the new world will welcome us warmly or slam the door in our faces.</color> +<color=#00CCFF>In any case, I'll be waiting to hear from you.</color>
+()||<SE1>AVG_tele_disconnect</SE1>:Transmission ended.
+RO635(0)<Speaker>RO635</Speaker>||<黑点1>:... +The bottom of my heart... +As a Doll, my emotions are just data generated through an emulation system. Can they really be called "emotions"...? +Why do Dolls even have emotions? We exist just to complete our objectives...
+()||<黑点2>:...After some time, RO635 had finished organizing most of her neural storage. +There was only one last bit.
+RO635(0)<Speaker>RO635</Speaker>||:...This is it. +The Room of Base Logic. This is where the settings of a Doll's base layer and emotional logic are stored. +Apart from the basic factory settings, sometimes there are additional base layer settings depending on the Doll's objective. For instance, SOP-II and the others have "protect M4A1 at any cost" written into their base layer. +Persica once told me that she had never given me any commands of that sort, so there shouldn't be anything surprising in this room. +Yeah, probably not...
+()||:RO635 placed her hand on the door. +Since she had the highest level of access clearance, the Room of Base Logic was not locked. +She simply had to push open the thin door to sort through and confirm all the data inside, then all the preparations for the neural upgrade would be complete.
+RO635(3)<Speaker>RO635</Speaker>||:... +Why won't it open?
+()||:Her hand could clearly perceive the wood grain on the door, but for some reason, it just wouldn't budge no matter how hard she pushed. +It was as if there was a heavy, invisible wall behind the door.
+RO635(3)<Speaker>RO635</Speaker>||:Is something wrong...with my clearance?
+()||:RO635 wanted to retract her hand, but her whole arm was trembling.
+RO635(0)<Speaker>RO635</Speaker>||<黑屏1>:What's the matter with me? It's not like I'm scared or anything...
+()<Speaker>M4A1</Speaker>||<黑屏2><BIN>9</BIN>:This shouldn't be the point of your existence... +Your worth isn't even derived from your own will!
+()<Speaker>M4A1</Speaker>||:Don't you know that this is all part of our design? It's the same for all Dolls.
+()<Speaker>UMP45</Speaker>||<黑屏1>:Are you okay with losing your "self" and becoming a substitute for someone else?
+RO635(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>72</BIN><黑屏1><BGM>BGM_Empty</BGM>:... +I was created to lead the AR Team in M4's absence to begin with. +I will not abandon those whom M4 wishes to protect, and I will trust those who have M4's trust. +Is it really true that my base settings haven't been tampered with even though I've been given such a directive?
+()||<黑屏2><BIN>159</BIN><边框>2</边框><关闭蒙版><BGM>BGM_Sneak</BGM>:...During the first battle simulation after RO635 joined the AR Team.
+RO635(0)<Speaker>RO635</Speaker>||<边框>2</边框>:...I'm back, and we have the document!
+AR15(0)<Speaker>ST AR-15</Speaker>||<边框>2</边框>:...Where's M4?
+RO635(0)<Speaker>RO635</Speaker>||<边框>2</边框>:S.F. bombarded the building we were in while we were on our way to the rendezvous point. +We got separated.
+M16(2)<Speaker>M16A1</Speaker>||<边框>2</边框>:So you left her behind and came back on your own?
+RO635(0)<Speaker>RO635</Speaker>||<边框>2</边框>:Isn't the objective our top priority?
+M16(2)<Speaker>M16A1</Speaker>||<边框>2</边框>:...
+SOPII(2)<Speaker>M4 SOPMOD II</Speaker>||<边框>2</边框>:RO...
+()<Speaker>System</Speaker>||<边框>2</边框>:<color=#FFFF00>Mission accomplished.</color> +<color=#FFFF00>Tactical Doll M4A1 – killed in action. Neural core destruction confirmed.</color> +<color=#FFFF00>Other four members of the AR Team – alive.</color>
+RO635(0)<Speaker>RO635</Speaker>||<边框>2</边框>:What are you doing...? +We've completed the mission, haven't we?
+AR15(0)<Speaker>ST AR-15</Speaker>||<边框>2</边框>:You call that completing a mission? You sacrificed M4 without even the slightest bit of hesitation.
+RO635(0)<Speaker>RO635</Speaker>||<边框>2</边框>:Dolls are disposables to begin with. Isn't it our purpose to complete our objectives?
+AR15(0)<Speaker>ST AR-15</Speaker>||<边框>2</边框><黑屏1><BGM>BGM_Empty</BGM>:... +You are a pitiful failure.
+RO635(0)<Speaker>RO635</Speaker>||<黑屏2><BIN>72</BIN><回忆><BGM>m_avg_labyrinth</BGM>:... +I decisively chose to sacrifice M4 in exchange for victory during my very first battle simulation with the AR Team, didn't I? +And yet after I officially became part of the team, I risked everything to rescue M4A1, whom I've only known for a few hours... +Why? Other than a base layer preset, I can't think of any possible explanation...
+()||<黑屏1>:RO635's hand slid limply off the door.
+()<Speaker>RO635</Speaker>||<黑屏2><BIN>9</BIN><黑屏1>:If everything about me is predetermined... My emotional logic... +Whom I like and dislike... +What matters to me in life... +Do I even have anything that truly belongs to me? +When all these things that have been imposed upon me are taken away, what will I be left with? +Who am I, really?
+()||<关闭蒙版><黑屏2><BIN>158</BIN><BGM>BGM_Empty</BGM>:...
+RO635(3)<Speaker>RO635</Speaker>||<BGM>GF_EV9_Story</BGM>:Must be pretty weird for a Doll to be troubled by such questions...
+RO635(3);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:...I actually think it's quite normal. +If you are so fearful of confronting your base layer, why did you activate me?
+RO635(0)<Speaker>RO635</Speaker>;RO635(6)||:...
+RO635(0);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:It seems to be a long story. Then let's keep going bit by bit.
+RO635(6)<Speaker>Upgrade Assistant</Speaker>||:How about we start from the second time you refused an upgrade?
+RO635(0)<Speaker>RO635</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:Sure. It happened just today...
+()||<黑屏2><BIN>89</BIN><回忆><BGM>m_avg_casual</BGM>:...Following Operation Polarized Light, at the depot in Griffin's temporary base. +The AR Team were allocating supplies that the Commander had urgently procured from IOP.
+RO635(0)<Speaker>RO635</Speaker>||:These are general parts, rations, ammo... +Hm, everything checks out with the inventory list.
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:I have some cores and batteries here. +The quantities are far from enough, but they also match the figures in the inventory.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Wow, these special parts look super cool! Let me try them...
+RO635(3)<Speaker>RO635</Speaker>||:SOP-II!
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:...I know, I know, I was just saying.
+()||:SOP-II reluctantly put down the special parts and started going through the remaining supplies on the list instead.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Huh? RO. RO!
+RO635(0)<Speaker>RO635</Speaker>||:What is it?
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Look at this!
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:A crate that says, "Custom-built for RO635". +Judging by the size, it's probably a new body.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Wow! So it's an upgrade for RO?! +Open it and take a look!
+RO635(0)<Speaker>RO635</Speaker>||:...
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Aren't you gonna do it?
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:SOP-II, give her some time. This is a big moment for her.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Oh, alright...
+RO635(0)<Speaker>RO635</Speaker>||:...
+()||:RO635 slowly opened the crate with her name with bated breath. +In it lay a brand new body.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||<震屏>:Oh wowwww! It looks freaking cool!
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:It is certainly an improvement.
+RO635(0)<Speaker>RO635</Speaker>||:...Yeah, it is very well-made.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Why don't you change into it now?!
+RO635(0)<Speaker>RO635</Speaker>||:There's no rush. There are still a lot of supplies waiting to be catalogued and allocated. Not to mention the Griffin Dolls still lying out there, awaiting recovery.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Just leave that to me and AR-15!
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:Leave me out of this.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Besides, Miss Persica has the new body sent here directly. +You just have to straighten out your neural cloud, load it into the new body, and the upgrade will be done. It won't take too long.
+RO635(0)<Speaker>RO635</Speaker>||:Yes, I know.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Then why are you putting it off? You promised we would both get upgrades back when I was about to get mine! +But you ended up in your old body again...
+RO635(0)<Speaker>RO635</Speaker>||:...
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:RO, go check with Miss Persica. +SOP-II and I will continue with the stock-taking here.
+M4 SOPMOD IIMod(0)<Speaker>M4 SOPMOD II</Speaker>||:Huh? No! I wanna watch RO getting her new body...
+AR15Mod(0)<Speaker>ST AR-15</Speaker>||:C'mon, SOP-II.
+()||:ST AR-15 dragged SOP-II away considerately to give RO some privacy.
+RO635(0)<Speaker>RO635</Speaker>||:... +Miss Persica?
+NPC-Persica(2)<Speaker>Persica</Speaker><通讯框>;RO635(0)||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Oh, RO. So you've got my present.</color>
+NPC-Persica(2)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>...Why have you arranged an upgrade for me at a time like this?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>Two reasons. Firstly, Havier just so happened to have received urgent orders from the Commander. Secondly, you need to be stronger to handle the upcoming operation.</color> +<color=#00CCFF>As you know, things aren't looking so good for the AR Team. M4 is missing and M16 is still at large.</color> +<color=#00CCFF>As the leader of the AR Team, you carry a heavy burden.</color>
+NPC-Persica(0)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>I know, I'm not against the neural upgrade; I just think the timing could've been better.</color> +<color=#00CCFF>Every second matters for rebuilding Griffin and finding M4 and M16...</color> +<color=#00CCFF>I can't afford to waste time adapting to a new body, don't you think?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>RO, has anyone ever told you that you're a terrible liar?</color>
+NPC-Persica(0)<通讯框>;RO635(3)<Speaker>RO635</Speaker>||:<color=#00CCFF>...</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(3)||:<color=#00CCFF>Do you still believe that I have given you a base layer command to ensure M4's safety?</color> +<color=#00CCFF>Even after all the enriching experience I've given you?</color>
+NPC-Persica(0)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>I don't mean to doubt you.</color> +<color=#00CCFF>A neural upgrade is indeed the most conducive for future operations.</color>
+NPC-Persica(2)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>If it bothers you so much, why don't you open the door and have a look yourself?</color>
+NPC-Persica(2)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>...</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>...</color> +<color=#00CCFF>Alright, I won't force you.</color> +<color=#00CCFF>How about this, RO? Let's meet halfway.</color>
+NPC-Persica(0)<通讯框>;RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>What do you suggest?</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>;RO635(0)||:<color=#00CCFF>I'm sending you an upgrade assistant that you can install to your neural cloud.</color> +<color=#00CCFF>When you're ready for the upgrade, activate it.</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>Don't worry, it's not a malware. Once the upgrade is complete, it will be automatically deleted.</color>
+RO635(0)<Speaker>RO635</Speaker>||:<color=#00CCFF>Okay, I have received it.</color>
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:<color=#00CCFF>I hope we'll meet soon.</color>
+()||<SE1>AVG_tele_disconnect</SE1><黑屏1><BGM>BGM_Empty</BGM>:Transmission ended.
+RO635(6)<Speaker>Upgrade Assistant</Speaker>||<关闭蒙版><黑屏2><BIN>158</BIN><BGM>GF_EV9_Story</BGM>:It sounds like you are bothered by your base layer settings after all.
+RO635(0)<Speaker>RO635</Speaker>;RO635(6)||:You're right... +If our emotions are all decided by empty strings of codes, what's the point in anything for Dolls? +Besides, don't we exist to complete our objectives? How would having emotions help with that?
+RO635(0);RO635(6)<Speaker>Upgrade Assistant</Speaker>||:I can see that you have a million questions. Let's take it slow.
+RO635(6)<Speaker>Upgrade Assistant</Speaker>||:Tell me what happened after you rejected Persica's offer for the second time.
+RO635(0)<Speaker>RO635</Speaker>||<黑屏1>:It was something...that makes me feel terribly guilty...

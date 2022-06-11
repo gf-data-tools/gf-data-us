@@ -1,0 +1,90 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>82</BIN><BGM>10254</BGM><Night>:...In Passadou's sanatorium.
+TAC50(2)<Speaker>TAC-50</Speaker>||:A whole year has passed since Halloween. +I've been searching high and low for you.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Your illness is incurable, but you seem to be doing pretty well at the moment. Looks like the country air has done you well.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:What are you getting at?
+TAC50(2)<Speaker>TAC-50</Speaker>||:You have Lou Gehrig's disease, don't you?
+()||:Passadou blanches immediately and her eyes harden.
+NPC-Fuduto(1)<Speaker>Passadou</Speaker>||:That's none of your business.
+NPC-Fuduto(1);TAC50(2)<Speaker>TAC-50</Speaker>||:A disease that humans can't cure. The patient can only watch as their own muscles gradually waste away; they may even start having difficulties breathing... +Such an illness is certainly fatal to a musical actress' career.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>;TAC50(2)||:I would like you to leave at once! I have nothing more to say to you.
+NPC-Fuduto(0);TAC50(2)<Speaker>TAC-50</Speaker>||:Miss Passadou, I believe we are both suffering from the same affliction.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>;TAC50(2)||:What, Dolls can also get ALS? You must be joking!
+NPC-Fuduto(0);TAC50(2)<Speaker>TAC-50</Speaker>||:No, what I mean is that we have both lost someone very dear to us in that fire.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>;TAC50(2)||:What do you mean?
+NPC-Fuduto(0);TAC50(2)<Speaker>TAC-50</Speaker>||:You lost your beloved husband.
+TAC50(2)<Speaker>TAC-50</Speaker>||:A very dear friend of mine also died in the fire.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:There was only one casualty in that fire. I don't know who your friend...
+()||:TAC-50 watches coldly as dread fills Passadou.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Have you really forgotten, or are you simply too afraid to remember?
+NPC-Fuduto(1)<Speaker>Passadou</Speaker>||:...I don't know what you're talking about.
+TAC50(2)<Speaker>TAC-50</Speaker>||:That's alright, I'll explain it all to you.
+()||:Passadou opens the window. She cannot find her Doll carer through the sheets of rain outside.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...Where is my Doll?
+TAC50(2)<Speaker>TAC-50</Speaker>||:It's Halloween. Everyone deserves a proper holiday, even Dolls. +Isn't that what you said?
+()||:The Doll carer, who is in forced shutdown, is standing motionlessly at the door, a pot of drenched flowers in her arms.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<SE1>Stop_AVG_loop</SE1>:...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Then I shall begin my story. +Let's start with my Doll friend. +She was an ordinary Type-AH400 Domestic Doll, a pretty obsolete model by today's standards. +A few years ago, I met her on my way back to base after I completed a mission. +AH400 was very endearing. She worshiped her mistress; she couldn't go two sentences without bringing her up.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...
+TAC50(2)<Speaker>TAC-50</Speaker>||<黑屏1>:Coincidentally, AH400's mistress was a musical actress.
+()||<黑屏2><回忆><BIN>166</BIN><BGM>BGM_Empty</BGM>:...Several years ago, on a busy street.
+TAC50(0)<Speaker>TAC-50</Speaker>||<BGM>BGM_Hello</BGM>:...Then I commanded Maple Moon to swipe the key, and the guy didn't even notice!
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:Hahahahaha... +Your missions are always so exhilarating! +They're certainly a lot more exciting than doing household chores every day like me...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:But you're also amazing! You can make such delicious meals without using any maple syrup!
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:It's not that big of a deal... It's just a small dessert...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:Your fruit tarts are as tasty as ever! ♪ +If they start selling these in the cafeteria back at Griffin, I doubt I'd even get to clap eyes on them before they're all sold out.
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:Heheh, my mistress loves them too! +I make them whenever she is in a bad mood, though her sugar intake has to be strictly monitored! +Uh, speaking of which, what is it like at Griffin?
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:Hm... It's like a congregation of weird Dolls, I guess? +We work under the Commander's command when there are operations, but we're free to do our own stuff when we're off duty. +The pay is pretty decent, room and board are included, and we sometimes get to go on vacations that are paid for by the company.
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:Wow, sounds like Eden for Dolls.
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:Eden? Now that you mention it, it does seem like paradise, haha...
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:And what is your master like?
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:Master? We never address them as such. It's just "Commander" for us. +Some of the Dolls also call the Commander "Darling", "Honey", or even "Little Lamb"... +I can never bring myself to do that...
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:Sounds like you all have a very close bond with your Commander...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(0)||:What about you? Are you not close with your mistress?
+TAC50(0);NPC-AH400(0)<Speaker>AH400</Speaker>||:You're mistaken! My mistress is the most talented musical actress in the world! +She is one of a kind! Her voice is so divine it can drive people to tears!
+NPC-AH400(0)<Speaker>AH400</Speaker>||:I absolutely adore her! I feel incredibly happy just seeing her sleeping face when I wake her every morning!
+TAC50(0)<Speaker>TAC-50</Speaker>||:...Wow, I'd like to see that.
+NPC-AH400(0)<Speaker>AH400</Speaker>||:Sadly I cannot invite you in... My mistress does not like it when I talk to other Dolls... +Actually, I never told her I have made a very cool friend. +But you will see her soon enough! +My mistress is set to perform at the theater next month!
+TAC50(0)<Speaker>TAC-50</Speaker>||:Congratulations! I'll be there!
+NPC-AH400(0)<Speaker>AH400</Speaker>||<黑屏1>:Okay!
+TAC50(2)<Speaker>TAC-50</Speaker>||<关闭蒙版><黑屏2><BIN>82</BIN><Night><BGM>BGM_Empty</BGM>:And so I attended the performance.
+TAC50(2)<Speaker>TAC-50</Speaker>||<BGM>BGM_Room</BGM>:"Phantom of the Opera". AH400's mistress only played a background role in her very first show; I didn't take much notice of her. +But AH400, who was sitting next to me, was so over the moon she almost dislocated my shoulder.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:...
+TAC50(2)<Speaker>TAC-50</Speaker>||:A while later, I heard that AH400's mistress had finally landed a leading role. +I was also very happy for her, but strangely enough, I soon lost contact with AH400.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:What does any of this have to do with me?
+TAC50(2)<Speaker>TAC-50</Speaker>||<黑屏1>:Relax, I'm just telling you my story. +One of my biggest shortcomings is that I can be extremely stubborn. +So I kept on searching for AH400 for a very long time, until one night, I passed by the theater. +I saw AH400's mistress talking to her husband. At the same time, an identical woman left the theater through the backstage exit. Her clothes made it obvious that she was the actress who just finished performing for the evening.
+()||<黑屏2><回忆><BIN>166</BIN><Night></BIN><BGM>BGM_Empty</BGM>:...By the theater back exit, after the performance.
+TAC50(0)<Speaker>TAC-50</Speaker>||<BGM>BGM_Sneak</BGM>:... +That woman looks exactly like AH400's mistress, who I clearly remember has no sisters... +So who is she? Why has AH400 gone missing? +In order to get some answers, I started waiting for the right moment to approach this woman.
+()||<SE1>AVG_Door_Open_Close</SE1>:A few days later, the theater backstage door opens again at the same time. +A woman wearing a black hooded cape exits the building furtively.
+NPC-AH400(1)<Speaker>???</Speaker>||:Phew... Finally, some fresh air.
+TAC50(0)<Speaker>TAC-50</Speaker>||:Who are you?
+NPC-AH400(1)<Speaker>???</Speaker>||<震屏>:Oh my—
+()||<黑点1>:The woman bolts in panic, but TAC-50 catches her firmly in a chokehold. +She drags her into a dark alley.
+TAC50(0)<Speaker>TAC-50</Speaker>||<黑点2><BIN>9</BIN>:Tell me, who are you? +Why are you impersonating Miss Passadou?
+NPC-AH400(1)<Speaker>???</Speaker>||:W-what are you talking about? I do not understand...
+TAC50(0)<Speaker>TAC-50</Speaker>||:...Playing dumb, are we?
+()||:TAC-50 tightens her grip. Then she notices something odd about her hostage.
+TAC50(0)<Speaker>TAC-50</Speaker>||:... +You're not human. You're a Doll?
+NPC-AH400(1)<Speaker>???</Speaker>||:...
+TAC50(0)<Speaker>TAC-50</Speaker><Shake>||:...AH400?!
+NPC-AH400(1)<Speaker>AH400</Speaker>||:...
+()||:TAC-50 tries to take off her mask, but the Doll struggles violently.
+NPC-AH400(1)<Speaker>AH400</Speaker><Shake>||:No! Don't take off my mask!
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(1)||:Why? What on earth is going on? +What happened to your face? And why do you sound all weird?
+TAC50(0);NPC-AH400(1)<Speaker>AH400</Speaker>||:... +I lost my original face and voice... +I do not want you to see me like this. Just remember me the way I was...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(1)||:Is this your mistress' doing? Why? +Isn't it illegal to construct a Doll's face in a human's likeness?
+TAC50(0);NPC-AH400(1)<Speaker>AH400</Speaker>||:Hush! Not so loud! +It could not be helped. There really was no other way. I had to do this for the sake of my mistress' career.
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(1)||:But why?!
+TAC50(0);NPC-AH400(1)<Speaker>AH400</Speaker>||:Stop questioning me! I can say no more...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(1)||:... +I see.
+TAC50(0);NPC-AH400(1)<Speaker>AH400</Speaker>||:TAC-50...
+TAC50(0)<Speaker>TAC-50</Speaker>;NPC-AH400(1)||:What?
+TAC50(0);NPC-AH400(1)<Speaker>AH400</Speaker>||:Even though I have changed...
+NPC-AH400(1)<Speaker>AH400</Speaker>||:We are still friends, right...?
+TAC50(0)<Speaker>TAC-50</Speaker>||<黑屏1>:Of course. We'll be friends forever.
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||<黑屏2><关闭蒙版><BIN>82</BIN><Night><BGM>BGM_Empty</BGM>:...She had a Doll sing in her place? +That's inconceivable. How preposterous.
+TAC50(2)<Speaker>TAC-50</Speaker>||<BGM>BGM_Room</BGM>:You're right. Miss Passadou really is quite baffling, isn't she?
+NPC-Fuduto(0)<Speaker>Passadou</Speaker>||:So what has this got to do with me? +I just want you to finish your tale and make yourself scarce.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Alright, I'll pick up the pace then. +Some time had passed, then one day, AH400 told me cheerfully... +That her mistress had decided to leave this perverse life behind and go live out the rest of her life quietly. +AH400 just had to perform one last time and she could regain her own identity. +I knew I would miss her dearly, but this was certainly for the best, so I was happy for her. +Her final performance just so happened to be on Halloween last year. +The very same day the theater burned down.
+()||<黑屏1>:Passadou's icy fingertips dig painfully into her palms.

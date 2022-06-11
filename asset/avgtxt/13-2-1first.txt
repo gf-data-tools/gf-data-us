@@ -1,0 +1,60 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>159</BIN><BGM>BGM_Sneak</BGM>:A unit of soldiers in search of the Commander are slowly closing in near the bunker. +The Commander glances at the weapon and detonator in their possession – direct confrontation is not a wise choice. +Not to mention, they have a much more important task. +The Commander carefully observes the enemy's movements through the cracks between the buildings as they move in the shadows, trying to slip quietly back the way they came. +But this place has been made practically watertight by the soldier's encirclement. A stealthy retreat will not be possible this time.
+NPC-Soldier(0)<Speaker>Military Soldier</Speaker>||:Here!
+()<Speaker>Commander</Speaker>||:!!!
+()||<SE2>Gunfight</SE2>:The Commander raises their scavenged rifle and fires a few shots at the soldiers. They scatter for cover, and the Commander takes the opportunity to make a run for it at top speed.
+NPC-Soldier(0)<Speaker>Military Soldier</Speaker>||:We've found the rat! Open fire!
+()||<SE2>Gunfight</SE2>:Bang-bang-bang! +Bullet after bullet impact behind the Commander, hot on their heels. +In their manic dash, they throw the rifle aside without a second thought.
+()||<SE1>RunStep</SE1>:The Commander sprints past the final junction, dodges the last few bullets by executing a deft roll, then dives into an alley using the momentum. +Without even stopping to catch their breath, they find a corner to hide in.
+NPC-Soldier(0)<Speaker>Military Soldier</Speaker>||:Move up and flank them! Don't let the rat escape!
+()||:The soldiers group themselves into pairs. With their back against each other, they warily approach the alley in which the Commander has taken refuge, all the while laying down suppressive fire. +The other group sneak toward the entrance and lob a grenade into the alley.
+()<Speaker>Commander</Speaker>||<BGM>BGM_Empty</BGM><黑点1>:!!!
+()||<黑点2><BIN>9</BIN><BGM>10065</BGM>:The Commander dives for the ground a split second before the explosion goes off.
+()||<SE1>Explode</SE1>:BOOM!
+()||<SE1>AVG_whitenoise</SE1>:The Commander's ears won't stop ringing after the explosion. +With all energy seemingly sucked out of them, they scramble to their feet, panting heavily as they hug the wall. Beads of sweat roll down their forehead. +There is a sharp pain in their left arm, and the numbness in their fingertips seems to suggest the worst. +They reach under their clothes with their trembling right hand and feel a sickly, wet warmth that smells coppery.
+()<Speaker>Commander</Speaker>||:What rotten luck...
+()||<黑点1>:The Commander sighs – time is running short. +They fish out the detonation trigger from their coat pocket, and as their hand brushes past another cold object, they are suddenly reminded of something...
+()<Speaker>Kryuger</Speaker>||<黑点2><BIN>28</BIN><黑点1><BGM>BGM_Empty</BGM>:Enough sleep, rookie. +You’re in luck. +Only a rifle fell on you, not the entire arsenal.
+()<Speaker>Commander</Speaker>||<黑点2><BIN>159</BIN><BGM>BGM_Danger</BGM>:You know, when I first took this job...you never told me it would involve such occupational hazards, Boss... +Sadly, I doubt I'll be able to collect my overtime pay from you.
+()||:Under their comrades' cover fire, the soldiers have reached the Commander's hiding place.
+()<Speaker>Commander</Speaker>||:Let's see if luck is on my side this time.
+()||:The Commander decides to leave it up to fate. They raise their pistol from behind their cover—
+NPC-Soldier(0)<Speaker>Military Soldier</Speaker><Shake>||:Hm?!
+()||<SE2>Gunfight</SE2>:Bang-bang-bang! +A soldier collapses to the ground. The other soldiers look around frantically, trying to locate the shooter, but they're soon hit as well.
+()<Speaker>Commander</Speaker>||:What's going on?
+()<Speaker>???</Speaker>||:Saving your life costs extra, Commander. Remember to put another 0 on the end of our fee when you get back.
+()<Speaker>Commander</Speaker>||:Is that 404?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Are you happy to see me, Commander? +It's too early to celebrate, though. Only 416 and I managed to sneak in. We'll think of a way to get you out of here.
+HK416Mod(0)<Speaker>416</Speaker>||:Hang in there. We'll be with you right away.
+()||<SE1>RunStep</SE1>:UMP45 and 416 dash towards the Commander's cover. Having finally recovered from the shock, the soldiers start shooting at them.
+()||<SE2>Gunfight</SE2>:416 swivels around mid-run and returns fire at the soldiers. Using this brief moment of respite in the enemy's attack, the Dolls roll behind the Commander's cover.
+()||<SE2>Gunfight</SE2>:416 immediately resumes her counterattack while UMP45 brings Kalina up to speed.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Miss Kalina, we've got the Commander. If you can spare any reinforcements, please send them our way ASAP. The enemy is more numerous than expected.
+NPC-Kalin(9)<Speaker>Kalina</Speaker><通讯框>||:Copy that! Hang in there!
+()<Speaker>Commander</Speaker>||:Looks like I'll have a chance of getting out of this alive after all.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:This is exclusive service that's only for you. Make sure you pay up, okay? ♪
+()<Speaker>Commander</Speaker>||:As long as Kalina doesn't pass out when she sees the figure.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Oh, I'm sure Miss Kalina's mental fortitude has improved a great deal. So what's the current situation?
+()<Speaker>Commander</Speaker>||:The explosives have been set on the sea valves. +We need to get to high ground. Once the valves blow, this place could also be flooded. +Even if we can't get out, I'll still have to detonate the explosives here. +I'm sorry for dragging you into this.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:It's a bit too late to apologize now that we've already jumped into this pile of crap. +416, got any ideas?
+HK416Mod(0)<Speaker>416</Speaker>||:Things aren't looking good at all. They've plugged the opening we took when we came in. We're outnumbered – I can't hold them off forever!
+()||:UMP45 tries to raise her head to evaluate the situation on the other side, but bullets keep whizzing past the top of her head. She ducks again and can only discern the enemy's positions from the noise.
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Humans are such a pain.
+HK416Mod(0)<Speaker>416</Speaker>||:I can't get a lock on their precise locations – I only have a rough idea on where they are judging by their bullets' trajectories and where the shots are coming from! +They've split into groups and are closing in. If they get close enough to throw a grenade, we'll be doomed!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Then don't let them get close enough. Surely an elite T-Doll can manage that much?
+HK416Mod(0)<Speaker>416</Speaker>||:Tsk, you with your ill-timed snide remarks!
+()||<SE2>Gunfight</SE2>:416 fires at the advancing enemies with precision; howls and shrieks of pain keep coming from the other side.
+HK416Mod(0)<Speaker>416</Speaker>||:Tsk, I'm dipping into my last AP rounds. My remaining mags won't be able to penetrate their armor, and it won't be long till they realize that. +Are there no other Dolls that can give us some backup?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:This is 404. We are under intense enemy fire. When will our reinforcements arrive?
+NPC-Kalin(9)<Speaker>Kalina</Speaker><通讯框>||:The nearest Dolls have already assembled a provisional rescue party; they're making their way to you. What's your situation?
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Well, we're pretty much on the verge of getting shot full of holes.
+NPC-Kalin(9)<Speaker>Kalina</Speaker><通讯框>||:You must stick it out! I'm putting you through to the rescue party!
+SL8(2)<Speaker>SL8</Speaker><通讯框>||:This is SL8, hailing Squad 404! We've still got some fight left in us – we're doing our best to breach the enemy encirclement and reach your position!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:How many Dolls do you have?
+SL8(2)<Speaker>SL8</Speaker><通讯框>||:Only a handful, but we're bringing you some spare ammo!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:Many thanks, we'll hold out until you get here!
+SL8(2)<Speaker>SL8</Speaker><通讯框>||:Please keep the Commander safe! We'll be right there! Over!
+NPC-Kalin(9)<Speaker>Kalina</Speaker><通讯框>||:The AR Team is also en route. SL8, once you get there, bolster 404's defenses and wait for them to link up with you!
+UMP45Mod(0)<Speaker>UMP45</Speaker>||:The AR Team has pulled out?
+NPC-Kalin(9)<Speaker>Kalina</Speaker><通讯框>||:Some of them are coming as fast as they can. Please, please stay alive long enough for them to show up!
+HK416Mod(0)<Speaker>416</Speaker>||<黑点1>:Things are getting more and more interesting.

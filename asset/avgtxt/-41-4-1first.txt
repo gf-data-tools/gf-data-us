@@ -1,0 +1,131 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker>Commander</Speaker>||<BIN>8</BIN><黑屏2><BGM>m_avg_casual</BGM>:Kalina... +What's the status of the two teams we sent out?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:They made their scheduled call-ins half an hour ago.
+()<Speaker>Commander</Speaker>||:And...how are they?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Their mission is still in progress. +Please be patient, Commander.
+()<Speaker>Commander</Speaker>||:I see... +Then, uh, Kalina...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:What is it, Commander?
+()<Speaker>Commander</Speaker>||:Don't you think it's time we sat down and had a proper conversation?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I don't quite get what you mean.
+()<Speaker>Commander</Speaker>||:You're still mad, huh...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:There are more important things which require your attention than such trivial matters, Commander. +16Lab has sent a comms request.
+()<Speaker>Commander</Speaker>||:... +Eh, at a time like this? +Put it through.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:Sorry to disturb you, Commander... +Oh dear, you look terrible.
+()<Speaker>Commander</Speaker>||:I couldn't get back to sleep after you woke me up in the middle of the night. +What do you want this time?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Oh... I see.
+()<Speaker>Commander</Speaker>||:You don't sound the least bit guilty... +So what's the matter, changed your mind about coming here?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Of course not. +However, I'd like you to do me a favor before I arrive.
+()<Speaker>Commander</Speaker>||:The mission Havier gave us is a big enough hassle as it is... +And we're kind of short on people to take on new missions.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:I'm sorry, Commander, but the truth is, this request I'm making is quite close to Mr. Havier's objectives. +He should have assigned you something troublesome like data analysis, right? +I studied that data too, and I went out of my way to contact you because I thought you might have missed something.
+()<Speaker>Commander</Speaker>||:Well, thank you very much.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:You should look into a Sangvis Doll. I believe you're quite familiar with her.
+()<Speaker>Commander</Speaker>||:Who is it?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Ouroboros.
+()<Speaker>Commander</Speaker>||:... +Isn't she in your lab?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Back then, 404 only delivered her neural core. Her body was thoroughly wrecked. +The evolution records of a high-level Sangvis AI were also completely destroyed.
+()<Speaker>Commander</Speaker>||:Well, that's Squad 404 for you... Sounds like they were pretty damn vicious.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Havier should have told you that Paradeus is researching S.F.'s neural cloud construction. +After all, the Sangvis Mastermind vanished with M4 in the wake of the Reverse Collapse phenomenon. +This indicates that S.F.-derived OGAS consciousnesses can resonate with Relics, just like M4. +My guess is that William has already picked up on this, so we need to hurry...
+()<Speaker>Commander</Speaker>||:So you want to figure all this out before Paradeus does?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Yes. +...After all, that was Lyco's work. +I don't want the fruits of his labor to fall into the hands of those bastards.
+()<Speaker>Commander</Speaker>||:...What do you need me to do?
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Does that mean you're agreeing to help me out?
+()<Speaker>Commander</Speaker>||:(Sighs) +It's always like this... +Just tell me what I need to do.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Thank you very much. +There ought to be other neural cloud backups of Ouroboros at her base, as well as spare bodies. +If you could recover those, I think I'll be able to figure out how S.F. neural clouds evolve. +You still remember that place, right?
+()<Speaker>Commander</Speaker>||:I'll go through previous reports and let you know once I turn up something.
+NPC-Persica(0)<Speaker>Persica</Speaker><通讯框>||:Thank you once again. It would be best if you have them ready before I arrive at the base. +It would let me hit the ground running, so to speak.
+()<Speaker>Commander</Speaker>||:I'll do my best.
+()<Speaker>Commander</Speaker>||<SE1>AVG_tele_disconnect</SE1>:The transmission ends.
+()||:The Commander turns off the screen, sighs heavily and collapses into their chair.
+()<Speaker>Commander</Speaker>||:This is hardly a vacation...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Is Miss Persica coming to this base?
+()<Speaker>Commander</Speaker>||:Huh? +Uh...yeah. She called about it late last night.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:I see...
+()<Speaker>Commander</Speaker>||:And I'll bet Havier is going to show up with her. +What a troublesome bunch. +Are there any Dolls we can spare for this?
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Um...
+()<Speaker>Commander</Speaker>||:Kalina?
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Huh? +Ah, we don't have any Dolls who can be sent on missions right now.
+()<Speaker>Commander</Speaker>||:I seem to recall a few of them are supposed to be undergoing neural cloud debugging. They should be free, right?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Well, yes... +They weren't sent out on missions earlier because their neural clouds were still glitchy. +And now that we're prioritizing the repairs on the destroyed Dolls, we still haven't gotten around to debugging them yet.
+()<Speaker>Commander</Speaker>||:But the flaws are just in their simulated personalities, right? +They won't need to emulate humans while looking for clues, and Persica did ask us to hurry.
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Er...but...
+()<Speaker>Commander</Speaker>||:I believe in the girls. I'm sure they'll be fine. +Also, we have Svarog backing us up.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||<黑屏1>:Understood. I'll make the arrangements right away.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM><BIN>9</BIN>:Humans can often exceed their limits, but for some Dolls, their limits are the end for them...
+()||<BIN>41</BIN><BGM>BGM_Danger</BGM><SE2>Gunfight</SE2><黑屏2>:...
+()<Speaker>Griffin Doll A</Speaker>||:What's the situation?
+()<Speaker>Griffin Doll B</Speaker>||:I can't move; I'm too badly damaged... You guys go on ahead!
+()<Speaker>Griffin Doll A</Speaker>||:Don't be ridiculous! We're not leaving anyone behind!
+()<Speaker>Griffin Doll B</Speaker>||:But...but we're low on ammo, it's not like we can hold out much longer anyway...!
+()<Speaker>Griffin Doll A</Speaker>||:Look out!
+()||<SE2>Gunfight</SE2>:A hail of bullets rain down them, and they barely manage to repulse the attacking wave of Sangvis forces.
+()<Speaker>Griffin Doll A</Speaker>||:Just grit your teeth and hang in there a little longer, otherwise, once she shows up...
+()<Speaker>Icy Voice</Speaker>||:And who is this "she"?
+()||<黑屏1>:The Dolls are too overwhelmed to respond to the voice. Their defense line is engulfed in a series of explosions. +The Doll squad which was arguing just a moment ago is completely destroyed. The only one who survived—the team leader—is sprawled in a crater, looking fearfully at the billowing clouds of dust and smoke before her, from which a Sangvis Doll emerges.
+Weaver(1)<Speaker>Ouroboros</Speaker>||<BIN>9</BIN><黑屏2>:—You can regret showing compassion in death.
+()||<黑屏1>:...
+VHS(0)<Speaker>VHS</Speaker>||<BIN>4</BIN><黑屏2><BGM>m_avg_casual</BGM>:And that's it for the playback of the simulated battle with the Ouroboros AI.
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Very good. +AUG Para!
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Yes, Leader?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:State your current location!
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Er, um... With an interim reconnaissance squad, on the base perimeter in Area S06...?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:The Griffin Doll Handbook, Article Two, Paragraph Seven states, "You shall not engage in idle chatter during an operational meeting". +While it does not warrant a punishment, I feel you need a reminder on the consequences of violating the regulations in my squad.
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:I'm sorry, Leader, but VHS looks so cute sitting there I just want to get to know her better, hehe... +But do those regs even apply to humans?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Humans?
+VHS(0)<Speaker>VHS</Speaker>||:AUG Para has excluded herself from coverage under that rule due to an abnormality in her internal storage, resulting in erroneous self-perception.
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:In short, there's something wrong with her neural cloud. Fortunately, it only causes problems with her sense of identity and has no effect on her combat capabilities. +AUG Para, you were supposed to be sent in for debugging, but now you have the chance to prove yourself to the Commander in this squad. You should cherish this opportunity lest you be sent back to the forge to be rebuilt.
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:I'll do my best, of course. After all, I can meet and make friends with more Dolls here, hehe~
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:VHS, is she the only Doll that Miss Kalina has assigned to us? What about the other two?
+()||:Right then, a motorbike screeches to a sudden halt in front of Mondragon, its rear wheel throwing up a shower of dirt.
+PM1910(0)<Speaker>PM1910</Speaker>||:Oi, I heard I could get into a good fight here, count me in! +Oh yeah, I brought a lost Doll along; is she one of yours?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:I-I'm Liu, reporting for duty!
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:What a cutie. You dropped a round though.
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Oh, sorry! I've decided to bring extra ammo since we'll be traveling to somewhere far away, that's why...
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Liu, do you know what time it is?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Eeep! I'm sorry...
+PM1910(0)<Speaker>PM1910</Speaker>||:Why? Is knowing the time important?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Naturally, it isn't an issue for irresponsible Dolls, but... +The Griffin Doll Handbook, Article One, Paragraph Three states, "staying on time is one of the key factors in ensuring the team's survival on the battlefield." +It would be a shame to compound a severely defective neural cloud and non-adherence to the rules with a lack of self-awareness.
+PM1910(0)<Speaker>PM1910</Speaker>||:Man, just hearing you talk pisses me off. If you have a bone to pick with me, then come out and say it!
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:I know you refuse to listen to anyone, PM1910. +Your last team was nearly disbanded because your neural cloud malfunctioned and you threatened the human you were supposed to protect.
+PM1910(0)<Speaker>PM1910</Speaker>||:Hahahaha~ So you know what'll happen if you make me mad!
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Since you seem to consider yourself very capable, you'll spearhead our offensive, then.
+PM1910(0)<Speaker>PM1910</Speaker>||:I'd have taken the spot even if you hadn't put me there! I'm the perfect candidate!
+()||:PM1910 marches on ahead into Area S06 without a backward glance.
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:I honestly thought you guys were going to fight, ahaha...
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||<黑屏1>:Our situation has changed. The Commander needs someone to get the job done now more than ever. +Regardless of the various defects in your neural clouds, as long as I am leading you, I will do my best to improve your regimentation until we recover intelligence on Ouroboros.
+()||<黑屏2><BIN>71</BIN>:...An hour later, near Ouroboros' base in Area S06.
+()||<SE1>AVG_rifle_finalshot_n</SE1>:Bang—
+PM1910(0)<Speaker>PM1910</Speaker>||:Hahahahaha, die, you Sangvis trash!
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:PM1910 looks really scary...
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Liu, be careful!
+()||<SE1>AVG_rifle_finalshot_n</SE1>:There is a gunshot, and only then does Liu notice the Sangvis Dinergate that was shot down right next to her.
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Eeek! W-When did that...?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:The Griffin Doll Handbook, Article One, Paragraph Six states, "Pay full attention during battle." +If your heart isn't in this, you're the one who'll be destroyed next time. Got that?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Yes, sorry ma'am...
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Aw, don't worry, since you're so cute, I've got your back~! +Still, I have to ask, how did you end up on this team?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:I-I don't know... I was being chased around the battlefield by S.F., next thing I know, they sent me in for neural cloud debugging...
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Why didn't you return fire?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:I'm sorry, what?
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:I mean, you could have just wiped out the S.F. forces chasing you, right?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Oh... Ohhhhh! Yes, I could have destroyed them, but I had trouble finding them. +It makes me want to play hide-and-seek, but I'll come up with a solution for it eventually...
+PM1910(0)<Speaker>PM1910</Speaker>||:Do you even need to put that much thought into it ?! Next time, just point in the same direction as us and pull the trigger!
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Yes, I'm sorry...
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:Don't tell me you haven't taken part in a single battle ever since you were made?
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:I-I have! +I-I just wasn't too sure what was going on...
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Perhaps it's a malfunction in your data storage and retrieval processes. In any case, you're faulty. +But that's not an issue. All you need to do is obey orders and pull the trigger. +VHS, start cracking the control systems for the main gate.
+VHS(0)<Speaker>VHS</Speaker>||:Alright.
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:How's it going?
+VHS(0)<Speaker>VHS</Speaker>||:It seems to be going pretty well...
+AUGPARA(0)<Speaker>AUG Para</Speaker>||:I sense a "but"?
+VHS(0)<Speaker>VHS</Speaker>||:Well, I made a copy of the signal ID logs in the control systems and found a bunch of IFF signals that showed up recently. They are neither S.F. nor Griffin.
+GeneralLiu(0)<Speaker>General Liu</Speaker>||:Huh?! Are there other enemies?
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:Probably Paradeus, assuming it's not something else altogether. +What's the exact timestamp?
+VHS(0)<Speaker>VHS</Speaker>||:It was roughly a week ago.
+PM1910(0)<Speaker>PM1910</Speaker>||:Tsk, petty tricks like these are all those little maggots can pull!
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:...It suits me just fine. +Since Paradeus has made the first move, we can help the Commander investigate their objectives and where they're headed.
+VHS(0)<Speaker>VHS</Speaker>||:Also...
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:What is it?
+VHS(0)<Speaker>VHS</Speaker>||:I'm picking up a lot of hostile signals within the Sangvis base.
+PM1910(0)<Speaker>PM1910</Speaker>||:So what, I can scrap them all by myself! Open the gate!
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||:We need to minimize our losses before we encounter the true threat. +VHS, can you hack part of their forces?
+VHS(0)<Speaker>VHS</Speaker>||:This is an opportunity for me to learn. I can give it a try.
+MondragonM1908(0)<Speaker>Mondragon</Speaker>||<黑屏1>:Very good. I'll leave the rest to you, then.

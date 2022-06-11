@@ -1,0 +1,45 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:...
+()||<黑屏2><BIN>82</BIN><SE1>AVG_footsteps_woodfloor</SE1><BGM>BGM_Brain</BGM>:The area near PP-19's dorm is quiet. No, it's not so much quiet as subdued.+The clamor of the Dolls seems to be avoiding this area, and the closer one gets to her doorstep, the further away the joyful chatters seem to be.+However, this oddity does not seem to bother the visitor who has just arrived.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock, knock. She knocks on PP-19's door.
+()<Speaker>PP-19</Speaker>||<震屏>:I told you NO! I'm not going! +I'm not going no matter who's asking!
+AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:This is AK-Alfa. I know you're very angry now, but neural upgrades are very important. +Let me in, please. Arguments should not be had in the doorway.
+AKAlfa(0)<Speaker></Speaker><同时置暗>||:...
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:The sound of conversation from the nearby Dolls dies down, and all eyes are focused on AK-Alfa. +Someone even brings up Miss Kalina's number on speed-dial, ready to put the call through if things turn bad. +However, the Dolls' fears do not come to pass. +PP-19 opens the door, grabs AK-Alfa by the arm, and yanks her inside. +The invisible pressure in the air fades away, and the Dolls resume their cheerful bustle.
+()<Speaker></Speaker>||<BGM>BGM_Wake</BGM><黑点1>:Inside the dorm room.
+pp19(0)<Speaker>PP-19</Speaker>||<黑点2>:And why would Your Ladyship deign to lower yourself to visit me?+I thought you're dissatisfied with the sanitary condition of this place and the fact that you couldn't see the stars from here. You even specially requested a room on a higher floor.
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:I came because this is important. Kalina is hoping that you will accept it...
+pp19(0)<Speaker>PP-19</Speaker><Shake>;AKAlfa(0)||:Shaddup! I said no, didn't I?!
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:...But why? This is a rare opportunity. +A Doll's service life is typically around 20 years. If you accept the neural upgrade, you will be completely revamped and will be able to stay in service longer.
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:I know that, I'm not stupid. +(Sighs) Why do I have to explain it to you...? You're such a stick in the mud I'm wondering if your rating is the real deal.
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:My rating is decided by the breadth and depth of my neural cloud. If you accept the neural upgrade, your rating can be raised to my level.
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:But it's no use to me at all! I'm stronger than you and I can do more things than you. +Also, there are many more people out there who need an upgrade, compared to me. Many, MANY, more. I'm fine as I am, so why should I compete with others for a slot?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Shall I recite the report from the meeting? +"During the hostage rescue operation codenamed "Night Rain", PP-19 caused many hostage injuries. The cause was determined to be inflexible logic links and excessive self-defensive action. A motion recommending neural upgrade was filed to prevent similar incidents from occurring again. 28 in favor, 2 opposed."
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:It was just a small problem, at the very most I can just not take part in rescue missions like this until it's my turn for a neural upgrade. +Still, who voted against it apart from me?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:It was an anonymous vote. Why are you asking me?
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:Oh yeah. In any case, I don't mind letting someone else have this chance. +Makarov, Tokarev and PPK all deserve it.
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:And then?
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:And then what? What do you mean, "and then"? I'll just do what I can do!
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:So you'll do what you can do and let others clean up your messes?
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:You—
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Why are you so angry? Did I touch a nerve? +When Tokarev went on that mission with you last time, she was constantly apologizing for you and the Commander was berated by the hostages' families for ages. What about you? Do you think you can get away with everything with regret and resolve alone?
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:...But I'm not weak!
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:You're right, you're not weak. That's why everyone pushed you into this batch of neural upgrades. Can't you tell?
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:I...
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:You've caused a lot of problems for everyone, and your abilities aren't enough to offset the problems you've caused. +I hope you will come to your senses soon.
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:...
+pp19(0)<Speaker></Speaker>;AKAlfa(0)||:PP-19 says no more. Her fists are clenched tight. Anger still lingers on her face, but her eyes are now clouded with uncertainty. +AK-Alfa does not say anything either. She merely casts her gaze to the empty window sill.
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:...Are neural upgrades really such marvelous things? Will everything be solved once you get one?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:I haven't had one, but that's what Miss Kalina says. +There's one thing I know for sure. As long as you retain your current body and only upgrade your neural cloud, you can always revert all changes made and return to your previous version.
+pp19(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:So should I give it a try?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:You should be asking yourself that.
+()||<BIN>8</BIN><黑屏2>:...+Two days later, in the Griffin base, in front of the door to the Commander's office.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<BGM>BGM_Sunshine</BGM>:Thank you for your hard work, Commander! +The paperwork's all sorted, now all that's left is...
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(1)||<SE1>AVG_lifttable</SE1>:Commander! Kalina! I'm back!
+pp19(0);NPC-Kalin(12)<Speaker>Kalina</Speaker>||:...All that's left is pick it all up and sort everything again.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(12)||:Oh, I'm sorry, let me help too. In any case, my neural upgrade is complete! I don't feel any different than before, but apparently I'm stronger now. +Commander! Give me a new mission! I want to see how strong I am after my upgrade!
+pp19(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:This...
+pp19(0);NPC-Kalin(3)<Speaker></Speaker><同时点亮>||:Kalina smiles awkwardly, then looks to the Commander with a pleading expression on her face.
+pp19(0);NPC-Kalin(3)<Speaker>Commander</Speaker><同时点亮>||:Normally speaking, you ought to be handling more difficult tasks after your neural upgrade is complete. But your body hasn't been upgraded, so we can't really say the upgrade is complete.
+pp19(0)<Speaker>PP-19</Speaker>||:But my neural cloud's been upgraded! Surely something should have changed!
+pp19(0)<Speaker>Commander</Speaker>||:Good point. Now, for a mission that will let you feel the change in yourself... Let's go with... +A biological specimen escort.
+pp19(0)<Speaker>PP-19</Speaker>||<黑屏1>:...Huh?

@@ -1,0 +1,106 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>84</BIN><黑屏2><BGM>BGM_Room</BGM>:Bremen City Hall, Germany.
+()<Speaker></Speaker>||:The black sedan slowly comes to a stop at a reserved parking spot. The woman dressed as a secretary gets out first and hurries to open the door for her passengers in the back seat. +But before she can do that, they have already disembarked on their own.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>||:...
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:Have you had dealings with this Chairwoman Ulrich before?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK12(0)<Position>0,85</Position>||:No, I've never even met her. +But I've heard about what she did in Belgrade. +Including the things she went through with the Commander.
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:Do you think she can be trusted?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK12(0)<Position>0,85</Position>||:I will reserve my judgment. But we have free rein here only because she's given us the green light. +I really can't draw any conclusions until I actually meet her.
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:I see~
+NPC-Morridow(0)<Speaker>Morridow</Speaker>;AK12(0)<Position>0,85</Position>||:Frau Ange, this way please!
+NPC-Morridow(0);AK12(4)<Speaker>AK-12</Speaker><Position>0,85</Position>||:How attentive of you, Miss Secretary. It must be tough doing this kind of work.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>||:Not at all... I love my work. +I have always aspired to serve Frau Ulrich and contribute to her cause, no matter how insignificant my contribution may be. +I firmly believe that her ideology will guide mankind onto the right path as we struggle to survive in this hostile world. +I am happy to tend to the frivolities behind the scenes, and I freely admit that I'm merely parroting her views.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>||:Sounds like you have a lot of respect for your employer.
+NPC-AngeStreet(0);NPC-Morridow(0)<Speaker>Morridow</Speaker>||:My employer is my country; Frau Ulrich is simply my superior. +Still, I feel extremely lucky to be given the opportunity to work under her. She is truly deserving of respect.
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:How surprising. +I've been working with Angelia for such a long time I've almost forgotten there are actually good people in the world.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK12(0)<Position>0,85</Position>||:Watch your tongue while we're in there. +I don't want to get kicked out before we can even start doing our job.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>97</BIN><黑屏2>:...
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>||:Frau Ulrich, it's me. +Frau Angelia is here.
+乌尔利赫()<Speaker>Ulrich</Speaker>||:Please come in.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:...
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:...Frau Angelia, it's a pleasure.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Hello, just call me Ange.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:And this must be AK-12. +I have heard much about you. You are considered quite the exceptional paragon even among Tactical Dolls.
+AK12(4)<Speaker>AK-12</Speaker><Position>0,85</Position>;NPC-Ambassador(0)||:Hahahaha, you are incredibly forthright. +But you might want to call me Lucia for now.
+AK12(4)<Position>0,85</Position>;NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Lucia?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:That's her alias while we're operating in Germany.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:I see. So the Wolf Pack is also here.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>;NPC-Ambassador(0)||:A-Apologies, Frau Ulrich... +I did say Frau Ange was the only one you wanted to see...
+NPC-Morridow(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:No need to apologize. Frau Ange is in a very precarious situation; her caution is totally understandable. +Not to mention I am a complete stranger.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Thank you for your understanding and support.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:It is simply a mutually-beneficial arrangement, Frau Ange. +We also have much to gain from your operation. +We have every reason to see to your success.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:So what do you want with me? +Frankly speaking, I sneaked into Bremen through border security as a legitimate refugee. +I'm in no state to be talking to you in a place like this. +I don't mind making this trip, but I claim no responsibility for soiling your pristine office.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Please forgive me. I understand you are unhappy that you've been brought here against your wishes. +I should have gone and welcomed you in person. +However, I'm afraid I am not currently in the position to do that. +As you surely know, right now this office is being watched very closely.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:...Because of what happened at the submarine base.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:As a key participant of that operation, I believe your superior must have sent you here to share some information with us?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Unfortunately, I no longer have a superior.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Which is why you're the one standing in my office and not anyone else.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:You should know that I don't give away intelligence for free. +There is also something I want. This collaboration can only proceed if I get something of equal value in return.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:That's alright, I did not expect you to divulge anything today. +I simply wanted to have a chat with you in person out of common courtesy.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:You have achieved your goal even if we talk about nothing. You just needed me to sit here for several minutes.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:After all, a lot of eyes are on you. +I ask for your understanding. Think of it as a politician's customary tactic.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:I only agreed to come because the Commander thinks pretty highly of you. +If you truly live up to your reputation, then surely you cannot abide by William's crimes?
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Naturally.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Alright, I hope you'll prove that through your actions.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:I will give you whatever assistance I am in the position to give.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:In exchange, I will provide you with intelligence once my objective is completed.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Wonderful. +But even if you didn't, I would still help you.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Why?
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:There are far too few kind-hearted people in the world. +No matter how hard you try to feign indifference, you cannot really hide your true nature. +You and the commander that saved me both strike me as the rare sort of people who still possess kindness. +It is my belief that the world will be a better place with more people like you. +Our mission isn't to catch one or two bad guys, but to change this evil-infested world and remake the rules that govern it.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:"A shining beacon in a brave new world"...eh? +But I must warn you—it does take power to change the world, but power that's beyond your control will eventually be your demise. +I hope you will not repeat my country's mistake.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:I will remember your counsel.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Now I can see why you were sent to Belgrade.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:I'm flattered. +Morridow, escort Frau Ange to her residence.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>;NPC-Ambassador(0)||:Uh... Right! Understood!
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Oh... One more thing.
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock.
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Come in, please.
+？？？()<Speaker>???</Speaker>||:...Ma'am.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:A man of imposing stature enters the office.
+NPC-Hopps(0)<Speaker>???</Speaker>||:Anything I can do for you, Madam Chairwoman?
+NPC-Hopps(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Angelia, Herr Hopps will be in charge of your safety during your time in Bremen.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:I won't run away.
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:This really is just for the sake of your personal safety.
+AK12(4)<Speaker>AK-12</Speaker><Position>0,85</Position>||:Hahahaha, you Germans have such a great sense of humor!
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...I am Hopps, Protection Officer.
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Hopps is a retired GSG 9 officer and has been working for me for almost a year. +He has seen real combat and is very dependable; you can count on him. +In terms of performance in combat, he obviously can't compare with your Dolls. +But it's better to let a human handle things in the city.
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:Also, feel free to entrust Morridow with other errands. +I know it is rather difficult for you to navigate our city, where everything is new and unfamiliar.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>;NPC-Ambassador(0)||:At your service!
+NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:She knows the city very well and will be able to help you in all kinds of matters.
+AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>;NPC-Ambassador(0)||:She does sound pretty useful, Ange.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Alright.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:In that case, I wish you a happy and fruitful time in Bremen.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Ambassador(0)||:Thanks. +And please bear with us if we cause any trouble.
+NPC-AngeStreet(0);NPC-Ambassador(0)<Speaker>Ulrich</Speaker>||:...I'll keep that in mind.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>84</BIN><黑屏2>:...
+NPC-Morridow(0)<Speaker>Morridow</Speaker>||:Frau Ange, allow me to escort you to the safe house. +Herr Hopps, are you coming with us?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...My mission is to ensure Frau Ange's personal safety while she is out and about in Bremen. +At the same time, I have been asked to keep out of her way in day-to-day life.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;NPC-Hopps(0)||:How very thoughtful of the chairwoman... So are you coming or not?
+NPC-AngeStreet(0);NPC-Hopps(0)<Speaker>Hopps</Speaker>||:If you'll allow me to accompany you.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>||:Lucia, get in the car.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>85</BIN><黑屏2>:...
+()<Speaker></Speaker>||:A few minutes later, at the temporary outpost prepared by Ulrich.
+NPC-Morridow(0)<Speaker>Morridow</Speaker>||:It's a bit messy, but it is definitely secure. +Hopps and I will be waiting outside. Please call us if you need anything.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:With that, Morridow leaves the briefing room and closes the door behind her.
+AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position>||:Ange.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AN94(11)<Position>0,-70</Position>||:Hm... +Where's K?
+NPC-AngeStreet(0);AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position>||:Mr. K left shortly after he had brought us here. +He seemed to have other important matters to attend to.
+NPC-AngeStreet(0);AK15(0)<Speaker>AK-15</Speaker>||:...How did the discussion go?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK15(0)||:There wasn't really much of a discussion. +This is only day one; we'll be here for a long time.
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:I do hope it will go smoothly. +Unfortunately, from what I can tell, some things are beyond even the chairwoman's control.
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK12(0)<Position>0,85</Position>||:Ulrich isn't the chancellor of Germany. Just be happy that she genuinely wants to help. +According to my sources, quite a lot of people have opposing views even in Bremen alone. +Governments are never as cohesive as they make themselves out to be.
+NPC-AngeStreet(0);AK12(0)<Speaker>AK-12</Speaker><Position>0,85</Position>||:People are the same everywhere, eh?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK12(0)<Position>0,85</Position>||:If pointless strife is reduced by even 10%, the world will become a paradise. +In any case, we have more immediate things to worry about. Don't forget why we've come all this way to Germany.
+NPC-AngeStreet(0);AK15(0)<Speaker>AK-15</Speaker>||:How should we proceed?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AK15(0)||:Now that we have a way of navigating the city, we can focus on the operation. +William... Havier's intelligence indicates that he is in Bremen, but that still leaves us with a lot of ground to search. +This is a very cunning man. Evidence of his activities is detected only after he's long gone, and he always keeps his plans well-concealed.
+NPC-AngeStreet(0);RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:But you've already got a plan?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;RPK16(7)<Position>0,-70</Position>||:We don't have nearly enough clues to work with, but it's better than nothing. +At least we can now be certain that we're at an important location, and this is where we will find that weasel.
+NPC-AngeStreet(0);RPK16(7)<Speaker>RPK-16</Speaker><Position>0,-70</Position>||:Right... So we've got to drag the weasel out by his tail.
+NPC-AngeStreet(0);AK12(4)<Speaker>AK-12</Speaker><Position>0,85</Position>||:That sounds very comedic coming from you.
+NPC-AngeStreet(0);AN94(11)<Speaker>AN-94</Speaker><Position>0,-70</Position>||:Should we start searching?
+NPC-AngeStreet(0)<Speaker>Angelia</Speaker>;AN94(11)<Position>0,-70</Position>||:No need to be hasty. We aren't the only ones who want a piece of the action. +Right now, all we need to do is sit tight and wait.
+()||<黑屏1>:

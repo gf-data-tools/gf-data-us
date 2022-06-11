@@ -1,0 +1,130 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>270</BIN><BGM>GF_EV9_Story</BGM>:...Inside the church in the refugee settlement. +The place is littered with corpses, their once warm blood slowly growing cold. +Hopps is shoved onto the floor. He has only suffered some minor injuries, but his face is as pallid as that of a cold corpse.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What sacrilege it is to kill on hallowed ground... +But thank God you made it here in time. +Thank you so much, Frau Renate and Frau Erwin.
+AK15(6)<Speaker>AK-15</Speaker>||:Don't thank me. It's all part of Ange's plan.
+RPK16(7)<Speaker>RPK-16</Speaker>||:Mr. Hopps, what do you think of my knotting? +And Mr. Powell, nice to meet you. What, not even a handshake?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...
+NPC-Powell(0)<Speaker>Powell</Speaker>||:...
+()||:Hopps glowers in silence while Powell has already passed out since the moment AK-15 broke through the wall. +Ange walks up to J and kneels down to check on him.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:J, wake up.
+()<Speaker>J</Speaker>||:...
+RPK16(7)<Speaker>RPK-16</Speaker>||:Mr. J, if you keep playing dead, AK-15 will smash something again right next to you.
+()<Speaker>J</Speaker>||:...
+RPK16(7)<Speaker>RPK-16</Speaker>||:Oh dear, he's actually out cold.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:His vital signs are stable though, so he'll live.
+RPK16(7)<Speaker>RPK-16</Speaker>||:What terrible news.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Indeed, but there are more not-so-terrible news.
+()||:Ange looks out the window. Sounds of the approaching police cars, ambulances, and armed helicopter grow clearer and clearer.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Ange, we'll be there in five minutes. How are things on your end?</color>
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:We've got Powell, and we've also exposed the GIP mole. It's Hopps. +Nothing serious happened, though J has taken quite a beating.
+NPC-Jason(2)<Speaker>K</Speaker><通讯框>||:<color=#00CCFF>Really?</color> +<color=#00CCFF>Then stay where you are. Be there in three minutes.</color>
+()||:The call ends.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:He's dying to see J looking like a lumpy ragdoll.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Ange... About Hopps...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Don't worry, I won't let Chairwoman Ulrich be implicated. +We'll hand him over to K. His old prison life will probably be heaven compared to what he's about to go through.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Uh... Isn't that a bit excessive?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Enough with your false pity, hypocrites.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What do you mean...?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Don't you understand? Where were you in 2053?
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What are you talking about?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:What about 2058?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I don't like it when people beat around the bush. What's your point?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:You want to know why I'm doing this? +Take a proper look at this refugee settlement and you tell me why. +The Volkskammer once told us to fight for our people, to fight for justice, so we sacrificed everything for the sake of this land, and in return, this is what we get in return! Germany has to exploit its own people to feed these refugees! +Even the GIP, whose "endurance" you're so dubious of, pay more than the meager minimum wage set by the government! 7 Mark and 34 Pfennig is nothing!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Tsk, so it is about money after all. +But that's okay, at least you're more down-to-earth than an old friend of mine. +Only those who are in touch with reality deserve sympathy.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:What do you know?! +Veterans and elites in the armed forces can barely afford to put food on the table, while PECMAR is burning money to house this group of human swines! +This is not why we've bled for this country!
+()||:Ange shakes her head and walks off, ignoring Hopps.
+RPK16(7)<Speaker>RPK-16</Speaker>||:I thought you were going to continue this breath-wasting debate.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:The aforementioned old friend has taught me that it's impossible to change the minds of people like that. +At least it's not something I can do. Perhaps the old geezer is better at this sort of stuff.
+RPK16(7)<Speaker>RPK-16</Speaker>||:But wasn't he the one who dumped all this trouble onto you in the first place?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:At least I've learned that idiots are all alike after going through all this trouble.
+()||:Morridow puts down her communicator and walks up to Ange.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Ange, I just got in touch with Chairwoman Ulrich. +She has something very important to tell you, but she must do that in person. +The aircraft you summoned is almost here. Let's travel directly to her office.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||<黑屏1>:Alright. +Once we've wrapped things up here, I'll go see the chairwoman with you. We can give her a report of our investigations while we're at it.
+()||<黑屏2><BIN>9</BIN><BGM>BGM_Empty</BGM>:...Somewhere.
+()<Speaker>???</Speaker>||:We've failed.
+()<Speaker>???</Speaker>||:They have Hopps...
+()<Speaker>???</Speaker>||:Hopps is a tough guy. He won't tell them anything.
+()<Speaker>???</Speaker>||:But what are we gonna do?
+()<Speaker>???</Speaker>||<黑屏1>:Get on the boat. First of all, we must survive. As long as we're alive, we haven't lost.
+()||<黑屏2><BIN>270</BIN>:Under the intervention of multiple parties in Germany, the riot within the refugee settlement is soon snuffed out. +Hopps and Powell are taken away for further investigation while K arrives at the scene with reinforcements.
+NPC-Jason(2)<Speaker>K</Speaker>||<BGM>m_avg_casual</BGM>:Ange, where's J?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Aren't you going to at least ask about what happened?
+NPC-Jason(2)<Speaker>K</Speaker>||:Don't be ridiculous. Just tell me where he is.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:There, lying in the corner.
+()||:K immediately takes off running with the a team of paramedics in tow.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Herr K must be very close with Herr J. That's why he's so concerned when he heard that Herr J is...
+()||:Before Morridow can finish, K emits a low chuckle as he towers over J.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:... +I've never heard Herr K laugh so happily...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:And I've never heard such sleazy laughter. Oh, Erwin?
+AK15(6)<Speaker>AK-15</Speaker>||:Yes, Ange.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:You and Renate go get yourselves patched up. +We'll meet up at the safe house later.
+AK15(6)<Speaker>AK-15</Speaker>||:Roger.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:What about the other two Dolls?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:They're destroyed. +But don't worry, they've left backups. We'll just activate their spare bodies once we're back at the safe house. +Let's go talk to Chairwoman Ulrich first. There's a lot we need to fill her in.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Right. The aircraft just landed. Perfect timing.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Good. Where is it?
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:At the square just outside the church.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Got it.
+NPC-Keven(1)<Speaker>J</Speaker>||:Going so soon, Morridow?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Up on your feet already?
+NPC-Keven(1)<Speaker>J</Speaker>||:Being the hopes and dreams of so many lovely ladies, I can't keel over just like that.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:(Rolls eyes)
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:I was just about to check on you. Looks like that won't be necessary.
+NPC-Keven(1)<Speaker>J</Speaker>||:Oh, no, I'm actually feeling really lousy. +Still, I didn't know you cared so much about me.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:You're mistaken. I just wanted to drink in how battered you look after you got the living crap beaten out of you.
+NPC-Keven(1)<Speaker>J</Speaker>||:...The prettier the girl, the better she lies.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Teehee~
+NPC-Keven(1)<Speaker>J</Speaker>||:When this whole business is over, can I take you out for some coffee? +How does Arabica beans sound? I know a really good coffee place that makes those.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Sure, I'm up for it.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:... +I seem to be...intruding on something here?
+NPC-Keven(1)<Speaker>J</Speaker>||:Oh, you're still here.
+()<Speaker>K</Speaker>||:Stop hitting on girls, J! Go and lie down inside the ambulance!
+NPC-Keven(1)<Speaker>J</Speaker>||:Alright, alright. +We have a date then, Morridow!
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Right!
+NPC-Keven(1)<Speaker>J</Speaker>||:By the way, Ange.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Yes?
+NPC-Keven(1)<Speaker>J</Speaker>||:You know what I'm talking about, right?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I suppose? It's not about coffee, is it?
+NPC-Keven(1)<Speaker>J</Speaker>||:Hahaha, you got it! It is exactly about coffee. Make sure you remember, okay? +I have a feeling we'll meet again.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Then your feeling is wrong.
+NPC-Keven(1)<Speaker>J</Speaker>||:Hahahaha!
+()||:J is carried away on a stretcher.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:I'll go and sort out the landing procedures for the aircraft. Wait for me here, okay?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Sure.
+NPC-Jason(2)<Speaker>K</Speaker>||<BGM>BGM_Empty</BGM><黑屏1>:Ange, a moment of your time.
+()||<黑屏2><BIN>3</BIN><BGM>GF_EV9_Story</BGM>:...In a quiet corner.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:You've also noticed, haven't you?
+NPC-Jason(2)<Speaker>K</Speaker>||:Bremen feels like a trap laid beforehand. +They know about every step we take before we take it.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:The enemy is obviously hidden even more deeply than we imagined.
+NPC-Jason(2)<Speaker>K</Speaker>||:You mean Hopps?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:No, the GIP doesn't have that kind of influence. It must be something else. +What happened here in the refugee settlement was way too complicated. It wouldn't have gotten so out of hand if they had been the only ones involved. +I doubt they could manage anything bigger than this.
+NPC-Jason(2)<Speaker>K</Speaker>||:You're right. The GIP couldn't have planned everything since your investigation at the Flora Institute.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Back at the institute, someone wiped all the data before we arrived. +Whoever did it must have an extremely high-level security clearance. Even Leone knew nothing about it. +At the end of the day, she was just another pawn.
+NPC-Jason(2)<Speaker>K</Speaker>||:We're trying our best to recover the data at the Flora Institute. Hopefully we'll be able to salvage some of them.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:What happened at the orphanage was very strange as well. According to the intelligence report, those children were being used as test subjects. +But they don't appear to be abused or mistreated.
+NPC-Jason(2)<Speaker>K</Speaker>||:Guinea pigs that are well taken care of, huh...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Powell might have been just one of their multiple channels of transporting children. They only hired a thug like him to cover up the full extent of their trafficking network. +He operated as a representative of the GIP and handed the children over to Paradeus. +All the transactions took place within the refugee settlement, making them impossible to trace. +But even so, he's probably also unaware of Paradeus' inner workings. +William's direct subordinate most likely hasn't shown their face at all; that's how well hidden they are. +I believe even Hopps was completely kept in the dark. +He might not even know about the arrangement between the housemother and Powell.
+NPC-Jason(2)<Speaker>K</Speaker>||:I will question Hopps myself later.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Then there's this refugee settlement.
+NPC-Jason(2)<Speaker>K</Speaker>||:We noticed some strange powder on the road during previous recon missions. We've sent it to the labs but they haven't got back to us yet.
+()||:Ange hands K a spent casing she has picked up.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I originally thought it was a dirty bomb with Collapse contaminant, but the ELIDs we encountered in the settlement were different. +Now that I think about it, it could be related to the flowers at the Flora Institute.
+NPC-Jason(2)<Speaker>K</Speaker>||:... +I'll investigate the origin of this shell.
+()<Speaker>Morridow</Speaker>||:Ange! Ange!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I'm here.
+()<Speaker>Morridow</Speaker>||:The aircraft has landed.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Okay, I'll be right there.
+NPC-Jason(2)<Speaker>K</Speaker>||:Go talk to Chairwoman Ulrich first.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||<黑屏1>:Yeah. Make sure my Dolls are all properly repaired. +We'll have the answers once I meet the chairwoman.
+()||<黑屏2><BIN>273</BIN><BGM>BGM_Empty</BGM>:...On the freighter.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||<BGM>GF_Memorial</BGM>:Sorry, Frau Ange. I know freighters aren't as comfortable as civil aircrafts...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:It's no big deal.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Ange... May I catch a wink on your shoulder?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Go ahead.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Heheh, thanks! +I did so much running today my bones feel like falling apart.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Get some rest.
+()||:Ange pats Morridow gently on the head.
+()||<SE1>AVG_Helicopter</SE1>:With a loud whir, the freighter takes off into the blue sky.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:It's been such a long day. I'm glad it's finally over...
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Indeed.
+()||<黑屏1>:The refugee settlement is no longer within sight, but Ange can imagine what it looks like right now. +Under the setting sun, the blazing flames are doused; pillars of pale smoke rise, blending into the twilight. +If God really existed, He would probably find hope in the ruins.

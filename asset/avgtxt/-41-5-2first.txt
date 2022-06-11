@@ -1,0 +1,99 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>3</BIN><黑屏2><BGM>BGM_Room</BGM>:...Somewhere in the refugee settlement. +Special explosives are being passed among people dressed in rags.
+()<Speaker>Refugee A</Speaker>||:All supplies have been distributed. Mr. Powell has given the order!
+()<Speaker>Refugee B</Speaker>||:Great! Kill anyone who isnt one of us! We've lived under their oppression for far too long! Today, we'll give those Krauts what they deserve!
+()<Speaker>Refugee C</Speaker>||:Yes!! +I've been waiting for this!!
+()<Speaker>Refugee B</Speaker>||<黑屏1>:Come with me! +Spare no one!!
+()||<BIN>168</BIN><黑屏2>:...Elsewhere in the refugee settlement.
+()<Speaker>???</Speaker>||:Our advance unit got wiped out. +We've already failed once, we must not fail a second time.
+()<Speaker>???</Speaker>||:Understood!
+()<Speaker>???</Speaker>||:We all know what's at stake. If we fail to capture our target, all the sacrifices we have made will be for nothing. +So hold nothing back. Failure is not an option.
+()<Speaker>???</Speaker>||:Yes, sir!
+()<Speaker>???</Speaker>||<黑屏1>:Let's go!
+()||<BIN>3</BIN><黑屏2>:...Ange's group is en route to capturing Powell. +Her finger slides over the crisscrossing alleyways on the map.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:There are no more buildings ahead. We have to get back down onto ground level.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Do you have a route planned?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I like playing things by ear.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...You don't have to trust me. +But you don't have be so suspicious either. I'm just trying to help.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I'm not. The refugees' movements are erratic, so we can only adjust our route on the fly. +Check your ammo, we're definitely going to get into some firefights.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:I still have four mags and an extra box of cartridges. +But ammo reserve aside, there's no way we can fight so many insurgents with just our pistols. How many times do I have to explain this to you?
+NPC-Keven(0)<Speaker>J</Speaker>||:I also have four mags. Didn't know you're so bossy, Hopps. Thinking about jumping ship?
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...I just want to drag us back to shore before we have the chance to drown. +No intel, no plan, no reinforcements. No matter how you cut it, this is suicide.
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Stop complaining and keep up. +Be quiet. Get ready to go inside the house.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:<size=25>W-What's going on...?</size>
+()||:A group of armed refugees are charging this way ferociously from across the street. +They're looking about as if searching for something.
+()<Speaker>Refugee A</Speaker>||:They're gone...
+()<Speaker>Refugee B</Speaker>||:Impossible. They've got to be nearby. They must be hiding in the ruins. +Find them!
+NPC-Keven(0)<Speaker>J</Speaker>||:How do they know where we are?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Its not hard, we stick out like sore thumbs. +Let's take a detour through the alley before moving to this area.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:How do you know we won't run into any refugees this way?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I don't, but I do know that if we don't go now, the refugees in that building over there will happily skin us alive.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:!!!
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Where are they?!
+NPC-Keven(0)<Speaker>J</Speaker>||:Just go!
+()<Speaker>Refugee A</Speaker>||:They're running! Don't let them get away!
+()<Speaker>Refugee B</Speaker>||:Catch them!!!
+()<Speaker>Refugee C</Speaker>||:Go!!!
+()||<SE1>AVG_Crowd_Run</SE1>:As the refugees come charging at them, the group of four spare no time and take off immediately.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:We should go south! The terrain is more varied there; I'm confident we can shake them off!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:No, we keep going west!
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Are you... +Are you joking? The refugees are coming from the west.
+()||:Ange ignores him and runs straight into an alley leading to the west. +Hopps has no choice but to follow.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Hopps... +Ange probably thinks that since the refugees are coming from this direction, we can be certain Powell is indeed at the Refugee Support Center HQ.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:She's only concerned about capturing Powell. She doesn't give a damn about us!
+NPC-Keven(0)<Speaker>J</Speaker>||:Quit whining, focus on running instead.
+()||<SE2>Gunfight</SE2>:Bangbangbang! +A series of gunshots go off behind them.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Aaaaah!
+NPC-Keven(0)<Speaker>J</Speaker>||:Don't be afraid! I'll cover you from behind!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Don't stop! Keep heading west! The enemies are exchanging fire with each other!
+()<Speaker>Refugee A</Speaker>||:They're here!
+()<Speaker>Refugee B</Speaker>||:Bro, we've got coppers! The damn coppers are behind us! Argh!
+()<Speaker>Refugee C</Speaker>||:Oh, for God's sake! +We'll stay and hold them back! You go after those bastards!
+()||<SE2>Gunfight</SE2>:Shots keep being fired to the south of the crossroads. Just as Ange's group think they have shaken off their pursuers... +More refugees come charging at them from the alley ahead.
+()<Speaker>Refugee A</Speaker>||:There they are!
+()<Speaker>Refugee B</Speaker>||:Kill them!
+NPC-Keven(0)<Speaker>J</Speaker>||:Are we covered in homing beacons or something?!
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Dammit, there are too many refugees in the settlement.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:If we had gone south as I suggested, we'd be safe by now.
+NPC-Keven(0)<Speaker>J</Speaker>||:How do you know we won't be ambushed in the south?
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Ange... Maybe we can head south first to shake off the refugees?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:No, we are not turning back!
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...
+NPC-Keven(0)<Speaker>J</Speaker>||:Are you thinking what I'm thinking?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:Our enemies are busy shooting each other behind us. We can draw the people coming from the west over there. They want chaos? We'll stoke the fire.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:And how are you planning to get out of the fire yourself?
+NPC-Ange(2)<Speaker>Angelia</Speaker>||:I'll leave that to your expertise. +The more out of hand the situation gets, the more opportunities we have.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:...This is crazy.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:Hopps, show Ange some faith.
+NPC-Hopps(0)<Speaker>Hopps</Speaker>||:Do I even have a choice? I wish I could be as optimistic as you.
+NPC-Morridow(1)<Speaker>Morridow</Speaker>||:...It can't be helped. I don't want to imagine what the refugees would do if they got their hands on us. +Right now we need to work together as a team. Let's catch up with Ange!
+()||<SE2>Gunfight</SE2>:Bangbangbang! +Using their limited supply of ammo, the group of four sprint towards the chaotic firefight.
+()<Speaker>Unknown Personnel</Speaker>||:Chief, requesting precise coordinates. Requesting precise coordinates. The crossfire is getting out of hand. We require precise coordinates.
+()<Speaker>Other End of the Comms</Speaker>||:...
+()<Speaker>Unknown Personnel</Speaker>||:Dammit, I can't get in touch with the chief. These refugees are bad news. We're taking too many casualties. At this rate, we're going to lose our target.
+()<Speaker>Armed Operative</Speaker>||:Forget about the refugees and avoid contact. Our field unit just reported back. We've found Sparrow. Now it's only a matter of time until the Pigeon comes for it.
+()<Speaker>Unknown Personnel</Speaker>||<黑点1>:Splendid! Make it so.
+()||<黑点2><BIN>168</BIN>:...On the other side of the refugee settlement, a few people are observing the crossfire from an abandoned building.
+()<Speaker>Attendant</Speaker>||:Mr. Powell, the rats have fled.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Those German imbeciles. They're the first to run when it truly matters.
+()<Speaker>Refugee A</Speaker>||:Mr. Powell? Mr. Powell! ...Where are you? +I've got news!
+NPC-Powell(0)<Speaker>Powell</Speaker>||:What is it?
+()<Speaker>Refugee A</Speaker>||:Sorry, we've lost her. +The bitch took off like the wind in the melee.
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Doesn't matter. This is our turf, she can't hide for long. +...Hold on, how did you get in here? What about my guards outside?
+()<Speaker>Refugee A</Speaker>||:Guards? What guards? +I didn't see anyone when I came in.
+()<Speaker>Attendant</Speaker>||:Oh no, Mr. Powell. You've got to...
+NPC-Powell(0)<Speaker>Powell</Speaker>||:Yes, I know. +You! Take a few men and set up defenses here. Have some of your friends inspect this block. +Open fire if they see anyone suspicious!
+()<Speaker>Refugee A</Speaker>||:Yes, Mr. Powell!
+NPC-Powell(0)<Speaker>Powell</Speaker>||:...Let's go. It's a bad idea to stay here any longer. +These rats sure have sharp teeth.
+()||:Powell promptly leaves through the window under the protection of his entourage. +15 minutes later, in the same room. +Three armed agents decked in high-quality gear interrogate the last survivor in the building with a picana connected to a car battery.
+()<Speaker>Armed Agent A</Speaker>||:Where did the fatso go? Say it!
+()<Speaker>Refugee A</Speaker>||:(Spits) Damn cop... AAAARGHHH!!!
+()<Speaker>Armed Agent B</Speaker>||:Vice-cap, the block has been cleared out. Just a bunch of goons, no sign of Sparrow.
+()<Speaker>Armed Agent A</Speaker>||:Got it. Notify the local teams to scout Zone C3. +Have Team A head north and get Team B to catch up with Pigeon. He shouldn't have gone too far. +He is bound to mess up if we keep up the pressure. They're not pros.
+()<Speaker>Armed Agent B</Speaker>||:Roger! And what do we do with this guy?
+()||:The leader unholsters his pistol and shoots the refugee still being electrocuted in the thigh.
+()<Speaker>Refugee A</Speaker>||:GAAHHHH!!!
+()<Speaker>Armed Agent A</Speaker>||:I'll pry the information out of him. Any more questions?
+()<Speaker>Armed Agent B</Speaker>||:No, sir!
+()<Speaker>Armed Agent A</Speaker>||:Then carry on with your orders.
+()<Speaker>Armed Agent B</Speaker>||<黑屏1>:Yes, sir!

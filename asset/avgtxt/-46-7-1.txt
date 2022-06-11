@@ -1,0 +1,104 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+NPC-xiaodanyan(0)<Speaker>Recap</Speaker><Position>0,300</Position>||<SE1>AVG_show_start</SE1><黑屏2><BIN>9</BIN><黑屏1>:Ah, I'm back again! Business trips sure are tiring! +In the previous episode, Yurine and company helped the Commander deal with the ELID threat, then they decided to return to Jinbocho.+However, the Jinbocho they went back to was no longer the original Jinbocho—+All the humans are in a deep slumber, monsters roam the streets, while Ouroboros and Jashin-chan are nowhere in sight.+Faced with this unprecedented crisis, will Yurine and her friends be able to save their precious companions?+Alright, that's enough out of me, I need to catch the next bus back. This is the last time I take a side job that requires me to travel so far!+<size=50>Ah, driver, wait for me! Driver!!!</size>
+()||<黑屏2><BIN>384</BIN><common_effect>%%code=RedScreen%%</common_effect>:...Jinbocho, in the park. +Ouroboros slowly gets up from the ground. Her head feels dizzy, as though she's survived a big explosion.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||<SE1>VO_Jashinchan_MOOD2_JP</SE1><BGM>GF_Jyashinchan_Story_Jinbouchou</BGM>:Ahahahahaha—
+()||:Jashin-chan stands at the top of the slide.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:I, Jashin-chan, am the queen of this world! +Now I can be a carefree villain that does whatever she wants!
+Jashinchan(8)<Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker>||:...
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:First off— +Let's build a hotel.
+Jashinchan(8)<Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker><Shake>||:Is that something a villain would do?!
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:Wow, I'm using public land to build a hotel! +How heinous! Not even the Pigeon Baron could do that!
+Jashinchan(8)<Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker>||:...
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:Also, I'm going to make Yurine my assistant, wahahahaha—
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Oh, how evil I am!
+Weaver(3)<Speaker>Ouroboros</Speaker>||:...
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:You really are sneaky, Little Snake. You nag me on one hand, but you've built yourself a base. 
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Huh?
+()||:Ouroboros turns around and finds that a Sangvis base has sprung up behind her at some point. Indeed, it is the very same base she once managed.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Hehe, it proves you're pretty homesick yourself, Little Snake.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:When did this...
+()||<黑屏1><BGM>BGM_Empty</BGM>:Ouroboros ignores Jashin-chan and enters the base that has suddenly appeared out of nowhere.
+()||<黑屏2><BIN>34</BIN><关闭蒙版><BGM>m_avg_labyrinth</BGM>:The interior is exactly like the base in her memories. +Traces of her intense battle with Squad 404 remain on the walls. +The wadded-up S.F. group photo lies quietly in the corner, and Ouroboros picks it up with conflicted feelings.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Is this the Griffin base?
+Weaver(3)<Speaker>Ouroboros</Speaker>||:No, this was once...my place.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Why are CZ and the others here?
+Weaver(3)<Speaker>Ouroboros</Speaker>||:...
+()||:CZ75, NZ75, and P90 are lying quietly in the corner of the base. +Perhaps her restrictions, which ordained her to protect Griffin Dolls, had compelled her to unconsciously place them where she thought they would be the safest.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:...I don't know.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Isn't there anyone else besides you in this base? It seems kinda lonely.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:No, there used to be others here, but they were all pretty annoying.
+BOSS-8(0)<Speaker>Agent(?)</Speaker>||:You're back, Ouroboros.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:... +And you showed up right on time.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Wow, is she a friend of yours?
+BOSS-8(0)<Speaker>Agent(?)</Speaker>||:You completed your mission very well. Elisa is very pleased with you.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:I know. You can go now.
+BOSS-8(0)<Speaker>Agent(?)</Speaker>||:Thank you for your hard work. I've asked Hunter to help relieve your fatigue.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Mm. Send Executioner over afterwards and have her do a Native American dance for me.
+BOSS-8(0)<Speaker>Agent(?)</Speaker>||:Understood.
+()||:"Agent" elegantly takes a step back and vanishes into the darkness.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Wow— You're super cool, Little Snake!
+Weaver(3)<Speaker>Ouroboros</Speaker>||:This is only the beginning.
+BOSS-11(0)<Speaker>Dreamer(?)</Speaker>||:I heard your mission went very well and you've earned Elisa's approval.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Yes.
+BOSS-11(0)<Speaker>Dreamer(?)</Speaker>||:I look forward to your future performance, but I have other things to do now.
+BossCerberus(0)<Speaker>Destroyer(?)</Speaker><Position>0,150</Position>||:Arf!
+Weaver(3)<Speaker>Ouroboros</Speaker>||:...Just go.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Hahaha, this big doggy is so cute!
+()||:Ouroboros walks down the darkened hallway.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Where are you going?
+Jashinchan(8) <Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker>||:There's something I need to do.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:Aren't you going to watch the Native American dance?
+Jashinchan(8) <Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker>||:Executioner does it whenever she gets drunk.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:Then I'll go with you.
+Jashinchan(8) <Position>0,100</Position>;Weaver(3)<Speaker>Ouroboros</Speaker>||:No, this is something I need to do myself.
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>;Weaver(3)||:But why?!
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:What should I do, then?!
+()||:Ouroboros looks around, then picks up the weapon CZ75 has dropped.
+Weaver(3)<Speaker>Ouroboros</Speaker>||:I suppose it's usable in a pinch...
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:H-hey... Don't go! +You're the only one I have left now!
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Didn't you build a hotel for yourself? And isn't Yurine your minion too?
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Oh yeah...
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Then it seems we both have something we need to do, don't we?
+Jashinchan(8)<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||:Well, of COURSE I have tons of things to do, it's not like I'm a miserable little maggot who doesn't have anyone to turn to besides you...
+Weaver(3)<Speaker>Ouroboros</Speaker>||:Good. We'll meet again once we have settled our own affairs.
+()||:Ouroboros opens the door at the end of the hallway and walks into the darkness.
+()<Speaker>Jashin-chan</Speaker><Position>0,100</Position>||<黑屏1>:But I don't want to be alone...
+()||<黑屏2><BIN>384</BIN><common_effect>%%code=RedScreen%%</common_effect><BGM>BGM_Empty</BGM>:With the help of the Dolls, Yurine and company have reached the park.
+K5(0)<Speaker>K5</Speaker>||<BGM>m_avg_tension</BGM>:Man, I'm beat. Is there no end to these enemies?
+Minosu(2)<Speaker>Minos</Speaker>||:I've never seen this many monsters even in Hell...
+Medusa(0)<Speaker>Medusa</Speaker>||:It looks like these monsters are made with magic. Once you defeat them, their bodies just disintegrate.
+BOSS-8(0)<Speaker>Agent</Speaker>||:Commander, we've already eliminated the nearby enemies and arrived at the location given by Yurine.
+Yurine(0)<Speaker>Yurine</Speaker>||:This is the ground zero of the spell. The entire barrier was created from this location.
+Yurine(3)<Speaker>Yurine</Speaker>||:No matter how you slice it, only Jashin-chan could have done this.
+K5(0)<Speaker>K5</Speaker>||:Then where are they now?
+BOSS-8(0)<Speaker>Agent</Speaker>||:...
+()||:Agent stands silently at the gates of the Sangvis base that is completely out of place.
+K5(0)<Speaker>K5</Speaker>||:Isn't this an S.F. base...
+BOSS-8(0)<Speaker>Agent</Speaker>||:Yes. To be precise, it was Ouroboros' old lair.
+Yurine(4)<Speaker>Yurine</Speaker>||<黑屏1>:Let's go in and take a look, then.
+()||<黑屏2><BIN>34</BIN><关闭蒙版>:Upon entering the base, they pick up Griffin signals. +They follow the signal traces to the sleeping Dolls. +CZ75, NZ75, and P90 are lying side by side in serene slumber. Their hands are tightly linked - it is impossible to pry them apart.
+K5(0)<Speaker>K5</Speaker>||:CZ! NZ! P90! What happened here?
+BOSS-8(0)<Speaker>Agent</Speaker>||:They've crashed. There's no point shouting at them. Let's just transport them back to base.
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>One of you return them to base for a checkup. The rest can keep searching for the others.</color>
+K5(0)<Speaker>K5</Speaker>||:I'll bring them back right now!
+BOSS-8(0)<Speaker>Agent</Speaker>||:...
+()||:Agent notices that CZ75's missing weapon has been replaced by a black glove.
+Yurine(0)<Speaker>Yurine</Speaker>||:Commander, I think they were too close to ground zero and were knocked out by the intense magical shockwave...
+BOSS-8(0)<Speaker>Agent</Speaker>||:What about Ouroboros? There's no sign of her.
+Minosu(0)<Speaker>Minos</Speaker>||:She ought to be nearby. She was still with Jashin-chan when I was chasing her.
+BOSS-8(0)<Speaker>Agent</Speaker>||:Leave this place to us, then.
+K5(0)<Speaker>K5</Speaker>||:But...
+BOSS-8(0)<Speaker>Agent</Speaker>||:After all, this was once a base of ours, so we'll be fine.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Enough talk, go find that Jashin-chan of yours.
+Minosu(0)<Speaker>Minos</Speaker>||:Make sure you contact K5 with your tech if you run into any trouble!
+()<Speaker>Commander</Speaker>||:<color=#00CCFF>Agent, take the S.F. squad and explore the base. Meanwhile, K5 can bring CZ and the others back, then go and help Yurine and the others.</color>
+K5(0)<Speaker>K5</Speaker>||:Got it!
+()||<BGM>BGM_Empty</BGM>:The only people left in the Sangvis base are the few members of the S.F. squad. +Agent takes out her tablet and begins searching for signals.
+BOSS-3(0)<Speaker>Hunter</Speaker>||:I can't sense Ouroboros' presence, but I have the feeling that she's right here.
+BOSS-2(0)<Speaker>Executioner</Speaker>||:I wonder what that creepy woman is up to now.
+BOSS-8(0)<Speaker>Agent</Speaker>||:Shh.
+()||<SE1>AVG_21Winter_FT_Heel</SE1>:The sound of high heels clacking against the ground echoes toward them from the depths of the hallway.
+BOSS-8(0)<Speaker>Agent</Speaker>||:...
+BOSS-2(0)<Speaker>Executioner</Speaker>||:Isn't that—
+()||<SE1>Stop_AVG_loop</SE1>:A familiar woman emerges from the darkness before executing an elegant bow.
+BOSS-8(0)<Speaker>Agent</Speaker>||<黑点1>:It seems Ouroboros has prepared quite a bit of entertainment for us.

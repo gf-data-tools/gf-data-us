@@ -1,0 +1,48 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<黑屏2><BIN>82</BIN><BGM>BGM_Hello</BGM>:Warm sunlight fills the dorm on this leisurely day off. Type 64 is washing the vegetables at the sink while Type 56-1 and M99 are rushing in and out of the kitchen.
+()||<SE1>RunStep</SE1>:Tap tap tap—
+()||:NZ75 runs in.
+NZ75(0)<Speaker>NZ75</Speaker>||:(Pants heavily) Haw...Hawk...
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:What's the rush, NZ75? Hawk's scheduled for a neural upgrade today, don't you remember?
+56-1type(0)<Speaker>Type 56-1</Speaker>||:It's probably started by now. I kind of wonder how she'll look after it's done.
+NZ75(0)<Speaker>NZ75</Speaker>||:That big stupid bird...she canceled her neural upgrade!
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:No way, Hawk's always been known for following orders. Plus, they say that her new body is very well made. Nothing should have gone wrong.
+64typeMod(0)<Speaker>Type 64</Speaker>||:Come, 56, let's go take a look.
+56-1type(0)<Speaker>Type 56-1</Speaker>||<黑屏1>:Hm? Then I'm turning off the stove. NZ75, you'll have to add the ketchup to your twice-cooked pork yourself.
+()||<黑屏2><BIN>22</BIN>:Within the modification room, Miss Kalina is staring at the display, her eyebrows furrowed. Type 97S sits before her with a determined look on her face.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:No, it's too risky, I can't allow you to do this.
+97typeS(0)<Speaker>Type 97S</Speaker>||:Miss Kalina, I insist—
+64typeMod(0)<Speaker>Type 64</Speaker>||:Hawk, are you done with your upgrade yet? Why do you still look the same?+Come, let's have a match and test out your new specs...
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:We haven't even started yet!+Still, it's good that you're here. Type 97S said that she wasn't going to turn off her neural cloud during the upgrade process and she just won't listen no matter what I say.
+NZ75(0)<Speaker>NZ75</Speaker>||:Do you have to switch off your neural cloud for neural upgrades?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Yes, neural upgrades involve a full suite of updates for the entire neural cloud system. If you don't switch it off, it might lead to interference during the modification process and irreversible neural cloud damage. It's really hard to anticipate exactly what could go wrong.
+97typeS(0)<Speaker>Type 97S</Speaker>||:I...I'm willing to take any responsibility for anything that could happen. Please let me do it, Miss Kalina.
+64typeMod(0)<Speaker>Type 64</Speaker>||:Why don't you want to switch off your neural cloud? Are you scared of the dark? Don't worry, in my experience, the upgrade is usually over quickly—
+97typeS(0)<Speaker>Type 97S</Speaker>||:No!+I'm keeping a secret, and I don't know if anyone will see it after I shut off my neural cloud. But I can't allow that sort of thing to happen!
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:A secret, huh...
+97typeS(0)<Speaker>Type 97S</Speaker>||:Also...what would happen if my upgrade made me go berserk and I lost control of my neural cloud and ended up destroying Griffin!?
+()<Speaker>Type 56-1 & Type 64 & NZ75</Speaker>||:Pffff...hahahahahaha.
+()||:Merry laughter fills the room. Type 97S doesn't seem to be swayed by the arrival of her friends.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Miss Kalina, since Hawk is so adamant on this, why not make a special exception for her?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:...In that case, you'll need to stay here and help me in case anything goes wrong.
+64typeMod(0)<Speaker>Type 64</Speaker>||:Yup yup, as friends, we ought to do our part!
+97typeS(0)<Speaker>Type 97S</Speaker>||:...Nonono, get lost! I'll be fine! It'll be worse if you guys stay here!
+NZ75(0)<Speaker>NZ75</Speaker>||:Quit being so stubborn, you big stupid bird. It's just an upgrade, get in there already. We'll be outside waiting to throw you a party mmmffff—
+()||:Type 64 covers NZ75's mouth and drags her aside.
+()||<黑点1>:Since she is unable to talk Type 97S around, Miss Kalina guides her through a special upgrade session which does not involve shutting off her neural cloud.
+()||<黑点2>:Two hours later...
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:What's going on...? Type 97S' upgrade progress bar has been stuck there for a long time.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Could it be a display problem? For instance, the upgrade is actually complete, but the progress bar is lagging?
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:I doubt it. I just refreshed the data and it stopped at this position too.+It might have something to do with her not shutting off her neural cloud. I can't tell what kind of problem she encountered that's causing this.
+64typeMod(0)<Speaker>Type 64</Speaker>||:Hawk! Hawk, can you hear me~ Don't fall asleep~
+()||:Type 64 tries shouting at Type 97S, but the progress bar does not budge.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:It's no use. Her neural cloud might not be shut down, but we can't communicate with her if it's not connected to the body. I tried contacting her neural cloud, but I didn't get any response.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:What should we do? Do we just keep waiting like this?
+64typeMod(0)<Speaker>Type 64</Speaker>||:It's been so long, something must have happened to Hawk...
+NZ75(0)<Speaker>NZ75</Speaker>||:I can't believe you actually ran into trouble for an upgrade, big stupid bird! I TOLD you to turn off your neural cloud!
+NPC-Kalin(4)<Speaker>Kalina</Speaker>||:Wait a minute, there might be a way... But it's still pretty risky.
+56-1type(0)<Speaker>Type 56-1</Speaker>||:Oh, just tell us, Miss Kalina! I can't bear the suspense!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Type 97S is stuck on her Level II layer. I can give you access to her Level II, and if you can find her still-active neural cloud, that may solve the problem.
+M99(0)<Speaker>M99</Speaker><Position>0,100</Position>||:Then let's not delay and set out right away!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:However, I need to warn you; don't let Type 97S realize you're intrusive data, because the moment she sees you as a threat, she might shut off all connections, with nasty consequences.
+64typeMod(0)<Speaker>Type 64</Speaker>||<黑屏1>:Understood, Miss Kalina. Don't worry, we're professionals.

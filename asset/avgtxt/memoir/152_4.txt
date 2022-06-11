@@ -1,0 +1,60 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:...
+()<Speaker>???</Speaker>||:It's okay, everything's fine now. +Can you open your eyes?
+()<Speaker>Ivan</Speaker>||:...
+()<Speaker>Ivan</Speaker>||<BIN>167</BIN><睁眼>:W-what happened to...
+M1887(0)<Speaker>???</Speaker>||:Thank goodness, looks like you are unhurt.
+M1887(0)<Speaker>Ivan</Speaker>||:I'm sorry, you are...?
+M1887(0)<Speaker>M1887</Speaker>||:My name is M1887. Forgive me for not introducing myself sooner. +I was the backup assigned to you, though I still haven't received your go signal.
+M1887(0)<Speaker>Ivan</Speaker>||:So I really did send it to the wrong person... +Oh, what about that domestic Doll?!
+M1887(0)<Speaker>M1887</Speaker>||:Domestic Doll? Ah, do you mean M1897? +She was out on dispatch today, so you must have mistaken her for a domestic Doll.
+M1887(0)<Speaker>Ivan</Speaker>||:Huh?
+M1887(0)<Speaker>M1887</Speaker>||:You were very lucky, Mr. Ivan. She is a Tactical Doll from Griffin, just like me.+Perhaps there's been a misunderstanding between the two of you, but on the whole, things seem to have turned out fine in the end.+She's already dealt with all the criminals involved, as well as your boss from when you were a mole.
+M1887(0)<Speaker>Ivan</Speaker>||:...
+M1887(0)<Speaker>M1887</Speaker>||:It's hard to believe, isn't it?
+M1887(0)<Speaker>Ivan</Speaker>||:No, I saw it with my own eyes... +Where is she now?
+M1887(0)<Speaker>M1887</Speaker>||:She's gone back to Griffin.
+M1887(0)<Speaker>Ivan</Speaker>||:...+If you see her again, please thank her on my behalf.+Things took a bit of a weird turn, but it's still a fact that she saved me.
+M1887(0)<Speaker>M1887</Speaker>||:...I will.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><BGM>BGM_Hello</BGM>:—In the Commander's Office.
+()<Speaker>Terminal</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>【—New progress has been made in our investigations into the peripheral regions. The spokesperson for the exploration team is now accepting questions from the media.】</color>
+()<Speaker>Commander</Speaker>||:Hm.
+()<Speaker>Terminal</Speaker>||:<color=#00CCFF>【—Plan N64 addresses the development of a new low-cost residential sector. The local supervisor has issued a statement at the project launch press conference...】</color>
+()<Speaker>Commander</Speaker>||:Hm...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<SE1>AVG_door_elecport</SE1>:Good morning, Commander!
+NPC-Kalin(1)<Speaker>Commander</Speaker>||:Morning... You brought coffee today?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Hehe, why don't you try my handiwork? +...Are you watching the news?
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:Yeah, just looking through it.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Oh yes, about M1897...
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:M1897? What happened to her?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Did you not realize how hurtful your words were?
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:You mean...the part where I told her not to focus so much on cleaning?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Correct!
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:I just wanted to spur her on. M1897's combat performance is decent, but it feels like she's always lost in her own world, so she's easily spooked, especially when it comes to cleanliness...
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:That's true, but...
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:So I was planning to arrange a neural upgrade for her... It's about time she had one, right? Where is she, anyway?
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:I haven't seen her today. According to M1887, she's done something big recently.
+NPC-Kalin(0)<Speaker>Commander</Speaker>||:Something big? I hope she didn't complete a whole bunch of cleaning requests in one go.+Hm, this coffee is good.
+()<Speaker>Terminal</Speaker>||:<color=#00CCFF>【And onto our next report—】</color>+<color=#00CCFF>【A gangland arms deal was broken up by a lone heroic Doll from Griffin, the domestic Doll M1897!】</color>
+()<Speaker>Commander</Speaker>||<震屏3><BGM>BGM_Pause</BGM><SE1>AVG_splash_water</SE1>:Pffffffffffff—!!!
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Uwah! Commander, are you alright?!
+NPC-Kalin(2)<Speaker>Commander</Speaker>||<BGM>BGM_UnPause</BGM>:I-I'm fine...
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:That's good, but my coffee... Er.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:...
+M1897Mod(0)<Speaker>M1897</Speaker>||:Commander — Ahhhhh, why is there coffee everywhere?!
+M1897Mod(0);NPC-Kalin(2)<Speaker>Kalina</Speaker>||:M1897, you've already received your neural upgrade?
+M1897Mod(0)<Speaker>M1897</Speaker>||:Well, I was already like this by the time I woke up, but that's not important.+You need to be careful when drinking coffee, Commander! Make sure you don't splash it everywhere! Cleaning it up is very difficult!
+M1897Mod(0)<Speaker>Commander</Speaker>||:Um... Sorry.
+()<Speaker>Terminal</Speaker>||:<color=#00CCFF>—I'm reporting from the scene. We're fortunate enough to be able to interview a police officer from Sector N64, Mr. XX.</color>+<color=#00CCFF>Congratulations on your promotion, Officer. Would you mind telling us about this operation?</color>
+()<Speaker>Terminal</Speaker>||:<color=#00CCFF>Thank you.</color>+<color=#00CCFF>The success of this operation was due in large part to the assistance of Griffin PMC. </color>+<color=#00CCFF>In particular, Tactical Doll M1897's aid has shown me new possibilities in how Dolls can help serve humans.</color>+<color=#00CCFF>I've already asked my superiors to issue M1897 a citation in gratitude for her contributions to society.</color>
+()<Speaker>Commander</Speaker>||:...
+M1897Mod(0)<Speaker>M1897</Speaker>||<SE1>ClothingUp</SE1>:That should do it... Hm?+Commander, were you going to say something?
+M1897Mod(0)<Speaker>Commander</Speaker>||:No, not at all. +Oh yes, you did a brilliant job on cleaning up.
+M1897Mod(0)<Speaker>M1897</Speaker>||:Hehe, I know, right?
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:...
+M1897Mod(0)<Speaker>M1897</Speaker>||:Ah, it's Big Sis! +It must be that social service thing from last time. +...I think I should go take a look. +Commander, make sure you keep your office clean! I'll be coming by randomly to check in on you~
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M1897 happily wipes her hands clean, then takes her cleaning equipment with her and leaves the office.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:M1897 sure is amazing. +Even though she doesn't seem to be aware of that herself.
+NPC-Kalin(1)<Speaker>Commander</Speaker>||:But that's good, right? +M1897 has really grown this time around.
+()||<黑屏1>:

@@ -1,0 +1,78 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:The truck stop is presently in chaos.
+()||<黑屏2><BIN>83</BIN><BGM>m_avg_tension</BGM>:Everywhere from the garage to the rest area is a mess, as if a typhoon had swept through. The scene is filled with lamenting travelers and staff members trying to pick up the pieces.
+pp19(0)<Speaker>PP-19</Speaker>||<SE1>RunStep</SE1>:Shelley! AK-Alfa! +Where are you? Answer me!
+pp19(0)<Speaker></Speaker>||:PP-19 shouts at the top of her voice, but everyone is busy cleaning up and nobody answers her.
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Shelley...oh my Shelley... +No, noooo! How can I go home if anything happens to my daughter?! How can I bear to face my wife?!
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Calm down, Julian. +There's no blood here, so I'm sure Shelley is fine. I'll find her.+<color=#A9A9A9>Keep calm, PP-19.</color>+<color=#A9A9A9>AK-Alfa isn't exactly useless, and there were no gunshots coming from here, so she wasn't in combat.</color>+<color=#A9A9A9>Maybe my auditory modules can give me a clue...</color>
+pp19(0)<Speaker>Distant Voice</Speaker>;NPC-PasserbyM(0)<同时置暗>||:Stop crying! You think crying's going to help? Your father's going to pay for this!
+pp19(0)<Speaker>Shelley's Voice</Speaker>;NPC-PasserbyM(0)<同时置暗>||:(Sobs)
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:Oh no, it's a kidnapping!
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:A kidnapping?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:I heard someone tell Shelley her father is going to pay.
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:I...I have money. +This is all the money I have, and this is my credit card. Tell Shelley "it's your Mama and Papa's anniversary", she'll know what the code is.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||:I'll take care of the kidnapper, you don't need to give me this...
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Miss, I know you're strong, but I'm worried the kidnapper is going to use Shelley as a human shield. +If you can't deal with him, then use this to get her back... I can't let anything happen to my daughter...
+pp19(0)<Speaker>PP-19</Speaker>||<黑屏1>:...Understood.
+()||<黑屏2><BIN>18</BIN><BGM>BGM_Empty</BGM>:Masking her approach with the background clamor, PP-19 swiftly arrives at the source of the voice — the truck stop supervisor's office. +The sound of a girl's weeping grows louder and more distinct as she approaches.
+()<Speaker>Shelley</Speaker>||<BGM>BGM_Room</BGM>:I'm sorry... I'm sorry...
+()<Speaker>Rough-Sounding Man</Speaker>||:Stop crying! Wait here and don't go anywhere! +Little brats like you are always up to no good! When your parents get here, I'm going to teach you all a lesson.
+pp19(0)<Speaker>PP-19</Speaker>||:<color=#A9A9A9>Initiating infrared scan... There are only two people inside - confirmed.</color>+<color=#A9A9A9>I need to be careful. I can't make the same mistake again.</color>
+pp19(0)<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:PP-19 raises a hand and lightly knocks on the door.
+pp19(0)<Speaker>Rough-Sounding Man</Speaker><同时置暗>||<BGM>BGM_Empty</BGM>:Who's that?!
+pp19(0)<Speaker>PP-19</Speaker>||:Hello. I'm here to deliver the payment for Miss Shelley.
+pp19(0)<<Speaker>Shelley</Speaker><同时置暗>||:Oh, Big Sis...
+pp19(0)<<Speaker>Rough-Sounding Man</Speaker><同时置暗>||:Oh! You seem pretty reasonable. Now hand the money over. +Are you her parent?
+pp19(0)<Speaker>PP-19</Speaker>||:No, I'm her temporary guardian. +I've brought enough money to pay for Miss Shelley. Please have a look.
+()<Speaker>Rough-Sounding Man</Speaker>||:Pay for her? You think money is enough to pay for my losses? +Your brat's been pretty damn wild, going on and on about how magic is turning what you believe into reality, how she believed the bison could save you... She's so young, yet she's spouting lies like that... (Sighs) In any case, just get in here!
+()<Speaker></Speaker>||<SE1>AVG_bigglassbreak</SE1>:As the voice approaches and the door handle turns, PP-19 rams the door open. The glass is shattered by the force of the impact and the fragments rain down on the ground.
+NPC-Arla(0)<Speaker>Big Guy</Speaker>||<震屏><BGM>m_avg_hope</BGM>:Ow!
+NPC-Arla(0)<Speaker></Speaker>||:The man inside the room howls in pain, but he isn't sent flying like PP-19 expects. On the contrary, he uses his massive frame to keep the door from opening fully and reaches behind himself—
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Arla(0)||<白屏1>:Don't think you can get your gun!
+()<Speaker></Speaker>||<BIN>276</BIN><白屏2>:In an instant, PP-19 slips into the room by virtue of her slender frame and executes a picture-perfect grab and pin before the man can touch his gun. +Before Shelley, her face still wet with tears, watches in a daze as a man who's several times her size is forced to the ground.
+NPC-Arla(0)<Speaker>Big Guy</Speaker>||:Let go of me!
+NPC-Shelley(0)<Speaker>Shelley</Speaker>||:Big Sis...?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Shelley(0)||:Don't worry, Shelley! It's over! I won't let him hurt you!
+pp19(0);NPC-Arla(0)<Speaker>Big Guy</Speaker>||:I didn't do anything to the brat!
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Arla(0)||:Save it for the police! +Mr. Julian, you can come in now!
+pp19(0);NPC-PasserbyM(0)<Speaker>Julian</Speaker>||:Shelley! Are you alright? Papa's here, hurry and... +Huh? Mr. Supervisor?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-PasserbyM(0)||<BGM>BGM_Empty</BGM>:...Supervisor?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Whew, rounding up all those bison was hard... Oh, you're back, Mr. Julian. Please take stock of your herd and see if any are unaccounted for. +...Mr Julian? PP-19? What's going on?
+pp19(0)<Speaker>PP-19</Speaker>||<黑屏1>:...
+()||<黑屏2><BIN>8</BIN><BGM>m_avg_casual</BGM>:...+Evening, in the Griffin base.
+NPC-Kalin(3)<Speaker>Kalina</Speaker>||:So you're saying Shelley, the daughter of our client, released the bison at the truck stop in the hope that magic would make them save her dad?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(3)||:Yes.
+pp19(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:So the truck stop was wrecked, the supervisor detained Shelley, and when Julian came back, you mistook him for a kidnapper?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(3)||:Yes...
+pp19(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:You can't say nobody got hurt. The truck stop supervisor's arm was sprained and that's an injury, PP-19.
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Mr. Julian paid for it. He said it wasn't entirely PP-19's fault.
+pp19(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Still, the truck stop sent us a complaint letter. You were too rash, PP-19.
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(3)||:I know, it was my fault for jumping to conclusions...
+pp19(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:...Eh? Good lord, did you just admit you were wrong, PP-19?
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(0)||:Huh?
+pp19(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Looks like her neural upgrade was very effective.
+pp19(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||:It's like a dream-come-true! Neural upgrades are amazing! In any case, your rating for this mission is a B. +Do your best, PP-19!
+pp19(0)<Speaker>PP-19</Speaker>;NPC-Kalin(1)||:I will. Can I change over to a new body now? +I think the neural upgrade was better than I thought.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Of course you can! Your new body is in your dorm.
+()<Speaker></Speaker>||:PP-19 leaves. Kalina watches as she vanishes beyond the door, then turns to look at AK-Alfa.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Come to think of it, you voted against it back then, so what changed your mind?
+NPC-Kalin(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:I just thought that...if a Doll doesn't want a neural upgrade, then we should leave her alone and let someone else have the opportunity. +In fact, I only accepted this mission so you and the Commander wouldn't be inconvenienced.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>;AKAlfa(0)||:Huh~ So that's why. +So, you no longer believe that?
+NPC-Kalin(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Yeah, you could say that. She does shine at times. Perhaps apart from humans, there are things beneath the starry sky that are worth observing... +Kalina, do you think she could be a...pen pal of mine?
+NPC-Kalin(0)<Speaker></Speaker>;AKAlfa(0)||:Kalina looks at the complaint letter in her hand and laughs bitterly.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>;AKAlfa(0)||:Well, ah... I think that's a bit unlikely... +No, there's always hope! However distant it might seem...
+AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Yeah. Thought it might seem astronomically improbable, I will hold out for that hope nonetheless. +Let's take care of the documents now, in that case.
+AKAlfa(0)<Speaker></Speaker><同时置暗>||<SE1>AVG_lifttable</SE1>:Just as AK-Alfa finishes speaking, the door flies open with a loud crash.
+AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:...
+pp19Mod(0)<Speaker>PP-19</Speaker>||:Oh yeah, I just remembered something!
+pp19Mod(0);NPC-Kalin(3)<Speaker>Kalina</Speaker>||:Wow, you changed fast. +But the documents are all over the ground now.. I hope you can change that too.
+pp19Mod(0)<Speaker>PP-19</Speaker>;NPC-Kalin(3)||:Sorry. But I have to ask, AK-Alfa! Were you the one who protected Shelley from the bison herd?
+pp19Mod(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:That was part of my job.
+pp19Mod(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:Which is why I have to say, Shelley might have gotten hurt if it hadn't been for you. +Thank you! You aren't so bad after all!
+pp19Mod(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:Just doing my duty.
+pp19Mod(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:Aw, don't say that. I've got the same performance rating as you now, so let's go on a mission together next time! +I'll show you how much better I've become. How about that?
+pp19Mod(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:...More importantly, are you interested in beer?
+pp19Mod(0)<Speaker>PP-19</Speaker>;AKAlfa(0)||:Beer?
+pp19Mod(0);AKAlfa(0)<Speaker>AK-Alfa</Speaker>||:It's either beer or sci-fi novels. People who don't share interests won't be able to coordinate in combat.
+pp19Mod(0)<Speaker>PP-19</Speaker>||:Oh, you seem to be taking me lightly. It's just beer, right? I'll drink it! In fact, I'm up for a drink right now!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<震屏>:Wait!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<黑屏1>:At least tidy up the documents first—!

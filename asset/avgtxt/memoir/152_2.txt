@@ -1,0 +1,92 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN>:...
+M1897(0)<Speaker>M1897</Speaker>||:—I hate you, Commander!
+()<Speaker>Commander</Speaker>||:Eh? Wait a minute...!
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>97</BIN><SE1>AVG_door_elecport</SE1><BGM>BGM_Hello</BGM>:...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Good morning, M1897. Will you be working outside as well today?
+NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Huh? Have you been crying?
+M1897(0)<Speaker>M1897</Speaker><Shake>0.1</Shake>;NPC-Kalin(2)||:I-I wasn't crying!
+M1897(0);NPC-Kalin(2)<Speaker>Kalina</Speaker>||:The Commander arranged for you to get a neural upgrade, right? Did they change their mind?
+M1897(0)<Speaker>M1897</Speaker>;NPC-Kalin(2)||:That's not it...
+M1897(0);NPC-Kalin(2)<Speaker>Kalina</Speaker>||:Then... Did Gr G36 scold you because you didn't clean up properly?
+M1897(0)<Speaker>M1897</Speaker>;NPC-Kalin(2)||:No... Actually... +The Commander said I did a good job cleaning, but they also said that they hoped I would devote more time to honing my skills in combat, and compared me to my elder sister...
+M1897(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:You mean M1887? I heard that she's been quite busy fighting crime recently, isn't that right?
+M1897(0)<Speaker>M1897</Speaker>;NPC-Kalin(0)||:That's what the Commander said too, but M1887 is M1887, and I'm me!
+M1897(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Hm, it's definitely a little hurtful to be compared to someone else. +Don't worry, I'll make sure I talk to the Commander about this!
+M1897(0)<Speaker>M1897</Speaker>;NPC-Kalin(0)||:I-I...uh... +I just said "I hate you" to the Commander, but I didn't really mean it...
+M1897(0);NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Don't worry. I know you've always been a good girl, M1897~ +Would you like to rest for a bit?
+M1897(0)<Speaker>M1897</Speaker>;NPC-Kalin(1)||:Thanks, but there's no need for that, Miss Kalina. +I just received an assignment from the Domestic Services Agency in Sector N12 and I need to finish it by today.
+M1897(0);NPC-Kalin(0)<Speaker>Kalina</Speaker>||:I see. Good luck, then!
+M1897(0)<Speaker>M1897</Speaker>||:Yup!
+()||<黑屏1>:
+M1897(0)<Speaker>M1897</Speaker>||<黑屏2><BIN>86</BIN>:... +... +A neural upgrade?
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>8</BIN><回忆>:Slightly earlier...
+M1897(0)<Speaker>M1897</Speaker>||:Eh? But why?!
+M1897(0)<Speaker>Commander</Speaker>||:Why? +Because I think you have the potential to become stronger.
+M1897(0)<Speaker>M1897</Speaker>||:Stronger... If I do that, will it let me clean the base up better?
+M1897(0)<Speaker>Commander</Speaker>||:No, I'm talking about getting stronger in terms of combat capabilities. +M1897, even as a Doll, you ought to strive to improve yourself. You'll be able to handle more situations if you accept the upgrade.
+M1897(0)<Speaker>M1897</Speaker>||:(Groans)
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>86</BIN><关闭蒙版>:...
+M1897(0)<Speaker>M1897</Speaker>||:In the end the Commander's just annoyed that I only care about cleaning... But what's wrong with liking things to be clean anyway...
+()<Speaker>Terminal</Speaker>||<SE1>AVG_tele_connect</SE1>:Click—
+M1897(0)<Speaker>M1897</Speaker>||:Ah! It's time! +Let's see...
+()<Speaker>Terminal</Speaker>||:<color=#00CCFF>【Development Sector N12, Factory No. 191, Time - 10.10.】</color>+<color=#00CCFF>【Dirty things here. Deployment complete. Please come on time to clean them up.】</color>
+M1897(0)<Speaker>M1897</Speaker>||:Well, that's a brief assignment order. +And it's scheduled for daytime. Aren't most people at work in the city center at this hour? +Wouldn't cleaning up such a large factory by myself take too long...?+Urgh, no, I need to show the Commander what I can accomplish, even if it's just cleaning!
+M1897(0)<Speaker>M1897</Speaker>||:Ah, this is the place!
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock knock!
+M1897(0)<Speaker>M1897</Speaker>||:... +... +...Huh? Is nobody in?
+()<Speaker></Speaker>||<SE1>AVG_doorknock_wood</SE1>:Knock knock knock!
+()<Speaker></Speaker>||:... +...
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:Ka-click.
+M1897(0)<Speaker>M1897</Speaker>||:Ah, someone's home!
+()||<黑屏1>:
+()||<黑屏2><BIN>221</BIN>:...
+M1897(0)<Speaker>M1897</Speaker>||:Good morning! This is domestic Doll M1897, here to provide cleaning services!
+M1897(0)<Speaker>Ivan</Speaker>||:...
+M1897(0)<Speaker>M1897</Speaker>||:<color=#A9A9A9>Ehhhhh? Why is everyone looking at me like this? And the air seems really tense...</color>+Uh, please go on with your business, no need to mind me~+If it's just this hall, I'll have it all cleaned up in no time~
+M1897(0)<Speaker>Ivan</Speaker>||:Er... What's this?
+M1897(0)<Speaker>M1897</Speaker>||:Huh? You mean this gun? +Don't worry, it's just a toy to keep the kids happy~ Um...+Well, there don't seem to be any kids here, so that's alright, then.+I'm putting my pail here, so please don't kick it over.
+()<Speaker></Speaker>||:There is no response from anyone.+During previous assignments, M1897 has encountered families who don't like to make conversation, so she doesn't take it to heart. Instead, she takes out her mop and starts mopping the floor.
+()<Speaker>Ivan</Speaker>||:...+<color=#A9A9A9>Could she be the backup sent by the department?</color>+<color=#A9A9A9>But they were supposed to send a Tactical Doll. This little lady is a Doll, that much is true, but why is she cleaning things up?</color>
+M1897(0)<Speaker>M1897</Speaker>||<SE1>ClothingUp</SE1>:Could you lift your foot, sir?
+M1897(0);NPC-Bodyguard2(0)<Speaker>Bodyguard</Speaker>||:...+Okay...
+M1897(0)<Speaker>M1897</Speaker>||:Thank you~
+()<Speaker>Ivan</Speaker>||:<color=#A9A9A9>Is she planning to confuse the enemy before taking them by surprise...?</color>+<color=#A9A9A9>How...how should I coordinate with her?!</color>
+M1897(0)<Speaker>M1897</Speaker>||<SE1>ClothingUp</SE1>:Excuse me, granny, would you mind...
+M1897(0);NPC-Oldartist(0)<Speaker>Lady Brown</Speaker><Shake>0.1</Shake>||:Granny... What's the matter with you, y-you stupid brat?!
+M1897(0)<Speaker>M1897</Speaker>;NPC-Oldartist(0)||:Well, you do seem a little stiff. +I'll just go clean somewhere else, then...
+M1897(0)<Speaker>M1897</Speaker>||:Wow~ I can't believe it, that's a TS-5000 experimental unit! +This is a rare treasure, I think there are only two of them in the entire world!
+()<Speaker></Speaker>||:... +A chill seems to have spread throughout the hall.
+M1897(0)<Speaker>M1897</Speaker>||:Although, this unit has had its combat components and fire control systems removed, so it's pretty much scrap at this point...+But it's very valuable as a collector's item.+The owner of this factory has great taste!
+()<Speaker></Speaker>||:... +The air in the hall seems to have completely frozen.
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:S-scrap?! +Are you trying to pull a fast one on us, you bastards from the Endeavor Association?!
+()<Speaker></Speaker>||<SE1>AVG_Crowd</SE1>:The hall suddenly erupts into chaos.
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:All the followers and enforcers present pull out their guns and point them at the EA members. The latter also draw their guns in self-defense.
+M1897(0)<Speaker>M1897</Speaker>||:Huh? Is something wrong?
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>Ahem. Please calm down, everyone.</color>+<color=#00CCFF>Now, the possibility cannot be ruled out that someone among us is trying to take this Military automaton for themselves, and this could be their ploy to turn us against each other...</color>
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Huh? So you think we sent this brat?
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>At the very least, we know nothing about it.</color>
+()<Speaker></Speaker>||<SE1>AVG_weapon_reload</SE1>:...
+M1897(0)<Speaker>M1897</Speaker>||:Huh? +Ehhhhhh?! Why is everyone pointing their guns at me, I'm just here to do the cleaning!
+()<Speaker>Ivan</Speaker>||:W-wait!
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>...Alexei?</color>
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Was it you, Alexei?!
+NPC-Oldartist(0)<Speaker>Ivan</Speaker>||:(Coughs) +No, from what I can tell, this domestic Doll has probably gotten the wrong address and she is harmless. +Let me handle this, I'll get her out of here.
+M1897(0)<Speaker>M1897</Speaker>||:...I can't possibly have the wrong address; our agency never gets their assignments wrong.
+M1897(0)<Speaker>Ivan</Speaker>||:<color=#A9A9A9>You're my backup, shouldn't you be playing along with me?!</color>
+NPC-Bodyguard1(0)<Speaker>Bodyguard</Speaker>||:...
+NPC-Bodyguard2(0)<Speaker>Bodyguard</Speaker>||:...
+M1897(0)<Speaker>M1897</Speaker>||:<color=#A9A9A9>Hm, this-this isn't like most domestic service assignments I've been given...</color>+Well. +Just to be sure, let me double-check my assignment!
+()<Speaker>Ivan</Speaker>||:<size=35>Oi, are you serious?!</size>
+M1897(0)<Speaker>M1897</Speaker>||:Don't worry, this is my only job for today, it's right here... Ahem!+【Development Sector N12, Plant No. 191, Time - 10.10.】+【Dirty things here. Deployment complete. Please come on time to clean them up.】+And the client is—
+M1897(0)<Speaker>M1897</Speaker>||<BGM>BGM_Empty</BGM>:Alexei...?
+()<Speaker></Speaker>||:...
+()<Speaker>Ivan</Speaker>||:<color=#A9A9A9>Oh fuck.</color>
+()<Speaker></Speaker>||:M1897 has no idea what impact her words had, but she sees a couple of burly men suddenly rushing toward the nervous-looking man.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_Combat_Hits</SE1>:...
+()<Speaker></Speaker>||:...
+()||<黑屏1>:

@@ -1,0 +1,107 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()||<BIN>168</BIN><黑屏2><BGM>10194</BGM><SE1>AVG_Rain2</SE1>:...
+()||:... +Flight. +Her mind is consumed by this single thought. +She dashes through the busy, filthy streets, her feet stepping into puddles and splashing water everywhere. Meanwhile, the murderous shrieks remain hot on her heels.
+()<Speaker>???</Speaker>||:Liar! Kill her!
+()<Speaker>???</Speaker>||:Don't let that shameless whore go!
+()||:The hysterical howls sound terrifyingly close. +Her breath is erratic and her legs feel heavy as lead, but the street seems to stretch on and on.
+()<Speaker>???</Speaker>||:Ma'am, this way!
+()||:A hand stretches out from a dark alley and grasps her own tightly. +It looks almost exactly like a human hand, but she can immediately tell that it belongs to a Doll. +Who are you? Where are you taking me?
+()<Speaker>???</Speaker>||:Follow me!
+()||<白屏1><SE1>Stop_AVG_loop</SE1>:She follows the Doll's instruction and resumes her strenuous run. +The view brightens until it becomes dazzling to the eye...
+()||<白屏2><BIN>129</BIN><BGM>GF_EV9_Story</BGM><Night>:...Halloween, in a remote and isolated private sanatorium.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Miss Fuduto, are you awake?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Hm... Did I fall asleep in the middle of reading...?
+()||<SE1>AVG_Rain2</SE1>:...The silence outside the window is broken by a roar of thunder, followed by the splattering of heavy rain. +The Doll carer immediately drops what she is doing and walks over to close the window.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:It's really coming down!
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:...
+()||:Heavy rain, just like in her dream. +Fuduto is reminded of her troubling nightmare. +She recalls the frenzied howls and her murderous pursuer, and her heart sinks.
+()||<SE1>AVG_doorknock_wood</SE1>:Just then, there is a knock on the door.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Hello, who are you, if I may ask?
+()<Speaker>TAC-50</Speaker>||:Sorry for the intrusion. I am TAC-50, a Griffin T-Doll. I just completed a mission and am on my way back to base. +My navigation system malfunctioned in the thunderstorm and led me here by mistake, and my power level is running dangerously low... +I'm wondering if you would allow me to recharge here; I am very happy to pay, of course!
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:What do you think, Miss Fuduto?
+()||:In her dream, a hand stretched out of the dark alley and clasped her hand. +A Doll's hand.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Hm? A Doll...? +It's pouring out there, so let her in. +Everyone deserves a happy Halloween, human or Doll.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Please come in.
+TAC50(2)<Speaker>TAC-50</Speaker>||<SE1>Stop_AVG_loop</SE1>:Thank you, Miss Fuduto.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:You're very welcome. The charging port is over there. +There are some Halloween candy on the table, please help yourself if you like.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Sure, thanks again.
+()||:Fuduto watches as TAC-50 walks toward the charging port and quietly instructs her Doll carer.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Keep an eye on her. When she's charged up, see her off right away.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Understood.
+()||:Fuduto turns and returns to the other room. She picks up the book that she has just put down.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Um, hello. Is this the port?
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Yes, you may use it.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Right, thanks.
+()||:TAC-50 finds the charging port and plugs herself in.
+()<Speaker>Charging Notification</Speaker>||:"In this mansion at the edge of the world..." +"Phantoms sigh when the night is deep." +"Stay vigilant, beware of strangers." +"They speak of legends about a reflection."
+()||:Fuduto's hand freezes in the middle of flipping a page at the sound notification.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Hm? What is with that charging notification?
+TAC50(2)<Speaker>TAC-50</Speaker>||:The latest update released by IOP allows charging notification customizations. Everyone back at base is messing around with theirs. +Why don't you download the update? You might be able to change yours too.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Let me try!
+()||:The Doll carer plugs herself into the update port with excitement.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Hm, it's a shame, but I don't seem to be eligible for this update... +Anyway, what's the song that you're using? It sounds really familiar...
+TAC50(2)<Speaker>TAC-50</Speaker>||:It's a song from the musical "Butterfly in a Cocoon" that I love very much.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Oh, no wonder! Isn't that the song Miss Fuduto is always play—
+()<Speaker>Fuduto</Speaker>||:Ahem.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Uh, never mind.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Well, the rain isn't letting up, is it...?
+()||:Noticing the Doll carer's discomfort, TAC-50 changes the subject politely.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:It was such a cool and dry night, then it just started pouring. The weather has been rather strange lately.
+TAC50(2)<Speaker>TAC-50</Speaker>||:You're right. Who would've thought it would start raining so heavily on my way back...
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Speaking of which, where is your base? I may know a better route for you to get home.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Hm... I will be making a detour first... +To tell you the truth, I was planning to attend a memorial service for my favorite musical actress.
+()||:TAC-50 lifts her dripping cape and reveals a carefully protected bouquet. +It's a bunch of red roses in full bloom. The bloody crimson burns vibrantly in the Doll's eyes.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Red roses? They look wonderful... +Wait, do humans use red roses for memorial services?
+TAC50(2)<Speaker>TAC-50</Speaker>||:Not in the usual case, but this musical actress had a very strong predilection for red roses.
+()||:Fuduto, who is sitting in the study, flinches at TAC-50's remark, but she does not turn her head.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Could this actress happen to be...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Miss Passadou, best known for her performance in "Butterfly in a Cocoon".
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:I knew it. I've heard a lot about Miss Passadou. +It's such a pity that I never had the chance to watch her perform live. Everyone said she was an exceptional actress. +Both the musical she starred in and her life story were tragically beautiful...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Indeed. The stage has seen countless musical actors, but only a handful have made their mark in history. +It has been a year after Miss Passadou's death, but many people are still talking about her.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Really? +(Sighs) We are hardly up-to-date with these things living in such a remote place. What do people out there talk about her?
+()||:Fuduto silently slips over to the doorway of her study, listening intently to TAC-50's reply.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Hm... How should I put it?
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Is it so difficult to explain?
+TAC50(2)<Speaker>TAC-50</Speaker>||:Not exactly... It's just... +I don't really know where to begin...
+()||:The Doll carer nods in bemusement. But then she remembers TAC-50's considerate gesture and decides to return the favor by ending this awkward conversation.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Let's talk about something else. We don't have guests very often, why don't you fill me in on the latest news?
+TAC50(2)<Speaker>TAC-50</Speaker>||:Sure.
+()||:Fuduto frowns and finally resolves to come out of the study.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:...Is there anything you need, ma'am?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:For goodness' sake, you see that rain outside? Even a Tactical Doll has to find shelter, God knows how the flowers in the garden will fare.
+NPC-Maid(0)<Speaker>Doll Carer</Speaker>||:Apologies! I'll get them inside right now!
+()||:The Doll carer rushes out into the downpour.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:What were you two chattering about? I hope I didn't interrupt anything.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Not at all, Miss Fuduto. +We were just talking about Miss Passadou, a musical actress whom I admire very much...
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Oh?
+TAC50(2)<Speaker>TAC-50</Speaker>||:Are you also a fan? +Um, this might be a bit impertinent... +But you look very much like Miss Passadou. Are you perhaps a family relation?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Hahaha, no way! She was a star! +You're not the first to note our physical resemblance, but sadly I have neither her grace nor her God-gifted voice.
+TAC50(2)<Speaker>TAC-50</Speaker>||:The moment I saw you, I genuinely hoped that you...
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:You must really admire this Passadou... +Come, keep me company on this dull, rainy night. It has been a while since we last had guests.
+TAC50(2)<Speaker>TAC-50</Speaker>||<黑点1>:I'd love to! I'm always happy to share what I know about Miss Passadou!
+()||<黑点2><BIN>160</BIN><Night>:...In Fuduto's room. +The bedroom is furnished as a simple medical ward. TAC-50 can even detect the scent of disinfectant in the air.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Are you ill, Miss Fuduto?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:It's nothing serious. The doctor prescribed peace and quiet, that's why I'm here in the middle of nowhere.
+TAC50(2)<Speaker>TAC-50</Speaker>||:I see...
+()||:TAC-50 helps Fuduto lie down and carefully props her against her pillows.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Thank you.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Don't mention it. I'm glad to help.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:So what were you talking about?
+TAC50(2)<Speaker>TAC-50</Speaker>||:We discussed Miss Passadou's favorite flower, her best-known work... +Hm, and that people are still talking about her after her death. +...Do you also enjoy musicals, Miss Fuduto?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:You can say that. +I don't remember when I got into the genre, but I have watched "Butterfly in a Cocoon". +Your charging notification is an excerpt from one of the songs, isn't it?
+TAC50(2)<Speaker>TAC-50</Speaker>||:That's right, I adore "Butterfly in a Cocoon". +Miss Passadou was absolutely amazing in the role of the wife. +Not only was her singing beautiful, she conveyed all the emotions perfectly in her performance.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:I remember it was incredibly difficult to get tickets to her shows back then. +Every single performance was sold out almost immediately.
+TAC50(2)<Speaker>TAC-50</Speaker>||:It was her best work, after all. +People have always been mesmerized by Miss Passadou. +I believe she will endure in the people's memory even in the future.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:What makes you so sure? There hasn't been any news about her for a quite a while now, after all...
+TAC50(2)<Speaker>TAC-50</Speaker>||:Are you aware of the fire at the theater on Halloween last year, during Miss Passadou's farewell show?
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:I've heard about it.
+TAC50(2)<Speaker>TAC-50</Speaker>||:Due to her poor health, Miss Passadou started performing less and less frequently. +Meanwhile, a supporting actress called Jane Doe stood in for her and stole the heart of Mr. Arla – the theater's proprietor and Miss Passadou's husband.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Yes, that was the talk of the town back then. +To completely replace Passadou, this Jane Doe even surgically altered her appearance in Passadou's likeness and plotted her murder.
+TAC50(2)<Speaker>TAC-50</Speaker>||:When poor Miss Passadou found out, she decided to give one last performance, then she would die in the theater at her most beautiful moment. +Unfortunately, Mr. Arla also died in the fire while trying to save his wife. And Jane Doe was never seen again.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:Despicable woman.
+TAC50(2)<Speaker>TAC-50</Speaker>||:However, that was what people believed previously.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:You mean people now believe differently?
+TAC50(2)<Speaker>TAC-50</Speaker>||:Yeah... +A new version of these events have been circulating recently. +But this new account is complete slander against Miss Passadou and it makes me so angry to hear it...
+()||:TAC-50 stares bitterly out the window. The rain leaves delicate streaks of tears on the glass.
+NPC-Fuduto(1)<Speaker>Fuduto</Speaker>||:...What are they saying?
+()||<黑屏1>:Fuduto tries desperately to suppress her emotions, her icy fingertips digging deep into her palms.

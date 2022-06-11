@@ -1,0 +1,295 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BGM>BGM_21Christmas_Christmas</BGM><BIN>81</BIN>:8pm, December 23—two more days till Christmas. +After the Commander's hasty retreat, the T-Dolls form a queue to collect their own Christmas Coins from Kalina.
+()<Speaker>Kalina</Speaker>||:...Make sure you keep your coin safe, okay? Everyone only gets one! +Give it to someone you're thankful for. If you just give it away without thought, you might regret it afterwards...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 opens her trembling hand and studies the Christmas Coin that bears her name lying quietly in her palm.
+M21(2)<Speaker>M21</Speaker>||:<color=#A9A9A9>Just this one Christmas Coin...</color> +<color=#A9A9A9>If I can get M14's...that means...</color>
+()||<黑点1><BGM>BGM_Empty</BGM>:
+M14(2)<Speaker>M14</Speaker>||<BGM>GF_Memorial</BGM><黑点2><BIN>142</BIN><边框>2</边框>:M21, we want to give this Christmas Coin to you!
+M21(2)<Speaker>M21</Speaker>||<边框>2</边框>:Can I really take it?
+M14(2)<Speaker>M14</Speaker>||<边框>2</边框>:Yeah! You are the one we're the most thankful for, and you're the one who means the most to us!
+M21(2)<Speaker>M21</Speaker>||<边框>2</边框>:M14... You're also...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1><边框>2</边框>:The two Dolls grip each other's hands tightly, trying to convey their feelings to each other...
+()||<黑点1><边框>2</边框><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN><BGM>m_wv_scenario</BGM>:A hand smacking M21's face lightly rouses her from her fantasy.
+M14(2)<Speaker>M14</Speaker>||:Why were you spacing out?
+M14(2);M21(2)<Speaker>M21</Speaker>||:I was...coming up with some new jokes... +What about you? Why are you staring at your Christmas Coin?
+M14(2)<Speaker>M14</Speaker>;M21(2)||:We're just wondering why everyone is making such a big deal out of this simple little coin.
+M21(2)<Speaker>M21</Speaker>||:...Well, the festive season has probably gotten to their heads.
+()<Speaker></Speaker>||:M21 eyes M14's coin as it lies in M14's palm, languidly...enticingly...
+M21(2)<Speaker>M21</Speaker>||:M14, who are you planning to give yours to?
+M14(2)<Speaker>M14</Speaker>||:Eh, whoever. It's just a coin. +You know we never care much about these events. +What about you, M21?
+M21(2)<Speaker>M21</Speaker>||:I...I don't really care either. +Who would want to put so much thought into giving away this coin, hahaha...
+()<Speaker></Speaker>||<SE1>AVG_XXS_kick</SE1><controll_shake>%%type_id=2%%duration=1%%delay=0.1%%range=5</controll_shake>:M21 laughs sheepishly. Suddenly, she feels a tap on her shoulder, but when she turns to look, nobody is there.
+M21(5)<Speaker>M21</Speaker>||:Gee, M9, you're such a one-trick pony!
+M21(5);M9(0)<Speaker>M9</Speaker>||:Heheh, give me your Christmas Coin, M21!
+M21(5)<Speaker>M21</Speaker>;M9(0)||:No way!
+M9(0)<Speaker>M9</Speaker>||:Humph, stingy!
+()<Speaker></Speaker>||:M9 skips around M21 and hugs M14.
+M9(0)<Speaker>M9</Speaker>||:M14, you're the best!
+M14(2)<Speaker>M14</Speaker>;M9(0)||:What is it now?
+M14(2);M9(0)<Speaker>M9</Speaker>||:Give me your Christmas Coin!
+M14(2)<Speaker>M14</Speaker>;M9(0)||:Hm, sure.
+M14(2);M21(4)<Speaker>M21</Speaker><Shake>0.1</Shake>||:What... Hold on a sec!
+M14(2)<Speaker>M14</Speaker>;M21(4)||:What's wrong, M21?
+M9(0)<Speaker>M9</Speaker>;M21(4)||:You're not fighting with me over the coin, are you?!
+M9(0);M21(5)<Speaker>M21</Speaker>||:As if! I'm not that childish...
+M9(0)<Speaker>M9</Speaker>||:Then give it here already, M14!
+M14(2)<Speaker>M14</Speaker>||<BGM>BGM_Empty</BGM>:Alright, catch!
+()<Speaker></Speaker>||<SE1>AVG_21Winter_Clock</SE1>:Under M21's anxious gaze, M14's Christmas Coin draws a perfect parabola in the air. +Time seems to slow down, and M21's eyes register every spin of the Christmas Coin in free fall. +Heads, tails, good, evil...
+M9(0)<Speaker>M9</Speaker>||<SE1>Stop_AVG_loop</SE1><SE1>Rope</SE1>:Yay! The tails side with M14's name on it!
+()<Speaker></Speaker>||:As M9 proudly reveals the result of the "coin flip", an evil plan slowly hatches within M21's neural cloud.
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><Night><BGM>GF_20HW_Scene_BPM82_loop</BGM><SE1>AVG_wind_grass</SE1>:8.30pm, December 23—two more days till Christmas. +M9 hums and skips along to the beat as she travels through the woods.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 follows quietly behind her, a gunny sack held in her quivering hands.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>I'm sorry, M9. It's your fault for going after M14's Christmas Coin... </color> +<color=#A9A9A9>I've sworn to myself that I'll obtain her coin...whatever the cost!</color> +<color=#A9A9A9>But don't worry, at least I picked red—your favorite color—for the gunny sack...</color>
+()<Speaker></Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><震屏3>:M21 takes a few deep breaths... Then M9, who has suddenly got a gunny sack stuffed over her head, lets out a startled scream that pierces through the night.
+()<Speaker>M9</Speaker>||<SE1>AVG_flag</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=10</controll_shake>:Who are you?! Who has the nerve to stuff a sack over my head?! I'm the most popular Doll at Griffin! My fans will doxx you!
+M21(5)<Speaker>M21</Speaker>||:...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 presses M9's head down with one hand and fishes M14's Christmas Coin out of her pocket with the other.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>M9... Forgive me...</color> +<color=#A9A9A9>I will take a bullet for you on our next mission!</color>
+()<Speaker>M9</Speaker>||<SE1>AVG_Cloak_Whoosh</SE1><controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=10</controll_shake>:Show yourself, jerk!
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:M21 buries her conscience as she tightens the ties of the gunny sack on M9's head and flees the crime scene without a backward glance...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN><关闭蒙版><SE1>AVG_door_elecport</SE1><BGM>BGM_21Christmas_Christmas</BGM>:9pm, December 23—two more days till Christmas. At the lively Café. +Once M21 has M14's Christmas Coin, she rushes back to the Café, walks up to M14 and nonchalantly slips the coin back into her pocket.
+M14(2)<Speaker>M14</Speaker>||:Oh, M21, where did you run off to?
+M21(2)<Speaker>M21</Speaker>||:Nowhere in particular. I just...took a walk.
+()<Speaker></Speaker>||:M21 looks away guiltily, and a familiar T-Doll just so happens to have walked over.
+M1911Mod(0)<Speaker>M1911</Speaker>||<SE1>AVG_door_elecport</SE1>:Good evening, has either of you seen Darling?
+M14(2)<Speaker>M14</Speaker>||:Nope, the Commander has apparently disappeared for good after escaping from the Café.
+M21(2)<Speaker>M21</Speaker>||:The Commander sure has it rough...
+M1911Mod(0)<Speaker>M1911</Speaker>||:What a shame. I was hoping Darling's Christmas Coin would be the first I receive... +In this case, why don't you guys give me yours?
+M21(5)<Speaker>M21</Speaker>||<震屏3>:Not in a million years!
+M14(2)<Speaker>M14</Speaker>||:Sorry, but I've already given mine to—
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M14 smiles apologetically as she pats her pocket to demonstrate its emptiness. +But much to her surprise, her fingers feel a round bulk through the fabric.
+M14(4)<Speaker>M14</Speaker><Shake>0.1</Shake>||:Huh?! Why is it back in my pocket?!
+M1911Mod(0)<Speaker>M1911</Speaker>||:Oh my, this must be fate!
+M1911Mod(0)<Speaker>M1911</Speaker>||<SE1>ClothingUp</SE1>:Then I'll gladly accept! Thanks, M14! ♪
+M21(5)<Speaker>M21</Speaker>||:Hold on!
+()<Speaker></Speaker>||:Before M21 can stop her, M1911 has already run off merrily with M14's Christmas Coin in her grasp.
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 comes up with a random excuse to leave the Café and goes after her with a blue gunny sack in hand and another bruise on her conscience...
+()||<黑点1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑点2><BIN>81</BIN>:9.45pm, December 23—two more days till Christmas. At the lively Café.
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:Having retrieved the Christmas Coin once again, M21 returns to M14 and slips it back into M14's pocket.
+M14(2)<Speaker>M14</Speaker>||:What took you so long in the restroom?
+M21(2)<Speaker>M21</Speaker>||:You know how much all the girls care about their appearance... Everyone's trying to get in there to refresh their makeup...
+M14(2)<Speaker>M14</Speaker>||:You're right. It's getting late. Why don't we head back to the dorm?
+M21(2)<Speaker>M21</Speaker>||:Sure.
+()<Speaker></Speaker>||:M21 lets out a long sigh of relief. But just as they are about to leave, a tall figure blocks their path.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Hey, kids! Merry Christmas!
+M1928A1(0);M14(2)<Speaker>M14</Speaker>||:Captain!
+M1928A1(0);M21(2)<Speaker>M21</Speaker>||:Wow, are these presents for us?
+M1928A1(0)<Speaker>Thompson</Speaker>;M21(2)||:Yep, everybody gets one. +Oh right, have you seen M9 and M1911? I've been looking for them the whole evening but no luck.
+M1928A1(0);M21(5)<Speaker>M21</Speaker>||:Uh... Maybe they went running after the Commander...
+M1928A1(0);M14(2)<Speaker>M14</Speaker>||:We can hand these to them for you, but there are two more days till Christmas, so what's the rush?
+M1928A1(0)<Speaker>Thompson</Speaker>;M14(2)||:I'll be off on a mission first thing tomorrow morning and I definitely won't make it back by Christmas Day. +So yeah, if you could please give them the presents for me.
+M1928A1(0);M21(2)<Speaker>M21</Speaker>||:You're gone for so long...
+M1928A1(0);M14(2)<Speaker>M14</Speaker>||:Then we must give you something in return right now!
+M1928A1(0)<Speaker>Thompson</Speaker>||;M14(2):Haha, don't sweat it.
+M14(2)<Speaker>M14</Speaker>||:No, we insist!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M14 anxiously pats herself up and down until a small, round bulk catches her attention again.
+M14(4)<Speaker>M14</Speaker>||:Huh?!!! Why is it back again?! +Holy crap! This coin... It's haunting me! +M21, you see it too, right...?
+M21(5)<Speaker>M21</Speaker>||:M14... Let's leave this subject till—
+M1928A1(0)<Speaker>Thompson</Speaker>||:M14's Christmas Coin? That would make a nice gift.
+M14(4)<Speaker>M14</Speaker>||:Not so fast, Cap! This coin is cursed!
+M21(5)<Speaker>M21</Speaker>||:That's right! W-What if it causes you trouble?!
+()<Speaker></Speaker>||:Ignoring M14's protests and M21's attempt to intervene, Thompson snatches the Christmas Coin out of M14's hand politely but adamantly.
+M1928A1(0)<Speaker>Thompson</Speaker>||:What trouble can this tiny coin bring me?
+M21(5)<Speaker>M21</Speaker>||:Uh... Well...
+M1928A1(0)<Speaker>Thompson</Speaker>||:It won't make me lose my way in the woods at night, will it?
+()<Speaker></Speaker>||:There seems to be some kind of subtext in Thompson's pointed grin, but it's gone before M21 can decipher it.
+M14(4)<Speaker>M14</Speaker>||:Cap... We'll give you something else!
+M1928A1(0)<Speaker>Thompson</Speaker>||:Thanks, M14, but this coin is what I want. See ya.
+M21(5)<Speaker>M21</Speaker>||:Captain!
+M14(4)<Speaker>M14</Speaker>||:But...
+()<Speaker></Speaker>||:Thompson bids them farewell in her usual debonair manner and leaves the Café. +M21 watches helplessly as M14's Christmas Coin once again gets taken beyond her reach. Her neural cloud is on the verge of an overload.
+M14(4)<Speaker>M14</Speaker>||:What should we do, M21? Captain took the cursed Christmas Coin... +I can't get in touch with M9 or M1911 either. What am I supposed to do? +...M21? What's the matter with you, M21?
+M21(5)<Speaker>M21</Speaker>||:I...I'm fine...
+()<Speaker></Speaker>||:The heartbroken M21 forces a dreadful smile.
+()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>1</BIN><Night><BGM>BGM_Empty</BGM><SE1>AVG_wind_grass</SE1>:10.30pm, December 23—two more days till Christmas. In the woods near the base. +Finding herself in the same old place for the third time, M21 hides expertly behind a tree with yet another gunny sack. +She can hear Thompson's steady footsteps not far away, but she can't help but feel a bit nervous at the thought of attacking her own team leader.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>Oh Captain... Why did you have to take M14's Christmas Coin?!</color> +<color=#A9A9A9>I've worked so hard... I abducted M9 and M1911... And now I need to get rid of you too...</color>
+()<Speaker></Speaker>||:She confirms Thompson's location one last time and lets out a long sigh.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>Why don't you understand...M14...?</color> +<color=#A9A9A9>Your Christmas Coin belongs to ME!</color>
+()<Speaker></Speaker>||<SE1>Rope</SE1>:After adjusting her grip on the gunny sack, she times her approach carefully and darts out from behind the tree. +But instead of Thompson, she is greeted with...
+()<Speaker></Speaker>||<BIN>9</BIN><SE1>AVG_Cloak_Whoosh</SE1>:An open gunny sack.
+()<Speaker>M21</Speaker>||<SE1>AVG_flag</SE1>:Ah! I can't see a thing! +Let me go! Where are you taking me?! +<size=50>Help! I'm being kidnapped!!!</size>
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>GF_20HW_Scene_BPM82_loop</BGM><睁眼><BIN>89</BIN><关闭蒙版><SE1>ClothingUp</SE1>:When the gunny sack is lifted off her head, M21 finds herself tied up in the depot. +Seated right in front of her is Thompson, who is toying with the purple gunny sack that almost ended up going over her head.
+M1928A1(0)<Speaker>Thompson</Speaker>||:M21, why would you need a gunny sack if you wanted to talk to me?
+M21(5)<Speaker>M21</Speaker>||:I...I was looking for something...
+M1928A1(0)<Speaker>Thompson</Speaker>||:Looking for something?
+M1928A1(0)<Speaker>Thompson</Speaker>||<SE1>ClothingUp</SE1>:Is this what you were looking for? This purple gunny sack...
+M1911Mod(0)<Speaker>M1911</Speaker>||<SE1>ClothingUp</SE1>:Or perhaps this blue one?
+()<Speaker></Speaker>||:M1911 strolls out holding the gunny sack that M21 put over her head. +At the sight of the blue sack, M21's hands start trembling.
+M21(5)<Speaker>M21</Speaker>||:I...I heard there were Christmas Coins to be found in the woods...
+M9(0)<Speaker>M9</Speaker>||:Oh, so you were looking for Christmas Coins?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M9 has appeared behind M21, showing off a Christmas Coin in front of her. +It glistens under the lights, and the simple etching reads, "M14".
+M21(5)<Speaker>M21</Speaker>||:... +<color=#A9A9A9>M14's Christmas Coin!</color>
+M9(0)<Speaker>M9</Speaker>||:No way! You went to all that trouble just to get M14's coin?
+M1911Mod(0)<Speaker>M1911</Speaker>||:I'd have never pegged you as such a hopeless romantic! Aren't you full of surprises!
+M21(5)<Speaker>M21</Speaker>||:I'm...not! I would never do something so stupid! +<color=#A9A9A9>I can't admit it, or I'll be the biggest joke of the year!</color>
+M1928A1(0)<Speaker>Thompson</Speaker>||:No?
+M21(5)<Speaker>M21</Speaker>||:O-Of course not! I was just taking a walk and hoping to come across some coins...
+M1928A1(0)<Speaker>Thompson</Speaker>||:I see. Then we won't have to worry about upsetting anyone when we do what we must with M14's Christmas Coin.
+M1911Mod(0)<Speaker>M1911</Speaker>||:Yep, makes our job much easier!
+M9(0)<Speaker>M9</Speaker>||:Heheh!
+M21(5)<Speaker>M21</Speaker>||:What are you planning to do with it?
+()<Speaker></Speaker>||:As the three Dolls grin nefariously in unison, a chill runs up M21's spine.
+M1928A1(0)<Speaker>Thompson</Speaker>||:Why do you care?
+M21(5)<Speaker>M21</Speaker>||:I...don't... +Do whatever you want...
+M1911Mod(0)<Speaker>M1911</Speaker>||:That's right, this is none of your business!
+M9(0)<Speaker>M9</Speaker>||:I wonder what it tastes like...
+()<Speaker></Speaker>||:M9 cranes her neck and lowers the coin into her open mouth little by little. +The closer M14's Christmas Coin is to the abyss, the more fidgety M21 becomes.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>Hey, hey, hey, stop it!</color> +Are you sure this is a good idea...?
+M1911Mod(0)<Speaker>M1911</Speaker>||:You got a problem with this?
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The coin has reached the height of M9's nose and is getting closer and closer to her maws...
+M21(4)<Speaker>M21</Speaker><Shake>0.1</Shake>||:Stop it!
+M1928A1(0)<Speaker>Thompson</Speaker>||:Finally telling the truth?
+M21(5)<Speaker>M21</Speaker>||:I...I've been telling the truth the whole time...
+M1928A1(0)<Speaker>Thompson</Speaker>||:Continue, M9.
+()<Speaker></Speaker>||:The small Christmas Coin has all but disappeared into M9's mouth.
+M21(4)<Speaker>M21</Speaker>||<震屏3>:Alright! I'll tell you everything!!!
+M1928A1(0)<Speaker>Thompson</Speaker>||:Good. Thank you, M9.
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:M21 deflates after Thompson is finished with the interrogation.
+M21(5)<Speaker>M21</Speaker>||<BGM>GF_Memorial</BGM>:I didn't want to do anything bad... I'm sorry, M9, M1911... I didn't want to hurt you... +I just want M14's Christmas Coin...
+M1911Mod(0)<Speaker>M1911</Speaker>||:Then why don't you just tell her?
+M21(5)<Speaker>M21</Speaker>||:If I did that, I would just be asking for it! +And even if M14 did give it to me, it wouldn't be from her heart...
+M1928A1(0)<Speaker>Thompson</Speaker>||:So you'd rather watch her coin end up in someone else's hands time after time?
+M21(5)<Speaker>M21</Speaker>||:...
+M1928A1(0)<Speaker>Thompson</Speaker>||:When it comes to certain things, unless you say it out loud, the other person won't be able to tell. +This isn't about the difference between being given something with and without having to ask for it. You're just making excuses for being too embarrassed to talk about your feelings.
+M1911Mod(0)<Speaker>M1911</Speaker>||:Look at me. I also want Darling's Christmas Coin, and I'm not afraid to admit it! I won't scheme behind their back to get it!
+M21(5)<Speaker>M21</Speaker>||:Yeah... I'm sorry...
+M1928A1(0)<Speaker>Thompson</Speaker>||:I'll let you have M14's coin and keep this whole thing a secret.
+M21(5)<Speaker>M21</Speaker>||:Captain!
+M1928A1(0)<Speaker>Thompson</Speaker>||:On one condition— +You must tell M14 how you actually feel.
+M21(5)<Speaker>M21</Speaker>||:I understand...
+M1928A1(0)<Speaker>Thompson</Speaker>||:Alright, stop fooling around, M9. Give the coin back.
+()<Speaker></Speaker>||:After a long silence, M9 turns around reluctantly with her face flushed in an angry shade of red.
+()<Speaker>M9</Speaker>||<BGM>BGM_Empty</BGM><SE1>Rope</SE1>:(Wheezes and gags)
+M21(4)<Speaker>M21</Speaker>||<震屏3>:<size=50>HEY! SHE SWALLOWED IT!!!</size>
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>82</BIN><Night><BGM>BGM_Moon</BGM>:11.30pm, December 23—two more days till Christmas. In the quiet dormitories. +By the time M21 returns to the dorm, M14 is already fast asleep.
+M21(2)<Speaker>M21</Speaker>||:Phew... Good thing I didn't wake you...
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 puts the Christmas Coin down on M14's bedside table lightly before crawling into bed, completely exhausted.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>That was more tiring than carrying out a mission...</color> +<color=#A9A9A9>Thank goodness Cap let me off the hook in the end...</color>
+()<Speaker></Speaker>||:M21 turns on her other side and sighs as she stares at M14's profile.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>M14...</color> +<color=#A9A9A9>Maybe I've really been doing it all wrong...</color>
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版>:Drowsiness sweeps over M21 and her eyelids grow heavy. +But memories of the evening keep buzzing inside her head...
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>82</BIN><Night><SE1>ClothingUp</SE1>:M21's eyes suddenly snap wide open in the dark.
+M21(2)<Speaker>M21</Speaker>||:That's right! I must learn to open my heart and express my feelings! +I'm telling M14 tomorrow that I want her Christmas Coin!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>9</BIN><黑屏2><BGM>BGM_Empty</BGM>:I'm telling her the moment she wakes up!
+()||<黑屏1>:
+()<Speaker></Speaker>||<BIN>82</BIN><黑屏2><关闭蒙版><BGM>m_avg_casual</BGM>:December 24—one more day till Christmas. In the dormitories. +M14 arouses from her sleep and drowsily puts on the Christmas outfit she laid out last night.
+M21(5)<Speaker>M21</Speaker>||:You're awake, M14.
+M14(2)<Speaker>M14</Speaker>||:Hm, M21, you're up early. +But you're not looking too energetic.
+M21(5)<Speaker>M21</Speaker>||:Ahaha, I didn't get much sleep, probably because I got too excited about the event today. +<color=#A9A9A9>C'mon, M21, spit it out! You've already spent a whole night thinking about what to say!</color>
+()<Speaker></Speaker>||:M21 fiddles with her tousled hair and looks away bashfully. +M14 follows her gaze and her attention is caught by something reflecting the sunlight on her bedside table...
+M14(4)<Speaker>M14</Speaker>||:Isn't that... +Our Christmas Coin?!
+M14(4);M21(5)<Speaker>M21</Speaker>||:Wow, you're right!
+M14(4)<Speaker>M14</Speaker>;M21(5)||:This coin just won't leave us alone... We've already given it away many times!
+M14(4);M21(5)<Speaker>M21</Speaker>||:Maybe it simply hasn't found the right person...
+M14(4)<Speaker>M14</Speaker>;M21(5)||:This is really creepy, M21! The coin is totally cursed! +We must find a way to get rid of it for good...
+M14(4);M21(2)<Speaker>M21</Speaker>||:Uh... I actually think it's kinda cute...
+M14(4)<Speaker>M14</Speaker>||:So scary so scary so scary...
+()<Speaker></Speaker>||:M14's restless pacing is making M21 nervous...
+M14(4)<Speaker>M14</Speaker>||:Help us think! We must get rid of this cursed Christmas Coin!
+M21(2)<Speaker>M21</Speaker>||:Then...why don't you...
+()<Speaker></Speaker>||:M21 musters her courage. She walks up to M14 and mumbles with trembling lips.
+M21(2)<Speaker>M21</Speaker>||:M14, please give your Christmas Coin to—
+()<Speaker></Speaker>||<震屏3><BGM>BGM_Empty</BGM><SE1>AVG_Door_Hit</SE1>:BANG! The door is flung open and two gaudily dressed Dolls stride in.
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||<BGM>m_wv_title</BGM>:Merry Christmas, girls!
+hkcaws(2)<Speaker>CAWS</Speaker>||:Good morning, I'm CAWS, and this suspiciously friendly person is Px4.
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||:Don't worry, we aren't bad guys. We're Santa Claus, here to give out presents!
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>Dammit... Why now?!</color>
+M14(2)<Speaker>M14</Speaker>||:Hello, we haven't met before, have we?
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||:Nope, but I'm sensing an instant connection here even though it's the first time we've met! +It's as if...we're sisters!
+M21(5)<Speaker>M21</Speaker>||:Hey, don't claim familial ties where there's none! +<color=#A9A9A9>No, something feels off about this one!</color>
+hkcaws(2)<Speaker>CAWS</Speaker>||<SE1>ClothingUp</SE1>:Please accept our gifts.
+M14(2)<Speaker>M14</Speaker>||:Why, thank you! You guys want to have a seat?
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||:No, we're just here to distribute gifts and spread the joy. +Though it'd be great if we can receive something in return, of course! +After all, our motto is "share joy to gain joy!"
+hkcaws(2)<Speaker>CAWS</Speaker>||:That's right, we give each other something so that everyone feels joyful! +If you don't have anything prepared, just a small coin will do.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>I knew it! They're totally hustling for Christmas Coins!</color> +<color=#A9A9A9>M14 won't fall for such a shoddy sham, will she...?</color>
+M14(2)<Speaker>M14</Speaker>||:That makes sense...
+()<Speaker></Speaker>||:M14 looks around and her gaze soon falls on that Christmas Coin...
+M21(4)<Speaker>M21</Speaker>||:No, M14! Gather your wits!
+M14(2)<Speaker>M14</Speaker>||:It's okay, M21. It's just a coin. +You can have our Christmas Coin. Merry Christmas!
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||:Woohoo! Thanks!
+hkcaws(6)<Speaker>CAWS</Speaker>||:Thank you for your support.
+Px4Storm(2)<Speaker>Px4 Storm</Speaker>||:We'll let you get on with your day, then. Ciao~ ♪
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Door_Close</SE1><SE1>RunStep</SE1>:Px4 Storm and CAWS prance out of the dorm, leaving behind a petrified M21 and a joyous M14.
+M14(2)<Speaker>M14</Speaker>||:How marvelous! This was the first time we've received a Christmas present from complete strangers!
+M14(4)<Speaker>M14</Speaker>||:But is it horrid of us to give them my cursed coin...?
+M21(5)<Speaker>M21</Speaker>||:...Hahaha, yeah, no.
+M14(2)<Speaker>M14</Speaker>||:What's the matter with you, M21?
+M21(5)<Speaker>M21</Speaker>||:I...
+()<Speaker></Speaker>||:She can't let them get away with it. M21's neural cloud is whirring away.
+M21(5)<Speaker>M21</Speaker>||:I also want a gift... I'll chase after them and ask for one...
+M14(2)<Speaker>M14</Speaker>||:Sure. Thank them again for us!
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:M21 drifts out of the dorm absent-mindedly...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑屏2><BIN>97</BIN>:M21 follows closely behind Px4 Storm and CAWS with more gunny sacks in hand. +Under her watchful gaze, they walk into each dorm and extort Christmas Coins from T-Dolls using different negotiation strategies.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>They don't seem to be targeting any T-Doll in particular. They're just casting a net to trawl in whatever fish they can...</color> +<color=#A9A9A9>Looks like they're trying to win the Christmas event and get their wish granted by the Commander...</color> +<color=#A9A9A9>But they must have spent a lot of money to buy that many presents. Is it even worth it?</color>
+()<Speaker>Px4 Storm</Speaker>||<SE1>AVG_20Winter_Door_Open</SE1>:Thanks guys! Love ya! ♪
+()<Speaker></Speaker>||:Px4 Storm and CAWS leave the current dorm and move onto their next target. +A present slides out of the giant sack on CAWS' back.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>That's my chance!</color>
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 darts out nimbly, ready to pick up the present that has fallen onto the floor.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:But just as her hand is about reach the gift, a foot comes out of nowhere and steps right onto M21's hand.
+M21(4)<Speaker>M21</Speaker>||<SE1>AVG_XXS_kick</SE1><BGM>BGM_Empty</BGM><震屏3>:Ow!
+KP31(2)<Speaker>Suomi</Speaker>||<震屏3>:Oh!
+()<Speaker></Speaker>||<BGM>GF_20HW_Scene_BPM82_loop</BGM>:Suomi lifts her foot hurriedly.
+KP31(2)<Speaker>Suomi</Speaker>||:Where the hell did you come from?!
+M21(5)<Speaker>M21</Speaker>||:I... Where the hell did YOU come from?!
+()<Speaker></Speaker>||:M21 picks up the present and starts kneading the hand that just got stepped on.
+KP31(10)<Speaker>Suomi</Speaker>||:... +Sorry, I didn't mean to do that.
+M21(5)<Speaker>M21</Speaker>||:It's okay... It was kinda my fault for charging out all of a sudden...
+()<Speaker></Speaker>||:M21 gives a perfunctory reply as her anxious gaze flits past Suomi in search of the "Santa Claus" duo.
+M21(5)<Speaker>M21</Speaker>||:Well, I'll be off then.
+KP31(2)<Speaker>Suomi</Speaker>||:Hold on, M21!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Suomi grabs M21's hand and shoves a small memory stick into her palm.
+KP31(2)<Speaker>Suomi</Speaker>||:I know we've barely talked, but I want—
+M21(5)<Speaker>M21</Speaker>||:What's this?
+KP31(9)<Speaker>Suomi</Speaker>||:It's a memory stick with a song. +Play it to someone you care about. It'll help express your feelings for them.
+M21(5)<Speaker>M21</Speaker>||:...Someone I care about? Express my feelings? What's this got to do with me?!
+()<Speaker></Speaker>||:M21 almost jumps out of her skin when Suomi seems to have read her mind.
+M21(5)<Speaker>M21</Speaker>||:Why are you suddenly giving me a present? You're not asking for something in return, are you?
+KP31(9)<Speaker>Suomi</Speaker>||:Christmas is almost here; this will definitely come in useful. +I don't need anything in return. Think of it as an apology for stepping on your foot.
+M21(5)<Speaker>M21</Speaker>||:... +<color=#A9A9A9>Will M14 really understand I want her Christmas Coin if I let her listen to this?</color>
+()<Speaker></Speaker>||:By the time M21 returns from her thoughts, Suomi is already nowhere to be seen.
+M21(2)<Speaker>M21</Speaker>||:...Thank you, Suomi.
+M21(5)<Speaker>M21</Speaker>||:... +Alright... Back to business!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M21 shoves the memory stick hastily into her pocket and unwraps the present she's picked up... +Which contains a single rusty spoon, the kind that can be found anywhere in a junkyard.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>I see. Giving out worthless "presents" to scam Dolls out of their Christmas Coins, eh...?</color> +<color=#A9A9A9>These shameless dirtbags! I've gotta think of a way to get back M14's coin and punish them while I'm at it!</color> +<color=#A9A9A9>Then, when I finally pop my question to M14, she'll...</color>
+()||<黑点1><BGM>BGM_Empty</BGM>:
+M14(2)<Speaker>M14</Speaker>||<黑点2><BIN>142</BIN><边框>2</边框>:M21, thank you so much! If it hadn't been for you, our Christmas Coin would've been lost... +And we wouldn't have realized who truly deserves our coin...
+M21(2)<Speaker>M21</Speaker>||<边框>2</边框>:Ahahahahaha, you're very welcome, M14...
+M14(2)<Speaker>M14</Speaker>||<边框>2</边框>:Please take our Christmas Coin!
+()||<黑点1><边框>2</边框>:
+M21(2)<Speaker>M21</Speaker>||<黑点2><BIN>97</BIN>:<color=#A9A9A9>Hahahaha... I think I'm laughing a bit prematurely.</color>
+()<Speaker></Speaker>||:M21's face flicker rapidly through a series of expressions as her imagination takes flight.
+M21(2)<Speaker>M21</Speaker>||:<color=#A9A9A9>Oh right, Miss Kalina said yesterday that we could report any incidents to the supervising group...</color> +<color=#A9A9A9>I remember the contact details are listed in the event email... Hm, it's FP-6!</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_connect</SE1>:M21 calls FP-6 on her communicator right away.
+M21(2)<Speaker>M21</Speaker>||:Hey, is this FP-6? I would like to make an urgent report...
+()||<黑点1>:
+()<Speaker></Speaker>||<黑点2><BIN>97</BIN><BGM>m_avg_casual</BGM>:...With the intervention of the supervising group and a few helpful Dolls, Px4 Storm and CAWS, the suspected cheaters of the event are soon apprehended. +Unfortunately, only half of the Christmas Coins they have hustled can be found. +Upon receiving a notice from the supervising group, M14 heads over to the depot to look for her Christmas Coin while M21 waits in the hallway impatiently.
+M21(2)<Speaker>M21</Speaker>||:<color=#A9A9A9>Hurry up and find your coin, M14!</color> +<color=#A9A9A9>I've figured out how to broach the subject...</color>
+()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:The gate to the depot is making a noise. +M21 mentally shakes herself. This is the signal of the gates being opened. +She swivels around and yells without hesitation—
+M21(2)<Speaker>M21</Speaker>||:<size=50>M14, please give me your Christmas Coin!</size>
+NPC-Helian(2)<Speaker>Helian</Speaker>||<SE1>ClothingUp</SE1>:Hm?
+()<Speaker></Speaker>||:The only one standing behind the gates is a very bemused Helian with a tablet that she has hastily hidden behind her back.
+NPC-Helian(1)<Speaker>Helian</Speaker>||:Are you alright, M21?
+M21(2)<Speaker>M21</Speaker>||:Ahahahaha... I'm fine...
+()<Speaker></Speaker>||:Helian walks off, still looking very confused. M21 exhales. +Whoosh! The depot gates open once again. This time, it's M14.
+M21(2)<Speaker>M21</Speaker>||:M14! Please—
+M14(2)<Speaker>M14</Speaker>||:It's not there, M21... Looks like our Christmas Coin is in the missing pile...
+M21(4)<Speaker>M21</Speaker>||:What?! How can that be?! +I'll help you find it!
+M14(2)<Speaker>M14</Speaker>||:It's fine, M21. It's nothing important anyway.
+M21(5)<Speaker>M21</Speaker>||:But!
+M14(2)<Speaker>M14</Speaker>||:More importantly, we've got a job to do. +Don't you remember? We're supposed to help M9 and M1911 clean up the Christmas fireworks venue.
+M21(5)<Speaker>M21</Speaker>||:I know... But...
+M14(2)<Speaker>M14</Speaker>||:C'mon, be a good girl and let's go help. +M9 has been hurrying us.
+()<Speaker></Speaker>||:Being dragged along by M14's warm hand makes M21 swallow everything she's going to say.
+M21(5)<Speaker>M21</Speaker>||:<color=#A9A9A9>I'll complete the task first. Then I'll find another chance to bring this up!</color>
+()||<黑点1>:

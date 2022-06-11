@@ -1,0 +1,61 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<BIN>81</BIN><黑屏2><BGM>m_19christmas_theme</BGM>:8pm, December 23—two more days till Christmas. At the Café.
+()<Speaker></Speaker>||:Having received a notice from Kalina, the T-Dolls are all gathered at the Café with great anticipation. +At the sight of such excitement, the Commander looks a little uneasy standing next to Kalina.
+()<Speaker>Commander</Speaker>||:Kalin, are you sure this is going to be okay? I just have a feeling that...
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Of course it'll be fine! I've planned out the whole thing, so just leave it all to me. +I swear everyone will definitely get what they want for Christmas this year, heheh...
+()<Speaker>Commander</Speaker>||:Really...
+()<Speaker></Speaker>||:Kalina's crafty smile only serves to exacerbate the Commander's concern.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Then let's begin!
+()<Speaker></Speaker>||<Night><SE1>AVG_BaseDoor_Open</SE1>:The lights dim and the projection screen descends to reveal the rules of this year's Christmas event. +As the Dolls whoop and cheer, Kalina raises the Christmas Coin in her hand.
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||<SE1>ClothingUp</SE1><BGM>BGM_21Christmas_Christmas</BGM>:This is the key of this year's Christmas event—<color=#FF0000>the Christmas Coin!</color>
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:On the right side is a Christmas tree, while the name of the owner is etched on the other side—for example, my name is on this coin here. +You have until 8pm on Christmas Day to give your coin to <color=#FF0000>the person you are the most thankful for</color>. We will tally everyone's coins and whoever gets the most will be the winner. +This winner will be given <color=#FF0000>an opportunity to make a wish</color>, which will be granted by the Commander.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||:The wish must be within the realm of reason, obviously. Don't make wishes like "getting paid without having to work" or "keeping a few elephants in your dorm"...
+()<Speaker></Speaker>||:Kalina is still explaining the rules, but her voice is already drowned out by the uproar.
+M1873Mod(0)<Speaker>SAA</Speaker>||:I want...!
+M1873Mod(0)<Speaker>SAA</Speaker>||<SE1>AVG_Door_Hit</SE1><震屏3>:100 tons of Cola!!!
+64typeMod(0)<Speaker>Type 64</Speaker>||<SE1>Rope</SE1>:Don't even think about it, 56. The Christmas Coin isn't edible!
+92type(0)<Speaker>Type 92</Speaker><Shake>0.1</Shake>||<震屏3><SE1>Select</SE1>:Say it again! Who are you giving yours to?!
+AAT52(0)<Speaker>AAT-52</Speaker><Shake>0.1</Shake>||<SE1>ClothingUp</SE1><SE1>AVG_Combat_Hits</SE1>:I-I'm giving mine to STEN! And STEN will also give me hers!
+StenMK2Mod(0)<Speaker>STEN MkII</Speaker><Shake>0.1</Shake>||:Stop fighting! <size=25>Also, I've already given mine to Makarov...</size>
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||<SE1>AVG_lifttable</SE1><controll_shake>%%type_id=2%%duration=4%%delay=0.1%%range=5</controll_shake>:Even in the limited space of the Café, the Dolls have managed to cause an all-out brawl.
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1>:The sound of cursing, arguing, and fighting comes crashing over the Commander like an angry wave. The Commander closes their eyes in seeming pain.
+()<Speaker></Speaker>||<关闭蒙版><SE1>AVG_tele_disconnect</SE1>:Kalina turns the lights back on, but that has no effect on stopping the commotion.
+NPC-Kalin(8)<Speaker>Kalina</Speaker>||<震屏3><SE1>AVG_whitenoise</SE1><SE1>AVG_Tinnitus</SE1>:Wait! I'm not finished yet!
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:Commander~ ♪
+()<Speaker>Commander</Speaker>||:What now, Kalina?
+()<Speaker></Speaker>||:Kalina's voice is amplified by a microphone. The simple mention of the Commander finally does the job. +The Commander turns to look at Kalina, who is holding out a Christmas Coin with a cheeky grin.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||<SE1>ClothingUp</SE1>:This is your Christmas Coin, Commander.
+()<Speaker>Commander</Speaker>||:Oh, thanks.
+NPC-Kalin(0)<Speaker>Kalina</Speaker>||:By the way...
+NPC-Kalin(1)<Speaker>Kalina</Speaker>||:Who are you planning to give it to?
+()<Speaker></Speaker>||<BGM>BGM_Empty</BGM>:The Café is instantly engulfed in a deathly silence. The riling waters have been soothed, and even the air itself seems to have grown still. +The Commander feels scorching gazes boring holes all over them. +They take a nervous gulp and reply in a quivering voice...
+()<Speaker>Commander</Speaker>||:Uh... I haven't...
+()||<黑点1>:
+()<Speaker>Gr MK23</Speaker>||<BGM>m_19christmas_battle</BGM><SE1>ClothingUp</SE1><黑点2><BIN>444</BIN>:Of course you'll be giving to me, right? Darling! ☆
+()<Speaker>K-PDW</Speaker>||<SE1>AVG_Punch</SE1><震屏3>:Don't be so presumptuous! Honey's Christmas Coin is for me, of course! ❤
+()<Speaker>Gr MK23</Speaker>||<SE1>Rope</SE1>:That's ridiculous! Darling, tell us, who are you giving your coin to?
+()<Speaker>Commander</Speaker>||:Uh... <c>Gr MK23. <c>K-PDW. <c>Someone else.
+()<Speaker>Commander</Speaker>||<分支>1</分支>:Actually, I'm giving it to—
+()<Speaker>Commander</Speaker>||<分支>2</分支>:Actually, I'm giving it to—
+()<Speaker>Commander</Speaker>||<分支>3</分支>:Actually, I'm giving it to—
+()<Speaker>Kalina</Speaker>||:Huh? Are you giving your answer already?! +That's no fun at all! Let's keep this a secret until Christmas Day!
+()<Speaker>Commander</Speaker>||:...No, wait!
+()<Speaker>Gr MK23</Speaker>||:No matter how long the delay, Darling's Christmas Coin will still be mine for sure!
+()<Speaker>K-PDW</Speaker>||:I already know Honey's feelings. It's okay, I don't mind waiting.
+()<Speaker>Kalina</Speaker>||:Hush... Commander, keep the lid on the surprise for just a little longer.
+()||<黑点1>:
+IDWMod(0)<Speaker>IDW</Speaker>||<震屏3><黑点2><BIN>81</BIN>:<size=50>Wow, the Commander's Christmas Coin, nya... I want it too, nya!</size>
+SPAS12(0)<Speaker>SPAS-12</Speaker>||:If I don't get the Commander's coin, I'll binge-eat until the food stores are empty to soothe my heartbreak...
+pa15(0)<Speaker>PA-15</Speaker>||:Gotta think of a way to get the Commander's coin~ ♪
+()<Speaker>Commander</Speaker>||:...
+()<Speaker></Speaker>||:Under the constant burning stares, the Commander's stress level skyrockets. +To get out of this dire situation, the Commander pretends not to see anything and makes a beeline for the exit.
+()<Speaker>Commander</Speaker>||<SE1>AVG_BaseDoor_Open</SE1>:I've still got work to do. You guys have fun.
+()<Speaker></Speaker>||<SE1>Rope</SE1>:A pair of gentle hands cup themselves around the Commander's hand.
+DSR50(0)<Speaker>Gd DSR-50</Speaker>||:You look a little tired. Why don't I give you a massage to help you relax? It'll only cost you one Christmas Coin...
+Saiga12(0)<Speaker>Saiga-12</Speaker>||:Ahem, Commander. If you're willing to part with your Christmas Coin, I'll give you my personal photo album.
+()<Speaker>Commander</Speaker>||:N-No thanks!
+()<Speaker></Speaker>||<SE1>AVG_Crowd_Run</SE1>:Inspired by Gd DSR-50's and Saiga-12's hustling, more and more Dolls hop on the bandwagon... +The menacing crowd closes in on the terrified Commander.
+()<Speaker>Commander</Speaker>||<controll_shake>%%type_id=2%%duration=2%%delay=0.1%%range=5</controll_shake>:STAY AWAY FROM MEEEEE!!!!
+()<Speaker></Speaker>||<SE1>RunStep</SE1>:And so, with the Commander's desperate scream and sprint, the celebrations for this year's Christmas officially begin.
+()||<黑点1><BGM>BGM_Empty</BGM>:

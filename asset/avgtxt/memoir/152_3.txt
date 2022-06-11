@@ -1,0 +1,117 @@
+()||<BIN>9</BIN><黑屏1>0,10</黑屏1><BGM>BGM_Empty</BGM>:
+()<Speaker></Speaker>||<黑屏2><BIN>276</BIN><回忆><SE1>AVG_tele_connect</SE1>:...
+NPC-PasserbyM(0)<Speaker>EA Member</Speaker>||:Mr. Alexei.
+NPC-PasserbyM(0)<Speaker>Ivan</Speaker>||:Is it so late already? +Well, we can talk about tomorrow's business in the morning. You can head on back now.
+NPC-PasserbyM(0)<Speaker>EA Member</Speaker>||:Right.
+()<Speaker></Speaker>||<SE1>AVG_Door_Open_Close</SE1>:...
+()<Speaker>Ivan</Speaker>||:Phew... +HQ, this is Ivan, please res...
+NPC-PasserbyF(0)<Speaker>???</Speaker><通讯框>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Ivan, darling~ Happy birthday!</color>
+NPC-PasserbyF(0)<Speaker>Ivan</Speaker><通讯框>||<BGM>BGM_Moon</BGM>:... +Thank you, dear... But I'm still busy now.
+NPC-PasserbyF(0)<Speaker>Ivan's Wife</Speaker><通讯框>||:<color=#00CCFF>Of course you are. If you weren't, you'd be at home having your slice of the cake with the kids.</color>
+NPC-PasserbyF(0)<Speaker>Ivan</Speaker><通讯框>||:...I'm sorry.
+NPC-PasserbyF(0)<Speaker>Ivan's Wife</Speaker><通讯框>||:<color=#00CCFF>There's nothing to be sorry for, dear.</color>
+NPC-PasserbyF(0)<Speaker>Ivan</Speaker><通讯框>||:I have to work hard now so things will be better down the road.
+NPC-PasserbyF(0)<Speaker>Ivan's Wife</Speaker><通讯框>||:<color=#00CCFF>But you should take care of your family too. It's hard for me to manage by myself...</color>
+NPC-PasserbyF(0)<Speaker>Ivan</Speaker><通讯框>||:...I'm sorry.
+NPC-PasserbyF(0)<Speaker>Ivan's Wife</Speaker><通讯框>||:<color=#00CCFF>You're always like that...</color>+<color=#00CCFF>Oh yes, Mrs. Leysin says that the Domestic Services Agency in the Green Zone has lots of Dolls working for them and they're all really cheap to hire.</color>+<color=#00CCFF>We can easily afford to have one come over once a month even on our income.</color>
+NPC-PasserbyF(0)<Speaker>Ivan</Speaker><通讯框>||:You want to hire a domestic Doll?
+NPC-PasserbyF(0)<Speaker>Ivan's Wife</Speaker><通讯框>||:<color=#00CCFF>It's better than me doing all the chores by myself, right? I'll send you their contact info later. Make sure you help me book one.</color>
+()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:【The call ends.】
+()<Speaker>Terminal</Speaker>||<SE1>AVG_tele_connect</SE1>:<color=#00CCFF>Message Received—</color>+<color=#00CCFF>【Dear, this is the contact info for the Domestic Services Agency...】</color>+<color=#00CCFF>【Make sure you make a booking right away.】</color>
+()<Speaker></Speaker>||:...
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><关闭蒙版><BGM>BGM_Empty</BGM>:...+Everything should have gone smoothly... +...If the go signal hadn't been sent to the wrong recipient...
+()<Speaker></Speaker>||<SE1>AVG_splash_water</SE1>:...+My face is suddenly struck by an ice-cold sensation, and I feel my consciousness returning.
+()<Speaker>EA Member's Voice</Speaker>||:Boss, he's awake! +I knew he was up to no good. Good thing we found out early...
+()<Speaker>EA Chairman's Voice</Speaker>||:<color=#00CCFF>Get lost.</color>
+()<Speaker>EA Member's Voice</Speaker>||:Uh, yes, Boss...
+()||<黑屏1>:
+()<Speaker>Ivan</Speaker>||<BIN>167</BIN><黑屏2><睁眼><BGM>BGM_Room</BGM>:(Groans)
+()<Speaker></Speaker>||<SE1>Rope</SE1>:After coming to, the first thing that registers is the sensation of my hands being tied. +The domestic Doll M1897 is tied up beside me, but she doesn't seem to be as frightened as I expected.
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>"Ivan".</color>
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>"A police officer from Sector N65 who infiltrated the Endeavor Association as a spy several years ago, intending to arrest the entire EA for trafficking in Military automatons."</color>
+()<Speaker>Ivan</Speaker>||:...
+M1897(0)<Speaker>M1897</Speaker>||:<size=35>So you are a cop, Mr. Ale... Ivan?</size>
+M1897(0)<Speaker>Ivan</Speaker>||:<size=35>And you're not the Tactical Doll sent as backup, are you?</size>
+M1897(0)<Speaker>M1897</Speaker>||:<size=35>I-I'm really just here to clean today.</size>
+M1897(0)<Speaker>Ivan</Speaker>||:<size=35>Yes...that does seem to be the case. Sorry for getting you involved in this.</size>
+M1897(0)<Speaker>M1897</Speaker>||:<size=35>So, these people are...</size>
+M1897(0)<Speaker>Ivan</Speaker>||:<size=35>They're gangsters from various Sectors.</size>
+M1897(0)<Speaker>M1897</Speaker><Shake>0.1</Shake>||:<size=60>G-gangsters?!</size>
+M1897(0)<Speaker>Ivan</Speaker>||:<size=35>Keep your voice down...</size>
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:A cop...so you're a cop!+And to think I trusted you.
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:And as for you, you blasted Doll! How dare you insult me! I'll make you regret that!
+()<Speaker></Speaker>||<SE1>AVG_Combat_Hits</SE1>:Clang! Clang! Clang!
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:(Pants heavily)
+()<Speaker></Speaker>||:Lady Brown whacks M1897 with her cane several times. +However, probably because she's a Doll, M1897 doesn't feel anything, while the "granny" trying to beat her up is out of breath.
+M1897(0)<Speaker>M1897</Speaker>||:...Are you alright?
+()<Speaker></Speaker>||:Is this the time to be concerned about her?!
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:...！+You damn — Peh!
+M1897(0)<Speaker>M1897</Speaker><Shake>0.1</Shake>||:Uh, p-please don't spit!  +I need to clean this up right away!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:M1897 seems really bothered by the state of cleanliness of the floor, but with her hands tied and several people pinning her down, she's unable to move.+She really is a domestic Doll - she's so sensitive when it comes to cleaning and hygiene...
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:I can't believe there's a mole in the EA. This means the cops have had their eyes on us for a long time now! +What do you intend to do about this, Mr. Chairman?!
+NPC-Oldartist(0)<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>No need to worry. We still have a trump card.</color>
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:A trump card? +You don't mean this Military automaton, do you? +If that Doll brat is right, it's nothing more than scrap metal!
+()<Speaker>Buyers</Speaker>||<SE1>AVG_Crowd</SE1>:Yeah, we still haven't settled things yet! +Explain yourself!
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>...Humph, yes we SHOULD take care of business as soon as we can.</color>+<color=#00CCFF>In that case, let's move up the weapons test.</color>
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:What do you mean?
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>Well, thanks to this Doll, we've uncovered the mole in our organization...</color>+<color=#00CCFF>But she's of no further use now, so why don't we use her as target practice?</color>
+M1897(0)<Speaker>M1897</Speaker>||:Ehhhhhh—?!
+()<Speaker>Ivan</Speaker>||:Wait a minute, this has nothing to do with her!
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>...I didn't expect you to feel sorry for a mere Doll.</color>+<color=#00CCFF>You don't have to worry though, you're next.</color>
+()<Speaker>Ivan</Speaker>||:<size=35>Dammit...</size>
+()<Speaker></Speaker>||<SE1>AVG_door_storehouse</SE1>:Under all the buyers' scrutiny, the Military automaton emits the sound of grinding gears as it is activated.
+()<Speaker>TS-5000</Speaker>||:——
+()<Speaker>Ivan</Speaker>||:This is bad.
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Hm? So this piece of scrap CAN be started up, but it sounds like it's got problems.
+NPC-Oldartist(0)<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>Well, it is an older model after all. A few repairs and it'll be more than enough to deal with the average punk.</color>
+NPC-PasserbyM(0)<Speaker>EA Member</Speaker>||:Oh! Let me handle the repairs!
+()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:The EA seems to have anticipated something like this, and the brave young man who just spoke up takes out various tools and begins fixing the Military automaton.+Truth be told, he seems quite capable, given the proficiency he's showing in dismantling and adjusting the mechanical components. That said, he's a little rough with them.+As he works, M1897 wails in dismay from beside me—
+M1897(0)<Speaker>M1897</Speaker><Shake>0.1</Shake>||:Th-that's the coolant tank, don't open it! Don't open...aaaaahhhhh it's gotten everywhere!+Wait, don't step onto the coolant, you'll track it all over the place! Please stop!
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Shut the hell up, you damn domestic Doll!+If you like cleaning up so much, you can chew on this!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:Lady Brown seems to have had enough of M1897's screaming. She picks up a rag from the ground, one that's drenched in oily residue and coolant, and shoves it into M1897's mouth.
+()<Speaker>M1897</Speaker>||:(Muffled scream) +(Gags)
+()<Speaker></Speaker>||:...+She-she fainted?!
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Humph, finally, some peace and quiet!
+()<Speaker></Speaker>||:How can a Doll be such a clean freak?+Still, a domestic Doll wouldn't be any use to me even if she was conscious.+I need to...
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>Trying to run?</color>
+()<Speaker>Ivan</Speaker>||:...!
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>Unfortunately, you won't have the chance for that.</color>+<color=#00CCFF>I think just testing the automaton on the Doll is far from enough. Why don't you make one last contribution to the organization as Alexei?</color>
+()<Speaker>Ivan</Speaker>||:You wish!
+()<Speaker>EA Chairman</Speaker>||:<color=#00CCFF>It's not like you have any say in the matter.</color>+<color=#00CCFF>Is it ready?</color>
+NPC-PasserbyM(0)<Speaker>EA Member</Speaker>||:Anytime, Boss!
+()<Speaker></Speaker>||<SE1>Rope</SE1>:After tying my legs together, they throw M1897 and me against a wall. All the gangsters retreat to safety, preparing themselves to enjoy a fireworks display.
+()<Speaker></Speaker>||<SE1>Heartbeat</SE1>:Is this the end for me?
+()<Speaker></Speaker>||:However, nobody can answer that question. As I stare into the muzzle of the Military automaton's gun, the only thing I feel is dread of the impending shots and explosions.+Right now, I'm actually a little envious of M1897, who's passed out and lucky enough to meet her end in blissful oblivion.
+()<Speaker>TS-5000</Speaker>||<SE1>AVG_door_elecport</SE1>:——
+()<Speaker>Ivan</Speaker>||:...
+()<Speaker>TS-5000</Speaker>||<Shake>0.1</Shake><SE1>AVG_whitenoise</SE1>:——%￥#@%￥#
+()<Speaker>Ivan</Speaker>||:Hm?!
+()<Speaker></Speaker>||:I must be hallucinating due to extreme stress, because there's no way what I'm seeing can be real.+The Military automaton is spewing huge gouts of black oil everywhere as everyone watches in shock.
+()<Speaker>Ivan</Speaker>||<震屏3>:Whoa—! +Pffff! (Coughs) +Bleh! Peh!
+()<Speaker></Speaker>||:I'm completely drenched in the filthy black oil, to the point where even my nostrils feel greasy. There are no words for this nauseating sensation. +Despite my wretched state, however, I realize that what M1897 said earlier was true.
+NPC-Oldartist(0)<Speaker>Lady Brown</Speaker>||:Dammit, is this thing really a piece of scrap?!
+NPC-PasserbyM(0)<Speaker>EA Member</Speaker>||:Huh, this...this shouldn't be happening!
+()<Speaker>M1897</Speaker>||:(Groans)
+()<Speaker></Speaker>||:It seems the acrid odor of the oil has woken M1897.
+()<Speaker>Ivan</Speaker>||:Hey, are you alright?
+()<Speaker>M1897</Speaker>||:Hm? +Nnn—?!?!
+()<Speaker></Speaker>||:As M1897 gradually comes to her senses, she finally realizes that she's drenched in filthy waste oil. Her eyes almost roll back into her head. She would probably be on the verge of a mental breakdown if she were human...
+M1897(0)<Speaker>M1897</Speaker>||:Nnnnnggg!—! +...Too...
+()<Speaker></Speaker>||:She seems to be trying to say something through the rag in her mouth.
+()<Speaker>Ivan</Speaker>||:"Too"?
+()<Speaker></Speaker>||:She spits the rag out and with her trembling voice...
+M1897(0)<Speaker>M1897</Speaker>||<BGM>BGM_Empty</BGM>:Too...dirty...+<size=60>THIS IS TOO DIRTY!!!!!!!!!!!!</size>
+()<Speaker></Speaker>||<SE1>Explode</SE1><BIN>9</BIN>:...
+()<Speaker></Speaker>||:Like many other people, I used to be prejudiced against Dolls, but over time, they've become part of our lives.+And now, I come to realize that when under extreme duress, Dolls also break down...or they blow up.
+()||<黑屏1>:
+()<Speaker></Speaker>||<BGM>BGM_Sunshine</BGM><黑屏2><BIN>167</BIN><SE1>AVG_rifle_finalshot_3h</SE1>:The domestic Doll before my eyes has gone berserk.+The weapon in her hands, the one that she called a toy, has blasted that Military automaton to bits.
+()<Speaker></Speaker>||:...+In addition, the gang leaders, who were so smug and arrogant only moments ago, have been "cleaned up" by the rampaging domestic Doll.
+()<Speaker></Speaker>||:And I do mean that they were cleaned up - literally... I don't know how to describe what I'm seeing, but M1897 has busted out her cleaning solutions and various tools and buried the gangsters under fragrant, soapy bubbles.+In any case, they've been incapacitated. For me, this was snatching victory from the jaws of defeat.
+M1897(0)<Speaker>M1897</Speaker>||:...+One last dirty thing to go.
+()<Speaker>Ivan</Speaker>||<BGM>BGM_Empty</BGM>:...Huh?
+()<Speaker></Speaker>||:I almost forgot that I'm also covered in oil. I suppose I'm a stain that she has to scrub.
+()||<黑屏1>:
+()<Speaker></Speaker>||<黑屏2><BIN>9</BIN><SE1>AVG_Combat_Hits</SE1>:...
+()<Speaker></Speaker>||:...
+()||<黑屏1>:
