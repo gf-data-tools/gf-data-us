@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "name": "Energy Shield",
+        "desc": "Grant a shield to all SMGs in the echelon. Each shield can absorb up to 40 points of damage.",
+        "if_display": 1,
+        "code": "shield",
+        "skill_group": "900101"
+    },
+    {
+        "id": 2,
+        "name": "Sniper Command",
+        "desc": "Aim for the enemy with the highest HP and deal 2500 damage to it.",
+        "if_display": 1,
+        "code": "sniper",
+        "skill_group": "900102"
+    },
+    {
+        "id": 3,
+        "name": "Riot Control",
+        "desc": "Enhance riot control capabilities of all SGs in the echelon, increasing their armor by 15% for 20 seconds.",
+        "if_display": 1,
+        "code": "armor",
+        "skill_group": "900103"
+    },
+    {
+        "id": 4,
+        "name": "Taunt Target",
+        "desc": "At the start of the battle, deploy a target dummy with 400 HP to attract enemy fire.",
+        "if_display": 1,
+        "code": "target",
+        "skill_group": "900104"
+    },
+    {
+        "id": 5,
+        "name": "Bombard Command",
+        "desc": "Fire a mortar shell that deals up to 200 damage to enemy units within a 2.5-unit radius.",
+        "if_display": 1,
+        "code": "bombard",
+        "skill_group": "900108"
+    },
+    {
+        "id": 6,
+        "name": "Fatal Air Raid",
+        "desc": "Launch an airstrike at the start of the battle, dealing 80 damage to all enemy units.",
+        "if_display": 1,
+        "code": "air_attack",
+        "skill_group": "900109"
+    },
+    {
+        "id": 7,
+        "name": "Combat Efficiency",
+        "desc": "Increase the echelon's damage and rate of fire by 5% for 20 seconds (does not stack).",
+        "if_display": 1,
+        "code": "fighting",
+        "skill_group": "900110"
+    },
+    {
+        "id": 8,
+        "name": "Unlimited Rage",
+        "desc": "Increase the echelon's accuracy and crit rate by 10% for 20 seconds (does not stack).",
+        "if_display": 1,
+        "code": "crit",
+        "skill_group": "900111"
+    },
+    {
+        "id": 701,
+        "name": "Night-Time Fury",
+        "desc": "During night battles, increase allies' crit rate and crit damage by 30%.",
+        "if_display": 1,
+        "code": "fight_skill_buff106",
+        "skill_group": "756071"
+    },
+    {
+        "id": 702,
+        "name": "Melee Strike",
+        "desc": "Increase damage dealt to enemy units within a 3-unit distance by 20%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756072"
+    },
+    {
+        "id": 703,
+        "name": "Assault Inertia",
+        "desc": "Increase allies's damage and evasion by 3% every 4 seconds, stacking up to 10 times.",
+        "if_display": 1,
+        "code": "fight_skill_buff102",
+        "skill_group": "756082"
+    },
+    {
+        "id": 704,
+        "name": "Prompt Preparation",
+        "desc": "The duration of all allies' initial cooldown is reduced by 30%.",
+        "if_display": 1,
+        "code": "fight_skill_buff105",
+        "skill_group": "756076"
+    },
+    {
+        "id": 705,
+        "name": "Deflector Shield",
+        "desc": "The unit with the highest HP gains a shield that will deflect 9999 points of damage, lasting 8 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff104",
+        "skill_group": "756077"
+    },
+    {
+        "id": 706,
+        "name": "Armor Loss",
+        "desc": "Allies' armor is reduced by 90% in this battle.",
+        "if_display": 1,
+        "code": "fight_skill_buff203",
+        "skill_group": "756078"
+    },
+    {
+        "id": 707,
+        "name": "Fire Suppression",
+        "desc": "The ally with the highest damage output is dazed for 5 seconds every 10 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff201",
+        "skill_group": "756079"
+    },
+    {
+        "id": 708,
+        "name": "Incendiary Strike",
+        "desc": "At the start of the battle, the echelon's front row will be engulfed in flame, taking 50 points of damage per Dummy-Link every 10 frames, lasting 10 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_hurt102",
+        "skill_group": "756084"
+    },
+    {
+        "id": 709,
+        "name": "Sluggish Cortex",
+        "desc": "The duration of allies' initial cooldown is increased by 30%.",
+        "if_display": 1,
+        "code": "fight_skill_buff204",
+        "skill_group": "756081"
+    },
+    {
+        "id": 710,
+        "name": "Compromised Leader",
+        "desc": "The echelon leader's damage, accuracy, evasion, armor, and crit rate are reduced by 90%.",
+        "if_display": 1,
+        "code": "fight_skill_buff204",
+        "skill_group": "756086"
+    },
+    {
+        "id": 711,
+        "name": "Stagnation",
+        "desc": "The echelon's move speed is reduced by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_hurt202",
+        "skill_group": "756085"
+    },
+    {
+        "id": 712,
+        "name": "Stuck Fast",
+        "desc": "The echelon's evasion is reduced by 90% in this battle.",
+        "if_display": 1,
+        "code": "fight_skill_hurt202",
+        "skill_group": "990003"
+    },
+    {
+        "id": 713,
+        "name": "Phantom Traces",
+        "desc": "Significantly increase enemies' evasion by 500%.",
+        "if_display": 1,
+        "code": "fight_skill_buff202",
+        "skill_group": "990004"
+    },
+    {
+        "id": 714,
+        "name": "No Slacking",
+        "desc": "Deal 999 points of damage to the ally with the lowest damage output every 15 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_hurt201",
+        "skill_group": "990006"
+    },
+    {
+        "id": 715,
+        "name": "Iron Meat Shield",
+        "desc": "The ally with the highest HP gains an additional 50% reduction in damage intake.",
+        "if_display": 1,
+        "code": "fight_skill_buff104",
+        "skill_group": "990007"
+    },
+    {
+        "id": 716,
+        "name": "The Damned",
+        "desc": "Weaken a random T-Doll every 15 seconds, reducing her stats (damage, rate of fire, accuracy, evasion, armor) by 50% for 5 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff204",
+        "skill_group": "990009"
+    },
+    {
+        "id": 717,
+        "name": "Charred Earth Stratagem",
+        "desc": "Throw an incendiary object at the enemy unit with the highest HP every 6 seconds, dealing 100 points of damage per 0.33 seconds in an area of 3*3, lasting 15 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_hurt102",
+        "skill_group": "990011"
+    },
+    {
+        "id": 718,
+        "name": "Stand Your Ground",
+        "desc": "Increase the evasion and armor of allies on the front row by 10%, stacking up to 10 times.",
+        "if_display": 1,
+        "code": "fight_skill_buff103",
+        "skill_group": "990013"
+    },
+    {
+        "id": 719,
+        "name": "Last-Ditch Struggle",
+        "desc": "Generate a shield with a value that equals 10% of the enemy's lost HP every 15 seconds. The shield lasts for 6 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff203",
+        "skill_group": "990014"
+    },
+    {
+        "id": 720,
+        "name": "Target of Steel",
+        "desc": "Summon a fully Dummy-Linked target every 10 seconds. Each Dummy of the target has 1000HP.",
+        "if_display": 1,
+        "code": "fight_skill_hurt103",
+        "skill_group": "990017"
+    },
+    {
+        "id": 721,
+        "name": "Hammer and Anvil",
+        "desc": "Generate a group of enemies in front of the echelon every 6 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_hurt203",
+        "skill_group": "990019"
+    },
+    {
+        "id": 722,
+        "name": "Undaunted Morale",
+        "desc": "Reduce the duration of all allies' skill cooldown by 20% every time a skill is activated.",
+        "if_display": 1,
+        "code": "fight_skill_buff105",
+        "skill_group": "756087"
+    },
+    {
+        "id": 723,
+        "name": "Maximum Fire",
+        "desc": "The echelon's rate of fire is increased by 100%.",
+        "if_display": 1,
+        "code": "fight_skill_buff102",
+        "skill_group": "756088"
+    },
+    {
+        "id": 724,
+        "name": "Emergency Shield",
+        "desc": "Generate a shield with a value that equals 30% of allies' lost HP every 10 seconds. The shield lasts for 6 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff104",
+        "skill_group": "756089"
+    },
+    {
+        "id": 725,
+        "name": "Random Strike",
+        "desc": "Weaken a random enemy unit every 10 seconds, reducing their stats (damage, rate of fire, accuracy, evasion, armor) by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_hurt101",
+        "skill_group": "756093"
+    },
+    {
+        "id": 726,
+        "name": "Weapon Malfunction",
+        "desc": "The echelon's rate of fire is reduced by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_hurt202",
+        "skill_group": "756091"
+    },
+    {
+        "id": 727,
+        "name": "Prime Leadership",
+        "desc": "The echelon leader's damage, accuracy, evasion, armor, and crit rate are increased by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756114"
+    },
+    {
+        "id": 728,
+        "name": "Focused Shot",
+        "desc": "Reduce allies' rate of fire by 20% while increasing their damage and accuracy by 20%.",
+        "if_display": 1,
+        "code": "fight_skill_buff103",
+        "skill_group": "756115"
+    },
+    {
+        "id": 729,
+        "name": "Emergency Shield",
+        "desc": "Generate a shield with a value that equals 30% of the echelon's lost HP every 10 seconds. The shield lasts for 6 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff104",
+        "skill_group": "756089"
+    },
+    {
+        "id": 730,
+        "name": "Handgun Mastery",
+        "desc": "Reduce the duration of friendly HG T-Dolls' skill cooldown by 20%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756126"
+    },
+    {
+        "id": 731,
+        "name": "Submachine Gun Mastery",
+        "desc": "Increase friendly SMG T-Dolls' accuracy and evasion by 100%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756127"
+    },
+    {
+        "id": 732,
+        "name": "Rifle Mastery",
+        "desc": "Increase friendly RF T-Dolls' rate of fire and crit rate by 20%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756128"
+    },
+    {
+        "id": 733,
+        "name": "Assault Rifle Mastery",
+        "desc": "Increase friendly AR T-Dolls' damage and accuracy by 20% and 100% respectively.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756129"
+    },
+    {
+        "id": 734,
+        "name": "Shotgun Mastery",
+        "desc": "Increase friendly SG T-Dolls' armor by 20% and reduce their damage intake by 20%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756130"
+    },
+    {
+        "id": 735,
+        "name": "Machine Gun Mastery",
+        "desc": "Increase friendly MG T-Dolls' ammo box capacity by 15.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756131"
+    },
+    {
+        "id": 736,
+        "name": "The Blessed",
+        "desc": "At the start of the battle, each ally gains a shield with a value that equals 20% of their maximum HP, lasting 10 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_buff102",
+        "skill_group": "756124"
+    },
+    {
+        "id": 737,
+        "name": "Assault Command",
+        "desc": "The echelon's rate of fire is increased by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756133"
+    },
+    {
+        "id": 738,
+        "name": "Rapid Assault",
+        "desc": "The duration of all allies' initial cooldown is reduced by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_buff101",
+        "skill_group": "756134"
+    },
+    {
+        "id": 739,
+        "name": "Rampage Command",
+        "desc": "Crit damage is increased by 50%.",
+        "if_display": 1,
+        "code": "fight_skill_buff102",
+        "skill_group": "756135"
+    },
+    {
+        "id": 740,
+        "name": "All-Out Offensive",
+        "desc": "The echelon's damage, rate of fire, accuracy, and evasion are increased by 30% with each different gun type.",
+        "if_display": 1,
+        "code": "fight_skill_buff103",
+        "skill_group": "756136"
+    },
+    {
+        "id": 741,
+        "name": "Void Command",
+        "desc": "Erase all buffs on the echelon every 8 seconds.",
+        "if_display": 1,
+        "code": "fight_skill_hurt201",
+        "skill_group": "756144"
+    },
+    {
+        "id": 742,
+        "name": "Critical Suppression",
+        "desc": "Crit rate is reduced by 100%.",
+        "if_display": 1,
+        "code": "fight_skill_buff201",
+        "skill_group": "756146"
+    },
+    {
+        "id": 743,
+        "name": "Signal Failure",
+        "desc": "Increase the duration of a skill cooldown by 100% every time a skill is used.",
+        "if_display": 1,
+        "code": "fight_skill_buff202",
+        "skill_group": "756147"
+    }
+]
