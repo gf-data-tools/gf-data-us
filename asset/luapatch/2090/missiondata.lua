@@ -108,7 +108,12 @@ local UseWinCounter = function(self)
 	end
 	return self.winCount;
 end
+
+local isEndless = function(self)
+	return self.endlessType ~= 0;
+end
 util.hotfix_ex(CS.MissionAction,'LoadBattleEnvironment',LoadBattleEnvironment)
 util.hotfix_ex(CS.MissionAction,'LoadFairySkillPerform',LoadFairySkillPerform)
 util.hotfix_ex(CS.MissionAction,'LoadKillNum',LoadKillNum)
 util.hotfix_ex(CS.Mission,'get_UseWinCounter',UseWinCounter)
+util.hotfix_ex(CS.MissionInfo,'get_isEndless',isEndless)
