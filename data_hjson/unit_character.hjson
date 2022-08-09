@@ -1,0 +1,612 @@
+[
+  {
+    id: 100
+    name: Griffin
+    character_des: This unit is from Griffin
+  }
+  {
+    id: 101
+    name: Sangvis Ferris
+    character_des: This unit is affected by Sangvis technology and belongs to Sangvis Ferri Manufacturing
+  }
+  {
+    id: 102
+    name: Paradeus
+    character_des: This unit's most distinctive feature is the white paint job. Everything else is a mystery. (Known to the players as the White Faction.)
+  }
+  {
+    id: 103
+    name: KCCO
+    character_des: This unit is from the Military, caution and avoidance is advised.
+  }
+  {
+    id: 104
+    name: Infected
+    character_des: Infected and mutated, known to players as a Zombie.
+  }
+  {
+    id: 105
+    name: Statesec
+    character_des: This unit is from Statesec
+  }
+  {
+    id: 200
+    name: BOSS
+    character_des: Danger! This unit is a Boss, please be careful, Commander!
+  }
+  {
+    id: 201
+    name: Scarecrow
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 202
+    name: Executioner
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 203
+    name: Hunter
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 204
+    name: Intruder
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 205
+    name: Alchemist
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 206
+    name: Destroyer
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 207
+    name: Gager
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 208
+    name: Architect
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 209
+    name: Dreamer
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 210
+    name: Ouroboros
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 211
+    name: Judge
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 212
+    name: Agent
+    character_des: S.F. Manufacturing Unit
+  }
+  {
+    id: 213
+    name: Beak
+    character_des: Motorbike enthusiast
+  }
+  {
+    id: 214
+    name: Cerberus
+    character_des: Cerberus, a beast-type unit developed by Sangvis Ferri, is more powerful than your regular robot dog.
+  }
+  {
+    id: 215
+    name: M16A1
+    character_des: M16 after being infected by Parapluie
+  }
+  {
+    id: 216
+    name: '''"Nyto"'''
+    character_des: A mysterious lifeform that calls itself "Nyto"
+  }
+  {
+    id: 300
+    name: Normal
+    character_des: This unit has balanced stats and no outstanding traits
+  }
+  {
+    id: 301
+    name: Danger
+    character_des: This unit is extremely dangerous, please be careful!
+  }
+  {
+    id: 302
+    name: Giant
+    character_des: It is massive and has high health!
+  }
+  {
+    id: 303
+    name: Melee
+    character_des: Melee attack mode
+  }
+  {
+    id: 304
+    name: High speed
+    character_des: Has high move speed
+  }
+  {
+    id: 305
+    name: Heavy
+    character_des: Has low move speed
+  }
+  {
+    id: 306
+    name: Nimble
+    character_des: Has high evasion
+  }
+  {
+    id: 307
+    name: Accurate
+    character_des: This unit has high accuracy
+  }
+  {
+    id: 308
+    name: Full Auto
+    character_des: This unit has high rate of attack
+  }
+  {
+    id: 309
+    name: Armor
+    character_des: This unit is armored
+  }
+  {
+    id: 310
+    name: Shielded
+    character_des: This unit can generate a shield that blocks a fixed amount of damage
+  }
+  {
+    id: 311
+    name: Precise
+    character_des: Attacks will only do minimal damage to this unit
+  }
+  {
+    id: 312
+    name: Force field
+    character_des: This unit can generate a force field
+  }
+  {
+    id: 313
+    name: Immunity
+    character_des: This unit can negate a fixed amount of damage
+  }
+  {
+    id: 314
+    name: Scatter shot
+    character_des: This unit can attack multiple targets at once
+  }
+  {
+    id: 315
+    name: Armor Penetration
+    character_des: Attacks can deal damage through armor
+  }
+  {
+    id: 316
+    name: Weaken
+    character_des: Can apply debuffs to its target(s)
+  }
+  {
+    id: 317
+    name: Suppression
+    character_des: Can apply move speed reduction to its target(s)
+  }
+  {
+    id: 318
+    name: Disruption
+    character_des: Can apply attack speed reduction to its target(s)
+  }
+  {
+    id: 319
+    name: Area damage
+    character_des: Can cause damage over an area.
+  }
+  {
+    id: 320
+    name: Pierce
+    character_des: Has the ability to damage multiple units in a straight line
+  }
+  {
+    id: 321
+    name: Spawner
+    character_des: Can produce new units during battle to join the fight
+  }
+  {
+    id: 322
+    name: Minelayer
+    character_des: Can set traps during the mission. Units that pass by will be damaged
+  }
+  {
+    id: 323
+    name: Self-Destruct
+    character_des: Self-destructs upon contact with its target, doing massive damage to its surroundings
+  }
+  {
+    id: 324
+    name: Control
+    character_des: Disrupts the target and puts them out of action briefly.
+  }
+  {
+    id: 325
+    name: Lock On
+    character_des: Locks onto an area remotely and can deal great damage to said area or target
+  }
+  {
+    id: 326
+    name: Support
+    character_des: Can support other units in combat
+  }
+  {
+    id: 327
+    name: Infiltrate
+    character_des: This unit will continue forward without regard for any restrictions or conditions.
+  }
+  {
+    id: 328
+    name: Hacking
+    character_des: This unit greatly increases the cooldown of friendly Doll skills.
+  }
+  {
+    id: 329
+    name: Certain Death
+    character_des: This unit can inflict extremely high unavoidable damage.
+  }
+  {
+    id: 330
+    name: Cyborg
+    character_des: This unit's health is divided into multiple sections. Damaging different sections yields different results.
+  }
+  {
+    id: 331
+    name: Intensify
+    character_des: Increases damage dealt toward the same target.
+  }
+  {
+    id: 332
+    name: Anti-Individual
+    character_des: Prioritizes targets with fewer Dummy-Links and deals extra damage to them.
+  }
+  {
+    id: 333
+    name: Morale Boost
+    character_des: This unit buffs other units on the battlefield.
+  }
+  {
+    id: 334
+    name: Heavy Armor
+    character_des: This unit possesses extremely strong armor.
+  }
+  {
+    id: 335
+    name: Blind
+    character_des: This unit significantly reduces enemies' accuracy.
+  }
+  {
+    id: 401
+    name: Shielded Advance
+    character_des: This unit uses a shield to decrease damage taken as he moves. The amount of damage negated equals the current damage this unit can do.
+  }
+  {
+    id: 402
+    name: Accelerated Assault
+    character_des: This unit's attack speed increases with each normal attack that hits the target. The attack speed increase will be capped after 5 normal attacks.
+  }
+  {
+    id: 403
+    name: Short-Range Fumigation
+    character_des: Throw an incendiary grenade at the closest enemy unit.
+  }
+  {
+    id: 404
+    name: Flame Jet
+    character_des: This unit deals AoE damage using a special flamethrower. He moves to the closest enemy unit and blasts them with a flame jet. All units behind his target also take damage.
+  }
+  {
+    id: 405
+    name: Moving Smash
+    character_des: This unit's first attack after coming to a stop deals extra damage.
+  }
+  {
+    id: 406
+    name: Fragmentation Projectile
+    character_des: Throw a fragmentation grenade at a random enemy unit, dealing damage to a 4-unit radius.
+  }
+  {
+    id: 407
+    name: Prone Position
+    character_des: Stop moving and fire in the prone position after 3 seconds. When firing in this position, target the enemy unit with the lowest HP, and increase own accuracy and damage.
+  }
+  {
+    id: 408
+    name: Hit Where It Hurts
+    character_des: Normal attacks have a chance of decreasing the target's damage and accuracy.
+  }
+  {
+    id: 409
+    name: Range Increase
+    character_des: The attack range of this unit is increased by 3 when he comes to a stop.
+  }
+  {
+    id: 410
+    name: Electric Projectile
+    character_des: Throw a flashbang at a random enemy unit, decreasing the target's rate of fire and moving speed.
+  }
+  {
+    id: 411
+    name: Incendiary Mortar
+    character_des: This unit sets up an incendiary mortar at certain time intervals. The mortar's normal attacks set the targeted area on fire.
+  }
+  {
+    id: 412
+    name: Electric Mortar
+    character_des: This unit sets up an electric mortar at certain time intervals. The mortar's normal attacks stun the targets it hits.
+  }
+  {
+    id: 413
+    name: Equipment Upgrade
+    character_des: This unit boosts all allies' rate of fire 5 seconds after the start of the battle.
+  }
+  {
+    id: 414
+    name: Sticky Bomb
+    character_des: Throw a sticky bomb that attaches to the closest enemy unit. The sticky bomb explodes after a period of time, dealing damage to the target and all units within a radius of 8.
+  }
+  {
+    id: 415
+    name: Biotech
+    character_des: Regenerate the shield by an amount that is proportional to the unit's lost HP at certain intervals.
+  }
+  {
+    id: 416
+    name: Incendiary Projectile
+    character_des: Throw an incendiary grenade at a random enemy unit.
+  }
+  {
+    id: 417
+    name: Incinerator
+    character_des: This unit takes massive damage if his gas tank is destroyed. If his HP is lower than 30%, he receives an extra damage boost.
+  }
+  {
+    id: 418
+    name: Mobile Cover
+    character_des: This unit fights enemies using objects for cover, which increase her evasion and accuracy. With every 30% HP lost, this unit places an extra cover to absorb damage received.
+  }
+  {
+    id: 419
+    name: Hellfire
+    character_des: When afflicted by negative status effects, this unit immediate purges them and gains a shield.
+  }
+  {
+    id: 420
+    name: Fang
+    character_des: This unit uses two different types of projectiles to weaken enemy units. Sticky bombs deal unavoidable damage to the nearest enemy unit while flashbangs decrease the damage and accuracy of units within the affected area.
+  }
+  {
+    id: 421
+    name: Automatic Mortar
+    character_des: 8 seconds after the start of the battle, set up an automatic mortar every 10 seconds. All damage received by the mortar is fixed at 1.
+  }
+  {
+    id: 422
+    name: Fracturing Threat
+    character_des: When HP is lower than 80%/50%/20%, release a Cluster Seeker Mine that deals massive damage to flagged positions.
+  }
+  {
+    id: 423
+    name: Strike Focus
+    character_des: Increase damage by 35% and accuracy by 100% for 5 seconds. Initial cooldown: 5 seconds. Skill cooldown: 8 seconds.
+  }
+  {
+    id: 424
+    name: Shoot
+    character_des: Attacks from this unit can be avoided by taking cover behind objects.
+  }
+  {
+    id: 425
+    name: Throw
+    character_des: Deal massive damage to flagged positions. Avoid with caution! Ammo is left behind where projectiles land. Make use of it and counterattack!
+  }
+  {
+    id: 426
+    name: Technique - Berserk
+    character_des: Does its base damage to distant targets, deals guaranteed damage to nearer enemy units.
+  }
+  {
+    id: 427
+    name: Shielded Advance
+    character_des: When moving, this unit reduces damage taken by 50% with its shield.
+  }
+  {
+    id: 428
+    name: Disruption B
+    character_des: Removes all enemy buffs and shields.
+  }
+  {
+    id: 429
+    name: Disruption Y
+    character_des: Removes all debuffs on allies and grants them shields.
+  }
+  {
+    id: 430
+    name: Specialists
+    character_des: A team of professionals with varying levels of experience.
+  }
+  {
+    id: 431
+    name: Shields Raised
+    character_des: Stay in position and raise shields to gain continuous shield buff.
+  }
+  {
+    id: 432
+    name: Energy Charge
+    character_des: Charge up a burst of energy and deal damage to targets.
+  }
+  {
+    id: 433
+    name: Damage Over Time
+    character_des: This unit's attacks hit extremely hard and deal damage over time to enemies.
+  }
+  {
+    id: 434
+    name: Throw
+    character_des: This unit deals enormous damage to flagged areas. Move to avoid taking damage.
+  }
+  {
+    id: 435
+    name: Anti-Mechanical
+    character_des: This unit uses an anti-mechanical weapon that deals massive damage to enemy mechanical units.
+  }
+  {
+    id: 436
+    name: Critical
+    character_des: As the leader of the enemy echelon, killing this unit will reduce the damage and evasion of other enemy units.
+  }
+  {
+    id: 437
+    name: Command
+    character_des: This unit buffs other units on the battlefield.
+  }
+  {
+    id: 438
+    name: Summoner
+    character_des: This unit keeps summoning new units onto the battlefield.
+  }
+  {
+    id: 439
+    name: Stealer
+    character_des: This unit takes some of their enemies' stats and adds them to their own.
+  }
+  {
+    id: 440
+    name: Assassin Mode
+    character_des: This unit uses blades and claws to slash down enemy units with no Dummies.
+  }
+  {
+    id: 441
+    name: Raise Shield
+    character_des: Reduce damage taken by units behind self. Raise Shield status automatically ends after taking a certain amount of damage while Raise Shield is active.
+  }
+  {
+    id: 442
+    name: Commandeer
+    character_des: Steal the accuracy of the current attack target and mark them; the marks stack. Normal attacks deal extra damage to targets depending on the number of marks they have.
+  }
+  {
+    id: 443
+    name: Cover Order
+    character_des: Raise all friendly units' evasion.
+  }
+  {
+    id: 444
+    name: Stalwart
+    character_des: Reduce damage taken by all friendly units around self as well as the damage of enemy units while on the field.
+  }
+  {
+    id: 445
+    name: Sakura Inverse
+    character_des: Gain a shield that lasts 5 seconds. If the shield breaks during its duration, raise self evasion. Otherwise, raise self firepower.
+  }
+  {
+    id: 446
+    name: Pizza Mark
+    character_des: Attacks mark enemies. Gaining 3 marks triggers additional damage and increases self damage.
+  }
+  {
+    id: 447
+    name: Snowman Sortie
+    character_des: Targets hit by 4 Snowmen attacks will have one of their Dummies marked. When all Dummies are marked, the unit is frozen (dazed) and takes extra damage.
+  }
+  {
+    id: 900
+    name: ????
+    character_des: Everything about it is shrouded in mystery.
+  }
+  {
+    id: 901
+    name: Drunk
+    character_des: This unit is drunk as a skunk...and totally smashed...
+  }
+  {
+    id: 902
+    name: Highly Dangerous
+    character_des: Warning! Highly dangerous! Avoid! Avoid!
+  }
+  {
+    id: 903
+    name: Training Use
+    character_des: For Training
+  }
+  {
+    id: 904
+    name: Mental interference
+    character_des: ""
+  }
+  {
+    id: 905
+    name: Neural Cloud Recovered
+    character_des: ""
+  }
+  {
+    id: 906
+    name: Neural Cloud Connected
+    character_des: ""
+  }
+  {
+    id: 907
+    name: Neural Cloud Fusion
+    character_des: ""
+  }
+  {
+    id: 908
+    name: Lethal
+    character_des: The target deals extremely high damage, don't get hit.
+  }
+  {
+    id: 909
+    name: Doll machine
+    character_des: ""
+  }
+  {
+    id: 910
+    name: Automated defense installation
+    character_des: This structure can attack autonomously
+  }
+  {
+    id: 911
+    name: Failed Isomer
+    character_des: Failed Isomer
+  }
+  {
+    id: 1001
+    name: Elite
+    character_des: A unit with outstanding abilities in its faction.
+  }
+  {
+    id: 1002
+    name: Griffin Elite
+    character_des: An elite unit from Griffin.
+  }
+  {
+    id: 1003
+    name: High-threat
+    character_des: This unit is extremely dangerous, please be careful!
+  }
+  {
+    id: 1004
+    name: ???
+    character_des: ""
+  }
+]

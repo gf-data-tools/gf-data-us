@@ -1,0 +1,170 @@
+[
+  {
+    type: 0
+    name: None
+    category: 0
+    code: ""
+    fit_gun_type: "0"
+    des: None
+  }
+  {
+    type: 1
+    name: Optical Sight
+    category: 1
+    code: Optical_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: Buffs <color=#FFB400FF>crit rate</color>.
+  }
+  {
+    type: 2
+    name: Holographic Sight
+    category: 1
+    code: Holographic_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: Buffs <color=#FFB400FF>accuracy</color> and <color=#FFB400FF>damage</color> but reduces <color=#FFB400FF>rate of fire</color>.
+  }
+  {
+    type: 3
+    name: Red Dot Sight
+    category: 1
+    code: RedDot_Sight
+    fit_gun_type: "2,3,4,5,6"
+    des: Buffs <color=#FFB400FF>accuracy</color> but reduces <color=#FFB400FF>rate of fire</color>.
+  }
+  {
+    type: 4
+    name: Night Battle Equipment
+    category: 1
+    code: NightBattle_Equipment
+    fit_gun_type: "1,2,4,6"
+    des: Reduces a T-Doll's <color=#FFB400FF>accuracy penalty in Night Battles</color>.
+  }
+  {
+    type: 5
+    name: AP Ammo
+    category: 2
+    code: AP_Ammo
+    fit_gun_type: "3,5"
+    des: Buffs <color=#FFB400FF>armor-piercing capability</color>, increasing damage dealt to armored units.
+  }
+  {
+    type: 6
+    name: HP Ammo
+    category: 2
+    code: HP_Ammo
+    fit_gun_type: "1,2"
+    des: Buffs a Doll's <color=#FFB400FF>damage</color>but reduces <color=#FFB400FF>armor-piercing capability</color>.
+  }
+  {
+    type: 7
+    name: Shotgun Shells
+    category: 2
+    code: Shotgun_Shells
+    fit_gun_type: "6"
+    des: Buffs <color=#FFB400FF>damage</color>. They are divided into Slugs, Buckshot and Birdshot, to be used in different scenarios.
+  }
+  {
+    type: 8
+    name: HV Ammo
+    category: 2
+    code: HV_Ammo
+    fit_gun_type: "4"
+    des: Buffs <color=#FFB400FF>damage</color>.
+  }
+  {
+    type: 9
+    name: Chips
+    category: 3
+    code: Chip
+    fit_gun_type: "2,4"
+    des: Buffs <color=#FFB400FF>damage</color> and <color=#FFB400FF>rate of fire</color>, but reduces <color=#FFB400FF>crit damage</color>.
+  }
+  {
+    type: 10
+    name: Exoskeleton
+    category: 3
+    code: Exoskeleton
+    fit_gun_type: "1,2,4"
+    des: Buffs <color=#FFB400FF>evasion</color>.
+  }
+  {
+    type: 11
+    name: Armor Plate
+    category: 3
+    code: ArmorPlate
+    fit_gun_type: "6"
+    des: Buffs <color=#FFB400FF>armor</color> but reduces <color=#FFB400FF>evasion</color>.
+  }
+  {
+    type: 12
+    name: Medals
+    category: 3
+    code: Medal
+    fit_gun_type: "0"
+    des: Different types of special Doll equipment have different effects on a T-Doll's stats.
+  }
+  {
+    type: 13
+    name: Suppressor
+    category: 1
+    code: Suppressor
+    fit_gun_type: "1,2,3,4"
+    des: Buffs <color=#FFB400FF>crit rate</color> and <color=#FFB400FF>evasion</color>.
+  }
+  {
+    type: 14
+    name: Ammunition Box
+    category: 3
+    code: Ammunition_Box
+    fit_gun_type: "5"
+    des: Increases <color=#FFB400FF>ammo capacity</color> but reduces <color=#FFB400FF>evasion</color>.
+  }
+  {
+    type: 15
+    name: Camouflage Cape
+    category: 3
+    code: Camouflage_Cloak
+    fit_gun_type: "3"
+    des: Buffs <color=#FFB400FF>crit damage</color> but reduces <color=#FFB400FF>mobility</color>.
+  }
+  {
+    type: 16
+    name: Auxiliary Sights
+    category: 1
+    code: Spare_Sight
+    fit_gun_type: "1,5"
+    des: Buffs <color=#FFB400FF>accuracy</color> and <color=#FFB400FF>crit rate</color>.
+  }
+  {
+    type: 17
+    name: Special AP Ammo
+    category: 2
+    code: Special_AP_Ammo
+    fit_gun_type: "5"
+    des: Greatly improves <color=#FFB400FF>armor-piercing capability</color>, increasing damage dealt to armored units.
+  }
+  {
+    type: 18
+    name: Special Accessories
+    category: 1
+    code: Special_Accessories
+    fit_gun_type: "0"
+    des: Different types of special accessories have different effects on a T-Doll's stats. Cannot be produced.
+  }
+  {
+    type: 19
+    name: Special Magazines
+    category: 2
+    code: Special_Magazine
+    fit_gun_type: "0"
+    des: Different types of special magazines have different effects on a T-Doll's stats. Cannot be produced.
+  }
+  {
+    type: 20
+    name: Special Doll Equipment
+    category: 3
+    code: Special_TDoll
+    fit_gun_type: "0"
+    des: Different types of special Doll equipment have different effects on a T-Doll's stats. Cannot be produced.
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    id: 1001
+    name: Night Vision
+    unlock_furniture_level: 0
+    type: 1
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: NightView
+    des: During night battles, the echelon gains an extra node of vision range.
+    dev_battery_num: 1000
+    dev_time: 300
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: 30001:1
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 1002
+    name: Night Vision
+    unlock_furniture_level: 1
+    type: 1
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: NightHit
+    des: During night battles, offsets 100% of night battle accuracy penalties.
+    dev_battery_num: 1000
+    dev_time: 600
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: 30002:1
+    special_skill_parameter: ""
+    night_view_percent: 100
+  }
+  {
+    id: 1003
+    name: Phantom Stance
+    unlock_furniture_level: 3
+    type: 1
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: ExtraAp
+    des: The echelon does not expend any action point for their first move each round.
+    dev_battery_num: 1000
+    dev_time: 1800
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: 30003:1,2
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 1004
+    name: Ample Fuel
+    unlock_furniture_level: 5
+    type: 1
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: ExtraAmmo
+    des: The echelon may bring an additional 2 pips of ammo and rations.
+    dev_battery_num: 1000
+    dev_time: 3600
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: 30005:1
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 1005
+    name: Frugal Mobilization
+    unlock_furniture_level: 4
+    type: 1
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: AmmoReduce
+    des: The echelon does not consume any ammo or rations and receives a 15% damage buff in the first battle after deployment.
+    dev_battery_num: 1000
+    dev_time: 2400
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: 30004:1
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 2003
+    name: Pilfer
+    unlock_furniture_level: 4
+    type: 2
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: Steal
+    des: Possibility to obtain a drop from enemies on the adjacent node. Pilfered enemies cannot be pilfered again.
+    dev_battery_num: 1000
+    dev_time: 2400
+    active_special_skill: "102"
+    active_special_skill_cd: "0"
+    active_special_skill_cost: "0,1,1"
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 2004
+    name: Quick Resupply
+    unlock_furniture_level: 5
+    type: 2
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: InstantSupply
+    des: Calls in a supply paradrop for a neighboring echelon.
+    dev_battery_num: 1000
+    dev_time: 3600
+    active_special_skill: "104"
+    active_special_skill_cd: "2"
+    active_special_skill_cost: "3,0,0"
+    active_mission_skill: ""
+    chip_skill: ""
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3001
+    name: Weaken
+    unlock_furniture_level: 0
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: Weak
+    des: Reduces the damage of enemy echelons within 2 nodes by 12%.
+    dev_battery_num: 1000
+    dev_time: 300
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3001"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3002
+    name: Fighting Spirit
+    unlock_furniture_level: 1
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: Support
+    des: Increases the damage of friendly echelons within 3 nodes by 6%.
+    dev_battery_num: 1000
+    dev_time: 300
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3002"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3003
+    name: Lone Wolf
+    unlock_furniture_level: 2
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: SeKiRo
+    des: Increases the echelon's damage by 10% when there are no allies within 1 node.
+    dev_battery_num: 1000
+    dev_time: 1200
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3003"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3004
+    name: Defend
+    unlock_furniture_level: 4
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: Defence
+    des: When on a friendly-controlled node, increase echelon evasion by 100% and armor by 50%.
+    dev_battery_num: 1000
+    dev_time: 2400
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3004"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3005
+    name: Strength in Numbers
+    unlock_furniture_level: 3
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: ArmyPower
+    des: The more units there are in the echelon, the higher the echelon-wide damage buff - capped at 15%.
+    dev_battery_num: 1000
+    dev_time: 1800
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3007"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+  {
+    id: 3006
+    name: Support
+    unlock_furniture_level: 3
+    type: 3
+    equip_boss: 0
+    dev_specialitem_num: ""
+    code: SupportPower
+    des: Increase damage of friendly reinforcement units within 2 nodes by 20%. The damage buff does not stack.
+    dev_battery_num: 1000
+    dev_time: 1800
+    active_special_skill: ""
+    active_special_skill_cd: ""
+    active_special_skill_cost: ""
+    active_mission_skill: ""
+    chip_skill: "3008"
+    passive_mission_skill: ""
+    special_skill_parameter: ""
+    night_view_percent: 0
+  }
+]

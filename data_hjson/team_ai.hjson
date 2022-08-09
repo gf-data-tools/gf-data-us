@@ -1,0 +1,209 @@
+[
+  {
+    id: 1
+    force_id: 1
+    ai_type: -1
+    name: Night Battle
+    description: Unable to determine enemy trajectory.
+    pic: ai_random
+    color: ffffff
+  }
+  {
+    id: 2
+    force_id: 1
+    ai_type: 1
+    name: Standby
+    description: Target is immobile and is holding position.
+    pic: ai_stand
+    color: ffffff
+  }
+  {
+    id: 3
+    force_id: 1
+    ai_type: 2
+    name: Random
+    description: Target will move in random directions.
+    pic: ai_random
+    color: ffffff
+  }
+  {
+    id: 4
+    force_id: 1
+    ai_type: 3
+    name: Attack
+    description: Advancing toward the Command Post.
+    pic: ai_attack
+    color: ffffff
+  }
+  {
+    id: 5
+    force_id: 1
+    ai_type: 4
+    name: Random
+    description: Target will move in random directions.
+    pic: ai_random
+    color: ffffff
+  }
+  {
+    id: 6
+    force_id: 1
+    ai_type: 99
+    name: Offline
+    description: Sorry, unable to find target.
+    pic: ai_outline
+    color: ffffff
+  }
+  {
+    id: 7
+    force_id: 2
+    ai_type: 1
+    name: Standby
+    description: Target is immobile and is holding position.
+    pic: ai_stand
+    color: ffffff
+  }
+  {
+    id: 8
+    force_id: 2
+    ai_type: 99
+    name: Offline
+    description: Sorry, unable to find target.
+    pic: ai_outline
+    color: ffffff
+  }
+  {
+    id: 9
+    force_id: 2
+    ai_type: 101
+    name: Patrol
+    description: Moves along a fixed path and keeps watch on the surrounding nodes; will deviate a maximum of 1 node from its course.
+    pic: ai_patrol
+    color: ffffff
+  }
+  {
+    id: 10
+    force_id: 2
+    ai_type: 102
+    name: Alert
+    description: Remains stationary when no enemy units are within its detection range. Upon detecting enemies, it will move toward the closest enemy unit by the shortest route possible.
+    pic: ai_guard
+    color: ffffff
+  }
+  {
+    id: 11
+    force_id: 2
+    ai_type: 103
+    name: Expand
+    description: Randomly moves toward the closest enemy-controlled node.
+    pic: ai_expand
+    color: ffffff
+  }
+  {
+    id: 12
+    force_id: 3
+    ai_type: 0
+    name: Standby
+    description: Target is immobile and is holding position.
+    pic: ai_stand
+    color: ffffff
+  }
+  {
+    id: 13
+    force_id: 3
+    ai_type: 1
+    name: Eliminate
+    description: Eliminates the nearest enemy.
+    pic: ai_clear
+    color: ffffff
+  }
+  {
+    id: 14
+    force_id: 3
+    ai_type: 2
+    name: Capture
+    description: Moves toward the enemy Command Post via the shortest route possible.
+    pic: ai_attack
+    color: ffffff
+  }
+  {
+    id: 15
+    force_id: 3
+    ai_type: 99
+    name: Offline
+    description: Sorry, unable to find target.
+    pic: ai_outline
+    color: ffffff
+  }
+  {
+    id: 16
+    force_id: 3
+    ai_type: 101
+    name: Patrol
+    description: Moves along a fixed path and keeps watch on the surrounding nodes; will deviate a maximum of 1 node from its course.
+    pic: ai_patrol
+    color: ffffff
+  }
+  {
+    id: 17
+    force_id: 3
+    ai_type: 102
+    name: Alert
+    description: Remains stationary when no enemy units are within its detection range. Upon detecting enemies, it will move toward the closest enemy unit by the shortest route possible.
+    pic: ai_guard
+    color: ffffff
+  }
+  {
+    id: 18
+    force_id: 3
+    ai_type: 103
+    name: Expand
+    description: Randomly moves toward the closest enemy-controlled node.
+    pic: ai_expand
+    color: ffffff
+  }
+  {
+    id: 19
+    force_id: 4
+    ai_type: 0
+    name: Standby
+    description: Target is immobile and is holding position.
+    pic: ai_stand
+    color: ffffff
+  }
+  {
+    id: 20
+    force_id: 4
+    ai_type: 1
+    name: Eliminate
+    description: Eliminates the nearest enemy.
+    pic: ai_clear
+    color: ffffff
+  }
+  {
+    id: 21
+    force_id: 4
+    ai_type: 2
+    name: Capture
+    description: Moves toward the enemy Command Post via the shortest route possible.
+    pic: ai_attack
+    color: ffffff
+  }
+  {
+    id: 22
+    force_id: 1
+    ai_type: 999
+    name: Garrison
+    description: The target will hold position and not move.
+    pic: ai_stand
+    color: ffffff
+  }
+  {
+    id: 23
+    force_id: 3
+    ai_type: 104
+    name: team_ai-10000023
+    description: team_ai-20000023
+    pic: ai_patrol
+    color: ffffff
+  }
+]
