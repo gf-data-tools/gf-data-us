@@ -748,8 +748,13 @@ COMMON,1746,Resources,,0
 COMMON,1747,Includes Manpower//c Ammo//c Rations and Parts *<color=#FFB400FF>{0}</color>,,0
 COMMON,1748,Lost Items,,0
 COMMON,1749,Character Animation,,0
+COMMON,1750,,,0
+COMMON,1751,,,0
+COMMON,1752,,,0
 COMMON,1754,Move to,,0
 COMMON,1755,Purchase,,0
+COMMON,1756,,,0
+COMMON,1757,,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -1080,6 +1085,7 @@ HOME,20128,Coalition Forces,,0
 HOME,20129,T-Doll Equipment,,0
 HOME,20130,There is a grading evaluation which can be performed.,,0
 HOME,20131,Can be collected,,0
+HOME,20132,,,0
 DEPLOYMENT,30000,Deploy,,0
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,0
@@ -2093,6 +2099,8 @@ DORM,31939,Activate quick completion,,0
 DORM,31940,Will expend,,0
 DORM,31941,Number of Dorms:,,0
 DORM,31942,Number of Dorms,,0
+DORM,31943,,,0
+DORM,31944,,,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -2403,6 +2411,13 @@ FACTORY,32308,You may designate specific Dolls as <color=#ffb400>Anchored Target
 FACTORY,32309,Anchored Production rules for new Commanders://n 1. Commanders can select a specific T-Doll from a list of event T-Dolls to be their Anchored Target. Click the "Start Production" button on the event interface and perform Production using the provided recipes.//n 2. During the event//c should an Anchored Production fail//c it will temporarily increase the success rate of the next Anchored Production//c to a maximum of 100%. This temporary increase will reset to 0 if the Anchored Target is obtained ahead of time.//n 3. The temporarily increased chance of success obtained through failed productions will be retained throughout the event and will not reset when the Anchored Target is changed.//n 4. For newly enlisted Commanders//c each Anchored Target can only be successfully produced once//c and a maximum of 2 Anchored Targets can be successfully produced. The event ends when 2 Anchored Targets have been successfully produced.//n 5. After performing the required number of Anchored Productions//c success in producing the Anchored Target is guaranteed. //n6. The initial success rate of Anchored Production is unrelated to Factory Productions.,,0
 FACTORY,32310,There are no free Production slots at the moment//c unable to perform Anchored Production.,,0
 FACTORY,32311,Designated Equipment Contract:,,0
+FACTORY,32312,,,0
+FACTORY,32313,,,0
+FACTORY,32314,,,0
+FACTORY,32315,,,0
+FACTORY,32316,,,0
+FACTORY,32317,,,0
+FACTORY,32318,,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2778,6 +2793,15 @@ QUESTS,38035,Unlocks upon unlocking Stage {0}.,,0
 QUESTS,38036,Unlocks upon completing {0} different stages. Current progress {1}.,,0
 QUESTS,38037,Unlocks upon completing {0} different stages with an S rank. Current progress {1}.,,0
 QUESTS,38038,Unlocks upon completing the appropriate system tutorial.,,0
+QUESTS,38039,,,0
+QUESTS,38040,,,0
+QUESTS,38041,,,0
+QUESTS,38042,,,0
+QUESTS,38043,,,0
+QUESTS,38044,,,0
+QUESTS,38045,,,0
+QUESTS,38046,,,0
+QUESTS,38047,,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -3218,6 +3242,18 @@ MISSIONSELECTION,40403,Intermediate Training,,0
 MISSIONSELECTION,40404,Advanced Training,,0
 MISSIONSELECTION,40405,Drill rewards already obtained,,0
 MISSIONSELECTION,40406,,,0
+MISSIONSELECTION,40407,,,0
+MISSIONSELECTION,40408,,,0
+MISSIONSELECTION,40409,,,0
+MISSIONSELECTION,40410,,,0
+MISSIONSELECTION,40411,,,0
+MISSIONSELECTION,40412,,,0
+MISSIONSELECTION,40413,,,0
+MISSIONSELECTION,40414,,,0
+MISSIONSELECTION,40415,,,0
+MISSIONSELECTION,40416,,,0
+MISSIONSELECTION,40417,,,0
+MISSIONSELECTION,40418,,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3503,6 +3539,8 @@ SETTING,52148,Bullet Time,,0
 SETTING,52149,Min,,0
 SETTING,52150,Max,,0
 SETTING,52151,Current number of Rename Cards: {0},,0
+SETTING,52152,,,0
+SETTING,52153,,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -3524,6 +3562,18 @@ STOREROOM,53017,Max. {0},,0
 STOREROOM,53018,EXP,,0
 STOREROOM,53019,All,,0
 STOREROOM,53020,Maximum reached,,0
+STOREROOM,53021,,,0
+STOREROOM,53022,,,0
+STOREROOM,53023,,,0
+STOREROOM,53024,,,0
+STOREROOM,53025,,,0
+STOREROOM,53026,,,0
+STOREROOM,53027,,,0
+STOREROOM,53028,,,0
+STOREROOM,53029,,,0
+STOREROOM,53030,,,0
+STOREROOM,53031,,,0
+STOREROOM,53032,,,0
 EQUIP,54000,Please select the equipment you wish to enhance!,,0
 EQUIP,54001,Enhancement Level,,0
 EQUIP,54002,Accuracy Multiplier,,0
@@ -3630,6 +3680,16 @@ EQUIP,54103,Recover,,0
 EQUIP,54104,Expend the following resources://n{0} Manpower//c {1} Rations//c {2}Ammo//c {3} Parts//n to recover the equipment <color=#ffb400ff>{4}</color>,,0
 EQUIP,54105,Insufficient materials//c cannot proceed with recovery.,,0
 EQUIP,54106,Equipment Type,,0
+EQUIP,54107,,,0
+EQUIP,54108,,,0
+EQUIP,54109,,,0
+EQUIP,54110,,,0
+EQUIP,54111,,,0
+EQUIP,54112,,,0
+EQUIP,54113,,,0
+EQUIP,54114,,,0
+EQUIP,54115,,,0
+EQUIP,54116,,,0
 SEPCIALOPS,60000,Operation: Cube,,0
 SEPCIALOPS,60001,Details,,0
 SEPCIALOPS,60002,In combat,,0
@@ -4478,6 +4538,10 @@ FRIEND,110052,Background: Default,,0
 FRIEND,110053,Lv.{0},,0
 FRIEND,110054,Lv.,,0
 FRIEND,110055,Medals Displayed on ID Card,,0
+FRIEND,110056,,,0
+FRIEND,110057,,,0
+FRIEND,110058,,,0
+FRIEND,110059,,,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
@@ -5330,6 +5394,12 @@ SQUAD,190263,Chip auto-arrange has failed for an unknown reason. Consider changi
 SQUAD,190264,Auto-Arrange,,0
 SQUAD,190265,Preview max-level chip stats,,0
 SQUAD,190266,,,0
+SQUAD,190267,,,0
+SQUAD,190268,,,0
+SQUAD,190269,,,0
+SQUAD,190270,,,0
+SQUAD,190271,,,0
+SQUAD,190272,,,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0
@@ -5762,6 +5832,13 @@ THEATER,210296,There are a total of {0} enemy waves//c to be deployed in the ord
 THEATER,210297,Activate,,0
 THEATER,210298,The Support Unit from this base has not been released yet.,,0
 THEATER,210299,Expedition units cannot be given duplicate Fairies.,,0
+THEATER,210300,,,0
+THEATER,210301,,,0
+THEATER,210302,,,0
+THEATER,210303,,,0
+THEATER,210304,,,0
+THEATER,210305,,,0
+THEATER,210306,,,0
 MISSIONTARGET,220000,Command Post,,0
 MISSIONTARGET,220001,Normal Node,,0
 MISSIONTARGET,220002,Heliport,,0
@@ -6466,6 +6543,17 @@ SANGVIS,260147,Initial 3-Star,,0
 SANGVIS,260148,Quick Top Up,,0
 SANGVIS,260149,Confirm,,0
 SANGVIS,260150,No enemy units detected//c unable to perform captures. (There are no events in progress at the moment//c please keep an eye open for official event announcements.),,0
+SANGVIS,260151,,,0
+SANGVIS,260152,,,0
+SANGVIS,260153,,,0
+SANGVIS,260154,,,0
+SANGVIS,260155,,,0
+SANGVIS,260156,,,0
+SANGVIS,260157,,,0
+SANGVIS,260158,,,0
+SANGVIS,260159,,,0
+SANGVIS,260160,,,0
+SANGVIS,260161,,,0
 FORMATION,270002,Echelon//nPreset,,0
 FORMATION,270003,Select Formation,,0
 FORMATION,270004,Formation Strengths,,0
@@ -6517,6 +6605,11 @@ FORMATION,270049,Insufficient idle Equipment. Equipment preset cannot be applied
 FORMATION,270050,Locked,,0
 FORMATION,270051,Echelon,,0
 FORMATION,270052,Contains <color=#ffb400>Exclusive Equipment</color>,,0
+FORMATION,270053,Proceed to Formation,,0
+FORMATION,270054,Auto-Formation,,0
+FORMATION,270055,Automatically appointed as leader of Echelon {0},,0
+FORMATION,270056,,,0
+FORMATION,270057,,,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
 MINIGAME,280003,Queued,,0
@@ -7003,3 +7096,14 @@ MINIGAME,280486,You will not be matched with this player for the next {0} minute
 MINIGAME,280487,Maximum number of blocked players reached,,0
 MINIGAME,280488,Gacha,,0
 MINIGAME,280489,Maximum number of gachapon tickets reached//c you cannot obtain any more!,,0
+MINIGAME,280490,,,0
+MINIGAME,280491,,,0
+MINIGAME,280492,,,0
+MINIGAME,280493,,,0
+MINIGAME,280494,,,0
+MINIGAME,280495,,,0
+MINIGAME,280496,,,0
+MINIGAME,280497,,,0
+MINIGAME,280498,,,0
+MINIGAME,280499,,,0
+MINIGAME,280500,,,0

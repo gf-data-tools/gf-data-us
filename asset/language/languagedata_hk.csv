@@ -64,7 +64,7 @@ COMMON,1044,鑽石,,0
 COMMON,1045,契約,,0
 COMMON,1046,人型製造契約,,0
 COMMON,1047,快速製造,,0
-COMMON,1048,装备&妖精制造契约(todo),,0
+COMMON,1048,裝備製造契約,,0
 COMMON,1049,快速訓練契約,,0
 COMMON,1050,人力,,0
 COMMON,1051,MANPOWER,,0
@@ -222,7 +222,7 @@ COMMON,1202,人形製造欄位,,0
 COMMON,1203,修復營地,,0
 COMMON,1204,人形床位,,0
 COMMON,1205,裝備倉庫,,0
-COMMON,1206,装备&妖精制造栏位(todo),,0
+COMMON,1206,裝備製造欄位,,0
 COMMON,1207,宿舍上限,,0
 COMMON,1208,後勤支援,,0
 COMMON,1209,行動結束,,0
@@ -745,12 +745,21 @@ COMMON,1743,輔助人形,,0
 COMMON,1744,基地管理,,0
 COMMON,1745,背景設置,,0
 COMMON,1746,四項資源,,0
-COMMON,1747,包含人力、弹药、口粮、零件各<color=#FFB400FF>{0}</color>(todo),,0
+COMMON,1747,包含人力、彈藥、口糧、零件各<color=#FFB400FF>{0}</color>,,0
 COMMON,1748,失去道具,,0
 COMMON,1749,角色動態,,0
+COMMON,1750,即將刪除本地所有資源文件，並重新下載完整數據包！！！//n長按啟動確認按鈕以繼續操作,,0
+COMMON,1751,（長按3秒確認按鈕以啟動後續操作）,,0
+COMMON,1752,請在 <color=red>{0}</color> 秒內完成確認//n是否刪除本地所有資源文件，並重新下載完整數據包？,,0
 COMMON,1754,購買,,0
 COMMON,1755,前往,,0
+COMMON,1756,角色台词(todo),,0
+COMMON,1757,当前场景无法跳转(todo),,0
 COMMON,1758,购买成功，增量补给已解锁！(todo),,0
+COMMON,1759,获得奖励(todo),,0
+COMMON,1760,资源损坏！(todo),,0
+COMMON,1761,将任一非原型妖精培养至5星100级解锁该功能(todo),,0
+COMMON,1762,重新登陆(todo),,0
 BATTLE,10000,撤退,,0
 BATTLE,10001,全體撤退,,0
 BATTLE,10002,WITHDRAW,,0
@@ -940,6 +949,11 @@ BATTLE,10191,邏輯點不足，無法使用技能。,,0
 BATTLE,10192,人形正在換彈中，暫時無法使用該技能。,,0
 BATTLE,10193,彈藥量不足，無法使用技能。,,0
 BATTLE,10194,技能冷卻中，無法使用技能。,,0
+BATTLE,10195,总梯队部署数量已达上限。(todo),,0
+BATTLE,10196,人形梯队部署数量已达上限。(todo),,0
+BATTLE,10197,融合势力梯队部署数量已达上限。(todo),,0
+BATTLE,10198,重装部队部署数量已达上限。(todo),,0
+BATTLE,10199,非重装梯队部署数量已达上限。(todo),,0
 CARNIVAL,11000,進度,,0
 CARNIVAL,11001,領取獎勵,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1081,6 +1095,8 @@ HOME,20128,融合勢力,,0
 HOME,20129,人形裝備,,0
 HOME,20130,有可進行的評級測試,,0
 HOME,20131,可領取,,0
+HOME,20132,购买{0}级，升至{1}级获得以上奖励(todo),,0
+HOME,20133,完成该角色进化突破，可解锁此立绘。(todo),,0
 DEPLOYMENT,30000,部署,,0
 DEPLOYMENT,30001,移動,,0
 DEPLOYMENT,30002,換位,,0
@@ -1168,7 +1184,7 @@ DEPLOYMENT,30083,部署梯隊已達上限！,,0
 DEPLOYMENT,30084,反向不可移動教程！,,0
 DEPLOYMENT,30085,反向不可移動！,,0
 DEPLOYMENT,30086,當前角色未受傷，不需要修理,,0
-DEPLOYMENT,30087,小隊必須在可部署的點上才可進行緊急修復,,0
+DEPLOYMENT,30087,当前路径点无法进行紧急修复。（可在“战场说明-界面帮助”中查看各路径点作用）(todo),,0
 DEPLOYMENT,30088,我方梯隊進行戰略部署,,0
 DEPLOYMENT,30089,模擬訓練不能主動撤離。,,0
 DEPLOYMENT,30090,當前梯隊已經是戰場上的最後一個小隊，不能撤離。,,0
@@ -1551,7 +1567,7 @@ DEPLOYMENT,30476,模擬作戰說明,,0
 DEPLOYMENT,30477,夜戰說明,,0
 DEPLOYMENT,30478,夜戰視野,,0
 DEPLOYMENT,30479,戰鬥模式含不同特徵，結合敵人資訊、梯隊資訊，合理安排梯隊編成配置。,,0
-DEPLOYMENT,30480,战场效果包含各种针对我方或敌方的有利/不利影响，请仔细关注不同战场效果，针对局势合理安排出击梯队。(todo),,0
+DEPLOYMENT,30480,戰場效果包含各種針對我方或敵方的有利/不利影響，請仔細關注不同戰場效果，針對局勢合理安排出擊梯隊。,,0
 DEPLOYMENT,30481,本關卡無特殊戰場效果,,0
 DEPLOYMENT,30482,或,,0
 DEPLOYMENT,30483,戰場效果增加<color=#ffb400>{0}</color>,,0
@@ -1566,6 +1582,12 @@ DEPLOYMENT,30491,並且我方梯隊消滅<color=#CE8200FF>{0}個</color>敵對�
 DEPLOYMENT,30492,並且成功救援<color=#CE8200FF>{0}個</color>人形,,0
 DEPLOYMENT,30493,建立並堅守補給線<color=#CE8200FF>{0}回合</color>,,0
 DEPLOYMENT,30494,已解鎖,,0
+DEPLOYMENT,30495,作战指令传达中……(todo),,0
+DEPLOYMENT,30496,等待敌方行动中……(todo),,0
+DEPLOYMENT,30497,等待友方行动中……(todo),,0
+DEPLOYMENT,30498,等待第三方行动中……(todo),,0
+DEPLOYMENT,30499,已部署非重装梯队(todo),,0
+DEPLOYMENT,30500,天赋II发动(todo),,0
 DORM,31000,收納庫,,0
 DORM,31001,Warehouse,,0
 DORM,31002,採購,,0
@@ -1735,7 +1757,7 @@ DORM,31553,並消耗,,0
 DORM,31554,全域經驗不足！,,0
 DORM,31555,1.電容會收集宿舍中的電能，收集速度與全部宿舍房間總舒適度相關。,,0
 DORM,31556,2.收集到的電能會保留在電容中，直至達到電容上限。,,0
-DORM,31557,3.每日10:00-14:00和18:00-01:00，可消耗电容中的全部电能，对电池进行充能。(todo),,0
+DORM,31557,3.每日11:00-14:00、17:00-20:00和22:00-01:00，可消耗電容中的全部電能，對電池進行充電。,,0
 DORM,31558,4.充電完畢的電池可用於附屬房間的開發,,0
 DORM,31559, ,,0
 DORM,31560, ,,0
@@ -1767,7 +1789,7 @@ DORM,31595,今日剩餘可領取次數：,,0
 DORM,31596,<color=#FF0000FF>今日領取電池次數已達上限！</color>,,0
 DORM,31597,將進入下一位好友的宿舍,,0
 DORM,31598,重複獲得的頭像已被自動轉換為,,0
-DORM,31600,包含额外赠送的一份(todo),,0
+DORM,31600,包含額外贈送的一份,,0
 DORM,31601,的宿舍,,0
 DORM,31602,套裝資訊,,0
 DORM,31603,傢俱退庫,,0
@@ -1968,7 +1990,7 @@ DORM,31801,剩餘數量：,,0
 DORM,31802,確定要兌換當前商品嗎？ ,,0
 DORM,31803,探索中不可編輯,,0
 DORM,31804,不能選擇第一梯隊的隊長,,0
-DORM,31805,探索归来(todo),,0
+DORM,31805,探索歸來獲得：,,0
 DORM,31806,探索/攜帶,,0
 DORM,31807,探索時間{0}%,,0
 DORM,31808,中途獎勵獲取機率//n{0}%,,0
@@ -2093,6 +2115,10 @@ DORM,31939,啟用快速完成,,0
 DORM,31940,將會消耗,,0
 DORM,31941,宿舍數量：,,0
 DORM,31942,宿舍數量,,0
+DORM,31943,下列物品數量達到上限，無法領取更多,,0
+DORM,31944,获取(todo),,0
+DORM,31945,打开补偿(todo),,0
+DORM,31946,部分奖励因达到上限无法领取更多，请查看奖励柜。(todo),,0
 FACTORY,32000,開始,,0
 FACTORY,32001,製造完成,,0
 FACTORY,32002,人型製造,,0
@@ -2100,12 +2126,12 @@ FACTORY,32003,立即完成,,0
 FACTORY,32004,製造完畢,,0
 FACTORY,32005,重型製造,,0
 FACTORY,32006,製造欄位解鎖,,0
-FACTORY,32007,装备制造栏位解锁(todo),,0
+FACTORY,32007,裝備製造欄位解鎖,,0
 FACTORY,32008,製造日誌,,0
 FACTORY,32009,開始製造,,0
 FACTORY,32010,未解鎖,,0
 FACTORY,32011,人型製造剩餘契約數量,,0
-FACTORY,32012,装备&妖精制造剩余契约数量(todo),,0
+FACTORY,32012,裝備製造剩餘契約數量,,0
 FACTORY,32013,擴編條件,,0
 FACTORY,32014,消耗,,0
 FACTORY,32015,選擇相同人型可減少核心消耗,,0
@@ -2155,7 +2181,7 @@ FACTORY,32058,人形裝備,,0
 FACTORY,32059,當前人形製造記錄收藏數已達上限(50),,0
 FACTORY,32060,當前裝備製造記錄收藏數已達上限(50),,0
 FACTORY,32061,契約不足！,,0
-FACTORY,32062,装备&妖精制造契约不足！(todo),,0
+FACTORY,32062,裝備製造契約不足！,,0
 FACTORY,32063,當前替代核心不足,,0
 FACTORY,32064,製造契約不足！無法開始製造//c,,0
 FACTORY,32065,請先選擇角色或使用膠囊,,0
@@ -2197,9 +2223,9 @@ FACTORY,32100,同為IOP最新實驗性製造系統，裝備重型製造可以極
 FACTORY,32101,製造欄位解鎖,,0
 FACTORY,32102,替代核心,,0
 FACTORY,32103,人形製造契約,,0
-FACTORY,32104,装备&妖精制造契约(todo),,0
+FACTORY,32104,裝備製造契約,,0
 FACTORY,32105,快速製造,,0
-FACTORY,32106,装备制造栏位解锁(todo),,0
+FACTORY,32106,裝備製造欄位解鎖,,0
 FACTORY,32107,重型製造,,0
 FACTORY,32108,注意！//n當前選擇的角色中，存在<color=#FFBE00FF>高等級</color>/<color=#FFBE00FF>高星級</color>的角色。即使如此也要拆解嗎？,,0
 FACTORY,32109,需獲得{0}枚金星勳章後方可解該功能,,0
@@ -2217,7 +2243,7 @@ FACTORY,32120,智能選擇,,0
 FACTORY,32121,*只選擇二星人形,,0
 FACTORY,32122,*只選擇二星裝備,,0
 FACTORY,32123,擴展上限,,0
-FACTORY,32124,推荐//n公式(todo),,0
+FACTORY,32124,推薦公式,,0
 FACTORY,32125,機槍通用公式,,0
 FACTORY,32126,MACHINEGUN,,0
 FACTORY,32127,霰彈槍通用公式,,0
@@ -2360,8 +2386,8 @@ FACTORY,32264,建造券,,0
 FACTORY,32265,{0}D {1}H {2}M,,0
 FACTORY,32267,LV.{0}解鎖,,0
 FACTORY,32268,錨定構築,,0
-FACTORY,32269,*仅可使用<color=#e7a300>{0}</color>推荐公式进行制造(todo),,0
-FACTORY,32270,*仅可使用<color=#e7a300>{0}</color>的<color=#e7a300>{1}阶</color>推荐公式进行制造(todo),,0
+FACTORY,32269,*僅可使用<color=#ffb400>{0}</color>推薦公式進行製造,,0
+FACTORY,32270,*僅可使用<color=#ffb400>{0}</color>的<color=#ffb400>{1}階</color>推薦公式進行製造,,0
 FACTORY,32271,已提升,,0
 FACTORY,32272,該人形已完成錨定構築,,0
 FACTORY,32273,成功構築的錨定目標人形數量已達上限,,0
@@ -2403,6 +2429,19 @@ FACTORY,32308,可設置特定人形為<color=#ffb400>錨定目標</color>,,0
 FACTORY,32309,新入職指揮官錨定構築規則：//n1、指揮官可從人形列表中選擇特定人形成為「錨定目標」，在錨定構築介面點擊「開始構築」按鈕，使用給定公式進行構築；//n2、每次進行“錨定目標”的構築，若本次構築「錨定目標」失敗，則下一次的構築時會臨時提升成功率，提升上限為100%；成功構築「錨定目標」時，臨時成功率會清零；//n3、構築失敗所提升的臨時成功率，會跟隨「錨定目標」進行保留，不會應為切換「錨定目標」而清零；//n4、在新入職指揮官錨定構築中，單個「錨定目標」只能被成功構築1次，最多可透過「錨定目標」成功構築2個人形，活動將在成功構築2個人形之後結束；//n5、累計指定的錨定構築次數後，錨定目標將必定構築成功；//n6、「錨定目標」構築成功初始機率與「工廠製造」無關。,,0
 FACTORY,32310,當前沒有空閒的製造欄位，無法進行錨定構築。,,0
 FACTORY,32311,指定裝備契約：,,0
+FACTORY,32312,開始建造,,0
+FACTORY,32313,*默認將使用全部空閒欄位,,0
+FACTORY,32314,鎖定製造公式,,0
+FACTORY,32315,人形製造,,0
+FACTORY,32316,I.O.P指定製造,,0
+FACTORY,32317,裝備重型製造,,0
+FACTORY,32318,批量製造欄位,,0
+FACTORY,32319,*该公式订单出现妖精时，为{0}妖精的概率{1}(todo),,0
+FACTORY,32320,妖精制造契约(todo),,0
+FACTORY,32321,点击进入(todo),,0
+FACTORY,32322,1.根据投入资源比例的不同，可获取的妖精类型比例也会发生变化。//n2.增援类和战役类妖精需要投入更多的资源才能获取。//n3.提高制造档位（消耗更多契约和替代核心）可以提升获取增援类和战役类妖精的概率。(todo),,0
+FACTORY,32323,当前建造公式下，高档位收益极低！(todo),,0
+FACTORY,32324,妖精重型制造(todo),,0
 DEVELOP,33000,已達人形床位最大上限，請及時清理！,,0
 DEVELOP,33001,使用該服務需支付,,0
 DEVELOP,33002,<color=#76DFCEFF>快速製造契約</color>X,,0
@@ -2443,7 +2482,7 @@ DEVELOP,33036,歡迎使用極速物流服務，該服務需支付//n<color=#76DF
 DEVELOP,33037,是否花費{0}{1}{2}？,,0
 DEVELOP,33038,是否花費{0}鑽石購買技能研發欄位？,,0
 DEVELOP,33039,是否花費{0}鑽石購買人形製造欄位？,,0
-DEVELOP,33040,是否花费{0}钻石购买装备&妖精制造栏位？(todo),,0
+DEVELOP,33040,是否花費{0}鑽石購買裝備製造欄位？,,0
 DEVELOP,33041,當前人形數已超過軍營上限//n是否花費{0}鑽石購買人形床位？,,0
 DEVELOP,33042,當前裝備數已超過倉庫上限//n是否花費{0}鑽石購買裝備倉庫？,,0
 DEVELOP,33043,當前妖精數量已達上限//n是否花費{0}鑽石購買妖精床位？,,0
@@ -2467,6 +2506,7 @@ DEVELOP,33060,抱歉，當前狀態，無法更換戰術晶片。,,0
 DEVELOP,33061,當前梯隊有單位需要修復，無法繼續部署。,,0
 DEVELOP,33063,快速//n修復契約,,0
 DEVELOP,33064,將會消耗1個快速修復契約,,0
+DEVELOP,33065,尚未解锁掉落关卡(todo),,0
 ILLUSTRATEDBOOK,35000,戰術人形,,0
 ILLUSTRATEDBOOK,35001,TacticalGirls,,0
 ILLUSTRATEDBOOK,35002,傢俱,,0
@@ -2629,6 +2669,33 @@ ILLUSTRATEDBOOK,35161,描述：,,0
 ILLUSTRATEDBOOK,35162,獲得途徑：,,0
 ILLUSTRATEDBOOK,35163,的勳章墻,,0
 ILLUSTRATEDBOOK,35164,在個人名片中展示,,0
+ILLUSTRATEDBOOK,35165,主线故事(todo),,0
+ILLUSTRATEDBOOK,35166,心智升级(todo),,0
+ILLUSTRATEDBOOK,35167,往事回忆(todo),,0
+ILLUSTRATEDBOOK,35168,装扮故事(todo),,0
+ILLUSTRATEDBOOK,35169,关联剧情(todo),,0
+ILLUSTRATEDBOOK,35170,该角色还没有关联剧情，敬请期待！(todo),,0
+ILLUSTRATEDBOOK,35171,1.每个在编的人形/妖精/重装部队/融合势力/其他角色可提供10/10/20/20/10点部门勋绩。//n2.达到100级即为精锐单位，每个精锐人形/妖精/重装部队/融合势力可额外提供1/1/2/2点部门勋绩。//n3.部门每获得50点勋绩即可提升1级部门级别，并解锁对应的级别奖励。//n4.部门级别奖励分为道具奖励和执行方针奖励，解锁执行方针奖励即可获取对应效果。//n5.不同部门由于人数上限不同，级别上限也不相同。(todo),,0
+ILLUSTRATEDBOOK,35172,已满级(todo),,0
+ILLUSTRATEDBOOK,35173,观看(todo),,0
+ILLUSTRATEDBOOK,35174,该羁绊故事尚未解锁，是否前往解锁(todo),,0
+ILLUSTRATEDBOOK,35175,该回忆尚未解锁，是否前往(todo),,0
+ILLUSTRATEDBOOK,35176,需要解锁{0}换装(todo),,0
+ILLUSTRATEDBOOK,35177,执行方针总览(todo),,0
+ILLUSTRATEDBOOK,35178,-无执行方针-(todo),,0
+ILLUSTRATEDBOOK,35179,级别(todo),,0
+ILLUSTRATEDBOOK,35180,部门级别(todo),,0
+ILLUSTRATEDBOOK,35181,部门勋绩(todo),,0
+ILLUSTRATEDBOOK,35182,级别奖励(todo),,0
+ILLUSTRATEDBOOK,35183,在编人数(todo),,0
+ILLUSTRATEDBOOK,35184,在编精锐(todo),,0
+ILLUSTRATEDBOOK,35185,道具奖励(todo),,0
+ILLUSTRATEDBOOK,35186,精锐(todo),,0
+ILLUSTRATEDBOOK,35187,在编人数：(todo),,0
+ILLUSTRATEDBOOK,35188,切换到进化前(todo),,0
+ILLUSTRATEDBOOK,35189,切换至进化(todo),,0
+ILLUSTRATEDBOOK,35190,该妖精尚未开放改造，敬请期待(todo),,0
+ILLUSTRATEDBOOK,35191,协议回归部(todo),,0
 LOGIN,36000,忘記密碼,,0
 LOGIN,36001,聯繫客服,,0
 LOGIN,36002,使用者協定,,0
@@ -2704,6 +2771,13 @@ LOGIN,36071,當前非wifi環境，是否繼續下載？,,0
 LOGIN,36072,抱歉，網路連接失敗，請重新啟動遊戲,,0
 LOGIN,36073,確定要將<color=#FFBB00FF>//n{0}//n</color>作為您的名字嗎？指揮官姓名一旦設定將不能再次修改！,,0
 LOGIN,36075,變更,,0
+LOGIN,36076,资源损坏(todo),,0
+LOGIN,36077,是否开始检测游戏资源完整性？(todo),,0
+LOGIN,36078,正在检测资源完整性…(todo),,0
+LOGIN,36079,客户端完整，无需修复(todo),,0
+LOGIN,36080,客户端资源修复完毕！(todo),,0
+LOGIN,36081,资源校验(todo),,0
+LOGIN,36082,资源解压异常，请重启客户端尝试(todo),,0
 MAIL,37000,領取,,0
 MAIL,37001,暫無新郵件,,0
 MAIL,37002,NONEWMESSAGES,,0
@@ -2731,7 +2805,7 @@ MAIL,37023,每日特惠,,0
 MAIL,37024,每日限購,,0
 MAIL,37025,節日限定,,0
 MAIL,37026,限時,,0
-MAIL,37027,解锁成就 {0}(todo),,0
+MAIL,37027,獲得成就,,0
 MAIL,37028,月卡獎勵,,0
 MAIL,37029,簽到成功！,,0
 MAIL,37030,永久有效,,0
@@ -2741,12 +2815,23 @@ MAIL,37033,沒有可領取的郵件！,,0
 MAIL,37034,一鍵收取,,0
 MAIL,37035,是否前往商城購買自律月卡？,,0
 MAIL,37036,當前單價,,0
+MAIL,37037,删除已读(todo),,0
+MAIL,37038,删除(todo),,0
+MAIL,37039,当前无已读邮件(todo),,0
+MAIL,37040,已读邮件中存在奖励未领取(todo),,0
+MAIL,37041,已删除部分已读邮件(todo),,0
+MAIL,37042,已清空已读邮件(todo),,0
+MAIL,37043,奖励已领取(todo),,0
+MAIL,37044,邮件已删除(todo),,0
+MAIL,37045,收取附件(todo),,0
+MAIL,37046,每日事务奖励补发(todo),,0
+MAIL,37047,指挥官，我在整理昨天的事务时发现你有遗漏的奖励没有拿走。现在我把它打包带给你了，注意查收哦！(todo),,0
 QUESTS,38000,進度,,0
 QUESTS,38001,任務,,0
 QUESTS,38002,QUESTS,,0
 QUESTS,38003,領取獎勵,,0
-QUESTS,38004,每日事务(todo),,0
-QUESTS,38005,每日事务(todo),,0
+QUESTS,38004,日常任務,,0
+QUESTS,38005,週常任務,,0
 QUESTS,38006,主線任務,,0
 QUESTS,38007,生涯任務,,0
 QUESTS,38008,首頁,,0
@@ -2778,6 +2863,59 @@ QUESTS,38035,解鎖關卡{0}後解鎖,,0
 QUESTS,38036,通關{0}個不同關卡後解鎖 進度{1},,0
 QUESTS,38037,以S評價通關{0}個不同關卡後解鎖 進度{1},,0
 QUESTS,38038,完成該系統對應教學後解鎖,,0
+QUESTS,38039,活跃度(todo),,0
+QUESTS,38040,前往(todo),,0
+QUESTS,38042,前往(todo),,0
+QUESTS,38043,进度(todo),,0
+QUESTS,38044,已完成(todo),,0
+QUESTS,38045,已领取(todo),,0
+QUESTS,38046,可领取(todo),,0
+QUESTS,38047,未解锁(todo),,0
+QUESTS,38048,消耗<color=#e7a300>黑卡晶片*{0}</color>(todo),,0
+QUESTS,38049,合成<color=#e7a300>黑卡*{0}</color>(todo),,0
+QUESTS,38050,该项物资已解锁(todo),,0
+QUESTS,38051,购买{0}级，升至{1}级获得以上奖励(todo),,0
+QUESTS,38052,前线协议已经提升至{0}级(todo),,0
+QUESTS,38053,当前没有可用的前线协议(todo),,0
+QUESTS,38054,当前没有可领取的(todo),,0
+QUESTS,38055,解锁增量补给并达到25级，即可获取(todo),,0
+QUESTS,38056,剩余时间：{0}(todo),,0
+QUESTS,38057,消耗<color=#e7a300>黑卡晶片*{0}</color>(todo),,0
+QUESTS,38058,合成(todo),,0
+QUESTS,38059,碎片不够合成(todo),,0
+QUESTS,38060,未到开放时间，敬请期待(todo),,0
+QUESTS,38061,<color=#ffb400ff><size=48><b>基础规则：</b></size></color>//n1.完成每日事务，升级前线协议，可以获取对应等级奖励；//n2.每期前线协议的等级独立不会继承；//n3.协议共45级，此后每升一级将获得一个<color=#F27C25FF>区间空投序标</color>；//n4.协议等级45级之前可购买等级，之后购买等级的入口将关闭；//n5.新的前线协议更新后，未领取的奖励将会通过邮件补发，该邮件有效期一周，请及时查收；//n//n<color=#ffb400ff><size=48><b>增量补给解锁：</b></size></color>//n1.协议有效期内，可随时通过<color=#F27C25FF>购买物资</color>解锁增量补给;//n2.购买陆运物资，可解锁增量补给奖励，并解锁一项额外的每周要务；//n3.购买空运物资，在获取全部陆运物资奖励的基础上，还可立即获得10级前线协议等级、专属名片及头像框等奖励。//n//n<color=#ffb400ff><size=48><b>配给序标说明：</b></size></color>//n1.协议内的配给序标领取后，需前往仓库打开获取奖励；//n2.协议内所有配给序标均会在当期前线协议结束<color=#F27C25FF>一周后过期</color>，请及时领取。(todo),,0
+QUESTS,38062,兑换该物品后将扣除<color=#e7a300>{0}黑卡晶片</color>及<color=#e7a300>{1}黑卡</color>，是否继续？(todo),,0
+QUESTS,38063,兑换该物品后将扣除<color=#e7a300>{0}黑卡晶片</color>，是否继续？(todo),,0
+QUESTS,38064,合成黑卡*{0}(todo),,0
+QUESTS,38065,协议补给(todo),,0
+QUESTS,38066,增量补给(todo),,0
+QUESTS,38067,陆运物资(todo),,0
+QUESTS,38068,空运物资(todo),,0
+QUESTS,38069,5级获得(todo),,0
+QUESTS,38070,15级获得(todo),,0
+QUESTS,38071,35级获得(todo),,0
+QUESTS,38072,45级获得(todo),,0
+QUESTS,38073,前线协议(todo),,0
+QUESTS,38074,增量补给未解锁(todo),,0
+QUESTS,38075,指挥官，当前类别没有可替换任务了哦。(todo),,0
+QUESTS,38076,每日协议(todo),,0
+QUESTS,38077,任务结算(todo),,0
+QUESTS,38078,奖励预览(todo),,0
+QUESTS,38079,{0}个奖励可领取(todo),,0
+QUESTS,38080,确认要替换该任务吗？(todo),,0
+QUESTS,38081,购买等级(todo),,0
+QUESTS,38082,当前经验进度(todo),,0
+QUESTS,38083,购买物资(todo),,0
+QUESTS,38084,特定等级可获得(todo),,0
+QUESTS,38085,购买后立即获得专属奖励(todo),,0
+QUESTS,38086,包含当期【陆运物资】的所有内容，更可直接获取超多【专属奖励】。(todo),,0
+QUESTS,38087,*含前线协议等级立增【10】级(todo),,0
+QUESTS,38088,解锁【增量补给】，除换装外还可获取超多惊喜奖励 //n解锁【额外周常任务】，协议等级领先一步！(todo),,0
+QUESTS,38089,同时获得以下道具(todo),,0
+QUESTS,38090,购买{0}级，升至{1}级获得已解锁奖励(todo),,0
+QUESTS,38091,*累计勋章可解锁奖励(todo),,0
+QUESTS,38093,等级大于45级时，每增加1级可获得(todo),,0
 RANKINGLIST,39000,最底部,,0
 RANKINGLIST,39001,未上榜,,0
 RANKINGLIST,39002,轉到資料採樣,,0
@@ -3102,7 +3240,7 @@ MISSIONSELECTION,40289,到達下一個檢查點前無法編輯梯隊，//n中途
 MISSIONSELECTION,40290,詢問是否重複作戰,,0
 MISSIONSELECTION,40291,可部署梯隊,,0
 MISSIONSELECTION,40292,梯隊限制,,0
-MISSIONSELECTION,40293,允许部署{0}个梯队（包含格里芬、融合势力和重装部队）(todo),,0
+MISSIONSELECTION,40293,允許部署{0}個梯隊（包含格里芬、融合勢力和重裝部隊）,,0
 MISSIONSELECTION,40294,不限制梯隊部署數量,,0
 MISSIONSELECTION,40295,靶機專訓,,0
 MISSIONSELECTION,40296,訂製標靶,,0
@@ -3194,7 +3332,7 @@ MISSIONSELECTION,40381,探索雲圖迴廊，獲取記憶碎片,,0
 MISSIONSELECTION,40382,參與防禦演習，向更高波次進發，同時能獲得校準點券,,0
 MISSIONSELECTION,40383,規則,,0
 MISSIONSELECTION,40384,所有梯隊均已撤離,,0
-MISSIONSELECTION,40385,允许部署{0}个作战梯队（包含格里芬和融合势力梯队）(todo),,0
+MISSIONSELECTION,40385,允許部署{0}個作戰梯隊（包含格里芬和融合勢力梯隊）,,0
 MISSIONSELECTION,40386,經驗特訓,,0
 MISSIONSELECTION,40387,強化練習,,0
 MISSIONSELECTION,40388,資料採樣,,0
@@ -3216,6 +3354,20 @@ MISSIONSELECTION,40403,中級特種訓練,,0
 MISSIONSELECTION,40404,高級特種訓練,,0
 MISSIONSELECTION,40405,演習補給獎勵已獲取,,0
 MISSIONSELECTION,40406,0點發放,,0
+MISSIONSELECTION,40407,全体出击(todo),,0
+MISSIONSELECTION,40408,执行梯队(todo),,0
+MISSIONSELECTION,40409,出征(todo),,0
+MISSIONSELECTION,40410,全体出征(todo),,0
+MISSIONSELECTION,40411,是否进行全体出征(todo),,0
+MISSIONSELECTION,40412,启动自律契约(todo),,0
+MISSIONSELECTION,40413,拥有{0}个(todo),,0
+MISSIONSELECTION,40414,已出击(todo),,0
+MISSIONSELECTION,40415,已出征(todo),,0
+MISSIONSELECTION,40416,快速自律契约不足，无法进行快速自律(todo),,0
+MISSIONSELECTION,40417,全体出征成功(todo),,0
+MISSIONSELECTION,40418,梯队出征成功(todo),,0
+MISSIONSELECTION,40419,未获得奖励(todo),,0
+MISSIONSELECTION,40420,作战提示(todo),,0
 REINFORCEMENT,50000,選擇角色,,0
 REINFORCEMENT,50001,未解鎖,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3349,6 +3501,36 @@ RESEARCH,51080,高級訓練金鑰,,0
 RESEARCH,51081,融合勢力,,0
 RESEARCH,51082,請先在左側，選擇需要強化的人形或需要開發的融合勢力單位,,0
 RESEARCH,51083,訓練密鑰不足，請前往<color=#FFB400FF>融合演習</color>收集,,0
+RESEARCH,51084,请先选择想要升级的妖精！(todo),,0
+RESEARCH,51085,当前选择素材，已足够升级该妖精至上限。(todo),,0
+RESEARCH,51086,已达上限(todo),,0
+RESEARCH,51087,当前妖精等级不足(todo),,0
+RESEARCH,51088,当前妖精星级不足(todo),,0
+RESEARCH,51089,该妖精未满足进化突破条件。(todo),,0
+RESEARCH,51090,请先选择用于进化的妖精或道具。(todo),,0
+RESEARCH,51091,资源不足，无法完成突破。(todo),,0
+RESEARCH,51092,进化突破(todo),,0
+RESEARCH,51093,进化{0}(todo),,0
+RESEARCH,51094,解锁天赋II(todo),,0
+RESEARCH,51095,进化经验(todo),,0
+RESEARCH,51096,查看进化指南(todo),,0
+RESEARCH,51097,进化3强化(todo),,0
+RESEARCH,51098,切换至进化(todo),,0
+RESEARCH,51099,进化模块(todo),,0
+RESEARCH,51100,点击取消即可取消选中妖精(todo),,0
+RESEARCH,51101,妖精进化突破最多提升3次(todo),,0
+RESEARCH,51102,进化突破3级后妖精会获得新外观(todo),,0
+RESEARCH,51103,1.使用妖精进化的时候，需要使用对应的材料 2.进化一共有3级 3.到达进化2的时候解锁天赋II 4.到达进化3的时候解锁全新外观(todo),,0
+RESEARCH,51104,进化规则(todo),,0
+RESEARCH,51105,已达进化突破上限(todo),,0
+RESEARCH,51106,进化经验道具(todo),,0
+RESEARCH,51107,未达到需要的进化经验，无法完成进化(todo),,0
+RESEARCH,51108,道具不足，无法完成进化(todo),,0
+RESEARCH,51109,进化(todo),,0
+RESEARCH,51110,训练(todo),,0
+RESEARCH,51111,当前进化经验已满，无需继续训练。(todo),,0
+RESEARCH,51112,记忆碎片可通过首次光看人形回忆及模拟作战获得(todo),,0
+RESEARCH,51113,加成提升(todo),,0
 SETTING,52000,聲音,,0
 SETTING,52001,Sound,,0
 SETTING,52002,遊戲,,0
@@ -3400,7 +3582,7 @@ SETTING,52047,資源恢復上限,,0
 SETTING,52048,主線完成率,,0
 SETTING,52049,戰術人形擁有數,,0
 SETTING,52050,傢俱收集率,,0
-SETTING,52051,装备&妖精制造栏位激活数(todo),,0
+SETTING,52051,裝備製造欄位啟用數,,0
 SETTING,52052,宿舍啟用數,,0
 SETTING,52053,人形收集率,,0
 SETTING,52054,電池充能,,0
@@ -3434,7 +3616,7 @@ SETTING,52081,角色Live2D,,0
 SETTING,52082,背景Live2D,,0
 SETTING,52083,戰鬥簡化,,0
 SETTING,52084,檢測到有資源檔需要更新，是否繼續？//n<size=33>（檔案大小：{0} MB）</size>//n請確保本地至少有{1}MB的儲存空間！,,0
-SETTING,52085,是否下载完整资源包（不包含语音）//n<size=33>可随时在【选项】中下载</size>(todo),,0
+SETTING,52085,是否下載完整資源包（不包含語音）//n<size=33>可隨時在【選項】中下載</size>,,0
 SETTING,52086,<size=33>（建議在wifi環境下下載）</size>,,0
 SETTING,52087,檢測到當前在非wifi環境//n//n是否繼續？//n（建議在wifi環境下下載）,,0
 SETTING,52088,建議玩家進行完整資源檔案下載，可獲得更好的遊戲體驗//n（資源包大小：{0} MB）//n//n是否繼續？//n（建議在wifi環境下下載）,,0
@@ -3501,6 +3683,8 @@ SETTING,52148,子彈時間,,0
 SETTING,52149,最小,,0
 SETTING,52150,最大,,0
 SETTING,52151,當前改名卡數量：{0},,0
+SETTING,52152,选中人形效果(todo),,0
+SETTING,52153,*选中人形时放大操作时间(todo),,0
 STOREROOM,53000,人形,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,裝備,,0
@@ -3522,6 +3706,33 @@ STOREROOM,53017,MAX{0},,0
 STOREROOM,53018,EXP,,0
 STOREROOM,53019,ALL,,0
 STOREROOM,53020,MAX,,0
+STOREROOM,53021,過期補償,,0
+STOREROOM,53022,清空,,0
+STOREROOM,53023,最大,,0
+STOREROOM,53024,選擇{0}項以繼續批量重複操作,,0
+STOREROOM,53025,預覽中不可操作,,0
+STOREROOM,53026,当前项目不可重复获得(todo),,0
+STOREROOM,53027,存在不可重复获得道具(todo),,0
+STOREROOM,53028,礼物盒数量不足(todo),,0
+STOREROOM,53029,请选择至少一个礼物盒(todo),,0
+STOREROOM,53030,礼物盒已过期，获得过期补偿(todo),,0
+STOREROOM,53031,部分礼物盒已过期，获得过期补偿(todo),,0
+STOREROOM,53032,礼物盒【{0}】将在{1}过期，请及时打开(todo),,0
+STOREROOM,53033,开通指定坐标投递服务的序标，每个序标使用之后能从投递清单中选择一种道具作为配给(todo),,0
+STOREROOM,53034,开通区域之间空投服务的序标，每个序标使用之后能从空投清单中随机获得一种配给道具(todo),,0
+STOREROOM,53035,开通专运列车服务的序标，每个序标使用之后能获取一次班列中运载的所有配给道具(todo),,0
+STOREROOM,53036,开通集装投送服务的序标，每个序标使用之后能从清单中获取多个指定配给道具(todo),,0
+STOREROOM,53037,清空选择(todo),,0
+STOREROOM,53038,指定投递序标(todo),,0
+STOREROOM,53039,区间空投序标(todo),,0
+STOREROOM,53040,专列运输序标(todo),,0
+STOREROOM,53041,集装投送序标(todo),,0
+STOREROOM,53042,回到礼物盒(todo),,0
+STOREROOM,53043,不可重复获得(todo),,0
+STOREROOM,53045,前有效(todo),,0
+STOREROOM,53046,未选择(todo),,0
+STOREROOM,53047,碎片合成(todo),,0
+STOREROOM,53048,关闭预览(todo),,0
 EQUIP,54000,請先選擇想要強化的裝備！,,0
 EQUIP,54001,強化等級,,0
 EQUIP,54002,命中係數,,0
@@ -3628,6 +3839,16 @@ EQUIP,54103,恢復,,0
 EQUIP,54104,消耗資源//n{0} 人力，{1}口糧，{2} 彈藥，{3} 零件//n恢復裝備 <color=#ffb400ff>{4}</color>,,0
 EQUIP,54105,當前材料不足，無法進行恢復,,0
 EQUIP,54106,裝備類型,,0
+EQUIP,54107,1.使用同名裝備進行強化可獲得{0}%基礎開發值//n2.使用已強化的裝備進行強化可額外繼承該裝備{1}%的開發值,,0
+EQUIP,54108,強化規則,,0
+EQUIP,54109,強化//n等級,,0
+EQUIP,54110,校準率,,0
+EQUIP,54111,預覽強化效果,,0
+EQUIP,54112,預覽校準效果,,0
+EQUIP,54113,已達強化上限,,0
+EQUIP,54114,已完成校準,,0
+EQUIP,54115,當前裝備於,,0
+EQUIP,54116,閒置中,,0
 SEPCIALOPS,60000,魔方行動,,0
 SEPCIALOPS,60001,相關公告,,0
 SEPCIALOPS,60002,作戰中,,0
@@ -3973,7 +4194,7 @@ SEPCIALOPS,60344,哇哦！honey居然連守善之證都不放過，全部拿來�
 SEPCIALOPS,60345,honey~~在我面前就不用客套了吧？把牌全都交出來吧！,,0
 SEPCIALOPS,60346,FAL的勝利就由我來守衛！,,0
 SEPCIALOPS,60347,等等……你為什麼會有群狼之牌？難道你偷偷背著我們聯絡那些傢伙了嗎？,,0
-SEPCIALOPS,60348,萊肯的陰影持續籠罩，一切靜待{0}呈現終章！,,0
+SEPCIALOPS,60348,里坎的阴影持续笼罩，一切静待{0}维护后呈现终章！(todo),,0
 SEPCIALOPS,60349,* 通關活動關卡獲取投票道具，投票給你支持的人形吧！,,0
 SEPCIALOPS,60350,指揮官想給她投哪種票呢？,,0
 SEPCIALOPS,60351,守善之證,,0
@@ -3994,6 +4215,15 @@ SEPCIALOPS,60365,格琳娜,,0
 SEPCIALOPS,60366,狩獵公示榜,,0
 SEPCIALOPS,60367,夏日終章,,0
 SEPCIALOPS,60368,女巫,,0
+SEPCIALOPS,60369,村民,,0
+SEPCIALOPS,60370,騎士,,0
+SEPCIALOPS,60371,獵人,,0
+SEPCIALOPS,60372,丘比特,,0
+SEPCIALOPS,60373,預言家,,0
+SEPCIALOPS,60374,狼人,,0
+SEPCIALOPS,60375,白痴,,0
+SEPCIALOPS,60376,白狼王,,0
+SEPCIALOPS,60377,守衛,,0
 SEPCIALOPS,60378,指揮官今天已經進行了{0}次抉擇了，請明天再來吧~,,0
 GASHAPON,70000,當前傢俱倉庫容量不足（,,0
 GASHAPON,70001,）//c請整頓後再進行採購!,,0
@@ -4035,7 +4265,7 @@ MALL,71000,增加人形床位,,0
 MALL,71001,增加人形製造欄位,,0
 MALL,71002,增加修復營地,,0
 MALL,71003,增加梯隊上限,,0
-MALL,71004,增加装备&妖精制造栏位(todo),,0
+MALL,71004,增加裝備製造欄位,,0
 MALL,71005,增加宿舍上限,,0
 MALL,71006,增加裝備倉庫,,0
 MALL,71007,一張月卡為30天效力,,0
@@ -4045,7 +4275,7 @@ MALL,71010,七日折扣禮包,,0
 MALL,71011,$,,0
 MALL,71012,鑽石月卡,,0
 MALL,71013,資源月卡,,0
-MALL,71014,包含额外赠送的(todo),,0
+MALL,71014,包含額外贈送的,,0
 MALL,71015,驗證支付狀態...,,0
 MALL,71016,補單成功！//r//n獲得<color=#FFBE00FF>{0}</color>,,0
 MALL,71017,請求商品列表,,0
@@ -4096,7 +4326,7 @@ MALL,71061,剩餘數量:{0};,,0
 MALL,71062,剩餘數量:{0};	剩餘時間:{1}天{2}小時,,0
 MALL,71063,剩餘數量:{0};	剩餘時間:{1}小時{2}分鐘,,0
 MALL,71064,{0}鑽石,,0
-MALL,71065,{0}钻石（包含额外赠送的{1}钻石）(todo),,0
+MALL,71065,{0}鑽石（包含額外贈送的{1}鑽石）,,0
 MALL,71066,剩餘{0}天,,0
 MALL,71067,年齡確認,,0
 MALL,71068,未滿20歲的玩家//n每月購買鑽石的金額將有一定上的限制//n請選擇您的年齡//n<Color=#FF0000FF>※不允許中途變更</Color>,,0
@@ -4188,6 +4418,7 @@ MALL,71155,今天的動能已全部售罄,,0
 MALL,71156,今天的勢能已全部售罄,,0
 MALL,71157,購買動能,,0
 MALL,71158,購買勢能,,0
+MALL,71159,内容预览(todo),,0
 DOWNLOAD,80000,繼續上次未完成資源檔下載,,0
 DOWNLOAD,80001,請確保本地至少有,,0
 DOWNLOAD,80002,的儲存空間！是否繼續？,,0
@@ -4288,8 +4519,8 @@ CONNECTION,90081,妖精校準中......,,0
 CONNECTION,90082,提交申請,,0
 OTHER,100000,確定由<color=#ffffffff>,,0
 OTHER,100001,</color>擔任您的協助者嗎？,,0
-OTHER,100002,密码中不能包含空字符(todo),,0
-OTHER,100003,请输入不包含中文字符及标点的618位密码(todo),,0
+OTHER,100002,密碼中不能包含空白,,0
+OTHER,100003,請輸入不包含中文字及標點的6-18位密碼,,0
 OTHER,100004,請輸入正確的手機號,,0
 OTHER,100005,註冊成功,,0
 OTHER,100006,帳號或密碼不能為空,,0
@@ -4514,7 +4745,7 @@ FRIEND,110026,確定要將該指揮官加入黑名單嗎？,,0
 FRIEND,110027,對方已加入黑名單,,0
 FRIEND,110028,確定要將該指揮官移出黑名單嗎？,,0
 FRIEND,110029,對方已被移出黑名單,,0
-FRIEND,110030,使用中(todo),,0
+FRIEND,110030,展示中,,0
 FRIEND,110031,熱門,,0
 FRIEND,110032,稀有,,0
 FRIEND,110033,最新,,0
@@ -4540,6 +4771,10 @@ FRIEND,110052,默認基地背景,,0
 FRIEND,110053,LV.{0},,0
 FRIEND,110054,LV.,,0
 FRIEND,110055,名片上展示勳章牆,,0
+FRIEND,110056,名片圖,,0
+FRIEND,110057,頭像框,,0
+FRIEND,110058,預覽中,,0
+FRIEND,110059,頭像框更換成功,,0
 BINGO,120001,隨機抽取,,0
 BINGO,120002,取消隨機抽取,,0
 BINGO,120003,選擇數位,,0
@@ -4608,7 +4843,7 @@ FAIRY,130024,獲得了妖精：,,0
 FAIRY,130025,妖精指令恢復,,0
 FAIRY,130026,增加研發欄位,,0
 FAIRY,130027,增加妖精床位,,0
-FAIRY,130028,注意：您当前尚未解锁此功能，购买后暂时无法使用！//n(todo),,0
+FAIRY,130028,注意：您當前尚未解鎖此功能，購買後暫時無法使用！//n,,0
 FAIRY,130029,我知道，但我還是要購買！,,0
 FAIRY,130030,在使用<color=#FFB400FF>相同天賦</color>進行強化時，//n會獲得<color=#FFB400FF>1.5</color>倍開發值。//n使用<color=#FFB400FF>同名妖精</color>進行強化時，//n會獲得<color=#FFB400FF>10</color>倍開發值。,,0
 FAIRY,130031,妖精主設施，用於解鎖其他設施,,0
@@ -4621,7 +4856,7 @@ FAIRY,130037,恭喜！妖精星級提升至<color=#ffb400ff>{0}</color>//n天賦
 FAIRY,130038,支援妖精星級提升！,,0
 FAIRY,130039,等級達到<color=#F5AD00FF>{0}</color>級可解鎖下一星級,,0
 FAIRY,130040,已達該妖精強化上限,,0
-FAIRY,130041,1.使用妖精强化时，将会获得<color=#FFB400FF>开发值</color>。//n2.当<color=#FFB400FF>开发值</color>和<color=#FFB400FF>等级</color>达到目标时，妖精星级将会提升，最高提升至<color=#FFB400FF>5星</color>。//n3.使用<color=#FFB400FF>相同天赋</color>进行强化时，会获得<color=#FFB400FF>x1.5倍</color>开发值。//n    使用<color=#FFB400FF>同名妖精</color>进行强化时，会获得<color=#FFB400FF>x10倍</color>开发值。//n4.妖精的<color=#FFB400FF>梯队属性加成</color>和<color=#FFB400FF>天赋技能效果</color>会随着星级提升而提升。(todo),,0
+FAIRY,130041,1.使用妖精強化時，將會獲得<color=#FFB400FF>開發值</color>。//n2.當<color=#FFB400FF>開發值</color>和<color=#FFB400FF>等級</color>達到目標時，妖精星級將會提升，最高提升至<color=#FFB400FF>5星</color>。//n3.使用<color=#FFB400FF>相同天賦</color>進行強化時，會獲得<color=#FFB400FF>x1.5倍</color>開發值。//n   使用<color=#FFB400FF>同名妖精</color>進行強化時，會獲得<color=#FFB400FF>x10倍</color>開發值。//n4.妖精的<color=#FFB400FF>梯隊屬性加成</color>和<color=#FFB400FF>天賦技能發動率</color>會隨著星級提升而提升。,,0
 FAIRY,130042,妖精指令儲存上限：<Color=#FFB400FF>{0}</Color>,,0
 FAIRY,130043,影響妖精指令自然恢復速度<Color=#FFB400FF> +{0}/每{1}小時</Color>,,0
 FAIRY,130044,強化,,0
@@ -4633,6 +4868,11 @@ FAIRY,130049,II型天賦,,0
 FAIRY,130050,特殊天賦,,0
 FAIRY,130051,天賦等級,,0
 FAIRY,130052,天賦類型,,0
+FAIRY,130053,进化1强化(todo),,0
+FAIRY,130054,进化2强化(todo),,0
+FAIRY,130055,进化3强化(todo),,0
+FAIRY,130056,进化1强化(todo),,0
+FAIRY,130057,已满(todo),,0
 GUIDE,140000,每一次校準都會提供<color=#FFB400FF>還原</color>的機會，所以指揮官請放心使用該功能哦。,,0
 GUIDE,140001,//n戰場上分佈著數個<color=#FFB400FF>雷達點</color>//n占領<color=#FFB400FF>雷達點</color>點可獲得雷達點周圍兩格的視野,,0
 GUIDE,140002,指揮官，歡迎來到<color=#FFB400FF>戰術少女宿舍</color>！//n在宿舍中可以自由<color=#FFB400FF>佈置傢俱</color>，並與人形進行<color=#FFB400FF>互動</color>。,,0
@@ -4971,6 +5211,14 @@ GUIDE,140335,選擇想要自動配裝的<color=#E57006FF>晶片格數</color>,,0
 GUIDE,140336,勾選旋轉晶片後配裝時會<color=#E57006FF>自動旋轉晶片</color>位置,,0
 GUIDE,140337,選擇想要自動配裝的<color=#E57006FF>晶片星級</color>,,0
 GUIDE,140338,設置該協助者對應的基地背景,,0
+GUIDE,140339,指挥官，就让我来介绍一下【格里芬每日事务】吧，指挥官每日和每周要处理的常规事务都会汇总在这里，我也会陪着您一起处理哦。(todo),,0
+GUIDE,140340,我会根据【每日事务】中不同的任务类型为指挥官<color=#f27f19>随机</color>整理一个清单，包括【每日要务】和【每周要务】。(todo),,0
+GUIDE,140341,指挥官可以<color=#f27f19>点击</color>重置按钮对对应的任务条目进行1次重置，如果我这里还有其他同类任务的话就会帮您更换掉。(todo),,0
+GUIDE,140342,完成【每日要务】可以获取【每日协议】的<color=#f27f19>认证徽记</color>，同时完成【每日要务】和【每周要务】都可以获取不同数量的<color=#f27f19>活跃度积分</color>。(todo),,0
+GUIDE,140343,当指挥官用<color=#f27f19>认证徽记</color>填满【每日协议】的面板时，就可以换取奖励。(todo),,0
+GUIDE,140344,【每日要务】会在<color=#f27f19>每日0时</color>进行重置，【每周要务】则是<color=#f27f19>每周一0时</color>重置，指挥官要注意剩余时间。(todo),,0
+GUIDE,140345,以上就是【格里芬每日事务】的介绍，指挥官请记得坚持完成哦！(todo),,0
+GUIDE,140346,<color=#f27f19>活跃度积分</color>可以累计【格里芬周报】的进度，进度到达指定节点指挥官也可以换取丰厚奖励哦。(todo),,0
 BEGINNERGUIDE,150000,請選擇戰役面板。,,0
 BEGINNERGUIDE,150001,在當前關卡獲得了三枚勳章後，就可以執行【自律作戰】指令了。,,0
 BEGINNERGUIDE,150002,不同的自律作戰，需要的梯隊數量可能也不同哦。,,0
@@ -5015,8 +5263,8 @@ BEGINNERGUIDE,150040,裝備校準可以在裝備隨機屬性範圍內提高屬�
 BEGINNERGUIDE,150041,強化裝備可以提高裝備的基礎屬性倍率哦，點擊這裡進行裝備強化。,,0
 BEGINNERGUIDE,150042,指揮官，我們的戰術妖精也可以進行【妖精校準】哦！請先從選擇需要校準的妖精開始吧。,,0
 BEGINNERGUIDE,150043,指揮官，梯隊是首要的準備工作。現在請點擊 <color=#ffb400>【編成】</color>，開始編隊指令吧。,,0
-BEGINNERGUIDE,150044,点击<color=#ffb400ff>【妖精制造】</color>按钮。(todo),,0
-BEGINNERGUIDE,150045,再点击工厂的栏位就可以进行<color=#ffb400ff>【妖精制造】</color>了哦！(todo),,0
+BEGINNERGUIDE,150044,請和之前一樣，進行【裝備製造】。,,0
+BEGINNERGUIDE,150045,現在，我們可以選擇裝備工廠的【重型製造】了哦！,,0
 BEGINNERGUIDE,150046,指揮官，戰術妖精也擁有著自己的休息區域呢，一起來參觀一下吧。,,0
 BEGINNERGUIDE,150047,點擊這裡即可進入【妖精小屋】。,,0
 BEGINNERGUIDE,150048,指揮官，請點擊【選擇妖精】的指令。,,0
@@ -5063,7 +5311,7 @@ BEGINNERGUIDE,150088,指揮官，<color=#ffb400>【防禦演習】</color>已經
 BEGINNERGUIDE,150089,指揮官，現在可以對裝備進行校準了哦。,,0
 BEGINNERGUIDE,150090,指揮官，現在可以對裝備進行強化了哦。,,0
 BEGINNERGUIDE,150091,指揮官，格里芬似乎向我們開放了<color=#ffb400>裝備系統</color>的許可權，來熟悉一下吧。,,0
-BEGINNERGUIDE,150092,指挥官，我们现在获得了格里芬最新的<color=#ffb400ff>【妖精制造】</color>权限，让我们亲手试试看吧！(todo),,0
+BEGINNERGUIDE,150092,指揮官，我們現在獲得了格里芬最新的【重型裝備製造】許可權，讓我們親手試試看吧！,,0
 BEGINNERGUIDE,150093,現在，是時候讓戰術妖精發揮作用了，讓我們透過【妖精編成】來將她們組織成戰力吧！,,0
 BEGINNERGUIDE,150094,指揮官，請點擊<color=#ffb400>【編成】</color>系統，看看如何為人形們搭載裝備吧。,,0
 BEGINNERGUIDE,150095,IOP的新型製造系統【重型製造】已經開放了，指揮官，快來體驗一下吧！,,0
@@ -5100,6 +5348,9 @@ BEGINNERGUIDE,150125,指揮官，格里芬已經將重武器的研發提上日�
 BEGINNERGUIDE,150126,點擊這裡即可進入【情報中心】,,0
 BEGINNERGUIDE,150127,指揮官，格里芬已經將重武器的研發提上日程。請進入宿舍瞭解詳情。 ,,0
 BEGINNERGUIDE,150128,重武器的研發必須以作戰情報為基礎，為此我們與情報組織Wave Tech進行了合作，請點擊附屬房間。 ,,0
+BEGINNERGUIDE,150129,指挥官，妖精现在可以进一步进化啦，进入<color=#ffb400ff>【研发】</color>区查看一下吧！(todo),,0
+BEGINNERGUIDE,150130,请点击<color=#ffb400ff>【改造&突破】</color>。(todo),,0
+BEGINNERGUIDE,150131,再点击<color=#ffb400ff>【妖精突破进化】</color>就能进行妖精突破进化啦！(todo),,0
 SPECIALFORGLOBAL,160000,彈量,,0
 SPECIALFORGLOBAL,160001,目標,,0
 SPECIALFORGLOBAL,160002,夜戰,,0
@@ -5392,6 +5643,14 @@ SQUAD,190263,由於未知原因晶片自動配裝失敗，建議更改篩選或�
 SQUAD,190264,自動配裝,,0
 SQUAD,190265,預覽滿級晶片屬性,,0
 SQUAD,190266,滿級預覽中,,0
+SQUAD,190267,快速训练需要消耗<color=#ffb400ff>{0}</color>个<color=#ffb400ff>{1}</color><color=#ffb400ff>（剩余{2}个）</color>，是否确认支付？(todo),,0
+SQUAD,190268,1.强化等级每提升一级，芯片的属性也会相应提升。//n2.2星芯片不可强化。//n3.芯片星级越高强化时所需要经验越多。//n4.星级越高的芯片，作为素材时能够提供的经验越多。//n5.相同颜色的芯片，作为素材时经验提升20%。//n6.芯片若已经获得了一部分强化经验，则其作为素材时能提供额外的强化经验。额外经验相当于其已有的强化经验的80%。(todo),,0
+SQUAD,190269,跳转(todo),,0
+SQUAD,190270,选择芯片回收星级(todo),,0
+SQUAD,190271,选择消耗芯片星级(todo),,0
+SQUAD,190272,回收人质(todo),,0
+SQUAD,190273,点击后进行经验训练(todo),,0
+SQUAD,190274,点击后进行技能训练(todo),,0
 TOAST,200000,陣形預設完畢,,0
 TOAST,200001,暫無可用妖精,,0
 TOAST,200002,通關{0}個不同關卡後解鎖<color=#ffb400>妖精</color>    當前通關數{1}/{2},,0
@@ -5415,7 +5674,7 @@ TOAST,200019,當前沒有可用拆解的裝備,,0
 TOAST,200020,當前沒有可供拆解的妖精,,0
 TOAST,200021,通關{0}解鎖<color=#ffb400>裝備製造</color>,,0
 TOAST,200022,通關{0}個不同關卡後解鎖<color=#ffb400>裝備重型製造</color>    當前通關數{1}/{2},,0
-TOAST,200023,装备&妖精制造栏位解锁成功！(todo),,0
+TOAST,200023,裝備製造欄位解鎖成功！,,0
 TOAST,200024,通關{0}個不同關卡後解鎖<color=#ffb400>妖精小屋</color>  當前通關數{1}/{2},,0
 TOAST,200025,通關{0}後解鎖<color=#ffb400>{1}</color>,,0
 TOAST,200026,<color=#ffb400>{0}</color>已開始升級,,0
@@ -5749,8 +6008,8 @@ THEATER,210221,後備單位數量+{0},,0
 THEATER,210222,融合勢力cost+{0},,0
 THEATER,210223,遠征隊中不能編入重複人形，是否將該人形強制替換到本欄位？,,0
 THEATER,210224,以下為本據點關卡的<color=#ffb400>戰鬥模式</color>。//n不同戰鬥模式的<color=#ffb400>積分條件</color>不同，請仔細關注不同戰鬥模式的特徵，結合敵人資訊、梯隊資訊與戰場效果，合理安排遠征隊的梯隊編程配置。,,0
-THEATER,210225,以下为本据点关卡的<color=#ffb400>战场效果</color>。//n战场效果可能包含各种<color=#ffb400>针对我方或敌方的有利/不利影响</color>，请仔细关注不同战场效果，针对局势合理安排出击梯队。//n随着攻略进度的推进，战场效果内容可能会发生变化。(todo),,0
-THEATER,210226,优势人形在与<color=#ffb400ff>常规敌人</color>作战时可获得以下<color=#ffb400ff>属性加成</color>：//n手枪：20%技能冷却速度；冲锋枪、霰弹枪：15%护甲加成、50%回避加成；突击步枪、步枪、机枪：20%伤害加成、20%命中加成//n同时在<color=#ffb400ff>要塞关卡</color>中，优势人形在与<color=#ffb400ff>精英敌人</color>作战时<color=#ffb400ff>自身</color>可获得<color=#ffb400ff>20%对精英敌人效能加成</color>。(todo),,0
+THEATER,210225,以下為本據點關卡的<color=#ffb400>戰場效果</color>。//n戰場效果可能包含各種<color=#ffb400>針對我方或敵方的有利/不利影響</color>，請仔細關注不同戰場效果，針對局勢合理安排出擊梯隊。//n隨著攻略進度的推進，戰場效果內容可能會發生變化。,,0
+THEATER,210226,優勢人形在與<color=#ffb400ff>常規敵人</color>作戰時可獲得以下<color=#ffb400ff>屬性加成</color>：//n手槍：20%技能冷卻速度；衝鋒槍、霰彈槍：15%護甲加成、50%迴避加成；突擊步槍、步槍、機槍：20%傷害加成、20%命中加成//n同時在<color=#ffb400ff>要塞關卡</color>中，優勢人形在與<color=#ffb400ff>精英敵人</color>作戰時<color=#ffb400ff>自身</color>可獲得<color=#ffb400ff>20%對精英敵人效能加成</color>。,,0
 THEATER,210227,下列 <Color=#FF5001FF>{0}</Color> 波常規敵人將依次出現,,0
 THEATER,210228,第{0}波,,0
 THEATER,210229,輔助,,0
@@ -5824,6 +6083,15 @@ THEATER,210296,共{0}波敵人，從下列組合中順序出,,0
 THEATER,210297,釋放,,0
 THEATER,210298,該據點支援編隊未開放,,0
 THEATER,210299,遠征隊中不能編入重複妖精,,0
+THEATER,210300,編輯隊長,,0
+THEATER,210301,已選中,,0
+THEATER,210302,沒有任何出戰優勢人形，是否確認出戰？,,0
+THEATER,210303,交换失败，Boss需要作为队长(todo),,0
+THEATER,210304,请确认完成队长编辑(todo),,0
+THEATER,210305,同时在<color=#ffb400ff>要塞关卡</color>中，优势人形在与<color=#ffb400ff>精英敌人</color>作战时<color=#ffb400ff>自身</color>可获得<color=#ffb400ff>20%对精英敌人效能加成</color>(todo),,0
+THEATER,210306,优势人形在与<color=#ffb400ff>常规敌人</color>作战时可获得以下<color=#ffb400ff>属性加成</color>：(todo),,0
+THEATER,210307,小队中不能编入重复人形(todo),,0
+THEATER,210308,小队中不能编入重复妖精(todo),,0
 MISSIONTARGET,220000,指揮部,,0
 MISSIONTARGET,220001,路徑點,,0
 MISSIONTARGET,220002,機場,,0
@@ -6092,10 +6360,10 @@ UNITED_FORCE,240006,需要指揮官等級到達,,0
 UNITED_FORCE,240007,建立連隊,,0
 UNITED_FORCE,240008,請輸入需要創建的連隊名稱,,0
 UNITED_FORCE,240009,連隊名稱不能為空,,0
-UNITED_FORCE,240010,连队名称不能包含特殊字符(todo),,0
+UNITED_FORCE,240010,連隊名稱不能包含特殊字符,,0
 UNITED_FORCE,240011,連隊名稱不能超過 10 中文字,,0
 UNITED_FORCE,240012,該連隊名稱已被使用,,0
-UNITED_FORCE,240013,连队名称包含非法字符(todo),,0
+UNITED_FORCE,240013,連隊名稱包含非法字符,,0
 UNITED_FORCE,240014,所需道具不足，無法建立連隊,,0
 UNITED_FORCE,240015,連隊 <color=#fFBB00FF>{0}</color> 建立成功,,0
 UNITED_FORCE,240016,申請,,0
@@ -6180,7 +6448,7 @@ UNITED_FORCE,240094,彈劾進行中,,0
 UNITED_FORCE,240095,競選連隊長,,0
 UNITED_FORCE,240097,修改公會公告成功！,,0
 UNITED_FORCE,240098,連隊公告不能超過40字,,0
-UNITED_FORCE,240099,公会公告中不能包含敏感信息！(todo),,0
+UNITED_FORCE,240099,公會公告中不能包含敏感訊息！,,0
 UNITED_FORCE,240100,留言不能超過20字,,0
 UNITED_FORCE,240101,請勿輸入個人隱私訊息，並遵守公序良俗//n留言輸入框（不超過20字）,,0
 UNITED_FORCE,240102,隊旗修改成功！,,0
@@ -6192,7 +6460,7 @@ UNITED_FORCE,240107,副會長最大人數+{0},,0
 UNITED_FORCE,240108,據點空房間+{0},,0
 UNITED_FORCE,240109,新的可選設施：{0},,0
 UNITED_FORCE,240110,公會稱號：{0},,0
-UNITED_FORCE,240111,请不要发送包含有敏感词汇的信息(todo),,0
+UNITED_FORCE,240111,請不要發送包含有敏感詞彙的訊息,,0
 UNITED_FORCE,240112,歡迎指揮官<color=#fFBB00FF>{0}</color>加入<color=#fFBB00FF>{1}</color>,,0
 UNITED_FORCE,240113,指揮官<color=#fFBB00FF>{0}</color>被任命為副隊長,,0
 UNITED_FORCE,240114,指揮官<color=#fFBB00FF>{0}</color>被移出連隊,,0
@@ -6528,6 +6796,17 @@ SANGVIS,260147,初始三星,,0
 SANGVIS,260148,快速增量選擇,,0
 SANGVIS,260149,確定,,0
 SANGVIS,260150,沒有偵測到敵方單位，暫時無法進行捕獲。（當前沒有進行中的活動，請關注官方活動公告。）,,0
+SANGVIS,260151,荷量(todo),,0
+SANGVIS,260152,芯片研发荷量兑换(todo),,0
+SANGVIS,260153,研发荷量不足，请增加道具投入(todo),,0
+SANGVIS,260154,道具库存不足，无法提供足够研发荷量(todo),,0
+SANGVIS,260155,研发耗时(todo),,0
+SANGVIS,260156,研发消耗(todo),,0
+SANGVIS,260157,*超出的研发荷量将会被损耗(todo),,0
+SANGVIS,260158,提供荷量(todo),,0
+SANGVIS,260159,研发(todo),,0
+SANGVIS,260160,道具数量(todo),,0
+SANGVIS,260161,库存(todo),,0
 FORMATION,270002,梯隊//n預設,,0
 FORMATION,270003,陣型選擇,,0
 FORMATION,270004,陣型優勢,,0
@@ -6578,7 +6857,12 @@ FORMATION,270048,陣型編成,,0
 FORMATION,270049,閒置裝備不足，部分裝備欄未能成功應用預設,,0
 FORMATION,270050,LOCKED,,0
 FORMATION,270051,Echelon,,0
-FORMATION,270052,是否包含<color=#ffb400>专属装备</color>(todo),,0
+FORMATION,270052,是否包含<color=#ffb400>專屬裝備</color>,,0
+FORMATION,270053,前往编成,,0
+FORMATION,270054,自动编成,,0
+FORMATION,270055,已为第{0}梯队自动分配队长,,0
+FORMATION,270056,{0}沒有分配隊長，請先配置。,,0
+FORMATION,270057,第{0}梯隊,,0
 MINIGAME,280001,回合,,0
 MINIGAME,280002,正在尋找房間，請稍等......,,0
 MINIGAME,280003,已等待,,0
@@ -6627,7 +6911,7 @@ MINIGAME,280045,臨時徵用,,0
 MINIGAME,280046,顯示屬性,,0
 MINIGAME,280047,棋子形象,,0
 MINIGAME,280048,*拉弗伯雷兵棋的棋子基礎屬性只與槍種有關，根據槍種選擇喜愛的棋子形象即可。,,0
-MINIGAME,280049,*拉弗伯雷兵棋的基础属性和战术只与枪种有关，与具体的人形单位无关。//n*编队必须部署8个人形才能在游戏中使用。(todo),,0
+MINIGAME,280049,*飛行棋的基礎屬性和戰術只與槍種有關，與具體的人形單位無關。//n*編隊必須部署8個人形才能在遊戲中使用。,,0
 MINIGAME,280050,默認梯隊,,0
 MINIGAME,280051,梯隊預設,,0
 MINIGAME,280052,選擇棋子,,0
@@ -7065,3 +7349,15 @@ MINIGAME,280486,{0}分鐘內將不會匹配到該玩家({1}/{2}),,0
 MINIGAME,280487,屏蔽玩家人數已達上限,,0
 MINIGAME,280488,扭蛋,,0
 MINIGAME,280489,扭蛋券持有數量已達上限，不能獲取更多！,,0
+MINIGAME,280490,往期兌換,,0
+MINIGAME,280491,往期獎勵兌換,,0
+MINIGAME,280492,外觀,,0
+MINIGAME,280493,正在匹配玩家,,0
+MINIGAME,280494,請稍等.......,,0
+MINIGAME,280495,已擁有物品，不可再次兌換！,,0
+MINIGAME,280496,請先退出匹配隊列,,0
+MINIGAME,280497,匹配超時，請重新匹配！,,0
+MINIGAME,280498,当前使用(todo),,0
+MINIGAME,280499,未获得(todo),,0
+MINIGAME,280500,使用中(todo),,0
+MINIGAME,280501,未获取的棋盘背景，不能使用(todo),,0
