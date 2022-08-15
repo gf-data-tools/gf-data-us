@@ -1,0 +1,872 @@
+[
+    {
+        "id": 1,
+        "name": "Normal Shot",
+        "description": "Attack the enemy unit closest to itself."
+    },
+    {
+        "id": 2,
+        "name": "Standard Shot",
+        "description": "Attack the enemy units in the front row."
+    },
+    {
+        "id": 3,
+        "name": "Normal Strike",
+        "description": "Attack the enemy unit closest to itself with a melee weapon."
+    },
+    {
+        "id": 4,
+        "name": "SWAP Guard",
+        "description": "Deploy a shield with 30% of her max HP, lasting 6 seconds. While the shield is up, enemy units cannot perform normal attacks."
+    },
+    {
+        "id": 5,
+        "name": "SWAP Jaeger",
+        "description": "After aiming for 2.5 seconds, perform a sniping attack on the rearmost enemy unit."
+    },
+    {
+        "id": 6,
+        "name": "SWAP Striker Machine Gun Skill",
+        "description": "Uses a machine gun to attack enemy units in the front row."
+    },
+    {
+        "id": 7,
+        "name": "SWAP Dragoon",
+        "description": "The Dragoon charges at the start of battle, approaching enemy units at high speed. After entering attack range, charge status is removed."
+    },
+    {
+        "id": 8,
+        "name": "Accurate Strike",
+        "description": "Launch shells at a random enemy unit in the back row. After the warning, it does relatively high damage to its target."
+    },
+    {
+        "id": 9,
+        "name": "Aegis Defense",
+        "description": "Deploy a shield with 30% of her max HP, lasting 6 seconds. While the shield is up, enemy units cannot perform normal attacks."
+    },
+    {
+        "id": 10,
+        "name": "Nemeum Cannon",
+        "description": "Fire a cannon round at enemy units in the front row."
+    },
+    {
+        "id": 11,
+        "name": "Self-Destruct",
+        "description": "Detonates itself upon detecting enemy units, doing massive damage."
+    },
+    {
+        "id": 12,
+        "name": "Jupiter Bombardment",
+        "description": "Fire a powerful cannon shell. If it is encircled and deprived of power, only its point-defense weapons will be operational."
+    },
+    {
+        "id": 13,
+        "name": "Manticore Shot",
+        "description": "Attack the enemy units in the front row."
+    },
+    {
+        "id": 14,
+        "name": "Cerynitis Shot",
+        "description": "Fairly long-ranged. Attack enemy units in the front row with rapid-fire autocannons."
+    },
+    {
+        "id": 15,
+        "name": "Cyclops Rifle",
+        "description": "Damage enemy units in the front row with a rifle."
+    },
+    {
+        "id": 16,
+        "name": "Cyclops - Grenade",
+        "description": "Launch a HE grenade at a random enemy unit, doing area damage."
+    },
+    {
+        "id": 17,
+        "name": "Cyclops - Shotgun",
+        "description": "Attack the three closest enemy units with a shotgun."
+    },
+    {
+        "id": 18,
+        "name": "Strafe",
+        "description": "After every 3rd attack, the Hydra performs a sweeping attack which does great damage to all enemy units within a certain radius."
+    },
+    {
+        "id": 19,
+        "name": "Dactyl Minelaying",
+        "description": "Move forward and start laying mines upon detecting enemy units. Mines are triggered when an enemy unit touches them, doing damage."
+    },
+    {
+        "id": 20,
+        "name": "EMP Cannon",
+        "description": "After charging up, the EMP cannon does piercing damage to all enemy units in the same horizontal row."
+    },
+    {
+        "id": 21,
+        "name": "Reinforcements",
+        "description": "Upon detecting hostile units, continuously dispatches reinforcement units to the battlefield."
+    },
+    {
+        "id": 22,
+        "name": "Close-Range Strike",
+        "description": "Stop moving upon contact with enemy units and damage them."
+    },
+    {
+        "id": 23,
+        "name": "Demolition Arrow",
+        "description": "Fire an explosive arrow at flagged locations, dealing armor-piercing damage and setting the ground on fire. Units on burning ground take 3 seconds of burn damage."
+    },
+    {
+        "id": 24,
+        "name": "Intricate Defense",
+        "description": "Deploy a shield with 0.8% of its max HP. This shield reduces all damage taken by the Orthrus to 1 and lasts 6 seconds. The unit cannot attack while its shield is up. If the shield is destroyed, the Orthrus takes 50% of its max HP in damage."
+    },
+    {
+        "id": 25,
+        "name": "Minotaurus EM Impact",
+        "description": "It charges up an electromagnetic pulse around its hands/c/ then does damage to enemy units in a small area."
+    },
+    {
+        "id": 26,
+        "name": "Damage Reduction",
+        "description": "The Minotaurus enters a defensive state where it cannot attack and takes 80% less damage. This state lasts for 5 seconds."
+    },
+    {
+        "id": 27,
+        "name": "Rodelero",
+        "description": "Rodeleros have a unique beam weapon regular attack. They lock onto a unit in the front row and deal piercing damage to all units in the same horizontal row."
+    },
+    {
+        "id": 28,
+        "name": "Grenade Strike",
+        "description": "Fire grenades, dealing damage to enemy units in the front row."
+    },
+    {
+        "id": 29,
+        "name": "Alpha Strike",
+        "description": "Fire grenades at up to 8 tiles on the friendly side and do relatively high damage to units standing on the flagged locations."
+    },
+    {
+        "id": 30,
+        "name": "Tank Normal Attack",
+        "description": "Attack the enemy units in the front row."
+    },
+    {
+        "id": 31,
+        "name": "Uhlan",
+        "description": "Fire grenades, dealing damage to enemy units in the front row."
+    },
+    {
+        "id": 32,
+        "name": "Ram",
+        "description": "After displaying a warning, ram the frontmost enemy units, doing damage to all units on the flagged locations in the same horizontal row."
+    },
+    {
+        "id": 33,
+        "name": "Guided Missile Barrage",
+        "description": "A one-time missile volley that deals damage to 4 randomly flagged locations. This skill can only be used once per battle."
+    },
+    {
+        "id": 34,
+        "name": "Roaring Smash",
+        "description": "Deal damage to the enemy unit directly in front of it, reducing the unit's move speed and ROF by 30%."
+    },
+    {
+        "id": 35,
+        "name": "Force Field Regeneration",
+        "description": "The Gladiator puts up a force field and enters a recovery state, restoring 300 field strength per second for 5 seconds."
+    },
+    {
+        "id": 36,
+        "name": "Shields Up",
+        "description": "Deploy a shield with 150% of its max HP, lasting 6 seconds."
+    },
+    {
+        "id": 37,
+        "name": "Mobile Tactics",
+        "description": "Increase self evasion by 1900% and switch to Sniper Mode."
+    },
+    {
+        "id": 38,
+        "name": "Sniper Mode",
+        "description": "Reduce its ROF by 50% but increase damage by 150%, dealing guaranteed damage that ignores armor, lasting for 6 seconds."
+    },
+    {
+        "id": 39,
+        "name": "Disrupting Shot",
+        "description": "Every 3 seconds, the next normal attack reduces the target's accuracy and evasion by 20%. Stacks up to 3 times and lasts 3 seconds."
+    },
+    {
+        "id": 40,
+        "name": "Neural Cloud Tremor",
+        "description": "Advance and every 4 seconds, stun all enemy units within a radius of 2 for 2 seconds."
+    },
+    {
+        "id": 41,
+        "name": "Tide of Apocalyptic Moon",
+        "description": "Lock onto a random enemy Doll, disrupting her neural cloud and rendering her unable to carry out any orders. After that, deal damage to all enemy units in a cross-shaped area around the target. The skill remains in effect until the illusion summoned by Nimogen is destroyed."
+    },
+    {
+        "id": 42,
+        "name": "Rally the Cults",
+        "description": "Continuously summon fresh Paradeus units that enter the battlefield from behind Mercurows."
+    },
+    {
+        "id": 43,
+        "name": "Planetary Sarcophagus",
+        "description": "Lock onto the enemy Doll with the highest DPS. Said Doll suffers continuous damage from neural cloud disruption. At the same time, Mercurows continuously restores her HP. During the course of this skill, Mercurows deploys a 4000-point shield around herself which lasts for 8 seconds. Breaking this shield cancels Planetary Sarcophagus."
+    },
+    {
+        "id": 44,
+        "name": "Flowers of the End",
+        "description": "A concentrated hail of bullets that can seemingly destroy anything (Enter special shoot-em-up play mode)."
+    },
+    {
+        "id": 45,
+        "name": "Black Obelisk",
+        "description": "Shields self while charging up power. The longer the shield is up, the more instances of damage and the bigger the area of effect, up to a maximum of 3 instances of damage. Friendly Dolls who have a white marker on them take extra explosive damage."
+    },
+    {
+        "id": 46,
+        "name": "White Night",
+        "description": "Shield self while charging up power. The longer the shield is up, the more instances of damage and the bigger the area of effect, up to a maximum of 3 instances of damage. Enemy Dolls with a black marker on them grant her extra shields if they are hit."
+    },
+    {
+        "id": 47,
+        "name": "Bonds",
+        "description": "Deal explosive damage to three Dolls. Dolls who take explosive damage from the Black Nyto gain black markers while Dolls who take explosive damage from the White Nyto gain white markers."
+    },
+    {
+        "id": 48,
+        "name": "Heavy Cleave",
+        "description": "When shielded, damage the three tiles directly in front of her and deal damage to enemy units, while also reducing hit units' firepower and move speed by 30%."
+    },
+    {
+        "id": 49,
+        "name": "Shields Up",
+        "description": "Deploy a shield with a value of 20% of her max HP, lasting 8 seconds."
+    },
+    {
+        "id": 50,
+        "name": "Self-Defense Mode",
+        "description": "When HP drops below 30%, raise its shield and gain 50% damage reduction, while also ceasing all attack and movement."
+    },
+    {
+        "id": 51,
+        "name": "Shield Generator",
+        "description": "Deploy a shield with a value of 10% of its max HP for all allied units, lasting 6 seconds."
+    },
+    {
+        "id": 52,
+        "name": "Smoke Tactics",
+        "description": "Randomly fire smoke grenades into enemy territory, reducing enemy units' move speed and accuracy by 30% for 5 seconds."
+    },
+    {
+        "id": 53,
+        "name": "Deep Strike",
+        "description": "Lock onto a unit in the front row, then fire a round after 2 seconds of aiming, dealing damage to all Dummy-Links of the target and dealing somewhat less damage to all Dummy-Links of the units behind the target."
+    },
+    {
+        "id": 54,
+        "name": "Armor Break",
+        "description": "Every hit reduces target armor by 10% for 5 seconds."
+    },
+    {
+        "id": 55,
+        "name": "Chain Slash",
+        "description": "After every 3 normal attacks, the 4th attack does double damage, but Chain Slash does not damage armor."
+    },
+    {
+        "id": 56,
+        "name": "Pinpoint Bombardment",
+        "description": "Aim and open fire, dealing unavoidable damage to an enemy unit."
+    },
+    {
+        "id": 57,
+        "name": "Corrosive Miasma",
+        "description": "Deal continuous damage to all surrounding Dolls. Keep your back row as far away from this unit as possible."
+    },
+    {
+        "id": 58,
+        "name": "Conversion",
+        "description": "Absorb vitality from the smaller surrounding zombies and shield itself. The value of this shield is determined by the number of units it absorbed."
+    },
+    {
+        "id": 59,
+        "name": "Sangvis Tactics - Scarecrow",
+        "description": "Scarecrow rotates her three floating guns and does 3 instances of damage to the targeted unit."
+    },
+    {
+        "id": 60,
+        "name": "Sangvis Tactics - Executioner",
+        "description": "Executioner locks onto the unit closest to herself and uses her sword to cleave through up to 2 enemy units, dealing high damage that ignores armor."
+    },
+    {
+        "id": 61,
+        "name": "Execution under Misty Moonlight",
+        "description": "A skill used by Executioner after being outfitted with higher-spec combat modules. Damages all units within the flagged locations. The sword slash affects an entire horizontal row, the explosion hits an entire column, and enemy units caught in the intersection of both effects take two instances of damage."
+    },
+    {
+        "id": 62,
+        "name": "Sangvis Tactics - Hunter",
+        "description": "Hunter rapidly fires her handguns for a brief duration, dealing many instances of high damage to her target."
+    },
+    {
+        "id": 63,
+        "name": "Sangvis Tactics - Alchemist",
+        "description": "Alchemist jumps and moves rapidly, dealing multiple instances of damage to her target."
+    },
+    {
+        "id": 64,
+        "name": "Sangvis Tactics - Destroyer",
+        "description": "Destroyer fires grenades into the air. The grenades fall in a straight line along the flagged locations, dealing damage to all enemy units on them."
+    },
+    {
+        "id": 65,
+        "name": "Gaia Rocket Launch",
+        "description": "A skill used by Destroyer after being outfitted with higher-spec combat modules. After generating a large warning marker, she fires a delayed-detonation grenade at each flagged location, dealing multiple instances of damage to all enemy units on the affected tiles."
+    },
+    {
+        "id": 66,
+        "name": "Sangvis Tactics - Gager",
+        "description": "Gager does 4 instances of damage to her target with a single attack."
+    },
+    {
+        "id": 67,
+        "name": "Gager's Quantum Sting",
+        "description": "A skill used by Gager after being outfitted with higher-spec combat modules. She marks an area and then deals damage to all units within it. After locking onto a row, she deals two instances of armor-ignoring damage."
+    },
+    {
+        "id": 68,
+        "name": "Sangvis Tactics: Architect",
+        "description": "Randomly launches grenades on friendly tiles, dealing unavoidable damage to all dummy-links."
+    },
+    {
+        "id": 69,
+        "name": "Architect's Missile Launch",
+        "description": "A skill used by Architect after being outfitted with higher-spec combat modules. Randomly locks onto a enemy unit, then attacks the target with unavoidable damage in a cross-shaped AOE."
+    },
+    {
+        "id": 70,
+        "name": "Sangvis Tactics - Dreamer",
+        "description": "After displaying a warning marker, fires a beam that pierces an entire row, dealing armor-ignoring damage that automatically hits all enemies in its path."
+    },
+    {
+        "id": 71,
+        "name": "Sangvis Tactics - Ouroboros",
+        "description": "Open the rear ends of her round floating cannons, then fire four guided missiles at the flagged locations, doing a total of 2x damage to characters on those tiles."
+    },
+    {
+        "id": 72,
+        "name": "Weaver's Missile Salvo",
+        "description": "Lock onto the 4 most distant enemies deal unavoidable damage."
+    },
+    {
+        "id": 73,
+        "name": "Sangvis Tactics - Judge - Trial",
+        "description": "Judge deploys a purple shield in front of her, granting her extra armor while it is up."
+    },
+    {
+        "id": 74,
+        "name": "Sangvis Tactics - Judge - Sentence",
+        "description": "Judge cancels her defensive status and glows with purple light. In this state, Judge gains extra firepower."
+    },
+    {
+        "id": 75,
+        "name": "Plague Field",
+        "description": "Judge jumps up and launches a flying kick at a random enemy Doll, leaving a purple mark on the spot where she touches down. Units which remain in this purple area suffer reduced firepower."
+    },
+    {
+        "id": 76,
+        "name": "Plague Field EX",
+        "description": "A skill used by Judge after being outfitted with higher-spec combat modules. Judge jumps up and launches a flying kick at all Dolls, leaving a purple mark on the spot where she touches down. Units which remain in this purple area suffer reduced firepower."
+    },
+    {
+        "id": 77,
+        "name": "Sangvis Tactics - Agent",
+        "description": "Summon Dummy Agents, which can attack but have reduced damage. The Dummies have armor and can withstand small amounts of damage."
+    },
+    {
+        "id": 78,
+        "name": "Key of Omens",
+        "description": "Agent stops attacking and deploys a shield that absorbs damage. If the shield is not broken within 8 seconds, Agent drops the shield and unleashes a devastating attack, destroying all enemy units."
+    },
+    {
+        "id": 79,
+        "name": "Sangvis Tactics - Cerberus",
+        "description": "Launch three grenades at the middle row of the echelon formation, dealing unavoidable damage that ignores armor to any Dolls in its path."
+    },
+    {
+        "id": 80,
+        "name": "Cerberus' Hyperbeam",
+        "description": "Display dark and light-colored warning markers on two horizontal rows of the formation, then fire a high-damage laser beam at the dark-colored region and a line of missiles at the light-colored region, dealing guaranteed damage that can be reduced by armor."
+    },
+    {
+        "id": 81,
+        "name": "Sangvis Tactics - M16",
+        "description": "Throw a flashbang every 15 seconds that stuns all enemy units."
+    },
+    {
+        "id": 82,
+        "name": "Detector",
+        "description": "M16 summons a detector on a random tile. The detector scans the Doll on its position and grants M16 a buff depending on her gun type. HGs buff her firepower, SMGs buff her accuracy, RFs buff her ROF, ARs buff her armor and SGs buff her AP. If there is nobody on the detector, she gets ALL of those buffs."
+    },
+    {
+        "id": 83,
+        "name": "Misanthropic Strike",
+        "description": "Call an airstrike on the Doll with the highest DPS in this battle. Lock on to the target and deal damage in a cross-shaped area around her."
+    },
+    {
+        "id": 84,
+        "name": "Sangvis Tactics - Intruder",
+        "description": "Use a machine gun to inflict multiple instances of damage on her target for a short while."
+    },
+    {
+        "id": 85,
+        "name": "Charge Attack",
+        "description": "Launch a charged attack after every 6 normal attacks, dealing damage to all enemy units."
+    },
+    {
+        "id": 86,
+        "name": "Reverse Collapse",
+        "description": "Cause the unit furthest from herself to float into the air at regular intervals. Floating units are not affected by surface damage. At the same time, uncontrolled Reverse Collapse zones appear on the battlefield as the battle progresses."
+    },
+    {
+        "id": 87,
+        "name": "Glow of Termination",
+        "description": "Deal high damage to all units, while also creating a 3-tile radius Reverse Collapse zone."
+    },
+    {
+        "id": 88,
+        "name": "Crisis Protection",
+        "description": "This unit gains 1 second of invincibility every time it loses a Dummy. This effect can only trigger once every 6 seconds."
+    },
+    {
+        "id": 89,
+        "name": "Disrupting Shot",
+        "description": "After every three regular attacks, the next attack will inflict disruption on a random enemy unit within attack range. Affected units have decreased firepower and rate of fire."
+    },
+    {
+        "id": 90,
+        "name": "Self-Adaptive Tactics",
+        "description": "This unit attacks with two guns when protected by a shield. The second shot inflicts 0.5x damage to the target."
+    },
+    {
+        "id": 91,
+        "name": "Formation Enhancement",
+        "description": "5 seconds after the start of battle, increase all units' rate of fire by 50% for 4 seconds. This takes place every 8 seconds."
+    },
+    {
+        "id": 92,
+        "name": "Taking Precautions",
+        "description": "Gain a shield upon entering combat."
+    },
+    {
+        "id": 93,
+        "name": "Suppression",
+        "description": "Deal damage that scales with Dummy-Links to the units on the top and bottom of the enemy formation.,"
+    },
+    {
+        "id": 94,
+        "name": "Demolished",
+        "description": "After showing warning markers, launch grenades at 4 squares within the enemy formation, dealing damage that scales with Dummy-Links to anyone within their area of effect."
+    },
+    {
+        "id": 95,
+        "name": "Sinner's Punishment",
+        "description": "Deal great damage to all enemy units. Its shield can be broken while it is charging up, which interrupts the beam firing sequence and damages the mech and its weapons systems."
+    },
+    {
+        "id": 96,
+        "name": "Tactical Update - Gager",
+        "description": "Now that she is no longer under Elisa's control, she has found her own way of fighting. Every hit charges up energy for her weapon. When her charge is full, she can switch to melee mode for a while. Damage dealt in melee mode cannot miss and scales with Dummy-Links, and her armor penetration capabilities are greatly increased."
+    },
+    {
+        "id": 97,
+        "name": "Tactical Update - Dreamer",
+        "description": "Now that she is no longer under Elisa's control, she has found her own way of fighting. She gains stacks of Aggression at certain intervals, and when she reaches max stacks she goes into Burst Mode, which increases her damage and rate of fire by 100%. However, she also gains 100% vulnerability."
+    },
+    {
+        "id": 98,
+        "name": "Tactical Update - Ouroboros",
+        "description": "Under certain conditions, she faces her enemies with heightened focus. Each critical hit she inflicts reduces her target's damage and rate of fire by 50%. She can also summon hover cannons to support her in combat, while using her outstanding computational capabilities to boost all her allies' rate of fire and crit rate."
+    },
+    {
+        "id": 99,
+        "name": "Tactical Update - Destroyer",
+        "description": "Now that she is no longer under Elisa's control, she has found her own way of fighting. After every 10 regular attacks, she fires a grenade that cannot miss at the enemy with the highest HP, dealing 2x damage."
+    },
+    {
+        "id": 100,
+        "name": "Infiltration Plan",
+        "description": "Every 8 seconds, move forward 2 units, disregarding the environment."
+    },
+    {
+        "id": 101,
+        "name": "Within Shadows",
+        "description": "If there are other friendly units up ahead, enter a special state where evasion is greatly increased."
+    },
+    {
+        "id": 102,
+        "name": "Street Technique",
+        "description": "If there are attackable targets within a 2-unit range ahead, switch to melee mode, which deals 2x guaranteed damage."
+    },
+    {
+        "id": 103,
+        "name": "Throw Molotov",
+        "description": "Throws a Molotov cocktail at a random enemy unit, dealing damage once per second for 5 seconds."
+    },
+    {
+        "id": 104,
+        "name": "Convertible Axe-Shield",
+        "description": "When moving, its weapon switches to shield mode and grants 50% damage intake reduction. In attack mode, it becomes an axe which does damage to the target and the units behind it."
+    },
+    {
+        "id": 105,
+        "name": "Missal",
+        "description": "This unit prioritizes units with fewer Dummy-Links and does more damage to them while ignoring armor. If multiple Hymnal Organs attack the same enemy, the damage they deal stacks."
+    },
+    {
+        "id": 106,
+        "name": "Patmos Blue",
+        "description": "Emit a blue light which strips enemy units of all buffs, including shields, while also decreasing all enemy units' damage by 10%. Initial CD 8s, CD 10s."
+    },
+    {
+        "id": 107,
+        "name": "Patmos Amber",
+        "description": "Emit a yellow light which removes all debuffs on allied units, while also granting a shield with a value that equals 10% of its own health. Initial CD 4s, CD 10s."
+    },
+    {
+        "id": 108,
+        "name": "Hover Blades",
+        "description": "Control hover blades to damage enemy units. Hover blades are independent entities which respawn every 20 seconds. Every hover blade that is lost reduces her evasion by 20% for 20s. When all hover blades are destroyed, this unit enters Assassin Mode."
+    },
+    {
+        "id": 109,
+        "name": "Assassin Mode",
+        "description": "Shine and gain a short period of invincibility, then attack the enemy unit with the fewest Dummy-Links and deals fatal damage to them. After 7 assassinations, this unit regains all her hover blades."
+    },
+    {
+        "id": 110,
+        "name": "Sharp Claw",
+        "description": "After displaying a warning marker, each active hover blade targets the square where the enemy unit with the highest DPS is standing and inflicts an instance of guaranteed damage that ignores armor. This damage can be avoided by moving the unit away."
+    },
+    {
+        "id": 111,
+        "name": "Spider Disruption",
+        "description": "Immobilize an enemy unit, then appear in front of them and inflict damage."
+    },
+    {
+        "id": 112,
+        "name": "Isolation",
+        "description": "Lock onto a random target and deal 5 instances of fatal damage. Every teammate in the four squares above, below and to either side of the target, reduces the number of damage instances by 1."
+    },
+    {
+        "id": 113,
+        "name": "Self-Healing",
+        "description": "Gain a shield with a value equal to 50% of lost health."
+    },
+    {
+        "id": 114,
+        "name": "Diagnosis",
+        "description": "Can trigger up to twice depending on own HP. Greatly increase the skill cooldown for the enemy unit with the highest DPS. At the same time, every 10 seconds, select the enemy unit with the lowest/highest HP and reduce their rate of fire/armor and evasion for 5 seconds."
+    },
+    {
+        "id": 115,
+        "name": "End-of-Life Care",
+        "description": "Summon a large quantity of reinforcements onto the battlefield."
+    },
+    {
+        "id": 116,
+        "name": "Reinforcements",
+        "description": "Summon special reinforcements onto the battlefield."
+    },
+    {
+        "id": 117,
+        "name": "Hold Fast",
+        "description": "Raise shield and enter a defensive state, gaining a shield with a value that equals 5% of max HP per second, lasting for 5 seconds."
+    },
+    {
+        "id": 118,
+        "name": "Energy Ball",
+        "description": "After charging for 0.5 seconds, deal 150% guaranteed damage to the nearest unit."
+    },
+    {
+        "id": 119,
+        "name": "Shield of Carthage",
+        "description": "Deploy a defensive shield and gain a shield with a value that equals 150% of max HP. Crash once the shield is broken, gaining 50% vulnerability."
+    },
+    {
+        "id": 120,
+        "name": "Wounds",
+        "description": "Normal attacks grant a stack of Wounded to targets. Each stack inflicts damage that equals 0.3% of the target's max HP per second, lasting for 3 seconds."
+    },
+    {
+        "id": 121,
+        "name": "Torment",
+        "description": "Perform a full-power strike that does shield-piercing damage while also inflicting 2 stacks of Wounded. The fewer Dummy-Links the target has, the higher the damage, capped at a maximum of 600%."
+    },
+    {
+        "id": 122,
+        "name": "Hand Grenade",
+        "description": "Throw a hand grenade at the area where the target is, dealing 0.3x damage that scales with Dummy-Links in a 1.5-unit radius."
+    },
+    {
+        "id": 123,
+        "name": "Rocket Launcher",
+        "description": "Fire a rocket at the target, dealing 3x damage that scales with Dummy-Links to mechanical units and 0.1x damage that scales with Dummy-Links to Doll units within a 3-unit radius."
+    },
+    {
+        "id": 124,
+        "name": "Tactical Leadership α",
+        "description": "Increase all units' evasion by 50%, lasting 5 seconds."
+    },
+    {
+        "id": 125,
+        "name": "Tactical Leadership β",
+        "description": "Increase all units' damage and attack speed by 20%, lasting 8 seconds."
+    },
+    {
+        "id": 126,
+        "name": "Blinding Beam",
+        "description": "Fire a beam of light at enemies ahead of self. Enemies it touches take guaranteed damage and are blinded, which reduces accuracy."
+    },
+    {
+        "id": 127,
+        "name": "Disaster Strikes",
+        "description": "Fire a grenade at a random tile, dealing damage that scales with Dummy-Links to targets within the tile as well as contaminating the tile and all neighboring tiles. Enemy units within the contamination radius take 10% damage that scales with Dummy-Links every second, and their armor and evasion are decreased."
+    },
+    {
+        "id": 128,
+        "name": "Fragile Barrel",
+        "description": "After losing 50% HP, the barrel drops and stops firing contamination grenades; Blinding Burst no longer inflicts blindness."
+    },
+    {
+        "id": 129,
+        "name": "Laser Beam",
+        "description": "Fire a beam directly forward which causes guaranteed damage to enemies it touches."
+    },
+    {
+        "id": 130,
+        "name": "Hand-held Laser Beam",
+        "description": "Fire a beam at a random enemy. Enemies it touches take guaranteed damage and are blinded, which reduces accuracy. Needs to Recharge once every 3 attacks. While Recharging, self evasion is decreased."
+    },
+    {
+        "id": 131,
+        "name": "Broken Butterfly",
+        "description": "Lock onto the enemy unit with the lowest health and cause guaranteed damage. Also mark that unit and reduce its attack speed. Prioritize unmarked enemies. Once all units on the field are marked, only damage is inflicted."
+    },
+    {
+        "id": 132,
+        "name": "Cruel Claw",
+        "description": "Deal multiple instances of armor-piercing damage and applly Shred status to targets in a certain radius directly ahead. Shredded targets constantly lose small amounts of health."
+    },
+    {
+        "id": 133,
+        "name": "Mantis Blade",
+        "description": "Pierce the column of enemies directly in front with a sharp sword, dealing multiple instances of guaranteed damage."
+    },
+    {
+        "id": 134,
+        "name": "Failed Cicada",
+        "description": "enemy_illustration_skill-20000134"
+    },
+    {
+        "id": 135,
+        "name": "Neural Cloud Strengthening",
+        "description": "Randomly connect two friendly units and grant them shields with a value that equals 10% of their max HP, while also linking their damage, attack speed, accuracy, evasion, and armor value. When connected units die, lose HP. Immune to damage when connected. Connection status lasts several seconds."
+    },
+    {
+        "id": 136,
+        "name": "Neural Cloud Weakening",
+        "description": "Fire connection interfaces at two random tiles. Targets which are hit enter Crashed status. Steal different stats from the targets (Skill CD/Evasion/Accuracy/Shield/Damage/Armor) depending on the target gun type (HG/SMG/RF/AR/MG/SG) and add them to herself. The stat buff is permanent."
+    },
+    {
+        "id": 137,
+        "name": "Neural Cloud Focus",
+        "description": "enemy_illustration_skill-20000137"
+    },
+    {
+        "id": 138,
+        "name": "Amaryllis Dance",
+        "description": "When HP goes below 70% and 40%, lock onto the enemy unit with highest DPS and steal their neural cloud, dealing ongoing damage to the target until it dies or the connection is broken. Grants self Taunt status and Fortitude shields. Connection status is broken after taking multiple hits."
+    },
+    {
+        "id": 139,
+        "name": "Tactical Core",
+        "description": "After being killed, clear all buffs on the battlefield. All units have 50% decreased damage and evasion, lasting for 10 seconds."
+    },
+    {
+        "id": 140,
+        "name": "Focus Fire",
+        "description": "Enter Taunt status and become a priority target for enemy fire."
+    },
+    {
+        "id": 141,
+        "name": "Raise Shield",
+        "description": "Reduce damage taken by units behind self. Raise Shield status automatically ends after taking a certain amount of damage while Raise Shield is active."
+    },
+    {
+        "id": 142,
+        "name": "Commandeer",
+        "description": "Steal the accuracy of the current attack target and mark them; the marks stack. Normal attacks deal extra damage to targets depending on the number of marks they have."
+    },
+    {
+        "id": 143,
+        "name": "Cover Order",
+        "description": "Raise all friendly units' evasion."
+    },
+    {
+        "id": 144,
+        "name": "Stalwart",
+        "description": "Reduce damage taken by all friendly units around self as well as the damage of enemy units while on the field."
+    },
+    {
+        "id": 145,
+        "name": "Sakura Inverse",
+        "description": "Gain a shield that lasts 5 seconds. If the shield breaks during its duration, raise self evasion. Otherwise, raise self firepower."
+    },
+    {
+        "id": 146,
+        "name": "Pizza Mark",
+        "description": "Every shot marks its targets. Once a target gains 3 marks, the marked target triggers an extra instance of damage while also increasing Px4 Storm's damage."
+    },
+    {
+        "id": 147,
+        "name": "Price Slash",
+        "description": "Reduce enemy's critical rate by 100% (cannot score critical hits) while also increasing all friendly units' attack speed."
+    },
+    {
+        "id": 148,
+        "name": "Snowman Sortie",
+        "description": "Summon 2 Snowmen ahead of self. Once an enemy target is hit by 4 Snowmen attacks, one of its Dummies will be marked. When all Dummies of an enemy unit are marked, the unit is frozen (dazed) and takes extra damage."
+    },
+    {
+        "id": 149,
+        "name": "Storm Strike",
+        "description": "Deal telegraphed AOE damage that inflicts multiple hits on units occupying the appropriate tiles."
+    },
+    {
+        "id": 150,
+        "name": "Lucky Coin",
+        "description": "Our side begins with 6 Lucky Coins while Px4 Storm has 3 Lucky Coins. Whenever a friendly unit is hit by a red-labeled projectile, they have 1 Lucky Coin stolen from them; when hit by a green-labeled projectile, they take back 1 Lucky Coin. Whichever side gains 9 Lucky Coins before Px4 Storm's health reaches 25% is the winner."
+    },
+    {
+        "id": 151,
+        "name": "enemy_illustration_skill-10000151",
+        "description": "enemy_illustration_skill-20000151"
+    },
+    {
+        "id": 152,
+        "name": "enemy_illustration_skill-10000152",
+        "description": "enemy_illustration_skill-20000152"
+    },
+    {
+        "id": 153,
+        "name": "enemy_illustration_skill-10000153",
+        "description": "enemy_illustration_skill-20000153"
+    },
+    {
+        "id": 154,
+        "name": "enemy_illustration_skill-10000154",
+        "description": "enemy_illustration_skill-20000154"
+    },
+    {
+        "id": 155,
+        "name": "enemy_illustration_skill-10000155",
+        "description": "enemy_illustration_skill-20000155"
+    },
+    {
+        "id": 156,
+        "name": "enemy_illustration_skill-10000156",
+        "description": "enemy_illustration_skill-20000156"
+    },
+    {
+        "id": 157,
+        "name": "Hacking",
+        "description": "enemy_illustration_skill-20000157"
+    },
+    {
+        "id": 158,
+        "name": "enemy_illustration_skill-10000158",
+        "description": "enemy_illustration_skill-20000158"
+    },
+    {
+        "id": 159,
+        "name": "enemy_illustration_skill-10000159",
+        "description": "enemy_illustration_skill-20000159"
+    },
+    {
+        "id": 160,
+        "name": "enemy_illustration_skill-10000160",
+        "description": "enemy_illustration_skill-20000160"
+    },
+    {
+        "id": 161,
+        "name": "enemy_illustration_skill-10000161",
+        "description": "enemy_illustration_skill-20000161"
+    },
+    {
+        "id": 162,
+        "name": "enemy_illustration_skill-10000162",
+        "description": "enemy_illustration_skill-20000162"
+    },
+    {
+        "id": 163,
+        "name": "enemy_illustration_skill-10000163",
+        "description": "enemy_illustration_skill-20000163"
+    },
+    {
+        "id": 164,
+        "name": "enemy_illustration_skill-10000164",
+        "description": "enemy_illustration_skill-20000164"
+    },
+    {
+        "id": 165,
+        "name": "enemy_illustration_skill-10000165",
+        "description": "enemy_illustration_skill-20000165"
+    },
+    {
+        "id": 999,
+        "name": "enemy_illustration_skill-10000999",
+        "description": "enemy_illustration_skill-20000999"
+    },
+    {
+        "id": 10005,
+        "name": "Mercenary Sniping",
+        "description": "After aiming for 2.5 seconds, perform a sniping attack on the rearmost enemy unit."
+    },
+    {
+        "id": 10018,
+        "name": "Crab Cannon Barrage",
+        "description": "The Crab Cannon launches a barrage every three auto attacks, dealing massive damage to enemies within range."
+    },
+    {
+        "id": 10019,
+        "name": "Dangerous Starfish",
+        "description": "Moves forward and disguises itself as a harmless-looking starfish upon detecting hostile units. The starfish is triggered on contact, dealing damage to enemies."
+    },
+    {
+        "id": 10021,
+        "name": "Watermelon Roll",
+        "description": "A machine that keeps releasing round bipedal machines upon detecting hostile units… Hold on? They're watermelons?"
+    },
+    {
+        "id": 10022,
+        "name": "Watermelon Crash",
+        "description": "Stop moving upon contact with enemy units and damage them."
+    },
+    {
+        "id": 10087,
+        "name": "Cocktail Mania",
+        "description": "Throw a Molotov cocktail at a random enemy unit, dealing damage every 0.33s over the course of 3s."
+    },
+    {
+        "id": 10091,
+        "name": "Mask of Hermes",
+        "description": "Aim and deal massive damage to targeted enemy."
+    },
+    {
+        "id": 10191,
+        "name": "Mark of Elite",
+        "description": "Units standing in the flagged areas suffer from a massive debuff in damage and rate of fire, but also gain a lot of shield points."
+    }
+]
