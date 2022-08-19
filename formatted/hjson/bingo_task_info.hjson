@@ -8,7 +8,6 @@
     title: 普通战役挑战
     content: 战斗胜利情况下挑战任意普通战役3次
     is_mutex: "1"
-    function_control_id: "0"
     task_type_id: "1"
   }
   {
@@ -20,7 +19,6 @@
     title: 夜战战役挑战
     content: 战斗胜利情况下挑战任意夜战战役1次
     is_mutex: "1"
-    function_control_id: "0"
     task_type_id: "2"
   }
   {
@@ -32,7 +30,6 @@
     title: 紧急战役挑战
     content: 战斗胜利情况下挑战任意紧急战役2次
     is_mutex: "1"
-    function_control_id: "0"
     task_type_id: "3"
   }
   {
@@ -43,8 +40,6 @@
     ticket_num: "1"
     title: 救援人形
     content: 在任意关卡或战斗中累计救援任意人形5个
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "4"
   }
   {
@@ -55,8 +50,6 @@
     ticket_num: "1"
     title: 人形强化
     content: 进行5次人形强化
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "5"
   }
   {
@@ -67,8 +60,6 @@
     ticket_num: "1"
     title: 装备强化
     content: 进行5次装备强化
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "6"
   }
   {
@@ -80,7 +71,6 @@
     title: 消耗人形制造契约
     content: 累计消耗人形制造契约*4
     is_mutex: "2"
-    function_control_id: "0"
     task_type_id: "7"
   }
   {
@@ -92,7 +82,6 @@
     title: 消耗装备制造契约
     content: 累计消耗装备制造契约*4
     is_mutex: "2"
-    function_control_id: "0"
     task_type_id: "8"
   }
   {
@@ -103,8 +92,6 @@
     ticket_num: "1"
     title: 消耗快速制造契约
     content: 累计消耗快速制造契约*4
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "9"
   }
   {
@@ -115,8 +102,6 @@
     ticket_num: "1"
     title: 消耗快速修复契约
     content: 累计消耗快速修复契约*4
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "10"
   }
   {
@@ -127,8 +112,6 @@
     ticket_num: "1"
     title: 消耗人力
     content: 累计消耗人力*1500（自律除外）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "11"
   }
   {
@@ -139,8 +122,6 @@
     ticket_num: "1"
     title: 消耗弹药
     content: 累计消耗弹药*1500（自律除外）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "12"
   }
   {
@@ -151,8 +132,6 @@
     ticket_num: "1"
     title: 消耗口粮
     content: 累计消耗口粮*1500（自律除外）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "13"
   }
   {
@@ -163,8 +142,6 @@
     ticket_num: "1"
     title: 消耗零件
     content: 累计消耗零件*500（自律除外）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "14"
   }
   {
@@ -175,8 +152,6 @@
     ticket_num: "1"
     title: 获得好友电池
     content: 累计从好友处获得10次共享电池
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "110"
   }
   {
@@ -187,8 +162,6 @@
     ticket_num: "1"
     title: 爱心搜集
     content: 累计搜集10个爱心（包括战术人形与格琳娜）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "16"
   }
   {
@@ -200,7 +173,6 @@
     title: 获得HG战术人形
     content: 获得任意手枪战术人形*3
     is_mutex: "3"
-    function_control_id: "0"
     task_type_id: "18"
   }
   {
@@ -212,7 +184,6 @@
     title: 获得SMG战术人形
     content: 获得任意冲锋枪战术人形*3
     is_mutex: "3"
-    function_control_id: "0"
     task_type_id: "19"
   }
   {
@@ -224,7 +195,6 @@
     title: 获得AR战术人形
     content: 获得任意突击步枪战术人形*3
     is_mutex: "3"
-    function_control_id: "0"
     task_type_id: "20"
   }
   {
@@ -236,7 +206,6 @@
     title: 获得MG战术人形
     content: 获得任意机枪战术人形*3
     is_mutex: "3"
-    function_control_id: "0"
     task_type_id: "21"
   }
   {
@@ -248,7 +217,6 @@
     title: 获得RF战术人形
     content: 获得任意步枪战术人形*3
     is_mutex: "3"
-    function_control_id: "0"
     task_type_id: "22"
   }
   {
@@ -260,7 +228,6 @@
     title: 配件装备
     content: 获得任意配件类装备*3
     is_mutex: "4"
-    function_control_id: "0"
     task_type_id: "23"
   }
   {
@@ -272,7 +239,6 @@
     title: 弹匣装备
     content: 获得任意弹匣类装备*3
     is_mutex: "4"
-    function_control_id: "0"
     task_type_id: "24"
   }
   {
@@ -284,7 +250,6 @@
     title: 人形装备
     content: 获得任意人形类装备*3
     is_mutex: "4"
-    function_control_id: "0"
     task_type_id: "25"
   }
   {
@@ -296,7 +261,6 @@
     title: 行动回报-快速制造契约
     content: 通过后勤支援获得快速制造契约*1
     is_mutex: "5"
-    function_control_id: "0"
     task_type_id: "28"
   }
   {
@@ -308,7 +272,6 @@
     title: 行动回报-快速修复契约
     content: 通过后勤支援获得快速修复契约*1
     is_mutex: "5"
-    function_control_id: "0"
     task_type_id: "29"
   }
   {
@@ -320,7 +283,6 @@
     title: 行动回报-装备制造契约
     content: 通过后勤支援获得装备制造契约*1
     is_mutex: "5"
-    function_control_id: "0"
     task_type_id: "30"
   }
   {
@@ -332,7 +294,6 @@
     title: 行动回报-人形制造契约
     content: 通过后勤支援获得人形制造契约*1
     is_mutex: "5"
-    function_control_id: "0"
     task_type_id: "31"
   }
   {
@@ -343,8 +304,6 @@
     ticket_num: "1"
     title: 消灭BOSS
     content: 战斗胜利情况下消灭5个BOSS
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "32"
   }
   {
@@ -355,8 +314,6 @@
     ticket_num: "1"
     title: 装甲机械铁血兵
     content: 战斗胜利情况下消灭10个装甲机械铁血兵
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "33"
   }
   {
@@ -367,8 +324,6 @@
     ticket_num: "1"
     title: 普通机械铁血兵
     content: 战斗胜利情况下消灭20个普通机械铁血兵
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "34"
   }
   {
@@ -379,8 +334,6 @@
     ticket_num: "1"
     title: 普通人形铁血兵
     content: 战斗胜利情况下消灭30个普通人形铁血兵
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "35"
   }
   {
@@ -391,8 +344,6 @@
     ticket_num: "1"
     title: 累计后勤支援时长
     content: 在后勤支援完成的情况下累计后勤43200小时
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "36"
   }
   {
@@ -403,8 +354,6 @@
     ticket_num: "1"
     title: 模拟作战
     content: 累计进行模拟作战2次
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "38"
   }
   {
@@ -415,8 +364,6 @@
     ticket_num: "1"
     title: 技能升级
     content: 进行1次技能升级（人形、妖精皆可）
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "39"
   }
   {
@@ -427,8 +374,6 @@
     ticket_num: "1"
     title: 战斗大师
     content: 以S评价完成10场战斗
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "40"
   }
   {
@@ -439,8 +384,6 @@
     ticket_num: "1"
     title: 自律作战
     content: 任意关卡完成自律作战1次
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "41"
   }
   {
@@ -452,7 +395,6 @@
     title: 波板糖
     content: 累计获得波板糖*1（可通过退库2星、3星家具获得）
     is_mutex: "6"
-    function_control_id: "0"
     task_type_id: "42"
   }
   {
@@ -464,7 +406,6 @@
     title: 脆皮甜筒
     content: 累计获得脆皮甜筒*1（可通过退库4星家具获得）
     is_mutex: "6"
-    function_control_id: "0"
     task_type_id: "43"
   }
   {
@@ -475,8 +416,6 @@
     ticket_num: "1"
     title: 好友问候
     content: 通过聊天向好友问候1次
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "44"
   }
   {
@@ -487,8 +426,6 @@
     ticket_num: "1"
     title: 点赞使者
     content: 累计点赞他人宿舍20次
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "45"
   }
   {
@@ -499,8 +436,6 @@
     ticket_num: "1"
     title: 礼物赠送
     content: 累计赠送礼物10份
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "47"
   }
   {
@@ -511,8 +446,6 @@
     ticket_num: "1"
     title: 消耗电池
     content: 累计消耗电池*100
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "48"
   }
   {
@@ -523,8 +456,6 @@
     ticket_num: "1"
     title: 获得核心
     content: 累积获得核心*3
-    is_mutex: "0"
-    function_control_id: "0"
     task_type_id: "49"
   }
 ]

@@ -17,8 +17,6 @@
     id: "2"
     name: Default
     rank: "2"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "7"
     description: Furniture issued by IOP.
     bonus_description: furniture_classes-30000002
@@ -31,8 +29,6 @@
     id: "3"
     name: New World (I)
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: Welcome to the glorious post-War world. The secret to surviving here is to always be prepared, stay vigilant, and only drink bottled water.
     bonus_description: furniture_classes-30000003
@@ -45,7 +41,6 @@
     id: "4"
     name: Fall
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: A cute set of cozy fall season themed furniture especially made to sooth the Commanders' fatigued souls. It seems to be quite popular among females.
@@ -59,8 +54,6 @@
     id: "5"
     name: New World (II)
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: Welcome to the glorious post-War world. The secret to surviving here is to always be prepared, stay vigilant, and only drink bottled water.
     bonus_description: furniture_classes-30000005
@@ -73,7 +66,6 @@
     id: "6"
     name: LOFT
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: Once a home style adopted out of necessity by poor artists living in old factory buildings, it has somehow become a sought-after rarity a hundred years later by Commanders following post-War fashion trends.
@@ -87,8 +79,6 @@
     id: "7"
     name: Peaceful Days
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "16"
     description: A furniture set with a peaceful style that allows T-Dolls with calm personalities to feel relaxed. Let the peaceful atmosphere carried by this aqua blue color ripple through the room~
     bonus_description: furniture_classes-30000007
@@ -101,8 +91,6 @@
     id: "8"
     name: Charming Days
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "16"
     description: A furniture set with a cute style that is deeply beloved by lively T-Dolls. Let the cute atmosphere carried by this light pink color fill the room~
     bonus_description: furniture_classes-30000008
@@ -115,8 +103,6 @@
     id: "10"
     name: Coffee Shop
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "13"
     description: A cultural facility that was very popular before the War. Although it was commonly known as a humble beverage shop selling caffeinated drinks, in reality it was a holy shrine of creativity for easily-distracted writers.
     bonus_description: furniture_classes-30000010
@@ -129,7 +115,6 @@
     id: "11"
     name: Japanese-Style Warm Winter
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 6:2000
     bonus_number: "13"
     description: This cozy Japanese-style furniture set creates a happy atmosphere for T-Dolls even during the freezing cold winter. Let us admire the daily life of these special snowflakes together.
@@ -143,7 +128,6 @@
     id: "12"
     name: Japanese-Style Crispy Winter
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 6:2000
     bonus_number: "13"
     description: This fresh Japanese-style furniture set helps T-Dolls maintain a tranquil mood even during the harsh winter. Let us enjoy daily life in the cold winter weather together.
@@ -185,8 +169,6 @@
     id: "15"
     name: Convenience Store
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "15"
     description: 24-Hour convenience stores are the cornerstones of human civilization, and the warmest solace under the flames of war. Everything will be fine as long as the convenience stores keep on running. As expected, they have become the most well-defended locations in every Griffin base.
     bonus_description: furniture_classes-30000015
@@ -199,7 +181,6 @@
     id: "16"
     name: Arctic Igloo
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: An arctic-themed furniture set released during the winter season. It uses many original design styles, and the small and fluffy animals are also extremely cute.
@@ -227,7 +208,6 @@
     id: "18"
     name: Game Department
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: Everyone's old friend, IOP Manufacturing, is involved in many different business sectors, so it's not surprising that they've also invested in developing a mobile platform game which is very popular right now. However, they've quickly learned of the harsh conditions within the industry.
@@ -241,28 +221,23 @@
     id: "19"
     name: Elite Emblems
     rank: "5"
-    bonus_picture: "0"
     k_bonus: 6:2000,9:5000,12:8000
     bonus_number: "20"
     description: These emblems of the griffin Elites are only granted to those Commanders who actively participate in battle. Looking at them, perhaps you might be reminded of those precious times when you fought alongside your T-Dolls shoulder to shoulder.
     bonus_description: Collect more war trophies to gain additional Comfort.
     code: sp2019_deco_09_icon
     is_showed: "1"
-    placement: "0"
     years: "2019"
   }
   {
     id: "20"
     name: Souvenir
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: furniture_classes-20000020
     bonus_description: furniture_classes-30000020
     code: matsuri_icon
     is_showed: "2"
-    placement: "0"
     years: "2019"
   }
   {
@@ -283,7 +258,6 @@
     id: "22"
     name: Springday Classroom
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: Furniture modeled after a classroom setting. Whether if you want to escape it or relive it, your story begins now from this nostalgic scenery!
@@ -297,7 +271,6 @@
     id: "23"
     name: Holiday Promenade
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: Furniture replicating a streetview, allowing one to enjoy a romantic holiday~ Though, who is it that you want to encounter on such a day?
@@ -339,7 +312,6 @@
     id: "26"
     name: Colorful Club
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: A club themed furniture set. We must always hold on to and treasure dearly the unreplaceable memories that accompanied our busy daily lives.
@@ -353,7 +325,6 @@
     id: "27"
     name: City Studio
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: An excellent studio in the hands of an experienced master photographer combined with a complete set of professional equipment can produce photos that are almost as good as those phone selfies taken by young girls. Almost.
@@ -381,7 +352,6 @@
     id: "29"
     name: Children's Playground
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: A set of furniture with children's toys as the theme. This used to be the entire world for all of us. Though it may shrink as the years pass by, it is something that will never disappear.
@@ -409,21 +379,16 @@
     id: "31"
     name: Fantastical Legacy
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: Precious mementoes collected from all kinds of strange happenings. Legends may never have occurred in the real world, but they will always exist in our hearts......
     bonus_description: furniture_classes-30000031
     code: SP_GGBB_1A_icon
     is_showed: "2"
-    placement: "0"
-    years: "0"
   }
   {
     id: "32"
     name: Seaside Lodge
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: Furniture set themed after a seaside lounge. Seaside Lodge is just a cute nickname. After all, who doesn't want a more luxurious holiday?
@@ -451,7 +416,6 @@
     id: "34"
     name: Let's go to Seoul!
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: Furniture set themed after a Korean city. Please sit down and quietly enjoy those trendy pop songs from your memories of the past~
@@ -479,8 +443,6 @@
     id: "36"
     name: Wine and Refuge
     rank: "3"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "17"
     description: A set of furniture imitating a refuge. Having their curiosity piqued by the old human civilization, T-Dolls stationed at the contaminated areas have decided to collect relics of the past and imitate the daily lives of a bygone era.
     bonus_description: furniture_classes-30000036
@@ -507,7 +469,6 @@
     id: "38"
     name: Late Night Kitchen
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: A set of furniture themed after a kitchen. T-Dolls will come in groups to busy themselves here, and leave behind their own cozy stories...sometimes.
@@ -535,7 +496,6 @@
     id: "40"
     name: Garden Tea Party
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: Furniture set modeled after a flower house in the wild. "I hope that when you are loved someday, you will first fall in love with that nameless flower!"
@@ -549,7 +509,6 @@
     id: "41"
     name: King's Tailor
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "16"
     description: Furniture set modeled after an agent tailor shop. Accepting a mission and then completing it gracefully. Maintaining world peace is as simple as that.
@@ -577,7 +536,6 @@
     id: "43"
     name: Payday
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: Furniture set modeled after a bank vault. These are just decorations, so even penniless T-Dolls can do whatever they like here. However, don't stay too long or you'll start to think they're real.
@@ -605,7 +563,6 @@
     id: "45"
     name: Pirate's Legacy
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "15"
     description: Furniture set modeled after a pirate ship cabin. This used to be a part of some people's lives several hundred years ago. They drifted through life, enjoyed it, and struggled to live or died; exactly the same as the people now.
@@ -633,7 +590,6 @@
     id: "47"
     name: Biker's Diary
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: Furniture set modeled after a bicycle and motorcycle shop. Everyone has thought of travelling to a faraway place at least once in their life. However, in addition to dreams, you need the ability to make it happen.
@@ -661,7 +617,6 @@
     id: "49"
     name: Echelon Collection
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: A furniture set of an otaku collection. Whether you enjoy collecting male hobby merchandise or moe merchandise, this is your unique hobby and the most valuable aspect of your life.
@@ -703,7 +658,6 @@
     id: "53"
     name: Convention Craze
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: A furniture set based on an anime convention. What would the world look like if Dolls were introduced 50 years earlier? Collect everything to find out.
@@ -759,7 +713,6 @@
     id: "57"
     name: Takeoff to Happiness
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "14"
     description: A furniture set based on an airport. Experience the time before your flight arrives, because in the next moment we'll be very far away - physically.
@@ -815,7 +768,6 @@
     id: "61"
     name: Burger of Bliss
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "18"
     description: A furniture set with the theme of a burger shop that supplies a relaxing atmosphere and ample calories. Both symbolize bliss in this day and age.
@@ -969,7 +921,6 @@
     id: "72"
     name: Grey Custom Order
     rank: "5"
-    bonus_picture: "0"
     k_bonus: 6:2000,9:2500,12:3000
     bonus_number: "8"
     description:
@@ -980,8 +931,6 @@
     bonus_description: Collect more war trophies to gain additional Comfort.
     code: Stepmania_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "73"
@@ -1099,14 +1048,11 @@
     id: "81"
     name: Collector's Memento
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "6"
     description: furniture_classes-20000081
     bonus_description: furniture_classes-30000081
     code: harp_2019_icon
     is_showed: "3"
-    placement: "0"
     years: "2019"
   }
   {
@@ -1183,15 +1129,11 @@
     id: "87"
     name: furniture_classes-10000087
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "5"
     description: furniture_classes-20000087
     bonus_description: furniture_classes-30000087
     code: Fetter_Repository_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "88"
@@ -1211,7 +1153,6 @@
     id: "89"
     name: Griffin Izakaya
     rank: "4"
-    bonus_picture: "0"
     k_bonus: 8:2000
     bonus_number: "13"
     description: A furniture set with the theme of a Japanese izakaya. If you find yourself in an unsalvageable situation, why not knock back a shot of nigorizake and have a good, old cry?
@@ -1317,7 +1258,6 @@
     code: MiniGameFlightChess_deco_01_icon
     is_showed: "1"
     placement: "1"
-    years: "0"
   }
   {
     id: "98"
@@ -1365,84 +1305,57 @@
     id: "299"
     name: Pets
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "10"
     description: furniture_classes-20000299
     bonus_description: furniture_classes-30000299
     code: SP_CatHouseLabel01_icon
-    is_showed: "0"
-    placement: "0"
-    years: "0"
   }
   {
     id: "300"
     name: Poster
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "3"
     description: Posters given as a bonus when giving costume gifts.
     bonus_description: furniture_classes-30000300
     code: poster_wa2000_halloween_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
   {
     id: "301"
     name: Hidden Wallpapers
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
-    bonus_number: "0"
     description: In preparation for other servers, place all the unreleased wallpapers here.
     bonus_description: furniture_classes-30000301
     code: poster_wa2000_halloween_icon
-    is_showed: "0"
-    placement: "0"
-    years: "0"
   }
   {
     id: "400"
     name: Auxiliary Room Facilities
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: ""
     bonus_number: "100"
     description: furniture_classes-20000400
     bonus_description: furniture_classes-30000400
     code: xsh2017_deco_02_icon
-    is_showed: "0"
-    placement: "0"
-    years: "0"
   }
   {
     id: "500"
     name: T-Dolls' Recollections of the Past
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "7"
     description: Mementoes collected by the T-Dolls in all sorts of adventures. Whether it's about each other or the Commander, they all remind them of the precious memories that will forever be recorded in their Neural Clouds.
     bonus_description: furniture_classes-30000500
     code: poster_2016xmas_icon
     is_showed: "2"
-    placement: "0"
     years: "2018"
   }
   {
     id: "600"
     name: Ordinary Signboard
     rank: "5"
-    bonus_picture: "0"
-    k_bonus: "0"
     bonus_number: "28"
     description: A furniture set of signboards that list out different Griffin departments. It's plain and takes up a lot of space, but no one has bothered to take it down and replace it with something else. Perhaps it isn't so different from the list of native dishes a certain Griffin employer mumbled while asleep - no matter how ordinary or trite it is, so long as you follow the smell, you'll always be able to find your way home.
     bonus_description: furniture_classes-30000600
     code: Fetter_Stations_icon
     is_showed: "1"
-    placement: "0"
-    years: "0"
   }
 ]

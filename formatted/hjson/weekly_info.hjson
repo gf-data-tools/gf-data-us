@@ -9,13 +9,9 @@
     mre: "1000"
     part: "200"
     core: "1"
-    gem: "0"
-    gun_id: "0"
     item_ids: 4-3
     title: Weekly Achievement: Bloodthirsty Pursuer
     content: Destroy 100 regular units in victorious battles.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: win_normal
@@ -27,13 +23,9 @@
     mre: "1500"
     part: "500"
     core: "1"
-    gem: "0"
-    gun_id: "0"
     item_ids: 4-3
     title: Weekly Achievement: Victorious Defender
     content: Destroy 200 regular units in victorious battles.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: win_boss
@@ -45,13 +37,9 @@
     mre: "1000"
     part: "200"
     core: "1"
-    gem: "0"
-    gun_id: "0"
     item_ids: 4-3,41-2
     title: Weekly Achievement: Ace Hunter
     content: Kill 10 Bosses in victorious battles.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: operation
@@ -62,14 +50,9 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 1-3,3-3
     title: Weekly Achievement: Ace Support
     content: Complete 50 Logistics Supports.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: s_win
@@ -80,14 +63,9 @@
     ammo: "1000"
     mre: "1000"
     part: "1000"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 1-1,41-2
     title: Weekly Achievement: Battle Master
     content: Clear 100 battles with an S rank.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: eat
@@ -98,14 +76,9 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 3-1,4-1
     title: Weekly Achievement: Expert Modder
     content: Perform 20 T-Doll Enchancements.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: develop_gun
@@ -117,13 +90,9 @@
     mre: "300"
     part: "300"
     core: "2"
-    gem: "0"
-    gun_id: "0"
     item_ids: 1-5,3-1
     title: Weekly Achievement: Doll Race
     content: Produce 20 T-Dolls.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: upgrade
@@ -134,14 +103,10 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 3-1,4-1,41-1
     title: Weekly Achievement: Instructor from Hell
     content: Complete Skill Training 5 times (T-Dolls/Fairies/HOC/Coalition Units).
     function_control_id: "4"
-    prize_id: "0"
   }
   {
     type: coin_mission
@@ -152,14 +117,9 @@
     ammo: "500"
     mre: "500"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 3-2,4-2
     title: Weekly Achievement: Electronic Warrior
     content: Complete 20 Battle Simulations (Coalition Drills do not count).
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: develop_equip
@@ -170,14 +130,10 @@
     ammo: "150"
     mre: "150"
     part: "150"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-5,3-2
     title: Weekly Achievement: Armed Front
     content: Produce 20 pieces of Equipment.
     function_control_id: "2"
-    prize_id: "0"
   }
   {
     type: win_armor
@@ -188,14 +144,9 @@
     ammo: "1000"
     mre: "1000"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-2
     title: Weekly Achievement: Armor Piercer
     content: Destroy 100 armored units in victorious battles.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: win_armor
@@ -206,14 +157,9 @@
     ammo: "1500"
     mre: "1500"
     part: "500"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-2
     title: Weekly Achievement: Armor Killer
     content: Destroy 200 armored units in victorious battles.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: special_develop_gun
@@ -225,13 +171,10 @@
     mre: "200"
     part: "200"
     core: "1"
-    gem: "0"
-    gun_id: "0"
     item_ids: 1-1,3-1
     title: Weekly Achievement: Heavy Armament Expansion
     content: Perform Heavy T-Doll Production once.
     function_control_id: "3"
-    prize_id: "0"
   }
   {
     type: adjust_equip
@@ -242,14 +185,10 @@
     ammo: "150"
     mre: "150"
     part: "150"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-2,3-1,44-20
     title: Weekly Achievement: Equipment Reformation
     content: Calibrate Equipment 5 times.
     function_control_id: "6"
-    prize_id: "0"
   }
   {
     type: eat_equip
@@ -260,14 +199,10 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 3-1,4-1
     title: Weekly Achievement: Equipment Enhancement
     content: Perform 20 Equipment Enhancements.
     function_control_id: "5"
-    prize_id: "0"
   }
   {
     type: special_develop_equip
@@ -278,14 +213,10 @@
     ammo: "300"
     mre: "300"
     part: "300"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-2
     title: Weekly Achievement: Automated Attempt
     content: Perform Heavy Equipment Production 3 times.
     function_control_id: "1"
-    prize_id: "0"
   }
   {
     type: eat_fairy
@@ -296,50 +227,28 @@
     ammo: "500"
     mre: "500"
     part: "500"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 2-1,3-1
     title: Weekly Achievement: Support Expert
     content: Perform 1 Fairy Enhancement.
     function_control_id: "1"
-    prize_id: "0"
   }
   {
     type: squad_data_analyse
     count: "20"
     identity: "18"
-    user_exp: "0"
-    mp: "0"
-    ammo: "0"
-    mre: "0"
-    part: "0"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 14-30,15-10
     title: Weekly Achievement: Data Actuary
     content: Complete Intelligence Analysis 20 times.
     function_control_id: "15"
-    prize_id: "0"
   }
   {
     type: squad_eat_chip
     count: "20"
     identity: "19"
-    user_exp: "0"
-    mp: "0"
-    ammo: "0"
-    mre: "0"
-    part: "0"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 14-30,15-10,16-3
     title: Weekly Achievement: Chip Tinkerer
     content: Spend 20 Chips on Enhancement.
     function_control_id: "15"
-    prize_id: "0"
   }
   {
     type: complete_squad_daily
@@ -350,14 +259,10 @@
     ammo: "300"
     mre: "300"
     part: "100"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 14-100,15-30
     title: Weekly Achievement: Data Analyst
     content: Complete 10 Intelligence Quests.
     function_control_id: "15"
-    prize_id: "0"
   }
   {
     type: retire_gun
@@ -368,14 +273,9 @@
     ammo: "500"
     mre: "500"
     part: "300"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 4-5
     title: Weekly Achievement: Chip Collector
     content: Disassemble 50 T-Dolls.
-    function_control_id: "0"
-    prize_id: "0"
   }
   {
     type: explore
@@ -386,14 +286,10 @@
     ammo: "1000"
     mre: "1000"
     part: "300"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 6009-1
     title: Weekly Achievement: Little Explorer
     content: Conduct Forward Basecamp Exploration 3 times.
     function_control_id: "17"
-    prize_id: "0"
   }
   {
     type: sangvis_daily_retrieval
@@ -404,14 +300,10 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 605-1
     title: Weekly Achievement: Tamer of Chaos
     content: Perform 8 Standard Captures.
     function_control_id: "21"
-    prize_id: "0"
   }
   {
     type: sangvis_exercise
@@ -422,13 +314,9 @@
     ammo: "200"
     mre: "200"
     part: "200"
-    core: "0"
-    gem: "0"
-    gun_id: "0"
     item_ids: 4-1,10604-1
     title: Weekly Achievement: Cruncher of Imaginary Numbers
     content: Complete 15 Coalition Drills.
     function_control_id: "21"
-    prize_id: "0"
   }
 ]
