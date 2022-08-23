@@ -47165,122 +47165,64 @@ battle_skill_config-190339601,OTs-14
 battle_skill_config-290339601,Every 10 seconds//c generate a Sensor Beacon randomly within friendly movement range. Moving to the area in question and obtaining the beacon instantly activates a skill and grants a 100% damage increase for 5 seconds.
 battle_skill_config-390339601,Priority 5//cMove speed//cRandomness//cSkill
 battle_skill_config-490339601,
-battle_skill_config-190340101,
-battle_skill_config-290340101,
-battle_skill_config-390340101,
-battle_skill_config-490340101,
-battle_skill_config-190340201,
-battle_skill_config-290340201,
-battle_skill_config-390340201,
-battle_skill_config-490340201,
-battle_skill_config-190340301,
-battle_skill_config-290340301,
-battle_skill_config-390340301,
-battle_skill_config-490340301,
-battle_skill_config-190340401,
-battle_skill_config-290340401,
-battle_skill_config-390340401,
-battle_skill_config-490340401,
-battle_skill_config-190340501,
-battle_skill_config-290340501,
-battle_skill_config-390340501,
-battle_skill_config-490340501,
-battle_skill_config-190340601,
-battle_skill_config-290340601,
-battle_skill_config-390340601,
-battle_skill_config-490340601,
-battle_skill_config-190340701,
-battle_skill_config-290340701,
-battle_skill_config-390340701,
-battle_skill_config-490340701,
-battle_skill_config-190340801,
-battle_skill_config-290340801,
-battle_skill_config-390340801,
-battle_skill_config-490340801,
-battle_skill_config-190340901,
-battle_skill_config-290340901,
-battle_skill_config-390340901,
-battle_skill_config-490340901,
-battle_skill_config-190341001,
-battle_skill_config-290341001,
-battle_skill_config-390341001,
-battle_skill_config-490341001,
-battle_skill_config-190341101,
-battle_skill_config-290341101,
-battle_skill_config-390341101,
-battle_skill_config-490341101,
-battle_skill_config-190341201,
-battle_skill_config-290341201,
-battle_skill_config-390341201,
-battle_skill_config-490341201,
-battle_skill_config-190341301,
-battle_skill_config-290341301,
-battle_skill_config-390341301,
-battle_skill_config-490341301,
-battle_skill_config-190341401,
-battle_skill_config-290341401,
-battle_skill_config-390341401,
-battle_skill_config-490341401,
-battle_skill_config-190341501,
-battle_skill_config-290341501,
-battle_skill_config-390341501,
-battle_skill_config-490341501,
-battle_skill_config-190341601,
-battle_skill_config-290341601,
-battle_skill_config-390341601,
-battle_skill_config-490341601,
-battle_skill_config-190342101,
-battle_skill_config-290342101,
-battle_skill_config-390342101,
-battle_skill_config-490342101,
-battle_skill_config-190342301,
-battle_skill_config-290342301,
-battle_skill_config-390342301,
-battle_skill_config-490342301,
-battle_skill_config-190342401,
-battle_skill_config-290342401,
-battle_skill_config-390342401,
-battle_skill_config-490342401,
-battle_skill_config-190342501,
-battle_skill_config-290342501,
-battle_skill_config-390342501,
-battle_skill_config-490342501,
-battle_skill_config-190342601,
-battle_skill_config-290342601,
-battle_skill_config-390342601,
-battle_skill_config-490342601,
-battle_skill_config-190342701,
-battle_skill_config-290342701,
-battle_skill_config-390342701,
-battle_skill_config-490342701,
-battle_skill_config-190342801,
-battle_skill_config-290342801,
-battle_skill_config-390342801,
-battle_skill_config-490342801,
-battle_skill_config-190342901,
-battle_skill_config-290342901,
-battle_skill_config-390342901,
-battle_skill_config-490342901,
-battle_skill_config-190343001,
-battle_skill_config-290343001,
-battle_skill_config-390343001,
-battle_skill_config-490343001,
-battle_skill_config-190343101,
-battle_skill_config-290343101,
-battle_skill_config-390343101,
-battle_skill_config-490343101,
-battle_skill_config-190343201,
-battle_skill_config-290343201,
-battle_skill_config-390343201,
-battle_skill_config-490343201,
-battle_skill_config-190343301,
-battle_skill_config-290343301,
-battle_skill_config-390343301,
-battle_skill_config-490343301,
-battle_skill_config-190343401,
-battle_skill_config-290343401,
-battle_skill_config-390343401,
-battle_skill_config-490343401,
+battle_skill_config-190340101,M1895
+battle_skill_config-290340101,Permanently buff self while no damage were taken//c raising self damage and ROF by 25%. This effect is lost if any other permanent damage or ROF buff is gained.
+battle_skill_config-190340201,9A-91
+battle_skill_config-290340201,Permanently increases self damage by 30%.
+battle_skill_config-190340301,PK
+battle_skill_config-290340301,Permanently increases self ROF by 30%.
+battle_skill_config-190340401,Super SASS
+battle_skill_config-290340401,For every 30 seconds that passes//c permanently increase self damage by 4%.
+battle_skill_config-190340501,FX-05
+battle_skill_config-290340501,For every 30 seconds that passes//c increase self ROF by 4% permanently.
+battle_skill_config-190340601,CR-21
+battle_skill_config-290340601,Permanently increase self damage by 3% for every enemy unit that has died during this battle.
+battle_skill_config-190340701,SVD
+battle_skill_config-290340701,Permanently increase self ROF by 3% for every enemy unit that has died during this battle.
+battle_skill_config-190340801,K31
+battle_skill_config-290340801,Increase self damage by 100% while a buffing skill is active. Stacks up to 1 time.
+battle_skill_config-190340901,Shipka
+battle_skill_config-290340901,Increase self ROF by 100% while a buffing skill is active. Stacks up to 1 time.
+battle_skill_config-190341001,512
+battle_skill_config-290341001,After a buffing skill is activated//c there is a 30% chance that the buffing skill will be immediately activated again.
+battle_skill_config-190341101,M1014
+battle_skill_config-290341101,Can trigger once after self HP falls below 5%//c permanently increasing self damage by 100%.
+battle_skill_config-190341201,LWMMG
+battle_skill_config-290341201,Shields provided by buff skill permanently increase by 8.
+battle_skill_config-190341301,GSh-18
+battle_skill_config-290341301,Buff skill lasts an additional 2 seconds.
+battle_skill_config-190341401,PP-19
+battle_skill_config-290341401,After a throwing skill is activated//c there is a 30% chance that the throwing skill will be immediately activated again.
+battle_skill_config-190341501,Type 56-1
+battle_skill_config-290341501,Throwing skill damage is permanently increased by 50%.
+battle_skill_config-190341601,FAMAS
+battle_skill_config-290341601,Throwing skill effect radius is permanently increased by 3.
+battle_skill_config-190342101,Sten MkII
+battle_skill_config-290342101,Damage increases by 1% for every point of HP below 100. If HP is higher than 100//c this skill provides a negative effect instead.
+battle_skill_config-190342301,USAS-12
+battle_skill_config-290342301,Damage from regular attacks decreases enemy move speed by 10%//c stacking up to 5 times.
+battle_skill_config-190342401,AEK-999
+battle_skill_config-290342401,Self base damage increases as health decreases. Increase damage by 0.6% for every point of HP below the maximum.
+battle_skill_config-190342501,4 Shiki
+battle_skill_config-290342501,Self critical damage increases as health decreases. Increase critical damage by 1% for every point of HP below the maximum.
+battle_skill_config-190342601,M500
+battle_skill_config-290342601,Gain a 30-point shield
+battle_skill_config-190342701,V-PM5
+battle_skill_config-290342701,While moving//c gain an 8-point shield that lasts for 5 seconds. This effect can trigger once every 5 seconds.
+battle_skill_config-190342801,K11
+battle_skill_config-290342801,Triggers a throwing skill immediately after activating a buff skill.
+battle_skill_config-190342901,M870
+battle_skill_config-290342901,Triggers a buff skill immediately after activating a throwing skill.
+battle_skill_config-190343001,Type 97S
+battle_skill_config-290343001,Regular attacks deal 50% damage to two targets at once (triggers applicable skills twice).
+battle_skill_config-190343101,Python
+battle_skill_config-290343101,When permanent damage/ROF buffs on self increase the stat in question by 2x or more//c damage of throwing skills permanently increases by 150%.
+battle_skill_config-190343201,Kar98k
+battle_skill_config-290343201,Regular attacks do 2 instances of damage (triggers applicable skills twice)//c at the cost of decreasing move speed by 50%.
+battle_skill_config-190343301,FAL
+battle_skill_config-290343301,Regular attacks are replaced by triggering a throwing skill//c at the cost of decreasing ROF by 25%.
+battle_skill_config-190343401,Gr MG5
+battle_skill_config-290343401,Self ROF increases to the maximum (3 shots/second)
 battle_skill_config-190343501,Am KSG
 battle_skill_config-290343501,Shields gained through normal attacks gain an additional 1 points of strength.
 battle_skill_config-390343501,Shield Type Only
@@ -60513,61 +60455,43 @@ battle_skill_config-175036110,Cover Command
 battle_skill_config-275036110,Increase all allies' evasion by 60% for 8 seconds. (If the ""M13 Frame"" is equipped//c reduce all enemies' damage//c accuracy and armor by 10% as well while the skill is in effect).
 battle_skill_config-375036110,Cooldown: 12s//cEvasion Increase: 60%//cDuration: 8s
 battle_skill_config-475036110,
-battle_skill_config-190340101,M1895
-battle_skill_config-290340101,Permanently buff self while no damage were taken//c raising self damage and ROF by 25%. This effect is lost if any other permanent damage or ROF buff is gained.
-battle_skill_config-190340201,9A-91
-battle_skill_config-290340201,Permanently increases self damage by 30%.
-battle_skill_config-190340301,PK
-battle_skill_config-290340301,Permanently increases self ROF by 30%.
-battle_skill_config-190340401,Super SASS
-battle_skill_config-290340401,For every 30 seconds that passes//c permanently increase self damage by 4%.
-battle_skill_config-190340501,FX-05
-battle_skill_config-290340501,For every 30 seconds that passes//c increase self ROF by 4% permanently.
-battle_skill_config-190340601,CR-21
-battle_skill_config-290340601,Permanently increase self damage by 3% for every enemy unit that has died during this battle.
-battle_skill_config-190340701,SVD
-battle_skill_config-290340701,Permanently increase self ROF by 3% for every enemy unit that has died during this battle.
-battle_skill_config-190340801,K31
-battle_skill_config-290340801,Increase self damage by 100% while a buffing skill is active. Stacks up to 1 time.
-battle_skill_config-190340901,Shipka
-battle_skill_config-290340901,Increase self ROF by 100% while a buffing skill is active. Stacks up to 1 time.
-battle_skill_config-190341001,512
-battle_skill_config-290341001,After a buffing skill is activated//c there is a 30% chance that the buffing skill will be immediately activated again.
-battle_skill_config-190341101,M1014
-battle_skill_config-290341101,Can trigger once after self HP falls below 5%//c permanently increasing self damage by 100%.
-battle_skill_config-190341201,LWMMG
-battle_skill_config-290341201,Shields provided by buff skill permanently increase by 8.
-battle_skill_config-190341301,GSh-18
-battle_skill_config-290341301,Buff skill lasts an additional 2 seconds.
-battle_skill_config-190341401,PP-19
-battle_skill_config-290341401,After a throwing skill is activated//c there is a 30% chance that the throwing skill will be immediately activated again.
-battle_skill_config-190341501,Type 56-1
-battle_skill_config-290341501,Throwing skill damage is permanently increased by 50%.
-battle_skill_config-190341601,FAMAS
-battle_skill_config-290341601,Throwing skill effect radius is permanently increased by 3.
-battle_skill_config-190342101,Sten MkII
-battle_skill_config-290342101,Damage increases by 1% for every point of HP below 100. If HP is higher than 100//c this skill provides a negative effect instead.
-battle_skill_config-190342301,USAS-12
-battle_skill_config-290342301,Damage from regular attacks decreases enemy move speed by 10%//c stacking up to 5 times.
-battle_skill_config-190342401,AEK-999
-battle_skill_config-290342401,Self base damage increases as health decreases. Increase damage by 0.6% for every point of HP below the maximum.
-battle_skill_config-190342501,4 Shiki
-battle_skill_config-290342501,Self critical damage increases as health decreases. Increase critical damage by 1% for every point of HP below the maximum.
-battle_skill_config-190342601,M500
-battle_skill_config-290342601,Gain a 30-point shield
-battle_skill_config-190342701,V-PM5
-battle_skill_config-290342701,While moving//c gain an 8-point shield that lasts for 5 seconds. This effect can trigger once every 5 seconds.
-battle_skill_config-190342801,K11
-battle_skill_config-290342801,Triggers a throwing skill immediately after activating a buff skill.
-battle_skill_config-190342901,M870
-battle_skill_config-290342901,Triggers a buff skill immediately after activating a throwing skill.
-battle_skill_config-190343001,Type 97S
-battle_skill_config-290343001,Regular attacks deal 50% damage to two targets at once (triggers applicable skills twice).
-battle_skill_config-190343101,Python
-battle_skill_config-290343101,When permanent damage/ROF buffs on self increase the stat in question by 2x or more//c damage of throwing skills permanently increases by 150%.
-battle_skill_config-190343201,Kar98k
-battle_skill_config-290343201,Regular attacks do 2 instances of damage (triggers applicable skills twice)//c at the cost of decreasing move speed by 50%.
-battle_skill_config-190343301,FAL
-battle_skill_config-290343301,Regular attacks are replaced by triggering a throwing skill//c at the cost of decreasing ROF by 25%.
-battle_skill_config-190343401,Gr MG5
-battle_skill_config-290343401,Self ROF increases to the maximum (3 shots/second)
+battle_skill_config-175038201,Combined Propellant
+battle_skill_config-275038201,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 40% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038201,Cooldown time: 10 seconds//cDamage increase: 40%
+battle_skill_config-475038201,
+battle_skill_config-175038202,Combined Propellant
+battle_skill_config-275038202,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 44% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038202,Cooldown time: 9.8 seconds//cDamage increase: 44%
+battle_skill_config-475038202,
+battle_skill_config-175038203,Combined Propellant
+battle_skill_config-275038203,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 49% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038203,Cooldown time: 9.6 seconds//cDamage increase: 49%
+battle_skill_config-475038203,
+battle_skill_config-175038204,Combined Propellant
+battle_skill_config-275038204,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 53% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038204,Cooldown time: 9.3 seconds//cDamage increase: 53%
+battle_skill_config-475038204,
+battle_skill_config-175038205,Combined Propellant
+battle_skill_config-275038205,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 58% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038205,Cooldown time: 9.1 seconds//cDamage increase: 58%
+battle_skill_config-475038205,
+battle_skill_config-175038206,Combined Propellant
+battle_skill_config-275038206,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 62% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038206,Cooldown time: 8.9 seconds//cDamage increase: 62%
+battle_skill_config-475038206,
+battle_skill_config-175038207,Combined Propellant
+battle_skill_config-275038207,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 67% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038207,Cooldown time: 8.7 seconds//cDamage increase: 67%
+battle_skill_config-475038207,
+battle_skill_config-175038208,Combined Propellant
+battle_skill_config-275038208,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 71% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038208,Cooldown time: 8.4 seconds//cDamage increase: 71%
+battle_skill_config-475038208,
+battle_skill_config-175038209,Combined Propellant
+battle_skill_config-275038209,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 76% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038209,Cooldown time: 8.2 seconds//cDamage increase: 76%
+battle_skill_config-475038209,
+battle_skill_config-175038210,Combined Propellant
+battle_skill_config-275038210,Defaults to using Light Arms at the start of battle. Once the skill is activated//c switches to using Tactical Arms for regular attacks. Each regular attack expends 1 round of Tactical Ammo and when they are all gone//c switch back to Light Arms. //nWhen using Light Arms//c every damage//c attack speed//c evasion//c accuracy//c move speed//c critical chance or critical damage buff will add 5 rounds of Tactical Ammo. Each type of buff can only add Tactical Ammo once per skill activation.//nWhen this skill is not on cooldown//c gain an extra 1 points of Tactical Ammo per second and record the number of extra rounds. This amount accumulates and once the skill ends//c this amount will be added to the amount of Tactical Ammo upon switching back to Light Arms.//nWhen using Tactical Arms: all regular attacks automatically hit and deal 80% extra damage. The amount of Tactical Ammo does not increase.
+battle_skill_config-375038210,Cooldown time: 8 seconds//cDamage increase: 80%
+battle_skill_config-475038210,

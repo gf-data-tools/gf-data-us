@@ -8796,7 +8796,7 @@
     effect_grid_center: 13
     effect_grid_pos: "7,9,12,14,17,19"
     effect_grid_effect: "2,10;4,12"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 100
@@ -26712,6 +26712,176 @@
     obtain_ids: "2"
     rank_display: 4
     org_id: 10802
+  }
+  {
+    id: 354
+    name: ZiP .22
+    en_name: ZiP .22
+    code: ZIP22
+    extra: 油库狸,Yuu Shimamura,
+    en_introduce:
+      '''
+      Type                       Pistol
+      Mass                       0.43 kg
+      Length                     184 mm
+      Barrel length              133 mm
+      Cartridge                  .22 Long Rifle
+      Caliber                    .223 in (5.7 mm)
+      Action                     Straight blowback
+      Feed system                Vertical
+      Sights                     Notch and blade
+      '''
+    character: gun-60000354
+    type: 1
+    rank: 4
+    develop_duration: 3480
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 100
+    ratio_pow: 120
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 88
+    ratio_dodge: 128
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 105
+    ratio_range: 100
+    skill1: 750213
+    normal_attack: 300101
+    passive_skill: "750209"
+    dynamic_passive_skill: "750210,750211,750212,750214"
+    effect_grid_center: 12
+    effect_grid_pos: "6,8,7,16,17,18"
+    effect_grid_effect: "1,10;3,25"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 212
+    launch_time: 2022-08-23 00:00:00
+    obtain_ids: "1"
+    rank_display: 4
+    gun_detail_bg: nation_US
+    org_id: 10302
+  }
+  {
+    id: 355
+    name: Vigneron M2
+    en_name: VigneronM2
+    code: VigneronM2
+    extra: 波波,Sayuri Yahagi,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       3.28 kg
+      Length                     872 mm stock extended
+                                 695 mm stock folded
+      Barrel length              305 mm
+      Cartridge                  9×19mm NATO
+      Action                     Blowback
+      Rate of fire               620 rounds/min
+      Muzzle velocity            381 m/s
+      Effective firing range     100 m
+      Feed system                32-round Dual column
+                                 single feed magazine
+      Sights                     Fixed
+      '''
+    character: gun-60000355
+    type: 2
+    rank: 4
+    develop_duration: 7920
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 100
+    ratio_pow: 110
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 125
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 108
+    ratio_range: 100
+    skill1: 750215
+    normal_attack: 300102
+    passive_skill: "750227"
+    effect_grid_center: 12
+    effect_guntype: "4"
+    effect_grid_pos: "6,8"
+    effect_grid_effect: "1,20;5,20"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2022-08-23 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 4
+    gun_detail_bg: nation_Belgium
+    org_id: 10704
+  }
+  {
+    id: 365
+    name: SCR
+    en_name: SCR
+    code: SCR
+    extra: RIRE,,
+    en_introduce:
+      '''
+      Type                        Assault rifle
+      Mass                       3.97 lb
+      Length                     20.25 in
+      Barrel length              7.25 in
+      Cartridge                  5.56mm
+                                 .300BLK
+      Caliber                    5.56×45mm NATO
+      '''
+    character: gun-60000365
+    type: 4
+    rank: 5
+    develop_duration: 15120
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 100
+    ratio_pow: 105
+    ratio_rate: 112
+    ratio_speed: 100
+    ratio_hit: 120
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 135
+    ratio_range: 100
+    skill1: 750382
+    normal_attack: 750383
+    passive_skill: "750384,750385,750386,750387,750388,750389,750390,750391,750392,750393,750394,750395,750396"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "18,19"
+    effect_grid_effect: "4,25"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2022-08-23 00:00:00
+    obtain_ids: "1,2"
+    rank_display: 5
+    gun_detail_bg: nation_US
+    org_id: 10704
   }
   {
     id: 1001
