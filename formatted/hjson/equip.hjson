@@ -7973,4 +7973,71 @@
     is_show: 1
     obtain_ids: "3065"
   }
+  {
+    id: 283
+    name: Barrett QDL
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+       DMG+<pow> $M82A1 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_M82A1
+    develop_duration: 2700
+    company: BRT
+    fit_guns: "231"
+    equip_introduction: A quickly-detachable suppressor specially designed for the M82A1. Despite its astounding size, it can be quickly attached or detached depending on mission requirements.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3.0
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "759040"
+    max_level: 10
+    auto_select_id: 18092
+    is_show: 1
+    obtain_ids: "3068"
+  }
+  {
+    id: 288
+    name: CS Red Dot Sight
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+       ROF<rate> $Ak 5 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    hit: "15,20"
+    rate: "-4,-4"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_Ak5
+    develop_duration: 3600
+    company: AP
+    fit_guns: "187"
+    equip_introduction: A classic AimPoint red dot sight with IOP's custom modifications made for Ak 5.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3.0
+    bonus_type: pow:1000,hit:750
+    passive_skill: "759041"
+    max_level: 10
+    auto_select_id: 18095
+    is_show: 1
+    obtain_ids: "3069"
+  }
 ]

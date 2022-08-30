@@ -9619,6 +9619,13 @@
     icon: Bumdle_package
   }
   {
+    id: 1439
+    name: prize-10001439
+    gem: 90
+    equip_ids: "283"
+    content: prize-20001439
+  }
+  {
     id: 1447
     name: prize-10001447
     item_ids: 605-20,13-1,506-1000
@@ -9723,6 +9730,12 @@
     coins: 3-1000
     content: prize-20001470
     icon: Bumdle_package
+  }
+  {
+    id: 1472
+    name: prize-10001472
+    equip_ids: "288"
+    content: prize-20001472
   }
   {
     id: 1475
@@ -17739,93 +17752,93 @@
     id: 10086
     name: Carnival Reward
     ammo: 200
-    item_ids: 110020-20
+    item_ids: 110021-20
     content: prize-20010086
   }
   {
     id: 10087
     name: Carnival Reward
     mre: 200
-    item_ids: 110020-30
+    item_ids: 110021-30
     content: prize-20010087
   }
   {
     id: 10088
     name: Carnival Reward
     part: 100
-    item_ids: 110020-50
+    item_ids: 110021-50
     content: prize-20010088
   }
   {
     id: 10089
     name: Carnival Reward
     part: 200
-    item_ids: 110020-100
+    item_ids: 110021-100
     content: prize-20010089
   }
   {
     id: 10090
     name: Carnival Reward
     part: 300
-    item_ids: 110020-150
+    item_ids: 110021-150
     content: prize-20010090
   }
   {
     id: 10091
     name: Carnival Reward
     mp: 100
-    item_ids: 110020-10
+    item_ids: 110021-10
     content: prize-20010091
   }
   {
     id: 10092
     name: Carnival Reward
     part: 100
-    item_ids: 110020-100
+    item_ids: 110021-100
     content: prize-20010092
   }
   {
     id: 10093
     name: Carnival Reward
     ammo: 200
-    item_ids: 110020-10
+    item_ids: 110021-10
     content: prize-20010093
   }
   {
     id: 10094
     name: Carnival Reward
     mre: 200
-    item_ids: 110020-20
+    item_ids: 110021-20
     content: prize-20010094
   }
   {
     id: 10095
     name: Carnival Reward
-    item_ids: 1-10,110020-200
+    item_ids: 1-10,110021-200
     content: prize-20010095
   }
   {
     id: 10096
     name: Carnival Reward
-    item_ids: 110020-100
+    item_ids: 110021-100
     content: prize-20010096
   }
   {
     id: 10097
     name: Carnival Reward
-    item_ids: 41-10,110020-50
+    item_ids: 41-10,110021-50
     content: prize-20010097
   }
   {
     id: 10098
     name: Carnival Reward
-    item_ids: 41-20,110020-50
+    item_ids: 41-20,110021-50
     content: prize-20010098
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 45-200,110020-200
+    item_ids: 45-200,110021-200
     content: prize-20010099
   }
   {
@@ -17862,14 +17875,14 @@
     id: 10104
     name: Active Reward
     core: 10
-    item_ids: 8-1,41-20,2074-1
+    item_ids: 8-1,41-20
     content: prize-20010104
     icon: Bumdle_yellow
   }
   {
     id: 10105
     name: Active Reward
-    gift: 553-1,100003-10
+    gift: 7408-1,100003-10
     content: prize-20010105
     icon: Bumdle_bline
   }
@@ -17913,13 +17926,13 @@
   {
     id: 10111
     name: Carnival Reward
-    item_ids: 110020-200,45-200
+    item_ids: 110021-200,45-200
     content: prize-20010111
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110020-100,45-100
+    item_ids: 110021-100,45-100
     content: prize-20010112
   }
   {
@@ -30298,6 +30311,62 @@
     content: prize-20094552
     send_limit: 1
     commander_uniform: "4552"
+  }
+  {
+    id: 94711
+    name: prize-10094711
+    content: prize-20094711
+    send_limit: 1
+    commander_uniform: "4711"
+  }
+  {
+    id: 94712
+    name: prize-10094712
+    content: prize-20094712
+    send_limit: 1
+    commander_uniform: "4712"
+  }
+  {
+    id: 94720
+    name: prize-10094720
+    content: prize-20094720
+    send_limit: 1
+    commander_uniform: "4720"
+  }
+  {
+    id: 94731
+    name: prize-10094731
+    content: prize-20094731
+    send_limit: 1
+    commander_uniform: "4731"
+  }
+  {
+    id: 94732
+    name: prize-10094732
+    content: prize-20094732
+    send_limit: 1
+    commander_uniform: "4732"
+  }
+  {
+    id: 94740
+    name: prize-10094740
+    content: prize-20094740
+    send_limit: 1
+    commander_uniform: "4740"
+  }
+  {
+    id: 94751
+    name: prize-10094751
+    content: prize-20094751
+    send_limit: 1
+    commander_uniform: "4751"
+  }
+  {
+    id: 94752
+    name: prize-10094752
+    content: prize-20094752
+    send_limit: 1
+    commander_uniform: "4752"
   }
   {
     id: 99999

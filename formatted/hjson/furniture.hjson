@@ -24047,6 +24047,198 @@
     touch_area: "6,3,0,0,10,0"
   }
   {
+    id: 10501
+    name: Lone Ship in Space - Zero-G Zone
+    classes: 105
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: When in space, no one can tell if that's the floor or the ceiling... But on the bright side, we don't have to mop it every day~!
+    code: Space2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10502
+    name: Lone Ship in Space - Spaceship Controls
+    classes: 105
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"Where are the environmental controls again...? Hm, guess I'll just try flicking all the switches one by one. It's not like I'll break the ship or anything~!" "Click. Self-destruction sequence initiated. 10...9...8...7..."'''
+    code: Space2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10503
+    name: Lone Ship in Space - Sealed Freshness
+    classes: 105
+    type: 302
+    position: "2,2"
+    space: "4,10,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: '''"Coke? Coke? Chips? Coke? Are you planning to survive in space for three months just on these?" "Obviously not—there's also TV shows~"'''
+    code: Space2022_deco_01,Space2022_deco_02
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,0,0|0,2.304367,0"
+    rotate: "3,3"
+  }
+  {
+    id: 10504
+    name: Lone Ship in Space - Temporary Storage Platform
+    classes: 105
+    type: 302
+    position: "3,15"
+    space: "4,3,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: Instead of storing work tools, this thingy is more suited for storing kitchen stuff! Look, if you put things like ketchup on it, you won't have to worry about it getting spilled!
+    code: Space2022_deco_03
+    texture_type: "1"
+    offset: "0,0.771598,0"
+    rotate: "3"
+  }
+  {
+    id: 10505
+    name: Lone Ship in Space - Joint Exploration
+    classes: 105
+    type: 302
+    position: "25,0"
+    space: "3,7,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: This banner is proof of our cooperation. May our endeavor be a success and leave a colorful brushstroke in space.
+    code: Space2022_deco_04
+    texture_type: "1"
+    offset: "0,0.542204,0"
+    rotate: "3"
+  }
+  {
+    id: 10506
+    name: Lone Ship in Space - Golden Age
+    classes: 105
+    type: 302
+    position: "8,8"
+    space: "3,7,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: They have witnessed humankind's glorious history of space exploration, and now, this important responsibility has fallen to us. Go forth, and we shall take our place in history!
+    code: Space2022_deco_05
+    texture_type: "1"
+    offset: "0,0.542204,0"
+    rotate: "3"
+  }
+  {
+    id: 10507
+    name: Lone Ship in Space - New Home Motivational Poster
+    classes: 105
+    type: 302
+    position: "8,0"
+    space: "3,7,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Our journey has only just begun, but with ever step we take, we will be closer to a brighter future... Are you dozing off again?!
+    code: Space2022_deco_06
+    texture_type: "1"
+    offset: "0,0.542204,0"
+    rotate: "3"
+  }
+  {
+    id: 10508
+    name: Lone Ship in Space - Space Battle Suit
+    classes: 105
+    type: 201
+    position: "24,0"
+    space: "5,5,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: May people keep wearing it to conquer the universe. May the day when it has to be equipped with an anti-bullet module never come.
+    code: Space2022_deco_07,Space2022_deco_08,Space2022_deco_09
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.1574477,0,0|-0.151,2.2564028,0.52135|2.1469193,0,0"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10509
+    name: Lone Ship in Space - Planetary Walk
+    classes: 105
+    type: 201
+    position: "14,8"
+    space: "7,5,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: If you don't want creaky joints, then move your legs and run!
+    code: Space2022_deco_10,Space2022_deco_11
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.2304367,-0.1376364,-0.031281|2.0739303,-0.1376364,-0.031281"
+    rotate: "2,2"
+  }
+  {
+    id: 10510
+    name: Lone Ship in Space - Ark of Life
+    classes: 105
+    type: 201
+    position: "2,9"
+    space: "8,4,1,1,0,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Congratulations, you have completed your hibernation cycle. It is now Year 3022 AD, you are the last remaining Doll in the entire universe... Just kidding~ Oh gosh, you're actually crying?!
+    code: Space2022_deco_12,Space2022_deco_13,Space2022_scanner
+    texture_type: "1,1,2"
+    sorting: "0,0,0"
+    offset: "0,0,0|2.304367,0,0|0.4024822,0.0490069,-0.0510923"
+    rotate: "2,2,2"
+    interact_point: "66"
+    interact_point_offset: *0.788,3.557,0.768
+  }
+  {
+    id: 10511
+    name: Lone Ship in Space - Robotic Arm Control Terminal
+    classes: 105
+    type: 201
+    position: "28,6"
+    space: "6,8,1,1,0,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: '''"Report, we're detecting a military spy satellite ahead!" "Ha, watch me shred its solar sails~!"'''
+    code: Space2022_deco_14,Space2022_deco_15,Space2022_console
+    texture_type: "1,1,2"
+    sorting: "0,0,40"
+    offset: "0,0,0|0,2.2397196,0.5150938|0,-0.0677755,-0.0156405"
+    rotate: "2,2,2"
+    interact_point: "65"
+    interact_point_offset: *-1.359,1.181,0.023
+  }
+  {
+    id: 10512
+    name: Lone Ship in Space - Azure Eye
+    classes: 105
+    type: 302
+    position: "12,3"
+    space: "10,18,1,1,1,1"
+    deco_rate: 1350
+    decompose_gift: 100003
+    description: Other than Earth itself, you can't see anything else through this thing, so it can get boring after a while... Sigh, I'm dying to open the window for some fresh air.
+    code: Space2022_deco_16,Space2022_backgroundWindow,float_point
+    texture_type: "1,2,2"
+    sorting: "20,0,0"
+    offset: "0,0,0|0.187686,-2.116681,0|1.626612,-1.897714,0"
+    rotate: "3,3,3"
+    interact_point: "67"
+    interact_point_offset: "0,0,0"
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -31409,6 +31601,111 @@
     decompose_gift: 100003
     description: C14's Poster
     code: poster_OfficeLady2022_C14
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37401
+    name: furniture-10037401
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037401
+    code: poster_Cosmos2022_ACR
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37402
+    name: furniture-10037402
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037402
+    code: poster_Cosmos2022_SCR
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37403
+    name: furniture-10037403
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037403
+    code: poster_Cosmos2022_QBU88
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37404
+    name: furniture-10037404
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037404
+    code: poster_Cosmos2022_SIGMCX
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37406
+    name: furniture-10037406
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037406
+    code: poster_Cosmos2022_G41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37407
+    name: furniture-10037407
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037407
+    code: poster_Cosmos2022_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37408
+    name: furniture-10037408
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20037408
+    code: poster_Cosmos2022_TavorTS12
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
