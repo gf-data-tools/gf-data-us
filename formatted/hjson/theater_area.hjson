@@ -3888,4 +3888,964 @@
     difficulty: 34000
     area_mission_id: 901443
   }
+  {
+    id: 811
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: "1"
+    basic_score: 1000
+    fight_environment_group: "737"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 7;4;4;5;2;3;1;3;2;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    end_score: 7450000
+    type: 1
+    construction: "811"
+    enemy_group: 1051101-0-1-1,1051102-0-1-1,1051103-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "330,27,10,13,328,115"
+    material_item: 47
+    battle_background: wasteland
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 1000
+    area_mission_id: 901411
+  }
+  {
+    id: 812
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: "1"
+    basic_score: 1000
+    fight_environment_group: "736"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 7;4;4;5;2;3;1;3;2;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 7450000
+    end_score: 11690000
+    type: 1
+    enemy_group: 1051201-0-1-1,1051202-0-1-1,1051203-0-1-1,1051204-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "330,27,10,13,328,115"
+    material_item: 47
+    battle_background: network
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 2600
+    area_mission_id: 901411
+  }
+  {
+    id: 813
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: "1"
+    basic_score: 1000
+    fight_environment_group: "738"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 7;4;4;5;2;3;1;3;2;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 11690000
+    end_score: 15130000
+    type: 1
+    enemy_group: 1051301-0-1-1,1051302-0-1-1,1051303-0-1-1,1051304-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "330,27,10,13,328,115"
+    material_item: 47
+    battle_background: wasteland
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 4200
+    area_mission_id: 901411
+  }
+  {
+    id: 814
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: "1"
+    basic_score: 1000
+    fight_environment_group: "703"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;4;7;2;3;1;3;2;1;1;1;1
+    boss_score_display: 1;1;0;1;0;0;0;0;0;0;0;0;0
+    start_score: 15130000
+    end_score: 35370000
+    type: 2
+    enemy_group: 1051401-0-1-1,1051402-0-1-1,1051403-0-1-1,1051404-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700002-0
+    occupied_boss_score: 60
+    score_limit: 1046
+    advantage_gun: "330,27,10,13,328,115"
+    material_item: 47
+    battle_background: network
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 4800
+    area_mission_id: 901411
+  }
+  {
+    id: 815
+    name: Normal Map
+    fight_type: 3
+    type_coef: "40"
+    success_type_condition: "1"
+    basic_score: 2000
+    fight_environment_group: "720"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 35370000
+    end_score: 47030000
+    type: 1
+    enemy_group: 1051501-0-1-1,1051502-0-1-1,1051503-0-1-1,1051504-0-1-1,1051505-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "298,171,73,106,70,6"
+    material_item: 47
+    battle_background: wasteland
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 5200
+    area_mission_id: 901412
+  }
+  {
+    id: 816
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: "1"
+    basic_score: 2000
+    fight_environment_group: "719"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 47030000
+    end_score: 60640000
+    type: 1
+    enemy_group: 1051601-0-1-1,1051602-0-1-1,1051603-0-1-1,1051604-0-1-1,1051605-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "298,171,73,106,70,6"
+    material_item: 47
+    battle_background: network
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 5800
+    area_mission_id: 901412
+  }
+  {
+    id: 817
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: "1"
+    basic_score: 3000
+    fight_environment_group: "713"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 60640000
+    end_score: 117160000
+    type: 1
+    enemy_group: 1051701-0-1-1,1051702-0-1-1,1051703-0-1-1,1051704-0-1-1,1051705-0-1-1,1051706-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "298,171,73,106,70,6"
+    material_item: 47
+    battle_background: wasteland
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 6400
+    area_mission_id: 901412
+  }
+  {
+    id: 818
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: "1"
+    basic_score: 3000
+    fight_environment_group: "710"
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;3;11;5;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;-1;1;1;0;0;0;0;0;0;0;0
+    start_score: 117160000
+    end_score: 190660000
+    type: 2
+    enemy_group: 1051801-0-1-1,1051802-0-1-1,1051803-0-1-1,1051804-0-1-1,1051805-0-1-1,1051806-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700001-0
+    occupied_boss_score: 60
+    score_limit: 2205
+    advantage_gun: "298,171,73,106,70,6"
+    material_item: 47
+    battle_background: network
+    theater_id: 81
+    display_length: 300
+    description: These blood-soaked hills are the first obstacle in our way forward. We must seize this area and set up a base here for the next stage of our offensive.
+    difficulty: 7500
+    area_mission_id: 901412
+  }
+  {
+    id: 821
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;712
+    basic_score: 1000
+    fight_environment_group: 704;722
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    end_score: 18000000
+    type: 1
+    construction: "821"
+    enemy_group: 1052101-0-1-1,1052102-0-1-1,1052103-0-1-1,1052104-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "176,203,315,223,262,338"
+    material_item: 47
+    battle_background: abandonedvillage
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 7800
+    area_mission_id: 901421
+  }
+  {
+    id: 822
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: 1;6
+    basic_score: 1000
+    fight_environment_group: 710;731
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 18000000
+    end_score: 50980000
+    type: 1
+    enemy_group: 1052201-0-1-1,1052202-0-1-1,1052203-0-1-1,1052204-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "176,203,315,223,262,338"
+    material_item: 47
+    battle_background: network
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 8000
+    area_mission_id: 901421
+  }
+  {
+    id: 823
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;3
+    basic_score: 1000
+    fight_environment_group: 701;736
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 50980000
+    end_score: 77110000
+    type: 1
+    enemy_group: 1052301-1-1-1,1052302-1-1-1,1052303-1-1-1,1052304-1-1-1,1052305-1-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "176,203,315,223,262,338"
+    material_item: 47
+    battle_background: abandonedvillage
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 8500
+    area_mission_id: 901421
+  }
+  {
+    id: 824
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;704
+    basic_score: 1000
+    fight_environment_group: 704;728
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;10;6;11;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;1;0;1;0;0;0;0;0;0;0;0;0
+    start_score: 77110000
+    end_score: 105920000
+    type: 2
+    enemy_group: 1052401-0-1-1,1052402-0-1-1,1052403-0-1-1,1052404-0-1-1,1052405-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700001-0
+    occupied_boss_score: 60
+    score_limit: 2193
+    advantage_gun: "176,203,315,223,262,338"
+    material_item: 47
+    battle_background: network
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 8800
+    area_mission_id: 901421
+  }
+  {
+    id: 825
+    name: Normal Map
+    fight_type: 3
+    type_coef: "40"
+    success_type_condition: 1;709
+    basic_score: 2000
+    fight_environment_group: 729;703
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 105920000
+    end_score: 187750000
+    type: 1
+    construction: "825"
+    enemy_group: 1052501-0-1-1,1052502-0-1-1,1052503-0-1-1,1052504-0-1-1,1052505-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "232,202,162,164,209,286"
+    material_item: 47
+    battle_background: abandonedvillage
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 9200
+    area_mission_id: 901422
+  }
+  {
+    id: 826
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: 1;706
+    basic_score: 2000
+    fight_environment_group: 716;707
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 187750000
+    end_score: 248950000
+    type: 1
+    enemy_group: 1052601-1-1-1,1052602-1-1-1,1052603-1-1-1,1052604-1-1-1,1052605-1-1-1,1052606-1-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "232,202,162,164,209,286"
+    material_item: 47
+    battle_background: network
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 9600
+    area_mission_id: 901422
+  }
+  {
+    id: 827
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;716
+    basic_score: 3000
+    fight_environment_group: 731;733
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 248950000
+    end_score: 321200000
+    type: 1
+    enemy_group: 1052701-0-1-1,1052702-0-1-1,1052703-0-1-1,1052704-0-1-1,1052705-0-1-1,1052706-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "232,202,162,164,209,286"
+    material_item: 47
+    battle_background: abandonedvillage
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 13000
+    area_mission_id: 901422
+  }
+  {
+    id: 828
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;724
+    basic_score: 3000
+    fight_environment_group: 705;722
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 16;10;6;7;3;8;1;5;3;1;1;1;1
+    boss_score_display: 1;1;0;0;0;1;0;0;0;0;0;0;0
+    start_score: 321200000
+    end_score: 468370000
+    type: 2
+    enemy_group: 1052801-0-1-1,1052802-0-1-1,1052803-0-1-1,1052804-0-1-1,1052805-0-1-1,1052806-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700006-0
+    occupied_boss_score: 60
+    score_limit: 3975
+    advantage_gun: "232,202,162,164,209,286"
+    material_item: 47
+    battle_background: network
+    theater_id: 82
+    display_length: 300
+    description: To start off, we've decided to extend the battlefront and surround our target. However, enemy artillery is so heavy it's like an endless thunderstorm echoing through the skies above the battlefield.
+    difficulty: 14500
+    area_mission_id: 901422
+  }
+  {
+    id: 831
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: 1;712;713
+    basic_score: 1000
+    fight_environment_group: 720;713;739
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    end_score: 180000000
+    type: 1
+    construction: "831"
+    enemy_group: 1053101-0-1-1,1053102-0-1-1,1053103-0-1-1,1053104-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "113,168,260,284,317,329"
+    material_item: 47
+    battle_background: network
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 13000
+    area_mission_id: 901431
+  }
+  {
+    id: 832
+    name: Normal Map
+    fight_type: 4
+    type_coef: "800001,1"
+    success_type_condition: 1;714;725
+    basic_score: 1000
+    fight_environment_group: 722;710;723
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 11;6;6;7;3;5;1;5;3;1;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 180000000
+    end_score: 304440000
+    type: 1
+    enemy_group: 1053201-0-1-1,1053202-0-1-1,1053203-0-1-1,1053204-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "113,168,260,284,317,329"
+    material_item: 47
+    battle_background: iron
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 16000
+    area_mission_id: 901431
+  }
+  {
+    id: 833
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;716;717
+    basic_score: 1000
+    fight_environment_group: 716;719;739
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 16;6;9;7;3;8;1;5;3;1;1;1;1
+    boss_score_display: 1;0;1;0;0;1;0;0;0;0;0;0;0
+    start_score: 304440000
+    end_score: 437880000
+    type: 2
+    enemy_group: 1053301-0-1-1,1053302-0-1-1,1053303-0-1-1,1053304-0-1-1,1053305-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700007-0
+    occupied_boss_score: 60
+    score_limit: 3493
+    advantage_gun: "113,168,260,284,317,329"
+    material_item: 47
+    battle_background: network
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 20000
+    area_mission_id: 901431
+  }
+  {
+    id: 834
+    name: Normal Map
+    fight_type: 3
+    type_coef: "60"
+    success_type_condition: 1;726;722
+    basic_score: 2000
+    fight_environment_group: 718;717;734
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 437880000
+    end_score: 713750000
+    type: 1
+    construction: "834"
+    enemy_group: 1053401-0-1-1,1053402-0-1-1,1053403-0-1-1,1053404-0-1-1,1053405-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "327,27,176,262,330,171"
+    material_item: 47
+    battle_background: iron
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 22000
+    area_mission_id: 901432
+  }
+  {
+    id: 835
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;726;721
+    basic_score: 2000
+    fight_environment_group: 715;716;726
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 713750000
+    end_score: 891960000
+    type: 1
+    enemy_group: 1053501-0-1-1,1053502-0-1-1,1053503-0-1-1,1053504-0-1-1,1053505-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "327,27,176,262,330,171"
+    material_item: 47
+    battle_background: iron
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 26000
+    area_mission_id: 901432
+  }
+  {
+    id: 836
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;703;704
+    basic_score: 2000
+    fight_environment_group: 701;710;702
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;13;4;15;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;1;-1;1;0;0;0;0;0;0;0;0;0
+    start_score: 891960000
+    end_score: 1109820000
+    type: 2
+    construction: "836"
+    enemy_group: 1053601-1-1-1,1053602-1-1-1,1053603-1-1-1,1053604-1-1-1,1053605-1-1-1,1053606-1-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700003-1
+    occupied_boss_score: 60
+    score_limit: 5329
+    advantage_gun: "327,27,176,262,330,171"
+    material_item: 47
+    battle_background: network
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 27500
+    area_mission_id: 901432
+  }
+  {
+    id: 837
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;14;722
+    basic_score: 3000
+    fight_environment_group: 722;729;723
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 1109820000
+    end_score: 1415580000
+    type: 1
+    enemy_group: 1053701-0-1-1,1053702-0-1-1,1053703-0-1-1,1053704-0-1-1,1053705-0-1-1,1053706-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "325,326,162,319,85,264"
+    material_item: 47
+    battle_background: iron
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 29000
+    area_mission_id: 901433
+  }
+  {
+    id: 838
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;718;723
+    basic_score: 3000
+    fight_environment_group: 727;718;729
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;15;6;10;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;1;1;1;0;0;0;0;0;0;0
+    start_score: 1415580000
+    end_score: 1730130000
+    type: 2
+    enemy_group: 1053801-0-1-1,1053802-0-1-1,1053803-0-1-1,1053804-0-1-1,1053805-0-1-1,1053806-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-11,-11,-10,-10,-10,-9,-9,-9,-8,-8"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700005-0
+    occupied_boss_score: 60
+    score_limit: 7322
+    advantage_gun: "325,326,162,319,85,264"
+    material_item: 47
+    battle_background: network
+    theater_id: 83
+    display_length: 300
+    description: The battle has finally come to the final stage, but this last step is also the hardest. We'll either win or fall into the depths of hell. It all depends on our next move.
+    difficulty: 31000
+    area_mission_id: 901433
+  }
+  {
+    id: 841
+    name: Normal Map
+    fight_type: 2
+    success_type_condition: 1;704;712
+    basic_score: 1500
+    fight_environment_group: 730;720;710
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    end_score: 372600000
+    type: 1
+    construction: "841"
+    enemy_group: 1054101-0-1-1,1054102-0-1-1,1054103-0-1-1,1054104-0-1-1,1054105-0-1-1,1054106-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-22,-22,-22,-21,-21,-21,-21,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "157,324,164,173,238,263"
+    material_item: 47
+    battle_background: network
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 2400
+    area_mission_id: 901441
+  }
+  {
+    id: 842
+    name: Normal Map
+    fight_type: 1
+    success_type_condition: 1;710;714
+    basic_score: 1500
+    fight_environment_group: 740;716;714
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 372600000
+    end_score: 535890000
+    type: 1
+    construction: "842"
+    enemy_group: 1054201-0-1-1,1054202-0-1-1,1054203-0-1-1,1054204-0-1-1,1054205-0-1-1,1054206-0-1-1
+    enemy_lv: "-7,-7,-7,-6,-6,-6,-6,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-27,-27,-27,-26,-26,-26,-26,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "157,324,164,173,238,263"
+    material_item: 47
+    battle_background: snowland
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 4800
+    area_mission_id: 901441
+  }
+  {
+    id: 843
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;727;728
+    basic_score: 1500
+    fight_environment_group: 738;741;742
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 7;9;4;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: -1;0;-1;0;0;0;0;0;0;0;0;0;0
+    start_score: 535890000
+    end_score: 722450000
+    type: 2
+    construction: "843"
+    enemy_group: 1054301-0-1-1,1054302-0-1-1,1054303-0-1-1,1054304-0-1-1,1054305-0-1-1,1054306-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-22,-22,-22,-21,-21,-21,-21,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700002-0
+    occupied_boss_score: 60
+    score_limit: 6550
+    advantage_gun: "157,324,164,173,238,263"
+    material_item: 47
+    battle_background: network
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 6400
+    area_mission_id: 901441
+  }
+  {
+    id: 844
+    name: Normal Map
+    fight_type: 3
+    type_coef: "40"
+    success_type_condition: 1;723;3
+    basic_score: 3000
+    fight_environment_group: 715;727;729
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 722450000
+    end_score: 896410000
+    type: 1
+    enemy_group: 1054401-0-1-1,1054402-0-1-1,1054403-0-1-1,1054404-0-1-1,1054405-0-1-1,1054406-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-32,-32,-32,-31,-31,-31,-31,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "299,278,190,84,80,300"
+    material_item: 47
+    battle_background: snowland
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 14000
+    area_mission_id: 901442
+  }
+  {
+    id: 845
+    name: Normal Map
+    fight_type: 4
+    type_coef: "800003,1"
+    success_type_condition: 1;705;706
+    basic_score: 3000
+    fight_environment_group: 703;707;733
+    theater_spare_gun_num: 5
+    theater_spare_sangvis_cost: 36
+    boss_score_coef: 14;9;8;10;4;7;1;6;4;2;1;1;1
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 896410000
+    end_score: 1118530000
+    type: 1
+    enemy_group: 1054501-0-1-1,1054502-0-1-1,1054503-0-1-1,1054504-0-1-1,1054505-0-1-1,1054506-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-32,-32,-32,-31,-31,-31,-31,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "299,278,190,84,80,300"
+    material_item: 47
+    battle_background: snowland
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 25000
+    area_mission_id: 901442
+  }
+  {
+    id: 846
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;718;723
+    basic_score: 3000
+    fight_environment_group: 715;716;743
+    theater_spare_gun_num: 10
+    theater_spare_sangvis_cost: 72
+    boss_score_coef: 7;9;8;10;6;10;1;6;4;2;1;1;1
+    boss_score_display: -1;0;0;0;1;1;0;0;0;0;0;0;0
+    start_score: 1118530000
+    end_score: 1545620000
+    type: 2
+    enemy_group: 1054601-0-1-1,1054602-0-1-1,1054603-0-1-1,1054604-0-1-1,1054605-0-1-1,1054606-0-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-22,-22,-22,-21,-21,-21,-21,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700001-0
+    occupied_boss_score: 60
+    score_limit: 11380
+    advantage_gun: "299,278,190,84,80,300"
+    material_item: 47
+    battle_background: network
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 28000
+    area_mission_id: 901442
+  }
+  {
+    id: 847
+    name: Normal Map
+    fight_type: 4
+    type_coef: "800005,1"
+    success_type_condition: 1;722;710
+    basic_score: 5000
+    fight_environment_group: 703;710;733
+    theater_spare_gun_num: 10
+    theater_spare_sangvis_cost: 72
+    boss_score_coef: 21;13;12;15;6;10;1;9;6;3;2;2;2
+    boss_score_display: 0;0;0;0;0;0;0;0;0;0;0;0;0
+    start_score: 1545620000
+    end_score: 1916600000
+    type: 1
+    enemy_group: 1054701-0-1-1,1054702-0-1-1,1054703-0-1-1,1054704-0-1-1,1054705-0-1-1,1054706-0-1-1
+    enemy_lv: "-12,-12,-12,-11,-11,-11,-11,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-32,-32,-32,-31,-31,-31,-31,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_boss_score: 60
+    advantage_gun: "336,328,203,330,171,187"
+    material_item: 47
+    battle_background: snowland
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 30000
+    area_mission_id: 901443
+  }
+  {
+    id: 848
+    name: Stronghold Map
+    fight_type: 2
+    success_type_condition: 1;716;723
+    basic_score: 5000
+    fight_environment_group: 727;728;729
+    theater_spare_gun_num: 15
+    theater_spare_sangvis_cost: 108
+    boss_score_coef: 21;19;6;22;6;10;1;9;6;3;2;2;2
+    boss_score_display: 0;1;-1;1;0;0;0;0;0;0;0;0;0
+    start_score: 1916600000
+    end_score: 2095380000
+    type: 2
+    enemy_group: 1054801-1-1-1,1054802-1-1-1,1054803-1-1-1,1054804-1-1-1,1054805-1-1-1,1054806-1-1-1
+    enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    occupied_enemy_lv: "-2,-2,-2,-1,-1,-1,-1,0,0,0"
+    occupied_enemy_score: "0,0,0,0,0,0,0,0,0,0"
+    boss: 700004-1
+    occupied_boss_score: 100
+    score_limit: 16142
+    advantage_gun: "336,328,203,330,171,187"
+    material_item: 47
+    battle_background: network
+    theater_id: 84
+    display_length: 300
+    description: Knocking down their strong outer defense was just the beginning. We're about to head deep into the valley and destroy all enemy forces holed up in there. The last one standing will be the true winner.
+    difficulty: 34000
+    area_mission_id: 901443
+  }
 ]

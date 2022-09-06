@@ -6,7 +6,7 @@
     evo_step: "1"
     appearance_id: "1"
     item_id: "100"
-    medal_obtain: Awarded for completing all battles in past major events.
+    medal_obtain: Awarded to Commanders who complete all battle challenges during a major limited-time event.
     medal_color: "#009bff"
   }
   {
@@ -16,7 +16,7 @@
     evo_step: "1,50,150,250,350,900"
     appearance_id: "2,3,4,5,6,6"
     item_id: "101"
-    medal_obtain: Awarded for achieving exceptional results in past events such as Theaters.
+    medal_obtain: Awarded to Commanders who achieve outstanding results during a Theater-scale major combat event.
     medal_color: "#ff9200"
   }
   {
@@ -26,7 +26,7 @@
     evo_step: "1,30,90,150,210,540"
     appearance_id: "7,8,9,10,11,11"
     item_id: "102"
-    medal_obtain: Awarded for achieving exceptional results in T-Doll and furniture collection rankings.
+    medal_obtain: Awarded to Commanders who achieve outstanding results in Doll and furniture collection.
     medal_color: "#009bff"
   }
   {
@@ -36,7 +36,7 @@
     evo_step: "1,6,18,30,50,120"
     appearance_id: "12,13,14,15,16,16"
     item_id: "103"
-    medal_obtain: Awarded for participating in Carnival events.
+    medal_obtain: Awarded to Commanders who achieve extraordinary results during a carnival event.
     medal_color: "#12ff00"
     is_date: "2"
   }
@@ -47,7 +47,7 @@
     evo_step: "1"
     appearance_id: "17"
     item_id: "104"
-    medal_obtain: Awarded for completing all battles in past special limited-time events.
+    medal_obtain: Awarded to Commanders who complete all battle challenges during a limited-time collaboration event.
     medal_color: "#ffd800"
   }
   {
@@ -57,7 +57,7 @@
     evo_step: "1,5,30,90,150"
     appearance_id: "18,19,20,21,22"
     item_id: "105"
-    medal_obtain: Awarded for meeting special Coalition Forces battle requirements in past major events.
+    medal_obtain: Awarded to Commanders who achieve exceptional results with Coalition Units during a major limited-time event.
     medal_color: "#ff9200"
     is_date: "2"
   }
@@ -68,8 +68,32 @@
     evo_step: "1,50,150,300,600,1000"
     appearance_id: "23,24,25,26,27,28"
     item_id: "106"
-    medal_obtain: Awarded for participating in Luffberry Chess.
+    medal_obtain: Awarded to Commanders who achieve extraordinary results in Luffberry Chess.
     medal_color: "#ff0000"
     is_date: "2"
+  }
+  {
+    id: "10"
+    name: 8th Theater Pioneer Medal
+    order: "2"
+    evo_step: "1"
+    appearance_id: "42"
+    item_id: "109"
+    medal_obtain: Awarded to Commanders who achieved an outstanding score in the 8th Theater Event.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+  }
+  {
+    id: "11"
+    name: 8th Theater Conqueror Medal
+    order: "3"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "43,44,45,46,47,48,49,50,51,52,53,54"
+    item_id: "110"
+    medal_obtain: Awarded to Commanders who delivered exceptional performance in the final stage of the 8th Theater Event.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
   }
 ]
