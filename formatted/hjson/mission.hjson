@@ -19709,11 +19709,48 @@
     mission_tip: mission-40010507
   }
   {
+    id: 10508
+    campaign: -39
+    sub: 1
+    if_emergency: -1
+    endless_mode: 2
+    special_type: 1
+    name: Hornet's Nest+
+    difficulty: 35000
+    exp_parameter: 60
+    type: "5"
+    enemy_ai_type: 4
+    expect_turn: 10
+    boss_team_id: "390120"
+    turn_duration: 360000000
+    turn_limit: 10
+    limit_team: "10"
+    map_res_name: Chapter10_Y
+    map_information: "12000,11500|7000,8500|-100,-1500"
+    is_snow: SnowFallDeploy
+    fog_length: "300,500"
+    fog_color: "#000000FF"
+    ally_code: ArmyLOGO
+    supply_parameter: 2;7-1;10000
+    mission_group_id: 3
+    mission_describe: mission-20010508
+    force_type: "1"
+    round_config: 1:1,2:2,3:3
+    reset_drop_key_once: 1
+    limit_squad: -1
+    difficulty_recommend: 35000;99
+    difficulty_recommend_addendum: mission-30010508
+    limit_sangvis: -1
+    mission_tip: mission-40010508
+    event_score: 1|10,2000,1500,1000,200,10000,5000,10000,4000,5000,2000,10000,1:10000;2:500;3:2000;5:10000;6:10000;7:2500,,,,,,
+    score_prize: 1|110044:1
+  }
+  {
     id: 10509
     campaign: -38
     sub: 21
     if_emergency: -1
-    name: That which must be protected EX I
+    name: Hai capito ExⅠ
     difficulty: 25000
     exp_parameter: 50
     type: "2"

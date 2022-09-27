@@ -3123,12 +3123,6 @@ EM2|DIALOGUE3|Erm...you're asking me why I'm not confident in my deduction? Beca
 EM2|SOULCONTRACT|W-What? ...I didn't expect you to pick me.<>Ahaha... Although I don't have much confidence in myself, as long as you're here...I won't be afraid anymore even if I have to face that demonic number.<>Please take good care of me from now on.
 EM2|Introduce|Hello, Commander. EM-2 assault rifle is joining your ranks today. Mhm...judging by your reaction, my self-introduction has left you with a good impression.
 EM2|DIALOGUEWEDDING|Commander, I'm sure you'll love the biscuits today. I baked them myself. Ahaha...it's all thanks to you that I'm so confident now.
-PA15|DIALOGUE1|You didn't look like the sort to have this kind of hobby, Commander. Although it's not a bad thing to be so straightforward about seeking excitement.
-PA15|DIALOGUE2|Wow! You surprised me with that move. Awesome!
-PA15|DIALOGUE3|Do any Griffin Dolls get their fill of satisfaction from being broken? I'd like to give that a try.
-PA15|SOULCONTRACT|Ah, Commander, you're here.<>Huhu, are you here to swear an oath with me?<>What's with that expression? I can tell your thoughts with just one look.<>Then, shall we?
-PA15|Introduce|Hello, Commander! PA-15 reporting. You will assign me the most exciting missions, right?
-PA15|DIALOGUEWEDDING|Thanks for the hard work today. Want to have some fun at a night themed amusement park after work? Or do you want to quietly relax with a drink somewhere?
 R93|DIALOGUE1|Darn...I almost won this week's lottery. How unfortunate. Will you help me pick the numbers next time, Commander?
 R93|DIALOGUE2|I heard luck is also a part of strength. Then...am I strong or am I weak...?
 R93|DIALOGUE3|I always have the hunch that my luck will become better and better if I'm with you. Commander, I'll be counting on you to bring me good luck today.
@@ -3233,7 +3227,6 @@ MicroUZIMod|GAIN|Quit spacing out. I didn't go through this upgrade just for you
 MG36|GAIN|Gr MG36, reporting for duty. A new base, huh... I hope you're not the type to pry into their subordinate's past, Commander.
 ChauchatM1915|GAIN|Are you the commander here? Then, Chauchat M1915, reporting for duty.
 EM2|GAIN|Hello, Commander. EM-2 assault rifle is joining your ranks today. Mhm...judging by your reaction, my self-introduction has left you with a good impression.
-PA15|GAIN|Hello, Commander! PA-15 reporting. You will assign me the most exciting missions, right?
 R93|GAIN|Hello, Commander. R93 reporting for duty! Hehe, complete victory is guaranteed when I'm involved! Wanna bet...if you don't believe me?
 HK33|GAIN|Gr HK33, reporting to Griffin. Um...Commander, you don't look like an ally...with that expression of yours.
 MP41|GAIN|Greetings, Dear Commander! I have long admired you, and it is my greatest honor to serve you!
@@ -3264,14 +3257,6 @@ UMP9Mod|DIALOGUEWEDDING|Hmm? You don't have to think too much about what to say.
 CETME556|ALLHALLOWS|T-Dolls or monsters, their playful nature never changes.
 M870P|ALLHALLOWS|I haven't prepared these candy for nothing, you brats. You gotta trade soda for your happiness!
 KSVK|ALLHALLOWS|Perhaps no soul could find their way back before daybreak.
-PA15|PHRASE|Yo, what's so interesting?
-PA15|OPERATIONBEGIN|Then I'm heading off to play! Just kidding. Salut, Commander.
-PA15|HELLO|Ahhhh, here it comes, here it comes! Something interesting is happening!
-PA15|RETREAT|I didn't measure up. I'll do better next time... Désolée, Commander.
-PA15|BREAK|Ack, so this is what failure feels like... It's surprisingly not too bad.
-PA15|FIX|Haha...that tickles! Now do it on this side!
-PA15|DEFENSE|En garde.
-PA15|OPERATIONOVER|I'm back with some cool souvenirs.
 DesertEagle|DIALOGUE1|I've left the stage in the past. If I could ever go back... Nevermind, better not think about such things. Right now, my only goal is to become an outstanding T-Doll.
 DesertEagle|DIALOGUE2|You want to watch me perform? I'm playing your adjutant now, aren't I? What, is that not enough? Hmm, then why don't I demonstrate a classic scene in any action movie - tearing up a room in no time? Pfft...what a hilarious face you made. Sadly, I was just kidding.
 DesertEagle|DIALOGUE3|You look bored. Wanna make a bet? If I can lift you together with your chair, you owe me a movie date. Deal?
@@ -3462,12 +3447,6 @@ HKCAWS|CHRISTMAS|This year, my Christmas wish is to jump ship and go work for a 
 M1895MG|NEWYEAR|Happy New Year, Commander. Here's a New Year gift for you... A folder would be pretty useful, right?
 4type|NEWYEAR|Oh, Commander? Making New Year visits? Sure. I’ve been rushing deadlines- I mean, I’ve been training so hard...I feel rather burned out. Going out in the first month of the year and immersing in the auspicious air might just give me some inspiration.
 R93|COMBINE|Thank you, Commander. I can feel the good vibes coming!
-PA15|NEWYEAR|The first day of each year is a brand new beginning, so let's start it with trying out some new tactics?
-PA15|BUILDOVER|Oooh, a cutie I can play with?
-PA15|BLACKACTION|Kitty scurrying into the dark after a ball of yarn...here I come.
-PA15|COMBINE|Oooh, now I can have some fun!
-PA15|AGREE|Uh-huh~
-PA15|FEED|This feels so good...which means I can take on stronger and more interesting things!
 EM2|NEWYEAR|Happy New Year, Commander! I hope we'll have a safe and peaceful holiday this year so that I'll have time to try the latest kind of cookies.
 MG36|NEWYEAR|We made it through another year, Commander. I need to say something auspicious to get the red packet? Then...live long and prosper.
 Falcon|NEWYEAR|Ooof, Little Lamb! There you are! It’s full of people and exploding fireworks everywhere. Hide with me somewhere or I’ll feel guilty for not visiting the others…
@@ -7193,3 +7172,38 @@ SCR|TIP|Why Cherry Bomb? Because cherries are delicious...and super difficult to
 SCR|LOADING|Patience, patience.
 SCR|DIALOGUEWEDDING|Look this way, Commander! I've started a new channel just for sharing my life at Griffin... Yep, that's right! From now on, you are also part of my life! Let's bring our careers to new heights together!
 SCR|Introduce|Hello, Commander, I am SCR, just starting here today. Follow my account and become a Cherry Bomb! ...What's that? That's what my fans are called!
+PA15|AGREE|Uh-huh~
+PA15|ALLHALLOWS|Commander! I'm going to take part in the event, I'll leave a Dummy here who'll handle everything else! I can hear whatever you tell her, so don't worry and keep working!
+PA15|ATTACK|I'm going in!
+PA15|BLACKACTION|Kitty scurrying into the dark after a ball of yarn...here I come.
+PA15|BREAK|Ack, so this is what failure feels like... It's surprisingly not too bad.
+PA15|BUILDOVER|Oooh, a cutie I can play with?
+PA15|CHRISTMAS|Mer-ry Christ-mas! How was it, did the Dreamer hologram in your present scare you?
+PA15|COMBINE|Oooh, now I can have some fun!
+PA15|DEFENSE|En garde.
+PA15|DIALOGUE1|You didn't look like the sort to have this kind of hobby, Commander. Although it's not a bad thing to be so straightforward about seeking excitement.
+PA15|DIALOGUE2|Wow! You surprised with me that move. Awesome!
+PA15|DIALOGUE3|Do any Griffin Dolls get their fill of satisfaction from being broken? I'd like to give that a try.
+PA15|DIALOGUEWEDDING|Thanks for the hard work today. Want to have some fun at a night themed amusement park after work? Or do you want to quietly relax with a drink somewhere?
+PA15|FEED|This feels so good...which means I can take on stronger and more interesting things!
+PA15|FIX|Haha...that tickles! Now do it on this side!
+PA15|FORMATION|Ah~ It feels so good... That is to say, now I can take on stronger and more interesting things!
+PA15|GAIN|Hello, Commander! PA-15 reporting. You will assign me the most exciting missions, right?
+PA15|GOATTACK|Let's give them a surprise!
+PA15|HELLO|Ahhhh, here it comes, here it comes! Something interesting is happening!
+PA15|Introduce|Hello, Commander! PA-15 reporting. You will assign me the most exciting missions, right?
+PA15|LOADING|I wonder what sort of adventures will be waiting for me today? I can't wait~
+PA15|MEET|This is just an appetizer.
+PA15|NEWYEAR|The first day of each year is a brand new beginning, so let's start it with trying out some new tactics?
+PA15|OPERATIONBEGIN|Then I'm heading off to play! Just kidding. Salut, Commander.
+PA15|OPERATIONOVER|I'm back with some cool souvenirs.
+PA15|PHRASE|Yo, what's so interesting?
+PA15|RETREAT|I didn't measure up. I'll do better next time... Désolée, Commander.
+PA15|SKILL1|Mind if I open you up and take a look inside?
+PA15|SKILL2|You aren't good enough to hurt me!
+PA15|SKILL3|Obey your destiny!
+PA15|SOULCONTRACT|Ah, Commander, you're here.<>Huhu, are you here to swear an oath with me?<>What's with that expression? I can tell your thoughts with just one look.<>Then, shall we?
+PA15|TANABATA|Let's relax a little today... So what's your wish, Commander? I'll tell you my wish after you make yours.
+PA15|TIP|I've got a new idea, want to give it a try?
+PA15|VALENTINE|Looks like it's another day of giving the Commander presents. In that case, want to take a guess? Which of these two boxes of chocolate does NOT contain a wasabi bomb?
+PA15|WIN|As I expected. More importantly, how about lining up the next mission?
