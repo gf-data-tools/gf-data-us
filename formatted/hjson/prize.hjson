@@ -9586,6 +9586,13 @@
     icon: Bumdle_package
   }
   {
+    id: 1422
+    name: prize-10001422
+    gem: 90
+    equip_ids: "277"
+    content: prize-20001422
+  }
+  {
     id: 1434
     name: prize-10001434
     item_ids: 41-500,45-1000
@@ -9794,6 +9801,74 @@
     name: prize-10001539
     coins: 3-30
     content: prize-20001539
+  }
+  {
+    id: 1591
+    name: prize-10001591
+    item_ids: 100160-20,100161-1
+    content: prize-20001591
+  }
+  {
+    id: 1592
+    name: prize-10001592
+    item_ids: 100160-20,100162-1
+    content: prize-20001592
+  }
+  {
+    id: 1593
+    name: prize-10001593
+    item_ids: 100160-20
+    content: prize-20001593
+  }
+  {
+    id: 1594
+    name: prize-10001594
+    item_ids: 100160-30,100161-2
+    content: prize-20001594
+  }
+  {
+    id: 1595
+    name: prize-10001595
+    item_ids: 100160-30,100162-2
+    content: prize-20001595
+  }
+  {
+    id: 1596
+    name: prize-10001596
+    item_ids: 100160-30
+    content: prize-20001596
+  }
+  {
+    id: 1597
+    name: prize-10001597
+    item_ids: 100161-1
+    content: prize-20001597
+  }
+  {
+    id: 1598
+    name: prize-10001598
+    item_ids: 100162-1
+    content: prize-20001598
+  }
+  {
+    id: 1599
+    name: prize-10001599
+    item_ids: 100161-2
+    content: prize-20001599
+  }
+  {
+    id: 1600
+    name: prize-10001600
+    item_ids: 100162-2
+    content: prize-20001600
+  }
+  {
+    id: 1601
+    name: prize-10001601
+    item_ids: 41-500,605-15,516-1000,45-500
+    gift: 100003-5
+    content: prize-20001601
+    icon: Bumdle_Division
   }
   {
     id: 2001
@@ -25451,7 +25526,7 @@
     mre: 5000
     part: 5000
     core: 21
-    gun_id: "308"
+    gun_id: "327"
     item_ids: 4-20,6009-2,601-2
     gift: 200001-235
     coins: 1-600,2-620,3-200

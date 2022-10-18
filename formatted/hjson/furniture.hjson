@@ -22129,6 +22129,233 @@
     interact_point_offset: *-0.379,1.127,0.290
   }
   {
+    id: 9101
+    name: Safe House - Composite Flooring
+    classes: 91
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Even if you hear knocking from underneath the floor, do not try to open it up. It is sturdy enough to withstand probing coming from underground. If your teammates were still alive, they'd know that.
+    code: Halloween2020_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 9102
+    name: Safe House - Nighttime Visitor
+    classes: 91
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Tragedies are inevitable where there are people. The number of tragedies have been in decline recently. This might be a good thing.
+    code: Halloween2020_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 9103
+    name: Safe House - Synthetic Rug
+    classes: 91
+    type: 102
+    position: "16,6"
+    space: "10,6,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: We don't have to pay for an expensive woolen rug, as long as the monster guarding the store agrees... Will you negotiate with it? No? Then let's keep using this synthetic rug.
+    code: Halloween2020_deco_01,Halloween2020_deco_02
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-1.1155732603,0,0|1.178251,0,0"
+    rotate: "1,1"
+  }
+  {
+    id: 9104
+    name: Safe House - Sturdy Wall
+    classes: 91
+    type: 302
+    position: "14,10"
+    space: "5,13,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: This wall is built with high-quality anti-impact material. It will not crumble even when hit by an explosion, but it isn't soundproof. Don't cry - despair just begets more despair.
+    code: Halloween2020_deco_03,Halloween2020_deco_04
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.604766,0.9707537,0.1126116|3.9620285206,0.9707537,0.1126116"
+    rotate: "3,3"
+  }
+  {
+    id: 9105
+    name: Safe House - Weapons Display Rack
+    classes: 91
+    type: 201
+    position: "8,0"
+    space: "8,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: You should practice how to quickly draw your most accessible weapon. This will help you in obtaining the last remaining food resources, or even in creating them.
+    code: Halloween2020_deco_05,Halloween2020_deco_06,Halloween2020_deco_07,Halloween2020_deco_08
+    texture_type: "1,1,1,1"
+    sorting: "0,0,0,0"
+    offset: "-0.24920602989,-0.40434070848,0.29198154615|-0.260675,1.8330666,0.7934947|2.0383617176,1.8330666,0.79349490854|2.0456606176,-0.40434070848,0.29198154615"
+    rotate: "2,2,2,2"
+  }
+  {
+    id: 9106
+    name: Safe House - Bouncy Sofa
+    classes: 91
+    type: 201
+    position: "16,6"
+    space: "11,6,0,0,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Let's take turns resting on the sofa, so that we all have an equal chance of having one last dream.
+    code: Halloween2020_deco_09,Halloween2020_deco_10
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.5484602,-0.1501488,0.0688182|1.7527787,-0.1501488,0.0688182"
+    rotate: "2,2"
+    interact_point: "12,14,7"
+    interact_point_offset: *-3.418,1.753,0.589|*2.882,1.360,-0.356|*-0.347,2.717,0.504
+  }
+  {
+    id: 9107
+    name: Safe House - Signal Station
+    classes: 91
+    type: 201
+    position: "25,0"
+    space: "9,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The last person who sat here went mad. He said someone was talking to him through the monitor, that the papers, the desk, and the chair moved on their own and arranged themselves this way. Nobody believed him, so he dashed outside and turned into the bait of hope.
+    code: Halloween2020_deco_11,Halloween2020_deco_12
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.6349494492,0,-0.542256|1.6485827317,0,-0.5401186"
+    rotate: "2,2"
+    interact_point: "14"
+    interact_point_offset: *-0.088,1.793,-1.309
+  }
+  {
+    id: 9108
+    name: Safe House - Vintage Motorbike
+    classes: 91
+    type: 201
+    position: "27,11"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This motorbike is still raring to go even to this day, but no one has the courage to risk their life riding this thing.
+    code: Halloween2020_deco_13
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 9109
+    name: Safe House - Tungsten Hanging Light
+    classes: 91
+    type: 201
+    position: "22,2"
+    space: "0,0,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: It may look like it could explode at any moment, but just make do with it for now, because there's only one more spare light bulb left.
+    code: Halloween2020_deco_14
+    texture_type: "1"
+    offset: "0,1.887287,0"
+    rotate: "2"
+    touch_area: "2,2,2"
+  }
+  {
+    id: 9110
+    name: Safe House - Independent Generator
+    classes: 91
+    type: 201
+    position: "30,8"
+    space: "3,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Someone once questioned the purpose of having an independent power generator, and their debate with other people on this issue went on for pages on the forum. The forum is no longer accessible now, but you know he was wrong.
+    code: Halloween2020_deco_15
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 9111
+    name: Safe House - First-Aid Cabinet
+    classes: 91
+    type: 302
+    position: "29,12"
+    space: "2,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: At first, everyone would take a first-aid kit with them when they went out to explore, but recently the medical supplies have been dwindling... Probably because the things wandering outside never give us the chance to actually use the kits, or maybe it's because we don't even go out anymore.
+    code: Halloween2020_deco_16
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 9112
+    name: Safe House - Reinforced Wall
+    classes: 91
+    type: 201
+    position: "3,0"
+    space: "5,14,0,0,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: You hear that scratching coming from outside? Don't think about it... The person who built this house had anticipated every possible threat, but they didn't expect they would be on the wrong side of the door when the danger came.
+    code: Halloween2020_deco_17,Halloween2020_deco_18,Halloween2020_deco_19,Halloween2020_deco_22
+    texture_type: "1,1,1,1"
+    sorting: "-10,0,0,10"
+    offset: "-0.604766,-1.491061,4.076957|-0.60476579146,2.9939524742,5.1350284834|-0.93843,-0.802879,4.27507|-1.000992,-0.041504266847,-0.218967"
+    rotate: "2,2,2,2"
+    interact_point: "891121,891122"
+    interact_point_offset: *-3.967,0.000,11.297|*-3.704,0.000,6.004
+    touch_area: "5,15"
+    bonus_id: 3076
+  }
+  {
+    id: 9113
+    name: Safe House - Cluttered Long Table
+    classes: 91
+    type: 201
+    position: "9,11"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: There's no point in organizing the clutter in here. Sins will always exist even if they're buried. Besides, this place is proof of our desire for survival.
+    code: Halloween2020_deco_20,Halloween2020_deco_21
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,0,0|2.304367,0,0"
+    rotate: "2,2"
+  }
+  {
+    id: 9114
+    name: Safe House - Digital Map
+    classes: 91
+    type: 302
+    position: "20,10"
+    space: "6,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The AI used to indicate the safe zones in green and the blackout zones in red, but the map hasn't been updated in five months, and the people who went to check on the signal tower never returned.
+    code: Halloween2020_deco_23
+    texture_type: "1"
+    sorting: "50"
+    offset: "0,0.542204,0"
+    rotate: "3"
+  }
+  {
     id: 9201
     name: Bunker - Grid Reference Flooring
     classes: 92
@@ -30377,6 +30604,81 @@
     rotate: "3"
   }
   {
+    id: 35101
+    name: Willow Foxfire
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: General Liu's poster.
+    code: poster_Halloween2020_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35102
+    name: Dancer in the Dead Silence
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kord's poster.
+    code: poster_Halloween2020_Kord
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35103
+    name: Gretel the Witch
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 97's poster.
+    code: poster_Halloween2020_97type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35104
+    name: Wings of the Devil
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: CF-05's poster.
+    code: poster_Halloween2020_06TypeSMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35105
+    name: Apprentice Extraordinaire
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M82's poster.
+    code: poster_Halloween2020_M82
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 35106
     name: Thief of Sweetness
     classes: 300
@@ -30386,6 +30688,21 @@
     decompose_gift: 100003
     description: Tokarev's poster.
     code: poster_Halloween2020_TT33
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35107
+    name: Gatekeeper of the Magical Realm
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M21's poster.
+    code: poster_Halloween2020_M21
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
