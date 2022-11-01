@@ -10206,7 +10206,7 @@
     creation_delay: "0,21,0"
     sound_order: BT_BOSS_skill
     sound_delay: "31"
-    effect_order: 3(Bramede;曼珠沙华舞;曼珠沙华舞;Bramede),7(redshine),7(redshine)
+    effect_order: 3(Bramede;;;Bramede),7(redshine),7(redshine)
     effect_delay: "20,0,10"
     effect_duration: "1,10,10"
     stop_time_duration: "30"
@@ -15589,7 +15589,7 @@
     creation_order: "8115,8116,8132,8138,8139,8142,8147,4062,4063"
     creation_delay: "90,115,25,80,115,90,85,0,21"
     sound_delay: "3"
-    effect_order: 3(Teal;落空蝉;Fallen Cicada;TEAL),7(redshine),7(redshine)
+    effect_order: 3(Teal;;Fallen Cicada;TEAL),7(redshine),7(redshine)
     effect_delay: "20,0,10"
     effect_duration: "1,10,10"
     move_order: "1006"

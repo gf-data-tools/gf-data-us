@@ -980,6 +980,40 @@
     obtain_ids: "507"
   }
   {
+    id: 30
+    name: Witch Fairy
+    code: curse
+    description: '''"Even if witchcraft is fake, its ability to mess with people is real enough. Be careful."'''
+    introduce: Possesses the ability to tell fortunes and levy curses. Can be used to pressurize slacking Dolls in daily life.
+    type: 6
+    pow: 200
+    hit: 80
+    dodge: 100
+    critical_harm_rate: 80
+    grow: 200
+    proportion: 1:0.4,2:0.5,3:0.6,4:0.8,5:1
+    skill_id: "756031"
+    quality_exp: 100
+    quality_need_number: 1:0,2:100,3:200,4:350,5:550
+    category: 1
+    develop_duration: 18600
+    retiremp: 4
+    retireammo: 1
+    retiremre: 5
+    retirepart: 1
+    powerup_mp: 10
+    powerup_ammo: 3
+    powerup_mre: 14
+    powerup_part: 3
+    ai: 3000
+    avatar_offset: "15,17,0"
+    avatar_scale: "0.6,0.6,0.6"
+    picture_offset: "40,-80,0"
+    picture_scale: "0.864,0.864,0.864"
+    org_id: 10502
+    obtain_ids: "3036"
+  }
+  {
     id: 1004
     name: Suee
     code: DJMAXSUEE
@@ -1216,10 +1250,10 @@
   }
   {
     id: 90003
-    name: fairy-10090003
+    name: Illumination Fairy (Guidance)
     code: illumine
-    description: fairy-20090003
-    introduce: fairy-30090003
+    description: '''"The abducted is...on the other side...of the tunnel?"'''
+    introduce: Provides additional scope of vision in night battles. Can be used in nighttime adventures and sending signals
     type: 1
     hit: 200
     dodge: 87
@@ -1248,10 +1282,10 @@
   }
   {
     id: 90004
-    name: fairy-10090004
+    name: Airstrike Fairy (Guidance)
     code: air_attack
-    description: fairy-20090004
-    introduce: fairy-30090004
+    description: '''"Heheh. You don't seem to have learned anything other than running away."'''
+    introduce: Conducts airstrikes. Can be used in overhead work on regular days.
     type: 4
     pow: 159
     hit: 79
