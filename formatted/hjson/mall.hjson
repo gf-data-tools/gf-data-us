@@ -4626,6 +4626,110 @@
     classification_id: 4000
   }
   {
+    id: 4211
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Sparkling Future
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94211
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4212
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Imprint of War
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94212
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4220
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Gift of the Trailblazer
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94220
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4231
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Griffin Rebel Coat
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94231
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4232
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Griffin Rebel Uniform
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94232
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4240
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Experimental Equipment
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94240
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4251
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Rebel Uniform Pants
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94251
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 4252
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Rebel Uniform Skirt
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 94252
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
     id: 4511
     type: 66
     gemprice: 400
@@ -25572,6 +25676,90 @@
     giftbag_name: Coalition Units Supply Package
     event_code: dailyGiftbag
     icon: Bumdle_yuugo01
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21412
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 6501-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: Desert Eagle Garuda of the Empyrean Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1.0
+    classification_id: 3003
+  }
+  {
+    id: 21413
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21414
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21415
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21416
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21417
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
     discount: 1.0
     classification_id: 3002
   }

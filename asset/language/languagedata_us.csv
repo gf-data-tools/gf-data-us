@@ -726,7 +726,7 @@ COMMON,1724,Please read and agree to the terms and conditions and privacy policy
 COMMON,1725,Privacy policy,,0
 COMMON,1726,Lv.,,0
 COMMON,1727,Points,,0
-COMMON,1728,,,0
+COMMON,1728,Points,,0
 COMMON,1729,New,,0
 COMMON,1730,Completed,,0
 COMMON,1731,No. {0},,0
@@ -748,13 +748,19 @@ COMMON,1746,Resources,,0
 COMMON,1747,Includes Manpower//c Ammo//c Rations and Parts *<color=#FFB400FF>{0}</color>,,0
 COMMON,1748,Lost Items,,0
 COMMON,1749,Character Animation,,0
-COMMON,1750,,,0
-COMMON,1751,,,0
-COMMON,1752,,,0
+COMMON,1750,//nAll local resource files are about to be deleted! Full data pack will be re-downloaded!!!,,0
+COMMON,1751,(Long-press for 3 seconds to continue),,0
+COMMON,1752,Please confirm within <color=red>{0}</color> seconds.//nDelete all local files and re-download full data pack?,,0
 COMMON,1754,Move to,,0
 COMMON,1755,Purchase,,0
-COMMON,1756,,,0
-COMMON,1757,,,0
+COMMON,1756,Character Lines,,0
+COMMON,1757,This scene cannot be skipped.,,0
+COMMON,1758,Purchase complete. Additional Supplies have been unlocked!,,0
+COMMON,1759,Rewards Obtained,,0
+COMMON,1760,Resources damaged!,,0
+COMMON,1761,Raise any non-Prototype Fairy to 5-star and Level 100 to unlock this feature.,,0
+COMMON,1762,Login Again,,0
+COMMON,1766,Collect all,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,0
 BATTLE,10002,WITHDRAW,,0
@@ -942,8 +948,13 @@ BATTLE,10189,Maximum <color=#FFB400FF>{0}</color> charges/Starts with<color=#FFB
 BATTLE,10190,Insufficient brainpower//c cannot move T-Dolls,,0
 BATTLE,10191,Insufficient brainpower//c cannot perform planning,,0
 BATTLE,10192,T-Doll is reloading//c cannot use skill at the moment.,,0
-BATTLE,10193,,,0
-BATTLE,10194,,,0
+BATTLE,10193,Insufficient ammo. Unable to use skill.,,0
+BATTLE,10194,Skill on cooldown. Unable to use skill.,,0
+BATTLE,10195,You have reached the limit of total deployed echelons.,,0
+BATTLE,10196,You have reached the limit of deployed T-Doll echelons.,,0
+BATTLE,10197,You have reached the limit of deployed Coalition echelons.,,0
+BATTLE,10198,You have reached the limit of deployed HOC units.,,0
+BATTLE,10199,You have reached the limit of deployed non-HOC units.,,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1085,7 +1096,8 @@ HOME,20128,Coalition Forces,,0
 HOME,20129,T-Doll Equipment,,0
 HOME,20130,There is a grading evaluation which can be performed.,,0
 HOME,20131,Can be collected,,0
-HOME,20132,,,0
+HOME,20132,Purchase at Level {0}. Raise to Level {1} to unlock the rewards listed above.,,0
+HOME,20133,Complete this character's Progression Breakthrough to unlock this artwork.,,0
 DEPLOYMENT,30000,Deploy,,0
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,0
@@ -1572,6 +1584,12 @@ DEPLOYMENT,30491,while destroying <color=#CE8200FF>{0}</color> enemy targets,,0
 DEPLOYMENT,30492,while rescuing <color=#CE8200FF>{0}</color> Dolls,,0
 DEPLOYMENT,30493,Establish and maintain a supply line for <color=#CE8200FF>{0} rounds</color>.,,0
 DEPLOYMENT,30494,Unlocked,,0
+DEPLOYMENT,30495,Relaying combat command...,,0
+DEPLOYMENT,30496,Awaiting enemy's move...,,0
+DEPLOYMENT,30497,Awaiting ally's move...,,0
+DEPLOYMENT,30498,Awaiting third party's move...,,0
+DEPLOYMENT,30499,Non-HOC unit already deployed,,0
+DEPLOYMENT,30500,Talent II activated,,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -1741,7 +1759,7 @@ DORM,31553,and will consume,,0
 DORM,31554,Insufficient Surplus EXP!,,0
 DORM,31555,1. Condenser will collect electricity from the dormitory. Collection speed increases with the total Comfort of the dormitories.,,0
 DORM,31556,2. Collected electricity will be contained in the condenser until it reaches its capacity limit.,,0
-DORM,31557,3. Every day at 11:00-14:00[UTC-8]//c 17:00-20:00[UTC-8] and 22:00-01:00[UTC-8]//c electricity from the condenser can be collected and stored in batteries.,,0
+DORM,31557,3. Every day at 10:00-14:00[UTC-8]//c 18:00-01:00[UTC-8]//c electricity from the condenser can be collected and stored in batteries.,,0
 DORM,31558,4. Charged batteries can be used to develop facilities in auxiliary rooms.,,0
 DORM,31559,(upgrading),,0
 DORM,31560,(working),,0
@@ -2101,6 +2119,9 @@ DORM,31941,Number of Dorms:,,0
 DORM,31942,Number of Dorms,,0
 DORM,31943,,,0
 DORM,31944,,,0
+DORM,31945,Open Compensation,,0
+DORM,31946,You have reached the max. capacity of some rewards and cannot obtain more. Please check the rewards shelves.,,0
+DORM,31947,,,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -2411,13 +2432,20 @@ FACTORY,32308,You may designate specific Dolls as <color=#ffb400>Anchored Target
 FACTORY,32309,Anchored Production rules for new Commanders://n 1. Commanders can select a specific T-Doll from a list of event T-Dolls to be their Anchored Target. Click the "Start Production" button on the event interface and perform Production using the provided recipes.//n 2. During the event//c should an Anchored Production fail//c it will temporarily increase the success rate of the next Anchored Production//c to a maximum of 100%. This temporary increase will reset to 0 if the Anchored Target is obtained ahead of time.//n 3. The temporarily increased chance of success obtained through failed productions will be retained throughout the event and will not reset when the Anchored Target is changed.//n 4. For newly enlisted Commanders//c each Anchored Target can only be successfully produced once//c and a maximum of 2 Anchored Targets can be successfully produced. The event ends when 2 Anchored Targets have been successfully produced.//n 5. After performing the required number of Anchored Productions//c success in producing the Anchored Target is guaranteed. //n6. The initial success rate of Anchored Production is unrelated to Factory Productions.,,0
 FACTORY,32310,There are no free Production slots at the moment//c unable to perform Anchored Production.,,0
 FACTORY,32311,Designated Equipment Contract:,,0
-FACTORY,32312,,,0
-FACTORY,32313,,,0
-FACTORY,32314,,,0
-FACTORY,32315,,,0
-FACTORY,32316,,,0
-FACTORY,32317,,,0
-FACTORY,32318,,,0
+FACTORY,32312,Begin Construction,,0
+FACTORY,32313,*All idle slots will be used by default,,0
+FACTORY,32314,Lock Production Recipe,,0
+FACTORY,32315,T-Doll Production,,0
+FACTORY,32316,IOP Specified Production,,0
+FACTORY,32317,Heavy Equipment Production,,0
+FACTORY,32318,Batch Production Slot,,0
+FACTORY,32319,*When this recipe yields a Fairy//c the probability of it being a {0} Fairy is {1}.,,0
+FACTORY,32320,Fairy Production Contract,,0
+FACTORY,32321,Tap to Enter,,0
+FACTORY,32322,1. The ratio of the type of Fairy you obtain changes depending on the amount of resources invested.//n2. Reinforcement-type and Combat-type Fairies require more resources to obtain.//n3. Expending more contracts and cores increases the chance of obtaining Reinforcement-type and Combat-type Fairies.,,0
+FACTORY,32323,This production recipe is very unlikely to produce a high-quality yield.,,0
+FACTORY,32324,Fairy Production,,0
+FACTORY,32325,,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2482,6 +2510,7 @@ DEVELOP,33060,Sorry//c but Tactical Chips cannot be changed at the moment.,,0
 DEVELOP,33061,Units in this echelon require repair//c unable to deploy.,,0
 DEVELOP,33063,Quick//nRepair Contract,,0
 DEVELOP,33064,1 Quick Repair will be used,,0
+DEVELOP,33065,Stage with drops still locked,,0
 ILLUSTRATEDBOOK,35000,Tactical Dolls,,0
 ILLUSTRATEDBOOK,35001,TacticalGirls,,0
 ILLUSTRATEDBOOK,35002,Furniture,,0
@@ -2644,6 +2673,34 @@ ILLUSTRATEDBOOK,35161,Description:,,0
 ILLUSTRATEDBOOK,35162,How to obtain:,,0
 ILLUSTRATEDBOOK,35163,Medal Collection,,0
 ILLUSTRATEDBOOK,35164,Displayed on ID Card,,0
+ILLUSTRATEDBOOK,35165,Main Story,,0
+ILLUSTRATEDBOOK,35166,Neural Upgrade,,0
+ILLUSTRATEDBOOK,35167,Memories,,0
+ILLUSTRATEDBOOK,35168,Costume Story,,0
+ILLUSTRATEDBOOK,35169,Relevant Stories,,0
+ILLUSTRATEDBOOK,35170,This character has no relevant stories yet. Coming soon!,,0
+ILLUSTRATEDBOOK,35171,1. Each present T-Doll/Fairy/HOC unit/Coalition Unit/other character contributes 10/10/20/20/10 points to the department merits.//n2. A unit becomes an elite when it reaches level 100. Each elite T-Doll/Fairy/HOC unit/Coalition Unit contributes 1/1/2/2 points to the department merits.//n3. A department goes up 1 rank with every 50 points of merits//c and the corresponding rewards will be unlocked.//n4. Department rank rewards consist of item rewards and directive rewards. Unlocking a directive reward also unlocks the corresponding effect.//n5. Since different departments have different unit capacities//c their maximum rank is also different.,,0
+ILLUSTRATEDBOOK,35172,Maxed,,0
+ILLUSTRATEDBOOK,35173,View,,0
+ILLUSTRATEDBOOK,35174,This Special Bond Story is locked. Proceed to unlock?,,0
+ILLUSTRATEDBOOK,35175,This Memory is locked. Proceed to unlock?,,0
+ILLUSTRATEDBOOK,35176,Unlock {0} to change costumes,,0
+ILLUSTRATEDBOOK,35177,Directive Overview,,0
+ILLUSTRATEDBOOK,35178,-No Directives-,,0
+ILLUSTRATEDBOOK,35179,Rank,,0
+ILLUSTRATEDBOOK,35180,Department Rank,,0
+ILLUSTRATEDBOOK,35181,Department Merits,,0
+ILLUSTRATEDBOOK,35182,Rank Rewards,,0
+ILLUSTRATEDBOOK,35183,Present Members,,0
+ILLUSTRATEDBOOK,35184,Present Elites,,0
+ILLUSTRATEDBOOK,35185,Item Rewards,,0
+ILLUSTRATEDBOOK,35186,Elite,,0
+ILLUSTRATEDBOOK,35187,Present Members:,,0
+ILLUSTRATEDBOOK,35188,Switch to Pre-Evolution,,0
+ILLUSTRATEDBOOK,35189,Switch to Post-Evolution,,0
+ILLUSTRATEDBOOK,35190,This Fairy cannot be modified yet. Coming soon.,,0
+ILLUSTRATEDBOOK,35191,Protocol Assimilation Department,,0
+ILLUSTRATEDBOOK,35192,,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -2719,6 +2776,13 @@ LOGIN,36071,You are not using wifi. Continue with download?,,0
 LOGIN,36072,Sorry//c network connection lost. Please restart client.,,0
 LOGIN,36073,Confirm to use <color=#FFBB00FF>//n{0}//n</color> as your name? Commander name cannot be changed later.,,0
 LOGIN,36075,Change,,0
+LOGIN,36076,Resources Damaged,,0
+LOGIN,36077,Check game resource integrity?,,0
+LOGIN,36078,Checking resource integrity...,,0
+LOGIN,36079,Client server is intact and requires no repairs.,,0
+LOGIN,36080,Client server repaired!,,0
+LOGIN,36081,Resource Verification,,0
+LOGIN,36082,Resource decompression failed. Please restart client and try again.,,0
 MAIL,37000,GET,,0
 MAIL,37001,NO NEW MESSAGES,,0
 MAIL,37002,NONEWMESSAGES,,0
@@ -2756,6 +2820,17 @@ MAIL,37033,No items to receive!,,0
 MAIL,37034,Receive all,,0
 MAIL,37035,Do you wish to proceed to the Shop to buy the Monthly Auto-Battle Card?,,0
 MAIL,37036,Current Price,,0
+MAIL,37037,Delete read,,0
+MAIL,37038,Delete,,0
+MAIL,37039,No read mail,,0
+MAIL,37040,Read mail contains uncollected rewards,,0
+MAIL,37041,Some read mail has been deleted,,0
+MAIL,37042,All read mail has been cleared,,0
+MAIL,37043,Rewards Obtained,,0
+MAIL,37044,Mail Deleted,,0
+MAIL,37045,Collect Attached Items,,0
+MAIL,37046,Resending Daily Rewards,,0
+MAIL,37047,Dear Commander//c I noticed you hadn't collected your rewards from yesterday when I was sorting things out. I've packed them up for you//c make sure to take them!,,0
 QUESTS,38000,Progress,,0
 QUESTS,38001,Quests,,0
 QUESTS,38002,QUESTS,,0
@@ -2793,15 +2868,60 @@ QUESTS,38035,Unlocks upon unlocking Stage {0}.,,0
 QUESTS,38036,Unlocks upon completing {0} different stages. Current progress {1}.,,0
 QUESTS,38037,Unlocks upon completing {0} different stages with an S rank. Current progress {1}.,,0
 QUESTS,38038,Unlocks upon completing the appropriate system tutorial.,,0
-QUESTS,38039,,,0
-QUESTS,38040,,,0
-QUESTS,38041,,,0
+QUESTS,38039,Level of Activity,,0
+QUESTS,38040,Proceed,,0
 QUESTS,38042,,,0
-QUESTS,38043,,,0
-QUESTS,38044,,,0
-QUESTS,38045,,,0
-QUESTS,38046,,,0
-QUESTS,38047,,,0
+QUESTS,38043,Progress,,0
+QUESTS,38044,Completed,,0
+QUESTS,38045,Obtained,,0
+QUESTS,38046,Obtainable,,0
+QUESTS,38047,Locked,,0
+QUESTS,38048,Spend <color=#e7a300>Black Card Chip*{0}</color>,,0
+QUESTS,38049,Synthesized <color=#e7a300>Black Card*{0}</color>,,0
+QUESTS,38050,This type of resources has been unlocked.,,0
+QUESTS,38051,,,0
+QUESTS,38052,Frontline Protocol has increased to Level {0}.,,0
+QUESTS,38053,No usable Frontline Protocol.,,0
+QUESTS,38054,Nothing to collect.,,0
+QUESTS,38055,Obtain by unlocking Additional Supplies and raising it to Level 25.,,0
+QUESTS,38056,Remaining Time: {0},,0
+QUESTS,38057,,,0
+QUESTS,38058,Combine,,0
+QUESTS,38059,Insufficient Fragments,,0
+QUESTS,38060,Not open yet. Coming soon.,,0
+QUESTS,38061,<color=#ffb400ff><size=48><b>Basic Rules:</b></size></color>//n1. Complete your daily tasks and upgrade your Frontline Protocol to obtain the corresponding level rewards.//n2. The level of your Frontline Protocol is not carried across seasons.//n3. There are a total of 45 Protocol Levels. From Level 45 onwards//c you will gain an <color=#F27C25FF>Interval Air-Drop Indicator</color> for each additional level.//n4. Protocol Levels can be purchased before Level 45. You will no longer be able to access the level purchase interface after reaching Level 45.//n5. When the Frontline Protocol has been updated//c any uncollected rewards will be sent via mail. The mail will be valid for a week//c please make sure you check your mailbox in time.//n//n<color=#ffb400ff><size=48><b>To unlock Additional Supplies:</b></size></color>//n1. While the Protocol is in effect//c you can unlock Additional Supplies any time via <color=#F27C25FF>Purchase Supplies</color>.//n2. Purchase Ground-Transported Supplies to unlock Additional Supplies as well as an extra Weekly Mission.//n3. Purchase Air-Transported Supplies to obtain all rewards given by Ground-Transported Supplies//c as well as gain 10 Protocol Levels//c an exclusive ID and icon frame//c and other rewards.//n//n<color=#ffb400ff><size=48><b>Allotment Indicator:</b></size></color>//n1. After obtaining the Allotment Indicator in your Frontline Protocol//c you need to go to the Warehouse to open your rewards.//n2. All Allotment Indicators will <color=#F27C25FF>expire a week after</color> the current Frontline Protocol is over. Make sure you collect your rewards in time.,,0
+QUESTS,38062,Exchanging for the item will deduct <color=#e7a300>{0}Black Card Chips</color> and <color=#e7a300>{1}Black Cards</color>. Proceed?,,0
+QUESTS,38063,Exchanging for the item will deduct <color=#e7a300>{0}Black Card Chips</color>. Proceed?,,0
+QUESTS,38064,Synthesized Black Card*{0},,0
+QUESTS,38065,Protocol Supplies,,0
+QUESTS,38066,Additional Supplies,,0
+QUESTS,38067,Ground-Transported Supplies,,0
+QUESTS,38068,Air-Transported Supplies,,0
+QUESTS,38069,Obtain at Level 5,,0
+QUESTS,38070,Obtain at Level 15,,0
+QUESTS,38071,Obtain at Level 35,,0
+QUESTS,38072,Obtain at Level 45,,0
+QUESTS,38073,Frontline Protocol,,0
+QUESTS,38074,Additional Supplies locked.,,0
+QUESTS,38075,Commander//c there are no replaceable missions in this category.,,0
+QUESTS,38076,Daily Protocol,,0
+QUESTS,38077,Mission Settlement,,0
+QUESTS,38078,Rewards Preview,,0
+QUESTS,38079,{0} rewards available,,0
+QUESTS,38080,Replace this mission//c confirm?,,0
+QUESTS,38081,Purchase Level,,0
+QUESTS,38082,Current EXP Progress,,0
+QUESTS,38083,Purchase Supplies,,0
+QUESTS,38084,Obtain at specific levels,,0
+QUESTS,38085,Purchase to obtain exclusive rewards,,0
+QUESTS,38086,Includes all rewards in 【Ground-Transported】 Supplies as well as more 【exclusive rewards】.,,0
+QUESTS,38087,*Immediately gain 【10】 Frontline Protocol Levels.,,0
+QUESTS,38088,Unlock 【Additional Supplies】 to gain costumes as well as a large amount of surprise rewards!//nUnlock 【Extra Weeklies】 to beef up your Protocol Level!,,0
+QUESTS,38089,Obtain the following items at the same time,,0
+QUESTS,38090,Purchase {0} levels. Rewards for reaching Level {1} now unlocked.,,0
+QUESTS,38091,*You have accumulated enough medals to unlock the rewards.,,0
+QUESTS,38092,Remaining Time (Week),,0
+QUESTS,38093,Can be obtained with each additional level when Protocol Level is above 45.,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -3241,19 +3361,21 @@ MISSIONSELECTION,40402,Basic Training,,0
 MISSIONSELECTION,40403,Intermediate Training,,0
 MISSIONSELECTION,40404,Advanced Training,,0
 MISSIONSELECTION,40405,Drill rewards already obtained,,0
-MISSIONSELECTION,40406,,,0
-MISSIONSELECTION,40407,,,0
-MISSIONSELECTION,40408,,,0
-MISSIONSELECTION,40409,,,0
-MISSIONSELECTION,40410,,,0
-MISSIONSELECTION,40411,,,0
-MISSIONSELECTION,40412,,,0
-MISSIONSELECTION,40413,,,0
-MISSIONSELECTION,40414,,,0
-MISSIONSELECTION,40415,,,0
-MISSIONSELECTION,40416,,,0
-MISSIONSELECTION,40417,,,0
-MISSIONSELECTION,40418,,,0
+MISSIONSELECTION,40406,Send out at 00:00,,0
+MISSIONSELECTION,40407,Full-Scale Attack,,0
+MISSIONSELECTION,40408,Echelons,,0
+MISSIONSELECTION,40409,Depart,,0
+MISSIONSELECTION,40410,Full-Scale Expedition,,0
+MISSIONSELECTION,40411,Order Full-Scale Expedition//c confirm?,,0
+MISSIONSELECTION,40412,Activate Auto-Battle Contract,,0
+MISSIONSELECTION,40413,{0} in possession,,0
+MISSIONSELECTION,40414,Attack in progress,,0
+MISSIONSELECTION,40415,Expedition in progress,,0
+MISSIONSELECTION,40416,Insufficient Quick Auto-Battle Contracts. Unable to conduct Quick Auto-Battles.,,0
+MISSIONSELECTION,40417,Full-Scale Expedition Successful,,0
+MISSIONSELECTION,40418,Echelon Expedition Successful,,0
+MISSIONSELECTION,40419,Rewards Unobtained,,0
+MISSIONSELECTION,40420,Battle Tips,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3387,6 +3509,37 @@ RESEARCH,51080,Advanced Training Keycode,,0
 RESEARCH,51081,Coalition Forces,,0
 RESEARCH,51082,Please select the Doll to be enhanced or the Coalition Unit to be developed on the left.,,0
 RESEARCH,51083,Insufficient Training Keycode//c please collect them from <color=#FFB400FF>Coalition Drills</color>.,,0
+RESEARCH,51084,Please select the Fairy you would like to level up!,,0
+RESEARCH,51085,The selected materials are enough to max out this Fairy.,,0
+RESEARCH,51086,Max. Limit Reached,,0
+RESEARCH,51087,Insufficient Fairy Level,,0
+RESEARCH,51088,Insufficient Fairy Star Level,,0
+RESEARCH,51089,This Fairy does not meet the requirements for an Evolution Breakthrough.,,0
+RESEARCH,51090,Please select the Fairy or item for the Evolution,,0
+RESEARCH,51091,Insufficient resources. Unable to complete Breakthrough.,,0
+RESEARCH,51092,Evolution Breakthrough,,0
+RESEARCH,51093,Evolve {0},,0
+RESEARCH,51094,Unlock Talent II,,0
+RESEARCH,51095,Evolution EXP,,0
+RESEARCH,51096,View Evolution Guide,,0
+RESEARCH,51097,Evolution III Enhancement,,0
+RESEARCH,51098,,,0
+RESEARCH,51099,Evolution Module,,0
+RESEARCH,51100,Tap "Cancel" to deselect Fairy,,0
+RESEARCH,51101,Each Fairy can undergo a maximum of three Evolution Breakthroughs.,,0
+RESEARCH,51102,A Fairy will gain a new appearance after the third Breakthrough.,,0
+RESEARCH,51103,1. Fairy Evolutions require certain materials. 2. There are 3 Evolution Levels. 3. Talent II is unlocked upon reaching Evolution 2. 4. A new appearance is unlocked upon reaching Evolution 3.,,0
+RESEARCH,51104,Evolution Rules,,0
+RESEARCH,51105,Evolution Breakthrough at maximum,,0
+RESEARCH,51106,Evolution EXP Item,,0
+RESEARCH,51107,Insufficient Evolution EXP. Unable to complete Evolution.,,0
+RESEARCH,51108,Insufficient items. Unable to complete Evolution.,,0
+RESEARCH,51109,Evolution,,0
+RESEARCH,51110,Training,,0
+RESEARCH,51111,Evolution EXP full. Further training not required.,,0
+RESEARCH,51112,Memory Fragments can be obtained by watching T-Doll Memories for the first time and completing Combat Simulations.,,0
+RESEARCH,51113,Bonus Increase,,0
+RESEARCH,51114,The projected Evolution EXP gain far exceeds the Evolution requirement. Proceed with training?,,0
 SETTING,52000,Sound,,0
 SETTING,52001,Sound,,0
 SETTING,52002,Game,,0
@@ -3539,8 +3692,8 @@ SETTING,52148,Bullet Time,,0
 SETTING,52149,Min,,0
 SETTING,52150,Max,,0
 SETTING,52151,Current number of Rename Cards: {0},,0
-SETTING,52152,,,0
-SETTING,52153,,,0
+SETTING,52152,Effect of Selected T-Doll,,0
+SETTING,52153,*Slow down time when a T-Doll is selected.,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -3562,18 +3715,34 @@ STOREROOM,53017,Max. {0},,0
 STOREROOM,53018,EXP,,0
 STOREROOM,53019,All,,0
 STOREROOM,53020,Maximum reached,,0
-STOREROOM,53021,,,0
-STOREROOM,53022,,,0
-STOREROOM,53023,,,0
-STOREROOM,53024,,,0
-STOREROOM,53025,,,0
-STOREROOM,53026,,,0
-STOREROOM,53027,,,0
-STOREROOM,53028,,,0
-STOREROOM,53029,,,0
-STOREROOM,53030,,,0
-STOREROOM,53031,,,0
-STOREROOM,53032,,,0
+STOREROOM,53021,Expiry Compensation,,0
+STOREROOM,53022,Clear,,0
+STOREROOM,53023,Maximum,,0
+STOREROOM,53024,Select {0} items to proceed with repeated bulk operation,,0
+STOREROOM,53025,Operation invalid in preview,,0
+STOREROOM,53026,This cannot be obtained again.,,0
+STOREROOM,53027,There are items which cannot be obtained again.,,0
+STOREROOM,53028,Insufficient Allotment Indicators,,0
+STOREROOM,53029,Please select at least 1 Allotment Indicator.,,0
+STOREROOM,53030,Allotment Indicator expired. Expiry Compensation obtained.,,0
+STOREROOM,53031,Certain Allotment Indicators have expired. Expiry Compensation obtained.,,0
+STOREROOM,53032,Allotment Indicator 【{0}】 will expire on {1}//c please open it in time.,,0
+STOREROOM,53033,Activate an Indicator that specifies the delivery coordinates//c then select an item from the delivery list.,,0
+STOREROOM,53034,Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.,,0
+STOREROOM,53035,Activate an Indicator that calls for a special train delivery and obtain all items from the freight list.,,0
+STOREROOM,53036,Activate an Indicator that calls for a bulk delivery and obtain a specified amount of items.,,0
+STOREROOM,53037,Clear Selection,,0
+STOREROOM,53038,Specified Delivery Indicator,,0
+STOREROOM,53039,Air-Drop Delivery Indicator,,0
+STOREROOM,53040,Train Delivery Indicator,,0
+STOREROOM,53041,Bulk Delivery Indicator,,0
+STOREROOM,53042,Back to Gift Box,,0
+STOREROOM,53043,Cannot be obtained again,,0
+STOREROOM,53045,Effective before,,0
+STOREROOM,53046,Not selected,,0
+STOREROOM,53047,Combine Fragments,,0
+STOREROOM,53048,Close Preview,,0
+STOREROOM,53049,,,0
 EQUIP,54000,Please select the equipment you wish to enhance!,,0
 EQUIP,54001,Enhancement Level,,0
 EQUIP,54002,Accuracy Multiplier,,0
@@ -3655,7 +3824,7 @@ EQUIP,54078,Number Possessed: {0},,0
 EQUIP,54079,Return,,0
 EQUIP,54080,Special Equipment,,0
 EQUIP,54081,Normal Equipment,,0
-EQUIP,54082,,,0
+EQUIP,54082,Equipment Details,,0
 EQUIP,54083,Equipment Data,,0
 EQUIP,54084,How to Obtain,,0
 EQUIP,54085,Related SPEQ,,0
@@ -3680,16 +3849,16 @@ EQUIP,54103,Recover,,0
 EQUIP,54104,Expend the following resources://n{0} Manpower//c {1} Rations//c {2}Ammo//c {3} Parts//n to recover the equipment <color=#ffb400ff>{4}</color>,,0
 EQUIP,54105,Insufficient materials//c cannot proceed with recovery.,,0
 EQUIP,54106,Equipment Type,,0
-EQUIP,54107,,,0
-EQUIP,54108,,,0
-EQUIP,54109,,,0
-EQUIP,54110,,,0
-EQUIP,54111,,,0
-EQUIP,54112,,,0
-EQUIP,54113,,,0
-EQUIP,54114,,,0
-EQUIP,54115,,,0
-EQUIP,54116,,,0
+EQUIP,54107,1. Using Equipment of the same name for Enhancement will give {0}% Basic Development Rate.//n2. Using Enhanced Equipment for Enhancement will transfer {0}% of the Equipment's Development Rate as a bonus.,,0
+EQUIP,54108,Enhancement Rules,,0
+EQUIP,54109,Enhancement//nLevel,,0
+EQUIP,54110,Calibration Rate,,0
+EQUIP,54111,Preview Enhancement Effect,,0
+EQUIP,54112,Preview Calibration Effect,,0
+EQUIP,54113,Enhancement at maximum,,0
+EQUIP,54114,Calibration Complete,,0
+EQUIP,54115,Currently Equipped On,,0
+EQUIP,54116,Idle,,0
 SEPCIALOPS,60000,Operation: Cube,,0
 SEPCIALOPS,60001,Details,,0
 SEPCIALOPS,60002,In combat,,0
@@ -3989,10 +4158,86 @@ SEPCIALOPS,60298,Accumulated Score,,0
 SEPCIALOPS,60299,Rewards,,0
 SEPCIALOPS,60300,Highest Score,,0
 SEPCIALOPS,60301,Total,,0
-SEPCIALOPS,60302,,,0
-SEPCIALOPS,60303,,,0
-SEPCIALOPS,60304,,,0
-SEPCIALOPS,60305,,,0
+SEPCIALOPS,60302,Betti number,,0
+SEPCIALOPS,60303,Cleared,,0
+SEPCIALOPS,60304,Highest Score,,0
+SEPCIALOPS,60305,Reset,,0
+SEPCIALOPS,60306,Commander,,0
+SEPCIALOPS,60307,Authentication Code,,0
+SEPCIALOPS,60308,Highest Combo,,0
+SEPCIALOPS,60309,Score,,0
+SEPCIALOPS,60310,Watermelon Statistics,,0
+SEPCIALOPS,60311,You currently do not have any {0}. You cannot vote.,,0
+SEPCIALOPS,60312,You are about to give <color=#FFB400FF>{1}</color> vote to <color=#FFB400FF>{0}</color>.//nConfirm?,,0
+SEPCIALOPS,60313,You currently have {0},,0
+SEPCIALOPS,60314,Compared to other roles//c the Witch is the most critical key to victory for the villagers.,,0
+SEPCIALOPS,60315,Hm? This isn't as good as a Proof of Goodness//c but at least you're telling me how you feel... I'll take it.,,0
+SEPCIALOPS,60316,Thanks... Hm//c what I mean is... voting for me is a wise choice!,,0
+SEPCIALOPS,60317,Hey//c check your card carefully! I won't accept just about anything!,,0
+SEPCIALOPS,60318,Thank you//c Commander... I-I'll do my best!,,0
+SEPCIALOPS,60319,(Huh? Did the Commander give me the wrong vote?) ...Hm//c n-nothing! This is fine...,,0
+SEPCIALOPS,60320,Forgive me for being blunt//c but isn't it terribly difficult for the villagers to win with several shapeshifters lurking around?,,0
+SEPCIALOPS,60321,I'm not entirely sure what you mean by this... but I'll keep it.,,0
+SEPCIALOPS,60322,Thanks for your vote//c Master... Don't forget to give me a headpat before you go!,,0
+SEPCIALOPS,60323,This won't do//c Master! I hate the way they smell!,,0
+SEPCIALOPS,60324,Leave it to me//c Commander. I will bring you the victory you desire.,,0
+SEPCIALOPS,60325,Sorry//c I aided the werewolves by mistake... I've disappointed you//c haven't I?,,0
+SEPCIALOPS,60326,With this vote//c the villagers are a step closer to victory.,,0
+SEPCIALOPS,60327,Hm? Is this a peace offering that Five-seven asked you to deliver?,,0
+SEPCIALOPS,60328,If we want to survive//c we must remain steadfast in our belief—that we are the good guys.,,0
+SEPCIALOPS,60329,But on the other hand//c no matter how convincing our act is//c we must never forget that we are werewolves.,,0
+SEPCIALOPS,60330,They gave you this card//c but now you're giving it to me... Is this your way of showing affection?,,0
+SEPCIALOPS,60331,Heheh//c thanks for you support! Looks like it's time for me to prove myself to FAL...,,0
+SEPCIALOPS,60332,Heheh//c you're not being so nice to me just because of dessert tonight//c are you?!,,0
+SEPCIALOPS,60333,Hm? You're giving me this vote... because dessert wasn't good enough?,,0
+SEPCIALOPS,60334,If only I could turn this useless card into candy.,,0
+SEPCIALOPS,60335,Hm... Thank you... Five-seven//c I'm done canvassing votes//c right? Can I go now?,,0
+SEPCIALOPS,60336,You're giving this to me without being asked to... Well done!,,0
+SEPCIALOPS,60337,Take it from me—you can shove whatever food into your mouth//c but you can't give away whatever card to others!,,0
+SEPCIALOPS,60338,I didn't expect you'd notice a newbie player like me... Looks like your earthling games aren't that hard!,,0
+SEPCIALOPS,60339,Are you sure you gave me the right vote? I'm kind of archenemies with them//c you know?,,0
+SEPCIALOPS,60340,Wow... A precious vote! You must've been moved by the stories I tell!,,0
+SEPCIALOPS,60341,I am deeply grateful that you're always taking care of me... but this card may bring bad luck//c you know?,,0
+SEPCIALOPS,60342,Heheh... You were actually fooled by my superb acting?,,0
+SEPCIALOPS,60343,Oh dear//c busted... But maybe it isn't so bad to have my identity exposed?,,0
+SEPCIALOPS,60344,Wow! You're even giving me your Proof of Goodness?!,,0
+SEPCIALOPS,60345,Honey~ Don't be a stranger! Just give me all your cards!,,0
+SEPCIALOPS,60346,I shall be the one to secure FAL's victory!,,0
+SEPCIALOPS,60347,Hold on... Why do you have a Sign of the Pack? Did you contact them in secret behind our backs?!,,0
+SEPCIALOPS,60348,The Lycan's shadow lingers... The final act will play out after the {0} server maintenance!,,0
+SEPCIALOPS,60349,*Obtain voting items by clearing event stages and vote for the T-Dolls you support!,,0
+SEPCIALOPS,60350,Which vote would you like to give her?,,0
+SEPCIALOPS,60351,Proof of Goodness,,0
+SEPCIALOPS,60352,Sign of the Pack,,0
+SEPCIALOPS,60353,Total Votes,,0
+SEPCIALOPS,60354,Current Votes,,0
+SEPCIALOPS,60355,Box of Choices,,0
+SEPCIALOPS,60356,Lycan: The Hunt Prologue,,0
+SEPCIALOPS,60357,Hunter's Patrol,,0
+SEPCIALOPS,60358,Target or Trap,,0
+SEPCIALOPS,60359,Twilight Labyrinth,,0
+SEPCIALOPS,60360,Witch's Tent,,0
+SEPCIALOPS,60361,Pond of Demons,,0
+SEPCIALOPS,60362,Signal Fire,,0
+SEPCIALOPS,60363,Afterwinds,,0
+SEPCIALOPS,60364,Chaos Relay,,0
+SEPCIALOPS,60365,Kalina,,0
+SEPCIALOPS,60366,Hunt Ranking Board,,0
+SEPCIALOPS,60367,Summer Epilogue,,0
+SEPCIALOPS,60368,Witch,,0
+SEPCIALOPS,60369,Villager,,0
+SEPCIALOPS,60370,Knight,,0
+SEPCIALOPS,60371,Hunter,,0
+SEPCIALOPS,60372,Matchmaker,,0
+SEPCIALOPS,60373,Seer,,0
+SEPCIALOPS,60374,Werewolf,,0
+SEPCIALOPS,60375,Fool,,0
+SEPCIALOPS,60376,Big Bad Wolf,,0
+SEPCIALOPS,60377,Bodyguard,,0
+SEPCIALOPS,60378,You have already voted {0} times today. Come again tomorrow~,,0
+SEPCIALOPS,60379,,,0
+SEPCIALOPS,60380,,,0
+SEPCIALOPS,60381,,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -4186,6 +4431,7 @@ MALL,71155,Sim Energy sold out for today,,0
 MALL,71156,Potential Energy sold out for today,,0
 MALL,71157,Buy Sim Energy,,0
 MALL,71158,Buy Potential Energy,,0
+MALL,71159,Content Preview,,0
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
@@ -4538,10 +4784,12 @@ FRIEND,110052,Background: Default,,0
 FRIEND,110053,Lv.{0},,0
 FRIEND,110054,Lv.,,0
 FRIEND,110055,Medals Displayed on ID Card,,0
-FRIEND,110056,,,0
-FRIEND,110057,,,0
-FRIEND,110058,,,0
-FRIEND,110059,,,0
+FRIEND,110056,ID Image,,0
+FRIEND,110057,Icon Frame,,0
+FRIEND,110058,Previewing,,0
+FRIEND,110059,Icon frame changed successfully,,0
+FRIEND,110060,Icon Frame - Alloy Shell,,0
+FRIEND,110061,Default icon,,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
@@ -4635,6 +4883,11 @@ FAIRY,130049,Type II Talents,,0
 FAIRY,130050,Special Talents,,0
 FAIRY,130051,Talent Level,,0
 FAIRY,130052,Talent Type,,0
+FAIRY,130053,Evolution 1 Enhancement,,0
+FAIRY,130054,Evolution 2 Enhancement,,0
+FAIRY,130055,,,0
+FAIRY,130056,,,0
+FAIRY,130057,Full,,0
 GUIDE,140000,Every calibration provides a chance to <color=#FFB400FF>rollback to your previous calibration</color>. So feel free to calibrate without worry.,,0
 GUIDE,140001,//nThere are several <color=#FFB400FF>Radar nodes</color> on the battlefield.//nOccupying a <color=#FFB400FF>Radar</color> will grant vision within 2 nodes of that Radar.,,0
 GUIDE,140002,//nCommander//c welcome to the <color=#FFB400FF>T-Dolls' Dormitory</color>!//nYou can <color=#FFB400FF>arrange furniture</color> and <color=#FFB400FF>interact</color> with your T-Dolls here.//n,,0
@@ -4973,6 +5226,14 @@ GUIDE,140335,Select the <color=#E57006FF>chip size</color> for chip auto-arrange
 GUIDE,140336,After selecting "rotate chip"//c chips will be <color=#E57006FF>automatically rotated</color> when auto-arrange is used.,,0
 GUIDE,140337,Select the <color=#E57006FF>star level</color> of chips for auto-arrange.,,0
 GUIDE,140338,Set the corresponding background for this adjutant.,,0
+GUIDE,140339,Commander//c let me introduce 【Griffin Daily Tasks】. Your daily and weekly daily tasks to be completed are all listed here//c and I will help you with them.,,0
+GUIDE,140340,I will compile a <color=#f27f19>random</color> list of 【Daily Key Tasks】 and 【Weekly Key Tasks】 depending on the different types of missions in the 【Daily Tasks】.,,0
+GUIDE,140341,You can <color=#f27f19>tap </color> the reset button to reset a mission item once. If I have other tasks of the same type//c I'll switch it out for you.,,0
+GUIDE,140342,Complete your 【Daily Key Tasks】 to obtain 【Daily Protocol】 <color=#f27f19>Verified Signets</color>. You will also obtain different amounts of <color=#f27f19>Activity Points</color> by completing 【Daily Key Tasks】 and 【Weekly Key Tasks】.,,0
+GUIDE,140343,Rewards can be redeemed when you fill up the 【Daily Protocol】 panel with <color=#f27f19>Verified Signets</color>.,,0
+GUIDE,140344,【Daily Key Tasks】 are refreshed at <color=#f27f19>00:00 every day</color>. 【Weekly Key Tasks】 are refreshed <color=#f27f19>at 00:00 every Monday</color>. Take not of how much time you have left for completing your tasks.,,0
+GUIDE,140345,That's everything covered regarding 【Griffin Daily Tasks】. Remember to complete them//c Commander!,,0
+GUIDE,140346,<color=#f27f19>Activity Points</color> contributes to the progress of 【Griffin Weekly】. You can redeem generous rewards upon reaching certain thresholds.,,0
 BEGINNERGUIDE,150000,Please head to the [COMBAT] screen.,,0
 BEGINNERGUIDE,150001,After obtaining the three medals for a mission//c you can use the [Auto-Battle] command.,,0
 BEGINNERGUIDE,150002,Different Auto-Battle missions require different numbers of Echelons to engage.,,0
@@ -5017,8 +5278,8 @@ BEGINNERGUIDE,150040,Equipment Calibration can increase the numerical amount of 
 BEGINNERGUIDE,150041,Equipment Enhancement can improve equipment stats by certain percentages. Press here to enhance.,,0
 BEGINNERGUIDE,150042,Commander//c our Fairies can use [Fairy Calibration] too! Please start by choosing a Fairy.,,0
 BEGINNERGUIDE,150043,Commander//c setting up an Echelon is our first priority. Please press <color=#ffb400>[FORMATION]</color> to proceed.,,0
-BEGINNERGUIDE,150044,Just like before//c please proceed with [Produce Equipment].,,0
-BEGINNERGUIDE,150045,Now//c we can access [Heavy Production]!,,0
+BEGINNERGUIDE,150044,Just like before//c please proceed with [Fairy Production].,,0
+BEGINNERGUIDE,150045,Now//c we can access [Fairy Production]!,,0
 BEGINNERGUIDE,150046,Commander//c Fairies have their own place to rest as well. Let's take a look.,,0
 BEGINNERGUIDE,150047,Press here to enter [Fairy Chamber].,,0
 BEGINNERGUIDE,150048,Commander//c please press <color=#ffb400>[Select Fairy]</color>.,,0
@@ -5102,6 +5363,9 @@ BEGINNERGUIDE,150125,Commander//c Griffin has now put the research and developme
 BEGINNERGUIDE,150126,The research and development of the Heavy Ordnance Corps is based primarily upon combat intel//c so we are working in cooperation with Wave Tech//c an organization that deals with intelligence and analysis. Please press Auxiliary Room.,,0
 BEGINNERGUIDE,150127,Press here to enter Wave Tech's 【Intelligence Center】.,,0
 BEGINNERGUIDE,150128,The recommended recipes provide optimal production rates for all sorts of weapon types. Feel free to refer to it.,,0
+BEGINNERGUIDE,150129,Commander//c Fairies can now undergo Evolutions! Go to <color=#ffb400ff>【Develop】</color> and have a look!,,0
+BEGINNERGUIDE,150130,Tap <color=#ffb400ff>【Upgrade & Breakthrough】</color>.,,0
+BEGINNERGUIDE,150131,Then tap <color=#ffb400ff>【Fairy Evolution Breakthrough】</color> to make your Fairies even stronger!,,0
 SPECIALFORGLOBAL,160000,Rounds,,0
 SPECIALFORGLOBAL,160001,Target,,0
 SPECIALFORGLOBAL,160002,Night,,0
@@ -5393,13 +5657,16 @@ SQUAD,190262,Please select chip type to be installed.,,0
 SQUAD,190263,Chip auto-arrange has failed for an unknown reason. Consider changing the filter criteria or trying again after collecting more chips.,,0
 SQUAD,190264,Auto-Arrange,,0
 SQUAD,190265,Preview max-level chip stats,,0
-SQUAD,190266,,,0
-SQUAD,190267,,,0
-SQUAD,190268,,,0
-SQUAD,190269,,,0
-SQUAD,190270,,,0
-SQUAD,190271,,,0
-SQUAD,190272,,,0
+SQUAD,190266,Max Level Preview,,0
+SQUAD,190267,Quick Training will consume <color=#ffb400ff>{0}</color> <color=#ffb400ff>{1}</color><color=#ffb400ff> ({2} remaining)</color>. Confirm and proceed?,,0
+SQUAD,190268,1. Chip stats improve with each Enhancement Level.//n2.2-star Chips cannot be enhanced.//n3. The higher a Chip's star level//c the more EXP is required to enhance it.//n4. The higher a Chip's star level//c the more EXP it provides as Enhancement fodder.//n5.Chips of the same color gives 20% more EXP as Enhancement fodder.//n6. Chips with Enhancement EXP provides extra Enhancement EXP when used as Enhancement fodder. The extra EXP it gives is 80% of its own Enhancement EXP.,,0
+SQUAD,190269,Jump,,0
+SQUAD,190270,Select Chip star level to recycle,,0
+SQUAD,190271,Select Chip star level to consume,,0
+SQUAD,190272,Rescue Hostage,,0
+SQUAD,190273,Tap to conduct EXP Training,,0
+SQUAD,190274,Tap to conduct Skill Training,,0
+SQUAD,190275,,,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0
@@ -5423,7 +5690,7 @@ TOAST,200019,No equipment available for disassembly,,0
 TOAST,200020,No Fairies available for disassembly,,0
 TOAST,200021,Clear {0} to unlock <color=#ffb400>Equipment Production</color>,,0
 TOAST,200022,Clear {0} different stages to unlock <color=#ffb400>Equipment Heavy Production</color>. Current clears {1}/{2},,0
-TOAST,200023,Equipment Production Slot unlocked!,,0
+TOAST,200023,Equipment and Fairy Production Slot Unlocked!,,0
 TOAST,200024,Clear {0} different stages to unlock <color=#ffb400>Fairy Chamber</color>. Current clears {1}/{2},,0
 TOAST,200025,Clear {0} to unlock <color=#ffb400>{1}</color>,,0
 TOAST,200026,<color=#ffb400>{0}</color> is being upgraded,,0
@@ -5789,14 +6056,14 @@ THEATER,210253,Resume battle,,0
 THEATER,210254,Rules,,0
 THEATER,210255,Support Echelon,,0
 THEATER,210256,Advantaged T-Dolls,,0
-THEATER,210257,,,0
-THEATER,210258,,,0
+THEATER,210257,Total Score,,0
+THEATER,210258,Cost: {0},,0
 THEATER,210259,Points,,0
-THEATER,210260,,,0
-THEATER,210261,,,0
+THEATER,210260,Good,,0
+THEATER,210261,Excellent,,0
 THEATER,210262,No.,,0
-THEATER,210263,,,0
-THEATER,210264,,,0
+THEATER,210263,Wave,,0
+THEATER,210264,Score bonus of each type of unit,,0
 THEATER,210265,No Doll echelon deployed,,0
 THEATER,210266,No Coalition echelon deployed,,0
 THEATER,210267,Different Theater regions have different <color=#ffb400>advantaged T-Dolls</color>.//n Advantaged T-Dolls have additional <color=#ffb400>elite enemy score multipliers</color> for themselve,,0
@@ -5957,6 +6224,7 @@ MISSIONTARGET,220116,Pin to top,,0
 MISSIONTARGET,220117,Unable to save target.,,0
 MISSIONTARGET,220118,No saved targets yet.,,0
 MISSIONTARGET,220119,Introduction,,0
+MISSIONTARGET,220120,Theater Target,,0
 VA11HALLA,230000,By Name,,0
 VA11HALLA,230001,By Flavor,,0
 VA11HALLA,230002,By Type,,0
@@ -6543,17 +6811,17 @@ SANGVIS,260147,Initial 3-Star,,0
 SANGVIS,260148,Quick Top Up,,0
 SANGVIS,260149,Confirm,,0
 SANGVIS,260150,No enemy units detected//c unable to perform captures. (There are no events in progress at the moment//c please keep an eye open for official event announcements.),,0
-SANGVIS,260151,,,0
-SANGVIS,260152,,,0
-SANGVIS,260153,,,0
-SANGVIS,260154,,,0
-SANGVIS,260155,,,0
-SANGVIS,260156,,,0
-SANGVIS,260157,,,0
-SANGVIS,260158,,,0
-SANGVIS,260159,,,0
-SANGVIS,260160,,,0
-SANGVIS,260161,,,0
+SANGVIS,260151,Load,,0
+SANGVIS,260152,Chip Development Load Exchange,,0
+SANGVIS,260153,Insufficient Development Load. Please put in more items.,,0
+SANGVIS,260154,Insufficient item in storage. Unable to provide sufficient Development Load,,0
+SANGVIS,260155,Development Duration,,0
+SANGVIS,260156,Development Cost,,0
+SANGVIS,260157,*Excess Development Load will be lost.,,0
+SANGVIS,260158,Provide Load,,0
+SANGVIS,260159,Research,,0
+SANGVIS,260160,Item Quantity,,0
+SANGVIS,260161,In possession,,0
 FORMATION,270002,Echelon//nPreset,,0
 FORMATION,270003,Select Formation,,0
 FORMATION,270004,Formation Strengths,,0
@@ -6608,14 +6876,14 @@ FORMATION,270052,Contains <color=#ffb400>Exclusive Equipment</color>,,0
 FORMATION,270053,Proceed to Formation,,0
 FORMATION,270054,Auto-Formation,,0
 FORMATION,270055,Automatically appointed as leader of Echelon {0},,0
-FORMATION,270056,,,0
-FORMATION,270057,,,0
+FORMATION,270056,{0} has no assigned leader. Please assign a leader.,,0
+FORMATION,270057,Echelon {0},,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
-MINIGAME,280003,Queued,,0
+MINIGAME,280003,Waiting,,0
 MINIGAME,280004,Create room,,0
 MINIGAME,280005,Matching with other players//c please wait...,,0
-MINIGAME,280006,,,0
+MINIGAME,280006,Queued,,0
 MINIGAME,280007,Match found. Would all Commanders please get ready.,,0
 MINIGAME,280008,{0}/{1} ready,,0
 MINIGAME,280009,Preparation Countdown,,0
@@ -6642,7 +6910,7 @@ MINIGAME,280029,Map,,0
 MINIGAME,280030,Quick Chat,,0
 MINIGAME,280031,Ready,,0
 MINIGAME,280032,{0}/{1},,0
-MINIGAME,280033,,,0
+MINIGAME,280033,Map,,0
 MINIGAME,280034,Waiting to join,,0
 MINIGAME,280035,Start Game,,0
 MINIGAME,280036,Prepare,,0
@@ -6651,7 +6919,7 @@ MINIGAME,280038,Idle...,,0
 MINIGAME,280039,Cancel,,0
 MINIGAME,280040,Use,,0
 MINIGAME,280041,This item will be used by the currently selected piece.,,0
-MINIGAME,280042,,,0
+MINIGAME,280042,Use,,0
 MINIGAME,280043,Select a target on which to activate this card ({0}/{1}).,,0
 MINIGAME,280044,*Progress +n per round. Progress +n when draw is forfeited.,,0
 MINIGAME,280045,Temporary Hire,,0
@@ -6672,7 +6940,7 @@ MINIGAME,280059,Select a target to attack {0}/{1},,0
 MINIGAME,280060,Select the piece you wish to move.,,0
 MINIGAME,280061,Change direction,,0
 MINIGAME,280062,Confirm the piece's direction to complete the deployment.,,0
-MINIGAME,280063,,,0
+MINIGAME,280063,Change Direction,,0
 MINIGAME,280064,Confirm the piece's direction to complete the deployment.,,0
 MINIGAME,280065,Clockwise,,0
 MINIGAME,280066,Anti-clockwise,,0
@@ -6782,7 +7050,7 @@ MINIGAME,280169,Top Chessmasters,,0
 MINIGAME,280170,*Honor determines the status of a Commander in Luffberry Chess. Accumulating points in Tournament Matches will increase a Commander's Honor. The higher your Honor Level//c the harder it will be to obtain more points.,,0
 MINIGAME,280171,*Here are the Top 100 Chessmasters on the Honor Score Ranking Board. Ranking is refreshed at 4am every day.,,0
 MINIGAME,280172,Enter Room ID to join,,0
-MINIGAME,280173,,,0
+MINIGAME,280173,Scoring Game,,0
 MINIGAME,280174,Waiting for other Commanders...,,0
 MINIGAME,280175,Effect Card obtained,,0
 MINIGAME,280176,Item Card obtained,,0
@@ -6960,8 +7228,8 @@ MINIGAME,280349,{0}' {1} has gained {3} point(s) of {2},,0
 MINIGAME,280350,{0}' {1} has lost {3} point(s) of {2},,0
 MINIGAME,280351,{0} has regenerated {1} HP,,0
 MINIGAME,280352,{0} has taken {1} point(s) of damage,,0
-MINIGAME,280353,,,0
-MINIGAME,280354,,,0
+MINIGAME,280353,{0} has gained {2} point(s) of {1},,0
+MINIGAME,280354,{0} has lost {2} point(s) of {1},,0
 MINIGAME,280355,Armor,,0
 MINIGAME,280356,Armor Penetration,,0
 MINIGAME,280357,Number of Attacks,,0
@@ -6993,8 +7261,8 @@ MINIGAME,280382,You cannot trade Cards after your purchase is "Completed". Pleas
 MINIGAME,280383,No movable pieces,,0
 MINIGAME,280384,Calculating...,,0
 MINIGAME,280385,{0}'s {1},,0
-MINIGAME,280386,,,0
-MINIGAME,280387,,,0
+MINIGAME,280386,{0} has regenerated {1} HP,,0
+MINIGAME,280387,{0} has taken {1} point(s) of damage,,0
 MINIGAME,280388,{0} has gained Luffberry Token x{1},,0
 MINIGAME,280389,{0} has lost Luffberry Token x{1},,0
 MINIGAME,280390,{0}'s {1} has turned into {2} points,,0
@@ -7058,7 +7326,7 @@ MINIGAME,280447,Phase error,,0
 MINIGAME,280448,You cannot quit the game now,,0
 MINIGAME,280449,Pending,,0
 MINIGAME,280450,Confirmed,,0
-MINIGAME,280451,,,0
+MINIGAME,280451,End Purchase,,0
 MINIGAME,280453,Pieces already on the board cannot be deployed again. Please select another piece.,,0
 MINIGAME,280454,Luffberry Chess View Mode,,0
 MINIGAME,280455,Best Frame Rate,,0
@@ -7096,14 +7364,15 @@ MINIGAME,280486,You will not be matched with this player for the next {0} minute
 MINIGAME,280487,Maximum number of blocked players reached,,0
 MINIGAME,280488,Gacha,,0
 MINIGAME,280489,Maximum number of gachapon tickets reached//c you cannot obtain any more!,,0
-MINIGAME,280490,,,0
-MINIGAME,280491,,,0
-MINIGAME,280492,,,0
-MINIGAME,280493,,,0
-MINIGAME,280494,,,0
-MINIGAME,280495,,,0
-MINIGAME,280496,,,0
-MINIGAME,280497,,,0
-MINIGAME,280498,,,0
-MINIGAME,280499,,,0
+MINIGAME,280490,Past Exchange,,0
+MINIGAME,280491,Past Reward Exchange,,0
+MINIGAME,280492,Appearance,,0
+MINIGAME,280493,Matching players,,0
+MINIGAME,280494,Please wait...,,0
+MINIGAME,280495,Item already in possession. Cannot be exchanged again!,,0
+MINIGAME,280496,Please exit matching queue first.,,0
+MINIGAME,280497,Match timed out//c please try again!,,0
+MINIGAME,280498,Currently in use,,0
+MINIGAME,280499,Not obtained,,0
 MINIGAME,280500,,,0
+MINIGAME,280501,Chessboard background locked and cannot be used.,,0
