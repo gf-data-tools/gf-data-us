@@ -25764,6 +25764,32 @@
     classification_id: "3002"
   }
   {
+    id: "21418"
+    type: "8"
+    gemprice: "128"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_red
+    daily_quota: "1"
+    discount: "1.00"
+    prize_id: "220059"
+    classification_id: "3002"
+  }
+  {
+    id: "21419"
+    type: "8"
+    item_ids: 8-1,7-1,506-1000
+    gift: 100003-10
+    gemprice: "580"
+    quota: "2002"
+    giftbag_name: Dec Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
     id: "99001"
     type: "102"
     gemprice: "980"

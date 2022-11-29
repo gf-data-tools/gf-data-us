@@ -128,6 +128,9 @@
     target_move: "2"
     critical_hit_rate: "100"
     float_wide: 15
+    beat_back_percent: *204
+    target_move_percent: "100"
+    target_skill: 759045
     hit_type: 1
   }
   {
@@ -137,6 +140,9 @@
     target_move: "2"
     critical_hit_rate: "100"
     float_wide: 15
+    beat_back_percent: *204
+    target_move_percent: "100"
+    target_skill: 759045
     hit_type: 1
   }
   {
@@ -146,6 +152,9 @@
     target_move: "2"
     critical_hit_rate: "100"
     float_wide: 15
+    beat_back_percent: *204
+    target_move_percent: "100"
+    target_skill: 759045
     hit_type: 1
   }
   {
@@ -3521,6 +3530,14 @@
     hit_type: 1
   }
   {
+    id: 622
+    description: 打西瓜伤害
+    extra_damage: "1"
+    is_critical_hit: 1
+    hit_type: 1
+    ui_control: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -5740,6 +5757,93 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1000004566
+    hit_type: 1
+  }
+  {
+    id: 2228
+    description: 水白一技能伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2229
+    description: 水白一技能解析伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2230
+    description: 水白普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2231
+    description: 水白溅射
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2232
+    description: 水白二技能范围
+    damage_ratio: *202
+    is_form_hurt: 1
+    buff_id_target: 8306:1,8347:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2233
+    description: 水白斩杀伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    buff_id_self: 8320:1
+    buff_rate: "100"
+    hit_type: 1
+    is_ricochet: 1
+    is_shield: 100
+  }
+  {
+    id: 2234
+    description: 水白特殊普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2235
+    description: 相位子弹
+    buff_id_self: 8344:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2236
+    description: MK3A1机械装置激光
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
     hit_type: 1
   }
   {

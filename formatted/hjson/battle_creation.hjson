@@ -70643,6 +70643,308 @@
     scale: "0.7,0.7"
   }
   {
+    id: 8695
+    name: 僵尸boss寒霜光环1
+    code: Zombiesummer/wenyi
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "9999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "7"
+    buff_id: 8282:1,8283:1,8284:1,8285:1,8286:1,8287:1
+    buff_cd: "10,10,10,10,10,10"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8696
+    name: 僵尸boss寒霜光环2
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "9999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    buff_id: 8289:1,8290:1,8291:1,8292:1,8293:1,8294:1
+    buff_cd: "10,10,10,10,10,10"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8697
+    name: 僵尸boss寒霜光环3
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "9999"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8295:1,8296:1,8297:1,8298:1,8299:1,8300:1
+    buff_cd: "10,10,10,10,10,10"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8698
+    name: 僵尸检测身前
+    start_type: "3"
+    start_offset: "-1.4,0.1"
+    destination_type: "3"
+    destination_offset: "-1.4,0.1"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    buff_id: "8288"
+    is_form_play: 1
+    scale: "2,0,4"
+  }
+  {
+    id: 8699
+    name: 僵尸boss反馈召唤物
+    start_type: hip
+    destination_type: hip
+    exist_duration: "5"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4176"
+  }
+  {
+    id: 8700
+    name: 僵尸boss前进践踏特效
+    code: Zombiesummer/BOSS_jiangshi sp2_1
+    start_type: "3"
+    start_offset: "-0.6"
+    destination_type: "3"
+    destination_offset: "-0.6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "5"
+    buff_id: 203:1,205:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8701
+    name: 僵尸boss前进伤害
+    start_type: "3"
+    start_offset: "-0.6"
+    destination_type: "3"
+    destination_offset: "-0.6"
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "5"
+    hurt_id: "400"
+    buff_id: "8317"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8702
+    name: 跟随僵尸boss上buff
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "240"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "4"
+    buff_id: "529"
+    buff_cd: "239"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8703
+    name: 僵尸boss普攻
+    start_type: "3"
+    start_offset: "-1.4"
+    destination_type: "3"
+    destination_offset: "-1.4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "404"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 8704
+    name: 僵尸boss吃小僵尸
+    start_type: "5"
+    destination_type: "5"
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 15000
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 1
+    hurt_id: "407"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 8705
+    name: 小僵尸标记
+    start_type: "3"
+    start_offset: "11,0.1"
+    destination_type: "3"
+    destination_offset: "11,0.1"
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "20"
+    buff_id: "531"
+    buff_cd: "20"
+    is_form_play: 1
+    scale: "10,0,20"
+  }
+  {
+    id: 8706
+    name: 吃僵尸特效
+    code: Zombiesummer/BOSS_jiangshi sp4_1
+    start_type: "6"
+    destination_type: "6"
+    route_type: 1
+    speed: 1800
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8707
+    name: 僵尸吼叫特效
+    code: Zombiesummer/ZombieCalling
+    start_type: "3"
+    start_offset: "0.2,2.9,0"
+    destination_type: "3"
+    destination_offset: "0.2,2.9,0"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8708
+    name: 僵尸boss前进践踏特效
+    code: Zombiesummer/BOSS_jiangshi sp2_1
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8709
+    name: 僵尸普攻特效
+    code: Zombiesummer/BOSS_jiangshi sp
+    start_type: hip
+    start_offset: "-1.9,-0.4"
+    destination_type: hip
+    destination_offset: "-1.9,-0.4"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8710
+    name: 僵尸普攻特效2
+    code: Zombiesummer/BOSS_jiangshi sp
+    start_type: hip
+    start_offset: "-2.1,-0.5"
+    destination_type: hip
+    destination_offset: "-2.1,-0.5"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8711
+    name: 随机召唤僵尸
+    start_type: "8"
+    start_offset: "12"
+    destination_type: "8"
+    destination_offset: "12"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "863"
+  }
+  {
+    id: 8712
+    name: 随机召唤僵尸
+    start_type: "8"
+    start_offset: "12"
+    destination_type: "8"
+    destination_offset: "12"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "865"
+  }
+  {
+    id: 8713
+    name: 随机召唤僵尸
+    start_type: "8"
+    start_offset: "12"
+    destination_type: "8"
+    destination_offset: "12"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "864"
+  }
+  {
+    id: 8714
+    name: 随机召唤僵尸
+    start_type: "8"
+    start_offset: "12"
+    destination_type: "8"
+    destination_offset: "12"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "866"
+  }
+  {
+    id: 8715
+    name: 随机召唤僵尸
+    start_type: "8"
+    start_offset: "12"
+    destination_type: "8"
+    destination_offset: "12"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "868"
+  }
+  {
     id: 8716
     name: 突击步枪枪子弹
     code: bullet/bullet2
@@ -70656,6 +70958,1350 @@
     hurt_id: "2227"
     is_form_play: 1
     scale: "0.35,0.35,1"
+  }
+  {
+    id: 8717
+    name: 水白一技能范围伤害
+    code: NytoWhiteSummer/YZBNT_lang
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "2228"
+    buff_id: 8306:1,8347:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1.8,1.8,1.8"
+  }
+  {
+    id: 8718
+    name: 水白一技能范围伤害解析
+    code: NytoWhiteSummer/YZBNT_lang
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "4"
+    hurt_id: "2229"
+    buff_id: 8306:1,8347:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "2.1,2.1,2.1"
+  }
+  {
+    id: 8719
+    name: 水白咸鱼召唤1
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4177"
+  }
+  {
+    id: 8720
+    name: 水白咸鱼召唤2
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4178"
+  }
+  {
+    id: 8721
+    name: 水白咸鱼召唤3
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4179"
+  }
+  {
+    id: 8722
+    name: 水白咸鱼召唤4
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4180"
+  }
+  {
+    id: 8723
+    name: 水白咸鱼召唤5
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4181"
+  }
+  {
+    id: 8724
+    name: 僵尸boss践踏伤害特效
+    code: Zombiesummer/BOSS_jiangshi sp2_2
+    start_type: "6"
+    start_offset: "-0.9"
+    destination_type: "6"
+    destination_offset: "-0.9"
+    is_clone: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 8725
+    name: 水白备用
+    start_type: "3"
+    start_offset: "1"
+    destination_type: "3"
+    destination_offset: "1"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4181"
+  }
+  {
+    id: 8726
+    name: 水白普攻子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 4000
+    effect_area: 1
+    hurt_id: "2230"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8727
+    name: 水白溅射子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 4000
+    effect_area: 1
+    hurt_id: "2231"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "8766"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 8728
+    name: 水白二技能范围
+    start_type: "6"
+    start_offset: "0.8"
+    destination_type: "6"
+    destination_offset: "0.8"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2232"
+    buff_id: 8306:1000004580,8347:1000004580
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8729
+    name: 水白斩杀子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 9000
+    effect_area: 1
+    hurt_id: "2233"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8730
+    name: 水白斩杀眩晕
+    start_type: "6"
+    destination_type: "6"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 8328:1,8329:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8731
+    name: 水白特殊普攻子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 4000
+    effect_area: 1
+    hurt_id: "2234"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8732
+    name: 自爆爆炸伤害
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    hurt_id: "2619"
+    is_form_play: 1
+    scale: "10,0,10"
+  }
+  {
+    id: 8733
+    name: 炮台死亡爆炸
+    code: Jupiter/zibao
+    start_type: hip
+    destination_type: hip
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "90"
+    is_form_play: 1
+    creation_type: 2
+    scale: "2.5,2.5"
+    sound_order: BT_grenade_explode,BT_grenade_explode,BT_grenade_explode
+    sound_delay: "0,0,0"
+  }
+  {
+    id: 8734
+    name: 自爆自我伤害
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    route_type: 1
+    speed: 500
+    hurt_id: "2620"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8735
+    name: GLY增援1
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4182"
+  }
+  {
+    id: 8736
+    name: GLY增援2
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4183"
+  }
+  {
+    id: 8737
+    name: GLY增援3
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4184"
+  }
+  {
+    id: 8738
+    name: GLY增援4
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4185"
+  }
+  {
+    id: 8739
+    name: GLY增援5
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4186"
+  }
+  {
+    id: 8740
+    name: 蓝牌1
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4187"
+  }
+  {
+    id: 8741
+    name: 蓝牌2
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4188"
+  }
+  {
+    id: 8742
+    name: 蓝牌3
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4189"
+  }
+  {
+    id: 8743
+    name: 蓝牌4
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4190"
+  }
+  {
+    id: 8744
+    name: 蓝牌5
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4191"
+  }
+  {
+    id: 8745
+    name: 黄排1
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4192"
+  }
+  {
+    id: 8746
+    name: 黄排2
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4193"
+  }
+  {
+    id: 8747
+    name: 黄排3
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4194"
+  }
+  {
+    id: 8748
+    name: 黄排4
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4195"
+  }
+  {
+    id: 8749
+    name: 黄排5
+    start_type: "3"
+    destination_type: "3"
+    creation_type: 2
+    scale: "1"
+    summoner_order: "4196"
+  }
+  {
+    id: 8750
+    name: 蓝排我方护盾回避
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "3"
+    buff_id: 1000004576:1,1000004577:1,8343:1
+    buff_cd: "0,0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8751
+    name: 黄排敌方眩晕
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: 8336:1,8337:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8752
+    name: 自爆自我相位
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2235"
+    buff_id: 8344:1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8753
+    name: 咸鱼特效
+    code: NytoWhiteSummer/YZBNT_xianyu
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "9999"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8754
+    name: 自爆爆炸伤害易伤召唤物
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    is_form_play: 1
+    scale: "10,0,10"
+    summoner_order: "4197"
+  }
+  {
+    id: 8755
+    name: 自爆爆炸伤害易伤召唤物
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    is_form_play: 1
+    scale: "10,0,10"
+    summoner_order: "4198"
+  }
+  {
+    id: 8756
+    name: 自爆爆炸伤害易伤召唤物
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    is_form_play: 1
+    scale: "10,0,10"
+    summoner_order: "4199"
+  }
+  {
+    id: 8757
+    name: 自爆爆炸伤害易伤召唤物
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    is_form_play: 1
+    scale: "10,0,10"
+    summoner_order: "4200"
+  }
+  {
+    id: 8758
+    name: 自爆爆炸伤害易伤召唤物
+    start_type: "3"
+    destination_type: "3"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    is_form_play: 1
+    scale: "10,0,10"
+    summoner_order: "4201"
+  }
+  {
+    id: 8759
+    name: 鲨排易伤
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "3"
+    buff_id: 8330:1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8760
+    name: 潮音斩击特效1
+    code: NytoWhiteSummer/YZBNT_dg02
+    start_type: "3"
+    start_offset: "1,0,0"
+    destination_type: "3"
+    destination_offset: "6,0,0"
+    route_type: 1
+    speed: 800
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8761
+    name: 潮音斩击特效2
+    code: NytoWhiteSummer/YZBNT_dg02
+    start_type: "3"
+    start_offset: "1,0,0"
+    destination_type: "3"
+    destination_offset: "6,0,0"
+    route_type: 1
+    speed: 800
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8762
+    name: 潮音斩击特效3
+    code: NytoWhiteSummer/YZBNT_dg01
+    start_type: "3"
+    start_offset: "1,0,0"
+    destination_type: "3"
+    destination_offset: "6,0,0"
+    route_type: 1
+    speed: 800
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8763
+    name: 浪涌印记特效
+    code: NytoWhiteSummer/YZBNT_biaoji
+    start_type: "3"
+    start_offset: "-1,2,0"
+    destination_type: "3"
+    destination_offset: "-1,2,0"
+    is_tracing: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8764
+    name: 二技能拉取
+    code: NytoWhiteSummer/YZBNT_huanrao
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "2,2,2"
+    is_die_delete: 1
+  }
+  {
+    id: 8765
+    name: 二技能锁链
+    code: NytoWhiteSummer/YZBNT_suolian
+    start_type: "3"
+    start_offset: "4,2,0"
+    destination_type: "3"
+    destination_offset: "4,2,0"
+    is_tracing: 1
+    exist_duration: "150"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8766
+    name: 溅射受击
+    code: NytoWhiteSummer/YZBNT_sj
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8767
+    name: 蓝排特效
+    code: NytoWhiteSummer/YZBNT_chuxian01
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8768
+    name: 黄排特效
+    code: NytoWhiteSummer/YZBNT_chuxian02
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8769
+    name: MK3A1机械1-1
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4202"
+  }
+  {
+    id: 8770
+    name: MK3A1机械1-2
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4203"
+  }
+  {
+    id: 8771
+    name: MK3A1机械1-3
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4204"
+  }
+  {
+    id: 8772
+    name: MK3A1机械1-4
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4205"
+  }
+  {
+    id: 8773
+    name: MK3A1机械1-5
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4206"
+  }
+  {
+    id: 8774
+    name: MK3A1机械1-6
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4207"
+  }
+  {
+    id: 8775
+    name: MK3A1机械1-7
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4208"
+  }
+  {
+    id: 8776
+    name: MK3A1机械1-8
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4209"
+  }
+  {
+    id: 8777
+    name: MK3A1机械1-9
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4210"
+  }
+  {
+    id: 8778
+    name: MK3A1机械1-10
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4211"
+  }
+  {
+    id: 8779
+    name: MK3A1机械2-1
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4212"
+  }
+  {
+    id: 8780
+    name: MK3A1机械2-2
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4213"
+  }
+  {
+    id: 8781
+    name: MK3A1机械2-3
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4214"
+  }
+  {
+    id: 8782
+    name: MK3A1机械2-4
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4215"
+  }
+  {
+    id: 8783
+    name: MK3A1机械2-5
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4216"
+  }
+  {
+    id: 8784
+    name: MK3A1机械2-6
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4217"
+  }
+  {
+    id: 8785
+    name: MK3A1机械2-7
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4218"
+  }
+  {
+    id: 8786
+    name: MK3A1机械2-8
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4219"
+  }
+  {
+    id: 8787
+    name: MK3A1机械2-9
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4220"
+  }
+  {
+    id: 8788
+    name: MK3A1机械2-10
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4221"
+  }
+  {
+    id: 8789
+    name: MK3A1机械3-1
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4222"
+  }
+  {
+    id: 8790
+    name: MK3A1机械3-2
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4223"
+  }
+  {
+    id: 8791
+    name: MK3A1机械3-3
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4224"
+  }
+  {
+    id: 8792
+    name: MK3A1机械3-4
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4225"
+  }
+  {
+    id: 8793
+    name: MK3A1机械3-5
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4226"
+  }
+  {
+    id: 8794
+    name: MK3A1机械3-6
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4227"
+  }
+  {
+    id: 8795
+    name: MK3A1机械3-7
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4228"
+  }
+  {
+    id: 8796
+    name: MK3A1机械3-8
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4229"
+  }
+  {
+    id: 8797
+    name: MK3A1机械3-9
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4230"
+  }
+  {
+    id: 8798
+    name: MK3A1机械3-10
+    start_type: "3"
+    destination_type: "3"
+    effect_area: 1
+    scale: "1"
+    summoner_order: "4231"
+  }
+  {
+    id: 8799
+    name: 机械贯穿
+    start_type: "3"
+    destination_type: "5"
+    route_type: 6
+    speed: 10000
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2236"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8800
+    name: 机械贯穿表现
+    code: 88type/88typeRazer
+    start_type: "1"
+    start_offset: "0,0,0"
+    destination_type: "5"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_single_hurt: 1
+    is_form_play: 1
+    creation_type: 5
+    scale: "0.5,0.5"
+    sound_order: skill_nyto_blue
+  }
+  {
+    id: 8801
+    name: UTS15同排减伤
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "3,8,13,18,23"
+    buff_id: 8365:1
+    buff_cd: "30"
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8802
+    name: UTS15被动护甲值
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,8,9,12,14,17,18,19"
+    buff_id: 8364:1
+    buff_cd: "3"
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8803
+    name: UTS15被动影响格命中
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "11,6"
+    buff_id: 8366:1
+    buff_cd: "30"
+    scale: "1"
+    trigger_creation_id: "8826"
+    is_die_delete: 1
+  }
+  {
+    id: 8804
+    name: SPAS15特效
+    code: SPAS15_huanrao
+    start_type: "3"
+    start_offset: "-0.5,0.5,0"
+    destination_type: "3"
+    destination_offset: "-0.5,0.5,0"
+    is_tracing: 1
+    exist_duration: "90"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1.2,1.2,1.2"
+    sound_order: Digital_War_En_Death
+    is_die_delete: 1
+  }
+  {
+    id: 8805
+    name: SPAS15特效6-
+    code: SPAS15_yinbuff01
+    start_type: "3"
+    start_offset: "-0.5,0,0"
+    destination_type: "3"
+    destination_offset: "-0.5,0,0"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    sound_order: Ribeyrolles_Skill02
+    is_die_delete: 1
+  }
+  {
+    id: 8806
+    name: SPAS15特效6&7
+    code: SPAS15_yinbuff02
+    start_type: "3"
+    start_offset: "-0.5,0,0"
+    destination_type: "3"
+    destination_offset: "-0.5,0,0"
+    is_tracing: 1
+    exist_duration: "99999"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    sound_order: Ribeyrolles_Skill02
+    is_die_delete: 1
+  }
+  {
+    id: 8807
+    name: SPAS15特效7+
+    code: SPAS15_yinbuff03
+    start_type: "3"
+    start_offset: "-0.5,0,0"
+    destination_type: "3"
+    destination_offset: "-0.5,0,0"
+    is_tracing: 1
+    exist_duration: "1200"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    sound_order: Ribeyrolles_Skill02
+    is_die_delete: 1
+  }
+  {
+    id: 8808
+    name: UTS15数字特效
+    code: UTS15_shuzi
+    start_type: "3"
+    start_offset: "-0.8,0.5,0"
+    destination_type: "3"
+    destination_offset: "-0.8,0.5,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 8809
+    name: 12和15聊天
+    code: va11emoji
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8810
+    name: 12和15聊天
+    code: va11emoji 3
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8811
+    name: 12和15聊天
+    code: va11emoji 4
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8812
+    name: 12和15聊天
+    code: va11emoji 5
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8813
+    name: 12和15聊天
+    code: va11emoji 6
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8814
+    name: 12和15聊天
+    code: va11emoji 7
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8815
+    name: 12和15聊天
+    code: va11emoji 8
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8816
+    name: 12和15聊天
+    code: va11emoji 11
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8817
+    name: 12和15聊天
+    code: va11emoji 12
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8818
+    name: 12和15聊天音符
+    code: SPAS15_qp_yf
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8819
+    name: 12和15聊天汉堡
+    code: SPAS15_qp_hb
+    start_type: "3"
+    start_offset: "0.8,2,0"
+    destination_type: "3"
+    destination_offset: "0.8,2,0"
+    is_tracing: 1
+    exist_duration: *101
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 8820
+    name: 白色重型前排技能
+    code: 2019summer/Y_19_summer_1_2
+    start_type: "3"
+    start_offset: "-2.5"
+    destination_type: "3"
+    destination_offset: "-2.5"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2"
+    buff_id: 3146:1,3147:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: skill_hugerobot_enemy_white_explo
+  }
+  {
+    id: 8821
+    name: 白色重型前排技能特效
+    code: 2019summer/YZJDS_sq
+    start_type: handR
+    start_offset: "0.5,0.5"
+    destination_type: handR
+    destination_offset: "0.5,0.5"
+    is_tracing: 1
+    exist_duration: "50"
+    is_form_play: 1
+    scale: "0.8,0.8"
+    sound_order: skill_hugerobot_enemy_white_cast
+  }
+  {
+    id: 8822
+    name: 跳跳技能准备
+    code: YZJD_ju_shuiqi
+    start_type: hip
+    start_offset: "0,-0.1"
+    destination_type: hip
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "30"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 8823
+    name: 白色跳跳兵激光
+    code: YZJD_shuizhu
+    start_type: "1"
+    start_offset: "0,-0.15"
+    destination_type: "1"
+    destination_offset: "0,-0.15"
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "20"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "12"
+    effect_param_2: "2"
+    hurt_id: "900"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1,0.2"
+    sound_order: BT_White_Laser
+    is_die_delete: 1
+  }
+  {
+    id: 8824
+    name: 敌人子弹
+    code: YZJD_zidan
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 400
+    speed: 3000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.4,0.4,0.4"
+    sound_order: BT_ar_enemy_white_2
+  }
+  {
+    id: 8825
+    name: 敌人子弹
+    code: CLN_zdb
+    start_type: "1"
+    start_offset: "-0.05,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3500
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "-0.5,-0.5,0.5"
+    sound_order: Skill_jump_high
+  }
+  {
+    id: 8826
+    name: UTS15被动影响格命中特效
+    code: rpk203
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    random_number: "2"
+    random_offset: "-4.8,0,-4.2;-4.8,0,0"
+    exist_duration: "99999"
+    effect_area: 1
+    scale: "1"
+    is_die_delete: 1
   }
   {
     id: 9740
@@ -72247,6 +73893,3118 @@
     scale: "1.2,1.2,1.2"
   }
   {
+    id: 10070
+    name: 打西瓜开场
+    code: 2022EventMiniGame
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "999999999"
+    scale: "1"
+  }
+  {
+    id: 10071
+    name: 打西瓜格子
+    code: DM_gezizuhe
+    start_type: "3"
+    start_offset: "2.4,0,-0.4"
+    destination_type: "3"
+    destination_offset: "2.4,0,-0.4"
+    exist_duration: "999999999"
+    scale: "1"
+    trigger_creation_id: "10072,10073,10074,10075,10076,10077,10078,10079,10083,10084,10091,10090,10094,10290,10291,10292,10293,10294"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10072
+    name: 西瓜屋1
+    start_type: "7"
+    start_offset: "7.2,0,6"
+    destination_type: "7"
+    destination_offset: "7.2,0,6"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1608"
+  }
+  {
+    id: 10073
+    name: 西瓜屋2
+    start_type: "7"
+    start_offset: "7.2,0,3"
+    destination_type: "7"
+    destination_offset: "7.2,0,3"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1609"
+  }
+  {
+    id: 10074
+    name: 西瓜屋3
+    start_type: "7"
+    start_offset: "7.2,0,0"
+    destination_type: "7"
+    destination_offset: "7.2,0,0"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1610"
+  }
+  {
+    id: 10075
+    name: 西瓜屋4
+    start_type: "7"
+    start_offset: "7.2,0,-3"
+    destination_type: "7"
+    destination_offset: "7.2,0,-3"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1611"
+  }
+  {
+    id: 10076
+    name: 西瓜屋y1
+    start_type: "7"
+    start_offset: "-2.4,0,9"
+    destination_type: "7"
+    destination_offset: "-2.4,0,9"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1612"
+  }
+  {
+    id: 10077
+    name: 西瓜屋y2
+    start_type: "7"
+    start_offset: "0,0,9"
+    destination_type: "7"
+    destination_offset: "0,0,9"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1613"
+  }
+  {
+    id: 10078
+    name: 西瓜屋y3
+    start_type: "7"
+    start_offset: "2.4,0,9"
+    destination_type: "7"
+    destination_offset: "2.4,0,9"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1614"
+  }
+  {
+    id: 10079
+    name: 西瓜屋y4
+    start_type: "7"
+    start_offset: "4.8,0,9"
+    destination_type: "7"
+    destination_offset: "4.8,0,9"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1615"
+  }
+  {
+    id: 10080
+    name: 普通瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1616"
+  }
+  {
+    id: 10081
+    name: 普通瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1617"
+  }
+  {
+    id: 10082
+    name: 打击伤害
+    start_type: "3"
+    start_offset: "0.1,0,0"
+    destination_type: "3"
+    destination_offset: "0.1,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "622"
+    buff_id: 4818:1,4847:1
+    buff_cd: "0,0"
+    scale: "1"
+  }
+  {
+    id: 10083
+    name: 左侧出界
+    start_type: "7"
+    start_offset: "-9"
+    destination_type: "7"
+    destination_offset: "-9"
+    exist_duration: "999999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "9"
+    effect_param_2: "20"
+    buff_id: "4817"
+    buff_cd: "3"
+    scale: "8,0.1,20"
+  }
+  {
+    id: 10084
+    name: 下侧出界
+    start_type: "7"
+    start_offset: "0,0,-7.5"
+    destination_type: "7"
+    destination_offset: "0,0,-7.5"
+    exist_duration: "999999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "20"
+    effect_param_2: "4"
+    buff_id: "4817"
+    buff_cd: "3"
+    scale: "20,0.1,4"
+  }
+  {
+    id: 10085
+    name: 打击特效
+    code: DXG_bao
+    start_type: hip
+    start_offset: "0.6,-0.2"
+    destination_type: hip
+    destination_offset: "0.6,-0.2"
+    exist_duration: "45"
+    scale: "1"
+  }
+  {
+    id: 10086
+    name: 普通瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1617"
+  }
+  {
+    id: 10087
+    name: 普通瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1616"
+  }
+  {
+    id: 10088
+    name: 普通瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1616"
+  }
+  {
+    id: 10089
+    name: 普通瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1616"
+  }
+  {
+    id: 10090
+    name: 装饰
+    code: DXG_zhuangshi
+    start_type: "7"
+    start_offset: "-8,1.3,8.05"
+    destination_type: "7"
+    destination_offset: "-8,1.3,8.05"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "1.45,1.4,1"
+  }
+  {
+    id: 10091
+    name: 摊位
+    code: DXG_tanwei
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1620"
+  }
+  {
+    id: 10092
+    name: 打击特效-反
+    code: DXG_bao
+    start_type: hip
+    start_offset: "-1,-0.2"
+    destination_type: hip
+    destination_offset: "-1,-0.2"
+    exist_duration: "45"
+    scale: "1"
+  }
+  {
+    id: 10093
+    name: fever打击伤害
+    code: DXG_xuanfeng
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "210"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: "9"
+    hurt_id: "622"
+    hurt_cd: "3"
+    buff_id: "4818"
+    buff_cd: "3"
+    scale: "1"
+  }
+  {
+    id: 10094
+    name: 发球机
+    start_type: "7"
+    start_offset: "7.2,0,9"
+    destination_type: "7"
+    destination_offset: "7.2,0,9"
+    exist_duration: "999999999"
+    scale: "1"
+    summoner_order: "1631"
+  }
+  {
+    id: 10095
+    name: first发球竖移1
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10096
+    name: first发球横移1
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10097
+    name: first发球2
+    start_type: "3"
+    destination_type: "3"
+    random_number: "2"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10098
+    name: second发球
+    start_type: "3"
+    destination_type: "3"
+    random_number: "8"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10099
+    name: 银瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1621"
+  }
+  {
+    id: 10100
+    name: 银瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1621"
+  }
+  {
+    id: 10101
+    name: 银瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1621"
+  }
+  {
+    id: 10102
+    name: 银瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1621"
+  }
+  {
+    id: 10103
+    name: 银瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1622"
+  }
+  {
+    id: 10104
+    name: 银瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1622"
+  }
+  {
+    id: 10105
+    name: 金瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1618"
+  }
+  {
+    id: 10106
+    name: 金瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1618"
+  }
+  {
+    id: 10107
+    name: 金瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1618"
+  }
+  {
+    id: 10108
+    name: 金瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1618"
+  }
+  {
+    id: 10109
+    name: 金瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1619"
+  }
+  {
+    id: 10110
+    name: 金瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1619"
+  }
+  {
+    id: 10111
+    name: 黑雷横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1623"
+  }
+  {
+    id: 10112
+    name: 黑雷横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1623"
+  }
+  {
+    id: 10113
+    name: 黑雷横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1623"
+  }
+  {
+    id: 10114
+    name: 黑雷横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1623"
+  }
+  {
+    id: 10115
+    name: 黑雷竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1624"
+  }
+  {
+    id: 10116
+    name: 黑雷竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1624"
+  }
+  {
+    id: 10117
+    name: 大瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1625"
+  }
+  {
+    id: 10118
+    name: 大瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1625"
+  }
+  {
+    id: 10119
+    name: 大瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1625"
+  }
+  {
+    id: 10120
+    name: 大瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1625"
+  }
+  {
+    id: 10121
+    name: 大瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1626"
+  }
+  {
+    id: 10122
+    name: 大瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1626"
+  }
+  {
+    id: 10123
+    name: 冰瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1629"
+  }
+  {
+    id: 10124
+    name: 冰瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1629"
+  }
+  {
+    id: 10125
+    name: 冰瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1629"
+  }
+  {
+    id: 10126
+    name: 冰瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1629"
+  }
+  {
+    id: 10127
+    name: 冰瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1630"
+  }
+  {
+    id: 10128
+    name: 冰瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1630"
+  }
+  {
+    id: 10129
+    name: 超巨瓜横移1
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1627"
+  }
+  {
+    id: 10130
+    name: 超巨瓜横移2
+    start_type: "3"
+    start_offset: "-1.8,0,-0.5"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.5"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1627"
+  }
+  {
+    id: 10131
+    name: 超巨瓜横移3
+    start_type: "3"
+    start_offset: "-1.8,0,-0.2"
+    destination_type: "3"
+    destination_offset: "-1.8,0,-0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1627"
+  }
+  {
+    id: 10132
+    name: 超巨瓜横移4
+    start_type: "3"
+    start_offset: "-1.8,0,0"
+    destination_type: "3"
+    destination_offset: "-1.8,0,0"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1627"
+  }
+  {
+    id: 10133
+    name: 超巨瓜竖移
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1628"
+  }
+  {
+    id: 10134
+    name: 超巨瓜竖移3,4
+    start_type: "3"
+    start_offset: "0.2"
+    destination_type: "3"
+    destination_offset: "0.2"
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1628"
+  }
+  {
+    id: 10135
+    name: first发球竖移3
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10136
+    name: first发球横移3
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10137
+    name: first发球竖移4
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10138
+    name: first发球横移4
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10139
+    name: 正式开打-选房子阶段1
+    start_type: "3"
+    destination_type: "3"
+    random_number: "5"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4834:1,4835:1
+    buff_cd: "0,0"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10140
+    name: 横排瓜池阶段1
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,-57;0,0,-54;0,0,-51;0,0,-48;0,0,-45;0,0,-42;0,0,-39;0,0,-36;0,0,-33;0,0,-30;0,0,-27;0,0,-24;0,0,-21;0,0,-18;0,0,-15;0,0,-12;0,0,-9;0,0,-6;0,0,-3;0,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10141,10142,10143,10144,10145,10146,10147,10148,10149,10150,10151,10152,10153,10154,10155,10156,10157,10158,10159,10160"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10141
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10142
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "0,0,3"
+    destination_type: "7"
+    destination_offset: "0,0,3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10143
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "0,0,6"
+    destination_type: "7"
+    destination_offset: "0,0,6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10144
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "0,0,9"
+    destination_type: "7"
+    destination_offset: "0,0,9"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10145
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "0,0,12"
+    destination_type: "7"
+    destination_offset: "0,0,12"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10146
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "0,0,15"
+    destination_type: "7"
+    destination_offset: "0,0,15"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10147
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "0,0,18"
+    destination_type: "7"
+    destination_offset: "0,0,18"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10148
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "0,0,21"
+    destination_type: "7"
+    destination_offset: "0,0,21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10149
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "0,0,24"
+    destination_type: "7"
+    destination_offset: "0,0,24"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10150
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "0,0,27"
+    destination_type: "7"
+    destination_offset: "0,0,27"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10151
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "0,0,30"
+    destination_type: "7"
+    destination_offset: "0,0,30"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10152
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "0,0,33"
+    destination_type: "7"
+    destination_offset: "0,0,33"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10153
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "0,0,36"
+    destination_type: "7"
+    destination_offset: "0,0,36"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10154
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "0,0,39"
+    destination_type: "7"
+    destination_offset: "0,0,39"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10155
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "0,0,42"
+    destination_type: "7"
+    destination_offset: "0,0,42"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10156
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "0,0,45"
+    destination_type: "7"
+    destination_offset: "0,0,45"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10157
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "0,0,48"
+    destination_type: "7"
+    destination_offset: "0,0,48"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10158
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "0,0,51"
+    destination_type: "7"
+    destination_offset: "0,0,51"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10159
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "0,0,54"
+    destination_type: "7"
+    destination_offset: "0,0,54"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10160
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "0,0,57"
+    destination_type: "7"
+    destination_offset: "0,0,57"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10161
+    name: 竖排瓜池阶段1
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,0;-2.4,0,0;-4.8,0,0;-7.2,0,0;-9.6,0,0;-12,0,0;-14.4,0,0;-16.8,0,0;-19.2,0,0;-21.6,0,0;-24,0,0;-26.4,0,0;-28.8,0,0;-31.2,0,0;-33.6,0,0;-36,0,0;-38.4,0,0;-40.8,0,0;-43.2,0,0;-45.6,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10162,10163,10164,10165,10166,10167,10168,10169,10170,10171,10172,10173,10174,10175,10176,10177,10178,10179,10180,10181"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10162
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10163
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10164
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "4.8,0,0"
+    destination_type: "7"
+    destination_offset: "4.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10165
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "7.2,0,0"
+    destination_type: "7"
+    destination_offset: "7.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10166
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "9.6,0,0"
+    destination_type: "7"
+    destination_offset: "9.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10167
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "12,0,0"
+    destination_type: "7"
+    destination_offset: "12,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10168
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "14.4,0,0"
+    destination_type: "7"
+    destination_offset: "14.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10169
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "16.8,0,0"
+    destination_type: "7"
+    destination_offset: "16.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10170
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "19.2,0,0"
+    destination_type: "7"
+    destination_offset: "19.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10171
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "21.6,0,0"
+    destination_type: "7"
+    destination_offset: "21.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10172
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "24,0,0"
+    destination_type: "7"
+    destination_offset: "24,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10173
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "26.4,0,0"
+    destination_type: "7"
+    destination_offset: "26.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10174
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "28.8,0,0"
+    destination_type: "7"
+    destination_offset: "28.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10175
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "31.2,0,0"
+    destination_type: "7"
+    destination_offset: "31.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10176
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "33.6,0,0"
+    destination_type: "7"
+    destination_offset: "33.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10177
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "36,0,0"
+    destination_type: "7"
+    destination_offset: "36,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10178
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "38.4,0,0"
+    destination_type: "7"
+    destination_offset: "38.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10179
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "40.8,0,0"
+    destination_type: "7"
+    destination_offset: "40.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10180
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "43.2,0,0"
+    destination_type: "7"
+    destination_offset: "43.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10181
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "45.6,0,0"
+    destination_type: "7"
+    destination_offset: "45.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10182
+    name: 随机延迟-横
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,-12;0,0,-9;0,0,-6;0,0,-3;0,0,-15;0,0,-18;0,0,-21;0,0,-24"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10183,10184,10185,10186,10278,10280,10282,10284"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10183
+    name: 延迟其1
+    start_type: "7"
+    start_offset: "0,0,3"
+    destination_type: "7"
+    destination_offset: "0,0,3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10184
+    name: 延迟其2
+    start_type: "7"
+    start_offset: "0,0,6"
+    destination_type: "7"
+    destination_offset: "0,0,6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4836"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10185
+    name: 延迟其3
+    start_type: "7"
+    start_offset: "0,0,9"
+    destination_type: "7"
+    destination_offset: "0,0,9"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4837"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10186
+    name: 延迟其4
+    start_type: "7"
+    start_offset: "0,0,12"
+    destination_type: "7"
+    destination_offset: "0,0,12"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4838"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10187
+    name: 随机延迟-竖
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-2.4,0,0;-4.8,0,0;-7.2,0,0;-9.6,0,0;-12,0,0;-14.4,0,0;-16.8,0,0;-19.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10188,10189,10190,10191,10279,10281,10283,10285"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10188
+    name: 延迟其1
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10189
+    name: 延迟其2
+    start_type: "7"
+    start_offset: "4.8,0,0"
+    destination_type: "7"
+    destination_offset: "4.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4836"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10190
+    name: 延迟其3
+    start_type: "7"
+    start_offset: "7.2,0,0"
+    destination_type: "7"
+    destination_offset: "7.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4837"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10191
+    name: 延迟其4
+    start_type: "7"
+    start_offset: "9.6,0,0"
+    destination_type: "7"
+    destination_offset: "9.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4838"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10192
+    name: 正式开打-选房子阶段2
+    start_type: "3"
+    destination_type: "3"
+    random_number: "6"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4839:1,4835:1
+    buff_cd: "0,0"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10193
+    name: 横排瓜池阶段2
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "1,0,-57;1,0,-54;1,0,-51;1,0,-48;1,0,-45;1,0,-42;1,0,-39;1,0,-36;1,0,-33;1,0,-30;1,0,-27;1,0,-24;1,0,-21;1,0,-18;1,0,-15;1,0,-12;1,0,-9;1,0,-6;1,0,-3;1,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10141,10142,10143,10144,10145,10146,10147,10148,10149,10150,10151,10152,10153,10154,10155,10156,10157,10158,10159,10160"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10194
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10195
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "0,0,3"
+    destination_type: "7"
+    destination_offset: "0,0,3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10196
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "0,0,6"
+    destination_type: "7"
+    destination_offset: "0,0,6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10197
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "0,0,9"
+    destination_type: "7"
+    destination_offset: "0,0,9"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10198
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "0,0,12"
+    destination_type: "7"
+    destination_offset: "0,0,12"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10199
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "0,0,15"
+    destination_type: "7"
+    destination_offset: "0,0,15"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10200
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "0,0,18"
+    destination_type: "7"
+    destination_offset: "0,0,18"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10201
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "0,0,21"
+    destination_type: "7"
+    destination_offset: "0,0,21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10202
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "0,0,24"
+    destination_type: "7"
+    destination_offset: "0,0,24"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10203
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "0,0,27"
+    destination_type: "7"
+    destination_offset: "0,0,27"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10204
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "0,0,30"
+    destination_type: "7"
+    destination_offset: "0,0,30"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10205
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "0,0,33"
+    destination_type: "7"
+    destination_offset: "0,0,33"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10206
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "0,0,36"
+    destination_type: "7"
+    destination_offset: "0,0,36"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10207
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "0,0,39"
+    destination_type: "7"
+    destination_offset: "0,0,39"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10208
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "0,0,42"
+    destination_type: "7"
+    destination_offset: "0,0,42"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10209
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "0,0,45"
+    destination_type: "7"
+    destination_offset: "0,0,45"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10210
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "0,0,48"
+    destination_type: "7"
+    destination_offset: "0,0,48"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10211
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "0,0,51"
+    destination_type: "7"
+    destination_offset: "0,0,51"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10212
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "0,0,54"
+    destination_type: "7"
+    destination_offset: "0,0,54"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10213
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "0,0,57"
+    destination_type: "7"
+    destination_offset: "0,0,57"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10214
+    name: 竖排瓜池阶段2
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,0;-2.4,0,0;-4.8,0,0;-7.2,0,0;-9.6,0,0;-12,0,0;-14.4,0,0;-16.8,0,0;-19.2,0,0;-21.6,0,0;-24,0,0;-26.4,0,0;-28.8,0,0;-31.2,0,0;-33.6,0,0;-36,0,0;-38.4,0,0;-40.8,0,0;-43.2,0,0;-45.6,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10162,10163,10164,10165,10166,10167,10168,10169,10170,10171,10172,10173,10174,10175,10176,10177,10178,10179,10180,10181"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10215
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10216
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10217
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "4.8,0,0"
+    destination_type: "7"
+    destination_offset: "4.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10218
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "7.2,0,0"
+    destination_type: "7"
+    destination_offset: "7.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10219
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "9.6,0,0"
+    destination_type: "7"
+    destination_offset: "9.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10220
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "12,0,0"
+    destination_type: "7"
+    destination_offset: "12,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10221
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "14.4,0,0"
+    destination_type: "7"
+    destination_offset: "14.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10222
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "16.8,0,0"
+    destination_type: "7"
+    destination_offset: "16.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10223
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "19.2,0,0"
+    destination_type: "7"
+    destination_offset: "19.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10224
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "21.6,0,0"
+    destination_type: "7"
+    destination_offset: "21.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10225
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "24,0,0"
+    destination_type: "7"
+    destination_offset: "24,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10226
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "26.4,0,0"
+    destination_type: "7"
+    destination_offset: "26.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10227
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "28.8,0,0"
+    destination_type: "7"
+    destination_offset: "28.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10228
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "31.2,0,0"
+    destination_type: "7"
+    destination_offset: "31.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10229
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "33.6,0,0"
+    destination_type: "7"
+    destination_offset: "33.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10230
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "36,0,0"
+    destination_type: "7"
+    destination_offset: "36,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10231
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "38.4,0,0"
+    destination_type: "7"
+    destination_offset: "38.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10232
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "40.8,0,0"
+    destination_type: "7"
+    destination_offset: "40.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10233
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "43.2,0,0"
+    destination_type: "7"
+    destination_offset: "43.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10234
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "45.6,0,0"
+    destination_type: "7"
+    destination_offset: "45.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10235
+    name: 正式开打-选房子阶段3
+    start_type: "3"
+    destination_type: "3"
+    random_number: "7"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 4840:1,4835:1
+    buff_cd: "0,0"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10236
+    name: 横排瓜池阶段3
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "1,0,-57;1,0,-54;1,0,-51;1,0,-48;1,0,-45;1,0,-42;1,0,-39;1,0,-36;1,0,-33;1,0,-30;1,0,-27;1,0,-24;1,0,-21;1,0,-18;1,0,-15;1,0,-12;1,0,-9;1,0,-6;1,0,-3;1,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10141,10142,10143,10144,10145,10146,10147,10148,10149,10150,10151,10152,10153,10154,10155,10156,10157,10158,10159,10160"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10237
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10238
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "0,0,3"
+    destination_type: "7"
+    destination_offset: "0,0,3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10239
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "0,0,6"
+    destination_type: "7"
+    destination_offset: "0,0,6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10240
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "0,0,9"
+    destination_type: "7"
+    destination_offset: "0,0,9"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10241
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "0,0,12"
+    destination_type: "7"
+    destination_offset: "0,0,12"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10242
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "0,0,15"
+    destination_type: "7"
+    destination_offset: "0,0,15"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10243
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "0,0,18"
+    destination_type: "7"
+    destination_offset: "0,0,18"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10244
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "0,0,21"
+    destination_type: "7"
+    destination_offset: "0,0,21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10245
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "0,0,24"
+    destination_type: "7"
+    destination_offset: "0,0,24"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10246
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "0,0,27"
+    destination_type: "7"
+    destination_offset: "0,0,27"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10247
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "0,0,30"
+    destination_type: "7"
+    destination_offset: "0,0,30"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10248
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "0,0,33"
+    destination_type: "7"
+    destination_offset: "0,0,33"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10249
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "0,0,36"
+    destination_type: "7"
+    destination_offset: "0,0,36"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10250
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "0,0,39"
+    destination_type: "7"
+    destination_offset: "0,0,39"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10251
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "0,0,42"
+    destination_type: "7"
+    destination_offset: "0,0,42"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10252
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "0,0,45"
+    destination_type: "7"
+    destination_offset: "0,0,45"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10253
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "0,0,48"
+    destination_type: "7"
+    destination_offset: "0,0,48"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10254
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "0,0,51"
+    destination_type: "7"
+    destination_offset: "0,0,51"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10255
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "0,0,54"
+    destination_type: "7"
+    destination_offset: "0,0,54"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10256
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "0,0,57"
+    destination_type: "7"
+    destination_offset: "0,0,57"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10257
+    name: 竖排瓜池阶段3
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,0;-2.4,0,0;-4.8,0,0;-7.2,0,0;-9.6,0,0;-12,0,0;-14.4,0,0;-16.8,0,0;-19.2,0,0;-21.6,0,0;-24,0,0;-26.4,0,0;-28.8,0,0;-31.2,0,0;-33.6,0,0;-36,0,0;-38.4,0,0;-40.8,0,0;-43.2,0,0;-45.6,0,0"
+    exist_duration: "30"
+    scale: "2,0.1,3"
+    trigger_creation_id: "10162,10163,10164,10165,10166,10167,10168,10169,10170,10171,10172,10173,10174,10175,10176,10177,10178,10179,10180,10181"
+    trigger_creation_delay: "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 10258
+    name: 瓜池其1
+    start_type: "7"
+    start_offset: "0,0,0"
+    destination_type: "7"
+    destination_offset: "0,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10259
+    name: 瓜池其2
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10260
+    name: 瓜池其3
+    start_type: "7"
+    start_offset: "4.8,0,0"
+    destination_type: "7"
+    destination_offset: "4.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10261
+    name: 瓜池其4
+    start_type: "7"
+    start_offset: "7.2,0,0"
+    destination_type: "7"
+    destination_offset: "7.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10262
+    name: 瓜池其5
+    start_type: "7"
+    start_offset: "9.6,0,0"
+    destination_type: "7"
+    destination_offset: "9.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10263
+    name: 瓜池其6
+    start_type: "7"
+    start_offset: "12,0,0"
+    destination_type: "7"
+    destination_offset: "12,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4830"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10264
+    name: 瓜池其7
+    start_type: "7"
+    start_offset: "14.4,0,0"
+    destination_type: "7"
+    destination_offset: "14.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10265
+    name: 瓜池其8
+    start_type: "7"
+    start_offset: "16.8,0,0"
+    destination_type: "7"
+    destination_offset: "16.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10266
+    name: 瓜池其9
+    start_type: "7"
+    start_offset: "19.2,0,0"
+    destination_type: "7"
+    destination_offset: "19.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10267
+    name: 瓜池其10
+    start_type: "7"
+    start_offset: "21.6,0,0"
+    destination_type: "7"
+    destination_offset: "21.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10268
+    name: 瓜池其11
+    start_type: "7"
+    start_offset: "24,0,0"
+    destination_type: "7"
+    destination_offset: "24,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10269
+    name: 瓜池其12
+    start_type: "7"
+    start_offset: "26.4,0,0"
+    destination_type: "7"
+    destination_offset: "26.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4827"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10270
+    name: 瓜池其13
+    start_type: "7"
+    start_offset: "28.8,0,0"
+    destination_type: "7"
+    destination_offset: "28.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4828"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10271
+    name: 瓜池其14
+    start_type: "7"
+    start_offset: "31.2,0,0"
+    destination_type: "7"
+    destination_offset: "31.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10272
+    name: 瓜池其15
+    start_type: "7"
+    start_offset: "33.6,0,0"
+    destination_type: "7"
+    destination_offset: "33.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10273
+    name: 瓜池其16
+    start_type: "7"
+    start_offset: "36,0,0"
+    destination_type: "7"
+    destination_offset: "36,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10274
+    name: 瓜池其17
+    start_type: "7"
+    start_offset: "38.4,0,0"
+    destination_type: "7"
+    destination_offset: "38.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4829"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10275
+    name: 瓜池其18
+    start_type: "7"
+    start_offset: "40.8,0,0"
+    destination_type: "7"
+    destination_offset: "40.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10276
+    name: 瓜池其19
+    start_type: "7"
+    start_offset: "43.2,0,0"
+    destination_type: "7"
+    destination_offset: "43.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10277
+    name: 瓜池其20
+    start_type: "7"
+    start_offset: "45.6,0,0"
+    destination_type: "7"
+    destination_offset: "45.6,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4826"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10278
+    name: 延迟其5
+    start_type: "7"
+    start_offset: "0,0,15"
+    destination_type: "7"
+    destination_offset: "0,0,15"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4841"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10279
+    name: 延迟其5
+    start_type: "7"
+    start_offset: "12,0,0"
+    destination_type: "7"
+    destination_offset: "12,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4841"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10280
+    name: 延迟其6
+    start_type: "7"
+    start_offset: "0,0,18"
+    destination_type: "7"
+    destination_offset: "0,0,18"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4842"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10281
+    name: 延迟其6
+    start_type: "7"
+    start_offset: "14.4,0,0"
+    destination_type: "7"
+    destination_offset: "14.4,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4842"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10282
+    name: 延迟其7
+    start_type: "7"
+    start_offset: "0,0,21"
+    destination_type: "7"
+    destination_offset: "0,0,21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4843"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10283
+    name: 延迟其7
+    start_type: "7"
+    start_offset: "16.8,0,0"
+    destination_type: "7"
+    destination_offset: "16.8,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4843"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10284
+    name: 延迟其8
+    start_type: "7"
+    start_offset: "0,0,24"
+    destination_type: "7"
+    destination_offset: "0,0,24"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4844"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10285
+    name: 延迟其8
+    start_type: "7"
+    start_offset: "19.2,0,0"
+    destination_type: "7"
+    destination_offset: "19.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4844"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10286
+    name: 冰瓜特效
+    code: SM_lengyan
+    start_type: "3"
+    start_offset: "0,0.3"
+    destination_type: "3"
+    destination_offset: "0,0.3"
+    is_tracing: 1
+    exist_duration: "9999"
+    scale: "1,0.5"
+  }
+  {
+    id: 10287
+    name: 超巨瓜固定逻辑
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4832"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10288
+    name: 冰瓜固定逻辑
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "-9.6,0,0;-7.2,0,0;-4.8,0,0;-2.4,0,0;1,0,-12;1,0,-9;1,0,-6;1,0,-3"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "4831"
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10289
+    name: 打击伤害-反
+    start_type: "3"
+    start_offset: "-0.2,0,0"
+    destination_type: "3"
+    destination_offset: "-0.2,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "622"
+    buff_id: 4818:1,4847:1
+    buff_cd: "0,0"
+    scale: "1"
+  }
+  {
+    id: 10290
+    name: 欢呼人形1
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1632"
+  }
+  {
+    id: 10291
+    name: 欢呼人形2
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1633"
+  }
+  {
+    id: 10292
+    name: 欢呼人形3
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1634"
+  }
+  {
+    id: 10293
+    name: 欢呼人形4
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1635"
+  }
+  {
+    id: 10294
+    name: 欢呼人形5
+    start_type: "7"
+    start_offset: "-5.5,1.2,4.5"
+    destination_type: "7"
+    destination_offset: "-5.5,1.2,4.5"
+    rotate: "20,0,0"
+    exist_duration: "999999999"
+    scale: "0.55,0.55,1"
+    summoner_order: "1636"
+  }
+  {
     id: 36501
     name: 地雷-beach
     start_type: "3"
@@ -73633,6 +78391,117 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_pistol
+  }
+  {
+    id: 237102
+    name: 汉阳造集束榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "-0.3,1.1,0"
+    destination_type: "6"
+    destination_offset: "-0.3,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
+    trigger_creation_id: "2373,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 237103
+    name: 汉阳造表演用榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "-0.5,1.1,0"
+    destination_type: "6"
+    destination_offset: "-0.5,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1000
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
+  }
+  {
+    id: 237104
+    name: 汉阳造表演用榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "-0.7,1.1,0"
+    destination_type: "6"
+    destination_offset: "-0.7,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1100
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
+  }
+  {
+    id: 237105
+    name: 汉阳造表演用榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "-0.1,1.1,0"
+    destination_type: "6"
+    destination_offset: "-0.1,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1200
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
+  }
+  {
+    id: 237106
+    name: 汉阳造表演用榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "0.1,1.1,0"
+    destination_type: "6"
+    destination_offset: "0.1,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1300
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
+  }
+  {
+    id: 237107
+    name: 汉阳造表演用榴弹-皮肤
+    code: Hyz_daodan
+    start_type: "2"
+    start_offset: "0.3,1.1,0"
+    destination_type: "6"
+    destination_offset: "0.3,1.1,0"
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1400
+    spin_velocity: -350
+    rotate: "0,0,30"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,0.35"
   }
   {
     id: 237601

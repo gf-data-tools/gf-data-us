@@ -8275,4 +8275,37 @@
     is_show: 1
     obtain_ids: "3069"
   }
+  {
+    id: 292
+    name: Recoil Reduction Kit
+    description:
+      '''
+      DMG+<pow>
+      ACC+<hit> Enhances skill $Saiga-12 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    hit: "11,15"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_Saiga12
+    develop_duration: 3000
+    company: PT
+    fit_guns: "160"
+    equip_introduction: A special recoil reduction system that PT developed specially for the Saiga-12. According to user feedback, it can reduce 40-50% of recoil.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3.0
+    bonus_type: pow:600,hit:1000
+    passive_skill: "759044"
+    max_level: 10
+    auto_select_id: 18099
+    is_show: 1
+    obtain_ids: "3070"
+  }
 ]
