@@ -290,7 +290,13 @@ patch3010={
 --"3010/FriendMallGoodController",
 "3010/FriendCosmeticDetailController",	
 "3010/MissionSelectionEchelonController",
-"3010/MissionSelectionMissionBarController",		
+"3010/MissionSelectionMissionBarController",	
+"3010/AppstoreLog",	
+"3010/PresentWindowController",
+"3010/FurniturePerformanceNewSkinShowController",	
+"3010/BattleCharacterController",
+"3010/FlightChessMapInfoItemCtrl",	
+"3010/BingoTaskController",	
 }
 -- va11
 print("load Va11");

@@ -5,10 +5,12 @@
   {
     obtain_id: "1"
     description: • Obtainable from standard production
+    goto_page_id: "25"
   }
   {
     obtain_id: "2"
     description: • Obtainable from heavy production
+    goto_page_id: "25"
   }
   {
     obtain_id: "3"
@@ -142,6 +144,7 @@
   {
     obtain_id: "35"
     description: • Obtainable through Neural Upgrade
+    goto_page_id: "186"
   }
   {
     obtain_id: "36"
@@ -154,6 +157,11 @@
   {
     obtain_id: "38"
     description: • Obtainable from Heavy Productions
+  }
+  {
+    obtain_id: "39"
+    description: gun_obtain-10000039
+    goto_page_id: "380"
   }
   {
     obtain_id: "101"
@@ -742,6 +750,7 @@
   {
     obtain_id: "3001"
     description: Obtainable from Equipment Productions
+    goto_page_id: "21"
   }
   {
     obtain_id: "3002"
@@ -750,6 +759,7 @@
   {
     obtain_id: "3003"
     description: Obtainable from the Black Market
+    goto_page_id: "217"
   }
   {
     obtain_id: "3004"
@@ -761,7 +771,7 @@
   }
   {
     obtain_id: "3006"
-    description: gun_obtain-10003006
+    description: • January 2023 monthly login reward
   }
   {
     obtain_id: "3007"
@@ -802,6 +812,7 @@
   {
     obtain_id: "3016"
     description: • Obtainable through Neural Upgrade
+    goto_page_id: "186"
   }
   {
     obtain_id: "3017"
@@ -850,6 +861,7 @@
   {
     obtain_id: "3028"
     description: Mid-exploration reward from the Forward Basecamp
+    goto_page_id: "217"
   }
   {
     obtain_id: "3029"

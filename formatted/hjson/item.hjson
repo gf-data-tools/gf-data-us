@@ -7,7 +7,7 @@
     item_name: T-Doll Contract
     introduction: An order to IOP for producing Dolls. Thank goodness for our old friend, who has been giving us unfailing support.
     rank: 1
-    sort: 2
+    sort: 10
     item_access: "1,4,5,3"
     detail_introduction: Can be used in the Factory to commission the production of an IOP Doll.
   }
@@ -19,7 +19,7 @@
     item_name: Equipment Contract
     introduction: An order to 16LAB for producing equipment. The catch of having a discount - what you receive is completely random.
     rank: 1
-    sort: 3
+    sort: 15
     item_access: "1,4,5,3"
     detail_introduction: Can be used in the Factory to commission the production of a piece of 16LAB equipment.
   }
@@ -31,7 +31,7 @@
     item_name: Quick Production Contract
     introduction: A rushed order. It does come with a risk - once the goods are delivered, they cannot be returned unless there is an issue with the quality.
     rank: 1
-    sort: 4
+    sort: 20
     item_access: "1,4,5,3"
     detail_introduction: Can be used in the Factory to instantly produce a Doll or equipment.
   }
@@ -43,7 +43,7 @@
     item_name: Quick Repair Contract
     introduction: An express repair request. She is extremely eager to rejoin you on the frontlines.
     rank: 1
-    sort: 5
+    sort: 25
     item_access: "1,4,5,3"
     detail_introduction: Can be used to instantly complete the repairs on a damaged unit.
   }
@@ -75,7 +75,7 @@
     item_name: Oath Certificate
     introduction: Proof of the OATH that you have sworn with a T-Doll who shares your feelings. It's time to take your relationship to a whole new level!
     rank: 1
-    sort: 1
+    sort: 5
     item_access: "1"
     detail_introduction: Can be used to establish an OATH with a T-Doll who has reached maximum Affection and raise the Affection limit.
   }
@@ -87,7 +87,7 @@
     item_name: Quick Training Contract
     introduction: It takes time for humans to learn, but if you have the money, T-Dolls can just skip the process.
     rank: 1
-    sort: 6
+    sort: 30
     item_access: "1,3"
     detail_introduction: Can be used in the Research Facility to instantly complete a T-Doll's skill training.
   }
@@ -99,7 +99,7 @@
     item_name: Enhancement Capsule
     introduction: Enhancement Capsules that come in many fruity flavors. Rumor has it, to suit the taste of certain Dolls, a few new liquor-flavored versions have also been added to the selection.
     rank: 1
-    sort: 7
+    sort: 35
     item_access: "25,6"
     detail_introduction: Can be used in the Factory to enhance a T-Doll's stats, raising each non-maximized attribute by one point. All spillover points will be partially applied to other attributes.
   }
@@ -111,7 +111,7 @@
     item_name: Dummy Core
     introduction: A module for controlling Dummies. "One can only uninstall this with the owner's permission, making it a tool of oppression among automatons."
     rank: 1
-    sort: 8
+    sort: 40
     item_access: "7,5,6,3"
     detail_introduction: Can be used in the Factory to perform Dummy-Link on identical T-Dolls.
   }
@@ -143,7 +143,7 @@
     item_name: Name Change Card
     introduction: A card for changing your name. "An opportunity for everyone (including yourself) to see you in a new light."
     rank: 1
-    sort: -39
+    sort: -195
     item_access: "2"
     detail_introduction: item-30000013
   }
@@ -155,7 +155,7 @@
     item_name: Original Sample
     introduction: Rough Data Samples of inconsistent quality. "Will it yield the same result this time? Perhaps all it needs is a dash of inspiration."
     rank: 1
-    sort: 19
+    sort: 95
     item_access: "8,5"
     detail_introduction: Can be used in the Intelligence Center to obtain HOC Central Data or Chips through Intelligence Analysis.
   }
@@ -167,7 +167,7 @@
     item_name: Pure Sample
     introduction: Carefully screened samples that are more likely to yield valuable data through analysis. Slightly more likely. "At least this one looks a bit clearer."
     rank: 1
-    sort: 20
+    sort: 100
     item_access: "8,5"
     detail_introduction: Can be used in the Intelligence Center for Intelligence Analysis. Compared to Original Samples, it is easier to obtain HOC Central Data and high-rarity Chips from these.
   }
@@ -179,7 +179,7 @@
     item_name: Quick Analysis Contract
     introduction: If you don't pressure your analysts, you'll never know how capable your employees actually are. "In response to the other party's interests, this contract demands that you include a photo of a real kitty as bonus payment."
     rank: 1
-    sort: 21
+    sort: 105
     item_access: "1,5,2"
     detail_introduction: Can be used in the Intelligence Center to instantly complete a Data Analysis.
   }
@@ -191,7 +191,7 @@
     item_name: Data Patch
     introduction: Data Patches that can further upgrade HOC units. Some can be obtained by dismantling fully leveled HOC units. "'When in a group of three, there is bound to be one who will have something to teach me.' That's why... 'So long, teacher.'"
     rank: 1
-    sort: 22
+    sort: 110
     item_access: "9,10"
     detail_introduction: Can be used to iterate and enhance a fully-leveled 5* HOC unit.
   }
@@ -203,7 +203,7 @@
     item_name: Basic Training Data
     introduction: A basic skill training manual written for T-Dolls. Improvement is always a good thing! "Yay! I didn't really do anything, but well done me!"
     rank: 1
-    sort: 9
+    sort: 45
     upper_limit: 9999
     item_access: "12"
     detail_introduction: Can be used in the Research Facility to provide Griffin units with Basic Skill Training.
@@ -216,7 +216,7 @@
     item_name: Intermediate Training Data
     introduction: An intermediate skill training manual written for T-Dolls. Don't read too deeply into it. "If I grow stronger, I will be more likely to survive, which means I can eat more ice cream. Whether I have enough money to pay for the ice cream is another matter..."
     rank: 1
-    sort: 10
+    sort: 50
     upper_limit: 9999
     item_access: "12"
     detail_introduction: Can be used in the Research Facility to provide Griffin units with Intermediate Skill Training.
@@ -229,7 +229,7 @@
     item_name: Advanced Training Data
     introduction: An advanced skill training manual written for T-Dolls. Very comprehensive and profound. "What's a Sweeping Monk? Why do I have to be a Sweeping Monk?" asks a Doll.
     rank: 1
-    sort: 11
+    sort: 55
     upper_limit: 9999
     item_access: "12"
     detail_introduction: Can be used in the Research Facility to provide Griffin units with Advanced Skill Training.
@@ -242,7 +242,7 @@
     item_name: Token
     introduction: White and shiny tokens that are quite rare in this day and age. "These mysterious coins were once thought to be batteries that provide Doll designers with inspiration and motivation."
     rank: 1
-    sort: 12
+    sort: 60
     upper_limit: 300000
     item_access: "1,4,5,2"
     detail_introduction: Can be used in the Dormitories to procure Furniture and T-Doll Costumes.
@@ -255,7 +255,7 @@
     item_name: Exchange Ticket
     introduction: Gift vouchers that come with making purchases. The more you buy, the more vouchers you get. IOP really is a generous company.
     rank: 1
-    sort: 13
+    sort: 65
     item_access: "11"
     detail_introduction: Can be used in the Dormitories to exchange for limited-time Furniture and T-Doll Costumes. Once the procurement period is over, all vouchers will be converted to tokens.
   }
@@ -267,7 +267,7 @@
     item_name: Black Card
     introduction: A high-end name card that was once exclusive to elites. Now you have one too.
     rank: 1
-    sort: 14
+    sort: 70
     item_access: "11"
     detail_introduction: Can be used in the Dormitories to exchange for a specific T-Doll's costume.
   }
@@ -279,7 +279,7 @@
     item_name: Calibration Ticket
     introduction: Tickets required for making Calibrations - they don't look particularly valuable. They say these are meant to prevent people from compulsively redoing Calibrations.
     rank: 1
-    sort: 15
+    sort: 75
     item_access: "13,5"
     detail_introduction: Can be used in the Research Facility to calibrate equipment or Fairies.
   }
@@ -291,7 +291,7 @@
     item_name: Memory Fragment
     introduction: Data compiled when T-Dolls process their memories. Once screened, they can be used to upgrade a Doll's neural cloud. "You say you want me to be free, but all I want is ice cream."
     rank: 1
-    sort: 18
+    sort: 90
     upper_limit: 9999
     item_access: "14,15"
     detail_introduction: Can be used in the Research Facility to give a T-Doll a Neural Upgrade.
@@ -304,7 +304,7 @@
     item_name: Special Combat Report
     introduction: Special combat reports for HOC units. There is an increasing number of such reports. "I hope everyone will find the real hidden treasure from these. It's important to know that you learn more from failure than success."
     rank: 1
-    sort: 23
+    sort: 115
     item_access: "24,16,6"
     detail_introduction: Can be used in the Garage to give HOC experience training.
   }
@@ -346,7 +346,7 @@
     item_name: Universal Parts
     introduction: Recycled parts from T-Dolls during pre-mission maintenance. They can be used for equipment enhancement after a little cleaning and processing. Kalina and the Commander are very pleased with this process and have given praise to the T-Doll that suggested it, but it seems that they didn't give her a raise.
     rank: 1
-    sort: 26
+    sort: 130
     item_access: "6,5"
     detail_introduction: Can be used in the Research Facility to increase equipment's Development Rate.
   }
@@ -358,7 +358,7 @@
     item_name: New Type Fire-Control Component
     introduction: IOP has specially created this enhancement component for high-end T-Dolls with sufficient room for development. It is still in the trial stage and only available in very limited quantities.
     rank: 5
-    sort: 26
+    sort: 130
     upper_limit: 9999
     item_access: "6"
     detail_introduction: Can be used to give high-rarity T-Dolls a Neural Upgrade.
@@ -384,6 +384,28 @@
     detail_introduction: item-30000053
   }
   {
+    id: 54
+    type: 1
+    arg: "1"
+    code: PieceBlackCard
+    item_name: Black Card Chip
+    introduction: A semiconductor made of special materials and the key component of a Black Card.
+    rank: 1
+    sort: -70
+    detail_introduction: Multiple Black Card Chips can be combined into a Black Card in the Depot. They can also be consumed in place of a Black Card when exchanging for a T-Doll's costume.
+  }
+  {
+    id: 55
+    type: 1
+    arg: "1"
+    code: Fairy_Biscuit
+    item_name: Fairy Bulking Cookie
+    introduction: '''"An extremely tasty snack for Fairies. Eating it will give the Fairy a large amount of Breakthrough EXP'''
+    rank: 1
+    sort: -71
+    detail_introduction: Use to increase a Fairy's Breakthrough EXP in Upgrade & Breakthrough.
+  }
+  {
     id: 100
     type: 3
     arg: "1"
@@ -399,7 +421,7 @@
     arg: "2"
     code: Medal_RankBattle
     item_name: Combat Ranking Medal
-    introduction: An extraordinary award for Commanders who achieve outstanding perfomance in <color=#ffb400>Theater</color>.
+    introduction: In commemoration of the outstanding results achieved by the Commander and the T-Dolls under them in other areas. "War is everywhere, but we won't back down, you know the reason why."
     rank: 1
     detail_introduction: item-30000101
   }
@@ -409,7 +431,7 @@
     arg: "3"
     code: Medal_RankCollection
     item_name: Collection Ranking Medal
-    introduction: An extraordinary award for Commanders who achieve outstanding perfomance in <color=#ffb400>T-Doll Collection</color> and <color=#ffb400>Furniture Collection</color>.
+    introduction: In commemoration of the Commander's impressive performance in the field of collecting various things. "Refuse? Dispose? Separate? No, we understand, you want it all."
     rank: 1
     detail_introduction: item-30000102
   }
@@ -419,7 +441,7 @@
     arg: "4"
     code: Medal_Challenger
     item_name: Challenger Medal
-    introduction: An extraordinary award for Commanders who have shown outstanding effort in special events like the Carnival. "You've worked hard, Commander. Let's have some exercise to relax."
+    introduction: In commemoration of the Commander's eye-catching performance in a variety of events. "Thank you for your hard work, Commander. Now go do a few practice drills to relax."
     rank: 1
     detail_introduction: item-30000103
   }
@@ -429,7 +451,7 @@
     arg: "5"
     code: Medal_Collaboration
     item_name: Elite Adventurer Medal
-    introduction: To commemorate the extraordinary adventures of the Commander and T-Dolls of Griffin.
+    introduction: In commemoration of the bizarre adventure which the Commander and the T-Dolls embarked on. "Virtual things aren't always mistakes, but the happiness you feel in your heart is definitely real."
     rank: 1
     detail_introduction: item-30000104
   }
@@ -439,7 +461,7 @@
     arg: "6"
     code: Medal_SangvisBattle
     item_name: Sangvis-Griffin Coalition Medal
-    introduction: To commemorate the Commander's achievement in fighting side-by-side with Coalition Forces in an event. "Achievements in battle and exam results are two different matters. Those who need to retake their exams, don't even think about running away!"
+    introduction: In commemoration of the results achieved through the joint efforts of the Commander and the Coalition Forces under them. "Battle results and test results are two completely different things, if you're lacking in one, don't think you can escape!"
     rank: 1
     detail_introduction: item-30000105
   }
@@ -449,7 +471,7 @@
     arg: "7"
     code: Medal_Chess
     item_name: Chess Champion Medal
-    introduction: To commemorate the Commander's victory in a game of Luzhanqi.
+    introduction: In commemoration of the Commander's excellent performance during tabletop simulation exercises. "Your performance will help us accumulate ample combat experience!"
     rank: 1
     detail_introduction: item-30000106
   }
@@ -549,7 +571,7 @@
     arg: "1"
     code: CentreDataPP93
     item_name: Core Data: PP93
-    introduction: item-20000308
+    introduction: A data fragment for the PP-93 HOC. "I have a question! If we're called seaweed when we make landfall on the beach early on, thenâ€”" "Then the enemies at the beach objective area are called sealions, you've told that lame joke hundreds of times already!"
     rank: 1
     detail_introduction: item-30000308
   }
@@ -615,7 +637,7 @@
     item_name: Battery
     introduction: '''"It's honestly a bit too big for a battery, but according to the Organization of Battery Rights, batteries are also entitled to dream."'''
     rank: 1
-    sort: 17
+    sort: 85
     upper_limit: 9999
     item_access: "17,6,5"
     detail_introduction: Can be used in the Dormitories to upgrade the facilities in Auxiliary Rooms.
@@ -638,7 +660,7 @@
     item_name: Friendship Points
     introduction: Achievement points accumulated from interacting with Friends. Friendships that don't involve actual "benefits" are both pure and fragile. "Oh? Are you also Friends from the end of the century?"
     rank: 1
-    sort: 16
+    sort: 80
     item_access: "17,18,5"
     detail_introduction: Can be used to redeem rewards like ID cards, icons, and base backgrounds in the Friendship Store.
   }
@@ -658,7 +680,7 @@
     arg: "1"
     code: BPrevivalpill
     item_name: Combat Sim Extra Energy
-    introduction: Sim Energy for conducting Combat Simulations. Obtainable from the Shop. "Limited purchases and infinite consumption. This is the market!"
+    introduction: Primarily used to carry out certain simulated battles, obtained through the shop. "Limited purchases and unlimited consumption, that's the market~" (The cost per unit sold increases by 20 gems over the previous purchases, resetting to its original pirce at 00:00 every day.)
     rank: 1
     item_access: "1"
     detail_introduction: item-30000510
@@ -681,7 +703,7 @@
     item_name: Supernova Kernel
     introduction: Bright stars obtained from initial 2- and 3-star Coalition units. Their scarcity makes them precious.
     rank: 1
-    sort: 32
+    sort: 160
     item_access: "7"
     detail_introduction: Can be used to redeem high-end items in the Kernel Store.
   }
@@ -693,7 +715,7 @@
     item_name: Dark Star Kernel
     introduction: Dim stars obtained from initial 1-star Coalition units. Even mundane objects have their uses.
     rank: 1
-    sort: 33
+    sort: 165
     item_access: "7"
     detail_introduction: Can be used to redeem items in the Kernel Store.
   }
@@ -705,7 +727,7 @@
     item_name: Petri Dish
     introduction: An essential item needed for Ether Development. The hotbed for all cultivations.
     rank: 1
-    sort: 27
+    sort: 135
     item_access: "20,19,22"
     detail_introduction: Can be used in the Factory to perform Ether Development on Coalition units.
   }
@@ -717,7 +739,7 @@
     item_name: Basic Training Keycode
     introduction: A basic skill training manual written for Coalition units. Even elementary practice is necessary. "Is this why you're making us do worthless target practice at Griffin?"
     rank: 1
-    sort: 28
+    sort: 140
     item_access: "20,19,22"
     detail_introduction: Can be used in the Research Facility to provide Coalition units with Basic Skill Training.
   }
@@ -729,7 +751,7 @@
     item_name: Advanced Training Keycode
     introduction: An advanced skill training manual written for Coalition units. Faith is the key to mastering magic. "You say that, but this program is way too hard!"
     rank: 1
-    sort: 29
+    sort: 145
     item_access: "20,19,22"
     detail_introduction: Can be used in the Research Facility to provide Coalition units with Advanced Skill Training.
   }
@@ -741,7 +763,19 @@
     item_name: Specified Equipment Contract
     introduction: A contract for producing a specified type of equipment. Each contract can be used to produce one type of equipment.
     rank: 1
-    detail_introduction: item-30000517
+    sort: -200
+    item_access: "2"
+    detail_introduction: Can be used to perform I.O.P. Special Orders at the Factory - Equipment Production.
+  }
+  {
+    id: 518
+    type: 1
+    arg: "1"
+    code: sangvis_skill_coin2
+    item_name: Dropped from mission_skill/Spend tokens
+    introduction: Dropped from mission_skill/Spend tokens - test entry
+    rank: 1
+    detail_introduction: item-30000518
   }
   {
     id: 519
@@ -751,7 +785,7 @@
     item_name: HOC General Data
     introduction: Parts scavenged from the battlefield that are compatible with all HOC units . Being frugal is one of Griffin’s many virtues.
     rank: 1
-    sort: -30
+    sort: -150
     item_access: "9"
     detail_introduction: General data that can replace specific data in unlocking and upgrading HOC units.
   }
@@ -763,7 +797,7 @@
     item_name: Frag Grenade
     introduction: Frags are very effective for cleaning out a large area, especially against targets hiding behind cover.
     rank: 1
-    sort: -35
+    sort: -175
     item_access: "2"
     detail_introduction: item-30000520
   }
@@ -775,7 +809,7 @@
     item_name: Stun Grenade
     introduction: Flashbangs induce temporary blindness and deafness in your targets, but don't forget to close your own eyes.
     rank: 1
-    sort: -36
+    sort: -180
     item_access: "2"
     detail_introduction: item-30000521
   }
@@ -787,7 +821,7 @@
     item_name: Turret
     introduction: An automatic weapon that can be deployed on the battlefield. It attacks nearby enemies until it is destroyed or runs out of battery.
     rank: 1
-    sort: -37
+    sort: -185
     item_access: "2"
     detail_introduction: item-30000522
   }
@@ -809,7 +843,7 @@
     item_name: Goliath Projectile
     introduction: A mobile detonation bot that is less destructive but more nimble than the original version. Once thrown, it will explode at the target location, disrupting enemy formation. (Only available in Angelia's storyline in Mirror Stage event)
     rank: 1
-    sort: -38
+    sort: -190
     item_access: "2"
     detail_introduction: item-30000524
   }
@@ -821,9 +855,20 @@
     item_name: Quick Auto-Battle Contract
     introduction: Unlock your T-Dolls' maximum potential and have them complete their mission swiftly. Speed is the key when it comes to Griffin tactics!
     rank: 1
-    sort: 7
+    sort: 35
     item_access: "23,5,2"
     detail_introduction: Use to complete an Auto-Battle mission instantly.
+  }
+  {
+    id: 526
+    type: 1
+    arg: "1"
+    code: Special_Equip_Ticket_2
+    item_name: Specified Heavy Construction Contract test
+    introduction: A contract for placing an order on a specific type of equipment through Heavy Production. Each contract can be used to produce one specific type of equipment. Test
+    rank: 1
+    sort: -40
+    detail_introduction: A special IOP order for performing a Heavy Production in Factory - Equipment Production. Testtest
   }
   {
     id: 601
@@ -833,7 +878,7 @@
     item_name: Infinite Surprise Dye
     introduction: No one can be really sure if the style they have in mind will really work, so let's just leave it up to chance.
     rank: 1
-    sort: 24
+    sort: 120
     item_access: "1,2"
     detail_introduction: Can be used to dye the Commander's clothing a random color once.
   }
@@ -845,7 +890,7 @@
     item_name: Colorful Specified Dye
     introduction: Frustrated with never getting the style you want from ten rolls? Take matters into your own hands with this!
     rank: 1
-    sort: 25
+    sort: 125
     item_access: "2"
     detail_introduction: Can be used to dye the Commander's clothing a specific color once.
   }
@@ -879,7 +924,7 @@
     item_name: Aid Commission
     introduction: Our experience is valuable, but Svarog Heavy Industries is the professional capture specialist.
     rank: 1
-    sort: 31
+    sort: 155
     item_access: "1,5,3,2"
     detail_introduction: Can be used in Capture Operations to commission Svarog Heavy Industries to capture all remaining Sangvis units in the sector.
   }
@@ -891,7 +936,7 @@
     item_name: Transfer Catalyst
     introduction: A catalyst that transfers all experience and development from one unit to another. "I wake up and realize that once again, I have nothing I can call my own."
     rank: 1
-    sort: 34
+    sort: 170
     item_access: "19"
     detail_introduction: Can be used in the Protocol Control Center to swap the training levels of two identical Coalition units through the Bilateral Input Drive.
   }
@@ -9899,6 +9944,76 @@
     detail_introduction: item-30001992
   }
   {
+    id: 1993
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_HowaType89
+    item_name: Reindeer Manifesto
+    introduction: Reindeer Manifesto
+    rank: 1
+    detail_introduction: item-30001993
+  }
+  {
+    id: 1994
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_Python
+    item_name: Hunting Time
+    introduction: Hunting Time
+    rank: 1
+    detail_introduction: item-30001994
+  }
+  {
+    id: 1995
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_VP1915
+    item_name: Sitting Next to Perosa
+    introduction: Sitting Next to Perosa
+    rank: 1
+    detail_introduction: item-30001995
+  }
+  {
+    id: 1996
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_CR21
+    item_name: Wave Crest Racer
+    introduction: Wave Crest Racer
+    rank: 1
+    detail_introduction: item-30001996
+  }
+  {
+    id: 1997
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_Cx4Storm
+    item_name: Poolside Xmas Encounter
+    introduction: Poolside Xmas Encounter
+    rank: 1
+    detail_introduction: item-30001997
+  }
+  {
+    id: 1998
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_SAF
+    item_name: Cozy Winter Deliverer
+    introduction: Cozy Winter Deliverer
+    rank: 1
+    detail_introduction: item-30001998
+  }
+  {
+    id: 1999
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2021_FNFNC
+    item_name: Raise the Christmas Elf
+    introduction: Raise the Christmas Elf
+    rank: 1
+    detail_introduction: item-30001999
+  }
+  {
     id: 2009
     type: 5
     arg: "1"
@@ -10009,6 +10124,16 @@
     detail_introduction: item-30002019
   }
   {
+    id: 2025
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Destroyer_Christmas
+    item_name: Destroyer - Fleeting Reindeer Icon
+    introduction: Destroyer - Fleeting Reindeer Icon
+    rank: 1
+    detail_introduction: item-30002025
+  }
+  {
     id: 2066
     type: 5
     arg: "1"
@@ -10099,12 +10224,42 @@
     detail_introduction: item-30002074
   }
   {
+    id: 2091
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season6_1
+    item_name: Heat Roar - Code 4: Dispersion
+    introduction: Heat Roar - Code 4: Dispersion
+    rank: 1
+    detail_introduction: item-30002091
+  }
+  {
+    id: 2092
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season6_2
+    item_name: Internal Combustion - Code 4: Dispersion
+    introduction: Internal Combustion - Code 4: Dispersion
+    rank: 1
+    detail_introduction: item-30002092
+  }
+  {
+    id: 2093
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season6_3
+    item_name: Knocking - Code 4: Dispersion
+    introduction: Knocking - Code 4: Dispersion
+    rank: 1
+    detail_introduction: item-30002093
+  }
+  {
     id: 2124
     type: 5
     arg: "1"
     code: card_MirrorStage_us
-    item_name: ID Card: Mirror Stage
-    introduction: ID Card: Mirror Stage
+    item_name: ID: Mirror Stage
+    introduction: ID: Mirror Stage
     rank: 1
     detail_introduction: item-30002124
   }
@@ -10179,6 +10334,36 @@
     detail_introduction: item-30002135
   }
   {
+    id: 2136
+    type: 5
+    arg: "1"
+    code: profilePic_ChessBonus_OBR
+    item_name: Queen of Castile
+    introduction: Queen of Castile
+    rank: 1
+    detail_introduction: item-30002136
+  }
+  {
+    id: 2140
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_AR15
+    item_name: Breeze in a Summer Afternoon
+    introduction: Breeze in a Summer Afternoon
+    rank: 1
+    detail_introduction: item-30002140
+  }
+  {
+    id: 2141
+    type: 5
+    arg: "1"
+    code: card_BattlePass_AR15
+    item_name: ID: End of the Highway
+    introduction: ID: End of the Highway
+    rank: 1
+    detail_introduction: item-30002141
+  }
+  {
     id: 2142
     type: 5
     arg: "1"
@@ -10249,6 +10434,26 @@
     detail_introduction: item-30002162
   }
   {
+    id: 2166
+    type: 5
+    arg: "1"
+    code: profilePic_Carnival2022_GeneralLiu
+    item_name: Materialistic Fad
+    introduction: Materialistic Fad
+    rank: 1
+    detail_introduction: item-30002166
+  }
+  {
+    id: 2173
+    type: 5
+    arg: "1"
+    code: card_BattlePass_GeneralLiu
+    item_name: ID: Base Note Funk
+    introduction: ID: Base Note Funk
+    rank: 1
+    detail_introduction: item-30002173
+  }
+  {
     id: 2174
     type: 5
     arg: "1"
@@ -10257,6 +10462,16 @@
     introduction: ID: Power Struggle
     rank: 1
     detail_introduction: item-30002174
+  }
+  {
+    id: 2224
+    type: 5
+    arg: "1"
+    code: card_FixedPoint_us
+    item_name: ID Card: Fixed Point
+    introduction: ID Card: Fixed Point
+    rank: 1
+    detail_introduction: item-30002224
   }
   {
     id: 4001
@@ -10860,6 +11075,36 @@
     consume_type: 1
     item_access: "5,3,2"
     detail_introduction: Can be used in Capture Operations to capture Sangvis units on the map.
+  }
+  {
+    id: 10605
+    type: 1
+    arg: "10605"
+    code: weekly_accumulation
+    item_name: Level of Activity
+    introduction: Obtain by completing Griffin Dailies. Used to show a Commander's level of activity.
+    rank: 1
+    detail_introduction: item-30010605
+  }
+  {
+    id: 10606
+    type: 16
+    arg: "10606"
+    code: pass_accumulation
+    item_name: Frontline Protocol Advanced Card
+    introduction: '''"Didn't you say using it will give me more and better supplies? Where are they?!" "They're all right there by your feet, my dear Commander."'''
+    rank: 1
+    detail_introduction: item-30010606
+  }
+  {
+    id: 10607
+    type: 16
+    arg: "10607"
+    code: pass_accumulation
+    item_name: Frontline Protocol Advanced Card
+    introduction: '''"Didn't you say using it will give me more and better supplies? Where are they?!" "They're all right there by your feet, my dear Commander."'''
+    rank: 1
+    detail_introduction: item-30010607
   }
   {
     id: 100001
@@ -12503,6 +12748,16 @@
     detail_introduction: item-30120006
   }
   {
+    id: 121001
+    type: 1
+    arg: "1"
+    code: FlightChessMap3_small
+    item_name: Highway to Hell
+    introduction: Beltway Chessboard Background - Highway to Hell
+    rank: 1
+    detail_introduction: item-30121001
+  }
+  {
     id: 130001
     type: 12
     arg: "130001"
@@ -12677,6 +12932,196 @@
     detail_introduction: item-30130018
   }
   {
+    id: 140001
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: Grenade Catcher
+    introduction: item-20140001
+    rank: 1
+    detail_introduction: item-30140001
+  }
+  {
+    id: 140002
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: Grenade Catcher
+    introduction: item-20140002
+    rank: 1
+    detail_introduction: item-30140002
+  }
+  {
+    id: 140003
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: Grenade Catcher
+    introduction: item-20140003
+    rank: 1
+    detail_introduction: item-30140003
+  }
+  {
+    id: 140004
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: Grenade Catcher
+    introduction: item-20140004
+    rank: 1
+    detail_introduction: item-30140004
+  }
+  {
+    id: 140005
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140005
+    introduction: item-20140005
+    rank: 1
+    detail_introduction: item-30140005
+  }
+  {
+    id: 140006
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140006
+    introduction: item-20140006
+    rank: 1
+    detail_introduction: item-30140006
+  }
+  {
+    id: 160001
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: Function Item Placeholder
+    introduction: Function Item Placeholder
+    rank: 1
+    detail_introduction: Function Item Placeholder
+  }
+  {
+    id: 200001
+    type: 5
+    arg: "1"
+    code: profileFrame_sr_gun
+    item_name: Icon Frame - Whimsical Connection
+    introduction: Icon Frame - Whimsical Connection
+    rank: 1
+    detail_introduction: item-30200001
+  }
+  {
+    id: 200002
+    type: 5
+    arg: "1"
+    code: profileFrame_ssr_gun
+    item_name: Icon Frame - Neural Tide
+    introduction: Icon Frame - Neural Tide
+    rank: 1
+    detail_introduction: item-30200002
+  }
+  {
+    id: 200003
+    type: 5
+    arg: "1"
+    code: profileFrame_mod_gun
+    item_name: Icon Frame - Extreme Apex
+    introduction: Icon Frame - Extreme Apex
+    rank: 1
+    detail_introduction: item-30200003
+  }
+  {
+    id: 200004
+    type: 5
+    arg: "1"
+    code: profileFrame_sp_gun
+    item_name: Icon Frame - Joint Assault
+    introduction: Icon Frame - Joint Assault
+    rank: 1
+    detail_introduction: item-30200004
+  }
+  {
+    id: 200005
+    type: 5
+    arg: "1"
+    code: profileFrame_skin_gun
+    item_name: Icon Frame - Neon Glamor
+    introduction: Icon Frame - Neon Glamor
+    rank: 1
+    detail_introduction: item-30200005
+  }
+  {
+    id: 200006
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_ssr
+    item_name: Icon Frame - Good Omen
+    introduction: Icon Frame - Good Omen
+    rank: 1
+    detail_introduction: item-30200006
+  }
+  {
+    id: 200007
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_sr
+    item_name: Icon Frame - Stratagem
+    introduction: Icon Frame - Stratagem
+    rank: 1
+    detail_introduction: item-30200007
+  }
+  {
+    id: 200008
+    type: 5
+    arg: "1"
+    code: profileFrame_flightchess_r
+    item_name: Icon Frame - Fuse of Victory
+    introduction: Icon Frame - Fuse of Victory
+    rank: 1
+    detail_introduction: item-30200008
+  }
+  {
+    id: 200009
+    type: 5
+    arg: "1"
+    code: profileFrame_comic
+    item_name: Icon Frame - Dance of the Nib
+    introduction: Icon Frame - Dance of the Nib
+    rank: 1
+    detail_introduction: item-30200009
+  }
+  {
+    id: 200012
+    type: 5
+    arg: "1"
+    code: profileFrame_rare_gun
+    item_name: Icon Frame - Rifling
+    introduction: Icon Frame - Rifling
+    rank: 1
+    detail_introduction: item-30200012
+  }
+  {
+    id: 200013
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_AR15
+    item_name: Icon Frame - Toe Bean Master Repairer
+    introduction: Icon Frame - Toe Bean Master Repairer
+    rank: 1
+    detail_introduction: item-30200013
+  }
+  {
+    id: 200014
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_GeneralLiu
+    item_name: Icon Frame - Echo in the Alley
+    introduction: Icon Frame - Echo in the Alley
+    rank: 1
+    detail_introduction: item-30200014
+  }
+  {
     id: 900030
     type: 4
     arg: "900030"
@@ -12840,6 +13285,37 @@
     detail_introduction: item-30900045
   }
   {
+    id: 900046
+    type: 9
+    arg: "900046"
+    code: Christmas_Coin
+    item_name: Xmas Coin
+    introduction: Xmas Coin
+    rank: 1
+    daily_limit: "80"
+    detail_introduction: item-30900046
+  }
+  {
+    id: 900047
+    type: 4
+    arg: "900047"
+    code: Nova_medal_black
+    item_name: Nova Medal - One Coin Short
+    introduction: Nova Medal - One Coin Short
+    rank: 1
+    detail_introduction: item-30900047
+  }
+  {
+    id: 900048
+    type: 4
+    arg: "900048"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - One Coin Short
+    introduction: Platinum Medal - One Coin Short
+    rank: 1
+    detail_introduction: item-30900048
+  }
+  {
     id: 1100001
     type: 11
     arg: "1"
@@ -12918,5 +13394,306 @@
     introduction: When MPK and MPL are in adjacent squares, they no longer inflict negative effects on allies. When MPK and MPL are in adjacent squares to the left and right of each other, upon activating their skills, their area fo effect increases to 2 squares.
     rank: 1
     detail_introduction: item-31100008
+  }
+  {
+    id: 1500009
+    type: 15
+    arg: "1500009"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500009
+  }
+  {
+    id: 1500010
+    type: 15
+    arg: "1500010"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Accessory-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500010
+  }
+  {
+    id: 1500011
+    type: 15
+    arg: "1500011"
+    code: package_choose
+    item_name: Magazine Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Magazine-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500011
+  }
+  {
+    id: 1500012
+    type: 15
+    arg: "1500012"
+    code: package_choose
+    item_name: T-Doll Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Doll-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500012
+  }
+  {
+    id: 1500013
+    type: 15
+    arg: "1500013"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500013
+  }
+  {
+    id: 1500014
+    type: 15
+    arg: "1500014"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500014
+  }
+  {
+    id: 1500015
+    type: 15
+    arg: "1500015"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500015
+  }
+  {
+    id: 1500016
+    type: 15
+    arg: "1500016"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500016
+  }
+  {
+    id: 1500017
+    type: 15
+    arg: "1500017"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500017
+  }
+  {
+    id: 1500023
+    type: 15
+    arg: "1500023"
+    code: Bumdle_double12_2022_5
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Please head to 【Armory】 to select a T-Doll.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500023
+  }
+  {
+    id: 1500024
+    type: 15
+    arg: "1500024"
+    code: Bumdle_hg
+    item_name: 四星HG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星HG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500024
+  }
+  {
+    id: 1500025
+    type: 15
+    arg: "1500025"
+    code: Bumdle_smg
+    item_name: 四星SMG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星SMG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500025
+  }
+  {
+    id: 1500026
+    type: 15
+    arg: "1500026"
+    code: Bumdle_rf
+    item_name: 四星RF人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星RF战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500026
+  }
+  {
+    id: 1500027
+    type: 15
+    arg: "1500027"
+    code: Bumdle_ar
+    item_name: 四星AR人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星AR战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500027
+  }
+  {
+    id: 1500028
+    type: 15
+    arg: "1500028"
+    code: Bumdle_mg
+    item_name: 四星MG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星MG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500028
+  }
+  {
+    id: 1500029
+    type: 15
+    arg: "1500029"
+    code: Bumdle_sg
+    item_name: 四星SG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的四星SG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500029
+  }
+  {
+    id: 1500030
+    type: 15
+    arg: "1500030"
+    code: Bumdle_double12_2022_1
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Please head to 【Armory】 to select a T-Doll.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500030
+  }
+  {
+    id: 1500031
+    type: 15
+    arg: "1500031"
+    code: Bumdle_hg
+    item_name: 五星HG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星HG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500031
+  }
+  {
+    id: 1500032
+    type: 15
+    arg: "1500032"
+    code: Bumdle_smg
+    item_name: 五星SMG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星SMG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500032
+  }
+  {
+    id: 1500033
+    type: 15
+    arg: "1500033"
+    code: Bumdle_rf
+    item_name: 五星RF人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星RF战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500033
+  }
+  {
+    id: 1500034
+    type: 15
+    arg: "1500034"
+    code: Bumdle_ar
+    item_name: 五星AR人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星AR战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500034
+  }
+  {
+    id: 1500035
+    type: 15
+    arg: "1500035"
+    code: Bumdle_mg
+    item_name: 五星MG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星MG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500035
+  }
+  {
+    id: 1500036
+    type: 15
+    arg: "1500036"
+    code: Bumdle_sg
+    item_name: 五星SG人形调用函
+    introduction:
+      '''
+      可从2022.9.8前实装的五星SG战术人形中选择一位获得，请左右滑动浏览所有选项。
+      *有效期至2023.2.12
+      '''
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500036
   }
 ]

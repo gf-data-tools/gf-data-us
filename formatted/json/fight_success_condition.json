@@ -345,18 +345,50 @@
     },
     {
         "id": 801,
-        "name": "fight_success_condition-10000801",
+        "name": "Time Limit (Single Target)",
         "type": 4,
-        "desc": "fight_success_condition-20000801",
+        "desc": "Kill 1 Nyto Deputy in 40 seconds",
         "condition_coef": "40|10094,1",
         "score_coef": 100
     },
     {
         "id": 802,
-        "name": "fight_success_condition-10000802",
+        "name": "Time Limit (Single Target)",
         "type": 4,
-        "desc": "fight_success_condition-20000802",
+        "desc": "Kill 2 Murats in 40 seconds",
         "condition_coef": "40|10090,2",
+        "score_coef": 100
+    },
+    {
+        "id": 901,
+        "name": "Specified Number of a Certain Gun Type",
+        "type": 11,
+        "desc": "fight_success_condition-20000901",
+        "condition_coef": "3,2",
+        "score_coef": 100
+    },
+    {
+        "id": 902,
+        "name": "Specific T-Doll (Any)",
+        "type": 9,
+        "desc": "fight_success_condition-20000902",
+        "condition_coef": "55,56,57",
+        "score_coef": 100
+    },
+    {
+        "id": 903,
+        "name": "Specified Number of a Certain Gun Type",
+        "type": 11,
+        "desc": "fight_success_condition-20000903",
+        "condition_coef": "5,2",
+        "score_coef": 100
+    },
+    {
+        "id": 904,
+        "name": "Specified Number of a Certain Gun Type",
+        "type": 11,
+        "desc": "fight_success_condition-20000904",
+        "condition_coef": "5,3",
         "score_coef": 100
     }
 ]

@@ -166,5 +166,29 @@
         "code": "Special_TDoll",
         "fit_gun_type": "0",
         "des": "Different types of special Doll equipment have different effects on a T-Doll's stats. Cannot be produced."
+    },
+    {
+        "type": 21,
+        "name": "Tripod",
+        "category": 3,
+        "code": "GroundMount",
+        "fit_gun_type": "5",
+        "des": "Increase a T-Doll's <color=#FFB400FF>accuracy</color> and <color=#FFB400FF>reload speed</color>, but reduce her <color=#FFB400FF>move speed</color>."
+    },
+    {
+        "type": 22,
+        "name": "Choke",
+        "category": 1,
+        "code": "Cylinder",
+        "fit_gun_type": "6",
+        "des": "Increase a T-Doll's <color=#FFB400FF>ammo capacity</color> and <color=#FFB400FF>accuracy</color>."
+    },
+    {
+        "type": 23,
+        "name": "Rangefinder",
+        "category": 3,
+        "code": "RangeFinder",
+        "fit_gun_type": "3",
+        "des": "Increase a T-Doll's <color=#FFB400FF>damage</color> and reduce the <color=#FFB400FF>initial cooldown</color> of her skill."
     }
 ]

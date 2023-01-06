@@ -331,6 +331,28 @@
     classification_id: 5004
   }
   {
+    id: 35
+    type: 1
+    sort: 3
+    item_ids: 10606-5
+    gemprice: 20
+    giftbag_name: mall-10000035
+    discount: 1.0
+    label: 1
+    classification_id: 5004
+  }
+  {
+    id: 36
+    type: 1
+    sort: 3
+    item_ids: 10606-5
+    gemprice: 20
+    giftbag_name: mall-10000036
+    discount: 1.0
+    label: 1
+    classification_id: 5004
+  }
+  {
     id: 151
     type: 8
     item_ids: 7-1,41-50
@@ -6815,8 +6837,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-150
-    classification_id: 1004
+    itemprice: 900046-150
+    classification_id: 1003
   }
   {
     id: 10716
@@ -6827,8 +6849,8 @@
     discount: 1.0
     prize_id: 1367
     pay_type: 1
-    itemprice: 100123-100
-    classification_id: 1004
+    itemprice: 900046-100
+    classification_id: 1003
   }
   {
     id: 10717
@@ -6839,8 +6861,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-50
-    classification_id: 1004
+    itemprice: 900046-50
+    classification_id: 1003
   }
   {
     id: 10718
@@ -6851,8 +6873,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-30
-    classification_id: 1004
+    itemprice: 900046-30
+    classification_id: 1003
   }
   {
     id: 10719
@@ -6863,8 +6885,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-30
-    classification_id: 1004
+    itemprice: 900046-30
+    classification_id: 1003
   }
   {
     id: 10721
@@ -6875,8 +6897,8 @@
     discount: 1.0
     prize_id: 1366
     pay_type: 1
-    itemprice: 100123-80
-    classification_id: 1004
+    itemprice: 900046-80
+    classification_id: 1003
   }
   {
     id: 10722
@@ -6887,8 +6909,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-3
-    classification_id: 1004
+    itemprice: 900046-3
+    classification_id: 1003
   }
   {
     id: 10723
@@ -6899,8 +6921,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 900046-2
+    classification_id: 1003
   }
   {
     id: 10724
@@ -6911,8 +6933,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 900046-2
+    classification_id: 1003
   }
   {
     id: 10725
@@ -6923,8 +6945,8 @@
     event_code: dailyGiftbag
     discount: 1.0
     pay_type: 1
-    itemprice: 100123-2
-    classification_id: 1004
+    itemprice: 900046-2
+    classification_id: 1003
   }
   {
     id: 10726
@@ -25786,6 +25808,297 @@
     giftbag_name: Dec Special Offer Package
     event_code: dailyGiftbag
     icon: Bumdle_package
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21420
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: R5
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 696
+    pay_type: 1
+    itemprice: 900048-500
+    classification_id: 1004
+  }
+  {
+    id: 21421
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: VP1915
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 1143
+    pay_type: 1
+    itemprice: 900048-500
+    classification_id: 1004
+  }
+  {
+    id: 21422
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: Fedorov Avtomat
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 1364
+    pay_type: 1
+    itemprice: 900047-400
+    classification_id: 1004
+  }
+  {
+    id: 21423
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: Cx4 Storm
+    event_code: dailyGiftbag
+    discount: 1.0
+    prize_id: 220112
+    pay_type: 1
+    itemprice: 900047-400
+    classification_id: 1004
+  }
+  {
+    id: 21424
+    type: 8
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1.0
+    pay_type: 1
+    itemprice: 900048-5
+    classification_id: 1004
+  }
+  {
+    id: 21425
+    type: 8
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1.0
+    pay_type: 1
+    itemprice: 900047-5
+    classification_id: 1004
+  }
+  {
+    id: 21426
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21427
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21428
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21429
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21430
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21431
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21432
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 6604-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: VP1915 Sitting Next to Perosa Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1.0
+    classification_id: 3003
+  }
+  {
+    id: 21433
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21434
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21435
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21436
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21437
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21438
+    type: 8
+    item_ids: 15-200,46-50,506-100
+    gemprice: 298
+    quota: 2020
+    giftbag_name: HOC Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21439
+    type: 8
+    gemprice: 128
+    quota: 2001
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_red
+    daily_quota: 1
+    discount: 1.0
+    prize_id: 220061
+    classification_id: 3002
+  }
+  {
+    id: 21440
+    type: 8
+    item_ids: 41-500
+    mp: 2023
+    ammo: 2023
+    mre: 2023
+    part: 2023
+    gemprice: 2023
+    quota: 2001
+    giftbag_name: New Year's Day Package
+    event_code: dailyGiftbag
+    icon: Bumdle_2023
+    discount: 1.0
+    classification_id: 3002
+  }
+  {
+    id: 21441
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
     discount: 1.0
     classification_id: 3002
   }

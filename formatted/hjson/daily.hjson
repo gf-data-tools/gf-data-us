@@ -1,0 +1,251 @@
+[
+  {
+    identity: 1
+    mission_type: 1
+    type: win_normal
+    count: 50
+    title: Battle: Combat Operations
+    content: Destroy 50 regular units in victorious battles.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 2
+    mission_type: 1
+    type: win_boss
+    count: 2
+    title: Battle: Combat Operations
+    content: Destroy 2 Boss units in victorious battles.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 3
+    mission_type: 1
+    type: s_win
+    count: 8
+    title: Battle: Combat Operations
+    content: Win 8 battles with S ranks.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 4
+    mission_type: 1
+    type: rescue
+    count: 5
+    title: Battle: Rescue Operations
+    content: Rescue a total of 5 Dolls in any stage.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 5
+    mission_type: 1
+    type: mission
+    count: 2
+    title: Battle: Combat Operations
+    content: Complete any 2 stages (Auto-Battles are not counted).
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 6
+    mission_type: 2
+    type: squad_data_analyse
+    count: 4
+    title: Construction: Intelligence Analysis
+    content: Perform 4 Intelligence Analyses.
+    function_control_id: 15
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 7
+    mission_type: 2
+    type: develop_equip
+    count: 4
+    title: Construction: Equipment Preparation
+    content: Perform 4 Equipment Productions (Includes I.O.P. Special Orders).
+    function_control_id: 2
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 8
+    mission_type: 2
+    type: develop_gun
+    count: 2
+    title: Construction: Equipment Preparation
+    content: Perform 2 Doll Productions.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 9
+    mission_type: 2
+    type: recycle
+    count: 3
+    title: Construction: Resource Recovery
+    content: Perform 3 Resource Recoveries.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 10
+    mission_type: 3
+    type: upgrade_value
+    count: 3
+    title: Readiness: Materiel Expansion
+    content: Perform 3 Enhancements or Developments.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 11
+    mission_type: 3
+    type: adjust_equip
+    count: 1
+    title: Readiness: Gear Calibration
+    content: Perform 1 Equipment or Fairy Calibration.
+    function_control_id: 6
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 12
+    mission_type: 3
+    type: upgrade_equip
+    count: 3
+    title: Readiness: Gear Calibration
+    content: Perform 3 Equipment or Fairy Enhancements.
+    function_control_id: 5
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 13
+    mission_type: 4
+    type: operation
+    count: 3
+    title: Logistics: Support Dispatch
+    content: Complete 3 Logistics Missions
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 14
+    mission_type: 4
+    type: coin_mission
+    count: 3
+    title: Logistics: Simulated Exercise
+    content: Complete 3 Simulation Battles (Does not include Coalition Drills).
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 15
+    mission_type: 4
+    type: complete_squad_daily
+    count: 1
+    title: Logistics: Information Gathering
+    content: Complete 1 Information Quest.
+    function_control_id: 15
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 16
+    mission_type: 4
+    type: sangvis_exercise
+    count: 3
+    title: Logistics: Simulated Exercise
+    content: Complete 3 Coalition Drills.
+    function_control_id: 21
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 17
+    mission_type: 4
+    type: auto_battle
+    count: 1
+    title: Logistics: Support Dispatch
+    content: Complete 1 Auto-Battle.
+    function_control_id: 15
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 18
+    mission_type: 5
+    type: from_friend_build_coin
+    count: 5
+    title: Collaboration: Joint Operations
+    content: Obtain Shared Batteries from your friends' Dorms 5 times.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 19
+    mission_type: 5
+    type: like
+    count: 5
+    title: Collaboration: Joint Operations
+    content: Like your friends' Dorms 5 times.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 20
+    mission_type: 5
+    type: borrow_friend_team
+    count: 2
+    title: Collaboration: Joint Operations
+    content: Use 2 Friend Echelons in battle.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 21
+    mission_type: 6
+    type: explore
+    count: 1
+    title: Other: Regional Exploration
+    content: Launch 1 expedition from the Forward Basecamp.
+    function_control_id: 17
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 22
+    mission_type: 6
+    type: sangvis_daily_retrieval
+    count: 1
+    title: Other: Protocol Assimilation
+    content: Perform 1 Capture (Standard and Aided Captures both count).
+    function_control_id: 21
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 23
+    mission_type: 6
+    type: heart_collect
+    count: 5
+    title: Other: Doll Exchange
+    content: Collect 5 Hearts.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 24
+    mission_type: 6
+    type: gift
+    count: 1
+    title: Other: Doll Exchange
+    content: Give a Gift to a T-Doll or Coalition Unit once.
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+]

@@ -96,6 +96,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Kaya Okuno,"
     spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200005
   }
   {
     id: 6
@@ -160,6 +162,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Shizuka Itou,"
     spine_scale: "80,80,1"
+    org_id: 10602
+    related_story_id: 200008
   }
   {
     id: 9
@@ -225,6 +229,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Ami Hagiwara,"
     spine_scale: "75,75,1"
+    org_id: 10602
+    related_story_id: 200011
   }
   {
     id: 12
@@ -353,6 +359,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Yuka Ootsuba,"
     spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200017
   }
   {
     id: 18
@@ -375,6 +383,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Yuuki Takada,"
     spine_scale: "85,85,1"
+    org_id: 10603
+    related_story_id: 200018
   }
   {
     id: 19
@@ -442,6 +452,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Rumi Ookubo,"
     spine_scale: "80,80,1"
+    org_id: 10603
+    related_story_id: 200021
   }
   {
     id: 22
@@ -486,6 +498,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Arise Satou,"
     spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200023
   }
   {
     id: 24
@@ -508,6 +522,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Kaya Okuno,"
     spine_scale: "75,75,1"
+    org_id: 10604
+    related_story_id: 200024
   }
   {
     id: 25
@@ -550,6 +566,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Yui Ishikawa,"
     spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200026
   }
   {
     id: 27
@@ -573,6 +591,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Yuka Ootsuba,"
     spine_scale: "85,85,1"
+    org_id: 10603
+    related_story_id: 200027
   }
   {
     id: 28
@@ -696,6 +716,7 @@
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000033
     spine_scale: "70,70,1"
+    org_id: 10603
   }
   {
     id: 34
@@ -740,6 +761,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Aki Toyosaki,"
     spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200035
   }
   {
     id: 36
@@ -949,6 +972,8 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Hitomi Nabatame,"
     spine_scale: "80,80,1"
+    org_id: 10604
+    related_story_id: 200045
   }
   {
     id: 46
@@ -1056,6 +1081,7 @@
     launch_time: 2016-5-20 00:00:00
     extra: enemy_illustration-40000050
     spine_scale: "70,70,1"
+    org_id: 10603
   }
   {
     id: 51
@@ -1079,6 +1105,7 @@
     launch_time: 2016-5-20 00:00:00
     extra: ",Shizuka Itou,"
     spine_scale: "70,70,1"
+    org_id: 10603
   }
   {
     id: 52
@@ -1545,7 +1572,7 @@
     id: 74
     name: Argonauts - Carina
     type: 2
-    code: GustafL_1
+    code: GustafL_3
     introduce: The front section of the high-spec military railway cannon made for the army.
     forces: 2
     pow_rank: 7
@@ -1583,7 +1610,7 @@
     id: 76
     name: Argonauts - Puppis
     type: 2
-    code: GustafL_3
+    code: GustafL_1
     introduce: The rear section of the high-spec military railway cannon made for the army.
     forces: 2
     pow_rank: 7
@@ -2186,6 +2213,7 @@
     type: 3
     code: Guard_chm
     introduce: A high-tier Sangvis holiday unit equipped with a gingerbread shield and candy cane. As its appearance suggests, it is very sugary. It is mostly used to defend the very important kitchen or to intercept Dreamer, who slips in to steal candy while using Destroyer as a diversion.
+    if_capture: 1
     pow_rank: 1
     life_rank: 4
     hit_rank: 3
@@ -2550,6 +2578,7 @@
     launch_time: 2035-5-20 00:00:00
     extra: ",Yuka Ootsuba,"
     spine_scale: "85,85,1"
+    org_id: 10603
   }
   {
     id: 127
@@ -2839,6 +2868,7 @@
     launch_time: 2035-5-20 00:00:00
     extra: ",Yuka Ootsuba,"
     spine_scale: "75,75,1"
+    org_id: 10602
   }
   {
     id: 141
@@ -2959,6 +2989,28 @@
     enemy_skill: "146,147,148,149,150"
     launch_time: 2035-12-31 00:00:00
     extra: enemy_illustration-40000146
+  }
+  {
+    id: 147
+    name: enemy_illustration-10000147
+    type: 1
+    code: Destroyer_Christmas
+    introduce: enemy_illustration-20000147
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: enemy_illustration-30000147
+    character: "1001,206"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000147
+    spine_scale: "85,85,1"
+    org_id: 10603
   }
   {
     id: 100001

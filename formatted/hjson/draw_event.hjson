@@ -3473,6 +3473,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 10:709,11:727
     clear_cycle: 1
   }
   {
@@ -3480,6 +3481,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 10:710,11:728
     clear_cycle: 1
   }
   {
@@ -3487,6 +3489,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 10:721,11:726
     clear_cycle: 1
   }
   {
@@ -3494,6 +3497,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 8:711,9:727
     clear_cycle: 1
   }
   {
@@ -3501,6 +3505,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 8:712,9:728
     clear_cycle: 1
   }
   {
@@ -3508,6 +3513,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 8:722,9:726
     clear_cycle: 1
   }
   {
@@ -3515,6 +3521,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 6:713,7:727
     clear_cycle: 1
   }
   {
@@ -3522,6 +3529,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 6:714,7:728
     clear_cycle: 1
   }
   {
@@ -3529,6 +3537,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 6:715,7:729
     clear_cycle: 1
   }
   {
@@ -3536,6 +3545,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 6:716,7:730
     clear_cycle: 1
   }
   {
@@ -3543,6 +3553,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 6:723,7:726
     clear_cycle: 1
   }
   {
@@ -3550,6 +3561,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 5:717,6:729
     clear_cycle: 1
   }
   {
@@ -3557,6 +3569,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 5:718,6:730
     clear_cycle: 1
   }
   {
@@ -3564,6 +3577,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 5:724,6:726
     clear_cycle: 1
   }
   {
@@ -3571,6 +3585,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 4:719,5:729
     clear_cycle: 1
   }
   {
@@ -3578,6 +3593,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 4:720,5:730
     clear_cycle: 1
   }
   {
@@ -3585,6 +3601,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 4:725,5:726
     clear_cycle: 1
   }
   {
@@ -3592,6 +3609,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 1000:727
     clear_cycle: 1
   }
   {
@@ -3599,6 +3617,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 1000:728
     clear_cycle: 1
   }
   {
@@ -3606,6 +3625,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 1000:729
     clear_cycle: 1
   }
   {
@@ -3613,6 +3633,7 @@
     type: 1
     start_time: 2022-11-01 00:00:00
     end_time: 2022-11-28 23:59:59
+    drop_ids: 1000:730
     clear_cycle: 1
   }
   {
@@ -3837,65 +3858,57 @@
   {
     id: 513
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 6:811,7:814
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 514
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 6:809,7:813
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 515
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 4:812,5:815
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 516
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 4:810,5:813
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 517
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 1000:814
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 518
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 1000:815
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 519
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 1000:816
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
     id: 520
     type: 1
-    start_time: 2021-12-29 00:00:00
-    end_time: 2022-01-24 23:59:59
-    drop_ids: 1000:817
+    start_time: 2022-12-20 00:00:00
+    end_time: 2023-01-09 23:59:59
     clear_cycle: 1
   }
   {
@@ -3903,6 +3916,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 6:1006,7:1012
     clear_cycle: 1
   }
   {
@@ -3910,6 +3924,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 6:1007,7:1013
     clear_cycle: 1
   }
   {
@@ -3917,6 +3932,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 6:1008,7:1016
     clear_cycle: 1
   }
   {
@@ -3924,6 +3940,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 4:1009,5:1013
     clear_cycle: 1
   }
   {
@@ -3931,6 +3948,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 4:1010,5:1015
     clear_cycle: 1
   }
   {
@@ -3938,6 +3956,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 4:1011,5:1016
     clear_cycle: 1
   }
   {
@@ -3945,6 +3964,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 1000:1012
     clear_cycle: 1
   }
   {
@@ -3952,6 +3972,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 1000:1013
     clear_cycle: 1
   }
   {
@@ -3959,6 +3980,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 1000:1014
     clear_cycle: 1
   }
   {
@@ -3966,6 +3988,7 @@
     type: 1
     start_time: 2022-10-18 00:00:00
     end_time: 2022-10-31 23:59:59
+    drop_ids: 1000:1015
     clear_cycle: 1
   }
   {

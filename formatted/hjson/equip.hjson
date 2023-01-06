@@ -20,7 +20,8 @@
     exclusive_rate: 1.0
     auto_select_id: 1001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000001
   }
   {
     id: 2
@@ -49,7 +50,8 @@
     max_level: 10
     auto_select_id: 1001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000002
   }
   {
     id: 3
@@ -79,7 +81,8 @@
     max_level: 10
     auto_select_id: 1001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000003
   }
   {
     id: 4
@@ -109,7 +112,8 @@
     max_level: 10
     auto_select_id: 1001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000004
   }
   {
     id: 5
@@ -134,7 +138,8 @@
     exclusive_rate: 1.0
     auto_select_id: 2001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000005
   }
   {
     id: 6
@@ -165,7 +170,8 @@
     max_level: 10
     auto_select_id: 2001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000006
   }
   {
     id: 7
@@ -197,7 +203,8 @@
     max_level: 10
     auto_select_id: 2001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000007
   }
   {
     id: 8
@@ -229,7 +236,8 @@
     max_level: 10
     auto_select_id: 2001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000008
   }
   {
     id: 9
@@ -253,7 +261,8 @@
     exclusive_rate: 1.0
     auto_select_id: 3001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000009
   }
   {
     id: 10
@@ -283,7 +292,8 @@
     max_level: 10
     auto_select_id: 3001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000010
   }
   {
     id: 11
@@ -314,7 +324,8 @@
     max_level: 10
     auto_select_id: 3001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000011
   }
   {
     id: 12
@@ -345,7 +356,8 @@
     max_level: 10
     auto_select_id: 3001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000012
   }
   {
     id: 13
@@ -368,7 +380,8 @@
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000013
   }
   {
     id: 14
@@ -391,7 +404,8 @@
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000014
   }
   {
     id: 15
@@ -415,7 +429,8 @@
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000015
   }
   {
     id: 16
@@ -439,7 +454,8 @@
     exclusive_rate: 1.0
     auto_select_id: 4001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000016
   }
   {
     id: 17
@@ -461,7 +477,8 @@
     exclusive_rate: 1.0
     auto_select_id: 5001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000017
   }
   {
     id: 18
@@ -490,7 +507,8 @@
     max_level: 10
     auto_select_id: 5001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000018
   }
   {
     id: 19
@@ -520,7 +538,8 @@
     max_level: 10
     auto_select_id: 5001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000019
   }
   {
     id: 20
@@ -550,7 +569,8 @@
     max_level: 10
     auto_select_id: 5001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000020
   }
   {
     id: 21
@@ -566,6 +586,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6001
     obtain_ids: "3000"
+    sp_description: equip-40000021
   }
   {
     id: 22
@@ -582,6 +603,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6001
     obtain_ids: "3000"
+    sp_description: equip-40000022
   }
   {
     id: 23
@@ -599,6 +621,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6001
     obtain_ids: "3000"
+    sp_description: equip-40000023
   }
   {
     id: 24
@@ -616,6 +639,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6001
     obtain_ids: "3000"
+    sp_description: equip-40000024
   }
   {
     id: 25
@@ -631,6 +655,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6002
     obtain_ids: "3000"
+    sp_description: equip-40000025
   }
   {
     id: 26
@@ -647,6 +672,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6002
     obtain_ids: "3000"
+    sp_description: equip-40000026
   }
   {
     id: 27
@@ -664,6 +690,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6002
     obtain_ids: "3000"
+    sp_description: equip-40000027
   }
   {
     id: 28
@@ -681,6 +708,7 @@
     exclusive_rate: 1.0
     auto_select_id: 6002
     obtain_ids: "3000"
+    sp_description: equip-40000028
   }
   {
     id: 29
@@ -702,7 +730,8 @@
     exclusive_rate: 1.0
     auto_select_id: 8001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000029
   }
   {
     id: 30
@@ -731,7 +760,8 @@
     max_level: 10
     auto_select_id: 8001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000030
   }
   {
     id: 31
@@ -761,7 +791,8 @@
     max_level: 10
     auto_select_id: 8001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000031
   }
   {
     id: 32
@@ -791,7 +822,8 @@
     max_level: 10
     auto_select_id: 8001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000032
   }
   {
     id: 33
@@ -808,6 +840,7 @@
     exclusive_rate: 1.0
     auto_select_id: 9001
     obtain_ids: "3000"
+    sp_description: equip-40000033
   }
   {
     id: 34
@@ -824,6 +857,7 @@
     exclusive_rate: 1.0
     auto_select_id: 9001
     obtain_ids: "3000"
+    sp_description: equip-40000034
   }
   {
     id: 35
@@ -841,6 +875,7 @@
     exclusive_rate: 1.0
     auto_select_id: 9001
     obtain_ids: "3000"
+    sp_description: equip-40000035
   }
   {
     id: 36
@@ -858,6 +893,7 @@
     exclusive_rate: 1.0
     auto_select_id: 9001
     obtain_ids: "3000"
+    sp_description: equip-40000036
   }
   {
     id: 37
@@ -881,7 +917,8 @@
     exclusive_rate: 1.0
     auto_select_id: 10001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000037
   }
   {
     id: 38
@@ -912,7 +949,8 @@
     max_level: 10
     auto_select_id: 10001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000038
   }
   {
     id: 39
@@ -943,7 +981,8 @@
     max_level: 10
     auto_select_id: 10001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000039
   }
   {
     id: 40
@@ -974,7 +1013,8 @@
     max_level: 10
     auto_select_id: 10001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000040
   }
   {
     id: 42
@@ -1004,7 +1044,8 @@
     max_level: 10
     auto_select_id: 11001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000042
   }
   {
     id: 43
@@ -1036,7 +1077,8 @@
     max_level: 10
     auto_select_id: 11001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000043
   }
   {
     id: 44
@@ -1068,7 +1110,8 @@
     max_level: 10
     auto_select_id: 11001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000044
   }
   {
     id: 45
@@ -1085,6 +1128,7 @@
     exclusive_rate: 1.0
     auto_select_id: 12001
     obtain_ids: "3000"
+    sp_description: equip-40000045
   }
   {
     id: 46
@@ -1101,6 +1145,7 @@
     exclusive_rate: 1.0
     auto_select_id: 12001
     obtain_ids: "3000"
+    sp_description: equip-40000046
   }
   {
     id: 47
@@ -1119,6 +1164,7 @@
     exclusive_rate: 1.0
     auto_select_id: 12001
     obtain_ids: "3000"
+    sp_description: equip-40000047
   }
   {
     id: 48
@@ -1137,6 +1183,7 @@
     exclusive_rate: 1.0
     auto_select_id: 12001
     obtain_ids: "3000"
+    sp_description: equip-40000048
   }
   {
     id: 49
@@ -1161,6 +1208,7 @@
     auto_select_id: 4001
     is_show: 1
     obtain_ids: "3021"
+    sp_description: equip-40000049
   }
   {
     id: 50
@@ -1191,6 +1239,7 @@
     auto_select_id: 5001
     is_show: 1
     obtain_ids: "3022"
+    sp_description: equip-40000050
   }
   {
     id: 51
@@ -1214,6 +1263,7 @@
     exclusive_rate: 1.0
     auto_select_id: 5002
     obtain_ids: "3000"
+    sp_description: equip-40000051
   }
   {
     id: 52
@@ -1238,6 +1288,7 @@
     exclusive_rate: 1.0
     auto_select_id: 5002
     obtain_ids: "3000"
+    sp_description: equip-40000052
   }
   {
     id: 53
@@ -1263,6 +1314,7 @@
     exclusive_rate: 1.0
     auto_select_id: 5002
     obtain_ids: "3000"
+    sp_description: equip-40000053
   }
   {
     id: 54
@@ -1288,6 +1340,7 @@
     exclusive_rate: 1.0
     auto_select_id: 5002
     obtain_ids: "3000"
+    sp_description: equip-40000054
   }
   {
     id: 55
@@ -1310,7 +1363,8 @@
     exclusive_rate: 1.0
     auto_select_id: 10002
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000055
   }
   {
     id: 56
@@ -1340,7 +1394,8 @@
     max_level: 10
     auto_select_id: 10002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000056
   }
   {
     id: 57
@@ -1370,7 +1425,8 @@
     max_level: 10
     auto_select_id: 10002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000057
   }
   {
     id: 58
@@ -1400,7 +1456,8 @@
     max_level: 10
     auto_select_id: 10002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000058
   }
   {
     id: 59
@@ -1432,7 +1489,8 @@
     max_level: 10
     auto_select_id: 19001
     is_show: 1
-    obtain_ids: "3037"
+    obtain_ids: "3"
+    sp_description: equip-40000059
   }
   {
     id: 60
@@ -1464,7 +1522,8 @@
     max_level: 10
     auto_select_id: 19002
     is_show: 1
-    obtain_ids: "3039"
+    obtain_ids: "3"
+    sp_description: equip-40000060
   }
   {
     id: 61
@@ -1497,7 +1556,8 @@
     max_level: 10
     auto_select_id: 20001
     is_show: 1
-    obtain_ids: "3038"
+    obtain_ids: "3"
+    sp_description: equip-40000061
   }
   {
     id: 62
@@ -1529,7 +1589,8 @@
     max_level: 10
     auto_select_id: 20002
     is_show: 1
-    obtain_ids: "3040"
+    obtain_ids: "3"
+    sp_description: equip-40000062
   }
   {
     id: 63
@@ -1552,7 +1613,8 @@
     exclusive_rate: 1.0
     auto_select_id: 13001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000063
   }
   {
     id: 64
@@ -1581,7 +1643,8 @@
     max_level: 10
     auto_select_id: 13001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000064
   }
   {
     id: 65
@@ -1613,7 +1676,8 @@
     max_level: 10
     auto_select_id: 13001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000065
   }
   {
     id: 66
@@ -1645,7 +1709,8 @@
     max_level: 10
     auto_select_id: 13001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000066
   }
   {
     id: 67
@@ -1674,7 +1739,8 @@
     max_level: 10
     auto_select_id: 14001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000067
   }
   {
     id: 68
@@ -1706,7 +1772,8 @@
     max_level: 10
     auto_select_id: 14001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000068
   }
   {
     id: 69
@@ -1730,7 +1797,8 @@
     exclusive_rate: 1.0
     auto_select_id: 6003
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000069
   }
   {
     id: 70
@@ -1761,7 +1829,8 @@
     max_level: 10
     auto_select_id: 6003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000070
   }
   {
     id: 71
@@ -1792,7 +1861,8 @@
     max_level: 10
     auto_select_id: 6003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000071
   }
   {
     id: 72
@@ -1823,7 +1893,8 @@
     max_level: 10
     auto_select_id: 6003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000072
   }
   {
     id: 73
@@ -1847,7 +1918,8 @@
     exclusive_rate: 1.0
     auto_select_id: 7001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000073
   }
   {
     id: 74
@@ -1877,7 +1949,8 @@
     max_level: 10
     auto_select_id: 7001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000074
   }
   {
     id: 75
@@ -1909,7 +1982,8 @@
     max_level: 10
     auto_select_id: 7001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000075
   }
   {
     id: 76
@@ -1941,7 +2015,8 @@
     max_level: 10
     auto_select_id: 7001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000076
   }
   {
     id: 77
@@ -1966,7 +2041,8 @@
     passive_skill: "300906"
     auto_select_id: 7002
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000077
   }
   {
     id: 78
@@ -1997,7 +2073,8 @@
     max_level: 10
     auto_select_id: 7002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000078
   }
   {
     id: 79
@@ -2030,7 +2107,8 @@
     max_level: 10
     auto_select_id: 7002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000079
   }
   {
     id: 80
@@ -2063,7 +2141,8 @@
     max_level: 10
     auto_select_id: 7002
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000080
   }
   {
     id: 81
@@ -2096,6 +2175,7 @@
     auto_select_id: 11001
     is_show: 1
     obtain_ids: "3020"
+    sp_description: equip-40000081
   }
   {
     id: 82
@@ -2128,6 +2208,7 @@
     auto_select_id: 7001
     is_show: 1
     obtain_ids: "3019"
+    sp_description: equip-40000082
   }
   {
     id: 83
@@ -2148,7 +2229,7 @@
     code: 配件_光学瞄准镜_AK
     develop_duration: 2700
     company: KST
-    fit_guns: "58,66"
+    fit_guns: "58,66,20066"
     equip_introduction: An optical scope developed by KSTSP before the war, it is specially designed to fit onto the AK family of weapons. Due to its unrivaled precision, it is still the accessory of choice for the AK variants to this day.
     powerup_mp: 0.45
     powerup_ammo: 0.15
@@ -2160,6 +2241,7 @@
     auto_select_id: 18001
     is_show: 1
     obtain_ids: "3017"
+    sp_description: equip-40000083
   }
   {
     id: 84
@@ -2180,7 +2262,7 @@
     code: 配件_光学瞄准镜_AK
     develop_duration: 2700
     company: KST
-    fit_guns: "58,66"
+    fit_guns: "58,66,20066"
     equip_introduction: An optical scope meticulously developed by KST with accuracy and precision before the war, it is specially designed to fit onto the AK family of weapons. Due to its precision and durability, it is still favored for the AK variants to this day.
     powerup_mp: 0.45
     powerup_ammo: 0.15
@@ -2192,6 +2274,7 @@
     auto_select_id: 18002
     is_show: 1
     obtain_ids: "3017"
+    sp_description: equip-40000084
   }
   {
     id: 85
@@ -2212,7 +2295,7 @@
     code: 配件_光学瞄准镜_AK
     develop_duration: 2700
     company: KST
-    fit_guns: "58,66"
+    fit_guns: "58,66,20066"
     equip_introduction: An optical scope developed by KST before the war, it is specially designed to fit onto the AK family of weapons. It is still a decent choice for the AK variants to this day.
     powerup_mp: 0.45
     powerup_ammo: 0.15
@@ -2224,6 +2307,7 @@
     auto_select_id: 18003
     is_show: 1
     obtain_ids: "3017"
+    sp_description: equip-40000085
   }
   {
     id: 86
@@ -2257,7 +2341,8 @@
     max_level: 10
     auto_select_id: 20003
     is_show: 1
-    obtain_ids: "3041"
+    obtain_ids: "3"
+    sp_description: equip-40000086
   }
   {
     id: 87
@@ -2281,7 +2366,8 @@
     exclusive_rate: 1.0
     auto_select_id: 15001
     is_show: 1
-    obtain_ids: "3001"
+    obtain_ids: "3,3001"
+    sp_description: equip-40000087
   }
   {
     id: 88
@@ -2311,7 +2397,8 @@
     max_level: 10
     auto_select_id: 15001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000088
   }
   {
     id: 89
@@ -2341,7 +2428,8 @@
     max_level: 10
     auto_select_id: 15001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3,3001,3028"
+    sp_description: equip-40000089
   }
   {
     id: 90
@@ -2371,7 +2459,8 @@
     max_level: 10
     auto_select_id: 15001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000090
   }
   {
     id: 91
@@ -2406,7 +2495,8 @@
     max_level: 10
     auto_select_id: 20004
     is_show: 1
-    obtain_ids: "3042"
+    obtain_ids: "3"
+    sp_description: equip-40000091
   }
   {
     id: 92
@@ -2438,7 +2528,8 @@
     max_level: 10
     auto_select_id: 20005
     is_show: 1
-    obtain_ids: "3048"
+    obtain_ids: "3,3048"
+    sp_description: equip-40000092
   }
   {
     id: 93
@@ -2471,6 +2562,7 @@
     auto_select_id: 18004
     is_show: 1
     obtain_ids: "3018"
+    sp_description: equip-40000093
   }
   {
     id: 94
@@ -2505,6 +2597,7 @@
     auto_select_id: 20006
     is_show: 1
     obtain_ids: "3050"
+    sp_description: equip-40000094
   }
   {
     id: 95
@@ -2536,6 +2629,7 @@
     auto_select_id: 6003
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000095
   }
   {
     id: 96
@@ -2566,6 +2660,7 @@
     auto_select_id: 15001
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000096
   }
   {
     id: 97
@@ -2596,6 +2691,7 @@
     max_level: 10
     auto_select_id: 20007
     obtain_ids: "3000"
+    sp_description: equip-40000097
   }
   {
     id: 98
@@ -2625,6 +2721,7 @@
     max_level: 10
     auto_select_id: 19003
     obtain_ids: "3000"
+    sp_description: equip-40000098
   }
   {
     id: 99
@@ -2659,6 +2756,7 @@
     auto_select_id: 20008
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000099
   }
   {
     id: 100
@@ -2693,6 +2791,7 @@
     auto_select_id: 18005
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000100
   }
   {
     id: 101
@@ -2725,6 +2824,7 @@
     auto_select_id: 19004
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000101
   }
   {
     id: 102
@@ -2758,6 +2858,7 @@
     auto_select_id: 20009
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000102
   }
   {
     id: 103
@@ -2791,6 +2892,7 @@
     auto_select_id: 18006
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000103
   }
   {
     id: 104
@@ -2824,6 +2926,7 @@
     auto_select_id: 18007
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000104
   }
   {
     id: 105
@@ -2844,7 +2947,7 @@
     code: 配件_光学瞄准镜_Kar98k
     develop_duration: 3600
     company: S&B
-    fit_guns: "46"
+    fit_guns: "46,20046"
     equip_introduction: The expensive German-made optical lens has always been the ultimate choice for snipers and photographers. For someone who has toured through 130 years of battlefields, this sophisticated sight will allow her to be even more serene. Can only be equipped by Kar98k.
     powerup_mp: 0.45
     powerup_ammo: 0.15
@@ -2856,6 +2959,7 @@
     auto_select_id: 18008
     is_show: 1
     obtain_ids: "3025"
+    sp_description: equip-40000105
   }
   {
     id: 106
@@ -2888,7 +2992,8 @@
     max_level: 10
     auto_select_id: 18009
     is_show: 1
-    obtain_ids: "3049"
+    obtain_ids: "3,3049"
+    sp_description: equip-40000106
   }
   {
     id: 107
@@ -2923,7 +3028,8 @@
     max_level: 10
     auto_select_id: 20010
     is_show: 1
-    obtain_ids: "3043"
+    obtain_ids: "3"
+    sp_description: equip-40000107
   }
   {
     id: 108
@@ -2956,6 +3062,7 @@
     auto_select_id: 20011
     is_show: 1
     obtain_ids: "3051"
+    sp_description: equip-40000108
   }
   {
     id: 109
@@ -2986,6 +3093,7 @@
     auto_select_id: 1001
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000109
   }
   {
     id: 110
@@ -3016,6 +3124,7 @@
     auto_select_id: 8001
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000110
   }
   {
     id: 111
@@ -3048,6 +3157,7 @@
     auto_select_id: 18010
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000111
   }
   {
     id: 112
@@ -3081,6 +3191,7 @@
     auto_select_id: 18011
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000112
   }
   {
     id: 113
@@ -3115,6 +3226,7 @@
     auto_select_id: 18012
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000113
   }
   {
     id: 114
@@ -3149,6 +3261,7 @@
     auto_select_id: 18013
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000114
   }
   {
     id: 115
@@ -3181,6 +3294,7 @@
     auto_select_id: 20012
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000115
   }
   {
     id: 117
@@ -3209,6 +3323,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3023"
+    sp_description: equip-40000117
   }
   {
     id: 118
@@ -3237,6 +3352,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3051"
+    sp_description: equip-40000118
   }
   {
     id: 119
@@ -3269,7 +3385,8 @@
     max_level: 10
     auto_select_id: 18016
     is_show: 1
-    obtain_ids: "3044"
+    obtain_ids: "3"
+    sp_description: equip-40000119
   }
   {
     id: 120
@@ -3301,6 +3418,7 @@
     auto_select_id: 3001
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000120
   }
   {
     id: 121
@@ -3332,6 +3450,7 @@
     auto_select_id: 10001
     is_show: 1
     obtain_ids: "3047"
+    sp_description: equip-40000121
   }
   {
     id: 122
@@ -3366,6 +3485,7 @@
     auto_select_id: 18017
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000122
   }
   {
     id: 123
@@ -3399,6 +3519,7 @@
     auto_select_id: 18018
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000123
   }
   {
     id: 124
@@ -3431,6 +3552,7 @@
     auto_select_id: 18019
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000124
   }
   {
     id: 125
@@ -3463,6 +3585,7 @@
     auto_select_id: 18020
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000125
   }
   {
     id: 126
@@ -3496,6 +3619,7 @@
     auto_select_id: 18021
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000126
   }
   {
     id: 127
@@ -3528,7 +3652,8 @@
     max_level: 10
     auto_select_id: 20013
     is_show: 1
-    obtain_ids: "3026"
+    obtain_ids: "3026,3035"
+    sp_description: equip-40000127
   }
   {
     id: 128
@@ -3562,6 +3687,7 @@
     auto_select_id: 18022
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000128
   }
   {
     id: 129
@@ -3594,6 +3720,7 @@
     auto_select_id: 18023
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000129
   }
   {
     id: 130
@@ -3626,6 +3753,7 @@
     auto_select_id: 18024
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000130
   }
   {
     id: 131
@@ -3659,6 +3787,7 @@
     auto_select_id: 18025
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000131
   }
   {
     id: 132
@@ -3692,6 +3821,7 @@
     auto_select_id: 18026
     is_show: 1
     obtain_ids: "3027"
+    sp_description: equip-40000132
   }
   {
     id: 133
@@ -3727,7 +3857,8 @@
     max_level: 10
     auto_select_id: 18027
     is_show: 1
-    obtain_ids: "3045"
+    obtain_ids: "3"
+    sp_description: equip-40000133
   }
   {
     id: 134
@@ -3761,6 +3892,7 @@
     auto_select_id: 18028
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000134
   }
   {
     id: 135
@@ -3792,6 +3924,7 @@
     auto_select_id: 19005
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000135
   }
   {
     id: 136
@@ -3823,6 +3956,7 @@
     auto_select_id: 19006
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000136
   }
   {
     id: 137
@@ -3851,6 +3985,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000137
   }
   {
     id: 138
@@ -3879,6 +4014,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000138
   }
   {
     id: 139
@@ -3906,6 +4042,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000139
   }
   {
     id: 140
@@ -3933,6 +4070,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000140
   }
   {
     id: 141
@@ -3960,6 +4098,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000141
   }
   {
     id: 142
@@ -3988,6 +4127,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000142
   }
   {
     id: 143
@@ -4015,6 +4155,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000143
   }
   {
     id: 144
@@ -4042,6 +4183,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3024"
+    sp_description: equip-40000144
   }
   {
     id: 145
@@ -4077,6 +4219,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3053"
+    sp_description: equip-40000145
   }
   {
     id: 146
@@ -4110,6 +4253,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3053"
+    sp_description: equip-40000146
   }
   {
     id: 147
@@ -4142,6 +4286,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3053"
+    sp_description: equip-40000147
   }
   {
     id: 148
@@ -4175,6 +4320,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3053"
+    sp_description: equip-40000148
   }
   {
     id: 149
@@ -4208,6 +4354,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3053"
+    sp_description: equip-40000149
   }
   {
     id: 150
@@ -4241,6 +4388,7 @@
     auto_select_id: 18032
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000150
   }
   {
     id: 151
@@ -4275,6 +4423,7 @@
     auto_select_id: 19011
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000151
   }
   {
     id: 152
@@ -4308,6 +4457,7 @@
     auto_select_id: 18033
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000152
   }
   {
     id: 153
@@ -4341,6 +4491,7 @@
     auto_select_id: 18034
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000153
   }
   {
     id: 154
@@ -4375,6 +4526,7 @@
     auto_select_id: 18035
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000154
   }
   {
     id: 155
@@ -4408,6 +4560,7 @@
     auto_select_id: 18036
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000155
   }
   {
     id: 156
@@ -4441,6 +4594,7 @@
     auto_select_id: 18037
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000156
   }
   {
     id: 157
@@ -4474,6 +4628,7 @@
     auto_select_id: 18038
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000157
   }
   {
     id: 158
@@ -4506,6 +4661,7 @@
     auto_select_id: 18039
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000158
   }
   {
     id: 159
@@ -4539,6 +4695,7 @@
     auto_select_id: 20020
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000159
   }
   {
     id: 160
@@ -4559,7 +4716,7 @@
     code: 配件_光瞄_lee
     develop_duration: 3600
     company: VKS
-    fit_guns: "50"
+    fit_guns: "50,20050"
     equip_introduction: Telescopic sight produced exclusively for Lee Enfield No. 4 MK. I (T) at the beginning of the last century, furnished with an exquisite brass finish. The faded scope lens witnessed countless lives lost. Can only be equipped by Lee Enfield.
     powerup_mp: 0.45
     powerup_ammo: 0.15
@@ -4571,6 +4728,7 @@
     auto_select_id: 18040
     is_show: 1
     obtain_ids: "3029"
+    sp_description: equip-40000160
   }
   {
     id: 161
@@ -4603,6 +4761,7 @@
     auto_select_id: 18041
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000161
   }
   {
     id: 162
@@ -4637,6 +4796,7 @@
     auto_select_id: 20021
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000162
   }
   {
     id: 163
@@ -4671,6 +4831,7 @@
     auto_select_id: 18042
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000163
   }
   {
     id: 164
@@ -4705,6 +4866,7 @@
     auto_select_id: 18043
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000164
   }
   {
     id: 165
@@ -4737,7 +4899,8 @@
     max_level: 10
     auto_select_id: 20022
     is_show: 1
-    obtain_ids: "3046"
+    obtain_ids: "3"
+    sp_description: equip-40000165
   }
   {
     id: 166
@@ -4771,6 +4934,7 @@
     auto_select_id: 18044
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000166
   }
   {
     id: 167
@@ -4804,6 +4968,7 @@
     auto_select_id: 18045
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000167
   }
   {
     id: 168
@@ -4837,6 +5002,7 @@
     auto_select_id: 18046
     is_show: 1
     obtain_ids: "3054"
+    sp_description: equip-40000168
   }
   {
     id: 169
@@ -4869,6 +5035,7 @@
     auto_select_id: 18047
     is_show: 1
     obtain_ids: "3054"
+    sp_description: equip-40000169
   }
   {
     id: 170
@@ -4901,6 +5068,7 @@
     auto_select_id: 19012
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000170
   }
   {
     id: 171
@@ -4933,6 +5101,7 @@
     auto_select_id: 20023
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000171
   }
   {
     id: 172
@@ -4965,6 +5134,7 @@
     auto_select_id: 18048
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000172
   }
   {
     id: 173
@@ -4997,6 +5167,7 @@
     auto_select_id: 19013
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000173
   }
   {
     id: 174
@@ -5031,6 +5202,7 @@
     auto_select_id: 19014
     is_show: 1
     obtain_ids: "3030"
+    sp_description: equip-40000174
   }
   {
     id: 175
@@ -5065,6 +5237,7 @@
     auto_select_id: 18049
     is_show: 1
     obtain_ids: "3055"
+    sp_description: equip-40000175
   }
   {
     id: 176
@@ -5098,6 +5271,7 @@
     auto_select_id: 19015
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000176
   }
   {
     id: 177
@@ -5131,6 +5305,7 @@
     auto_select_id: 18050
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000177
   }
   {
     id: 178
@@ -5163,6 +5338,7 @@
     auto_select_id: 19016
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000178
   }
   {
     id: 179
@@ -5196,6 +5372,7 @@
     auto_select_id: 18051
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000179
   }
   {
     id: 180
@@ -5229,6 +5406,7 @@
     auto_select_id: 18052
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000180
   }
   {
     id: 181
@@ -5262,6 +5440,7 @@
     auto_select_id: 19017
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000181
   }
   {
     id: 182
@@ -5294,6 +5473,7 @@
     auto_select_id: 19018
     is_show: 1
     obtain_ids: "3056"
+    sp_description: equip-40000182
   }
   {
     id: 183
@@ -5326,6 +5506,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000183
   }
   {
     id: 184
@@ -5359,6 +5540,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000184
   }
   {
     id: 185
@@ -5394,6 +5576,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000185
   }
   {
     id: 186
@@ -5429,6 +5612,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000186
   }
   {
     id: 187
@@ -5464,6 +5648,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000187
   }
   {
     id: 188
@@ -5499,6 +5684,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000188
   }
   {
     id: 189
@@ -5534,6 +5720,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3057"
+    sp_description: equip-40000189
   }
   {
     id: 190
@@ -5567,6 +5754,7 @@
     auto_select_id: 20026
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000190
   }
   {
     id: 191
@@ -5599,6 +5787,7 @@
     auto_select_id: 18057
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000191
   }
   {
     id: 192
@@ -5631,6 +5820,7 @@
     auto_select_id: 20027
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000192
   }
   {
     id: 193
@@ -5664,6 +5854,7 @@
     auto_select_id: 20028
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000193
   }
   {
     id: 194
@@ -5697,6 +5888,7 @@
     auto_select_id: 18058
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000194
   }
   {
     id: 195
@@ -5729,6 +5921,7 @@
     auto_select_id: 19020
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000195
   }
   {
     id: 196
@@ -5762,6 +5955,7 @@
     auto_select_id: 18059
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000196
   }
   {
     id: 197
@@ -5794,6 +5988,7 @@
     auto_select_id: 20029
     is_show: 1
     obtain_ids: "3031"
+    sp_description: equip-40000197
   }
   {
     id: 198
@@ -5827,6 +6022,7 @@
     auto_select_id: 18060
     is_show: 1
     obtain_ids: "3058"
+    sp_description: equip-40000198
   }
   {
     id: 199
@@ -5863,6 +6059,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
+    sp_description: equip-40000199
   }
   {
     id: 200
@@ -5898,6 +6095,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
+    sp_description: equip-40000200
   }
   {
     id: 201
@@ -5933,6 +6131,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3032"
+    sp_description: equip-40000201
   }
   {
     id: 202
@@ -5967,6 +6166,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
+    sp_description: equip-40000202
   }
   {
     id: 203
@@ -6001,6 +6201,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
+    sp_description: equip-40000203
   }
   {
     id: 204
@@ -6035,6 +6236,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3033"
+    sp_description: equip-40000204
   }
   {
     id: 205
@@ -6068,6 +6270,7 @@
     auto_select_id: 20032
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000205
   }
   {
     id: 206
@@ -6101,6 +6304,7 @@
     auto_select_id: 19023
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000206
   }
   {
     id: 207
@@ -6135,6 +6339,7 @@
     auto_select_id: 18063
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000207
   }
   {
     id: 208
@@ -6167,6 +6372,7 @@
     auto_select_id: 18064
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000208
   }
   {
     id: 209
@@ -6200,6 +6406,7 @@
     auto_select_id: 18065
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000209
   }
   {
     id: 210
@@ -6233,6 +6440,7 @@
     auto_select_id: 18066
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000210
   }
   {
     id: 211
@@ -6266,6 +6474,7 @@
     auto_select_id: 19024
     is_show: 1
     obtain_ids: "3004"
+    sp_description: equip-40000211
   }
   {
     id: 212
@@ -6298,6 +6507,7 @@
     auto_select_id: 19025
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000212
   }
   {
     id: 213
@@ -6332,6 +6542,7 @@
     auto_select_id: 20033
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000213
   }
   {
     id: 214
@@ -6364,6 +6575,7 @@
     auto_select_id: 20034
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000214
   }
   {
     id: 215
@@ -6396,6 +6608,7 @@
     auto_select_id: 19026
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000215
   }
   {
     id: 216
@@ -6430,6 +6643,7 @@
     auto_select_id: 19027
     is_show: 1
     obtain_ids: "3005"
+    sp_description: equip-40000216
   }
   {
     id: 217
@@ -6462,6 +6676,40 @@
     auto_select_id: 18067
     is_show: 1
     obtain_ids: "3034"
+    sp_description: equip-40000217
+  }
+  {
+    id: 218
+    name: High-Performance Camouflaged Exoskeleton
+    description:
+      '''
+      EVA+<dodge>
+      Enhances Skill$Type 64 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "16,20"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形装备_特殊_64式
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "94,20094"
+    equip_introduction: An exoskeleton custom-fitted for Type 64. This exoskeleton was designed for practicality and greatly improves her mobility while including camouflaged armor panels.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3.0
+    bonus_type: dodge:500
+    passive_skill: "902391"
+    max_level: 10
+    auto_select_id: 20035
+    is_show: 1
+    obtain_ids: "3006"
+    sp_description: equip-40000218
   }
   {
     id: 219
@@ -6495,6 +6743,7 @@
     auto_select_id: 18068
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000219
   }
   {
     id: 220
@@ -6529,6 +6778,7 @@
     auto_select_id: 18069
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000220
   }
   {
     id: 221
@@ -6561,6 +6811,7 @@
     auto_select_id: 19028
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000221
   }
   {
     id: 222
@@ -6589,7 +6840,8 @@
     max_level: 10
     auto_select_id: 16001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000222
   }
   {
     id: 223
@@ -6621,7 +6873,8 @@
     max_level: 10
     auto_select_id: 16001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000223
   }
   {
     id: 224
@@ -6653,7 +6906,8 @@
     max_level: 10
     auto_select_id: 16001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000224
   }
   {
     id: 225
@@ -6683,7 +6937,8 @@
     passive_skill: "300903"
     auto_select_id: 6004
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000225
   }
   {
     id: 226
@@ -6710,7 +6965,8 @@
     max_level: 10
     auto_select_id: 5003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000226
   }
   {
     id: 227
@@ -6737,7 +6993,8 @@
     max_level: 10
     auto_select_id: 5003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000227
   }
   {
     id: 228
@@ -6762,7 +7019,8 @@
     max_level: 10
     auto_select_id: 17001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000228
   }
   {
     id: 229
@@ -6790,7 +7048,8 @@
     max_level: 10
     auto_select_id: 17001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000229
   }
   {
     id: 230
@@ -6824,7 +7083,8 @@
     max_level: 10
     auto_select_id: 7003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000230
   }
   {
     id: 231
@@ -6858,7 +7118,8 @@
     max_level: 10
     auto_select_id: 7003
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000231
   }
   {
     id: 232
@@ -6889,7 +7150,8 @@
     max_level: 10
     auto_select_id: 9001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000232
   }
   {
     id: 233
@@ -6921,7 +7183,8 @@
     max_level: 10
     auto_select_id: 9001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000233
   }
   {
     id: 234
@@ -6953,7 +7216,8 @@
     max_level: 10
     auto_select_id: 9001
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000234
   }
   {
     id: 235
@@ -6985,7 +7249,8 @@
     max_level: 10
     auto_select_id: 7004
     is_show: 1
-    obtain_ids: "3001,3002,3028"
+    obtain_ids: "3001,3028"
+    sp_description: DMG Intake-3
   }
   {
     id: 236
@@ -7020,6 +7285,7 @@
     auto_select_id: 20036
     is_show: 1
     obtain_ids: "3007"
+    sp_description: equip-40000236
   }
   {
     id: 237
@@ -7053,6 +7319,7 @@
     auto_select_id: 20037
     is_show: 1
     obtain_ids: "3008"
+    sp_description: equip-40000237
   }
   {
     id: 238
@@ -7086,6 +7353,7 @@
     auto_select_id: 19029
     is_show: 1
     obtain_ids: "3016"
+    sp_description: Echelon ACC+10%
   }
   {
     id: 239
@@ -7119,6 +7387,7 @@
     auto_select_id: 19030
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000239
   }
   {
     id: 240
@@ -7153,6 +7422,7 @@
     auto_select_id: 20038
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000240
   }
   {
     id: 241
@@ -7186,6 +7456,7 @@
     auto_select_id: 19031
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000241
   }
   {
     id: 242
@@ -7220,6 +7491,7 @@
     auto_select_id: 19032
     is_show: 1
     obtain_ids: "3009"
+    sp_description: equip-40000242
   }
   {
     id: 243
@@ -7252,6 +7524,7 @@
     auto_select_id: 18070
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000243
   }
   {
     id: 244
@@ -7285,6 +7558,7 @@
     auto_select_id: 18071
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000244
   }
   {
     id: 245
@@ -7319,6 +7593,7 @@
     auto_select_id: 18072
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000245
   }
   {
     id: 246
@@ -7353,6 +7628,7 @@
     auto_select_id: 18073
     is_show: 1
     obtain_ids: "3010"
+    sp_description: equip-40000246
   }
   {
     id: 247
@@ -7385,6 +7661,7 @@
     auto_select_id: 18074
     is_show: 1
     obtain_ids: "3061"
+    sp_description: equip-40000247
   }
   {
     id: 248
@@ -7418,6 +7695,7 @@
     auto_select_id: 20042
     is_show: 1
     obtain_ids: "3011"
+    sp_description: equip-40000248
   }
   {
     id: 249
@@ -7452,6 +7730,7 @@
     auto_select_id: 18077
     is_show: 1
     obtain_ids: "3036"
+    sp_description: equip-40000249
   }
   {
     id: 250
@@ -7485,6 +7764,7 @@
     auto_select_id: 20043
     is_show: 1
     obtain_ids: "3012"
+    sp_description: equip-40000250
   }
   {
     id: 251
@@ -7518,6 +7798,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3062"
+    sp_description: equip-40000251
   }
   {
     id: 252
@@ -7552,6 +7833,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3062"
+    sp_description: equip-40000252
   }
   {
     id: 253
@@ -7585,6 +7867,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3062"
+    sp_description: equip-40000253
   }
   {
     id: 254
@@ -7617,6 +7900,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3062"
+    sp_description: equip-40000254
   }
   {
     id: 255
@@ -7651,6 +7935,7 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3062"
+    sp_description: equip-40000255
   }
   {
     id: 256
@@ -7684,6 +7969,7 @@
     auto_select_id: 20044
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000256
   }
   {
     id: 257
@@ -7716,6 +8002,7 @@
     auto_select_id: 18077
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000257
   }
   {
     id: 258
@@ -7748,6 +8035,7 @@
     auto_select_id: 19033
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000258
   }
   {
     id: 259
@@ -7775,6 +8063,7 @@
     auto_select_id: 20045
     is_show: 1
     obtain_ids: "3013"
+    sp_description: equip-40000259
   }
   {
     id: 261
@@ -7807,6 +8096,7 @@
     auto_select_id: 18078
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000261
   }
   {
     id: 262
@@ -7839,6 +8129,7 @@
     auto_select_id: 19034
     is_show: 1
     obtain_ids: "3016"
+    sp_description: equip-40000262
   }
   {
     id: 263
@@ -7872,6 +8163,7 @@
     auto_select_id: 19035
     is_show: 1
     obtain_ids: "3016"
+    sp_description: Echelon ACC+10%
   }
   {
     id: 264
@@ -7906,6 +8198,7 @@
     auto_select_id: 18079
     is_show: 1
     obtain_ids: "3014"
+    sp_description: equip-40000264
   }
   {
     id: 265
@@ -7939,6 +8232,7 @@
     auto_select_id: 18080
     is_show: 1
     obtain_ids: "3015"
+    sp_description: equip-40000265
   }
   {
     id: 266
@@ -7972,6 +8266,7 @@
     auto_select_id: 18081
     is_show: 1
     obtain_ids: "3063"
+    sp_description: equip-40000266
   }
   {
     id: 267
@@ -8006,6 +8301,7 @@
     auto_select_id: 18082
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000267
   }
   {
     id: 268
@@ -8038,6 +8334,7 @@
     auto_select_id: 19036
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000268
   }
   {
     id: 269
@@ -8070,6 +8367,7 @@
     auto_select_id: 18083
     is_show: 1
     obtain_ids: "3003"
+    sp_description: equip-40000269
   }
   {
     id: 270
@@ -8105,6 +8403,7 @@
     auto_select_id: 18084
     is_show: 1
     obtain_ids: "3064"
+    sp_description: equip-40000270
   }
   {
     id: 276
@@ -8139,6 +8438,7 @@
     auto_select_id: 18087
     is_show: 1
     obtain_ids: "3065"
+    sp_description: equip-40000276
   }
   {
     id: 277
@@ -8174,6 +8474,7 @@
     auto_select_id: 18088
     is_show: 1
     obtain_ids: "3066"
+    sp_description: equip-40000277
   }
   {
     id: 282
@@ -8207,6 +8508,7 @@
     auto_select_id: 18091
     is_show: 1
     obtain_ids: "3067"
+    sp_description: equip-40000282
   }
   {
     id: 283
@@ -8240,6 +8542,7 @@
     auto_select_id: 18092
     is_show: 1
     obtain_ids: "3068"
+    sp_description: equip-40000283
   }
   {
     id: 288
@@ -8274,6 +8577,7 @@
     auto_select_id: 18095
     is_show: 1
     obtain_ids: "3069"
+    sp_description: equip-40000288
   }
   {
     id: 292
@@ -8307,5 +8611,338 @@
     auto_select_id: 18099
     is_show: 1
     obtain_ids: "3070"
+    sp_description: equip-40000292
+  }
+  {
+    id: 305
+    name: S.F. Modified Tactical Light
+    description:
+      '''
+      EVA+<dodge>
+       Echelon Night Vision+5% $Not for RF,MG
+      '''
+    rank: 5
+    category: 1
+    type: 4
+    dodge: "2,5"
+    skill_effect: 150
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: 配件_武器灯_N
+    develop_duration: 3060
+    company: IOP
+    equip_introduction: A standard issue tactical light developed by Sangvis Ferri Industries. With IOP's modifications, it can now be controlled directly by a T-Doll's processor, which greatly enhances the Doll's combat capability in night battles. It can be equipped on all firearms except Rifles and Machine Guns.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 1.0
+    bonus_type: dodge:600
+    passive_skill: "759061"
+    max_level: 10
+    auto_select_id: 4002
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Echelon Night Vision+5%
+  }
+  {
+    id: 306
+    name: Mk3 Choke
+    description:
+      '''
+      AMMO+<bullet_number_up>
+       ACC+<hit> $SG only
+      '''
+    rank: 3
+    category: 1
+    type: 22
+    hit: "1,3"
+    bullet_number_up: "1,1"
+    retire_ammo: 4
+    code: 配件_喉缩管_N
+    develop_duration: 1800
+    company: IOP
+    equip_introduction: A general choke for Shotguns that can shape the spread of the shot to improve its impact in a small area. It can be equipped on Shotguns.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:1000,hit:700
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000306
+  }
+  {
+    id: 307
+    name: Mk4 Choke
+    description:
+      '''
+      AMMO+<bullet_number_up>
+       ACC+<hit> $SG only
+      '''
+    rank: 4
+    category: 1
+    type: 22
+    hit: "2,4"
+    bullet_number_up: "1,2"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    code: 配件_喉缩管_N
+    develop_duration: 2640
+    company: IOP
+    equip_introduction: A general choke for Shotguns modified from the Mk3. Made with brand-new materials, its performance is much more reliable. It can be equipped on Shotguns.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:500,hit:1000
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000307
+  }
+  {
+    id: 308
+    name: Mk0 Multi-Purpose Choke
+    description:
+      '''
+      AMMO+<bullet_number_up>
+       ACC+<hit> $SG only
+      '''
+    rank: 5
+    category: 1
+    type: 22
+    hit: "3,5"
+    bullet_number_up: "2,3"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    retire_part: 1
+    code: 配件_喉缩管_N
+    develop_duration: 3360
+    company: IOP
+    equip_introduction: A state-of-the-art choke for Shotguns. Made with revolutionary and specialized materials, the constriction can even be adjusted, making it very reliable. It can be equipped on Shotguns.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 1.0
+    bonus_type: bullet_number_up:700,hit:1000
+    max_level: 10
+    auto_select_id: 22001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000308
+  }
+  {
+    id: 309
+    name: Focus Chip
+    description:
+      '''
+      DMG+<pow> ROF<rate>
+       CRIT DMG+<critical_harm_rate><%> $SMG,AR only
+      '''
+    rank: 5
+    category: 3
+    type: 9
+    pow: "4,6"
+    rate: "-15,-10"
+    critical_harm_rate: "15,20"
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 1
+    code: 人形装备_专注芯片_N
+    develop_duration: 3120
+    company: IOP
+    equip_introduction: A new general chip that can effectively enhance a T-Doll's focus while shooting. It can be equipped on Submachine Guns and Assault Rifles.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 1.0
+    bonus_type: pow:700,critical_harm_rate:500
+    max_level: 10
+    auto_select_id: 9002
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: equip-40000309
+  }
+  {
+    id: 310
+    name: M1050 LRF
+    description:
+      '''
+      DMG+<pow>
+       Initial CD-30% $RF only
+      '''
+    rank: 4
+    category: 3
+    type: 23
+    pow: "1,3"
+    skill_effect: 100
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 人形装备_测距仪_N
+    develop_duration: 2580
+    company: STN
+    equip_introduction: A man-portable laser rangefinder and telescope that provides T-Dolls with more information when conducting long-range reconnaissance or making long-range shots. It can be equipped on certain Rifles.
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 1.0
+    bonus_type: pow:700
+    passive_skill: "759060"
+    max_level: 10
+    auto_select_id: 23001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Initial CD-30%
+  }
+  {
+    id: 311
+    name: M200X LRF
+    description:
+      '''
+      DMG+<pow>
+       Initial CD-80% $RF only
+      '''
+    rank: 5
+    category: 3
+    type: 23
+    pow: "3,5"
+    skill_effect: 150
+    retire_mp: 2
+    retire_ammo: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 人形装备_测距仪_N
+    develop_duration: 3600
+    company: IOP
+    equip_introduction: A laser rangefinder and telescope for T-Dolls that IOP developed by improving the M1050. Installed with a data synchronization module, it greatly enhances an echelon's teamwork. It can be equipped on certain Rifles.
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 1.0
+    bonus_type: pow:1000
+    passive_skill: "759059"
+    max_level: 10
+    auto_select_id: 23001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Initial CD-80%
+  }
+  {
+    id: 312
+    name: HD-50 Bipod
+    description:
+      '''
+      ACC+<hit> Move Speed<speed>
+       Reload Time-0.5s $MG only
+      '''
+    rank: 3
+    category: 3
+    type: 21
+    hit: "1,3"
+    speed: "-3,-2"
+    skill_effect: 50
+    retire_mp: 2
+    retire_part: 1
+    code: 人形装备_固定脚架_N
+    develop_duration: 1920
+    company: IOP
+    equip_introduction: A set of general bipod developed by Accu-Tac. With IOP's modifications, it makes T-Dolls more efficient in combat. It can be equipped on Machine Guns.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:700
+    passive_skill: "759064"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Reload Time-0.5s
+  }
+  {
+    id: 313
+    name: HD-50 Bipod Mk2
+    description:
+      '''
+      ACC+<hit> Move Speed<speed>
+       Reload Time-1s $MG only
+      '''
+    rank: 4
+    category: 3
+    type: 21
+    hit: "2,4"
+    speed: "-3,-2"
+    skill_effect: 100
+    retire_mp: 3
+    retire_part: 2
+    code: 人形装备_固定脚架_N
+    develop_duration: 2940
+    company: IOP
+    equip_introduction: A bipod modified from the standard HD-50. With an upgraded internal electronic control chip for T-Doll use, it further improves T-Dolls' combat efficiency. It can be equipped on Machine Guns.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:1000
+    passive_skill: "759063"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Reload Time-1s
+  }
+  {
+    id: 314
+    name: HD-100 Bipod
+    description:
+      '''
+      ACC+<hit> Move Speed<speed>
+       Reload Time-2s $MG only
+      '''
+    rank: 5
+    category: 3
+    type: 21
+    hit: "4,6"
+    speed: "-3,-2"
+    skill_effect: 150
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 3
+    code: 人形装备_固定脚架_N
+    develop_duration: 3540
+    company: IOP
+    equip_introduction: Modified from the HD-50 Mk2, this bipod is produced using brand-new materials, which translates to lighter weight and more reliable performance. The internal circuitry has also been further refined, greatly improving T-Dolls' combat efficiency. It can be equipped on Machine Guns.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 1.0
+    bonus_type: hit:700
+    passive_skill: "759062"
+    max_level: 10
+    auto_select_id: 21001
+    is_show: 1
+    obtain_ids: "3001,3028"
+    sp_description: Reload Time-2s
   }
 ]

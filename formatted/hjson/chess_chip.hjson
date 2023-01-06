@@ -703,7 +703,6 @@
     description: Cause any effect triggered by your death to activate 3 times.
     rank: 4
     skill_target_first: "16502"
-    skill_target_second: "19904"
     target_select_first: 5
     target_select_second: 5
     type: 1
@@ -1646,7 +1645,9 @@
     description: When an HG is deployed, the distance of its first move is tripled.
     rank: 5
     skill_target_first: "60201,60204,60203"
+    skill_target_second: "19904"
     target_select_first: 10
+    target_select_second: 5
     type: 1
     sell_price: 7
     experience: 1

@@ -3340,7 +3340,6 @@
     target_type: 1
     target_number: 1
     select_order: "9"
-    is_ascend_order: "1"
     list_ranking: 1
     target_buff_id: 8126
     target_parameter: 1
@@ -3395,7 +3394,6 @@
     target_type: 1
     target_number: 1
     select_order: "9"
-    is_ascend_order: "1"
     list_ranking: 1
     target_buff_id: 8161
     target_parameter: 1
@@ -3407,7 +3405,6 @@
     target_type: 1
     target_number: 1
     select_order: "9"
-    is_ascend_order: "1"
     list_ranking: 1
     target_buff_id: 8162
     target_parameter: 1
@@ -3419,7 +3416,6 @@
     target_type: 1
     target_number: 1
     select_order: "9"
-    is_ascend_order: "1"
     list_ranking: 1
     target_buff_id: 8163
     target_parameter: 1
@@ -3431,7 +3427,6 @@
     target_type: 1
     target_number: 1
     select_order: "9"
-    is_ascend_order: "1"
     list_ranking: 1
     target_buff_id: 8164
     target_parameter: 1
@@ -3490,6 +3485,207 @@
     target_buff_id: 8275
     target_parameter: 1
     buff_trigger_type: 6
+  }
+  {
+    id: 674
+    description: 抓取3位
+    target_type: 1
+    target_number: 3
+    select_order: "9"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8327
+    target_parameter: 1
+    buff_trigger_type: 7
+  }
+  {
+    id: 675
+    description: 溅射标记敌方单位
+    target_type: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8306
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 676
+    description: 斩杀血量20%
+    target_type: 1
+    target_number: 1
+    select_order: "1000004567"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8347
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 677
+    description: 移动目标水白
+    target_type: 1
+    target_number: 1
+    select_order: "6"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8314
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 678
+    description: 我方血量百分比最低
+    target_type: 2
+    target_number: 1
+    select_order: "1000004575"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 679
+    description: 敌方当前输出最高
+    target_type: 1
+    target_number: 1
+    select_order: "12"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 680
+    description: 战区对我方当前生命最高者释放
+    target_type: 2
+    target_number: 1
+    select_order: "1"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 681
+    description: 战区对敌方当前生命最高者释放
+    target_type: 1
+    target_number: 1
+    select_order: "1"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 682
+    description: 对敌方全体释放
+    target_type: 1
+    target_number: 1
+    is_ingore_range: 1
+    list_ranking: 1
+    target_buff_id: 8275
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 683
+    description: aa02普攻2个随机最近
+    target_type: 1
+    target_number: 2
+    select_order: "9"
+    list_ranking: 1
+  }
+  {
+    id: 684
+    description: 对敌方当前生命最低者释放
+    target_type: 1
+    target_number: 1
+    select_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 685
+    description: 防护车索敌
+    target_type: 1
+    list_ranking: 1
+    target_buff_id: 8418
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 686
+    description: 对范围内敌方全体释放
+    target_type: 1
+  }
+  {
+    id: 687
+    description: 高威胁单位
+    target_type: 1
+    is_ingore_range: 1
+    target_buff_id: 4683
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 688
+    description: 我方最高输出单位
+    target_type: 2
+    target_number: 1
+    select_order: "12"
+    is_ascend_order: "1"
+    is_ingore_range: 1
+    list_ranking: 1
+  }
+  {
+    id: 689
+    description: 威胁度最高的
+    target_type: 1
+    target_number: 1
+    select_order: "1000001977,1000002051"
+    is_ascend_order: "1,1"
+    list_ranking: 1
+  }
+  {
+    id: 690
+    description: ar18低编制优先
+    target_type: 1
+    target_number: 1
+    select_order: "1000004763"
+    is_ascend_order: "1"
+    list_ranking: 1
+  }
+  {
+    id: 691
+    description: 98k
+    target_type: 1
+    target_number: 1
+    select_order: "9"
+    is_ascend_order: "1"
+    list_ranking: 1
+    target_buff_id: 8526
+    target_parameter: 1
+    buff_trigger_type: 6
+  }
+  {
+    id: 692
+    description: 随机选择力场盾目标释放
+    target_type: 1
+    target_number: 1
+    list_ranking: 1
+    target_parameter: 1000001425
+    buff_trigger_type: 18
+  }
+  {
+    id: 693
+    description: 万行换目标
+    target_type: 1
+    target_number: 1
+    select_order: "9"
+    list_ranking: 1
+    target_buff_id: 8580
+    target_parameter: 1
+    buff_trigger_type: 7
   }
   {
     id: 1006

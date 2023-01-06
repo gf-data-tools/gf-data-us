@@ -536,18 +536,6 @@
     sort: 149
   }
   {
-    id: 157
-    type: develop_fairy
-    count: 1
-    prize_id: 765
-    title: Fairy: Fairy Acquisition
-    content: Obtain a Fairy in "Factory – Heavy Equipment Production" (note: Heavy Equipment Production has a chance of yielding Fairies).
-    unlock_course: "80"
-    new_type: 1
-    grade_id: 23
-    sort: 168
-  }
-  {
     id: 158
     type: eat_fairy
     count: 5
@@ -2485,39 +2473,6 @@
     new_type: 1
     grade_id: 21
     sort: 166
-  }
-  {
-    id: 329
-    type: special_develop_equip
-    count: 1
-    prize_id: 11137
-    title: Factory Mission: Heavy Equipment Production
-    content: Produce a piece of equipment through Heavy Production in "Factory – Heavy Equipment Production".
-    new_type: 1
-    grade_id: 23
-    sort: 173
-  }
-  {
-    id: 330
-    type: special_develop_equip
-    count: 5
-    prize_id: 11138
-    title: Factory Mission: Heavy Equipment Production
-    content: Produce 5 pieces of equipment through Heavy Production in "Factory – Heavy Equipment Production".
-    new_type: 1
-    grade_id: 24
-    sort: 177
-  }
-  {
-    id: 331
-    type: special_develop_equip
-    count: 10
-    prize_id: 11139
-    title: Factory Mission: Heavy Equipment Production
-    content: Produce 10 pieces of equipment through Heavy Production in "Factory – Heavy Equipment Production".
-    new_type: 1
-    grade_id: 25
-    sort: 182
   }
   {
     id: 332
@@ -4851,5 +4806,50 @@
     grade_id: 12
     sort: 100
     condition: "100"
+  }
+  {
+    id: 554
+    type: special_develop_fairy
+    count: 1
+    prize_id: 11137
+    title: Factory Mission: Heavy Fairy Production
+    content: Complete 1 Heavy Fairy Production through Factory - Fairy Production
+    new_type: 1
+    grade_id: 23
+    sort: 173
+  }
+  {
+    id: 555
+    type: special_develop_fairy
+    count: 5
+    prize_id: 11138
+    title: Factory Mission: Heavy Fairy Production
+    content: Complete 5 Heavy Fairy Productions through Factory - Fairy Production
+    new_type: 1
+    grade_id: 24
+    sort: 177
+  }
+  {
+    id: 556
+    type: special_develop_fairy
+    count: 10
+    prize_id: 11139
+    title: Factory Mission: Heavy Fairy Production
+    content: Complete 10 Heavy Fairy Productions through Factory - Fairy Production
+    new_type: 1
+    grade_id: 25
+    sort: 182
+  }
+  {
+    id: 557
+    type: special_develop_fairy_notexp
+    count: 1
+    prize_id: 765
+    title: Fairy: Fairy Acquisition
+    content: Obtain 1 Fairy through Factory - Fairy Production
+    unlock_course: "170"
+    new_type: 1
+    grade_id: 23
+    sort: 168
   }
 ]

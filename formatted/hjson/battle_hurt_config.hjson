@@ -180,6 +180,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
+    ui_control: 1
   }
   {
     id: 17
@@ -1317,7 +1318,6 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 2
-    is_ricochet: 100
   }
   {
     id: 381
@@ -5847,6 +5847,563 @@
     hit_type: 1
   }
   {
+    id: 2237
+    description: 战区编制伤害
+    extra_damage: *101
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2238
+    description: 战区队长buff-5个
+    buff_id_target: 1000004710:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2239
+    description: 战区最大生命值10%
+    extra_damage: *101
+    hit_type: 1
+  }
+  {
+    id: 2240
+    description: 爆破榴弹内圈
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004771
+  }
+  {
+    id: 2241
+    description: 爆破榴弹中圈
+    damage_ratio: *202
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004771
+  }
+  {
+    id: 2242
+    description: 爆破榴弹外圈
+    damage_ratio: *203
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004771
+  }
+  {
+    id: 2243
+    description: 狙击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004729
+  }
+  {
+    id: 2244
+    description: 显示消buff2
+    buff_id_self: 3302:-10,3304:-5,3305:-5,3306:-5,3308:1,8401:-1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2245
+    description: 561自毁
+    extra_damage: *101
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2246
+    description: 清除盟友层数
+    critical_hit_rate: "100"
+    buff_id_target: 8384:-99,8409:-99,8383:-99
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2247
+    description: aa02普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2248
+    description: aa02一技能范围
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2249
+    description: 独巨mg普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 8413:1000004742,8414:1000004743
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2250
+    description: 防护装置buff
+    critical_hit_rate: "100"
+    buff_id_target: 8415:1000004744
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2251
+    description: 防护导弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_id_target: 8418:-1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2252
+    description: 老太太普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 8424:1000004747
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2253
+    description: 老太太狂暴
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 8424:1000004747
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2254
+    description: 机甲涅托普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2255
+    description: 机甲涅托一技能导弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2256
+    description: 机甲涅托一技能范围
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2257
+    description: 机甲涅托大招激光伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2258
+    description: 网球伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004748
+  }
+  {
+    id: 2259
+    description: 网球结束伤害1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004750
+  }
+  {
+    id: 2260
+    description: 网球结束清除标记
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 8445:-99,8446:-99
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2261
+    description: M240L主动普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1000004753
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2262
+    description: M240L溢出穿甲值
+    extra_damage: *103
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1000004753
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2263
+    description: AR18普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004762
+  }
+  {
+    id: 2264
+    description: m327法球伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2265
+    description: m327找队长
+    critical_hit_rate: "100"
+    buff_id_target: 1000004764:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2266
+    description: 支援300点伤害
+    extra_damage: "300"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2267
+    description: 308清buff
+    critical_hit_rate: "100"
+    buff_id_target: 8461:-99
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2268
+    description: AUG装备攻击
+    damage_ratio: "60"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2269
+    description: 圣盾GA冲击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2270
+    description: 防护加触发buff
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 8420:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2271
+    description: 老太太轮椅
+    damage_ratio: "99999"
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2272
+    description: AR18嘲讽普攻
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 8470:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2273
+    description: 92嘲讽普攻
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 8470:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2274
+    description: MK46榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    defbreak_rate: "33"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004782
+  }
+  {
+    id: 2275
+    description: MK46护盾杀伤
+    extra_damage: *102
+    critical_hit_rate: "100"
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: 1000004783
+  }
+  {
+    id: 2276
+    description: MK46第三发榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    defbreak_rate: "33"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004782
+  }
+  {
+    id: 2277
+    description: MK46空爆弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    is_ricochet: 100
+    fix_damage: 1000004785
+  }
+  {
+    id: 2278
+    description: 法球100伤害子弹
+    extra_damage: "100"
+    hit_type: 1
+  }
+  {
+    id: 2279
+    description: 万圣刽子手一技能前排伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: 1000004790
+  }
+  {
+    id: 2280
+    description: 万圣行裁者一技能后排伤害
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2281
+    description: 万圣刽子手大招后效果
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_self: 8553:1,8554:1,8555:1,8556:1,8557:1,8558:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2282
+    description: 万圣刽子手割伤范围
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004791
+  }
+  {
+    id: 2283
+    description: 万圣刽子手枪伤范围
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004792
+  }
+  {
+    id: 2284
+    description: 万圣刽子手双伤范围
+    extra_damage: *103
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: 1000004793
+  }
+  {
+    id: 2285
+    description: 万行非二近战子弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 8578:1000004803,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2286
+    description: 万行非二近战后非编制伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2287
+    description: 万行非二远程子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 8577:1000004803,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2288
+    description: 万行二技近战后编制伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2289
+    description: 万行二技远程子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 8577:1000004803,8579:1,8580:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: 1000004794
+  }
+  {
+    id: 2290
+    description: LS26换弹
+    buff_id_target: 7999:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2295
+    description: 燃烧持续伤害
+    extra_damage: "60"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2296
+    description: 600无视编制伤害 500力场破防
+    extra_damage: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    extra_defbreak: "500"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: 1000004897
+  }
+  {
     id: 2330
     description: 起源弹新
     damage_ratio: *202
@@ -7520,6 +8077,21 @@
     is_form_hurt: 1
     hit_type: 1
     fix_damage: 1000003959
+  }
+  {
+    id: 7772
+    description: 10%磁场伤害
+    damage_ratio: "10"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 7773
+    description: 15冲击波伤害
+    extra_damage: "15"
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: 15
   }
   {
     id: 12509

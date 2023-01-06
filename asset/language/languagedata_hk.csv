@@ -761,6 +761,8 @@ COMMON,1760,資源損壞！,,0
 COMMON,1761,將任一非原型妖精培養至5星100級解鎖該功能,,0
 COMMON,1762,重新登入,,0
 COMMON,1766,全部領取,,0
+COMMON,1775,【自選禮包介面】//n指揮官可從截至2022年9月8日前實裝的四星戰術人形中選擇一位獲得。//n請指揮官前往【倉庫】在對應種類調用函中選擇戰術人形，各種類可獲得人形情況如下：//n【HG】：柯爾特左輪、斯捷奇金、Mk23、P7、SPP-1、Spitfire、雷電、K5、杰里科、P30、Rex Zero 1、德林加、CZ 100、ZiP .22、PPQ//n【SMG】：MP5、UMP9、UMP45、PP-90、PP-19、希普卡、UMP40、KLIN、PP-19-01、Cx4 風暴、蜜獾、MAT-49、KAC-PDW、CF05、SAF、AR-57、PPD-40、維涅龍M2、MPL、MPK//n【RF】：春田、莫辛-納甘、PTRD、PSG-1、SVD、G28、PzB39、T-5000、XM3、Mk 12、SPR A3G、K31、KSVK、四式、SSG3000、塔布克、蒙德拉貢M1908、TF-Q//n【AR】：AS Val、G36、56-1式、FAMAS、TAR-21、9A-91、利貝羅勒、Ak 5、CZ2000、XM8、A-91、SAR-21、EM-2、CR-21、M82、FX-05、菲德洛夫、APC556、FARA 83、AK74M//n【MG】：M1918、M60、PK、MG3、Mk48、Mk46、AEK-999、阿梅利、80式、UKM-2000、紹沙、M1895 CB、PM1910、LS26//n【SG】：M37、M590、Super-Shorty、SPAS-12、M1014、USAS-12、解放者、防衛者、V-PM5、HK512、新星、MAG-7、UTS-15,,0
+COMMON,1776,【自選禮包介面】//n指揮官可從截至2022年9月8日前實裝的五星戰術人形中選擇一位獲得。//n請指揮官前往【倉庫】在對應種類調用函中選擇戰術人形，各種類可獲得人形情況如下：//n【HG】：灰熊MkⅤ、M950A、維爾德MkⅡ、NZ75、Five-seveN、CZ75、競爭者、蟒蛇、Px4 風暴、P22、HS2000、PA-15、沙漠之鷹、C-93、韋伯利、HP-35、蜂鳥、Rhino //n【SMG】：湯姆森、Vector、索米、G36C、79式、SR-3MP、MP7、AK-74U、C-MS、PM-06、JS 9、一〇〇式、P90、X95、PM-9、Lusa、AUG Para、VP1915、SP9、SR-2、斯特林//n【RF：Kar98k、WA2000、李-恩菲爾德、NTW-20、M99、IWS 2000、DSR-50、JS05、卡爾卡諾M1891、卡爾卡諾M91/38、芭莉斯塔、SRS、TAC-50、M82A1、M200、QBU-88、R93、SL8、VSK-94、劉氏步槍、SVCh、Savage 99、德利爾、HS.50//n【AR】：G41、HK416、FAL、OTs-14、G11、95式、97式、RFB、ART556、T91、K2、Zas M21、AK-12、AN-94、MDR、AUG、K11、64式自、ADS、ACR、SIG-556、R5、AK-15、89式自、AK-Alfa、S-ACR、VHS、SIG MCX、TKB-408、KH2002、A-545、QBZ-191、SCR//n【MG】：MG5、內蓋夫、MG4、PKP、HK21、88式、路易士、MG36、Kord、RPK-16、ZB-26、RPK-203、MG338//n【SG】：KSG、M1887、Saiga-12、AA-12、FP-6、M870、S.A.T.8、CAWS、DP-12、LTLX7000、M6 ASW、FO-12、M26-MASS、SPAS-15、MK3A1,,0
 BATTLE,10000,撤退,,0
 BATTLE,10001,全體撤退,,0
 BATTLE,10002,WITHDRAW,,0
@@ -955,7 +957,6 @@ BATTLE,10196,人形梯隊部署數量已達上限。,,0
 BATTLE,10197,融合勢力梯隊部署數量已達上限。,,0
 BATTLE,10198,重裝部隊部署數量已達上限。,,0
 BATTLE,10199,非重裝梯隊部署數量已達上限。,,0
-BATTLE,10201,是否终止代理作战(todo),,0
 CARNIVAL,11000,進度,,0
 CARNIVAL,11001,領取獎勵,,0
 CARNIVAL,11002,GETREWARD,,0
@@ -1099,10 +1100,6 @@ HOME,20130,有可進行的評級測試,,0
 HOME,20131,可領取,,0
 HOME,20132,購買{0}級，升至{1}級獲得以上獎勵,,0
 HOME,20133,完成該角色進化突破，可解鎖此立繪。,,0
-HOME,20140,活动时间(todo),,0
-HOME,20141,第{0}轮奖励即将刷新(todo),,0
-HOME,20142,需要完成首通奖励后开启(todo),,0
-HOME,20143,MM月dd日HH时(todo),,0
 DEPLOYMENT,30000,部署,,0
 DEPLOYMENT,30001,移動,,0
 DEPLOYMENT,30002,換位,,0
@@ -1223,7 +1220,7 @@ DEPLOYMENT,30116,進入夜戰,,0
 DEPLOYMENT,30117,已部署梯隊,,0
 DEPLOYMENT,30118,剩餘回合數,,0
 DEPLOYMENT,30119,作戰中緊急修復將消耗雙倍資源！,,0
-DEPLOYMENT,30120,*紧急修复将无法获得金星奖章(todo),,0
+DEPLOYMENT,30120,使用緊急修復將無法獲得金星獎章,,0
 DEPLOYMENT,30121,所屬類型:,,0
 DEPLOYMENT,30122,該梯隊中沒有手槍(HG)，在夜戰地圖中沒有視野！,,0
 DEPLOYMENT,30123,本日呼叫支援次數已用盡!,,0
@@ -1594,9 +1591,6 @@ DEPLOYMENT,30497,等待友方行動中……,,0
 DEPLOYMENT,30498,等待第三方行動中……,,0
 DEPLOYMENT,30499,已部署非重裝梯隊,,0
 DEPLOYMENT,30500,天賦II發動,,0
-DEPLOYMENT,30504,机动作战(todo),,0
-DEPLOYMENT,30505,当前战斗存在困难，将中断代理作战(todo),,0
-DEPLOYMENT,30506,受到效果影响，当前梯队移动所需的行动点不足，不能进行移动(todo),,0
 DORM,31000,收納庫,,0
 DORM,31001,Warehouse,,0
 DORM,31002,採購,,0
@@ -1903,8 +1897,8 @@ DORM,31701,格納庫,,0
 DORM,31703,電池X{0},,0
 DORM,31704,未滿級人形在作戰中會獲取<color=#ffb400>全域經驗</color>，數量等同與作戰經驗的<color=#ffb400>{0}%</color>,,0
 DORM,31705,滿級人形在作戰中會獲取<color=#ffb400>全域經驗</color>，數量等同與溢出經驗的<color=#ffb400>{0}%</color>,,0
-DORM,31706,是否將裝扮禮物 【<color=#ffb400ff>{0}</color>】//n交給格琳娜收藏？//n//n<size=40><color=#e31414ff>收藏換裝不會獲得好感度，獲得人形後該裝扮會自動解鎖。</color></size>,,0
-DORM,31707,裝扮【<color=#ffb400ff>{0}</color>】已解鎖//c獲得人形後//c可以在<color=#ffb400ff>人物屬性界面</color>切換。,,0
+DORM,31706,是否将装扮礼物 【<color=#ffb400ff>{0}</color>】//n交给格琳娜收藏？(todo),,0
+DORM,31707,获得人形后//c可以在<color=#ffb400ff>人物属性界面</color>切换。(todo),,0
 DORM,31708,海報,,0
 DORM,31709,已領取<color=#FFB400FF>【電池】*{0}</color>，電池儲存已達上限，剩餘電池將留在電容中。,,0
 DORM,31710,電池數量已達儲存上限，<color=#ffb400>無法領取</color>,,0
@@ -3381,13 +3375,6 @@ MISSIONSELECTION,40417,全體出征成功,,0
 MISSIONSELECTION,40418,梯隊出征成功,,0
 MISSIONSELECTION,40419,未獲得獎勵,,0
 MISSIONSELECTION,40420,作戰提示,,0
-MISSIONSELECTION,40429,关卡奖励预览(todo),,0
-MISSIONSELECTION,40430,搜查(todo),,0
-MISSIONSELECTION,40431,难度设置(todo),,0
-MISSIONSELECTION,40432,日常玩法规则(todo),,0
-MISSIONSELECTION,40433,第{0}轮(todo),,0
-MISSIONSELECTION,40434,首通奖励(todo),,0
-MISSIONSELECTION,40435,普通奖励(todo),,0
 REINFORCEMENT,50000,選擇角色,,0
 REINFORCEMENT,50001,未解鎖,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -4498,7 +4485,7 @@ SEPCIALOPS,60626,我去過通靈鬼屋，沒有想象中可怕，反而還……
 SEPCIALOPS,60627,我承認，那個時候我確實是慌了……,,0
 SEPCIALOPS,60628,你好，瑪姬·龐茲。,,0
 SEPCIALOPS,60629,行李箱,,0
-SEPCIALOPS,60630,SCAR-L过于强大，需要确保SCAR-H收集3处XXXX后再与其对决(todo),,0
+SEPCIALOPS,60630,艾莉安娜過於強大，需要確保收集3處月印後再與其對決,,0
 GASHAPON,70000,當前傢俱倉庫容量不足,,0
 GASHAPON,70001,）//c請整頓後再進行採購!,,0
 GASHAPON,70002,採購幣不足//c無法完成採購,,0
@@ -4997,7 +4984,6 @@ FRIEND,110004,道具,,0
 FRIEND,110005,名片,,0
 FRIEND,110006,該用戶不存在,,0
 FRIEND,110007,四項資源,,0
-FRIEND,110008,友情点数不足，可通过战斗支援系统、点赞他人宿舍、日常任务、拉弗伯雷兵棋扭蛋机获取。(todo),,0
 FRIEND,110009,不足,,0
 FRIEND,110010,好友已達上限！,,0
 FRIEND,110011,背景,,0
@@ -5030,7 +5016,7 @@ FRIEND,110037,歡迎使用<color=#FFBB00FF>好友系統</color>，在這裡你�
 FRIEND,110038,在<color=#FFBB00FF>好友列表</color>頁可以查看你已結交的好友，並發送<color=#FFBB00FF>資訊</color>。,,0
 FRIEND,110039,<color=#FFBB00FF>好友添加</color>頁可以添加好友，並查看其他玩家的添加好友請求。,,0
 FRIEND,110040,<color=#FFBB00FF>個人名片</color>頁可以查看並編輯自己的<color=#FFBB00FF>名片</color>，名片將會展示給其他玩家。此處也可進行一些好友名片相關的設置。,,0
-FRIEND,110041,在<color=#FFBB00FF>友情商店</color>中，你可以购买到头像及名片背景等装饰道具。并且可以使用友情点数购买功能性道具。(todo),,0
+FRIEND,110041,在<color=#FFBB00FF>友情商店</color>中，你可以購買到頭像及名片背景等裝飾道具。並且可以使用友情點數購買功能性道具。,,0
 FRIEND,110042,最新消息,,0
 FRIEND,110043,最近登入,,0
 FRIEND,110044,指揮官等級,,0
@@ -5579,7 +5565,7 @@ BEGINNERGUIDE,150080,指揮官，是時候擴充我們的梯隊了呢。請進�
 BEGINNERGUIDE,150081,指揮官，現在請點擊<color=#ffb400>【戰鬥】</color>指令，準備出擊！,,0
 BEGINNERGUIDE,150082,指揮官，現在要去瞭解一下【後勤支援】，我們在<color=#ffb400>【戰鬥】</color>區見面吧。,,0
 BEGINNERGUIDE,150083,指揮官，總部的獎勵已經到位，請在【任務】面板清點一下吧！,,0
-BEGINNERGUIDE,150084,如果有受損的人形，透過維修就能恢復狀態了，現在，請先點擊<color=#ffb400>【修復】</color>指令。,,0
+BEGINNERGUIDE,150084,如果有人形遭遇了重创，需要通过维修来恢复状态。现在，请先点击<color=#ffb400>【修复】</color>指令。(todo),,0
 BEGINNERGUIDE,150085,指揮官，總部為我們開放了【訓練】許可權，請跟我到【研發】區來查看一下吧。,,0
 BEGINNERGUIDE,150086,指揮官，【模擬作戰】的許可權已向您開放，請進入<color=#ffb400>【戰鬥】</color>指令，我來講解一下。,,0
 BEGINNERGUIDE,150087,指揮官，現在跟我瞭解一下新推出的<color=#FFBB00FF>【生涯任務】</color>吧！請先進入<color=#FFBB00FF>【任務】</color>面板！,,0
@@ -5608,7 +5594,7 @@ BEGINNERGUIDE,150109,請進入【主線任務】的清單。,,0
 BEGINNERGUIDE,150110,點擊【領取獎勵】，接受總部發來的獎品吧！,,0
 BEGINNERGUIDE,150111,就是這樣，完成任務就能獲得物資獎勵，指揮官，請加油幹吧！,,0
 BEGINNERGUIDE,150112,指揮官，請點擊<color=#ffb400>【選擇角色】</color>指令。,,0
-BEGINNERGUIDE,150113,這裡會列出所有受損的人形，請選擇需要修復的那一位。,,0
+BEGINNERGUIDE,150113,这里会列出所有遭受重创的人形，请选择需要修复的那一位。(todo),,0
 BEGINNERGUIDE,150114,確認無誤之後，就點擊<color=#ffb400>【確定】</color>指令吧。,,0
 BEGINNERGUIDE,150115,您還可以透過<color=#ffb400>【快速修復】</color>，立即完成修復。<color=#ffb400>【修復】</color>的講解到此結束，指揮官，請好好愛護她們哦。,,0
 BEGINNERGUIDE,150116,現在，請點擊左上角返回基地吧。,,0
@@ -7140,13 +7126,6 @@ FORMATION,270054,自動编成,,0
 FORMATION,270055,已為第{0}梯隊自動分配隊長,,0
 FORMATION,270056,{0}沒有分配隊長，請先配置。,,0
 FORMATION,270057,第{0}梯隊,,0
-FORMATION,270063,该梯队正在作战中，无法进行编辑！(todo),,0
-FORMATION,270064,缺少{0}的{1}(todo),,0
-FORMATION,270065,前排单位(todo),,0
-FORMATION,270066,后排单位(todo),,0
-FORMATION,270067,队长单位(todo),,0
-FORMATION,270068,推荐用于该编队(todo),,0
-FORMATION,270069,<color=#FFB400FF>【{0}】</color>(todo),,0
 MINIGAME,280001,回合,,0
 MINIGAME,280002,正在尋找房間，請稍等......,,0
 MINIGAME,280003,已等待,,0
@@ -7645,4 +7624,3 @@ MINIGAME,280498,當前使用,,0
 MINIGAME,280499,未獲得,,0
 MINIGAME,280500,使用中,,0
 MINIGAME,280501,未獲取的棋盤背景，不能使用,,0
-MINIGAME,280502,是否确认在该难度下进行游戏(todo),,0

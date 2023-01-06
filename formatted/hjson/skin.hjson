@@ -1175,6 +1175,27 @@
     order: 84
   }
   {
+    id: 578
+    name: Materialistic Fad
+    fit_gun: 316
+    voice: 4
+    dialog: Hm? You look a little troubled, Commander... Don't worry! I won't feel tired even if we shop at 100 more streets!
+    note: skin-30000578
+    illustrator_cv: skin-40000578
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 586
+    name: Queen of Castile
+    fit_gun: 230
+    voice: 4
+    dialog: On a chessboard, even someone as soft and weak as me can dominate others... I hope you are prepared for a painful defeat?
+    note: skin-30000586
+    illustrator_cv: skin-40000586
+    order: 90
+  }
+  {
     id: 601
     name: A Couple's Journey
     fit_gun: 6
@@ -6232,6 +6253,73 @@
     class_id: 69
   }
   {
+    id: 6601
+    name: Reindeer Manifesto
+    fit_gun: 290
+    voice: 19
+    dialog: Do I really have to stick with Santa Claus when delivering presents? I think using my newest invention, the present catapult, is perfectly efficient!
+    note: skin-30006601
+    illustrator_cv: skin-40006601
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6603
+    name: Hunting Time
+    fit_gun: 4
+    voice: 19
+    dialog: I've been sitting here the whole evening. Finally, I see some decent "prey"… Why don't we have a drink together, Commander?
+    note: skin-30006603
+    illustrator_cv: 八号地球, Chiaki Takahashi,
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6604
+    name: Sitting Next to Perosa
+    fit_gun: 333
+    voice: 19
+    dialog: Swimming in such low temperatures really is physically taxing. You must be tired, Commander. Here, I've saved this seat for you right next to me.
+    note: skin-30006604
+    gift_position: "-298.7,89.7"
+    illustrator_cv: skin-40006604
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6605
+    name: Wave Crest Racer
+    fit_gun: 288
+    voice: 19
+    dialog: Commander, let's surf together! It's really simple. Just catch the wave and ride its momentum like this. It's just like running on water…
+    note: skin-30006605
+    illustrator_cv: skin-40006605
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6606
+    name: Poolside Xmas Encounter
+    fit_gun: 225
+    voice: 19
+    dialog: Merry Christmas, Commander! I'd like to give you a present together with the champion of this year's winter swimming competition! Huh? Penguins aren't qualified to take part…?
+    note: skin-30006606
+    illustrator_cv: skin-40006606
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6607
+    name: Cozy Winter Deliverer
+    fit_gun: 304
+    voice: 19
+    dialog: I have a delivery for you, Commander! Not there! Your present is a hug from me!
+    note: skin-30006607
+    illustrator_cv: skin-40006607
+    order: 79
+    class_id: 70
+  }
+  {
     id: 6608
     name: Raise the Christmas Elf
     fit_gun: 70
@@ -6423,5 +6511,15 @@
     illustrator_cv: skin-40007506
     order: 92
     class_id: 79
+  }
+  {
+    id: 30001
+    name: Breeze in a Summer Afternoon
+    fit_gun: 57
+    voice: 4
+    dialog: Hop on, we're setting off once I'm done with this coke... You think we're eloping? We can give that a try if you don't mind getting dumped in the middle of nowhere.
+    note: skin-30030001
+    illustrator_cv: skin-40030001
+    order: 91
   }
 ]

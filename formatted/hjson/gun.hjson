@@ -76,6 +76,7 @@
     explore_tag: "52"
     gun_detail_bg: nation_US
     org_id: 10302
+    related_story_id: 100001
   }
   {
     id: 2
@@ -159,6 +160,7 @@
     explore_tag: "68"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100002
   }
   {
     id: 3
@@ -241,6 +243,7 @@
     explore_tag: "12,24"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100003
   }
   {
     id: 4
@@ -302,14 +305,15 @@
     effect_grid_pos: "7,8,19,12,14,18"
     effect_grid_effect: "1,15;5,10"
     type_equip1: 1;4,13,16
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 4
     launch_time: 2020-02-17 00:00:00
-    obtain_ids: "211"
+    obtain_ids: "411"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100004
   }
   {
     id: 5
@@ -396,6 +400,7 @@
     explore_tag: "6,25,54,58,70,73"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100005
   }
   {
     id: 6
@@ -568,6 +573,7 @@
     explore_tag: "38"
     gun_detail_bg: nation_Russia
     org_id: 10303
+    related_story_id: 100007
   }
   {
     id: 8
@@ -657,6 +663,7 @@
     explore_tag: "14,37,48"
     gun_detail_bg: nation_Russia
     org_id: 10704
+    related_story_id: 100008
   }
   {
     id: 9
@@ -727,7 +734,7 @@
     effect_grid_center: 13
     effect_grid_pos: "12,14,17,19"
     effect_grid_effect: "2,7;3,28"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 9
@@ -737,6 +744,7 @@
     explore_tag: "12,55"
     gun_detail_bg: nation_German
     org_id: 10803
+    related_story_id: 100009
   }
   {
     id: 10
@@ -831,7 +839,7 @@
     effect_grid_pos: "7,8,9,18"
     effect_grid_effect: "2,16;5,8"
     type_equip1: 1;4,13,16,18
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 10
     launch_time: 1970-01-01 08:00:00
@@ -840,6 +848,7 @@
     explore_tag: "30,71"
     gun_detail_bg: nation_German
     org_id: 10303
+    related_story_id: 100010
   }
   {
     id: 11
@@ -922,7 +931,7 @@
     effect_grid_center: 13
     effect_grid_pos: "12,14,18"
     effect_grid_effect: "1,7;3,35"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 11
@@ -932,6 +941,7 @@
     explore_tag: "27,55"
     gun_detail_bg: nation_German
     org_id: 10303
+    related_story_id: 100011
   }
   {
     id: 12
@@ -1034,6 +1044,7 @@
     explore_tag: "55,57,67"
     gun_detail_bg: nation_German
     org_id: 10302
+    related_story_id: 100012
   }
   {
     id: 13
@@ -1123,7 +1134,7 @@
     effect_grid_pos: "7,8,9,12,14,17,18,19"
     effect_grid_effect: "3,25;4,20"
     type_equip1: 1;4,13,16
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 13
     launch_time: 1970-01-01 08:00:00
@@ -1132,6 +1143,7 @@
     explore_tag: "37,38,48,53"
     gun_detail_bg: nation_China
     org_id: 10704
+    related_story_id: 100013
   }
   {
     id: 14
@@ -1293,6 +1305,7 @@
     rank_display: 3
     explore_tag: "29,46"
     org_id: 10802
+    related_story_id: 100015
   }
   {
     id: 16
@@ -1373,6 +1386,7 @@
     explore_tag: "19,34,41,50"
     gun_detail_bg: nation_US
     org_id: 102
+    related_story_id: 100016
   }
   {
     id: 17
@@ -1467,6 +1481,7 @@
     explore_tag: "9,12"
     gun_detail_bg: nation_US
     org_id: 10303
+    related_story_id: 100017
   }
   {
     id: 18
@@ -1593,6 +1608,7 @@
     explore_tag: "33,52"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100018
   }
   {
     id: 19
@@ -1782,6 +1798,7 @@
     explore_tag: "9,10,18,23,35,69"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100020
   }
   {
     id: 21
@@ -1860,7 +1877,7 @@
     effect_grid_pos: "12,14"
     effect_grid_effect: "1,10;2,5"
     type_equip1: 3;9,10
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13,18
     ai: 21
     launch_time: 1970-01-01 08:00:00
@@ -1869,6 +1886,7 @@
     explore_tag: "7,50,54,69"
     gun_detail_bg: nation_Russia
     org_id: 10303
+    related_story_id: 100021
   }
   {
     id: 22
@@ -2239,6 +2257,7 @@
     explore_tag: "7,27,55"
     gun_detail_bg: nation_German
     org_id: 10302
+    related_story_id: 100025
   }
   {
     id: 26
@@ -2356,6 +2375,7 @@
     explore_tag: "6,18,58,70"
     gun_detail_bg: nation_German
     org_id: 10203
+    related_story_id: 100026
   }
   {
     id: 27
@@ -2451,6 +2471,7 @@
     rank_display: 3
     explore_tag: "30,52"
     org_id: 10302
+    related_story_id: 100027
   }
   {
     id: 28
@@ -2527,6 +2548,7 @@
     explore_tag: "2,28"
     gun_detail_bg: nation_German
     org_id: 10202
+    related_story_id: 100028
   }
   {
     id: 29
@@ -2613,6 +2635,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "31,47,48,68"
     org_id: 10704
+    related_story_id: 100029
   }
   {
     id: 31
@@ -2707,6 +2730,7 @@
     mindupdate_consume: 10:10,45:200;10:20,45:600;10:30,45:1200
     gun_detail_bg: nation_Italy
     org_id: 10302
+    related_story_id: 100031
   }
   {
     id: 32
@@ -2807,6 +2831,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "52"
     org_id: 10202
+    related_story_id: 100032
   }
   {
     id: 33
@@ -2893,6 +2918,7 @@
     rank_display: 2
     explore_tag: "3,8"
     org_id: 10802
+    related_story_id: 100033
   }
   {
     id: 34
@@ -2979,8 +3005,8 @@
     effect_grid_pos: "18"
     effect_grid_effect: "6,12"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip2: 1;1,2,3,13,18
+    type_equip3: 3;15,23
     ai: 34
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -2988,6 +3014,7 @@
     explore_tag: "26,45,64"
     gun_detail_bg: nation_US
     org_id: 10303
+    related_story_id: 100034
   }
   {
     id: 35
@@ -3071,6 +3098,7 @@
     explore_tag: "45,57"
     gun_detail_bg: nation_US
     org_id: 10303
+    related_story_id: 100035
   }
   {
     id: 36
@@ -3166,7 +3194,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 36
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -3174,6 +3202,7 @@
     explore_tag: "3,26,66"
     gun_detail_bg: nation_US
     org_id: 107
+    related_story_id: 100036
   }
   {
     id: 37
@@ -3265,6 +3294,7 @@
     explore_tag: "31,45,67"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100037
   }
   {
     id: 38
@@ -3341,7 +3371,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 38
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "14,15"
@@ -3349,6 +3379,7 @@
     explore_tag: "11,45,68"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100038
   }
   {
     id: 39
@@ -3428,7 +3459,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15,20
+    type_equip3: 3;15,20,23
     ai: 39
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -3437,6 +3468,7 @@
     explore_tag: "8,50,54,68"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100039
   }
   {
     id: 40
@@ -3505,9 +3537,9 @@
     effect_guntype: "1"
     effect_grid_pos: "18"
     effect_grid_effect: "6,10"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 40
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
@@ -3607,6 +3639,7 @@
     explore_tag: "12,50"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100041
   }
   {
     id: 42
@@ -3691,7 +3724,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15,20
+    type_equip3: 3;15,20,23
     ai: 42
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -3781,6 +3814,7 @@
     explore_tag: "50,57,59"
     gun_detail_bg: nation_Russia
     org_id: 10402
+    related_story_id: 100043
   }
   {
     id: 44
@@ -3873,7 +3907,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15,20
+    type_equip3: 3;15,20,23
     ai: 44
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -3882,6 +3916,7 @@
     explore_tag: "37"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100044
   }
   {
     id: 46
@@ -3958,7 +3993,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,20,23
     ai: 46
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,2"
@@ -3966,6 +4001,7 @@
     explore_tag: "27,35,41,55,66"
     gun_detail_bg: nation_German
     org_id: 10201
+    related_story_id: 100046
   }
   {
     id: 47
@@ -4037,7 +4073,7 @@
     effect_grid_pos: "17,19"
     effect_grid_effect: "6,10"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
+    type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 47
     launch_time: 1970-01-01 08:00:00
@@ -4046,6 +4082,7 @@
     explore_tag: "22,23,55"
     gun_detail_bg: nation_German
     org_id: 10303
+    related_story_id: 100047
   }
   {
     id: 48
@@ -4152,6 +4189,7 @@
     explore_tag: "4"
     gun_detail_bg: nation_German
     org_id: 10201
+    related_story_id: 100048
   }
   {
     id: 49
@@ -4225,12 +4263,13 @@
     type_equip3: 3;15
     ai: 49
     launch_time: 2019-11-21 00:00:00
-    obtain_ids: "1911"
+    obtain_ids: "1911,101"
     rank_display: 3
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "53,75"
     gun_detail_bg: nation_China
     org_id: 10705
+    related_story_id: 100049
   }
   {
     id: 50
@@ -4311,7 +4350,7 @@
     effect_guntype: "1"
     effect_grid_pos: "12,14"
     effect_grid_effect: "6,18"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 50
@@ -4320,6 +4359,7 @@
     rank_display: 5
     explore_tag: "14,17,35,79"
     org_id: 10201
+    related_story_id: 100050
   }
   {
     id: 51
@@ -4412,6 +4452,7 @@
     explore_tag: "3,49,64"
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100051
   }
   {
     id: 52
@@ -4579,7 +4620,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 53
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,2"
@@ -4587,6 +4628,7 @@
     mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     explore_tag: "60"
     org_id: 104
+    related_story_id: 100053
   }
   {
     id: 54
@@ -4693,6 +4735,7 @@
     explore_tag: "50,84"
     gun_detail_bg: team_ar
     org_id: 106
+    related_story_id: 100054
   }
   {
     id: 55
@@ -4790,6 +4833,7 @@
     explore_tag: "69,84"
     gun_detail_bg: team_ar
     org_id: 10601
+    related_story_id: 100055
   }
   {
     id: 56
@@ -4887,6 +4931,7 @@
     explore_tag: "84"
     gun_detail_bg: team_ar
     org_id: 10601
+    related_story_id: 100056
   }
   {
     id: 57
@@ -4987,6 +5032,7 @@
     explore_tag: "20,84"
     gun_detail_bg: team_ar
     org_id: 10601
+    related_story_id: 100057
   }
   {
     id: 58
@@ -5094,6 +5140,7 @@
     explore_tag: "22,50,75"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100058
   }
   {
     id: 59
@@ -5171,6 +5218,7 @@
     rank_display: 5
     gun_detail_bg: nation_Russia
     org_id: 10203
+    related_story_id: 100059
   }
   {
     id: 60
@@ -5269,6 +5317,7 @@
     explore_tag: "9,50,69"
     gun_detail_bg: nation_Russia
     org_id: 10303
+    related_story_id: 100060
   }
   {
     id: 61
@@ -5357,6 +5406,7 @@
     explore_tag: "27,55"
     gun_detail_bg: nation_German
     org_id: 10303
+    related_story_id: 100061
   }
   {
     id: 62
@@ -5444,6 +5494,7 @@
     explore_tag: "51"
     gun_detail_bg: nation_German
     org_id: 10202
+    related_story_id: 100062
   }
   {
     id: 63
@@ -5550,6 +5601,7 @@
     explore_tag: "26,69"
     gun_detail_bg: nation_German
     org_id: 105
+    related_story_id: 100063
   }
   {
     id: 64
@@ -5637,6 +5689,7 @@
     explore_tag: "3,27,34,44,73"
     gun_detail_bg: nation_German
     org_id: 10705
+    related_story_id: 100064
   }
   {
     id: 65
@@ -5752,6 +5805,7 @@
     explore_tag: "9,10,83,86"
     gun_detail_bg: team_404
     org_id: 10104
+    related_story_id: 100065
   }
   {
     id: 66
@@ -5835,7 +5889,7 @@
     effect_grid_effect: "4,15;5,10"
     type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 66
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -5843,6 +5897,7 @@
     explore_tag: "5,53"
     gun_detail_bg: nation_China
     org_id: 10705
+    related_story_id: 100066
   }
   {
     id: 68
@@ -6080,6 +6135,7 @@
     rank_display: 4
     explore_tag: "10,27,56,77"
     org_id: 10403
+    related_story_id: 100069
   }
   {
     id: 70
@@ -6186,6 +6242,7 @@
     explore_tag: "1,5,49"
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100070
   }
   {
     id: 71
@@ -6326,6 +6383,7 @@
     mindupdate_consume: 10:10,45:200;10:20,45:600;10:30,45:1200
     explore_tag: "5,7,31,39,67"
     org_id: 10202
+    related_story_id: 100071
   }
   {
     id: 72
@@ -6418,6 +6476,7 @@
     rank_display: 4
     explore_tag: "37,38,78"
     org_id: 10202
+    related_story_id: 100072
   }
   {
     id: 73
@@ -6503,7 +6562,7 @@
     effect_grid_center: 13
     effect_grid_pos: "12,18,19,14,17"
     effect_grid_effect: "1,12;3,20"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 73
@@ -6512,6 +6571,7 @@
     rank_display: 5
     explore_tag: "9,14,46,51"
     org_id: 10402
+    related_story_id: 100073
   }
   {
     id: 74
@@ -6685,7 +6745,7 @@
     effect_grid_effect: "1,15;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 75
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -6694,6 +6754,7 @@
     explore_tag: "28,62"
     gun_detail_bg: nation_US
     org_id: 10303
+    related_story_id: 100075
   }
   {
     id: 77
@@ -6775,7 +6836,7 @@
     effect_grid_effect: "1,22"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 77
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -6865,7 +6926,7 @@
     effect_grid_effect: "1,10;2,8"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 78
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -6960,7 +7021,7 @@
     effect_grid_effect: "2,12;3,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 79
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "16,17"
@@ -7062,7 +7123,7 @@
     effect_grid_effect: "3,25;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 80
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -7070,6 +7131,7 @@
     explore_tag: "8,11,60"
     gun_detail_bg: nation_US
     org_id: 10704
+    related_story_id: 100080
   }
   {
     id: 81
@@ -7150,7 +7212,7 @@
     effect_grid_effect: "1,10;2,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 81
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
@@ -7159,6 +7221,7 @@
     explore_tag: "10,38,78"
     gun_detail_bg: nation_US
     org_id: 10302
+    related_story_id: 100081
   }
   {
     id: 82
@@ -7263,7 +7326,7 @@
     effect_grid_effect: "2,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 82
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
@@ -7349,10 +7412,10 @@
     effect_grid_effect: "2,16"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 84
     launch_time: 2018-09-01 00:00:00
-    obtain_ids: "1809"
+    obtain_ids: "1809,102"
     rank_display: 3
     gun_detail_bg: nation_Russia
     org_id: 10704
@@ -7440,7 +7503,7 @@
     effect_grid_effect: "1,18"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 85
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -7532,8 +7595,8 @@
     effect_grid_pos: "21"
     effect_grid_effect: "1,22"
     type_equip1: 2;5,17
-    type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,21
     ai: 86
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -7634,7 +7697,7 @@
     effect_grid_effect: "1,20"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 87
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
@@ -7642,6 +7705,7 @@
     explore_tag: "27,43,55,67"
     gun_detail_bg: nation_German
     org_id: 10702
+    related_story_id: 100087
   }
   {
     id: 88
@@ -7735,8 +7799,8 @@
     effect_grid_pos: "22,24"
     effect_grid_effect: "1,10;3,15"
     type_equip1: 2;5,17
-    type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,20
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,20,21
     ai: 88
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -7744,6 +7808,7 @@
     explore_tag: "11,43,67"
     gun_detail_bg: nation_German
     org_id: 10302
+    related_story_id: 100088
   }
   {
     id: 89
@@ -7835,7 +7900,7 @@
     effect_grid_effect: "2,10;3,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 89
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -7843,6 +7908,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "17,20,25,27,47"
     org_id: 10302
+    related_story_id: 100089
   }
   {
     id: 90
@@ -8004,6 +8070,7 @@
     explore_tag: "8,11"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100091
   }
   {
     id: 92
@@ -8099,6 +8166,7 @@
     explore_tag: "8,12"
     gun_detail_bg: nation_Italy
     org_id: 10704
+    related_story_id: 100092
   }
   {
     id: 93
@@ -8189,6 +8257,7 @@
     mindupdate_consume: 10:10,45:200;10:20,45:600;10:30,45:1200
     explore_tag: "8,11,47"
     org_id: 10302
+    related_story_id: 100093
   }
   {
     id: 94
@@ -8261,7 +8330,7 @@
     crit: 5
     eat_ratio: 105
     ratio_range: 100
-    skill1: 102201
+    skill1: 902390
     normal_attack: 300102
     passive_skill: "900156,999999"
     effect_grid_center: 13
@@ -8279,6 +8348,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10705
+    related_story_id: 100094
   }
   {
     id: 95
@@ -8365,6 +8435,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10701
+    related_story_id: 100095
   }
   {
     id: 96
@@ -8471,6 +8542,7 @@
     explore_tag: "11,60,81"
     gun_detail_bg: nation_US
     org_id: 10401
+    related_story_id: 100096
   }
   {
     id: 97
@@ -8554,6 +8626,7 @@
     explore_tag: "65,77"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100097
   }
   {
     id: 98
@@ -8639,6 +8712,7 @@
     rank_display: 4
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100098
   }
   {
     id: 99
@@ -8716,7 +8790,7 @@
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,18"
     effect_grid_effect: "1,18"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 99
@@ -8726,6 +8800,7 @@
     explore_tag: "3,51"
     gun_detail_bg: nation_German
     org_id: 10302
+    related_story_id: 100099
   }
   {
     id: 100
@@ -8808,6 +8883,7 @@
     explore_tag: "8,30"
     gun_detail_bg: nation_German
     org_id: 10303
+    related_story_id: 100100
   }
   {
     id: 101
@@ -8895,6 +8971,7 @@
     explore_tag: "83"
     gun_detail_bg: team_404
     org_id: 10104
+    related_story_id: 100101
   }
   {
     id: 102
@@ -9057,6 +9134,7 @@
     explore_tag: "35,37,83"
     gun_detail_bg: team_404
     org_id: 10104
+    related_story_id: 100103
   }
   {
     id: 104
@@ -9143,6 +9221,7 @@
     explore_tag: "44"
     gun_detail_bg: nation_German
     org_id: 10703
+    related_story_id: 100104
   }
   {
     id: 105
@@ -9349,6 +9428,7 @@
     explore_tag: "16,24,36,41,49,51"
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100106
   }
   {
     id: 107
@@ -9433,6 +9513,7 @@
     explore_tag: "5,15,49"
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100107
   }
   {
     id: 108
@@ -9599,7 +9680,7 @@
     effect_grid_effect: "1,10;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 109
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
@@ -9607,6 +9688,7 @@
     explore_tag: "19,35,41"
     gun_detail_bg: nation_German
     org_id: 10402
+    related_story_id: 100109
   }
   {
     id: 110
@@ -9685,7 +9767,7 @@
     effect_grid_effect: "3,30"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 110
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
@@ -9791,13 +9873,14 @@
     effect_grid_effect: "2,20"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 111
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
     rank_display: 2
     explore_tag: "39,48"
     org_id: 10704
+    related_story_id: 100111
   }
   {
     id: 112
@@ -9888,13 +9971,14 @@
     effect_grid_effect: "8,20"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 112
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,2"
     rank_display: 5
     explore_tag: "41"
     org_id: 10202
+    related_story_id: 100112
   }
   {
     id: 113
@@ -9971,10 +10055,11 @@
     type_equip3: 3;10
     ai: 113
     launch_time: 2019-06-21 00:00:00
-    obtain_ids: "1906"
+    obtain_ids: "1906,102"
     rank_display: 3
     gun_detail_bg: nation_Russia
     org_id: 10801
+    related_story_id: 100113
   }
   {
     id: 114
@@ -10055,6 +10140,7 @@
     mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     explore_tag: "9,17,27,40,47,82"
     org_id: 103
+    related_story_id: 100114
   }
   {
     id: 115
@@ -10139,7 +10225,7 @@
     effect_grid_pos: "7,9"
     effect_grid_effect: "2,15;3,30"
     type_equip1: 3;9,10,20
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13
     ai: 115
     launch_time: 1970-01-01 08:00:00
@@ -10147,6 +10233,7 @@
     rank_display: 5
     explore_tag: "31,40,65"
     org_id: 10803
+    related_story_id: 100115
   }
   {
     id: 116
@@ -10224,6 +10311,7 @@
     rank_display: 3
     explore_tag: "9,14"
     org_id: 10704
+    related_story_id: 100116
   }
   {
     id: 117
@@ -10299,7 +10387,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 117
     launch_time: 2018-07-17 01:00:00
     obtain_ids: "2,102"
@@ -10307,6 +10395,7 @@
     explore_tag: "57"
     gun_detail_bg: nation_German
     org_id: 10302
+    related_story_id: 100117
   }
   {
     id: 118
@@ -10400,6 +10489,7 @@
     explore_tag: "12,33,50"
     gun_detail_bg: nation_Russia
     org_id: 10403
+    related_story_id: 100118
   }
   {
     id: 119
@@ -10502,6 +10592,7 @@
     explore_tag: "41,51"
     gun_detail_bg: nation_Russia
     org_id: 10202
+    related_story_id: 100119
   }
   {
     id: 120
@@ -10608,7 +10699,7 @@
     effect_guntype: "2"
     effect_grid_pos: "17"
     effect_grid_effect: "1,25;3,50"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 120
@@ -10703,7 +10794,7 @@
     effect_grid_effect: "2,18"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 121
     launch_time: 2018-09-04 00:00:00
     obtain_ids: "1,2"
@@ -10805,6 +10896,7 @@
     explore_tag: "10,18,62,83,86"
     gun_detail_bg: team_404
     org_id: 10104
+    related_story_id: 100122
   }
   {
     id: 123
@@ -10887,7 +10979,7 @@
     effect_grid_center: 13
     effect_grid_pos: "12,14,18"
     effect_grid_effect: "2,6;4,18"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 123
@@ -10971,15 +11063,16 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 124
     launch_time: 2018-07-01 00:00:00
-    obtain_ids: "1807"
+    obtain_ids: "1807,101"
     rank_display: 3
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "32"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100124
   }
   {
     id: 125
@@ -11060,7 +11153,7 @@
     effect_grid_effect: "3,12;8,15"
     type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 125
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,2"
@@ -11068,6 +11161,7 @@
     mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     gun_detail_bg: nation_German
     org_id: 10402
+    related_story_id: 100125
   }
   {
     id: 126
@@ -11144,6 +11238,7 @@
     explore_tag: "16,23,24,27,53"
     gun_detail_bg: nation_China
     org_id: 10402
+    related_story_id: 100126
   }
   {
     id: 127
@@ -11229,6 +11324,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10203
+    related_story_id: 100127
   }
   {
     id: 128
@@ -11304,7 +11400,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 128
     launch_time: 2018-05-29 00:00:00
     obtain_ids: "1,2"
@@ -11312,6 +11408,7 @@
     explore_tag: "41,53,58"
     gun_detail_bg: nation_China
     org_id: 10203
+    related_story_id: 100128
   }
   {
     id: 129
@@ -11564,12 +11661,13 @@
     effect_grid_effect: "3,55"
     type_equip1: 3;9,10
     type_equip2: 2;6
-    type_equip3: 1;1,2,3,4,13
+    type_equip3: 1;1,2,3,4,13,18
     ai: 131
     launch_time: 2018-11-01 00:00:00
-    obtain_ids: "1811,105"
+    obtain_ids: "1811,101"
     rank_display: 3
     org_id: 10303
+    related_story_id: 100131
   }
   {
     id: 132
@@ -11647,7 +11745,7 @@
     type_equip3: 3;10
     ai: 132
     launch_time: 2018-10-01 00:00:00
-    obtain_ids: "1810"
+    obtain_ids: "1810,101"
     rank_display: 3
     explore_tag: "25,53"
     gun_detail_bg: nation_China
@@ -11825,7 +11923,7 @@
     type_equip3: 3;9,10
     ai: 134
     launch_time: 2018-12-01 00:00:00
-    obtain_ids: "1812"
+    obtain_ids: "1812,101"
     rank_display: 3
     gun_detail_bg: nation_Italy
     org_id: 10302
@@ -11915,6 +12013,7 @@
     explore_tag: "8,51,59"
     gun_detail_bg: nation_Russia
     org_id: 10202
+    related_story_id: 100135
   }
   {
     id: 136
@@ -12038,6 +12137,7 @@
     explore_tag: "8"
     gun_detail_bg: nation_Russia
     org_id: 10203
+    related_story_id: 100136
   }
   {
     id: 137
@@ -12524,6 +12624,7 @@
     explore_tag: "16,36,49,51,57,85"
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100142
   }
   {
     id: 143
@@ -12599,6 +12700,7 @@
     explore_tag: "40,48,82,84"
     gun_detail_bg: team_ar
     org_id: 10601
+    related_story_id: 100143
   }
   {
     id: 144
@@ -12724,7 +12826,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 145
     launch_time: 2019-01-22 00:00:00
     obtain_ids: "2,103"
@@ -12808,6 +12910,7 @@
     explore_tag: "4,31"
     gun_detail_bg: nation_German
     org_id: 10701
+    related_story_id: 100146
   }
   {
     id: 147
@@ -12897,6 +13000,7 @@
     rank_display: 3
     explore_tag: "46"
     org_id: 10803
+    related_story_id: 100147
   }
   {
     id: 148
@@ -12968,6 +13072,7 @@
     rank_display: 5
     explore_tag: "13,46,57"
     org_id: 10203
+    related_story_id: 100148
   }
   {
     id: 149
@@ -13035,7 +13140,7 @@
     effect_grid_effect: "2,15;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 149
     launch_time: 2018-11-13 01:00:00
     obtain_ids: "1,2"
@@ -13043,6 +13148,7 @@
     explore_tag: "60,65"
     gun_detail_bg: nation_Russia
     org_id: 10202
+    related_story_id: 100149
   }
   {
     id: 150
@@ -13179,13 +13285,14 @@
     effect_grid_effect: "1,20;3,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 151
     launch_time: 2019-01-22 00:00:00
     obtain_ids: "104"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100151
   }
   {
     id: 152
@@ -13253,7 +13360,7 @@
     effect_grid_effect: "3,50"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 152
     launch_time: 2019-12-06 00:00:00
     obtain_ids: "2"
@@ -13261,6 +13368,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     gun_detail_bg: nation_US
     org_id: 10303
+    related_story_id: 100152
   }
   {
     id: 153
@@ -13332,7 +13440,7 @@
     effect_grid_effect: "1,18"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,18
+    type_equip3: 1;1,2,3,4,18,22
     ai: 153
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13410,7 +13518,7 @@
     effect_grid_effect: "1,18"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,18
+    type_equip3: 1;1,2,3,4,18,22
     ai: 154
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13418,6 +13526,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     gun_detail_bg: nation_US
     org_id: 10802
+    related_story_id: 100154
   }
   {
     id: 155
@@ -13489,7 +13598,7 @@
     effect_grid_effect: "3,55"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 155
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13497,6 +13606,7 @@
     explore_tag: "57"
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100155
   }
   {
     id: 156
@@ -13567,7 +13677,7 @@
     effect_grid_effect: "1,15;3,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 156
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13643,7 +13753,7 @@
     effect_grid_effect: "1,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 157
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13713,7 +13823,7 @@
     effect_grid_effect: "1,12;3,30"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 158
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13790,7 +13900,7 @@
     effect_grid_effect: "1,12;3,30"
     type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 159
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "2"
@@ -13798,6 +13908,7 @@
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     gun_detail_bg: nation_Russia
     org_id: 10704
+    related_story_id: 100159
   }
   {
     id: 160
@@ -13866,7 +13977,7 @@
     effect_grid_effect: "1,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,18
+    type_equip3: 1;1,2,3,4,18,22
     ai: 160
     launch_time: 2019-12-06 00:00:00
     obtain_ids: "2"
@@ -13874,6 +13985,7 @@
     explore_tag: "50"
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100160
   }
   {
     id: 161
@@ -13937,7 +14049,7 @@
     effect_grid_effect: "1,12"
     type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 161
     launch_time: 2018-07-03 01:00:00
     obtain_ids: "7"
@@ -13946,6 +14058,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10302
+    related_story_id: 100161
   }
   {
     id: 162
@@ -14020,7 +14133,7 @@
     effect_grid_effect: "1,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 162
     launch_time: 2019-03-26 00:00:00
     obtain_ids: "2"
@@ -14028,6 +14141,7 @@
     explore_tag: "5"
     gun_detail_bg: nation_Italy
     org_id: 10402
+    related_story_id: 100162
   }
   {
     id: 163
@@ -14101,7 +14215,7 @@
     effect_grid_effect: "1,22"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 163
     launch_time: 2019-03-26 00:00:00
     obtain_ids: "2"
@@ -14109,6 +14223,7 @@
     explore_tag: "1,15"
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100163
   }
   {
     id: 164
@@ -14178,7 +14293,7 @@
     effect_grid_effect: "1,12;3,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,18,22
     ai: 164
     launch_time: 2019-12-06 00:00:00
     obtain_ids: "2"
@@ -14186,6 +14301,7 @@
     explore_tag: "30,33,40"
     gun_detail_bg: nation_Italy
     org_id: 10202
+    related_story_id: 100164
   }
   {
     id: 165
@@ -14255,7 +14371,7 @@
     effect_grid_effect: "1,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2019-03-26 00:00:00
     obtain_ids: "2"
@@ -14263,6 +14379,7 @@
     explore_tag: "21,51"
     gun_detail_bg: nation_Italy
     org_id: 10704
+    related_story_id: 100165
   }
   {
     id: 166
@@ -14339,6 +14456,7 @@
     rank_display: 5
     explore_tag: "19,34"
     org_id: 10401
+    related_story_id: 100166
   }
   {
     id: 167
@@ -14420,6 +14538,7 @@
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10803
+    related_story_id: 100167
   }
   {
     id: 168
@@ -14633,7 +14752,7 @@
     type_equip3: 3;9,10
     ai: 170
     launch_time: 2018-06-01 00:00:00
-    obtain_ids: "1806,102"
+    obtain_ids: "1806,105"
     rank_display: 3
     gun_detail_bg: nation_Russia
     org_id: 10402
@@ -14710,6 +14829,7 @@
     rank_display: 4
     explore_tag: "56"
     org_id: 10702
+    related_story_id: 100171
   }
   {
     id: 172
@@ -14870,7 +14990,7 @@
     effect_grid_effect: "2,15;3,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 173
     launch_time: 2018-07-17 01:00:00
     obtain_ids: "1,2"
@@ -14878,6 +14998,7 @@
     explore_tag: "9,10,20,59,75"
     gun_detail_bg: nation_Russia
     org_id: 10402
+    related_story_id: 100173
   }
   {
     id: 174
@@ -14944,11 +15065,12 @@
     type_equip3: 3;15
     ai: 174
     launch_time: 2019-03-21 00:00:00
-    obtain_ids: "1903"
+    obtain_ids: "1903,105"
     rank_display: 3
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10701
+    related_story_id: 100174
   }
   {
     id: 175
@@ -15019,6 +15141,7 @@
     rank_display: 5
     explore_tag: "8,11,30,52,81"
     org_id: 10203
+    related_story_id: 100175
   }
   {
     id: 176
@@ -15091,6 +15214,7 @@
     obtain_ids: "1905,403"
     rank_display: 3
     org_id: 10202
+    related_story_id: 100176
   }
   {
     id: 177
@@ -15167,6 +15291,7 @@
     explore_tag: "50"
     gun_detail_bg: nation_Russia
     org_id: 10704
+    related_story_id: 100177
   }
   {
     id: 178
@@ -15236,11 +15361,12 @@
     type_equip3: 1;1,2,3,4,13
     ai: 178
     launch_time: 2019-04-30 00:00:00
-    obtain_ids: "24,2"
+    obtain_ids: "2,105"
     rank_display: 3
     mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "14,52"
     org_id: 10802
+    related_story_id: 100178
   }
   {
     id: 179
@@ -15305,7 +15431,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 179
     launch_time: 2019-04-30 00:00:00
     obtain_ids: "25"
@@ -15313,6 +15439,7 @@
     explore_tag: "71"
     gun_detail_bg: nation_German
     org_id: 10701
+    related_story_id: 100179
   }
   {
     id: 180
@@ -15376,14 +15503,15 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 180
     launch_time: 2019-04-30 00:00:00
-    obtain_ids: "24,2"
+    obtain_ids: "2,105"
     rank_display: 4
     explore_tag: "55,60"
     gun_detail_bg: nation_German
     org_id: 10402
+    related_story_id: 100180
   }
   {
     id: 181
@@ -15462,6 +15590,7 @@
     explore_tag: "26,40,53"
     gun_detail_bg: nation_China
     org_id: 10203
+    related_story_id: 100181
   }
   {
     id: 182
@@ -15527,7 +15656,7 @@
     type_equip3: 3;15
     ai: 182
     launch_time: 2019-09-21 00:00:00
-    obtain_ids: "1909"
+    obtain_ids: "1909,403"
     rank_display: 3
     explore_tag: "18"
     org_id: 10704
@@ -15597,6 +15726,7 @@
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10203
+    related_story_id: 100183
   }
   {
     id: 184
@@ -15684,6 +15814,7 @@
     explore_tag: "82"
     gun_detail_bg: nation_Russia
     org_id: 10302
+    related_story_id: 100184
   }
   {
     id: 185
@@ -15755,13 +15886,14 @@
     effect_grid_effect: "1,10;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 185
     launch_time: 2018-12-08 00:00:00
     obtain_ids: "1,2"
     rank_display: 4
     explore_tag: "25"
     org_id: 10704
+    related_story_id: 100185
   }
   {
     id: 186
@@ -15831,7 +15963,7 @@
     type_equip3: 3;10
     ai: 186
     launch_time: 2019-09-19 00:00:00
-    obtain_ids: "310"
+    obtain_ids: "310,403"
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10703
@@ -15984,7 +16116,7 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 188
     launch_time: 2018-10-13 00:00:00
     obtain_ids: "2"
@@ -15992,6 +16124,7 @@
     explore_tag: "21,31,64"
     gun_detail_bg: nation_Italy
     org_id: 10705
+    related_story_id: 100188
   }
   {
     id: 189
@@ -16063,7 +16196,7 @@
     effect_grid_effect: "1,15;3,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 189
     launch_time: 2018-10-13 00:00:00
     obtain_ids: "2"
@@ -16137,7 +16270,7 @@
     effect_grid_effect: "1,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2018-10-13 00:00:00
     obtain_ids: "2"
@@ -16214,7 +16347,7 @@
     type_equip3: 1;1,2,3,4,13
     ai: 191
     launch_time: 2019-07-21 00:00:00
-    obtain_ids: "1907"
+    obtain_ids: "1907,403"
     rank_display: 3
     explore_tag: "52"
     gun_detail_bg: nation_Italy
@@ -16280,7 +16413,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 192
     launch_time: 2018-10-23 00:00:00
     obtain_ids: "310"
@@ -16288,6 +16421,7 @@
     explore_tag: "15,29,53,68,79"
     gun_detail_bg: nation_China
     org_id: 10403
+    related_story_id: 100192
   }
   {
     id: 193
@@ -16360,6 +16494,7 @@
     explore_tag: "53"
     gun_detail_bg: nation_China
     org_id: 10704
+    related_story_id: 100193
   }
   {
     id: 194
@@ -16427,7 +16562,7 @@
     effect_guntype: "2"
     effect_grid_pos: "17,19"
     effect_grid_effect: "1,25;3,50"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 194
@@ -16435,6 +16570,7 @@
     obtain_ids: "1,2"
     rank_display: 5
     org_id: 10202
+    related_story_id: 100194
   }
   {
     id: 195
@@ -16505,7 +16641,7 @@
     effect_grid_effect: "1,8;8,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 195
     launch_time: 2019-12-21 00:00:00
     obtain_ids: "1912"
@@ -16513,6 +16649,7 @@
     explore_tag: "8"
     gun_detail_bg: nation_German
     org_id: 10704
+    related_story_id: 100195
   }
   {
     id: 196
@@ -16595,6 +16732,7 @@
     rank_display: 5
     explore_tag: "51"
     org_id: 10802
+    related_story_id: 100196
   }
   {
     id: 197
@@ -16674,6 +16812,7 @@
     rank_display: 5
     gun_detail_bg: nation_Italy
     org_id: 10203
+    related_story_id: 100197
   }
   {
     id: 198
@@ -16754,6 +16893,7 @@
     explore_tag: "35,51"
     gun_detail_bg: nation_Italy
     org_id: 10203
+    related_story_id: 100198
   }
   {
     id: 199
@@ -16826,7 +16966,7 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 199
     launch_time: 2019-02-26 00:00:00
     obtain_ids: "1,2"
@@ -16835,6 +16975,7 @@
     explore_tag: "28,53"
     gun_detail_bg: nation_China
     org_id: 10704
+    related_story_id: 100199
   }
   {
     id: 200
@@ -16910,6 +17051,7 @@
     mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     gun_detail_bg: nation_US
     org_id: 10302
+    related_story_id: 100200
   }
   {
     id: 201
@@ -16982,13 +17124,14 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 201
     launch_time: 2019-08-21 00:00:00
     obtain_ids: "1908"
     rank_display: 3
     explore_tag: "27"
     org_id: 10701
+    related_story_id: 100201
   }
   {
     id: 202
@@ -17055,6 +17198,7 @@
     explore_tag: "9"
     gun_detail_bg: nation_US
     org_id: 10202
+    related_story_id: 100202
   }
   {
     id: 203
@@ -17132,6 +17276,7 @@
     rank_display: 4
     gun_detail_bg: nation_US
     org_id: 10703
+    related_story_id: 100203
   }
   {
     id: 204
@@ -17224,6 +17369,7 @@
     rank_display: 5
     gun_detail_bg: nation_Belgium
     org_id: 10202
+    related_story_id: 100204
   }
   {
     id: 205
@@ -17293,7 +17439,7 @@
     effect_guntype: "2"
     effect_grid_pos: "17,18,16"
     effect_grid_effect: "3,55;4,16"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 205
@@ -17303,6 +17449,7 @@
     explore_tag: "27"
     gun_detail_bg: team_defy
     org_id: 10104
+    related_story_id: 100205
   }
   {
     id: 206
@@ -17393,6 +17540,7 @@
     explore_tag: "29,32"
     gun_detail_bg: team_defy
     org_id: 10104
+    related_story_id: 100206
   }
   {
     id: 207
@@ -17482,6 +17630,7 @@
     obtain_ids: "204"
     rank_display: 4
     org_id: 10703
+    related_story_id: 100207
   }
   {
     id: 208
@@ -17552,13 +17701,14 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 208
     launch_time: 2019-11-19 00:00:00
     obtain_ids: "204"
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10501
+    related_story_id: 100208
   }
   {
     id: 209
@@ -17699,6 +17849,7 @@
     rank_display: 3
     explore_tag: "18"
     org_id: 10402
+    related_story_id: 100210
   }
   {
     id: 211
@@ -17865,6 +18016,7 @@
     rank_display: 4
     explore_tag: "29,37,61"
     org_id: 10802
+    related_story_id: 100212
   }
   {
     id: 213
@@ -17947,6 +18099,7 @@
     rank_display: 5
     explore_tag: "39"
     org_id: 10203
+    related_story_id: 100213
   }
   {
     id: 214
@@ -18093,6 +18246,7 @@
     explore_tag: "28"
     gun_detail_bg: nation_US
     org_id: 10802
+    related_story_id: 100215
   }
   {
     id: 216
@@ -18157,7 +18311,7 @@
     effect_guntype: "2"
     effect_grid_pos: "19"
     effect_grid_effect: "1,20;4,15"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 216
@@ -18167,6 +18321,7 @@
     explore_tag: "30"
     gun_detail_bg: nation_German
     org_id: 10802
+    related_story_id: 100216
   }
   {
     id: 217
@@ -18307,7 +18462,7 @@
     effect_grid_pos: "7,8,9"
     effect_grid_effect: "2,12"
     type_equip1: 3;9,10
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13
     ai: 218
     launch_time: 2020-03-18 00:00:00
@@ -18316,6 +18471,7 @@
     explore_tag: "9,10,36,53"
     gun_detail_bg: nation_China
     org_id: 10703
+    related_story_id: 100218
   }
   {
     id: 220
@@ -18392,6 +18548,7 @@
     explore_tag: "10"
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100220
   }
   {
     id: 221
@@ -18473,6 +18630,7 @@
     explore_tag: "13,29"
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100221
   }
   {
     id: 222
@@ -18537,7 +18695,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 222
     launch_time: 2019-06-08 00:00:00
     obtain_ids: "310"
@@ -18545,6 +18703,7 @@
     explore_tag: "1,81"
     gun_detail_bg: nation_US
     org_id: 10802
+    related_story_id: 100222
   }
   {
     id: 223
@@ -18618,6 +18777,7 @@
     obtain_ids: "310"
     rank_display: 3
     org_id: 10301
+    related_story_id: 100223
   }
   {
     id: 224
@@ -18774,6 +18934,7 @@
     rank_display: 4
     gun_detail_bg: nation_Italy
     org_id: 10301
+    related_story_id: 100225
   }
   {
     id: 226
@@ -18841,10 +19002,11 @@
     type_equip3: 3;15
     ai: 226
     launch_time: 2020-02-17 00:00:00
-    obtain_ids: "211"
+    obtain_ids: "411"
     rank_display: 4
     gun_detail_bg: nation_US
     org_id: 10301
+    related_story_id: 100226
   }
   {
     id: 227
@@ -18914,11 +19076,12 @@
     type_equip3: 3;9,10
     ai: 227
     launch_time: 2020-02-17 00:00:00
-    obtain_ids: "211"
+    obtain_ids: "411"
     rank_display: 4
     explore_tag: "50"
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100227
   }
   {
     id: 228
@@ -18991,6 +19154,7 @@
     obtain_ids: "1,2"
     rank_display: 5
     org_id: 10203
+    related_story_id: 100228
   }
   {
     id: 229
@@ -19060,13 +19224,14 @@
     effect_grid_effect: "1,18;3,12"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 229
     launch_time: 2020-02-17 00:00:00
-    obtain_ids: "211"
+    obtain_ids: "411"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100229
   }
   {
     id: 230
@@ -19130,7 +19295,7 @@
     effect_grid_pos: "17,19"
     effect_grid_effect: "6,12"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
+    type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 230
     launch_time: 2020-01-10 00:00:00
@@ -19139,6 +19304,7 @@
     explore_tag: "31,38"
     gun_detail_bg: nation_US
     org_id: 10704
+    related_story_id: 100230
   }
   {
     id: 231
@@ -19212,13 +19378,14 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 231
     launch_time: 2020-02-17 00:00:00
     obtain_ids: "213"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100231
   }
   {
     id: 232
@@ -19357,6 +19524,7 @@
     rank_display: 5
     gun_detail_bg: nation_Italy
     org_id: 10203
+    related_story_id: 100233
   }
   {
     id: 234
@@ -19436,6 +19604,7 @@
     explore_tag: "53,73"
     gun_detail_bg: nation_China
     org_id: 10203
+    related_story_id: 100234
   }
   {
     id: 235
@@ -19497,7 +19666,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 235
     launch_time: 2019-06-04 00:00:00
     obtain_ids: "1,2"
@@ -19737,7 +19906,7 @@
     effect_grid_effect: "3,10;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2019-08-28 00:00:00
     obtain_ids: "1,2"
@@ -19745,6 +19914,7 @@
     explore_tag: "9,24,53"
     gun_detail_bg: nation_China
     org_id: 10802
+    related_story_id: 100238
   }
   {
     id: 239
@@ -19814,7 +19984,7 @@
     effect_grid_pos: "18"
     effect_grid_effect: "1,12;4,12"
     type_equip1: 1;1,2,3,4,13
-    type_equip2: 2;8
+    type_equip2: 2;8,19
     type_equip3: 3;9,10
     ai: 239
     launch_time: 2020-02-21 00:00:00
@@ -19895,13 +20065,14 @@
     effect_grid_effect: "1,10;3,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 240
     launch_time: 2020-04-15 00:00:00
     obtain_ids: "31,32"
     rank_display: 4
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100240
   }
   {
     id: 241
@@ -19967,7 +20138,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 241
     launch_time: 2020-04-21 00:00:00
     obtain_ids: "2004"
@@ -20030,7 +20201,7 @@
     effect_grid_center: 14
     effect_grid_pos: "8,9,10,14,19"
     effect_grid_effect: "1,15;3,25"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 96
@@ -20039,6 +20210,7 @@
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10203
+    related_story_id: 100242
   }
   {
     id: 243
@@ -20182,6 +20354,7 @@
     rank_display: 3
     gun_detail_bg: nation_US
     org_id: 10704
+    related_story_id: 100244
   }
   {
     id: 245
@@ -20256,6 +20429,7 @@
     explore_tag: "49,52"
     gun_detail_bg: nation_Belgium
     org_id: 10802
+    related_story_id: 100245
   }
   {
     id: 247
@@ -20450,10 +20624,10 @@
     effect_grid_effect: "3,18;8,8"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 195
     launch_time: 2019-04-21 00:00:00
-    obtain_ids: "1904,102"
+    obtain_ids: "1904,415"
     rank_display: 3
     org_id: 10802
   }
@@ -20526,6 +20700,7 @@
     obtain_ids: "217"
     rank_display: 5
     org_id: 10203
+    related_story_id: 100250
   }
   {
     id: 251
@@ -20639,6 +20814,7 @@
     obtain_ids: "215"
     rank_display: 5
     org_id: 10203
+    related_story_id: 100251
   }
   {
     id: 252
@@ -20705,7 +20881,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 184
     launch_time: 2020-07-07 00:00:00
     obtain_ids: "216"
@@ -20713,6 +20889,7 @@
     mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     gun_detail_bg: nation_Russia
     org_id: 10802
+    related_story_id: 100252
   }
   {
     id: 253
@@ -20782,7 +20959,7 @@
     effect_grid_effect: "3,10;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2020-07-07 00:00:00
     obtain_ids: "216"
@@ -20790,6 +20967,7 @@
     explore_tag: "51"
     gun_detail_bg: nation_US
     org_id: 10801
+    related_story_id: 100253
   }
   {
     id: 254
@@ -20856,12 +21034,13 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 199
     launch_time: 2020-07-07 00:00:00
     obtain_ids: "215"
     rank_display: 4
     org_id: 10802
+    related_story_id: 100254
   }
   {
     id: 255
@@ -20998,7 +21177,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 241
     launch_time: 2020-03-21 00:00:00
     obtain_ids: "2003"
@@ -21082,6 +21261,7 @@
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10203
+    related_story_id: 100257
   }
   {
     id: 258
@@ -21280,6 +21460,7 @@
     obtain_ids: "1"
     rank_display: 5
     org_id: 10402
+    related_story_id: 100260
   }
   {
     id: 261
@@ -21351,14 +21532,15 @@
     effect_grid_pos: "15,18,19,20"
     effect_grid_effect: "6,18"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip2: 1;1,2,3,13,18
+    type_equip3: 3;15,23
     ai: 222
     launch_time: 2020-03-11 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
     gun_detail_bg: nation_China
     org_id: 10203
+    related_story_id: 100261
   }
   {
     id: 262
@@ -21440,6 +21622,7 @@
     obtain_ids: "1,2"
     rank_display: 4
     org_id: 10303
+    related_story_id: 100262
   }
   {
     id: 263
@@ -21510,7 +21693,7 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2020-06-17 00:00:00
     obtain_ids: "1,2"
@@ -21518,6 +21701,7 @@
     explore_tag: "44"
     gun_detail_bg: nation_German
     org_id: 10802
+    related_story_id: 100263
   }
   {
     id: 264
@@ -21599,7 +21783,7 @@
     effect_grid_effect: "2,12;8,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 199
     launch_time: 2020-06-17 00:00:00
     obtain_ids: "1,2"
@@ -21783,6 +21967,7 @@
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10201
+    related_story_id: 100266
   }
   {
     id: 267
@@ -21842,6 +22027,7 @@
     rank_display: 3
     gun_detail_bg: nation_German
     org_id: 10704
+    related_story_id: 100267
   }
   {
     id: 268
@@ -22061,6 +22247,7 @@
     obtain_ids: "1,2"
     rank_display: 4
     org_id: 10802
+    related_story_id: 100270
   }
   {
     id: 271
@@ -22147,7 +22334,7 @@
     effect_grid_effect: "3,10;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 208
     launch_time: 2020-10-21 00:00:00
     obtain_ids: "2010"
@@ -22222,6 +22409,7 @@
     obtain_ids: "225"
     rank_display: 5
     org_id: 10803
+    related_story_id: 100272
   }
   {
     id: 273
@@ -22279,6 +22467,7 @@
     rank_display: 4
     gun_detail_bg: nation_German
     org_id: 10402
+    related_story_id: 100273
   }
   {
     id: 274
@@ -22341,7 +22530,7 @@
     effect_guntype: "2"
     effect_grid_pos: "18,19,20"
     effect_grid_effect: "2,25;3,65"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 73
@@ -22351,6 +22540,7 @@
     explore_tag: "9,14,46,51"
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100274
   }
   {
     id: 275
@@ -22411,7 +22601,7 @@
     effect_grid_effect: "3,10;8,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2020-11-24 01:00:00
     obtain_ids: "225"
@@ -22419,6 +22609,7 @@
     explore_tag: "51"
     gun_detail_bg: nation_US
     org_id: 10403
+    related_story_id: 100275
   }
   {
     id: 276
@@ -22476,13 +22667,14 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 199
     launch_time: 2020-11-24 01:00:00
     obtain_ids: "224"
     rank_display: 5
     gun_detail_bg: nation_Russia
     org_id: 10402
+    related_story_id: 100276
   }
   {
     id: 277
@@ -22591,7 +22783,7 @@
     effect_grid_effect: "1,10;3,20"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2020-11-18 00:00:00
     obtain_ids: "20011"
@@ -22675,6 +22867,7 @@
     obtain_ids: "2011"
     rank_display: 3
     org_id: 10702
+    related_story_id: 100279
   }
   {
     id: 280
@@ -22797,13 +22990,14 @@
     effect_grid_effect: "1,18;3,12"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 163
     launch_time: 2020-12-02 00:00:00
     obtain_ids: "2"
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10203
+    related_story_id: 100281
   }
   {
     id: 282
@@ -22857,13 +23051,14 @@
     effect_grid_effect: "1,15;3,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2020-12-02 00:00:00
     obtain_ids: "2"
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10802
+    related_story_id: 100282
   }
   {
     id: 283
@@ -22913,7 +23108,7 @@
     effect_grid_effect: "1,10;3,25"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2020-12-02 00:00:00
     obtain_ids: "2"
@@ -22987,6 +23182,7 @@
     obtain_ids: "2012"
     rank_display: 3
     org_id: 10403
+    related_story_id: 100284
   }
   {
     id: 285
@@ -23447,7 +23643,7 @@
     effect_grid_effect: "1,12;8,18"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2021-04-21 00:00:00
     obtain_ids: "1,2"
@@ -23455,6 +23651,7 @@
     explore_tag: "44"
     gun_detail_bg: team_defy
     org_id: 10104
+    related_story_id: 100292
   }
   {
     id: 293
@@ -23508,13 +23705,14 @@
     effect_grid_effect: "1,25;3,65"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 215
     launch_time: 2021-04-21 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
     gun_detail_bg: team_defy
     org_id: 10104
+    related_story_id: 100293
   }
   {
     id: 294
@@ -23574,6 +23772,7 @@
     obtain_ids: "229"
     rank_display: 5
     org_id: 10201
+    related_story_id: 100294
   }
   {
     id: 295
@@ -23631,6 +23830,7 @@
     rank_display: 4
     gun_detail_bg: nation_China
     org_id: 10802
+    related_story_id: 100295
   }
   {
     id: 296
@@ -23688,6 +23888,7 @@
     rank_display: 5
     gun_detail_bg: nation_German
     org_id: 10401
+    related_story_id: 100296
   }
   {
     id: 297
@@ -23743,6 +23944,7 @@
     obtain_ids: "228"
     rank_display: 4
     org_id: 10403
+    related_story_id: 100297
   }
   {
     id: 298
@@ -23850,7 +24052,7 @@
     effect_grid_effect: "1,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2021-02-21 00:00:00
     obtain_ids: "2102"
@@ -23911,7 +24113,7 @@
     effect_grid_effect: "2,10;3,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 208
     launch_time: 2021-03-21 00:00:00
     obtain_ids: "2103"
@@ -24027,7 +24229,7 @@
     effect_grid_effect: "1,10;8,10"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2021-12-03 00:00:00
     obtain_ids: "36,37"
@@ -24266,6 +24468,7 @@
     rank_display: 5
     gun_detail_bg: nation_US
     org_id: 10402
+    related_story_id: 100306
   }
   {
     id: 307
@@ -24320,7 +24523,7 @@
     effect_grid_effect: "2,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2021-03-16 00:00:00
     obtain_ids: "1,2"
@@ -25001,7 +25204,7 @@
     effect_grid_effect: "1,10;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2022-01-18 00:00:00
     obtain_ids: "235"
@@ -25056,7 +25259,7 @@
     effect_grid_effect: "6,12"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 241
     launch_time: 2021-07-21 00:00:00
     obtain_ids: "2107"
@@ -25113,7 +25316,7 @@
     effect_grid_effect: "1,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 190
     launch_time: 2021-08-21 00:00:00
     obtain_ids: "2108"
@@ -25230,7 +25433,7 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2021-09-07 00:00:00
     obtain_ids: "2"
@@ -25292,9 +25495,9 @@
     effect_guntype: "5"
     effect_grid_pos: "3,4,5,8,10"
     effect_grid_effect: "1,18;3,12"
-    type_equip1: 3;11
+    type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2021-09-07 00:00:00
     obtain_ids: "2"
@@ -25353,7 +25556,7 @@
     effect_grid_effect: "1,18"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2021-09-07 00:00:00
     obtain_ids: "2"
@@ -25412,7 +25615,7 @@
     effect_grid_effect: "1,10;8,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2021-09-07 00:00:00
     obtain_ids: "2"
@@ -26172,7 +26375,7 @@
     effect_grid_effect: "1,18;8,12"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2022-02-16 00:00:00
     obtain_ids: "1,2"
@@ -26519,7 +26722,7 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 238
     launch_time: 2022-10-21 00:00:00
     obtain_ids: "246"
@@ -26811,7 +27014,7 @@
     effect_grid_effect: "1,10;5,30"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2022-04-13 00:00:00
     obtain_ids: "2"
@@ -26878,7 +27081,7 @@
     effect_grid_effect: "1,15;3,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2022-04-13 00:00:00
     obtain_ids: "2"
@@ -26940,7 +27143,7 @@
     effect_grid_effect: "1,10;8,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2022-04-13 00:00:00
     obtain_ids: "2"
@@ -26999,7 +27202,7 @@
     effect_grid_effect: "1,10;3,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 165
     launch_time: 2022-04-13 00:00:00
     obtain_ids: "2"
@@ -27437,7 +27640,7 @@
     effect_grid_effect: "1,15;3,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 1002
     is_additional: 1
     launch_time: 2018-11-15 00:00:00
@@ -27758,7 +27961,7 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 238
     is_additional: 1
     launch_time: 2019-08-06 00:00:00
@@ -27807,7 +28010,7 @@
     effect_grid_effect: "1,15;3,15"
     type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 1008
     is_additional: 1
     launch_time: 2019-08-06 00:00:00
@@ -27947,7 +28150,7 @@
     effect_grid_effect: "1,10;3,15"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 1008
     is_additional: 1
     launch_time: 2020-10-09 00:00:00
@@ -27995,7 +28198,7 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 1026
     is_additional: 1
     launch_time: 2020-10-09 00:00:00
@@ -28448,7 +28651,7 @@
     effect_grid_effect: "1,15;8,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 48
     is_additional: 1
     launch_time: 2021-11-16 00:00:00
@@ -28497,7 +28700,7 @@
     effect_grid_effect: "1,15;3,15"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,18
+    type_equip3: 1;1,2,3,4,18,22
     ai: 238
     is_additional: 1
     launch_time: 2021-11-16 00:00:00
@@ -34181,7 +34384,7 @@
     effect_grid_effect: "6,18"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15,20
+    type_equip3: 3;15,20,23
     ai: 39
     launch_time: 2020-07-01 00:00:00
     obtain_ids: "35"
@@ -34282,7 +34485,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15,20
+    type_equip3: 3;15,20,23
     ai: 44
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"
@@ -34551,7 +34754,7 @@
     effect_grid_effect: "6,20"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 53
     launch_time: 2020-02-12 00:00:00
     obtain_ids: "35"
@@ -35580,7 +35783,7 @@
     effect_grid_effect: "1,18;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14,20
+    type_equip3: 3;14,20,21
     ai: 75
     launch_time: 2020-07-01 00:00:00
     obtain_ids: "35"
@@ -35670,7 +35873,7 @@
     effect_grid_effect: "1,15;2,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 81
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"
@@ -35770,7 +35973,7 @@
     effect_grid_effect: "2,10;3,15"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 89
     launch_time: 2020-05-20 00:00:00
     obtain_ids: "35"
@@ -36623,7 +36826,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 124
     launch_time: 2016-09-21 00:00:00
     obtain_ids: "35"
@@ -36713,7 +36916,7 @@
     effect_grid_effect: "3,20;8,18"
     type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 125
     launch_time: 2016-08-31 00:00:00
     obtain_ids: "35"
@@ -36971,7 +37174,7 @@
     effect_grid_effect: "1,10;3,50"
     type_equip1: 3;11
     type_equip2: 2;7,19
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 152
     launch_time: 2017-04-06 00:00:00
     obtain_ids: "35"
@@ -37051,7 +37254,7 @@
     effect_grid_effect: "1,18;3,10"
     type_equip1: 3;11
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4,18
+    type_equip3: 1;1,2,3,4,18,22
     ai: 154
     launch_time: 2017-01-13 00:00:00
     obtain_ids: "35"
@@ -37130,7 +37333,7 @@
     effect_grid_effect: "1,12;3,40"
     type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 159
     launch_time: 2017-01-13 00:00:00
     obtain_ids: "35"
@@ -37201,7 +37404,7 @@
     effect_grid_effect: "1,15"
     type_equip1: 3;11,20
     type_equip2: 2;7
-    type_equip3: 1;1,2,3,4
+    type_equip3: 1;1,2,3,4,22
     ai: 161
     launch_time: 2017-01-13 00:00:00
     obtain_ids: "35"
@@ -37355,7 +37558,7 @@
     effect_grid_effect: "1,15;3,15"
     type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16
-    type_equip3: 3;14
+    type_equip3: 3;14,21
     ai: 199
     launch_time: 2017-12-07 00:00:00
     obtain_ids: "35"
@@ -37587,7 +37790,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15
+    type_equip3: 3;15,23
     ai: 184
     launch_time: 2018-11-29 00:00:00
     obtain_ids: "35"

@@ -761,6 +761,8 @@ COMMON,1760,资源损坏！,,0
 COMMON,1761,将任一非原型妖精培养至5星100级解锁该功能,,0
 COMMON,1762,重新登陆,,0
 COMMON,1766,全部领取,,0
+COMMON,1775,【自选礼包界面】//n指挥官可从截至2022年9月8日前实装的四星战术人形中选择一位获得。//n请指挥官前往【仓库】在对应种类调用函中选择战术人形，各种类可获得人形情况如下：//n【HG】：柯尔特左轮、斯捷奇金、Mk23、P7、SPP-1、喷火、雷电、K5、杰里科、P30、Rex-0-1、德林加、CZ 100、ZiP .22、PPQ//n【SMG】：MP5、UMP9、UMP45、PP-90、PP-19、希普卡、UMP40、KLIN、PP-19-01、Cx4 风暴、蜜獾、MAT-49、KAC-PDW、CF05、SAF、AR-57、PPD-40、维涅龙M2、MPL、MPK//n【RF】：春田、莫辛-纳甘、PTRD、PSG-1、SVD、G28、PzB39、T-5000、XM3、Mk 12、SPR A3G、K31、KSVK、四式、SSG3000、塔布克、蒙德拉贡M1908、TF-Q//n【AR】：AS Val、G36、56-1式、FAMAS、TAR-21、9A-91、利贝罗勒、Ak 5、CZ2000、XM8、A-91、SAR-21、EM-2、CR-21、M82、FX-05、菲德洛夫、APC556、FARA 83、AK74M//n【MG】：M1918、M60、PK、MG3、Mk48、Mk46、AEK-999、阿梅利、80式、UKM-2000、绍沙、M1895 CB、PM1910、LS26//n【SG】：M37、M590、超级肖蒂、SPAS-12、M1014、USAS-12、解放者、防卫者、V-PM5、HK512、新星、MAG-7、UTS-15,,0
+COMMON,1776,【自选礼包界面】//n指挥官可从截至2022年9月8日前实装的五星战术人形中选择一位获得。//n请指挥官前往【仓库】在对应种类调用函中选择战术人形，各种类可获得人形情况如下：//n【HG】：灰熊MkⅤ、M950A、维尔德MkⅡ、NZ75、FN-57、CZ75、竞争者、蟒蛇、Px4 风暴、P22、HS2000、PA-15、沙漠之鹰、C-93、韦伯利、HP-35、蜂鸟、芮诺//n【SMG】：汤姆森、维克托、索米、G36C、79式、SR-3MP、MP7、AK-74U、C-MS、PM-06、JS 9、樱花、P90、X95、PM-9、卢萨、AUG SMG、VP1915、SP9、SR-2、斯特林//n【RF】：Kar98k、WA2000、李-恩菲尔德、NTW-20、M99、IWS 2000、DSR-50、JS05、卡尔卡诺M1891、卡尔卡诺M91/38、芭莉斯塔、SRS、TAC-50、M82A1、M200、QBU-88、R93、SL8、VSK-94、刘氏步枪、SVCh、沙维奇99型、德利尔、HS.50//n【AR】：G41、HK416、FAL、OTs-14、G11、95式、97式、RFB、ART556、T91、K2、Zas M21、AK-12、AN-94、MDR、AUG、K11、64式自、ADS、ACR、SIG-556、R5、AK-15、89式自、AK-阿尔法、S-ACR、VHS、SIG MCX、TKB-408、KH2002、A-545、QBZ-191、SCR//n【MG】：MG5、内格夫、MG4、PKP、HK21、88式、刘易斯、MG36、Kord、RPK-16、ZB-26、RPK-203、MG338//n【SG】：KSG、M1887、塞伽12型、AA-12、FP-6、M870、S.A.T.8、CAWS、DP-12、LTLX7000、M6 ASW、FO-12、M26-MASS、SPAS-15、MK3A1,,0
 BATTLE,10000,撤退,,0
 BATTLE,10001,全体撤退,,1
 BATTLE,10002,WITHDRAW,,1
@@ -955,7 +957,6 @@ BATTLE,10196,人形梯队部署数量已达上限。,,0
 BATTLE,10197,融合势力梯队部署数量已达上限。,,0
 BATTLE,10198,重装部队部署数量已达上限。,,0
 BATTLE,10199,非重装梯队部署数量已达上限。,,0
-BATTLE,10201,是否终止代理作战,,0
 CARNIVAL,11000,进度,,0
 CARNIVAL,11001,领取奖励,,0
 CARNIVAL,11002,GETREWARD,,1
@@ -1099,10 +1100,6 @@ HOME,20130,有可进行的评级测试,,0
 HOME,20131,可领取,,0
 HOME,20132,购买{0}级，升至{1}级获得以上奖励,,0
 HOME,20133,完成该角色进化突破，可解锁此立绘。,,0
-HOME,20140,活动时间,,0
-HOME,20141,第{0}轮奖励即将刷新,,0
-HOME,20142,需要完成首通奖励后开启,,0
-HOME,20143,MM月dd日HH时,,0
 DEPLOYMENT,30000,部署,,1
 DEPLOYMENT,30001,移动,,0
 DEPLOYMENT,30002,换位,,1
@@ -1594,9 +1591,8 @@ DEPLOYMENT,30497,等待友方行动中……,,0
 DEPLOYMENT,30498,等待第三方行动中……,,0
 DEPLOYMENT,30499,已部署非重装梯队,,0
 DEPLOYMENT,30500,天赋II发动,,0
-DEPLOYMENT,30504,机动作战,,0
-DEPLOYMENT,30505,当前战斗存在困难，将中断代理作战,,0
-DEPLOYMENT,30506,受到效果影响，当前梯队移动所需的行动点不足，不能进行移动,,0
+DEPLOYMENT,30507,即将修复以下单位,,0
+DEPLOYMENT,30508,资源消耗<Color=#FF5B22FF>（快速修理）</Color>,,0
 DORM,31000,收纳库,,0
 DORM,31001,Warehouse,,1
 DORM,31002,采购,,0
@@ -1903,8 +1899,8 @@ DORM,31701,格纳库,,0
 DORM,31703,电池X{0},,0
 DORM,31704,未满级人形在作战中会获取<color=#ffb400>全局经验</color>，数量等同于作战经验的<color=#ffb400>{0}%</color>,,0
 DORM,31705,满级人形在作战中会获取<color=#ffb400>全局经验</color>，数量等同于溢出经验的<color=#ffb400>{0}%</color>,,0
-DORM,31706,是否将装扮礼物 【<color=#ffb400ff>{0}</color>】//n交给格琳娜收藏？//n//n<size=40><color=#e31414ff>收藏换装不会获得好感度，获得人形后该装扮会自动解锁。</color></size>,,0
-DORM,31707,装扮【<color=#ffb400ff>{0}</color>】已解锁//c获得人形后//c可以在<color=#ffb400ff>人物属性界面</color>切换。,,0
+DORM,31706,是否将装扮礼物 【<color=#ffb400ff>{0}</color>】//n交给格琳娜收藏？,,0
+DORM,31707,获得人形后//c可以在<color=#ffb400ff>人物属性界面</color>切换。,,0
 DORM,31708,海报,,0
 DORM,31709,已领取<color=#FFB400FF>【电池】*{0}</color>，电池存储已达上限，剩余电池将留在电容中。,,0
 DORM,31710,电池数量已达存储上限，<color=#ffb400>无法领取</color>,,0
@@ -3383,13 +3379,6 @@ MISSIONSELECTION,40417,全体出征成功,,0
 MISSIONSELECTION,40418,梯队出征成功,,0
 MISSIONSELECTION,40419,未获得奖励,,0
 MISSIONSELECTION,40420,作战提示,,0
-MISSIONSELECTION,40429,关卡奖励预览,,0
-MISSIONSELECTION,40430,搜查,,0
-MISSIONSELECTION,40431,难度设置,,0
-MISSIONSELECTION,40432,日常玩法规则,,0
-MISSIONSELECTION,40433,第{0}轮,,0
-MISSIONSELECTION,40434,首通奖励,,0
-MISSIONSELECTION,40435,普通奖励,,0
 REINFORCEMENT,50000,选择角色,,1
 REINFORCEMENT,50001,未解锁,,1
 REINFORCEMENT,50002,LOCKED,,1
@@ -4500,7 +4489,7 @@ SEPCIALOPS,60626,我去过通灵鬼屋，没有想象中可怕，反而还……
 SEPCIALOPS,60627,我承认，那个时候我确实是慌了……,,0
 SEPCIALOPS,60628,你好，玛姬·庞兹。,,0
 SEPCIALOPS,60629,行李箱,,0
-SEPCIALOPS,60630,SCAR-L过于强大，需要确保SCAR-H收集3处XXXX后再与其对决,,0
+SEPCIALOPS,60630,艾莉安娜过于强大，需要确保收集3处月印后再与其对决,,0
 GASHAPON,70000,当前家具仓库容量不足（,,0
 GASHAPON,70001,）//c请整顿后再进行采购!,,0
 GASHAPON,70002,采购币不足//c无法完成采购,,1
@@ -4840,7 +4829,7 @@ OTHER,100043,不能同时进行多个作战，要直接进入正在执行的作�
 OTHER,100044,确定要终止自律作战吗？终止后将会返还扣除的资源，但不会获得任何任务报酬,,0
 OTHER,100045,关卡尚未解锁,,0
 OTHER,100046,没有可用的小队,,0
-OTHER,100047,确定要取消这次行动吗？取消行动将不会得到任何收获,,0
+OTHER,100047,确定要取消这次行动吗？//n取消后只会获得已经完成批次的奖励,,0
 OTHER,100048,不能在一个小队中编制两个相同的角色,,0
 OTHER,100049,当前角色的各项属性已到达当前等级上限不能继续强化,,0
 OTHER,100050,不需要补给,,0
@@ -4999,7 +4988,6 @@ FRIEND,110004,道具,,1
 FRIEND,110005,名片,,0
 FRIEND,110006,该用户不存在,,0
 FRIEND,110007,四项资源,,0
-FRIEND,110008,友情点数不足，可通过战斗支援系统、点赞他人宿舍、日常任务、拉弗伯雷兵棋扭蛋机获取。,,0
 FRIEND,110009,不足,,0
 FRIEND,110010,好友已达上限！,,1
 FRIEND,110011,背景,,0
@@ -5581,7 +5569,7 @@ BEGINNERGUIDE,150080,指挥官，是时候扩充我们的梯队了呢。请进�
 BEGINNERGUIDE,150081,指挥官，现在请点击<color=#ffb400>【战斗】</color>指令，准备出击！,,0
 BEGINNERGUIDE,150082,指挥官，现在要去了解一下【后勤支援】，我们在<color=#ffb400>【战斗】</color>区见面吧。,,0
 BEGINNERGUIDE,150083,指挥官，总部的奖励已经到位，请在【任务】面板清点一下吧！,,0
-BEGINNERGUIDE,150084,如果有受损的人形，通过维修就能恢复状态了，现在，请先点击<color=#ffb400>【修复】</color>指令。,,0
+BEGINNERGUIDE,150084,如果有人形遭遇了重创，需要通过维修来恢复状态。现在，请先点击<color=#ffb400>【修复】</color>指令。,,0
 BEGINNERGUIDE,150085,指挥官，总部为我们开放了【训练】权限，请跟我到【研发】区来查看一下吧。,,0
 BEGINNERGUIDE,150086,指挥官，【模拟作战】的权限已向您开放，请进入<color=#ffb400>【战斗】</color>指令，我来讲解一下。,,0
 BEGINNERGUIDE,150087,指挥官，现在跟我了解一下新推出的<color=#FFBB00FF>【生涯任务】</color>吧！请先进入<color=#FFBB00FF>【任务】</color>面板！,,0
@@ -5610,7 +5598,7 @@ BEGINNERGUIDE,150109,请进入【主线任务】的清单。,,0
 BEGINNERGUIDE,150110,点击【领取奖励】，接受总部发来的奖品吧！,,0
 BEGINNERGUIDE,150111,就是这样，完成任务就能获得物资奖励，指挥官，请加油干吧！,,0
 BEGINNERGUIDE,150112,指挥官，请点击<color=#ffb400>【选择角色】</color>指令。,,0
-BEGINNERGUIDE,150113,这里会列出所有受损的人形，请选择需要修复的那一位。,,0
+BEGINNERGUIDE,150113,这里会列出所有遭受重创的人形，请选择需要修复的那一位。,,0
 BEGINNERGUIDE,150114,确认无误之后，就点击<color=#ffb400>【确定】</color>指令吧。,,0
 BEGINNERGUIDE,150115,您还可以通过<color=#ffb400>【快速修复】</color>，立即完成修复。<color=#ffb400>【修复】</color>的讲解到此结束，指挥官，请好好爱护她们哦。,,0
 BEGINNERGUIDE,150116,现在，请点击左上角返回基地吧。,,0
@@ -7143,13 +7131,6 @@ FORMATION,270054,自动编成,,0
 FORMATION,270055,已为{0}自动分配队长,,0
 FORMATION,270056,{0}没有分配队长，请先配置。,,0
 FORMATION,270057,第{0}梯队,,0
-FORMATION,270063,该梯队正在作战中，无法进行编辑！,,0
-FORMATION,270064,缺少{0}的{1},,0
-FORMATION,270065,前排单位,,0
-FORMATION,270066,后排单位,,0
-FORMATION,270067,队长单位,,0
-FORMATION,270068,推荐用于该编队,,0
-FORMATION,270069,<color=#FFB400FF>【{0}】</color>,,0
 MINIGAME,280001,回合,,0
 MINIGAME,280002,正在寻找房间，请稍等......,,0
 MINIGAME,280003,已等待,,0
@@ -7648,4 +7629,3 @@ MINIGAME,280498,当前使用,,0
 MINIGAME,280499,未获得,,0
 MINIGAME,280500,使用中,,0
 MINIGAME,280501,未获取的棋盘背景，不能使用,,0
-MINIGAME,280502,是否确认在该难度下进行游戏,,0

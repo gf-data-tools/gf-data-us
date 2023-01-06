@@ -1,5 +1,35 @@
 [
     {
+        "id": -14,
+        "name": "Griffin",
+        "code": "Org_Griffin",
+        "title": "Griffin",
+        "ai": 9999,
+        "is_adjutant": 0,
+        "unlock_text": "npc-29999986",
+        "mission_id": 0,
+        "item_id": 0,
+        "skin_code": "",
+        "voice_code": "",
+        "org_id": "101",
+        "org_introduction": "The closer the Griffin is to touching the sky, the more crucial it becomes for all departments to work together."
+    },
+    {
+        "id": -13,
+        "name": "Commander",
+        "code": "Org_Commander",
+        "title": "Commander",
+        "ai": 9999,
+        "is_adjutant": 0,
+        "unlock_text": "npc-29999987",
+        "mission_id": 0,
+        "item_id": 0,
+        "skin_code": "",
+        "voice_code": "",
+        "org_id": "10101",
+        "org_introduction": "A young and capable Griffin Knight. The road ahead may be long and bumpy, but this knight will never be short of help."
+    },
+    {
         "id": -12,
         "name": "Marlohe",
         "code": "NPC_Maid",
@@ -10,7 +40,9 @@
         "mission_id": 114,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999988"
     },
     {
         "id": -11,
@@ -23,7 +55,9 @@
         "mission_id": 114,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999989"
     },
     {
         "id": -10,
@@ -36,7 +70,9 @@
         "mission_id": 95,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999990"
     },
     {
         "id": -9,
@@ -49,7 +85,9 @@
         "mission_id": 86,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999991"
     },
     {
         "id": -8,
@@ -58,11 +96,13 @@
         "title": "Sier",
         "ai": 9999,
         "is_adjutant": 1,
-        "unlock_text": "Clear Deep Dive � Cognitive Conundrum I to unlock",
+        "unlock_text": "Clear Deep Dive  Cognitive Conundrum I to unlock",
         "mission_id": 10030,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999992"
     },
     {
         "id": -7,
@@ -71,11 +111,13 @@
         "title": "Dier",
         "ai": 9999,
         "is_adjutant": 1,
-        "unlock_text": "Clear Deep Dive � Cognitive Conundrum I to unlock",
+        "unlock_text": "Clear Deep Dive  Cognitive Conundrum I to unlock",
         "mission_id": 10030,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999993"
     },
     {
         "id": -6,
@@ -88,7 +130,9 @@
         "mission_id": 46,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999994"
     },
     {
         "id": -5,
@@ -101,7 +145,9 @@
         "mission_id": 18,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999995"
     },
     {
         "id": -4,
@@ -114,7 +160,9 @@
         "mission_id": 6,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999996"
     },
     {
         "id": -3,
@@ -127,7 +175,9 @@
         "mission_id": 0,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "",
+        "org_introduction": "npc-39999997"
     },
     {
         "id": -2,
@@ -140,7 +190,9 @@
         "mission_id": 0,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": "T77"
+        "voice_code": "T77",
+        "org_id": "",
+        "org_introduction": "npc-39999998"
     },
     {
         "id": -1,
@@ -153,6 +205,8 @@
         "mission_id": 0,
         "item_id": 0,
         "skin_code": "",
-        "voice_code": ""
+        "voice_code": "",
+        "org_id": "108,10103",
+        "org_introduction": "An adjutant who takes pride in having never lost out on a deal before, but is basically working two jobs on the salary of one."
     }
 ]
