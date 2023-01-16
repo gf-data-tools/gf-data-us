@@ -1847,14 +1847,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 440900, "name": "最终剧情点标记", "description": "Deep Exploration", "code": "TargetPoint_Radar", "priority": 440900, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 440900, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "1", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 440900, "name": "最终剧情点标记", "description": "Deep Exploration", "code": "TargetPoint_Radar", 
+    "priority": 440900, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 440900, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "1", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 440902, "name": "传送点标记", "description": "special_spot_config-20440902", "code": "", "priority": 440902, 
     "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
@@ -9958,14 +9959,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440003, "name": "【标记】胜利标记", "description": "special_spot_config-26440003", "code": "iaso", "priority": 6440003, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6440003, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6440003, "name": "【标记】胜利标记", "description": "special_spot_config-26440003", "code": "iaso", 
+    "priority": 6440003, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6440003, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440005, "name": "【标记】控制台II生效标记", "description": "special_spot_config-26440005", "code": "6440005", 
     "priority": 6440005, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -10317,15 +10319,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440048, "name": "【标记】禁飞区", "description": "special_spot_config-26440048", "code": "6440048", "priority": 6440048, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6440048, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 900002, "effect_process_star": 0, "effect_process_end": 0, 
-    "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 2, 
-    "pref_code": "", "is_still_alive": 0
+    "id": 6440048, "name": "【标记】禁飞区", "description": "special_spot_config-26440048", "code": "6440048", 
+    "priority": 6440048, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6440048, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 900002, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 2, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440049, "name": "【标记】禁飞区花粉", "description": "special_spot_config-26440049", "code": "6440049", 
     "priority": 6440049, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -10527,14 +10529,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440069, "name": "【标记】破解标记", "description": "special_spot_config-26440069", "code": "6440069", "priority": 6440069, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6440069, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6440069, "name": "【标记】破解标记", "description": "special_spot_config-26440069", "code": "6440069", 
+    "priority": 6440069, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6440069, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440070, "name": "【标记】防御门生效标记", "description": "special_spot_config-26440070", "code": "6440070", 
     "priority": 6440070, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -10576,14 +10579,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440074, "name": "【标记】破解标记", "description": "special_spot_config-26440074", "code": "6440074", "priority": 6440074, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6440074, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6440074, "name": "【标记】破解标记", "description": "special_spot_config-26440074", "code": "6440074", 
+    "priority": 6440074, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6440074, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440075, "name": "【标记】防御门生效标记", "description": "special_spot_config-26440075", "code": "6440075", 
     "priority": 6440075, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -10705,14 +10709,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440090, "name": "【标记】炸弹爆炸", "description": "special_spot_config-26440090", "code": "6440090", "priority": 6440090, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 6440003, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, "conflict_type": 6440090, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,1000010,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 1000069, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6440090, "name": "【标记】炸弹爆炸", "description": "special_spot_config-26440090", "code": "6440090", 
+    "priority": 6440090, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 6440003, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 6440090, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,1000010,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 1000069, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440091, "name": "【标记】炸弹生效标记", "description": "special_spot_config-26440091", "code": "6440091", 
     "priority": 6440091, "duration_type": "1", "duration_time": "3", "special_spot_config_id": 0, 
@@ -10754,14 +10759,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6440095, "name": "【标记】4-4胜利用", "description": "special_spot_config-26440095", "code": "iaso", "priority": 6440095, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6440095, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6440095, "name": "【标记】4-4胜利用", "description": "special_spot_config-26440095", "code": "iaso", 
+    "priority": 6440095, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6440095, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6440100, "name": "【标记】控制台1按钮0", "description": "special_spot_config-26440100", "code": "6440100", 
     "priority": 6440100, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -11313,8 +11319,8 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6449975, "name": "【标记】按钮次数累计", "description": "special_spot_config-26449975", "code": "6449975", "priority": -1, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
+    "id": 6449975, "name": "【标记】按钮次数累计", "description": "special_spot_config-26449975", "code": "6449975", 
+    "priority": -1, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
     "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
     "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6449975, 
     "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
@@ -11382,15 +11388,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6449990, "name": "【标记】开门音效", "description": "special_spot_config-26449990", "code": "6449990", "priority": 6449990, 
-    "duration_type": "1", "duration_time": "0", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6449990, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 1000011, "effect_process_star": 0, "effect_process_end": 0, 
-    "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, 
-    "pref_code": "", "is_still_alive": 0
+    "id": 6449990, "name": "【标记】开门音效", "description": "special_spot_config-26449990", "code": "6449990", 
+    "priority": 6449990, "duration_type": "1", "duration_time": "0", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6449990, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 1000011, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6449991, "name": "【标记】密码正确切换音效", "description": "special_spot_config-26449991", "code": "6449991", 
     "priority": 6449991, "duration_type": "1", "duration_time": "0", "special_spot_config_id": 0, 
@@ -11422,23 +11428,25 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6449994, "name": "【标记】彩蛋剧情", "description": "special_spot_config-26449994", "code": "6449994", "priority": 6449994, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6449994, 
-    "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
-    "skill_config_id_on_death": "0,0,6449993", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6449994, "name": "【标记】彩蛋剧情", "description": "special_spot_config-26449994", "code": "6449994", 
+    "priority": 6449994, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6449994, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,6449993", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 6449995, "name": "【标记】部署整备", "description": "special_spot_config-26449995", "code": "6449995", "priority": 6449995, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 6440006, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, "conflict_type": 6449995, 
-    "conditions_type": "3;0", "conditions_time": "0-1;0-0", "conditions_count": 0, "skill_config_id_on_birth": "6440006,0,0", 
-    "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, 
-    "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
-    "effect_conditions": "0", "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 6449995, "name": "【标记】部署整备", "description": "special_spot_config-26449995", "code": "6449995", 
+    "priority": 6449995, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 6440006, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 6449995, "conditions_type": "3;0", "conditions_time": "0-1;0-0", "conditions_count": 0, 
+    "skill_config_id_on_birth": "6440006,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
+    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
+    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
+    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 6449996, "name": "【标记】密码正确切换", "description": "special_spot_config-26449996", "code": "6449996", 
     "priority": 6449996, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
@@ -19322,15 +19330,15 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44360001, "name": "【标记】任务目标计数", "description": "special_spot_config-64360001", "code": "", "priority": 44360001, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44360004, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44360001, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, 
-    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
-    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
-    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
-    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 44360001, "name": "【标记】任务目标计数", "description": "special_spot_config-64360001", "code": "", 
+    "priority": 44360001, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44360004, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44360001, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 44360003, "name": "【标记】兔洞触发预埋点【埋ss", "description": "Area Exploration", "code": "TargetPoint_Radar", 
     "priority": 44360003, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44360005, 
@@ -19352,75 +19360,75 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44360005, "name": "special_spot_config-54360005", "description": "【标记】完成剧情", "code": "", "priority": 44360005, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44360005, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44360005, "name": "special_spot_config-54360005", "description": "【标记】完成剧情", "code": "", 
+    "priority": 44360005, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44360005, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44360006, "name": "【标记】捡完雷", "description": "special_spot_config-64360006", "code": "", "priority": 44360006, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44360006, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44360006, "name": "【标记】捡完雷", "description": "special_spot_config-64360006", "code": "", 
+    "priority": 44360006, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44360006, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44370001, "name": "【标记】弃置歌利亚使用提示", "description": "special_spot_config-64370001", "code": "", "priority": 44370001, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44370002, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 1, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44370001, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, 
+    "id": 44370001, "name": "【标记】弃置歌利亚使用提示", "description": "special_spot_config-64370001", "code": "", 
+    "priority": 44370001, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44370002, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 1, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44370001, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 44370002, "name": "[avg]-44-T2-3-EX", "description": "【标记】投掷式歌利亚使用提示", "code": "", 
+    "priority": 44370002, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44370002, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44370002, "name": "[avg]-44-T2-3-EX", "description": "【标记】投掷式歌利亚使用提示", "code": "", "priority": 44370002, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44370002, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
-    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
-    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
-    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
-    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
-  }, {
-    "id": 44400001, "name": "【标记】任务目标计数_下半部", "description": "Area Exploration", "code": "Console", "priority": 44400001, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44400001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44400001, "name": "【标记】任务目标计数_下半部", "description": "Area Exploration", "code": "Console", 
+    "priority": 44400001, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44400001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400002, "name": "【标记】任务目标计数_上半部", "description": "Area Exploration", "code": "Console", "priority": 44400002, 
-    "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44400002, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44400002, "name": "【标记】任务目标计数_上半部", "description": "Area Exploration", "code": "Console", 
+    "priority": 44400002, "duration_type": "1", "duration_time": "99", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44400002, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400003, "name": "【标记】任务目标计数_空", "description": "special_spot_config-64400003", "code": "", "priority": 44400003, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400004, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44400003, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, 
-    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "-1", 
-    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
-    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
-    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+    "id": 44400003, "name": "【标记】任务目标计数_空", "description": "special_spot_config-64400003", "code": "", 
+    "priority": 44400003, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400004, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44400003, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "-1", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
     "id": 44400004, "name": "[avg]-44-T4-1-EX", "description": "【标记】踩空气提示", "code": "", "priority": 44400004, 
     "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
@@ -19442,11 +19450,11 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400020, "name": "special_spot_config-54400020", "description": "【标记】完成剧情", "code": "", "priority": 44400020, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44400020, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44400020, "name": "special_spot_config-54400020", "description": "【标记】完成剧情", "code": "", 
+    "priority": 44400020, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44400020, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
@@ -19462,8 +19470,8 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400023, "name": "【标记】提示等待下方看到防御门1才能发送指令", "description": "special_spot_config-64400023", "code": "", 
-    "priority": 44400023, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400025, 
+    "id": 44400023, "name": "【标记】提示等待下方看到防御门1才能发送指令", "description": "special_spot_config-64400023", 
+    "code": "", "priority": 44400023, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400025, 
     "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
     "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
     "side_type": 0, "conflict_type": 44400023, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
@@ -19472,8 +19480,8 @@
     "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", 
     "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400024, "name": "【标记】提示等待下方看到防御门2才能发送指令", "description": "special_spot_config-64400024", "code": "", 
-    "priority": 44400024, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400026, 
+    "id": 44400024, "name": "【标记】提示等待下方看到防御门2才能发送指令", "description": "special_spot_config-64400024", 
+    "code": "", "priority": 44400024, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400026, 
     "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
     "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
     "side_type": 0, "conflict_type": 44400024, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
@@ -19482,81 +19490,81 @@
     "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", 
     "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400025, "name": "[avg]-44-T4-3-EX", "description": "【标记】提示等待下方看到防御门1才能发送指令", "code": "", "priority": 44400025, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44400025, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44400025, "name": "[avg]-44-T4-3-EX", "description": "【标记】提示等待下方看到防御门1才能发送指令", "code": "", 
+    "priority": 44400025, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44400025, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400026, "name": "[avg]-44-T4-4-EX", "description": "【标记】提示等待下方看到防御门2才能发送指令", "code": "", "priority": 44400026, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44400026, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44400026, "name": "[avg]-44-T4-4-EX", "description": "【标记】提示等待下方看到防御门2才能发送指令", "code": "", 
+    "priority": 44400026, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44400026, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400027, "name": "【标记】提示在上方找控制台", "description": "special_spot_config-64400027", "code": "", "priority": 44400027, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400028, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44400027, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, 
+    "id": 44400027, "name": "【标记】提示在上方找控制台", "description": "special_spot_config-64400027", "code": "", 
+    "priority": 44400027, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44400028, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44400027, "conditions_type": "0;3,4", "conditions_time": "0-0;0-1,0-1", 
+    "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", 
+    "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, 
+    "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", 
+    "effect_conditions_type": "0", "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
+  }, {
+    "id": 44400028, "name": "[avg]-44-T4-5-EX", "description": "【标记】提示在上方找控制台", "code": "", 
+    "priority": 44400028, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, 
+    "effect_target_type": "301", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, 
+    "side_type": 0, "conflict_type": 44400028, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44400028, "name": "[avg]-44-T4-5-EX", "description": "【标记】提示在上方找控制台", "code": "", "priority": 44400028, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "301", "detect_range": 0, "effect_target_type": "301", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 1, "side_type": 0, 
-    "conflict_type": 44400028, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
-    "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
-    "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
-    "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
-    "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
-  }, {
-    "id": 44430001, "name": "【标记】预置炸弹(对设施)", "description": "special_spot_config-64430001", "code": "", "priority": 44430001, 
-    "duration_type": "1", "duration_time": "2", "special_spot_config_id": 44430002, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44430001, "conditions_type": "0;1", "conditions_time": "0-0;0-1", "conditions_count": 0, 
+    "id": 44430001, "name": "【标记】预置炸弹(对设施)", "description": "special_spot_config-64430001", "code": "", 
+    "priority": 44430001, "duration_type": "1", "duration_time": "2", "special_spot_config_id": 44430002, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44430001, "conditions_type": "0;1", "conditions_time": "0-0;0-1", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 2, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44430002, "name": "【标记】覆盖预置(对设施)", "description": "special_spot_config-64430002", "code": "", "priority": 44430002, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44430001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44430002, "name": "【标记】覆盖预置(对设施)", "description": "special_spot_config-64430002", "code": "", 
+    "priority": 44430002, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44430001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,44430003", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44430003, "name": "【标记】爆炸伤害(对设施)", "description": "Facility Control", "code": "Console", "priority": 44430003, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44430003, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44430003, "name": "【标记】爆炸伤害(对设施)", "description": "Facility Control", "code": "Console", 
+    "priority": 44430003, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44430003, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,1000010,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 1000015, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44430004, "name": "【标记】小秃洞积分提示", "description": "special_spot_config-64430004", "code": "", "priority": 44430004, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44430005, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "1,3,301,302,303,7,8,201", "detect_range": 0, 
-    "effect_target_type": "1,3,301,302,303,7,8,201", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
-    "effect_range": 1, "side_type": 0, "conflict_type": 44430004, "conditions_type": "0;3,4", 
+    "id": 44430004, "name": "【标记】小秃洞积分提示", "description": "special_spot_config-64430004", "code": "", 
+    "priority": 44430004, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44430005, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "1,3,301,302,303,7,8,201", 
+    "detect_range": 0, "effect_target_type": "1,3,301,302,303,7,8,201", "effect_spotbelong_type": "0,1,2,3", 
+    "effect_range_type": 1, "effect_range": 1, "side_type": 0, "conflict_type": 44430004, "conditions_type": "0;3,4", 
     "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
     "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
@@ -19573,11 +19581,11 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44440001, "name": "【标记】大秃洞积分提示", "description": "special_spot_config-64440001", "code": "", "priority": 44440001, 
-    "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44440002, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "1,3,301,302,303,7,8,201", "detect_range": 0, 
-    "effect_target_type": "1,3,301,302,303,7,8,201", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, 
-    "effect_range": 1, "side_type": 0, "conflict_type": 44440001, "conditions_type": "0;3,4", 
+    "id": 44440001, "name": "【标记】大秃洞积分提示", "description": "special_spot_config-64440001", "code": "", 
+    "priority": 44440001, "duration_type": "3", "duration_time": "1", "special_spot_config_id": 44440002, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "1,3,301,302,303,7,8,201", 
+    "detect_range": 0, "effect_target_type": "1,3,301,302,303,7,8,201", "effect_spotbelong_type": "0,1,2,3", 
+    "effect_range_type": 1, "effect_range": 1, "side_type": 0, "conflict_type": 44440001, "conditions_type": "0;3,4", 
     "conditions_time": "0-0;0-1,0-1", "conditions_count": 0, "skill_config_id_on_birth": "0,0,0", 
     "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", "death_clear_spot": "0", "effect_birth": 0, 
     "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, "effect_process_end": 0, "effect_process_duration": 0, 
@@ -19594,31 +19602,31 @@
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44540001, "name": "【标记】预置炸弹(对设施)", "description": "special_spot_config-64540001", "code": "", "priority": 44540001, 
-    "duration_type": "1", "duration_time": "2", "special_spot_config_id": 44540002, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44540001, "conditions_type": "0;1", "conditions_time": "0-0;0-1", "conditions_count": 0, 
+    "id": 44540001, "name": "【标记】预置炸弹(对设施)", "description": "special_spot_config-64540001", "code": "", 
+    "priority": 44540001, "duration_type": "1", "duration_time": "2", "special_spot_config_id": 44540002, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44540001, "conditions_type": "0;1", "conditions_time": "0-0;0-1", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 2, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44540002, "name": "【标记】覆盖预置(对设施)", "description": "special_spot_config-64540002", "code": "", "priority": 44540002, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44540001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44540002, "name": "【标记】覆盖预置(对设施)", "description": "special_spot_config-64540002", "code": "", 
+    "priority": 44540002, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44540001, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,44540003", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 0, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 
     "spot_buff_config_id": 0, "pref_code": "", "is_still_alive": 0
   }, {
-    "id": 44540003, "name": "【标记】爆炸伤害(对设施)", "description": "Facility Control", "code": "Console", "priority": 44540003, 
-    "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, "mission_hurt_config_id": 0, 
-    "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, "effect_target_type": "-1", 
-    "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, "side_type": 0, 
-    "conflict_type": 44540003, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
+    "id": 44540003, "name": "【标记】爆炸伤害(对设施)", "description": "Facility Control", "code": "Console", 
+    "priority": 44540003, "duration_type": "1", "duration_time": "1", "special_spot_config_id": 0, 
+    "mission_hurt_config_id": 0, "mission_buff_config_id": 0, "detect_target_type": "-1", "detect_range": 0, 
+    "effect_target_type": "-1", "effect_spotbelong_type": "0,1,2,3", "effect_range_type": 1, "effect_range": 0, 
+    "side_type": 0, "conflict_type": 44540003, "conditions_type": "0;0", "conditions_time": "0-0;0-0", "conditions_count": 0, 
     "skill_config_id_on_birth": "0,0,0", "skill_config_id_on_death": "0,0,0", "death_effect_target_type": "0", 
     "death_clear_spot": "0", "effect_birth": 1000015, "effect_death": 0, "effect_duration": 0, "effect_process_star": 0, 
     "effect_process_end": 0, "effect_process_duration": 0, "effect_conditions": "0,1", "effect_conditions_type": "0", 

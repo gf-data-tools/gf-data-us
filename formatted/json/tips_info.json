@@ -197,7 +197,8 @@
     "tipsID": "Select <color=#e57006>battle type</color>", "bg_path": "Tips/Tips_BG_Bottom", "tipPos": "708,-166,0", 
     "tipSize": "244,200"
   }, {
-    "id": "36", "title": "tips_战斗力按钮", "regTarget": "Formation://Canvas/Formation/Main/Labels/FormationCharacterLabel (1)", 
+    "id": "36", "title": "tips_战斗力按钮", 
+    "regTarget": "Formation://Canvas/Formation/Main/Labels/FormationCharacterLabel (1)", 
     "targetPath": "Formation://Canvas/Formation/Main/Labels/FormationCharacterLabel (1)/CharacterLabel/Normal/战斗力按钮", 
     "tipsManagePath": "Formation://Canvas/Top/TopBackground/TipsManage", 
     "tipsID": "View T-Doll <color=#e57006>detailed information</color>", "bg_path": "Tips/Tips_BG_Top", "tipPos": "0,151,0", 
