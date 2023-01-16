@@ -1,371 +1,130 @@
 [
-    {
-        "id": 101,
-        "fetter_id": 1,
-        "actor": "g:9",
-        "milestone": 0,
-        "reward": 22006,
-        "name": "Thrifty Witch",
-        "description": "\"A dusty pearl is still a pearl.\""
-    },
-    {
-        "id": 102,
-        "fetter_id": 1,
-        "actor": "g:9;g:167",
-        "milestone": 1,
-        "reward": 22003,
-        "name": "Phantom in Pursuit",
-        "description": "\"Not all phantoms stay hidden in the shadow.\""
-    },
-    {
-        "id": 103,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92",
-        "milestone": 1,
-        "reward": 22001,
-        "name": "Finalized Plan",
-        "description": "\"When you follow a plan, at least you'll always know what causes your failure.\""
-    },
-    {
-        "id": 104,
-        "fetter_id": 1,
-        "actor": "",
-        "milestone": 2,
-        "reward": 22002,
-        "name": "Delicious Murmur",
-        "description": "\"The day has eyes...\""
-    },
-    {
-        "id": 105,
-        "fetter_id": 1,
-        "actor": "g:167;g:92;g:7",
-        "milestone": 2,
-        "reward": 22004,
-        "name": "Departure from Failure",
-        "description": "\"Life is made up of success and failure and more failure.\""
-    },
-    {
-        "id": 106,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92;g:7",
-        "milestone": 2,
-        "reward": 22006,
-        "name": "Conditional Help",
-        "description": "\"Sure, sure I can help, as long as you pay up.\""
-    },
-    {
-        "id": 107,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92;g:7",
-        "milestone": 3,
-        "reward": 22022,
-        "name": "Flutter of a Fledgling's Wings",
-        "description": "\"You work hard so that you will have no regrets.\""
-    },
-    {
-        "id": 108,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92;g:272",
-        "milestone": 3,
-        "reward": 22023,
-        "name": "Priceless Sincerity",
-        "description": "\"When it comes to memories, T-Dolls and humans are all the same.\""
-    },
-    {
-        "id": 109,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92;g:272",
-        "milestone": 4,
-        "reward": 22024,
-        "name": "A Witch's Night",
-        "description": "\"Listen. Listen to the music drifting through the night sky...\""
-    },
-    {
-        "id": 110,
-        "fetter_id": 1,
-        "actor": "g:9;g:167;g:92;g:7;g:272",
-        "milestone": 5,
-        "reward": 22005,
-        "name": "Dazzling Future",
-        "description": "\"Think of it as your tuition fees. I'm saying this in advance, okay?\""
-    },
-    {
-        "id": 111,
-        "fetter_id": 1,
-        "actor": "g:9;g:167",
-        "milestone": 6,
-        "reward": 22041,
-        "name": "Interlude of Dreams",
-        "description": "Beautiful things need to be described. Give it a name."
-    },
-    {
-        "id": 201,
-        "fetter_id": 2,
-        "actor": "g:36;g:50",
-        "milestone": 1,
-        "reward": 22001,
-        "name": "Dealer",
-        "description": "\"After a long day at work, Lee Enfield returns to her peaceful sanctuary, but something unexpected happens...\""
-    },
-    {
-        "id": 202,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48",
-        "milestone": 1,
-        "reward": 22004,
-        "name": "Player",
-        "description": "\"Lee Enfield never thought she'd ever find herself in such a group, around people even stranger than herself...\""
-    },
-    {
-        "id": 203,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48",
-        "milestone": 2,
-        "reward": 22005,
-        "name": "Bet",
-        "description": "\"Things are never as simple as people make them out to be... Lee knows this very well, but she doesn't want to lose.\""
-    },
-    {
-        "id": 204,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48",
-        "milestone": 2,
-        "reward": 22006,
-        "name": "Call",
-        "description": "\"The world is a wonderful place, especially when you think you're better than someone else.\""
-    },
-    {
-        "id": 205,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48",
-        "milestone": 3,
-        "reward": 22022,
-        "name": "Odds",
-        "description": "\"'Accept your failure gracefully, learn your lesson, and make it a stepping stone for your success.' Anyone could say such pretty words, but she would never fail to begin with.\""
-    },
-    {
-        "id": 206,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48;g:46;g:39",
-        "milestone": 3,
-        "reward": 22005,
-        "name": "Deal",
-        "description": "\"All actors are in position. Curtains up.\""
-    },
-    {
-        "id": 207,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48;g:46;g:39",
-        "milestone": 3,
-        "reward": 22006,
-        "name": "Goddess of Luck",
-        "description": "\"Nothing is unbeatable. I believe firmly in that, and it's the reason why I've never lost.\""
-    },
-    {
-        "id": 208,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48;g:46;g:39",
-        "milestone": 4,
-        "reward": 22003,
-        "name": "Blind",
-        "description": "\"The mouse that has but one hole is quickly taken.\""
-    },
-    {
-        "id": 209,
-        "fetter_id": 2,
-        "actor": "g:36;g:50;g:48;g:46;g:39",
-        "milestone": 4,
-        "reward": 22042,
-        "name": "1v1",
-        "description": "\"When you gaze long into the abyss, the abyss gazes also into you.\""
-    },
-    {
-        "id": 210,
-        "fetter_id": 2,
-        "actor": "g:36;g:50",
-        "milestone": 5,
-        "reward": 22047,
-        "name": "Fold",
-        "description": "\"Life isn't a story, but perhaps everyone is a protagonist in the story called life.\""
-    },
-    {
-        "id": 301,
-        "fetter_id": 3,
-        "actor": "g:96;g:297;g:155",
-        "milestone": 1,
-        "reward": 22025,
-        "name": "Orion",
-        "description": "Alpha Ursae Majoris has never been so clear.\n I always lament the fact that I'm not a Doll that specializes in astronomy.\n But I believe there are secrets hidden within a planet's spectrum.\n It will surely lead us out of our current predicament."
-    },
-    {
-        "id": 302,
-        "fetter_id": 3,
-        "actor": "g:96;g:297;g:155",
-        "milestone": 1,
-        "reward": 22003,
-        "name": "Specular Reflection",
-        "description": "The boundless wasteland stretches on and on, yet we still can't find a spot where we can glimpse the Orion constellation.\n The only embellishment on these moors are speckles of lackluster stars shining dimly.\n As their attention strays to this light, the story once again spirals out of control."
-    },
-    {
-        "id": 303,
-        "fetter_id": 3,
-        "actor": "g:96;g:297;g:155",
-        "milestone": 1,
-        "reward": 22004,
-        "name": "Orion's Belt",
-        "description": "The journey home stretches on and the constellations guide our way.\n Yet PzB39 stalls and tarries..."
-    },
-    {
-        "id": 304,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 2,
-        "reward": 22006,
-        "name": "Hesitation",
-        "description": "Noticing PzB39's hesitation, M590 makes up her mind to do something..."
-    },
-    {
-        "id": 305,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 2,
-        "reward": 22005,
-        "name": "Microgravity",
-        "description": "When you fall, you're practically in a state of weightlessness.\n It's a completely different sensation from riding a motorbike against the wind.\n One has no choice but to hold on tight."
-    },
-    {
-        "id": 306,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 3,
-        "reward": 22001,
-        "name": "Intuition",
-        "description": "PzB39 and M590 begin to visualize their escape, while Grizzly hasn't given up hope on finding them."
-    },
-    {
-        "id": 307,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 3,
-        "reward": 22003,
-        "name": "Stargazer",
-        "description": "Grizzly decides to act on her intuition. Meanwhile, M590 and PzB39 are driven to their wit's end."
-    },
-    {
-        "id": 308,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 4,
-        "reward": 22002,
-        "name": "Morning Star",
-        "description": "After running into wall after wall, the team once again strays off the right path..."
-    },
-    {
-        "id": 309,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 4,
-        "reward": 22022,
-        "name": "Extraterrestrial Civilization",
-        "description": "A solution to the ultimate problem emerges in the endless odyssey."
-    },
-    {
-        "id": 310,
-        "fetter_id": 3,
-        "actor": "g:96;g:180;g:297;g:306;g:155",
-        "milestone": 5,
-        "reward": 22042,
-        "name": "Seafarer",
-        "description": "The Griffin HQ is brimming with jubilation.\n The Dolls surround the race tracks and revel in the rumbling of motorbike engines."
-    },
-    {
-        "id": 401,
-        "fetter_id": 4,
-        "actor": "g:64;g:36",
-        "milestone": 1,
-        "reward": 22006,
-        "name": "Rosemary",
-        "description": "\"Those two are the pride of Griffin's Logistics Department. Those who are greedy would wonder - wouldn't it be amazing if they became one?!\""
-    },
-    {
-        "id": 402,
-        "fetter_id": 4,
-        "actor": "g:64;g:36",
-        "milestone": 1,
-        "reward": 22003,
-        "name": "Black Pepper",
-        "description": "\"Only unexpected incidents can break the daily routine and bring about new change.\""
-    },
-    {
-        "id": 403,
-        "fetter_id": 4,
-        "actor": "g:64;g:36;g:216",
-        "milestone": 2,
-        "reward": 22005,
-        "name": "Berry Jam",
-        "description": "\"A single spark can start a prairie fire, all it takes is a gust that blows in the right direction.\""
-    },
-    {
-        "id": 404,
-        "fetter_id": 4,
-        "actor": "g:64;g:36;g:216",
-        "milestone": 2,
-        "reward": 22024,
-        "name": "Salt & Sugar",
-        "description": "\"Some things don't always go according to expectation. Mixing delicious seasonings will create weird flavors.\""
-    },
-    {
-        "id": 405,
-        "fetter_id": 4,
-        "actor": "g:36;g:104",
-        "milestone": 3,
-        "reward": 22003,
-        "name": "Warm Milk",
-        "description": "\"Springfield is always understanding.\""
-    },
-    {
-        "id": 406,
-        "fetter_id": 4,
-        "actor": "g:64;g:216",
-        "milestone": 3,
-        "reward": 22002,
-        "name": "Iced Coffee",
-        "description": "\"Gr G36 is always meticulous.\""
-    },
-    {
-        "id": 407,
-        "fetter_id": 4,
-        "actor": "g:36;g:104",
-        "milestone": 3,
-        "reward": 22022,
-        "name": "Protein Excess",
-        "description": "\"Sometimes TOO understanding.\""
-    },
-    {
-        "id": 408,
-        "fetter_id": 4,
-        "actor": "g:64;g:216",
-        "milestone": 4,
-        "reward": 22023,
-        "name": "Caffeine Addiction",
-        "description": "\"Sometimes TOO meticulous.\""
-    },
-    {
-        "id": 409,
-        "fetter_id": 4,
-        "actor": "g:64;g:36",
-        "milestone": 4,
-        "reward": 22026,
-        "name": "Seasoning",
-        "description": "\"Have you tried putting salt on watermelon?\""
-    },
-    {
-        "id": 410,
-        "fetter_id": 4,
-        "actor": "g:64;g:36;g:104;g:216",
-        "milestone": 5,
-        "reward": 22042,
-        "name": "Salted Watermelon",
-        "description": "\"It makes it doubly delicious.\""
-    }
+  {
+    "id": 101, "fetter_id": 1, "actor": "g:9", "milestone": 0, "reward": 22006, "name": "Thrifty Witch", 
+    "description": "\"A dusty pearl is still a pearl.\""
+  }, {
+    "id": 102, "fetter_id": 1, "actor": "g:9;g:167", "milestone": 1, "reward": 22003, "name": "Phantom in Pursuit", 
+    "description": "\"Not all phantoms stay hidden in the shadow.\""
+  }, {
+    "id": 103, "fetter_id": 1, "actor": "g:9;g:167;g:92", "milestone": 1, "reward": 22001, "name": "Finalized Plan", 
+    "description": "\"When you follow a plan, at least you'll always know what causes your failure.\""
+  }, {
+    "id": 104, "fetter_id": 1, "actor": "", "milestone": 2, "reward": 22002, "name": "Delicious Murmur", 
+    "description": "\"The day has eyes...\""
+  }, {
+    "id": 105, "fetter_id": 1, "actor": "g:167;g:92;g:7", "milestone": 2, "reward": 22004, "name": "Departure from Failure", 
+    "description": "\"Life is made up of success and failure and more failure.\""
+  }, {
+    "id": 106, "fetter_id": 1, "actor": "g:9;g:167;g:92;g:7", "milestone": 2, "reward": 22006, "name": "Conditional Help", 
+    "description": "\"Sure, sure I can help, as long as you pay up.\""
+  }, {
+    "id": 107, "fetter_id": 1, "actor": "g:9;g:167;g:92;g:7", "milestone": 3, "reward": 22022, 
+    "name": "Flutter of a Fledgling's Wings", "description": "\"You work hard so that you will have no regrets.\""
+  }, {
+    "id": 108, "fetter_id": 1, "actor": "g:9;g:167;g:92;g:272", "milestone": 3, "reward": 22023, 
+    "name": "Priceless Sincerity", "description": "\"When it comes to memories, T-Dolls and humans are all the same.\""
+  }, {
+    "id": 109, "fetter_id": 1, "actor": "g:9;g:167;g:92;g:272", "milestone": 4, "reward": 22024, "name": "A Witch's Night", 
+    "description": "\"Listen. Listen to the music drifting through the night sky...\""
+  }, {
+    "id": 110, "fetter_id": 1, "actor": "g:9;g:167;g:92;g:7;g:272", "milestone": 5, "reward": 22005, 
+    "name": "Dazzling Future", "description": "\"Think of it as your tuition fees. I'm saying this in advance, okay?\""
+  }, {
+    "id": 111, "fetter_id": 1, "actor": "g:9;g:167", "milestone": 6, "reward": 22041, "name": "Interlude of Dreams", 
+    "description": "Beautiful things need to be described. Give it a name."
+  }, {
+    "id": 201, "fetter_id": 2, "actor": "g:36;g:50", "milestone": 1, "reward": 22001, "name": "Dealer", 
+    "description": "\"After a long day at work, Lee Enfield returns to her peaceful sanctuary, but something unexpected happens...\""
+  }, {
+    "id": 202, "fetter_id": 2, "actor": "g:36;g:50;g:48", "milestone": 1, "reward": 22004, "name": "Player", 
+    "description": "\"Lee Enfield never thought she'd ever find herself in such a group, around people even stranger than herself...\""
+  }, {
+    "id": 203, "fetter_id": 2, "actor": "g:36;g:50;g:48", "milestone": 2, "reward": 22005, "name": "Bet", 
+    "description": "\"Things are never as simple as people make them out to be... Lee knows this very well, but she doesn't want to lose.\""
+  }, {
+    "id": 204, "fetter_id": 2, "actor": "g:36;g:50;g:48", "milestone": 2, "reward": 22006, "name": "Call", 
+    "description": "\"The world is a wonderful place, especially when you think you're better than someone else.\""
+  }, {
+    "id": 205, "fetter_id": 2, "actor": "g:36;g:50;g:48", "milestone": 3, "reward": 22022, "name": "Odds", 
+    "description": "\"'Accept your failure gracefully, learn your lesson, and make it a stepping stone for your success.' Anyone could say such pretty words, but she would never fail to begin with.\""
+  }, {
+    "id": 206, "fetter_id": 2, "actor": "g:36;g:50;g:48;g:46;g:39", "milestone": 3, "reward": 22005, "name": "Deal", 
+    "description": "\"All actors are in position. Curtains up.\""
+  }, {
+    "id": 207, "fetter_id": 2, "actor": "g:36;g:50;g:48;g:46;g:39", "milestone": 3, "reward": 22006, 
+    "name": "Goddess of Luck", 
+    "description": "\"Nothing is unbeatable. I believe firmly in that, and it's the reason why I've never lost.\""
+  }, {
+    "id": 208, "fetter_id": 2, "actor": "g:36;g:50;g:48;g:46;g:39", "milestone": 4, "reward": 22003, "name": "Blind", 
+    "description": "\"The mouse that has but one hole is quickly taken.\""
+  }, {
+    "id": 209, "fetter_id": 2, "actor": "g:36;g:50;g:48;g:46;g:39", "milestone": 4, "reward": 22042, "name": "1v1", 
+    "description": "\"When you gaze long into the abyss, the abyss gazes also into you.\""
+  }, {
+    "id": 210, "fetter_id": 2, "actor": "g:36;g:50", "milestone": 5, "reward": 22047, "name": "Fold", 
+    "description": "\"Life isn't a story, but perhaps everyone is a protagonist in the story called life.\""
+  }, {
+    "id": 301, "fetter_id": 3, "actor": "g:96;g:297;g:155", "milestone": 1, "reward": 22025, "name": "Orion", 
+    "description": "Alpha Ursae Majoris has never been so clear.\n I always lament the fact that I'm not a Doll that specializes in astronomy.\n But I believe there are secrets hidden within a planet's spectrum.\n It will surely lead us out of our current predicament."
+  }, {
+    "id": 302, "fetter_id": 3, "actor": "g:96;g:297;g:155", "milestone": 1, "reward": 22003, "name": "Specular Reflection", 
+    "description": "The boundless wasteland stretches on and on, yet we still can't find a spot where we can glimpse the Orion constellation.\n The only embellishment on these moors are speckles of lackluster stars shining dimly.\n As their attention strays to this light, the story once again spirals out of control."
+  }, {
+    "id": 303, "fetter_id": 3, "actor": "g:96;g:297;g:155", "milestone": 1, "reward": 22004, "name": "Orion's Belt", 
+    "description": "The journey home stretches on and the constellations guide our way.\n Yet PzB39 stalls and tarries..."
+  }, {
+    "id": 304, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 2, "reward": 22006, 
+    "name": "Hesitation", "description": "Noticing PzB39's hesitation, M590 makes up her mind to do something..."
+  }, {
+    "id": 305, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 2, "reward": 22005, 
+    "name": "Microgravity", 
+    "description": "When you fall, you're practically in a state of weightlessness.\n It's a completely different sensation from riding a motorbike against the wind.\n One has no choice but to hold on tight."
+  }, {
+    "id": 306, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 3, "reward": 22001, "name": "Intuition", 
+    "description": "PzB39 and M590 begin to visualize their escape, while Grizzly hasn't given up hope on finding them."
+  }, {
+    "id": 307, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 3, "reward": 22003, "name": "Stargazer", 
+    "description": "Grizzly decides to act on her intuition. Meanwhile, M590 and PzB39 are driven to their wit's end."
+  }, {
+    "id": 308, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 4, "reward": 22002, 
+    "name": "Morning Star", 
+    "description": "After running into wall after wall, the team once again strays off the right path..."
+  }, {
+    "id": 309, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 4, "reward": 22022, 
+    "name": "Extraterrestrial Civilization", 
+    "description": "A solution to the ultimate problem emerges in the endless odyssey."
+  }, {
+    "id": 310, "fetter_id": 3, "actor": "g:96;g:180;g:297;g:306;g:155", "milestone": 5, "reward": 22042, "name": "Seafarer", 
+    "description": "The Griffin HQ is brimming with jubilation.\n The Dolls surround the race tracks and revel in the rumbling of motorbike engines."
+  }, {
+    "id": 401, "fetter_id": 4, "actor": "g:64;g:36", "milestone": 1, "reward": 22006, "name": "Rosemary", 
+    "description": "\"Those two are the pride of Griffin's Logistics Department. Those who are greedy would wonder - wouldn't it be amazing if they became one?!\""
+  }, {
+    "id": 402, "fetter_id": 4, "actor": "g:64;g:36", "milestone": 1, "reward": 22003, "name": "Black Pepper", 
+    "description": "\"Only unexpected incidents can break the daily routine and bring about new change.\""
+  }, {
+    "id": 403, "fetter_id": 4, "actor": "g:64;g:36;g:216", "milestone": 2, "reward": 22005, "name": "Berry Jam", 
+    "description": "\"A single spark can start a prairie fire, all it takes is a gust that blows in the right direction.\""
+  }, {
+    "id": 404, "fetter_id": 4, "actor": "g:64;g:36;g:216", "milestone": 2, "reward": 22024, "name": "Salt & Sugar", 
+    "description": "\"Some things don't always go according to expectation. Mixing delicious seasonings will create weird flavors.\""
+  }, {
+    "id": 405, "fetter_id": 4, "actor": "g:36;g:104", "milestone": 3, "reward": 22003, "name": "Warm Milk", 
+    "description": "\"Springfield is always understanding.\""
+  }, {
+    "id": 406, "fetter_id": 4, "actor": "g:64;g:216", "milestone": 3, "reward": 22002, "name": "Iced Coffee", 
+    "description": "\"Gr G36 is always meticulous.\""
+  }, {
+    "id": 407, "fetter_id": 4, "actor": "g:36;g:104", "milestone": 3, "reward": 22022, "name": "Protein Excess", 
+    "description": "\"Sometimes TOO understanding.\""
+  }, {
+    "id": 408, "fetter_id": 4, "actor": "g:64;g:216", "milestone": 4, "reward": 22023, "name": "Caffeine Addiction", 
+    "description": "\"Sometimes TOO meticulous.\""
+  }, {
+    "id": 409, "fetter_id": 4, "actor": "g:64;g:36", "milestone": 4, "reward": 22026, "name": "Seasoning", 
+    "description": "\"Have you tried putting salt on watermelon?\""
+  }, {
+    "id": 410, "fetter_id": 4, "actor": "g:64;g:36;g:104;g:216", "milestone": 5, "reward": 22042, 
+    "name": "Salted Watermelon", "description": "\"It makes it doubly delicious.\""
+  }
 ]

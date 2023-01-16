@@ -1,142 +1,55 @@
 [
-    {
-        "id": 100,
-        "type": 1,
-        "child_ids": "101,102,103,104,105",
-        "title": "Basic Tactics",
-        "title_code": "guide_intermediate",
-        "sub_title": "These are the basic tactics for commanding a battle. Send out your echelons once you master them!",
-        "tutorial_manual_id": 0,
-        "rank": 0
-    },
-    {
-        "id": 101,
-        "type": 2,
-        "child_ids": "",
-        "title": "Obtaining T-Dolls",
-        "title_code": "",
-        "sub_title": "First, you must understand how to construct Tactical Dolls.",
-        "tutorial_manual_id": 202,
-        "rank": 5
-    },
-    {
-        "id": 102,
-        "type": 2,
-        "child_ids": "",
-        "title": "T-Doll Improvement",
-        "title_code": "",
-        "sub_title": "Let's learn about the various ways in which you can improve your T-Dolls!",
-        "tutorial_manual_id": 203,
-        "rank": 5
-    },
-    {
-        "id": 103,
-        "type": 2,
-        "child_ids": "",
-        "title": "T-Doll Enhancement",
-        "title_code": "",
-        "sub_title": "Strengthening your T-Dolls' attributes is a vital part of improving their fighting power.",
-        "tutorial_manual_id": 204,
-        "rank": 5
-    },
-    {
-        "id": 104,
-        "type": 2,
-        "child_ids": "",
-        "title": "Dummy-Linking",
-        "title_code": "",
-        "sub_title": "This links Dummies to your T-Dolls and provides a noticeable improvement in combat effectiveness.",
-        "tutorial_manual_id": 206,
-        "rank": 4
-    },
-    {
-        "id": 105,
-        "type": 2,
-        "child_ids": "",
-        "title": "Skill Improvement",
-        "title_code": "",
-        "sub_title": "Don't forget to level up your T-Dolls' skills!",
-        "tutorial_manual_id": 208,
-        "rank": 3
-    },
-    {
-        "id": 200,
-        "type": 1,
-        "child_ids": "201,202",
-        "title": "Novice Tactics",
-        "title_code": "guide_basic",
-        "sub_title": "Starting to battles more difficult? Study the contents of this section to improve your combat ability!",
-        "tutorial_manual_id": 0,
-        "rank": 0
-    },
-    {
-        "id": 201,
-        "type": 2,
-        "child_ids": "",
-        "title": "Equipment Acquisition",
-        "title_code": "",
-        "sub_title": "Gear up your Dolls with equipment to improve their performance in battle.",
-        "tutorial_manual_id": 303,
-        "rank": 5
-    },
-    {
-        "id": 202,
-        "type": 2,
-        "child_ids": "",
-        "title": "Equipment Enhancement",
-        "title_code": "",
-        "sub_title": "Enhance your equipment to maximize their effect.",
-        "tutorial_manual_id": 304,
-        "rank": 4
-    },
-    {
-        "id": 300,
-        "type": 1,
-        "child_ids": "301",
-        "title": "Intermediate Tactics",
-        "title_code": "guide_advance",
-        "sub_title": "Tactical Fairies have been introduced in Griffin. Understanding them will make your battles more successful!",
-        "tutorial_manual_id": 0,
-        "rank": 0
-    },
-    {
-        "id": 301,
-        "type": 2,
-        "child_ids": "",
-        "title": "Obtaining Fairies",
-        "title_code": "",
-        "sub_title": "Bring Tactical Fairies into the fight!",
-        "tutorial_manual_id": 402,
-        "rank": 5
-    },
-    {
-        "id": 400,
-        "type": 1,
-        "child_ids": "401,402",
-        "title": "Advanced Tactics",
-        "title_code": "guide_higher",
-        "sub_title": "We face an increasingly ruthless battlefield. Upgrade your T-Dolls' neural clouds and deploy the Heavy Ordnance Corps!",
-        "tutorial_manual_id": 0,
-        "rank": 0
-    },
-    {
-        "id": 401,
-        "type": 2,
-        "child_ids": "",
-        "title": "Neural Upgrade",
-        "title_code": "",
-        "sub_title": "It's is time to upgrade their neural clouds. Please help them overcome their limits.",
-        "tutorial_manual_id": 212,
-        "rank": 5
-    },
-    {
-        "id": 402,
-        "type": 2,
-        "child_ids": "",
-        "title": "Heavy Ordnance Corps",
-        "title_code": "",
-        "sub_title": "The HOC are ready. Please proceed to improve them through further research and development.",
-        "tutorial_manual_id": 501,
-        "rank": 5
-    }
+  {
+    "id": 100, "type": 1, "child_ids": "101,102,103,104,105", "title": "Basic Tactics", "title_code": "guide_intermediate", 
+    "sub_title": "These are the basic tactics for commanding a battle. Send out your echelons once you master them!", 
+    "tutorial_manual_id": 0, "rank": 0
+  }, {
+    "id": 101, "type": 2, "child_ids": "", "title": "Obtaining T-Dolls", "title_code": "", 
+    "sub_title": "First, you must understand how to construct Tactical Dolls.", "tutorial_manual_id": 202, "rank": 5
+  }, {
+    "id": 102, "type": 2, "child_ids": "", "title": "T-Doll Improvement", "title_code": "", 
+    "sub_title": "Let's learn about the various ways in which you can improve your T-Dolls!", "tutorial_manual_id": 203, 
+    "rank": 5
+  }, {
+    "id": 103, "type": 2, "child_ids": "", "title": "T-Doll Enhancement", "title_code": "", 
+    "sub_title": "Strengthening your T-Dolls' attributes is a vital part of improving their fighting power.", 
+    "tutorial_manual_id": 204, "rank": 5
+  }, {
+    "id": 104, "type": 2, "child_ids": "", "title": "Dummy-Linking", "title_code": "", 
+    "sub_title": "This links Dummies to your T-Dolls and provides a noticeable improvement in combat effectiveness.", 
+    "tutorial_manual_id": 206, "rank": 4
+  }, {
+    "id": 105, "type": 2, "child_ids": "", "title": "Skill Improvement", "title_code": "", 
+    "sub_title": "Don't forget to level up your T-Dolls' skills!", "tutorial_manual_id": 208, "rank": 3
+  }, {
+    "id": 200, "type": 1, "child_ids": "201,202", "title": "Novice Tactics", "title_code": "guide_basic", 
+    "sub_title": "Starting to battles more difficult? Study the contents of this section to improve your combat ability!", 
+    "tutorial_manual_id": 0, "rank": 0
+  }, {
+    "id": 201, "type": 2, "child_ids": "", "title": "Equipment Acquisition", "title_code": "", 
+    "sub_title": "Gear up your Dolls with equipment to improve their performance in battle.", "tutorial_manual_id": 303, 
+    "rank": 5
+  }, {
+    "id": 202, "type": 2, "child_ids": "", "title": "Equipment Enhancement", "title_code": "", 
+    "sub_title": "Enhance your equipment to maximize their effect.", "tutorial_manual_id": 304, "rank": 4
+  }, {
+    "id": 300, "type": 1, "child_ids": "301", "title": "Intermediate Tactics", "title_code": "guide_advance", 
+    "sub_title": "Tactical Fairies have been introduced in Griffin. Understanding them will make your battles more successful!", 
+    "tutorial_manual_id": 0, "rank": 0
+  }, {
+    "id": 301, "type": 2, "child_ids": "", "title": "Obtaining Fairies", "title_code": "", 
+    "sub_title": "Bring Tactical Fairies into the fight!", "tutorial_manual_id": 402, "rank": 5
+  }, {
+    "id": 400, "type": 1, "child_ids": "401,402", "title": "Advanced Tactics", "title_code": "guide_higher", 
+    "sub_title": "We face an increasingly ruthless battlefield. Upgrade your T-Dolls' neural clouds and deploy the Heavy Ordnance Corps!", 
+    "tutorial_manual_id": 0, "rank": 0
+  }, {
+    "id": 401, "type": 2, "child_ids": "", "title": "Neural Upgrade", "title_code": "", 
+    "sub_title": "It's is time to upgrade their neural clouds. Please help them overcome their limits.", 
+    "tutorial_manual_id": 212, "rank": 5
+  }, {
+    "id": 402, "type": 2, "child_ids": "", "title": "Heavy Ordnance Corps", "title_code": "", 
+    "sub_title": "The HOC are ready. Please proceed to improve them through further research and development.", 
+    "tutorial_manual_id": 501, "rank": 5
+  }
 ]

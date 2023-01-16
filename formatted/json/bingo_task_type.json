@@ -1,905 +1,389 @@
 [
-    {
-        "id": 1,
-        "task_type": "mission_common_win",
-        "title": "Normal Battle Challenge",
-        "content": "Clear any Normal maps {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 2,
-        "task_type": "mission_night_win",
-        "title": "Night Battle",
-        "content": "Clear any Night maps {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 3,
-        "task_type": "mission_emergent_win",
-        "title": "Emergency Battle Challenge",
-        "content": "Clear any Emergency maps {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 4,
-        "task_type": "collect_gun",
-        "title": "T-Doll Rescue",
-        "content": "Rescue T-Doll from a map or battle {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 5,
-        "task_type": "eat_gun",
-        "title": "T-Doll Enhancement",
-        "content": "Perform T-Doll Enhancement {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 6,
-        "task_type": "eat_equip",
-        "title": "Equipment Enhancement",
-        "content": "Perform Equipment Enhancement {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 7,
-        "task_type": "consume_iop_contract",
-        "title": "T-Doll Contract Consumption",
-        "content": "Spend {0} T-Doll Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 8,
-        "task_type": "consume_equip_contract",
-        "title": "Equipment Contract Consumption",
-        "content": "Spend {0} Equipment Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 9,
-        "task_type": "consume_quick_develop",
-        "title": "Quick Production Contract Consumption",
-        "content": "Spend {0} Quick Production Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 10,
-        "task_type": "consume_quick_reinforce",
-        "title": "Quick Repair Contract Consumption",
-        "content": "Spend {0} Quick Repair Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 11,
-        "task_type": "consume_mp",
-        "title": "Manpower Consumption",
-        "content": "Spend {0} Manpower. (Auto-Battle excluded)",
-        "function_control_id": 0
-    },
-    {
-        "id": 12,
-        "task_type": "consume_ammo",
-        "title": "Ammo Consumption",
-        "content": "Spend {0} Ammo. (Auto-Battle excluded)",
-        "function_control_id": 0
-    },
-    {
-        "id": 13,
-        "task_type": "consume_mre",
-        "title": "Rations Consumption",
-        "content": "Spend {0} Rations. (Auto-Battle excluded)",
-        "function_control_id": 0
-    },
-    {
-        "id": 14,
-        "task_type": "consume_part",
-        "title": "Parts Consumption",
-        "content": "Spend {0} Parts. (Auto-Battle excluded)",
-        "function_control_id": 0
-    },
-    {
-        "id": 15,
-        "task_type": "get_build_coin",
-        "title": "Collecting Friend Batteries",
-        "content": "Collect batteries from a friend's Dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 16,
-        "task_type": "love_collect",
-        "title": "Collection of Hearts",
-        "content": "Collect {0} hearts from T-Dolls or Kalina.",
-        "function_control_id": 0
-    },
-    {
-        "id": 17,
-        "task_type": "borrow_friend_team",
-        "title": "Use Friend's Echelon",
-        "content": "Use Support Echelon {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 18,
-        "task_type": "gain_hg",
-        "title": "HG T-Doll",
-        "content": "Acquire any HG type T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 19,
-        "task_type": "gain_smg",
-        "title": "SMG T-Doll",
-        "content": "Acquire any SMG type T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 20,
-        "task_type": "gain_ar",
-        "title": "AR T-Doll",
-        "content": "Acquire any AR type T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 21,
-        "task_type": "gain_mg",
-        "title": "MG T-Doll",
-        "content": "Acquire any MG type T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 22,
-        "task_type": "gain_rf",
-        "title": "RF T-Doll",
-        "content": "Acquire any RF type T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 23,
-        "task_type": "gain_fittings",
-        "title": "Accessory Equipment",
-        "content": "Acquire {0} pieces of accessory type equipment.",
-        "function_control_id": 0
-    },
-    {
-        "id": 24,
-        "task_type": "gain_magazine",
-        "title": "Magazine Equipment",
-        "content": "Acquire {0} pieces of magazine type equipment.",
-        "function_control_id": 0
-    },
-    {
-        "id": 25,
-        "task_type": "gain_equipment",
-        "title": "Body Gear Equipment",
-        "content": "Acquire {0} pieces of body gear type equipment.",
-        "function_control_id": 0
-    },
-    {
-        "id": 26,
-        "task_type": "special_develop_gun",
-        "title": "Heavy Production",
-        "content": "Use T-Doll Heavy Production {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 27,
-        "task_type": "special_develop_equip",
-        "title": "Equipment Heavy Production",
-        "content": "Use Equipment Heavy Production {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 28,
-        "task_type": "operation_quick_develop",
-        "title": "Action Report - Quick Production Contract",
-        "content": "Obtain {0} Quick Production Contracts from Logistic Support.",
-        "function_control_id": 0
-    },
-    {
-        "id": 29,
-        "task_type": "operation_quick_reinforce",
-        "title": "Action Report - Quick Repair Contract",
-        "content": "Obtain {0} Quick Repair Contracts from Logistic Support.",
-        "function_control_id": 0
-    },
-    {
-        "id": 30,
-        "task_type": "operation_equip_contract",
-        "title": "Action Report - Equipment Contract",
-        "content": "Obtain {0} Equipment Contracts from Logistic Support.",
-        "function_control_id": 0
-    },
-    {
-        "id": 31,
-        "task_type": "operation_iop_contract",
-        "title": "Action Report - T-Doll Contract",
-        "content": "Obtain {0} T-Doll Contracts from Logistic Support.",
-        "function_control_id": 0
-    },
-    {
-        "id": 32,
-        "task_type": "win_boss",
-        "title": "BOSS Extermination",
-        "content": "Eliminate a total of {0} bosses in victorious battles.",
-        "function_control_id": 0
-    },
-    {
-        "id": 33,
-        "task_type": "win_armorrobot",
-        "title": "Armored Machine Type S.F. Forces",
-        "content": "Eliminate {0} armored machine type S.F. enemies in victorious battles.",
-        "function_control_id": 0
-    },
-    {
-        "id": 34,
-        "task_type": "win_robot",
-        "title": "Normal Machine Type S.F. Forces",
-        "content": "Eliminate {0} normal machine type S.F. enemies in victorious battles.",
-        "function_control_id": 0
-    },
-    {
-        "id": 35,
-        "task_type": "win_person",
-        "title": "Normal Doll Type S.F. Forces",
-        "content": "Eliminate {0} normal Doll type S.F. enemies in victorious battles.",
-        "function_control_id": 0
-    },
-    {
-        "id": 36,
-        "task_type": "operation_duration",
-        "title": "Logistic Support",
-        "content": "Accumulate {0} hours of successful Logistic Support.",
-        "function_control_id": 0
-    },
-    {
-        "id": 37,
-        "task_type": "consume_voucher",
-        "title": "Calibration Ticket Consumption",
-        "content": "Spend {0} Calibration Tickets.",
-        "function_control_id": 0
-    },
-    {
-        "id": 38,
-        "task_type": "simulated_warfare",
-        "title": "Combat Simulation",
-        "content": "Complete {0} Combat Simulations.",
-        "function_control_id": 0
-    },
-    {
-        "id": 39,
-        "task_type": "upgrade",
-        "title": "Skill Training",
-        "content": "Undergo Skill Training {0} times. (Both T-Doll and Fairies are acceptable)",
-        "function_control_id": 0
-    },
-    {
-        "id": 40,
-        "task_type": "s_win",
-        "title": "Battle Master",
-        "content": "Clear {0} battles with S rank.",
-        "function_control_id": 0
-    },
-    {
-        "id": 41,
-        "task_type": "auto_mission",
-        "title": "Auto-Battle",
-        "content": "Complete {0} Auto-Battles.",
-        "function_control_id": 0
-    },
-    {
-        "id": 42,
-        "task_type": "get_lollipop",
-        "title": "Lollipop",
-        "content": "Acquire {0} lollipops. (Can be obtained through returning 2 and 3-star furniture)",
-        "function_control_id": 0
-    },
-    {
-        "id": 43,
-        "task_type": "get_icecream",
-        "title": "Ice Cream Cone",
-        "content": "Acquire {0} ice cream cones. (Can be obtained through returning 4-star furniture)",
-        "function_control_id": 0
-    },
-    {
-        "id": 44,
-        "task_type": "friend_greeting",
-        "title": "Friendly Greetings",
-        "content": "Chat with a friend {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 45,
-        "task_type": "upvote",
-        "title": "Like Meister",
-        "content": "Like someone else's dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 46,
-        "task_type": "friend_request",
-        "title": "Request Friend",
-        "content": "Send a friend request {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 47,
-        "task_type": "open_gift",
-        "title": "Gifting",
-        "content": "Gift a total of {0} gifts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 48,
-        "task_type": "consume_build_coin",
-        "title": "Spend Batteries",
-        "content": "Spend {0} batteries.",
-        "function_control_id": 0
-    },
-    {
-        "id": 49,
-        "task_type": "get_core",
-        "title": "Acquire Cores",
-        "content": "Acquire {0} Dummy Cores.",
-        "function_control_id": 0
-    },
-    {
-        "id": 50,
-        "task_type": "trial_mission",
-        "title": "Defense Drill",
-        "content": "Participate in Defense Drill {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 51,
-        "task_type": "cumulative_login",
-        "title": "Daily Login",
-        "content": "Daily Login",
-        "function_control_id": 0
-    },
-    {
-        "id": 52,
-        "task_type": "fix_gun",
-        "title": "Repair T-Doll",
-        "content": "Repair T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 53,
-        "task_type": "gun_level_up_count",
-        "title": "T-Doll Level Up",
-        "content": "Level up T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 54,
-        "task_type": "adjust_equip",
-        "title": "Equipment Calibration",
-        "content": "Perform Equipment Calibration {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 55,
-        "task_type": "retire_gun",
-        "title": "Dismantle T-Doll",
-        "content": "Dismantle {0} T-Dolls.",
-        "function_control_id": 0
-    },
-    {
-        "id": 56,
-        "task_type": "eat_equip",
-        "title": "Equipment Enhancement",
-        "content": "Perform Equipment Enhancement {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 57,
-        "task_type": "consume_core",
-        "title": "Cores Consumption",
-        "content": "Spend {0} Dummy Cores.",
-        "function_control_id": 0
-    },
-    {
-        "id": 58,
-        "task_type": "consume_coin1",
-        "title": "Basic Data Consumption",
-        "content": "Spend {0} Basic Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 59,
-        "task_type": "consume_coin2",
-        "title": "Intermediate Data Consumption",
-        "content": "Spend {0} Intermediate Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 60,
-        "task_type": "consume_coin3",
-        "title": "Advanced Data Consumption",
-        "content": "Spend {0} Advanced Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 61,
-        "task_type": "consume_capsule",
-        "title": "Enhancement Capsule Consumption",
-        "content": "Spend {0} Enhancement Capsules.",
-        "function_control_id": 0
-    },
-    {
-        "id": 62,
-        "task_type": "consume_quick_training",
-        "title": "Quick Training Contract",
-        "content": "Spend {0} Quick Training Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 63,
-        "task_type": "be_visited",
-        "title": "Come Like the Wind",
-        "content": "Get visited in your dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 64,
-        "task_type": "dorm_goaway",
-        "title": "See ya!",
-        "content": "Send off a visitor from your dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 65,
-        "task_type": "dorm_share",
-        "title": "Share",
-        "content": "Share your dorm page {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 66,
-        "task_type": "get_friend_points",
-        "title": "Friend Points",
-        "content": "Gather {0} Friend Points.",
-        "function_control_id": 0
-    },
-    {
-        "id": 67,
-        "task_type": "develop_fight_report",
-        "title": "Produce Combat Reports",
-        "content": "Produce {0} Combat Reports.",
-        "function_control_id": 0
-    },
-    {
-        "id": 68,
-        "task_type": "consume_fight_report",
-        "title": "Spend Combat Reports",
-        "content": "Spend {0} Combat Reports.",
-        "function_control_id": 0
-    },
-    {
-        "id": 69,
-        "task_type": "friend_praise",
-        "title": "A Ship Named Friend",
-        "content": "Get {0} Likes.",
-        "function_control_id": 0
-    },
-    {
-        "id": 70,
-        "task_type": "random_visit",
-        "title": "Random Visit",
-        "content": "Use the Random Visit function in the dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 71,
-        "task_type": "develop_gun_93",
-        "title": "IDW DA NYA",
-        "content": "Acquire {0} T-Doll IDW.",
-        "function_control_id": 0
-    },
-    {
-        "id": 72,
-        "task_type": "develop_gun_rank4",
-        "title": "Test Your Luck - T-Doll",
-        "content": "Produce a 4-star T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 73,
-        "task_type": "develop_equip_rank4",
-        "title": "Test Your Luck - Equipment",
-        "content": "Produce a 4-star equipment {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 74,
-        "task_type": "mission_emergency_0_3_6",
-        "title": "S Victory (Normal 3-6)",
-        "content": "Clear Normal 3-6 With S rank {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 75,
-        "task_type": "mission_emergency_1_4_4",
-        "title": "S Victory (Emergency 4-4)",
-        "content": "Clear Emergency 4-4 with S rank {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 76,
-        "task_type": "mission_emergency_3_3_4",
-        "title": "S Victory (Night 3-4)",
-        "content": "Clear Night 3-4 with S rank {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 77,
-        "task_type": "be_borrowed_friend_team",
-        "title": "Friend Uses My Echelon",
-        "content": "A friend uses your Echelon {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 78,
-        "task_type": "consume_bp",
-        "title": "Sim Energy Consumption",
-        "content": "Spend {0} Sim Energy.",
-        "function_control_id": 0
-    },
-    {
-        "id": 79,
-        "task_type": "consume_gem",
-        "title": "Gems Consumption",
-        "content": "Spend {0} Gems.",
-        "function_control_id": 0
-    },
-    {
-        "id": 80,
-        "task_type": "buy_bp_count",
-        "title": "Purchase Tokens",
-        "content": "Purchase {0} Tokens from the Shop.",
-        "function_control_id": 0
-    },
-    {
-        "id": 81,
-        "task_type": "buy_quick_reinforce",
-        "title": "Purchase Quick Repair Contract",
-        "content": "Purchase Quick Repair Contract {0} times from the Shop.",
-        "function_control_id": 0
-    },
-    {
-        "id": 82,
-        "task_type": "buy_iop_contract",
-        "title": "Purchase T-Doll Contract",
-        "content": "Purchase T-Doll Contract {0} times from the Shop.",
-        "function_control_id": 0
-    },
-    {
-        "id": 83,
-        "task_type": "buy_quick_develop",
-        "title": "Purchase Quick Production Contract",
-        "content": "Purchase Quick Production Contract {0} times from the Shop.",
-        "function_control_id": 0
-    },
-    {
-        "id": 84,
-        "task_type": "buy_equip_contract",
-        "title": "Purchase Equipment Contract",
-        "content": "Purchase Equipment Contract {0} times from the Shop.",
-        "function_control_id": 0
-    },
-    {
-        "id": 85,
-        "task_type": "squad_base_data_analyse",
-        "title": "Intelligence Analysis",
-        "content": "Conduct Intelligence Analysis {0} times with Original Sample.",
-        "function_control_id": 0
-    },
-    {
-        "id": 86,
-        "task_type": "squad_senior_data_analyse",
-        "title": "Intelligence Analysis",
-        "content": "Conduct Intelligence Analysis {0} times with Pure Sample.",
-        "function_control_id": 0
-    },
-    {
-        "id": 87,
-        "task_type": "squad_data_analyse",
-        "title": "Intelligence Analysis",
-        "content": "Conduct Intelligence Analysis {0} times. (Both Original and Pure Samples are acceptable)",
-        "function_control_id": 0
-    },
-    {
-        "id": 88,
-        "task_type": "squad_data_by_analyse",
-        "title": "Central Data",
-        "content": "Acquire {0} pieces of Central Data through Intelligence Analysis.",
-        "function_control_id": 0
-    },
-    {
-        "id": 89,
-        "task_type": "squad_chip_rank4_by_analyse",
-        "title": "Test Your Luck",
-        "content": "Acquire {0} 4-star chips through Intelligence Analysis.",
-        "function_control_id": 0
-    },
-    {
-        "id": 90,
-        "task_type": "squad_chip_rank5_by_analyse",
-        "title": "Test Your Luck",
-        "content": "Acquire {0} 5-star chips through Intelligence Analysis.",
-        "function_control_id": 0
-    },
-    {
-        "id": 91,
-        "task_type": "squad_level_up_times",
-        "title": "Heavy Ordnance Corps Level Up",
-        "content": "Level up a unit of your HOC {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 92,
-        "task_type": "squad_strengthen_times",
-        "title": "Heavy Ordnance Corps Enhancement",
-        "content": "Spend {0} Enhancement Capsules on a unit of your HOC.",
-        "function_control_id": 0
-    },
-    {
-        "id": 93,
-        "task_type": "squad_train_and_skill_times",
-        "title": "Heavy Ordnance Corps Training",
-        "content": "Complete HOC EXP or Skill Training {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 94,
-        "task_type": "squad_up_rank",
-        "title": "Heavy Ordnance Corps Promotion",
-        "content": "Promote a unit of your HOC {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 95,
-        "task_type": "squad_up_advanced_times",
-        "title": "Heavy Ordnance Corps Iteration",
-        "content": "Undergo HOC Iteration {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 96,
-        "task_type": "squad_eat_chip_num",
-        "title": "Chip Enhancement",
-        "content": "Spend {0} chips through Chip Enhancement.",
-        "function_control_id": 0
-    },
-    {
-        "id": 97,
-        "task_type": "buy_bp_count",
-        "title": "Energy Purchase",
-        "content": "Purchase Sim Energy {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 98,
-        "task_type": "buy_furniture_coin",
-        "title": "Purchase Tokens",
-        "content": "Purchase {0} Tokens.",
-        "function_control_id": 0
-    },
-    {
-        "id": 99,
-        "task_type": "buy_quick_training",
-        "title": "Purchase Quick Training Contract",
-        "content": "Purchase Quick Training Contract {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 100,
-        "task_type": "adopt_pet",
-        "title": "Pet-Keeping",
-        "content": "Acquire {0} pets.",
-        "function_control_id": 0
-    },
-    {
-        "id": 101,
-        "task_type": "develop_gun_2",
-        "title": "M1911",
-        "content": "Acquire {0} T-Doll M1911 through production.",
-        "function_control_id": 0
-    },
-    {
-        "id": 102,
-        "task_type": "develop_gun_25",
-        "title": "MP40",
-        "content": "Acquire {0} T-Doll MP40 through production.",
-        "function_control_id": 0
-    },
-    {
-        "id": 103,
-        "task_type": "develop_gun_10",
-        "title": "PPK",
-        "content": "Acquire {0} T-Doll PPK through production.",
-        "function_control_id": 0
-    },
-    {
-        "id": 104,
-        "task_type": "develop_gun_93",
-        "title": "IDW DA NYA",
-        "content": "Acquire {0} T-Doll IDW through production.",
-        "function_control_id": 0
-    },
-    {
-        "id": 105,
-        "task_type": "get_trial_voucher",
-        "title": "Calibration Ticket Accrual",
-        "content": "Gather {0} Calibration Tickets from Defense Drill.",
-        "function_control_id": 0
-    },
-    {
-        "id": 106,
-        "task_type": "consume_furniture_coin",
-        "title": "Token Consumption",
-        "content": "Spend {0} Tokens.",
-        "function_control_id": 0
-    },
-    {
-        "id": 107,
-        "task_type": "develop_gun_rank5",
-        "title": "Test Your Luck - T-Doll",
-        "content": "Produce a 5-star T-Doll {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 108,
-        "task_type": "develop_equip_rank5",
-        "title": "Test Your Luck - Equipment",
-        "content": "Produce a 5-star equipment {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 109,
-        "task_type": "retire_equip",
-        "title": "Equipment Dismantling",
-        "content": "Dismantle {0} pieces of equipment.",
-        "function_control_id": 0
-    },
-    {
-        "id": 110,
-        "task_type": "friends_battery",
-        "title": "Collecting Friend Batteries",
-        "content": "Collect batteries from a friend's Dorm {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 111,
-        "task_type": "adjust_fairy",
-        "title": "Fairy Calibration",
-        "content": "Perform Fairy Calibration {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 112,
-        "task_type": "eat_fairy",
-        "title": "Fairy Enhancement",
-        "content": "Perform Fairy Enhancement {0} times.",
-        "function_control_id": 0
-    },
-    {
-        "id": 113,
-        "task_type": "get_gem",
-        "title": "Acquire Gems",
-        "content": "Acquire {0} Gems",
-        "function_control_id": 0
-    },
-    {
-        "id": 114,
-        "task_type": "finish_squad_daily_task",
-        "title": "Complete Intelligence Mission",
-        "content": "Complete {0} Intelligence Missions.",
-        "function_control_id": 0
-    },
-    {
-        "id": 115,
-        "task_type": "consume_quick_analyse",
-        "title": "Spend Quick Analysis Contract",
-        "content": "Spend {0} Quick Analysis Contracts.",
-        "function_control_id": 0
-    },
-    {
-        "id": 116,
-        "task_type": "get_squad_fragment_type1",
-        "title": "Test Your Luck - BGM-71",
-        "content": "Acquire {0} pieces of the anti-tank weapon's Central Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 117,
-        "task_type": "get_squad_fragment_type2",
-        "title": "Test Your Luck - 2B14",
-        "content": "Acquire {0} pieces of the mortar's Central Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 118,
-        "task_type": "get_squad_fragment_type3",
-        "title": "Test Your Luck - AGS-30",
-        "content": "Acquire {0} pieces of the grenade launcher's Central Data.",
-        "function_control_id": 0
-    },
-    {
-        "id": 119,
-        "task_type": "get_base_data",
-        "title": "Acquire Original Sample",
-        "content": "Acquire {0} Original Samples.",
-        "function_control_id": 0
-    },
-    {
-        "id": 120,
-        "task_type": "get_senior_data",
-        "title": "Acquire Pure Sample",
-        "content": "Acquire {0} Pure Samples.",
-        "function_control_id": 0
-    },
-    {
-        "id": 121,
-        "task_type": "get_fight_report",
-        "title": "Produce Combat Reports",
-        "content": "Produce a total of {0} Combat Reports. (Both Combat Report and Special Combat Report are acceptable)",
-        "function_control_id": 0
-    },
-    {
-        "id": 122,
-        "task_type": "explore_start",
-        "title": "Explorations",
-        "content": "Go on {0} explorations",
-        "function_control_id": 0
-    },
-    {
-        "id": 123,
-        "task_type": "sangvis_daily_retrieval",
-        "title": "Daily Capture",
-        "content": "Complete {0} Standard Captures.",
-        "function_control_id": 0
-    },
-    {
-        "id": 124,
-        "task_type": "sangvis_aided_retrieval",
-        "title": "Aided Capture",
-        "content": "Complete {0} Aided Captures.",
-        "function_control_id": 0
-    },
-    {
-        "id": 125,
-        "task_type": "sangvis_exercise",
-        "title": "Coalition Drill",
-        "content": "Perform {0} Coalition Drills.",
-        "function_control_id": 0
-    },
-    {
-        "id": 126,
-        "task_type": "sangvis_exercise_exp",
-        "title": "Defense Training",
-        "content": "Perform {0} Defense Trainings.",
-        "function_control_id": 0
-    },
-    {
-        "id": 127,
-        "task_type": "sangvis_exercise_star",
-        "title": "Adjustment Exercise",
-        "content": "Perform {0} Adjustment Exercises.",
-        "function_control_id": 0
-    },
-    {
-        "id": 128,
-        "task_type": "sangvis_exercise_analysis",
-        "title": "Decoding Practice",
-        "content": "Perform {0} Decoding Practices.",
-        "function_control_id": 0
-    },
-    {
-        "id": 129,
-        "task_type": "special_develop_fairy",
-        "title": "Heavy Fairy Production",
-        "content": "Perform {0} Heavy Fairy Productions.",
-        "function_control_id": 0
-    }
+  {
+    "id": 1, "task_type": "mission_common_win", "title": "Normal Battle Challenge", 
+    "content": "Clear any Normal maps {0} times.", "function_control_id": 0
+  }, {
+    "id": 2, "task_type": "mission_night_win", "title": "Night Battle", "content": "Clear any Night maps {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 3, "task_type": "mission_emergent_win", "title": "Emergency Battle Challenge", 
+    "content": "Clear any Emergency maps {0} times.", "function_control_id": 0
+  }, {
+    "id": 4, "task_type": "collect_gun", "title": "T-Doll Rescue", 
+    "content": "Rescue T-Doll from a map or battle {0} times.", "function_control_id": 0
+  }, {
+    "id": 5, "task_type": "eat_gun", "title": "T-Doll Enhancement", "content": "Perform T-Doll Enhancement {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 6, "task_type": "eat_equip", "title": "Equipment Enhancement", 
+    "content": "Perform Equipment Enhancement {0} times.", "function_control_id": 0
+  }, {
+    "id": 7, "task_type": "consume_iop_contract", "title": "T-Doll Contract Consumption", 
+    "content": "Spend {0} T-Doll Contracts.", "function_control_id": 0
+  }, {
+    "id": 8, "task_type": "consume_equip_contract", "title": "Equipment Contract Consumption", 
+    "content": "Spend {0} Equipment Contracts.", "function_control_id": 0
+  }, {
+    "id": 9, "task_type": "consume_quick_develop", "title": "Quick Production Contract Consumption", 
+    "content": "Spend {0} Quick Production Contracts.", "function_control_id": 0
+  }, {
+    "id": 10, "task_type": "consume_quick_reinforce", "title": "Quick Repair Contract Consumption", 
+    "content": "Spend {0} Quick Repair Contracts.", "function_control_id": 0
+  }, {
+    "id": 11, "task_type": "consume_mp", "title": "Manpower Consumption", 
+    "content": "Spend {0} Manpower. (Auto-Battle excluded)", "function_control_id": 0
+  }, {
+    "id": 12, "task_type": "consume_ammo", "title": "Ammo Consumption", "content": "Spend {0} Ammo. (Auto-Battle excluded)", 
+    "function_control_id": 0
+  }, {
+    "id": 13, "task_type": "consume_mre", "title": "Rations Consumption", 
+    "content": "Spend {0} Rations. (Auto-Battle excluded)", "function_control_id": 0
+  }, {
+    "id": 14, "task_type": "consume_part", "title": "Parts Consumption", 
+    "content": "Spend {0} Parts. (Auto-Battle excluded)", "function_control_id": 0
+  }, {
+    "id": 15, "task_type": "get_build_coin", "title": "Collecting Friend Batteries", 
+    "content": "Collect batteries from a friend's Dorm {0} times.", "function_control_id": 0
+  }, {
+    "id": 16, "task_type": "love_collect", "title": "Collection of Hearts", 
+    "content": "Collect {0} hearts from T-Dolls or Kalina.", "function_control_id": 0
+  }, {
+    "id": 17, "task_type": "borrow_friend_team", "title": "Use Friend's Echelon", 
+    "content": "Use Support Echelon {0} times.", "function_control_id": 0
+  }, {
+    "id": 18, "task_type": "gain_hg", "title": "HG T-Doll", "content": "Acquire any HG type T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 19, "task_type": "gain_smg", "title": "SMG T-Doll", "content": "Acquire any SMG type T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 20, "task_type": "gain_ar", "title": "AR T-Doll", "content": "Acquire any AR type T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 21, "task_type": "gain_mg", "title": "MG T-Doll", "content": "Acquire any MG type T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 22, "task_type": "gain_rf", "title": "RF T-Doll", "content": "Acquire any RF type T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 23, "task_type": "gain_fittings", "title": "Accessory Equipment", 
+    "content": "Acquire {0} pieces of accessory type equipment.", "function_control_id": 0
+  }, {
+    "id": 24, "task_type": "gain_magazine", "title": "Magazine Equipment", 
+    "content": "Acquire {0} pieces of magazine type equipment.", "function_control_id": 0
+  }, {
+    "id": 25, "task_type": "gain_equipment", "title": "Body Gear Equipment", 
+    "content": "Acquire {0} pieces of body gear type equipment.", "function_control_id": 0
+  }, {
+    "id": 26, "task_type": "special_develop_gun", "title": "Heavy Production", 
+    "content": "Use T-Doll Heavy Production {0} times.", "function_control_id": 0
+  }, {
+    "id": 27, "task_type": "special_develop_equip", "title": "Equipment Heavy Production", 
+    "content": "Use Equipment Heavy Production {0} times.", "function_control_id": 0
+  }, {
+    "id": 28, "task_type": "operation_quick_develop", "title": "Action Report - Quick Production Contract", 
+    "content": "Obtain {0} Quick Production Contracts from Logistic Support.", "function_control_id": 0
+  }, {
+    "id": 29, "task_type": "operation_quick_reinforce", "title": "Action Report - Quick Repair Contract", 
+    "content": "Obtain {0} Quick Repair Contracts from Logistic Support.", "function_control_id": 0
+  }, {
+    "id": 30, "task_type": "operation_equip_contract", "title": "Action Report - Equipment Contract", 
+    "content": "Obtain {0} Equipment Contracts from Logistic Support.", "function_control_id": 0
+  }, {
+    "id": 31, "task_type": "operation_iop_contract", "title": "Action Report - T-Doll Contract", 
+    "content": "Obtain {0} T-Doll Contracts from Logistic Support.", "function_control_id": 0
+  }, {
+    "id": 32, "task_type": "win_boss", "title": "BOSS Extermination", 
+    "content": "Eliminate a total of {0} bosses in victorious battles.", "function_control_id": 0
+  }, {
+    "id": 33, "task_type": "win_armorrobot", "title": "Armored Machine Type S.F. Forces", 
+    "content": "Eliminate {0} armored machine type S.F. enemies in victorious battles.", "function_control_id": 0
+  }, {
+    "id": 34, "task_type": "win_robot", "title": "Normal Machine Type S.F. Forces", 
+    "content": "Eliminate {0} normal machine type S.F. enemies in victorious battles.", "function_control_id": 0
+  }, {
+    "id": 35, "task_type": "win_person", "title": "Normal Doll Type S.F. Forces", 
+    "content": "Eliminate {0} normal Doll type S.F. enemies in victorious battles.", "function_control_id": 0
+  }, {
+    "id": 36, "task_type": "operation_duration", "title": "Logistic Support", 
+    "content": "Accumulate {0} hours of successful Logistic Support.", "function_control_id": 0
+  }, {
+    "id": 37, "task_type": "consume_voucher", "title": "Calibration Ticket Consumption", 
+    "content": "Spend {0} Calibration Tickets.", "function_control_id": 0
+  }, {
+    "id": 38, "task_type": "simulated_warfare", "title": "Combat Simulation", "content": "Complete {0} Combat Simulations.", 
+    "function_control_id": 0
+  }, {
+    "id": 39, "task_type": "upgrade", "title": "Skill Training", 
+    "content": "Undergo Skill Training {0} times. (Both T-Doll and Fairies are acceptable)", "function_control_id": 0
+  }, {
+    "id": 40, "task_type": "s_win", "title": "Battle Master", "content": "Clear {0} battles with S rank.", 
+    "function_control_id": 0
+  }, {
+    "id": 41, "task_type": "auto_mission", "title": "Auto-Battle", "content": "Complete {0} Auto-Battles.", 
+    "function_control_id": 0
+  }, {
+    "id": 42, "task_type": "get_lollipop", "title": "Lollipop", 
+    "content": "Acquire {0} lollipops. (Can be obtained through returning 2 and 3-star furniture)", "function_control_id": 0
+  }, {
+    "id": 43, "task_type": "get_icecream", "title": "Ice Cream Cone", 
+    "content": "Acquire {0} ice cream cones. (Can be obtained through returning 4-star furniture)", "function_control_id": 0
+  }, {
+    "id": 44, "task_type": "friend_greeting", "title": "Friendly Greetings", "content": "Chat with a friend {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 45, "task_type": "upvote", "title": "Like Meister", "content": "Like someone else's dorm {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 46, "task_type": "friend_request", "title": "Request Friend", "content": "Send a friend request {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 47, "task_type": "open_gift", "title": "Gifting", "content": "Gift a total of {0} gifts.", 
+    "function_control_id": 0
+  }, {
+    "id": 48, "task_type": "consume_build_coin", "title": "Spend Batteries", "content": "Spend {0} batteries.", 
+    "function_control_id": 0
+  }, {
+    "id": 49, "task_type": "get_core", "title": "Acquire Cores", "content": "Acquire {0} Dummy Cores.", 
+    "function_control_id": 0
+  }, {
+    "id": 50, "task_type": "trial_mission", "title": "Defense Drill", "content": "Participate in Defense Drill {0} times.", 
+    "function_control_id": 0
+  }, 
+  {"id": 51, "task_type": "cumulative_login", "title": "Daily Login", "content": "Daily Login", "function_control_id": 0}, 
+  {
+    "id": 52, "task_type": "fix_gun", "title": "Repair T-Doll", "content": "Repair T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 53, "task_type": "gun_level_up_count", "title": "T-Doll Level Up", "content": "Level up T-Doll {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 54, "task_type": "adjust_equip", "title": "Equipment Calibration", 
+    "content": "Perform Equipment Calibration {0} times.", "function_control_id": 0
+  }, {
+    "id": 55, "task_type": "retire_gun", "title": "Dismantle T-Doll", "content": "Dismantle {0} T-Dolls.", 
+    "function_control_id": 0
+  }, {
+    "id": 56, "task_type": "eat_equip", "title": "Equipment Enhancement", 
+    "content": "Perform Equipment Enhancement {0} times.", "function_control_id": 0
+  }, {
+    "id": 57, "task_type": "consume_core", "title": "Cores Consumption", "content": "Spend {0} Dummy Cores.", 
+    "function_control_id": 0
+  }, {
+    "id": 58, "task_type": "consume_coin1", "title": "Basic Data Consumption", "content": "Spend {0} Basic Data.", 
+    "function_control_id": 0
+  }, {
+    "id": 59, "task_type": "consume_coin2", "title": "Intermediate Data Consumption", 
+    "content": "Spend {0} Intermediate Data.", "function_control_id": 0
+  }, {
+    "id": 60, "task_type": "consume_coin3", "title": "Advanced Data Consumption", "content": "Spend {0} Advanced Data.", 
+    "function_control_id": 0
+  }, {
+    "id": 61, "task_type": "consume_capsule", "title": "Enhancement Capsule Consumption", 
+    "content": "Spend {0} Enhancement Capsules.", "function_control_id": 0
+  }, {
+    "id": 62, "task_type": "consume_quick_training", "title": "Quick Training Contract", 
+    "content": "Spend {0} Quick Training Contracts.", "function_control_id": 0
+  }, {
+    "id": 63, "task_type": "be_visited", "title": "Come Like the Wind", "content": "Get visited in your dorm {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 64, "task_type": "dorm_goaway", "title": "See ya!", "content": "Send off a visitor from your dorm {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 65, "task_type": "dorm_share", "title": "Share", "content": "Share your dorm page {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 66, "task_type": "get_friend_points", "title": "Friend Points", "content": "Gather {0} Friend Points.", 
+    "function_control_id": 0
+  }, {
+    "id": 67, "task_type": "develop_fight_report", "title": "Produce Combat Reports", 
+    "content": "Produce {0} Combat Reports.", "function_control_id": 0
+  }, {
+    "id": 68, "task_type": "consume_fight_report", "title": "Spend Combat Reports", "content": "Spend {0} Combat Reports.", 
+    "function_control_id": 0
+  }, {
+    "id": 69, "task_type": "friend_praise", "title": "A Ship Named Friend", "content": "Get {0} Likes.", 
+    "function_control_id": 0
+  }, {
+    "id": 70, "task_type": "random_visit", "title": "Random Visit", 
+    "content": "Use the Random Visit function in the dorm {0} times.", "function_control_id": 0
+  }, {
+    "id": 71, "task_type": "develop_gun_93", "title": "IDW DA NYA", "content": "Acquire {0} T-Doll IDW.", 
+    "function_control_id": 0
+  }, {
+    "id": 72, "task_type": "develop_gun_rank4", "title": "Test Your Luck - T-Doll", 
+    "content": "Produce a 4-star T-Doll {0} times.", "function_control_id": 0
+  }, {
+    "id": 73, "task_type": "develop_equip_rank4", "title": "Test Your Luck - Equipment", 
+    "content": "Produce a 4-star equipment {0} times.", "function_control_id": 0
+  }, {
+    "id": 74, "task_type": "mission_emergency_0_3_6", "title": "S Victory (Normal 3-6)", 
+    "content": "Clear Normal 3-6 With S rank {0} times.", "function_control_id": 0
+  }, {
+    "id": 75, "task_type": "mission_emergency_1_4_4", "title": "S Victory (Emergency 4-4)", 
+    "content": "Clear Emergency 4-4 with S rank {0} times.", "function_control_id": 0
+  }, {
+    "id": 76, "task_type": "mission_emergency_3_3_4", "title": "S Victory (Night 3-4)", 
+    "content": "Clear Night 3-4 with S rank {0} times.", "function_control_id": 0
+  }, {
+    "id": 77, "task_type": "be_borrowed_friend_team", "title": "Friend Uses My Echelon", 
+    "content": "A friend uses your Echelon {0} times.", "function_control_id": 0
+  }, {
+    "id": 78, "task_type": "consume_bp", "title": "Sim Energy Consumption", "content": "Spend {0} Sim Energy.", 
+    "function_control_id": 0
+  }, {
+    "id": 79, "task_type": "consume_gem", "title": "Gems Consumption", "content": "Spend {0} Gems.", 
+    "function_control_id": 0
+  }, {
+    "id": 80, "task_type": "buy_bp_count", "title": "Purchase Tokens", "content": "Purchase {0} Tokens from the Shop.", 
+    "function_control_id": 0
+  }, {
+    "id": 81, "task_type": "buy_quick_reinforce", "title": "Purchase Quick Repair Contract", 
+    "content": "Purchase Quick Repair Contract {0} times from the Shop.", "function_control_id": 0
+  }, {
+    "id": 82, "task_type": "buy_iop_contract", "title": "Purchase T-Doll Contract", 
+    "content": "Purchase T-Doll Contract {0} times from the Shop.", "function_control_id": 0
+  }, {
+    "id": 83, "task_type": "buy_quick_develop", "title": "Purchase Quick Production Contract", 
+    "content": "Purchase Quick Production Contract {0} times from the Shop.", "function_control_id": 0
+  }, {
+    "id": 84, "task_type": "buy_equip_contract", "title": "Purchase Equipment Contract", 
+    "content": "Purchase Equipment Contract {0} times from the Shop.", "function_control_id": 0
+  }, {
+    "id": 85, "task_type": "squad_base_data_analyse", "title": "Intelligence Analysis", 
+    "content": "Conduct Intelligence Analysis {0} times with Original Sample.", "function_control_id": 0
+  }, {
+    "id": 86, "task_type": "squad_senior_data_analyse", "title": "Intelligence Analysis", 
+    "content": "Conduct Intelligence Analysis {0} times with Pure Sample.", "function_control_id": 0
+  }, {
+    "id": 87, "task_type": "squad_data_analyse", "title": "Intelligence Analysis", 
+    "content": "Conduct Intelligence Analysis {0} times. (Both Original and Pure Samples are acceptable)", 
+    "function_control_id": 0
+  }, {
+    "id": 88, "task_type": "squad_data_by_analyse", "title": "Central Data", 
+    "content": "Acquire {0} pieces of Central Data through Intelligence Analysis.", "function_control_id": 0
+  }, {
+    "id": 89, "task_type": "squad_chip_rank4_by_analyse", "title": "Test Your Luck", 
+    "content": "Acquire {0} 4-star chips through Intelligence Analysis.", "function_control_id": 0
+  }, {
+    "id": 90, "task_type": "squad_chip_rank5_by_analyse", "title": "Test Your Luck", 
+    "content": "Acquire {0} 5-star chips through Intelligence Analysis.", "function_control_id": 0
+  }, {
+    "id": 91, "task_type": "squad_level_up_times", "title": "Heavy Ordnance Corps Level Up", 
+    "content": "Level up a unit of your HOC {0} times.", "function_control_id": 0
+  }, {
+    "id": 92, "task_type": "squad_strengthen_times", "title": "Heavy Ordnance Corps Enhancement", 
+    "content": "Spend {0} Enhancement Capsules on a unit of your HOC.", "function_control_id": 0
+  }, {
+    "id": 93, "task_type": "squad_train_and_skill_times", "title": "Heavy Ordnance Corps Training", 
+    "content": "Complete HOC EXP or Skill Training {0} times.", "function_control_id": 0
+  }, {
+    "id": 94, "task_type": "squad_up_rank", "title": "Heavy Ordnance Corps Promotion", 
+    "content": "Promote a unit of your HOC {0} times.", "function_control_id": 0
+  }, {
+    "id": 95, "task_type": "squad_up_advanced_times", "title": "Heavy Ordnance Corps Iteration", 
+    "content": "Undergo HOC Iteration {0} times.", "function_control_id": 0
+  }, {
+    "id": 96, "task_type": "squad_eat_chip_num", "title": "Chip Enhancement", 
+    "content": "Spend {0} chips through Chip Enhancement.", "function_control_id": 0
+  }, {
+    "id": 97, "task_type": "buy_bp_count", "title": "Energy Purchase", "content": "Purchase Sim Energy {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 98, "task_type": "buy_furniture_coin", "title": "Purchase Tokens", "content": "Purchase {0} Tokens.", 
+    "function_control_id": 0
+  }, {
+    "id": 99, "task_type": "buy_quick_training", "title": "Purchase Quick Training Contract", 
+    "content": "Purchase Quick Training Contract {0} times.", "function_control_id": 0
+  }, 
+  {"id": 100, "task_type": "adopt_pet", "title": "Pet-Keeping", "content": "Acquire {0} pets.", "function_control_id": 0}, 
+  {
+    "id": 101, "task_type": "develop_gun_2", "title": "M1911", "content": "Acquire {0} T-Doll M1911 through production.", 
+    "function_control_id": 0
+  }, {
+    "id": 102, "task_type": "develop_gun_25", "title": "MP40", "content": "Acquire {0} T-Doll MP40 through production.", 
+    "function_control_id": 0
+  }, {
+    "id": 103, "task_type": "develop_gun_10", "title": "PPK", "content": "Acquire {0} T-Doll PPK through production.", 
+    "function_control_id": 0
+  }, {
+    "id": 104, "task_type": "develop_gun_93", "title": "IDW DA NYA", "content": "Acquire {0} T-Doll IDW through production.", 
+    "function_control_id": 0
+  }, {
+    "id": 105, "task_type": "get_trial_voucher", "title": "Calibration Ticket Accrual", 
+    "content": "Gather {0} Calibration Tickets from Defense Drill.", "function_control_id": 0
+  }, {
+    "id": 106, "task_type": "consume_furniture_coin", "title": "Token Consumption", "content": "Spend {0} Tokens.", 
+    "function_control_id": 0
+  }, {
+    "id": 107, "task_type": "develop_gun_rank5", "title": "Test Your Luck - T-Doll", 
+    "content": "Produce a 5-star T-Doll {0} times.", "function_control_id": 0
+  }, {
+    "id": 108, "task_type": "develop_equip_rank5", "title": "Test Your Luck - Equipment", 
+    "content": "Produce a 5-star equipment {0} times.", "function_control_id": 0
+  }, {
+    "id": 109, "task_type": "retire_equip", "title": "Equipment Dismantling", 
+    "content": "Dismantle {0} pieces of equipment.", "function_control_id": 0
+  }, {
+    "id": 110, "task_type": "friends_battery", "title": "Collecting Friend Batteries", 
+    "content": "Collect batteries from a friend's Dorm {0} times.", "function_control_id": 0
+  }, {
+    "id": 111, "task_type": "adjust_fairy", "title": "Fairy Calibration", "content": "Perform Fairy Calibration {0} times.", 
+    "function_control_id": 0
+  }, {
+    "id": 112, "task_type": "eat_fairy", "title": "Fairy Enhancement", "content": "Perform Fairy Enhancement {0} times.", 
+    "function_control_id": 0
+  }, 
+  {"id": 113, "task_type": "get_gem", "title": "Acquire Gems", "content": "Acquire {0} Gems", "function_control_id": 0}, 
+  {
+    "id": 114, "task_type": "finish_squad_daily_task", "title": "Complete Intelligence Mission", 
+    "content": "Complete {0} Intelligence Missions.", "function_control_id": 0
+  }, {
+    "id": 115, "task_type": "consume_quick_analyse", "title": "Spend Quick Analysis Contract", 
+    "content": "Spend {0} Quick Analysis Contracts.", "function_control_id": 0
+  }, {
+    "id": 116, "task_type": "get_squad_fragment_type1", "title": "Test Your Luck - BGM-71", 
+    "content": "Acquire {0} pieces of the anti-tank weapon's Central Data.", "function_control_id": 0
+  }, {
+    "id": 117, "task_type": "get_squad_fragment_type2", "title": "Test Your Luck - 2B14", 
+    "content": "Acquire {0} pieces of the mortar's Central Data.", "function_control_id": 0
+  }, {
+    "id": 118, "task_type": "get_squad_fragment_type3", "title": "Test Your Luck - AGS-30", 
+    "content": "Acquire {0} pieces of the grenade launcher's Central Data.", "function_control_id": 0
+  }, {
+    "id": 119, "task_type": "get_base_data", "title": "Acquire Original Sample", "content": "Acquire {0} Original Samples.", 
+    "function_control_id": 0
+  }, {
+    "id": 120, "task_type": "get_senior_data", "title": "Acquire Pure Sample", "content": "Acquire {0} Pure Samples.", 
+    "function_control_id": 0
+  }, {
+    "id": 121, "task_type": "get_fight_report", "title": "Produce Combat Reports", 
+    "content": "Produce a total of {0} Combat Reports. (Both Combat Report and Special Combat Report are acceptable)", 
+    "function_control_id": 0
+  }, {
+    "id": 122, "task_type": "explore_start", "title": "Explorations", "content": "Go on {0} explorations", 
+    "function_control_id": 0
+  }, {
+    "id": 123, "task_type": "sangvis_daily_retrieval", "title": "Daily Capture", 
+    "content": "Complete {0} Standard Captures.", "function_control_id": 0
+  }, {
+    "id": 124, "task_type": "sangvis_aided_retrieval", "title": "Aided Capture", "content": "Complete {0} Aided Captures.", 
+    "function_control_id": 0
+  }, {
+    "id": 125, "task_type": "sangvis_exercise", "title": "Coalition Drill", "content": "Perform {0} Coalition Drills.", 
+    "function_control_id": 0
+  }, {
+    "id": 126, "task_type": "sangvis_exercise_exp", "title": "Defense Training", "content": "Perform {0} Defense Trainings.", 
+    "function_control_id": 0
+  }, {
+    "id": 127, "task_type": "sangvis_exercise_star", "title": "Adjustment Exercise", 
+    "content": "Perform {0} Adjustment Exercises.", "function_control_id": 0
+  }, {
+    "id": 128, "task_type": "sangvis_exercise_analysis", "title": "Decoding Practice", 
+    "content": "Perform {0} Decoding Practices.", "function_control_id": 0
+  }, {
+    "id": 129, "task_type": "special_develop_fairy", "title": "Heavy Fairy Production", 
+    "content": "Perform {0} Heavy Fairy Productions.", "function_control_id": 0
+  }
 ]

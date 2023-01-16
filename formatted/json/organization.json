@@ -1,224 +1,95 @@
 [
-    {
-        "id": 1,
-        "parent_id": 0,
-        "name": "Griffin",
-        "description": "Headquarters"
-    },
-    {
-        "id": 101,
-        "parent_id": 1,
-        "name": "Area S09 Tactical Command Center",
-        "description": "organization-20000101"
-    },
-    {
-        "id": 102,
-        "parent_id": 1,
-        "name": "Frontline Combat Team",
-        "description": "organization-20000102"
-    },
-    {
-        "id": 103,
-        "parent_id": 1,
-        "name": "Response Combat Team",
-        "description": "organization-20000103"
-    },
-    {
-        "id": 104,
-        "parent_id": 1,
-        "name": "Border Surveillance Corps",
-        "description": "organization-20000104"
-    },
-    {
-        "id": 105,
-        "parent_id": 1,
-        "name": "General Support Team",
-        "description": "organization-20000105"
-    },
-    {
-        "id": 106,
-        "parent_id": 1,
-        "name": "Assimilated Forces",
-        "description": "organization-20000106"
-    },
-    {
-        "id": 107,
-        "parent_id": 1,
-        "name": "Integrated Logistic Department",
-        "description": "organization-20000107"
-    },
-    {
-        "id": 108,
-        "parent_id": 1,
-        "name": "T-Doll Club",
-        "description": "organization-20000108"
-    },
-    {
-        "id": 10101,
-        "parent_id": 101,
-        "name": "Command Room",
-        "description": "The source of all battle commands. The Commander's main workplace."
-    },
-    {
-        "id": 10102,
-        "parent_id": 101,
-        "name": "HQ Intelligence Center",
-        "description": "The main intelligence center. A vault of Griffin's most valuable asset."
-    },
-    {
-        "id": 10103,
-        "parent_id": 101,
-        "name": "Data Room",
-        "description": "The place where intelligence is screened and processed. Miss Kalina has spent most of her precious youth here."
-    },
-    {
-        "id": 10104,
-        "parent_id": 101,
-        "name": "Special Reception Lounge",
-        "description": "Entry to this mysterious little room is forbidden for Griffin Dolls, and it seems uninhabited, but every now and then footsteps can be heard from it in the middle of the night…"
-    },
-    {
-        "id": 10201,
-        "parent_id": 102,
-        "name": "Intelligence Center",
-        "description": "A branch of the Frontline Combat Team – true elites understand the importance of intelligence."
-    },
-    {
-        "id": 10202,
-        "parent_id": 102,
-        "name": "Basecamp",
-        "description": "The basecamp of the Frontline Combat Team. The final stop before an operation begins."
-    },
-    {
-        "id": 10203,
-        "parent_id": 102,
-        "name": "Depot",
-        "description": "The depot of the Frontline Combat Team. Most of the things stored in here aren't meant for the public eye."
-    },
-    {
-        "id": 10301,
-        "parent_id": 103,
-        "name": "Intelligence Center",
-        "description": "A branch of the Response Combat Team – so much intel is gathered here it could work nine Kalinas to death."
-    },
-    {
-        "id": 10302,
-        "parent_id": 103,
-        "name": "Basecamp",
-        "description": "The basecamp of the Response Combat Team. The atmosphere isn't too cold and deadly here...in fact, it's quite laid-back."
-    },
-    {
-        "id": 10303,
-        "parent_id": 103,
-        "name": "Depot",
-        "description": "The depot of the Response Combat Team. Unimaginable things are stored here – because it literally has EVERYTHING."
-    },
-    {
-        "id": 10401,
-        "parent_id": 104,
-        "name": "Intelligence Center",
-        "description": "A branch of the Border Surveillance Corps – mainly specializing in producing topographical images and diagrams. Do you like maps?"
-    },
-    {
-        "id": 10402,
-        "parent_id": 104,
-        "name": "Forward Basecamp",
-        "description": "Forward Basecamp, where echoes can be heard – no matter where you are, we'll be right behind you."
-    },
-    {
-        "id": 10403,
-        "parent_id": 104,
-        "name": "Depot",
-        "description": "The depot of the Border Surveillance Corps. Holy crap, you guys are even messier than the Response Combat Team!"
-    },
-    {
-        "id": 10501,
-        "parent_id": 105,
-        "name": "Intelligence Center",
-        "description": "A branch of the General Support Team – the branch we're most familiar with and the source of most intel missions."
-    },
-    {
-        "id": 10502,
-        "parent_id": 105,
-        "name": "Fairy Chamber",
-        "description": "I repeat – those are not toys! Don't make me say that again!"
-    },
-    {
-        "id": 10503,
-        "parent_id": 105,
-        "name": "Garage",
-        "description": "A hangout for the HOCs. Probably the place that resembles a military camp the most…"
-    },
-    {
-        "id": 10601,
-        "parent_id": 106,
-        "name": "Protocol Control Center",
-        "description": "We don't know much about this stuff… Perhaps our enemies have more insight."
-    },
-    {
-        "id": 10602,
-        "parent_id": 106,
-        "name": "Special Training Ground",
-        "description": "A new training ground especially built for the Assimilated Forces. They value their privacy."
-    },
-    {
-        "id": 10603,
-        "parent_id": 106,
-        "name": "Isolated Testing Ground",
-        "description": "\"What, you want to come with us?\""
-    },
-    {
-        "id": 10604,
-        "parent_id": 106,
-        "name": "Specialized Factory",
-        "description": "It isn't exactly special treatment… We just use different tech."
-    },
-    {
-        "id": 10701,
-        "parent_id": 107,
-        "name": "Cafe",
-        "description": "Everyone likes a drink after a mission, but sometimes someone else comes along to fill in for Miss Springfield. I just hope I never run into such occasions."
-    },
-    {
-        "id": 10702,
-        "parent_id": 107,
-        "name": "DORM",
-        "description": "\"Commander… No more than three. We can't take care of any more.\""
-    },
-    {
-        "id": 10703,
-        "parent_id": 107,
-        "name": "Rescue Station",
-        "description": "\"Don't look at me! They said no more than three!\""
-    },
-    {
-        "id": 10704,
-        "parent_id": 107,
-        "name": "Supply Warehouse",
-        "description": "This is Griffin's largest as well as tidiest warehouse, managed by Miss Kalina herself."
-    },
-    {
-        "id": 10705,
-        "parent_id": 107,
-        "name": "Cafeteria",
-        "description": "The most human-like feature of Tactical Dolls is that they never let good food go to waste – though the list of Dolls banned from the kitchen is getting longer and longer."
-    },
-    {
-        "id": 10801,
-        "parent_id": 108,
-        "name": "Secretary Office",
-        "description": "Miss Kalina's assistants' office – What? So the Data Room isn't her office?"
-    },
-    {
-        "id": 10802,
-        "parent_id": 108,
-        "name": "Club Activity Room",
-        "description": "Dolls find leisure and entertainment here, but you can always see a few familiar faces in this room - \"MDR, you're slacking off again!\""
-    },
-    {
-        "id": 10803,
-        "parent_id": 108,
-        "name": "Banquet Hall",
-        "description": "A big hall reserved for large-scale events. Several Dolls also hang out here in their free time – but no drinking competitions!"
-    }
+  {"id": 1, "parent_id": 0, "name": "Griffin", "description": "Headquarters"}, 
+  {"id": 101, "parent_id": 1, "name": "Area S09 Tactical Command Center", "description": "organization-20000101"}, 
+  {"id": 102, "parent_id": 1, "name": "Frontline Combat Team", "description": "organization-20000102"}, 
+  {"id": 103, "parent_id": 1, "name": "Response Combat Team", "description": "organization-20000103"}, 
+  {"id": 104, "parent_id": 1, "name": "Border Surveillance Corps", "description": "organization-20000104"}, 
+  {"id": 105, "parent_id": 1, "name": "General Support Team", "description": "organization-20000105"}, 
+  {"id": 106, "parent_id": 1, "name": "Assimilated Forces", "description": "organization-20000106"}, 
+  {"id": 107, "parent_id": 1, "name": "Integrated Logistic Department", "description": "organization-20000107"}, 
+  {"id": 108, "parent_id": 1, "name": "T-Doll Club", "description": "organization-20000108"}, 
+  {
+    "id": 10101, "parent_id": 101, "name": "Command Room", 
+    "description": "The source of all battle commands. The Commander's main workplace."
+  }, {
+    "id": 10102, "parent_id": 101, "name": "HQ Intelligence Center", 
+    "description": "The main intelligence center. A vault of Griffin's most valuable asset."
+  }, {
+    "id": 10103, "parent_id": 101, "name": "Data Room", 
+    "description": "The place where intelligence is screened and processed. Miss Kalina has spent most of her precious youth here."
+  }, {
+    "id": 10104, "parent_id": 101, "name": "Special Reception Lounge", 
+    "description": "Entry to this mysterious little room is forbidden for Griffin Dolls, and it seems uninhabited, but every now and then footsteps can be heard from it in the middle of the night…"
+  }, {
+    "id": 10201, "parent_id": 102, "name": "Intelligence Center", 
+    "description": "A branch of the Frontline Combat Team – true elites understand the importance of intelligence."
+  }, {
+    "id": 10202, "parent_id": 102, "name": "Basecamp", 
+    "description": "The basecamp of the Frontline Combat Team. The final stop before an operation begins."
+  }, {
+    "id": 10203, "parent_id": 102, "name": "Depot", 
+    "description": "The depot of the Frontline Combat Team. Most of the things stored in here aren't meant for the public eye."
+  }, {
+    "id": 10301, "parent_id": 103, "name": "Intelligence Center", 
+    "description": "A branch of the Response Combat Team – so much intel is gathered here it could work nine Kalinas to death."
+  }, {
+    "id": 10302, "parent_id": 103, "name": "Basecamp", 
+    "description": "The basecamp of the Response Combat Team. The atmosphere isn't too cold and deadly here...in fact, it's quite laid-back."
+  }, {
+    "id": 10303, "parent_id": 103, "name": "Depot", 
+    "description": "The depot of the Response Combat Team. Unimaginable things are stored here – because it literally has EVERYTHING."
+  }, {
+    "id": 10401, "parent_id": 104, "name": "Intelligence Center", 
+    "description": "A branch of the Border Surveillance Corps – mainly specializing in producing topographical images and diagrams. Do you like maps?"
+  }, {
+    "id": 10402, "parent_id": 104, "name": "Forward Basecamp", 
+    "description": "Forward Basecamp, where echoes can be heard – no matter where you are, we'll be right behind you."
+  }, {
+    "id": 10403, "parent_id": 104, "name": "Depot", 
+    "description": "The depot of the Border Surveillance Corps. Holy crap, you guys are even messier than the Response Combat Team!"
+  }, {
+    "id": 10501, "parent_id": 105, "name": "Intelligence Center", 
+    "description": "A branch of the General Support Team – the branch we're most familiar with and the source of most intel missions."
+  }, {
+    "id": 10502, "parent_id": 105, "name": "Fairy Chamber", 
+    "description": "I repeat – those are not toys! Don't make me say that again!"
+  }, {
+    "id": 10503, "parent_id": 105, "name": "Garage", 
+    "description": "A hangout for the HOCs. Probably the place that resembles a military camp the most…"
+  }, {
+    "id": 10601, "parent_id": 106, "name": "Protocol Control Center", 
+    "description": "We don't know much about this stuff… Perhaps our enemies have more insight."
+  }, {
+    "id": 10602, "parent_id": 106, "name": "Special Training Ground", 
+    "description": "A new training ground especially built for the Assimilated Forces. They value their privacy."
+  }, 
+  {"id": 10603, "parent_id": 106, "name": "Isolated Testing Ground", "description": "\"What, you want to come with us?\""}, 
+  {
+    "id": 10604, "parent_id": 106, "name": "Specialized Factory", 
+    "description": "It isn't exactly special treatment… We just use different tech."
+  }, {
+    "id": 10701, "parent_id": 107, "name": "Cafe", 
+    "description": "Everyone likes a drink after a mission, but sometimes someone else comes along to fill in for Miss Springfield. I just hope I never run into such occasions."
+  }, {
+    "id": 10702, "parent_id": 107, "name": "DORM", 
+    "description": "\"Commander… No more than three. We can't take care of any more.\""
+  }, {
+    "id": 10703, "parent_id": 107, "name": "Rescue Station", 
+    "description": "\"Don't look at me! They said no more than three!\""
+  }, {
+    "id": 10704, "parent_id": 107, "name": "Supply Warehouse", 
+    "description": "This is Griffin's largest as well as tidiest warehouse, managed by Miss Kalina herself."
+  }, {
+    "id": 10705, "parent_id": 107, "name": "Cafeteria", 
+    "description": "The most human-like feature of Tactical Dolls is that they never let good food go to waste – though the list of Dolls banned from the kitchen is getting longer and longer."
+  }, {
+    "id": 10801, "parent_id": 108, "name": "Secretary Office", 
+    "description": "Miss Kalina's assistants' office – What? So the Data Room isn't her office?"
+  }, {
+    "id": 10802, "parent_id": 108, "name": "Club Activity Room", 
+    "description": "Dolls find leisure and entertainment here, but you can always see a few familiar faces in this room - \"MDR, you're slacking off again!\""
+  }, {
+    "id": 10803, "parent_id": 108, "name": "Banquet Hall", 
+    "description": "A big hall reserved for large-scale events. Several Dolls also hang out here in their free time – but no drinking competitions!"
+  }
 ]
