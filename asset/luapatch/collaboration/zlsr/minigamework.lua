@@ -23,6 +23,7 @@ local isShown = false
 local currentMovingSpd = 0
 
 local _imgTime1,_imgTime2,_imgTime3,_imgTime4,_imgFeverGauge,spriteListResultScore
+local imgGrade,spriteListGrade
 local txtFever,txtScore
 local spriteListTime
 local BattleController
@@ -110,6 +111,7 @@ Start = function()
 	_imgTime3 = imgTimeNum3:GetComponent(typeof(CS.ExImage))
 	_imgTime4 = imgTimeNum4:GetComponent(typeof(CS.ExImage))
 	_imgFeverGauge = feverGuage:GetComponent(typeof(CS.ExImage))
+	
 	txtFever = feverNum:GetComponent(typeof(CS.ExText))
 	txtScore = scoreNum:GetComponent(typeof(CS.ExText))
 	spriteListTime = holderTimeNum:GetComponent(typeof(CS.UGUISpriteHolder))
@@ -141,7 +143,8 @@ Start = function()
 		end)
 	--CS.BattleScaler.InitScalerByMaxNum(0)
 	spine = character.listMember[0]
-	
+	imgGrade = goShow.transform:Find("Img_Grade").gameObject:GetComponent(typeof(CS.ExImage))
+	spriteListGrade = imgGrade.gameObject:GetComponent(typeof(CS.UGUISpriteHolder))
 	CS.BattleFrameManager.Register(
 		function() 
 			MainLoop()
@@ -214,8 +217,8 @@ Update = function()
 	if haloObj ~= nil and haloObj.activeSelf then
 		haloObj:SetActive(false)
 	end
-	totalTimer = totalTimer - CS.UnityEngine.Time.deltaTime
-	MainLoop()
+
+	--MainLoop()
 	
 end
 function MainLoop()
@@ -243,7 +246,7 @@ function MainLoop()
 			DoStun()
 		end
 		if isFever then
-			feverTimer = feverTimer + CS.UnityEngine.Time.deltaTime
+			feverTimer = feverTimer + 0.033333
 			if feverTimer >= energyDuration then
 				isFever = false
 				character.conditionListSelf:RemoveNum(stunBuffIDLeft,999)
@@ -272,6 +275,13 @@ function MainLoop()
 			end
 		end
 	else -- 
+		stunTimer = stunTimer + 1
+		if stunTimer == stunAnimFirstFrame then
+			spine:SetSpine("up", dir)
+		end
+		if stunTimer >= stunAnimFirstFrame + stunAnimSecondFrame then
+			StunFinish()
+		end
 		stunTimer = stunTimer + 1
 		if stunTimer == stunAnimFirstFrame then
 			spine:SetSpine("up", dir)
@@ -459,6 +469,13 @@ function ShowResult()
 	isShown = true
 	goResultScoreItem:SetActive(false)
 	goShow:SetActive(true)
+	local curGrade = 1
+	for i=1,4 do
+		if playerScore >= scoreRanking[i] then
+			curGrade = i
+		end
+	end
+	imgGrade.sprite = spriteListGrade.listSprite[curGrade-1]
 	if CS.GameData.userInfo ~= nil then
 		textResultName:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.name
 		textResultID:GetComponent(typeof(CS.ExText)).text = CS.GameData.userInfo.userId
@@ -491,6 +508,7 @@ function EndGame()
 	CS.UnityEngine.Object.Destroy(self.gameObject)
 end
 function UpdateRemainTime()
+	totalTimer = totalTime - CS.BattleFrameManager.Instance:GetCurBattleTime()
 	local timeValue = math.floor(totalTimer)
 	if timeValue <0 then
 		timeValue = 0
@@ -522,7 +540,7 @@ function CheckFever()
 		--goFeverEffect:SetActive(true)
 		--goFeverEffect2:SetActive(true)
 		--goFeverHint:SetActive(true)
-		_imgFeverGauge:DOFillAmount(0,energyDuration) 
+		_imgFeverGauge:DOFillAmount(0,energyDuration-0.1) 
 	end
 end
 function PlaySFX(FXname)
