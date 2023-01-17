@@ -16105,6 +16105,60 @@
     commander_title: achievement-30001006
   }
   {
+    identity: 1007
+    type: c_appoint_battle
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: The Pack Returns
+    content: Old Rain I: Use Team DEFY and complete the stage.
+    type_sort: 100
+    sort: 295
+    icon_code: 狼群归来
+    condition: 6510016:6511202-2,6510016:6512202-2,6510016:6513202-2
+    commander_title: achievement-30001007
+  }
+  {
+    identity: 1008
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Fractured Wholeness
+    content: Lurking I: Complete the stage without withdrawing any echelons.
+    type_sort: 100
+    sort: 296
+    icon_code: 破碎的完整
+    condition: 11015:1101503
+    commander_title: achievement-30001008
+  }
+  {
+    identity: 1009
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Rising Plume
+    content: Finish watching the credits list for Fixed Point.
+    type_sort: 100
+    sort: 297
+    icon_code: 就是这个人
+    condition: "11082"
+    commander_title: achievement-30001009
+  }
+  {
     identity: 1010
     type: special_develop_fairy
     count: 1

@@ -74,6 +74,31 @@
     is_date: "2"
   }
   {
+    id: "8"
+    name: Wind-Calmer's Medal
+    order: "91"
+    evo_step: "1"
+    appearance_id: "29"
+    item_id: "107"
+    medal_obtain: Awarded to Commanders who have completed all battle challenges during the major limited-time event "Fixed Point".
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+    if_elite_medal: "1"
+  }
+  {
+    id: "9"
+    name: Hell-Walker's Medal
+    order: "92"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "30,31,32,33,34,35,36,37,38,39,40,41"
+    item_id: "108"
+    medal_obtain: Awarded to Commanders who achieve outstanding results during the scoring mode of the major limited-time event "Fixed Point".
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+  }
+  {
     id: "10"
     name: 8th Theater Pioneer Medal
     order: "6"

@@ -24907,6 +24907,140 @@
     rotate: "3,3"
   }
   {
+    id: 20038
+    name: File Enquiry Office
+    classes: 19
+    type: 201
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An impractical-looking table, originally only used to store personnel files of those related to the Griffin base. It is now occasionally used to remember fallen friends.
+    code: 2022WinterActivity_InfoDesk,2022WinterActivity_Holography
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0,-0.2784009,-0.060476693843|0,0.41708,-0.010427"
+    rotate: "2,2"
+    interact_point: "58"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20039
+    name: Gray Stinger Stump
+    classes: 19
+    type: 201
+    space: "3,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Once the instrument of her defeat, it is now a symbol of her victory, hacked off with her own hands.
+    code: 2022WinterActivity_Greys
+    texture_type: "1"
+    offset: "0,-0.1960276,-0.0458788"
+    rotate: "2"
+  }
+  {
+    id: 20040
+    name: Under The Mask
+    classes: 19
+    type: 302
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: If not for that person's distorted, long-cherished wish, would the faces hidden beneath these masks bear the smiles that once belonged to them?
+    code: 2022WinterActivity_Mask
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20041
+    name: All-Seeing Eye
+    classes: 19
+    type: 302
+    space: "5,7,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A lavish, intricate art piece, but the Griffin staffers pulling overtime shifts late at night refuse to work in the room containing it, citing "it feels like there's something watching us".
+    code: 2022WinterActivity_AllSeeingEye
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point: "105"
+    interact_point_offset: *0.846,3.460,0.000
+    touch_area: "4,4,4"
+  }
+  {
+    id: 20042
+    name: Butterfly's Perch
+    classes: 19
+    type: 202
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Though all is calm for now, what storms will the oakleaf butterfly that lands on this branch brew up next?
+    code: 2022WinterActivity_Sofa
+    texture_type: "1"
+    offset: "0,-0.1428499,-0.0333664"
+    rotate: "2"
+    interact_point: "3"
+    interact_point_offset: *-0.029,1.494,0.236
+  }
+  {
+    id: 20043
+    name: Military Sand Table
+    classes: 19
+    type: 201
+    space: "7,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: There are no do-overs in reality, and there is no way for us to make up for the pain and suffering that war brings, so we need to search for the path that leads to the fewest losses on this resettable "battlefield", even if it means going without sleep or rest.
+    code: 2022WinterActivity_SandTable
+    texture_type: "1"
+    offset: "0,-0.0980138,-0.0229394"
+    rotate: "2"
+  }
+  {
+    id: 20044
+    name: Operation Aeneas Memorabilia
+    classes: 19
+    type: 201
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: In order to commend the Dolls who took part in "Operation Aeneas", IOP has rolled out a series of exquisite figures modelled on them, and they have become very popular within the Griffin Base.
+    code: 2022WinterActivity_ToyCabinet
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20045
+    name: Wolf Shadow Returns
+    classes: 19
+    type: 201
+    space: "4,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This long-empty clothes rack has finally been graced with familiar outfits. Does this also imply that they have returned?
+    code: 2022WinterActivity_DefyCloth
+    texture_type: "1"
+    offset: "0,-0.1428499,-0.0333664"
+    rotate: "2"
+  }
+  {
+    id: 20046
+    name: Wind-Calmer's Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: In commemoration of the outstanding results achieved by the Commander and the T-Dolls under them during the "Fixed Point" event. "When the storm comes, you are the one who stands within its eye."
+    code: 2022WinterActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -32176,6 +32310,141 @@
     decompose_gift: 100003
     description: FF FNC's poster
     code: poster_Christmas2021_FNFNC
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36801
+    name: Pride of the Winter Orchid
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SP9's poster.
+    code: poster_SpringFes2022_SP9
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36802
+    name: Splendor of Sunset
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kolibri's poster.
+    code: poster_SpringFes2022_Kolibri
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36803
+    name: Bloom of the Drunken Tea
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A-545's poster.
+    code: poster_SpringFes2022_A545
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36804
+    name: Dance of Cinnabar
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TKB-408's poster.
+    code: poster_SpringFes2022_TKB408
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36805
+    name: Sigh of the Waterfront Pine
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HS-50's poster.
+    code: poster_SpringFes2022_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36806
+    name: Fall of the Stars
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr MP7's poster.
+    code: poster_SpringFes2022_MP7
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36807
+    name: Poise of the Jade Vase
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr G36's Poster
+    code: poster_SpringFes2022_G36
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36808
+    name: Brilliance of the Peach Blossoms
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Stechkin's poster.
+    code: poster_SpringFes2022_APS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36809
+    name: Virtue of the Silk Brocade
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: FF FN-49's poster.
+    code: poster_SpringFes2022_FN49
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

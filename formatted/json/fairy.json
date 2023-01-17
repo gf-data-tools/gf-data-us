@@ -339,6 +339,18 @@
     "obtain_ids": "508,0", "skill_id_mod": "", "passive_skill_mod": "", "pow_mod": 0, "hit_mod": 0, "dodge_mod": 0, 
     "armor_mod": 0, "critical_harm_rate_mod": 0, "if_mod": 0, "mod_exp": 0
   }, {
+    "id": 31, "name": "Trap Fairy", "code": "trap", 
+    "description": "\"Oh my, since when were you under the impression that you did NOT step into my trap?\"", 
+    "introduce": "Has the ability to set traps. Can be used to guard the snack storeroom in daily life.", "type": 6, 
+    "pow": 200, "hit": 120, "dodge": 0, "armor": 0, "critical_harm_rate": 120, "grow": 80, 
+    "proportion": "1:0.4,2:0.5,3:0.6,4:0.8,5:1", "skill_id": "*21", "quality_exp": 100, 
+    "quality_need_number": "1:0,2:100,3:200,4:350,5:550", "category": 2, "develop_duration": 18600, "retiremp": 4, 
+    "retireammo": 1, "retiremre": 5, "retirepart": 1, "powerup_mp": 10, "powerup_ammo": 3, "powerup_mre": 14, 
+    "powerup_part": 3, "armor_piercing": 0, "ai": 3000, "is_additional": 0, "avatar_offset": "0,-35,0", 
+    "avatar_scale": "0.6,0.6,0.6", "picture_offset": "40,-80,0", "picture_scale": "0.864,0.864,0.864", "org_id": 10502, 
+    "obtain_ids": "513,0", "skill_id_mod": "", "passive_skill_mod": "", "pow_mod": 0, "hit_mod": 0, "dodge_mod": 0, 
+    "armor_mod": 0, "critical_harm_rate_mod": 0, "if_mod": 0, "mod_exp": 0
+  }, {
     "id": 1004, "name": "Suee", "code": "DJMAXSUEE", "description": "I want you! Please stay by my side!", 
     "introduce": "Possesses the ability to apply a buff on a node. She can act as a scout and tail those who are on a date.", 
     "type": 6, "pow": 0, "hit": 0, "dodge": 175, "armor": 170, "critical_harm_rate": 150, "grow": 100, 

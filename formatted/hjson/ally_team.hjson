@@ -16489,7 +16489,7 @@
   }
   {
     id: 6510020
-    name: "2888"
+    name: "2887"
     guns: "1121"
     enemy_team_id: 1
     initial_type: 1
@@ -17248,6 +17248,106 @@
     ai_content: 0;0;0
     transform_condition: "6"
     transform_number: "6540011"
+    no_battle_damage: -1
+  }
+  {
+    id: 6560001
+    name: ally_team-16560001
+    guns: "1"
+    enemy_team_id: 6560301
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560002
+    name: ally_team-16560002
+    guns: "1"
+    enemy_team_id: 6560301
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560003
+    name: ally_team-16560003
+    guns: "6560101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6560004
+    name: ally_team-16560004
+    guns: "6560201"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6560005
+    name: ally_team-16560005
+    guns: "6560301,6560302,6560303,6560304,6560305"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 6560006
+    name: ally_team-16560006
+    guns: "1"
+    enemy_team_id: 6561301
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560007
+    name: ally_team-16560007
+    guns: "1"
+    enemy_team_id: 6561301
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560008
+    name: ally_team-16560008
+    guns: "1"
+    enemy_team_id: 6560401
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560009
+    name: ally_team-16560009
+    guns: "1"
+    enemy_team_id: 6561401
+    initial_type: 2
+    ai: 102;2001:5,10;102
+    ai_content: 99;0;99
+    no_battle_damage: -1
+  }
+  {
+    id: 6560010
+    name: ally_team-16560010
+    guns: "6560201"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
     no_battle_damage: -1
   }
   {
