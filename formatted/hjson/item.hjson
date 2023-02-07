@@ -10744,6 +10744,26 @@
     detail_introduction: item-30002174
   }
   {
+    id: 2186
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_DSR50
+    item_name: Daybreak's Whisper
+    introduction: Daybreak's Whisper
+    rank: 1
+    detail_introduction: item-30002186
+  }
+  {
+    id: 2187
+    type: 5
+    arg: "1"
+    code: card_BattlePass_DSR50
+    item_name: ID Card: Bartender of the Round Table
+    introduction: ID Card: Bartender of the Round Table
+    rank: 1
+    detail_introduction: item-30002187
+  }
+  {
     id: 2224
     type: 5
     arg: "1"
@@ -13537,6 +13557,16 @@
     detail_introduction: item-30200014
   }
   {
+    id: 200015
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_DSR50
+    item_name: Frame: When Cyberdogs Dream Of Electric Drinks
+    introduction: Frame: When Cyberdogs Dream Of Electric Drinks
+    rank: 1
+    detail_introduction: item-30200015
+  }
+  {
     id: 900030
     type: 4
     arg: "900030"
@@ -13908,6 +13938,39 @@
     rank: 1
     sort: -1
     detail_introduction: item-31500017
+  }
+  {
+    id: 1500018
+    type: 15
+    arg: "1500018"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500018
+  }
+  {
+    id: 1500019
+    type: 15
+    arg: "1500019"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500019
+  }
+  {
+    id: 1500020
+    type: 15
+    arg: "1500020"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500020
   }
   {
     id: 1500023
