@@ -29,4 +29,56 @@
     description: M327监视2
     buff_judge: 1000004768
   }
+  {
+    id: 1007
+    description: 沃克队友技能监视
+    buff_judge: 1000004896
+  }
+  {
+    id: 1008
+    description: 斩杀目标血量10
+    hurt_type: "0,1,2"
+    hurt_judge: 1000004911
+  }
+  {
+    id: 1009
+    description: 斩杀目标血量25
+    hurt_type: "0,1,2"
+    hurt_judge: 1000004912
+  }
+  {
+    id: 5001
+    description: 曦和监视
+    buff_judge: 1000002119
+  }
+  {
+    id: 70001
+    description: 开场AR监视
+    buff_judge: 1000070013
+  }
+  {
+    id: 70002
+    description: 开场SMG监视
+    buff_judge: 1000070014
+  }
+  {
+    id: 70003
+    description: 开场RF监视
+    buff_judge: 1000070015
+  }
+  {
+    id: 70004
+    description: 开场HG监视
+    buff_judge: 1000070016
+  }
+  {
+    id: 70005
+    description: 开场MG监视
+    buff_judge: 1000070017
+  }
+  {
+    id: 70006
+    description: 开场SG监视
+    buff_judge: 1000070018
+  }
 ]
