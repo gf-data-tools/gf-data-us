@@ -30614,7 +30614,7 @@
   {
     id: 30203
     name: 8-Line Reward
-    gift: 6204-1
+    gift: 6707-1
     content: prize-20030203
     icon: Bumdle_bline
   }
@@ -33854,7 +33854,7 @@
     ammo: 30000
     mre: 30000
     part: 30000
-    gem: 2022
+    gem: 2023
     item_ids: 108-11
     content: prize-20040430
   }
@@ -35788,6 +35788,470 @@
     mre: 1000
     part: 1000
     content: prize-20084219
+    icon: Bumdle_red
+  }
+  {
+    id: 85001
+    name: Theater 3,000 Points Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20085001
+    icon: Bumdle_red
+  }
+  {
+    id: 85002
+    name: Theater 30,000 Points Reward
+    item_ids: 309-1,506-100,9-50
+    content: prize-20085002
+    icon: CentreDataMK47
+  }
+  {
+    id: 85003
+    name: Theater60,000 Points Reward
+    item_ids: 309-2,46-100
+    content: prize-20085003
+    icon: CentreDataMK47
+  }
+  {
+    id: 85004
+    name: Theater 90,000 Points Reward
+    item_ids: 309-3,46-100,506-100
+    coins: 1-500
+    content: prize-20085004
+    icon: CentreDataMK47
+  }
+  {
+    id: 85005
+    name: Theater 120,000 Points Reward
+    item_ids: 8-1,41-20,9-50
+    content: prize-20085005
+    icon: Bumdle_red
+  }
+  {
+    id: 85006
+    name: Theater 155,000 Points Reward
+    item_ids: 309-4,46-200,506-100
+    content: prize-20085006
+    icon: CentreDataMK47
+  }
+  {
+    id: 85007
+    name: Theater 190,000 Points Reward
+    item_ids: 46-200
+    coins: 2-500
+    content: prize-20085007
+    icon: Bumdle_red
+  }
+  {
+    id: 85008
+    name: Theater 225,000 Points Reward
+    item_ids: 309-5,506-100,44-200,9-50
+    content: prize-20085008
+    icon: CentreDataMK47
+  }
+  {
+    id: 85009
+    name: Theater 260,000 Points Reward
+    item_ids: 8-1
+    coins: 3-500
+    content: prize-20085009
+    icon: Bumdle_red
+  }
+  {
+    id: 85010
+    name: Theater 300,000 Points Reward
+    item_ids: 309-5,46-200,506-100
+    content: prize-20085010
+    icon: CentreDataMK47
+  }
+  {
+    id: 85011
+    name: Theater 340,000 Points Reward
+    item_ids: 114-1,41-50
+    content: prize-20085011
+    icon: Bumdle_red
+  }
+  {
+    id: 85012
+    name: Theater 380,000 Points Reward
+    item_ids: 9-100,46-300,10604-5
+    content: prize-20085012
+    icon: Bumdle_red
+  }
+  {
+    id: 85013
+    name: Theater 430,000 Points Reward
+    item_ids: 46-300,506-200,10604-5
+    content: prize-20085013
+    icon: Bumdle_red
+  }
+  {
+    id: 85014
+    name: Theater 480,000 Points Reward
+    item_ids: 8-1,44-300,10604-5
+    content: prize-20085014
+    icon: Bumdle_red
+  }
+  {
+    id: 85101
+    name: Theater Ranking 1st Place Reward
+    item_ids: 309-40,9-100,46-500,506-500
+    coins: 1-500,2-500,3-500
+    content: prize-20085101
+    icon: Bumdle_red
+  }
+  {
+    id: 85102
+    name: Theater Ranking 2nd Place Reward
+    item_ids: 309-39,9-95,46-475,506-475
+    coins: 1-475,2-475,3-475
+    content: prize-20085102
+    icon: Bumdle_red
+  }
+  {
+    id: 85103
+    name: Theater Ranking 3rd Place Reward
+    item_ids: 309-38,9-90,46-450,506-450
+    coins: 1-450,2-450,3-450
+    content: prize-20085103
+    icon: Bumdle_red
+  }
+  {
+    id: 85104
+    name: Theater Ranking 4th Place Reward
+    item_ids: 309-37,9-85,46-425,506-425
+    coins: 1-425,2-425,3-425
+    content: prize-20085104
+    icon: Bumdle_red
+  }
+  {
+    id: 85105
+    name: Theater Ranking 5th Place Reward
+    item_ids: 309-36,9-80,46-400,506-400
+    coins: 1-400,2-400,3-400
+    content: prize-20085105
+    icon: Bumdle_red
+  }
+  {
+    id: 85106
+    name: Theater Ranking 6th Place Reward
+    item_ids: 309-35,9-75,46-375,506-375
+    coins: 1-375,2-375,3-375
+    content: prize-20085106
+    icon: Bumdle_red
+  }
+  {
+    id: 85107
+    name: Theater Ranking 7th Place Reward
+    item_ids: 309-35,9-70,46-350,506-350
+    coins: 1-350,2-350,3-350
+    content: prize-20085107
+    icon: Bumdle_red
+  }
+  {
+    id: 85108
+    name: Theater Ranking 8th Place Reward
+    item_ids: 309-35,9-65,46-325,506-325
+    coins: 1-325,2-325,3-325
+    content: prize-20085108
+    icon: Bumdle_red
+  }
+  {
+    id: 85109
+    name: Theater Ranking 9th Place Reward
+    item_ids: 309-35,9-60,46-300,506-300
+    coins: 1-300,2-300,3-300
+    content: prize-20085109
+    icon: Bumdle_red
+  }
+  {
+    id: 85110
+    name: Theater Ranking 10th Place Reward
+    item_ids: 309-35,9-55,46-275,506-275
+    coins: 1-275,2-275,3-275
+    content: prize-20085110
+    icon: Bumdle_red
+  }
+  {
+    id: 85111
+    name: Theater Ranking 11th-100th Place Reward
+    item_ids: 309-32,9-50,46-250,506-250
+    coins: 1-250,2-250,3-250
+    content: prize-20085111
+    icon: Bumdle_red
+  }
+  {
+    id: 85112
+    name: Theater Ranking Top 1-5% Reward
+    item_ids: 309-30,9-45,46-225,506-225
+    coins: 1-225,2-225,3-225
+    content: prize-20085112
+    icon: Bumdle_red
+  }
+  {
+    id: 85113
+    name: Theater Ranking Top 6-10% Reward
+    item_ids: 309-25,9-40,46-200,506-200
+    coins: 1-200,2-200,3-200
+    content: prize-20085113
+    icon: Bumdle_red
+  }
+  {
+    id: 85114
+    name: Theater Ranking Top 11-15% Reward
+    item_ids: 309-20,9-35,46-175,506-175
+    coins: 1-175,2-175,3-175
+    content: prize-20085114
+    icon: Bumdle_red
+  }
+  {
+    id: 85115
+    name: Theater Ranking Top 16-20% Reward
+    item_ids: 309-15,9-30,46-150,506-150
+    coins: 1-150,2-150,3-150
+    content: prize-20085115
+    icon: Bumdle_red
+  }
+  {
+    id: 85116
+    name: Theater Ranking Top 21-30% Reward
+    item_ids: 309-10,9-25,46-125,506-125
+    coins: 1-125,2-125,3-125
+    content: prize-20085116
+    icon: Bumdle_red
+  }
+  {
+    id: 85117
+    name: Theater Ranking Top 31-40% Reward
+    item_ids: 309-5,9-20,46-100,506-100
+    coins: 1-100,2-100,3-100
+    content: prize-20085117
+    icon: Bumdle_red
+  }
+  {
+    id: 85118
+    name: Theater Ranking Top 41-50% Reward
+    item_ids: 309-2,9-15,46-75,506-75
+    coins: 1-75,2-75,3-75
+    content: prize-20085118
+    icon: Bumdle_red
+  }
+  {
+    id: 85119
+    name: Theater Ranking Top 51-100% Reward
+    item_ids: 9-10,46-50,506-50
+    coins: 1-50,2-50,3-50
+    content: prize-20085119
+    icon: Bumdle_red
+  }
+  {
+    id: 85201
+    name: Theater Final Battle Ranking 1st Place Reward
+    mp: 10000
+    ammo: 10000
+    mre: 10000
+    part: 10000
+    item_ids: 115-12
+    content: prize-20085201
+    icon: Bumdle_red
+  }
+  {
+    id: 85202
+    name: Theater Final Battle Ranking 2nd Place Reward
+    mp: 9500
+    ammo: 9500
+    mre: 9500
+    part: 9500
+    item_ids: 115-11
+    content: prize-20085202
+    icon: Bumdle_red
+  }
+  {
+    id: 85203
+    name: Theater Final Battle Ranking 3rd Place Reward
+    mp: 9000
+    ammo: 9000
+    mre: 9000
+    part: 9000
+    item_ids: 115-10
+    content: prize-20085203
+    icon: Bumdle_red
+  }
+  {
+    id: 85204
+    name: Theater Final Battle Ranking 4th Place Reward
+    mp: 8500
+    ammo: 8500
+    mre: 8500
+    part: 8500
+    item_ids: 115-9
+    content: prize-20085204
+    icon: Bumdle_red
+  }
+  {
+    id: 85205
+    name: Theater Final Battle Ranking 5th Place Reward
+    mp: 8000
+    ammo: 8000
+    mre: 8000
+    part: 8000
+    item_ids: 115-8
+    content: prize-20085205
+    icon: Bumdle_red
+  }
+  {
+    id: 85206
+    name: Theater Final Battle Ranking 6th Place Reward
+    mp: 7500
+    ammo: 7500
+    mre: 7500
+    part: 7500
+    item_ids: 115-7
+    content: prize-20085206
+    icon: Bumdle_red
+  }
+  {
+    id: 85207
+    name: Theater Final Battle Ranking 7th Place Reward
+    mp: 7000
+    ammo: 7000
+    mre: 7000
+    part: 7000
+    item_ids: 115-6
+    content: prize-20085207
+    icon: Bumdle_red
+  }
+  {
+    id: 85208
+    name: Theater Final Battle Ranking 8th Place Reward
+    mp: 6500
+    ammo: 6500
+    mre: 6500
+    part: 6500
+    item_ids: 115-5
+    content: prize-20085208
+    icon: Bumdle_red
+  }
+  {
+    id: 85209
+    name: Theater Final Battle Ranking 9th Place Reward
+    mp: 6000
+    ammo: 6000
+    mre: 6000
+    part: 6000
+    item_ids: 115-4
+    content: prize-20085209
+    icon: Bumdle_red
+  }
+  {
+    id: 85210
+    name: Theater Final Battle Ranking 10th Place Reward
+    mp: 5500
+    ammo: 5500
+    mre: 5500
+    part: 5500
+    item_ids: 115-3
+    content: prize-20085210
+    icon: Bumdle_red
+  }
+  {
+    id: 85211
+    name: Theater Final Battle Ranking 11th-100th Place Reward
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 115-2
+    content: prize-20085211
+    icon: Bumdle_red
+  }
+  {
+    id: 85212
+    name: Theater Final Battle Ranking Top 1-5% Reward
+    mp: 4500
+    ammo: 4500
+    mre: 4500
+    part: 4500
+    item_ids: 115-1
+    content: prize-20085212
+    icon: Bumdle_red
+  }
+  {
+    id: 85213
+    name: Theater Final Battle Ranking Top 6-10% Reward
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    item_ids: 115-1
+    content: prize-20085213
+    icon: Bumdle_red
+  }
+  {
+    id: 85214
+    name: Theater Final Battle Ranking Top 11-15% Reward
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    item_ids: 115-1
+    content: prize-20085214
+    icon: Bumdle_red
+  }
+  {
+    id: 85215
+    name: Theater Final Battle Ranking Top 16-20% Reward
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 115-1
+    content: prize-20085215
+    icon: Bumdle_red
+  }
+  {
+    id: 85216
+    name: Theater Final Battle Ranking Top 21-30% Reward
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    item_ids: 115-1
+    content: prize-20085216
+    icon: Bumdle_red
+  }
+  {
+    id: 85217
+    name: Theater Final Battle Ranking Top 31-40% Reward
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 115-1
+    content: prize-20085217
+    icon: Bumdle_red
+  }
+  {
+    id: 85218
+    name: Theater Final Battle Ranking Top 41-50% Reward
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    item_ids: 115-1
+    content: prize-20085218
+    icon: Bumdle_red
+  }
+  {
+    id: 85219
+    name: Theater Final Battle Ranking Top 51-100% Reward
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    content: prize-20085219
     icon: Bumdle_red
   }
   {

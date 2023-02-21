@@ -244,6 +244,16 @@
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30000110", "is_hide_info": 0
   }, {
+    "id": 114, "type": 3, "arg": "15", "code": "Medal_Theater9th", "item_name": "9th Theater Pioneer Medal", 
+    "introduction": "This medal is awarded to acknowledge the tireless efforts of the Commander and their Dolls in achieving an impressive score during the 9th Theater Season. \"In the moment that they fall, only eagles with sufficiently strong wings can soar against the wind.\"", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30000114", "is_hide_info": 0
+  }, {
+    "id": 115, "type": 3, "arg": "16", "code": "Medal_Theater9th_rank", "item_name": "9th Theater Conqueror Medal", 
+    "introduction": "This medal is awarded to acknowledge the outstanding results of the Commander and their Dolls during the 9th Theater Season. \"Do not be afraid when the abyss gazes into you, because it is a trial which every hero must face.\"", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30000115", "is_hide_info": 0
+  }, {
     "id": 301, "type": 1, "arg": "1", "code": "CentreDataBGM71", "item_name": "Central Data: BGM-71", 
     "introduction": "Data fragment of HOC BGM-71. \"Sir, friendly forces spotted in targeted zones!\" \"Oh dear... Well, wish them luck!\"", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
@@ -268,7 +278,7 @@
     "introduction": "Data fragment of HOC AT4", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30000305", "is_hide_info": 0
   }, {
-    "id": 306, "type": 1, "arg": "1", "code": "CentreDataQLZ04", "item_name": "Core Data: QLZ-04", 
+    "id": 306, "type": 1, "arg": "1", "code": "CentreDataQLZ04", "item_name": "Central Data: QLZ-04", 
     "introduction": "Data fragments of the QLZ-04 HOC. \"We've successfully reached our target destination and are beginning to replenish our ammunition... Hmm? Why can't we stuff it in?\" \"I told you not to go drinking with those alcoholics before we set out!\"", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30000306", "is_hide_info": 0
@@ -278,10 +288,15 @@
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30000307", "is_hide_info": 0
   }, {
-    "id": 308, "type": 1, "arg": "1", "code": "CentreDataPP93", "item_name": "Core Data: PP93", 
+    "id": 308, "type": 1, "arg": "1", "code": "CentreDataPP93", "item_name": "Central Data: PP93", 
     "introduction": "A data fragment for the PP-93 HOC. \"I have a question! If we're called seaweed when we make landfall on the beach early on, thenâ€”\" \"Then the enemies at the beach objective area are called sealions, you've told that lame joke hundreds of times already!\"", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30000308", "is_hide_info": 0
+  }, {
+    "id": 309, "type": 1, "arg": "1", "code": "CentreDataMK47", "item_name": "Central Data: Mk 47", 
+    "introduction": "Data Fragments for the Mk 47 HOC - \"Your supporting fire services are no longer required. We'll follow the usual arrangement—\" \"—Hang on, looks like there were more enemies than expected... That'll be extra, Boss.\"", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30000309", "is_hide_info": 0
   }, {
     "id": 501, "type": 2, "arg": "5", "code": "Mp", "item_name": "Manpower", 
     "introduction": "A basic resource for powering T-Dolls operations.", "rank": 1, "sort": 0, "initial_num": "", 
@@ -4176,6 +4191,35 @@
     "id": 1999, "type": 5, "arg": "1", "code": "profilePic_Christmas2021_FNFNC", "item_name": "Raise the Christmas Elf", 
     "introduction": "Raise the Christmas Elf", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30001999", "is_hide_info": 0
+  }, {
+    "id": 2000, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_M14", "item_name": "Tiger Cubs of Prosperity", 
+    "introduction": "Tiger Cubs of Prosperity", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002000", "is_hide_info": 0
+  }, {
+    "id": 2001, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_Vector", "item_name": "Sprig in the Snow", 
+    "introduction": "Sprig in the Snow", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002001", "is_hide_info": 0
+  }, {
+    "id": 2002, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_LTLX7000", "item_name": "Dancing Shrine Maiden", 
+    "introduction": "Dancing Shrine Maiden", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002002", "is_hide_info": 0
+  }, {
+    "id": 2003, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_Lusa", "item_name": "Snow-Swiping Bamboo Sword", 
+    "introduction": "Snow-Swiping Bamboo Sword", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
+    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-30002003", "is_hide_info": 0
+  }, {
+    "id": 2004, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_UMP9", "item_name": "Wayfarer of the Profound", 
+    "introduction": "Wayfarer of the Profound", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002004", "is_hide_info": 0
+  }, {
+    "id": 2005, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_AR57", 
+    "item_name": "With the Three Friends of Winter", "introduction": "With the Three Friends of Winter", "rank": 1, 
+    "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30002005", "is_hide_info": 0
+  }, {
+    "id": 2006, "type": 5, "arg": "1", "code": "profilePic_NewYear2022_VPM5", "item_name": "Feathers in First Dream", 
+    "introduction": "Feathers in First Dream", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002006", "is_hide_info": 0
   }, {
     "id": 2009, "type": 5, "arg": "1", "code": "profilePic_ChessFlight_season4_1", 
     "item_name": "Brainstorm - Codename Two: Diffraction", "introduction": "Brainstorm - Codename Two: Diffraction", 
