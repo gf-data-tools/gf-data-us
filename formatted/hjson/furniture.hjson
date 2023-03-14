@@ -24274,6 +24274,220 @@
     touch_area: "6,3,0,0,10,0"
   }
   {
+    id: 10101
+    name: Flying Rink - Icy Contention
+    classes: 101
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: In order to give the audience a greater sense of participation, the venue's floorboards are made of a material polished to resemble the competiion area. However, this eventually resulted in a huge surge in visits to the nearby orthopedic clinic.
+    code: WhiteV2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10102
+    name: Flying Rink - Friendly Player Seats
+    classes: 101
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Seats arranged for the players of both sides. It was originally intended to showcase the spirit of friendship and cooperation within each team, but sadly this spirit has been used on helping one's teammates beat the crap out of the opposing team.
+    code: WhiteV2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10103
+    name: Flying Rink - Star-Plucking Podium
+    classes: 101
+    type: 201
+    position: "20,8"
+    space: "12,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: The prize-giving location which all competitors look toward. When one stands where champions of the past once stood, it's as though you can feel that moment where all gazes turn towards yourself and your eyes brim with tears.
+    code: WhiteV2022_deco_22,WhiteV2022_deco_23,WhiteV2022_deco_24,WhiteV2022_podium
+    texture_type: "1,1,1,2"
+    sorting: "0,0,0,20"
+    offset: "-1.6576594352,-0.36596913994,-0.084454508346|0.64450548667,-0.36596913994,-0.084454414503|2.9487556,-0.36596913994,-0.084454414503|0.375372,0,0"
+    rotate: "2,2,2,2"
+    interact_point: "876092,17,17"
+    interact_point_offset: *-0.291666,1.8958329,0|*-3.7916658,1.201666392,0|*3.2083326,1.0208331,0
+    touch_area: "12,3,0"
+  }
+  {
+    id: 10104
+    name: Flying Rink - Match Display Screen
+    classes: 101
+    type: 302
+    position: "21,0"
+    space: "10,5,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Displays the status of each team in real time. It seems to bear the passionate gazes of countless audience members at any one time.
+    code: WhiteV2022_deco_01,WhiteV2022_deco_02
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.740317,0.281529,0|1.5535062176,0.281529,-0.00000013206827773"
+    rotate: "3,3"
+  }
+  {
+    id: 10105
+    name: Flying Rink - Unbreakable Divider
+    classes: 101
+    type: 201
+    position: "5,0"
+    space: "22,1,1,1,0,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: A dividing barrier made with the sturdiest organic materials available. Not only can it resist the impact of flying hockey pucks, but it can also stop Dolls angry over losing.
+    code: WhiteV2022_deco_03,WhiteV2022_deco_04,WhiteV2022_deco_05
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-2.7315810013,-0.229394,0.53177679146|1.87686,-0.229394,0.531777|6.4814232,-0.229394,0.53177689573"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10106
+    name: Flying Rink - Oathsworn Judge's Seat
+    classes: 101
+    type: 201
+    position: "5,2"
+    space: "8,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Regardless of how the Dolls tempt or threaten you, or if you have a hockey stick's blade pressed to your throat or a puck forced against your skull, you must make the fairest possible decision once you take this seat.
+    code: WhiteV2022_deco_06,WhiteV2022_deco_07
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.5733682176,-0.250248,-0.062562|1.730882,-0.250248,-0.062562"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *-3.613749174,1.125833076,0
+  }
+  {
+    id: 10107
+    name: Flying Rink - Look To The Starry Sky
+    classes: 101
+    type: 201
+    position: "31,11"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The eyes of every contestant that looks up to the trophy are filled with all the stars in the night sky.
+    code: WhiteV2022_deco_25,WhiteV2022_deco_26,WhiteV2022_trophy
+    texture_type: "1,1,2"
+    sorting: "0,0,5"
+    offset: "0,1.1010912,0.2585896|0,-0.020854,0|0,0.1616185,0.041707958292"
+    rotate: "2,2,2"
+    touch_area: "3,5,0"
+  }
+  {
+    id: 10108
+    name: Flying Rink - Center of Interest
+    classes: 101
+    type: 201
+    position: "18,3"
+    space: "14,5,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: A central hub that combines a commentator's seat, a prize-drawing venue and a studio it has been pelted by much junk due to the contentious comments of a certain MDR anchor who preferred to remain anonymous, but lucky draws for the Most Valuable Dinergate figurine managed to restore order.
+    code: WhiteV2022_deco_08,WhiteV2022_deco_09,WhiteV2022_deco_10
+    texture_type: "1,1,1"
+    sorting: "20,0,20"
+    offset: "0,0,0|0,0,0|4.598307,0,0"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *1.69166628,3.23749926,0.5833332|*-2.4791661,3.23749926,0.5833332
+  }
+  {
+    id: 10109
+    name: Flying Rink - Support Bannya (Left)
+    classes: 101
+    type: 201
+    position: "0,0"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The popular IOP employee Rice was originally supposed to come to the premises to cheerlead, but she was distracted by a fish frozen in a icy lake on the way there, leading to her tongue getting stuck to the ice, and so she could only appear in banner form.
+    code: WhiteV2022_deco_11,WhiteV2022_deco_12,WhiteV2022_deco_13
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.281529,2.9966968606,0.72063092827|-0.28151471501,0.750744,0.2043692|-0.28151471501,-1.4928054371,-0.31380046073"
+    rotate: "2,2,2"
+    touch_area: "2,10,2"
+  }
+  {
+    id: 10110
+    name: Flying Rink - Support Bannya (Right)
+    classes: 101
+    type: 201
+    position: "33,6"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The popular IOP employee Nico was originally supposed to come to the premises to cheerlead, but she was distracted by a fish frozen in a icy lake on the way there, leading to her tongue getting stuck to the ice, and so she could only appear in banner form.
+    code: WhiteV2022_deco_14,WhiteV2022_deco_15,WhiteV2022_deco_16
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "0.26066175771,2.8517845,0.8487578|0.26066175771,0.61090802435,0.32944085646|0.26066175771,-1.6326408914,-0.1887287"
+    rotate: "2,2,2"
+    touch_area: "2,10,2"
+  }
+  {
+    id: 10111
+    name: Flying Rink - Icy Splash Zone
+    classes: 101
+    type: 201
+    position: "2,8"
+    space: "10,6,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: For Doll hockey the biggest challenge isn't technique, but controlling their emotions enough to ensure that one is exerting just the right amount of strength to not gouge a chunk out of the ice. However, the closer one gets to the goal, the more one's feelings swell...
+    code: WhiteV2022_deco_17,WhiteV2022_deco_18
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-1.2989706352,-0.928003,2.71102|1.0021514824,-0.928003,2.71102"
+    rotate: "2,2"
+  }
+  {
+    id: 10112
+    name: Flying Rink - Most Valuable Dinergate
+    classes: 101
+    type: 201
+    position: "13,2"
+    space: "3,3,0,0,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: After intense competition, an MVP has been chosen from among the Dinergates on the Griffin base. Who can resist an always-smiling Dinergate presenting you with the victor's trophy with a pair of ice brooms?
+    code: WhiteV2022_deco_20
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10113
+    name: Flying Rink - Finale Frame
+    classes: 101
+    type: 302
+    position: "3,4"
+    space: "10,8,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: A screen that displays the final score for both sides. The appearance of each ball is the result of an intense battle.
+    code: WhiteV2022_deco_21
+    texture_type: "1"
+    offset: "0,0.865441,0"
+    rotate: "3"
+  }
+  {
     id: 10501
     name: Lone Ship in Space - Zero-G Zone
     classes: 105
@@ -25039,6 +25253,166 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20047
+    name: Inflammable Stand Lamp
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A hand grenade that doubles as a stand lamp, shining brightly whether in life or after death. If one is captured on the battlefield, it can be a handy helper to avoid being subjected to cruelty — the Commander is currently looking for a way to disable its explosive functionality.
+    code: 2022WhiteVActivity_deco_Hunter
+    texture_type: "1"
+    offset: "0.302383,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20048
+    name: Warmth of Golden Autumn
+    classes: 19
+    type: 302
+    position: "0,0"
+    space: "5,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Type 97 enjoys collecting beautiful maple leaves, pressing them into specimens, painting them a pleasant gold color and then sticking them to a clean canvas to serve as an eye-pleasing decoration — you know how much she likes maple leaves, so you should know exactly how precious this gift is.
+    code: 2022WhiteVActivity_deco_97type
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20049
+    name: Armed Teddy Bear
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "6,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This plush toy bear holds an intricate model of a firearm — the plush is a gift and the gun model is another. Though she holds conflicting views when arguing with herself, when it comes to giving a return gift, both sides of her are of one mind, at least.
+    code: 2022WhiteVActivity_deco_P22
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20050
+    name: Master Seamstress
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "6,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Lewis' sewing kit, an important tool for leaving good memories in everyone's hearts. Though it doesn't seem to agree with Lewis' sense of aesthetics, the strange thing is how such beautiful clothing could be born from such drabness.
+    code: 2022WhiteVActivity_deco_Lewis
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20051
+    name: Taste of Home
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "4,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Having made a small turnaround in her struggle for femininity, Type 79 is determined to follow up on her victory and gives the Commander what she feels is most precious to her as a return gift... namely, an entire box of famous snacks that she cherishes — a choice that she believes is the most perfect one of all.
+    code: 2022WhiteVActivity_deco_79type
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20052
+    name: Notes of Destiny
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This old fortunetelling crystal ball has been modified into the components of a music box, and the ball that had once lost is luster has once again become crystal clear after careful polishing, which might be its final prophecy — as long as you're willing to polish yourself, there will always be a chance for you to shine once again.
+    code: 2022WhiteVActivity_deco_K5
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20053
+    name: T77 Instruction Manual
+    classes: 19
+    type: 302
+    position: "0,0"
+    space: "5,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A handwritten manual that contains the meanings of T77's gestures and subtle facial expressions. The author seems to look forward to the recipient being able to communicate with her by the look in their eyes alone — but unfortunately, most of the pages look like they have been gnawed by something and many of the words are no longer legible.
+    code: 2022WhiteVActivity_deco_T77
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20054
+    name: Marvellous Gingerbread House
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "2,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: When one receives chocolate, one must return the gift with White Day cookies — having learned about this custom, she has worked hard on making her cookies, and in order to give them some novelty, she made them into a gingerbread house, making those who see it think of the joy of enjoying snacks... Better ask for more next year.
+    code: 2022WhiteVActivity_deco_M1
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20055
+    name: Old Bird's Lullaby
+    classes: 19
+    type: 302
+    position: "0,0"
+    space: "3,9,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This is the very first guitar that Falcon made for herself, and it has accompanied her for a very long time even before she joined Griffin. After much maintenance and changing of its strings, it is filled with many memories. And now, she has given these accumulated memories to you.
+    code: 2022WhiteVActivity_deco_Falcon
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20056
+    name: Strawberry Black Forest
+    classes: 19
+    type: 201
+    position: "0,0"
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: While you were thinking of giving her chocolate, she was thinking the same thing too — Your Dolls will always stand by your side at all times, and even if you overlook them, they will never forget you.
+    code: 2022WhiteVActivity_deco_LWMMG
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point_offset: "0,0,0"
   }
   {
     id: 30001
@@ -32556,6 +32930,141 @@
     rotate: "3"
   }
   {
+    id: 36901
+    name: Purple Iris, Drunken Butterfly
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Lewis' poster.
+    code: poster_WhiteV2022_Lewis
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36902
+    name: Prayers in the Wind
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 97's poster.
+    code: poster_WhiteV2022_97type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36903
+    name: Waltz of Fantasy
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P22's poster.
+    code: poster_WhiteV2022_P22
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36904
+    name: Gazing from the Dust
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 79's poster.
+    code: poster_WhiteV2022_79type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36905
+    name: Array of Venus
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: K5's poster.
+    code: poster_WhiteV2022_K5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36906
+    name: Starlight across the Shore
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: T77's poster.
+    code: poster_WhiteV2022_T77
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36907
+    name: Letter from the Winter Cypress
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1 Garand's poster.
+    code: poster_WhiteV2022_M1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36908
+    name: Song of the Morning Dew
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Falcon's poster.
+    code: poster_WhiteV2022_Falcon
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 36909
+    name: Knight and Protector
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LWMMG's poster.
+    code: poster_WhiteV2022_LWMMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 37001
     name: CZ75 Does Not Work Overtime
     classes: 300
@@ -37096,6 +37605,21 @@
     decompose_gift: 100003
     description: Gd DSR-50's Poster
     code: poster_BattlePass_DSR50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330003
+    name: Gallop of Gingko Leaves and Autumn Winds
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Lewis's Poster
+    code: poster_BattlePass_Lewis
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

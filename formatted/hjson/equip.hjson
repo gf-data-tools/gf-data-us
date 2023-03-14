@@ -8677,6 +8677,40 @@
     sp_description: equip-40000277
   }
   {
+    id: 278
+    name: P22 Laser Pointer
+    description:
+      '''
+      CRIT CHANCE+<critical_percent><%>
+      EVA+<dodge>$P22 Only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "8,10"
+    critical_percent: "12,15"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: 配件_特殊_P22
+    develop_duration: 2820
+    company: WTR
+    fit_guns: "242"
+    equip_introduction: A compact laser pointer specially designed for P22. After optimization by IOP, its aiming data can be reflected in P22's processing systems in real time.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3.0
+    bonus_type: dodge:1000,critical_percent:700
+    max_level: 10
+    auto_select_id: 18089
+    is_show: 1
+    obtain_ids: "3077"
+    sp_description: equip-40000278
+  }
+  {
     id: 282
     name: 64 Shiki Sniper Scope
     description:
