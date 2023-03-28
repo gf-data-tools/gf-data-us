@@ -10287,6 +10287,13 @@
     content: prize-20001541
   }
   {
+    id: 1588
+    name: prize-10001588
+    gem: 90
+    equip_ids: "304"
+    content: prize-20001588
+  }
+  {
     id: 1591
     name: prize-10001591
     item_ids: 100160-20,100161-1
@@ -11584,6 +11591,34 @@
     name: prize-10001893
     gift: 6607-1
     content: prize-20001893
+  }
+  {
+    id: 1897
+    name: prize-10001897
+    item_ids: 41-200,7-1
+    gift: 100003-5
+    coins: 3-1000
+    content: prize-20001897
+    icon: Bumdle_Division
+  }
+  {
+    id: 1898
+    name: prize-10001898
+    item_ids: 605-10,516-500
+    gift: 100003-5
+    content: prize-20001898
+    icon: Bumdle_black
+  }
+  {
+    id: 1899
+    name: prize-10001899
+    mp: 20000
+    ammo: 20000
+    mre: 20000
+    part: 20000
+    item_ids: 1-20,3-20
+    content: prize-20001899
+    icon: Bumdle_may
   }
   {
     id: 2001
