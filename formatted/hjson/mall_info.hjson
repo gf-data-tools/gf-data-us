@@ -4648,6 +4648,110 @@
     classification_id: "4000"
   }
   {
+    id: "4011"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Young Man's Inexperience
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94011"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4012"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Young Maiden's Shyness
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94012"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4020"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Battle Garb
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94020"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4031"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: New Suit (Brand New With Tag)
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94031"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4032"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Newly Picked Dress
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94032"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4040"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Gift of Memory
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94040"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4051"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: New Suit Pants (Brand New With Tag)
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94051"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
+    id: "4052"
+    type: "66"
+    gemprice: "400"
+    original_price: "500"
+    quota: "2001"
+    giftbag_name: Newly Picked Leather Shoes
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "94052"
+    on_sale_days: "28"
+    classification_id: "4000"
+  }
+  {
     id: "4211"
     type: "66"
     gemprice: "400"
@@ -27894,7 +27998,6 @@
     item_ids: 7-1,41-50
     gift: 6905-1
     gemprice: "1888"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: K5 Array of Venus Costume Package
     event_code: dailyGiftbag
@@ -27908,7 +28011,6 @@
     item_ids: 7-1,41-100
     gift: 6902-1
     gemprice: "2588"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: Type97 Prayers in the Wind Costume Package
     event_code: dailyGiftbag
@@ -27922,7 +28024,6 @@
     item_ids: 41-50
     gift: 6908-1
     gemprice: "999"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: Falcon Song of the Morning Dew Costume Package
     event_code: dailyGiftbag
@@ -28047,6 +28148,90 @@
     giftbag_name: Coalition Units Supply Package
     event_code: dailyGiftbag
     icon: Bumdle_yuugo01
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21576"
+    type: "8"
+    item_ids: 7-1,41-50
+    gift: 6304-1
+    gemprice: "1888"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Mondragon M1908 Twilight After Rain Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21577"
+    type: "8"
+    mp: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21578"
+    type: "8"
+    ammo: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21579"
+    type: "8"
+    mre: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21580"
+    type: "8"
+    part: "3000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Parts Packag
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21581"
+    type: "8"
+    item_ids: 1-10,3-10
+    gemprice: "430"
+    original_price: "860"
+    quota: "2001"
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: "50"
     discount: "1.00"
     classification_id: "3002"
   }
