@@ -11124,6 +11124,26 @@
     detail_introduction: item-30002224
   }
   {
+    id: 2277
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_C93
+    item_name: Glistening Encounter
+    introduction: Glistening Encounter
+    rank: 1
+    detail_introduction: item-30002277
+  }
+  {
+    id: 2278
+    type: 5
+    arg: "1"
+    code: card_BattlePass_C93
+    item_name: ID card: Moment of Sweet Warmth
+    introduction: ID card: Moment of Sweet Warmth
+    rank: 1
+    detail_introduction: item-30002278
+  }
+  {
     id: 2286
     type: 5
     arg: "1"
@@ -13848,6 +13868,26 @@
     detail_introduction: item-30140008
   }
   {
+    id: 140013
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140013
+    introduction: item-20140013
+    rank: 1
+    detail_introduction: item-30140013
+  }
+  {
+    id: 140014
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140014
+    introduction: item-20140014
+    rank: 1
+    detail_introduction: item-30140014
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -13996,6 +14036,16 @@
     introduction: Icon Frame - Whinny of Prancing Steed
     rank: 1
     detail_introduction: item-30200016
+  }
+  {
+    id: 200020
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_C93
+    item_name: Icon Frame - Flutter of Butterfly Wings
+    introduction: Icon Frame - Flutter of Butterfly Wings
+    rank: 1
+    detail_introduction: item-30200020
   }
   {
     id: 900030
@@ -14633,5 +14683,49 @@
     rank: 1
     sort: -1
     detail_introduction: item-31500047
+  }
+  {
+    id: 1500052
+    type: 15
+    arg: "1500052"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500052
+  }
+  {
+    id: 1500053
+    type: 15
+    arg: "1500053"
+    code: package_choose
+    item_name: T-Doll Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Doll-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500053
+  }
+  {
+    id: 1500054
+    type: 15
+    arg: "1500054"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500054
+  }
+  {
+    id: 1500055
+    type: 15
+    arg: "1500055"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500055
   }
 ]

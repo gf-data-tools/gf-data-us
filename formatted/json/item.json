@@ -4622,6 +4622,14 @@
     "introduction": "ID Card: Fixed Point", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30002224", "is_hide_info": 0
   }, {
+    "id": 2277, "type": 5, "arg": "1", "code": "profilePic_BattlePass_C93", "item_name": "Glistening Encounter", 
+    "introduction": "Glistening Encounter", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30002277", "is_hide_info": 0
+  }, {
+    "id": 2278, "type": 5, "arg": "1", "code": "card_BattlePass_C93", "item_name": "ID card: Moment of Sweet Warmth", 
+    "introduction": "ID card: Moment of Sweet Warmth", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
+    "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "item-30002278", "is_hide_info": 0
+  }, {
     "id": 2286, "type": 5, "arg": "1", "code": "card_Dating2021_us", "item_name": "ID Card: Wonderful Date", 
     "introduction": "ID Card: Wonderful Date", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30002286", "is_hide_info": 0
@@ -5786,6 +5794,14 @@
     "introduction": "item-20140008", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
     "consume_type": 0, "item_access": "", "detail_introduction": "item-30140008", "is_hide_info": 0
   }, {
+    "id": 140013, "type": 14, "arg": "1", "code": "Y_Z_zhihuiguan_Chessman", "item_name": "item-10140013", 
+    "introduction": "item-20140013", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30140013", "is_hide_info": 0
+  }, {
+    "id": 140014, "type": 14, "arg": "1", "code": "Y_Z_zhihuiguan_Chessman", "item_name": "item-10140014", 
+    "introduction": "item-20140014", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, 
+    "consume_type": 0, "item_access": "", "detail_introduction": "item-30140014", "is_hide_info": 0
+  }, {
     "id": 160001, "type": 1, "arg": "1", "code": "PT", "item_name": "Function Item Placeholder", 
     "introduction": "Function Item Placeholder", "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", 
     "upper_limit": 0, "consume_type": 0, "item_access": "", "detail_introduction": "Function Item Placeholder", 
@@ -5851,6 +5867,11 @@
     "item_name": "Icon Frame - Whinny of Prancing Steed", "introduction": "Icon Frame - Whinny of Prancing Steed", "rank": 1, 
     "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-30200016", "is_hide_info": 0
+  }, {
+    "id": 200020, "type": 5, "arg": "1", "code": "profileFrame_BattlePass_C93", 
+    "item_name": "Icon Frame - Flutter of Butterfly Wings", "introduction": "Icon Frame - Flutter of Butterfly Wings", 
+    "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-30200020", "is_hide_info": 0
   }, {
     "id": 900030, "type": 4, "arg": "900030", "code": "Nova_medal", "item_name": "Nova Medal", "introduction": "Nova Medal", 
     "rank": 1, "sort": 0, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
@@ -6123,5 +6144,25 @@
     "introduction": "Use an Exclusive Costume Ticket in the Armory to obtain a random unobtained costume within the given parameters.", 
     "rank": 1, "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
     "detail_introduction": "item-31500047", "is_hide_info": 0
+  }, {
+    "id": 1500052, "type": 15, "arg": "1500052", "code": "package_choose", "item_name": "Basic Equipment Indicator", 
+    "introduction": "Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.", 
+    "rank": 1, "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500052", "is_hide_info": 0
+  }, {
+    "id": 1500053, "type": 15, "arg": "1500053", "code": "package_choose", "item_name": "T-Doll Equipment Indicator", 
+    "introduction": "Open this Specified Delivery Indicator to obtain a piece of Doll-Type Equipment of your choice from the list.", 
+    "rank": 1, "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500053", "is_hide_info": 0
+  }, {
+    "id": 1500054, "type": 15, "arg": "1500054", "code": "package_random", "item_name": "Guaranteed T-Doll Indicator", 
+    "introduction": "Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.", 
+    "rank": 1, "sort": -1, "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500054", "is_hide_info": 0
+  }, {
+    "id": 1500055, "type": 15, "arg": "1500055", "code": "package_random", "item_name": "Frontline Protocol - Extra Prize", 
+    "introduction": "Open this Air-Drop Delivery Indicator to obtain a random item from the list.", "rank": 1, "sort": -1, 
+    "initial_num": "", "daily_limit": "", "upper_limit": 0, "consume_type": 0, "item_access": "", 
+    "detail_introduction": "item-31500055", "is_hide_info": 0
   }
 ]
