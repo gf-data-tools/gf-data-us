@@ -1,0 +1,3785 @@
+[
+  {
+    id: 1
+    name: Drone-Type Civilian Target
+    type: 2
+    code: Drone
+    introduce: A standard target drone only used for training and practice. Automatically records combat footage (provided its onboard camera hasn't been destroyed).
+    life_rank: 7
+    counter: Train hard!
+    character: "1001,903"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000001
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 2
+    name: Prowler
+    type: 2
+    code: Prowler
+    introduce: Sangvis Ferri's low-spec combat mech. It has poor firepower and mobility. Primarily used to patrol their own lines and conduct reconnaissance.
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 1
+    hit_rank: 1
+    dodge_rank: 1
+    rate_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000002
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 3
+    name: Scout
+    type: 2
+    code: Scouts
+    introduce: Sangvis Ferri's low-spec combat mech. It has mediocre combat capabilities but is highly mobile and good at concealment. Often used in frontline reconnaissance.
+    forces: 1
+    if_capture: 1
+    pow_rank: 2
+    life_rank: 2
+    hit_rank: 2
+    dodge_rank: 6
+    rate_rank: 2
+    speed_rank: 4
+    range_rank: 3
+    counter: This unit has high evasion. Make sure your echelon has enough accuracy.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000003
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 4
+    name: Ripper
+    type: 3
+    code: Ripper
+    introduce: Sangvis Ferri's regular combat Dummy equipped with short-range assault weaponry. Its high mobility often puts it in the role of a vanguard or a scout.
+    forces: 1
+    if_capture: 1
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000004
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 5
+    name: Scarecrow
+    type: 1
+    code: Scarecrow
+    introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,201"
+    enemy_skill: "59"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Kaya Okuno,"
+    spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200005
+  }
+  {
+    id: 6
+    name: Dinergate
+    type: 2
+    code: Dinergate
+    introduce: Sangvis Ferri's low-spec combat mech. It has mediocre combat capabilities but is suited for mass production. Usually used in defensive or search missions. Attacks by ramming with force; not to be underestimated in groups.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 1
+    hit_rank: 5
+    rate_rank: 2
+    speed_rank: 5
+    range_rank: 2
+    counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000006
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 7
+    name: Vespid
+    type: 3
+    code: Vespid
+    introduce: Sangvis Ferri's regular combat Dummy equipped with long-range assault weaponry. Its firepower is about the same as a low-tier Military unit. It makes up the main force in small-scale skirmishes.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000007
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 8
+    name: Executioner
+    type: 1
+    code: Excutioner
+    introduce: An elite scout who often partners with Scarecrow but is slightly higher in rank. A rough-mannered and impulsive tomboy who takes delight in fair fights and dislikes bullying the weak.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,202,309"
+    enemy_skill: "60"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Shizuka Itou,"
+    spine_scale: "80,80,1"
+    org_id: 10602
+    related_story_id: 200008
+  }
+  {
+    id: 9
+    name: Jaeger
+    type: 3
+    code: Jaeger
+    introduce: Sangvis Ferri's regular combat Dummy equipped with long-range sniping weaponry. Deals heavy damage and has high accuracy, but is physically fragile. An enemy to watch out for on the battlefield.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "307"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000009
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 10
+    name: Guard
+    type: 3
+    code: Guard
+    introduce: Sangvis Ferri's high-spec combat Dummy equipped with a shield and short-range weaponry. As its appearance suggests, it has high defensive capabilities and is often used to defend important units or to enter the fray as a more advanced vanguard.
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 1
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 2
+    counter: This melee unit has strong defensive capabilities but deals negligible damage. Most of the threat comes from other damage-oriented units, so it is recommended to pick Dolls of suitable gun types to deal with the units behind the Guards first.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000010
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 11
+    name: Hunter
+    type: 1
+    code: Hunter
+    introduce: Highly flexible and intelligent, she is adept at sabotage and tactical pursuit, though her true power can only manifest when working with Scarecrow and Executioner. Stoic and cool-headed, she enjoys cornering her enemies and capturing them alive. Despite feeling superior to Griffin Dolls, she considers herself above using underhanded tactics against them.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,203,309"
+    enemy_skill: "62"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Ami Hagiwara,"
+    spine_scale: "75,75,1"
+    org_id: 10602
+    related_story_id: 200011
+  }
+  {
+    id: 12
+    name: Dragoon
+    type: 3
+    code: Dragoon
+    introduce: Sangvis Ferri's high-spec combat Dummy equipped with a small-scale transportational mech. It has considerable firepower, firing range, and maneuverability, making it an effective assaulter on the battlefield.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "304"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000012
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 13
+    name: Jaguar
+    type: 2
+    code: Jaguar
+    introduce: Sangvis Ferri's regular combat mech. A mobile mortar that deals high damage. Its maneuverability is poor, but its firepower is comparable to that of contemporary Military weapons.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 2
+    hit_rank: 6
+    dodge_rank: 3
+    rate_rank: 1
+    speed_rank: 3
+    range_rank: 5
+    counter: This unit deals high projectile damage to flagged positions. Move your Dolls in time to evade its attacks.
+    character: "1003,325"
+    enemy_skill: "8"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000013
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 14
+    name: Nemeum
+    type: 4
+    code: Nemeum
+    introduce: A regular military mech made for the army equipped with the contemporary military firing system. It can charge up to deal higher damage, but has a low rate of fire and poor defense.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 5
+    rate_rank: 1
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: This armored unit is mainly a damage dealer on the back row. It has a low rate of fire but high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "309"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000014
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 15
+    name: Aegis
+    type: 5
+    code: Aegis
+    introduce: The Military's regular combat unit. Outfitted with regular electric weaponry and a military shield, it possesses excellent melee combat capabilities and very sturdy armor.
+    forces: 1
+    if_capture: 1
+    pow_rank: 2
+    life_rank: 4
+    hit_rank: 2
+    rate_rank: 3
+    armor_rank: 5
+    speed_rank: 2
+    range_rank: 2
+    counter: This unit has a very high armor value. Make sure your echelon has enough armor piercing capability before engaging it in combat.
+    character: "303,309"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000015
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 16
+    name: Manticore
+    type: 4
+    code: Manticore
+    introduce: A regular military mech made for the army equipped with contemporary military assault weaponry and armor. It deals staggering long-range damage and is extremely well-defended.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 2
+    range_rank: 3
+    counter: This unit possesses strong armor and deals massive damage. It is unwise to engage it in a drawn-out fight. Confront it with an echelon that has adequate overall combat effectiveness.
+    character: "1003,309,301"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000016
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 17
+    name: Intruder
+    type: 1
+    code: Intruder
+    introduce: In charge of providing battle strategies, yet also adept at decryption and sabotage. Relatively high in rank, she can directly issue commands to combat Dolls but answers to Gager. Her apparent poise and soft-spokenness mask a gaping sense of emptiness. She enjoys human theater and hopes to derive her own personality from it.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,204"
+    enemy_skill: "84"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200017
+  }
+  {
+    id: 18
+    name: Destroyer
+    type: 1
+    code: Destroyer
+    introduce: An expert in blowing things up and disarming bombs who also possesses decent combat abilities. Occasionally teams up with Alchemist. She's usually haughty and sharp-tongued, but is actually a tsundere with a somewhat childish temper. She cries under pressure and is very sensitive about her height.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit deals incredibly high single-target damage but has a low rate of fire and mediocre accuracy. T-Dolls with high evasion provide better defense against her.
+    character: "1001,206"
+    enemy_skill: "64,99"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yuuki Takada,"
+    spine_scale: "85,85,1"
+    org_id: 10603
+    related_story_id: 200018
+  }
+  {
+    id: 19
+    name: Hunter Elite
+    type: 1
+    code: HunterElite
+    introduce: An elite Sangvis Doll with high flexibility and intelligence who specializes in sabotage and tactical pursuit. Her processor has undergone a vast upgrade over its original specs, allowing her to skillfully use various methods to cut off her enemies' escape.
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,203,309"
+    enemy_skill: "62"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 20
+    name: Executioner Elite
+    type: 1
+    code: ExcutionerElite
+    introduce: An elite Sangvis Doll who prefers direct confrontations to tactical maneuvers. Now wields an improved long blade that enhances her close-quarter combat prowess. Takes delight in fair fights and dislikes bullying the weak.
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,202,309"
+    enemy_skill: "60,61"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 21
+    name: Ouroboros
+    type: 1
+    code: Weaver
+    introduce: An intelligent Doll created after the Butterfly Incident with high combat capabilities, specializing in short-range assaults and defensive battles. But as the test subject in the developmental phase, her AI is very unstable and difficult to control. Possessing an overwhelming tactical and intellectual advantage over others, she is very self-assured and conceited, but she has little actual combat experience and is too unpredictable even for her allies, which makes her highly dangerous.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: This unit deals high damage to flagged positions. Be sure to move your Dolls away in time to evade her attack.
+    character: "1001,210,309"
+    enemy_skill: "71,98"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Rumi Ookubo,"
+    spine_scale: "80,80,1"
+    org_id: 10603
+    related_story_id: 200021
+  }
+  {
+    id: 22
+    name: Ouroboros Elite
+    type: 1
+    code: WeaverElite
+    introduce: A high-spec elite Sangvis Doll adept at combat and tactical simulations. With extremely good performance in every aspect, she is an all-rounder on the battlefield. Having acquired a myriad of combat data, her capabilities have improved even further. She is very self-assured and conceited...but has little actual combat experience and is too unpredictable even for her allies, so having her join the fray comes with its own risks.
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: This unit deals high damage to flagged positions. Be sure to move your Dolls away in time to evade her attack.
+    character: "1001,210,309"
+    enemy_skill: "71,72"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 23
+    name: Alchemist
+    type: 1
+    code: Alchemist
+    introduce: A Sangvis elite who specializes in all kinds of tactics and interrogations. Occasionally teams up with Destroyer. Arrogant, brash, and ruthless, she will do anything to achieve her goals. She has a sadistic streak and toys with Griffin Dolls to satisfy her perverse tendencies. However, her mental maturity still compels her to go the extra mile for her Sangvis companions.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,205"
+    enemy_skill: "63"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Arise Satou,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200023
+  }
+  {
+    id: 24
+    name: Dreamer
+    type: 1
+    code: Dreamer
+    introduce: Combat-oriented and possesses ultra long-range pinpoint sniping capability. A Doll created after the Buttlerfly Incident who answers directly to Elisa. Since she isn't designed to engage enemies directly, she spends most of her time hanging around Sangvis Ferri HQ and bullying Judge for her own amusement. Her charming smile is a flimsy disguise for her arrogance and capriciousness. She is extremely mentally unstable and egotistical, and is prone to becoming frenzied and losing control in battle. She has formidable destructive power and will often disregard her allies' safety. Fortunately, she rarely ever appears in direct combat.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit can fire from long range. Take your units' moving speed into consideration to prevent heavy losses suffered from spending too much time in motion.
+    character: "1001,209"
+    enemy_skill: "70,97"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Kaya Okuno,"
+    spine_scale: "75,75,1"
+    org_id: 10604
+    related_story_id: 200024
+  }
+  {
+    id: 25
+    name: Jupiter
+    type: 2
+    code: Jupiter
+    introduce: A giant Sangvis weapons emplacement developed from stolen military tech. Stationary but possesses incomparable firepower and an ultra long firing range. The main cannon can be neutralized by surrounding the mortar and cutting off its power source, leaving only the machine gun turret operational.
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 5
+    rate_rank: 4
+    armor_rank: 2
+    range_rank: 5
+    counter: Poses an incredible threat when functioning at full capacity. It is recommended to surround it and cut off its power source before taking it down.
+    character: "1003,309,910"
+    enemy_skill: "12"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000025
+    spine_scale: "55,55,1"
+  }
+  {
+    id: 26
+    name: Gager
+    type: 1
+    code: BossGager
+    introduce: Mostly in charge of issuing commands and deploying units. Relatively high in rank, she is in command of combat units, yet is quite adept at combat herself. Answers directly to Agent. Serious, uptight, and meticulous, she always appears cool and businesslike both in speech and action. She holds herself to a code of honor even against her enemies.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,207"
+    enemy_skill: "66,67,96"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yui Ishikawa,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200026
+  }
+  {
+    id: 27
+    name: Architect
+    type: 1
+    code: BossArchitect
+    introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: This enemy deals high damage to flagged positions and splash damage to nearby units. Make sure you move your T-Dolls in time to evade her attacks.
+    character: "1001,208,309"
+    enemy_skill: "68,69"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "85,85,1"
+    org_id: 10603
+    related_story_id: 200027
+  }
+  {
+    id: 28
+    name: Brute
+    type: 3
+    code: Brute
+    introduce: Sangvis Ferri's new melee combat unit. It approaches enemies at high speed and deals a fearsome amount of damage, but is only equipped with negligible armor, making it quite fragile.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 2
+    counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000028
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 29
+    name: Striker
+    type: 3
+    code: Striker
+    introduce: Sangvis Ferri's regular combat unit equipped with a long-range machine gun. Possesses high firepower and rate of fire, making it the main damage dealers and suppressors on the field.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
+    character: "308"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000029
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 30
+    name: Tarantula
+    type: 4
+    code: Tarantula
+    introduce: An upgraded version of the Sangvis "Dinergate". With significantly improved survivability, it can close in quickly and deal massive damage to enemies in groups.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 1
+    hit_rank: 5
+    rate_rank: 2
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: This unit deals extremely high melee damage but is relatively fragile. However, its armor can still cause a problem if the player's echelon does not have adequate armor piercing. It is recommended to wipe them out with Machine Gun Dolls or Dolls who can quickly deal AoE damage before they come close.
+    character: "303,309"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000030
+    spine_scale: "150,150,1"
+  }
+  {
+    id: 31
+    name: Goliath
+    type: 2
+    code: Golyat
+    introduce: Sangvis Ferri's explosive-type combat unit. Explodes upon contact with enemies, dealing a horrific amount of wide-spread damage. It must be destroyed before it draws close.
+    forces: 1
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 7
+    speed_rank: 3
+    range_rank: 1
+    counter: WARNING! Make sure your echelon has enough damage output to neutralize this unit, otherwise avoid it.
+    character: "1001,1003,323,908"
+    enemy_skill: "11"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000031
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 32
+    name: Red Self-Explosion Enemy
+    type: 2
+    code: GolyatPlus
+    introduce: An upgraded version of the Goliath. No existing T-Doll has enough firepower to destroy it within a short period of time. Avoidance may be the best solution.
+    forces: 1
+    pow_rank: 7
+    life_rank: 7
+    hit_rank: 7
+    speed_rank: 3
+    range_rank: 1
+    counter: WARNING: EXTREME DANGER! Avoid at all costs!
+    character: "1001,1003,323,908"
+    enemy_skill: "11"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000032
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 33
+    name: Cerberus
+    type: 1
+    code: BossCerberus
+    introduce: The ultimate upgraded version of the Sangvis "Dinergate". Its size, armor, and firepower have all been significantly augmented, allowing it to carry a Doll's neural cloud (albeit an incomplete copy). However, it isn't very cost-effective, making mass production difficult. Its tactical role is unclear, even its development records are a mystery, so it doesn't see much use on the battlefield.
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: This unit deals heavy damage to flagged positions. Be sure to move your Dolls in time to evade her attacks.
+    character: "1001,214,309"
+    enemy_skill: "79,80"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "70,70,1"
+    org_id: 10603
+  }
+  {
+    id: 34
+    name: Destroyer Plus
+    type: 1
+    code: DestroyerPlus
+    introduce: Destroyer's brand new form after having her body modified by Dreamer sees a massive increase in firepower, though her personality and mental age haven't changed much.
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit deals high damage to flagged positions. Be sure to move your Dolls away in time to evade her attack.
+    character: "1001,206"
+    enemy_skill: "64,65"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 35
+    name: Judge
+    type: 1
+    code: Justice
+    introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit has a high rate of fire and attacks multiple targets simultaneously, but only deals moderate damage. Shotgun Dolls are recommended to provide adequate armor. Be sure to move out of purple areas in time to avoid taking continuous damage and getting debuffed.
+    character: "1001,211,309"
+    enemy_skill: "73,74,75"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Aki Toyosaki,"
+    spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200035
+  }
+  {
+    id: 36
+    name: Nightmare
+    type: 3
+    code: unknown
+    introduce: Virtual enemies which only exist in cyberspace who slowly approach then lunge at their opponents to bite them. These thoughtforms are typically defensive units representing firewalls generated by electronic warfare modules, or they could be viruses or malware lurking in electronic layers. They could also be some kind of inexplicable, profound entity.
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000036
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 37
+    name: Cyclops_AR
+    type: 3
+    code: Cyclops
+    introduce: The Military's combat unit armed with a rifle and grenade launcher. Its armor is weaker compared to other models.
+    forces: 2
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,319"
+    enemy_skill: "16"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000037
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 38
+    name: Cyclops_SG
+    type: 5
+    code: Cyclops_SG
+    introduce: The Military's regular combat unit armed with a shotgun and bulletproof shield. Its general performance remains largely the same as the original model.
+    forces: 2
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 3
+    rate_rank: 2
+    armor_rank: 4
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is well-balanced and has significant armor. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,309,314"
+    enemy_skill: "17"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000038
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 39
+    name: Hydra
+    type: 4
+    code: Hydra
+    introduce: A regular military mech made for the army. Upgraded and modified from the "Manticore", it is outfitted with even more advanced military-grade weapons and armor. The main cannon can unleash devastating barrages against enemies.
+    forces: 2
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    rate_rank: 4
+    armor_rank: 6
+    speed_rank: 1
+    range_rank: 2
+    counter: Best to avoid this if your echelon is not in good condition.
+    character: "1003,309,301"
+    enemy_skill: "18"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000039
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 40
+    name: Aegis_GA
+    type: 5
+    code: Aegis_GA
+    introduce: The Military's regular combat unit equipped with standard electric weapon and military-grade shield. It excels in melee combat and is clad in very sturdy armor.
+    forces: 2
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 2
+    rate_rank: 3
+    armor_rank: 5
+    speed_rank: 3
+    range_rank: 2
+    counter: This unit has a very high armor value. Make sure your echelon has enough armor piercing capability before engaging it in combat.
+    character: "303,309,310"
+    enemy_skill: "9"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000040
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 41
+    name: Cerynitis
+    type: 4
+    code: Cerynitis
+    introduce: The Military's regular combat mech. Upgraded and modified from the "Nemeum", it is outfitted with a military-grade long-range firing system, giving it even stronger armor and higher rapid-fire capabilities.
+    forces: 2
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 5
+    rate_rank: 1
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: There is little pause between attacks from this armored unit, which deals significant damage. It is recommended to prioritize killing them with Rifle T-Dolls.
+    character: "1003,309"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000041
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 42
+    name: Dactyl
+    type: 4
+    code: Dactyl
+    introduce: The Military's small-sized mobile minelayer. It approaches enemies at high speed and distributes mines. Even if the unit itself is destroyed, the mines can still cause chaos on the battlefield.
+    forces: 2
+    pow_rank: 5
+    life_rank: 2
+    hit_rank: 4
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 5
+    counter: This unit has weak armor and high moving speed. It starts deploying mines in the early stages of battle, causing massive damage upon contact with enemy Dolls. Take care to avoid the mines or destroy this unit ASAP.
+    character: "1001,309,322"
+    enemy_skill: "19"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000042
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 43
+    name: Typhon
+    type: 4
+    code: Typhon
+    introduce: A regular military tank made for the army. It is outfitted with a powerful laser cannon that can charge up and penetrate enemy lines, dealing devastating damage. The only way to neutralize it is to approach its cumbersome form quickly and exploit its firing blind spot to destroy it ASAP.
+    forces: 2
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 6
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 3
+    range_rank: 5
+    counter: This unit has strong armor and shoots laser beams that deal multiple instances of piercing damage once it finishes charging up. However, the cannon is limited by its maximum angle of depression - its attacks can be avoided if your units approach it quickly enough. Shields can deflect some of the laser damage but is not the most effective.
+    character: "1001,1003,309,320"
+    enemy_skill: "20"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000043
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 44
+    name: M16A1
+    type: 1
+    code: M16A1_Boss
+    introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
+    forces: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 6
+    rate_rank: 6
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 6
+    counter: Depending on the gun type of the Doll marked by M16A1's detector, M16A1 will receive different buffs. When a detector is placed, consider carefully what kind of Doll you use to pick it up.
+    character: "1001,215,309"
+    enemy_skill: "81,82,83"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Nozomi Yamane,"
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 45
+    name: Agent
+    type: 1
+    code: Agent
+    introduce: In charge of liaising between Elisa and her Sangvis subordinates as well as logistics management. As a high-ranking unit adept at both combat and tactics, she's able to command all Dolls in combat, and they all directly answer to her. Calm and composed, she always speaks in a courteous tone to friends and foes alike. However, apart from the genuine respect she has for her master, she holds everyone else in low regard, especially Griffin.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: When this unit activates her shield, penetrate it by concentrating your fire to stop her high-damage attack from charging.
+    character: "1001,212"
+    enemy_skill: "77,78"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Hitomi Nabatame,"
+    spine_scale: "80,80,1"
+    org_id: 10604
+    related_story_id: 200045
+  }
+  {
+    id: 46
+    name: Strelet
+    type: 3
+    code: Strelet
+    introduce: A basic infantry unit equipped with an assault weapon system of firepower comparable to that of the Military. Despite being a mass-produced basic model, its combat capabilities far surpasses Sangvis Ferri's regular units.
+    forces: 3
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "312"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000046
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 47
+    name: Rodelero
+    type: 3
+    code: Rodelero
+    introduce: An agile heavy-fire unit equipped with a jetpack that can propel it quickly from the back of the field to the forefront. It then charges up and cuts through its enemies with a massive laser beam. It is also outfitted with a force field generator that can repel physical fire.
+    forces: 3
+    pow_rank: 3
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 3
+    rate_rank: 1
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: Its force field provides damage reduction. While your front row units are fending off its damage, also keep an eye on its penetrating attack and make sure your frail damage dealers aren't standing behind your tanks. Support from the HOC will make this fight much easier.
+    character: "309,312,320"
+    enemy_skill: "27"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000047
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 48
+    name: Doppelsoldner
+    type: 3
+    code: Doppelsoldner
+    introduce: A mech with immense firepower. Apart from the bulky armor, it is also equipped with a force field generator. It can attack with the high-velocity autocannons in both hands as well as its multiple grenade launchers, causing wide-spread damage.
+    forces: 3
+    pow_rank: 2
+    life_rank: 4
+    hit_rank: 3
+    rate_rank: 3
+    armor_rank: 4
+    speed_rank: 1
+    range_rank: 3
+    counter: The high armor and force field values give this unit significant damage reduction. It also bombards enemies with multiple grenades. Try to have T-Dolls capable of piercing armor to fire at it as much as possible before it starts attacking, or block its grenades with shield skills. Support from the HOC will make this fight much easier.
+    character: "1003,309,312,319"
+    enemy_skill: "28,29"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000048
+    spine_scale: "60,60,1"
+  }
+  {
+    id: 49
+    name: Uhlan
+    type: 4
+    code: Uhlan
+    introduce: A fearsome heavily-armored tank also equipped with a force field generator. Its only long-range weaponry is an autocannon, but it can charge into the forefront and make short work of enemy formations.
+    forces: 3
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    rate_rank: 3
+    armor_rank: 4
+    speed_rank: 3
+    range_rank: 4
+    counter: The high force field and armor values give this unit incredible damage reduction. It will charge suddenly to break the formation of your echelon so move your T-Dolls in time to evade its attacks. Support from the HOC will make this fight much easier.
+    character: "1001,309,312"
+    enemy_skill: "31,32"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000049
+    spine_scale: "50,50,1"
+  }
+  {
+    id: 50
+    name: Adeline
+    type: 1
+    code: Nyto_black
+    introduce: One of Paradeus' Nytos. Wielding a highly destructive rifle, she dances among explosions and crashes through her enemies like an angry wave. As a mass-produced model, she has the habit of suppressing her emotions. It is impossible to tell if there are human sentiments lurking beneath her cold and unfathomable facade.
+    forces: 3
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309,312"
+    enemy_skill: "45,47"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000050
+    spine_scale: "70,70,1"
+    org_id: 10603
+  }
+  {
+    id: 51
+    name: Alina
+    type: 1
+    code: Nyto_white
+    introduce: One of Paradeus' Nytos. She descends upon the battlefield like a pure white angel of death, cutting through steel and harvesting lives with her scythe. She takes pride in being one of the earliest advanced Nytos and only shows her cute and gentle side to those she deems worthy.
+    forces: 3
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309,312"
+    enemy_skill: "46,47"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Shizuka Itou,"
+    spine_scale: "70,70,1"
+    org_id: 10603
+  }
+  {
+    id: 52
+    name: ELID Infected_Armed
+    type: 3
+    code: Zombie2
+    introduce: Human soldiers affected by Collapse radiation. They have lost their reason and descended into an aggressive, rabid state. They move on instinct while wildly spraying shots from their assault rifles at anything they see, but they're no longer capable of complex actions like launching grenades.
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000052
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 53
+    name: ELID Infected_Unarmed
+    type: 3
+    code: Zombie1
+    introduce: Human soldiers affected by Collapse radiation. They have lost their weapons and attack anything that moves with their bare hands. While all they can do is flail wildly at the opposition, they possess frightening strength and speed thanks to enhancement from Collapse Fluid.
+    pow_rank: 2
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000053
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 54
+    name: BOSS Zombie
+    type: 1
+    code: Smasher
+    introduce: Human soldiers who have been severely affected and mutated by Collapse Radiation. The internal organs and dermal layers of ELID Infected show varying degrees of silicization depending on their amount of exposure. These severely-infected cases possess skin that is extremely tough and resilient to damage, in addition to being more violent and destructive than other Infected.
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 5
+    counter: This unit has balanced abilities and deals sustained, low damage to friendly units. It is unwise to engage it in a drawn-out fight. Confront it with an echelon that has adequate overall combat effectiveness.
+    character: "1001,301"
+    enemy_skill: "57,58"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000054
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 55
+    name: Prowler_SWAP
+    type: 2
+    code: Prowler_SWAP
+    introduce: An upgraded version of the Prowler. The weak firepower and low mobility have been compensated, making it fully viable in direct confrontations that involve intense crossfires.
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 1
+    hit_rank: 1
+    dodge_rank: 1
+    rate_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000055
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 56
+    name: Jaeger_SWAP
+    type: 3
+    code: Jaeger_SWAP
+    introduce: An upgraded version of the Jaeger. With improved firepower and accuracy as well as better survivability, it has become an even more formidable enemy.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "1003,307"
+    enemy_skill: "5"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000056
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 57
+    name: Guard_SWAP
+    type: 3
+    code: Guard_SWAP
+    introduce: An upgraded version of the Guard. Both its shield and short-range weaponry have been enhanced, further improving its already outstanding defensive capabilities.
+    forces: 1
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 5
+    hit_rank: 3
+    dodge_rank: 1
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 2
+    counter: This melee unit has strong defensive capabilities but deals negligible damage. Most of the threat comes from other damage-oriented units, so it is recommended to pick Dolls of suitable gun types to deal with the units behind the Guards first.
+    character: "303,310"
+    enemy_skill: "4"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000057
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 58
+    name: Dragoon_SWAP
+    type: 3
+    code: Dragoon_SWAP
+    introduce: An upgraded version of the Dragoon. Both the transportational mech and assault weaponry have been enhanced, making its overall improvement the most significant out of all Sangvis units. Confront with caution.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1003,304"
+    enemy_skill: "7"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000058
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 59
+    name: Striker_SWAP
+    type: 3
+    code: Striker_SWAP
+    introduce: An upgraded version of the Striker. With improved firepower and sturdier armor, it deals more damage and is more effective in suppressing enemy fire.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
+    character: "308"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000059
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 60
+    name: Aegis_SWAP
+    type: 5
+    code: Aegis_SWAP
+    introduce: An upgraded version of the Military Aegis hacked by Sangvis Ferri. Outfitted with contemporary high-spec military armor and a reinforced shield, its melee combat capabilities also see a devastating improvement.
+    forces: 1
+    if_capture: 1
+    pow_rank: 2
+    life_rank: 5
+    hit_rank: 2
+    rate_rank: 3
+    armor_rank: 5
+    speed_rank: 2
+    range_rank: 2
+    counter: This armored unit can withstand a lot of damage. It is recommended that you prioritize killing the damage dealers behind its cover.
+    character: "303,309,310"
+    enemy_skill: "9"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000060
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 61
+    name: Mercurows
+    type: 1
+    code: Nyto_Silver
+    introduce: One of the "Nytos" in the mysterious faction. Very little is known about her. Nimogen addresses her as her younger sister. An enthusiast in human poetry, she seems to have unique tastes and sentimentality regarding the subject.
+    forces: 3
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 4
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309,312"
+    enemy_skill: "42,43"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 62
+    name: Nimogen
+    type: 1
+    code: Nyto_Gold
+    introduce: One of the "Nytos" in the mysterious faction. Mercurows addresses her as her elder sister. Very respectful towards "Father". Little else is known about her.
+    forces: 3
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309"
+    enemy_skill: "41"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000062
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 63
+    name: Gladiator
+    type: 3
+    code: Roarer
+    introduce: A unit abandoned in Tallinn. It attacks as a melee unit equipped with heavy armor. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 3
+    dodge_rank: 2
+    rate_rank: 2
+    armor_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: This unit has moderate armor and force field values. Though its initial damage reduction is insignificant, the force field will keep regenerating and getting stronger, so a prolonged battle is not a good idea if your echelon is incapable of breaking through its defenses. HOC support is strongly recommended.
+    character: "309,312,316"
+    enemy_skill: "34,35,140"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000063
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 64
+    name: Patroller
+    type: 4
+    code: Thunder
+    introduce: A unit abandoned in Tallinn. It attacks with its underslung cannon and jumps to dodge attacks. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: This unit has high armor and force field values as well as incredible evasion, Pay attention to the timing for dealing meaningful damage. T-Dolls with sniping skills that give guaranteed hits are recommended.
+    character: "1001,309,310,315"
+    enemy_skill: "36,37,38"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000064
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 65
+    name: Gunner
+    type: 3
+    code: StreletPlus
+    introduce: A unit abandoned in Tallinn. Very similar to the Strelet but this one possesses even higher firepower and will lower the evasion of enemy Dolls with special ammo. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 1
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1003,312,316"
+    enemy_skill: "39"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000065
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 66
+    name: Abandoned Isomer
+    type: 3
+    code: Isomer
+    introduce: A unit abandoned in Tallinn. It has no offensive capabilities on its own but can stun surrounding enemies. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 1
+    life_rank: 4
+    hit_rank: 1
+    dodge_rank: 5
+    rate_rank: 4
+    speed_rank: 1
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "303"
+    enemy_skill: "40"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000066
+    spine_scale: "75,75,1"
+  }
+  {
+    id: 67
+    name: Pyxis
+    type: 2
+    code: Pyxis
+    introduce: A tenacious light mortar equipped with a rapid-firing weapon system that's almost military-grade. As a basic, mass-produced combat unit, it is immobile once deployed and often used to provide suppressive fire.
+    forces: 3
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 3
+    rate_rank: 5
+    armor_rank: 2
+    range_rank: 5
+    counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
+    character: "309,308"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000067
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 68
+    name: Failed Isomer
+    type: 1
+    code: Nyto_Isomer_White
+    introduce: An Isomer who has merged with Nimogen's neural cloud and taken over her body in Tallinn. She wishes to lead all Isomers in Tallinn in "leaving this place". After the arrival of the Commander's forces in Tallinn, she designates M4 as the "Qualifier" who can guide their departure.
+    forces: 3
+    pow_rank: 7
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 4
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,309,911"
+    enemy_skill: "44"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000068
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 69
+    name: RecceCentre
+    type: 2
+    code: RecceCentre
+    introduce: The Military's micro factory for producing Pathfinders. It has little combat capabilities of its own and moves rather slowly, but it's usually protected by a large amount of defensive units.
+    forces: 2
+    life_rank: 6
+    armor_rank: 4
+    counter: This unit with strong armor constantly spawns Pathfinders. Assault Rifle T-Dolls will have a hard time taking it down so Rifle T-Dolls are recommended.
+    character: "309,321"
+    enemy_skill: "21"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000069
+    spine_scale: "40,40,1"
+  }
+  {
+    id: 70
+    name: Pathfinder
+    type: 2
+    code: Pathfinder
+    introduce: Pathfinder: An orb-shaped unit produced by the RecceCentre. Its combat capabilities depend on the RecceCentre's configuration. Equipped with basic firepower, it is fragile but also very nimble. Suited for mass production.
+    forces: 2
+    pow_rank: 4
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: This unit has a certain amount of armor and high accuracy but deals little damage. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "303,309"
+    enemy_skill: "22"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000070
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 71
+    name: Centaurus
+    type: 3
+    code: Archer
+    introduce: The Military's regular combat unit that fires special arrows with exploding arrowheads. It is a well-trained elite unit with an ultra long firing range and high accuracy.
+    forces: 2
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 2
+    range_rank: 4
+    counter: This unit deals continuous burning damage to flagged positions. Move your T-Dolls in time to evade its attacks.
+    character: "1003,325"
+    enemy_skill: "23"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000071
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 72
+    name: Orthrus
+    type: 2
+    code: Beast
+    introduce: The Military's regular combat mech. It is a heavy tank-type melee unit commonly used to bulldoze enemy formations and take pressure off the front row. It's rugged and sturdy, but its attacks are repetitive and predictable, so it's only good as a meat shield.
+    forces: 2
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 6
+    range_rank: 2
+    counter: This unit possesses some armor and moves at high speed. When its shield is activated, all damage it takes is minimized, so it is recommended to either kill it with rapid fire or take it down in multiple phases when the shield is down.
+    character: "310"
+    enemy_skill: "24"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000072
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 73
+    name: Minotaurus
+    type: 5
+    code: TeslaTrooper
+    introduce: A high-spec military mech made for the army. Equipped with heavy armor and a missile launcher, making it very well-rounded.
+    forces: 2
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 3
+    dodge_rank: 1
+    rate_rank: 2
+    armor_rank: 5
+    speed_rank: 2
+    range_rank: 1
+    counter: This unit with strong armor and low moving speed launches multiple small missiles in a wide-area bombardment. When the warning appears, move your T-Dolls in time to avoid taking damage.
+    character: "303,309,313"
+    enemy_skill: "26,33"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000073
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 74
+    name: Argonauts - Carina
+    type: 2
+    code: GustafL_3
+    introduce: The front section of the high-spec military railway cannon made for the army.
+    forces: 2
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    range_rank: 5
+    counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
+    character: "908,910,326"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000074
+    spine_scale: "-15,15,1"
+  }
+  {
+    id: 75
+    name: Argonauts - Vela
+    type: 2
+    code: GustafL_2
+    introduce: The middle section of the high-spec military railway cannon made for the army.
+    forces: 2
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    range_rank: 5
+    counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
+    character: "908,910,326"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000075
+    spine_scale: "-15,15,1"
+  }
+  {
+    id: 76
+    name: Argonauts - Puppis
+    type: 2
+    code: GustafL_1
+    introduce: The rear section of the high-spec military railway cannon made for the army.
+    forces: 2
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    range_rank: 5
+    counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
+    character: "908,910,326"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000076
+    spine_scale: "-15,15,1"
+  }
+  {
+    id: 77
+    name: Kratos
+    type: 4
+    code: Kratos
+    introduce: A special unit produced by the Military which has a massive body and great strength. It is suited for overwhelming assaults and excels as both a meat shield and formation breaker.
+    forces: 2
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    armor_rank: 5
+    speed_rank: 4
+    range_rank: 2
+    counter: It possesses high armor and can attack enemy units in both the front and back rows. Keep a safe distance between your front and back rows.
+    character: "1001,303,309,310"
+    enemy_skill: "48,49,50"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000077
+    spine_scale: "50,50,1"
+  }
+  {
+    id: 78
+    name: Acheron
+    type: 4
+    code: Acheron
+    introduce: Special equipment developed by the Military. It resembles a lamp post and deploys after reaching a designated location, whereupon it generates a defensive force field. Typically assigned to where its abilities are needed.
+    forces: 2
+    life_rank: 5
+    armor_rank: 4
+    counter: This unit grants friendly units a shield of a certain value. Its presence is not favorable to attackers who only target specific parts of the enemy formation or for attackers who deal damage over a long time. It is recommended to use HOCs or units which target the backlines.
+    character: "1001,309,310"
+    enemy_skill: "51"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000078
+    spine_scale: "60,60,1"
+  }
+  {
+    id: 79
+    name: Coeus
+    type: 4
+    code: Coeus
+    introduce: A special mech produced by the Military. It is equipped with compact, explosive firepower and possesses a certain degree of mobility, making it something like a trump card used to tactically suppress the opposition with its unmatchable superiority in specs.
+    forces: 2
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 3
+    counter: This unit possesses a certain degree of armor, so make sure your echelon has enough armor piercing and try to maximize your defenses in the front row. In addition, take care to move units targeted by its powerful cannon shot to prevent your backliners from taking damage.
+    character: "1001,1003,309,317,316"
+    enemy_skill: "52,53"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000079
+    spine_scale: "40,40,1"
+  }
+  {
+    id: 80
+    name: AA-02 Sinner
+    type: 1
+    code: Ares
+    introduce: An elite mech produced by the Military, originally meant to be piloted by a certain officer. Possesses outstanding performance and is equipped with powerful weapons. Even without its massive cannon it can still attack with guided missiles. It is also equipped with a shield for defense. This tactical mech, known as "Sinner", confers overwhelming dominance of the entire battlefield.
+    forces: 2
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 7
+    counter: This heavily-armored unit deals high damage to flagged positions. When shielded, it suffers flat damage from feedback if its shield is penetrated. Move your Dolls in time to avoid taking damage.
+    character: "1001,309,326,316"
+    enemy_skill: "93,94,95"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000080
+    spine_scale: "40,40,1"
+  }
+  {
+    id: 81
+    name: Elisa
+    type: 1
+    code: Eliza_boss
+    introduce:
+      '''
+      A high-end AI developed by Lyco. The commander only has to give a simple order and the mainframe "Elisa" will automatically compute a sensible plan of action. This high-end AI mainframe is furnished with a team of dedicated Dolls, which can be remotely commanded through the network to carry out her plans.
+       However, she is not a simple AI program. Lyco's ultimate aim was to create an artificial consciousness, a perfect AI that could think and feel like a human being. After the Butterfly Incident, "Elisa" gained a physical body and took command of all S.F. Dolls. In order to avenge her father Lyco, she attacked all humans and non-S.F. Dolls on sight. At the same time, she hopes to become the perfect AI in Lyco's mind - that is to say, she wants a mind that is the same as a human being's - and so she has begun looking for a sample of the perfect AI among her father's files.
+      '''
+    forces: 1
+    pow_rank: 7
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    range_rank: 5
+    counter: The Reverse Collapse effect might render your Dolls unable to fight, but floating in the air is also a form of protection. Make use of this to evade otherwise unavoidable damage!
+    character: "1001,900"
+    enemy_skill: "85,86,87"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000081
+    spine_scale: "60,60,1"
+  }
+  {
+    id: 82
+    name: Crab Cannon
+    type: 4
+    code: Hydra_beach
+    introduce: An autonomous weapon that a certain military enterprise spent a sky-high budget to develop. Meticulously designed to disguise itself as a creature, but other than looking bigger, it isn't anything special. The manufacturer denies this to be the main reason of its going defunct.
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    rate_rank: 4
+    armor_rank: 6
+    speed_rank: 1
+    range_rank: 2
+    counter: Best to avoid this if your echelon is not in good condition.
+    character: "309,301"
+    enemy_skill: "10018"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000082
+    spine_scale: "60,60,1"
+  }
+  {
+    id: 83
+    name: Mechanical Crab
+    type: 4
+    code: landmine_beach
+    introduce: An old autonomous weapon developed by a certain military enterprise. The initial idea was to camouflage it as a creature, but they went a bit overboard and it ended up becoming "highly aggressive mechanical seafood". The design got rejected.
+    pow_rank: 5
+    life_rank: 2
+    hit_rank: 4
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 5
+    counter: This very mobile unit is equipped with light armor. It rapidly lays explosive starfish at the start of the battle, which deal massive damage to enemies who trigger them. Avoid the starfish mines or destroy the unit as soon as possible.
+    character: "1001,309,322"
+    enemy_skill: "10019"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000083
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 84
+    name: Watermelon House
+    type: 2
+    code: RecceCentre_beach
+    introduce: An old autonomous weapon manufactured by a certain military enterprise. A facility for producing Faux Watermelons, but the development progress was hindered by unsuspecting tourists.
+    life_rank: 6
+    armor_rank: 4
+    counter: Equipped with strong armor and keeps churning out watermelon-shaped units. Assault Rifle T-Dolls cannot handle them too well. Rife T-Dolls are recommended.
+    character: "309,321"
+    enemy_skill: "10021"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000084
+    spine_scale: "40,40,1"
+  }
+  {
+    id: 85
+    name: Faux Watermelon
+    type: 2
+    code: Pathfinder_beach
+    introduce: An old autonomous weapon developed by a certain military enterprise. The original idea was to deceive enemies by disguising it as tasty food, which resulted in an accident in which a tester mistook it as real food and attempted to cut it open.
+    pow_rank: 4
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: This unit has a certain amount of armor and high accuracy but deals little damage. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "303,309"
+    enemy_skill: "10022"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000085
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 86
+    name: Ripper SWAP
+    type: 3
+    code: Ripper_SWAP
+    introduce: A vastly upgraded Ripper features massive improvement to both its firepower and mobility. It sports a new uniform and hair color to cut all ties with the past.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 6
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit will gain a certain amount of protection when receiving fatal damage. Be prepared for a battle of attrition.
+    character: "1001,303"
+    enemy_skill: "88,90,92"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000086
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 87
+    name: Cocktail Addict
+    type: 3
+    code: Cocktail
+    introduce: A dangerous person in the streets., Throws Molotov cocktails that deal continuous burning damage to enemies.
+    pow_rank: 3
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,300"
+    enemy_skill: "10087"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000087
+  }
+  {
+    id: 88
+    name: Fanatical Assaulter
+    type: 3
+    code: Cottoncaper
+    introduce: A dangerous person that charges at the forefront with appalling courage.
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,300"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000088
+  }
+  {
+    id: 89
+    name: Mercenary Rifle Shooter
+    type: 3
+    code: Hiresniper
+    introduce: An experienced mercenary who keeps his distance and snipes enemies.
+    pow_rank: 3
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "1001,307"
+    enemy_skill: "10005"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000089
+  }
+  {
+    id: 90
+    name: Indebted Assassin
+    type: 3
+    code: Swordsman
+    introduce: Wields a sharp blade, very athletic.
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 2
+    counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
+    character: "1001,303"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000090
+  }
+  {
+    id: 91
+    name: Carcano M91/38
+    type: 1
+    code: CarcanoEnemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit will flag areas on the battlefield, causing units standing on such areas to lose the ability to attack but also gain a shield that provides additional defense. It is beneficial to move your damage dealers out of the flagged areas and instead let your tanks bear the mark.
+    character: "1001,307,316"
+    enemy_skill: "10191,10091"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000091
+  }
+  {
+    id: 92
+    name: Henrietta
+    type: 1
+    code: HenEnemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: Avoid engaging this unit in battle.
+    character: "1001,301"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000092
+  }
+  {
+    id: 93
+    name: Rico
+    type: 1
+    code: RicoEnemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 5
+    counter: Avoid engaging this unit in battle.
+    character: "1001,301"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40000093
+  }
+  {
+    id: 94
+    name: Vespid_SWAP
+    type: 3
+    code: Vespid_SWAP
+    introduce: An upgraded version of Vespid that can do a significant amount of damage to enemies. It sports a new helmet and set of armor to highlight the difference in power between itself and the older model.
+    forces: 1
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is capable of dealing significant damage to your forces. Take that into consideration when arranging your echelon.
+    character: "1001,300"
+    enemy_skill: "89,91"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000094
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 95
+    name: Brute_SWAP
+    type: 3
+    code: Brute_SWAP
+    introduce: An upgraded version of Brute that poses a significant threat to armored enemies.
+    forces: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 2
+    counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
+    character: "1003,303,315"
+    enemy_skill: "54,55"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000095
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 96
+    name: Nemeum_SWAP
+    type: 4
+    code: Nemeum_SWAP2
+    introduce: An upgraded version of Nemeum whose high accuracy makes it hard to evade its attacks.
+    forces: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    rate_rank: 2
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: This armored unit is mainly a damage dealer on the back row. It has a low rate of fire but high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "1003,309,307"
+    enemy_skill: "56"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 97
+    name: Wandering Refugee
+    type: 3
+    code: refugee_hg
+    introduce: Human stragglers infected by Collapse Fluid radiation who still retain some level of sanity. They fight enemies using small arms and light weapons.
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 98
+    name: Rampaging Refugee
+    type: 3
+    code: refugee_smg
+    introduce: Human stragglers infected by Collapse Fluid radiation who have become ferocious and blood-thirsty due to their severe condition. They will not give up until they have destroyed their enemies.
+    pow_rank: 3
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 4
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 99
+    name: Goliath Factory
+    type: 2
+    code: Golyat_Factory
+    introduce: A mobile Sangvis weapon factory that can keep churning out self-detonating Goliaths. The longer it remains on the battlefield, the more threatening it is.
+    forces: 1
+    if_capture: 1
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 7
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 1
+    counter: WARNING! Make sure your echelon has enough damage output to neutralize this unit, otherwise avoid it.
+    character: "309,321"
+    enemy_skill: "21"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000099
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 101
+    name: Pumpkin Ripper
+    type: 3
+    code: Ripper_Halloween
+    introduce: A festive special-edition Sangvis Dummy equipped with short-range submachine weapons and somewhat useless protective gear on the head. It is fairly mobile and often takes part in battles as a jack-o'-lantern carver or patrol that uses a jack-o'-lantern as illumination.
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000101
+    spine_scale: "90,90,1"
+  }
+  {
+    id: 102
+    name: Phantom Jaeger
+    type: 3
+    code: Jaeger_Halloween
+    introduce: A festive special-edition Sangvis Dummy armed with a long-ranged sniper weapon with high firepower and accuracy. Even though it has meticulously peppered itself with phosphorus powder to appear luminous, that does nothing to change its fragile nature.
+    pow_rank: 3
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "307"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000102
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 103
+    name: Witch Dragoon
+    type: 3
+    code: Dragon_Halloween
+    introduce: A festive special-edition Sangvis Dummy equipped with an experimental hover-transport device, an anti-grav wide-brimmed hat, and an assault rifle. With its considerable firepower, attack range, and mobility, it often plays the part of scaring Destroyer and getting bombed.
+    pow_rank: 3
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "304"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 104
+    name: Demonic Knight
+    type: 5
+    code: Aegis_Halloween
+    introduce: Once a valiant knight who has fought in countless battles, he turned into a Demonic Knight after a demon possessed his body. Even though he has lost all his memories, he still vaguely remembers there is something he must protect.
+    pow_rank: 2
+    life_rank: 4
+    hit_rank: 2
+    rate_rank: 3
+    armor_rank: 5
+    speed_rank: 2
+    range_rank: 2
+    counter: This unit has a very high armor value. Make sure your echelon has enough armor piercing capability before engaging it in combat.
+    character: "303,309"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 105
+    name: Demonic Steed
+    type: 4
+    code: Nemeum_Halloween
+    introduce: Once a fearless war horse, it turned into a Demonic Steed after a demon possessed its body. Even though it has lost all its memories, it still vaguely remembers there is something it must protect.
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 5
+    rate_rank: 1
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: This armored unit is mainly a damage dealer on the back row. It has a low rate of fire but high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "309"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 106
+    name: Xmas Dinergate
+    type: 2
+    code: Dinergate_chm1
+    introduce: A low-tier Sangvis celebratory unit that has relatively low transporting capacity, but with the reindeer's help, it's mostly used in enhancing the Christmas atmosphere. If its preset route is blocked, it will crash through a wall to deliver presents if it has to, so please do not arbitrarily change the location of your door.
+    pow_rank: 5
+    life_rank: 1
+    hit_rank: 5
+    rate_rank: 2
+    speed_rank: 5
+    range_rank: 2
+    counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000106
+  }
+  {
+    id: 107
+    name: Dinereindeer
+    type: 2
+    code: Dinergate_chm2
+    introduce: A low-tier Sangvis transportational unit mostly used in enhancing the Christmas atmosphere. If its preset route is blocked, it will crash through a wall to deliver presents if it has to, so please do not arbitrarily change the location of your door.
+    pow_rank: 5
+    life_rank: 1
+    hit_rank: 5
+    rate_rank: 2
+    speed_rank: 5
+    range_rank: 2
+    counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000107
+  }
+  {
+    id: 108
+    name: Gingerbread Guard
+    type: 3
+    code: Guard_chm
+    introduce: A high-tier Sangvis holiday unit equipped with a gingerbread shield and candy cane. As its appearance suggests, it is very sugary. It is mostly used to defend the very important kitchen or to intercept Dreamer, who slips in to steal candy while using Destroyer as a diversion.
+    if_capture: 1
+    pow_rank: 1
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 1
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 2
+    counter: This melee unit has strong defensive capabilities but deals negligible damage. Most of the threat comes from other damage-oriented units, so it is recommended to pick Dolls of suitable gun types to deal with the units behind the Guards first.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 109
+    name: Narcissus
+    type: 1
+    code: Narciss
+    introduce: One of Paradeus' Nytos. Her failure in certain aspects makes her much stronger than her fellow Nytos in combat. She attacks like a violent storm, tearing down all enemies in her path and finding joy in destruction.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit can switch between melee and ranged attack modes. If all seven hover blades are destroyed, this unit will switch from ranged to melee attacks. In melee mode, this unit poses an extreme threat to enemies with few Dummy-Links.
+    character: "1001,329,330"
+    enemy_skill: "108,109,110"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 110
+    name: Gray
+    type: 1
+    code: Mrsgray
+    introduce: One of Paradeus' Nytos. A medical expert who is cool-headed and calculating. She is good at making use of everything that will give her an edge, as well as weakening her enemies to give herself an advantage.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit poses a continuous threat by calling in reinforcements. It can diminish enemies' damage output through multiple skills and debuffs. Bursting it down swiftly may be the best strategy.
+    character: "1001,316,328,326"
+    enemy_skill: "113,114,115"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 111
+    name: Morridow
+    type: 1
+    code: Morridow_nor
+    introduce: One of Paradeus' Nytos. Cunning, ruthless, and capricious.
+    forces: 3
+    speed_rank: 5
+    counter: Morridow does not seem to have any plans of fighting us. Prepare to engage other dangerous Nytos.
+    character: "1001,900"
+    enemy_skill: "116"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 112
+    name: Morridow
+    type: 1
+    code: Morridow
+    introduce: One of Paradeus' Nytos. Cunning, ruthless, and capricious. An unfathomable spokesperson who sets traps like a spider - she doesn't show herself until she attacks.
+    forces: 3
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 1
+    speed_rank: 6
+    range_rank: 2
+    counter: The unit hinders enemy movements and approaches at high speed, dealing massive damage to enemies. When she attacks, her allies are left completely vulnerable. This is the time to launch an effective retaliation.
+    character: "1001,316,329"
+    enemy_skill: "111,112"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 113
+    name: Agent
+    type: 3
+    code: Plaincloth
+    introduce: Members of the Stasi who are deployed here on a certain mission. They specialize in tracking and survival. You're only worth something if you're alive - they know this only too well.
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    range_rank: 4
+    counter: This unit can move past all units to reach the enemy backline. When there are others in front of this unit, it will gain a huge buff in evasion. Wipe out all units on the enemy frontline swiftly or deploy units with high accuracy.
+    character: "1001,327"
+    enemy_skill: "100,101"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 114
+    name: Rioter
+    type: 3
+    code: Mobster
+    introduce: Gangsters active in the old town. The law is a complete joke to them; people in the underbelly of society have their own set of rules. They throw haphazard DIY weapons at enemies and are absolutely confident that their projectiles will hit the closest target.
+    pow_rank: 4
+    life_rank: 2
+    hit_rank: 2
+    dodge_rank: 2
+    rate_rank: 2
+    speed_rank: 6
+    range_rank: 3
+    counter: This unit deals large unavoidable damage to the closest target. Keep a safe distance away from him and steer clear of the Molotov cocktails' effective range.
+    character: "426"
+    enemy_skill: "102,103"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 115
+    name: Defender
+    type: 3
+    code: Punish
+    introduce: A melee unit that charges across the battlefield with a heavy shield and an assault weapon.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 6
+    range_rank: 3
+    counter: This unit takes reduced damage while it is on the move. Kill it swiftly once it reaches your echelon and stops moving.
+    character: "427"
+    enemy_skill: "104"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 116
+    name: Hymnal Organ
+    type: 2
+    code: Cherub
+    introduce: A specialized combat unit that continuously attacks enemies with high HP using a laser beam. The attack is monotonous but concentrated and can lethally penetrate enemy formations.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 3
+    counter: This unit does extra damage to enemies with few Dummy-Links. Deploy units with sufficient Dummy-Links.
+    character: "1003,331,332"
+    enemy_skill: "105"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 117
+    name: Quill of Patmos
+    type: 2
+    code: Visjnoe
+    introduce: A tactical device set up on the battlefield that reacts to all mechanical units, including T-Dolls. It removes enemies buffs as well as clears negative status effects on allies - very bad news as an enemy support unit.
+    forces: 3
+    pow_rank: 3
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 3
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: While this unit is present on the battlefield, it will continuously remove buffs on its enemies while clearing debuffs on its allies. Deploy echelons whose damage output does not rely on buffs against this unit.
+    character: "1003,428,429"
+    enemy_skill: "106,107"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 118
+    name: Gladiator
+    type: 3
+    code: Roarer_New
+    introduce: A large, heavily-armored melee unit related to the mysterious faction.
+    forces: 3
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 3
+    dodge_rank: 2
+    rate_rank: 2
+    armor_rank: 3
+    speed_rank: 2
+    range_rank: 2
+    counter: This unit has moderate armor and force field values. Though its initial damage reduction is insignificant, the force field will keep regenerating and getting stronger, so a prolonged battle is not a good idea if your echelon is incapable of breaking through its defenses. HOC support is strongly recommended.
+    character: "309,312,316"
+    enemy_skill: "34,35,140"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 119
+    name: Patroler
+    type: 4
+    code: Thunder_New
+    introduce: This unit attacks with the cannon mounted on its lower section and leaps to evade attacks. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: This unit has high armor and force field values as well as incredible evasion, Pay attention to the timing for dealing meaningful damage. T-Dolls with sniping skills that give guaranteed hits are recommended.
+    character: "1001,309,310,315"
+    enemy_skill: "36,37,38"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "50,50,1"
+  }
+  {
+    id: 120
+    name: Gunner
+    type: 3
+    code: Soldier_New
+    introduce: A unit very similar to the Stretlet, but with improved firepower and uses special ammo that reduces enemies' evasion. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 1
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1003,312,316"
+    enemy_skill: "39"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 121
+    name: Corpse Bride
+    type: 3
+    code: Vespid_bride
+    introduce: In the silent mansion, a resplendent wedding dress is possessed by strong, lingering resentment. Do not let her beauty bewitch you - remember to dodge if she throws her bouquet at you.
+    if_capture: 1
+    pow_rank: 3
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 122
+    name: Phantom
+    type: 3
+    code: Brute_Ghost
+    introduce: In the silent mansion, one can sometimes hear eerie, echoing weeping. Watch out for the white glint as you turn a corner - it's bad news, whether it's the phantom himself or his blade.
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 2
+    counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 123
+    name: Great White Playground
+    type: 2
+    code: RecceCentreSwim
+    introduce: An illegal military weapon camouflaged as a shark-themed amusement park to facilitate smuggling. Its primary function is the production of Shark Volleyballs. Its cute exterior makes it popular with kids while being transported in disguise.
+    life_rank: 6
+    armor_rank: 4
+    counter: A heavily armored unit that produces an endless stream of Shark Volleyballs. AR Dolls are not very suitable for dealing with them. The use of RF Dolls is suggested instead.
+    character: "309,321"
+    enemy_skill: "21"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "40,40,1"
+  }
+  {
+    id: 124
+    name: Shark Volleyball
+    type: 2
+    code: PathfinderSwim
+    introduce: An illegal military weapon camouflaged as a volleyball to facilitate smuggling. Its disguise is so good that accidents where people have ended up serving "explosive spikes" have occurred whiel they were being transported.
+    pow_rank: 4
+    life_rank: 2
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: This unit has a certain amount of armor and high accuracy but deals little damage. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "303,309"
+    enemy_skill: "22"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 125
+    name: Oceanic Bartender
+    type: 3
+    code: CyclopsSwim
+    introduce: A service Doll specialized for use on ocean cruises. Combines the functions of a server and a bodyguard and can switch between modes to suit the situation. They can also be switched to manual control when necessary.
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 4
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,319"
+    enemy_skill: "16"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 126
+    name: Architect - NVW Model
+    type: 1
+    code: BossArchitect_Summer
+    introduce: Architect - Naval Warfare Specialized Model, NVW Model for short, is a naval warfare Doll body that IOP created by breaking down and making modifications to an abandoned Sangvis project. When not on the seaside, Architect will alter her surroundings into a naval environment with stored materials before entering combat. Constructing suitable battle fronts is an architect's job, after all.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: After her switch to a naval combat body, Architect has greater field engineering abilities, while her firepower and command abilities have also been incrementally improved.
+    character: "1001,208,309"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "85,85,1"
+    org_id: 10603
+  }
+  {
+    id: 127
+    name: Professional Bodyguard
+    type: 3
+    code: guard_katsura
+    introduce: A professional bodyguard hired to provide protection services. They have been rigorously trained and is both very skilled and very loyal.
+    pow_rank: 1
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "430"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 128
+    name: Veteran Bodyguard
+    type: 3
+    code: guard_bald
+    introduce: A professional bodyguard hired to provide protection services. They have been rigorously trained and is both very skilled and very loyal. They are among the most skilled in their field and their greater strength is immediately obvious through their distinctive characteristics.
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 6
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit is very capable, please use the appropriate strategies against her.
+    character: "1001,430"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 129
+    name: Staff of Aesclepius
+    type: 3
+    code: Obelisk_partB
+    introduce: A heavy firepower Doll unit that uses a machine gun. The machine gun they carry charges up and then fires three plasma beams, which can both cause blindness and ignore evasion to some extent. Their power is greatly improved when combined with the Dish of Aceso.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 1
+    range_rank: 4
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,1003,335,320"
+    enemy_skill: "130"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 130
+    name: Dish of Aceso
+    type: 2
+    code: Obelisk_partA
+    introduce: A specialized combat unit that uses a machine gun. They fire plasma beams at their target and ignore its evasion to some extent. Their power is greatly improved when combined with the Staff of Aesclepius..
+    forces: 3
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 3
+    rate_rank: 5
+    armor_rank: 2
+    range_rank: 5
+    counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
+    character: "1001,320"
+    enemy_skill: "129"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "50,50,1"
+  }
+  {
+    id: 131
+    name: Warden
+    type: 3
+    code: Riotguard
+    introduce: A security unit with great suppressive power. They often deploy in groups, using their shields to pressure the enemy along with their taser batons.
+    forces: 3
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 2
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: This is a melee unit that will continually buff its defense if left to its own devices. Please take care to use the appropriate gun types against them.
+    character: "431"
+    enemy_skill: "117"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 132
+    name: Maccabee
+    type: 5
+    code: Metalmax
+    introduce: A powerful and heavily-armored melee unit that deals devastating strikes to lighter targets with the hammer it wields.
+    forces: 3
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 4
+    rate_rank: 2
+    armor_rank: 7
+    speed_rank: 3
+    range_rank: 2
+    counter: This unit has very high armor. Please ensure our forces have adequate armor-piercing ability before engaging it.
+    character: "334,432"
+    enemy_skill: "118"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 133
+    name: Hannibal
+    type: 5
+    code: Executioner
+    introduce: A special heavy mech unit produced by Paradeus that possessess the most advanced melee weaponry and armor. Its selling point is being hard to destroy and devastating combat power.
+    forces: 3
+    pow_rank: 4
+    life_rank: 6
+    hit_rank: 3
+    rate_rank: 3
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit has very high health and can do massive damage to units with few dummy links. Please take note of this and engage them with appropriate echelons.
+    character: "302,310,433"
+    enemy_skill: "119,120,121"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    id: 134
+    name: Grenadier
+    type: 3
+    code: Grenadier
+    introduce: A light Doll unit that primarily fights with thrown weapons. They use thrown grenades to deal massive damage in an area.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit is equipped with specialized weapons and can meet the needs of various battlefields. In particular, it does very high damage to friendly mechanical units.
+    character: "1003,434,435"
+    enemy_skill: "122,123"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 135
+    name: Murat
+    type: 5
+    code: Mastersergeant
+    introduce: A new model of command unit equipped with powerful sensors. It can give clear and effective orders to its subordinates, but its personal combat power might need some improvement.
+    forces: 3
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 5
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit is an enemy tactical mastermind which will constantly buff the enemy's fighting power, so it is recommended to kill it as a priority. Killing it will reduce the enemy's combat power for a while.
+    character: "1001,1003,436,437"
+    enemy_skill: "124,125,139"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    id: 136
+    name: Machlian
+    type: 1
+    code: Rogue_M
+    introduce: This long-lost Bohnsdorf maiden is the very picture of life as she stands before you, as though she had never passed away.
+    forces: 3
+    pow_rank: 1
+    life_rank: 1
+    hit_rank: 1
+    dodge_rank: 1
+    rate_rank: 1
+    speed_rank: 1
+    range_rank: 1
+    counter: A fragile girl awaits her salvation. Are you the fated person that she has been looking forward to for so long?
+    character: "1001"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 137
+    name: Elusinian Mysteries
+    type: 1
+    code: Obelisk
+    introduce: A machine gun unit with ferocious firepower, equipped with a dual machine gun system that can blind opponents. It converts the Box of Iaso placed within it into plasma beams which it fires, allowing it to simultaneously attack many units and contaminate the ground within its attacks' area of effect.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit has bombardment capabilities at high health and places great survival pressure on friendly units. It is recommended that you deal with it swiftly.
+    character: "1001,335,320,309"
+    enemy_skill: "126,127,128"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "50,50,1"
+  }
+  {
+    id: 138
+    name: Grig
+    type: 1
+    code: Teal
+    introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit has terrifying killing and sustained combat ability. Friendly units with strong DPS should take care that she does not lock onto them.
+    character: "1001,216,440"
+    enemy_skill: "131,132,133,134"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 139
+    name: Bramedb
+    type: 1
+    code: Bramede
+    introduce: An elite Paradeus unit, she is extremely charming and can easily break down her opponent's defense. She is still seductive even in her combat mode. She is skilled at confusing the hearts and neural clouds of humans and Dolls and possesses extremely high electronic warfare abilities. She can steal information while hacking a Doll's neural cloud and even cause them to crash.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit has the ability to steal neural clouds. Avoid being the target of her connections.
+    character: "1001,438,439"
+    enemy_skill: "135,136,137,138"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "60,60,1"
+  }
+  {
+    id: 140
+    name: Intruder - Sorceress of the End
+    type: 1
+    code: Intruder_Halloween
+    introduce: Intruder - Sorceress of the End is a Doll body specializing in military encounters that IOP created from simulation data gathered by extensive analysis and experimentation on Intruder. With new technology applied to her emotion module, not only does the Sorceress of the End model possess immense command and support capabilities, she can also instill crippling fear in her enemies' minds on a small battlefield, effectively destroying their morale.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: Now that Intruder has switched to a witch-type body, she has greater combat support abilities, and both her firepower and command abilities have received an incremental upgrade.
+    character: "1001,204"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "75,75,1"
+    org_id: 10602
+  }
+  {
+    id: 141
+    name: CAWS
+    type: 3
+    code: HKCAWS_XmasEnemy
+    introduce: I'm back from my gift shopping, please pay me for 119 presents... You want to know why you don't have to pay for the last one? That's because it's my gift to you.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is very capable, please use the appropriate strategies against her.
+    character: "100,441"
+    enemy_skill: "141"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 142
+    name: VSK-94
+    type: 3
+    code: VSK_XmasEnemy
+    introduce: I'm here to give you a gift, please cooperate and don't panic... Wait, so you're saying this makes people even more nervous? Sorry, Boss, force of habit.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is very capable, please use the appropriate strategies against her.
+    character: "100,442"
+    enemy_skill: "142"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 143
+    name: P7
+    type: 3
+    code: P7_XmasEnemy
+    introduce: Aw, in the end you still ended up in the palm of my hand.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "100,443"
+    enemy_skill: "143"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 144
+    name: FP-6
+    type: 3
+    code: FP6_XmasEnemy
+    introduce: I didn't know being Santa Claus would be so tricky... How does that fat old coot squeeze himself in, anyway?
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "100,444"
+    enemy_skill: "144"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 145
+    name: 100 Shiki
+    type: 3
+    code: Type100_XmasEnemy
+    introduce: Ah... I finally dug myself out... Hm? This is...? Uwah! Thank you, this is the best present ever!
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "100,445"
+    enemy_skill: "145"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 146
+    name: Px4 Storm
+    type: 1
+    code: Px4Storm_XmasBoss
+    introduce: Christmas is all about the sales, and only discount prices can multiply the value of happiness~
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit greatly reduces enemy echelon's critical rate while increasing allies' attack speed. She also deals telegraphed AOE damage that inflicts multiple hits on units occupying the corresponding tiles, so please use the appropriate strategies against her.
+    character: "1002,446,447"
+    enemy_skill: "146,147,148,149,150"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 147
+    name: Destroyer - Dashing Reindeer
+    type: 1
+    code: Destroyer_Christmas
+    introduce: Destroyer - Dashing Reindeer is a specialized model developed for combat in snow, ensuring that Destroyer can maintain her high speed and accuracy even in the cold. This model also features enhanced firepower and explosive strength. At Destroyer's own forceful insistence, the appearance is based on a reindeer, and her ammo is packaged as Christmas hanging ornaments, so that she can deliver sweet death to her enemies.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit deals incredibly high single-target damage but has a low rate of fire and mediocre accuracy. T-Dolls with high evasion provide better defense against her.
+    character: "1001,206"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",Yuuki Takada,"
+    spine_scale: "85,85,1"
+    org_id: 10603
+  }
+  {
+    id: 148
+    name: Nyto - Patroller
+    type: 3
+    code: Nyto_Black_SMG
+    introduce: An elite Nyto that is mass-produced by Avernus. She wields dual submachineguns and possesses the high mobility and firepower needed to handle daily patrol missions.
+    forces: 3
+    pow_rank: 2
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit will gain a certain amount of protection when receiving fatal damage. Be prepared for a battle of attrition.
+    character: "1001,308"
+    enemy_skill: "153"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000148
+  }
+  {
+    id: 149
+    name: Nyto - Hammerer
+    type: 5
+    code: Nyto_Black_Hammer
+    introduce: An elite Nyto that is mass-produced by Avernus. She uses a massive hammer as a weapon, and after special modifications, the weapon can inflict stunning effects. Meanwhile, her frame also possesses greater defensive power.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 2
+    armor_rank: 2
+    speed_rank: 6
+    range_rank: 3
+    counter: This is a melee unit which can stun friendly units. Please address this with appropriate tactics.
+    character: "1001,303,309"
+    enemy_skill: "154,155"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000149
+  }
+  {
+    id: 150
+    name: Nyto - Hawkeye
+    type: 3
+    code: Nyto_Black_RF
+    introduce: An elite Nyto that is mass-produced by Avernus. She uses a sniper rifle as a primary weapon and can accurately strike fatal blows on her opponents' weaknesses from extremely long distances.
+    forces: 3
+    pow_rank: 4
+    life_rank: 1
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    counter: This unit primarily deals damage from the back row. It possesses above-average accuracy and piercing shots, and the damage it does to friendly units is stable but obvious. it is suggested that you deal with them by using Dolls whose action logic prioritized back-row  enemies.
+    character: "1001,1003,307,320"
+    enemy_skill: "156"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000150
+  }
+  {
+    id: 151
+    name: Nyto - Supporter
+    type: 3
+    code: Nyto_White_Commander
+    introduce: An elite Nyto that is mass-produced by Avernus. She uses a tactical tablet to weaken her foes or strengthen her allies. She can support her teammates and increase their combat power.
+    forces: 3
+    pow_rank: 3
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 3
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: This unit is an enemy tactical mastermind which will constantly buff all Nytos' fighting power, so it is recommended to kill it as a priority.
+    character: "1001,1003,437"
+    enemy_skill: "157,158,159"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000151
+  }
+  {
+    id: 152
+    name: Garmr
+    type: 2
+    code: Cerberus_White
+    introduce: The latest model of mechanical hound that is mass-produced in Avernus. It is highly agile, mobile, and equipped with powerful teeth and claws.
+    forces: 3
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 6
+    range_rank: 2
+    counter: This unit has high move speed and a strong protective effect on enemy units in the back row. We recommend destroying it first.
+    character: "304,316"
+    enemy_skill: "151,152"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000152
+  }
+  {
+    id: 153
+    name: Northern Elite Agent
+    type: 3
+    code: USSR_Agent
+    introduce: An elite agent from a frigid land. A one in a million talent who possesses a wealth of combat experience and a ruthless attitude.
+    forces: 2
+    pow_rank: 1
+    life_rank: 3
+    hit_rank: 2
+    dodge_rank: 3
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001"
+    launch_time: 2035-5-20 00:00:00
+  }
+  {
+    id: 154
+    name: Morridow
+    type: 1
+    code: morridow_boss
+    introduce: This elite Paradeus unit is cunning and sinister, a master of disguise with many faces. Her accomplishments have awarded her a valuable chance for modification, and she has a body made with brand-new Paradeus technology. Her combat power has been greatly improved and her trapping technique has been upgraded as well. However, her virtual cognition image seems to have changed without her realizing...
+    forces: 3
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 1
+    speed_rank: 6
+    range_rank: 2
+    counter: Restricts the movement of friendly units while rapidly closing in and dealing great damage to them. However, approaching friendly forces also exposes herself to them, so take this opportunity to do lots of damage to her.
+    character: "1001,316,329,438"
+    enemy_skill: "111,112,160"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    id: 155
+    name: Nemhran
+    type: 1
+    code: Nimeylan
+    introduce: An elite Paradeus unit who is cold, unfeeling, clear of mind and self-aware. She occupies an irreplaceable position in Paradeus. She has short-range flight abilities and is skilled at disrupting enemies with electronic weapons, and over extended, painful torture, she fills her foes witrh despair and helplessness before slowly extinguishing their will to live.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit creates orbs of lights which can deal great damage to friendly units. Take note and defend against them.
+    character: "1001"
+    enemy_skill: "161,162,163,164"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000155
+  }
+  {
+    id: 156
+    name: RPK-16
+    type: 1
+    code: RPK16_Nyto
+    introduce: With the support of Paradeus' technology, RPK-16's modification is now partially complete. Although is still in an incomplete state, her firepower has been greatly enhanced and she can use certain Paradeus core technologies. Their effect on her neural cloud remains unknown.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: An inconceivable enemy, please handle with care.
+    character: "1004"
+    enemy_skill: "165"
+    launch_time: 2035-5-20 00:00:00
+    extra: enemy_illustration-40000156
+  }
+  {
+    id: 157
+    name: Hunter - Nightfall Moth
+    type: 1
+    code: Hunter_WhiteDay
+    introduce: Hunter - Nightfall Moth is a uniquely-specialized assassination model. Her clothing incorporates structures similar to those of insect wing scales, and the colors they reflect can be adjusted in order to blend into the environment. In keeping with Hunter's personal preferences, they default to a cornflower blue color under normal circumstances, which seems to exert a certain degree of hypnotic effect. In combat, this effect is primarily shown by filling the air with blue flower petals or by suddenly changing the background. This also implies that by the time you see the abovementioned scenery, you have already stepped into Hunter's trap.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 4
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,203,309"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",Ami Hagiwara,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+  }
+  {
+    id: 158
+    name: Dessertgate
+    type: 2
+    code: Dinergate_WhiteDay
+    introduce: A dessertgate born from a production line that was modified by Persicaria. Its energy source is sweet snacks and it will cheerfully snatch away delicious desserts. While it is also very delicious in itself, one should take care not to chip their teeth on it.
+    pow_rank: 5
+    life_rank: 1
+    hit_rank: 5
+    rate_rank: 2
+    speed_rank: 5
+    range_rank: 2
+    counter: A plunderer of snacks. Perhaps you could try feeding them some chocolates.
+    character: "303"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000158
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 159
+    name: Black Chococalorie Bomb
+    type: 2
+    code: Dinergate_WhiteDay1
+    introduce: A massive ball of chocolate which emanates a delicious scent, its chopped almonds and the tempting lustre of its dark chocolate hint at its high-class deliciousness. However, it explodes easily, so please do not eat it.
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 7
+    speed_rank: 3
+    range_rank: 1
+    counter: In order to make itself larger, they go around looking for chocolate. However, they don't seem too stable. Try tossing a few chocolates-in-appearance-only at them and see what happens.
+    character: "1001,1003,323,908"
+    enemy_skill: "11"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000159
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 160
+    name: White Chococalorie Bomb
+    type: 2
+    code: Dinergate_WhiteDay2
+    introduce: A massive ball of chocolate which emanates a delicious scent, its chopped almonds and the tempting lustre of its white chocolate hint at its high-class deliciousness. However, it explodes easily, so please do not eat it.
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 7
+    speed_rank: 3
+    range_rank: 1
+    counter: In order to make itself larger, they go around looking for chocolate. However, they don't seem too stable. Try tossing a few chocolates-in-appearance-only at them and see what happens.
+    character: "1001,1003,323,908"
+    enemy_skill: "11"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 161
+    name: Truffle Chococalorie Bomb
+    type: 2
+    code: Dinergate_WhiteDay3
+    introduce: A massive ball of chocolate which emanates a delicious scent, its gleaming surface has exquisite patterns drawn on it with melted chocolate, and the sweet flavor when it splits open can satisfy the most demanding palate.However, it explodes easily, so please do not eat it.
+    pow_rank: 7
+    life_rank: 5
+    hit_rank: 7
+    speed_rank: 3
+    range_rank: 1
+    counter: In order to make itself larger, they go around looking for chocolate. However, they don't seem too stable. Try tossing a few chocolates-in-appearance-only at them and see what happens.
+    character: "1001,1003,323,908"
+    enemy_skill: "11"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    id: 162
+    name: Snackberus
+    type: 1
+    code: Cerberus_WhiteDay
+    introduce: After making a mistake and returning to her "nightmare", Destroyer is gradually losing her senses and only the temptation of chocolate remains. Can dogs eat chocolate?
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 2
+    armor_rank: 4
+    speed_rank: 5
+    range_rank: 2
+    counter: The temptation of chocolate cannot be denied.
+    character: "1001,214,309"
+    enemy_skill: "79,80"
+    launch_time: 2016-5-20 00:00:00
+    extra: enemy_illustration-40000162
+    spine_scale: "70,70,1"
+  }
+  {
+    id: 100001
+    name: Gebbennu
+    type: 1
+    code: Gebbennu
+    introduce: A massive duplex combat unit. Other than its incredible firepower, everything else is a mystery.
+    forces: 3
+    pow_rank: 6
+    life_rank: 7
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 4
+    range_rank: 5
+    counter: To be introduced
+    character: "1001,309"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100001
+  }
+  {
+    id: 100011
+    name: Shield
+    type: 3
+    code: DivMauler
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Kill this unit promptly by activating your T-Dolls' skills once he closes in.
+    character: "401,402"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100011
+  }
+  {
+    id: 100012
+    name: Fumigator
+    type: 3
+    code: DivGrenadier
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals considerable burning damage to flagged positions. Be sure to move your Dolls in time to evade his attacks.
+    character: "403"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100012
+  }
+  {
+    id: 100013
+    name: Sweeper
+    type: 3
+    code: DivSweeper
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Keep a close eye on this unit's movements. Attract his attention with Dolls that are close to him and direct your Dolls to avoid the AoE damage caused by his flamethrower.
+    character: "1001,404,415"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100013
+  }
+  {
+    id: 100014
+    name: Runner
+    type: 3
+    code: DivRunner
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Hinder this units' movements and defeat him before he approaches your formation.
+    character: "1001,405"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100014
+  }
+  {
+    id: 100015
+    name: Guard
+    type: 3
+    code: DivGuard
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals considerable projectile damage to flagged positions. Be sure to move your Dolls in time to evade his attacks. It is also advised to confront him with an echelon that has decent survivability.
+    character: "1001,406,407"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100015
+  }
+  {
+    id: 100016
+    name: Enforcer
+    type: 3
+    code: DivExecutor
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100016
+  }
+  {
+    id: 100017
+    name: Rifleman
+    type: 3
+    code: DivRifleman
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "408"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100017
+  }
+  {
+    id: 100018
+    name: Scout
+    type: 3
+    code: DivScout
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals projectile damage to flagged positions and places debuffs on affected targets. Be sure to move your Dolls on the back row in time to evade his attacks.
+    character: "409,410"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100018
+  }
+  {
+    id: 100019
+    name: Engineer
+    type: 3
+    code: DivEngineer
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Engineers set up mortars that pose a large threat and deal AoE damage that could be a bother to deal with for your units.
+    character: "411,412,413"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100019
+  }
+  {
+    id: 100020
+    name: Rogue Agent
+    type: 3
+    code: DivTraitor
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Dolls with sticky bombs must be moved to an unoccupied area or they will cause significant damage to other friendly units.
+    character: "1001,414,415"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100020
+  }
+  {
+    id: 100021
+    name: Agent 47
+    type: 1
+    code: AK47_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness. Yep.
+    character: "1001,423"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100021
+  }
+  {
+    id: 100022
+    name: Incinerator: Robert
+    type: 1
+    code: DivBurn
+    introduce: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated. Focus on attacking the weak point on his back first using units with high accuracy.
+    character: "1001,417,404,416"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100022
+  }
+  {
+    id: 100023
+    name: Fang
+    type: 1
+    code: HK416Boss
+    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    character: "1001,420,421,422"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100023
+  }
+  {
+    id: 100024
+    name: Hellfire
+    type: 1
+    code: VectorBoss
+    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    character: "1001,419,418,416"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100024
+  }
+  {
+    id: 100025
+    name: Fang
+    type: 1
+    code: HK416Boss
+    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Fire! Move! Face the formidable foes and prevail!
+    character: "1001,424,425"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100025
+  }
+  {
+    id: 100026
+    name: Hellfire
+    type: 1
+    code: VectorBoss
+    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Fire! Move! Face the formidable foes and prevail!
+    character: "1001,424,425"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100026
+  }
+  {
+    id: 100027
+    name: Vector
+    type: 1
+    code: Vector_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,300"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100028
+    name: Demonic Knight
+    type: 3
+    code: Dropkick_MeleeDevil
+    introduce: Enemy that has yet been conceptualized
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A frontline unit with extremely thick armor. Attack it with armor-piercing rounds.
+    character: "1001,303,309"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100029
+    name: Demonic Beast
+    type: 3
+    code: Dropkick_RemoteDevil
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A backline unit with extremely thick armor. Attack it with armor-piercing rounds.
+    character: "1001,309"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100030
+    name: Shaved Ice Sprite
+    type: 3
+    code: Dropkick_IceGhost
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit places freezing stacks on target enemies and deals increased damage. It is recommended that you dispose of her quickly.
+    character: "1001,315,324,329"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100031
+    name: Tangan-chan
+    type: 3
+    code: Dropkick_CyclopsChan
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,303"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100032
+    name: Herald of Beans
+    type: 3
+    code: Dropkick_BeansEmissary
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This well-balanced unit can daze enemies. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,324"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100033
+    name: Bete
+    type: 3
+    code: Dropkick_Beth
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This extremely maneuverable unit buffs his allies' damage output. He also mangles enemy units and prolongs their skill cooldown. It is recommended that you dispose of him quickly.
+    character: "1001,304,333"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100034
+    name: Yurine's Facsimile
+    type: 1
+    code: Dropkick_YurineBoss
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A unit that can summon enhanced low-tier demons and grant them strong defend shields, dealing massive and frequent AoE damage to enemies. But when the facsimile is busy suppressing the enemy's strongest damage dealers, her weaknesses are also exposed. Use this opportunity to defeat her!
+    character: "1001,321,329"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100035
+    name: Enraged Minos
+    type: 1
+    code: Dropkick_MinosBoss
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Minos in a state of extreme rage. Best give her a wide berth.
+    character: "1001,329"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100082
+    name: Brute_SWAP
+    type: 3
+    code: Brute_SWAP
+    introduce: A Brute which has been greatly enhanced over its original specs, able to better display its combat abilities.
+    forces: 1
+    pow_rank: 5
+    life_rank: 3
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 2
+    speed_rank: 4
+    range_rank: 2
+    counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
+    character: "1003,303,315"
+    enemy_skill: "54,55"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100082
+  }
+  {
+    id: 100083
+    name: Nemeum_SWAP
+    type: 4
+    code: Nemeum_SWAP2
+    introduce: A Nemeum which has been greatly enhanced over its original specs, able to better display its combat abilities.
+    forces: 1
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 6
+    rate_rank: 3
+    armor_rank: 4
+    speed_rank: 4
+    range_rank: 4
+    counter: This armored unit is mainly a damage dealer on the back row. It has a low rate of fire but high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
+    character: "1003,309,307"
+    enemy_skill: "56"
+    launch_time: 2035-12-31 00:00:00
+    extra: enemy_illustration-40100083
+  }
+]

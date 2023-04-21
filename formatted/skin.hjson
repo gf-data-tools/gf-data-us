@@ -1,0 +1,6320 @@
+[
+  {
+    id: 1
+    name: Pumpkin Mishka
+    fit_gun: 8
+    ai: 40001
+    voice: 18
+    dialog: Where's everyone hiding? I'm gonna trick you!~
+    note: There are no such things as demons or monsters in this world, but if you dare to interrupt my time with the Commander on this Halloween event today...
+    explore_tag: "3001"
+    gift_position: "54.2,-115.6"
+    illustrator_cv: skin-40000001
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 2
+    name: Kitty Paws
+    fit_gun: 20
+    voice: 18
+    dialog: Not at all. I'm enjoying the night very much. It'd probably be better for everyone if I could stay forever on the side of the dead, wouldn't it?
+    note: Oh? There's actually something that you need my help with?
+    explore_tag: "3001"
+    illustrator_cv: skin-40000002
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 3
+    name: Nocturnal Familiar
+    fit_gun: 26
+    voice: 18
+    dialog: This is my favorite day of the year, Commander! People give me loads of snacks, tee-hee!
+    note: Yes, alright, I understand!
+    explore_tag: "3001"
+    illustrator_cv: skin-40000003
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 4
+    name: Candy Express
+    fit_gun: 33
+    voice: 18
+    dialog: I'm an expert at snacks when it comes to Halloween. Huh? Cosplay? I'll pass, ahahaha...
+    note: I'll let you off this time, but you'll have to bring me the best baking powder next time.
+    explore_tag: "3001"
+    gift_position: "46,-142.3"
+    illustrator_cv: skin-40000004
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 5
+    name: Classic Witch
+    fit_gun: 36
+    voice: 18
+    dialog: Tee-hee, it's Halloween. M14, as always, is on cloud nine over there...
+    note: Where are you looking at? ...You are staring a bit too much.
+    explore_tag: "3001"
+    illustrator_cv: skin-40000005
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 6
+    name: Haunted Castle
+    fit_gun: 48
+    voice: 18
+    dialog: Eek! I wasn't scared or anything! Ah! Don't bring that jack-o'-lantern any closer!
+    note: It's all fake! How can it be scary?! There's no such thing as...
+    explore_tag: "3001"
+    illustrator_cv: skin-40000006
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 7
+    name: Carmilla
+    fit_gun: 80
+    voice: 18
+    dialog: You're giving me candies? Hurray! Commander you're the best!
+    note: You're giving me candies? Hurray! I love you the most, Commander!
+    explore_tag: "3001"
+    illustrator_cv: skin-40000007
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 8
+    name: Impish Sweetheart
+    fit_gun: 99
+    voice: 18
+    dialog: Many girls will be looking glamorous tonight, but you...must only have eyes for me.
+    note: Hm? You like it, Darling? I prepared it just for you.
+    explore_tag: "3001"
+    gift_position: "112.9,-120.3"
+    illustrator_cv: skin-40000008
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 9
+    name: Neet Zombie
+    fit_gun: 122
+    ai: 40009
+    voice: 18
+    dialog: I don't mind joining in if I can get candies... Huh? There's more to it? Then I'll pass.
+    note: Life...isn't a bed of roses...
+    explore_tag: "3001"
+    illustrator_cv: skin-40000009
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 10
+    name: Huntress' Frock
+    fit_gun: 50
+    voice: 18
+    dialog: I shall bring glory to your name on both the battlefield and the hunting ground.
+    illustrator_cv: skin-40000010
+    order: 1
+    class_id: 3
+  }
+  {
+    id: 11
+    name: Witch from Afar
+    fit_gun: 94
+    voice: 18
+    dialog: Oh, who's at the door? Halloween...? The candies aren't ready yet... Will green tea ice cream do?
+    note: Ah...I suppose you could say it's a hobby of mine. As for that teapot, it is used as a counterweight.
+    explore_tag: "3001"
+    illustrator_cv: skin-40000011
+    order: 1
+    class_id: 1
+  }
+  {
+    id: 101
+    name: Dorky Sleepyhead
+    fit_gun: 32
+    voice: 4
+    dialog: What, you're happy with how I dress? Idiots have such unfathomable tastes...
+    gift_position: "-37.3,-152.4"
+    illustrator_cv: skin-40000101
+    order: 2
+    class_id: 2
+  }
+  {
+    id: 102
+    name: Bunny Girl
+    fit_gun: 75
+    voice: 4
+    dialog: All right~ time to place your bet! How likely do you think you'll win, Commander?
+    illustrator_cv: skin-40000102
+    order: 2
+    class_id: 2
+  }
+  {
+    id: 103
+    name: Boisterous Rogue
+    fit_gun: 91
+    voice: 4
+    dialog: Bein' a maverick is the way of the pirate! Objections and obstacles mean nothin' to me!
+    gift_position: "-88.7,-122.2"
+    illustrator_cv: skin-40000103
+    order: 2
+    class_id: 2
+  }
+  {
+    id: 104
+    name: Water Gown
+    fit_gun: 94
+    voice: 4
+    dialog: Commander... Since you're in a rare mood for refinement, how about enjoying a cup of nice tea with me?
+    illustrator_cv: skin-40000104
+    order: 2
+    class_id: 3
+  }
+  {
+    id: 105
+    name: Weekend Cop
+    fit_gun: 96
+    voice: 4
+    dialog: How about a date at the weekend? Then leave your safety to me. It's a special service, all right?
+    illustrator_cv: skin-40000105
+    order: 2
+    class_id: 3
+  }
+  {
+    id: 106
+    name: Party Sweetheart
+    fit_gun: 80
+    voice: 4
+    dialog: Let the party begin already! We can't keep the ladies waiting any longer!
+    illustrator_cv: skin-40000106
+    order: 2
+    class_id: 3
+  }
+  {
+    id: 201
+    name: Rays of Youth
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000201
+    class_id: 52
+  }
+  {
+    id: 202
+    name: Urban Freedom
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000202
+    class_id: 52
+  }
+  {
+    id: 203
+    name: Rock 'n' Spanner
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000203
+    class_id: 52
+  }
+  {
+    id: 204
+    name: Griffin Uniform
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000204
+    class_id: 52
+  }
+  {
+    id: 205
+    name: Gems & Fireworks
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000205
+    class_id: 52
+  }
+  {
+    id: 206
+    name: Winter Party
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000206
+    class_id: 52
+  }
+  {
+    id: 207
+    name: Miss Black Kitty
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    gift_position: "-23.1,-139.2"
+    illustrator_cv: skin-40000207
+    class_id: 52
+  }
+  {
+    id: 208
+    name: Lover's Discourse
+    fit_gun: -1
+    ai: 5001
+    voice: 4
+    illustrator_cv: skin-40000208
+    class_id: 52
+  }
+  {
+    id: 301
+    name: Wish Upon A Star
+    fit_gun: 1
+    voice: 19
+    dialog: Merry Christmas! What a wonderful Christmas tree!
+    note: Cola is a necessity in life, so...Commander, let's enjoy it together~
+    explore_tag: "3002"
+    illustrator_cv: skin-40000301
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 302
+    name: O Holy Night
+    fit_gun: 36
+    voice: 19
+    dialog: Tee-hee, it's Christmas. What dishes should I prepare?
+    note: I didn't expect to receive a surprise on Christmas. Seems like this is in fact a magical holiday.
+    explore_tag: "3002"
+    gift_position: "-8.5,-157.1"
+    illustrator_cv: skin-40000302
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 303
+    name: Xmas Parade
+    fit_gun: 37
+    voice: 19
+    dialog: Merry Christmas! Santa Claus is coming, right? RIGHT?
+    note: If you accidentally lose your gift, don't worry! M14 will help you find it!
+    explore_tag: "3002"
+    gift_position: "11.2,-142.1"
+    illustrator_cv: skin-40000303
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 304
+    name: Xmas At Home
+    fit_gun: 38
+    voice: 19
+    dialog: Merry Christmas, Commander! I was invited to the Santa Claus hunt, but I've decided to stay cozy here at home after all!
+    note: It's so hard to tell jokes... But for the sake of the promise with the Commander, I won't give up!
+    explore_tag: "3002"
+    illustrator_cv: skin-40000304
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 305
+    name: Winter Fairy
+    fit_gun: 43
+    voice: 19
+    dialog: How's my Christmas gown? ...Of course it's exceptional! You'd better enjoy the view on this marvelous festive day.
+    note: Authentic kvass is the best. Too bad it's so hard to come by. It'd be great if we had a chance to drink to our heart's content.
+    explore_tag: "3002"
+    illustrator_cv: skin-40000305
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 306
+    name: Date in the Snow
+    fit_gun: 48
+    ai: 40306
+    voice: 19
+    dialog: You've got nothing to do anyway. I take pity on your being all alone so I'm keeping you company.
+    note: I'm only keeping this wine label because I rarely come across things from my country! Don't think I'm saving it because I'm grateful to you!
+    explore_tag: "3002"
+    illustrator_cv: skin-40000306
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 307
+    name: Xmas Reindeer
+    fit_gun: 53
+    voice: 19
+    dialog: Will it snow on Christmas Day? I've never seen snow. It's on my bucket list...
+    note: This is my first time seeing snow; it's really beautiful...but it's too cold.
+    explore_tag: "3002"
+    illustrator_cv: skin-40000307
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 308
+    name: Winter Supply
+    fit_gun: 106
+    voice: 19
+    dialog: Merry Christmas, Commander... Please end the ball early. It feels a bit chilly...wearing this dress the entire night...
+    note: People with refined tastes can draw a special kind of enjoyment from shopping. You need to develop yourself, Commander, in both taste and physical fitness.
+    explore_tag: "3002"
+    gift_position: "5.2,-144.3"
+    illustrator_cv: skin-40000308
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 309
+    name: Crimson Guardian
+    fit_gun: 109
+    voice: 19
+    dialog: Merry Christmas, Commander. Let me help with cleaning the windows. It is a little dangerous, after all. It is safer to leave it to me.
+    note: Being able to spend Christmas with everyone is really fun. I hope that we'll be able to do the same for every other holiday in the future.
+    explore_tag: "3002"
+    illustrator_cv: skin-40000309
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 310
+    name: Korvatunturi Pixie
+    fit_gun: 115
+    voice: 19
+    dialog: Merry Christmas, Commander... Are you happy with my outfit tonight? As the first to welcome Santa Claus, I must look my absolute best.
+    note: The Christmas music performance was a great success! It would be nice if my favorite music is just as well received...
+    explore_tag: "3002"
+    illustrator_cv: skin-40000310
+    order: 3
+    class_id: 4
+  }
+  {
+    id: 401
+    name: Scarlet Sage
+    fit_gun: 66
+    voice: 15
+    dialog: Happy New Year, Commander! Remember to turn in your extra red packets to the organization.
+    illustrator_cv: skin-40000401
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 402
+    name: Sunflower
+    fit_gun: 91
+    ai: 40402
+    voice: 15
+    dialog: Happy New Year, Commander! I'll have more companions to play with this new year, yeah? YEAH?!
+    illustrator_cv: skin-40000402
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 403
+    name: Chrysanthemum
+    fit_gun: 126
+    voice: 15
+    dialog: What? New Year plans? I-I haven't got any! What should I do?! Fine...j-just this once! Don't laugh!
+    illustrator_cv: skin-40000403
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 404
+    name: Cyclamen
+    fit_gun: 128
+    voice: 15
+    dialog: Happy New Year, Commander! Thanks to your guidance, I've improved quite a lot last year, haven't I? Please expect more from me this year!
+    illustrator_cv: skin-40000404
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 405
+    name: Narcissus
+    fit_gun: 129
+    voice: 15
+    dialog: Happy New Year, Commander. With so many new companions this year, I'll need to prepare quite a lot of red packets. I already gave 97 hers last night.
+    illustrator_cv: skin-40000405
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 406
+    name: Peony
+    fit_gun: 130
+    voice: 15
+    dialog: Happy New Year, Commander! Look, Sis has given me another red packet! Gee, this is the only day of the year when I think it's nice to have a sister.
+    gift_position: "47.1,-188.9"
+    illustrator_cv: skin-40000406
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 407
+    name: Fairy Primrose
+    fit_gun: 132
+    ai: 40407
+    voice: 15
+    dialog: Happy, Happy New Year! My, it's a pain to have so many people asking for red packets! Give me some reimbursement, Commander!
+    illustrator_cv: skin-40000407
+    order: 4
+    class_id: 5
+  }
+  {
+    id: 408
+    name: Romantic Mission
+    fit_gun: 42
+    voice: 16
+    dialog: Today is Valentine's Day. Accept my gift, Commander, or else...
+    illustrator_cv: skin-40000408
+    order: 6
+    class_id: 6
+  }
+  {
+    id: 409
+    name: '''"Am I Late?"'''
+    fit_gun: 101
+    voice: 16
+    dialog: You've received quite a pile of chocolate today, haven't you, Commander? ...So getting another box won't hurt, right? Tee-hee ♪
+    illustrator_cv: skin-40000409
+    order: 6
+    class_id: 6
+  }
+  {
+    id: 410
+    name: '''"Just This Time."'''
+    fit_gun: 103
+    voice: 16
+    dialog: Here's some chocolate I made, Commander. I'm sure everyone made some for you, but isn't mine better?
+    illustrator_cv: skin-40000410
+    order: 6
+    class_id: 6
+  }
+  {
+    id: 411
+    name: English in Love
+    fit_gun: 114
+    voice: 16
+    dialog: Please inspect these chocolates... They're confirmed to be free of poison, so please take them, Commander.
+    illustrator_cv: skin-40000411
+    order: 6
+    class_id: 6
+  }
+  {
+    id: 501
+    name: Lord of War
+    fit_gun: 58
+    voice: 4
+    is_hidden: 1
+    dialog: Boss! If you want to survive on the battlefield, then let's get a really cool scar together!
+    illustrator_cv: skin-40000501
+    order: 5
+  }
+  {
+    id: 503
+    name: μ-12
+    fit_gun: 1001
+    voice: 4
+    substitute_voice: BB_Noel_503
+    dialog: Lux Sanctus: Murakumo, activate!
+    illustrator_cv: skin-40000503
+    order: 11
+    class_id: 53
+  }
+  {
+    id: 504
+    name: Magnum Wedding
+    fit_gun: 1002
+    voice: 4
+    dialog: Oh, my perfect husband, where are you?
+    illustrator_cv: skin-40000504
+    order: 11
+    class_id: 53
+  }
+  {
+    id: 505
+    name: Doll Annihilator
+    fit_gun: 1002
+    voice: 4
+    dialog: Elphelt Valentine. Here to annihilate all unworthy Dolls!
+    illustrator_cv: skin-40000505
+    order: 11
+    class_id: 53
+  }
+  {
+    id: 509
+    name: Pocket City Queen the Second
+    fit_gun: 1009
+    voice: 4
+    dialog: Hoho~ So this is the so-called popular music? I can be a chart topper with this genre too~
+    gift_position: "-61.2,19.5"
+    illustrator_cv: skin-40000509
+    order: 23
+    class_id: 53
+  }
+  {
+    id: 510
+    name: Pocket City Queen the Third
+    fit_gun: 1010
+    voice: 4
+    dialog: Is it the next song already? ...Ah! This is...hehe~ This one is my best song~
+    gift_position: "39.3,-57.1"
+    illustrator_cv: skin-40000510
+    order: 23
+    class_id: 53
+  }
+  {
+    id: 523
+    name: Mobile Operating Table
+    fit_gun: 221
+    voice: 4
+    substitute_voice: GSH18
+    dialog: Commander, w...would you be my first patient?
+    illustrator_cv: skin-40000523
+    order: 37
+  }
+  {
+    id: 524
+    name: Best Friend's Armor
+    fit_gun: 1020
+    voice: 4
+    dialog: Why does everyone still call me "Aunt Stella"? ...Sei, I'm guessing the problem's not just the clothing...
+    illustrator_cv: skin-40000524
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 525
+    name: Precious Christmas Outfit
+    fit_gun: 1019
+    voice: 4
+    dialog: Uwah, thank you! I finally got it! Want to spend Christmas with me? I just came up with a new artistic name for the occasion!
+    gift_position: "-139.8,52.7"
+    illustrator_cv: skin-40000525
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 526
+    name: Red Comet
+    fit_gun: 1022
+    voice: 4
+    dialog: Need me to take care of the base's problems with a wrestling bout?
+    illustrator_cv: skin-40000526
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 527
+    name: Best Friend's Casual Dress
+    fit_gun: 1018
+    voice: 4
+    dialog: I finally understand how Stella feels, although the chest experience...might not be complete...
+    illustrator_cv: skin-40000527
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 528
+    name: Middle School Adventure
+    fit_gun: 1021
+    voice: 4
+    dialog: I feel like I'm back in my middle school days. Maybe I should start looking for love again, what do you think?
+    illustrator_cv: skin-40000528
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 529
+    name: Model Warrior
+    fit_gun: 1017
+    voice: 4
+    dialog: In the name of beauty, everything will be alright!
+    illustrator_cv: skin-40000529
+    order: 40
+    class_id: 68
+  }
+  {
+    id: 530
+    name: A Girl's Hot Air Balloon Adventure
+    fit_gun: 55
+    voice: 4
+    dialog: I'll always remember the coordinates of my home, but I'll never give up a journey to somewhere faraway. Will you come with me on an adventure in the balloon?
+    illustrator_cv: 影法师,Haruka Tomatsu,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 531
+    name: The Guarded Beloved
+    fit_gun: 56
+    voice: 4
+    dialog: Why do these things keep pestering me? If only someone could shoo them away for me...
+    gift_position: "-137.1,-115.5"
+    illustrator_cv: 影法师,Yukari Tamura,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 532
+    name: Top Hat Drifting to the Flowers
+    fit_gun: 57
+    voice: 4
+    dialog: Why am I crazy enough to go on an adventure with you? Because a raven is like a writing desk.
+    gift_position: "-117.4,-159.7"
+    illustrator_cv: 影法师,Emiri Katou,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 533
+    name: The One-Eyed Rabbit Knight
+    fit_gun: 54
+    voice: 4
+    dialog: Hurry, hurry up! We're running out of time... Then I'll make use of this final moment to answer your last question - I do.
+    gift_position: "-156.9,-65.1"
+    illustrator_cv: 影法师,Nozomi Amane,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 534
+    name: Guardian in the Rye
+    fit_gun: 143
+    voice: 4
+    dialog: This is a chore, but if it can keep you safe, I'm willing to be on standby 24/7.
+    gift_position: "-103.86,-153.6"
+    illustrator_cv: 影法师,Ayaka Fukuhara,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 535
+    name: The Wish-Making Sorceress of Fireworks
+    fit_gun: 103
+    voice: 4
+    dialog: Knock, knock... The sorceress' service you've ordered is here. You've ordered no such thing? Then please step aside. I'm about to kick down your door...
+    gift_position: "-168.1,-125.5"
+    illustrator_cv: 影法师,Tomomi Mineuchi,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 536
+    name: The Wish-Granting Sorceress of Fireworks
+    fit_gun: 101
+    voice: 4
+    dialog: Ta-daa! The Sorceress' Wishing Granting Company is open for business! If you have any wish you'd like granted, please queue up after 45!
+    gift_position: "-37.9,-144.7"
+    illustrator_cv: 影法师,Mamiko Noto,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 537
+    name: Herbal-Flavored Hard Candy
+    fit_gun: 65
+    voice: 4
+    dialog: (Rustles) Once you eat this candy, we have a deal. If you don't keep your promise, I won't let you off easily.
+    gift_position: "-113.1,-146.1"
+    illustrator_cv: 影法师,Ai Nonaka,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 538
+    name: The Rex Rabbit In Search of Courage
+    fit_gun: 122
+    voice: 4
+    dialog: Squeak squeak... What? Rabbits don't actually make a sound? Then next time I'll simply feign sleep...
+    gift_position: "-121.8,-80.1"
+    illustrator_cv: 影法师,Ayaka Fukuhara,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 539
+    name: The Wish-Preserving Witch of Shadows
+    fit_gun: 102
+    voice: 4
+    dialog: Snap, snap, snap... The wishes entrusted to me are secretly burgeoning in some unknown patch of soil...
+    gift_position: "-109.4,-181"
+    illustrator_cv: 影法师,Emi Uema,
+    order: 52
+    class_id: 59
+  }
+  {
+    id: 541
+    name: Shadow Operations
+    fit_gun: 1025
+    voice: 4
+    dialog: Only selfish grown-ups would choose to work alone like a try-hard. I'm fully prepared to set off with you anytime.
+    gift_position: "-89.16,-148.4"
+    order: 56
+    class_id: 53
+  }
+  {
+    id: 542
+    name: Ristorante of Freedom
+    fit_gun: 1024
+    voice: 4
+    dialog: I came today as a maid. You'll have to wait till next time if you want to hear me play my instrument.
+    gift_position: "-152.9,-104.5"
+    order: 56
+    class_id: 53
+  }
+  {
+    id: 543
+    name: Fairy Tale Beginning
+    fit_gun: 1027
+    voice: 4
+    dialog: I have a feeling that I used to put a lot of effort in preparing to go out just like this... Perro?! How did you get here?
+    gift_position: "-124.5,-133.1"
+    order: 56
+    class_id: 53
+  }
+  {
+    id: 544
+    name: Artemis' Vacation
+    fit_gun: 1023
+    voice: 4
+    dialog: We've got to hurry. We'll be able to see Orion on the seaside tonight.
+    gift_position: "-121.4,-158.3"
+    order: 56
+    class_id: 53
+  }
+  {
+    id: 545
+    name: Morning Breeze in the Garden
+    fit_gun: 1026
+    voice: 4
+    dialog: Good morning, welcome to my garden. Someone once entrusted it to me, now it belongs to you.
+    gift_position: "-126.3,7.8"
+    order: 56
+    class_id: 53
+  }
+  {
+    id: 546
+    name: Shield of Manhattan
+    fit_gun: 1029
+    voice: 4
+    dialog: We've got new trouble...? Gosh, these ragtags have no place in my city.
+    gift_position: "-169,-72.4"
+    order: 60
+    class_id: 53
+  }
+  {
+    id: 547
+    name: Searing Edge
+    fit_gun: 1028
+    voice: 4
+    dialog: Looks like the job this time is to rescue some big shot...
+    gift_position: "-61.4,-46.1"
+    order: 60
+    class_id: 53
+  }
+  {
+    id: 548
+    name: Fang
+    fit_gun: 65
+    voice: 4
+    dialog: Freedom and equality aren't rights you're born with. Your only choice is servitude or death.
+    gift_position: "-134,-74.2"
+    order: 60
+    class_id: 53
+  }
+  {
+    id: 549
+    name: Hellfire
+    fit_gun: 20
+    voice: 4
+    dialog: Cleaning the city inevitably comes with a small price...
+    gift_position: "-180.1,-121.1"
+    illustrator_cv: RIRE, Saori Hayami,
+    order: 60
+    class_id: 53
+  }
+  {
+    id: 550
+    name: Sunshine through the Pines
+    fit_gun: 55
+    voice: 4
+    dialog: I love it when everyone works hard together for a single purpose... Huh? Is it my turn? C-Coming!
+    illustrator_cv: 暖森, Haruka Tomatsu,
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 551
+    name: Birdsong in the Woods
+    fit_gun: 56
+    voice: 4
+    dialog: Wow, this sounds pretty awesome! I also like the sound it makes when I knock on it! Like this, my nails make it tinkle... I shouldn't do this? Why?
+    illustrator_cv: 暖森, Yukari Tamura,
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 552
+    name: Breeze on a Spring Day
+    fit_gun: 57
+    voice: 4
+    dialog: The fingerings aren't too difficult, I've got it down. I'm good to go anytime, what about you?
+    illustrator_cv: 暖森, Emiri Katou,
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 553
+    name: Blazing Sun on the Ruins
+    fit_gun: 54
+    voice: 4
+    dialog: This is quite a light instrument, but one can't play it well simply by downloading data... Do you know how to play this, Commander?
+    illustrator_cv: 暖森, Nozomi Yamane,
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 554
+    name: Molten Moon in the Water
+    fit_gun: 143
+    voice: 4
+    dialog: I love this full, sweeping timbre. We sounded pretty good together, let's try it again!
+    illustrator_cv: 暖森, Ayaka Fukuhara,
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 555
+    name: Penrose Spiral
+    fit_gun: 103
+    voice: 4
+    dialog: Are we still going up? Heheh... Up or down, doesn't make any difference, does it?
+    order: 73
+    class_id: 64
+  }
+  {
+    id: 556
+    name: Bolero Dance Bird
+    fit_gun: 101
+    voice: 4
+    dialog: Dance! No slacking in such a large performance!
+    order: 73
+    class_id: 64
+  }
+  {
+    id: 557
+    name: Percussive Bolero
+    fit_gun: 65
+    voice: 4
+    dialog: Percussion it is. I will beat M16A1 with my vigor... Get up, Gr G11.
+    order: 73
+    class_id: 64
+  }
+  {
+    id: 558
+    name: Chaotic Symphony
+    fit_gun: 122
+    voice: 4
+    dialog: I really can't conduct! Too many instruments! My neural cloud is overheating!! I'm going back to sleep...
+    illustrator_cv: --,Ayaka Fukuhara,
+    order: 73
+    class_id: 64
+  }
+  {
+    id: 559
+    name: Kleines Ritornello
+    fit_gun: 102
+    voice: 4
+    dialog: A bottle that will never be filled... Just like a performance that is still ongoing but can never be heard...
+    illustrator_cv: --, Emi Uema,
+    order: 73
+    class_id: 64
+  }
+  {
+    id: 560
+    name: Solemn March
+    fit_gun: 257
+    voice: 4
+    dialog: This is the first time I'm taking part in such a grand ceremony... I'm a little nervous. What about you, Commander?
+    gift_position: "-74.7,-105.2"
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 561
+    name: Serenade No.10
+    fit_gun: 315
+    voice: 4
+    dialog: Let me play a solo for my seniors after the ceremony performance! I've already chosen a piece.
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 562
+    name: Swan Lake Scherzo
+    fit_gun: 318
+    voice: 4
+    dialog: I just have to follow the score, right? It doesn't seem all that difficult.
+    gift_position: "-112.3,-15.4"
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 563
+    name: GMusings in the Morn
+    fit_gun: 316
+    voice: 4
+    dialog: I'll be in the procession today... My tempo could still use some work. I hope I'll perform well.
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 564
+    name: Improvised Rhapsody
+    fit_gun: 296
+    voice: 4
+    dialog: Tenor sax! I like it. It sounds good even when I'm just playing by intuition!
+    gift_position: "-237.8,-104.6"
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 565
+    name: Watcher of the Light
+    fit_gun: 64
+    voice: 4
+    dialog: Look – is that radiant place... our destination, Commander?
+    gift_position: "-40.4,-2.3"
+    order: 68
+    class_id: 60
+  }
+  {
+    id: 567
+    name: Pigeon Baron
+    fit_gun: 1030
+    voice: 4
+    dialog: Don't underestimate this cape, it belongs to the Pigeon Baron… Whoever dons it will turn into a super villain!!!
+    gift_position: "-87.1,36.7"
+    order: 72
+    class_id: 53
+  }
+  {
+    id: 568
+    name: Devil By Your Side
+    fit_gun: 1033
+    voice: 4
+    dialog: This outfit is really cute, but it's too revealing for me… D-Don't touch me, Jashin-chan! Damn your grubby paws!
+    gift_position: "-183.9,-138.2"
+    order: 72
+    class_id: 53
+  }
+  {
+    id: 569
+    name: Chocolatier
+    fit_gun: 1032
+    voice: 4
+    dialog: Handmade chocolate is for one's dearest!  ♪ Just as chocolate can be bitter or sweet, I will stay with my dearest through happiness and sorrow!
+    gift_position: "-120,-106"
+    order: 72
+    class_id: 53
+  }
+  {
+    id: 570
+    name: The Angel is a Part-Timer!
+    fit_gun: 1031
+    voice: 4
+    dialog: Po… Noel is here today as a human idol, and it is an angel's duty to watch over humans!
+    gift_position: "-148.4,-141.2"
+    order: 72
+    class_id: 53
+  }
+  {
+    id: 571
+    name: Lakeside Drinking Night
+    fit_gun: 1034
+    voice: 4
+    dialog: Look, we're soaking in a hot spring while surrounded by Lake Shikotsu! Let's drink to this rare experience!
+    gift_position: "-125,-25.8"
+    order: 72
+    class_id: 53
+  }
+  {
+    id: 573
+    name: Casual Afternoon Game
+    fit_gun: 116
+    voice: 4
+    dialog: I see, so I should've made this move instead… Hm? You want a game, Commander? I've just brushed up on my strategies, so I won't lose!
+    order: 81
+  }
+  {
+    id: 574
+    name: Resurrection Repairer Jr.
+    fit_gun: 56
+    voice: 4
+    dialog: Hey, Master Repairer M4 SOPMOD-II Jr. is here for your booking, so let's get straight to work! What happens if it can't be fixed? Then I'll scrap it all, duh!
+    illustrator_cv: Su,田村ゆかり,
+    order: 84
+  }
+  {
+    id: 578
+    name: Materialistic Fad
+    fit_gun: 316
+    voice: 4
+    dialog: Hm? You look a little troubled, Commander... Don't worry! I won't feel tired even if we shop at 100 more streets!
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 586
+    name: Queen of Castile
+    fit_gun: 230
+    voice: 4
+    dialog: On a chessboard, even someone as soft and weak as me can dominate others... I hope you are prepared for a painful defeat?
+    order: 90
+  }
+  {
+    id: 601
+    name: A Couple's Journey
+    fit_gun: 6
+    ai: 40601
+    voice: 16
+    dialog: ...Business between two people? I don't quite understand, but surely you'll teach me, won't you?
+    illustrator_cv: skin-40000601
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 602
+    name: Moment of Vows
+    fit_gun: 21
+    ai: 40602
+    voice: 16
+    dialog: Exchanging vows with you is the happiest moment of my life, Commander. I will to bring you even more glory from today onward!
+    illustrator_cv: skin-40000602
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 603
+    name: Reciprocated Love
+    fit_gun: 29
+    ai: 40603
+    voice: 16
+    dialog: Huh? My feelings...are reciprocated? I don't see what's so appealing about me, but this day has come all of a sudden.
+    illustrator_cv: skin-40000603
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 604
+    name: Lifelong Protector
+    fit_gun: 50
+    ai: 40604
+    voice: 16
+    dialog: From now on, please allow me to watch over you forever. It will be my honor for the rest of my life!
+    illustrator_cv: skin-40000604
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 605
+    name: By Your Side
+    fit_gun: 85
+    ai: 40605
+    voice: 16
+    dialog: Please let me stay by your side and let us forge a path ahead together.
+    gift_position: "18,-165"
+    illustrator_cv: skin-40000605
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 606
+    name: Pinky Swear
+    fit_gun: 100
+    ai: 40606
+    voice: 16
+    dialog: My, you end up within my grasp, after all.
+    illustrator_cv: skin-40000606
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 607
+    name: The Big Day
+    fit_gun: 106
+    ai: 40607
+    voice: 16
+    dialog: Today is the big day, but don't be too nervous.
+    illustrator_cv: skin-40000607
+    order: 7
+    class_id: 7
+  }
+  {
+    id: 701
+    name: Literary Girl
+    fit_gun: 57
+    voice: 4
+    dialog: Will I be sharing a desk with M4A1 or...
+    illustrator_cv: skin-40000701
+    order: 8
+    class_id: 8
+  }
+  {
+    id: 702
+    name: Ace on Duty
+    fit_gun: 97
+    voice: 4
+    dialog: Hey... This bit of the floor hasn't been swept properly. Don't slack off when you're on duty.
+    illustrator_cv: skin-40000702
+    order: 8
+    class_id: 8
+  }
+  {
+    id: 703
+    name: Survival Club
+    fit_gun: 125
+    voice: 4
+    dialog: Want to join our club? ...Survival isn't just a game.
+    illustrator_cv: skin-40000703
+    order: 8
+    class_id: 8
+  }
+  {
+    id: 704
+    name: Battle Sailor
+    fit_gun: 138
+    voice: 4
+    dialog: The waves are here. May our bullets reach beyond the vast ocean!
+    illustrator_cv: skin-40000704
+    order: 8
+    class_id: 8
+  }
+  {
+    id: 801
+    name: Crimson Starlet
+    fit_gun: 27
+    ai: 40801
+    voice: 4
+    dialog: You've been with me all this time, Commander. Surely you know perfectly well whether there's poison in a scorpion's rose?
+    note: I'm sure to become the main character the next time we have a party!
+    gift_position: "-4.5,-111.7"
+    illustrator_cv: skin-40000801
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 802
+    name: Queen in Radiance
+    fit_gun: 36
+    ai: 40802
+    voice: 4
+    dialog: The spotlights in the ball tonight...will definitely bear witness to the most beautiful moment.
+    note: I have had a very enjoyable year and hope that more children will be able attend the formal banquet in the coming year.
+    illustrator_cv: skin-40000802
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 803
+    name: Moonlit Ocean
+    fit_gun: 39
+    voice: 4
+    dialog: I never realized how much we've been through together. I'm sure you'll always be by my side.
+    note: How did I get back to my dorm? I don't really remember... Whatever, I haven't had that much fun drinking in a long time.
+    gift_position: "-31.4,-190.9"
+    illustrator_cv: skin-40000803
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 804
+    name: Ballroom Interlude
+    fit_gun: 48
+    ai: 40804
+    voice: 4
+    dialog: Commander promised to dance with me, so where on earth is... Oh! W-What is it?! You're late! Just shut up!
+    note: I thought carrying a gun within a violin case was a good idea, but it brought about unexpected troubles... What should I do next time?
+    illustrator_cv: skin-40000804
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 805
+    name: Starry Cocoon
+    fit_gun: 65
+    ai: 40805
+    voice: 4
+    dialog: Commander, may the dancefloor...become a place for just the two of us tonight.
+    note: Why does everyone look at me with such fearful eyes? ...Did something happen last night?
+    illustrator_cv: skin-40000805
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 806
+    name: Tender Nocturne
+    fit_gun: 75
+    voice: 4
+    dialog: Is the red carpet ready? You'd better not let me trip, you hear?
+    note: Huuuu... Although they said the party last night was supposed to be a time to unwind, I'm still feeling pretty tired. I think I'll sleep for a while longer...
+    illustrator_cv: skin-40000806
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 807
+    name: Bunny Macchiato
+    fit_gun: 135
+    voice: 4
+    dialog: With delicious food and the lovely yours truly, today's celebration really is a special treat!
+    note: One day I will grow to be mature enough to be approved for the formal banquet! Huhu, then, everyone will be envious of me~
+    gift_position: "35.8,-104.3"
+    illustrator_cv: skin-40000807
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 808
+    name: Concert Diva!
+    fit_gun: 97
+    voice: 4
+    dialog: Is it the finale? Then I'm on!
+    note: Ahaha... I forgot to clean up the hotel warehouse. I hope that I didn't inconvenience the hotel staff...
+    illustrator_cv: skin-40000808
+    order: 9
+    class_id: 9
+  }
+  {
+    id: 901
+    name: Onion Shooter
+    fit_gun: 50
+    ai: 40901
+    voice: 4
+    substitute_voice: MLEMK1_0
+    dialog: Huh? W-Why have I shru-... W-Worry not. I can still fight even in this form! ...I hope...
+    illustrator_cv: skin-40000901
+    order: 10
+    class_id: 10
+  }
+  {
+    id: 902
+    name: Thumbelina
+    fit_gun: 25
+    ai: 40902
+    voice: 4
+    substitute_voice: MP40_0
+    dialog: Want a shoulder massage, Commander? ...Yeah, don't worry! I'll put all my strength into it!
+    illustrator_cv: skin-40000902
+    order: 10
+    class_id: 10
+  }
+  {
+    id: 903
+    name: Teddy, Transform!
+    fit_gun: 96
+    ai: 40903
+    voice: 4
+    substitute_voice: Grizzly_0
+    dialog: Hmm... Is life always so hard? Or is it only when I'm little?
+    illustrator_cv: skin-40000903
+    order: 10
+    class_id: 10
+  }
+  {
+    id: 904
+    name: Little Drifter
+    fit_gun: 112
+    ai: 40904
+    voice: 4
+    substitute_voice: NEGEV_0
+    dialog: Commander, you'll get arrested for not giving children presents today, you know.
+    illustrator_cv: skin-40000904
+    order: 10
+    class_id: 10
+  }
+  {
+    id: 905
+    name: Mini Maid
+    fit_gun: 64
+    ai: 40905
+    voice: 4
+    substitute_voice: G36_0
+    dialog: Huh? Is my rifle actually this huge? ...Then I'd better make an effort in growing up.
+    illustrator_cv: skin-40000905
+    order: 10
+    class_id: 10
+  }
+  {
+    id: 1101
+    name: Op. Blazing Sun
+    fit_gun: 53
+    ai: 41101
+    voice: 4
+    dialog: Let me take care of the murderous intent drifting in the sea wind.
+    gift_position: "-2.9,-122.4"
+    illustrator_cv: skin-40001101
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1102
+    name: Summer Cicada
+    fit_gun: 129
+    ai: 41102
+    voice: 4
+    dialog: I can't wait to show 97 this swimsuit, tee-hee!
+    gift_position: "2.7,-147.4"
+    illustrator_cv: skin-40001102
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1103
+    name: Midsummer Pixie
+    fit_gun: 115
+    ai: 41103
+    voice: 4
+    dialog: Amazing! ...The sea seems to melt into the sky!
+    illustrator_cv: skin-40001103
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1104
+    name: Tropical Storm
+    fit_gun: 146
+    ai: 41104
+    voice: 4
+    dialog: Commander... Let the sunshine sear our shadows together onto the sea!
+    gift_position: "-111.7,-53.5"
+    illustrator_cv: skin-40001104
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1105
+    name: Summer Parader
+    fit_gun: 153
+    ai: 41105
+    voice: 4
+    dialog: This time I'll be drawing everyone's eyes, not just yours, you hear? Sit back and enjoy the show.
+    illustrator_cv: skin-40001105
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1106
+    name: Beach Princess
+    fit_gun: 34
+    ai: 41106
+    voice: 4
+    dialog: Tee-hee, this is truly the best outfit for summer!
+    illustrator_cv: skin-40001106
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1107
+    name: Stirring Mermaid
+    fit_gun: 36
+    ai: 41107
+    voice: 4
+    dialog: Let's find the spot where the sea breeze feels the best, Commander!
+    illustrator_cv: skin-40001107
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1108
+    name: Op. Manta Ray
+    fit_gun: 48
+    ai: 41108
+    voice: 4
+    dialog: Th-The swimsuit was already bought. It'd be a pity not to wear it...it's not just for you, okay?!
+    gift_position: "-14,-100.7"
+    illustrator_cv: skin-40001108
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1109
+    name: Cruise Queen
+    fit_gun: 142
+    ai: 41109
+    voice: 4
+    dialog: Hmm... You've chosen a truly intriguing design, Commander. Are you happy?
+    illustrator_cv: skin-40001109
+    order: 12
+    class_id: 11
+  }
+  {
+    id: 1201
+    name: Flower and Water
+    fit_gun: 173
+    ai: 41201
+    voice: 4
+    dialog: Oh, it's you? Don't get in my way. I'm looking for the best apple candy in the festival.
+    illustrator_cv: skin-40001201
+    order: 13
+    class_id: 12
+  }
+  {
+    id: 1202
+    name: Ode to Summer
+    fit_gun: 104
+    ai: 41202
+    voice: 4
+    dialog: Oh, didn't expect to see you here... Want to wait for the fireworks with me?
+    illustrator_cv: skin-40001202
+    order: 13
+    class_id: 12
+  }
+  {
+    id: 1203
+    name: Flurry of Petals
+    fit_gun: 119
+    ai: 41203
+    voice: 4
+    dialog: Let's not talk about work since it's so lively tonight. What do you say we enjoy ourselves?
+    illustrator_cv: skin-40001203
+    order: 13
+    class_id: 12
+  }
+  {
+    id: 1204
+    name: The Three Crows
+    fit_gun: 177
+    ai: 41204
+    voice: 4
+    dialog: Tee-hee! I'm gonna come first in all the games in the festival tonight!
+    gift_position: "-65.8,-78"
+    illustrator_cv: skin-40001204
+    order: 13
+    class_id: 12
+  }
+  {
+    id: 1205
+    name: Sleepless Begonias
+    fit_gun: 26
+    ai: 41205
+    voice: 4
+    dialog: What will the fireworks show be like, Commander? I can't wait!
+    illustrator_cv: skin-40001205
+    order: 13
+    class_id: 12
+  }
+  {
+    id: 1301
+    name: Arctic Fox
+    fit_gun: 79
+    voice: 4
+    dialog: I put a bit of effort in dressing up. Hmm...that should do it.
+    illustrator_cv: skin-40001301
+    order: 14
+    class_id: 13
+  }
+  {
+    id: 1302
+    name: Bullets Cafe
+    fit_gun: 118
+    voice: 4
+    dialog: My service is dedicated to you, Commander, and you alone.
+    illustrator_cv: skin-40001302
+    order: 14
+    class_id: 13
+  }
+  {
+    id: 1303
+    name: Battlefield Baker
+    fit_gun: 63
+    voice: 4
+    dialog: Fancy some dessert? I can also try making things that aren't on the menu.
+    illustrator_cv: skin-40001303
+    order: 14
+    class_id: 13
+  }
+  {
+    id: 1304
+    name: Urban Holiday
+    fit_gun: 88
+    voice: 4
+    dialog: Argh... This shirt is so loose. What a bother.
+    illustrator_cv: skin-40001304
+    order: 14
+    class_id: 13
+  }
+  {
+    id: 1305
+    name: Night at the Bar
+    fit_gun: 72
+    voice: 4
+    dialog: Take care not to drink too much, Commander... But leave it to me if you do get drunk.
+    illustrator_cv: skin-40001305
+    order: 14
+    class_id: 13
+  }
+  {
+    id: 1401
+    name: Lord of Shadow
+    fit_gun: 114
+    voice: 18
+    dialog: These sort of costumes won't scare me. Things that are already dead...will simply return to the darkness.
+    explore_tag: "3001"
+    illustrator_cv: skin-40001401
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1402
+    name: Nine-Tail Fox
+    fit_gun: 127
+    voice: 18
+    dialog: Tonight's candies are ready. Call everyone over, but not too many at once.
+    explore_tag: "3001"
+    illustrator_cv: skin-40001402
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1403
+    name: The Seventh Sealer
+    fit_gun: 148
+    voice: 18
+    dialog: What do you want to do tonight? I've prepared a hundred ghost stories for the occasion.
+    explore_tag: "3001"
+    gift_position: "-66,77"
+    illustrator_cv: skin-40001403
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1404
+    name: Sister Gunslinger
+    fit_gun: 100
+    voice: 18
+    dialog: No trick no treat! Hehe, I've received a lot of candies tonight. Why? Because I'm cute of course!
+    explore_tag: "3001"
+    illustrator_cv: skin-40001404
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1405
+    name: The Last Alice
+    fit_gun: 168
+    voice: 18
+    dialog: Rest assured. Leave the deathrock to me for the ball tonight.
+    explore_tag: "3001"
+    illustrator_cv: skin-40001405
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1406
+    name: Candy Thief
+    fit_gun: 70
+    voice: 18
+    dialog: Trick or treat! Trick or treat! Trick or treat!
+    explore_tag: "3001"
+    illustrator_cv: skin-40001406
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1407
+    name: Wolf Walker
+    fit_gun: 124
+    voice: 18
+    dialog: This is the first gift I've received tonight. I'm gonna open it up and see what's inside! ...Ah!! ...I knew it was a prank...
+    explore_tag: "3001"
+    illustrator_cv: skin-40001407
+    order: 15
+    class_id: 14
+  }
+  {
+    id: 1501
+    name: Demon Hunter
+    fit_gun: 16
+    voice: 4
+    dialog: You must dress appropriately with class when you're entering high-end venues. This is the rule of the industry.
+    note: It's a shame that I couldn't see the entire opera performance. I'll go again the next time when no one is going to interrupt me.
+    illustrator_cv: skin-40001501
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1502
+    name: Opera Ghost
+    fit_gun: 183
+    ai: 41502
+    voice: 4
+    dialog: Exquisite clothing is a component of a successful stage performance, so...I suppose clothing is an element of your strength as well?
+    note: The theatre gave me a still photo after the mission, but it would've been better if it was from the front...
+    gift_position: "-57.1,-208.7"
+    illustrator_cv: skin-40001502
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1503
+    name: L.A.D.Y
+    fit_gun: 173
+    voice: 4
+    dialog: Hm, the correct attire makes my victory that much more perfect.
+    note: You look a little pale after viewing the invoice... Why?
+    illustrator_cv: skin-40001503
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1504
+    name: Call of the Hunter
+    fit_gun: 109
+    voice: 4
+    dialog: I'm more adapted for wilderness warfare with these clothes. ...Hm, I can better protect my allies as well.
+    note: In the lulls between battles, even a cup of instant coffee is heaven on earth.
+    illustrator_cv: skin-40001504
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1505
+    name: Babe Driver
+    fit_gun: 149
+    voice: 4
+    dialog: Hey! I'm still very cool with a new melody♪
+    note: Mmm... I'm gonna try a new rhythm the next time I go on a ride♪
+    gift_position: "-93,-61.6"
+    illustrator_cv: skin-40001505
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1506
+    name: Raging Rider
+    fit_gun: 180
+    ai: 41506
+    voice: 4
+    dialog: Um...my clothes are also very expensive, be careful!
+    note: Commander, I'll lend you a copy of the key for the motorcycle. Don't forget about the practice you promised me!
+    gift_position: "-145.2,-107"
+    illustrator_cv: skin-40001506
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1507
+    name: '''"Sommelier"'''
+    fit_gun: 64
+    voice: 4
+    dialog: Guten Tag, my Commander. G36 is here to serve. Do I...look more like an attendant like this?
+    note: This is the bomb's fuse. ...How dangerous. But don't worry, I will protect everyone.
+    illustrator_cv: skin-40001507
+    order: 17
+    class_id: 15
+  }
+  {
+    id: 1601
+    name: How RFB Stole Xmas
+    fit_gun: 172
+    voice: 19
+    dialog: The Christmas DLC is on sale! Commander, buy it for me as a present, please?
+    explore_tag: "3002"
+    illustrator_cv: skin-40001601
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1602
+    name: Schoenstes Geschenk
+    fit_gun: 122
+    voice: 19
+    dialog: Merry Christmas... Commander, did you finish setting up for the banquet? I'll head over to eat in a bit.
+    explore_tag: "3002"
+    illustrator_cv: skin-40001602
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1603
+    name: Gunshot in the Snow
+    fit_gun: 196
+    voice: 19
+    dialog: How can you convince me that Santa Claus exists? If I get to shoot at him... Just kidding.
+    explore_tag: "3002"
+    gift_position: "-40.5,-75.5"
+    illustrator_cv: skin-40001603
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1604
+    name: Winter Forager
+    fit_gun: 166
+    voice: 19
+    dialog: Commander, look! I tore off Santa's beard! Hahahahaa! This is too much fun!
+    explore_tag: "3002"
+    illustrator_cv: skin-40001604
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1605
+    name: Little Gift Tree
+    fit_gun: 185
+    voice: 19
+    dialog: Merry Christmas, Commander. Why don't you leave a button in the stocking for Santa Claus?...
+    explore_tag: "3002"
+    illustrator_cv: skin-40001605
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1606
+    name: War Is Over
+    fit_gun: 75
+    voice: 19
+    dialog: Christmas? I love it~ There's cake to eat too!
+    explore_tag: "3002"
+    illustrator_cv: skin-40001606
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1608
+    name: Forest Reindeer
+    fit_gun: 145
+    voice: 19
+    dialog: Merry Christmas, Commander! There will be many events tonight. Want me to be your guide?
+    explore_tag: "3002"
+    gift_position: "-129.3,-132.2"
+    illustrator_cv: skin-40001608
+    order: 18
+    class_id: 16
+  }
+  {
+    id: 1701
+    name: Rabbit Squad
+    fit_gun: 128
+    voice: 4
+    dialog: Hehe~ Commander, wanna know my phone number? You'd better call me a lot~
+    illustrator_cv: skin-40001701
+    order: 19
+    class_id: 17
+  }
+  {
+    id: 1702
+    name: ThanX! & Go2Hell!
+    fit_gun: 126
+    voice: 4
+    dialog: This is the most popular style right now! This is the real deal gotten from my secret supplier... If you want to compliment me then let it all out!
+    illustrator_cv: skin-40001702
+    order: 19
+    class_id: 17
+  }
+  {
+    id: 1703
+    name: Snowflakes in Arms
+    fit_gun: 98
+    voice: 4
+    dialog: After being accustomed to the underwater coldness...being warm like this makes me feel even more blessed.
+    illustrator_cv: skin-40001703
+    order: 19
+    class_id: 17
+  }
+  {
+    id: 1704
+    name: Crossing in Labyrinth
+    fit_gun: 156
+    voice: 4
+    dialog: Let's head out now before our path turns into a labyrinth.
+    illustrator_cv: skin-40001704
+    order: 19
+    class_id: 17
+  }
+  {
+    id: 1705
+    name: Cross the Milky Way
+    fit_gun: 159
+    voice: 4
+    dialog: It's alright even if I'm dressed in my work clothes? ...Hehe, alright, if this is what you want as a part of the service.
+    illustrator_cv: skin-40001705
+    order: 19
+    class_id: 17
+  }
+  {
+    id: 1801
+    name: Red Peony
+    fit_gun: 179
+    voice: 15
+    dialog: Commander, your plans for Chinese New Year...will there be any chances for me to shine?
+    note: It's a shame that I couldn't put as much money as I had wanted to in the red packets... But I still got to see interesting reactions...
+    illustrator_cv: skin-40001801
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1802
+    name: Wintersweet
+    fit_gun: 188
+    voice: 15
+    dialog: A year has passed in the blink of an eye, Commander. Are we one step closer to our ideal future?
+    note: Aww...this design is so cute, I can't bear to ignite it! I think I'll save one... You mustn't let ART556 find out!
+    gift_position: "-88.8,-197.6"
+    illustrator_cv: skin-40001802
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1803
+    name: White Cabbage
+    fit_gun: 175
+    voice: 15
+    dialog: Commander, it's so boring to stay cooped up at home during Chinese New Year. Let's go on an adventure outside!
+    note: Uwaa... Help, Commander! I'm going to get eaten by a plush monster!
+    gift_position: "-37.7,-104.3"
+    illustrator_cv: skin-40001803
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1804
+    name: Fairy Lily
+    fit_gun: 192
+    voice: 15
+    dialog: Any Chinese New Year events this year? They'd better be fun!
+    note: Human beings are so forgetful... This spare button, I'm going to hold onto it for the Commander!
+    illustrator_cv: skin-40001804
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1805
+    name: Honey Flower
+    fit_gun: 99
+    voice: 15
+    dialog: It's a new year, Darling! Did you notice that I look different today? I'll give you ten seconds to tell me which seven things that are different.
+    note: Darling, you seem to enjoy these things called "dumplings". Give me the recipe and I'll make more for you later, Darling~
+    gift_position: "-43.5,-219.8"
+    illustrator_cv: skin-40001805
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1806
+    name: Angel's Trumpet
+    fit_gun: 155
+    voice: 15
+    dialog: Happy new year, Commander. Please enjoy the holiday!
+    note: The art of paper cutting is quite interesting, and it helps you exercise your patience too. It really is rewarding to have participated in the preparations for the festival.
+    illustrator_cv: skin-40001806
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1807
+    name: White Camellia
+    fit_gun: 174
+    voice: 15
+    dialog: Commander, what is your destination this year? Let me continue to accompany you on your journey.
+    note: This is a train ticket template from a pawn shop. How nostalgic... I'd better keep it safe.
+    illustrator_cv: skin-40001807
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1808
+    name: Golden Starthistle
+    fit_gun: 81
+    voice: 15
+    dialog: Happy Chinese New Year, Commander. Last year's financial statement is out and it looks like we weren't wasteful. Please keep it up.
+    note: This festival of extravagance and wastefulness... Although everyone is enjoying themselves, we should still keep frugality in mind.
+    illustrator_cv: skin-40001808
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1809
+    name: East Lake Lotus
+    fit_gun: 95
+    voice: 15
+    dialog: Master, happy Chinese New Year! Did you make any plans for this holiday? Wanna think it over a cup of coffee?~
+    illustrator_cv: skin-40001809
+    order: 20
+    class_id: 18
+  }
+  {
+    id: 1901
+    name: Ardent Devotion
+    fit_gun: 20
+    ai: 41901
+    voice: 16
+    dialog: Since I've always been difficult with you, I'll take it as my loss this time.
+    note: To have this gloomy photo taken of me, I'm truly sorry. But that was what I truly felt when the photo was taken...more or less.
+    illustrator_cv: skin-40001901
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 1902
+    name: Smile of Acceptance
+    fit_gun: 142
+    ai: 41902
+    voice: 16
+    dialog: Thank you. Please let me stay with you from now on and become your most trusted partner.
+    note: If you can send out wedding invitations someday...then please use this wax seal stamp.
+    illustrator_cv: skin-40001902
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 1903
+    name: A Small Step
+    fit_gun: 26
+    ai: 41903
+    voice: 16
+    dialog: Can someone like me who is insignificant in everything really stay by your side?
+    note: I want to wear those long skirts that other girls wear... I will work hard to grow taller to achieve this goal!
+    illustrator_cv: skin-40001903
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 1904
+    name: Pure White Cornflower
+    fit_gun: 64
+    ai: 41904
+    voice: 16
+    dialog: There is nothing for me to be afraid of anymore. As long as I am by your side, I can find the courage to face off against any adversity!
+    note: I didn't even realize there was a flower ornament in my hair. I'll keep it as a memento.
+    gift_position: "-70.8,-175.8"
+    illustrator_cv: skin-40001904
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 1905
+    name: "'Til Death Do Us Part"
+    fit_gun: 66
+    ai: 41905
+    voice: 16
+    dialog: It's too late to regret your choice now, ahaha! I'm not going to let you go!
+    note: This seal is quite straightforward. It would be great if there are more opportunities to use it in the future... Haha, although that's probably not happening.
+    illustrator_cv: skin-40001905
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 1906
+    name: Pierce Your Heart!
+    fit_gun: 44
+    ai: 41906
+    voice: 16
+    dialog: I don't need to make any notes, right? After all, it's a once-in-a-lifetime thing.
+    note: You even get a small token of appreciation from the photo studio? I don't know what a real wedding feels like, but I feel a little embarrassed accepting this gift...
+    illustrator_cv: skin-40001906
+    order: 21
+    class_id: 19
+  }
+  {
+    id: 2001
+    name: Far East Princess
+    fit_gun: 194
+    voice: 4
+    dialog: Don't underestimate the princess on the battlefield. Put up a nice fight before kneeling before me, okay?
+    illustrator_cv: skin-40002001
+    order: 22
+    class_id: 20
+  }
+  {
+    id: 2002
+    name: Dome Moonlight
+    fit_gun: 212
+    voice: 4
+    dialog: How many reccuring fates has the moonlight witnessed from the past to the present?
+    illustrator_cv: skin-40002002
+    order: 22
+    class_id: 20
+  }
+  {
+    id: 2003
+    name: Waning Winter
+    fit_gun: 177
+    voice: 4
+    dialog: I want to burn the entire winter away, leaving my own ashes in this frozen world.
+    illustrator_cv: skin-40002003
+    order: 22
+    class_id: 20
+  }
+  {
+    id: 2004
+    name: Dusk Phoenix
+    fit_gun: 133
+    voice: 4
+    dialog: Everything between heaven and earth is within my range. Come after me if you dare!
+    illustrator_cv: skin-40002004
+    order: 22
+    class_id: 20
+  }
+  {
+    id: 2101
+    name: Highest Bid
+    fit_gun: 179
+    voice: 4
+    dialog: Cherish our encounter tonight. This fine wine will certainly leave you with a memorable taste, hehe...
+    note: Women with secrets are the most feminine... Will you satisfy the curiosity in your heart, or will you protect yourself from the truth?
+    illustrator_cv: skin-40002101
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2102
+    name: Starry Night Ball
+    fit_gun: 96
+    voice: 4
+    dialog: Commander, would you like to have a dance with me on the stage? No skills needed as long as you're enthusiastic.
+    note: I really can't make heads or tails of this... Whatever. It's more important to ask the Commander for an allowance than to dwell on those things!
+    illustrator_cv: skin-40002102
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2103
+    name: Nightfall Crisis
+    fit_gun: 114
+    voice: 4
+    dialog: It seems like there are uninvited guests looking to cause trouble in our grand night ceremony. We must stay vigilant.
+    note: Even if one has already fallen into a sinful swamp, those by the water will still try to save their companion by casting him a rope. People call this kind of childish and uncontrollable impulse "friendship".
+    gift_position: "-120.8,-188.4"
+    illustrator_cv: skin-40002103
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2104
+    name: White Queen
+    fit_gun: 196
+    voice: 4
+    dialog: The time has reset to zero once again. Everything we've experienced during this period will push us another step closer to the future...right?
+    note: The truth is quite expensive, Commander. So, did you buy the nail polish I wanted yet?
+    gift_position: "-91.8,-98"
+    illustrator_cv: skin-40002104
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2105
+    name: Queen of Miracles
+    fit_gun: 1
+    voice: 4
+    dialog: Everyone! Raise the cola in your hand! Cheers for the miracles to befall us tonight!
+    note: The moment you used cola as a bet was the moment you lost to me.
+    gift_position: "-43.6,-152.8"
+    illustrator_cv: skin-40002105
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2106
+    name: The World's Melody
+    fit_gun: 101
+    voice: 4
+    dialog: The venue is so lively that I can't even find big sis 45! Do you think she ran off by herself to grab a bite?
+    note: A wish for the coming year? Hm...I hope that all my missions in the future are as easy and interesting as tonight!
+    illustrator_cv: skin-40002106
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2107
+    name: Diamond Flower
+    fit_gun: 103
+    voice: 4
+    dialog: A banquet, huh... An atmosphere like this is really fresh for me. Do you enjoy this atmosphere, Commander?
+    note: I've brought you misfortune. ...But being able to say this here may be a fortunate thing in itself.
+    illustrator_cv: skin-40002107
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2108
+    name: Cat in the Box
+    fit_gun: 93
+    voice: 4
+    dialog: Nyahaha~ If you want to get the treasure in the venue then you'll have to get through me first!
+    note: Although I've lost this time, I'll be back next time da nya! ...What? That's a villain's line? I don't believe you!
+    illustrator_cv: skin-40002108
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2109
+    name: White Night Star
+    fit_gun: 131
+    voice: 4
+    dialog: Commander, will there be a small celebration feast after this banquet mission?
+    note: The real importance lies in our performance... Jeez, I can't help but feel like I'm glowing after hearing you say that.
+    illustrator_cv: skin-40002109
+    order: 24
+    class_id: 21
+  }
+  {
+    id: 2201
+    name: Little Brave Cano
+    fit_gun: 197
+    ai: 42201
+    voice: 4
+    substitute_voice: Carcano1891_0
+    dialog: Sister~ I'm over here! Follow me closely or you'll get left behind!
+    gift_position: "-4.5,-122.1"
+    illustrator_cv: skin-40002201
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2202
+    name: Miss Pinocchio
+    fit_gun: 198
+    ai: 42202
+    voice: 4
+    substitute_voice: Carcano1938_0
+    dialog: W-Wait up, big sister! You're going so slow that I can't catch up!
+    illustrator_cv: skin-40002202
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2203
+    name: Adventures of Fenfen
+    fit_gun: 142
+    ai: 42203
+    voice: 4
+    substitute_voice: FN57_0
+    dialog: Hold firmly onto my hand, okay, Commander? Otherwise, I'll be very worried if you get lost~
+    illustrator_cv: skin-40002203
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2204
+    name: Frog Princess
+    fit_gun: 136
+    ai: 42204
+    voice: 4
+    substitute_voice: PP19_0
+    dialog: Posing like this in combat...may just shock the enemy into breaking formation. It's worth a try!
+    illustrator_cv: skin-40002204
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2205
+    name: The Wonderful Adventures of Goose
+    fit_gun: 213
+    ai: 42205
+    voice: 4
+    substitute_voice: CBJMS_0
+    dialog: I'm a growing girl after all, so even fish bones shouldn't go to waste... Ouch, a bone pricked my mouth.
+    illustrator_cv: skin-40002205
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2206
+    name: Lenore's Raven
+    fit_gun: 202
+    ai: 42206
+    voice: 4
+    substitute_voice: Thunder50_0
+    dialog: Are we really "children"...if we do not have "parents"?
+    illustrator_cv: skin-40002206
+    order: 25
+    class_id: 22
+  }
+  {
+    id: 2301
+    name: The Aristocrat Experience
+    fit_gun: 53
+    voice: 4
+    dialog: Hm...is it too sweet? Maybe it would be better if it's a little more bitter. Which do you prefer, Master?
+    note: Making tea is such an effortful job...but it's fun. Give it a try if you have the time.
+    illustrator_cv: skin-40002301
+    order: 26
+    class_id: 23
+  }
+  {
+    id: 2302
+    name: Flowerful Maid
+    fit_gun: 183
+    voice: 4
+    dialog: Um... Um, welcome back, Comman- ah, no! M-Master! ...Sorry, I should be able to do better.
+    note: What? Take a commemoration photo? I think I'll pass... Hm...how should I pose for the camera in these clothes?
+    illustrator_cv: skin-40002302
+    order: 26
+    class_id: 23
+  }
+  {
+    id: 2303
+    name: Home Ec Training
+    fit_gun: 97
+    voice: 4
+    dialog: Excuse me, coming through! Lift your legs! I will not allow any new footprints in here until I can see my own reflection on the floor!
+    note: After a thorough cleaning, both your spirit and your room are renewed in a sparkling sensation! Yup, this training is very suitable for mass adoption across the entire dormitory. I'm gonna talk to the Commander about it when I have time~
+    illustrator_cv: skin-40002303
+    order: 26
+    class_id: 23
+  }
+  {
+    id: 2304
+    name: Beer Ranch
+    fit_gun: 146
+    voice: 4
+    dialog: Hehe~ Master, your beer is here! ...The other glass? That's just a counterweight.
+    note: Ahaha... Big sis Gr G36, sorry! Give me another chance! Didn't I promise you when I asked to borrow your notes? I will never slack off in training anymore!
+    illustrator_cv: skin-40002304
+    order: 26
+    class_id: 23
+  }
+  {
+    id: 2305
+    name: Contracted Today
+    fit_gun: 201
+    voice: 4
+    dialog: There's no end to sorting out these documents. I should've known that maids don't get vacations...
+    note: When will the vacation promised by the Commander be approved? Ah... I'm so tired...
+    illustrator_cv: skin-40002305
+    order: 26
+    class_id: 23
+  }
+  {
+    id: 2401
+    name: Beach Punk 2064
+    fit_gun: 62
+    ai: 42401
+    voice: 4
+    dialog: Oh, a water fight...? But my ears will get wet...and so will my clothes...
+    note: The beach is so much fun! And so is the sea! I don't know what that black board is for, but volleyball is also hella fun!
+    illustrator_cv: skin-40002401
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2402
+    name: Age of Slushies
+    fit_gun: 206
+    ai: 42402
+    voice: 4
+    dialog: Quiet things aren't really worth one's attention. Will you be the one who stirs up howling winds and devastating waves in the ocean, Commander?
+    note: Reflexive pain towards iced sustenance is indeed a flaw. Guess I'll take a trip to the Repair Bay when I'm off-duty.
+    gift_position: "-35.8,-11.5"
+    illustrator_cv: skin-40002402
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2403
+    name: The Sun Never Rises
+    fit_gun: 163
+    ai: 42403
+    voice: 4
+    dialog: I hate the sun... But I hate myself even more for going to the beach even though I hate the sun...
+    note: Nothing good comes out of eating too much candy...but nothing good comes out of not eating any either after such serious talk. Crap. Gotta top up my sugar intake...
+    illustrator_cv: skin-40002403
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2404
+    name: The Diving Bell and the Doll
+    fit_gun: 205
+    ai: 42404
+    voice: 4
+    dialog: Suit-up complete. Whatever needs to come up from underwater or remain buried there forever is entirely at your discretion.
+    note: Everything is stationary under the sea, and that is exactly how it feels when AK-12 asks me to "relax"... Not that I hate it.
+    gift_position: "-162.6,-146.89"
+    illustrator_cv: skin-40002404
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2405
+    name: Lollipop Ammo
+    fit_gun: 28
+    ai: 42405
+    voice: 4
+    dialog: Hey Caretaker, what's that face you're giving me...? Isn't it okay...to start learning how to swim when I'm actually in the water?
+    note: Can't believe there are others who love sour candy. Perhaps we can have a longer chat...? You should really take a leaf out of her book, Caretaker.
+    gift_position: "-72.6,-40.3"
+    illustrator_cv: skin-40002405
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2406
+    name: FAL's Summer
+    fit_gun: 106
+    ai: 42406
+    voice: 4
+    dialog: It's hurtful that you brought up Five-seven at a time like this. Now, tell me what you think about "red"? ...Hmm? Anything else you'd like to say?
+    note: Heheh, this water pistol is a symbol of "peace" and has even got me a "hug" from the Commander! Guess I'll keep the label...as a precious memento of this summer.
+    gift_position: "-64,-17"
+    illustrator_cv: skin-40002406
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2407
+    name: 50 Days with Gr G36
+    fit_gun: 64
+    ai: 42407
+    voice: 4
+    dialog: Would you like some slushie, fruit, or cold drinks? Whichever you choose, please take care not to get heatstroke in this weather.
+    note: Hmm... Not only did I faint, I'd also caused trouble for everyone... I must improve on my cooling strategy next time.
+    gift_position: "-120.3,-162"
+    illustrator_cv: skin-40002407
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2408
+    name: Midsummer Fruit
+    fit_gun: 162
+    ai: 42408
+    voice: 4
+    dialog: We're at the seaside, so a surfing board modified from a shield should come in useful, right? Watermelon...? But it's summer!
+    note: Modifying an old object into a surfing board WAS challenging, but now it's only useful in summer...
+    illustrator_cv: skin-40002408
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2409
+    name: Ameli's Receive
+    fit_gun: 185
+    ai: 42409
+    voice: 4
+    dialog: Really...?! You wanna play volleyball with me? I've done my homework this time!
+    note: Something good will certainly happen with enough patience, right? I-I managed to pop some buttons today too!
+    illustrator_cv: skin-40002409
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2410
+    name: Apprentice Witch
+    fit_gun: 9
+    ai: 42410
+    voice: 4
+    dialog: What you're about to see is an exclusive summer freebie. No photography or recording!
+    note: Perhaps what I saw wasn't a sea monster, but the guardian of the sea? The concert must've gone so smoothly thanks to His blessings!
+    illustrator_cv: skin-40002410
+    order: 27
+    class_id: 24
+  }
+  {
+    id: 2501
+    name: Knight of Calamity
+    fit_gun: 109
+    ai: 42501
+    voice: 4
+    dialog: Sometimes you don't have to understand the lyrics. Rock is the kind of music that's all about "watching". My performance will enlighten you.
+    illustrator_cv: skin-40002501
+    order: 28
+    class_id: 25
+  }
+  {
+    id: 2502
+    name: Dragon Jr.
+    fit_gun: 122
+    ai: 42502
+    voice: 4
+    dialog: Say...do you have any idea what would happen if you roused a dragon from its sleep? Then listen...
+    illustrator_cv: skin-40002502
+    order: 28
+    class_id: 25
+  }
+  {
+    id: 2503
+    name: Law of Exorcism
+    fit_gun: 151
+    ai: 42503
+    voice: 4
+    dialog: Angels' howls and demons' prayers, I'll fill the stage with the darkest of desires.
+    illustrator_cv: skin-40002503
+    order: 28
+    class_id: 25
+  }
+  {
+    id: 2504
+    name: Steel Butterfly
+    fit_gun: 199
+    ai: 42504
+    voice: 4
+    dialog: No matter what kind of rock it is, it's all just random noise if you don't follow my beat.
+    illustrator_cv: skin-40002504
+    order: 28
+    class_id: 25
+  }
+  {
+    id: 2505
+    name: Electric Witch
+    fit_gun: 152
+    ai: 42505
+    voice: 4
+    dialog: I hear you... Let me push your screams to the climax with my bass solo!
+    illustrator_cv: skin-40002505
+    order: 28
+    class_id: 25
+  }
+  {
+    id: 2601
+    name: Pumpkin Skewers
+    fit_gun: 188
+    voice: 18
+    dialog: There's no Halloween without pumpkins! But these skewers aren't really made with pumpkins, okay? Wanna try, Commander?
+    note: I-It wasn't THAT well executed... I just did the best I could, is all.
+    explore_tag: "3001"
+    illustrator_cv: skin-40002601
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2602
+    name: Elf Helsing
+    fit_gun: 222
+    voice: 18
+    dialog: I hear this modification requires some sorcery to hit the ghost... Maybe I should try putting in some maple syrup?
+    note: Everyone tries their best to survive. It's the same for both humans and Dolls, right?
+    explore_tag: "3001"
+    illustrator_cv: skin-40002602
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2603
+    name: Ghost Trap
+    fit_gun: 215
+    voice: 18
+    dialog: Real ghosts are all hanging around in tantalizing traps, waiting for the curious busybodies... My, have they already started streaming on the anonymous forum?
+    note: '''"I won't go overboard with scaring or pranking people again. I'm so sorry." *Sobs*'''
+    explore_tag: "3001"
+    illustrator_cv: skin-40002603
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2604
+    name: Guns N' Side Boxes
+    fit_gun: 69
+    voice: 18
+    dialog: Evil spirits claim they've seen Hell, but that's only because they've never been here... I want to hear them wail.
+    note: There are always things that you need to face with courage. It's fine as long as you keep moving forward, isn't that right, Pumpkin Monster?
+    explore_tag: "3001"
+    gift_position: "-48.8,-156.4"
+    illustrator_cv: skin-40002604
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2605
+    name: Jack the Trine
+    fit_gun: 89
+    voice: 18
+    dialog: Candy, pumpkins, monsters. These are the three essential elements on a day like this.
+    note: It's not easy striking a balance... But I'm glad I've found a new way of making myself stronger.
+    explore_tag: "3001"
+    illustrator_cv: skin-40002605
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2606
+    name: Dark Sorceress Academy
+    fit_gun: 178
+    voice: 18
+    dialog: '''"The meteor in the night sky~ is the magic known as faith~" Commander! Is your broom ready?'''
+    note: It was gonna be a great opportunity to show you my poetry tonight, Commander. But guess we should leave it till next time~
+    explore_tag: "3001"
+    illustrator_cv: skin-40002606
+    order: 29
+    class_id: 26
+  }
+  {
+    id: 2701
+    name: Chain Breaker
+    fit_gun: 208
+    ai: 42701
+    voice: 4
+    dialog: All the bullets fired in this performance are aimed at a certain person's heart. Please accept all my love!
+    illustrator_cv: skin-40002701
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2702
+    name: Swansong
+    fit_gun: 192
+    ai: 42702
+    voice: 4
+    dialog: Do you mind singing with me whenever I forget the lyrics? I'll make it up to you in the handshake meetup afterwards.
+    illustrator_cv: skin-40002702
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2703
+    name: I'm Soarin', Flyin'
+    fit_gun: 224
+    ai: 42703
+    voice: 4
+    dialog: Raise your glow sticks! Oh, and don't forget to use red ones, okay? An idol just gotta be red!
+    gift_position: "28.3,-88.7"
+    illustrator_cv: skin-40002703
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2704
+    name: VRAIN Power
+    fit_gun: 189
+    ai: 42704
+    voice: 4
+    dialog: Only idols with proper training can pull off this full combo! You won't fall behind as long as you keep up with my beat!
+    illustrator_cv: skin-40002704
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2705
+    name: Miracle☆Start
+    fit_gun: 167
+    ai: 42705
+    voice: 4
+    dialog: I'm the cute and dreamy idol of miracles, Gr HK45! Come dance along with me, everyone!
+    illustrator_cv: skin-40002705
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2706
+    name: Astral Bond
+    fit_gun: 5
+    ai: 42706
+    voice: 4
+    dialog: Idols are stars whose brilliance never fades no matter the era!
+    gift_position: "-106,26"
+    illustrator_cv: skin-40002706
+    order: 30
+    class_id: 27
+  }
+  {
+    id: 2801
+    name: Queen of X'mas Morning
+    fit_gun: 233
+    voice: 19
+    dialog: Christmas sales are the true reason for celebrating Christmas. Discount prices are the only thing that can multiply the value of happiness!
+    note: This is the profit that I now want the most. Buon Natale, my friends at Griffin. Let's do our best together.
+    explore_tag: "3002"
+    illustrator_cv: skin-40002801
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2802
+    name: Scarlet Turbo
+    fit_gun: 245
+    voice: 19
+    dialog: I was gonna cosplay as Santa Claus, but everyone is asleep when he's delivering presents. It's just a shame no one ever sees him.
+    note: Joyeux Noël, Commander. Hey, I didn't say that to empty air.
+    explore_tag: "3002"
+    gift_position: "-32.9,-157.8"
+    illustrator_cv: skin-40002802
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2803
+    name: Little Chimney Sweeper
+    fit_gun: 175
+    voice: 19
+    dialog: If you don't want your Christmas presents black and sooty, remember to keep your chimney clean!
+    note: No matter how small my world is, I can still find happiness in it. I'm lucky, don't you think?
+    explore_tag: "3002"
+    illustrator_cv: skin-40002803
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2804
+    name: Satellite of Love
+    fit_gun: 164
+    voice: 19
+    dialog: I didn't think this Santa Claus mission would be so much trouble... How the heck does that fat old geezer manage to squeeze himself in?
+    note: Right, who's next? Let me think about it...on the way. Heheh...
+    explore_tag: "3002"
+    illustrator_cv: skin-40002804
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2805
+    name: Blue Christmas
+    fit_gun: 142
+    voice: 19
+    dialog: Commander, you only picked me out of all these presents? Honhonhon... Well, I suppose it's me we're talking about.
+    note: I thought the base was filled with nothing but idiots... Now I'm honestly seeing them in a whole new light.
+    explore_tag: "3002"
+    illustrator_cv: skin-40002805
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2806
+    name: Every Child's X'mas Dream
+    fit_gun: 64
+    ai: 41904
+    voice: 19
+    substitute_voice: G36_0
+    dialog: I want this! And this! And...and...I want everyone's wish to come true!
+    note: I...I just experienced a Christmas Eve all to myself.
+    explore_tag: "3002"
+    illustrator_cv: skin-40002806
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2807
+    name: Red-Eared Cat
+    fit_gun: 176
+    voice: 19
+    dialog: There are so many presents... It should be easier to deliver them wearing something less cumbersome. Gotta bring all this joy to everyone quickly.
+    note: So...the less humanlike a T-Doll is, the more liberated she is?
+    explore_tag: "3002"
+    illustrator_cv: skin-40002807
+    order: 31
+    class_id: 28
+  }
+  {
+    id: 2901
+    name: New Year Wish
+    fit_gun: 243
+    voice: 15
+    dialog: Happy New Year, Commander... Oh, this? This is soba noodles, one of the few dishes I can cook. Wanna try?
+    illustrator_cv: skin-40002901
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2902
+    name: New Year's MVP
+    fit_gun: 172
+    voice: 15
+    dialog: Happy New Year! Wanna play some yearly games, Commander?
+    illustrator_cv: skin-40002902
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2903
+    name: Gunslinger Miko
+    fit_gun: 228
+    voice: 15
+    dialog: Happy New Year, Commander. I wish you all the best in the coming year. Let's work hard together.
+    gift_position: "-73.1,-203.4"
+    illustrator_cv: skin-40002903
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2904
+    name: Insegui l'aquilone
+    fit_gun: 198
+    voice: 15
+    dialog: Are you mistaken, Commander? The New Year is still a week away.
+    illustrator_cv: skin-40002904
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2905
+    name: Bells of Beginning
+    fit_gun: 197
+    voice: 15
+    dialog: Do you want New Year's clothes, Commander? I can design them for you~
+    gift_position: "-122.63,-92"
+    illustrator_cv: skin-40002905
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2906
+    name: Snow, Moon and Flowers
+    fit_gun: 165
+    voice: 15
+    dialog: I have investigated various New Year's customs, and I didn't realize there are so many of them. Why don't we give them all a try?
+    gift_position: "-89.6,-129.5"
+    illustrator_cv: skin-40002906
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2907
+    name: Fireworks of Dreams
+    fit_gun: 60
+    voice: 15
+    dialog: It's a brand new year, Commander. Have I grown at all? Huh, my teddy bear has grown bigger? That's because I just washed it...
+    illustrator_cv: skin-40002907
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 2908
+    name: New Year Fair
+    fit_gun: 249
+    voice: 15
+    dialog: I'm dedicating the entire day today to cleaning up the dormitory! Should I clean the Commander's room as well?
+    illustrator_cv: skin-40002908
+    order: 32
+    class_id: 29
+  }
+  {
+    id: 3001
+    name: Sangria Succulent
+    fit_gun: 119
+    voice: 15
+    dialog: Happy New Year. I hope you will keep it up in the coming year. I'll look forward to your performance.
+    note: Some luxury time was sacrificed, but it wasn't a bad deal.
+    illustrator_cv: skin-40003001
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3002
+    name: Lily of the Valley
+    fit_gun: 59
+    voice: 15
+    dialog: Keep up the effort in the coming year, Boss. Don't get the wrong idea. Just some token words of well wishes. Thank me for them!
+    note: '''"May everything go according to our wishes." That's how it goes, right? Well, perhaps your wishes, but not mine...'''
+    illustrator_cv: skin-40003002
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3003
+    name: Noble Orchid
+    fit_gun: 238
+    voice: 15
+    dialog: Happy New Year! Do you have any plans of going to the countryside, Commander...? May I come with you?
+    note: Th-the outside world is way too scary...
+    illustrator_cv: skin-40003003
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3004
+    name: Edelweiss
+    fit_gun: 148
+    voice: 15
+    dialog: Please keep relying on me in the coming year. Be it victory or your New Year wish, I'll make it all come true!
+    note: I'll do my best even if I'm alone... Not to mention...I'm not alone anymore.
+    gift_position: "-1.8,-88"
+    illustrator_cv: skin-40003004
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3005
+    name: Monks Cress
+    fit_gun: 166
+    voice: 15
+    dialog: Happy New Year, Commander. Why are you wearing so many layers tonight? What a wuss.
+    note: See? My sole is completely flat. There's nothing there.
+    illustrator_cv: skin-40003005
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3006
+    name: Vietnamese Balm
+    fit_gun: 26
+    voice: 15
+    dialog: I hope my breasts will grow bigger in the coming year... I'll do my best!
+    note: I also wish I'll become stronger and receive more impressive missions in the coming year!
+    illustrator_cv: skin-40003006
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3007
+    name: Baby Blue Eyes
+    fit_gun: 210
+    voice: 15
+    dialog: Time will always tell, so let's keep doing our best in the coming year.
+    note: ...95, can I still come with you on your New Year visits?
+    illustrator_cv: skin-40003007
+    order: 34
+    class_id: 30
+  }
+  {
+    id: 3101
+    name: Blissful Mission
+    fit_gun: 115
+    ai: 43101
+    voice: 16
+    dialog: Is this day finally here? Thank you for your companionship, Commander. My mission is finally accomplished...
+    note: Ugh...when was this photo taken?! It's embarrassing to see myself so weak... Commander, if you took it without my knowledge, please delete it immediately!
+    illustrator_cv: skin-40003101
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3102
+    name: Silver Star
+    fit_gun: 173
+    ai: 43102
+    voice: 16
+    dialog: Have I become stronger or weaker...? Commander, you tell me.
+    note: Another mission accomplished with perfection. An elite T-Doll like me is on a completely different league. I'm sure you know that by now.
+    illustrator_cv: skin-40003102
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3103
+    name: You Who Steps Up
+    fit_gun: 104
+    ai: 43103
+    voice: 16
+    dialog: Looks like I, too, must become more reliable in order to meet your expectations.
+    note: My list of things to watch out for didn't come in useful... I'll just keep it as a memento. I hope we'll get more missions like this in the future...
+    gift_position: "-20.4,-142.1"
+    illustrator_cv: skin-40003103
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3105
+    name: Conveyed Feelings
+    fit_gun: 99
+    ai: 43105
+    voice: 16
+    dialog: You've renewed my soul. Allow me to call you again, Darling...
+    note: Haha, I'm the only one who got a photo together with my darling! I totally lucked out! I'll never let anyone else have my darling from now on!
+    illustrator_cv: skin-40003105
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3106
+    name: Oath of Transformation
+    fit_gun: 184
+    ai: 43106
+    voice: 16
+    dialog: I'm...starting to like the way you're looking at me...
+    note: This kind of "transformation" isn't so bad, but just once, I want to experience an actual transformation into a hero like Crimson-Souled Kamen...
+    illustrator_cv: skin-40003106
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3107
+    name: Exciting Future
+    fit_gun: 201
+    ai: 43107
+    voice: 16
+    dialog: As long as you're by my side, this heavy burden...isn't so frightening anymore.
+    note: Ah...that was exhausting. But it's pretty fun too... Maybe it's because the wedding dress looked nice. Should I shop for some new clothes with the pay?
+    illustrator_cv: skin-40003107
+    order: 35
+    class_id: 31
+  }
+  {
+    id: 3201
+    name: Dragon's Son
+    fit_gun: 183
+    ai: 43201
+    voice: 4
+    dialog: '''"This miraculous light shines brighter with every step we take. The more courage you grant me, the farther my blade can reach."'''
+    illustrator_cv: skin-40003201
+    order: 38
+    class_id: 32
+  }
+  {
+    id: 3202
+    name: Obsidian Princess
+    fit_gun: 112
+    ai: 43202
+    voice: 4
+    dialog: '''"The lords of Hell can only bring mortals so much torment. They obviously haven't figured out how to take pleasure in their task."'''
+    gift_position: "16.6,-128.4"
+    illustrator_cv: skin-40003202
+    order: 38
+    class_id: 32
+  }
+  {
+    id: 3203
+    name: Goblin Huntress
+    fit_gun: 162
+    ai: 43203
+    voice: 4
+    dialog: '''"If there are no people...then nobody would get hurt... Why didn't I think of this before?"'''
+    illustrator_cv: skin-40003203
+    order: 38
+    class_id: 32
+  }
+  {
+    id: 3204
+    name: Griffin's Dancer
+    fit_gun: 6
+    ai: 43204
+    voice: 4
+    dialog: '''"Hush... Just tell me where my targets are. I don't care who they are or what they're doing."'''
+    illustrator_cv: skin-40003204
+    order: 38
+    class_id: 32
+  }
+  {
+    id: 3205
+    name: Cloak and Cat Ears
+    fit_gun: 93
+    ai: 43205
+    voice: 4
+    dialog: '''"Heheh, isn't it more useful to put more round, white stuff on yourself and to fight, meow?"'''
+    illustrator_cv: skin-40003205
+    order: 38
+    class_id: 32
+  }
+  {
+    id: 3301
+    name: Before Dawn
+    fit_gun: 194
+    ai: 43301
+    voice: 4
+    dialog: I'll definitely perform better than my juniors today! Just you watch, Commander!
+    note: I must set a role model for my juniors, even when it comes to singing and dancing! Hey...no pictures, Commander! I said NO!
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3302
+    name: Quiet Azure
+    fit_gun: 206
+    ai: 43302
+    voice: 4
+    dialog: Guess I'll take it easy today. Hmm...it'll be even better if something interesting happens.
+    note: Ha, maybe there will come a day...when you'll hand me an invitation in person, Commander.
+    gift_position: "-27.1,-67.8"
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3303
+    name: Silent Rouge
+    fit_gun: 205
+    ai: 43303
+    voice: 4
+    dialog: Is this for me? That's a bit...uh, nothing. If both you and AK-12 have no problem with this, then neither do I.
+    note: Please don't frighten me like that again, AK-12. I was scared to death of losing you... But I must admit it's been an amusing evening. Spasibo.
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3304
+    name: White Rabbit Summer Banquet
+    fit_gun: 128
+    ai: 43304
+    voice: 4
+    dialog: You have work for me, Commander? Oh...sorry. I forgot you told me to relax for today. Then...Commander, fancy a slice of cake?
+    note: I don't know what you mean when you say I need protection. Humph, if you have so much to say, I'd rather you tell the kitchen to up their game!
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3305
+    name: Cocktail Observer
+    fit_gun: 215
+    ai: 43305
+    voice: 4
+    dialog: Guess I'll dress up nicely to blend in at the party~ Hehe, this way I can gather all sorts of secret stories that'll become the hottest posts on the front page!
+    note: I'm the Goddess of Poker, haha! What's going on? Why are people making toxic comments?! Delete!
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3306
+    name: Fox Steps Under Star Night
+    fit_gun: 127
+    ai: 43306
+    voice: 4
+    dialog: Is this an outfit that oozes femininity...? Uh, I don't dislike it; it just takes some getting used to. Please give me more pointers in the future, Commander!
+    note: Did you honestly find me charming tonight? As long as you saw it, Commander, that's good enough for me...
+    gift_position: "-85.7,-175.1"
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3307
+    name: Moonlight and Emerald
+    fit_gun: 146
+    ai: 43307
+    voice: 4
+    dialog: Commander, I'm pretty stylish today, aren't I? Ahaha, looks like my hard work has paid off.
+    note: I've made very thorough preparations! ...That makes surprises even more pleasant.
+    gift_position: "-48.6,-180"
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3308
+    name: Destiny Waltz
+    fit_gun: 212
+    ai: 43308
+    voice: 4
+    dialog: Hehe, my divination was accurate! Commander, why don't I tell your fortune as gesture of thanks?
+    note: I hate to admit it...but I don't actually believe in luck, Commander. I only believe in you.
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3309
+    name: Black Swan's Dream
+    fit_gun: 202
+    ai: 43309
+    voice: 4
+    dialog: I will be a silent spectator to this kind of...event. Don't worry.
+    note: The party was pretty fun. I even named a dessert after you. Let's go to a ball together next time, okay, M950A?
+    gift_position: "-19,-202.9"
+    order: 39
+    class_id: 33
+  }
+  {
+    id: 3401
+    name: Black Kitty's Gift
+    fit_gun: 65
+    ai: 43401
+    voice: 4
+    substitute_voice: HK416_0
+    dialog: Commander, do you want to pat the cat? Here...w-wait! Why are you patting my head?!
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3402
+    name: Lil' Scientist
+    fit_gun: 236
+    ai: 43402
+    voice: 4
+    substitute_voice: K11_0
+    dialog: Even if my body has shrunk, my brain is as big as ever! Humph, now let's start the experiment!
+    gift_position: "53.7,17.6"
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3403
+    name: Agent Lop Rabbit
+    fit_gun: 103
+    ai: 43403
+    voice: 4
+    substitute_voice: UMP45_0
+    dialog: Heheh, I can finally go out and play today! Commander, you'd better keep me company.
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3404
+    name: Shiba Investigator
+    fit_gun: 101
+    ai: 43404
+    voice: 4
+    substitute_voice: UMP9_0
+    dialog: Commander, are you taking me out to play today? That's the plan, right?
+    illustrator_cv: ZAGALA,Mamiko Noto,
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3405
+    name: Angel's Paint Brush
+    fit_gun: 252
+    ai: 43405
+    voice: 4
+    substitute_voice: KSVK_0
+    dialog: The theme of my drawing today is "peace". What do you think of it, Commander?
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3406
+    name: Super Piggy
+    fit_gun: 145
+    ai: 43406
+    voice: 4
+    substitute_voice: OC44_0
+    dialog: You're wondering about this doll? It's a good friend I just made. If you're taking me out to play, we must bring it along.
+    order: 41
+    class_id: 34
+  }
+  {
+    id: 3501
+    name: Holiday Lucky Star
+    fit_gun: 266
+    ai: 43501
+    voice: 4
+    dialog: Let's have a bet, Commander. If I win, you'll come to the beach with me. If you win, I'll come to the beach with you.
+    note: The moment the Commander snapped this picture of me must be when my luck reached its peak on this trip to the seaside...
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3502
+    name: Sunscreen Battle
+    fit_gun: 253
+    ai: 43502
+    voice: 4
+    dialog: Strangers will mistake me for a villain if I get too tanned! Commander, can you help me put on some sunscreen?
+    note: I'll show you the hook that almost fished up a mermaid, but only because you look good! No pictures though...
+    gift_position: "-124.7,-31.2"
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3503
+    name: Flying Fish Assault
+    fit_gun: 213
+    ai: 43503
+    voice: 4
+    dialog: Stop spacing out! Bring the watermelon, frozen treats and the whole beach over here already! How are my subordinates supposed to relax without them?
+    note: What are you staring at?! It's just a poster my rebelling underlings made... They did draw me quite well though...
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3504
+    name: Anti-Drowning Accessories
+    fit_gun: 238
+    ai: 43504
+    voice: 4
+    dialog: I was just trying to remedy the sinking problem. I didn't expect things to turn out this way... What should I do...?
+    note: An anti-drowning accessory Serdyukov tailor-made for me...though the design doesn't feel very scientifically-sound...
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3505
+    name: Cape No. 4
+    fit_gun: 270
+    ai: 43505
+    voice: 4
+    dialog: I should start thinking about drawing a summer arc for the serialization... In that case, I'd better do my best to gather inspirations.
+    note: The best memories have all been recorded in my manga...and imprinted onto my neural cloud as well, of course.
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3506
+    name: Crow Lifeguard
+    fit_gun: 113
+    ai: 43506
+    voice: 4
+    dialog: Commander, I'll always be by your side to protect you. Please relax and enjoy your vacation. However, I must remind you to warm-up properly before swimming in the sea!
+    note: This is the prize I got for receiving first-aid training. It proves what I can do, so whatever you've heard about me drowning...is all a lie!
+    gift_position: "41.5,-83.5"
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3507
+    name: Swimming Lesson
+    fit_gun: 116
+    ai: 43507
+    voice: 4
+    dialog: I still don't quite understand how swimming works, but the tutorials make it look easy enough, so it shouldn't be a problem!
+    note: I have no one to write to, so I've been using several stamps as bookmarks when reading novels. But I've written a letter recently...
+    order: 42
+    class_id: 35
+  }
+  {
+    id: 3601
+    name: Aqua Youth
+    fit_gun: 214
+    ai: 43601
+    voice: 4
+    dialog: I can't go into the water wearing this. Feels a bit lonely... Huh? This goldfish is for me? It's so cute! Thank you!
+    order: 43
+    class_id: 36
+  }
+  {
+    id: 3602
+    name: Maiden's Secret
+    fit_gun: 188
+    ai: 43602
+    voice: 4
+    dialog: It's lively today. Aren't you going to spend some time with them, Commander? Humph, I see. You want to talk to me, don't you? Then let's put our heads together.
+    order: 43
+    class_id: 36
+  }
+  {
+    id: 3603
+    name: Moonlit Prayer
+    fit_gun: 64
+    ai: 43603
+    voice: 4
+    dialog: Done with your paper strip? Let me tie it onto the bamboo for you, Commander. Don't worry, I won't peek. What wish did I put on mine? Haha, I can't tell you 'cause it won't come true if I do.
+    order: 43
+    class_id: 36
+  }
+  {
+    id: 3604
+    name: Oborozukiyo
+    fit_gun: 79
+    ai: 43604
+    voice: 4
+    dialog: Sorry to keep you waiting. Let's go. I'll never wear this thing again 'cause putting it on is such a chore.
+    order: 43
+    class_id: 36
+  }
+  {
+    id: 3605
+    name: Efflorescence
+    fit_gun: 105
+    ai: 43605
+    voice: 4
+    dialog: Is it too ostentatious for a secret weapon? This is perfect? You think so? Well...if you don't have a problem with it, I'll get ready to set off.
+    order: 43
+    class_id: 36
+  }
+  {
+    id: 3701
+    name: High School Thrills
+    fit_gun: 260
+    voice: 4
+    dialog: Hmm? Can't I stay under the podium? D-don't pretend to pick up your pen and use that as an excuse to get closer!
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3702
+    name: Pure White Graduation
+    fit_gun: 129
+    voice: 4
+    dialog: After the graduation ceremony of the baseball club manager, I found a button in the certificate holder... It's got to be yours, right, Commander? That's your second button, isn't it?
+    gift_position: "30,-174"
+    illustrator_cv: GINGALA,大门香实,
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3703
+    name: Late for School
+    fit_gun: 130
+    voice: 4
+    dialog: First, I hold onto the bread with my teeth, next I accelerate, then I turn at the corner and run right into the Commander... Ahaha, it's clichéd, but you still fell for it, didn't you?
+    illustrator_cv: Nagu,佐仓绫音,
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3704
+    name: Commando Bunny
+    fit_gun: 135
+    voice: 4
+    dialog: Heheh, nice to "beat" you! Don't slack on the embroidery on my suit! What? Giving you my clothes means I'm trusting you with my life!
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3705
+    name: New Term Begins with a Meow
+    fit_gun: 99
+    voice: 4
+    dialog: Check out my new uniform, Commander! It's a new semester. If only I could turn you into a keychain and hang you on my schoolbag...
+    gift_position: "17,-180"
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3706
+    name: Recreation after School
+    fit_gun: 155
+    voice: 4
+    dialog: Wanna go to the tuck shop together? They sell limited yakisoba buns on Friday. I wonder how early we have to start queuing to buy them.
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3707
+    name: Daydreaming in Class
+    fit_gun: 154
+    voice: 4
+    dialog: Heheh, the desk is obviously for napping. Don't wake me. I was just about to become the MVP!
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3708
+    name: Meow Prism Power
+    fit_gun: 176
+    voice: 4
+    dialog: Hooooowl... Grant me the power of Meow Planet - transform! W-what? I'm just practicing for my club activities...
+    gift_position: "44,-136"
+    order: 44
+    class_id: 37
+  }
+  {
+    id: 3801
+    name: Candy Mugger!
+    fit_gun: 261
+    ai: 43801
+    voice: 18
+    dialog: Heheh! If you're scared, hand over the free candy!
+    note: I-I won't fall for it again! This must be a ruse! ...Huh? It's a real prize? Then I'm signing up again!
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3802
+    name: Burning-Eyed Gr G36c
+    fit_gun: 104
+    ai: 43802
+    voice: 18
+    dialog: What are you looking at, Commander? Why don't you try and guess my character tonight? I'm not an assassin, nor am I an abandoned computer.
+    note: Hush...the show is about to begin. Keep your eyes on me and watch me transform, Commander.
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3803
+    name: Pumpkin Fortress
+    fit_gun: 229
+    ai: 43803
+    voice: 18
+    dialog: Huh? What's this? Who am I? Where am I? ...What Halloween...I didn't sign up for this! Let me out!
+    note: Pumpkin, pumpkin, more pumpkin! When I'm outta here, I'm gonna catch you all, bastards!
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3805
+    name: Darkside Moonwalk
+    fit_gun: 252
+    ai: 43805
+    voice: 18
+    dialog: What are you waiting for? Ready the pumpkin carriage. The trumpet signalling a rave has sounded. Dance with me at the center of the whirlpool, Commander!
+    note: Decrypted... Ladies of Griffin, are you ready for a fantastic show?
+    explore_tag: "3001"
+    gift_position: "19.7,-121.6"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3806
+    name: Open Your Eyes, It's Full Moon.
+    fit_gun: 88
+    ai: 43806
+    voice: 18
+    dialog: Heh, how unlucky of you to run into a werewolf... But it's your fault for being out so late. Now, which part of you should I eat first?
+    note: Will I be able to find the answer...before the next full moon?
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3807
+    name: Ingenious Stratagem No.97
+    fit_gun: 161
+    ai: 43807
+    voice: 18
+    dialog: Well? Isn't this getup amazing? Look forward to my entrance tonight, Commander and you all!
+    note: I've slipped the ticket under the glass on the office desk. I hope the Commander will see it and come!
+    explore_tag: "3001"
+    gift_position: "11.3,-55.7"
+    illustrator_cv: 豆芽,大坪由佳,
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3808
+    name: Phantom Assault
+    fit_gun: 117
+    ai: 43808
+    voice: 18
+    dialog: Brace yourself, Commander... Once the sun sets, we creatures of the dark can do whatever we want!
+    note: You see this, m45?! Behold my invincible figure! ...I...oww... Why does my head hurt so much...?
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3809
+    name: Nocturnal Executioner
+    fit_gun: 223
+    ai: 43809
+    voice: 18
+    dialog: Leave the rest to me. Humans aren't the only creatures living in this world. You...and you guys over there should reflect on that. Especially you, P7!
+    note: Are you so incompetent just because you're a Dummy...? Then let me shatter your disguise with a single bullet!
+    explore_tag: "3001"
+    order: 45
+    class_id: 38
+  }
+  {
+    id: 3901
+    name: Crimson Navigator
+    fit_gun: 160
+    voice: 4
+    dialog: Commander, the upcoming race is on you! I'm your private co-driver. Now please let me conduct your medical examination...
+    order: 46
+    class_id: 39
+  }
+  {
+    id: 3902
+    name: Pulsing Dash
+    fit_gun: 242
+    voice: 4
+    dialog: Wait for me at the finish line, Commander! Only the blue car is worth your attention on the track!
+    illustrator_cv: 陆银,Azusa Tadokoro,
+    order: 46
+    class_id: 39
+  }
+  {
+    id: 3903
+    name: Breakneck Whirlwind
+    fit_gun: 254
+    voice: 4
+    dialog: That's right, going at the top speed on the dashboard is the coolest! What, Commander? This is considered a risk on your home planet?
+    order: 46
+    class_id: 39
+  }
+  {
+    id: 3904
+    name: Cheers on the Blazing Tarmac
+    fit_gun: 77
+    voice: 4
+    dialog: I'll cheer you guys on! Huh, I have to run that far? Never mind then...
+    illustrator_cv: 染羽,Izumi Iwamatsu,
+    order: 46
+    class_id: 39
+  }
+  {
+    id: 3905
+    name: Mach Tempest
+    fit_gun: 10
+    voice: 4
+    dialog: Make sure you follow the rules in this game, too. There is no safe word when it comes to auto racing. If you understand, say "START!"
+    illustrator_cv: RIRE,Asuka Itou,
+    order: 46
+    class_id: 39
+  }
+  {
+    id: 4001
+    name: Holy Night Promise
+    fit_gun: 253
+    voice: 19
+    dialog: You'd better not go back on your promise. What promise? Have you forgotten already? I'll give you a hint - it has something to do with you.
+    note: If you're kind to nature, nature will watch over you! I don't quite get it...but squirrels are adorable, don't you think, Commander?
+    explore_tag: "3002"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4002
+    name: Vixen's Platform ⅑
+    fit_gun: 208
+    voice: 19
+    dialog: People's desire for gifts knows no bounds tonight. Come on up, we don't have as much time as you think, Commander.
+    note: This "Vixen" has led me off the right track this Christmas, but thanks to the Commander, all's well that ends well... Thank you.
+    explore_tag: "3002"
+    gift_position: "-42.2,-131.5"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4003
+    name: 120 Winter Gifts
+    fit_gun: 281
+    voice: 19
+    dialog: I've bought all the presents. Please reimburse me the cost of 119 gifts... Why not 120? Well...it's my gift to you.
+    note: The star at the top of the Christmas tree is the most precious gift. I want to share its light with everyone in the world, even though it may not be the brightest.
+    explore_tag: "3002"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4004
+    name: Treasure Buried Deep Within
+    fit_gun: 228
+    voice: 19
+    dialog: Hmm... I finally managed to dig it out. Huh? This is... Wow, thanks! This is the best present ever!
+    note: Sorry, but my gift box is actually empty...
+    explore_tag: "3002"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4005
+    name: The X'mas Princess and the Stony Pett
+    fit_gun: 203
+    voice: 19
+    dialog: Merry Christmas, Commander! If you want a gift...hehe, make a wish to Pett!
+    note: It's just a small practical joke... But this candy is still quite recommended though? Don't you want to try some, Commander?
+    explore_tag: "3002"
+    gift_position: "-50.4,-116.1"
+    illustrator_cv: 林檎愛す,藤井彩加,
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4006
+    name: Unblemished Protector
+    fit_gun: 201
+    voice: 19
+    dialog: Why have you come all this way? ...Oh, I like that flavor, thank you... Don't worry about me. I'm enjoying the festivities in my own way.
+    note: This coffee...almost burned my tongue. Care to have a cup of coffee with me next time? Let's just chill and do nothing at all during our next holiday, Commander.
+    explore_tag: "3002"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4007
+    name: My Lie in December
+    fit_gun: 81
+    voice: 19
+    dialog: Sorry...I told a lie, but that lie brought you to me...
+    note: Hard work gives my existence real purpose, while leisure makes me understand that my existence isn't solitary.
+    explore_tag: "3002"
+    order: 47
+    class_id: 40
+  }
+  {
+    id: 4101
+    name: Shrine Maiden's Blessed Draw
+    fit_gun: 135
+    voice: 15
+    dialog: Ta-daa! According to my divination, your fortune today is the best, Commander! Heheh, let's go out and have fun after we finish cleaning up the shrine~
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4102
+    name: Lucky Rat's Lazy Spring
+    fit_gun: 122
+    voice: 15
+    dialog: Snore... Don't bother to wake me for the bell-ringing. I'm sleepy... Yawn, I'll have to get up early to visit the shrine... Let me ride on your back when we go...
+    gift_position: "-102.5,-139.5"
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4103
+    name: Hanetsuki Paddle
+    fit_gun: 270
+    voice: 15
+    dialog: Please give me a second, Master! Just leave the Spring Tournament to me!
+    gift_position: "-102.7,-188.7"
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4104
+    name: Purifying Arrow, Flowers and Dreams
+    fit_gun: 118
+    voice: 15
+    dialog: Um, Commander...will you come and watch the New Year training? Please, you must stay with me...
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4105
+    name: New Year Lion Dance
+    fit_gun: 88
+    voice: 15
+    dialog: Haha, don't be scared, Commander. It merely "bit" you a little on the neck. I wish you good health in the coming year.
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4106
+    name: Red Plum and White Snow
+    fit_gun: 35
+    voice: 15
+    dialog: Look, Commander, I found some treasure! It's true – with just some patience, you can find treasures in the snow, heh...
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4107
+    name: With You
+    fit_gun: 256
+    voice: 15
+    dialog: Little Lamb, it's our turn to make our wishes! ...Hey, what did you just wish for? You wished to stay with me in the coming year, right?!
+    order: 48
+    class_id: 41
+  }
+  {
+    id: 4201
+    name: Echeveria Lantern
+    fit_gun: 282
+    voice: 15
+    dialog: There are a lot of anecdotes about traditional New Year celebrations, Commander. Why don't you put your work aside and go for a walk along the veranda with me tonight?
+    note: A photo taken to commemorate a story-telling event that took place in the closet. Sadly, there wasn't time to tell one last story to a certain someone...
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4202
+    name: Alluring Larkspur
+    fit_gun: 260
+    voice: 15
+    dialog: Don't you want to do something more exciting with me during this boring New Year? For instance, if you can find this pistol on me in three minutes, I'll grant you a single request.
+    note: This blueprint is very clear and easy to understand. Not only does it make it easier for me to modify the chair according to my taste, it's also really convenient for me to put the blown up parts back together into— Um, nothing...
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4203
+    name: Dignified Bamboo
+    fit_gun: 173
+    voice: 15
+    dialog: There's no need for me to take part in this messy New Year tournament, Commander. So long as I'm present, we obviously have a winner already, don't you think?
+    note: Materials left from packing furniture. It seems like a waste to just throw them away, and they look perfect on the lantern that the Commander gave me.
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4204
+    name: Tender Marigold
+    fit_gun: 234
+    voice: 15
+    dialog: New Year is all about praying for good fortune by physically getting rid of bad luck - that's my forte. Allow me to salute the dawn of the new year with a mix of Eastern and Western cultures - a salvo!
+    note: This has been my most hectic mission ever. I've got a whole pile of expense reimbursement forms here. It was really hard work, but it was also a lot of fun...
+    gift_position: "-91.9,-164.9"
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4205
+    name: Scarlet Turk's Cap
+    fit_gun: 263
+    voice: 15
+    dialog: Commander, I'm currently casting actors to star in a movie I'm planning to film. Look, do you think this New Year mascot would fit the role of Mighty Mouse?
+    note: An amulet merchandise featuring Hal 9000-II. Once my movie is finally in the theaters, it will definitely become a trendy accessory.
+    gift_position: "-144.9,-113.2"
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4206
+    name: Snowy Plum Blossom
+    fit_gun: 181
+    voice: 15
+    dialog: Heheh, Happy New Year, Commander! One Spring Festival exclusive bubble tea, extra large! Please sign to receive your delivery~
+    note: An unexpected surprise when carrying out a mission! A bubble tea store that's on my top 10 list! If it's possible, we could go and have a drink together...
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4207
+    name: Night of Blue Lotus
+    fit_gun: 98
+    voice: 15
+    dialog: Come and check out the modifications I've made to celebrate New Year! Whoa— Why is it not working?! Commander, I told you not to look!
+    note: Just seeing this card reminds me of my underwater show. It ended in a mess, but at least it helped, right?
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4209
+    name: Fragrant Clove
+    fit_gun: 262
+    voice: 15
+    dialog: Oh, Commander, I haven't made a bad choice in my New Year outfit, have I? I hope you like it...
+    note: Another discovery after the antique rotary dial telephone - an IC card for public payphones! My latest goal is to find a public phone that's still functional and make a phone call to someone using this card...
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4210
+    name: Divine Peach Blossom
+    fit_gun: 87
+    voice: 15
+    dialog: Hush...you're the only one who's seen this outfit! If my sister found out about it, she'd be nagging me to make her one as well...
+    note: I accepted the mission in such a rush, I didn't even notice I got the staff badge for the security team by mistake... And by the end of the assignment, there's no point in changing it to the badge for the reception team… Just as it's pointless to bid someone farewell.
+    order: 49
+    class_id: 42
+  }
+  {
+    id: 4301
+    name: Purity in Vermilion
+    fit_gun: 46
+    ai: 44301
+    voice: 16
+    dialog: I spent a long time picking my bouquet. In the end, I still believe the typical red rose can best convey what I can't say out loud.
+    note: Maintaining trust requires a lot of effort from both sides. Don't disappoint me.
+    illustrator_cv: Yukuso,Mitsuki Nakae,
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4302
+    name: The Warbler and the Rose
+    fit_gun: 97
+    ai: 44302
+    voice: 16
+    dialog: Something feels missing. If only I had that... Huh? How did you know I wanted a champagne-colored rose wreath?
+    note: Tsavorite suits me very well? Alright, this one it is.
+    illustrator_cv: 八号地球,Aoi Koga,
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4303
+    name: Rain on a Starry Night
+    fit_gun: 96
+    ai: 44303
+    voice: 16
+    dialog: Right here. Now please look up at the sky. 3, 2, 1! Well? Pretty good for the first meteor shower you saw with me this year, right?
+    note: Quite a nice view, don't you think? I took this with RMB-93's camera.
+    gift_position: "-133,-195.2"
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4304
+    name: Affections Behind the Bouquet
+    fit_gun: 196
+    ai: 44304
+    voice: 16
+    dialog: I was going to pick some soft windflowers for you, Commander, but then I remembered its flower language and felt it was a bit unrealistic...
+    note: Flowers, stars, new clothes, as well as the Commander's words. All these will be preserved in my neural cloud.
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4305
+    name: Heartbeat Before the Angel Statue
+    fit_gun: 165
+    ai: 44305
+    voice: 16
+    dialog: You were 10 minutes 41 seconds 23 milliseconds late this time. Adding that to all the times you were late before, that makes exactly 52 minutes.
+    note: I'd better encrypt the things I said to the angel. Right, I'll make this the passcode and this the reminder!
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4306
+    name: Miss Camellia's Special Service
+    fit_gun: 7
+    ai: 44306
+    voice: 16
+    dialog: Whoa... Do you feel happy and pleasantly surprised? If yes, please pay for the service, props, and venue setup...
+    note: This isn't an IOU, it's just a receipt! A receipt!
+    gift_position: "-177.5,-178.2"
+    illustrator_cv: 春_日_,Eri Kitamura,
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4308
+    name: Strawberry Cake & Garden Cosmos
+    fit_gun: 70
+    ai: 44308
+    voice: 16
+    dialog: Here, the garden cosmos are for you. I'll eat some cake with you after you come off work, and I'll let you feed me the last strawberry. It'll be amazing if we can do this every day!
+    note: Sorry! But chocolate is just so tasty... I'll pay for the snacks with my next paycheck...
+    gift_position: "-171.5,-204.6"
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4309
+    name: Moonlit Lover Beyond Reach
+    fit_gun: 159
+    ai: 44309
+    voice: 16
+    dialog: If you choose the red rose, will I become the pale moonlight to you forever?
+    note: What a beautiful moonlit night, don't  you think, Commander? Your expression will forever be preserved in my memory.
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4310
+    name: A Certain Unscientific Sunflower
+    fit_gun: 8
+    ai: 44310
+    voice: 16
+    dialog: I know that sunflowers turn towards the sun due to the presence of auxins, but science can't explain the reason why I'll never leave your side...
+    note: Ow, my head aches. It feels like I've forgotten something... Weird, what on earth did I...
+    illustrator_cv: 豆芽,Sumire Uesaka,
+    order: 50
+    class_id: 43
+  }
+  {
+    id: 4401
+    name: Smokeless Lollipop
+    fit_gun: 163
+    voice: 4
+    dialog: Don't worry, I haven't taken up smoking! It's a lollipop! I'm just spewing smoke because I'm absorbing the sugar too quickly...
+    gift_position: "-193,-102.7"
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4402
+    name: Marvelous Yam Pastry
+    fit_gun: 260
+    voice: 4
+    dialog: Eat yam pastries and play exciting games with me! As for the punishment for losing against me... I'll tell you under the blanket...
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4403
+    name: Inflammable Oolong Tea
+    fit_gun: 227
+    voice: 4
+    dialog: Just add a bit of whiskey into the vodka and the "oolong tea" for the party will be ready! C'mon, ladies, let the bash begin!
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4404
+    name: Devil's Ring Pop
+    fit_gun: 269
+    voice: 4
+    dialog: If you keep throwing pillows at me, I'll fight you to the death! An eye for an eye! Paying you back triple!
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4405
+    name: Carbonated Fizzers
+    fit_gun: 137
+    voice: 4
+    dialog: The shadow that only pulses in the dark in horror stories and the carbonic acid that fizzes on the tip of the tongue are the inspiration for my outfit today!
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4406
+    name: Hundred-Flavor Curry Bunny
+    fit_gun: 190
+    voice: 4
+    dialog: I hear you mustn't bring any pungent food to a party, so I've brought along my good friend Curry Bunny. What? Something smells like curry? Nope...
+    order: 51
+    class_id: 44
+  }
+  {
+    id: 4501
+    name: Ruler of the Banquet
+    fit_gun: 119
+    voice: 4
+    dialog: These are all merely my observations on reality. With social order and decorum so fragile, I must be your protector.
+    note: Ruler? No, I'm just enjoying the atmosphere.
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4502
+    name: War Correspondent
+    fit_gun: 257
+    voice: 4
+    dialog: I hear some assassins combine their gun with a camera, but I believe that photography has absolutely nothing to do with murder; it is a way to preserve fragments of time.
+    note: I want more flowers to bloom on the earth.
+    gift_position: "-49.4,-58.3"
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4503
+    name: Explorer of the Wild
+    fit_gun: 261
+    voice: 4
+    dialog: The reward is a free photo? Yes, I'm doing it, of course! The weather today is perfect for flying kites. If you do it this way, the kite can fly very high.
+    note: Sheesh, no matter how capable I am, you can't just keep giving me rushed orders!
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4504
+    name: Enforcer of the Law
+    fit_gun: 143
+    voice: 4
+    dialog: When a lady enters the venue, she should be like a butterfly - light and graceful... Don't shout, SOP-II. This is meant to be a very formal occasion... At least don't run.
+    note: This has been a very relaxing holiday. No? But I genuinely think so.
+    gift_position: "-100.5,-110.5"
+    illustrator_cv: --,Ayaka Fukuhara,
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4505
+    name: Suspender of Time
+    fit_gun: 55
+    voice: 4
+    dialog: When memories fade, they're like pressed flowers. I can't let these vibrant memories grow pale... I will stop the passage of time.
+    note: For the sake of perpetuating the blissful present, no matter how much hardship awaits ahead...
+    gift_position: "-144.6,-96.2"
+    illustrator_cv: Nagu,Haruka Tomatsu,
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4506
+    name: Blazer of the Trail
+    fit_gun: 54
+    voice: 4
+    dialog: What's wrong? There's no time to hesitate, come this way. It's safe here, I promise.
+    note: You guys have put a limit to how much I can drink, but it's okay if I collect these liquor labels as keepsakes, right, M4?
+    gift_position: "-381.6,-8.7"
+    illustrator_cv: 陆银,Nozomi Amane,
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4507
+    name: Devourer of the Feast
+    fit_gun: 56
+    voice: 4
+    dialog: Wow, this, this and that are all so pretty! I love it here! Get outta my way, RO! I'm not drunk! All I had was some sparkling wine...
+    note: Do you really have to put this up at the base, Commander? Please, no!
+    gift_position: "-108.6,32.9"
+    illustrator_cv: 八号地球,Yukari Tamura,
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4508
+    name: Prisoner of the Dream
+    fit_gun: 57
+    voice: 4
+    dialog: Be it pain or sorrow, or even this rain that shows no sign of stopping, all will come to an end one day.
+    note: What a chaotic banquet... Eh, it's not so bad.
+    gift_position: "-107.9,95.7"
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4509
+    name: Truman Traveler
+    fit_gun: 252
+    voice: 4
+    dialog: Life is like a movie that has neither a script nor prompts. Whenever we feel lost, we should go out for a stroll.
+    note: When it comes to joy in life, this should be an option – dealing with accidents and finding serendipitous happiness.
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4510
+    name: Arbiter of Twilight
+    fit_gun: 160
+    voice: 4
+    dialog: I have nothing against balls as long as people don't leave the place in a mess... Don't you think littering is an insult to the next daybreak?
+    note: I may have been deceived, but I got to see a pretty girl's hidden side! It's still a win for me!
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4511
+    name: Dancer of the Night
+    fit_gun: 284
+    voice: 4
+    dialog: The night is related to love and death. Loving you is the beginning of my life and the end of my dreams. Well? Doesn't that sound much deeper than the stupid things that SVD tends to say?
+    note: It's barbaric to cut a cake like this! Commander, back me up!
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4514
+    name: Breaker of the Sky
+    fit_gun: 2
+    voice: 4
+    dialog: Dolls don't cry - crying is a gift only meant for humans. If Dolls can feel love, I'll smash open the heavens and make it rain for you.
+    note: A cake should be divided into eight slices. Surely you agree, Commander?
+    order: 53
+    class_id: 45
+  }
+  {
+    id: 4601
+    name: Cat Snatcher Beneath the Stars
+    fit_gun: 306
+    ai: 44601
+    voice: 4
+    substitute_voice: AKAlfa_0
+    dialog: I sail on a small boat drifting along the Milky Way and slumber with the starry night... Please believe in the power of imagination. Nothing is impossible.
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4602
+    name: Little Glider
+    fit_gun: 303
+    ai: 44602
+    voice: 4
+    substitute_voice: BrowningHP_0
+    dialog: If I'm fast enough, one of these days I'll be able to ride the wind up to the clouds... Then I'll find out if they're cotton candy or ice cream!
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4603
+    name: White Rose Girl
+    fit_gun: 251
+    ai: 44603
+    voice: 4
+    substitute_voice: X95_0
+    dialog: Commander... Mind brushing my hair for me?
+    gift_position: "-109.55,-189.1"
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4604
+    name: Forest Whisperer and Birds
+    fit_gun: 69
+    ai: 44604
+    voice: 4
+    substitute_voice: FAMAS_0
+    dialog: The sun rises and sets; the birds in flight aren’t the birds from yesterday. The sun sets and rises; the wind the blows is the wind of tomorrow.
+    gift_position: "-365.2,150.2"
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4605
+    name: Crimson Destroyer
+    fit_gun: 184
+    ai: 44605
+    voice: 4
+    substitute_voice: T5000_0
+    dialog: It's crimson, not pink! A hero must always stick to their principles! Commander, be a defender of justice with me!
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4606
+    name: Black Cat Nursery
+    fit_gun: 176
+    ai: 44606
+    voice: 4
+    substitute_voice: TMP_0
+    dialog: Love conquers all... S-so even a scaredy-cat can find courage?
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4607
+    name: EVO 3's Morning
+    fit_gun: 131
+    ai: 44607
+    voice: 4
+    substitute_voice: EVO3_0
+    dialog: Strange things keep happening to me every morning... Vz.61! It's you, isn't it?!
+    order: 53
+    class_id: 46
+  }
+  {
+    id: 4702
+    name: Orca's Journey
+    fit_gun: 234
+    ai: 44702
+    voice: 4
+    dialog: Commander, here's some small advice for you - why don't you ditch your uniform when on vacation at the seaside? That looks awfully inappropriate for riding orcas.
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4703
+    name: Nook of Ephemeral Dreams
+    fit_gun: 307
+    ai: 44703
+    voice: 4
+    dialog: I can't reach and apply sunscreen on the other half of my back... I hate leaving things half-finished.
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4704
+    name: Wave Crest
+    fit_gun: 296
+    ai: 44704
+    voice: 4
+    dialog: What, are you so ready to challenge me? I do applaud your courage, but I think I should first remind you of the punishment for losing to me.
+    gift_position: "-272.8,-122.3"
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4705
+    name: Icy Summer
+    fit_gun: 136
+    ai: 44705
+    voice: 4
+    dialog: Kalina is way too frugal! She gave us several pieces of ice to cool down just so she doesn't have to turn on the AC... Do something, Commander!
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4706
+    name: Sweetheart in Love
+    fit_gun: 286
+    ai: 44706
+    voice: 4
+    dialog: Honey~ ♪ Let us sail in the sweet ocean of grape soda! I'll step over the dead bodies of anyone who dares to stop us!
+    gift_position: "-99.7,25.2"
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4707
+    name: Southern Wind
+    fit_gun: 187
+    ai: 44707
+    voice: 4
+    dialog: Commander, you haven't planned today's schedule yet, have you? There seems to be a sale at the seaside. Wanna go and have a look?
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4708
+    name: Astra's Pool Adventures
+    fit_gun: 14
+    ai: 44708
+    voice: 4
+    dialog: Now that you're here, stop thinking about work and come swim with me, Commander! When we're tired, let's go and eat lots and lots of tasty food!
+    gift_position: "-116.9,-42"
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4709
+    name: Daydream Under the Parasol
+    fit_gun: 51
+    ai: 44709
+    voice: 4
+    dialog: U-um, Commander, it's very sunny outside. I've prepared a parasol. Would you like to...come and take a break?
+    order: 55
+    class_id: 47
+  }
+  {
+    id: 4801
+    name: Heart of Dark Iron
+    fit_gun: 53
+    voice: 4
+    dialog: It doesn't matter how many people the enemy has. They have no chance of breaking through, because I'm here.
+    order: 57
+    class_id: 48
+  }
+  {
+    id: 4802
+    name: Requiem Array
+    fit_gun: 73
+    voice: 4
+    dialog: I'm ready. Let's head out, to the frontlines... to offer the enemy funeral music and a funeral wreath.
+    order: 57
+    class_id: 48
+  }
+  {
+    id: 4803
+    name: Blade of White Steel
+    fit_gun: 39
+    voice: 4
+    dialog: I'm faster than a footsoldier even without my horse! Employ me, Comrade Castellan!
+    order: 57
+    class_id: 48
+  }
+  {
+    id: 4804
+    name: Gunsmoke Decree
+    fit_gun: 121
+    voice: 4
+    dialog: Once this flag goes up, the meatgrinder will go into action. Hehe... You'd better keep up with me, okay?
+    order: 57
+    class_id: 48
+  }
+  {
+    id: 4805
+    name: Sentinel of the Sky
+    fit_gun: 152
+    voice: 4
+    dialog: No false move will make it past my eyes! Let me handle the patrolling, Commander! Huh? I'm supposed to call you Lord Castellan now?
+    order: 57
+    class_id: 48
+  }
+  {
+    id: 4901
+    name: Keeper of the Sanzu River
+    fit_gun: 282
+    voice: 4
+    dialog: The goemonburo bath, perfect for alleviating fatigue, is now ready. Please step into the bathtub.
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4902
+    name: Dark Blossom of the End
+    fit_gun: 109
+    voice: 4
+    dialog: '''"Flowers and water, / Separated by darkness / Until they fall." Hm, I can sense the author's despair whenever I read this.'''
+    illustrator_cv: Mxixi,Ami Koshimizu,
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4903
+    name: Bamboo Samurai
+    fit_gun: 263
+    voice: 4
+    dialog: The bamboo is my dojo. Allow me to harvest my zanshin!
+    gift_position: "-96.1,196.61"
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4904
+    name: Wisteria Minstrel
+    fit_gun: 266
+    voice: 4
+    dialog: '''"Did you come to me / Because I dropped off to sleep / Tormented by love? / If I had known I dreamed, / I would not have awakened." Our encounter was like a sweet dream. I have a feeling that we will meet again very soon.'''
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4905
+    name: Kagura in Black
+    fit_gun: 228
+    voice: 4
+    dialog: This is the first time I'm assisting in o-mikuji! Hush... I can draw a fortune slip for you to test out your luck!
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4906
+    name: Culinarian of the Souleaters
+    fit_gun: 305
+    voice: 4
+    dialog: What's inside this bento, you ask? It's my invincible cooking! Please make sure you start eating from the very center, or you'll destroy the symmetry.
+    gift_position: "-176.3,-59"
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4907
+    name: Beauties of Nature
+    fit_gun: 182
+    voice: 4
+    dialog: Hmm... A fragrant breeze frolics through the air, and all is calm... Oh crap, I finished the drink already?!
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 4908
+    name: Roly-Poly Ninja Cat
+    fit_gun: 93
+    voice: 4
+    dialog: Meooooow! Watch out, don't let a cat snatch away your soul, like that brilliant swordsman in Edo!
+    order: 58
+    class_id: 49
+  }
+  {
+    id: 5000
+    name: M1911 - Original
+    fit_gun: 20002
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005000
+  }
+  {
+    id: 5001
+    name: FF FN49 - Original
+    fit_gun: 20051
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005001
+  }
+  {
+    id: 5002
+    name: Type64 - Original
+    fit_gun: 20094
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005002
+  }
+  {
+    id: 5003
+    name: ST AR-15 - Original
+    fit_gun: 20057
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005003
+  }
+  {
+    id: 5004
+    name: IDW - Original
+    fit_gun: 20093
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005004
+  }
+  {
+    id: 5005
+    name: M4A1 - Original
+    fit_gun: 20055
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005005
+  }
+  {
+    id: 5006
+    name: M1895 - Original
+    fit_gun: 20005
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005006
+  }
+  {
+    id: 5007
+    name: Mosin-Nagant - Original
+    fit_gun: 20039
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005007
+  }
+  {
+    id: 5008
+    name: M1918 - Original
+    fit_gun: 20075
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005008
+  }
+  {
+    id: 5009
+    name: MP-446 - Original
+    fit_gun: 20091
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005009
+  }
+  {
+    id: 5010
+    name: SAA - Original
+    fit_gun: 20001
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005010
+  }
+  {
+    id: 5011
+    name: SV-98 - Original
+    fit_gun: 20044
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005011
+  }
+  {
+    id: 5012
+    name: Gr G3 - Original
+    fit_gun: 20063
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005012
+  }
+  {
+    id: 5013
+    name: Bren - Original
+    fit_gun: 20089
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005013
+  }
+  {
+    id: 5014
+    name: M4 SOPMOD II - Original
+    fit_gun: 20056
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005014
+  }
+  {
+    id: 5015
+    name: UMP45 - Original
+    fit_gun: 20103
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005015
+  }
+  {
+    id: 5016
+    name: STEN MkⅡ - Original
+    fit_gun: 20029
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005016
+  }
+  {
+    id: 5017
+    name: M14 - Original
+    fit_gun: 20037
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005017
+  }
+  {
+    id: 5018
+    name: Gr G36 - Original
+    fit_gun: 20064
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005018
+  }
+  {
+    id: 5019
+    name: LWMMG - Original
+    fit_gun: 20081
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005019
+  }
+  {
+    id: 5020
+    name: Micro Uzi - Original
+    fit_gun: 20032
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005020
+  }
+  {
+    id: 5021
+    name: AS Val - Original
+    fit_gun: 20060
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005021
+  }
+  {
+    id: 5022
+    name: StG44 - Original
+    fit_gun: 20061
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005022
+  }
+  {
+    id: 5023
+    name: Gr MP5 - Original
+    fit_gun: 20026
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005023
+  }
+  {
+    id: 5024
+    name: 416 - Original
+    fit_gun: 20065
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005024
+  }
+  {
+    id: 5025
+    name: Type 88 - Original
+    fit_gun: 20095
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005025
+  }
+  {
+    id: 5026
+    name: UMP9 - Original
+    fit_gun: 20101
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005026
+  }
+  {
+    id: 5027
+    name: Stechkin - Original
+    fit_gun: 20007
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005027
+  }
+  {
+    id: 5028
+    name: C96 - Original
+    fit_gun: 20012
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005028
+  }
+  {
+    id: 5029
+    name: M38 - Original
+    fit_gun: 20031
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: skin-40005029
+  }
+  {
+    id: 5030
+    name: NTW-20 - Original
+    fit_gun: 20053
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5031
+    name: M950A-Prototype
+    fit_gun: 20097
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 音符,Aoi Koga,
+  }
+  {
+    id: 5032
+    name: M500-Prototype
+    fit_gun: 20154
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5033
+    name: Gsh-18-Prototype
+    fit_gun: 20221
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5034
+    name: KSVK-Prototype
+    fit_gun: 20252
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5035
+    name: Gr G11 - Original Model
+    fit_gun: 20122
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 音符,Ayaka Fukuhara,
+  }
+  {
+    id: 5036
+    name: Super SASS - Original Model
+    fit_gun: 20124
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5037
+    name: RO635 - Original Model
+    fit_gun: 20143
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 海猫络合物,Ayaka Fukuhara,
+  }
+  {
+    id: 5038
+    name: Type 97S - Original Model
+    fit_gun: 20161
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 河马,Yuka Ootsubo,
+  }
+  {
+    id: 5039
+    name: Galil - Original Model
+    fit_gun: 20071
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5040
+    name: PP-19 - Original Model
+    fit_gun: 20136
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5041
+    name: M1897 - Original Model
+    fit_gun: 20152
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5042
+    name: Type 56R - Original Model
+    fit_gun: 20049
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5043
+    name: Welrod MkII - Original Model
+    fit_gun: 20114
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5044
+    name: F1 - Original Model
+    fit_gun: 20178
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5045
+    name: Type 80 - Original Model
+    fit_gun: 20199
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5046
+    name: Makarov – Original Model
+    fit_gun: 20008
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 河马,Sumire Uesaka,
+  }
+  {
+    id: 5047
+    name: Gr MG4 – Original Model
+    fit_gun: 20125
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5048
+    name: RMB-93 – Original Model
+    fit_gun: 20159
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5049
+    name: XM3 – Original Model
+    fit_gun: 20200
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5050
+    name: Gr G36c – Original Model
+    fit_gun: 20104
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5051
+    name: Ribeyrolles – Original Model
+    fit_gun: 20171
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5052
+    name: Gepard M1 – Original Model
+    fit_gun: 20201
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5053
+    name: MP-443 – Original Model
+    fit_gun: 20220
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5054
+    name: PPSh-41 - Original Model
+    fit_gun: 20021
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5055
+    name: AN-94 - Original Model
+    fit_gun: 20205
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5056
+    name: XM8 - Original Model
+    fit_gun: 20216
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5057
+    name: AK-15 - Original Model
+    fit_gun: 20293
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5101
+    name: Willow Foxfire
+    fit_gun: 316
+    voice: 18
+    dialog: As the moon hangs atop the branches, a fox spirit visits you in your dreams... Sleep well, Commander.
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5102
+    name: Dancer in the Dead Silence
+    fit_gun: 276
+    voice: 18
+    dialog: Don't go any further, Commander. Desolation stands at the gate to Hell, because God is not there.
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5103
+    name: Gretel the Witch
+    fit_gun: 130
+    voice: 18
+    dialog: Hurry up, Commander! The Gingerbread House is just up ahead and 95's going to confiscate all the candy if we're late!
+    gift_position: "-228.13,102.3"
+    illustrator_cv: Nagu,Ayane Sakura,
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5104
+    name: CF-05 - Wings of the Devil
+    fit_gun: 295
+    voice: 18
+    dialog: Oh, don't be such a baby, Commander. These thin-sliced sweet potato fries and hydrangea shark-fin balls are only mildly spicy... Wait! Commander! Don't die on me!
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5105
+    name: Apprentice Extraordinaire
+    fit_gun: 297
+    voice: 18
+    dialog: I will definitely become an outstanding individual, but first I need to find a way to get Miss Witch to keep me...
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5106
+    name: Thief of Sweetness
+    fit_gun: 6
+    voice: 18
+    dialog: Trick or treat! Eh, you really don't have any? Well, it can't be helped then. I'll go find someone else.
+    gift_position: "-154.45,-47.3"
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5107
+    name: Gatekeeper of the Magical Realm
+    fit_gun: 38
+    voice: 18
+    dialog: We'll be telling ghost stories today. Once upon a time, there was a witch who stood watch over... Hey, don't just walk off! I'll give you candy!
+    order: 59
+    class_id: 50
+  }
+  {
+    id: 5201
+    name: Red Beret
+    fit_gun: 104
+    voice: 4
+    dialog: We have visual on the target; make sure you stay out of sight! Phew... Things are getting real, so I'd better put in some effort too.
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5202
+    name: Red Moon Stalker
+    fit_gun: 296
+    voice: 4
+    dialog: Don't even try to run. Delay your destiny all your want, I will still...find my target! Special Ops Agent SL8, ready to move out!
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5203
+    name: Keeper on Page 8
+    fit_gun: 318
+    voice: 4
+    dialog: Password - "secrets should remain buried forever." Yes, I'm VHS. Target change confirmed, I will head to the new destination right away.
+    gift_position: "-138.5,-87.5"
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5204
+    name: Bad Cop for Life
+    fit_gun: 156
+    voice: 4
+    dialog: Snipers, find cover immediately! Report target parameters. Confirmed and locked on... I'll give you backup!
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5205
+    name: Mysterious Wayfarer SA
+    fit_gun: 304
+    voice: 4
+    dialog: Taking off your helmet means defeat. Hold it right there. Don't... Never mind, I yield! Please give me a hug!
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5206
+    name: Wiretap Mystery
+    fit_gun: 244
+    voice: 4
+    dialog: Simple radio stand erected. No humans or abnormal signals nearby... Receiving transmission. Please finish the sentence - "Secrets are denied facts, so...?"
+    order: 61
+    class_id: 51
+  }
+  {
+    id: 5301
+    name: Christmas Eve Detective
+    fit_gun: 312
+    voice: 19
+    dialog: I'm here to deliver a present. Please cooperate and don't panic... Wait, that's only going to make people even more nervous? Sorry, Boss. Must be occupational disease.
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5302
+    name: Pas de Deux
+    fit_gun: 289
+    voice: 19
+    dialog: The moment one is engulfed in flames, their true nature is revealed. The instant a gun is fired, life and death is decided... Tell me, Commander. Why is art so closely intertwined with life and death?
+    illustrator_cv: 二花, Madoka Asahina,
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5303
+    name: Make a Sweet Wish
+    fit_gun: 313
+    voice: 19
+    dialog: Christmas is such a joyous occasion, if only every day could be Christmas! Wait, you mean it wouldn't be so joyous that way? Then-then I'll just have to make do...
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5304
+    name: Warm-Hearted Tin Man
+    fit_gun: 250
+    voice: 19
+    dialog: I wonder when I'll have the chance to keep your heart beating in a rhythm... I'd like to find out.
+    gift_position: "-67.7,68.8"
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5305
+    name: Twilight Fairy
+    fit_gun: 270
+    voice: 19
+    dialog: This is Tingle Bell No.4, checking in. Even if this costume is only for today, I will still shine for you!
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5306
+    name: Wishmaker K-derella
+    fit_gun: 212
+    voice: 19
+    dialog: If you make a wish beneath a hazel tree, a fairy will descend... You may now state your wish.
+    gift_position: "-84.61,-120.2"
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5307
+    name: Party in the Queen's Tower
+    fit_gun: 319
+    voice: 19
+    dialog: I could shift a Christmas tree this size with my hair alone!
+    gift_position: "22.3,51"
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5308
+    name: The Maids' Midnight Rally
+    fit_gun: 95
+    voice: 19
+    dialog: Welcome back, Master! You seem to be curious about my new outfit! If you go for a ride in the night sky with me, I'll tell you all about it~
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5309
+    name: Rouge Snow Princess
+    fit_gun: 5
+    voice: 19
+    dialog: There are perks to being small too! For instance, I'm just the right size to fit into this gift box! Your present is here, Commander!
+    order: 62
+    class_id: 54
+  }
+  {
+    id: 5401
+    name: Ultramarine Fragrance
+    fit_gun: 274
+    voice: 15
+    dialog: Commander, you're here? We're going to visit everyone today. Wait, you've visited them already?
+    gift_position: "-123.0,124.5"
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5402
+    name: Visitor of Bountiful Blossoms
+    fit_gun: 160
+    voice: 15
+    dialog:
+      '''
+      There must be so many pretty girls going out in lovely clothes today,
+      I can hardly wait!
+      '''
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5403
+    name: The Elegance of Tea is Undefeated by the Snow
+    fit_gun: 97
+    voice: 15
+    dialog:
+      '''
+      Why are you dawdling around? There's a lot to be done. 
+      Come over here, we'll go together.
+      '''
+    illustrator_cv: 八号地球,Aoi Koga,
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5404
+    name: When Writing A New Poem
+    fit_gun: 150
+    voice: 15
+    dialog: Looks like I'm right on time. Let's go, Commander. Traditions aren't easy to observe, so I'll be taking you to practice.
+    gift_position: "-99,-106"
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5405
+    name: Lonely Traveler of Eternity
+    fit_gun: 103
+    voice: 15
+    dialog:
+      '''
+      I didn't think you'd be here, Commander. What a coincidence, right?
+      Yes, a coincidence, absolutely. So don't worry and enjoy the silence.
+      '''
+    illustrator_cv: K箱, Tomomi Uchiyamada,
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5406
+    name: Snowfield Delivery Service
+    fit_gun: 254
+    voice: 15
+    dialog: Commander, this is bad! Look, it's one of Them! There's one last thing I want to tell you before... Huh? It's just an ordinary cat?
+    gift_position: "-108,-116"
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5407
+    name: Envoy of Spring
+    fit_gun: 230
+    voice: 15
+    dialog: This outfit is rented, right? So it shouldn't have cost too much money... It's more economical that way since I'm only wearing it for one day. What? You bought it? For me, Commander? Thank you!
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5408
+    name: Scarlet First Bloom
+    fit_gun: 131
+    voice: 15
+    dialog: This is a good time for making wishes. I'm glad I could do it with you.
+    order: 63
+    class_id: 55
+  }
+  {
+    id: 5501
+    name: Warmth of the Wintersweet
+    fit_gun: 253
+    voice: 15
+    dialog: '''"Even the smallest thing can make a tired old view brand new." Commander, it's the first day of the new year, so go decorate the command room!'''
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5502
+    name: Dance of the Trumpet Vine
+    fit_gun: 261
+    voice: 15
+    dialog: Happy New Year, Commander! You can leave the red packets here! Please and thank you!
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5503
+    name: Fragrant White Bouquet
+    fit_gun: 315
+    voice: 15
+    dialog: Look out, Senior - the firecrackers are about to go off!
+    gift_position: "-1.6,-144.7"
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5504
+    name: Grasp of the Mimosa
+    fit_gun: 252
+    voice: 15
+    dialog: A new year brings new challenges, Commander. How far into the future do your contemplations reach?
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5505
+    name: Lily's Reverie
+    fit_gun: 302
+    voice: 15
+    dialog: Ah, Commander... Sorry, I just wanted a little sip...
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5506
+    name: Camellia's Vigil
+    fit_gun: 43
+    voice: 15
+    dialog: It's the first day of the new year, so pull yourself together. Here, this red packet is yours.
+    gift_position: "-97,14.86"
+    illustrator_cv: 柱柱,Minami Tanaka,
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5507
+    name: Snowflake's Kiss
+    fit_gun: 13
+    voice: 15
+    dialog: We only celebrate Lunar New Year once a year, so we can indulge ourselves a little more than usual. Do I look good in this, Commander?
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5508
+    name: Pink Pear Blossom
+    fit_gun: 49
+    voice: 15
+    dialog: May good luck and prosperity be yours! Happy New Year, Commander!
+    order: 64
+    class_id: 56
+  }
+  {
+    id: 5601
+    name: Before Sunset
+    fit_gun: 294
+    ai: 45601
+    voice: 16
+    dialog: Many years ago, Hippolytus faced a great trial beneath a peach tree. In the end, he chose the person he respected, without fear of death. If it were me, I would have done the same thing too.
+    gift_position: "-237.8,61.9"
+    illustrator_cv: Firewood, Atsumi Tanezaki,
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5602
+    name: Destined Love
+    fit_gun: 119
+    ai: 45602
+    voice: 16
+    dialog: What are you waiting for, Commander? Come here. This is our precious "alone" time, so don't waste it.
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5603
+    name: The 1000th Paper Crane
+    fit_gun: 307
+    ai: 45603
+    voice: 16
+    dialog: Somebody once told me that folding a thousand paper cranes for someone you love would bring them happiness and good fortune. You'll find happiness once I fold this last one, Commander.
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5604
+    name: Prairie Gentian and Her Season
+    fit_gun: 129
+    ai: 45604
+    voice: 16
+    dialog: These flowers look very much like roses, but they don't have thorns. That way, we won't have to worry about getting pricked no matter how tightly we embrace each other.
+    gift_position: "-46.7,-140.8"
+    illustrator_cv: Izuru Hatoyama, Kami Daimon,
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5605
+    name: A Long Vacation with Ithaca
+    fit_gun: 153
+    ai: 45605
+    voice: 16
+    dialog: You want to know what to do on the first day of vacation? In that case... How about spending some time with the perfect and charming moi, Commander?
+    illustrator_cv: HaneRu, Emiri Katou,
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5606
+    name: The Rose Chess Player's Confession
+    fit_gun: 216
+    ai: 45606
+    voice: 16
+    dialog: ...Humph, scraping a win makes you that happy? I'll be frank with you - I LET you win just now, but it was worth it to see you smile.
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5607
+    name: Peony Companion
+    fit_gun: 174
+    ai: 45607
+    voice: 16
+    dialog: To date, I have accompanied you on countless operations, Commander... I know that victory is still a long way off, but I will always stay by your side.
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5608
+    name: Phoenix Melody
+    fit_gun: 94
+    ai: 45608
+    voice: 16
+    dialog: They say when peacocks hear a song, they'll spread their tails and show off their most beautiful side... It's just like me when I hear your voice, Commander.
+    order: 65
+    class_id: 57
+  }
+  {
+    id: 5801
+    name: Fluttering Butterfly
+    fit_gun: 285
+    voice: 4
+    dialog: Tadaaa! Here comes the anniversary exclusive version of C93! All the camera flash shall shine even more brightly for me!
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5802
+    name: Lady Thief of Champagne
+    fit_gun: 260
+    voice: 4
+    dialog: How about a bet, Commander? We'll see if I can steal your heart before you finish this bottle of champagne...
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5803
+    name: Out of Darkness
+    fit_gun: 231
+    voice: 4
+    dialog: Let me release you from the clutches of resentment, the way a drop of blood rolls off a petal and disappears into the darkness.
+    gift_position: "-183,101.6"
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5804
+    name: Night on the Silver Bay
+    fit_gun: 312
+    voice: 4
+    dialog: Starlight has to travel a long way to reach Earth for us to see, which makes this starry night all the more memorable.
+    gift_position: "-100.7,-115.2"
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5805
+    name: Drunken Petals
+    fit_gun: 161
+    voice: 4
+    dialog: Blegh. This liquor is hella bland, Commander. Nothing can compare to our good old Laobaigan. Let's slip into the depot and have a proper drink. How about that, eh?
+    illustrator_cv: 豆芽,Yuka Ootsubo,
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5806
+    name: She Walks in the Rain
+    fit_gun: 330
+    voice: 4
+    dialog: I hear that if two people walk through this alley while sharing an umbrella on a rainy day, their souls will never be parted... Oh? I wasn't being serious.
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5807
+    name: Golden Memories
+    fit_gun: 108
+    voice: 4
+    dialog: How about a dance, Commander? It's not every day that I dress up for an occasion. I'd love to share a memory that belongs to only you and me.
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5808
+    name: Beyond the Balloon
+    fit_gun: 21
+    voice: 4
+    dialog: Balloons can only drift so freely without a care in the world because they know they are being held by someone who can be trusted. I understand this sense of security.
+    order: 69
+    class_id: 61
+  }
+  {
+    id: 5901
+    name: Little Volunteer
+    fit_gun: 339
+    ai: 45901
+    voice: 4
+    substitute_voice: RPK203_0
+    dialog: Children, get in line, everyone will get a balloon! Oh, I'm also a kid...
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5902
+    name: New Star Defender
+    fit_gun: 311
+    ai: 45902
+    voice: 4
+    substitute_voice: Lusa_0
+    dialog: Trainee Lusa, present! Leave the backline to me!
+    gift_position: "-122.55,-129.8"
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5903
+    name: Wind-Chasing Witch
+    fit_gun: 313
+    ai: 45903
+    voice: 4
+    substitute_voice: SACR_0
+    dialog: What took you so long?! How dare you make me come all this way to look for you?!
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5904
+    name: After-Rain Assault Squad
+    fit_gun: 173
+    ai: 45904
+    voice: 4
+    substitute_voice: PKP_0
+    dialog: This operation will be a success, because I'm here.
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5905
+    name: King of Hotpotland
+    fit_gun: 295
+    ai: 45905
+    voice: 4
+    substitute_voice: 06TypeSMG_0
+    dialog: Hohoho, here comes the radiant gastronome! Go, chili peppers! Bland flavors have no place in hotpots!
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5906
+    name: Rainbow-Weaving Flower Fairy
+    fit_gun: 187
+    ai: 45906
+    voice: 4
+    substitute_voice: Ak5_0
+    dialog: Take good care of these flowers and all my wishes will come true... Commander, when these flowers bloom, they'll yield discount vouchers.
+    gift_position: "-73.69,-61.4"
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5907
+    name: Kitty Chorus
+    fit_gun: 297
+    ai: 45907
+    voice: 4
+    substitute_voice: M82_0
+    dialog: What are the cats trying to say? If I don't figure it out soon, I'll get home late...
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 5908
+    name: Envoy of Sweet Dreams
+    fit_gun: 182
+    ai: 45908
+    voice: 4
+    substitute_voice: wz29_0
+    dialog: Where am I? I got here the moment I stepped out of my door... Do you need help?
+    gift_position: "-5.1,-57.61"
+    order: 70
+    class_id: 62
+  }
+  {
+    id: 6101
+    name: Night-Tide Invitation
+    fit_gun: 323
+    ai: 46101
+    voice: 4
+    dialog: Can we hold hands? ...No, nothing. I was just wondering why you're falling behind.
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6102
+    name: Morning Fable
+    fit_gun: 282
+    ai: 46102
+    voice: 4
+    dialog: Being by the sea always reminds me of fairy tales… I'll tell you all about them as we walk.
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6103
+    name: Seaside Paradigm
+    fit_gun: 233
+    ai: 46103
+    voice: 4
+    dialog: I find it hard to relax on the seaside… Though this is a vacation spot for most people, right?
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6105
+    name: Pink Coral
+    fit_gun: 336
+    ai: 46105
+    voice: 4
+    dialog: You don't have to be fancy to be tasteful. There is also beauty in simplicity.
+    gift_position: "-67.9,-88.74"
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6106
+    name: Soda Tale
+    fit_gun: 254
+    ai: 46106
+    voice: 4
+    dialog: Many people on my planet are scared of water. I wouldn't have escaped to Earth otherwise… The seaside is such a safe place.
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6107
+    name: Soaring Starfish
+    fit_gun: 325
+    ai: 46107
+    voice: 4
+    dialog: Is...Is it r-r-r-really okay...for me to go...in the water? Will water not get inside me? ...Whoa!
+    gift_position: "-17.5,38.8"
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6108
+    name: Floating Mint Tea
+    fit_gun: 322
+    ai: 46108
+    voice: 4
+    dialog: Boss, they make really good drinks here! I've got you a glass of mint tea, try it! If that's not strong enough, they've got booze too – free of charge! We can drink to our heart's content!
+    gift_position: "-298.8,-79"
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6109
+    name: Foliage Romance
+    fit_gun: 10
+    ai: 46109
+    voice: 4
+    dialog: What are you waiting for, Commander? Must I teach you everything? You should be running towards me like a pet dog.
+    illustrator_cv: 柱柱, Asuka Itou,
+    order: 71
+    class_id: 63
+  }
+  {
+    id: 6201
+    name: Invincible Golden Tornado
+    fit_gun: 259
+    voice: 4
+    dialog: Hey, Commander! Wanna have a casual match with me at the underground boxing ring? My hooks are in tip-top form today! Don't worry, if you become hospitalized, I'll take care of you until you're discharged!
+    illustrator_cv: 八号地球, Yo Taichi,
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6202
+    name: Coyote Blues
+    fit_gun: 337
+    voice: 4
+    dialog: Hm? Were you talking to me, Commander? Perfect timing. Help me with my bag, and in return, I'll lend you one of my earbuds. You can listen to my CD without spending a dime. It's a total bargain.
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6203
+    name: Food Thief's Righteousness
+    fit_gun: 226
+    voice: 4
+    dialog: Quicken your pace, Commander! The kids in the ghettos are waiting to dig in! What?! There's a hole in your sack? Why didn't you mention this earlier?!
+    illustrator_cv: 豆芽, Kana Ichinose,
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6204
+    name: A Loyal Friend's Company
+    fit_gun: 118
+    voice: 4
+    dialog: This place is highly unpredictable and volatile, but I will always remain by your side, so please, Commander, keep your eyes on me and don't ever leave me.
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6205
+    name: Snowfall in the Alley
+    fit_gun: 6
+    voice: 4
+    dialog: Commander, it's considered improper to touch a lady's tail without permission. Hm, you came all this way just to see me? Well, guess I'll let you stroke it for another minute, but just this once.
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6206
+    name: Three Little Piggy Renters
+    fit_gun: 305
+    voice: 4
+    dialog: I've finally found a room with a completely symmetrical layout! Help me with my luggage, Commander. I need a good nap before I start furnishing my new place so that the symmetry is perfect.
+    gift_position: "-93.5,-33.3"
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6207
+    name: White Rabbit in the Wild
+    fit_gun: 145
+    voice: 4
+    dialog: Commander, the weather is lovely today. Would you like to have a picnic with me in the woods? There will only be carrots though.
+    order: 74
+    class_id: 65
+  }
+  {
+    id: 6301
+    name: River Trekking in Fall
+    fit_gun: 315
+    voice: 4
+    dialog: Look over here and smile, Commander! Fall is the best season! The fish and crabs are all nice and plump!
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6302
+    name: A Doll Sat Still
+    fit_gun: 296
+    voice: 4
+    dialog: You're finally here, Commander! No, I didn't mind the wait, because I was buzzing with joy and anticipation the whole time.
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6303
+    name: Slumbering Starry Dream
+    fit_gun: 341
+    voice: 4
+    dialog: We are always bombarded by a myriad of noises – sirens, screeching brakes, doorbells… We don't get to quietly listen to the stars breathing in the sky often enough.
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6304
+    name: Twilight After Rain
+    fit_gun: 317
+    voice: 4
+    dialog: I am dressed too stiffly? Even if this is a date, I must ensure your personal safety. Let's go, or we might be late for our restaurant reservation.
+    gift_position: "-118.4,-133.4"
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6305
+    name: Heart-Aflutter Trilogy
+    fit_gun: 310
+    voice: 4
+    dialog: Blush on the cheeks, lipstick, perfume… These all need to be checked and double-checked before setting off. That's right, Commander. A perfect date must begin with perfect preparations.
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6306
+    name: Up into the Blue Sky
+    fit_gun: 223
+    voice: 4
+    dialog: Being propelled up into the sky while sitting on a swing is like trying to defy gravity… Would you like to try it, Commander?
+    order: 75
+    class_id: 66
+  }
+  {
+    id: 6401
+    name: White Lotus in Limpid Waters
+    fit_gun: 129
+    voice: 18
+    dialog: Legend has it, there once was a Lady White, who walked the earth but remained completely pure and unsullied like a lotus flower. I wonder if I can also be that incorruptible...
+    illustrator_cv: 鳩山井鶴,大門香実,
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6402
+    name: Scarlet Night Huntress
+    fit_gun: 329
+    voice: 18
+    dialog: The hunt shall begin tonight and will last until dawn. I will not fall before the end.
+    gift_position: "41.5,-158.6"
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6403
+    name: To Matka Joanna
+    fit_gun: 213
+    voice: 18
+    dialog: If you want to be my subordinate, you must offer me the first drop of blood from the apex of your heart and the first bite of all delicious food...
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6404
+    name: No Rest for the Heart Thief
+    fit_gun: 286
+    voice: 18
+    dialog: Honey~ Can I give you this piece of candy in exchange for your heart? If you refuse, I'll have to take it by force...
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6405
+    name: Shepherd of the Lost
+    fit_gun: 220
+    voice: 18
+    dialog: Perhaps lost lamb shouldn't be herded back to the cramped sheepfold. It's better if they just come inside my warm and cozy collection cabinet.
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6406
+    name: Patchworker's Soliloquy
+    fit_gun: 81
+    voice: 18
+    dialog: Don't be afraid. I simply want to be in the shoes of Frankenstein's monster and see what it feels like to be hated and betrayed by the entire world...
+    order: 76
+    class_id: 67
+  }
+  {
+    id: 6501
+    name: Garuda of the Empyrean
+    fit_gun: 272
+    voice: 4
+    dialog: On this stage where we search for our future, I will give everything I've got to play my part. As for you… I'm sure you'll be able to put an end to all strife, isn't that right, Commander?
+    gift_position: "0.5,-38.9"
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6502
+    name: Crimson Meteor
+    fit_gun: 338
+    voice: 4
+    dialog: Hey, Commander, wanna sit inside the cockpit of my personal mech? It can fly three times faster than normal mechs, and it is three times more comfortable to play poker in here.
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6503
+    name: White Comet, Bearer of Wishes
+    fit_gun: 95
+    voice: 4
+    dialog: Greetings, Master. Ai, pilot of HY-088 White Comet, reporting for duty. I shall lead everyone down the path that you have promised, to a world with no more strife, even at the risk of being called a monster.
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6504
+    name: Black Dragon, Towering over S09
+    fit_gun: 263
+    voice: 4
+    dialog: Synchronization rate at 90%. Gr MG36, pilot of Unit Black Dragon, awaiting orders. Since our upcoming mission is going to be quite challenging, you'll have to take care of the movie tickets after we get off work.
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6505
+    name: Midnight Evangelion
+    fit_gun: 65
+    voice: 4
+    dialog: If you have a plausible plan for realizing that simple and childish dream of yours, I don't mind offering my… Midnight! Let me finish! Stop rubbing against that weirdo!
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6507
+    name: Desert Dragons and Epics
+    fit_gun: 178
+    voice: 4
+    dialog: '''"Amidst the yellow dust, the iron drake dashes through the desert." Commander, would you like to take Munchie out for a spin with me?'''
+    order: 77
+    class_id: 69
+  }
+  {
+    id: 6601
+    name: Reindeer Manifesto
+    fit_gun: 290
+    voice: 19
+    dialog: Do I really have to stick with Santa Claus when delivering presents? I think using my newest invention, the present catapult, is perfectly efficient!
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6603
+    name: Hunting Time
+    fit_gun: 4
+    voice: 19
+    dialog: I've been sitting here the whole evening. Finally, I see some decent "prey"… Why don't we have a drink together, Commander?
+    illustrator_cv: 八号地球, Chiaki Takahashi,
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6604
+    name: Sitting Next to Perosa
+    fit_gun: 333
+    voice: 19
+    dialog: Swimming in such low temperatures really is physically taxing. You must be tired, Commander. Here, I've saved this seat for you right next to me.
+    gift_position: "-298.7,89.7"
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6605
+    name: Wave Crest Racer
+    fit_gun: 288
+    voice: 19
+    dialog: Commander, let's surf together! It's really simple. Just catch the wave and ride its momentum like this. It's just like running on water…
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6606
+    name: Poolside Xmas Encounter
+    fit_gun: 225
+    voice: 19
+    dialog: Merry Christmas, Commander! I'd like to give you a present together with the champion of this year's winter swimming competition! Huh? Penguins aren't qualified to take part…?
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6607
+    name: Cozy Winter Deliverer
+    fit_gun: 304
+    voice: 19
+    dialog: I have a delivery for you, Commander! Not there! Your present is a hug from me!
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6608
+    name: Raise the Christmas Elf
+    fit_gun: 70
+    voice: 19
+    dialog: Help, Commander! I ate all the chocolate in the depot and they hung me up as a Christmas mascot to punish me! W-Why are you laughing so hard…
+    gift_position: "-215.8,-3.3"
+    order: 79
+    class_id: 70
+  }
+  {
+    id: 6701
+    name: Sprig in the Snow
+    fit_gun: 20
+    voice: 15
+    dialog: Commander, how come you don't have an umbrella with you on such a snowy day? Nevermind, take mine… Oh? We can share it, you say? Alright then.
+    illustrator_cv: RIRE, Saori Hayami,
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6702
+    name: Dancing Shrine Maiden
+    fit_gun: 323
+    voice: 15
+    dialog: Commander, please stop staring at me. This outfit is prepared for this year's Kagura dance… You want to watch? Jeez, alright, I'll show you just a snippet.
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6703
+    name: Snow-Swiping Bamboo Sword
+    fit_gun: 311
+    voice: 15
+    dialog: Commander, wanna try a new sport other than soccer in the new year? How about...kendo?
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6704
+    name: Wayfarer of the Profound
+    fit_gun: 101
+    voice: 15
+    dialog: Commander, look! It's winter, but the grass here grows so tall! This must be what 45 calls the beauty of mysterious profundity!
+    gift_position: "-11,79"
+    illustrator_cv: GINGALA,Mamiko Noto,
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6705
+    name: With the Three Friends of Winter
+    fit_gun: 328
+    voice: 15
+    dialog: Should the bamboo be moved a bit more… Oh, Commander, you couldn't have come at a better time. Do you think the positions of these "Three Friends of Winter" need any adjustments? Huh? This cannot be half-assed! Flower arranging is like gun maintenance – it's a serious craft!
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6706
+    name: Feathers in First Dream
+    fit_gun: 325
+    voice: 15
+    dialog: Yaaaaawn… Commander, d-did you dream of Mount Fuji in your first dream of the year? Huh, m-me? I only dreamt of Hanetsuki shuttlecocks…
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6707
+    name: Tiger Cubs of Prosperity
+    fit_gun: 37
+    voice: 15
+    dialog: Commander, we hear that your wishes are more likely to come true if you hang an Ema wooden plaque on the tree! We can shoot yours onto that pine tree!
+    illustrator_cv: 哈奈鲁, Saori Oonishi,
+    order: 80
+    class_id: 71
+  }
+  {
+    id: 6801
+    name: Pride of the Winter Orchid
+    fit_gun: 341
+    voice: 4
+    dialog: During an eclipse on the New Year's Eve, only the winter orchid reflects the snow. Commander, the nights of the new spring may be moonless, but the moment when all of Griffin gathers together to celebrate the new year is more beautiful than the full moon.
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6802
+    name: Splendor of Sunset
+    fit_gun: 331
+    voice: 4
+    dialog: Happy new year! You seem pretty listless, so how about a red gourd of cola that Kolibri's been storing away for a year? It's fragrant, rich and perks up the spirits!
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6803
+    name: Bloom of the Drunken Tea
+    fit_gun: 356
+    voice: 4
+    dialog: Come, Commander, let's empty this bottle of erguotou together! Let's see if your drinking capacity has improved as much as your skills this year!
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6804
+    name: Dance of Cinnabar
+    fit_gun: 340
+    voice: 4
+    dialog: Haha! The creative atmosphere of the new year is freedom! Come, Commander, let me do some Chinese painting-styled graffiti on your office walls!
+    gift_position: "-139.9,-71.1"
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6805
+    name: Sigh of the Waterfront Pine
+    fit_gun: 348
+    voice: 4
+    dialog: Commander, I'll be in your care once again for this new year... You're asking what I'm wearing? According to my observations, I'm sure wearing this sort of clothing is a new year practice at Griffin, and I want to blend in as soon as possible!
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6806
+    name: Fall of the Stars
+    fit_gun: 28
+    voice: 4
+    dialog: Yo! I was just looking for you, Caretaker! Thanks for taking care of this genius for the past year, so go ahead and pick one of these red packets. Who knows, you might win an unexpected prize.
+    gift_position: "-234.3,-83.2"
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6807
+    name: Poise of the Jade Vase
+    fit_gun: 64
+    voice: 4
+    dialog: '''"As the setting sun turns overcast, the air fills with the scent of gardenias." Commander, I hope you will enjoy my new year's gift - the song of the jade vase, sung quietly in the wind.'''
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6808
+    name: Brilliance of the Peach Blossoms
+    fit_gun: 7
+    voice: 4
+    dialog: Happy new year, now fork over the red packets~ Hehe, you're pretty forthcoming with them today, my dear Commander.
+    gift_position: "-65.8,53.95"
+    illustrator_cv: 春_日_,Eri Kitamura,
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6809
+    name: Virtue of the Silk Brocade
+    fit_gun: 51
+    voice: 4
+    dialog: C-Commander, I made tonight's New Year's dinner myself, I hope you like it...
+    order: 82
+    class_id: 72
+  }
+  {
+    id: 6901
+    name: Purple Iris, Drunken Butterfly
+    fit_gun: 253
+    ai: 46901
+    voice: 16
+    dialog: Commander, won't you consider having a drink with a pretty girl? This is a fancy red wine that I took great care to pick out... Relax, I won't do anything to you even if you get drink~ Ehe♪
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6902
+    name: Prayers in the Wind
+    fit_gun: 130
+    ai: 46902
+    voice: 16
+    dialog: Ugh... The wind's so strong, where was I with my wish... eh? C-Commander?! Did you hear it?! ...But it was a very ordinary wish, right? Are you going to make fun of me?
+    gift_position: "-272.7,21.5"
+    illustrator_cv: Nagu,Ayane Sakura,
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6903
+    name: Waltz of Fantasy
+    fit_gun: 242
+    ai: 46903
+    voice: 16
+    dialog: That suit of yours looks really good... Of course, of course, your dress is also very pretty... Excuse me! Commander, please do me a favor and have a dance with me - no, two dances, please! Neither gentlemen nor ladies can slack off on their dance steps with each other.
+    illustrator_cv: 二花,Azusa Tadokoro,
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6904
+    name: Gazing from the Dust
+    fit_gun: 127
+    ai: 46904
+    voice: 16
+    dialog: My apologies for bothering you. I simply wished to inform you that whether you wish it or not, I will follow in your footsteps to the very end, Commander.
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6905
+    name: Array of Venus
+    fit_gun: 212
+    ai: 46905
+    voice: 16
+    dialog: The wheel of Fate has informed me that we would be meeting here, and as the great net falls, the two lovers are fated to be inseparable... Commander, do you know what that prediction means?
+    gift_position: "-116.9,-87.9"
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6906
+    name: Starlight across the Shore
+    fit_gun: 218
+    ai: 46906
+    voice: 16
+    dialog: Even if you don't look into my eyes, you can tell what I'm thinking from my actions, no? In that case... What do you think...
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6907
+    name: Letter from the Winter Cypress
+    fit_gun: 34
+    ai: 46907
+    voice: 16
+    dialog: Before this moment came, I had prepared myself for an entire winter. Now, this time belongs to just the two of us.
+    illustrator_cv: Alize,Risa Taneda,
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6908
+    name: Song of the Morning Dew
+    fit_gun: 256
+    ai: 46908
+    voice: 16
+    dialog: Little lamb, why is the feeling of liking someone always accompanied by sadness and worry... Do you feel sad the same way I do?
+    gift_position: "-160.2,56.9"
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 6909
+    name: Knight and Protector
+    fit_gun: 81
+    ai: 46909
+    voice: 16
+    dialog: I have nothing to give you, other than a true heart. From now on, please allow me to take your hand, to protect you, to give my entire life to you.
+    gift_position: "-131.9,-87"
+    order: 83
+    class_id: 73
+  }
+  {
+    id: 7001
+    name: CZ75 Does Not Work Overtime
+    fit_gun: 166
+    voice: 4
+    dialog: Here, chocolate… Now that you've eaten it, show some motivation! I want to see the report before 3! And I want this pile of documents on my desk tomorrow! If you can't deliver them on time, stay behind and get everything done!
+    illustrator_cv: --,古城門志帆,
+    order: 85
+    class_id: 74
+  }
+  {
+    id: 7002
+    name: Soaring to the Clouds
+    fit_gun: 330
+    voice: 4
+    dialog: Right, got it, Boss. I've put that on my to-do list. Yes, it will be prioritized over all other items… The reception is very bad here at the airport, I'll call you later… Woohoo! Got myself a holiday by faking a work trip! This is the best!
+    order: 85
+    class_id: 74
+  }
+  {
+    id: 7003
+    name: Late Night Tea
+    fit_gun: 310
+    voice: 4
+    dialog: I love my work. I love my company… I can rest once this is all done. Let's work hard together, senior. I've made some tea… Senior? Senior?! Please don't leave me working all by myself!
+    order: 85
+    class_id: 74
+  }
+  {
+    id: 7004
+    name: New Staff
+    fit_gun: 308
+    voice: 4
+    dialog: I finally got a job offer! I must make a good first impression on my first day… Hm? Did someone just scream in the building or was it my imagination...?
+    order: 85
+    class_id: 74
+  }
+  {
+    id: 7401
+    name: Search in the Stars
+    fit_gun: 274
+    dialog: Phew~ EVA completed, we can now get back inside... Huh? Where did I put the key to the cabin door?!
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7402
+    name: Capriccio of the Pastoral Poet
+    fit_gun: 365
+    dialog: If we find a suitable planet, I have enough seeds and seedlings here to turn it into a world filled with fruity aroma!
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7403
+    name: Panda's Miraculous Voyage
+    fit_gun: 261
+    dialog: I hear that once the space corridor is open, interplanetary tourism will become super popular! Let me personally arrange a special panda route to share the cuteness of these round creatures with the whole universe~!
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7404
+    name: Trans-Dimensional Sentinel
+    fit_gun: 338
+    dialog: Alien invaders detected, entering red alert... Wow~ I was just kidding! I didn't think you'd all go to your battle stations right away, hahahaha!
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7406
+    name: Universal Express
+    fit_gun: 62
+    dialog: Griffin, Earth, Solar System, Orion Arm, Milky Way Galaxy. Address confirmed! Master, Gr G41 now on my way to deliver your package~!
+    illustrator_cv: 小枪,Rie Kugimiya,
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7407
+    name: Supernova Spirit
+    fit_gun: 95
+    dialog: With this mech, I shall become the brightest star in the universe! Pilot of the Mobile Suit Supernova, Ai—heading out!
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7408
+    name: Bouquet for the Galaxy
+    fit_gun: 321
+    dialog: "Why would anyone stare into the night sky just to search for that one flower that belongs to them? I mean, flowers are so weak and fragile\u2060\u2014they're nothing without someone's protection! Me? I'd never grieve if something like that wilts..."
+    order: 89
+    class_id: 78
+  }
+  {
+    id: 7501
+    name: Dance in the Ice Sea
+    fit_gun: 260
+    voice: 4
+    dialog: I have trained hard for countless days and nights, all for the sake of this dance. It's my turn now, Commander. Make sure you watch me unblinkingly.
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 7502
+    name: Home Base Hero
+    fit_gun: 347
+    voice: 4
+    dialog: So these are the poor bastards who'll be playing against me for this inning? I hope someone will remind them to pack early...because this match will be over for them in no time.
+    gift_position: "-132,-67"
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 7503
+    name: Striker in Adversity
+    fit_gun: 281
+    voice: 4
+    dialog: Our opponents mean business. This set isn't looking good, Commander. Should we just throw it... No? Can't be helped then. Let's go get them.
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 7504
+    name: Mountain Dasher
+    fit_gun: 304
+    voice: 4
+    dialog: Are you also here to compete in downhill mountain biking, Commander? The terrain here is a huge test of an athlete's reflexes and technique. If you're confident in your skills, come join me!
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 7505
+    name: Streaking Meteor
+    fit_gun: 352
+    voice: 4
+    dialog: Heheh, the athletes are all fired up by Gsh-18's and my cheers~! Oh dear, look at the time! We need to head over to cheer for the other events... Huh? Gsh-18, wait up!
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 7506
+    name: Lunar Arclight
+    fit_gun: 308
+    voice: 4
+    dialog: To live up to my friends' expectation, I must win here. Victory will be decided at this very moment. Behold my final counterattack!
+    order: 92
+    class_id: 79
+  }
+  {
+    id: 30001
+    name: Breeze in a Summer Afternoon
+    fit_gun: 57
+    voice: 4
+    dialog: Hop on, we're setting off once I'm done with this coke... You think we're eloping? We can give that a try if you don't mind getting dumped in the middle of nowhere.
+    order: 91
+  }
+  {
+    id: 30002
+    name: Daybreak's Whisper
+    fit_gun: 179
+    voice: 4
+    dialog: The blurred reflection of the morning sunlight in a wineglass is more enchanting than a late night party... Commander, would you like to enjoy it with me?
+    illustrator_cv: 小枪,Yuka Saitou,
+    order: 95
+  }
+  {
+    id: 30003
+    name: Gallop of Gingko Leaves and Autumn Winds
+    fit_gun: 253
+    voice: 4
+    dialog: Autumn being such a cozy time, even horses can't appease their boredom and yearn for a trot. If you've got nothing at hand, Commander... How about we spend some playful time with them?
+    order: 97
+  }
+  {
+    id: 30006
+    name: Glistening Encounter
+    fit_gun: 285
+    voice: 4
+    dialog: Commander, this is the place I've talked about before! Enjoying a delightful afternoon tea of floral fragrance amidst butterfly specimens... How can it be this underappreciated for so long?
+    order: 105
+  }
+]

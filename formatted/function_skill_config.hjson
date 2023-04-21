@@ -1,0 +1,398 @@
+[
+  {
+    id: 101
+    name: Search Theory
+    level: 1
+    code: function_skill_icon_101
+    description: "{0}% chance for an extra reward of {1} from combat mission rewards"
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: extra_drop_rate_up
+  }
+  {
+    id: 102
+    name: Practiced
+    level: 1
+    code: function_skill_icon_102
+    description: Increase battle animation speed in Planning Mode by {0}% {1}
+    arguments: 1
+    max_level: 5
+    type: 1
+    function_skill: battle_speed_up
+  }
+  {
+    id: 103
+    name: Charm
+    level: 1
+    code: function_skill_icon_103
+    description: Affection gains for Dolls and Coalition Units are increased by {0}%{1}.
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: battle_favor_up
+  }
+  {
+    id: 104
+    name: Combat Summary
+    level: 1
+    code: function_skill_icon_104
+    description: Doll and Coalition unit experience earned in battle is increased by {0}%{1}.
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: battle_gun_exp_up
+  }
+  {
+    id: 105
+    name: Focused
+    level: 1
+    code: function_skill_icon_105
+    description: Increase Commander EXP gain through combat by {0}% {1}
+    arguments: 5
+    max_level: 3
+    is_show: 1
+    type: 1
+    function_skill: battle_commander_exp_up
+  }
+  {
+    id: 106
+    name: Deep Learning
+    level: 1
+    code: function_skill_icon_106
+    description: Increase Fairy EXP gain through combat by {0}% {1}
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: battle_fairy_exp_up
+  }
+  {
+    id: 107
+    name: Firepower Demand
+    level: 1
+    code: function_skill_icon_107
+    description: Increase HOC EXP gain through combat by {0}% {1}
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: battle_squad_exp_up
+  }
+  {
+    id: 108
+    name: Lullaby
+    level: 1
+    code: function_skill_icon_108
+    description: Repair time is reduced by {0}%. This applies to Dolls, HOC and Coalition units.{1}
+    arguments: 10
+    max_level: 3
+    is_show: 1
+    type: 1
+    function_skill: repair_time_reduce
+  }
+  {
+    id: 109
+    name: Shorthand
+    level: 1
+    code: function_skill_icon_109
+    description: Reduce Combat Report/Special Combat Report writing time by {0}% {1}
+    arguments: 1
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: report_time_reduce
+  }
+  {
+    id: 110
+    name: Optimism
+    level: 1
+    code: function_skill_icon_110
+    description: Increases rewards from Forward Basecamp by {0}%{1}
+    arguments: 5
+    max_level: 3
+    type: 1
+    function_skill: exploration_reward_up
+  }
+  {
+    id: 111
+    name: Lucky
+    level: 1
+    code: function_skill_icon_111
+    description: Increases chances of receiving mid-expedition rewards from Forward Basecamp by {0}%{1}
+    arguments: 1
+    max_level: 5
+    type: 1
+    function_skill: exploration_mid_rate_up
+  }
+  {
+    id: 112
+    name: Accelerated Training
+    level: 1
+    code: function_skill_icon_112
+    description: Skill Training (includes Dolls, Fairies and Coalition Units) time reduced by {0}%{1}
+    arguments: 3
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: skill_time_reduce
+  }
+  {
+    id: 113
+    name: Efficient Modification
+    level: 1
+    code: function_skill_icon_113
+    description: Increase Equipment Enhancement value by {0}% {1}
+    arguments: 1
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: equip_upgrade_up
+  }
+  {
+    id: 114
+    name: Technical Compatibility
+    level: 1
+    code: function_skill_icon_114
+    description: Increase Fairy Development Rate in Fairy Enhancement by {0}% {1}
+    arguments: 1
+    max_level: 5
+    type: 1
+    function_skill: fairy_upgrade_up
+  }
+  {
+    id: 115
+    name: Hyper Charge
+    level: 1
+    code: function_skill_icon_115
+    description: Increase battery output by {0}% {1}
+    arguments: 1
+    max_level: 5
+    is_show: 1
+    type: 1
+    function_skill: battery_recovery_up
+  }
+  {
+    id: 118
+    name: Reduce Auto-Battle Consumption
+    level: 1
+    code: function_skill_icon_118
+    description: Resource consumption of Auto-Battles is reduced by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: auto_combat_resource_reduce
+  }
+  {
+    id: 119
+    name: Speed Up Fairy Command Regeneration
+    level: 1
+    code: function_skill_icon_119
+    description: The time needed for Fairy Command to regenerate is reduced by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: fairy_command_recovery_time_reduce
+  }
+  {
+    id: 120
+    name: Speed Up Sample Production
+    level: 1
+    code: function_skill_icon_120
+    description: The time it takes the Listening Post to produce samples is reduced by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: data_recovery_time_reduce
+  }
+  {
+    id: 124
+    name: Increase Logistics Resources
+    level: 1
+    code: function_skill_icon_124
+    description: Resource yield from logistic missions and explorations is increased by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: logistics_reward_up
+  }
+  {
+    id: 125
+    name: Increase Coalition Drill Rewards
+    level: 1
+    code: function_skill_icon_125
+    description: Rewards from Combat Simulation - Coalition Drill is increased by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: coalitiondrill_reward_up
+  }
+  {
+    id: 126
+    name: Shorten Skill Training Duration
+    level: 1
+    code: function_skill_icon_112
+    description: Skill Training (includes Dolls, Fairies and Coalition Units) time reduced by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: skill_time_reduce
+  }
+  {
+    id: 127
+    name: Increase Battery Regeneration Amount
+    level: 1
+    code: function_skill_icon_115
+    description: Increase battery output by {0}% {1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: battery_recovery_up
+  }
+  {
+    id: 128
+    name: Increase Commander EXP Gain
+    level: 1
+    code: function_skill_icon_105
+    description: Increase Commander EXP gain through combat by {0}% {1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: battle_commander_exp_up
+  }
+  {
+    id: 129
+    name: Increase Exploration Completion Rewards
+    level: 1
+    code: function_skill_icon_110
+    description: Increases rewards from Forward Basecamp by {0}%{1}
+    arguments: 1
+    max_level: 10
+    type: 2
+    function_skill: exploration_reward_up
+  }
+  {
+    id: 130
+    name: Reduce Auto-Battle Consumption
+    level: 1
+    code: function_skill_icon_118
+    description: Resource consumption of Auto-Battles is reduced by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: auto_combat_resource_reduce
+  }
+  {
+    id: 131
+    name: Speed Up Fairy Command Regeneration
+    level: 1
+    code: function_skill_icon_119
+    description: The time needed for Fairy Command to regenerate is reduced by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: fairy_command_recovery_time_reduce
+  }
+  {
+    id: 132
+    name: Speed Up Sample Production
+    level: 1
+    code: function_skill_icon_120
+    description: The time it takes the Listening Post to produce samples is reduced by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: data_recovery_time_reduce
+  }
+  {
+    id: 133
+    name: Increase Logistics Resources
+    level: 1
+    code: function_skill_icon_124
+    description: Resource yield from logistic missions and explorations is increased by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: logistics_reward_up
+  }
+  {
+    id: 134
+    name: Increase Coalition Drill Rewards
+    level: 1
+    code: function_skill_icon_125
+    description: Rewards from Combat Simulation - Coalition Drill is increased by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: coalitiondrill_reward_up
+  }
+  {
+    id: 135
+    name: Shorten Skill Training Duration
+    level: 1
+    code: function_skill_icon_112
+    description: Skill Training (includes Dolls, Fairies and Coalition Units) time reduced by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: skill_time_reduce
+  }
+  {
+    id: 136
+    name: Increase Battery Regeneration Amount
+    level: 1
+    code: function_skill_icon_115
+    description: Increase battery output by {0}% {1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: battery_recovery_up
+  }
+  {
+    id: 137
+    name: Increase Commander EXP Gain
+    level: 1
+    code: function_skill_icon_105
+    description: Increase Commander EXP gain through combat by {0}% {1}
+    arguments: 3
+    max_level: 10
+    type: 2
+    function_skill: battle_commander_exp_up
+  }
+  {
+    id: 138
+    name: Increase Exploration Completion Rewards
+    level: 1
+    code: function_skill_icon_110
+    description: Increases rewards from Forward Basecamp by {0}%{1}
+    arguments: 2
+    max_level: 10
+    type: 2
+    function_skill: exploration_reward_up
+  }
+  {
+    id: 139
+    name: Speed Up Fairy Command Regeneration
+    level: 1
+    code: function_skill_icon_119
+    description: The time needed for Fairy Command to regenerate is reduced by {0}%{1}
+    arguments: 3
+    max_level: 10
+    type: 2
+    function_skill: fairy_command_recovery_time_reduce
+  }
+  {
+    id: 140
+    name: Increase Battery Regeneration Amount
+    level: 1
+    code: function_skill_icon_115
+    description: Increase battery output by {0}% {1}
+    arguments: 3
+    max_level: 10
+    type: 2
+    function_skill: battery_recovery_up
+  }
+]
