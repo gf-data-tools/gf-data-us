@@ -9752,6 +9752,13 @@
     icon: Bumdle_Division
   }
   {
+    id: 1602
+    name: prize-10001602
+    gem: 90
+    equip_ids: "315"
+    content: prize-20001602
+  }
+  {
     id: 1604
     name: prize-10001604
     item_ids: 41-500,7-2
@@ -24305,6 +24312,38 @@
     commander_uniform: "3740"
   }
   {
+    id: 12503
+    name: Costumes: Kalina - Griffin Uniform
+    skin: 204
+    icon: NPC_Kalina_204
+  }
+  {
+    id: 12504
+    name: prize-10012504
+    content: prize-20012504
+    send_limit: 1
+    commander_uniform: "2220"
+  }
+  {
+    id: 12505
+    name: prize-10012505
+    content: prize-20012505
+    send_limit: 1
+    commander_uniform: "2820"
+  }
+  {
+    id: 12506
+    name: Costumes: Kalina - Winter Party
+    skin: 206
+    icon: NPC_Kalina_206
+  }
+  {
+    id: 12507
+    name: Costumes: Kalina - Lover's Discourse
+    skin: 208
+    icon: NPC_Kalina_208
+  }
+  {
     id: 14101
     name: prize-10014101
     equip_ids: "2"
@@ -38046,6 +38085,14 @@
     name: prize-10220262
     item_ids: 100096-1,100097-10
     content: prize-20220262
+  }
+  {
+    id: 220263
+    name: prize-10220263
+    item_ids: 41-660,44-500,506-1000
+    gift: 100003-10
+    content: prize-20220263
+    icon: Bumdle_2023
   }
   {
     id: 330248

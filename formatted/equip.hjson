@@ -9228,4 +9228,37 @@
     obtain_ids: "3001,3028"
     sp_description: Reload Time-2s
   }
+  {
+    id: 315
+    name: FP6 Folding Stock
+    description:
+      '''
+      ACC+<hit>
+      ROF<rate>Boost skill effect$FP-6 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "20,25"
+    rate: "-4,-1"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_FP6
+    develop_duration: 3000
+    company: IOP
+    fit_guns: "164"
+    equip_introduction: A common accessory exclusive to FP-6, allows ease of operation in confined spaces after folding.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3.0
+    bonus_type: hit:800
+    passive_skill: "759065"
+    max_level: 10
+    auto_select_id: 18107
+    is_show: 1
+    obtain_ids: "3074"
+  }
 ]
