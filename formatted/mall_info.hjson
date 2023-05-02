@@ -28131,7 +28131,6 @@
     item_ids: 7-1,41-50
     gift: 6304-1
     gemprice: "1888"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: Mondragon M1908 Twilight After Rain Costume Package
     event_code: dailyGiftbag
@@ -28234,6 +28233,1209 @@
     icon: Bumdle_package
     discount: "1.00"
     classification_id: "3002"
+  }
+  {
+    id: "21584"
+    type: "8"
+    item_ids: 7-1,41-100
+    gift: 579-1
+    gemprice: "2588"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Aug Para Pisco Sour Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21585"
+    type: "8"
+    item_ids: 7-1,41-100
+    gift: 576-1
+    gemprice: "2588"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Gr SL8 Special Fizz Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21586"
+    type: "8"
+    item_ids: 41-100
+    gift: 577-1
+    gemprice: "1998"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: VHS Whiskey Float Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21587"
+    type: "8"
+    item_ids: 7-1,41-100
+    gift: 7103-1
+    gemprice: "2588"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Rhino Lunar Crown Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin01
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21588"
+    type: "8"
+    mp: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21589"
+    type: "8"
+    ammo: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21590"
+    type: "8"
+    mre: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21591"
+    type: "8"
+    part: "3000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21592"
+    type: "8"
+    item_ids: 1-10,3-10
+    gemprice: "430"
+    original_price: "860"
+    quota: "2001"
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21593"
+    type: "8"
+    item_ids: 605-10,515-1000
+    gemprice: "1120"
+    quota: "2003"
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21594"
+    type: "8"
+    item_ids: 15-200,46-50,506-100
+    gemprice: "298"
+    quota: "2020"
+    giftbag_name: HOC Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21595"
+    type: "8"
+    sort: "1"
+    quota: "2001"
+    giftbag_name: T-Doll:  Grizzly
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "168"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21596"
+    type: "8"
+    sort: "2"
+    quota: "2001"
+    giftbag_name: T-Doll:  M950A
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "169"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21597"
+    type: "8"
+    sort: "3"
+    quota: "2001"
+    giftbag_name: T-Doll:  Welrod MkⅡ
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "174"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21598"
+    type: "8"
+    sort: "4"
+    quota: "2001"
+    giftbag_name: T-Doll:  NZ75
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40020"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21599"
+    type: "8"
+    sort: "5"
+    quota: "2001"
+    giftbag_name: T-Doll:  Contender
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "190"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21600"
+    type: "8"
+    sort: "6"
+    quota: "2001"
+    giftbag_name: T-Doll:  Px4 Storm
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40045"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21601"
+    type: "8"
+    sort: "7"
+    quota: "2001"
+    giftbag_name: T-Doll:  PA-15
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40133"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21602"
+    type: "8"
+    sort: "8"
+    quota: "2001"
+    giftbag_name: T-Doll:  C-93
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220175"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21603"
+    type: "8"
+    sort: "9"
+    quota: "2001"
+    giftbag_name: T-Doll:  HP-35
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220227"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21604"
+    type: "8"
+    sort: "10"
+    quota: "2001"
+    giftbag_name: T-Doll:  Thompson
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "160"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21605"
+    type: "8"
+    sort: "11"
+    quota: "2001"
+    giftbag_name: T-Doll:  Vector
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "161"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21606"
+    type: "8"
+    sort: "12"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr G36c
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "170"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21607"
+    type: "8"
+    sort: "13"
+    quota: "2001"
+    giftbag_name: T-Doll:  Suomi
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "175"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21608"
+    type: "8"
+    sort: "14"
+    quota: "2001"
+    giftbag_name: T-Doll:  SR-3MP
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "183"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21609"
+    type: "8"
+    sort: "15"
+    quota: "2001"
+    giftbag_name: T-Doll:  Type79
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "179"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21610"
+    type: "8"
+    sort: "16"
+    quota: "2001"
+    giftbag_name: T-Doll:  C-MS
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40042"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21611"
+    type: "8"
+    sort: "17"
+    quota: "2001"
+    giftbag_name: T-Doll:  100 Shiki
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40044"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21612"
+    type: "8"
+    sort: "18"
+    quota: "2001"
+    giftbag_name: T-Doll:  P90
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40049"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21613"
+    type: "8"
+    sort: "19"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr MP7
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40003"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21614"
+    type: "8"
+    sort: "20"
+    quota: "2001"
+    giftbag_name: T-Doll:  SR2
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1407"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21615"
+    type: "8"
+    sort: "21"
+    quota: "2001"
+    giftbag_name: T-Doll:  Kar98k
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "162"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21616"
+    type: "8"
+    sort: "22"
+    quota: "2001"
+    giftbag_name: T-Doll:  WA2000
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "163"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21617"
+    type: "8"
+    sort: "23"
+    quota: "2001"
+    giftbag_name: T-Doll:  Lee Enfield
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "164"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21618"
+    type: "8"
+    sort: "24"
+    quota: "2001"
+    giftbag_name: T-Doll:  NTW-20
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "165"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21619"
+    type: "8"
+    sort: "25"
+    quota: "2001"
+    giftbag_name: T-Doll:  M99
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "180"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21620"
+    type: "8"
+    sort: "26"
+    quota: "2001"
+    giftbag_name: T-Doll:  IWS 2000
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "184"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21621"
+    type: "8"
+    sort: "27"
+    quota: "2001"
+    giftbag_name: T-Doll:  Carcano M1891
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "194"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21622"
+    type: "8"
+    sort: "28"
+    quota: "2001"
+    giftbag_name: T-Doll:  Carcano M91/38
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "195"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21623"
+    type: "8"
+    sort: "29"
+    quota: "2001"
+    giftbag_name: T-Doll:  M200
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220041"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21624"
+    type: "8"
+    sort: "30"
+    quota: "2001"
+    giftbag_name: T-Doll:  QBU-88
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40116"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21625"
+    type: "8"
+    sort: "31"
+    quota: "2001"
+    giftbag_name: T-Doll:  VSK-94
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40290"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21626"
+    type: "8"
+    sort: "32"
+    quota: "2001"
+    giftbag_name: T-Doll:  SVCh
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220228"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21627"
+    type: "8"
+    sort: "33"
+    quota: "2001"
+    giftbag_name: T-Doll:  De Lisle
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220229"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21628"
+    type: "8"
+    sort: "34"
+    quota: "2001"
+    giftbag_name: T-Doll:  HS.50
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1406"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21629"
+    type: "8"
+    sort: "35"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr G41
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "166"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21630"
+    type: "8"
+    sort: "36"
+    quota: "2001"
+    giftbag_name: T-Doll: 416
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "167"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21631"
+    type: "8"
+    sort: "37"
+    quota: "2001"
+    giftbag_name: T-Doll:  FAL
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "171"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21632"
+    type: "8"
+    sort: "38"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr G11
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "176"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21633"
+    type: "8"
+    sort: "39"
+    quota: "2001"
+    giftbag_name: T-Doll:  Type95
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "181"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21634"
+    type: "8"
+    sort: "40"
+    quota: "2001"
+    giftbag_name: T-Doll:  Type97
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "182"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21635"
+    type: "8"
+    sort: "41"
+    quota: "2001"
+    giftbag_name: T-Doll:  T91
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "189"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21636"
+    type: "8"
+    sort: "42"
+    quota: "2001"
+    giftbag_name: T-Doll:  K2
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40036"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21637"
+    type: "8"
+    sort: "43"
+    quota: "2001"
+    giftbag_name: T-Doll:  Am RFB
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "187"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21638"
+    type: "8"
+    sort: "44"
+    quota: "2001"
+    giftbag_name: T-Doll:  Zas M21
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "193"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21639"
+    type: "8"
+    sort: "45"
+    quota: "2001"
+    giftbag_name: T-Doll:  AN-94
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40040"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21640"
+    type: "8"
+    sort: "46"
+    quota: "2001"
+    giftbag_name: T-Doll:  AK-12
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40041"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21641"
+    type: "8"
+    sort: "47"
+    quota: "2001"
+    giftbag_name: T-Doll:  MDR
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40043"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21642"
+    type: "8"
+    sort: "48"
+    quota: "2001"
+    giftbag_name: T-Doll:  K11
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40046"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21643"
+    type: "8"
+    sort: "49"
+    quota: "2001"
+    giftbag_name: T-Doll:  64 Shiki
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40048"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21644"
+    type: "8"
+    sort: "50"
+    quota: "2001"
+    giftbag_name: T-Doll:  ADS
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40177"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21645"
+    type: "8"
+    sort: "51"
+    quota: "2001"
+    giftbag_name: T-Doll:  SIG-556
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220174"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21646"
+    type: "8"
+    sort: "52"
+    quota: "2001"
+    giftbag_name: T-Doll:  AK-Alfa
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220188"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21647"
+    type: "8"
+    sort: "53"
+    quota: "2001"
+    giftbag_name: T-Doll:  AK-15
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220189"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21648"
+    type: "8"
+    sort: "54"
+    quota: "2001"
+    giftbag_name: T-Doll:  89 Shiki
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220224"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21649"
+    type: "8"
+    sort: "55"
+    quota: "2001"
+    giftbag_name: T-Doll:  S-ACR
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40291"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21650"
+    type: "8"
+    sort: "56"
+    quota: "2001"
+    giftbag_name: T-Doll:  SIG MCX
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220259"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21651"
+    type: "8"
+    sort: "57"
+    quota: "2001"
+    giftbag_name: T-Doll:  SCR
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1459"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21652"
+    type: "8"
+    sort: "58"
+    quota: "2001"
+    giftbag_name: T-Doll:  A-545
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1405"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21653"
+    type: "8"
+    sort: "59"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr MG5
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "172"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21654"
+    type: "8"
+    sort: "60"
+    quota: "2001"
+    giftbag_name: T-Doll:  Negev
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "173"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21655"
+    type: "8"
+    sort: "61"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr MG4
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "177"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21656"
+    type: "8"
+    sort: "62"
+    quota: "2001"
+    giftbag_name: T-Doll:  PKP
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "188"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21657"
+    type: "8"
+    sort: "63"
+    quota: "2001"
+    giftbag_name: T-Doll:  QJY-88
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40090"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21658"
+    type: "8"
+    sort: "64"
+    quota: "2001"
+    giftbag_name: T-Doll:  Gr MG36
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40091"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21659"
+    type: "8"
+    sort: "65"
+    quota: "2001"
+    giftbag_name: T-Doll:  ZB-26
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220190"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21660"
+    type: "8"
+    sort: "66"
+    quota: "2001"
+    giftbag_name: T-Doll:  RPK-16
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220191"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21661"
+    type: "8"
+    sort: "67"
+    quota: "2001"
+    giftbag_name: T-Doll:  RPK-203
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220260"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21662"
+    type: "8"
+    sort: "68"
+    quota: "2001"
+    giftbag_name: T-Doll:  Am KSG
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "185"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21663"
+    type: "8"
+    sort: "69"
+    quota: "2001"
+    giftbag_name: T-Doll:  Saiga-12
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40082"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21664"
+    type: "8"
+    sort: "70"
+    quota: "2001"
+    giftbag_name: T-Doll:  AA-12
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40029"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21665"
+    type: "8"
+    sort: "71"
+    quota: "2001"
+    giftbag_name: T-Doll:  FP-6
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40151"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21666"
+    type: "8"
+    sort: "72"
+    quota: "2001"
+    giftbag_name: T-Doll:  S.A.T.8
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "191"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21667"
+    type: "8"
+    sort: "73"
+    quota: "2001"
+    giftbag_name: T-Doll:  CAWS
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220192"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21668"
+    type: "8"
+    sort: "74"
+    quota: "2001"
+    giftbag_name: T-Doll:  DP-12
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220193"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21669"
+    type: "8"
+    sort: "75"
+    quota: "2001"
+    giftbag_name: T-Doll:  M6 ASW
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220230"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21670"
+    type: "8"
+    sort: "76"
+    quota: "2001"
+    giftbag_name: T-Doll:  LTLX7000
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220231"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21671"
+    type: "8"
+    sort: "77"
+    quota: "2001"
+    giftbag_name: T-Doll:  FO-12
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220257"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21672"
+    type: "8"
+    sort: "78"
+    quota: "2001"
+    giftbag_name: T-Doll:  M26-MASS
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220258"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21673"
+    type: "8"
+    sort: "79"
+    quota: "2001"
+    giftbag_name: T-Doll:  SPAS-15
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220283"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21674"
+    type: "8"
+    sort: "80"
+    quota: "2001"
+    giftbag_name: T-Doll:  MK3A1
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220284"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
+  }
+  {
+    id: "21675"
+    type: "8"
+    sort: "81"
+    item_ids: 1866-1
+    quota: "2001"
+    giftbag_name: True Core Mask Commemorative Icon - 5th Anniversary
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 900053-1
+    classification_id: "1003"
   }
   {
     id: "99001"

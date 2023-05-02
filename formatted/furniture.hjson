@@ -24422,6 +24422,200 @@
     rotate: "3"
   }
   {
+    id: 10201
+    name: Orange Cat Restaurant - Chessboard Grids
+    classes: 102
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: If you don't want to end up on a seafood platter, then stop hopping around from grid to grid and just sit down!
+    code: Anniversary2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10202
+    name: Orange Cat Restaurant - Scenic Cruise
+    classes: 102
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The cruise sails beyond the horizon, its steam whistle blowing in the riling waves. Under the flashing neon lights, party-goers clink glasses and spend the night in joy and revelry.
+    code: Anniversary2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10203
+    name: Orange Cat Restaurant - Shaded Deck
+    classes: 102
+    type: 201
+    position: "1,10"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Today's Specials—sea cucumber, oyster, mackerel pike, lobster, scallop, and king crab. Delivered by air, 100% fresh, and reasonably priced!
+    code: Anniversary2022_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10204
+    name: Orange Cat Restaurant - Thrones of Gluttons
+    classes: 102
+    type: 201
+    position: "5,10"
+    space: "10,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Buffet restaurant? I admire the courage! Since it's all-you-can-eat, let's keep going until we bankrupt this place~! Hold on... Why does Miss Kalina keep staring at us? Actually, it's more like... a murderous glare?!
+    code: Anniversary2022_deco_02
+    texture_type: "1"
+    offset: "0,-0.187686,-0.041708"
+    rotate: "2"
+    interact_point: "18,19"
+    interact_point_offset: *3.383,1.593,-0.285|*-3.471,1.650,-0.285
+  }
+  {
+    id: 10205
+    name: Orange Cat Restaurant - Tasty Feature
+    classes: 102
+    type: 302
+    position: "14,1"
+    space: "6,5,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Adjutant Kalina's choice of dining venue—Griffin's own seafood buffet restaurant is now in business! Freshness, texture, and fun times being in the company of good friends—you'll find it all here! Call your closest pals and party all night long!
+    code: Anniversary2022_deco_03,2022Anniversary_light1,2022Anniversary_light2
+    texture_type: "1,2,2"
+    sorting: "0,0,0"
+    offset: "0,0,0|-2.60675,-0.72989,0|2.60675,-0.72989,0"
+    rotate: "3,3,3"
+  }
+  {
+    id: 10206
+    name: Orange Cat Restaurant - Taste Bud Lab
+    classes: 102
+    type: 302
+    position: "2,15"
+    space: "6,3,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: What else should I get? Raw ginger? Mustard? Or some mystery sauce that you've never seen before? Well, I'm planning on trying everything anyway, so might as well just mix it all together!
+    code: Anniversary2022_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10207
+    name: Orange Cat Restaurant - Factory of Drunken Dreams
+    classes: 102
+    type: 201
+    position: "21,1"
+    space: "8,4,1,1,0,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: Dreams both sweet and drunken are created here... Of course, make sure you settle your bill once you're awake.
+    code: Anniversary2022_deco_05,Anniversary2022_deco_06,Anniversary2022_deco_07
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.4690982176,0,0|-0.4690982176,2.2416913457,0.52132361969|1.835152,0,0"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10208
+    name: Orange Cat Restaurant - Party Paradise
+    classes: 102
+    type: 201
+    position: "25,7"
+    space: "8,6,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Where's the salmon that I've been saving for last?! If you don't give it back to me in one piece, none of you are getting away!
+    code: Anniversary2022_deco_08,Anniversary2022_deco_09,Anniversary2022_deco_10,Anniversary2022_deco_11,Anniversary2022_deco_12
+    texture_type: "1,1,1,1,1"
+    sorting: "0,0,0,0,20"
+    offset: "-0.3910125,0.2054119,0.0469215|1.9132377176,0.2054119,0.046921583416|-0.3910125,2.4471032457,0.56407452823|1.9132377176,2.4471032457,0.56407452823|0.10945805812,-0.0052028206666,-0.0020828370434"
+    rotate: "2,2,2,2,2"
+    interact_point: "27"
+    interact_point_offset: *0.146,1.480,-0.285
+  }
+  {
+    id: 10209
+    name: Orange Cat Restaurant - Explosive Kitchen
+    classes: 102
+    type: 201
+    position: "9,0"
+    space: "4,2,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Rest assured, we've passed all the strict food and safety tests... There's a fire in the kitchen? That's our master chef showing off her exquisite skills~ One moment, please. Let me pass her the condiment in the red bottle first!
+    code: Anniversary2022_deco_20,Anniversary2022_deco_21,2022Anniversary_burnedDoor2
+    texture_type: "1,1,2"
+    sorting: "0,0,0"
+    offset: "-0.531777,0,0|-0.531777,1.126116,0.260675|0.052105429028,0.083416,0.020854"
+    rotate: "2,2,2"
+    interact_point: "60"
+    interact_point_offset: *3.646,0.000,-0.285
+  }
+  {
+    id: 10210
+    name: Orange Cat Restaurant - Good Luck Mascot
+    classes: 102
+    type: 302
+    position: "16,14"
+    space: "4,4,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: I know it can pierce through 50cm thick ship plating, but this is the restaurant's mascot for bringing in good luck, so please don't fence with it!
+    code: Anniversary2022_deco_13
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10211
+    name: Orange Cat Restaurant - Night Market Fireworks
+    classes: 102
+    type: 201
+    position: "1,2"
+    space: "8,4,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: The two Dolls in this photo love drinking and stealing fish. They've had their eyes on this place for a while now, so keep a close eye on them and don't let them get away with anything!
+    code: Anniversary2022_deco_16,Anniversary2022_deco_17,Anniversary2022_deco_18,Anniversary2022_deco_19,2022Anniversary_barbecueLight
+    texture_type: "1,1,1,1,2"
+    sorting: "0,0,20,20,20"
+    offset: "-0.239821,0,0|2.064546,0,0|-0.375372,1.292948,0.302383|1.928995,1.292948,0.302383|0.4848555,0.0364945,0.0083416"
+    rotate: "2,2,2,2,2"
+    interact_point: "61"
+    interact_point_offset: *0.321,1.565,2.191
+  }
+  {
+    id: 10212
+    name: Orange Cat Restaurant - Deep Sea Tides
+    classes: 102
+    type: 201
+    position: "14,6"
+    space: "10,4,1,1,1,1"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: A fresh and meaty Boston Lobster, big fat and juicy oysters—they've already been served, isn't it a shame if we don't give all these delicious dishes a try? ...Stomach space? Isn't it common sense to eat first, think later?
+    code: Anniversary2022_deco_14,Anniversary2022_deco_15
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.802879,-0.114697,-0.020854|1.4867744603,-0.114697,-0.020853979146"
+    rotate: "2,2"
+  }
+  {
     id: 10501
     name: Lone Ship in Space - Zero-G Zone
     classes: 105
@@ -24612,6 +24806,201 @@
     rotate: "3,3,3"
     interact_point: "67"
     interact_point_offset: "0,0,0"
+  }
+  {
+    id: 10601
+    name: Unending Night – Asphalt of Breezing Night
+    classes: 106
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Pavement at just the right temperature, with the sky as a curtain and the ground as a mat—to indulge your mind and follow the flow towards thine inner peace.
+    code: Carnival2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10602
+    name: Unending Night – Silent Nightfall
+    classes: 106
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The hustle and bustle of the earthly world do not disturb it in the slightest. It follows its own relentless accord where dusk slowly marches into to the night, and midnight eventually withdraws from the dawn.
+    code: Carnival2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10603
+    name: Unending Night – Cavern of Greed
+    classes: 106
+    type: 201
+    position: "4,8"
+    space: "8,6,0,0,0,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: A bloody, gaping mouth that tempts any and all passers-by with its lavish and alluring food... Once you step in, the fate of gaining weight befalls you.
+    code: Carnival2022_deco_01,Carnival2022_deco_02,Carnival2022_deco_03,Carnival2022_deco_04
+    texture_type: "1,1,1,1"
+    sorting: "0,0,20,20"
+    offset: "-0.584,-0.699,1.230|1.720,-0.699,1.230|-0.584,-0.699,1.230|1.720,-0.699,1.230"
+    rotate: "2,2,2,2"
+    interact_point: "27"
+    interact_point_offset: *1.867,-1.300,3.540
+  }
+  {
+    id: 10604
+    name: Unending Night – Festival In-and-Out
+    classes: 106
+    type: 201
+    position: "28,11"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: As per most party nights, they begin under a bright neon sign pointing towards the bar and end around a couple of garbage bins with large enough volume.
+    code: Carnival2022_deco_05,Carnival2022_deco_06
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|0.000,2.241,0.517"
+    rotate: "2,2"
+  }
+  {
+    id: 10605
+    name: Unending Night – Best Vantage Point
+    classes: 106
+    type: 202
+    position: "19,9"
+    space: "8,4,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: A roadside cafe of hidden purpose: the perfect locale for gazing at the beautiful demeanor of passers-by or crying out in pain for your empty wallet.
+    code: Carnival2022_deco_07,Carnival2022_deco_08,Carnival2022_deco_09
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.434,0.000,0.000|-0.434,2.242,0.517|1.871,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *2.217,1.352,-0.285|*-2.634,1.238,-0.285
+  }
+  {
+    id: 10606
+    name: Unending Night – Monument of Cupidity
+    classes: 106
+    type: 201
+    position: "1,6"
+    space: "10,2,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: A luxury product, a consumer good far removed from people’s basic need to survive and progress, yet the location where it is sold repeatedly attracts the spotlight of the whole neighbourhood.
+    code: Carnival2022_deco_10,Carnival2022_deco_11,Carnival2022_deco_billboardA
+    texture_type: "1,1,2"
+    sorting: "0,0,20"
+    offset: "-0.094,0.000,0.000|-0.094,4.494,1.032|1.769,1.729,0.400"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10607
+    name: Unending Night – Edifice of Relaxation
+    classes: 106
+    type: 201
+    position: "20,6"
+    space: "10,2,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Unlike other places where one has to keep moving around, here you can sit back comfortably and admire your hard-won trophies.
+    code: Carnival2022_deco_12,Carnival2022_deco_billboardD
+    texture_type: "1,2"
+    sorting: "0,20"
+    offset: "-0.002,-0.060,-0.017|-1.863,1.652,0.387"
+    rotate: "2,2"
+  }
+  {
+    id: 10608
+    name: Unending Night – Metamorphosing Zone
+    classes: 106
+    type: 201
+    position: "17,2"
+    space: "9,2,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Whereas the magical girls in fictional works could only transform thanks to their superpowers, modern society grants the power of changes head-to-toe to anyone with enough banknotes.
+    code: Carnival2022_deco_13
+    texture_type: "1"
+    offset: "-0.146,0.000,0.000"
+    rotate: "2"
+  }
+  {
+    id: 10609
+    name: Unending Night – Blackboard of Graffiti
+    classes: 106
+    type: 201
+    position: "11,0"
+    space: "10,2,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Walls are but a medium, just like floors, car windows... all canvas for graffiti. Alright, enough cursing me, I will erase my masterpiece from the walls of your shop.
+    code: Carnival2022_deco_14,Carnival2022_deco_billboardB,Carnival2022_deco_billboardC
+    texture_type: "1,2,2"
+    sorting: "0,20,20"
+    offset: "-0.094,-0.042,-0.010|0.443,1.298,0.300|0.643,1.701,0.392"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10610
+    name: Unending Night – Star-Webbed Stairway
+    classes: 106
+    type: 201
+    position: "6,4"
+    space: "20,2,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: LED bulbs weaved into a net of lights, creating the illusion of stars barely in reach as one steps onto the stairs. But as we all know, only the void awaits by end of the flights.
+    code: Carnival2022_deco_15,Carnival2022_deco_16
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-1.366,-0.052,-0.010|3.240,-0.052,-0.010"
+    rotate: "2,2"
+    interact_point: "27"
+    interact_point_offset: *-0.525,2.163,-0.285
+  }
+  {
+    id: 10611
+    name: Unending Night – Ring of New Arrivals
+    classes: 106
+    type: 201
+    position: "1,9"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A banner displaying the latest products of each season; this is the moment to shine with eye-catching colors. Once out of season, it is reduced to a dull, dust-gathering warehouse rag.
+    code: Carnival2022_deco_17,Carnival2022_deco_18
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|0.000,2.242,0.517"
+    rotate: "2,2"
+  }
+  {
+    id: 10612
+    name: Unending Night – The One Who Takes the Bait
+    classes: 106
+    type: 201
+    position: "13,7"
+    space: "6,7,0,0,0,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: The angler mistaking spotlights on the pool floor for tokens may just be the actual fish clinging onto the bait that are his desires.
+    code: Carnival2022_deco_19,Carnival2022_deco_20,Carnival2022_deco_fishDog
+    texture_type: "1,1,2"
+    sorting: "0,0,20"
+    offset: "0.000,-0.521,1.105|2.304,-0.177,-0.063|0,-0.2481626,1.2731367"
+    rotate: "2,2,2"
   }
   {
     id: 20005
@@ -25347,6 +25736,20 @@
     offset: "0,0,0"
     rotate: "2"
     interact_point_offset: "0,0,0"
+  }
+  {
+    id: 20085
+    name: Schedule Board
+    classes: 81
+    type: 201
+    space: "5,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Used to record events that Franchouchou needs to focus on in the future, using chibi icons to represent the members taking part in the events in question. Wait a minute, who's that strange person in the lower right corner?
+    code: Saga_deco_blackboard
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
   }
   {
     id: 30001
@@ -26744,6 +27147,36 @@
     rotate: "3"
   }
   {
+    id: 30576
+    name: Phantom Fizz
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr SL8's poster.
+    code: poster_Carnival2022_SL8
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30577
+    name: Whiskey Float
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: VHS's poster.
+    code: poster_Carnival2022_VHS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30578
     name: Materialistic Fad
     classes: 300
@@ -26753,6 +27186,96 @@
     decompose_gift: 100003
     description: General Liu's poster.
     code: poster_Carnival2022_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30579
+    name: Pisco Sour
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AUG Para's poster.
+    code: poster_Carnival2022_AUGPARA
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30581
+    name: White Negroni
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 416's Poster
+    code: poster_Carnival2022_HK416
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30582
+    name: Eraser of Mind
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr G11's Poster
+    code: poster_Carnival2022_G11
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30583
+    name: Bee's Knees
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: UMP9's Poster
+    code: poster_Carnival2022_UMP9
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30584
+    name: Coronal Sunset
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: UMP45's Poster
+    code: poster_Carnival2022_UMP45
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30585
+    name: Moon River
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: UMP40's poster.
+    code: poster_Carnival2022_UMP40
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
@@ -33143,6 +33666,126 @@
     decompose_gift: 100003
     description: C14's Poster
     code: poster_OfficeLady2022_C14
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37101
+    name: Swaying Black Rose
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ZB-26's poster.
+    code: poster_Anniversary2022_ZB26
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37102
+    name: Tale of the Butterflies
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 100 Shiki's poster.
+    code: poster_Anniversary2022_Type100
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37103
+    name: Lunar Crown
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Rhino's poster.
+    code: poster_Anniversary2022_Rhino
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37104
+    name: Stardust Veil
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Defender's poster.
+    code: poster_Anniversary2022_ColtDefender
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37105
+    name: Golden Bloom
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP-443's poster.
+    code: poster_Anniversary2022_MP443
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37106
+    name: Here Comes the Goddess of Love
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 88's poster.
+    code: poster_Anniversary2022_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37107
+    name: Cream in the Nebula
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1895's poster.
+    code: poster_Anniversary2022_M1895
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37108
+    name: Sips in the Whispering Wind
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 64's poster.
+    code: poster_Anniversary2022_64type
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

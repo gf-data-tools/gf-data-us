@@ -4,6 +4,12 @@ local PlayEffect = function(self)
 	if not CS.GameData.missionAction.listSpecialSpotAction:ContainsKey(self.instanceId) then
 		return;
 	end
+	if self.sourceType == CS.SourceType.building and self.sourceValue ~= 0 then
+		local buildAction = CS.GameData.missionAction.listBuildingAction:GetDataById(self.sourceValue);
+		if buildAction ~= nil then
+			self.sourceSpotAction = buildAction.currentSpotAction;
+		end
+	end
 	self:PlayEffect();
 end
 
@@ -46,6 +52,29 @@ local CheckTeamMoveClear = function(self)
 	self:CheckTeamMoveClear();
 end
 
+local CheckNext = function()
+	print("PlayNext");
+	CS.DeploymentController.Instance:PlayNext();
+end
+local delay = 0;
+local DelayPerformance = function()
+	print("插入延时");
+	CS.DeploymentController.AddAction(CheckNext,delay);
+end
+
+local AddDelayPerformance = function()
+	CS.DeploymentController.Instance:AddAndPlayPerformance(DelayPerformance);
+end		
+local ShowEffect = function(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound)
+	if effectInfo.cameraFollowEffect then
+		delay = lastdelayTime+effectInfo.forceDelay+effectInfo.forceLastTime;
+		print("插入队列延时"..tostring(delay));
+		CS.DeploymentController.Instance:InsertSomePlayPerformances(AddDelayPerformance);
+	end
+	effectObj = CS.SpecialSpotAction.ShowEffect(target,effectInfo,autoDestroy,effectObj,lastdelayTime,playsound);
+	return effectObj;
+end
 util.hotfix_ex(CS.SpecialSpotAction,'PlayEffect',PlayEffect)
 util.hotfix_ex(CS.SpecialSpotAction,'RefreshUI',RefreshUI)
+util.hotfix_ex(CS.SpecialSpotAction,'ShowEffect',ShowEffect)
 util.hotfix_ex(CS.BuffAction,'CheckTeamMoveClear',CheckTeamMoveClear)

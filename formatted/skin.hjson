@@ -1063,11 +1063,91 @@
     order: 84
   }
   {
+    id: 576
+    name: Phantom Fizz
+    fit_gun: 296
+    voice: 4
+    dialog: Hey Commander, see the girls over there? The ones gawking at the shop window. I wonder what the consequences would be if we just rushed over and dragged them away now.
+    gift_position: "-166.9,-104.2"
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 577
+    name: Whiskey Float
+    fit_gun: 318
+    voice: 4
+    dialog: When you walk in a crowd, do you ever get the feeling that you don't belong there, like you're floating away? Like, your body is on the city streets, but your spirit has drifted off into the sky...
+    gift_position: "-190.5,-75.2"
+    order: 93
+    class_id: 80
+  }
+  {
     id: 578
     name: Materialistic Fad
     fit_gun: 316
     voice: 4
     dialog: Hm? You look a little troubled, Commander... Don't worry! I won't feel tired even if we shop at 100 more streets!
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 579
+    name: Pisco Sour
+    fit_gun: 315
+    voice: 4
+    dialog: Let’s take a break, Senior. I think I got us lost again... Well, neither of us are Dolls so it's only normal we can’t read maps precisely, after all.
+    gift_position: "-172,2.1"
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 581
+    name: White Negroni
+    fit_gun: 65
+    voice: 4
+    dialog: Isn't it such a sweet feeling to finally get a long-awaited vacation, Commander? Just in time for you to drink this cup of coffee so the mix of sweet and bitterness can make everything coexist in a perfect balance.
+    illustrator_cv: umo,Ai Nonaka,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 582
+    name: Eraser of Mind
+    fit_gun: 122
+    voice: 4
+    dialog: I'm wobbling as if I'm hungover? No... I just spent the night clearing dungeons... but if you keep dragging me on this stroll, I'm really gonna flatline...
+    illustrator_cv: umo,Ayaka Fukuhara,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 583
+    name: Bee's Knees
+    fit_gun: 101
+    voice: 4
+    dialog: This is the best, the greatest, and the most wonderful moment of my life! A rare holiday with beautiful weather in a packed shopping mall... and of course, the Commender trying to keep up!
+    illustrator_cv: umo,Mamiko Noto,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 584
+    name: Coronal Sunset
+    fit_gun: 103
+    voice: 4
+    dialog: All the stuff everyone bought is piled up and ready for the Commander to load them into the car. Though with that look on your face... how about we plot a sunset escape together?
+    illustrator_cv: umo,Tomomi Mineuchi,
+    order: 93
+    class_id: 80
+  }
+  {
+    id: 585
+    name: Moon River
+    fit_gun: 102
+    voice: 4
+    dialog: Commander, thank you for using your command tablet to bringing me on a walk... In return, I drew my favorite flower using text characters and left it on your desktop...
+    illustrator_cv: umo,Emi Uema,
     order: 93
     class_id: 80
   }
@@ -6171,6 +6251,79 @@
     dialog: I finally got a job offer! I must make a good first impression on my first day… Hm? Did someone just scream in the building or was it my imagination...?
     order: 85
     class_id: 74
+  }
+  {
+    id: 7101
+    name: Swaying Black Rose
+    fit_gun: 307
+    voice: 4
+    dialog: Are you looking for me? I don't plan on leaving halfway through, don't worry. I was just feeling a little warm, so I drank a bit to cool myself down... I hope you won't blame me for getting the carpet dirty?
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7102
+    name: Tale of the Butterflies
+    fit_gun: 228
+    voice: 4
+    dialog: A red butterfly... What a rare sight. There's a legend where I'm from—in your dreams, a red butterfly will turn into the one you hold dear in your heart... Hm? Of course I'm real!
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7103
+    name: Lunar Crown
+    fit_gun: 357
+    voice: 4
+    dialog: Someone told me you wanted to meet me here... Was it a prank? But you still showed up... Wait, these two glasses of wine have been here the whole night. Let's pour new glasses.
+    gift_position: "-110.9,-2"
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7104
+    name: Stardust Veil
+    fit_gun: 302
+    voice: 4
+    dialog: The moment the veil is pulled back, an uncontrollable torrent of emotions will come pouring out... Will you still approach me even so?
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7105
+    name: Golden Bloom
+    fit_gun: 220
+    voice: 4
+    dialog: Look at you, so astonished. My garden is quite something, isn't it? This is a Milky Way made of pebbles... Don't you just want to dive right in?
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7106
+    name: Here Comes the Goddess of Love
+    fit_gun: 95
+    voice: 4
+    dialog: Pray to me. Fate has brought me here to grant your wish... I'm just rehearsing for a play, Master! But the wish you just made... You didn't just say that to tease me, did you?
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7107
+    name: Cream in the Nebula
+    fit_gun: 5
+    voice: 4
+    dialog: The clouds tonight are so thick and fluffy, just like a giant shortcake! ...Huh? I can't reach it since I'm so short?  Don't ruin my fantasy!
+    order: 86
+    class_id: 75
+  }
+  {
+    id: 7108
+    name: Sips in the Whispering Wind
+    fit_gun: 94
+    voice: 4
+    dialog: Commander, here to escape from all the people trying to give you drinks? ...You'd better watch out. I may only have Dragon Well tea here, but the night breeze can be quite intoxicating.
+    order: 86
+    class_id: 75
   }
   {
     id: 7401

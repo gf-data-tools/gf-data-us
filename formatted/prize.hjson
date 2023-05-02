@@ -12463,6 +12463,24 @@
     item_ids: 2026-1
   }
   {
+    id: 4302
+    name: Coalition Forces: Hunter - Nightfall Moth
+    sangvis: "1018"
+    content: prize-20004302
+  }
+  {
+    id: 4303
+    name: Coalition Forces: Zombie Bride
+    sangvis: "2017"
+    content: prize-20004303
+  }
+  {
+    id: 4304
+    name: Icon: Hunter - Nightfall Moth icon
+    item_ids: 2063-1
+    content: prize-20004304
+  }
+  {
     id: 5001
     name: Cafe PV Reward - Operation Cube '18
     furniture: "2004"
@@ -19677,6 +19695,12 @@
     icon: Bumdle_Coupons1
   }
   {
+    id: 7470
+    name: prize-10007470
+    furniture: "20085"
+    content: prize-20007470
+  }
+  {
     id: 7529
     name: prize-10007529
     item_ids: 41-500,7-2
@@ -20452,80 +20476,80 @@
     id: 10086
     name: Carnival Reward
     ammo: 200
-    item_ids: 110022-20
+    item_ids: 110023-20
   }
   {
     id: 10087
     name: Carnival Reward
     mre: 200
-    item_ids: 110022-30
+    item_ids: 110023-30
   }
   {
     id: 10088
     name: Carnival Reward
     part: 100
-    item_ids: 110022-50
+    item_ids: 110023-50
   }
   {
     id: 10089
     name: Carnival Reward
     part: 200
-    item_ids: 110022-100
+    item_ids: 110023-100
   }
   {
     id: 10090
     name: Carnival Reward
     part: 300
-    item_ids: 110022-150
+    item_ids: 110023-150
   }
   {
     id: 10091
     name: Carnival Reward
     mp: 100
-    item_ids: 110022-10
+    item_ids: 110023-10
   }
   {
     id: 10092
     name: Carnival Reward
     part: 100
-    item_ids: 110022-100
+    item_ids: 110023-100
   }
   {
     id: 10093
     name: Carnival Reward
     ammo: 200
-    item_ids: 110022-10
+    item_ids: 110023-10
   }
   {
     id: 10094
     name: Carnival Reward
     mre: 200
-    item_ids: 110022-20
+    item_ids: 110023-20
   }
   {
     id: 10095
     name: Carnival Reward
-    item_ids: 1-10,110022-200
+    item_ids: 1-10,110023-200
   }
   {
     id: 10096
     name: Carnival Reward
-    item_ids: 110022-100
+    item_ids: 110023-100
   }
   {
     id: 10097
     name: Carnival Reward
-    item_ids: 41-10,110022-50
+    item_ids: 41-10,110023-50
   }
   {
     id: 10098
     name: Carnival Reward
-    item_ids: 41-20,110022-50
+    item_ids: 41-20,110023-50
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 45-200,110022-200
+    item_ids: 45-200,110023-200
   }
   {
     id: 10100
@@ -20557,13 +20581,13 @@
     id: 10104
     name: Active Reward
     core: 10
-    item_ids: 8-1,41-20
+    item_ids: 8-1,41-20,2089-1
     icon: Bumdle_yellow
   }
   {
     id: 10105
     name: Active Reward
-    gift: 6809-1,100003-10
+    gift: 7108-1,100003-10
     icon: Bumdle_bline
   }
   {
@@ -20601,12 +20625,12 @@
   {
     id: 10111
     name: Carnival Reward
-    item_ids: 110022-200,45-200
+    item_ids: 110023-200,45-200
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110022-100,45-100
+    item_ids: 110023-100,45-100
   }
   {
     id: 10113
@@ -38093,6 +38117,197 @@
     gift: 100003-10
     content: prize-20220263
     icon: Bumdle_2023
+  }
+  {
+    id: 220264
+    name: prize-10220264
+    gift: 6204-1
+    content: prize-20220264
+  }
+  {
+    id: 220265
+    name: prize-10220265
+    gift: 6809-1
+    content: prize-20220265
+  }
+  {
+    id: 220266
+    name: prize-10220266
+    gift: 553-1
+    content: prize-20220266
+  }
+  {
+    id: 220267
+    name: prize-10220267
+    gift: 4908-1
+    content: prize-20220267
+  }
+  {
+    id: 220268
+    name: prize-10220268
+    gift: 2706-1
+    content: prize-20220268
+  }
+  {
+    id: 220269
+    name: prize-10220269
+    gift: 5101-1
+    content: prize-20220269
+  }
+  {
+    id: 220270
+    name: prize-10220270
+    gift: 7501-1
+    content: prize-20220270
+  }
+  {
+    id: 220271
+    name: prize-10220271
+    gift: 6102-1
+    content: prize-20220271
+  }
+  {
+    id: 220272
+    name: prize-10220272
+    gift: 5602-1
+    content: prize-20220272
+  }
+  {
+    id: 220273
+    name: prize-10220273
+    gift: 5302-1
+    content: prize-20220273
+  }
+  {
+    id: 220274
+    name: prize-10220274
+    gift: 5603-1
+    content: prize-20220274
+  }
+  {
+    id: 220275
+    name: prize-10220275
+    gift: 5501-1
+    content: prize-20220275
+  }
+  {
+    id: 220276
+    name: prize-10220276
+    gift: 551-1
+    content: prize-20220276
+  }
+  {
+    id: 220277
+    name: prize-10220277
+    gift: 5805-1
+    content: prize-20220277
+  }
+  {
+    id: 220278
+    name: prize-10220278
+    gift: 6503-1
+    content: prize-20220278
+  }
+  {
+    id: 220279
+    name: prize-10220279
+    gem: 520
+    item_ids: 44-1000,7-1,41-100,900049-1
+    content: prize-20220279
+    icon: Bumdle_EN1year
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 220280
+    name: prize-10220280
+    gem: 520
+    item_ids: 44-1000,7-1,41-100,900050-1
+    content: prize-20220280
+    icon: Bumdle_2yearpackage
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 220281
+    name: prize-10220281
+    gem: 520
+    item_ids: 44-1000,7-1,41-100,900051-1
+    content: prize-20220281
+    icon: Bumdle_3yearpackage
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 220282
+    name: prize-10220282
+    gem: 520
+    item_ids: 44-1000,7-1,41-100,900052-1
+    content: prize-20220282
+    icon: Bumdle_usa4yearpackage
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 220283
+    name: prize-10220283
+    gun_id: "366"
+    content: prize-20220283
+  }
+  {
+    id: 220284
+    name: prize-10220284
+    gun_id: "367"
+    content: prize-20220284
+  }
+  {
+    id: 220285
+    name: prize-10220285
+    gem: 520
+    item_ids: 44-1000,7-1,41-100,900054-1
+    content: prize-20220285
+    icon: Bumdle_5yearpackage
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 220286
+    name: prize-10220286
+    item_ids: 41-200,7-1
+    gift: 100003-5
+    coins: 3-1000
+    content: prize-20220286
+    icon: Bumdle_5yearpackage
+  }
+  {
+    id: 220287
+    name: prize-10220287
+    item_ids: 41-660,45-1000
+    gift: 100003-5
+    coins: 3-1500
+    content: prize-20220287
+    icon: Bumdle_5yearpackage
+  }
+  {
+    id: 220288
+    name: prize-10220288
+    item_ids: 41-1800,45-2000
+    gift: 100003-5
+    coins: 3-2000
+    content: prize-20220288
+    icon: Bumdle_5yearpackage
+  }
+  {
+    id: 220289
+    name: prize-10220289
+    core: 100
+    item_ids: 45-2000,9-100
+    coins: 2-3000,3-2000
+    content: prize-20220289
+    icon: Bumdle_5yearpackage
+  }
+  {
+    id: 220290
+    name: prize-10220290
+    item_ids: 506-1000,605-50
+    content: prize-20220290
+    icon: Bumdle_5yearpackage
+    fairy_ids: 26-0-100-1
   }
   {
     id: 330248
