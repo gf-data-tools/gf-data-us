@@ -867,6 +867,21 @@
     id: 178
   }
   {
+    id: 179
+  }
+  {
+    id: 180
+  }
+  {
+    id: 181
+  }
+  {
+    id: 182
+  }
+  {
+    id: 183
+  }
+  {
     id: 999
     name: enemy_illustration_skill-10000999
     description: enemy_illustration_skill-20000999
@@ -895,6 +910,81 @@
     id: 10022
     name: Watermelon Crash
     description: Stop moving upon contact with enemy units and damage them.
+  }
+  {
+    id: 10037
+    name: Irritable
+    description: Damage taken is reduced when this unit is on the move. Attacks deal damage to her target and units directly behind.
+  }
+  {
+    id: 10038
+    name: Choleric
+    description: This unit can restore force fields, deal damage to enemy units directly ahead, and reduce move speed and rate of fire of attacked units.
+  }
+  {
+    id: 10039
+    name: High-Speed Roll
+    description: Roll up to the enemy echelon at high speed, crashing into the first enemy unit and dealing massive damage, then stop rolling.
+  }
+  {
+    id: 10040
+    name: Whirlwind Impact
+    description: At the start of the battle, charge at the enemy echelon at high speed in a straight line until it disappears, dealing massive damage to all units in its way.
+  }
+  {
+    id: 10041
+    name: Launch Bubbles
+    description: Generate a bubble at regular intervals.
+  }
+  {
+    id: 10042
+    name: Bubble
+    description: Explode upon encountering an enemy unit and deal damage to all units within a radius of 2 when it vanishes.
+  }
+  {
+    id: 10043
+    name: Vicious Chomp
+    description: Increase attack speed drastically and deal extra damage to shielded units.
+  }
+  {
+    id: 10044
+    name: Chain Breaker
+    description: Conduct a performance. If afflicted with Stage Fright, do not lose points; gain 50% more points instead.
+  }
+  {
+    id: 10045
+    name: Swansong
+    description: Conduct a performance. Remove High Spirits buff on opponents in a radius of 3 and inflict stage fright on them.
+  }
+  {
+    id: 10046
+    name: I'm Soarin', Flyin'
+    description: Conduct a performance and enter a state of High Spirits.
+  }
+  {
+    id: 10047
+    name: Plague Knight
+    description: Conduct a performance. High Spirits buff increases to 100%.
+  }
+  {
+    id: 10048
+    name: Witcher General
+    description: Conduct a performance. Inflict Stage Fright on opponents in a radius of 2.
+  }
+  {
+    id: 10049
+    name: Steel Butterfly
+    description: Conduct a performance and put teammates in a radius of 2 who are not suffering from Stage Fright in High Spirits.
+  }
+  {
+    id: 10050
+    name: Electric Witch
+    description: Conduct a performance. If in Fever state, gain an additional 50% of points.
+  }
+  {
+    id: 10051
+    name: Dragon Jr.
+    description: Conduct a performance per round wrought with Stage Fright.
   }
   {
     id: 10087

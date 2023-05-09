@@ -25752,6 +25752,101 @@
     rotate: "2"
   }
   {
+    id: 20086
+    name: Banquet with Old Friends
+    classes: 81
+    type: 201
+    space: "14,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A dining table meticulously set by Franchouchou. No matter how hard life gets, one must never forget to share a good meal with friends. The food isn't good? Picky eaters can screw off and go eat with Romero!
+    code: Saga_deco_table1,Saga_deco_table2,Saga_deco_table3
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,0.000,0.000|-2.035,0.000,0.000|2.096,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *5.425,1.480,-0.285|*-5.104,1.480,-0.285
+  }
+  {
+    id: 20087
+    name: Antique Chandelier
+    classes: 81
+    type: 201
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A chandelier that may or may not have passed its service life. It seems to have been hanging from the ceiling ever since the mansion was built, bearing witness to the hustle and bustle as well as the eventual lifelessness in the building. What remains unchanged is the fact that it is what bestows light to those in the mansion when night falls.
+    code: Saga_deco_light
+    texture_type: "1"
+    offset: "0.000,3.535,0.824"
+    rotate: "2"
+  }
+  {
+    id: 20088
+    name: Whiplash Jazz
+    classes: 81
+    type: 201
+    space: "9,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A drum kit with quite some story behind it. The surfaces of the drums bear traces of having been ravaged by a drummer. There are also what look like bite marks on the cymbals. According to the Dolls who have tried it out before, the moment you sit down behind it, you will forget everything else and enter a flow state in which you just want to beat up the world...
+    code: Saga_DrumKit_deco
+    texture_type: "2"
+    sorting: "20"
+    offset: "0.000,0.219,0.052"
+    rotate: "2"
+    interact_point: "820088"
+    interact_point_offset: *0.000,2.106,0.000
+    touch_area: "9,4,0"
+  }
+  {
+    id: 20089
+    name: Echoes of Memories
+    classes: 81
+    type: 201
+    space: "3,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An antique audio recorder with simple functions. It is only capable of audio recording and playback using magnetic tape, and the sound quality is quite poor. However, this doesn't stop the Dolls from huddling around it, listening to an angel's voice from the past.
+    code: Saga_deco_recorder
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20090
+    name: Golden Mic Music Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This medal commends the Commander and their band for their brilliant performance during the event "The Glistening Bloom". "Even if the way forward is filled with trials and tribulations, we must shout out the unfulfilled dream that we've kept hidden deep in our hearts!"
+    code: 2023SagaActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20091
+    name: Romero
+    classes: 299
+    type: 299
+    space: "3,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A small and cute zombie dog that can freely switch between forms. He loves dried shredded squid, and he hates people who take his dried shredded squid.
+    code: 2023SagaActivity_Romero
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "4"
+    interact_point_offset: *0.061,0.848,-0.285
+    touch_area: "3,3,3"
+    bonus_id: 3104
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -27291,6 +27386,111 @@
     decompose_gift: 100003
     description: OBR's poster.
     code: poster_ChessBonus_OBR
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30587
+    name: Dazzling Radiance
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Sakura Minamoto's poster.
+    code: poster_Saga2023_Sakura
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30588
+    name: Daybreak Biker
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Saki Nikaido's poster.
+    code: poster_Saga2023_Saki
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30589
+    name: Awakening Dreamer
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Ai Mizuno's poster.
+    code: poster_Saga2023_Ai
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30590
+    name: Unforgettable Time
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Junko Konno's poster.
+    code: poster_Saga2023_Junko
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30591
+    name: The Saga Incident
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Yugiri's poster.
+    code: poster_Saga2023_Yuugiri
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30592
+    name: To My Dearest
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Lily Hoshikawa's poster.
+    code: poster_Saga2023_Lily
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30593
+    name: Stadium Smasher
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Tae Yamada's poster.
+    code: poster_Saga2023_Tae
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

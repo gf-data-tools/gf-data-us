@@ -5768,6 +5768,38 @@
     no_battle_damage: -1
   }
   {
+    id: 105601
+    name: Spectator
+    guns: "1,2,3,4,5"
+    enemy_team_id: 570505
+    initial_type: 2
+    ai: 0;0;103
+    ai_content: 0;0;0
+    transform_condition: "4"
+    transform_number: "570501"
+    transform_result: 1:9106-1
+    betray_result_enemy: "570505"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 105602
+    name: Spectator
+    guns: "1,2,3,4,5"
+    enemy_team_id: 570504
+    ai: 0;0;0
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    transform_condition: "4"
+    transform_number: "570502,570501"
+    transform_result: 1:9106-1,1:9106-1
+    betray_result_enemy: "570504"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 316001
     name: Sangvis Force
     guns: "100791"
@@ -13523,8 +13555,209 @@
     no_battle_damage: -1
   }
   {
+    id: 570001
+    name: Ai Mizuno
+    guns: "570001"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570002
+    name: Junko Konno
+    guns: "570002"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570003
+    name: Lily Hoshikawa
+    guns: "570003"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570004
+    name: Saki Nikaido
+    guns: "570004"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570005
+    name: Yugiri
+    guns: "570005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570006
+    name: Sakura Minamoto
+    guns: "570006"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570007
+    name: Tae Yamada
+    guns: "570007"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570008
+    name: Commander
+    guns: "570011"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;2010;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 570009
+    name: Gray Singer
+    guns: "570011"
+    enemy_team_id: 570001
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570010
+    name: Green Singer
+    guns: "570011"
+    enemy_team_id: 570002
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570011
+    name: Red Singer
+    guns: "570011"
+    enemy_team_id: 570003
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570012
+    name: Spirited Vocalist
+    guns: "570011"
+    enemy_team_id: 570004
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570013
+    name: Fiery Guitarist
+    guns: "570011"
+    enemy_team_id: 570005
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570014
+    name: Breakneck Drummer
+    guns: "570011"
+    enemy_team_id: 570006
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570015
+    name: Bassist with Shades
+    guns: "570011"
+    enemy_team_id: 570007
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 570016
+    name: Mysterious Keyboardist
+    guns: "570011"
+    enemy_team_id: 570008
+    initial_type: 2
+    ai: 0;1;0
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 575001
+    name: Sakura Minamoto
+    guns: "570010"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 575002
+    name: Tae Yamada
+    guns: "570009"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 575003
+    name: Saki Nikaido
+    guns: "570008"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;1;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 590001
-    name: ally_team-10590001
+    name: Griffin
     guns: "590001,590002,590003,590004,590005"
     fairy: 30
     enemy_team_id: 1
@@ -13536,7 +13769,7 @@
   }
   {
     id: 590002
-    name: ally_team-10590002
+    name: Griffin
     guns: "590006,590007,590008,590009,590010"
     fairy: 30
     enemy_team_id: 1
@@ -13548,7 +13781,7 @@
   }
   {
     id: 590003
-    name: ally_team-10590003
+    name: Griffin
     guns: "590011,590012,590013,590014,590015"
     fairy: 30
     enemy_team_id: 1
@@ -13560,7 +13793,7 @@
   }
   {
     id: 590004
-    name: ally_team-10590004
+    name: M16A1
     guns: "590016"
     enemy_team_id: 1
     initial_type: 1
@@ -17259,7 +17492,7 @@
   }
   {
     id: 6560001
-    name: ally_team-16560001
+    name: ???
     guns: "1"
     enemy_team_id: 6560301
     initial_type: 2
@@ -17269,7 +17502,7 @@
   }
   {
     id: 6560002
-    name: ally_team-16560002
+    name: ???
     guns: "1"
     enemy_team_id: 6560301
     initial_type: 2
@@ -17279,7 +17512,6 @@
   }
   {
     id: 6560003
-    name: ally_team-16560003
     guns: "6560101"
     enemy_team_id: 1
     initial_type: 1
@@ -17289,7 +17521,6 @@
   }
   {
     id: 6560004
-    name: ally_team-16560004
     guns: "6560201"
     enemy_team_id: 1
     initial_type: 1
@@ -17299,7 +17530,6 @@
   }
   {
     id: 6560005
-    name: ally_team-16560005
     guns: "6560301,6560302,6560303,6560304,6560305"
     enemy_team_id: 1
     initial_type: 1
@@ -17309,7 +17539,7 @@
   }
   {
     id: 6560006
-    name: ally_team-16560006
+    name: ???
     guns: "1"
     enemy_team_id: 6561301
     initial_type: 2
@@ -17319,7 +17549,7 @@
   }
   {
     id: 6560007
-    name: ally_team-16560007
+    name: ???
     guns: "1"
     enemy_team_id: 6561301
     initial_type: 2
@@ -17329,7 +17559,6 @@
   }
   {
     id: 6560008
-    name: ally_team-16560008
     guns: "1"
     enemy_team_id: 6560401
     initial_type: 2
@@ -17339,7 +17568,6 @@
   }
   {
     id: 6560009
-    name: ally_team-16560009
     guns: "1"
     enemy_team_id: 6561401
     initial_type: 2
@@ -17349,7 +17577,6 @@
   }
   {
     id: 6560010
-    name: ally_team-16560010
     guns: "6560201"
     enemy_team_id: 1
     initial_type: 1

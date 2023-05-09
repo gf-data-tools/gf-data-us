@@ -34416,6 +34416,1206 @@
     difficulty_recommend: 1000;5
   }
   {
+    id: 11261
+    campaign: -57
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: From Griffin, With Love
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126100:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11262
+    campaign: -57
+    sub: 2
+    if_emergency: -1
+    name: Do-Re-Mi
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS56_Y
+    map_information: "12000,12000|6000,6000|0,2100"
+    fog_length: "0,1000"
+    fog_color: "#000000FF"
+    draw_event_s_id: "727"
+    drop_mission_key: "0,0,1126200:1;0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    force_type: "2"
+    round_config: 1:27,2:28,3:3
+    win_type: 1126201|1126202
+    difficulty_recommend: 1000;10
+    event_score: 0|999999,0,0,0,0,0,0,0,0,0,0,0,0,0,999999,575003:100;575002:300,0,0,0,0
+    score_prize: 3|100:7482,200:7483
+  }
+  {
+    id: 11263
+    campaign: -57
+    sub: 3
+    if_emergency: -1
+    name: Head Up, Back Straight, Hip Turned
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS56_Y
+    map_information: "12000,12000|6000,6000|0,2100"
+    fog_length: "0,1000"
+    fog_color: "#000000FF"
+    draw_event_s_id: "728"
+    drop_mission_key: "0,0,1126200:1;0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    force_type: "2"
+    round_config: 1:27,2:28,3:3
+    win_type: 1126301|1126302
+    difficulty_recommend: 1000;10
+    event_score: 0|999999,0,0,0,0,0,0,0,0,0,0,0,0,0,999999,575003:100;575002:300,0,0,0,0
+    score_prize: 3|100:7484,200:7485
+  }
+  {
+    id: 11264
+    campaign: -57
+    sub: 4
+    if_emergency: -1
+    name: Welcome!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS100_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,1000"
+    fog_color: "#000000FF"
+    draw_event_s_id: "729"
+    drop_mission_key: "0,0,1126200:1;0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    force_type: "2"
+    round_config: 1:27,2:28,3:3
+    win_type: 1126401|1126402
+    difficulty_recommend: 1000;10
+    event_score: 0|999999,0,0,0,0,0,0,0,0,0,0,0,0,0,999999,575003:100;575002:300,0,0,0,0
+    score_prize: 3|100:7486,200:7487
+  }
+  {
+    id: 11265
+    campaign: -57
+    sub: 5
+    if_emergency: -1
+    name: Glup, Glup
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 3
+    expect_gun_die_num: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 7
+    limit_gun_pool: "1038"
+    map_res_name: OPS99_Y
+    map_information: "4000,4000|4000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "731"
+    expect_hostage_num: "0,2"
+    drop_mission_key: "0,0,1126200:1;0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    force_type: "2"
+    round_config: 1:27,2:30,3:3
+    difficulty_recommend: 26000;110
+    event_score: 0|999999,0,0,0,0,0,0,0,0,0,0,-300,0,0,999999,0,0,0,570501:1000;570502:1000;570505:5000,0
+    score_prize: 3|1500:7490,3000:7491
+    environment_transform_config: "570501"
+  }
+  {
+    id: 11266
+    campaign: -57
+    sub: 6
+    if_emergency: -1
+    name: Hiss, Sizzle, Whoosh
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "1039"
+    map_res_name: OPS100_Y
+    map_information: "8000,8000|8000,8000|0,10"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "733"
+    drop_mission_key: "0,0,1126200:1;0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:27,2:30,3:3
+    difficulty_recommend: 26000;110
+    event_score: 0|999999,0,0,0,0,0,0,0,0,0,0,0,0,0,999999,570612:100;570613:500,0,0,0,0
+    score_prize: 3|100:7488,200:7489
+  }
+  {
+    id: 11267
+    campaign: -57
+    sub: 7
+    if_emergency: -1
+    name: For Whom Do You Fight?
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS56_Y
+    map_information: "12000,12000|6000,6000|300,1600"
+    fog_length: "0,1500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "729"
+    drop_mission_key: "0,0,1126700:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:27,2:29,3:3
+    win_type: "1126701"
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11268
+    campaign: -57
+    sub: 8
+    if_emergency: -1
+    name: Destiny
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS56_Y
+    map_information: "12000,12000|6000,6000|200,2000"
+    fog_length: "0,1500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "730"
+    drop_mission_key: "0,0,1126800:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:27,2:29,3:3
+    win_type: "1126801"
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11269
+    campaign: -57
+    sub: 9
+    if_emergency: -1
+    name: Dusk and Dawn
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS56_Y
+    map_information: "16000,16000|6000,6000|200,2000"
+    fog_length: "0,1500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "732"
+    drop_mission_key: "0,0,1126900:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:27,2:29,3:3
+    win_type: "1126901,1126902"
+    difficulty_recommend: 1000;10
+    lose_type: "1126901,1126903"
+  }
+  {
+    id: 11270
+    campaign: -57
+    sub: 10
+    if_emergency: -1
+    special_type: 9
+    name: Day 1 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11271
+    campaign: -57
+    sub: 11
+    if_emergency: -1
+    special_type: 9
+    name: Day 1 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11272
+    campaign: -57
+    sub: 12
+    if_emergency: -1
+    special_type: 9
+    name: Day 2 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11273
+    campaign: -57
+    sub: 13
+    if_emergency: -1
+    special_type: 9
+    name: Day 2 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11274
+    campaign: -57
+    sub: 14
+    if_emergency: -1
+    special_type: 9
+    name: Day 3 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11275
+    campaign: -57
+    sub: 15
+    if_emergency: -1
+    special_type: 9
+    name: Day 3 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11276
+    campaign: -57
+    sub: 16
+    if_emergency: -1
+    special_type: 9
+    name: Day 4 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11277
+    campaign: -57
+    sub: 17
+    if_emergency: -1
+    special_type: 9
+    name: Day 4 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11278
+    campaign: -57
+    sub: 18
+    if_emergency: -1
+    special_type: 9
+    name: Day 5 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11279
+    campaign: -57
+    sub: 19
+    if_emergency: -1
+    special_type: 9
+    name: Day 5 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11280
+    campaign: -57
+    sub: 20
+    if_emergency: -1
+    special_type: 9
+    name: Day 6 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11281
+    campaign: -57
+    sub: 21
+    if_emergency: -1
+    special_type: 9
+    name: Day 6 – Night
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11282
+    campaign: -57
+    sub: 22
+    if_emergency: -1
+    special_type: 9
+    name: Day 7 – Noon
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1126200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11283
+    campaign: -57
+    sub: 23
+    if_emergency: -1
+    special_type: 9
+    name: A Night of Laughter and Tears
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128300:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11284
+    campaign: -57
+    sub: 24
+    if_emergency: -1
+    special_type: 9
+    name: A Night of Neon Colors
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128400:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11285
+    campaign: -57
+    sub: 25
+    if_emergency: -1
+    special_type: 9
+    name: A Night of Rising Wind
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128500:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11286
+    campaign: -57
+    sub: 26
+    if_emergency: -1
+    special_type: 9
+    name: A Night of Grayish White
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128600:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11287
+    campaign: -57
+    sub: 27
+    if_emergency: -1
+    special_type: 9
+    name: A Loose Backdrop
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128700:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11288
+    campaign: -57
+    sub: 28
+    if_emergency: -1
+    special_type: 9
+    name: Don't Let the Music Stop, Dance Till You Drop
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128800:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11289
+    campaign: -57
+    sub: 29
+    if_emergency: -1
+    special_type: 9
+    name: The Distance from Shoulder to Shoulder
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1128900:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11290
+    campaign: -57
+    sub: 30
+    if_emergency: -1
+    special_type: 9
+    name: Do Your Best, Part-Timer!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129000:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11291
+    campaign: -57
+    sub: 31
+    if_emergency: -1
+    special_type: 9
+    name: Rush! To the Top!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129100:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11292
+    campaign: -57
+    sub: 32
+    if_emergency: -1
+    special_type: 9
+    name: Inspiration! Springing Forth!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129200:1|1128301:1|1128302:1"
+    mission_group_id: 24
+    open_mission_keys: 1126900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11293
+    campaign: -57
+    sub: 33
+    if_emergency: -1
+    special_type: 9
+    name: Keep Clear!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129300:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11294
+    campaign: -57
+    sub: 34
+    if_emergency: -1
+    special_type: 9
+    name: Strangers in a Foreign Land
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129400:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11295
+    campaign: -57
+    sub: 35
+    if_emergency: -1
+    special_type: 9
+    name: Pavilion in the Rain
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129500:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11296
+    campaign: -57
+    sub: 36
+    if_emergency: -1
+    special_type: 9
+    name: Perfect Strangers
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129600:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11297
+    campaign: -57
+    sub: 37
+    if_emergency: -1
+    special_type: 9
+    name: Night-Time Fantasia
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129700:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11298
+    campaign: -57
+    sub: 38
+    if_emergency: -1
+    special_type: 9
+    name: Traveler in Time
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129800:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11299
+    campaign: -57
+    sub: 39
+    if_emergency: -1
+    special_type: 9
+    name: Rampaging Radio Show!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1129900:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11300
+    campaign: -57
+    sub: 40
+    if_emergency: -1
+    special_type: 9
+    name: Precious Treasure
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130000:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11301
+    campaign: -57
+    sub: 41
+    if_emergency: -1
+    special_type: 9
+    name: When Did the Moon Start Shining?
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130100:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11302
+    campaign: -57
+    sub: 42
+    if_emergency: -1
+    special_type: 9
+    name: Top Secret Agent
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11303
+    campaign: -57
+    sub: 43
+    if_emergency: -1
+    special_type: 9
+    name: Rampaging Memories!
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130300:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11304
+    campaign: -57
+    sub: 44
+    if_emergency: -1
+    special_type: 9
+    name: Gift Giver
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130400:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11305
+    campaign: -57
+    sub: 45
+    if_emergency: -1
+    special_type: 9
+    name: Moonlit Ocean
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130500:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11306
+    campaign: -57
+    sub: 46
+    if_emergency: -1
+    special_type: 9
+    name: Sound of the Sea
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130600:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11307
+    campaign: -57
+    sub: 47
+    if_emergency: -1
+    special_type: 9
+    name: Heart of the Cherry Blossom
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130700:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11308
+    campaign: -57
+    sub: 48
+    if_emergency: -1
+    special_type: 9
+    name: Drifting Apart in the Haze
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130800:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11309
+    campaign: -57
+    sub: 49
+    if_emergency: -1
+    special_type: 9
+    name: The Remains of the Day
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1130900:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11310
+    campaign: -57
+    sub: 50
+    if_emergency: -1
+    special_type: 9
+    name: Rampage at the Graduation Ceremony
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1131000:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11311
+    campaign: -57
+    sub: 51
+    if_emergency: -1
+    special_type: 9
+    name: '''"Please Don't Go"'''
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1131100:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11312
+    campaign: -57
+    sub: 52
+    if_emergency: -1
+    special_type: 9
+    name: Dazzling Love
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1131200:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
+    id: 11313
+    campaign: -57
+    sub: 53
+    if_emergency: -1
+    special_type: 9
+    name: Until the Sun Goes Down
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1131300:1"
+    mission_group_id: 24
+    open_mission_keys: 1126100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;10
+  }
+  {
     id: 90001
     campaign: 1
     sub: 1

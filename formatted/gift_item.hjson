@@ -1415,6 +1415,97 @@
     description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
   }
   {
+    id: 587
+    name: Dazzling Radiance
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1037
+    skin: 587
+    poster: 30587
+    code: gift_bundle_Saga2023_Sakura
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 588
+    name: Daybreak Biker
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1041
+    skin: 588
+    poster: 30588
+    code: gift_bundle_Saga2023_Saki
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 589
+    name: Awakening Dreamer
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1038
+    skin: 589
+    poster: 30589
+    code: gift_bundle_Saga2023_Ai
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 590
+    name: Unforgettable Time
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1039
+    skin: 590
+    poster: 30590
+    code: gift_bundle_Saga2023_Junko
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 591
+    name: The Saga Incident
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1040
+    skin: 591
+    poster: 30591
+    code: gift_bundle_Saga2023_Yuugiri
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 592
+    name: To My Dearest
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1036
+    skin: 592
+    poster: 30592
+    code: gift_bundle_Saga2023_Lily
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
+    id: 593
+    name: Stadium Smasher
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1035
+    skin: 593
+    poster: 30593
+    code: gift_bundle_Saga2023_Tae
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+  }
+  {
     id: 601
     name: A Couple's Journey
     type: 2
@@ -7698,6 +7789,19 @@
     sort: -1014
   }
   {
+    id: 100021
+    name: gift_item-10100021
+    type: 1
+    rank: 5
+    favor: 30000
+    code: gift_item_glowstick
+    bonus_description: gift_item-20100021
+    description: gift_item-30100021
+    item_access: "2"
+    detail_introduction: gift_item-40100021
+    sort: -1015
+  }
+  {
     id: 200001
     name: Combat Report
     type: 3
@@ -7773,6 +7877,19 @@
     item_access: "2"
     detail_introduction: A byproduct of Lord Satan's magic research. Drinking it will enhance a demon’s powers. However, since the user experience is so horrible, it is a commercial flop and becomes something he forces upon others as a gift.
     sort: -1013
+  }
+  {
+    id: 200021
+    name: gift_item-10200021
+    type: 3
+    rank: 5
+    code: gift_item_Sagamic
+    bonus_description: gift_item-20200021
+    description: gift_item-30200021
+    exp: 10000
+    item_access: "2"
+    detail_introduction: gift_item-40200021
+    sort: -1016
   }
   {
     id: 400001

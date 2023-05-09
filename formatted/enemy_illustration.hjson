@@ -3253,7 +3253,6 @@
     character: "1001,214,309"
     enemy_skill: "79,80"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000162
     spine_scale: "70,70,1"
   }
   {
@@ -3740,6 +3739,309 @@
     range_rank: 5
     counter: Minos in a state of extreme rage. Best give her a wide berth.
     character: "1001,329"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100036
+    name: Seaside Watermelon
+    type: 2
+    code: Pathfinder_Small
+    introduce: An ordinary watermelon.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Bash it up!
+    character: "903"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100037
+    name: Bathhouse Assassin
+    type: 3
+    code: Bathhouse_guest_2
+    introduce: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
+    character: "303,313"
+    enemy_skill: "10037"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100038
+    name: Bathhouse Assassin
+    type: 3
+    code: Bathhouse_guest_1
+    introduce: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
+    character: "309,312,316"
+    enemy_skill: "10038,140"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100039
+    name: Speed Demon's Wheel
+    type: 4
+    code: Tyre_enemy
+    introduce: An allegedly sentient wheel. It will suddenly appear in the streets and barrel up to a victim to its liking... The subject of an urban legend among the younger generation.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: An allegedly sentient wheel. It will suddenly appear in the streets and barrel up to a victim to its liking... The subject of an urban legend among the younger generation.
+    character: "304,319"
+    enemy_skill: "10039"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100040
+    name: Truck-kun
+    type: 4
+    code: Truck_enemy
+    introduce: A mysterious and unpredictable light cargo truck. Despite having never passed the traffic safety test, it still speeds around everywhere recklessly and has a special penchant for hurtling down the streets in quiet residential areas.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A mysterious and unpredictable light cargo truck. Despite having never passed the traffic safety test, it still speeds around everywhere recklessly and has a special penchant for hurtling down the streets in quiet residential areas.
+    character: "1001,1003,304,902"
+    enemy_skill: "10040"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100041
+    name: Bubble Machine
+    type: 4
+    code: Bubble_machine
+    introduce: A micro-factory that creates Drifting Bubbles. Due to its slow movements and general harmlessness, it often ends up getting chased around by children and their parents.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A micro-factory that creates Drifting Bubbles. Due to its slow movements and general harmlessness, it often ends up getting chased around by children and their parents.
+    character: "321"
+    enemy_skill: "10041"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100042
+    name: Drifting Bubble
+    type: 2
+    code: Bubble
+    introduce: A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: '''"A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.'''
+    character: "319"
+    enemy_skill: "10042"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100043
+    name: Romero
+    type: 2
+    code: saga_dog_enemy
+    introduce: A zombie dog of unknown origin that loves dried shredded squid. He carries out his duty of guarding his home and protecting Franchouchou very diligently. He may look small and weak, but he can transform into a vicious beast that razes everything.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A zombie dog of unknown origin that loves dried shredded squid. He carries out his duty of guarding his home and protecting Franchouchou very diligently. He may look small and weak, but he can transform into a vicious beast that razes everything.
+    character: "304,315"
+    enemy_skill: "10043"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100044
+    name: Gray Singer
+    type: 3
+    code: HK21_SagaEnemy
+    introduce: Member of Late Night Café. She will dash towards her target while shouting "Big Sister" and punish anyone who does not give the correct response.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Member of Late Night Café. She will dash towards her target while shouting "Big Sister" and punish anyone who does not give the correct response.
+    character: "100"
+    enemy_skill: "10044"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100045
+    name: Green Singer
+    type: 3
+    code: JS-127_SagaEnemy
+    introduce: Member of Late Night Café. She will dash toward her target while shouting "angle of my bangs" and punish anyone who does not give the correct response.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Member of Late Night Café. She will dash toward her target while shouting "angle of my bangs" and punish anyone who does not give the correct response.
+    character: "100"
+    enemy_skill: "10045"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100046
+    name: Red Singer
+    type: 3
+    code: PM06_SagaEnemy
+    introduce: Member of Late Night Café. She will dash towards her target while shouting "red all over" and punish anyone who does not give the correct response.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Member of Late Night Café. She will dash towards her target while shouting "red all over" and punish anyone who does not give the correct response.
+    character: "100"
+    enemy_skill: "10046"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100047
+    name: Spirited Vocalist
+    type: 3
+    code: MG5_SagaEnemy
+    introduce: Main vocalist of the band Gray Tree. Seemingly cold and willful, she looks like someone you really don't want to mess with. However, she is actually a well-known pacifist and often cleans up after her band members.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Main vocalist of the band Gray Tree. Seemingly cold and willful, she looks like someone you really don't want to mess with. However, she is actually a well-known pacifist and often cleans up after her band members.
+    character: "100"
+    enemy_skill: "10047"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100048
+    name: Fiery Guitarist
+    type: 3
+    code: M1887_SagaEnemy
+    introduce: Guitarist of the band Gray Tree. She loves colors that are bright like a flame and always has red hair dye and incendiary devices with her. She starts a fire when she is in an irritable mood.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Guitarist of the band Gray Tree. She loves colors that are bright like a flame and always has red hair dye and incendiary devices with her. She starts a fire when she is in an irritable mood.
+    character: "100"
+    enemy_skill: "10048"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100049
+    name: Breakneck Drummer
+    type: 3
+    code: 80type_SagaEnemy
+    introduce: Drummer of the band Gray Tree. Her drumming speed is faster than the eye can see, and she is also good at creating dazzling visual effects with her drone, but sometimes she messes up and sends her drone careening toward the audience.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Drummer of the band Gray Tree. Her drumming speed is faster than the eye can see, and she is also good at creating dazzling visual effects with her drone, but sometimes she messes up and sends her drone careening toward the audience.
+    character: "100"
+    enemy_skill: "10049"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100050
+    name: Bassist with Shades
+    type: 3
+    code: M1897_SagaEnemy
+    introduce: Bassist of the band Gray Tree. Her face is always obscured by a pair of shades, making it difficult to tell if she is awake or asleep and whether she is playing the bass guitar or just a broom.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Bassist of the band Gray Tree. Her face is always obscured by a pair of shades, making it difficult to tell if she is awake or asleep and whether she is playing the bass guitar or just a broom.
+    character: "100"
+    enemy_skill: "10050"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    id: 100051
+    name: Mysterious Keyboardist
+    type: 3
+    code: G11_SagaEnemy
+    introduce: Keyboardist of the band Gray Tree. She only ever shows herself at performances and is seldom seen otherwise. She seems to be on a mysterious mission.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Keyboardist of the band Gray Tree. She only ever shows herself at performances and is seldom seen otherwise. She seems to be on a mysterious mission.
+    character: "100"
+    enemy_skill: "10051"
     launch_time: 2035-12-31 00:00:00
   }
   {
