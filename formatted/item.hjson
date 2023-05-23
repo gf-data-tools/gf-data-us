@@ -11047,6 +11047,24 @@
     rank: 1
   }
   {
+    id: 2301
+    type: 5
+    arg: "1"
+    code: card_BattlePass_MK3A1
+    item_name: ID Card: Donut Recovery Project
+    introduction: ID Card: Donut Recovery Project
+    rank: 1
+  }
+  {
+    id: 2302
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_MK3A1
+    item_name: The Art of Mk3A1 Maintenance
+    introduction: The Art of Mk3A1 Maintenance
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -11478,6 +11496,87 @@
     code: qjyd_20210903
     item_name: Final Puzzle
     introduction: Team assembled! Watch out, boss, this is our final form!
+    rank: 1
+  }
+  {
+    id: 7030
+    type: 7
+    arg: "7030"
+    code: qjyd_20211201
+    item_name: Ocean of Tears
+    introduction: When a sea-blue light shines in the center of the magic circle, it is the tears which the sea sheds for those who love too much.
+    rank: 1
+  }
+  {
+    id: 7031
+    type: 7
+    arg: "7031"
+    code: qjyd_20211202
+    item_name: Night of Sighs
+    introduction: When a violet light shines in the center of the magic circle, it is the night sighing sadly for those whose wishes have been denied.
+    rank: 1
+  }
+  {
+    id: 7032
+    type: 7
+    arg: "7032"
+    code: qjyd_20211203
+    item_name: Soil of Joy
+    introduction: When a golden-yellow light shines in the center of the magic circle, it is the earth singing its joy for those who have endured.
+    rank: 1
+  }
+  {
+    id: 7033
+    type: 7
+    arg: "7033"
+    code: qjyd_20220301
+    item_name: Spring-Filled Daisy
+    introduction: Pure and ardent, like those feelings that can't be conveyed.
+    rank: 1
+  }
+  {
+    id: 7034
+    type: 7
+    arg: "7034"
+    code: qjyd_20220302
+    item_name: Spring Cloves
+    introduction: Tiny and closely-linked, like those girls who fight shoulder to shoulder.
+    rank: 1
+  }
+  {
+    id: 7035
+    type: 7
+    arg: "7035"
+    code: qjyd_20220303
+    item_name: Spring-Filling Japanese Cherry
+    introduction: Quiet and brilliant, like those memories shared with you.
+    rank: 1
+  }
+  {
+    id: 7036
+    type: 7
+    arg: "7036"
+    code: qjyd_20220601
+    item_name: Amplitude Distortion
+    introduction: If there are strong emotions deep inside, one must express them with strong decibels—that's right! Crank up the volume!!! HUH?!!! WHAT DID YOU SAY???!!!
+    rank: 1
+  }
+  {
+    id: 7037
+    type: 7
+    arg: "7037"
+    code: qjyd_20220602
+    item_name: Buffer World
+    introduction: Perhaps because of lag, her face is completely expressionless, but I can tell how she's feeling from her dull eyes—CODE3? What does that mean?
+    rank: 1
+  }
+  {
+    id: 7038
+    type: 7
+    arg: "7038"
+    code: qjyd_20220603
+    item_name: Brilliant Moment
+    introduction: As long as it has ample battery, I'll surely be able to capture her most heroic form in battle... Hold on, I wasn't taking any weird pictures! Put down the gun!
     rank: 1
   }
   {
@@ -13734,6 +13833,26 @@
     detail_introduction: item-30140014
   }
   {
+    id: 140015
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140015
+    introduction: item-20140015
+    rank: 1
+    detail_introduction: item-30140015
+  }
+  {
+    id: 140016
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140016
+    introduction: item-20140016
+    rank: 1
+    detail_introduction: item-30140016
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -13876,6 +13995,15 @@
     code: profileFrame_BattlePass_C93
     item_name: Icon Frame - Flutter of Butterfly Wings
     introduction: Icon Frame - Flutter of Butterfly Wings
+    rank: 1
+  }
+  {
+    id: 200021
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_MK3A1
+    item_name: Icon Frame: Disassembly Craze
+    introduction: Icon Frame: Disassembly Craze
     rank: 1
   }
   {
@@ -14568,6 +14696,46 @@
     id: 1500055
     type: 15
     arg: "1500055"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500056
+    type: 15
+    arg: "1500056"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500057
+    type: 15
+    arg: "1500057"
+    code: package_choose
+    item_name: Magazine Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Magazine-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500058
+    type: 15
+    arg: "1500058"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500064
+    type: 15
+    arg: "1500059"
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.

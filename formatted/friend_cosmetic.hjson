@@ -13532,6 +13532,28 @@
     rarity: 5
   }
   {
+    id: 1301
+    item_id: 2301
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_MK3A1
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1302
+    item_id: 2302
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_MK3A1
+    order: 1
+    rarity: 5
+    skin: 30007
+  }
+  {
     id: 100001
     item_id: 200001
     sub_type: 4
@@ -13662,6 +13684,15 @@
     item_id: 200020
     sub_type: 4
     code: profileFrame_BattlePass_C93
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100021
+    item_id: 200021
+    sub_type: 4
+    code: profileFrame_BattlePass_MK3A1
     order: 1
     rarity: 5
     filter_type: "5"
