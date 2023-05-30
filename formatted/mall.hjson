@@ -29750,6 +29750,44 @@
     classification_id: 1003
   }
   {
+    id: 21676
+    type: 8
+    item_ids: 506-200,44-200
+    gemprice: 118
+    quota: 2001
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_white
+    daily_quota: 1
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21677
+    type: 8
+    item_ids: 7-1,8-1,506-1000
+    gift: 100003-10
+    gemprice: 580
+    quota: 2002
+    giftbag_name: Jun Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21678
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1
+    classification_id: 3002
+  }
+  {
     id: 99001
     type: 102
     gemprice: 980

@@ -9262,6 +9262,40 @@
     obtain_ids: "3074"
   }
   {
+    id: 316
+    name: PT-2 Telescopic Stock
+    description:
+      '''
+      DMG+<pow> CRIT RATE+<critical_percent><%>
+      ACC+<hit> Enhances skill $PKP only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "1,3"
+    hit: "11,15"
+    critical_percent: "13,15"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_PKP
+    develop_duration: 3600
+    company: ZNT
+    fit_guns: "173"
+    equip_introduction: PKP's favorite telescopic stock produced by Zenitco. An accessory that both looks good and works well.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,critical_percent:1000
+    passive_skill: "759066"
+    max_level: 10
+    auto_select_id: 18108
+    is_show: 1
+    obtain_ids: "3075"
+  }
+  {
     id: 325
     name: Loudspeaker
     description:
