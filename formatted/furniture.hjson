@@ -24616,6 +24616,200 @@
     rotate: "2,2"
   }
   {
+    id: 10301
+    name: Rushing Surge - Tennis Ball Landing
+    classes: 103
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: We've invested a lot of money in preparing this tournament venue, so please, please, please do not smack any holes into the ground using some insane moves unless you want to receive a bill from Miss Kalina.
+    code: Children2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10302
+    name: Rushing Surge - Blue Sky View
+    classes: 103
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A spectacular window view. Players can look into the distance here during breaks and take in the view, which one can easily lose themselves in, so make sure you keep your head in the game.
+    code: Children2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10303
+    name: Rushing Surge - Hanging Screen
+    classes: 103
+    type: 302
+    position: "3,0"
+    space: "10,16,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: This is a hanging screen for advertising indoor sports. "It looks fantastic, but someone is always hiding behind the screen and watching matches in secret. Can't these people just fork out some money to buy the tickets?!"
+    code: Children2022_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10304
+    name: Rushing Surge - Call to Action
+    classes: 103
+    type: 302
+    position: "22,2"
+    space: "8,4,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: A custom poster in a certain secret squad's gym room which the Commander has now hung up to encourage everyone—you don't want to be made an example of and end up on a poster because you napped when you shouldn't, do you? Then MOVE!
+    code: Children2022_deco_02,Children2022_deco_03
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.20842300906,0.281529,0.00000010876205587|2.095827,0.281529,0"
+    rotate: "3,3"
+  }
+  {
+    id: 10305
+    name: Rushing Surge - Moment of Truth
+    classes: 103
+    type: 302
+    position: "16,0"
+    space: "3,4,1,1,0,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Every second from the beginning of a match to the moment when the result is settled, both players must give it their all—it is practically a battle. If you're participating in the tournament, please prepare yourself for a battle of endurance!
+    code: Children2022_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10306
+    name: Rushing Surge - Cheerleader Wall
+    classes: 103
+    type: 201
+    position: "5,0"
+    space: "25,1,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: A wall displaying the portraits of cheerleader representatives chosen by the spectators. It's not uncommon for a cheerleader to last multiple terms, but one got fired because she overslept and was absent from matches. We will not disclose who it was.
+    code: Children2022_deco_05,Children2022_deco_06,Children2022_deco_07,Children2022_lightDecoA,Children2022_lightDecoB,Children2022_lightDecoC,Children2022_lightDecoD
+    texture_type: "1,1,1,2,2,2,2"
+    sorting: "0,0,0,0,0,0,0"
+    offset: "-2.7473747782,-0.47635812062,0.58184130207|1.855912157,-0.47635812062,0.58184130207|6.4587309199,-0.47635812062,0.58184130207|-3.3291721826,2.596323,0.875868|-1.0687132796,2.6380289146,0.76326192631|1.00094122051,2.6203040573,0.86335601708|3.2426322534,2.5785981427,0.86335601708"
+    rotate: "2,2,2,2,2,2,2"
+  }
+  {
+    id: 10307
+    name: Rushing Surge - Bench of Undercurrent
+    classes: 103
+    type: 202
+    position: "5,1"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Right, let's discuss our strategy during this break... No, I don't mean sending someone to attack them from behind. Also, keep your grenade hidden. It's not time to use it yet!
+    code: Children2022_deco_08,Children2022_deco_09
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.14783077363,-0.3878844,0.78202510427|2.1458766,-0.3878844,0.782025"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *0.321,1.110,-0.285
+  }
+  {
+    id: 10308
+    name: Rushing Surge - Bench of Active Conflict
+    classes: 103
+    type: 202
+    position: "23,1"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: Ha! I knew they're sneaky ones! Good thing we've modified our rackets! Let's give them a taste of sports equipment that's as powerful as rocket launchers!
+    code: Children2022_deco_10,Children2022_deco_11
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.11458032187,-0.198113,-0.045878706157|2.18967,-0.198113,-0.0458788"
+    rotate: "2,2"
+    interact_point: "18"
+    interact_point_offset: *0.117,1.252,-0.285
+  }
+  {
+    id: 10309
+    name: Rushing Surge - Listening Plant
+    classes: 103
+    type: 201
+    position: "31,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: Of course I don't feel bored being here. Listen - the girls' cries as they give their all during matches, the clear and lovely sound of rackets hitting the ball... They are all echoes of heroism and glory...
+    code: Children2022_deco_12,Children2022_deco_13
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.0542204,-0.0719463,-0.0166832|0.054220452135,2.1666169457,0.50046972396"
+    rotate: "2,2"
+  }
+  {
+    id: 10310
+    name: Rushing Surge - Flitting Figures on the Court
+    classes: 103
+    type: 201
+    position: "28,8"
+    space: "4,3,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: Photo albums documenting the girls' spectacular forms when swinging their rackets. The latest issue has a special feature on Griffin players. "The current edition has already sold out. Maybe we can rake in even more by publishing a deluxe edition?" reads Kalina's notes.
+    code: Children2022_deco_14
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10311
+    name: Rushing Surge - Umpire's Seat
+    classes: 103
+    type: 202
+    position: "4,11"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: Presiding over the court and doling out fair judgment. We welcome everyone to try out the umpire's position, but don't force it if you're scared of heights.
+    code: Children2022_speakerDeco,Children2022_deco_15
+    texture_type: "2,1"
+    sorting: "0,20"
+    offset: "0,0.177259,0.041708|-0.31281,0.177259,0.041707958292"
+    rotate: "2,2"
+    interact_point: "62"
+    interact_point_offset: *0.263,2.419,0.142
+    touch_area: "3,3,3"
+  }
+  {
+    id: 10312
+    name: Rushing Surge - Domain of Attack
+    classes: 103
+    type: 201
+    position: "16,5"
+    space: "3,9,1,1,1,1"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: A special grass court where any offensive play can be made. That's right, you can charge the net, you can even make a spin shot... Wait, what kind of move is "Mega Hurricane Cannon Extra Large Extra Spice"?!
+    code: Children2022_deco_16,Children2022_deco_17,Children2022_deco_18
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-2.2938232176,-1.814298,4.806847|0,-1.814298,4.806847|2.2979940176,-1.814298,4.806847"
+    rotate: "2,2,2"
+  }
+  {
     id: 10501
     name: Lone Ship in Space - Zero-G Zone
     classes: 105
@@ -33986,6 +34180,96 @@
     decompose_gift: 100003
     description: Type 64's poster.
     code: poster_Anniversary2022_64type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37201
+    name: Dance Like the Blazing Sun
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: VSK-94's poster.
+    code: poster_Children2022_VSK
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37202
+    name: Kite Flyer in Spring
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type95's Poster
+    code: poster_Children2022_95type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37203
+    name: Guardian of Hibernation Dreams
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Px4 Storm's poster.
+    code: poster_Children2022_Px4Storm
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37204
+    name: Pet Trainer's Daily Life
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Tabuk's poster.
+    code: poster_Children2022_Tabuk
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37205
+    name: Visionary of the Future
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MG3's poster
+    code: poster_Children2022_MG3
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37206
+    name: Panda-Eared Seamstress
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 56's poster.
+    code: poster_Children2022_56typeR
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

@@ -21247,7 +21247,7 @@
     name: Major
     user_exp: 30
     item_ids: 106-5,2137-1,200008-1
-    content: Congratulations on achieving the rank of Major in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*5, Commander EXP*30, Icon "Fiery Shadowr"
+    content: Congratulations on achieving the rank of Major in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*5, Commander EXP*30, Icon "Fiery Shadowr", Icon Frame - Fuse of Victory
     icon: Medal_Chess
   }
   {
@@ -21271,7 +21271,7 @@
     name: Major General
     user_exp: 200
     item_ids: 106-30,2138-1,200007-1
-    content: Congratulations on achieving the rank of Major General in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*30, Commander EXP*200, Icon "Dyed Nightmare"
+    content: Congratulations on achieving the rank of Major General in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*30, Commander EXP*200, Icon "Dyed Nightmare", Icon Frame - Stratagem
     icon: Medal_Chess
   }
   {
@@ -21295,7 +21295,7 @@
     name: Field Marshal
     user_exp: 2000
     item_ids: 106-60,2139-1,200006-1
-    content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Sinless Departure"
+    content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code 5: Turbulence". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Sinless Departure", Icon Frame - Good Omen
     icon: Medal_Chess
   }
   {
@@ -29602,6 +29602,540 @@
     item_ids: 103-1,41-50,45-200
     coins: 3-300
     icon: Bumdle_may
+  }
+  {
+    id: 36510
+    name: Departure Time ① - Mission Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+  }
+  {
+    id: 36511
+    name: Pollinosis ② - Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36512
+    name: Ghost Sisters ① - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 36513
+    name: Operation Snake Eater ① - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 36514
+    name: Infernal Enlightenment ① - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 36515
+    name: Departure Time EX - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 36516
+    name: Pollinosis EX - Mission Reward
+    item_ids: 605-5
+  }
+  {
+    id: 36517
+    name: Ghost Sisters EX - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 36518
+    name: Operation Snake Eater  EX - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 36523
+    name: Departure Time ∞ - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36524
+    name: Pollinosis ∞ - Mission Reward
+    fairy_ids: 26-0-100-5,26-0-100-5
+  }
+  {
+    id: 36525
+    name: Ghost Sisters ∞ - Mission Reward
+    coins: 3-100
+  }
+  {
+    id: 36526
+    name: Operation Snake Eater  ∞ - Mission Reward
+    coins: 3-100
+  }
+  {
+    id: 36527
+    name: Infernal Enlightenment  ∞ - Mission Reward
+    fairy_ids: 26-0-100-5,26-0-100-5
+  }
+  {
+    id: 36528
+    name: Departure Time  I - Mission Reward
+    item_ids: 506-30
+  }
+  {
+    id: 36529
+    name: Departure Time  II - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36530
+    name: Pollinosis  I - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36531
+    name: Pollinosis  II - Mission Reward
+    item_ids: 14-50
+  }
+  {
+    id: 36532
+    name: Pollinosis  III - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36533
+    name: Pollinosis  IV - Mission Reward
+    item_ids: 10604-5
+  }
+  {
+    id: 36534
+    name: Pollinosis  V - Mission Reward
+    item_ids: 9-50
+  }
+  {
+    id: 36535
+    name: Pollinosis  VI - Mission Reward
+    item_ids: 10604-5
+  }
+  {
+    id: 36536
+    name: Ghost Sisters  I - Mission Reward
+    item_ids: 506-50
+  }
+  {
+    id: 36537
+    name: Ghost Sisters  II - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 36538
+    name: Ghost Sisters  III - Mission Reward
+    item_ids: 14-100
+  }
+  {
+    id: 36539
+    name: Ghost Sisters  IV - Mission Reward
+    item_ids: 506-100
+  }
+  {
+    id: 36540
+    name: Operation Snake Eater  I - Mission Reward
+    item_ids: 45-200
+  }
+  {
+    id: 36541
+    name: Operation Snake Eater  II - Mission Reward
+    item_ids: 506-50
+  }
+  {
+    id: 36542
+    name: Operation Snake Eater  III - Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 36543
+    name: Operation Snake Eater  IV - Mission Reward
+    coins: 2-300
+  }
+  {
+    id: 36544
+    name: Operation Snake Eater  V - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36545
+    name: Rooftop Dash - Mission Reward
+    core: 10
+  }
+  {
+    id: 36546
+    name: Infernal Enlightenment  I - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36547
+    name: Infernal Enlightenment  II - Mission Reward
+    item_ids: 15-150
+  }
+  {
+    id: 36548
+    name: Infernal Enlightenment  III - Mission Reward
+    core: 15
+  }
+  {
+    id: 36549
+    name: Infernal Enlightenment  IV - Mission Reward
+    coins: 3-300
+  }
+  {
+    id: 36550
+    name: Foreshadowed Voyage - Mission Reward
+    item_ids: 45-200
+  }
+  {
+    id: 36551
+    name: The Curtain Rises I - Mission Reward
+    item_ids: 9-20
+  }
+  {
+    id: 36552
+    name: The Curtain Rises II - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36553
+    name: Hay Fever - Beginning - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 36554
+    name: Clown - Mission Reward
+    item_ids: 44-50
+  }
+  {
+    id: 36555
+    name: Flower View - Mission Reward
+    item_ids: 14-50
+  }
+  {
+    id: 36556
+    name: Gathering Frost Wolves - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36557
+    name: Light Show - Mission Reward
+    item_ids: 506-50
+  }
+  {
+    id: 36558
+    name: Hay Fever - End - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 36559
+    name: Sweet Dreams Box - Beginning - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36560
+    name: Piper - Mission Reward
+    coins: 1-300
+  }
+  {
+    id: 36561
+    name: Cuckoo Clock - Mission Reward
+    item_ids: 44-100
+  }
+  {
+    id: 36562
+    name: Air Raid Shelter - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 36563
+    name: Rag Doll - Mission Reward
+    item_ids: 46-50
+  }
+  {
+    id: 36564
+    name: Sweet Dreams Box - End - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36565
+    name: Delta Attack - Beginning - Mission Reward
+    coins: 2-300
+  }
+  {
+    id: 36566
+    name: Spiderweb - Mission Reward
+    item_ids: 45-200
+  }
+  {
+    id: 36567
+    name: House of Cards - Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 36568
+    name: Animal Chess - Mission Reward
+    item_ids: 44-100
+  }
+  {
+    id: 36569
+    name: Instigator  - Mission Reward
+    coins: 3-300
+  }
+  {
+    id: 36570
+    name: Delta Attack - End - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36571
+    name: Infernal Enlightenment  V - Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 36575
+    name: Departure Time  III - Mission Reward
+    item_ids: 506-30
+  }
+  {
+    id: 36576
+    name: Ghost Sisters  V - Mission Reward
+    item_ids: 44-100
+  }
+  {
+    id: 36577
+    name: Ghost Sisters  VI - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36578
+    name: Departure Time  IV - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36579
+    name: Bridge of Eternity - Mission Reward
+    item_ids: 15-50
+  }
+  {
+    id: 36950
+    name: Departure Time ② - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36951
+    name: Pollinosis ③ - Mission Reward
+    item_ids: 506-30
+  }
+  {
+    id: 36952
+    name: Pollinosis ④ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36953
+    name: Pollinosis ① - Mission Reward
+    item_ids: 44-50
+  }
+  {
+    id: 36954
+    name: Pollinosis ⑤ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36955
+    name: Pollinosis ⑥ - Mission Reward
+    item_ids: 9-20
+  }
+  {
+    id: 36956
+    name: Pollinosis ⑦ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36957
+    name: Pollinosis ⑧ - Mission Reward
+    coins: 3-50
+  }
+  {
+    id: 36958
+    name: Pollinosis ⑨ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36959
+    name: Pollinosis ⑩ - Mission Reward
+    item_ids: 46-50
+  }
+  {
+    id: 36960
+    name: Ghost Sisters ② - Mission Reward
+    item_ids: 506-30
+  }
+  {
+    id: 36961
+    name: Ghost Sisters ③ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36962
+    name: Ghost Sisters ④ - Mission Reward
+    item_ids: 44-50
+  }
+  {
+    id: 36963
+    name: Ghost Sisters ⑤ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36964
+    name: Ghost Sisters ⑥ - Mission Reward
+    coins: 2-50
+  }
+  {
+    id: 36965
+    name: Ghost Sisters ⑦ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36966
+    name: Ghost Sisters ⑧ - Mission Reward
+    coins: 3-50
+  }
+  {
+    id: 36967
+    name: Ghost Sisters ⑨ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36968
+    name: Ghost Sisters ⑩ - Mission Reward
+    core: 5
+  }
+  {
+    id: 36969
+    name: Operation Snake Eater ② - Mission Reward
+    item_ids: 506-30
+  }
+  {
+    id: 36970
+    name: Operation Snake Eater ③ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36971
+    name: Operation Snake Eater ④ - Mission Reward
+    item_ids: 44-50
+  }
+  {
+    id: 36972
+    name: Operation Snake Eater ⑤ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36973
+    name: Operation Snake Eater ⑥ - Mission Reward
+    coins: 2-50
+  }
+  {
+    id: 36974
+    name: Operation Snake Eater ⑦ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36975
+    name: Operation Snake Eater ⑧ - Mission Reward
+    coins: 3-50
+  }
+  {
+    id: 36976
+    name: Operation Snake Eater ⑨ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 36977
+    name: Operation Snake Eater ⑩ - Mission Reward
+    core: 5
+  }
+  {
+    id: 36978
+    name: Infernal Enlightenment ② - Mission Reward
+    gift: 200001-50
+  }
+  {
+    id: 36979
+    name: Infernal Enlightenment ③ - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
   }
   {
     id: 40001
