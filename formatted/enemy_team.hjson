@@ -51298,6 +51298,7 @@
     ai_content: "67710,67708,67711"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51307,6 +51308,7 @@
     ai_content: "2"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51332,6 +51334,7 @@
     ai_content: "99"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51351,6 +51354,7 @@
     ai_content: "99"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51375,6 +51379,7 @@
     ai_content: "67785,67789,67786"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51384,6 +51389,7 @@
     ai_content: "99"
     enemy_type_display: "60630"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: Aliana is overwhelmingly powerful. Make sure you have gathered 3 Moon Sigils before engaging her in battle!
   }
   {
     id: 6560402
@@ -51392,6 +51398,7 @@
     ai_content: "3"
     enemy_type_display: "1"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: <color=#CF8000>Powerful Enemy</color>
     targettrain_cancollect: 1
   }
   {
@@ -51406,20 +51413,20 @@
   }
   {
     id: 6560501
-    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,227,0"
+    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,98,0"
     draw_event_s_id: 659
     enemy_leader: 10024
     if_stay: 1
-    limit_guns: "227"
+    limit_guns: "98"
     targettrain_cancollect: 1
   }
   {
     id: 6560502
-    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,317,0"
+    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,252,0"
     draw_event_s_id: 659
     enemy_leader: 10025
     if_stay: 1
-    limit_guns: "317"
+    limit_guns: "252"
     targettrain_cancollect: 1
   }
   {
@@ -51433,11 +51440,11 @@
   }
   {
     id: 6560602
-    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,253,0"
+    reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,259,0"
     draw_event_s_id: 660
     enemy_leader: 10026
     if_stay: 1
-    limit_guns: "253"
+    limit_guns: "259"
     targettrain_cancollect: 1
   }
   {
@@ -51535,6 +51542,7 @@
     ai_content: "99"
     enemy_type_display: "60630"
     team_confrontfun_pic: tip_pic
+    team_confrontfun_des: Aliana is overwhelmingly powerful. Make sure you have gathered 3 Moon Sigils before engaging her in battle!
   }
   {
     id: 6561402
@@ -51558,20 +51566,20 @@
   }
   {
     id: 6561501
-    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,227,0"
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,98,0"
     draw_event_s_id: 661
     enemy_leader: 13237
     if_stay: 1
-    limit_guns: "227"
+    limit_guns: "98"
     targettrain_cancollect: 1
   }
   {
     id: 6561502
-    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,317,0"
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,252,0"
     draw_event_s_id: 661
     enemy_leader: 10025
     if_stay: 1
-    limit_guns: "317"
+    limit_guns: "252"
     targettrain_cancollect: 1
   }
   {
@@ -51585,11 +51593,11 @@
   }
   {
     id: 6561602
-    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,253,0"
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,259,0"
     draw_event_s_id: 662
     enemy_leader: 10026
     if_stay: 1
-    limit_guns: "253"
+    limit_guns: "259"
     targettrain_cancollect: 1
   }
   {

@@ -517,6 +517,15 @@
     rank: 1
   }
   {
+    id: 117
+    type: 3
+    arg: "18"
+    code: Medal_2022Scar
+    item_name: Eclipse Observer
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Eclipses & Saros". "The expectations of the observers that came before us culminated in the intersection of the sun and the moon. A new cycle begins now."
+    rank: 1
+  }
+  {
     id: 118
     type: 3
     arg: "19"
@@ -10859,6 +10868,105 @@
     rank: 1
   }
   {
+    id: 2194
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_01
+    item_name: Icon: Gag Genius
+    introduction: Icon: Gag Genius
+    rank: 1
+  }
+  {
+    id: 2195
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_02
+    item_name: Icon: Glory of the Sun
+    introduction: Icon: Glory of the Sun
+    rank: 1
+  }
+  {
+    id: 2196
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_03
+    item_name: Icon: Forbidden Depths of the Moon
+    introduction: Icon: Forbidden Depths of the Moon
+    rank: 1
+  }
+  {
+    id: 2197
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_04
+    item_name: Icon: Charging...
+    introduction: Icon: Charging...
+    rank: 1
+  }
+  {
+    id: 2198
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_05
+    item_name: Icon: Superb Writer
+    introduction: Icon: Superb Writer
+    rank: 1
+  }
+  {
+    id: 2199
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_06
+    item_name: Icon: Paycheck to Paycheck
+    introduction: Icon: Paycheck to Paycheck
+    rank: 1
+  }
+  {
+    id: 2200
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_07
+    item_name: Icon: White Angel
+    introduction: Icon: White Angel
+    rank: 1
+  }
+  {
+    id: 2201
+    type: 5
+    arg: "1"
+    code: profilePic_EclipseActivity2022_08
+    item_name: Icon: Daybreak Guardian
+    introduction: Icon: Daybreak Guardian
+    rank: 1
+  }
+  {
+    id: 2202
+    type: 5
+    arg: "1"
+    code: card_EclipseActivity2022_01
+    item_name: ID: Scales of Destiny
+    introduction: ID: Scales of Destiny
+    rank: 1
+  }
+  {
+    id: 2203
+    type: 5
+    arg: "1"
+    code: card_EclipseActivity2022_02
+    item_name: ID: Neon Twilight
+    introduction: ID: Neon Twilight
+    rank: 1
+  }
+  {
+    id: 2204
+    type: 5
+    arg: "1"
+    code: cg_EclipseActivity2022_01
+    item_name: Background: Metropolitan Parade
+    introduction: Background: Metropolitan Parade
+    rank: 1
+  }
+  {
     id: 2205
     type: 5
     arg: "1"
@@ -13105,6 +13213,34 @@
     rank: 1
   }
   {
+    id: 100163
+    type: 9
+    arg: "100163"
+    code: Scar2022
+    item_name: Penumbra Coin
+    introduction: Penumbra Coin
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100164
+    type: 4
+    arg: "100164"
+    code: Nova_medal
+    item_name: Nova Medal – Eclipses & Saros
+    introduction: Nova Medal – Eclipses & Saros
+    rank: 1
+  }
+  {
+    id: 100165
+    type: 4
+    arg: "100165"
+    code: Platinum_medal
+    item_name: Platinum Medal – Eclipses & Saros
+    introduction: Platinum Medal – Eclipses & Saros
+    rank: 1
+  }
+  {
     id: 100175
     type: 9
     arg: "100175"
@@ -14409,6 +14545,26 @@
     item_name: Corona Fusion
     introduction: When MPK and MPL are in adjacent squares, they no longer inflict negative effects on allies. When MPK and MPL are in adjacent squares to the left and right of each other, upon activating their skills, their area fo effect increases to 2 squares.
     rank: 1
+  }
+  {
+    id: 1100009
+    type: 11
+    arg: "10"
+    code: fetter_skill
+    item_name: Forbidden Syzygy
+    introduction: When SCAR-L and SCAR-H are both on the field, gain 5 points of Sancta Potentia per second.
+    rank: 1
+    item_access: "30"
+  }
+  {
+    id: 1100010
+    type: 11
+    arg: "10"
+    code: fetter_skill
+    item_name: Forbidden Syzygy
+    introduction: When SCAR-L and SCAR-H are both on the field, gain 5 points of Mare Potentia per second.
+    rank: 1
+    item_access: "31"
   }
   {
     id: 1500009

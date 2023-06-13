@@ -111,4 +111,24 @@
     type: 1
     dynamic_passive_skill: "119203,119204,119205,119206,119207,119208,119209"
   }
+  {
+    id: 11
+    name: Forbidden Syzygy
+    code: SCAR_CON
+    description: When SCAR-L and SCAR-H are both on the field, start the battle with 40 points of Mare Potentia. Additionally, gain 4 points of Mare Potentia per second.
+    gun_group: "377,378"
+    gun: 377
+    type: 1
+    passive_skill: "119702,119706,119707"
+  }
+  {
+    id: 12
+    name: Forbidden Syzygy
+    code: SCAR_CON
+    description: When SCAR-L and SCAR-H are both on the field, start the battle with 40 points of Sancta Potentia. Additionally, gain 4 points of Sancta Potentia per second.
+    gun_group: "377,378"
+    gun: 378
+    type: 1
+    passive_skill: "119602,119604,119606,119607,119608"
+  }
 ]

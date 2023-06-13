@@ -5661,6 +5661,7 @@
     code_a: Viscosity_Bomb
     description_a: Friendly Echelons
     description_b: Plastic Explosive
+    description_c: Disarm
     code_b: Console_Icon
   }
   {
@@ -5675,12 +5676,16 @@
     id: 6560003
     code_a: GunBox
     description_a: Friendly Echelons
+    description_b: Box
+    description_c: Search
     code_b: Console_Icon
   }
   {
     id: 6560004
     code_a: Scar_H_moon
     description_a: Friendly Echelons
+    description_b: Moon Sigils
+    description_c: Retrieve
     code_b: Console_Icon
   }
   {
@@ -5721,6 +5726,8 @@
     id: 6560009
     code_a: SCAR_H
     description_a: Friendly Echelons
+    description_b: Enhance
+    description_c: Suppress
     code_b: Console_Icon
     is_manual_target: 2
   }

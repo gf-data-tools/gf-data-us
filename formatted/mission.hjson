@@ -34416,6 +34416,735 @@
     difficulty_recommend: 1000;5
   }
   {
+    id: 11233
+    campaign: -56
+    sub: 2
+    if_emergency: -1
+    name: First Contact | Left Carriage | Gangway Connection | Right Carriage
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "98"
+    limit_team: "-1"
+    map_res_name: OPS96_Y;OPS95_Y;OPS96_Y
+    map_information: "15000,15000|15000,15000|0,0;15000,15000|15000,15000|0,0;15000,15000|15000,15000|0,0"
+    fog_length: "0,500;0,500;0,500"
+    fog_color: "#000000FF;#000000FF;#000000FF"
+    draw_event_s_id: "649"
+    drop_mission_key: "0,0,1123301"
+    mission_group_id: 25
+    open_mission_keys: 1124501:1
+    round_config: 1:23,2:5,3:3
+    mapped_mission_id: 56001
+    difficulty_recommend: 1000;15
+    limit_sangvis: -1
+    win_step: "1123301"
+  }
+  {
+    id: 11234
+    campaign: -56
+    sub: 3
+    if_emergency: -1
+    name: Second Contact
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "252"
+    limit_team: "-1"
+    map_res_name: OPS51_Y
+    map_information: "16000,16000|6000,5000|-4250,-800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "654"
+    drop_mission_key: "0,0,1123401"
+    mission_group_id: 25
+    open_mission_keys: 1124901:1
+    round_config: 1:23,2:5,3:3
+    mapped_mission_id: 56002
+    win_type: "1123401"
+    difficulty_recommend: 1000;15
+    limit_sangvis: -1
+    lose_type: "1123491"
+  }
+  {
+    id: 11235
+    campaign: -56
+    sub: 4
+    if_emergency: -1
+    name: Totality
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "73"
+    limit_team: "-1"
+    map_res_name: OPS71_Y
+    map_information: "16000,16000|10000,6000|-2000,-5000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "650"
+    drop_mission_key: "0,0,1123501"
+    mission_group_id: 25
+    open_mission_keys: 1125301:1
+    round_config: 1:23,2:26,3:3
+    mapped_mission_id: 56003
+    win_type: "1123501"
+    difficulty_recommend: 1000;15
+    limit_sangvis: -1
+    lose_type: "1123391"
+  }
+  {
+    id: 11236
+    campaign: -56
+    sub: 5
+    if_emergency: -1
+    name: Third Contact
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "259"
+    limit_team: "-1"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|8000,5000|-500,-250"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "655"
+    drop_mission_key: "0,0,1123601"
+    mission_group_id: 25
+    open_mission_keys: 1125701:1
+    round_config: 1:24,2:25,3:3
+    mapped_mission_id: 56004
+    difficulty_recommend: 1000;15
+    limit_sangvis: -1
+    win_step: "1123601"
+  }
+  {
+    id: 11237
+    campaign: -56
+    sub: 6
+    if_emergency: -1
+    name: First Contact – EX | Left Carriage | Gangway Connection | Right Carriage
+    difficulty: 20000
+    exp_parameter: 48
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "98"
+    limit_team: "0,2"
+    map_res_name: OPS96_Y;OPS95_Y;OPS96_Y
+    map_information: "15000,15000|15000,15000|0,0;15000,15000|15000,15000|0,0;15000,15000|15000,15000|0,0"
+    fog_length: "0,500;0,500;0,500"
+    fog_color: "#000000FF;#000000FF;#000000FF"
+    draw_event_s_id: "651"
+    drop_mission_key: "0,0,1123301"
+    mission_group_id: 25
+    open_mission_keys: 1124501:1
+    round_config: 1:23,2:5,3:3
+    mapped_mission_id: 56001
+    difficulty_recommend: 20000;100
+    limit_sangvis: 4
+    win_step: "1123701"
+  }
+  {
+    id: 11238
+    campaign: -56
+    sub: 7
+    if_emergency: -1
+    name: Second Contact – EX
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "252"
+    limit_team: "0,1"
+    map_res_name: OPS51_Y
+    map_information: "16000,16000|6000,5000|-4250,-800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "656"
+    drop_mission_key: "0,0,1123401"
+    mission_group_id: 25
+    open_mission_keys: 1124901:1
+    round_config: 1:23,2:5,3:3
+    mapped_mission_id: 56002
+    win_type: "1123801"
+    difficulty_recommend: 26000;110
+    limit_sangvis: 4
+  }
+  {
+    id: 11239
+    campaign: -56
+    sub: 8
+    if_emergency: -1
+    name: Totality – EX
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "73"
+    limit_team: "0,1"
+    map_res_name: OPS71_Y
+    map_information: "16000,16000|10000,6000|-2000,-5000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "652"
+    drop_mission_key: "0,0,1123501"
+    mission_group_id: 25
+    open_mission_keys: 1125301:1
+    round_config: 1:23,2:26,3:3
+    mapped_mission_id: 56003
+    win_type: "1123901"
+    difficulty_recommend: 30000;120
+    limit_sangvis: 4
+  }
+  {
+    id: 11240
+    campaign: -56
+    sub: 9
+    if_emergency: -1
+    name: Third Contact – EX
+    difficulty: 34000
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "259"
+    limit_team: "0,1"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|8000,5000|-500,-250"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "657"
+    drop_mission_key: "0,0,1123601"
+    mission_group_id: 25
+    open_mission_keys: 1125701:1
+    round_config: 1:24,2:25,3:3
+    mapped_mission_id: 56004
+    difficulty_recommend: 34000;120
+    limit_sangvis: 4
+    win_step: "1124001"
+  }
+  {
+    id: 11241
+    campaign: -56
+    sub: 10
+    if_emergency: -1
+    name: Theia Impact
+    difficulty: 10000
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_gun_die_num: 1
+    expect_turn: 2
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "98,252"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "649"
+    drop_mission_key: "0,0,1124101"
+    mission_group_id: 25
+    open_mission_keys: 1123601:1
+    round_config: 1:1,2:5,3:3
+    mapped_mission_id: 56005
+    win_type: "1124101"
+    difficulty_recommend: 10000;75
+    limit_sangvis: 4
+  }
+  {
+    id: 11242
+    campaign: -56
+    sub: 11
+    if_emergency: -1
+    name: Theia Impact – EX
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_gun_die_num: 1
+    expect_turn: 2
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "98,252"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "651"
+    drop_mission_key: "0,0,1124201"
+    mission_group_id: 25
+    open_mission_keys: 1123601:1
+    round_config: 1:1,2:5,3:3
+    mapped_mission_id: 56005
+    win_type: "1124201"
+    difficulty_recommend: 30000;120
+    limit_sangvis: 4
+  }
+  {
+    id: 11243
+    campaign: -56
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: Long-Period Perturbation
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124301"
+    mission_group_id: 25
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11244
+    campaign: -56
+    sub: 14
+    if_emergency: -1
+    special_type: 9
+    name: Short-Period Perturbation
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124401"
+    mission_group_id: 25
+    open_mission_keys: 1124301:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11245
+    campaign: -56
+    sub: 15
+    if_emergency: -1
+    special_type: 9
+    name: Lunar Orbital Inclination
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124501"
+    mission_group_id: 25
+    open_mission_keys: 1124301:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11246
+    campaign: -56
+    sub: 16
+    if_emergency: -1
+    special_type: 9
+    name: Catastrophe
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124601"
+    mission_group_id: 25
+    open_mission_keys: 1123301:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11247
+    campaign: -56
+    sub: 17
+    if_emergency: -1
+    special_type: 9
+    name: Ingress
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124701"
+    mission_group_id: 25
+    open_mission_keys: 1124601:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11248
+    campaign: -56
+    sub: 18
+    if_emergency: -1
+    special_type: 9
+    name: Egress
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124701"
+    mission_group_id: 25
+    open_mission_keys: 1124601:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11249
+    campaign: -56
+    sub: 19
+    if_emergency: -1
+    special_type: 9
+    name: Homology
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1124901"
+    mission_group_id: 25
+    open_mission_keys: 1124701:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11250
+    campaign: -56
+    sub: 20
+    if_emergency: -1
+    special_type: 9
+    name: Capture
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125001"
+    mission_group_id: 25
+    open_mission_keys: 1123401:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11251
+    campaign: -56
+    sub: 21
+    if_emergency: -1
+    special_type: 9
+    name: Antumbra
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125101"
+    mission_group_id: 25
+    open_mission_keys: 1125001:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11252
+    campaign: -56
+    sub: 22
+    if_emergency: -1
+    special_type: 9
+    name: Umbra
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125101"
+    mission_group_id: 25
+    open_mission_keys: 1125001:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11253
+    campaign: -56
+    sub: 23
+    if_emergency: -1
+    special_type: 9
+    name: Annulus
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125301"
+    mission_group_id: 25
+    open_mission_keys: 1125101:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11254
+    campaign: -56
+    sub: 24
+    if_emergency: -1
+    special_type: 9
+    name: Planetary Ring
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125401"
+    mission_group_id: 25
+    open_mission_keys: 1123501:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11255
+    campaign: -56
+    sub: 25
+    if_emergency: -1
+    special_type: 9
+    name: Mare Crisium
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125501"
+    mission_group_id: 25
+    open_mission_keys: 1125401:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11256
+    campaign: -56
+    sub: 26
+    if_emergency: -1
+    special_type: 9
+    name: Mare Tranquillitatis
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125501"
+    mission_group_id: 25
+    open_mission_keys: 1125401:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11257
+    campaign: -56
+    sub: 27
+    if_emergency: -1
+    special_type: 9
+    name: Lunar Node
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125701"
+    mission_group_id: 25
+    open_mission_keys: 1125501:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11258
+    campaign: -56
+    sub: 28
+    if_emergency: -1
+    special_type: 9
+    name: Last Contact
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125801"
+    mission_group_id: 25
+    open_mission_keys: 1123601:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11259
+    campaign: -56
+    sub: 29
+    if_emergency: -1
+    special_type: 9
+    name: Outer Lagrange Point
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125901"
+    mission_group_id: 25
+    open_mission_keys: 1125801:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
+    id: 11260
+    campaign: -56
+    sub: 30
+    if_emergency: -1
+    special_type: 9
+    name: Inner Lagrange Point
+    difficulty: 1000
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1125901"
+    mission_group_id: 25
+    open_mission_keys: 1125801:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: 1000;5
+  }
+  {
     id: 11261
     campaign: -57
     sub: 1
@@ -35614,6 +36343,66 @@
     open_mission_keys: 1126100:1
     round_config: 1:1,2:2,3:3
     difficulty_recommend: 1000;10
+  }
+  {
+    id: 11318
+    campaign: -56
+    sub: 12
+    if_emergency: -1
+    name: Thales' Prediction
+    difficulty: 10000
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_gun_die_num: 1
+    expect_turn: 2
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "73,259"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "655"
+    drop_mission_key: "0,0,1131801"
+    mission_group_id: 25
+    open_mission_keys: 1123601:1
+    round_config: 1:1,2:5,3:3
+    mapped_mission_id: 56006
+    win_type: "1131801"
+    difficulty_recommend: 10000;75
+    limit_sangvis: 4
+  }
+  {
+    id: 11319
+    campaign: -56
+    sub: 13
+    if_emergency: -1
+    name: Thales' Prediction – EX
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_gun_die_num: 1
+    expect_turn: 2
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "73,259"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "657"
+    drop_mission_key: "0,0,1131901"
+    mission_group_id: 25
+    open_mission_keys: 1123601:1
+    round_config: 1:1,2:5,3:3
+    mapped_mission_id: 56006
+    win_type: "1131901"
+    difficulty_recommend: 30000;120
+    limit_sangvis: 4
   }
   {
     id: 90001

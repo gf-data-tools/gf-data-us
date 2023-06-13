@@ -25932,6 +25932,56 @@
     interact_point_offset: "0,0,0"
   }
   {
+    id: 20080
+    name: Uncle
+    classes: 299
+    type: 299
+    space: "3,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Uncle, a lively and affectionate Belgian Malinois with an orange collar. A line of small text is etched on the inside of the collar, "To Eula, Nicole, Callisto, Laura, and Aliana."
+    code: 2022EclipseActivity_uncledog
+    texture_type: "1"
+    offset: "0,-0.135551,-0.031281"
+    rotate: "2"
+    interact_point: "4"
+    interact_point_offset: "0,0,0"
+    touch_area: "3,3,3"
+    bonus_id: 3100
+  }
+  {
+    id: 20081
+    name: Samo
+    classes: 299
+    type: 299
+    space: "3,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Samo, a fierce and vigilant Belgian Malinois with a blue collar. A line of small text is etched on the inside of the collar, "To Samantha, Amaris, Morea, and Olivia."
+    code: 2022EclipseActivity_samodog
+    texture_type: "1"
+    offset: "0,-0.135551,-0.031281"
+    rotate: "2"
+    interact_point: "4"
+    interact_point_offset: "0,0,0"
+    touch_area: "3,3,3"
+    bonus_id: 3101
+  }
+  {
+    id: 20082
+    name: Eclipse Observer
+    classes: 81
+    type: 302
+    space: "3,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Eclipses & Saros". "The expectations of the observers that came before us culminated in the intersection of the sun and the moon. A new cycle begins now."
+    code: 2022EclipseActivity_medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 20085
     name: Schedule Board
     classes: 81
