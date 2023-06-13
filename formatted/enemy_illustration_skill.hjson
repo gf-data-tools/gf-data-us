@@ -834,25 +834,38 @@
   }
   {
     id: 168
+    name: Casualty Strike
+    description: Locks onto the target with the lowest health and deals high damage to them after displaying a warning icon.
   }
   {
     id: 169
+    name: Mechanical Maintenance
+    description: Grants a shield to mechanical units.
   }
   {
     id: 170
+    name: Recon Advance
+    description: Performs a full reconnaissance ahead of itself. If there are any enemy units, it locks onto them and fires missiles. If there are no enemy units, it moves forward.
   }
   {
     id: 171
+    name: Fire Support
+    description: After reloading, every hit on a target reduces their damage and accuracy.
   }
   {
     id: 172
+    name: Hammerblow
+    description: After every 3 attacks, the next normal attack cleanses all buffs from the enemy and reduces their evasion and armor.
   }
   {
     id: 173
+    name: Sweep Attack
+    description: Deals link-scaling damage in a AOE in the forward direction. Damage doubles when self is shielded.
   }
   {
     id: 174
-    name: Alpha Strike
+    name: Battery Release
+    description: Locks onto the nearest target and its position, then displays a warning icon before firing a homing missile and a rocket.
   }
   {
     id: 175

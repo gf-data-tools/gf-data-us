@@ -3257,8 +3257,10 @@
   }
   {
     id: 168
+    name: Lycaon
     type: 4
     code: AA02_Mini
+    introduce: A light mech used by infantry, it features high-performance mobility systens which allow it to nimbly negotiate complex terrain. It is equipped with two large-caliber machine gun arms and boasts impressive firepower against infantry targets.
     forces: 2
     pow_rank: 2
     life_rank: 4
@@ -3267,6 +3269,7 @@
     armor_rank: 4
     speed_rank: 1
     range_rank: 3
+    counter: Deadly to low-health targets. Eliminate ASAP.
     character: "1003,314,319"
     enemy_skill: "168"
     launch_time: 2016-5-20 00:00:00
@@ -3274,8 +3277,10 @@
   }
   {
     id: 169
+    name: Coeus
     type: 4
     code: Chariot_Military
+    introduce: A missile carrier usable against air and ground targets. Equipped with a quad-linked Stinger anti-aircraft missile system. It possesses an extremely long range and has been widely employed against enemy airborne and armored ground targets.
     forces: 2
     pow_rank: 2
     life_rank: 5
@@ -3285,6 +3290,7 @@
     armor_rank: 5
     speed_rank: 3
     range_rank: 3
+    counter: This unit can enhance its defenses against mechanical units. Make sure you avoid the damage from its missiles.
     character: "1001,1003"
     enemy_skill: "169,170"
     launch_time: 2016-5-20 00:00:00
