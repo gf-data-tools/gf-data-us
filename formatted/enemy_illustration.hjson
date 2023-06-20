@@ -699,6 +699,7 @@
     code: BossCerberus
     introduce: The ultimate upgraded version of the Sangvis "Dinergate". Its size, armor, and firepower have all been significantly augmented, allowing it to carry a Doll's neural cloud (albeit an incomplete copy). However, it isn't very cost-effective, making mass production difficult. Its tactical role is unclear, even its development records are a mystery, so it doesn't see much use on the battlefield.
     forces: 1
+    if_capture: 1
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3360,7 +3361,6 @@
     code: Nyto_tareus
     introduce: Tareus, a specialized Nyto mech pilot, has an extremely high compatibility and synchronization rate with the mech "Miss Eve". She is also adept at hacking Dolls' neural clouds and unleashing devastating attacks on her targets. Since she has undergone numerous memory wipes and modifications, her virtual cognition image is very fragile and prone to severe mood swings, but her occasional emotional outbursts are always quickly neutralized by her internal programming.
     forces: 3
-    if_capture: 1
     pow_rank: 5
     life_rank: 5
     hit_rank: 5

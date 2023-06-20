@@ -1029,6 +1029,64 @@
     org_id: 10602
   }
   {
+    id: 1019
+    name: Cerberus
+    en_name: Cerberus
+    code: BossCerberus
+    introduce: An ultra-upgraded version of the Sangvis Dinergate with a massive boost to both its size, armor, and firepower. It can even hold a neural cloud (an incomplete version), but due to its terrible cost-effectiveness, mass production is impossible. The tactical role it is meant to play is also rather unclear, even the development records are unaccounted for, so it rarely makes an appearance on the battlefield.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30001019
+    forces: 1
+    type: 1
+    character: "1,3,6"
+    formation: 1
+    resolution: 119
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 750397
+    skill2_type: 1
+    skill2: 750399
+    skill3: 750400
+    skill_advance: 750401
+    skill_resolution: "750398"
+    passive_skill2: "750408"
+    normal_attack: 750407
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 165
+    ratio_pow: 118
+    ratio_rate: 80
+    ratio_hit: 110
+    ratio_dodge: 50
+    ratio_armor: 75
+    armor_piercing: 180
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 10
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 6
+    effect_grid_effect: 3:1,15;4,15;5,15
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 33
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930020
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+  }
+  {
     id: 2001
     name: Brute
     en_name: Brute

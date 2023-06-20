@@ -7864,7 +7864,6 @@
     bonus_description: If we take back the city, I'll buy you a drink. Sorry, I mean "WHEN we take back the city".
     description: Gift in Dorm to increase T-Doll Affection by 3 points.
     item_access: "2"
-    detail_introduction: gift_item-40100007
     sort: -1011
   }
   {
@@ -7881,15 +7880,14 @@
   }
   {
     id: 100021
-    name: gift_item-10100021
+    name: Dance Is My Legend
     type: 1
     rank: 5
     favor: 30000
     code: gift_item_glowstick
-    bonus_description: gift_item-20100021
-    description: gift_item-30100021
+    description: Gift in Dorm to increase T-Doll Affection by 3 points.
     item_access: "2"
-    detail_introduction: gift_item-40100021
+    detail_introduction: What they call supporting an idol does not require words or expressions. Just waving your penlights in unison during a cheering dance is enough for the idol on stage to realize that there is a bond between you that can never be broken.
     sort: -1015
   }
   {
@@ -7954,7 +7952,6 @@
     description: Gift in Dorm to increase T-Doll or Fairy EXP by 10,000.
     exp: 10000
     item_access: "2"
-    detail_introduction: gift_item-40200005
     sort: -1012
   }
   {
@@ -7971,15 +7968,14 @@
   }
   {
     id: 200021
-    name: gift_item-10200021
+    name: Sounding Good In Saga
     type: 3
     rank: 5
     code: gift_item_Sagamic
-    bonus_description: gift_item-20200021
-    description: gift_item-30200021
+    description: Gift in Dorm to increase T-Doll or Fairy EXP by 10,000.
     exp: 10000
     item_access: "2"
-    detail_introduction: gift_item-40200021
+    detail_introduction: There are no shortcuts to becoming an idol; only by practicing over and over again can you step on stage and make the audience sway for you.
     sort: -1016
   }
   {
