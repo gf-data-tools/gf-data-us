@@ -9359,6 +9359,38 @@
     obtain_ids: "3080"
   }
   {
+    id: 319
+    name: PSP Special Rounds
+    description:
+      '''
+      DMG+<pow> 
+      Enhances skill$ADS only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,12"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: 弹匣_特殊_ADS
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "214"
+    equip_introduction: Special underwater ammunition designed specially for ADS. With IOP's modification, it is just as effective in non-aquatic environments.
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "759070"
+    max_level: 10
+    auto_select_id: 19047
+    is_show: 1
+    obtain_ids: "3081"
+  }
+  {
     id: 325
     name: Loudspeaker
     description:

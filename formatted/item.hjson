@@ -535,6 +535,24 @@
     rank: 1
   }
   {
+    id: 119
+    type: 3
+    arg: "20"
+    code: Medal_Theater10th
+    item_name: Theater 10 Pioneer Medal
+    introduction: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 10. "Let the storm tear down our banners. Let the rain beat down on us. Walk on until we reach victory."
+    rank: 1
+  }
+  {
+    id: 120
+    type: 3
+    arg: "21"
+    code: Medal_Theater10th_rank
+    item_name: Theater 10 Conqueror Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 10. "Even if darkness consumes everything, you will still lead us into another dawn."
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -8479,6 +8497,15 @@
     rank: 1
   }
   {
+    id: 1835
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Prowler_HD
+    item_name: Prowler Icon - HD
+    introduction: Prowler Icon - HD
+    rank: 1
+  }
+  {
     id: 1836
     type: 5
     arg: "1"
@@ -10401,6 +10428,15 @@
     rank: 1
   }
   {
+    id: 2079
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Cerberus
+    item_name: Cerberus Icon
+    introduction: Cerberus Icon
+    rank: 1
+  }
+  {
     id: 2080
     type: 5
     arg: "1"
@@ -10992,6 +11028,24 @@
     code: card_FixedPoint_us
     item_name: ID Card: Fixed Point
     introduction: ID Card: Fixed Point
+    rank: 1
+  }
+  {
+    id: 2225
+    type: 5
+    arg: "1"
+    code: card_BattlePass_ColtWalker
+    item_name: ID: City of Desire
+    introduction: ID: City of Desire
+    rank: 1
+  }
+  {
+    id: 2226
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_ColtWalker
+    item_name: The Next Seven Days
+    introduction: The Next Seven Days
     rank: 1
   }
   {
@@ -14039,6 +14093,26 @@
     detail_introduction: item-30140008
   }
   {
+    id: 140009
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140009
+    introduction: item-20140009
+    rank: 1
+    detail_introduction: item-30140009
+  }
+  {
+    id: 140010
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140010
+    introduction: item-20140010
+    rank: 1
+    detail_introduction: item-30140010
+  }
+  {
     id: 140013
     type: 14
     arg: "1"
@@ -14212,6 +14286,15 @@
     code: profileFrame_BattlePass_Lewis
     item_name: Icon Frame - Whinny of Prancing Steed
     introduction: Icon Frame - Whinny of Prancing Steed
+    rank: 1
+  }
+  {
+    id: 200018
+    type: 5
+    arg: "1"
+    code: profileFrame_BattlePass_ColtWalker
+    item_name: Icon Frame: Floating Net
+    introduction: Icon Frame: Floating Net
     rank: 1
   }
   {
@@ -14875,6 +14958,46 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500041
+    type: 15
+    arg: "1500041"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: You may obtain a piece of Equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500042
+    type: 15
+    arg: "1500042"
+    code: package_choose
+    item_name: Magazine Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Magazine-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500043
+    type: 15
+    arg: "1500043"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: You may obtain a T-Doll that has yet been unlocked in your Index from this Indicator. If all available Dolls have been unlocked, you will obtain a random Doll.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500044
+    type: 15
+    arg: "1500044"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: You may obtain a random item from this Air-Drop Delivery Indicator.
     rank: 1
     sort: -1
   }

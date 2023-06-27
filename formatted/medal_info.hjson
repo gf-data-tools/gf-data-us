@@ -172,4 +172,28 @@
     decorate_code: Logo_Events
     if_elite_medal: "1"
   }
+  {
+    id: "20"
+    name: Theater 10 Pioneer Medal
+    order: "80"
+    evo_step: "1"
+    appearance_id: "107"
+    item_id: "119"
+    medal_obtain: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 10.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+  }
+  {
+    id: "21"
+    name: Theater 10 Conqueror Medal
+    order: "79"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "108,109,110,111,112,113,114,115,116,117,118,119"
+    item_id: "120"
+    medal_obtain: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 10.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+  }
 ]
