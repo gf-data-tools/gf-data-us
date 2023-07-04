@@ -24810,6 +24810,215 @@
     rotate: "2,2,2"
   }
   {
+    id: 10401
+    name: Kingdom of Ice Cream - Land of Magic
+    classes: 104
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The first Dinergate that came in after traversing the entire beach under the blazing sun declared this place as the magical realm of ice and snow.
+    code: SummerSwim2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10402
+    name: Kingdom of Ice Cream - Coconut Dream
+    classes: 104
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Just one look and you can almost feel the cool sea breeze in your face, see the coconut trees swaying in the wind, smell the crisp aroma of the coconut in your hand... As long as you stay inside this air-conditioned room, this fantasy will never fade.
+    code: SummerSwim2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10403
+    name: Kingdom of Ice Cream - Ice Cream's Creed
+    classes: 104
+    type: 201
+    position: "4,5"
+    space: "10,5,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: At this ice cream counter where the prices of all the ice cream are clearly marked, you won't have to worry about a lethal attack from an ice cream assassin.
+    code: SummerSwim2022_deco_01,SummerSwim2022_deco_02
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.646474,0,0|1.657893,0,0"
+    rotate: "2,2"
+    interact_point: "17"
+    interact_point_offset: *-0.846,1.850,2.476
+  }
+  {
+    id: 10404
+    name: Kingdom of Ice Cream - Lolling Tongue
+    classes: 104
+    type: 202
+    position: "17,10"
+    space: "8,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: You keep trying to say no, but the moment your eyes fall on the ice cream on the table, feeble words such as "I'm on a diet" and "I've sworn off dessert" are forgotten as your mouth waters.
+    code: SummerSwim2022_deco_03,SummerSwim2022_deco_04,SummerSwim2022_deco_05
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "0,0,0|-1.0427,0,0|0.959284,0,0"
+    rotate: "2,2,2"
+    interact_point: "14,15"
+    interact_point_offset: *2.246,1.565,-0.285|*-2.567,1.394,-0.285
+  }
+  {
+    id: 10405
+    name: Kingdom of Ice Cream - On the Edge of Bliss
+    classes: 104
+    type: 202
+    position: "26,7"
+    space: "8,4,1,1,0,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: '''"Happiness is a luxury that comes with a price," you say as you rejoin the table feebly from the toilet.'''
+    code: SummerSwim2022_deco_06,SummerSwim2022_deco_07,SummerSwim2022_deco_08
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "0,0,0|-1.0427,0,0|0.959284,0,0"
+    rotate: "2,2,2"
+    interact_point: "14,15"
+    interact_point_offset: *2.246,1.565,-0.285|*-2.567,1.394,-0.285
+  }
+  {
+    id: 10406
+    name: Kingdom of Ice Cream - Light on a Mission
+    classes: 104
+    type: 201
+    position: "22,7"
+    space: "3,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Completely oblivious to others' feelings, it is the only one who keeps shining hot and bright in this building.
+    code: SummerSwim2022_deco_09,SummerSwim2022_deco_10
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,0.896722,0.198113|4.608734,0.896722,0.198113"
+    rotate: "2,2"
+  }
+  {
+    id: 10407
+    name: Kingdom of Ice Cream - Enticing Trap
+    classes: 104
+    type: 302
+    position: "3,4"
+    space: "8,6,1,1,1,0"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: People assume the menu is there to help you make the right choices, but actually, the menu keeps tempting you to make choices that you shouldn't.
+    code: SummerSwim2022_deco_11,SummerSwim2022_deco_12,Summer2022_billboardLight
+    texture_type: "1,1,2"
+    sorting: "20,20,20"
+    offset: "-0.76534190427,0,0|1.5285982,0,0|0.10427,-1.0760664,0"
+    rotate: "3,3,3"
+  }
+  {
+    id: 10408
+    name: Kingdom of Ice Cream - Tantalizing Signboard
+    classes: 104
+    type: 201
+    position: "1,10"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Colorful ice cream and a cute shopkeeper. There is no better salvation for a scorched soul.
+    code: SummerSwim2022_deco_13
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10409
+    name: Kingdom of Ice Cream - Pure White Memory
+    classes: 104
+    type: 201
+    position: "21,3"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: In time, the white of pure gelato has come to signify the dull tastelessness on one's tongue, though the topping section nearby is still colorful as ever.
+    code: SummerSwim2022_deco_14
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10410
+    name: Kingdom of Ice Cream - Rainbow Shards
+    classes: 104
+    type: 201
+    position: "26,2"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Covered in rainbow-colored toppings, the white is the coy hint of milky aroma buried deep in one's heart, and the toppings heaped on top become a jumbled mess.
+    code: SummerSwim2022_deco_15
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10411
+    name: Kingdom of Ice Cream - Decorative Arbor
+    classes: 104
+    type: 201
+    position: "32,3"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: A decorative plant purchased from the nearby market. The florist claimed it wouldn't grow big, but after it burst through two pots, the shop owner is finally forced to admit that she's been duped.
+    code: SummerSwim2022_deco_16,SummerSwim2022_deco_17
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.427507,0,0|-0.4097811,2.2459758,0.5130084"
+    rotate: "2,2"
+  }
+  {
+    id: 10412
+    name: Kingdom of Ice Cream - Raindrops on Banana Leaves
+    classes: 104
+    type: 201
+    position: "0,3"
+    space: "3,3,1,1,1,1"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: People in the past spoke often of the lovely sight and sound of rain falling on banana trees, but unfortunately for this particular banana tree, it can only gaze silently outside the window and imagine rain falling on itself.
+    code: SummerSwim2022_deco_18,SummerSwim2022_deco_19
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,-0.135551,-0.031281|0,2.106254,0.490069"
+    rotate: "2,2"
+  }
+  {
+    id: 10413
+    name: Kingdom of Ice Cream - End of Sanctuary
+    classes: 104
+    type: 302
+    position: "17,0"
+    space: "2,25,1,1,1,1"
+    deco_rate: 1250
+    decompose_gift: 100003
+    description: This isn't a regular door. Staying on this side of the door means a beautiful day of pleasant coolness, but as soon as you step through the door, the scorching heat of the entire world will eviscerate your very existence.
+    code: SummerSwim2022_deco_20,SummerSwim2022_deco_21,SummerSwim2022_deco_22
+    texture_type: "1,1,1"
+    sorting: "3,3,3"
+    offset: "-4.348059,0,0|0.25858949573,0,0|4.8662809,0,0"
+    rotate: "2,2,2"
+  }
+  {
     id: 10501
     name: Lone Ship in Space - Zero-G Zone
     classes: 105
@@ -34320,6 +34529,126 @@
     decompose_gift: 100003
     description: Type 56's poster.
     code: poster_Children2022_56typeR
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37301
+    name: Survival on the Wild Seas
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M6 ASW's poster.
+    code: poster_Swimsuit2022_M6ASW
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37302
+    name: Savage's Fry Craving
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Savage 99's poster.
+    code: poster_Swimsuit2022_Savage99
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37303
+    name: Melting in the Summer Heat
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Sterling's poster.
+    code: poster_Swimsuit2022_Sterling
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37304
+    name: Honey-Colored Ocean Heart
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HS.50's poster.
+    code: poster_Swimsuit2022_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37305
+    name: Trident and Fish Slicer
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AK-74M's poster.
+    code: poster_Swimsuit2022_AK74M
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37306
+    name: Floating Melody
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: CF-05's poster.
+    code: poster_Swimsuit2022_06TypeSMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37307
+    name: Apricot Summer
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: EVO3's poster.
+    code: poster_Swimsuit2022_EVO3
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37308
+    name: Sand Castle Terminator
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: IWS 2000's poster.
+    code: poster_Swimsuit2022_IWS2000
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

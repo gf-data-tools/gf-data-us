@@ -5027,6 +5027,43 @@
     note: Original Costume
   }
   {
+    id: 5058
+    name: PPK - Original Model
+    fit_gun: 20010
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 堀森, Asuka Itou,
+  }
+  {
+    id: 5059
+    name: MG3 - Original Model
+    fit_gun: 20088
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5060
+    name: Suomi - Original Model
+    fit_gun: 20115
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5061
+    name: OBR - Original Model
+    fit_gun: 20230
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
     id: 5101
     name: Willow Foxfire
     fit_gun: 316
@@ -6449,6 +6486,81 @@
     dialog: I just have to cut out a pair of panda ears like this, put them on my head, and I'll be able to make friends with pandas! I'll make a pair for you too, Commander.
     order: 87
     class_id: 76
+  }
+  {
+    id: 7301
+    name: Survival in the Wild Seas
+    fit_gun: 324
+    voice: 4
+    dialog: That was exhausting... Is this the first time these kids have seen the ocean? They kept charging towards it, like some kind of suicide attack and I had to drag them back one after the other for an entire afternoon.
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7302
+    name: Savage's Fry Craving
+    fit_gun: 334
+    voice: 4
+    dialog: I hear that if I bring some fries to this vending machine, I'll be able to summon the most vicious beast in this area. But I've been wandering around all day and all I've seen are some seagulls eyeing my fries...
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7303
+    name: Melting in the Summer Heat
+    fit_gun: 359
+    voice: 4
+    dialog: Please be careful, Commander. The Dark Legion is planning to overrun our campsite with a heatwave. Lady Matilda has already fallen, but I will never... I will never yield even if someone offers me a realm of ice!
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7304
+    name: Honey-Colored Ocean Heart
+    fit_gun: 348
+    voice: 4
+    dialog: Commander, I'm all ready to go surfing. Where's my surfboard? It's right here in my hands, no...?
+    gift_position: "-113,-10.3"
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7305
+    name: Trident and Fish Slicer
+    fit_gun: 349
+    voice: 4
+    dialog: Commander, I am searching for fish to be used as ingredients. Everyone is having so much fun right now, it'll be bad if there's nothing for them to eat when they're hungry.
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7306
+    name: Floating Melody
+    fit_gun: 295
+    voice: 4
+    dialog: Commander, Commander! Look at me, I'm floating in the water! Don't I look like a piece of tofu in a hotpot?
+    gift_position: "-92.8,-0.2"
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7307
+    name: Apricot Summer
+    fit_gun: 131
+    voice: 4
+    dialog: Want to have some fruit with me, Commander? Huh, I think I just heard Skorpion scream... Was it just my imagination?
+    order: 88
+    class_id: 77
+  }
+  {
+    id: 7308
+    name: Sand Castle Terminator
+    fit_gun: 148
+    voice: 4
+    dialog: Roar! All the sand castles here are mine! C-Commander, I'm just completing a mission that the others have handed me—"get rid of all the annoying kids", I didn't actually turn into a monster...
+    gift_position: "-130.9,155.3"
+    order: 88
+    class_id: 77
   }
   {
     id: 7401

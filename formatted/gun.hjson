@@ -835,6 +835,7 @@
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3"
     rank_display: 2
+    mindupdate_consume: 10:10,45:200;10:20,45:600;10:30,45:1200
     explore_tag: "30,71"
     gun_detail_bg: nation_German
     org_id: 10303
@@ -7711,7 +7712,7 @@
     ratio_range: 100
     skill1: 105104
     normal_attack: 300105
-    passive_skill: "300201,300202"
+    passive_skill: "300201,300202,740029"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "22,24"
@@ -7723,6 +7724,7 @@
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
     rank_display: 4
+    mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     explore_tag: "11,43,67"
     gun_detail_bg: nation_German
     org_id: 10302
@@ -10111,7 +10113,7 @@
     ratio_range: 100
     skill1: 100204
     normal_attack: 300102
-    passive_skill: "702040,756160"
+    passive_skill: "756160,804219,804220,804218"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
@@ -10123,6 +10125,7 @@
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,2"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     explore_tag: "31,40,65"
     org_id: 10803
     related_story_id: 100115
@@ -19086,6 +19089,7 @@
     launch_time: 2020-01-10 00:00:00
     obtain_ids: "310"
     rank_display: 3
+    mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "31,38"
     gun_detail_bg: nation_US
     org_id: 10704
@@ -35363,6 +35367,110 @@
     gun_detail_bg: nation_Russia
   }
   {
+    id: 20010
+    name: PPK
+    en_name: PPK
+    code: PPKMod
+    introduce:
+      '''
+      类型            半自动手枪
+      总重            .380 ACP：590克（21盎司）
+                      .32 ACP：590克（21盎司）
+                      .22 LR：560克（20盎司）
+      全长            155毫米
+      枪管长度        83毫米
+      弹药            .380 ACP（9 x 17mm Short）
+                      .32 ACP（7.65 x 17mm Browning SR）
+                      .25 ACP（6.35 x 15mm Browning SR）
+                      .22 LR（5.7 x 15.6mm）9 x 18mm Ultra]]（PP-Super）
+      枪机种类        反冲作用,单动/双动
+      枪口初速        .380 ACP：244米/秒
+                      .32 ACP：308米/秒
+                      .22 LR：280米/秒
+      有效射程        50米
+      供弹方式        .380 ACP：6+1发
+                      .32 ACP：7+1发
+                      .22 LR：8+1发
+      瞄准具型式      缺口式照门及刀片式准星
+      '''
+    dialogue: 哼哼♪指挥官,能在这里见到您,我很开心呢。
+    en_introduce:
+      '''
+      Type                       Semi-automatic pistol
+
+      Weight                     590 g (21 oz) (PPK 7.65×17mm Browning SR/.32 ACP)
+
+      Length                     155 mm (6.1 in) (PPK)
+
+      Barrel length              83 mm (3.3 in) (PPK, PPK/S, PPK-L))  
+
+      Width                      25 mm (1.0 in) (PPK)      
+
+      Height                     100 mm (3.9 in) (PPK)
+
+      Cartridge                  7.65×17mm Browning SR (.32 ACP)
+
+                                 9×17mm Short (.380 ACP)
+
+                                 .22 Long Rifle
+
+                                 6.35×15mm Browning SR (.25 ACP)
+
+                                 9×18mm Ultra (PP-Super)
+
+      Action                     Straight blowback
+
+      Muzzle velocity            244 m/s (800.5 ft/s) (PPK/PPK/S 9×17mm Short/.380 ACP)
+
+                                 308 m/s (1,010.5 ft/s)
+
+                                 (PPK/PPK/S/PPK-L 7.65×17mm Browning SR/.32 ACP)
+
+      Feed system                PPK: 8+1 (.22 LR), 7+1 (.32 ACP)
+
+      Sights                     Fixed iron sights, rear notch and front blade
+      '''
+    type: 1
+    rank: 4
+    develop_duration: 1320
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 100
+    ratio_pow: 95
+    ratio_rate: 115
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 130
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 125
+    ratio_range: 95
+    skill1: 804101
+    skill2: 804102
+    normal_attack: 300101
+    dynamic_passive_skill: "804113,804114,804115,804116"
+    effect_grid_center: 13
+    effect_grid_pos: "7,8,9,18,12,14"
+    effect_grid_effect: "2,18;5,10"
+    type_equip1: 1;4,13,16,18
+    type_equip2: 2;6,19
+    type_equip3: 3;10
+    ai: 10
+    launch_time: 2016-05-20 00:00:00
+    obtain_ids: "35"
+    rank_display: 4
+    prize_id: 3010
+    explore_tag: "30,71"
+    gun_detail_bg: nation_German
+    related_story_id: 100010
+    show_damage_skin: ",3905,"
+  }
+  {
     id: 20012
     name: C96
     en_name: C96
@@ -37582,6 +37690,111 @@
     gun_detail_bg: nation_US
   }
   {
+    id: 20088
+    name: MG3
+    en_name: MG3
+    code: MG3Mod
+    introduce:
+      '''
+      类型            通用机枪
+      总重            11.5公斤
+      全长            1225毫米
+      枪管长度        565毫米
+      弹药            7.62×51毫米北约弹
+      枪机种类        后座作用、滚轴式闭锁
+      发射速率        约1,150发/分钟
+      枪口初速        820米/秒
+      有效射程        1200米
+      供弹方式        50发DM1不可散式弹链
+                     （可装入弹鼓内）、
+                      100发DM6/M13可散式弹链
+      瞄准具型式      开放式机械瞄具
+      '''
+    dialogue: MG3,入列！就让敌人见识一下,我那暴雨般的火力！
+    extra: 猫头神,Risa Taneda,
+    en_introduce:
+      '''
+      Type                       General-purpose machine gun
+
+      Weight                     10.5 kg (23.15 lb)
+
+                                 27.5 kg (61 lb) (mounted on tripod)
+
+      Length                     1,225 mm (48.2 in)
+
+                                 1,097 mm (43.2 in) (without stock)
+
+      Barrel length              565 mm (22.2 in)
+
+      Cartridge                  7.62×51mm NATO
+
+      Action                     Recoil-operated, roller locked
+
+      Rate of fire               1000–1300 rpm
+
+      Muzzle velocity            820 m/s (2,690 ft/s)
+
+      Effective firing range     200–1,200 m sight adjustments
+
+      Maximum firing range       800 m (bipod)
+
+                                 1,000 m (tripod mounted)
+
+                                 3,000 m (gun carriage)
+
+      Feed system                50-Round non-disintegrating DM1 belt 
+
+                                 (can be combined in a drum); 
+
+                                 100-Round disintegrating DM6/M13 belt
+
+      Sights                     Open tangent iron sights
+      '''
+    type: 5
+    rank: 5
+    develop_duration: 23400
+    baseammo: 40
+    basemre: 30
+    ammo_add_withnumber: 25
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    retirepart: 5
+    ratio_life: 120
+    ratio_pow: 115
+    ratio_rate: 125
+    ratio_speed: 100
+    ratio_hit: 110
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 5
+    special: 10
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 740025
+    skill2: 740027
+    normal_attack: 740030
+    passive_skill: "300201,300202,740029"
+    dynamic_passive_skill: "740028,740031"
+    effect_grid_center: 18
+    effect_guntype: "6"
+    effect_grid_pos: "22,23,24"
+    effect_grid_effect: "1,15;3,15"
+    type_equip1: 2;5,17
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,20,21
+    ai: 88
+    launch_time: 2016-05-20 00:00:00
+    obtain_ids: "35"
+    rank_display: 5
+    prize_id: 3088
+    explore_tag: "11,43,67"
+    gun_detail_bg: nation_German
+    related_story_id: 100088
+    show_damage_skin: ",0,7205,"
+  }
+  {
     id: 20089
     name: Bren
     en_name: Bren MK I
@@ -38435,6 +38648,101 @@
     rank_display: 6
     prize_id: 3114
     explore_tag: "9,17,27,40,47,82"
+  }
+  {
+    id: 20115
+    name: Suomi
+    en_name: "KP/-31 "
+    code: KP31Mod
+    introduce:
+      '''
+      类型            冲锋枪
+      总重            4.6公斤
+      全长            870毫米
+                      925毫米（SJR）
+                      740毫米（碉堡型）
+      枪管长度        314毫米
+      弹药            9×19毫米帕拉贝鲁姆手枪弹
+      枪机种类        后座作用
+      发射速率        750–900发/分钟
+      枪口初速        396 米／秒
+      有效射程        200 米
+      供弹方式        20,36,40或50发可卸式弹匣
+                      71发可卸式弹鼓
+      瞄准具型式      片状准星和弧形座式可调表尺
+      '''
+    dialogue: 索米1931式，报到。指挥官……请让我在您的部队中，继续履行使命吧！
+    extra: Anmi,Aki Toyosaki,
+    en_introduce:
+      '''
+      Type                       Submachine Gun
+
+      Weight                     4.6 kg (10.14 lb) 
+
+      Length                     870 mm (34.3 in)
+
+                                 925 mm (36.4 in) (SJR)
+
+                                 740 mm (29.1 in) (bunker version)
+
+      Barrel length              314 mm (12.4 in)
+
+      Cartridge                  9×19mm Parabellum
+
+      Action                     Straight Blowback
+
+      Rate of fire               750–900 rounds/min
+
+      Muzzle velocity            396 m/s (1,299 ft/s)
+
+      Effective firing range     200 m (660 ft)
+
+      Feed system                20-, 36- or 50-round box, 40- or 71-round drum. 
+
+                                 Also modified German MP 38 u. 40 32-round box magazine
+
+      Sights                     Front blade, rear notch
+      '''
+    type: 2
+    rank: 6
+    develop_duration: 8700
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 125
+    ratio_pow: 118
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 108
+    ratio_range: 100
+    skill1: 804201
+    skill2: 804203
+    normal_attack: 804207
+    passive_skill: "804218,804204"
+    dynamic_passive_skill: "804202,804206"
+    effect_grid_center: 13
+    effect_guntype: "4"
+    effect_grid_pos: "7,8,9"
+    effect_grid_effect: "2,25;3,50"
+    type_equip1: 3;9,10,20
+    type_equip2: 2;6,19
+    type_equip3: 1;1,2,3,4,13
+    ai: 115
+    launch_time: 2016-07-07 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3115
+    explore_tag: "31,40,65"
+    related_story_id: 100115
+    show_damage_skin: ",310,3101,5060,"
   }
   {
     id: 20122
@@ -39875,6 +40183,81 @@
     prize_id: 3221
     explore_tag: "13,29"
     gun_detail_bg: nation_Russia
+  }
+  {
+    id: 20230
+    name: OBR
+    en_name: OBR
+    code: OBRMod
+    introduce:
+      '''
+      Type                       Rifle 
+      Rifle Weight: 9.5 lb. (based on 16.1” barrel version, unloaded without optics and accessories)
+      Overall System Length: 37.5“ (with A2 stock)
+      Barrel: 16.1" (18" & 20" also available), 1/10 twist
+      Barrel Life: 10,000 (approx)
+      Max Effective Range: 800 meters
+      Rate of Fire: Semi automatic
+      Magazine Capacity: 10 or 20 rounds (accepts standard M110 magazines)
+      Accuracy: Average size of a 5-shot group, expressed in Minutes of Angle (MOA) less than 1 MOA (approx)
+      Trigger: LaRue MBT
+      '''
+    dialogue: 是指挥官吗？应该没认错人吧……只要在这里努力工作的话，我的债务问题就……嗯？没、没什么。
+    extra: 卑しい人间,Hana Tamegai,
+    en_introduce:
+      '''
+      Type                       Rifle 
+      Rifle Weight: 9.5 lb. (based on 16.1” barrel version, unloaded without optics and accessories)
+      Overall System Length: 37.5“ (with A2 stock)
+      Barrel: 16.1" (18" & 20" also available), 1/10 twist
+      Barrel Life: 10,000 (approx)
+      Max Effective Range: 800 meters
+      Rate of Fire: Semi automatic
+      Magazine Capacity: 10 or 20 rounds (accepts standard M110 magazines)
+      Accuracy: Average size of a 5-shot group, expressed in Minutes of Angle (MOA) less than 1 MOA (approx)
+      Trigger: LaRue MBT
+      '''
+    type: 3
+    rank: 4
+    develop_duration: 15600
+    baseammo: 15
+    basemre: 30
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    ratio_life: 95
+    ratio_pow: 112
+    ratio_rate: 110
+    ratio_speed: 100
+    ratio_hit: 125
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 120
+    ratio_range: 100
+    skill1: 740026
+    skill2: 740034
+    normal_attack: 740032
+    passive_skill: "740036"
+    dynamic_passive_skill: "740033,740035"
+    effect_grid_center: 13
+    effect_guntype: "1"
+    effect_grid_pos: "17,19"
+    effect_grid_effect: "6,15"
+    type_equip1: 2;5
+    type_equip2: 1;1,2,3,13,18
+    type_equip3: 3;15
+    ai: 230
+    launch_time: 2018-08-21 00:00:00
+    obtain_ids: "35"
+    rank_display: 4
+    prize_id: 3230
+    explore_tag: "31,38"
+    gun_detail_bg: nation_US
+    related_story_id: 100230
+    show_damage_skin: ",0,5061,5407,"
   }
   {
     id: 20252
