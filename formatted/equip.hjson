@@ -8269,7 +8269,7 @@
     description:
       '''
       CRIT RATE+<critical_percent><%>
-       EVA+<dodge> ACC+<hit>$M9 only
+       EVA+<dodge> ACC+<hit>$P38 only
       '''
     rank: 5
     category: 1
@@ -8501,7 +8501,7 @@
     name: AN-94 Modernization Kit
     description:
       '''
-      CRIT CHANCE+<critical_percent><%>
+      CRIT RATE+<critical_percent><%>
       CRIT DMG+<critical_harm_rate><%>$AN-94 Only
       '''
     rank: 5
@@ -8636,7 +8636,7 @@
     name: P22 Laser Pointer
     description:
       '''
-      CRIT CHANCE+<critical_percent><%>
+      CRIT RATE+<critical_percent><%>
       EVA+<dodge>$P22 Only
       '''
     rank: 5
@@ -8663,6 +8663,103 @@
     auto_select_id: 18089
     is_show: 1
     obtain_ids: "3077"
+  }
+  {
+    id: 279
+    name: M5 Bayonet
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      ROF+<rate>$M1 Garand Only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    rate: "1,2"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_加兰德
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "34"
+    equip_introduction: A bayonet specially prepared for Garand. Its distinguishing feature is that it lacks the usual mounting ring most bayonets have for securing on the barrel, so it looks less like a bayonet than a fighting knife.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: rate:1000,critical_percent:1000
+    max_level: 10
+    auto_select_id: 18090
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 280
+    name: Wolf 9mm Hollowpoint Rounds
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      ROF<rate>$T77 Only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "7,12"
+    hit: "1,3"
+    rate: "-6,-6"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_T77
+    develop_duration: 3180
+    company: WOLF
+    fit_guns: "218"
+    equip_introduction: These 9mm rounds have been specially adjusted for T77 by the Wolf company. They greatly reduce the failure rate and experienced recoil.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:900,hit:700
+    max_level: 10
+    auto_select_id: 19039
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 281
+    name: 57-N-323S
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow>$SVT-38 Only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "110,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_SVT38
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "40"
+    equip_introduction: An early kind of steel-core round that is light and easy to carry. After modification for SVT-38 by IOP, it has become specialized ammunition for her.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:500,pow:1000
+    max_level: 10
+    auto_select_id: 19040
+    is_show: 1
+    obtain_ids: "3003"
   }
   {
     id: 282
@@ -8897,6 +8994,105 @@
     auto_select_id: 18095
     is_show: 1
     obtain_ids: "3069"
+  }
+  {
+    id: 289
+    name: GLX160
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      DMG+<pow> $ARX-160 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,4"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_ARX160
+    develop_duration: 3600
+    company: BRT
+    fit_guns: "120"
+    equip_introduction: A grenade launcher specially designed for the ARX-160 which can be used as a stand-alone weapon or mounted underneath the rifle.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_percent:800
+    max_level: 10
+    auto_select_id: 18096
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 290
+    name: MG42 Exclusive Bipod
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      CRIT RATE+<critical_percent><%> $MG42 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "2,4"
+    hit: "3,5"
+    critical_percent: "19,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_MG42
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "86"
+    equip_introduction: A classic and essential bipod for MG42 with improved sturdiness thanks to IOP's modifications.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_percent:1000,hit:1000
+    max_level: 10
+    auto_select_id: 18097
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 291
+    name: Luger Snail Drum
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      CRIT RATE+<critical_percent><%> $P08 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "1,3"
+    hit: "12,15"
+    critical_percent: "13,15"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: 配件_特殊_P08
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "11"
+    equip_introduction: One of P08's classic accessories. The 32-round capacity of the drum magazine greatly improves the T-Doll's endurance in battle.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: pow:700,hit:700,critical_percent:1000
+    max_level: 10
+    auto_select_id: 18098
+    is_show: 1
+    obtain_ids: "3003"
   }
   {
     id: 292
@@ -9522,6 +9718,39 @@
     auto_select_id: 19047
     is_show: 1
     obtain_ids: "3081"
+  }
+  {
+    id: 321
+    name: 8mm Mauser Special Rounds
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> Enhances skill $ZB-26 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "1,3"
+    armor_piercing: "270,275"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_ZB26
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "307"
+    equip_introduction: A 8mm Mauser cartridge that IOP developed solely for ZB-26. The cartridge adopts the same round tip as the Patrone 88. Thanks to IOP's technology, it is even more lethal than contemporary rounds.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:700
+    passive_skill: "759072"
+    max_level: 10
+    auto_select_id: 19048
+    is_show: 1
+    obtain_ids: "3082"
   }
   {
     id: 325

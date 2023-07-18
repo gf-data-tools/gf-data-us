@@ -6318,7 +6318,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-150
+    itemprice: 100146-150
     classification_id: 1004
   }
   {
@@ -6331,7 +6331,7 @@
     discount: 1
     prize_id: 1228
     pay_type: 1
-    itemprice: 100097-100
+    itemprice: 100146-100
     classification_id: 1004
   }
   {
@@ -6344,7 +6344,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-50
+    itemprice: 100146-50
     classification_id: 1004
   }
   {
@@ -6357,7 +6357,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-30
+    itemprice: 100146-30
     classification_id: 1004
   }
   {
@@ -6370,7 +6370,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-30
+    itemprice: 100146-30
     classification_id: 1004
   }
   {
@@ -6383,7 +6383,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-30
+    itemprice: 100146-30
     classification_id: 1004
   }
   {
@@ -6396,7 +6396,7 @@
     discount: 1
     prize_id: 1239
     pay_type: 1
-    itemprice: 100097-80
+    itemprice: 100146-80
     classification_id: 1004
   }
   {
@@ -6409,7 +6409,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-3
+    itemprice: 100146-3
     classification_id: 1004
   }
   {
@@ -6422,7 +6422,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-2
+    itemprice: 100146-2
     classification_id: 1004
   }
   {
@@ -6435,7 +6435,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-2
+    itemprice: 100146-2
     classification_id: 1004
   }
   {
@@ -6448,7 +6448,7 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 100097-2
+    itemprice: 100146-2
     classification_id: 1004
   }
   {
@@ -30406,6 +30406,122 @@
     daily_quota: 50
     discount: 1
     classification_id: 3002
+  }
+  {
+    id: 21707
+    type: 8
+    gemprice: 128
+    quota: 2001
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_navy
+    daily_quota: 1
+    discount: 1
+    prize_id: 220123
+    classification_id: 3002
+  }
+  {
+    id: 21708
+    type: 8
+    item_ids: 13-1,41-100,506-1000
+    gift: 100003-10
+    gemprice: 580
+    quota: 2001
+    giftbag_name: Aug Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21709
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21710
+    type: 8
+    sort: 11
+    quota: 2001
+    giftbag_name: T-Doll:  Derringer
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 1144
+    pay_type: 1
+    itemprice: 100144-400
+    classification_id: 1005
+  }
+  {
+    id: 21711
+    type: 8
+    sort: 12
+    quota: 2001
+    giftbag_name: T-Doll:  Sterling
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 1398
+    pay_type: 1
+    itemprice: 100145-500
+    classification_id: 1005
+  }
+  {
+    id: 21712
+    type: 8
+    sort: 13
+    quota: 2001
+    giftbag_name: T-Doll:  Model 99
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 1145
+    pay_type: 1
+    itemprice: 100145-500
+    classification_id: 1005
+  }
+  {
+    id: 21713
+    type: 8
+    sort: 14
+    quota: 2001
+    giftbag_name: T-Doll:  TAC-50
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 501
+    pay_type: 1
+    itemprice: 100145-500
+    classification_id: 1005
+  }
+  {
+    id: 21714
+    type: 8
+    sort: 15
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    itemprice: 100144-5
+    classification_id: 1005
+  }
+  {
+    id: 21715
+    type: 8
+    sort: 16
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    itemprice: 100145-5
+    classification_id: 1005
   }
   {
     id: 99001

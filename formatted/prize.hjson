@@ -9624,6 +9624,42 @@
     content: prize-20001485
   }
   {
+    id: 1486
+    name: prize-10001486
+    item_ids: 100144-1,100146-20
+    content: prize-20001486
+  }
+  {
+    id: 1487
+    name: prize-10001487
+    item_ids: 100145-1,100146-30
+    content: prize-20001487
+  }
+  {
+    id: 1488
+    name: prize-10001488
+    item_ids: 100144-1
+    content: prize-20001488
+  }
+  {
+    id: 1489
+    name: prize-10001489
+    item_ids: 100145-1
+    content: prize-20001489
+  }
+  {
+    id: 1490
+    name: prize-10001490
+    item_ids: 100146-20
+    content: prize-20001490
+  }
+  {
+    id: 1491
+    name: prize-10001491
+    item_ids: 100146-30
+    content: prize-20001491
+  }
+  {
     id: 1530
     name: prize-10001530
     core: 12
@@ -10078,6 +10114,13 @@
     gem: 90
     equip_ids: "319"
     content: prize-20001704
+  }
+  {
+    id: 1723
+    name: prize-10001723
+    gem: 90
+    equip_ids: "321"
+    content: prize-20001723
   }
   {
     id: 1724
@@ -24598,6 +24641,114 @@
       '''
   }
   {
+    id: 12330
+    name: Kurtz-Conversion Short Barrel
+    equip_ids: "267"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      ACC+3 EVA+20
+      Crit RATE+20%
+      P38 only
+      '''
+  }
+  {
+    id: 12331
+    name: DBP10 (Type 03)
+    equip_ids: "268"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+20
+      Crit DMG+15%
+      Type03 only
+      '''
+  }
+  {
+    id: 12332
+    name: ILWLP
+    equip_ids: "269"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      EVA+20
+      Night Vision+100%
+      Gr Mk23 only
+      '''
+  }
+  {
+    id: 12333
+    name: M5 Bayonet
+    equip_ids: "279"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      ROF+4
+      Crit RATE+48%
+      M1 Garand only
+      '''
+  }
+  {
+    id: 12334
+    name: Wolf 9mm Hollowpoint Rounds
+    equip_ids: "280"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+22 ACC+5
+      ROF-6
+      T77 only
+      '''
+  }
+  {
+    id: 12335
+    name: 57-N-323S
+    equip_ids: "281"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+10
+      AP+180
+      SVT-38 only
+      '''
+  }
+  {
+    id: 12336
+    name: GLX160
+    equip_ids: "289"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+8
+      Crit RATE+45%
+      ARX-160 only
+      '''
+  }
+  {
+    id: 12337
+    name: MG42 Exclusive Bipod
+    equip_ids: "290"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+8 ACC+10
+      Crit RATE+48%
+      MG42 only
+      '''
+  }
+  {
+    id: 12338
+    name: Luger Snail Drum
+    equip_ids: "291"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+5 ACC+25
+      Crit RATE+30%
+      P08 only
+      '''
+  }
+  {
     id: 12401
     name: Candy Pocket
     item_ids: 7001-1
@@ -29817,7 +29968,7 @@
     mre: 5000
     part: 5000
     core: 21
-    gun_id: "322"
+    gun_id: "321"
     item_ids: 4-20,6009-2,601-2
     gift: 200001-235
     coins: 1-600,2-620,3-200
@@ -40474,6 +40625,18 @@
     name: prize-10220293
     gun_id: "259"
     content: prize-20220293
+  }
+  {
+    id: 220294
+    name: prize-10220294
+    core: 5
+    content: prize-20220294
+  }
+  {
+    id: 220295
+    name: prize-10220295
+    item_ids: 100145-1,100146-20
+    content: prize-20220295
   }
   {
     id: 330248
