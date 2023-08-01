@@ -5064,6 +5064,43 @@
     note: Original Costume
   }
   {
+    id: 5062
+    name: Type 92 - Original Model
+    fit_gun: 20013
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5063
+    name: Kar98k - Original Model
+    fit_gun: 20046
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+    illustrator_cv: 芙芙酱,,
+  }
+  {
+    id: 5064
+    name: Lee Enfield - Original Model
+    fit_gun: 20050
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
+    id: 5065
+    name: Type 56-1 - Original Model
+    fit_gun: 20066
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
     id: 5101
     name: Willow Foxfire
     fit_gun: 316
@@ -6675,6 +6712,63 @@
     class_id: 79
   }
   {
+    id: 8201
+    name: Captain Kord
+    fit_gun: 276
+    voice: 4
+    dialog: Let's have a drink to celebrate the island we just discovered! As for its name, I'll let you decide. "It was the finest island I chanced to see, with an unbroken chain of mountains stretching across it which seemed to touch the sky."
+    illustrator_cv: umo,Kana Yuuki,
+    order: 107
+    class_id: 87
+  }
+  {
+    id: 8202
+    name: Black Earl
+    fit_gun: 342
+    voice: 4
+    dialog: Pilot, you're here at last. Pele just captured the wicked MDR who took candid snapshots of your captain and posted them on Grifchan. In accordance with the eleventh rule of the ship regulations, she will be walking the plank!
+    gift_position: "-187,125.2"
+    order: 107
+    class_id: 87
+  }
+  {
+    id: 8203
+    name: Kraken Huntress
+    fit_gun: 338
+    voice: 4
+    dialog: Yo, Commander! I heard there was a legendary sea monster from the Atlantic roaming the waves; just one of its tentacles is dozens of meters long. Let's go catch it!
+    order: 107
+    class_id: 87
+  }
+  {
+    id: 8204
+    name: Crimson Vortex
+    fit_gun: 42
+    voice: 4
+    dialog: The straits are where I enjoy myself. I've grown used to the roaring of the waves and become familiar with life on the seas... So give me a fleet, Commander, and I shall drive my enemies before me and bask in their wailing and gnashing of teeth.
+    illustrator_cv: Luuuo,Ai Shimizu,
+    order: 107
+    class_id: 87
+  }
+  {
+    id: 8205
+    name: Redheaded Demon Queen of the Seas
+    fit_gun: 321
+    voice: 4
+    dialog: The wind is my guide and the fleet has already set sail. Out of troops? All things on the sea are settled with ships; they have nothing to do with how many soldiers you have. All you need to do is wait at port for me to return.
+    order: 107
+    class_id: 87
+  }
+  {
+    id: 8206
+    name: Last Plunderer
+    fit_gun: 267
+    voice: 4
+    dialog: Hehe, I've found the four pieces of Captain Kidd's treasure map. Now all I need to do is decipher these mysterious numbers: 44-10-66-18. I wonder what they mean...?
+    order: 107
+    class_id: 87
+  }
+  {
     id: 30001
     name: Breeze in a Summer Afternoon
     fit_gun: 57
@@ -6706,6 +6800,14 @@
     voice: 4
     dialog: Welcome, Commander. Allow me to repeat the rules—in seven days, whoever captures me will get the whole bounty... Now let the hunt begin.
     order: 99
+  }
+  {
+    id: 30005
+    name: A Peaceful Afternoon with the Dogs
+    fit_gun: 378
+    voice: 4
+    dialog: It's quite sunny in the afternoon; perfect weather for grooming you guys. See, Uncle? Even Samo agrees with me.
+    order: 102
   }
   {
     id: 30006

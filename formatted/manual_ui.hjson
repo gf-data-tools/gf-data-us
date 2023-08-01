@@ -1592,18 +1592,24 @@
     id: 541212
     code_a: AR18_NPC
     description_a: Friendly Echelons
+    description_b: Clothing
+    description_c: Put on
     code_b: Console_Icon
   }
   {
     id: 541213
     code_a: AR18_NPC
     description_a: Friendly Echelons
+    description_b: Bar
+    description_c: Have a drink
     code_b: Console_Icon
   }
   {
     id: 541222
     code_a: AR18_NPC
     description_a: Friendly Echelons
+    description_b: Hidden Chamber
+    description_c: Confirm
     code_b: Console_Icon
   }
   {
@@ -1611,6 +1617,7 @@
     code_a: AR18_NPC
     description_a: Friendly Echelons
     description_b: Airstrike Guidance
+    description_c: Begin Navigation
     code_b: Console_Icon
   }
   {
@@ -1643,12 +1650,14 @@
     code_a: LiftBlue
     description_a: Friendly Echelons
     description_b: Elevator
+    description_c: Board
     code_b: Console_Icon
   }
   {
     id: 542402
     code_a: ColtWalker_NPC
     description_a: Friendly Echelons
+    description_b: Security Authentication
     description_c: Crack
     code_b: Console_Icon
   }
@@ -1656,6 +1665,7 @@
     id: 542411
     code_a: ColtWalker_NPC
     description_a: Friendly Echelons
+    description_b: Mirror Node
     description_c: Deploy
     code_b: Console_Icon
     is_manual_target: 2
@@ -1664,12 +1674,16 @@
     id: 542711
     code_a: Erma_NPC
     description_a: Friendly Echelons
+    description_b: Extraction Point
+    description_c: Withdraw
     code_b: Console_Icon
   }
   {
     id: 543921
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Mode
+    description_c: Switch
     code_b: Console_Icon
   }
   {
@@ -1685,6 +1699,7 @@
     id: 544112
     code_a: ColtWalker_NPC
     description_a: Friendly Echelons
+    description_b: Jamming Device
     description_c: Start up
     code_b: Console_Icon
     is_manual_target: 2
@@ -1702,6 +1717,7 @@
     id: 544114
     code_a: Build_PortableEMP
     description_a: Friendly Echelons
+    description_b: Neural Shock Bomb
     description_c: Pick Up
     code_b: Console_Icon
   }
@@ -1709,6 +1725,7 @@
     id: 544124
     code_a: Build_PortableEMP
     description_a: Friendly Echelons
+    description_b: Neural Shock Bomb
     description_c: Throw
     code_b: Console_Icon
     is_manual_target: 2
@@ -1717,6 +1734,7 @@
     id: 544211
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Watch
     description_c: Pick Up
     code_b: Console_Icon
   }
@@ -1724,6 +1742,7 @@
     id: 544212
     code_a: tong
     description_a: Friendly Echelons
+    description_b: Fuel
     description_c: Pick Up
     code_b: Console_Icon
   }
@@ -1731,6 +1750,8 @@
     id: 544213
     code_a: tong
     description_a: Friendly Echelons
+    description_b: Woods
+    description_c: Ignite
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -1879,6 +1900,7 @@
     id: 590001
     code_a: Rouge_590001
     description_a: Friendly Echelons
+    description_b: Sniper Support
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1887,6 +1909,7 @@
     id: 590002
     code_a: Rouge_590002
     description_a: Friendly Echelons
+    description_b: Sniper Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1895,6 +1918,7 @@
     id: 590003
     code_a: Rouge_590003
     description_a: Friendly Echelons
+    description_b: Spot Cleaning
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1903,6 +1927,7 @@
     id: 590004
     code_a: Rouge_590004
     description_a: Friendly Echelons
+    description_b: Complimentary Bombardment
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1911,6 +1936,7 @@
     id: 590005
     code_a: Rouge_590005
     description_a: Friendly Echelons
+    description_b: Mind's Eye
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1919,6 +1945,7 @@
     id: 590006
     code_a: Rouge_590006
     description_a: Friendly Echelons
+    description_b: Armor-Piercing Bullet
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1927,6 +1954,7 @@
     id: 590101
     code_a: Rouge_590101
     description_a: Friendly Echelons
+    description_b: Artillery Support
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1935,6 +1963,7 @@
     id: 590102
     code_a: Rouge_590102
     description_a: Friendly Echelons
+    description_b: Artillery Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1943,6 +1972,7 @@
     id: 590103
     code_a: Rouge_590103
     description_a: Friendly Echelons
+    description_b: Cluster Bombardment
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1951,6 +1981,7 @@
     id: 590104
     code_a: Rouge_590104
     description_a: Friendly Echelons
+    description_b: Complimentary Airstrike
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1959,6 +1990,7 @@
     id: 590105
     code_a: Rouge_590105
     description_a: Friendly Echelons
+    description_b: Valiant
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1967,6 +1999,7 @@
     id: 590106
     code_a: Rouge_590106
     description_a: Friendly Echelons
+    description_b: Shock Ammunition
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1975,6 +2008,7 @@
     id: 590201
     code_a: Rouge_590201
     description_a: Friendly Echelons
+    description_b: Airstrike Support
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1983,6 +2017,7 @@
     id: 590202
     code_a: Rouge_590202
     description_a: Friendly Echelons
+    description_b: Airstrike Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1991,6 +2026,7 @@
     id: 590203
     code_a: Rouge_590203
     description_a: Friendly Echelons
+    description_b: Carpet Bombing
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -1999,6 +2035,7 @@
     id: 590204
     code_a: Rouge_590204
     description_a: Friendly Echelons
+    description_b: Complimentary Snipe
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2007,6 +2044,7 @@
     id: 590205
     code_a: Rouge_590205
     description_a: Friendly Echelons
+    description_b: Bloodlust
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2015,6 +2053,7 @@
     id: 590206
     code_a: Rouge_590206
     description_a: Friendly Echelons
+    description_b: Raining Fire
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2023,6 +2062,7 @@
     id: 590301
     code_a: Rouge_590301
     description_a: Friendly Echelons
+    description_b: Broken Armor
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2031,6 +2071,7 @@
     id: 590302
     code_a: Rouge_590302
     description_a: Friendly Echelons
+    description_b: Fragile
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2039,6 +2080,7 @@
     id: 590303
     code_a: Rouge_590303
     description_a: Friendly Echelons
+    description_b: Broken Armor Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2047,6 +2089,7 @@
     id: 590401
     code_a: Rouge_590401
     description_a: Friendly Echelons
+    description_b: Shock
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2055,6 +2098,7 @@
     id: 590402
     code_a: Rouge_590402
     description_a: Friendly Echelons
+    description_b: Explosive
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2063,6 +2107,7 @@
     id: 590403
     code_a: Rouge_590403
     description_a: Friendly Echelons
+    description_b: Shock Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2071,6 +2116,7 @@
     id: 590501
     code_a: Rouge_590501
     description_a: Friendly Echelons
+    description_b: Ignite
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2079,6 +2125,7 @@
     id: 590502
     code_a: Rouge_590502
     description_a: Friendly Echelons
+    description_b: Inflammable
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2087,6 +2134,7 @@
     id: 590503
     code_a: Rouge_590503
     description_a: Friendly Echelons
+    description_b: Ignition Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2095,6 +2143,7 @@
     id: 590601
     code_a: Rouge_590601
     description_a: Friendly Echelons
+    description_b: Focus
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2103,6 +2152,7 @@
     id: 590602
     code_a: Rouge_590602
     description_a: Friendly Echelons
+    description_b: Focus Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2111,6 +2161,7 @@
     id: 590603
     code_a: Rouge_590603
     description_a: Friendly Echelons
+    description_b: Inner Peace
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2119,6 +2170,7 @@
     id: 590604
     code_a: Rouge_590604
     description_a: Friendly Echelons
+    description_b: Rapid Fire
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2127,6 +2179,7 @@
     id: 590605
     code_a: Rouge_590605
     description_a: Friendly Echelons
+    description_b: Rapid Fire Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2144,6 +2197,7 @@
     id: 590701
     code_a: Rouge_590701
     description_a: Friendly Echelons
+    description_b: Precision
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2152,6 +2206,7 @@
     id: 590702
     code_a: Rouge_590702
     description_a: Friendly Echelons
+    description_b: Precision Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2160,6 +2215,7 @@
     id: 590703
     code_a: Rouge_590703
     description_a: Friendly Echelons
+    description_b: Mystic Eyes of Death Perception
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2168,6 +2224,7 @@
     id: 590704
     code_a: Rouge_590704
     description_a: Friendly Echelons
+    description_b: Affinity
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2176,6 +2233,7 @@
     id: 590705
     code_a: Rouge_590705
     description_a: Friendly Echelons
+    description_b: Affinity Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2184,6 +2242,7 @@
     id: 590706
     code_a: Rouge_590706
     description_a: Friendly Echelons
+    description_b: Auto Calibration
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2192,6 +2251,7 @@
     id: 590801
     code_a: Rouge_590801
     description_a: Friendly Echelons
+    description_b: Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2200,6 +2260,7 @@
     id: 590802
     code_a: Rouge_590802
     description_a: Friendly Echelons
+    description_b: Enhancement Increase
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2208,6 +2269,7 @@
     id: 590901
     code_a: Rouge_590901
     description_a: Friendly Echelons
+    description_b: Patience
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2216,6 +2278,7 @@
     id: 590902
     code_a: Rouge_590902
     description_a: Friendly Echelons
+    description_b: Patience Increase
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2224,6 +2287,7 @@
     id: 591001
     code_a: Rouge_591001
     description_a: Friendly Echelons
+    description_b: Assault Rifle Focus
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2232,6 +2296,7 @@
     id: 591002
     code_a: Rouge_591002
     description_a: Friendly Echelons
+    description_b: Assault Rifle Precision
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2240,6 +2305,7 @@
     id: 591003
     code_a: Rouge_591003
     description_a: Friendly Echelons
+    description_b: Assault Rifle Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2248,6 +2314,7 @@
     id: 591004
     code_a: Rouge_591004
     description_a: Friendly Echelons
+    description_b: Bombardment Squad
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2256,6 +2323,7 @@
     id: 591101
     code_a: Rouge_591101
     description_a: Friendly Echelons
+    description_b: Submachine Gun Affinity
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2264,6 +2332,7 @@
     id: 591102
     code_a: Rouge_591102
     description_a: Friendly Echelons
+    description_b: Submachine Gun Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2272,6 +2341,7 @@
     id: 591103
     code_a: Rouge_591103
     description_a: Friendly Echelons
+    description_b: Submachine Gun Patience
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2280,6 +2350,7 @@
     id: 591104
     code_a: Rouge_591104
     description_a: Friendly Echelons
+    description_b: Incendiary Grenade
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2288,6 +2359,7 @@
     id: 591201
     code_a: Rouge_591201
     description_a: Friendly Echelons
+    description_b: Rifle Rapid Fire
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2296,6 +2368,7 @@
     id: 591202
     code_a: Rouge_591202
     description_a: Friendly Echelons
+    description_b: Rifle Affinity
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2304,6 +2377,7 @@
     id: 591203
     code_a: Rouge_591203
     description_a: Friendly Echelons
+    description_b: Rifle Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2312,6 +2386,7 @@
     id: 591204
     code_a: Rouge_591204
     description_a: Friendly Echelons
+    description_b: Sniping Team
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2320,6 +2395,7 @@
     id: 591301
     code_a: Rouge_591301
     description_a: Friendly Echelons
+    description_b: Handgun Focus
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2328,6 +2404,7 @@
     id: 591302
     code_a: Rouge_591302
     description_a: Friendly Echelons
+    description_b: Handgun Rapid Fire
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2336,6 +2413,7 @@
     id: 591303
     code_a: Rouge_591303
     description_a: Friendly Echelons
+    description_b: Handgun Precision
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2344,6 +2422,7 @@
     id: 591304
     code_a: Rouge_591304
     description_a: Friendly Echelons
+    description_b: Handgun Affinity
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2352,6 +2431,7 @@
     id: 591401
     code_a: Rouge_591401
     description_a: Friendly Echelons
+    description_b: Machine Gun Precision
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2360,6 +2440,7 @@
     id: 591402
     code_a: Rouge_591402
     description_a: Friendly Echelons
+    description_b: Machine Gun Affinity
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2368,6 +2449,7 @@
     id: 591403
     code_a: Rouge_591403
     description_a: Friendly Echelons
+    description_b: Machine Gun Enhancement
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2376,6 +2458,7 @@
     id: 591404
     code_a: Rouge_591404
     description_a: Friendly Echelons
+    description_b: Airstrike Team
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2384,6 +2467,7 @@
     id: 591501
     code_a: Rouge_591501
     description_a: Friendly Echelons
+    description_b: Shotgun Focus
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2392,6 +2476,7 @@
     id: 591502
     code_a: Rouge_591502
     description_a: Friendly Echelons
+    description_b: Shotgun Patience
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2400,6 +2485,7 @@
     id: 591503
     code_a: Rouge_591503
     description_a: Friendly Echelons
+    description_b: Broken Armor Strike
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2408,6 +2494,7 @@
     id: 591504
     code_a: Rouge_591504
     description_a: Friendly Echelons
+    description_b: Shock Strike
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2416,6 +2503,7 @@
     id: 592001
     code_a: Rouge_592001
     description_a: Friendly Echelons
+    description_b: Bullet Mania
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2424,6 +2512,7 @@
     id: 592002
     code_a: Rouge_592002
     description_a: Friendly Echelons
+    description_b: Hero in the Making
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2432,6 +2521,7 @@
     id: 592003
     code_a: Rouge_592003
     description_a: Friendly Echelons
+    description_b: Unbridled Fury
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2440,6 +2530,7 @@
     id: 592004
     code_a: Rouge_592004
     description_a: Friendly Echelons
+    description_b: Bloodthirsty Fury
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2448,6 +2539,7 @@
     id: 592101
     code_a: Rouge_592101
     description_a: Friendly Echelons
+    description_b: Mechanical Barrier
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2456,6 +2548,7 @@
     id: 592102
     code_a: Rouge_592102
     description_a: Friendly Echelons
+    description_b: Multi-Sided Defense
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2464,6 +2557,7 @@
     id: 592103
     code_a: Rouge_592103
     description_a: Friendly Echelons
+    description_b: Deflection Shield
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2472,6 +2566,7 @@
     id: 592104
     code_a: Rouge_592104
     description_a: Friendly Echelons
+    description_b: Surge Shield
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2480,6 +2575,7 @@
     id: 592105
     code_a: Rouge_592105
     description_a: Friendly Echelons
+    description_b: Stasis Field
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2488,6 +2584,7 @@
     id: 592106
     code_a: Rouge_592106
     description_a: Friendly Echelons
+    description_b: Protective Shell
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2496,6 +2593,7 @@
     id: 592107
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Synergistic Taunt
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2504,6 +2602,7 @@
     id: 592108
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Unexpected Surprise
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2512,6 +2611,7 @@
     id: 592201
     code_a: Rouge_592201
     description_a: Friendly Echelons
+    description_b: Sniper Guidance
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2520,6 +2620,7 @@
     id: 592202
     code_a: Rouge_592202
     description_a: Friendly Echelons
+    description_b: Rub Salt in the Wound
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2528,6 +2629,7 @@
     id: 592203
     code_a: Rouge_592203
     description_a: Friendly Echelons
+    description_b: Bombardment Guidance
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2536,6 +2638,7 @@
     id: 592204
     code_a: Rouge_592204
     description_a: Friendly Echelons
+    description_b: Kick a Man When He's Down
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2553,6 +2656,7 @@
     id: 592206
     code_a: Rouge_592206
     description_a: Friendly Echelons
+    description_b: Loot a Burning House
     description_c: Upgrade
     code_b: Console_Icon
     is_manual_target: 3
@@ -2561,6 +2665,7 @@
     id: 593001
     code_a: Rouge_593001
     description_a: Friendly Echelons
+    description_b: Warrior Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2569,6 +2674,7 @@
     id: 593002
     code_a: Rouge_593002
     description_a: Friendly Echelons
+    description_b: Fury Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2577,18 +2683,23 @@
     id: 593011
     code_a: Rouge_593001
     description_a: Friendly Echelons
+    description_b: Battle Efficiency - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593012
     code_a: Rouge_593002
     description_a: Friendly Echelons
+    description_b: Unlimited Rage - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593103
     code_a: Rouge_593103
     description_a: Friendly Echelons
+    description_b: Armor Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2597,6 +2708,7 @@
     id: 593104
     code_a: Rouge_593104
     description_a: Friendly Echelons
+    description_b: Shield Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2605,6 +2717,7 @@
     id: 593105
     code_a: Rouge_593105
     description_a: Friendly Echelons
+    description_b: Defense Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2613,6 +2726,7 @@
     id: 593106
     code_a: Rouge_593106
     description_a: Friendly Echelons
+    description_b: Taunt Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2621,30 +2735,39 @@
     id: 593113
     code_a: Rouge_593103
     description_a: Friendly Echelons
+    description_b: Riot Control - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593114
     code_a: Rouge_593104
     description_a: Friendly Echelons
+    description_b: Energy Shield - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593115
     code_a: Rouge_593105
     description_a: Friendly Echelons
+    description_b: Temporary Armor - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593116
     code_a: Rouge_593106
     description_a: Friendly Echelons
+    description_b: Taunt Target - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593201
     code_a: Rouge_593201
     description_a: Friendly Echelons
+    description_b: Sniper Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2653,6 +2776,7 @@
     id: 593202
     code_a: Rouge_593202
     description_a: Friendly Echelons
+    description_b: Bombardment Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2661,6 +2785,7 @@
     id: 593203
     code_a: Rouge_593203
     description_a: Friendly Echelons
+    description_b: Airstrike Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2669,24 +2794,31 @@
     id: 593211
     code_a: Rouge_593201
     description_a: Friendly Echelons
+    description_b: Sniper Command - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593212
     code_a: Rouge_593202
     description_a: Friendly Echelons
+    description_b: Bombardment Command - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593213
     code_a: Rouge_593203
     description_a: Friendly Echelons
+    description_b: Fatal Airstrike - Modded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593301
     code_a: Rouge_593301
     description_a: Friendly Echelons
+    description_b: Hot-Blooded Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2695,6 +2827,7 @@
     id: 593302
     code_a: Rouge_593302
     description_a: Friendly Echelons
+    description_b: Focus Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2703,6 +2836,7 @@
     id: 593303
     code_a: Rouge_593303
     description_a: Friendly Echelons
+    description_b: Interference Drone
     description_c: Gain
     code_b: Console_Icon
     is_manual_target: 3
@@ -2711,24 +2845,31 @@
     id: 593311
     code_a: Rouge_593301
     description_a: Friendly Echelons
+    description_b: Hot-blooded
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593312
     code_a: Rouge_593302
     description_a: Friendly Echelons
+    description_b: Concentration
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 593313
     code_a: Rouge_593303
     description_a: Friendly Echelons
+    description_b: Interference
+    description_c: Use
     code_b: Console_Icon
   }
   {
     id: 595101
     code_a: PortalRed
     description_a: Friendly Echelons
+    description_b: Next Level
     description_c: Teleport
     code_b: Console_Icon
   }
@@ -2736,24 +2877,32 @@
     id: 597021
     code_a: Rouge_597021
     description_a: Friendly Echelons
+    description_b: Joint Assault
+    description_c: Effect Obtained
     code_b: Console_Icon
   }
   {
     id: 597022
     code_a: Rouge_590601
     description_a: Friendly Echelons
+    description_b: Focus
+    description_c: Effect Obtained
     code_b: Console_Icon
   }
   {
     id: 597023
     code_a: Rouge_590801
     description_a: Friendly Echelons
+    description_b: Enhancement
+    description_c: Effect Obtained
     code_b: Console_Icon
   }
   {
     id: 599010
     code_a: PortalRed
     description_a: Friendly Echelons
+    description_b: Teleport Node α
+    description_c: Switch Positions
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -2761,6 +2910,7 @@
     id: 599111
     code_a: PortalRed
     description_a: Friendly Echelons
+    description_b: Teleport Node I
     description_c: Teleport
     code_b: Console_Icon
     is_manual_target: 2
@@ -5470,6 +5620,7 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Top left
     code_b: Console_Icon
   }
   {
@@ -5477,6 +5628,7 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Top right
     code_b: Console_Icon
   }
   {
@@ -5484,6 +5636,7 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Bottom left
     code_b: Console_Icon
   }
   {
@@ -5491,30 +5644,39 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Bottom right
     code_b: Console_Icon
   }
   {
     id: 6540005
     code_a: a545-npc
     description_a: Friendly Echelons
+    description_b: Noonday Star
+    description_c: Mission
     code_b: Console_Icon
   }
   {
     id: 6540006
     code_a: pkp-npc
     description_a: Friendly Echelons
+    description_b: Squad Morningstar
+    description_c: Mission
     code_b: Console_Icon
   }
   {
     id: 6540007
     code_a: pm1910-npc
     description_a: Friendly Echelons
+    description_b: Squad Evenstar
+    description_c: Mission
     code_b: Console_Icon
   }
   {
     id: 6540008
     code_a: AR18_NPC
     description_a: Friendly Echelons
+    description_b: Midnight Star
+    description_c: Mission
     code_b: Console_Icon
   }
   {
@@ -5522,36 +5684,47 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Operate
     code_b: Console_Icon
   }
   {
     id: 6540010
     code_a: a545-npc
     description_a: Friendly Echelons
+    description_b: Noonday Star
+    description_c: Obtain Authorization
     code_b: Console_Icon
   }
   {
     id: 6540011
     code_a: pkp-npc
     description_a: Friendly Echelons
+    description_b: Squad Morningstar
+    description_c: Obtain Authorization
     code_b: Console_Icon
   }
   {
     id: 6540012
     code_a: pm1910-npc
     description_a: Friendly Echelons
+    description_b: Squad Evenstar
+    description_c: Obtain Authorization
     code_b: Console_Icon
   }
   {
     id: 6540013
     code_a: AR18_NPC
     description_a: Friendly Echelons
+    description_b: Midnight Star
+    description_c: Obtain Authorization
     code_b: Console_Icon
   }
   {
     id: 6540014
     code_a: Console
     description_a: Friendly Echelons
+    description_b: HIMARS
+    description_c: Bombard
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -5559,6 +5732,8 @@
     id: 6540015
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Flare
+    description_c: Illuminate
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -5567,6 +5742,7 @@
     code_a: PortableEMP_Nobase
     description_a: Friendly Echelons
     description_b: EMP Grenades
+    description_c: Throw EMP
     code_b: Console_Icon
     is_manual_target: 1
   }
@@ -5584,6 +5760,7 @@
     code_a: Viscosity_Bomb
     description_a: Friendly Echelons
     description_b: Plastic Explosive
+    description_c: Install
     code_b: Console_Icon
   }
   {
@@ -5640,6 +5817,7 @@
     id: 6540025
     code_a: ColtWalker_NPC
     description_a: Friendly Echelons
+    description_b: Walker
     description_c: Hack
     code_b: Console_Icon
   }
@@ -5647,12 +5825,16 @@
     id: 6540026
     code_a: Console
     description_a: Friendly Echelons
+    description_b: Wolf Pack
+    description_c: Analyze
     code_b: Console_Icon
   }
   {
     id: 6540027
     code_a: Erma_NPC
     description_a: Friendly Echelons
+    description_b: Erma
+    description_c: Discard
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -5661,7 +5843,7 @@
     code_a: Viscosity_Bomb
     description_a: Friendly Echelons
     description_b: Plastic Explosive
-    description_c: Disarm
+    description_c: Dismantle
     code_b: Console_Icon
   }
   {
@@ -5684,7 +5866,7 @@
     id: 6560004
     code_a: Scar_H_moon
     description_a: Friendly Echelons
-    description_b: Moon Sigils
+    description_b: Moon Sigil
     description_c: Retrieve
     code_b: Console_Icon
   }
@@ -5726,7 +5908,7 @@
     id: 6560009
     code_a: SCAR_H
     description_a: Friendly Echelons
-    description_b: Enhance
+    description_b: Ability Eruption
     description_c: Suppress
     code_b: Console_Icon
     is_manual_target: 2
@@ -7297,6 +7479,7 @@
     code_a: Detonator
     description_a: Friendly Echelons
     description_b: Detonator
+    description_c: Detonate ①
     code_b: Squad_Icon
   }
   {
@@ -7304,6 +7487,7 @@
     code_a: Detonator
     description_a: Friendly Echelons
     description_b: Detonator
+    description_c: Detonate ②
     code_b: Squad_Icon
   }
   {
@@ -7311,6 +7495,7 @@
     code_a: Detonator
     description_a: Friendly Echelons
     description_b: Detonator
+    description_c: Detonate ③
     code_b: Squad_Icon
   }
   {
@@ -7318,6 +7503,7 @@
     code_a: Detonator
     description_a: Friendly Echelons
     description_b: Detonator
+    description_c: Detonate ④
     code_b: Squad_Icon
   }
   {
@@ -7325,6 +7511,7 @@
     code_a: Detonator
     description_a: Friendly Echelons
     description_b: Detonator
+    description_c: Detonate ⑤
     code_b: Squad_Icon
   }
   {
@@ -7332,6 +7519,7 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Obtain Bombardment Authorization
     code_b: Console_Icon
   }
   {
@@ -7339,6 +7527,7 @@
     code_a: Console
     description_a: Friendly Echelons
     description_b: Control Terminal
+    description_c: Easy Boss
     code_b: Console_Icon
   }
 ]

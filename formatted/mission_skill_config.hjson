@@ -15719,6 +15719,7 @@
   }
   {
     id: 540400
+    name: Don't translate
     skill_group_id: 540400
     level: 1
     spot_type: "-1"
@@ -15752,6 +15753,8 @@
   }
   {
     id: 541203
+    name: Bar Counter
+    description: A bar counter with countless bottles of liquor.
     skill_group_id: 541203
     level: 1
     spot_type: "-1"
@@ -15773,6 +15776,8 @@
   }
   {
     id: 541212
+    name: Disguise
+    description: Change into the bandit bodyguard's clothing to disguise yourself as one of them. Enemies will not attack disguised units.
     skill_group_id: 541212
     level: 1
     spot_type: "-1"
@@ -15787,6 +15792,8 @@
   }
   {
     id: 541213
+    name: Have A Drink
+    description: Mix a strong drink for a target, which will put them out of action for good. Can only be used once.
     skill_group_id: 541213
     level: 1
     spot_type: "-1"
@@ -15802,6 +15809,8 @@
   }
   {
     id: 541222
+    name: Hidden Chamber
+    description: A small room that can't be seen from outside. This seems like the perfect place to conduct some sneaky business.
     skill_group_id: 541222
     level: 1
     spot_type: "-1"
@@ -15847,6 +15856,7 @@
   }
   {
     id: 541303
+    name: Don't translate
     skill_group_id: 541303
     level: 1
     spot_type: "-1"
@@ -15859,6 +15869,7 @@
   {
     id: 541311
     name: Airstrike Guidance
+    description: Guided Airstrike. Call down a devastating air strike that affects all units and facilities within a 1-node radius of self at the start of the next round. Cannot move after enacted, but this cannot be cancelled by any means, including death.
     skill_group_id: 541311
     level: 1
     spot_type: "-1"
@@ -15874,6 +15885,7 @@
   {
     id: 541313
     name: Throw
+    description: Throw an abandoned Goliath to blow up the rubble.
     skill_group_id: 541313
     level: 1
     spot_type: "-1"
@@ -15889,6 +15901,7 @@
   {
     id: 541314
     name: Pick Up
+    description: Pick up Abandoned Goliath. Note: Goliaths can only be used to destroy rubbles on this map.
     skill_group_id: 541314
     level: 1
     spot_type: "-1"
@@ -15959,6 +15972,7 @@
   {
     id: 541411
     name: Launch Fireworks
+    description: Set off fireworks to draw a crowd, rendering a node inaccessible. Can only be used once.
     skill_group_id: 541411
     level: 1
     spot_type: "-1"
@@ -15973,6 +15987,7 @@
   {
     id: 541412
     name: Board Elevator
+    description: Enter the elevator to reach another level.
     skill_group_id: 541412
     level: 1
     spot_type: "-1"
@@ -15986,6 +16001,8 @@
   }
   {
     id: 541413
+    name: Enter
+    description: Enter the elevator to reach another level.
     skill_group_id: 541413
     level: 1
     spot_type: "-1"
@@ -15999,6 +16016,8 @@
   }
   {
     id: 541414
+    name: Enter
+    description: Enter the elevator to reach another level.
     skill_group_id: 541414
     level: 1
     spot_type: "-1"
@@ -16024,6 +16043,7 @@
   {
     id: 542402
     name: Crack
+    description: Decrypt the train's system and pass the security authentication.
     skill_group_id: 542402
     level: 1
     spot_type: "-1"
@@ -16038,6 +16058,7 @@
   {
     id: 542403
     name: Crack
+    description: Decrypt the train's system and pass the security authentication.
     skill_group_id: 542403
     level: 1
     spot_type: "-1"
@@ -16052,6 +16073,7 @@
   {
     id: 542404
     name: Crack
+    description: Decrypt the train's system and pass the security authentication.
     skill_group_id: 542404
     level: 1
     spot_type: "-1"
@@ -16066,6 +16088,7 @@
   {
     id: 542405
     name: Crack
+    description: Decrypt the train's system and pass the security authentication.
     skill_group_id: 542405
     level: 1
     spot_type: "-1"
@@ -16079,6 +16102,8 @@
   }
   {
     id: 542411
+    name: Mirror Transport
+    description: Place a teleport node. Stepping on the node will teleport the echelon to a mirror location on the other side of the map. There can only be one of such node on the battlefield at any given time.
     skill_group_id: 542411
     level: 1
     spot_type: "-1"
@@ -16116,6 +16141,8 @@
   }
   {
     id: 542711
+    name: Withdraw
+    description: Exit Exhibition Hall
     skill_group_id: 542711
     level: 1
     spot_type: "-1"
@@ -16129,6 +16156,8 @@
   }
   {
     id: 542712
+    name: Withdraw
+    description: Exit Exhibition Hall
     skill_group_id: 542712
     level: 1
     spot_type: "-1"
@@ -16142,6 +16171,8 @@
   }
   {
     id: 542713
+    name: Withdraw
+    description: Exit Exhibition Hall
     skill_group_id: 542713
     level: 1
     spot_type: "-1"
@@ -16166,6 +16197,8 @@
   }
   {
     id: 542902
+    name: Autocannon
+    description: An autocannon with two modes. When set to fire, it will turn its target into Swiss cheese.
     skill_group_id: 542902
     level: 1
     spot_type: "-1"
@@ -16199,6 +16232,7 @@
   {
     id: 543114
     name: Pick Up
+    description: Pick Up Neural Shock Bomb
     skill_group_id: 543114
     level: 1
     spot_type: "-1"
@@ -16213,6 +16247,8 @@
   }
   {
     id: 543124
+    name: Decelerate
+    description: Disrupt the target's neural cloud and reduce their move speed for the rest of the mission.
     skill_group_id: 543124
     level: 1
     spot_type: "-1"
@@ -16228,6 +16264,8 @@
   }
   {
     id: 543134
+    name: Decelerate
+    description: Disrupt the target's neural cloud and reduce their move speed for the rest of the mission.
     skill_group_id: 543134
     level: 1
     spot_type: "-1"
@@ -16508,6 +16546,7 @@
   {
     id: 543921
     name: Switch
+    description: Input the command to put the autocannon array on standby mode and reduce the number of triggered cannons.
     skill_group_id: 543921
     level: 1
     spot_type: "-1"
@@ -16585,6 +16624,7 @@
   {
     id: 543931
     name: Switch
+    description: Input the command to put the autocannon array on standby mode and reduce the number of triggered cannons.
     skill_group_id: 543931
     level: 1
     spot_type: "-1"
@@ -16728,6 +16768,8 @@
   }
   {
     id: 544111
+    name: Neural Transfer
+    description: Place a teleport node. Stepping on the node will teleport the echelon to the corresponding location in Zone α. The teleport node lasts 1 round and cannot be placed in Zones α and β at the same time.
     skill_group_id: 544111
     level: 1
     spot_type: "-1"
@@ -16741,6 +16783,8 @@
   }
   {
     id: 544112
+    name: Activate Jamming Device
+    description: Activate a jamming device to destroy the enemy's defense shield.
     skill_group_id: 544112
     level: 1
     spot_type: "-1"
@@ -16755,6 +16799,8 @@
   }
   {
     id: 544113
+    name: Defense Gate activated
+    description: Activate Defense Gate
     skill_group_id: 544113
     level: 1
     spot_type: "-1"
@@ -16770,6 +16816,7 @@
   {
     id: 544114
     name: Pick Up
+    description: Pick Up Neural Shock Bomb
     skill_group_id: 544114
     level: 1
     spot_type: "-1"
@@ -16784,6 +16831,8 @@
   }
   {
     id: 544121
+    name: Neural Transfer
+    description: Place a teleport node. Stepping on the node will teleport the echelon to the corresponding location in Zone β. The teleport node lasts 1 round and cannot be placed in Zones α and β at the same time.
     skill_group_id: 544121
     level: 1
     spot_type: "-1"
@@ -16797,6 +16846,8 @@
   }
   {
     id: 544124
+    name: Decelerate
+    description: Disrupt the target's neural cloud and drastically reduce their move speed for 1 round.
     skill_group_id: 544124
     level: 1
     spot_type: "-1"
@@ -16902,6 +16953,8 @@
   }
   {
     id: 544211
+    name: Pick Up Watch
+    description: Pick up the broken watch.
     skill_group_id: 544211
     level: 1
     spot_type: "-1"
@@ -16916,6 +16969,8 @@
   }
   {
     id: 544212
+    name: Fuel Obtained
+    description: Siphon fuel from the fuel barrel. It can be used to set fire to the woods.
     skill_group_id: 544212
     level: 1
     spot_type: "-1"
@@ -16930,6 +16985,8 @@
   }
   {
     id: 544213
+    name: Ignite
+    description: Set fire to the woods. The burning node will deal continuous damage to echelons and block reinforcements.
     skill_group_id: 544213
     level: 1
     spot_type: "-1"
@@ -44840,7 +44897,9 @@
   }
   {
     id: 6540008
+    name: Select the breakthrough point
     code: "1"
+    description: Seize the heliport in the corresponding area.
     skill_group_id: 6540008
     level: 1
     spot_type: "-1"
@@ -44854,7 +44913,9 @@
   }
   {
     id: 6540009
+    name: Select the breakthrough point
     code: "1"
+    description: Seize the heliport in the corresponding area.
     skill_group_id: 6540009
     level: 1
     spot_type: "-1"
@@ -44868,7 +44929,9 @@
   }
   {
     id: 6540010
+    name: Select the breakthrough point
     code: "1"
+    description: Seize the heliport in the corresponding area.
     skill_group_id: 6540010
     level: 1
     spot_type: "-1"
@@ -44882,7 +44945,9 @@
   }
   {
     id: 6540011
+    name: Select the breakthrough point
     code: "1"
+    description: Seize the heliport in the corresponding area.
     skill_group_id: 6540011
     level: 1
     spot_type: "-1"
@@ -44896,7 +44961,9 @@
   }
   {
     id: 6540012
+    name: Accept the mission
     code: "1"
+    description: Accept the mission
     skill_group_id: 6540012
     level: 1
     spot_type: "-1"
@@ -44914,7 +44981,9 @@
   }
   {
     id: 6540013
+    name: Accept the mission
     code: "1"
+    description: Accept the mission
     skill_group_id: 6540013
     level: 1
     spot_type: "-1"
@@ -44933,7 +45002,9 @@
   }
   {
     id: 6540014
+    name: Accept the mission
     code: "1"
+    description: Accept the mission
     skill_group_id: 6540014
     level: 1
     spot_type: "-1"
@@ -44951,7 +45022,9 @@
   }
   {
     id: 6540015
+    name: Accept the mission
     code: "1"
+    description: Accept the mission
     skill_group_id: 6540015
     level: 1
     spot_type: "-1"
@@ -44969,7 +45042,9 @@
   }
   {
     id: 6540016
+    name: Complete the mission
     code: "1"
+    description: Complete the mission
     skill_group_id: 6540016
     level: 1
     spot_type: "-1"
@@ -44993,7 +45068,9 @@
   }
   {
     id: 6540018
+    name: Complete the mission
     code: "1"
+    description: Complete the mission
     skill_group_id: 6540018
     level: 1
     spot_type: "-1"
@@ -45009,7 +45086,9 @@
   }
   {
     id: 6540019
+    name: Complete the mission
     code: "1"
+    description: Complete the mission
     skill_group_id: 6540019
     level: 1
     spot_type: "-1"
@@ -45150,7 +45229,9 @@
   }
   {
     id: 6540030
+    name: Operate Control Panel I
     code: "1"
+    description: Operate the control panel.
     skill_group_id: 6540030
     level: 1
     spot_type: "-1"
@@ -45164,7 +45245,9 @@
   }
   {
     id: 6540031
+    name: Operate Control Panel II
     code: "1"
+    description: Operate the control panel.
     skill_group_id: 6540031
     level: 1
     spot_type: "-1"
@@ -45178,7 +45261,9 @@
   }
   {
     id: 6540032
+    name: Operate Control Panel III
     code: "1"
+    description: Operate the control panel.
     skill_group_id: 6540032
     level: 1
     spot_type: "-1"
@@ -45192,7 +45277,9 @@
   }
   {
     id: 6540033
+    name: Operate Control Panel IV
     code: "1"
+    description: Operate the control panel.
     skill_group_id: 6540033
     level: 1
     spot_type: "-1"
@@ -45254,7 +45341,9 @@
   }
   {
     id: 6540038
+    name: Operate Control Panel V
     code: "1"
+    description: Authorization for remote fire support obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540038
     level: 1
     spot_type: "-1"
@@ -45270,7 +45359,9 @@
   }
   {
     id: 6540039
+    name: Operate Control Panel V
     code: "1"
+    description: Authorization for illumination obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540039
     level: 1
     spot_type: "-1"
@@ -45286,7 +45377,9 @@
   }
   {
     id: 6540040
+    name: Operate Control Panel V
     code: "1"
+    description: Authorization for mortar support obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540040
     level: 1
     spot_type: "-1"
@@ -45302,7 +45395,9 @@
   }
   {
     id: 6540041
+    name: Operate Control Panel V
     code: "1"
+    description: EMP obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540041
     level: 1
     spot_type: "-1"
@@ -45318,7 +45413,9 @@
   }
   {
     id: 6540042
+    name: This Coalition Echelon has obtained support authorization.
     code: "1"
+    description: Goliath obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540042
     level: 1
     spot_type: "-1"
@@ -45334,7 +45431,9 @@
   }
   {
     id: 6540043
+    name: This Coalition Echelon has obtained support authorization.
     code: "1"
+    description: Visual range enlarged (this can only be obtained once, use it wisely).
     skill_group_id: 6540043
     level: 1
     spot_type: "-1"
@@ -45350,7 +45449,9 @@
   }
   {
     id: 6540044
+    name: This Coalition Echelon has obtained support authorization.
     code: "1"
+    description: Battlefield buff obtained (this can only be obtained once, use it wisely).
     skill_group_id: 6540044
     level: 1
     spot_type: "-1"
@@ -45366,7 +45467,9 @@
   }
   {
     id: 6540045
+    name: This Coalition Echelon has obtained support authorization.
     code: "1"
+    description: Stats have increased by 20% (this can only be obtained once, use it wisely).
     skill_group_id: 6540045
     level: 1
     spot_type: "-1"
@@ -45516,7 +45619,9 @@
   }
   {
     id: 6540057
+    name: Remote Fire Support
     code: "1"
+    description: Select an enemy echelon within a 5-node distance to bombard. Cooldown: 1 round.
     skill_group_id: 6540057
     level: 1
     spot_type: "-1"
@@ -45530,7 +45635,9 @@
   }
   {
     id: 6540058
+    name: Illumination
     code: "1"
+    description: Select a node within a 2-node distance to illuminate. 60% of night battle penalty is negated on illuminated nodes. Cooldown: 1 round.
     skill_group_id: 6540058
     level: 1
     spot_type: "-1"
@@ -45544,7 +45651,9 @@
   }
   {
     id: 6540059
+    name: Throw EMP
     code: "1"
+    description: Throw an EMP. Cooldown: 1 round.
     skill_group_id: 6540059
     level: 1
     spot_type: "-1"
@@ -45558,7 +45667,9 @@
   }
   {
     id: 6540060
+    name: Throw Goliath
     code: "1"
+    description: Throw a Goliath. Cooldown: 1 round.
     skill_group_id: 6540060
     level: 1
     spot_type: "-1"
@@ -45624,7 +45735,9 @@
   }
   {
     id: 6540065
+    name: Plant Plastic Explosive
     code: "1"
+    description: Plant a plastic explosive charge, which detonates in the next turn.
     skill_group_id: 6540065
     level: 1
     spot_type: "-1"
@@ -46086,6 +46199,7 @@
     id: 6540102
     name: Open Defense Gate I
     code: "1"
+    description: Open Defense Gate.
     skill_group_id: 6540102
     level: 1
     spot_type: "-1"
@@ -46100,7 +46214,9 @@
   }
   {
     id: 6540103
+    name: Initialize Defense Gate II
     code: "1"
+    description: Open Defense Gate
     skill_group_id: 6540103
     level: 1
     spot_type: "-1"
@@ -46115,7 +46231,9 @@
   }
   {
     id: 6540104
+    name: Initialize Defense Gate III
     code: "1"
+    description: Open Defense Gate
     skill_group_id: 6540104
     level: 1
     spot_type: "-1"
@@ -46168,6 +46286,7 @@
     id: 6540108
     name: Pick Up Goliath
     code: "1"
+    description: Pick Up Goliath
     skill_group_id: 6540108
     level: 1
     spot_type: "-1"
@@ -46184,6 +46303,7 @@
     id: 6540109
     name: Throw Goliath
     code: "1"
+    description: Throw a Goliath.
     skill_group_id: 6540109
     level: 1
     spot_type: "-1"
@@ -46234,7 +46354,9 @@
   }
   {
     id: 6540113
+    name: Decrypt
     code: "1"
+    description: Access the passcode panel.
     skill_group_id: 6540113
     level: 1
     spot_type: "-1"
@@ -46250,7 +46372,9 @@
   }
   {
     id: 6540114
+    name: Decrypt
     code: "1"
+    description: Access the passcode panel.
     skill_group_id: 6540114
     level: 1
     spot_type: "-1"
@@ -46266,7 +46390,9 @@
   }
   {
     id: 6540115
+    name: Decrypt
     code: "1"
+    description: Access the passcode panel.
     skill_group_id: 6540115
     level: 1
     spot_type: "-1"
@@ -46326,6 +46452,7 @@
     id: 6540119
     name: Pick Up Plastic Explosive
     code: "1"
+    description: Pick up plastic explosive.
     skill_group_id: 6540119
     level: 1
     spot_type: "-1"
@@ -46340,7 +46467,9 @@
   }
   {
     id: 6540120
+    name: Throw Plastic Explosive
     code: "1"
+    description: Throw a plastic explosive charge.
     skill_group_id: 6540120
     level: 1
     spot_type: "-1"
@@ -46369,6 +46498,7 @@
     id: 6540122
     name: Throw Goliath
     code: "1"
+    description: Throw a Goliath.
     skill_group_id: 6540122
     level: 1
     spot_type: "-1"
@@ -46395,7 +46525,9 @@
   }
   {
     id: 6540124
+    name: Hack System
     code: "1"
+    description: Hack the mech's system.
     skill_group_id: 6540124
     level: 1
     spot_type: "-1"
@@ -46500,7 +46632,9 @@
   }
   {
     id: 6540132
+    name: Analyze
     code: "1"
+    description: Begin analysis.
     skill_group_id: 6540132
     level: 1
     spot_type: "-1"
@@ -46549,7 +46683,9 @@
   }
   {
     id: 6540136
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 4
     skill_group_id: 6540136
     level: 1
     spot_type: "-1"
@@ -46577,7 +46713,9 @@
   }
   {
     id: 6540138
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 3
     skill_group_id: 6540138
     level: 1
     spot_type: "-1"
@@ -46605,7 +46743,9 @@
   }
   {
     id: 6540140
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 2
     skill_group_id: 6540140
     level: 1
     spot_type: "-1"
@@ -46633,7 +46773,9 @@
   }
   {
     id: 6540142
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 1
     skill_group_id: 6540142
     level: 1
     spot_type: "-1"
@@ -46772,7 +46914,9 @@
   }
   {
     id: 6540153
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 4
     skill_group_id: 6540153
     level: 1
     spot_type: "-1"
@@ -46788,7 +46932,9 @@
   }
   {
     id: 6540154
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 3
     skill_group_id: 6540154
     level: 1
     spot_type: "-1"
@@ -46804,7 +46950,9 @@
   }
   {
     id: 6540155
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 2
     skill_group_id: 6540155
     level: 1
     spot_type: "-1"
@@ -46820,7 +46968,9 @@
   }
   {
     id: 6540156
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 1
     skill_group_id: 6540156
     level: 1
     spot_type: "-1"
@@ -46902,6 +47052,7 @@
     id: 6540162
     name: Pick Up Goliath
     code: "1"
+    description: Pick Up Goliath
     skill_group_id: 6540162
     level: 1
     spot_type: "-1"
@@ -46918,6 +47069,7 @@
     id: 6540163
     name: Throw Goliath
     code: "1"
+    description: Throw a Goliath.
     skill_group_id: 6540163
     level: 1
     spot_type: "-1"
@@ -46943,7 +47095,9 @@
   }
   {
     id: 6540165
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 4
     skill_group_id: 6540165
     level: 1
     spot_type: "-1"
@@ -46959,7 +47113,9 @@
   }
   {
     id: 6540166
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 3
     skill_group_id: 6540166
     level: 1
     spot_type: "-1"
@@ -46975,7 +47131,9 @@
   }
   {
     id: 6540167
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 2
     skill_group_id: 6540167
     level: 1
     spot_type: "-1"
@@ -46991,7 +47149,9 @@
   }
   {
     id: 6540168
+    name: Deploy Dummy
     code: "1"
+    description: Deploy a Dummy. Remaining Dummies: 1
     skill_group_id: 6540168
     level: 1
     spot_type: "-1"
@@ -47193,6 +47353,7 @@
   {
     id: 6540184
     code: "1"
+    description: Visual range enlarged (this can only be obtained once, use it wisely).
     skill_group_id: 6540184
     level: 1
     spot_type: "-1"
@@ -63401,6 +63562,12 @@
   }
   {
     id: 95401001
+    name: Launch Shelling
+    description:
+      '''
+      Target to an enemy echelon within a 3-node radius and deal damage that equals 100% of their current HP.
+      (Ineffective against boss units)
+      '''
     skill_group_id: 95401001
     level: 1
     spot_type: "-1"
@@ -63428,6 +63595,7 @@
   {
     id: 95401003
     name: Detonate
+    description: Blow up Abandoned Building ①
     skill_group_id: 95401003
     level: 1
     spot_type: "-1"
@@ -63445,6 +63613,7 @@
   {
     id: 95401004
     name: Detonate
+    description: Blow up Abandoned Building ②
     skill_group_id: 95401004
     level: 1
     spot_type: "-1"
@@ -63462,6 +63631,7 @@
   {
     id: 95401005
     name: Detonate
+    description: Blow up Abandoned Building ③
     skill_group_id: 95401005
     level: 1
     spot_type: "-1"
@@ -63479,6 +63649,7 @@
   {
     id: 95401006
     name: Detonate
+    description: Blow up Abandoned Building ④
     skill_group_id: 95401006
     level: 1
     spot_type: "-1"
@@ -63496,6 +63667,7 @@
   {
     id: 95401007
     name: Detonate
+    description: Blow up Abandoned Building ⑤
     skill_group_id: 95401007
     level: 1
     spot_type: "-1"
@@ -63523,6 +63695,8 @@
   }
   {
     id: 95401009
+    name: Weaken Boss Unit
+    description: Activate to weaken the boss unit a little.
     skill_group_id: 95401009
     level: 1
     spot_type: "-1"

@@ -1087,6 +1087,64 @@
     org_id: 10603
   }
   {
+    id: 1020
+    name: Alina - Mosasaur Rider
+    en_name: Nyto_White_Summer
+    code: Nyto_White_Summer
+    introduce: Alina - Mosasaur Rider is a specialized model for naval battles. Metal limbs, which are heavy and unwieldy in water, are replaced with lighter and more powerful ones, and both her outfit and construction materials are designed for optimal performance in naval warfare. As per Alina's own suggestion, a sharper and more nimble scythe inspired by an ancient marine creature from the Cretaceous Period has been forged to upgrade her weapon. With her giant scythe howling like a majestic beast, the pure white Goddess of Death is about to dive into the ocean, rending the tie between body and soul, reaping lives submerged in seawater.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30001020
+    forces: 3
+    type: 1
+    character: "2,4,5"
+    formation: 1
+    resolution: 120
+    shape_scale: "80,120"
+    ap_cost: 8
+    rank: 5
+    skill1: 750409
+    skill2_type: 1
+    skill2: 750411
+    skill3: 750412
+    skill_advance: 750413
+    skill_resolution: "750410"
+    passive_skill2: "750421,750422,750424,750425,750426,750427,750428,750429,750431,750447"
+    dynamic_passive_skill: "750010"
+    normal_attack: 750414
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 140
+    ratio_pow: 90
+    ratio_rate: 55
+    ratio_hit: 130
+    ratio_dodge: 95
+    armor_piercing: 180
+    crit: 40
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 18
+    attack_range_type: 1
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 4
+    effect_grid_effect: 1:5,10;8,10|4:1,15;4,15
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 166
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930021
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+  }
+  {
     id: 2001
     name: Brute
     en_name: Brute
@@ -1482,10 +1540,13 @@
   }
   {
     id: 2010
+    name: Vespid_SWAP
     en_name: Vespid_SWAP
     code: Vespid_SWAP
+    introduce: A Vespid with greatly improved performance. Debuffs friendly units. Delighted over being issued a new set of helmet and body armor.
     dialogue: 待定，单独提出语言包最好
     extra: ",,"
+    en_introduce: sangvis-30002010
     forces: 1
     type: 2
     character: "2,4,6"
@@ -1874,6 +1935,56 @@
     picture_offset: "-100.001,-65.021"
     picture_scale: "0.864,0.864"
     dorm_scale: 90
+  }
+  {
+    id: 2018
+    name: Jaws Paradise
+    en_name: RecceCentreSwim
+    code: RecceCentreSwim_buhuo
+    introduce: An illegal weapon disguised as a shark themed park for ease of smuggling. It's main purpose is to mass produce Shark Volleyballs, but its adorable appearance has made it quite popular among children while it is being transported.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30002018
+    forces: 1
+    type: 2
+    character: "1,3,6"
+    formation: 1
+    resolution: 218
+    shape_scale: "20,60"
+    ap_cost: 8
+    rank: 4
+    skill2_type: 1
+    skill3: 750433
+    skill_advance: 750444
+    passive_skill2: "750432,902167"
+    dynamic_passive_skill: "750445,750446"
+    normal_attack: 900107
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 100
+    ratio_pow: 330
+    ratio_rate: 95
+    ratio_hit: 300
+    ratio_armor: 85
+    armor_piercing: 100
+    crit: 5
+    crit_dmg: 150
+    eat_ratio: 75
+    ratio_speed: 3
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 5
+    illustration_id: 123
+    ai: 3045
+    is_additional: 21
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 913217
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
   }
   {
     id: 3001

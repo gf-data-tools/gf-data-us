@@ -4774,21 +4774,25 @@
     id: 1111702
     type: 1407
     arguments: 6540104:1
+    extra_language: Accept Mission 1.
   }
   {
     id: 1111703
     type: 1407
     arguments: 6540105:1
+    extra_language: Accept Mission 2.
   }
   {
     id: 1111704
     type: 1407
     arguments: 6540106:1
+    extra_language: Accept Mission 3.
   }
   {
     id: 1111705
     type: 1407
     arguments: 6540107:1
+    extra_language: Accept Mission 4.
   }
   {
     id: 1111706
@@ -4804,21 +4808,25 @@
     id: 1111708
     type: 1407
     arguments: 6540110:1
+    extra_language: Help this NPC deliver information to any other NPC.
   }
   {
     id: 1111709
     type: 1407
     arguments: 6540111:4
+    extra_language: Activate all control panels on the field.
   }
   {
     id: 1111710
     type: 1407
     arguments: 6540112:3
+    extra_language: You can only accept 3 missions (Missions accepted: {0}).
   }
   {
     id: 1111711
     type: 1407
     arguments: 6540112:3
+    extra_language: You have reached the maximum number of missions you can accept.
   }
   {
     id: 1111801
@@ -4830,36 +4838,51 @@
     id: 1111910
     type: 1407
     arguments: 540400:1
+    extra_language: Instructor Я's defeat will result in the failure of this mission.
   }
   {
     id: 1112001
     type: 1407
     arguments: 6540171:1
+    extra_language: Help the Wolf Pack find and crack the passcode panel.
   }
   {
     id: 1112101
     type: 1101
     arguments: "77372"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1112201
     type: 1407
     arguments: 541300:3
+    extra_language: Eliminate all 3 Hydra Squads.
   }
   {
     id: 1112301
     type: 1407
     arguments: 6540171:1
+    extra_language: Help the Wolf Pack find and crack the passcode panel.
   }
   {
     id: 1112401
     type: 1101
     arguments: "77405"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1112601
     type: 1407
     arguments: 6540171:1
+    extra_language: Help the Wolf Pack find and crack the passcode panel.
   }
   {
     id: 1112602
@@ -4871,31 +4894,41 @@
     id: 1112701
     type: 1101
     arguments: "77063"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1112801
     type: 1407
     arguments: 541300:4
+    extra_language: Eliminate all 4 Hydra Squads.
   }
   {
     id: 1112802
     type: 1406
     arguments: 541302:0
+    extra_language: Destroy all artillery positions.
   }
   {
     id: 1112901
     type: 1309
     arguments: "541400,77007"
+    extra_language: Lead Maggie to the extraction point.
   }
   {
     id: 1112910
     type: 1407
     arguments: 540400:1
+    extra_language: Maggie's defeat will result in the failure of this mission.
   }
   {
     id: 1113001
     type: 1407
     arguments: 6540166:1
+    extra_language: The enemy accesses a control panel in green.
   }
   {
     id: 1113002
@@ -4906,6 +4939,7 @@
     id: 1113201
     type: 1407
     arguments: 6540170:1
+    extra_language: Maggie approaches and hacks a mech.
   }
   {
     id: 1113202
@@ -4925,6 +4959,7 @@
     id: 1113401
     type: 1407
     arguments: 6540166:1
+    extra_language: The enemy accesses a control panel in green.
   }
   {
     id: 1113402
@@ -4935,6 +4970,7 @@
     id: 1113601
     type: 1407
     arguments: 6540170:1
+    extra_language: Maggie approaches and hacks a mech.
   }
   {
     id: 1113602
@@ -4954,11 +4990,13 @@
     id: 1113801
     type: 1407
     arguments: 6540166:1
+    extra_language: The enemy accesses a control panel in green.
   }
   {
     id: 1113802
     type: 1407
     arguments: 6540172:2
+    extra_language: Eliminate the two Nyto units at the bottom.
   }
   {
     id: 1113803
@@ -4969,21 +5007,25 @@
     id: 1113899
     type: 1407
     arguments: 6540184:3
+    extra_language: Nightmare Maggie 2 Hidden Achievement.
   }
   {
     id: 1113901
     type: 1407
     arguments: 542410:4
+    extra_language: Decrypt 4 security authentications.
   }
   {
     id: 1114001
     type: 1407
     arguments: 6540170:1
+    extra_language: Maggie approaches and hacks a mech.
   }
   {
     id: 1114002
     type: 1407
     arguments: 6540175:1
+    extra_language: Maggie retreats.
   }
   {
     id: 1114003
@@ -5003,21 +5045,29 @@
     id: 1114201
     type: 1407
     arguments: 542711:3
+    extra_language: Lead Erma and her Dummies to the extraction point and withdraw.
   }
   {
     id: 1114210
     type: 1407
     arguments: 540400:1
+    extra_language: Erma's or her Dummies' defeat will result in the failure of this mission.
   }
   {
     id: 1114301
     type: 1407
     arguments: 6540183:1
+    extra_language: Erma moves to the designated location.
   }
   {
     id: 1114401
     type: 1101
     arguments: "77563"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1114501
@@ -5034,16 +5084,27 @@
     id: 1114601
     type: 1303
     arguments: 543101:1
+    extra_language:
+      '''
+      Defeat Miss Eve.
+      <color=#CF8000>The boss is invincible at the start of the mission. Use a jamming device to disable her shield. She will keep pursuing Maggie.</color>
+      '''
   }
   {
     id: 1114801
     type: 1407
     arguments: 6540183:1
+    extra_language: Erma moves to the designated location.
   }
   {
     id: 1114901
     type: 1101
     arguments: "77610"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1115001
@@ -5060,21 +5121,33 @@
     id: 1115101
     type: 1303
     arguments: 543601:1
+    extra_language:
+      '''
+      Defeat Miss Eve.
+      <color=#CF8000>The boss is invincible at the start of the mission. Use a jamming device to disable her shield. She will keep pursuing Maggie.</color>
+      '''
   }
   {
     id: 1115301
     type: 1407
     arguments: 6540183:1
+    extra_language: Erma moves to the designated location.
   }
   {
     id: 1115302
     type: 1407
     arguments: 6540174:1
+    extra_language: Erma is defeated.
   }
   {
     id: 1115401
     type: 1101
     arguments: "77166"
+    extra_language:
+      '''
+      Move to Carriage 1.
+      <color=#CF8000>Occupy the radar node ahead.</color>
+      '''
   }
   {
     id: 1115501
@@ -5091,6 +5164,11 @@
     id: 1115601
     type: 1303
     arguments: 544101:1
+    extra_language:
+      '''
+      Defeat Miss Eve.
+      <color=#CF8000>The boss is invincible at the start of the mission. Use a jamming device to disable her shield. She will keep pursuing Maggie.</color>
+      '''
   }
   {
     id: 1115701
@@ -5106,7 +5184,7 @@
     id: 1123301
     type: 1407
     arguments: 6560020:2
-    extra_language: Disarm Bomb
+    extra_language: Disarm the bomb.
   }
   {
     id: 1123302
@@ -5371,51 +5449,61 @@
     id: 1132101
     type: 1407
     arguments: 599920:1
+    extra_language: Defeat the specified target: Minion of Clustering
   }
   {
     id: 1132201
     type: 1303
     arguments: 590242:1
+    extra_language: Defeat the specified target: Knight of Weighting
   }
   {
     id: 1132301
     type: 1303
     arguments: 590363:1
+    extra_language: Defeat the specified target: Commander of Normal Distribution
   }
   {
     id: 1132401
     type: 1303
     arguments: 811001:1
+    extra_language: Defeat the specified target: Cartographer of Discreteness
   }
   {
     id: 1132501
     type: 1303
     arguments: 811003:1
+    extra_language: Defeat the specified target: Shepherd of Variance
   }
   {
     id: 1132601
     type: 1303
     arguments: 811006:1
+    extra_language: Defeat the specified target: Singer of Chaos
   }
   {
     id: 1132701
     type: 1303
     arguments: 811007:1
+    extra_language: Defeat the specified target: Spinner of Posterior Probability
   }
   {
     id: 1132801
     type: 1303
     arguments: 811009:1
+    extra_language: Defeat the specified target: Priest of Shifts
   }
   {
     id: 1132901
     type: 1303
     arguments: 811012:1
+    extra_language: Defeat the specified target: Fool of Convergence
   }
   {
     id: 1133001
     type: 1303
     arguments: 590000:1
+    extra_language: Defeat the specified target: Demonic Abyss
   }
   {
     id: 1133101

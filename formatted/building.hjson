@@ -18324,6 +18324,7 @@
     mission_skill: 0;0;0;541203
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
+    name: Bar
     code: WorkBench
     shifting_spot: "60,0"
     shifting_team: "-30,0"
@@ -18422,7 +18423,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: Rock2;乱石堆;0,0;2000016
+    active_building_info: Rock2;Rubble;0,0;2000016
     confront_des: This installation cannot be destroyed during this mission.
   }
   {
@@ -18562,6 +18563,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:0,1:0
+    name: Security Authentication
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -18584,6 +18586,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:0,1:0
+    name: Security Authentication
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -18606,6 +18609,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:0,1:0
+    name: Security Authentication
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -18628,6 +18632,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:0,1:0
+    name: Security Authentication
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -18707,6 +18712,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
+    name: Jamming Device - Decelerate EX
     code: Build_PortableEMP
     shifting_spot: "65,150"
     shifting_team: "-30,0"
@@ -18770,6 +18776,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18791,6 +18798,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18812,6 +18820,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18833,6 +18842,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18854,6 +18864,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18875,6 +18886,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18896,6 +18908,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18917,6 +18930,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18938,6 +18952,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18959,6 +18974,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -18980,6 +18996,7 @@
     mission_skill: 0;0;0;542902
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
+    name: Autocannon
     code: Pyxis_green
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -19210,6 +19227,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
+    name: Jamming Device
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -19230,6 +19248,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
+    name: Temporary Defense Gate
     code: Door_Left_S
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -19252,6 +19271,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
+    name: Jamming Device - Decelerate
     code: Build_PortableEMP
     shifting_spot: "65,150"
     shifting_team: "-30,0"
@@ -19293,6 +19313,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
+    name: Oil Barrel
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -28675,7 +28696,7 @@
     condition: 0:0,1:0;0:0,1:1
     name: Control Terminal I
     code: Console
-    shifting_spot: "120,-50"
+    shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
@@ -28699,7 +28720,7 @@
     condition: 0:0,1:0;0:0,1:1
     name: Control Terminal II
     code: Console
-    shifting_spot: "120,-50"
+    shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
@@ -28723,7 +28744,7 @@
     condition: 0:0,1:0;0:0,1:1
     name: Control Terminal III
     code: Console
-    shifting_spot: "120,-50"
+    shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
@@ -28747,7 +28768,7 @@
     condition: 0:0,1:0;0:0,1:1
     name: Control Terminal IV
     code: Console
-    shifting_spot: "120,-50"
+    shifting_spot: "40,150"
     shifting_team: "-30,0"
     battle_assist_range: "0,0"
     show_info: 1
@@ -28896,6 +28917,7 @@
     mission_skill: 0;0;0;6480079
     battle_skill: 0;0;0;0
     condition: 0:3,1:1;0:3,1:1
+    name: Acceleration Tower
     code: Speedtower_2
     shifting_spot: "40,50"
     shifting_team: "-30,0"
@@ -28907,6 +28929,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    des: A facility that boosts the enemy's mobility. Encrypted and cannot be used by hostile forces. Immediate destruction is recommended.
     confront_des: This installation cannot be destroyed during this mission.
   }
   {
@@ -29517,6 +29540,7 @@
     mission_skill: 0;0;0;6480079
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
+    name: Acceleration Tower
     code: Speedtower_2
     shifting_spot: "40,50"
     shifting_team: "-30,0"
@@ -29528,6 +29552,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    des: A facility that boosts the enemy's mobility. Encrypted and cannot be used by hostile forces.
     confront_des: This installation cannot be destroyed during this mission.
   }
   {
@@ -40830,6 +40855,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ①
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40858,6 +40884,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ②
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40886,6 +40913,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ③
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40914,6 +40942,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ④
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40942,6 +40971,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ⑤
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40970,6 +41000,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ⑥
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -40998,6 +41029,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ⑦
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -41026,6 +41058,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ⑧
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -41054,6 +41087,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
+    name: Artillery Position ⑨
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -41118,6 +41152,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
     is_destroy: "1"
+    name: Abandoned Building ①
     code: Hiding
     shifting_spot: "0,120"
     shifting_team: "-30,0"
@@ -41148,6 +41183,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
     is_destroy: "1"
+    name: Abandoned Building ②
     code: Hiding
     shifting_spot: "0,120"
     shifting_team: "-30,0"
@@ -41178,6 +41214,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
     is_destroy: "1"
+    name: Abandoned Building ③
     code: Hiding
     shifting_spot: "0,120"
     shifting_team: "-30,0"
@@ -41208,6 +41245,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
     is_destroy: "1"
+    name: Abandoned Building ④
     code: Hiding
     shifting_spot: "0,120"
     shifting_team: "-30,0"
@@ -41238,6 +41276,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
     is_destroy: "1"
+    name: Abandoned Building ⑤
     code: Hiding
     shifting_spot: "0,120"
     shifting_team: "-30,0"

@@ -15331,4 +15331,55 @@
     icon_code: 妖精重型制造
     unlock_function: 1
   }
+  {
+    identity: 1030
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Maggie's Key
+    content: Longitudinal Strain - Symphony No. 9 - UX: Maggie obtains intel on Paradeus via a control panel on Level II 3 times.
+    type_sort: 100
+    sort: 300
+    icon_code: 玛姬的钥匙
+    condition: 11138:1113899
+  }
+  {
+    identity: 1031
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Clockwork Universe
+    content: Longitudinal Strain - 1812 Overture: Find Lyudmila's watch.
+    type_sort: 100
+    sort: 301
+    icon_code: 机芯中的宇宙
+    condition: 11147:1115701,11152:1115701,11157:1115701
+  }
+  {
+    identity: 1032
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Beginning at the Terminus
+    content: Watch through the entire end credits of Longitudinal Strain.
+    type_sort: 100
+    sort: 302
+    icon_code: 就是这个人
+    condition: "11209"
+  }
 ]

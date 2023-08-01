@@ -26141,6 +26141,170 @@
     interact_point_offset: "0,0,0"
   }
   {
+    id: 20063
+    name: '''"Future" Commemorative Carriage'''
+    classes: 19
+    type: 301
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A legendary train traversing the Eurasian continent that never stops. The bullet holes scattered across its surface are battle scars that it wears with pride.
+    code: 2022SummerActivity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20064
+    name: Red Velvet's Deceit
+    classes: 19
+    type: 101
+    space: "3,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Clues are always hidden in the smallest details... The classic stage for a mystery is all set. Are the actors ready?
+    code: 2022SummerActivity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20065
+    name: Idyllic Town of Harmony
+    classes: 19
+    type: 201
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Nothing is more soothing to a weary traveler than an exquisite meal... except perhaps the lady who is sharing this meal.
+    code: 2022SummerActivity_TableA,2022SummerActivity_ChairA,2022SummerActivity_ChairB
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,-0.052,-0.010|-1.251,-0.052,-0.010|1.312,-0.052,-0.010"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *3.383,1.480,-0.285|*-3.179,1.650,-0.285
+  }
+  {
+    id: 20066
+    name: Buffer Zone of Discord
+    classes: 19
+    type: 201
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Whether you are friends or foes, if you must fight, please think of these delicate cutleries and serveware, or poor Susanna can kiss her wages goodbye again this month.
+    code: 2022SummerActivity_TableB,2022SummerActivity_ChairA,2022SummerActivity_ChairB
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,-0.052,-0.010|-1.251,-0.052,-0.010|1.312,-0.052,-0.010"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *3.383,1.480,-0.285|*-3.179,1.650,-0.285
+  }
+  {
+    id: 20067
+    name: Best of Eurasia's Fine Liquors
+    classes: 19
+    type: 201
+    space: "11,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The Intercontinental Railway's famed attraction—here we have all the fine liquors that you can find across Siberia... Customers who decide to go with a tequila might want to be careful.
+    code: 2022SummerActivity_WineCabinet01,2022SummerActivity_WineCabinet02,2022SummerActivity_WineCabinet03,2022SummerActivity_WineCabinet04,2022SummerActivity_WineCabinet05
+    texture_type: "1,1,1,1,1"
+    sorting: "0,10,20,20,20"
+    offset: "-0.031,0.010,0.000|-0.031,0.010,0.000|1.053,-0.188,-0.042|-0.031,-0.188,-0.042|-1.355,-0.188,-0.042"
+    rotate: "2,2,2,2,2"
+    interact_point: "17,18,19"
+    interact_point_offset: *-0.146,1.423,0.142|*2.683,2.020,-1.366|*-3.150,1.650,-0.768
+  }
+  {
+    id: 20068
+    name: Swaying Secret
+    classes: 19
+    type: 302
+    space: "15,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The rough jostling is like a harsh interrogation to it. Watch out for your precious being shaken loose, especially the delicate rose.
+    code: 2022SummerActivity_Luggage01,2022SummerActivity_Luggage02,2022SummerActivity_Luggage03,2022SummerActivity_Luggage04
+    texture_type: "1,1,1,1"
+    sorting: "0,0,0,0"
+    offset: "-1.679,0.803,0.000|0.594,0.803,0.000|1.428,0.803,0.000|3.711,0.803,0.000"
+    rotate: "3,3,3,3"
+  }
+  {
+    id: 20069
+    name: Agitated Microcosm
+    classes: 19
+    type: 302
+    space: "3,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This train is hurtling toward the world's ultimate fate—as it shakes up this continental map.
+    code: 2022SummerActivity_RoadMap
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20070
+    name: Kar's Uniform Display
+    classes: 19
+    type: 201
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Apparently Kar98k has purchased three sets of the same uniform. This one is for display only... Don't get any funny ideas, MP41!
+    code: 2022SummerActivity_SoldierCloth
+    texture_type: "1"
+    offset: "0.000,-0.052,-0.010"
+    rotate: "2"
+  }
+  {
+    id: 20071
+    name: Gateway to the West
+    classes: 19
+    type: 201
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Rumor has it, any Doll who plays something on these two jukeboxes will experience a brief moment of disorientation, during which they will find themselves transported to a certain mysterious carriage where Western music is playing.
+    code: 2022SummerActivity_JukeBox
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20072
+    name: Where Storms Brew
+    classes: 19
+    type: 201
+    space: "4,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A smashed wine bottle—it could draw complaints from passengers... or it could be a signal for starting an attack.
+    code: 2022SummerActivity_TableC
+    texture_type: "1"
+    offset: "0.156,-0.250,-0.063"
+    rotate: "2"
+  }
+  {
+    id: 20075
+    name: Iron Storm
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Longitudinal Strain". "You have cleared the obstacles blocking the railway. The train is free to travel onwards into the dawn."
+    code: 2022SummerActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 20080
     name: Uncle
     classes: 299
@@ -34850,6 +35014,96 @@
     rotate: "3"
   }
   {
+    id: 38201
+    name: Captain Kord
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kord's poster.
+    code: poster_Piracy2023_Kord
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38202
+    name: Black Earl
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: KH2002's poster.
+    code: poster_Piracy2023_KH2002
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38203
+    name: Kraken Huntress
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SIG MCX's poster.
+    code: poster_Piracy2023_SIGMCX
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38204
+    name: Crimson Vortex
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: PTRD's Poster
+    code: poster_Piracy2023_PTRD
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38205
+    name: Redheaded Demon Queen of the Seas
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TS12's Poster
+    code: poster_Piracy2023_TavorTS12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38206
+    name: Last Plunderer
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP41's poster.
+    code: poster_Piracy2023_MP41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 40001
     name: Rescue Station Wallpaper
     classes: 400
@@ -38987,6 +39241,21 @@
     decompose_gift: 100003
     description: Colt Walker's poster.
     code: poster_BattlePass_ColtWalker
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330005
+    name: A Peaceful Afternoon with the Dogs
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SCAR-L's poster
+    code: poster_BattlePass_scarL
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

@@ -100756,6 +100756,21 @@
     is_die_delete: 1
   }
   {
+    id: 874001
+    name: 水白在场
+    start_type: "8"
+    start_offset: "-20"
+    destination_type: "8"
+    destination_offset: "-20"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "300"
+    buff_id: "8338"
+    creation_type: 2
+    scale: "1"
+  }
+  {
     id: 900002
     name: 设施着火
     code: sheshi/XDZY_sheshi 1_1

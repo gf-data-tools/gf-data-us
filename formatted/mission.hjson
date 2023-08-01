@@ -5156,6 +5156,102 @@
     mission_tip: mission-40001738
   }
   {
+    id: 1739
+    duplicate_type: 8
+    campaign: 6
+    sub: 39
+    if_emergency: 2
+    name: mission-10001739
+    difficulty: 28000
+    type: "3"
+    enemy_ai_type: 2
+    turn_duration: 360000000
+    coin_ap: 5
+    map_res_name: Moni1_Y
+    map_information: "3300,3300|3021,1883|-182,-733"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    mission_describe: mission-20001739
+    round_config: 1:1,2:2,3:3
+    limit_squad: 4
+    difficulty_recommend: "28000,99;0,0;0,0;0,0"
+    difficulty_recommend_addendum: mission-30001739
+    limit_sangvis: 1
+    mission_tip: mission-40001739
+  }
+  {
+    id: 1740
+    duplicate_type: 8
+    campaign: 6
+    sub: 40
+    if_emergency: 2
+    name: mission-10001740
+    difficulty: 28000
+    type: "3"
+    enemy_ai_type: 2
+    turn_duration: 360000000
+    coin_ap: 5
+    map_res_name: Moni1_Y
+    map_information: "3300,3300|3021,1883|-182,-733"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    mission_describe: mission-20001740
+    round_config: 1:1,2:2,3:3
+    limit_squad: 4
+    difficulty_recommend: "28000,99;0,0;0,0;0,0"
+    difficulty_recommend_addendum: mission-30001740
+    limit_sangvis: 1
+    mission_tip: mission-40001740
+  }
+  {
+    id: 1741
+    duplicate_type: 8
+    campaign: 6
+    sub: 41
+    if_emergency: 2
+    name: mission-10001741
+    difficulty: 28000
+    type: "3"
+    enemy_ai_type: 2
+    turn_duration: 360000000
+    coin_ap: 5
+    map_res_name: Moni1_Y
+    map_information: "3300,3300|3021,1883|-182,-733"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    mission_describe: mission-20001741
+    round_config: 1:1,2:2,3:3
+    limit_squad: 4
+    difficulty_recommend: "28000,99;0,0;0,0;0,0"
+    difficulty_recommend_addendum: mission-30001741
+    limit_sangvis: 1
+    mission_tip: mission-40001741
+  }
+  {
+    id: 1742
+    duplicate_type: 8
+    campaign: 6
+    sub: 42
+    if_emergency: 2
+    name: mission-10001742
+    difficulty: 28000
+    type: "3"
+    enemy_ai_type: 2
+    turn_duration: 360000000
+    coin_ap: 5
+    map_res_name: Moni1_Y
+    map_information: "3300,3300|3021,1883|-182,-733"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    mission_describe: mission-20001742
+    round_config: 1:1,2:2,3:3
+    limit_squad: 4
+    difficulty_recommend: "28000,99;0,0;0,0;0,0"
+    difficulty_recommend_addendum: mission-30001742
+    limit_sangvis: 1
+    mission_tip: mission-40001742
+  }
+  {
     id: 10001
     campaign: -1
     sub: 1
@@ -34414,6 +34510,3124 @@
     open_mission_keys: 1108610:1
     round_config: 1:1,2:2,3:3
     difficulty_recommend: 1000;5
+  }
+  {
+    id: 11117
+    campaign: -54
+    sub: 2
+    if_emergency: -1
+    special_type: 1
+    name: Todesfuge
+    difficulty: 34000
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 1
+    expect_gun_die_num: 99
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "374,373,371,357,318,342,358,308,321"
+    limit_team: "8,8*"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|10000,10000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1111700:1;0,0,1111700:1"
+    mission_group_id: 23
+    open_mission_keys: 1113300:1
+    round_config: 1:22,2:4,3:3
+    limit_squad: 2
+    difficulty_recommend: "34000,120;0,0;0,0;0,0"
+    limit_sangvis: 4
+    win_step: 1111701|1111711|1111702|1111703|1111704|1111705
+    event_score: 1|10,10000,8000,5000,1000,0,5000,10000,8000,10000,1000,4000,1:10000;2:0;3:2000;5:0;6:0;7:5000,6540001:1:10000;6540002:1:10000;6540003:1:10000;6540004:1:10000,10,,1000,5000,6540012:20000;6540013:20000;6540014:20000;6540015:20000;6540030:20000;6540031:20000;6540032:20000;6540033:20000;6540018:20000,
+    score_prize: 1|110053:1
+  }
+  {
+    id: 11118
+    campaign: -54
+    sub: 3
+    if_emergency: -1
+    endless_mode: 1
+    special_type: 1
+    name: Waterfall
+    difficulty: 42000
+    exp_parameter: 60
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 1
+    expect_gun_die_num: 99
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 5
+    limit_gun_pool: "374,373,371,357,318,342,358,308,321"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|10000,10000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1111800:1"
+    mission_group_id: 23
+    open_mission_keys: 1111700:1
+    round_config: 1:22,2:5,3:3
+    win_type: "1111801"
+    difficulty_recommend: "42000,120;0,0;0,0;0,0"
+    limit_sangvis: -1
+    event_score: 1|10,10000,8000,5000,1000,80000,5000,10000,8000,10000,1000,2000,1:10000;2:0;3:2000;5:0;6:0;7:5000,6540005:1:10000;6540006:1:10000;6540007:1:10000;6540008:1:10000,20,6540134:1000;6540135:6000;6540136:24000;6540137:88000;6540138:1000;6540139:4500;6540140:12000;6540141:27500,1000,20000,6540038:60000;6540039:60000;6540040:60000;6540041:60000;6540042:60000;6540043:60000;6540044:60000;6540045:60000,6540000:1000;6540001:1000;6540002:1000;6540003:6000;6540004:6000;6540005:6000;6540006:24000;6540007:24000;6540008:24000;6540009:24000;6540010:88000;6540100:1000;6540101:1000;6540102:1000;6540103:4500;6540104:4500;6540105:4500;6540106:12000;6540107:12000;6540108:12000;6540109:12000;6540110:27500
+    score_prize: 1|110053:1
+    environment_transform_config: "1111801"
+  }
+  {
+    id: 11119
+    campaign: -54
+    sub: 4
+    if_emergency: -1
+    name: 3-α2 Wind, Sand and Stars
+    difficulty: 1000
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 2
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS85_Y
+    map_information: "12000,12000|4000,3000|-500,-2000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "612"
+    drop_mission_key: "0,0,1111900:1"
+    mission_group_id: 23
+    open_mission_keys: 1116700:1
+    round_config: 1:22,2:5,3:3
+    win_type: "3"
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+    limit_sangvis: -1
+    lose_type: "1111910"
+  }
+  {
+    id: 11120
+    campaign: -54
+    sub: 5
+    if_emergency: -1
+    name: 5-α6 Chaconne
+    difficulty: 4500
+    exp_parameter: 30
+    type: "3"
+    enemy_ai_type: 4
+    expect_gun_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,1"
+    map_res_name: OPS51_Y
+    map_information: "10000,10000|6000,6500|2300,-1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "610"
+    drop_mission_key: "0,0,1112000:1"
+    mission_group_id: 23
+    open_mission_keys: 1117000:1
+    round_config: 1:22,2:4,3:3
+    mapped_mission_id: 54001
+    win_type: "1112001"
+    difficulty_recommend: "4500,45;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1112602"
+  }
+  {
+    id: 11121
+    campaign: -54
+    sub: 6
+    if_emergency: -1
+    name: 5-α8 Stradivarius' Magic
+    difficulty: 5500
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "371"
+    limit_team: "0,1"
+    map_res_name: OPS96_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "613"
+    drop_mission_key: "0,0,1112100:1"
+    mission_group_id: 23
+    open_mission_keys: 1117100:1
+    round_config: 1:21,2:20,3:3
+    mapped_mission_id: 54002
+    win_type: "1112101"
+    difficulty_recommend: "5500,55;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11122
+    campaign: -54
+    sub: 7
+    if_emergency: -1
+    special_type: 1
+    name: 26 Thus Spoke Zarathustra
+    difficulty: 10000
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "617"
+    drop_mission_key: "0,0,1112200:1"
+    mission_group_id: 23
+    open_mission_keys: 1117500:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54003
+    win_type: "1112201,1112802"
+    difficulty_recommend: "10000,75;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11123
+    campaign: -54
+    sub: 8
+    if_emergency: -1
+    name: 5-α6 Chaconne - EX
+    difficulty: 14000
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_gun_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,1"
+    map_res_name: OPS51_Y
+    map_information: "10000,10000|6000,6500|2300,-1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "614"
+    drop_mission_key: "0,0,1112000:1|1112001:1"
+    mission_group_id: 23
+    open_mission_keys: 1117000:1
+    round_config: 1:22,2:4,3:3
+    mapped_mission_id: 54001
+    win_type: "1112301"
+    difficulty_recommend: "14000,87;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1112602"
+  }
+  {
+    id: 11124
+    campaign: -54
+    sub: 9
+    if_emergency: -1
+    name: 5-α8 Stradivarius' Magic - EX
+    difficulty: 20000
+    exp_parameter: 48
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "371"
+    limit_team: "0,1"
+    map_res_name: OPS96_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1112100:1|1112101:1"
+    mission_group_id: 23
+    open_mission_keys: 1117100:1
+    round_config: 1:21,2:20,3:3
+    mapped_mission_id: 54002
+    win_type: "1112401"
+    difficulty_recommend: "20000,95;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11125
+    campaign: -54
+    sub: 10
+    if_emergency: -1
+    special_type: 1
+    name: 26 Thus Spoke Zarathustra - EX
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "622"
+    drop_mission_key: "0,0,1112200:1|1112201:1"
+    mission_group_id: 23
+    open_mission_keys: 1117500:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54003
+    win_type: "1112201,1112802"
+    difficulty_recommend: "30000,115;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11126
+    campaign: -54
+    sub: 11
+    if_emergency: -1
+    name: 5-α6 Chaconne - UX
+    difficulty: 32000
+    exp_parameter: 54
+    type: "3"
+    enemy_ai_type: 4
+    expect_gun_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,2"
+    map_res_name: OPS51_Y
+    map_information: "10000,10000|7000,7000|1800,-1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1112000:1|1112001:1|1112002:1"
+    mission_group_id: 23
+    open_mission_keys: 1117000:1
+    round_config: 1:22,2:4,3:3
+    mapped_mission_id: 54001
+    win_type: "1112601"
+    difficulty_recommend: "32000,120;0,0;0,0;0,0"
+    limit_sangvis: 2
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1112602"
+  }
+  {
+    id: 11127
+    campaign: -54
+    sub: 12
+    if_emergency: -1
+    name: 5-α8 Stradivarius' Magic - UX
+    difficulty: 34000
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "371"
+    limit_team: "0,1"
+    map_res_name: OPS96_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "621"
+    drop_mission_key: "0,0,1112100:1|1112101:1|1112102:1"
+    mission_group_id: 23
+    open_mission_keys: 1117100:1
+    round_config: 1:21,2:20,3:3
+    mapped_mission_id: 54002
+    win_type: "1112701"
+    difficulty_recommend: "34000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11128
+    campaign: -54
+    sub: 13
+    if_emergency: -1
+    special_type: 1
+    name: 26 Thus Spoke Zarathustra - UX
+    difficulty: 42000
+    exp_parameter: 60
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "625"
+    drop_mission_key: "0,0,1112200:1|1112201:1|1112202:1"
+    mission_group_id: 23
+    open_mission_keys: 1117500:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54003
+    win_type: "1112801,1112802"
+    difficulty_recommend: "42000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11129
+    campaign: -54
+    sub: 14
+    if_emergency: -1
+    name: 3-β2 Symphony No.2 in C Major | Hidden Passage | Surface
+    difficulty: 1000
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS34_Y;OPS63_Y
+    map_information: "12000,12000|2000,1500|3050,-3000;20000,20000|4000,3500|-3900,1200"
+    fog_length: "0,500;0,500"
+    fog_color: "#000000FF;#000000FF"
+    draw_event_s_id: "612"
+    drop_mission_key: "0,0,1112900:1"
+    mission_group_id: 23
+    open_mission_keys: 1117700:1
+    round_config: 1:21,2:20,3:3
+    win_type: "1112901"
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+    limit_sangvis: -1
+    lose_type: "1112910"
+  }
+  {
+    id: 11130
+    campaign: -54
+    sub: 15
+    if_emergency: -1
+    name: 5-β6 Symphony No. 9
+    difficulty: 4500
+    exp_parameter: 30
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|4000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "610"
+    drop_mission_key: "0,0,1113000:1"
+    mission_group_id: 23
+    open_mission_keys: 1118000:1
+    round_config: 1:21,4:2,3:3
+    mapped_mission_id: 54004
+    win_type: "1113002"
+    difficulty_recommend: "4500,45;0,0;0,0;0,0"
+    limit_sangvis: 2
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1113001"
+    environment_transform_config: 1113001;1113002
+  }
+  {
+    id: 11131
+    campaign: -54
+    sub: 16
+    if_emergency: -1
+    name: 5-β8 The Firebird
+    difficulty: 5500
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "373"
+    limit_team: "0,1"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "613"
+    drop_mission_key: "0,0,1113100:1"
+    mission_group_id: 23
+    open_mission_keys: 1118100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54005
+    win_type: "1113901"
+    difficulty_recommend: "5500,55;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11132
+    campaign: -54
+    sub: 17
+    if_emergency: -1
+    special_type: 1
+    name: 13 Goldberg Variations
+    difficulty: 7000
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: -1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342"
+    limit_team: "0,4"
+    map_res_name: OPS97_Y
+    map_information: "10000,10000|8000,5000|-500,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "617"
+    expect_hostage_num: "2,3"
+    drop_mission_key: "0,0,1113200:1"
+    mission_group_id: 23
+    open_mission_keys: 1118200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54006
+    win_type: "1113201,1113202"
+    difficulty_recommend: "7000,65;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+    lose_type: "1114002"
+  }
+  {
+    id: 11133
+    campaign: -54
+    sub: 18
+    if_emergency: -1
+    name: 22 Night on Bald Mountain
+    difficulty: 7000
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "374"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|7000,4000|0,500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "617"
+    drop_mission_key: "0,0,1113300:1"
+    mission_group_id: 23
+    open_mission_keys: 1118400:1
+    round_config: 1:21,2:4,3:3
+    mapped_mission_id: 54007
+    win_type: "1113301,1113302"
+    difficulty_recommend: "7000,65;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Basic Sniping Formation
+  }
+  {
+    id: 11134
+    campaign: -54
+    sub: 19
+    if_emergency: -1
+    name: 5-β6 Symphony No. 9 - EX
+    difficulty: 14000
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,2"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|4000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "614"
+    drop_mission_key: "0,0,1113000:1|1113001:1"
+    mission_group_id: 23
+    open_mission_keys: 1118000:1
+    round_config: 1:21,4:2,3:3
+    mapped_mission_id: 54004
+    win_type: "1113402"
+    difficulty_recommend: "14000,87;0,0;0,0;0,0"
+    limit_sangvis: 2
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1113401"
+    environment_transform_config: 1113401;1113402
+  }
+  {
+    id: 11135
+    campaign: -54
+    sub: 20
+    if_emergency: -1
+    name: 5-β8 The Firebird - EX
+    difficulty: 20000
+    exp_parameter: 48
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "373"
+    limit_team: "0,1"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1113100:1|1113101:1"
+    mission_group_id: 23
+    open_mission_keys: 1118100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54005
+    win_type: "1113901"
+    difficulty_recommend: "20000,95;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11136
+    campaign: -54
+    sub: 21
+    if_emergency: -1
+    special_type: 1
+    name: 13 Goldberg Variations - EX
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: -1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342"
+    limit_team: "0,4"
+    map_res_name: OPS97_Y
+    map_information: "10000,10000|8000,5000|-500,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "622"
+    expect_hostage_num: "2,3"
+    drop_mission_key: "0,0,1113200:1|1113201:1"
+    mission_group_id: 23
+    open_mission_keys: 1118200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54006
+    win_type: "1113601,1113602"
+    difficulty_recommend: "26000,110;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+    lose_type: "1114002"
+  }
+  {
+    id: 11137
+    campaign: -54
+    sub: 22
+    if_emergency: -1
+    name: 22 Night on Bald Mountain - EX
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "374"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|7000,4000|0,500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "622"
+    drop_mission_key: "0,0,1113300:1|1113301:1"
+    mission_group_id: 23
+    open_mission_keys: 1118400:1
+    round_config: 1:21,2:4,3:3
+    mapped_mission_id: 54007
+    win_type: "1113701,1113702"
+    difficulty_recommend: "26000,110;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Basic Sniping Formation
+  }
+  {
+    id: 11138
+    campaign: -54
+    sub: 24
+    if_emergency: -1
+    name: 5-β6 Symphony No. 9 - UX
+    difficulty: 32000
+    exp_parameter: 54
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 8
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|6500,5000|-400,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1113000:1|1113001:1|1113002:1"
+    mission_group_id: 23
+    open_mission_keys: 1118000:1
+    round_config: 1:21,4:2,3:3
+    limit_squad: 2
+    mapped_mission_id: 54004
+    win_type: "1113802,1113803"
+    medal_type_silver: "1113899"
+    difficulty_recommend: "32000,120;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1113801"
+    environment_transform_config: 1113801;1113802;1113803
+  }
+  {
+    id: 11139
+    campaign: -54
+    sub: 24
+    if_emergency: -1
+    name: 5-β8 The Firebird - UX
+    difficulty: 34000
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "373"
+    limit_team: "0,1"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "621"
+    drop_mission_key: "0,0,1113100:1|1113101:1|1113102:1"
+    mission_group_id: 23
+    open_mission_keys: 1118100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54005
+    win_type: "1113901"
+    difficulty_recommend: "34000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
+  }
+  {
+    id: 11140
+    campaign: -54
+    sub: 25
+    if_emergency: -1
+    special_type: 1
+    name: 13 Goldberg Variations - UX
+    difficulty: 38000
+    exp_parameter: 57
+    type: "3"
+    enemy_ai_type: -1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "10000,10000|9000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "625"
+    expect_hostage_num: "3,4"
+    drop_mission_key: "0,0,1113200:1|1113201:1|1113202:1"
+    mission_group_id: 23
+    open_mission_keys: 1118200:1
+    round_config: 1:21,2:5,3:3
+    limit_squad: 2
+    mapped_mission_id: 54006
+    win_type: "1114001,1114003"
+    difficulty_recommend: "38000,120;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+    lose_type: "1114002"
+  }
+  {
+    id: 11141
+    campaign: -54
+    sub: 26
+    if_emergency: -1
+    name: 22 Night on Bald Mountain - UX
+    difficulty: 38000
+    exp_parameter: 57
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "374"
+    limit_team: "0,8"
+    map_res_name: OPS5_Y
+    map_information: "10000,10000|8000,6000|0,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "625"
+    drop_mission_key: "0,0,1113300:1|1113301:1|1113302:1"
+    mission_group_id: 23
+    open_mission_keys: 1118400:1
+    round_config: 1:21,2:4,3:3
+    limit_squad: 2
+    mapped_mission_id: 54007
+    win_type: "1114101,1114102"
+    difficulty_recommend: "38000,120;0,0;0,0;0,0"
+    limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Basic Sniping Formation
+  }
+  {
+    id: 11142
+    campaign: -54
+    sub: 27
+    if_emergency: -1
+    name: 3-γ2 Courante
+    difficulty: 1000
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS50_Y
+    map_information: "15000,15000|5000,3000|-1800,2700"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "612"
+    drop_mission_key: "0,0,1114200:1"
+    mission_group_id: 23
+    open_mission_keys: 1118600:1
+    round_config: 1:21,2:5,3:3
+    win_type: "1114201"
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+    limit_sangvis: -1
+  }
+  {
+    id: 11143
+    campaign: -54
+    sub: 28
+    if_emergency: -1
+    name: 5-γ6 Hour of Grief
+    difficulty: 4500
+    exp_parameter: 30
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_gun_die_num: 1
+    expect_turn: 10
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,1"
+    map_res_name: OPS54_Y
+    map_information: "8000,8000|7500,4500|200,-1300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "610"
+    drop_mission_key: "0,0,1114300:1"
+    mission_group_id: 23
+    open_mission_keys: 1118900:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54008
+    win_type: "1114301"
+    difficulty_recommend: "4500,45;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11144
+    campaign: -54
+    sub: 29
+    if_emergency: -1
+    name: 5-γ8 Torna a Surriento
+    difficulty: 5500
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,1"
+    map_res_name: OPS98_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "613"
+    drop_mission_key: "0,0,1114400:1"
+    mission_group_id: 23
+    open_mission_keys: 1119000:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54009
+    win_type: "1114401"
+    difficulty_recommend: "5500,55;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11145
+    campaign: -54
+    sub: 30
+    if_emergency: -1
+    name: 9 Ghost
+    difficulty: 7000
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 8
+    limit_gun_pool: "371,373"
+    limit_team: "0,1"
+    map_res_name: OPS95_Y
+    map_information: "16000,16000|10000,5000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "616"
+    drop_mission_key: "0,0,1114500:1;0,0,1114500:1"
+    mission_group_id: 23
+    open_mission_keys: 1119100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54010
+    win_type: 1114501|1114502
+    difficulty_recommend: "7000,65;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11146
+    campaign: -54
+    sub: 31
+    if_emergency: -1
+    name: 30 Symphony No. 6 | Level II Zone α | Level II Zone β
+    difficulty: 10000
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,2"
+    map_res_name: BloodNetwork_Y;OPS5_Y
+    map_information: "8000,8000|6000,4000|0,0;8000,8000|6000,4000|0,0"
+    fog_length: "0,500;0,500"
+    fog_color: "#000000FF;#000000FF"
+    draw_event_s_id: "617"
+    drop_mission_key: "0,0,1114600:1"
+    mission_group_id: 23
+    open_mission_keys: 1119300:1
+    round_config: 1:21,2:4,3:3
+    mapped_mission_id: 54011
+    win_type: "1114601"
+    difficulty_recommend: "10000,75;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11147
+    campaign: -54
+    sub: 32
+    if_emergency: -1
+    special_type: 1
+    name: 32 1812 Overture
+    difficulty: 10000
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 6
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342,374"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "617"
+    drop_mission_key: "0,0,1114700:1"
+    mission_group_id: 23
+    open_mission_keys: 1119400:1
+    force_type: "1"
+    round_config: 1:1,2:5,3:7
+    mapped_mission_id: 54012
+    win_type: "3"
+    medal_type_silver: "1115701"
+    difficulty_recommend: "10000,75;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11148
+    campaign: -54
+    sub: 33
+    if_emergency: -1
+    name: 5-γ6 Hour of Grief - EX
+    difficulty: 14000
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,1"
+    map_res_name: OPS54_Y
+    map_information: "8000,8000|7500,4500|200,-1300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "614"
+    drop_mission_key: "0,0,1114300:1|1114301:1"
+    mission_group_id: 23
+    open_mission_keys: 1118900:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54008
+    win_type: "1114801"
+    difficulty_recommend: "14000,87;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11149
+    campaign: -54
+    sub: 34
+    if_emergency: -1
+    name: 5-γ8 Torna a Surriento - EX
+    difficulty: 20000
+    exp_parameter: 48
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,1"
+    map_res_name: OPS98_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1114400:1|1114401:1"
+    mission_group_id: 23
+    open_mission_keys: 1119000:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54009
+    win_type: "1114901"
+    difficulty_recommend: "20000,95;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+  }
+  {
+    id: 11150
+    campaign: -54
+    sub: 35
+    if_emergency: -1
+    name: 9 Ghost - EX
+    difficulty: 26000
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_gun_die_num: 1
+    expect_turn: 10
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 7
+    limit_gun_pool: "371,373"
+    limit_team: "0,1"
+    map_res_name: OPS95_Y
+    map_information: "16000,16000|10000,5000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "621"
+    drop_mission_key: "0,0,1114500:1|1114501:1;0,0,1114500:1|1114501:1"
+    mission_group_id: 23
+    open_mission_keys: 1119100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54010
+    win_type: 1115001|1115002
+    difficulty_recommend: "26000,110;0,0;0,0;0,0"
+    limit_sangvis: 1
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11151
+    campaign: -54
+    sub: 36
+    if_emergency: -1
+    name: 30 Symphony No. 6 - EX | Level II Zone α | Level II Zone β
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,2"
+    map_res_name: BloodNetwork_Y;OPS5_Y
+    map_information: "8000,8000|6000,4000|0,0;8000,8000|6000,4000|0,0"
+    fog_length: "0,500;0,500"
+    fog_color: "#000000FF;#000000FF"
+    draw_event_s_id: "622"
+    drop_mission_key: "0,0,1114600:1|1114601:1"
+    mission_group_id: 23
+    open_mission_keys: 1119300:1
+    round_config: 1:21,2:4,3:3
+    mapped_mission_id: 54011
+    win_type: "1115101"
+    difficulty_recommend: "30000,115;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11152
+    campaign: -54
+    sub: 37
+    if_emergency: -1
+    special_type: 1
+    name: 32 1812 Overture - EX
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 6
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342,374"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "622"
+    drop_mission_key: "0,0,1114700:1|1114701:1"
+    mission_group_id: 23
+    open_mission_keys: 1119400:1
+    force_type: "1"
+    round_config: 1:1,2:5,3:7
+    mapped_mission_id: 54012
+    win_type: "3"
+    medal_type_silver: "1115701"
+    difficulty_recommend: "30000,115;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11153
+    campaign: -54
+    sub: 38
+    if_emergency: -1
+    name: 5-γ6 Hour of Grief - UX
+    difficulty: 32000
+    exp_parameter: 54
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 10
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321"
+    limit_team: "0,2"
+    map_res_name: OPS54_Y
+    map_information: "8000,8000|7500,4500|200,-1300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "618"
+    drop_mission_key: "0,0,1114300:1|1114301:1|1114302:1"
+    mission_group_id: 23
+    open_mission_keys: 1118900:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54008
+    win_type: "1115301"
+    difficulty_recommend: "32000,120;0,0;0,0;0,0"
+    limit_sangvis: 2
+    mission_tip: Recommended Formation Type: Balanced Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11154
+    campaign: -54
+    sub: 39
+    if_emergency: -1
+    name: 5-γ8 Torna a Surriento - UX
+    difficulty: 34000
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "358"
+    limit_team: "0,1"
+    map_res_name: OPS98_Y
+    map_information: "15000,15000|12000,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "621"
+    drop_mission_key: "0,0,1114400:1|1114401:1|1114402:1"
+    mission_group_id: 23
+    open_mission_keys: 1119000:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54009
+    win_type: "1115401"
+    difficulty_recommend: "34000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    fight_environment_group: 709;726
+  }
+  {
+    id: 11155
+    campaign: -54
+    sub: 40
+    if_emergency: -1
+    name: 9 Ghost - UX
+    difficulty: 38000
+    exp_parameter: 57
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_gun_die_num: 2
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 6
+    limit_gun_pool: "371,373"
+    limit_team: "0,2"
+    map_res_name: OPS95_Y
+    map_information: "16000,16000|10000,5000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "624"
+    drop_mission_key: "0,0,1114500:1|1114501:1|1114502:1;0,0,1114500:1|1114501:1|1114502:1"
+    mission_group_id: 23
+    open_mission_keys: 1119100:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54010
+    win_type: 1115501|1115502
+    difficulty_recommend: "38000,120;0,0;0,0;0,0"
+    limit_sangvis: 2
+    mission_tip: Recommended Formation Type: Specialized High-Burst Formation
+    lose_type: "1115302"
+  }
+  {
+    id: 11156
+    campaign: -54
+    sub: 41
+    if_emergency: -1
+    name: 30 Symphony No. 6 - UX | Level II Zone α | Level II Zone β
+    difficulty: 42000
+    exp_parameter: 60
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 1
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318"
+    limit_team: "0,2"
+    map_res_name: BloodNetwork_Y;OPS5_Y
+    map_information: "8000,8000|6000,4000|0,0;8000,8000|6000,4000|0,0"
+    fog_length: "0,500;0,500"
+    fog_color: "#000000FF;#000000FF"
+    draw_event_s_id: "625"
+    drop_mission_key: "0,0,1114600:1|1114601:1|1114602:1"
+    mission_group_id: 23
+    open_mission_keys: 1119300:1
+    round_config: 1:21,2:4,3:3
+    mapped_mission_id: 54011
+    win_type: "1115601"
+    difficulty_recommend: "42000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Balanced Formation
+  }
+  {
+    id: 11157
+    campaign: -54
+    sub: 42
+    if_emergency: -1
+    special_type: 1
+    name: 32 1812 Overture - UX
+    difficulty: 42000
+    exp_parameter: 60
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 6
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "342,374"
+    limit_team: "0,6"
+    map_res_name: OPS97_Y
+    map_information: "12000,12000|9500,8000|1200,1000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "625"
+    drop_mission_key: "0,0,1114700:1|1114701:1|1114702:1"
+    mission_group_id: 23
+    open_mission_keys: 1119400:1
+    force_type: "1"
+    round_config: 1:1,2:5,3:7
+    mapped_mission_id: 54012
+    win_type: "3"
+    medal_type_silver: "1115701"
+    difficulty_recommend: "42000,120;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11158
+    campaign: -54
+    sub: 43
+    if_emergency: -1
+    special_type: 1
+    name: Quartet Rondo - Largo
+    difficulty: 5500
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321,371,358,373"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "616"
+    drop_mission_key: "0,0,1115800:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54013
+    win_type: "1115801"
+    difficulty_recommend: "5500,55;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11159
+    campaign: -54
+    sub: 44
+    if_emergency: -1
+    special_type: 1
+    name: Quartet Rondo - Andante
+    difficulty: 14000
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321,371,358,373"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "621"
+    drop_mission_key: "0,0,1115900:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54013
+    win_type: "1115801"
+    difficulty_recommend: "14000,85;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11160
+    campaign: -54
+    sub: 45
+    if_emergency: -1
+    special_type: 1
+    name: Quartet Rondo - Presto
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "308,321,371,358,373"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "624"
+    drop_mission_key: "0,0,1116000:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54013
+    win_type: "1115801"
+    difficulty_recommend: "30000,115;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11161
+    campaign: -54
+    sub: 46
+    if_emergency: -1
+    special_type: 1
+    name: Quintet Rondo - Largo
+    difficulty: 5500
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318,342,374"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "617"
+    drop_mission_key: "0,0,1116100:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54014
+    win_type: "1115801"
+    difficulty_recommend: "5500,55;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11162
+    campaign: -54
+    sub: 47
+    if_emergency: -1
+    special_type: 1
+    name: Quintet Rondo - Andante
+    difficulty: 14000
+    exp_parameter: 44
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318,342,374"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "622"
+    drop_mission_key: "0,0,1116200:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54014
+    win_type: "1115801"
+    difficulty_recommend: "14000,85;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11163
+    campaign: -54
+    sub: 48
+    if_emergency: -1
+    special_type: 1
+    name: Quintet Rondo - Presto
+    difficulty: 30000
+    exp_parameter: 53
+    type: "3"
+    enemy_ai_type: -1
+    expect_enemy_die_num: 5
+    expect_turn: 1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "357,318,342,374"
+    map_res_name: OPS97_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "625"
+    drop_mission_key: "0,0,1116300:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:21,2:5,3:3
+    mapped_mission_id: 54014
+    win_type: "1115801"
+    difficulty_recommend: "30000,115;0,0;0,0;0,0"
+    mission_tip: Recommended Formation Type: Specialized Night Battle Formation
+  }
+  {
+    id: 11164
+    campaign: -54
+    sub: 49
+    if_emergency: -1
+    special_type: 9
+    name: Transcendental Études
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "12000,12000|12000,12000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116400:1"
+    mission_group_id: 23
+    open_mission_keys: 1112001:1;1112101:1;1112201:1;1113001:1;1113101:1;1113201:1;1113301:1;1114301:1;1114401:1;1114501:1;1114601:1;1114701:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11165
+    campaign: -54
+    sub: 50
+    if_emergency: -1
+    special_type: 9
+    name: Études-Tableaux
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: BloodNetwork_Y;OPS5_Y
+    map_information: "8000,8000|8000,8000|0,0;8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116500:1"
+    mission_group_id: 23
+    open_mission_keys: 1112002:1;1112102:1;1112202:1;1113002:1;1113102:1;1113202:1;1113302:1;1114302:1;1114402:1;1114502:1;1114602:1;1114702:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11166
+    campaign: -54
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: 1 Train Timetable
+    difficulty: 1000
+    type: "3"
+    enemy_ai_type: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "3000,2625|2000,1600|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116600:1"
+    mission_group_id: 23
+    round_config: 1:1,2:2,3:3
+    limit_squad: 2
+    difficulty_recommend: "1000,10;0,0;0,0;0,0"
+    limit_sangvis: -1
+  }
+  {
+    id: 11167
+    campaign: -54
+    sub: 51
+    if_emergency: -1
+    special_type: 9
+    name: 3-α1 Waltz in A minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116700:1"
+    mission_group_id: 23
+    open_mission_keys: 1119700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11168
+    campaign: -54
+    sub: 52
+    if_emergency: -1
+    special_type: 9
+    name: 3-α3 Raindrop
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116800:1"
+    mission_group_id: 23
+    open_mission_keys: 1111900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11169
+    campaign: -54
+    sub: 53
+    if_emergency: -1
+    special_type: 9
+    name: 3-α4 Little Prelude in G minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1116900:1"
+    mission_group_id: 23
+    open_mission_keys: 1116800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11170
+    campaign: -54
+    sub: 54
+    if_emergency: -1
+    special_type: 9
+    name: 5-α5 Moonlight Sonata
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117000:1"
+    mission_group_id: 23
+    open_mission_keys: 1119900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11171
+    campaign: -54
+    sub: 55
+    if_emergency: -1
+    special_type: 9
+    name: 5-α7 Winter
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117100:1"
+    mission_group_id: 23
+    open_mission_keys: 1112000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11172
+    campaign: -54
+    sub: 56
+    if_emergency: -1
+    special_type: 9
+    name: 16 Concerto Grosso in A minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117200:1"
+    mission_group_id: 23
+    open_mission_keys: 1120300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11173
+    campaign: -54
+    sub: 57
+    if_emergency: -1
+    special_type: 9
+    name: 17 Brahms Intermezzi
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117300:1"
+    mission_group_id: 23
+    open_mission_keys: 1117200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11174
+    campaign: -54
+    sub: 58
+    if_emergency: -1
+    special_type: 9
+    name: 18 The Swan
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117400:1"
+    mission_group_id: 23
+    open_mission_keys: 1117300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11175
+    campaign: -54
+    sub: 59
+    if_emergency: -1
+    special_type: 9
+    name: 25 Ruslan and Lyudmila
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117500:1"
+    mission_group_id: 23
+    open_mission_keys: 1120600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11176
+    campaign: -54
+    sub: 60
+    if_emergency: -1
+    special_type: 9
+    name: 27 Ride of the Valkyries
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117600:1"
+    mission_group_id: 23
+    open_mission_keys: 1112200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11177
+    campaign: -54
+    sub: 61
+    if_emergency: -1
+    special_type: 9
+    name: 3-β1 Gene Takes a Drink
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117700:1"
+    mission_group_id: 23
+    open_mission_keys: 1119700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11178
+    campaign: -54
+    sub: 62
+    if_emergency: -1
+    special_type: 9
+    name: 3-β3 Symphony No. 3
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117800:1"
+    mission_group_id: 23
+    open_mission_keys: 1112900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11179
+    campaign: -54
+    sub: 63
+    if_emergency: -1
+    special_type: 9
+    name: 5-β4 Introduction and Rondo Capriccioso
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1117900:1"
+    mission_group_id: 23
+    open_mission_keys: 1119900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11180
+    campaign: -54
+    sub: 64
+    if_emergency: -1
+    special_type: 9
+    name: 5-β5 Danse Macabre
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118000:1"
+    mission_group_id: 23
+    open_mission_keys: 1117900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11181
+    campaign: -54
+    sub: 65
+    if_emergency: -1
+    special_type: 9
+    name: 5-β7 Cavalleria Rusticana
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118100:1"
+    mission_group_id: 23
+    open_mission_keys: 1113000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11182
+    campaign: -54
+    sub: 66
+    if_emergency: -1
+    special_type: 9
+    name: 12 Gnossienne No. 1
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118200:1"
+    mission_group_id: 23
+    open_mission_keys: 1120200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11183
+    campaign: -54
+    sub: 67
+    if_emergency: -1
+    special_type: 9
+    name: 14 Ballade in G minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118300:1"
+    mission_group_id: 23
+    open_mission_keys: 1113200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11184
+    campaign: -54
+    sub: 68
+    if_emergency: -1
+    special_type: 9
+    name: 21 La Campanella
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118400:1"
+    mission_group_id: 23
+    open_mission_keys: 1120500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11185
+    campaign: -54
+    sub: 69
+    if_emergency: -1
+    special_type: 9
+    name: 23 Con Espressione
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118500:1"
+    mission_group_id: 23
+    open_mission_keys: 1113300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11186
+    campaign: -54
+    sub: 70
+    if_emergency: -1
+    special_type: 9
+    name: 3-γ1 Méditation from Thaïs
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118600:1"
+    mission_group_id: 23
+    open_mission_keys: 1119700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11187
+    campaign: -54
+    sub: 71
+    if_emergency: -1
+    special_type: 9
+    name: 3-γ3 Vladimir's Blues
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118700:1"
+    mission_group_id: 23
+    open_mission_keys: 1114200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11188
+    campaign: -54
+    sub: 72
+    if_emergency: -1
+    special_type: 9
+    name: 3-γ4 The Well-Tempered Clavier
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118800:1"
+    mission_group_id: 23
+    open_mission_keys: 1118700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11189
+    campaign: -54
+    sub: 73
+    if_emergency: -1
+    special_type: 9
+    name: 5-γ5 The Canary
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1118900:1"
+    mission_group_id: 23
+    open_mission_keys: 1119900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11190
+    campaign: -54
+    sub: 74
+    if_emergency: -1
+    special_type: 9
+    name: 5-γ7 Choral Fantasy
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119000:1"
+    mission_group_id: 23
+    open_mission_keys: 1114300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11191
+    campaign: -54
+    sub: 75
+    if_emergency: -1
+    special_type: 9
+    name: 8 Rhapsody on a Theme of Paganini
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119100:1"
+    mission_group_id: 23
+    open_mission_keys: 1120100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11192
+    campaign: -54
+    sub: 76
+    if_emergency: -1
+    special_type: 9
+    name: 10 L'estro Armonico
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119200:1"
+    mission_group_id: 23
+    open_mission_keys: 1114500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11193
+    campaign: -54
+    sub: 77
+    if_emergency: -1
+    special_type: 9
+    name: 29 Summer
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119300:1"
+    mission_group_id: 23
+    open_mission_keys: 1120700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11194
+    campaign: -54
+    sub: 78
+    if_emergency: -1
+    special_type: 9
+    name: 31 Zigeunerweisen
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119400:1"
+    mission_group_id: 23
+    open_mission_keys: 1114600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11195
+    campaign: -54
+    sub: 79
+    if_emergency: -1
+    special_type: 9
+    name: 33 Air on the G String
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119500:1"
+    mission_group_id: 23
+    open_mission_keys: 1114700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11196
+    campaign: -54
+    sub: 80
+    if_emergency: -1
+    special_type: 9
+    name: 2 Radiation Alarm
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119600:1"
+    mission_group_id: 23
+    open_mission_keys: 1116600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11197
+    campaign: -54
+    sub: 81
+    if_emergency: -1
+    special_type: 9
+    name: 3 Bar Counter
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119700:1"
+    mission_group_id: 23
+    open_mission_keys: 1119600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11198
+    campaign: -54
+    sub: 82
+    if_emergency: -1
+    special_type: 9
+    name: 4 Vintage Gramophone
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119800:1"
+    mission_group_id: 23
+    open_mission_keys: 1116900:1;1117800:1;1118800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11199
+    campaign: -54
+    sub: 83
+    if_emergency: -1
+    special_type: 9
+    name: 5 Toilet
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1119900:1"
+    mission_group_id: 23
+    open_mission_keys: 1119800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11200
+    campaign: -54
+    sub: 84
+    if_emergency: -1
+    special_type: 9
+    name: 6 World Time Zone Clocks
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120000:1"
+    mission_group_id: 23
+    open_mission_keys: 1112100:1;1113100:1;1114400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11201
+    campaign: -54
+    sub: 85
+    if_emergency: -1
+    special_type: 9
+    name: 7 Door to First-Class Carriage
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120100:1"
+    mission_group_id: 23
+    open_mission_keys: 1120000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11202
+    campaign: -54
+    sub: 86
+    if_emergency: -1
+    special_type: 9
+    name: 11 Large Luggage Rack
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120200:1"
+    mission_group_id: 23
+    open_mission_keys: 1119200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11203
+    campaign: -54
+    sub: 87
+    if_emergency: -1
+    special_type: 9
+    name: 15 Window with a View
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120300:1"
+    mission_group_id: 23
+    open_mission_keys: 1118300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11204
+    campaign: -54
+    sub: 88
+    if_emergency: -1
+    special_type: 9
+    name: 19 Elegant Bouquet on the Table
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120400:1"
+    mission_group_id: 23
+    open_mission_keys: 1117400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11205
+    campaign: -54
+    sub: 89
+    if_emergency: -1
+    special_type: 9
+    name: 20 Vendor's Pushcart
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120500:1"
+    mission_group_id: 23
+    open_mission_keys: 1120400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11206
+    campaign: -54
+    sub: 90
+    if_emergency: -1
+    special_type: 9
+    name: 24 Humorous Graffiti
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120600:1"
+    mission_group_id: 23
+    open_mission_keys: 1118500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11207
+    campaign: -54
+    sub: 91
+    if_emergency: -1
+    special_type: 9
+    name: 28 Maintenance Room
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120700:1"
+    mission_group_id: 23
+    open_mission_keys: 1117600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11208
+    campaign: -54
+    sub: 92
+    if_emergency: -1
+    special_type: 9
+    name: 34 Trapdoor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120800:1"
+    mission_group_id: 23
+    open_mission_keys: 1119500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11209
+    campaign: -54
+    sub: 93
+    if_emergency: -1
+    special_type: 9
+    name: 35 Hanging Screen
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1120900:1"
+    mission_group_id: 23
+    open_mission_keys: 1120800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11210
+    campaign: -54
+    sub: 94
+    if_emergency: -1
+    special_type: 9
+    name: 36 Vox Lux
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121000:1"
+    mission_group_id: 23
+    open_mission_keys: 1121800:1;1122100:1;1122500:1;1122900:1;1123200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11211
+    campaign: -54
+    sub: 95
+    if_emergency: -1
+    special_type: 9
+    name: 35-T1 Étude No. 2
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121100:1"
+    mission_group_id: 23
+    open_mission_keys: 1120900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11212
+    campaign: -54
+    sub: 96
+    if_emergency: -1
+    special_type: 9
+    name: 35-T2 Prelude No. 5
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121200:1"
+    mission_group_id: 23
+    open_mission_keys: 1121100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11213
+    campaign: -54
+    sub: 97
+    if_emergency: -1
+    special_type: 9
+    name: 35-T3 Romance
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121300:1"
+    mission_group_id: 23
+    open_mission_keys: 1121200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11214
+    campaign: -54
+    sub: 98
+    if_emergency: -1
+    special_type: 9
+    name: 35-T4 Moments Musicaux
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121400:1"
+    mission_group_id: 23
+    open_mission_keys: 1121300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11215
+    campaign: -54
+    sub: 99
+    if_emergency: -1
+    special_type: 9
+    name: 35-W1 Solveig's Song
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121500:1"
+    mission_group_id: 23
+    open_mission_keys: 1121400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11216
+    campaign: -54
+    sub: 100
+    if_emergency: -1
+    special_type: 9
+    name: 35-W2 Clarinet Concerto in A Major
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121600:1"
+    mission_group_id: 23
+    open_mission_keys: 1121500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11217
+    campaign: -54
+    sub: 101
+    if_emergency: -1
+    special_type: 9
+    name: 35-W3 Tour di Mantova
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121700:1"
+    mission_group_id: 23
+    open_mission_keys: 1121600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11218
+    campaign: -54
+    sub: 102
+    if_emergency: -1
+    special_type: 9
+    name: 35-W4 Tristesse
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121800:1"
+    mission_group_id: 23
+    open_mission_keys: 1121700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11219
+    campaign: -54
+    sub: 103
+    if_emergency: -1
+    special_type: 9
+    name: 35-N1 Fantaisie-Impromptu
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1121900:1"
+    mission_group_id: 23
+    open_mission_keys: 1121400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11220
+    campaign: -54
+    sub: 104
+    if_emergency: -1
+    special_type: 9
+    name: 35-N2 Spring Sonata
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122000:1"
+    mission_group_id: 23
+    open_mission_keys: 1121900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11221
+    campaign: -54
+    sub: 105
+    if_emergency: -1
+    special_type: 9
+    name: 35-N3 Minuet
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122100:1"
+    mission_group_id: 23
+    open_mission_keys: 1122000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11222
+    campaign: -54
+    sub: 106
+    if_emergency: -1
+    special_type: 9
+    name: 35-C1 Gymnopedie
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122200:1"
+    mission_group_id: 23
+    open_mission_keys: 1121400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11223
+    campaign: -54
+    sub: 107
+    if_emergency: -1
+    special_type: 9
+    name: 35-C2 Moon River
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122300:1"
+    mission_group_id: 23
+    open_mission_keys: 1122200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11224
+    campaign: -54
+    sub: 108
+    if_emergency: -1
+    special_type: 9
+    name: 35-C3 Starry Starry Night
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122400:1"
+    mission_group_id: 23
+    open_mission_keys: 1122300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11225
+    campaign: -54
+    sub: 109
+    if_emergency: -1
+    special_type: 9
+    name: 35-C4 O Sole Mio
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122500:1"
+    mission_group_id: 23
+    open_mission_keys: 1122400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11226
+    campaign: -54
+    sub: 110
+    if_emergency: -1
+    special_type: 9
+    name: 35-R1 Tzigane
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122600:1"
+    mission_group_id: 23
+    open_mission_keys: 1121400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11227
+    campaign: -54
+    sub: 111
+    if_emergency: -1
+    special_type: 9
+    name: 35-R2 Sommeraften
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122700:1"
+    mission_group_id: 23
+    open_mission_keys: 1122600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11228
+    campaign: -54
+    sub: 112
+    if_emergency: -1
+    special_type: 9
+    name: 35-R3 Piano Quintet in B minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122800:1"
+    mission_group_id: 23
+    open_mission_keys: 1122700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11229
+    campaign: -54
+    sub: 113
+    if_emergency: -1
+    special_type: 9
+    name: 35-R4 Piano Concerto in F minor
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1122900:1"
+    mission_group_id: 23
+    open_mission_keys: 1122800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11230
+    campaign: -54
+    sub: 114
+    if_emergency: -1
+    special_type: 9
+    name: 35-P1 Twelve Variations on "Ah vous dirai-je, Maman"
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1123000:1"
+    mission_group_id: 23
+    open_mission_keys: 1121400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11231
+    campaign: -54
+    sub: 115
+    if_emergency: -1
+    special_type: 9
+    name: 35-P2 Death and the Maiden
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 3
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1123100:1"
+    mission_group_id: 23
+    open_mission_keys: 1123000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
+  }
+  {
+    id: 11232
+    campaign: -54
+    sub: 116
+    if_emergency: -1
+    special_type: 9
+    name: 35-P3 Salut d'Amour
+    difficulty: 1000
+    exp_parameter: 10
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: OPS67_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1123200:1"
+    mission_group_id: 23
+    open_mission_keys: 1123100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,5;0,0;0,0;0,0"
   }
   {
     id: 11233

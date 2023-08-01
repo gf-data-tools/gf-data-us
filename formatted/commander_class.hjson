@@ -422,6 +422,17 @@
     source: 1
   }
   {
+    id: 48
+    name: Pixel Shades
+    description: As you stand at the pinnacle of humanity, they shall descend and crown you as the ultimate weirdo.
+    group_id: "90"
+    code: commander_4810_icon
+    path: CLASS48
+    des_year: "2022"
+    source: 2
+    source_description: Longitudinal Strain Event Ranking Reward
+  }
+  {
     id: 49
     name: Pulse of Youth
     description: With a cool breeze blowing in your face and warm sunlight shining on the earth, work up a sweat to keep the morning dew company.
@@ -432,6 +443,19 @@
     path: CLASS49
     is_class: 1
     des_year: "2022"
+    source: 1
+  }
+  {
+    id: 51
+    name: Master of the Seas
+    description: Drop anchor in a hidden bay and weather the vicious storm. Sing amidst the waves and meet your foe with steel in hand—"Listen up, me hearties, after I finish this bottle of rum, we'll weigh anchor and search for the next trove of booty!"
+    group_id: "93"
+    code: commander_5132_icon
+    bonus_plastic: "130020"
+    skill_id: 107
+    path: CLASS51
+    is_class: 1
+    des_year: "2023"
     source: 1
   }
 ]
