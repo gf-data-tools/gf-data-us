@@ -9357,6 +9357,104 @@
     obtain_ids: "3079"
   }
   {
+    id: 301
+    name: ZF4
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      ROF+<rate> $G43 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    rate: "1,2"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: 配件_特殊_G43
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "47"
+    equip_introduction: A scope that IOP produced exclusively for G43, following schematics from the past. It increases G43's combat efficiency significantly.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: rate:1000,critical_percent:1000
+    max_level: 10
+    auto_select_id: 18103
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 302
+    name: BA6 Laser Pointer
+    description:
+      '''
+      EVA+<dodge>
+      CRIT RATE+<critical_percent><%> $P99 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "8,11"
+    critical_percent: "12,15"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: 配件_特殊_P99
+    develop_duration: 3540
+    company: STN
+    fit_guns: "123"
+    equip_introduction: A laser pointer designed and produced exclusively for P99 by renowned optical instrument manufacturer STN. Its reliability is further improved with IOP's calibrations.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:1000,critical_percent:350
+    max_level: 10
+    auto_select_id: 18104
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 303
+    name: EVO 3 Handguard
+    description:
+      '''
+      DMG+<pow>
+      EVA+<dodge> $EVO 3 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "1,2"
+    dodge: "7,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: 配件_特殊_EVO3
+    develop_duration: 2820
+    company: MI
+    fit_guns: "131"
+    equip_introduction: An M-LOK handguard that MI designed for EVO 3's exclusive use. It significantly improves EVO 3's attachment capacity.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: dodge:1000,pow:1000
+    max_level: 10
+    auto_select_id: 18105
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
     id: 304
     name: GRUNT Rail
     description:
