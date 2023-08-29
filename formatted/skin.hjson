@@ -266,7 +266,15 @@
     fit_gun: -1
     ai: 5001
     voice: 4
-    illustrator_cv: skin-40000208
+    class_id: 52
+  }
+  {
+    id: 209
+    name: Kalina - Summer Night Dream Giver
+    fit_gun: -1
+    ai: 5002
+    voice: 4
+    gift_position: "-83.2,-48.4"
     class_id: 52
   }
   {
@@ -6767,6 +6775,111 @@
     dialog: Hehe, I've found the four pieces of Captain Kidd's treasure map. Now all I need to do is decipher these mysterious numbers: 44-10-66-18. I wonder what they mean...?
     order: 107
     class_id: 87
+  }
+  {
+    id: 8601
+    name: Dangerous Mission
+    fit_gun: 282
+    voice: 4
+    dialog: Yes, I did order you to "set out one hour earlier". It was a professional decision based on your popularity and the number of times you were likely to get robbed... Hm? Why do you look so pale? I was just kidding.
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8602
+    name: Miss Phoneline Hogger
+    fit_gun: 323
+    voice: 4
+    dialog: Please issue me a soft set of pillows and office furniture! Having to call and confirm dispatch orders is torturous enough as it is. I'll crash if I have to continue working in such brutal conditions!
+    gift_position: "-131.5,93.7"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8603
+    name: Elite on Patrol
+    fit_gun: 96
+    voice: 4
+    dialog: Six cases of insurance fraud, three robberies, two counts of assaulting a police officer... This workload isn't even a tenth of what happens during a typical day at Griffin! I should go look for some thrills after this cup of coffee...
+    gift_position: "-123.5,-25.6"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8604
+    name: Doodles and Daydreams
+    fit_gun: 334
+    voice: 4
+    dialog: Quit rushing me, I'm working as fast as I can... You want to know what all those windows on my desktop are? They're sources of inspiration, of course!
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8605
+    name: Lucia
+    fit_gun: 206
+    voice: 4
+    dialog: '''"A natural-born genius"? Ange sure has an eye for talent. After all, I'm the best one here. Don't you think so too, Commander? There, there, no need to worry, we'll take good care of you, but if you want me to help you turn a profit, you should employ me as the CEO next time.'''
+    gift_position: "-125.62,-161.2"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8606
+    name: Antje
+    fit_gun: 205
+    voice: 4
+    dialog: Hello, I'm AN-94, and I'll be protecting you from this day onward... No, I'm sorry, I forgot I was supposed to be undercover. Don't worry, I've practiced the key elements of secretary work... Also, please don't let what 12 said bother you, she's just a little excited.
+    gift_position: "-113.7,-150"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8607
+    name: Erwin
+    fit_gun: 293
+    voice: 4
+    dialog: Ange gave me the codename of "Blade", because my cover identity is a bodyguard. I apologize, but I simply cannot blend in as an ordinary employee. That said, I will guarantee your safety no matter who I face... or whatever happens.
+    gift_position: "-13,-150"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8608
+    name: Renate
+    fit_gun: 292
+    voice: 4
+    dialog: Even in a peaceful world like this, there are still people who have different opinions from each other, even if we're among friends who ought to be striving for the same goal in this confined space. That's why humans are so interesting... Don't worry, Commander. At the very least, I'm on your side.
+    gift_position: "-29.8,-150"
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8609
+    name: Mocha Partner
+    fit_gun: 64
+    voice: 4
+    dialog: After taking last year's enjoyable work experience together into consideration, I've added a special clause to my renewed employment contract: whenever we meet in the future, I will personally brew you a cup of coffee... If you don't mind, then please sign here.
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8610
+    name: 6P62's Offer
+    fit_gun: 138
+    voice: 4
+    dialog: '''"Come sign up with us, this is a future you can't refuse..." How's that, Commander? Surely the stout-hearted youths out there will be moved by my new recruitment slogan, right? Griffin's ascent is assured!'''
+    order: 114
+    class_id: 91
+  }
+  {
+    id: 8612
+    name: Detective's Sidekick
+    fit_gun: 61
+    voice: 4
+    dialog: Just as you predicted, there was a suspicious signal coming from the vicinity of the police post. Commencing two-pronged capture operation... Alright, please take care too. See you later.
+    order: 114
+    class_id: 91
   }
   {
     id: 30001

@@ -10662,6 +10662,51 @@
     rank: 1
   }
   {
+    id: 2111
+    type: 5
+    arg: "1"
+    code: profilePic_YZActivity2022_A
+    item_name: Icon: First Ever Lycan Tour!
+    introduction: Icon: First Ever Lycan Tour!
+    rank: 1
+  }
+  {
+    id: 2112
+    type: 5
+    arg: "1"
+    code: profilePic_YZActivity2022_B
+    item_name: Icon: Overheat!
+    introduction: Icon: Overheat!
+    rank: 1
+  }
+  {
+    id: 2113
+    type: 5
+    arg: "1"
+    code: profilePic_YZActivity2022_C
+    item_name: Icon: No-Melt Snowball
+    introduction: Icon: No-Melt Snowball
+    rank: 1
+  }
+  {
+    id: 2114
+    type: 5
+    arg: "1"
+    code: card_YZActivity2022_A
+    item_name: ID: Memories on a Glistening Night
+    introduction: ID: Memories on a Glistening Night
+    rank: 1
+  }
+  {
+    id: 2115
+    type: 5
+    arg: "1"
+    code: cg_YZActivity2022_A
+    item_name: Background: Night Market
+    introduction: The lights shine and the flowers dazzle... Hot smoke billows up from a bustling market stall. Such is the most welcoming sight in the world.
+    rank: 1
+  }
+  {
     id: 2116
     type: 5
     arg: "1"
@@ -11686,6 +11731,104 @@
     rank: 1
   }
   {
+    id: 2345
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_DP12
+    item_name: Dangerous Mission
+    introduction: Dangerous Mission
+    rank: 1
+  }
+  {
+    id: 2346
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_LTLX7000
+    item_name: Miss Phoneline Hogger
+    introduction: Miss Phoneline Hogger
+    rank: 1
+  }
+  {
+    id: 2347
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_Grizzly
+    introduction: Elite on Patrol
+    rank: 1
+  }
+  {
+    id: 2348
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_Savage99
+    item_name: Doodles and Daydreams
+    introduction: Doodles and Daydreams
+    rank: 1
+  }
+  {
+    id: 2349
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_AK12
+    item_name: Lucia
+    introduction: Lucia
+    rank: 1
+  }
+  {
+    id: 2350
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_AN94
+    item_name: Antje
+    introduction: Antje
+    rank: 1
+  }
+  {
+    id: 2351
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_AK15
+    item_name: Erwin
+    introduction: Erwin
+    rank: 1
+  }
+  {
+    id: 2352
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_RPK16
+    item_name: Renate
+    introduction: Renate
+    rank: 1
+  }
+  {
+    id: 2353
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_G36
+    item_name: Mocha Partner
+    introduction: Mocha Partner
+    rank: 1
+  }
+  {
+    id: 2354
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_6P62
+    item_name: 6P62's Offer
+    introduction: 6P62's Offer
+    rank: 1
+  }
+  {
+    id: 2356
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_STG44
+    item_name: Detective's Sidekick
+    introduction: Detective's Sidekick
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -12356,6 +12499,24 @@
     introduction: item-20009012
     rank: 1
     detail_introduction: item-30009012
+  }
+  {
+    id: 9013
+    type: 4
+    arg: "9013"
+    code: 2022Bikini_Goody
+    item_name: Proof of Goodness
+    introduction: May God bless us good people with wisdom and luck so that we may triumph over the ruthless Lycans!
+    rank: 1
+  }
+  {
+    id: 9014
+    type: 4
+    arg: "9014"
+    code: 2022Bikini_Baddy
+    item_name: Sign of the Pack
+    introduction: The full moon is the Lycan's totem; killing is in our nature... We indulge in revelry in the dark until daybreak.
+    rank: 1
   }
   {
     id: 9015
@@ -13689,6 +13850,36 @@
     introduction: Star Marker
     rank: 1
     daily_limit: "120"
+  }
+  {
+    id: 100147
+    type: 4
+    arg: "100147"
+    code: Platinum_medal
+    item_name: Platinum Medal - Lycan Sanctuary
+    introduction: Platinum Medal - Lycan Sanctuary
+    rank: 1
+  }
+  {
+    id: 100148
+    type: 9
+    arg: "100148"
+    code: Handcuffs
+    item_name: Restricted Area Lock
+    introduction: Restricted Area Lock
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100151
+    type: 4
+    arg: "100151"
+    code: golyatplg_d
+    item_name: Goliath Projectile
+    introduction: A portable explosive robot with less destructiveness but more flexibility than the original model. Once deployed, it will explode on the spot and sabotage the enemy's deployment (exclusive to Twilight Labyrinth Battle Stages II, III, IV, and V).
+    rank: 1
+    sort: -52
+    item_access: "2"
   }
   {
     id: 100152

@@ -9128,6 +9128,39 @@
     obtain_ids: "3070"
   }
   {
+    id: 293
+    name: Nano Multi-function Cape
+    description:
+      '''
+      DMG+<pow>
+      Armor+<armor> $M6 ASW only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "1,3"
+    armor: "6,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: 人形_特殊_M6ASW
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "324"
+    equip_introduction: A multi-function cape developed by IOP for M6 ASW. Created using advanced materials, it is bullet-proof to a certain degree.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.33
+    exclusive_rate: 3
+    bonus_type: pow:700,armor:400
+    max_level: 10
+    auto_select_id: 20048
+    is_show: 1
+    obtain_ids: "3078"
+  }
+  {
     id: 294
     name: ACR Fixed Stock
     description:
@@ -10249,5 +10282,40 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3094"
+  }
+  {
+    id: 332
+    name: SBAL-PL
+    description:
+      '''
+      ECH NIGHT VISION+5%
+      EVA+<dodge> Enhances skill $Five-seven only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "6,10"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: 配件_特殊_FN57
+    develop_duration: 3060
+    company: SO
+    fit_guns: "142"
+    equip_introduction: Five-seven's preferred compact pistol light, which offers a visible green laser and a 500-lumen white light LED. It is an exceptional product in terms of both performance and appearance, which has a distinctly futuristic feel.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:500
+    passive_skill: "759061,759073"
+    max_level: 10
+    auto_select_id: 18113
+    is_show: 1
+    obtain_ids: "3083"
+    sp_description: Echelon Night Vision+5%
   }
 ]
