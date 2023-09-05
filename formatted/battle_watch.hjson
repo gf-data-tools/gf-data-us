@@ -56,6 +56,19 @@
     new_record_chara1: 1000004766
   }
   {
+    id: 1007
+    description: DP12换弹监视
+    watch_trigger_type: 4
+    activation_watch_trigger: 1013
+    activation_skills: "740065"
+  }
+  {
+    id: 1008
+    description: 樱花受击监视
+    watch_trigger_type: 2
+    activation_skills: "740073"
+  }
+  {
     id: 1009
     description: 沃克监视友方射速
     watch_trigger_type: 1
@@ -118,6 +131,211 @@
     activation_skills: "750641"
   }
   {
+    id: 1017
+    description: apc9k监视miss
+    watch_trigger_type: 2
+    activation_watch_trigger: 1010
+    activation_skills: "750748"
+  }
+  {
+    id: 1018
+    description: apc9k监视队长造成伤害
+    watch_trigger_type: 3
+    activation_watch_trigger: 1011
+    activation_skills: "750750"
+  }
+  {
+    id: 1019
+    description: 监视队长在场-死亡
+    watch_trigger_type: 7
+    activation_skills: "750753"
+  }
+  {
+    id: 1020
+    description: 监视队长在场-撤退
+    watch_trigger_type: 6
+    activation_skills: "750753"
+  }
+  {
+    id: 1021
+    description: 监视队长在场-没有队长
+    watch_trigger_type: 1
+    watch_sp_trigger: "750753,750749"
+    activation_watch_trigger: 1012
+    activation_skills: "750753"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1022
+    description: 离场监视
+    watch_trigger_type: 6
+    activation_skills: "759082"
+  }
+  {
+    id: 1023
+    description: 死亡监视
+    watch_trigger_type: 7
+    activation_skills: "759082"
+  }
+  {
+    id: 1024
+    description: 友方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750779"
+  }
+  {
+    id: 1025
+    description: 敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750780"
+  }
+  {
+    id: 1026
+    description: 友方掉编
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "750779"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1027
+    description: 敌方掉编
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "750780"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1028
+    description: 斯捷奇金敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "759137"
+  }
+  {
+    id: 1029
+    description: 纱那锁定死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750790"
+  }
+  {
+    id: 1030
+    description: 死亡监视boss
+    watch_trigger_type: 7
+    watch_sp_trigger: "750824"
+    activation_skills: "750824"
+  }
+  {
+    id: 1031
+    description: 死亡监视精英
+    watch_trigger_type: 7
+    watch_sp_trigger: "750825"
+    activation_skills: "750825"
+  }
+  {
+    id: 1032
+    description: 死亡监视小怪
+    watch_trigger_type: 7
+    watch_sp_trigger: "750826"
+    activation_skills: "750826"
+  }
+  {
+    id: 1033
+    description: 开场AR监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 1016
+    activation_skills: "757122"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1034
+    description: 开场RF监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 1016
+    activation_skills: "757123"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1035
+    description: 开场HG监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    watch_sp_trigger: "757121"
+    activation_watch_trigger: 1016
+    activation_skills: "757124"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1036
+    description: 开场MG监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 1016
+    activation_skills: "757125"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1037
+    description: 开场SMG监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 1016
+    activation_skills: "757126"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1038
+    description: 开场SG监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 1016
+    activation_skills: "757127"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1039
+    description: 死亡监视-巨人
+    watch_trigger_type: 7
+    activation_skills: "750852"
+  }
+  {
+    id: 1040
+    description: 死亡监视-海蛇
+    watch_trigger_type: 7
+    activation_skills: "750853"
+  }
+  {
+    id: 1041
+    description: 死亡监视-巨龙
+    watch_trigger_type: 7
+    activation_skills: "750854"
+  }
+  {
+    id: 1042
+    description: M327杰里科效果监视
+    record_chara1: 1000005372
+    watch_trigger_type: 1
+    watch_sp_trigger: "750588,750600"
+    activation_watch_trigger: 1017
+    activation_skills: "750558"
+    new_record_chara1: 1000005372
+  }
+  {
+    id: 1043
+    description: 死亡监视-竞争者
+    watch_trigger_type: 7
+    activation_skills: "759247"
+  }
+  {
     id: 5001
     description: 曦和监视
     record_chara1: 1000002118
@@ -126,6 +344,42 @@
     activation_skills: "119603"
     record_watch_trigger: 5001
     new_record_chara1: 1000002120
+  }
+  {
+    id: 5002
+    description: 伤害监视
+    record_chara1: 1000002216
+    watch_trigger_type: 1
+    activation_watch_trigger: 5002
+    activation_skills: "120803"
+    new_record_chara1: 1000002216
+  }
+  {
+    id: 5003
+    description: 射速监视
+    record_chara1: 1000002217
+    watch_trigger_type: 1
+    activation_watch_trigger: 5003
+    activation_skills: "120804"
+    new_record_chara1: 1000002217
+  }
+  {
+    id: 5004
+    description: 回避监视
+    record_chara1: 1000002218
+    watch_trigger_type: 1
+    activation_watch_trigger: 5004
+    activation_skills: "120805"
+    new_record_chara1: 1000002218
+  }
+  {
+    id: 5005
+    description: 命中监视
+    record_chara1: 1000002219
+    watch_trigger_type: 1
+    activation_watch_trigger: 5005
+    activation_skills: "120806"
+    new_record_chara1: 1000002219
   }
   {
     id: 70001
@@ -180,5 +434,12 @@
     watch_trigger_type: 1
     activation_watch_trigger: 70006
     activation_skills: "778130"
+  }
+  {
+    id: 70007
+    description: DP12换弹监视
+    watch_trigger_type: 4
+    activation_watch_trigger: 1014
+    activation_skills: "740065"
   }
 ]

@@ -11722,12 +11722,28 @@
     rank: 1
   }
   {
+    id: 2316
+    type: 5
+    arg: "1"
+    code: card_BattlePass_QBZ191
+    item_name: ID: Early Summer Breeze
+    introduction: ID: Early Summer Breeze
+    rank: 1
+  }
+  {
+    id: 2317
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_QBZ191
+    item_name: Haze in the Mountains
+    introduction: Haze in the Mountains
+    rank: 1
+  }
+  {
     id: 2321
     type: 5
     arg: "1"
     code: card_Children2022_us
-    item_name: ID Card: Childhood Tales of Summer Flowers
-    introduction: ID Card: Childhood Tales of Summer Flowers
     rank: 1
   }
   {
@@ -11753,6 +11769,7 @@
     type: 5
     arg: "1"
     code: profilePic_OfficeLady2023_Grizzly
+    item_name: Elite on Patrol
     introduction: Elite on Patrol
     rank: 1
   }
@@ -14880,6 +14897,26 @@
     detail_introduction: item-30140016
   }
   {
+    id: 140017
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140017
+    introduction: item-20140017
+    rank: 1
+    detail_introduction: item-30140017
+  }
+  {
+    id: 140018
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140018
+    introduction: item-20140018
+    rank: 1
+    detail_introduction: item-30140018
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -15049,6 +15086,15 @@
     code: profileFrame_BattlePass_MK3A1
     item_name: Icon Frame: Disassembly Craze
     introduction: Icon Frame: Disassembly Craze
+    rank: 1
+  }
+  {
+    id: 200023
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_QBZ191
+    item_name: Icon Frame: Chilling with Summer
+    introduction: Icon Frame: Chilling with Summer
     rank: 1
   }
   {
@@ -15886,5 +15932,46 @@
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
     rank: 1
     sort: -1
+  }
+  {
+    id: 1500074
+    type: 15
+    arg: "1500074"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500075
+    type: 15
+    arg: "1500075"
+    code: package_choose
+    item_name: T-Doll Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Doll-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500076
+    type: 15
+    arg: "1500076"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500077
+    type: 15
+    arg: "1500077"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500077
   }
 ]

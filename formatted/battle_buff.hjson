@@ -28523,6 +28523,273 @@
     boss_available: 1
   }
   {
+    id: 5000
+    name: 火力
+    conflict_type: 400
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5001
+    name: 闪避上升
+    conflict_type: 401
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 5002
+    name: 命中上升
+    conflict_type: 402
+    max_tier: 5
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 5003
+    name: 射速上升
+    conflict_type: 403
+    max_tier: 5
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 5004
+    name: 移速上升
+    conflict_type: 404
+    max_tier: 5
+    type: 105
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *201
+  }
+  {
+    id: 5005
+    name: 暴击概率上升
+    conflict_type: 405
+    max_tier: 5
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *201
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5006
+    name: 穿甲增加
+    conflict_type: 406
+    max_tier: 5
+    type: 811
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: *201
+  }
+  {
+    id: 5007
+    name: 护甲上升
+    conflict_type: 407
+    max_tier: 5
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5008
+    name: 护盾
+    conflict_type: 408
+    max_tier: 99
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 5009
+    name: 暴击伤害
+    conflict_type: 409
+    max_tier: 5
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5010
+    name: 夜视抵消
+    conflict_type: 410
+    max_tier: 5
+    type: 404
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    night_view_percent: *201
+  }
+  {
+    id: 5011
+    name: 火力下降
+    conflict_type: 411
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 5012
+    name: 闪避下降
+    conflict_type: 412
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 5013
+    name: 命中下降
+    conflict_type: 413
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 5014
+    name: 伤害
+    conflict_type: 414
+    max_tier: 1
+    type: 136
+    duration_type: 1
+    duration: "2"
+    boss_available: 1
+    hurt_id: 625
+    hurt_cd: 3
+  }
+  {
+    id: 5015
+    name: 法球·穿甲
+    conflict_type: 415
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    orb_effect: 120231
+  }
+  {
+    id: 5016
+    name: 伤害
+    conflict_type: 416
+    max_tier: 99
+    type: 136
+    duration_type: 1
+    duration: "2"
+    boss_available: 1
+    hurt_id: 625
+    hurt_cd: 3
+  }
+  {
+    id: 5017
+    name: 玲珑心
+    conflict_type: 417
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 5018
+    name: 护盾暴击1
+    conflict_type: 418
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "120234"
+  }
+  {
+    id: 5019
+    name: 护盾暴击2
+    conflict_type: 419
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "120235"
+  }
+  {
+    id: 5020
+    name: 暴击概率上升
+    conflict_type: 420
+    max_tier: 1
+    type: 806
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_number: "100"
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
     id: 5021
     name: 炮狙蓄力层数特效1
     conflict_type: 503
@@ -28755,6 +29022,141 @@
     damage_reduce_number: "40"
   }
   {
+    id: 5041
+    name: 火力下降
+    conflict_type: 446
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 5042
+    name: 闪避下降
+    conflict_type: 447
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 5043
+    name: 命中下降
+    conflict_type: 448
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "207"
+    is_form_play: 1
+  }
+  {
+    id: 5044
+    name: 干扰者标记
+    conflict_type: 449
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "68"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5045
+    name: 干扰者次数
+    conflict_type: 450
+    max_tier: 12
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5046
+    name: 干扰者命中标记
+    conflict_type: 451
+    max_tier: 10
+    type: 501
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5047
+    name: 法官防御形态
+    conflict_type: 452
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: *201
+    trigger_creation_id: "670"
+  }
+  {
+    id: 5048
+    name: 法官判断法球
+    conflict_type: 453
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    orb_effect: 120617
+  }
+  {
+    id: 5049
+    name: 过穿计数
+    conflict_type: 454
+    max_tier: 100
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5050
+    name: 闪避上升
+    description: 日常法官
+    conflict_type: 455
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 5051
+    name: 护甲上升
+    description: 日常法官
+    conflict_type: 456
+    max_tier: 5
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
     id: 5052
     name: 鱿鱼丝buff
     conflict_type: 432
@@ -28791,6 +29193,749 @@
     dodge_number: *202
     trigger_creation_id: "206"
     is_form_play: 1
+  }
+  {
+    id: 5055
+    name: 伤害加深1
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002206
+  }
+  {
+    id: 5056
+    name: 伤害加深2
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002207
+  }
+  {
+    id: 5057
+    name: 伤害加深3
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002208
+  }
+  {
+    id: 5058
+    name: 伤害加深4
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002209
+  }
+  {
+    id: 5059
+    name: 伤害加深5
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002210
+  }
+  {
+    id: 5060
+    name: 伤害加深6
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002211
+  }
+  {
+    id: 5061
+    name: 伤害加深7
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002212
+  }
+  {
+    id: 5062
+    name: 伤害加深8
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002213
+  }
+  {
+    id: 5063
+    name: 伤害加深9
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002214
+  }
+  {
+    id: 5064
+    name: 伤害加深10
+    description: MSBS
+    conflict_type: 460
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "205"
+    fix_damage: 1000002215
+  }
+  {
+    id: 5065
+    name: 伤害监视
+    conflict_type: 461
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5002
+  }
+  {
+    id: 5066
+    name: 射速监视
+    conflict_type: 462
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5003
+  }
+  {
+    id: 5067
+    name: 回避监视
+    conflict_type: 463
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5004
+  }
+  {
+    id: 5068
+    name: 命中监视
+    conflict_type: 464
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 5005
+  }
+  {
+    id: 5069
+    name: 伤害debuff触发[*]
+    conflict_type: 465
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5070
+    name: 射速debuff触发[*]
+    conflict_type: 466
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5071
+    name: 回避debuff触发[*]
+    conflict_type: 467
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5072
+    name: 命中debuff触发[*]
+    conflict_type: 468
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5073
+    name: 火力下降
+    description: MSBS
+    conflict_type: 469
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "10463"
+  }
+  {
+    id: 5074
+    name: 射速下降
+    description: MSBS
+    conflict_type: 470
+    max_tier: 5
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "10466"
+  }
+  {
+    id: 5075
+    name: 闪避下降
+    description: MSBS
+    conflict_type: 471
+    max_tier: 5
+    type: 202
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "10464"
+  }
+  {
+    id: 5076
+    name: 命中下降
+    description: MSBS
+    conflict_type: 472
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "10465"
+  }
+  {
+    id: 5077
+    name: 攻击计数
+    conflict_type: 473
+    max_tier: 12
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5078
+    name: debuff特效
+    description: MSBS
+    conflict_type: 474
+    max_tier: 5
+    type: 501
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "208"
+    is_form_play: 1
+  }
+  {
+    id: 5079
+    name: 射速下降
+    conflict_type: 475
+    max_tier: 5
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "208"
+    is_form_play: 1
+  }
+  {
+    id: 5080
+    name: 移速下降
+    conflict_type: 476
+    max_tier: 5
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+  }
+  {
+    id: 5081
+    name: 射程下降
+    conflict_type: 477
+    max_tier: 1
+    type: 830
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    range_number: "-3"
+  }
+  {
+    id: 5082
+    name: 减伤
+    conflict_type: 478
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
+    is_form_play: 1
+  }
+  {
+    id: 5083
+    name: 计数
+    conflict_type: 479
+    max_tier: 5
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5084
+    name: 攻击下降
+    conflict_type: 480
+    max_tier: 99
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *102
+    is_form_play: 1
+  }
+  {
+    id: 5085
+    name: 修复护盾
+    conflict_type: 481
+    max_tier: 10
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+  }
+  {
+    id: 5086
+    name: 持续修复
+    conflict_type: 482
+    max_tier: 5
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5087
+    name: 射速下降
+    conflict_type: 483
+    max_tier: 5
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "208"
+    is_form_play: 1
+  }
+  {
+    id: 5088
+    name: 移速下降
+    conflict_type: 484
+    max_tier: 5
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+  }
+  {
+    id: 5089
+    name: 修复技能触发
+    conflict_type: 485
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5090
+    name: 火力上升
+    description: LAMG
+    conflict_type: 486
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5091
+    name: 命中上升
+    description: LAMG
+    conflict_type: 487
+    max_tier: 5
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 5092
+    name: 移速增加
+    description: LAMG
+    conflict_type: 488
+    max_tier: 5
+    type: 805
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *203
+    trigger_creation_id: "201"
+    is_form_play: 1
+  }
+  {
+    id: 5093
+    name: 计数
+    description: VRB
+    conflict_type: 489
+    max_tier: 99
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5094
+    name: 计数
+    description: VRB
+    conflict_type: 490
+    max_tier: 99
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5095
+    name: 机械标记
+    conflict_type: 491
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5096
+    name: 拓印技能
+    description: CM901
+    conflict_type: 492
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "30"
+    is_form_play: 1
+    forced_skill: "121602,121609,121603,121606,121604,121605,121607,121608"
+  }
+  {
+    id: 5097
+    name: 火力拓印[*]
+    description: CM901
+    conflict_type: 493
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5098
+    name: 回避拓印
+    description: CM901
+    conflict_type: 494
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5099
+    name: 命中拓印
+    description: CM901
+    conflict_type: 495
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5100
+    name: 射速拓印
+    description: CM901
+    conflict_type: 496
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5101
+    name: 移速拓印
+    description: CM901
+    conflict_type: 497
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5102
+    name: 暴击拓印
+    description: CM901
+    conflict_type: 498
+    max_tier: 9999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5103
+    name: 护盾拓印[*]
+    description: CM901
+    conflict_type: 499
+    max_tier: 999999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5104
+    name: 火力增益[*]
+    description: CM901
+    conflict_type: 500
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5105
+    name: 回避增益
+    description: CM901
+    conflict_type: 501
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 5106
+    name: 命中增益
+    description: CM901
+    conflict_type: 502
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 5107
+    name: 射速增益
+    description: CM901
+    conflict_type: 503
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 5108
+    name: 移速增益
+    description: CM901
+    conflict_type: 504
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5109
+    name: 暴击增益
+    description: CM901
+    conflict_type: 505
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5110
+    name: 护盾增益[*]
+    description: CM901
+    conflict_type: 506
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 5111
+    name: 等级层数
+    description: CM901
+    conflict_type: 507
+    max_tier: 50
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5112
+    name: 拓印次数
+    description: CM901
+    conflict_type: 508
+    max_tier: 3
+    type: 501
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 5113
+    name: 火力增益[*]
+    description: CM901
+    conflict_type: 509
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
   }
   {
     id: 5700
@@ -42363,6 +43508,250 @@
     boss_available: 1
   }
   {
+    id: 8590
+    name: DP12减速
+    conflict_type: 2195
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *104
+    boss_available: 1
+    move_number: *203
+    trigger_creation_id: "207"
+  }
+  {
+    id: 8591
+    name: DP12死亡监视
+    conflict_type: 2195
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8592
+    name: DP12减当前CD1
+    conflict_type: 2195
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8593
+    name: DP12MOD2&3
+    conflict_type: 2196
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8594
+    name: DP12减当前CD2
+    conflict_type: 2196
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+    cdr_number: *202
+  }
+  {
+    id: 8595
+    name: 樱花闪避提升
+    conflict_type: 2196
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
+    id: 8596
+    name: 樱花敌方易伤
+    conflict_type: 2196
+    max_tier: 10
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000004888
+  }
+  {
+    id: 8597
+    name: 樱花易伤点数#
+    conflict_type: 2196
+    max_tier: 10
+    type: 400
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+  }
+  {
+    id: 8598
+    name: 樱花专注状态
+    conflict_type: 2197
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    trigger_creation_id: "9185"
+    is_form_play: 1
+  }
+  {
+    id: 8599
+    name: 樱花备用
+    conflict_type: 2197
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8600
+    name: 樱花灵动命中提升
+    conflict_type: 2197
+    max_tier: 6
+    type: 103
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    hit_number: *201
+  }
+  {
+    id: 8601
+    name: 樱花灵动锁编
+    conflict_type: 2197
+    max_tier: 1
+    type: 307
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    trigger_creation_id: "9185"
+    is_form_play: 1
+  }
+  {
+    id: 8602
+    name: 樱花专注锁定
+    conflict_type: 2198
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8603
+    name: 樱花专注效果时长#
+    conflict_type: 2198
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+  }
+  {
+    id: 8604
+    name: 樱花专注锁定者-排外
+    conflict_type: 2199
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "740074"
+  }
+  {
+    id: 8605
+    name: 樱花专注锁定者-予己
+    conflict_type: 2199
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    forced_skill: "740075"
+  }
+  {
+    id: 8606
+    name: 樱花易伤6点
+    conflict_type: 2200
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8607
+    name: 樱花易伤8点
+    conflict_type: 2200
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8608
+    name: 樱花易伤10点
+    conflict_type: 2201
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8609
+    name: 樱花易伤12点
+    conflict_type: 2201
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8610
+    name: 樱花专注闪避降低点数
+    conflict_type: 2201
+    max_tier: 10
+    type: 802
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    dodge_number: *103
+  }
+  {
+    id: 8611
+    name: 樱花二时间
+    conflict_type: 2202
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8612
+    name: 樱花二闪避下降值
+    conflict_type: 2202
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
     id: 8613
     name: ADS火力下降
     description: 火力下降
@@ -43272,6 +44661,212 @@
     boss_available: 1
   }
   {
+    id: 8694
+    name: k5弹量
+    conflict_type: 2213
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8695
+    name: K5二技能触发
+    conflict_type: 2213
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8696
+    name: k5精英技能
+    conflict_type: 2213
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "740080"
+  }
+  {
+    id: 8697
+    name: k5高威胁技能
+    conflict_type: 2213
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "740079"
+  }
+  {
+    id: 8698
+    name: k5有精英
+    conflict_type: 2214
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8699
+    name: k5有高威胁
+    conflict_type: 2214
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8700
+    name: k5备用
+    conflict_type: 2215
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8701
+    name: 射速上升
+    description: 射速上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8702
+    name: 移速上升
+    description: 移速上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 105
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+  }
+  {
+    id: 8703
+    name: M1919A4暴击伤害上升
+    conflict_type: 2213
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *203
+    is_form_play: 1
+  }
+  {
+    id: 8704
+    name: M1919A4巨人杀手伤害
+    conflict_type: 2215
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8705
+    name: M1919A4击退概率
+    conflict_type: 2215
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8706
+    name: 巨人标记
+    conflict_type: 2215
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8707
+    name: 被暴击了
+    conflict_type: 2216
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+  }
+  {
+    id: 8708
+    name: 被推过了
+    conflict_type: 2216
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 8709
+    name: M1919A4眩晕
+    conflict_type: 2216
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 8710
+    name: dp12护甲x点
+    conflict_type: 2216
+    max_tier: 99999
+    type: 808
+    duration_type: 1
+    duration: "2970"
+    boss_available: 1
+    armor_reduce_number: *103
+  }
+  {
+    id: 8711
+    name: 樱花额外护盾
+    conflict_type: 2216
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    shield_number: *103
+  }
+  {
+    id: 8712
+    name: 动能弹
+    conflict_type: 2215
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    fix_damage: 1000005003
+  }
+  {
     id: 8713
     name: 佐贺妖精触发
     conflict_type: 2217
@@ -43953,6 +45548,4852 @@
     duration_type: 1
     duration: "60"
     boss_available: 1
+  }
+  {
+    id: 8774
+    name: p10c免疫
+    conflict_type: 2236
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "9182"
+    buff_animation: BlueFlash
+    fix_damage: 1000004994
+  }
+  {
+    id: 8775
+    name: apc9k闪避上升
+    description: 闪避上升
+    conflict_type: 2236
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 8776
+    name: apc9k监视miss
+    conflict_type: 2237
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1017
+  }
+  {
+    id: 8777
+    name: apc9k队长伤害增加
+    conflict_type: 2236
+    max_tier: 40
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *102
+    trigger_creation_id: "201"
+  }
+  {
+    id: 8778
+    name: apc9k效果显示通用
+    conflict_type: 101
+    max_tier: 40
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8779
+    name: apc9k监视队长造成伤害
+    conflict_type: 2237
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1018
+  }
+  {
+    id: 8780
+    name: apc9k队长射速提升
+    conflict_type: 2237
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8781
+    name: apc9k自身回避提升
+    conflict_type: 2237
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *202
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 8782
+    name: apc9k释放技能期间
+    conflict_type: 2237
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8783
+    name: apc9k自身回避增加
+    conflict_type: 2237
+    max_tier: 50
+    type: 802
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: "4"
+  }
+  {
+    id: 8784
+    name: apc9k效果显示通用
+    conflict_type: 101
+    max_tier: 200
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8785
+    name: apc9k影响格伤害提升
+    conflict_type: 2237
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8786
+    name: 监视队长在场-死亡
+    conflict_type: 2238
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1019
+  }
+  {
+    id: 8787
+    name: 监视自限
+    conflict_type: 2238
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8788
+    name: 队长不在了
+    conflict_type: 2239
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8789
+    name: 监视队长在场-撤退
+    conflict_type: 2239
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1020
+  }
+  {
+    id: 8790
+    name: 监视队长在场-没队长
+    conflict_type: 2240
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1021
+  }
+  {
+    id: 8793
+    name: 15套装装备
+    conflict_type: 2241
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8799
+    name: 离场监视
+    conflict_type: 2243
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1022
+  }
+  {
+    id: 8800
+    name: 死亡监视
+    conflict_type: 2243
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1023
+  }
+  {
+    id: 8801
+    name: 伤害提升6%
+    conflict_type: 2241
+    max_tier: 10
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: "106"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8808
+    name: 15套装装备1
+    conflict_type: 2245
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8809
+    name: 15套装装备2
+    conflict_type: 2246
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8810
+    name: 15套装装备3
+    conflict_type: 2247
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8812
+    name: 莫辛纳甘套装装备
+    conflict_type: 2241
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8813
+    name: 莫辛纳甘套装装备1
+    conflict_type: 2245
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8814
+    name: 莫辛纳甘套装装备2
+    conflict_type: 2246
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8815
+    name: 莫辛纳甘套装装备3
+    conflict_type: 2247
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8816
+    name: 莫辛纳甘击杀奖励
+    conflict_type: 742
+    max_tier: 3
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 8817
+    name: 莫辛纳甘击杀奖励2
+    conflict_type: 743
+    max_tier: 3
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8818
+    name: 冷却缩减70%
+    conflict_type: 2204
+    max_tier: 999
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8819
+    name: 冷却缩减sp
+    conflict_type: 2005
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    cdr_number: *202
+  }
+  {
+    id: 8820
+    name: DP监视
+    conflict_type: 2215
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1007
+  }
+  {
+    id: 8821
+    name: DP监视
+    conflict_type: 2215
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 70007
+  }
+  {
+    id: 8822
+    name: DP护盾
+    conflict_type: 2216
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+  }
+  {
+    id: 8823
+    name: DP换弹触发
+    conflict_type: 2217
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8824
+    name: DP射速提升
+    conflict_type: 2217
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "240"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8825
+    name: SL8射速提升
+    conflict_type: 2217
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+  }
+  {
+    id: 8826
+    name: SI8-AR
+    conflict_type: 846
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "4"
+    forced_skill: "759102"
+  }
+  {
+    id: 8827
+    name: SI8-SMG
+    conflict_type: 847
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "2"
+    forced_skill: "759103"
+  }
+  {
+    id: 8828
+    name: SI8-HG
+    conflict_type: 848
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "1"
+    forced_skill: "759104"
+  }
+  {
+    id: 8829
+    name: SI8-RF
+    conflict_type: 849
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "3"
+    forced_skill: "759105"
+  }
+  {
+    id: 8830
+    name: SI8-SG
+    conflict_type: 850
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "6"
+    forced_skill: "759106"
+  }
+  {
+    id: 8831
+    name: SI8-MG
+    conflict_type: 851
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    available_gun_type: "5"
+    forced_skill: "759107"
+  }
+  {
+    id: 8832
+    name: 涅托 巡卫
+    conflict_type: 2217
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8833
+    name: 涅托 怒锤
+    conflict_type: 2217
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8834
+    name: 涅托 鹰眼
+    conflict_type: 2217
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8835
+    name: 伤害减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *101
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8836
+    name: 射速减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 804
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *102
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8837
+    name: 命中减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 803
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: *103
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8838
+    name: 闪避减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 802
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    dodge_number: *104
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8839
+    name: 护甲减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 808
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    armor_reduce_number: *105
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8840
+    name: 移速减少
+    conflict_type: 2217
+    max_tier: 1
+    type: 805
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    move_number: *106
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8841
+    name: 冷却增加
+    conflict_type: 2217
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    cdr_number: *201
+  }
+  {
+    id: 8842
+    name: 机娘普攻触发
+    conflict_type: 2248
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8843
+    name: 机娘特殊普攻触发层数
+    conflict_type: 2248
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8844
+    name: 暴露状态
+    conflict_type: 2249
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9248"
+  }
+  {
+    id: 8845
+    name: 非暴露中最近一个
+    conflict_type: 2249
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8846
+    name: 机娘一技能触发
+    conflict_type: 2250
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8847
+    name: 易伤
+    conflict_type: 2250
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *202
+  }
+  {
+    id: 8848
+    name: 烟雾伤害降低
+    conflict_type: 2250
+    max_tier: 9999
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *103
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8849
+    name: 烟雾命中降低
+    conflict_type: 2250
+    max_tier: 9999
+    type: 803
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *104
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8850
+    name: 烟雾射速降低
+    conflict_type: 2250
+    max_tier: 9999
+    type: 804
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *105
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8851
+    name: 烟雾移速降低
+    conflict_type: 2250
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *202
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8852
+    name: 机娘眩晕
+    description: 眩晕，不能行动
+    conflict_type: 2250
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "30"
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 8853
+    name: 激光传递技能
+    conflict_type: 2251
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    forced_skill: "755285"
+  }
+  {
+    id: 8854
+    name: 机娘禁足
+    conflict_type: 2251
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: "30"
+    trigger_creation_id: "9266"
+    is_form_play: 1
+  }
+  {
+    id: 8855
+    name: 机娘大招护盾
+    conflict_type: 2251
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "91"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8856
+    name: 机娘大招计时技能
+    conflict_type: 2251
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "91"
+    boss_available: 1
+    forced_skill: "755286"
+  }
+  {
+    id: 8857
+    name: 机娘解析完成
+    conflict_type: 2252
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+  }
+  {
+    id: 8858
+    name: 拉姆赞标记
+    conflict_type: 2252
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8859
+    name: 拉姆赞目标种类-HG铁血
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "1,101,102,103,104,105,106"
+    forced_skill: "755293"
+  }
+  {
+    id: 8860
+    name: 拉姆赞目标种类-SMG
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "2"
+    forced_skill: "755294"
+  }
+  {
+    id: 8861
+    name: 拉姆赞目标种类-RF
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "3"
+    forced_skill: "755295"
+  }
+  {
+    id: 8862
+    name: 拉姆赞目标种类-AR
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "4"
+    forced_skill: "755296"
+  }
+  {
+    id: 8863
+    name: 拉姆赞目标种类-MG
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "5"
+    forced_skill: "755297"
+  }
+  {
+    id: 8864
+    name: 拉姆赞目标种类-SG
+    conflict_type: 2253
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "6"
+    forced_skill: "755298"
+  }
+  {
+    id: 8865
+    name: HG或铁血
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "1,101,102,103,104,105,106"
+  }
+  {
+    id: 8866
+    name: SMG
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "2"
+  }
+  {
+    id: 8867
+    name: RF
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "3"
+  }
+  {
+    id: 8868
+    name: AR
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "4"
+  }
+  {
+    id: 8869
+    name: MG
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "5"
+  }
+  {
+    id: 8870
+    name: SG
+    conflict_type: 2253
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    available_gun_type: "6"
+  }
+  {
+    id: 8871
+    name: 拉姆赞二技能触发
+    conflict_type: 2254
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8872
+    name: 拉姆赞攻击目标
+    conflict_type: 2254
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8873
+    name: 拉姆赞攻速提升
+    conflict_type: 2254
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8874
+    name: 拉姆赞虚弱射速下降
+    conflict_type: 2254
+    max_tier: 99
+    type: 204
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    rate_number: "50"
+    trigger_creation_id: "206"
+    is_form_play: 1
+    buff_animation: BlueFlash
+  }
+  {
+    id: 8875
+    name: 拉姆赞虚弱移速下降
+    conflict_type: 2254
+    max_tier: 99
+    type: 205
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    move_number: "50"
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8876
+    name: 拉姆赞虚弱伤害下降
+    conflict_type: 2254
+    max_tier: 99
+    type: 201
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "50"
+    trigger_creation_id: "206"
+    is_form_play: 1
+  }
+  {
+    id: 8877
+    name: 拉姆赞虚弱
+    conflict_type: 2255
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    trigger_creation_id: "9240"
+  }
+  {
+    id: 8878
+    name: 拉姆赞3轮二技能触发
+    conflict_type: 2255
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8879
+    name: 拉姆赞触发清目标
+    conflict_type: 2256
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8880
+    name: 拉姆赞额外打击次数触发
+    conflict_type: 2256
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8881
+    name: 拉姆赞打击目标锁定
+    conflict_type: 2257
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8882
+    name: 拉姆赞额外打击次数延迟
+    conflict_type: 2257
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "1"
+    boss_available: 1
+  }
+  {
+    id: 8883
+    name: 拉姆赞易伤
+    conflict_type: 2257
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+  }
+  {
+    id: 8884
+    name: 拉姆赞眩晕备用
+    conflict_type: 2257
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8885
+    name: 拉姆赞伤害提升
+    conflict_type: 2257
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8886
+    name: 拉姆赞射速提升
+    conflict_type: 2257
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+  }
+  {
+    id: 8887
+    name: 拉姆赞命中提升
+    conflict_type: 2257
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+  }
+  {
+    id: 8888
+    name: 拉姆赞韧性提升
+    conflict_type: 2257
+    max_tier: 1
+    type: 137
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8889
+    name: 拉姆赞debuff提升
+    conflict_type: 2257
+    max_tier: 1
+    type: 138
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8890
+    name: 拉姆赞失控后狂暴
+    conflict_type: 2258
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "180"
+    boss_available: 1
+    forced_skill: "755304"
+  }
+  {
+    id: 8891
+    name: 拉姆赞减攻速
+    conflict_type: 2258
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "755305"
+  }
+  {
+    id: 8892
+    name: 拉姆赞敌方层数
+    conflict_type: 2258
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    forced_skill: "755306"
+  }
+  {
+    id: 8893
+    name: 拉姆赞备用
+    conflict_type: 2258
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8894
+    name: 战区永久冷却缩减30
+    conflict_type: 2034
+    max_tier: 1
+    type: 128
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    is_form_play: 1
+    cdr_number: "70"
+  }
+  {
+    id: 8895
+    name: JA能量值
+    conflict_type: 2259
+    max_tier: 100
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8896
+    name: JA护盾
+    conflict_type: 2259
+    max_tier: 999
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *101
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 8897
+    name: JA伤害减免1
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005130
+  }
+  {
+    id: 8898
+    name: JA移速为0
+    conflict_type: 2259
+    max_tier: 1
+    type: 215
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8899
+    name: JA伤害减免2
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005131
+  }
+  {
+    id: 8900
+    name: JA伤害减免3
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005132
+  }
+  {
+    id: 8901
+    name: JA伤害减免4
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005133
+  }
+  {
+    id: 8902
+    name: JA伤害减免5
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005134
+  }
+  {
+    id: 8903
+    name: JA伤害减免6
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005135
+  }
+  {
+    id: 8904
+    name: JA伤害减免7
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005136
+  }
+  {
+    id: 8905
+    name: JA伤害减免8
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005137
+  }
+  {
+    id: 8906
+    name: JA伤害减免9
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005138
+  }
+  {
+    id: 8907
+    name: JA伤害减免10
+    conflict_type: 2259
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005139
+  }
+  {
+    id: 8908
+    name: 射速提升
+    conflict_type: 2259
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "9245"
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 8909
+    name: 命中增加
+    conflict_type: 2259
+    max_tier: 20
+    type: 803
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *102
+  }
+  {
+    id: 8910
+    name: 募捐金额
+    conflict_type: 2259
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8911
+    name: VP触发清金额
+    conflict_type: 2260
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
+    id: 8912
+    name: 人气值
+    conflict_type: 2260
+    max_tier: 100
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8913
+    name: 眩晕
+    conflict_type: 2260
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 8914
+    name: 加人气技能1
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750762"
+  }
+  {
+    id: 8915
+    name: 加人气技能2
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750763"
+  }
+  {
+    id: 8916
+    name: 加人气技能3
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750764"
+  }
+  {
+    id: 8917
+    name: 加人气技能4
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750765"
+  }
+  {
+    id: 8918
+    name: 加人气技能5
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750766"
+  }
+  {
+    id: 8919
+    name: 加人气技能6
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750767"
+  }
+  {
+    id: 8920
+    name: 加人气技能7
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750768"
+  }
+  {
+    id: 8921
+    name: 加人气技能8
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750769"
+  }
+  {
+    id: 8922
+    name: 加人气技能9
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750770"
+  }
+  {
+    id: 8923
+    name: 加人气技能10
+    conflict_type: 2261
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "120"
+    boss_available: 1
+    forced_skill: "750771"
+  }
+  {
+    id: 8924
+    name: "20"
+    conflict_type: 2261
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8925
+    name: "50"
+    conflict_type: 2262
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8926
+    name: "100"
+    conflict_type: 2262
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8927
+    name: TPS
+    conflict_type: 2263
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8928
+    name: TPS升天
+    conflict_type: 2263
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9246"
+    is_form_play: 1
+  }
+  {
+    id: 8929
+    name: TPS影响格穿甲
+    conflict_type: 2263
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    arp_number: *101
+    available_gun_type: "5,6"
+  }
+  {
+    id: 8930
+    name: TPS影响格命中
+    conflict_type: 2263
+    max_tier: 1
+    type: 803
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: *102
+    available_gun_type: "5,6"
+  }
+  {
+    id: 8931
+    name: TPS敌人易伤
+    conflict_type: 2263
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    damage_reduce_number: *201
+  }
+  {
+    id: 8932
+    name: TPS减伤1
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005150
+  }
+  {
+    id: 8933
+    name: TPS伤害降低
+    conflict_type: 2263
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 8934
+    name: TPS减伤2
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005151
+  }
+  {
+    id: 8935
+    name: TPS减伤3
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005152
+  }
+  {
+    id: 8936
+    name: TPS减伤4
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005153
+  }
+  {
+    id: 8937
+    name: TPS减伤5
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005154
+  }
+  {
+    id: 8938
+    name: TPS减伤6
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005155
+  }
+  {
+    id: 8939
+    name: TPS减伤7
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005156
+  }
+  {
+    id: 8940
+    name: TPS减伤8
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005157
+  }
+  {
+    id: 8941
+    name: TPS减伤9
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005158
+  }
+  {
+    id: 8942
+    name: TPS减伤10
+    conflict_type: 2263
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "8"
+    boss_available: 1
+    fix_damage: 1000005159
+  }
+  {
+    id: 8943
+    name: TPS友方掉编监视
+    conflict_type: 2264
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1026
+  }
+  {
+    id: 8944
+    name: TPS敌方掉编监视
+    conflict_type: 2264
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1027
+  }
+  {
+    id: 8945
+    name: TPS友方死亡监视
+    conflict_type: 2264
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1024
+  }
+  {
+    id: 8946
+    name: TPS敌方死亡监视
+    conflict_type: 2264
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1025
+  }
+  {
+    id: 8947
+    name: M1918装备
+    conflict_type: 2265
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8948
+    name: ja前1秒睡眠
+    conflict_type: 2265
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "29"
+    boss_available: 1
+  }
+  {
+    id: 8949
+    name: ja起床
+    conflict_type: 2265
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8950
+    name: tps特效
+    conflict_type: 2265
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8951
+    name: ukm装备
+    conflict_type: 2265
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8952
+    name: ukm伤害
+    conflict_type: 2265
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+  }
+  {
+    id: 8953
+    name: sana伤害
+    conflict_type: 2265
+    max_tier: 2
+    type: 101
+    duration_type: 1
+    duration: "29970"
+    boss_available: 1
+    pow_number: *203
+  }
+  {
+    id: 8954
+    name: sana减免
+    conflict_type: 2265
+    max_tier: 2
+    type: 110
+    duration_type: 1
+    duration: "29970"
+    boss_available: 1
+    damage_reduce_number: *204
+  }
+  {
+    id: 8955
+    name: sana锁血
+    conflict_type: 2265
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005166
+  }
+  {
+    id: 8956
+    name: 清盾技能
+    conflict_type: 2266
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "35"
+    boss_available: 1
+    forced_skill: "755299"
+  }
+  {
+    id: 8957
+    name: 斯捷奇金套装装备1
+    conflict_type: 2266
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8958
+    name: 斯捷奇金套装装备2
+    conflict_type: 2267
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8959
+    name: 斯捷奇金套装装备3
+    conflict_type: 2267
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8960
+    name: 64式套装装备1
+    conflict_type: 2268
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8961
+    name: 64式套装装备2
+    conflict_type: 2269
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8962
+    name: 64式套装装备3
+    conflict_type: 2269
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8963
+    name: 斯捷奇金套装
+    conflict_type: 2270
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8964
+    name: 斯捷奇金触发
+    conflict_type: 2270
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8965
+    name: 斯捷奇金监视
+    conflict_type: 2271
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1028
+  }
+  {
+    id: 8966
+    name: 斯捷奇金嘲讽
+    conflict_type: 2271
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8967
+    name: 斯捷奇金3层失效
+    conflict_type: 2271
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8968
+    name: 斯捷奇金步枪法球
+    conflict_type: 2271
+    max_tier: 1
+    type: 132
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    available_gun_type: "3"
+    orb_effect: 75913901
+  }
+  {
+    id: 8969
+    name: 64式套装
+    conflict_type: 2272
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8970
+    name: 64式
+    conflict_type: 2272
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8971
+    name: 64式傀儡减伤-1
+    conflict_type: 2271
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005173
+  }
+  {
+    id: 8972
+    name: 64式傀儡亡语易伤3%
+    conflict_type: 2271
+    max_tier: 10
+    type: 110
+    duration_type: 1
+    duration: "600"
+    boss_available: 1
+    damage_reduce_number: "103"
+  }
+  {
+    id: 8973
+    name: 机娘普攻轮次
+    conflict_type: 2273
+    max_tier: 99
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8974
+    name: 机娘三技能触发
+    conflict_type: 2273
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8975
+    name: 纱那锁定
+    conflict_type: 2274
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9356"
+    watch_id: 1029
+  }
+  {
+    id: 8976
+    name: 机娘四技能射速数值
+    conflict_type: 2274
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8977
+    name: 机娘四技能射速
+    conflict_type: 2274
+    max_tier: 5
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+  }
+  {
+    id: 8978
+    name: 机娘三技能非boss伤害
+    conflict_type: 2274
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    pow_number: *201
+  }
+  {
+    id: 8979
+    name: 机娘三技能非boss射速
+    conflict_type: 2274
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    rate_number: *202
+  }
+  {
+    id: 8980
+    name: 机娘三技能非boss命中
+    conflict_type: 2274
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    hit_number: *203
+  }
+  {
+    id: 8981
+    name: 机娘一技能提伤数值
+    conflict_type: 2275
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8982
+    name: 机娘二技能护甲停止
+    conflict_type: 2275
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "295"
+    boss_available: 1
+  }
+  {
+    id: 8983
+    name: 机娘护甲削弱
+    conflict_type: 2275
+    max_tier: 1
+    type: 808
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *102
+  }
+  {
+    id: 8984
+    name: 机娘反馈再次二技能触发
+    conflict_type: 2276
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8985
+    name: 机娘清盾技能
+    conflict_type: 2276
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750794"
+  }
+  {
+    id: 8986
+    name: 机娘激光特效技能
+    conflict_type: 2277
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750796"
+  }
+  {
+    id: 8987
+    name: 机娘激光停止技能
+    conflict_type: 2277
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750797"
+  }
+  {
+    id: 8988
+    name: 机娘停止触发
+    conflict_type: 2278
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8989
+    name: 纱那
+    conflict_type: 2278
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8990
+    name: 纱那范围内
+    conflict_type: 2279
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+  }
+  {
+    id: 8991
+    name: 1887触发
+    conflict_type: 2279
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8992
+    name: 1887装备
+    conflict_type: 2280
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8993
+    name: 1887目标
+    conflict_type: 2280
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8994
+    name: 1887额外伤害触发
+    conflict_type: 2281
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 8995
+    name: 备用
+    conflict_type: 2281
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8996
+    name: BAT技能普攻
+    conflict_type: 2282
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 8997
+    name: BAT普攻触发
+    conflict_type: 2282
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 8998
+    name: BAT射速降低
+    conflict_type: 2282
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 8999
+    name: BAT伤害降低
+    conflict_type: 2282
+    max_tier: 1
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *202
+    trigger_creation_id: "205"
+    is_form_play: 1
+  }
+  {
+    id: 9000
+    name: BAT易伤
+    conflict_type: 2282
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *102
+    boss_available: 1
+    damage_reduce_number: *203
+  }
+  {
+    id: 9001
+    name: HK433伤害提升
+    conflict_type: 2282
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9002
+    name: 输出最高
+    conflict_type: 2283
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "3"
+    boss_available: 1
+  }
+  {
+    id: 9003
+    name: HK433精英半血技能
+    conflict_type: 2283
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "750813"
+  }
+  {
+    id: 9004
+    name: HK433触发
+    conflict_type: 2284
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9005
+    name: HK433榴弹目标
+    conflict_type: 2284
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9006
+    name: HK433已触发
+    conflict_type: 2285
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9007
+    name: QBU开局奖励
+    conflict_type: 2285
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9008
+    name: QBU硬币
+    conflict_type: 2286
+    max_tier: 30
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9009
+    name: QBU暴击伤害增加
+    conflict_type: 2286
+    max_tier: 20
+    type: 812
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *201
+  }
+  {
+    id: 9010
+    name: QBU暴击伤害数值
+    conflict_type: 2287
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9011
+    name: QBU暴击伤害时间
+    conflict_type: 2287
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9012
+    name: QBUboss死亡
+    conflict_type: 2288
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1030
+  }
+  {
+    id: 9013
+    name: QBU精英死亡
+    conflict_type: 2288
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1031
+  }
+  {
+    id: 9014
+    name: QBU小怪死亡
+    conflict_type: 2289
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    watch_id: 1032
+  }
+  {
+    id: 9015
+    name: QBU在场单位
+    conflict_type: 2289
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9016
+    name: QBU非召唤物反馈技能
+    conflict_type: 2290
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    forced_skill: "750828"
+  }
+  {
+    id: 9017
+    name: QBU触发次数
+    conflict_type: 2290
+    max_tier: 4
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9018
+    name: QBU影响格时间
+    conflict_type: 2291
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+  }
+  {
+    id: 9019
+    name: 火力上升
+    description: 火力上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9020
+    name: 命中上升
+    description: 命中上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 9021
+    name: 射速上升
+    description: 射速上升
+    conflict_type: 2291
+    max_tier: 8
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *201
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9022
+    name: QBU暴击伤害增加统计
+    conflict_type: 2291
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9023
+    name: "433"
+    conflict_type: 2292
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9388"
+  }
+  {
+    id: 9024
+    name: 金硬币
+    conflict_type: 2292
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9390"
+  }
+  {
+    id: 9025
+    name: 银硬币
+    conflict_type: 2293
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9391"
+  }
+  {
+    id: 9026
+    name: 铜硬币
+    conflict_type: 2293
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    trigger_creation_id: "9392"
+  }
+  {
+    id: 9027
+    name: 方块
+    conflict_type: 2294
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9393"
+    is_form_play: 1
+  }
+  {
+    id: 9028
+    name: 受击
+    conflict_type: 2294
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    trigger_creation_id: "9394"
+  }
+  {
+    id: 9029
+    name: 护盾技能半
+    conflict_type: 2295
+    max_tier: 5
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    forced_skill: "759182"
+  }
+  {
+    id: 9030
+    name: 护盾技能全
+    conflict_type: 2295
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    forced_skill: "759183"
+  }
+  {
+    id: 9031
+    name: 护盾
+    conflict_type: 2295
+    max_tier: 5
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9032
+    name: 暴击伤害提升
+    conflict_type: 2295
+    max_tier: 5
+    type: 112
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9033
+    name: MP5装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9034
+    name: MP5装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9035
+    name: MP5装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9036
+    name: MP5装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9037
+    name: MP5闪避上升5层
+    description: 闪避上升
+    conflict_type: 103
+    max_tier: 5
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 9038
+    name: MP5易伤5层
+    conflict_type: 2297
+    max_tier: 5
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: "94"
+  }
+  {
+    id: 9039
+    name: MG4装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9040
+    name: MG4装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9041
+    name: MG4装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9042
+    name: MG4装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9043
+    name: MG4换弹次数累积
+    conflict_type: 2298
+    max_tier: 20
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9044
+    name: MG4队友护盾
+    conflict_type: 2298
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    shield_number: *101
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9045
+    name: MG4队友伤害
+    conflict_type: 2298
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *101
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9046
+    name: MG4队友暴击伤害
+    conflict_type: 2298
+    max_tier: 1
+    type: 812
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: *201
+    available_gun_type: "5,6"
+  }
+  {
+    id: 9047
+    name: MG4转换次数
+    conflict_type: 2298
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9048
+    name: MG4弹射1-4358
+    conflict_type: 875
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9395"
+  }
+  {
+    id: 9049
+    name: MG4弹射2-4359
+    conflict_type: 876
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9396"
+  }
+  {
+    id: 9050
+    name: MG4弹射3-4366
+    conflict_type: 883
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "3"
+    trigger_creation_id: "9399"
+  }
+  {
+    id: 9051
+    name: CMS装备
+    conflict_type: 2298
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9052
+    name: 火力切换
+    description: 火力上升
+    conflict_type: 190
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 9053
+    name: 命中切换
+    description: 命中上升
+    conflict_type: 191
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 9054
+    name: 闪避切换
+    description: 闪避上升
+    conflict_type: 192
+    max_tier: 1
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *203
+  }
+  {
+    id: 9055
+    name: 火力
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9056
+    name: 命中
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9057
+    name: 闪避
+    conflict_type: 2299
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9058
+    name: 火力特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9407"
+  }
+  {
+    id: 9059
+    name: 火力特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9408"
+  }
+  {
+    id: 9060
+    name: 闪避特效
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9406"
+  }
+  {
+    id: 9061
+    name: 空
+    conflict_type: 2299
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9062
+    name: 马卡洛夫装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9063
+    name: 马卡洛夫装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9064
+    name: 马卡洛夫装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9065
+    name: 马卡洛夫装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9066
+    name: 火力上升15
+    description: 火力上升
+    conflict_type: 2297
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "115"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9067
+    name: 波波沙装备1
+    conflict_type: 2296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9068
+    name: 波波沙装备2
+    conflict_type: 2296
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9069
+    name: 波波沙装备3
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9070
+    name: 波波沙装备套装
+    conflict_type: 2297
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9071
+    name: ppsh勋章三特效
+    conflict_type: 2113
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "8560"
+  }
+  {
+    id: 9072
+    name: ppsh勋章四特效
+    conflict_type: 2114
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "9409"
+  }
+  {
+    id: 9073
+    name: ppsh勋章五特效
+    conflict_type: 2114
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    trigger_creation_id: "9410"
+  }
+  {
+    id: 9074
+    name: ppsh暴击伤害提升50%
+    conflict_type: 2104
+    max_tier: 1
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: "150"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    available_gun_type: "2"
+  }
+  {
+    id: 9075
+    name: ppsh穿甲增加200
+    conflict_type: 2104
+    max_tier: 1
+    type: 811
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: "200"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    available_gun_type: "2"
+  }
+  {
+    id: 9076
+    name: 绿
+    conflict_type: 2301
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 9077
+    name: 黄
+    conflict_type: 2301
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 9078
+    name: 红
+    conflict_type: 2302
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 9079
+    name: 绿buff
+    conflict_type: 2302
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "100"
+  }
+  {
+    id: 9080
+    name: 黄buff
+    conflict_type: 2300
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "100"
+  }
+  {
+    id: 9081
+    name: 红buff
+    conflict_type: 2300
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "100"
+  }
+  {
+    id: 9082
+    name: AR
+    conflict_type: 2303
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "4"
+    watch_id: 1033
+  }
+  {
+    id: 9083
+    name: RF
+    conflict_type: 2303
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "3"
+    watch_id: 1034
+  }
+  {
+    id: 9084
+    name: HG
+    conflict_type: 2304
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "1"
+    watch_id: 1035
+  }
+  {
+    id: 9085
+    name: MG
+    conflict_type: 2304
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "5"
+    watch_id: 1036
+  }
+  {
+    id: 9086
+    name: SMG
+    conflict_type: 2305
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "2"
+    watch_id: 1037
+  }
+  {
+    id: 9087
+    name: SG
+    conflict_type: 2305
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    available_gun_type: "6"
+    watch_id: 1038
+  }
+  {
+    id: 9088
+    name: 枪种反馈触发
+    conflict_type: 2306
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9089
+    name: buff持续时间层数
+    conflict_type: 2306
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9090
+    name: 九宫格绿闪避护甲1
+    conflict_type: 2307
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757137"
+  }
+  {
+    id: 9091
+    name: 九宫格绿闪避护甲2
+    conflict_type: 2308
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757138"
+  }
+  {
+    id: 9092
+    name: 九宫格绿闪避护甲3
+    conflict_type: 2309
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757139"
+  }
+  {
+    id: 9093
+    name: 九宫格绿闪避护甲4
+    conflict_type: 2310
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757140"
+  }
+  {
+    id: 9094
+    name: 九宫格绿闪避护甲5
+    conflict_type: 2311
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757141"
+  }
+  {
+    id: 9095
+    name: 九宫格绿闪避护甲6
+    conflict_type: 2312
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757142"
+  }
+  {
+    id: 9096
+    name: 九宫格绿闪避护甲7
+    conflict_type: 2313
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757143"
+  }
+  {
+    id: 9097
+    name: 九宫格绿闪避护甲8
+    conflict_type: 2314
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757144"
+  }
+  {
+    id: 9098
+    name: 九宫格绿闪避护甲9
+    conflict_type: 2315
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757145"
+  }
+  {
+    id: 9099
+    name: 九宫格黄暴伤命中1
+    conflict_type: 2307
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757146"
+  }
+  {
+    id: 9100
+    name: 九宫格黄暴伤命中2
+    conflict_type: 2308
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757147"
+  }
+  {
+    id: 9101
+    name: 九宫格黄暴伤命中3
+    conflict_type: 2309
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757148"
+  }
+  {
+    id: 9102
+    name: 九宫格黄暴伤命中4
+    conflict_type: 2310
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757149"
+  }
+  {
+    id: 9103
+    name: 九宫格黄暴伤命中5
+    conflict_type: 2311
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757150"
+  }
+  {
+    id: 9104
+    name: 九宫格黄暴伤命中6
+    conflict_type: 2312
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757151"
+  }
+  {
+    id: 9105
+    name: 九宫格黄暴伤命中7
+    conflict_type: 2313
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757152"
+  }
+  {
+    id: 9106
+    name: 九宫格黄暴伤命中8
+    conflict_type: 2314
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757153"
+  }
+  {
+    id: 9107
+    name: 九宫格黄暴伤命中9
+    conflict_type: 2315
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757154"
+  }
+  {
+    id: 9108
+    name: 九宫格红火力射速1
+    conflict_type: 2307
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757155"
+  }
+  {
+    id: 9109
+    name: 九宫格红火力射速2
+    conflict_type: 2308
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757156"
+  }
+  {
+    id: 9110
+    name: 九宫格红火力射速3
+    conflict_type: 2309
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757157"
+  }
+  {
+    id: 9111
+    name: 九宫格红火力射速4
+    conflict_type: 2310
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757158"
+  }
+  {
+    id: 9112
+    name: 九宫格红火力射速5
+    conflict_type: 2311
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757159"
+  }
+  {
+    id: 9113
+    name: 九宫格红火力射速6
+    conflict_type: 2312
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757160"
+  }
+  {
+    id: 9114
+    name: 九宫格红火力射速7
+    conflict_type: 2313
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757161"
+  }
+  {
+    id: 9115
+    name: 九宫格红火力射速8
+    conflict_type: 2314
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757162"
+  }
+  {
+    id: 9116
+    name: 九宫格红火力射速9
+    conflict_type: 2315
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "150"
+    boss_available: 1
+    forced_skill: "757163"
+  }
+  {
+    id: 9117
+    name: 火力提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9118
+    name: 射速提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9119
+    name: 命中提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *201
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 9120
+    name: 暴伤提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 112
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *202
+  }
+  {
+    id: 9121
+    name: 闪避提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 102
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *201
+    trigger_creation_id: "202"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: DodgeBuffText
+  }
+  {
+    id: 9122
+    name: 护盾技能
+    conflict_type: 2313
+    max_tier: 6
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "757183"
+  }
+  {
+    id: 9123
+    name: 火力数值
+    conflict_type: 2307
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9124
+    name: 射速数值
+    conflict_type: 2308
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9125
+    name: 命中数值
+    conflict_type: 2309
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9126
+    name: 暴伤数值
+    conflict_type: 2310
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9127
+    name: 闪避数值
+    conflict_type: 2311
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9128
+    name: 护盾数值
+    conflict_type: 2312
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9129
+    name: 护盾提升
+    conflict_type: 2307
+    max_tier: 6
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9130
+    name: 护盾时间
+    conflict_type: 2314
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 9131
+    name: 护盾时间2
+    conflict_type: 2315
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 9132
+    name: 备用
+    conflict_type: 2316
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9133
+    name: 枪种判断后触发
+    conflict_type: 2316
+    max_tier: 9
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 9134
+    name: 退场
+    conflict_type: 2317
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "5"
+    boss_available: 1
+  }
+  {
+    id: 9135
+    name: 携带creation
+    conflict_type: 2317
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9448"
+    available_gun_type: "1,2,3,4,5,6"
+  }
+  {
+    id: 9136
+    name: 冲锋枪数量
+    conflict_type: 2318
+    max_tier: 5
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 9137
+    name: 同排伤害提升
+    conflict_type: 2318
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "13"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9138
+    name: 有队长
+    conflict_type: 2318
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9139
+    name: 无队长或自己队长
+    conflict_type: 2318
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9140
+    name: 伤害参数
+    description: "101"
+    conflict_type: 2319
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9141
+    name: 回避参数
+    description: "102"
+    conflict_type: 2320
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9142
+    name: 命中参数
+    description: "103"
+    conflict_type: 2321
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9143
+    name: 射速参数
+    description: "104"
+    conflict_type: 2322
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9144
+    name: 移速参数
+    description: "105"
+    conflict_type: 2323
+    max_tier: 999999
+    type: 500
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9145
+    name: 暴击参数
+    description: "106"
+    conflict_type: 2319
+    max_tier: 999999
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9146
+    name: 护甲参数
+    description: "108"
+    conflict_type: 2320
+    max_tier: 999999
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9147
+    name: 护盾参数
+    description: "109"
+    conflict_type: 2321
+    max_tier: 999999
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9148
+    name: 穿甲参数
+    description: "111"
+    conflict_type: 2322
+    max_tier: 999999
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9149
+    name: 暴击伤害参数
+    description: "112"
+    conflict_type: 2323
+    max_tier: 999999
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9150
+    name: 伤害
+    description: "801"
+    conflict_type: 2323
+    max_tier: 999
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *102
+  }
+  {
+    id: 9151
+    name: 回避
+    description: "802"
+    conflict_type: 2323
+    max_tier: 999
+    type: 802
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *103
+  }
+  {
+    id: 9152
+    name: 命中
+    description: "803"
+    conflict_type: 2323
+    max_tier: 999
+    type: 803
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *104
+  }
+  {
+    id: 9153
+    name: 射速
+    description: "804"
+    conflict_type: 2323
+    max_tier: 999
+    type: 804
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *105
+  }
+  {
+    id: 9154
+    name: 移速
+    description: "805"
+    conflict_type: 2323
+    max_tier: 999
+    type: 805
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    move_number: *106
+  }
+  {
+    id: 9155
+    name: 暴击
+    description: "806"
+    conflict_type: 2323
+    max_tier: 999
+    type: 806
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *201
+  }
+  {
+    id: 9156
+    name: 护甲
+    description: "808"
+    conflict_type: 2323
+    max_tier: 999
+    type: 808
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *107
+  }
+  {
+    id: 9157
+    name: 护盾
+    description: "109"
+    conflict_type: 2323
+    max_tier: 999
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *108
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9158
+    name: 穿甲
+    description: "811"
+    conflict_type: 2323
+    max_tier: 999
+    type: 811
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: *109
+  }
+  {
+    id: 9159
+    name: 暴击伤害
+    description: "812"
+    conflict_type: 2323
+    max_tier: 999
+    type: 812
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_damage_number: *202
+  }
+  {
+    id: 9160
+    name: 一次护盾
+    conflict_type: 2324
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+  }
+  {
+    id: 9161
+    name: 倍率转换
+    conflict_type: 2324
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9162
+    name: 82式前排技能
+    conflict_type: 2325
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750839"
+  }
+  {
+    id: 9163
+    name: 82加蓄力1层
+    conflict_type: 2325
+    max_tier: 1
+    type: 130
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9164
+    name: 手雷数量层数
+    conflict_type: 2325
+    max_tier: 7
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9165
+    name: 强化1
+    conflict_type: 2326
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9166
+    name: 强化2
+    conflict_type: 2326
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9167
+    name: 强化3
+    conflict_type: 2327
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9168
+    name: 82式单编伤害倍率
+    conflict_type: 2327
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9169
+    name: 82护盾
+    conflict_type: 2327
+    max_tier: 6
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *102
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9170
+    name: 给护盾技能
+    conflict_type: 2328
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "750844"
+  }
+  {
+    id: 9171
+    name: 护盾百分比
+    conflict_type: 2328
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9172
+    name: 贝奥武夫普攻扳机
+    conflict_type: 2329
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9173
+    name: 贝奥武夫一技能
+    conflict_type: 2329
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9174
+    name: 贝奥武夫巨人
+    conflict_type: 2330
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9457"
+    watch_id: 1039
+  }
+  {
+    id: 9175
+    name: 贝奥武夫海蛇
+    conflict_type: 2330
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9458"
+    watch_id: 1040
+  }
+  {
+    id: 9176
+    name: 贝奥武夫巨龙
+    conflict_type: 2331
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9459"
+    watch_id: 1041
+  }
+  {
+    id: 9177
+    name: 贝奥武夫猎物狼
+    conflict_type: 2331
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9460"
+  }
+  {
+    id: 9178
+    name: 贝奥武夫巨人增加射速
+    conflict_type: 2332
+    max_tier: 1
+    type: 804
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: *101
+  }
+  {
+    id: 9179
+    name: 贝奥武夫巨人增加命中
+    conflict_type: 2332
+    max_tier: 1
+    type: 803
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    hit_number: *102
+    trigger_creation_id: "9457"
+  }
+  {
+    id: 9180
+    name: 贝奥武夫海蛇增加伤害
+    conflict_type: 2332
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *101
+    trigger_creation_id: "9458"
+  }
+  {
+    id: 9181
+    name: 贝奥武夫巨龙被击杀
+    conflict_type: 2332
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    trigger_creation_id: "9459"
+  }
+  {
+    id: 9182
+    name: 贝奥武夫巨人射速数值
+    conflict_type: 2333
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9183
+    name: 贝奥武夫巨人命中数值
+    conflict_type: 2333
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9184
+    name: 贝奥武夫海蛇伤害数值
+    conflict_type: 2334
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9185
+    name: 贝奥武夫标记单位伤害提升百分比
+    conflict_type: 2334
+    max_tier: 100
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9186
+    name: 贝奥武夫单编最大生命值百分比
+    conflict_type: 2332
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9187
+    name: 82式层数
+    conflict_type: 2332
+    max_tier: 6
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9188
+    name: 82式反馈
+    conflict_type: 2335
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750856"
+  }
+  {
+    id: 9189
+    name: 伤害欧文技能
+    description: "101"
+    conflict_type: 2336
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750858"
+  }
+  {
+    id: 9190
+    name: 回避欧文技能
+    description: "102"
+    conflict_type: 2337
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750859"
+  }
+  {
+    id: 9191
+    name: 命中欧文技能
+    description: "103"
+    conflict_type: 2338
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750860"
+  }
+  {
+    id: 9192
+    name: 射速欧文技能
+    description: "104"
+    conflict_type: 2339
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750861"
+  }
+  {
+    id: 9193
+    name: 移速欧文技能
+    description: "105"
+    conflict_type: 2340
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750862"
+  }
+  {
+    id: 9194
+    name: 暴击欧文技能
+    description: "106"
+    conflict_type: 2336
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750863"
+  }
+  {
+    id: 9195
+    name: 护甲欧文技能
+    description: "108"
+    conflict_type: 2337
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750864"
+  }
+  {
+    id: 9196
+    name: 护盾欧文技能
+    description: "109"
+    conflict_type: 2338
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750865"
+  }
+  {
+    id: 9197
+    name: 穿甲欧文技能
+    description: "111"
+    conflict_type: 2339
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750866"
+  }
+  {
+    id: 9198
+    name: 暴击伤害欧文技能
+    description: "112"
+    conflict_type: 2340
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750867"
+  }
+  {
+    id: 9199
+    name: 队长欧文反馈
+    conflict_type: 2335
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "750857"
+  }
+  {
+    id: 9200
+    name: vsk装备
+    conflict_type: 2297
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9201
+    name: 欧文时间记录
+    conflict_type: 2341
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9202
+    name: 强化1
+    conflict_type: 2341
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "9467"
+  }
+  {
+    id: 9203
+    name: 强化2
+    conflict_type: 2341
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "9468"
+  }
+  {
+    id: 9204
+    name: 强化3
+    conflict_type: 2341
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+    trigger_creation_id: "9469"
+  }
+  {
+    id: 9205
+    name: 欧文计时
+    conflict_type: 2342
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "750868"
+  }
+  {
+    id: 9206
+    name: 欧文到点去buff
+    conflict_type: 2342
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    forced_skill: "750869"
+  }
+  {
+    id: 9207
+    name: HK416套装装备1
+    conflict_type: 2343
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9208
+    name: HK416套装装备2
+    conflict_type: 2343
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9209
+    name: HK416套装装备3
+    conflict_type: 2344
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9210
+    name: 梯队伤害+5%
+    conflict_type: 2344
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9211
+    name: 416套装
+    conflict_type: 2344
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9212
+    name: 416首次榴弹
+    conflict_type: 2345
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9213
+    name: 备用
+    conflict_type: 2345
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9214
+    name: PPK套装装备1
+    conflict_type: 2346
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9215
+    name: PPK套装装备2
+    conflict_type: 2346
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9216
+    name: PPK套装装备3
+    conflict_type: 2347
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9217
+    name: PPK套装
+    conflict_type: 2347
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9218
+    name: PPK亡语技能
+    conflict_type: 2348
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "759244"
+  }
+  {
+    id: 9219
+    name: PPK亡语伤害下降
+    conflict_type: 2348
+    max_tier: 5
+    type: 201
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "9474"
+    is_form_play: 1
+  }
+  {
+    id: 9220
+    name: PPK亡语命中下降
+    conflict_type: 2348
+    max_tier: 5
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+    trigger_creation_id: "9473"
+    is_form_play: 1
+  }
+  {
+    id: 9221
+    name: 竞争者装备
+    conflict_type: 2349
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9222
+    name: 监视死亡
+    conflict_type: 2349
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    watch_id: 1043
+  }
+  {
+    id: 9223
+    name: 眩晕
+    conflict_type: 2349
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "209"
   }
   {
     id: 10000
@@ -53932,6 +60373,17 @@
     duration: "99999"
   }
   {
+    id: 760124
+    name: 锁血
+    conflict_type: 2264
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    fix_damage: 1000005092
+  }
+  {
     id: 761010
     name: "[速射2]命中提高"
     conflict_type: 3003
@@ -54429,6 +60881,18 @@
     boss_available: 1
   }
   {
+    id: 847601
+    name: M327友方监视buff3
+    description: 杰里科
+    conflict_type: 2165
+    max_tier: 1
+    type: 501
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    watch_id: 1042
+  }
+  {
     id: 873901
     name: 清buff
     conflict_type: 2224
@@ -54437,6 +60901,51 @@
     duration_type: 1
     duration: "60"
     trigger_creation_id: "912301"
+  }
+  {
+    id: 906101
+    name: 马卡洛夫夜视性能
+    conflict_type: 2299
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    night_view_percent: "100"
+  }
+  {
+    id: 920001
+    name: 技能
+    description: CM901
+    conflict_type: 2341
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    is_form_play: 1
+    forced_skill: "920001"
+  }
+  {
+    id: 920002
+    name: 火力时间
+    description: CM901
+    conflict_type: 2341
+    max_tier: 999
+    type: 500
+    duration_type: 1
+    duration: "30"
+    is_form_play: 1
+  }
+  {
+    id: 920003
+    name: 火力层数
+    description: CM901
+    conflict_type: 2341
+    max_tier: 999
+    type: 501
+    duration_type: 1
+    duration: "30"
+    is_form_play: 1
   }
   {
     id: 999007
