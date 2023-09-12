@@ -2651,8 +2651,8 @@
     id: 1501
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the Echelon's accuracy by 10% for 20 seconds in all battles for two turns.
-    lvup_description: Accuracy Increase: 10%
+    description: During night missions, accuracy and night vision of the whole echelon increases by 10% for 20 seconds in all battles for two turns.
+    lvup_description: Accuracy Increase: 10%, Vision Increase: 0
     skill_group_id: 15
     level: 1
     spot_type: "-1"
@@ -2667,8 +2667,8 @@
     id: 1502
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the Echelon's accuracy by 12% for 20 seconds in all battles for two turns.
-    lvup_description: Accuracy Increase: 12%
+    description: During night missions, accuracy and night vision of the whole echelon increase by 12% and 10% respectively for 20 seconds in all battles for two turns.
+    lvup_description: Accuracy Increase: 12%, Vision Increase: 0
     skill_group_id: 15
     level: 2
     train_coin_type: 1
@@ -2686,7 +2686,7 @@
     id: 1503
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 14% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 14% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 14%, Vision Range Increase: 1
     skill_group_id: 15
     level: 3
@@ -2706,7 +2706,7 @@
     id: 1504
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 16% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 16% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 16%, Vision Range Increase: 1
     skill_group_id: 15
     level: 4
@@ -2726,7 +2726,7 @@
     id: 1505
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 18% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 18% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 18%, Vision Range Increase: 1
     skill_group_id: 15
     level: 5
@@ -2746,7 +2746,7 @@
     id: 1506
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 20% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 20% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 20%, Vision Range Increase: 1
     skill_group_id: 15
     level: 6
@@ -2766,7 +2766,7 @@
     id: 1507
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 22% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 22% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 22%, Vision Range Increase: 1
     skill_group_id: 15
     level: 7
@@ -2786,7 +2786,7 @@
     id: 1508
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 24% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 24% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 24%, Vision Range Increase: 1
     skill_group_id: 15
     level: 8
@@ -2806,7 +2806,7 @@
     id: 1509
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 1 node and the Echelon's accuracy by 27% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 27% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 27%, Vision Range Increase: 1
     skill_group_id: 15
     level: 9
@@ -2826,7 +2826,7 @@
     id: 1510
     name: Night Illumination
     code: illumine
-    description: During Night battles, increase the vision range of the Echelon by 2 nodes and the Echelon's accuracy by 30% for 20 seconds in all battles for two turns.
+    description: During night missions, this echelon can see 1 node farther for two turns, during which accuracy and night vision of the whole echelon increase by 30% and 10% respectively for 20 seconds in all battles.
     lvup_description: Accuracy Increase: 30%, Vision Range Increase: 2
     skill_group_id: 15
     level: 10
