@@ -12,6 +12,13 @@ local GetBoneLocalPos = function(self,curFrame,boneName)
 		return self:GetBoneLocalPos(curFrame,boneName)
 	end
 end
+local Scout = function(self)
+	local range = self.data.realtimeRange:AsFloat()
+	if range <= 30 then
+		return
+	end
+	self:Scout()
+end
 local CreateFriendlyCharacter = function(self)
 
 	local v = self:CreateFriendlyCharacter()
@@ -19,6 +26,11 @@ local CreateFriendlyCharacter = function(self)
 		util.hotfix_ex(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',GetBoneLocalPos)
 	else
 		xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
+	end
+	if CS.GF.Battle.BattleDynamicData.isRemoteBattle then
+		util.hotfix_ex(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',Scout)
+	else
+		xlua.hotfix(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',nil)
 	end
 	return v
 end

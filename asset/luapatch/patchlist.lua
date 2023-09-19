@@ -221,7 +221,8 @@ patch3030=
 "3030/DeploymentUIController",
 "3030/DeploymentSpotController",
 "3030/DeploymentTeamController",
-"3030/DeploymentTeamInfoController",			
+"3030/DeploymentTeamInfoController",
+"3030/DeploymentAllyTeamController",				
 "3030/DeploymentSangvisSkillPanelController",
 "3030/DeploymentEffectivenessController",
 "3030/DeploymentAutoBattleController",		
@@ -235,6 +236,7 @@ patch3030=
 "3030/VehicleData",	
 "3030/CommonVehicleComponentListController",
 "3030/Data",
+"3030/GunData",	
 "3030/VehicleComponentTipContent",
 "3030/VehicleComponent",
 "3030/AdjutantChooseSangvisLabel",	
@@ -251,6 +253,7 @@ patch3030=
 "3030/VehicleStoreCtrl",
 "3030/DailyExploreUIController",
 "3030/CommonSquadListLabelController",		
+"3030/BattleManager",	
 }
 -- va11
 print("load Va11");
