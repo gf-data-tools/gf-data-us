@@ -275,6 +275,8 @@ patch3030=
 "3030/BattleFieldTeamHolderNew",
 "3030/SkillUtils",
 "3030/LoginController",
+"3030/ReinforcementController",
+"3030/CommonEquipmentListGunInfoController",
 "3030/DailyExploreGameManager",
 "3030/AutoFormationData",	
 }
