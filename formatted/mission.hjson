@@ -22473,6 +22473,7 @@
     win_type: "3,6"
     medal_type_silver: "1063301"
     difficulty_recommend: 3500;35
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10634
@@ -22535,6 +22536,7 @@
     mapped_mission_id: 44003
     win_type: "1063501"
     difficulty_recommend: 4000;40
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation, Basic Sniping Formation
   }
   {
     id: 10636
@@ -22564,6 +22566,7 @@
     mapped_mission_id: 44004
     win_type: "1063601"
     difficulty_recommend: 4500;45
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10637
@@ -22592,6 +22595,7 @@
     round_config: 1:1,2:4,3:6
     mapped_mission_id: 44005
     difficulty_recommend: 5000;50
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
     win_step: 1063701|1063702|1063706
   }
   {
@@ -22622,6 +22626,7 @@
     mapped_mission_id: 44006
     win_type: "1"
     difficulty_recommend: 5000;50
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10639
@@ -22651,6 +22656,7 @@
     mapped_mission_id: 44007
     win_type: "1063901"
     difficulty_recommend: 5500;55
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10640
@@ -22680,6 +22686,7 @@
     mapped_mission_id: 44008
     win_type: "1064001"
     difficulty_recommend: 6000;60
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10641
@@ -22708,13 +22715,14 @@
     mapped_mission_id: 44009
     win_type: "1064101"
     difficulty_recommend: 6000;60
+    mission_tip: Recommended Formation Type: Specialized Armor-Piercing Formation, Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10642
     campaign: -44
     sub: 11
     if_emergency: -1
-    name: Clothos' Thread II
+    name: Lachesis' Measure II
     difficulty: 6000
     exp_parameter: 50
     type: "3"
@@ -22736,13 +22744,14 @@
     mapped_mission_id: 44010
     win_type: "1064201"
     difficulty_recommend: 6000;60
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10643
     campaign: -44
     sub: 12
     if_emergency: -1
-    name: Lachesis' Measure II
+    name: Clotho's Thread II
     difficulty: 7000
     exp_parameter: 50
     type: "6"
@@ -22768,6 +22777,7 @@
     mapped_mission_id: 44011
     win_type: "1064301"
     difficulty_recommend: 7000;65
+    mission_tip: Recommended Formation Type: Specialized Armor-Piercing Formation, Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10644
@@ -22797,6 +22807,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44012
     difficulty_recommend: 8000;70
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
     win_step: "1064401"
   }
   {
@@ -22825,6 +22836,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44013
     difficulty_recommend: 10000;75
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
     win_step: "1064501"
   }
   {
@@ -22853,6 +22865,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44014
     difficulty_recommend: 10000;75
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
     win_step: "1064601"
   }
   {
@@ -22883,6 +22896,7 @@
     mapped_mission_id: 44015
     win_type: "1064701"
     difficulty_recommend: 11600;80
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10648
@@ -22912,6 +22926,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44016
     difficulty_recommend: 11600;80
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, Wide-Area Assault Formation, High-Speed Mixed Formation
     win_step: "1064801"
   }
   {
@@ -22944,6 +22959,7 @@
     win_type: "3,6"
     medal_type_silver: "3,6"
     difficulty_recommend: 26000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation, Basic Sniping Formation
   }
   {
     id: 10650
@@ -23006,6 +23022,7 @@
     mapped_mission_id: 44003
     win_type: "1065101"
     difficulty_recommend: 28000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation, Basic Sniping Formation
   }
   {
     id: 10652
@@ -23035,6 +23052,7 @@
     mapped_mission_id: 44004
     win_type: "1065201"
     difficulty_recommend: 28000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10653
@@ -23063,6 +23081,7 @@
     round_config: 1:1,2:4,3:6
     mapped_mission_id: 44005
     difficulty_recommend: 30000;99
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
     win_step: 1063701|1063702|1063706
   }
   {
@@ -23093,6 +23112,7 @@
     mapped_mission_id: 44006
     win_type: "1"
     difficulty_recommend: 30000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10655
@@ -23122,6 +23142,7 @@
     mapped_mission_id: 44007
     win_type: "1063901"
     difficulty_recommend: 32000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10656
@@ -23151,6 +23172,7 @@
     mapped_mission_id: 44008
     win_type: "1064001"
     difficulty_recommend: 32000;99
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10657
@@ -23180,6 +23202,7 @@
     limit_squad: 1
     mapped_mission_id: 44009
     difficulty_recommend: 34000;99
+    mission_tip: Recommended Formation Type: High-Burst Sniping Formation, Wide-Area Assault Formation, Basic Sniping Formation
     win_step: 1065701|1065703
   }
   {
@@ -23187,7 +23210,7 @@
     campaign: -44
     sub: 27
     if_emergency: -1
-    name: Clothos' Thread II - EX
+    name: Lachesis' Measure II - EX
     difficulty: 34000
     exp_parameter: 50
     type: "3"
@@ -23211,13 +23234,14 @@
     mapped_mission_id: 44010
     win_type: "1065801,449999"
     difficulty_recommend: 34000;99
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, Light-Weight Mixed Formation, High-Speed Mixed Formation
   }
   {
     id: 10659
     campaign: -44
     sub: 28
     if_emergency: -1
-    name: Lachesis' Measure II - EX
+    name: Clotho's Thread II - EX
     difficulty: 36000
     exp_parameter: 50
     type: "6"
@@ -23243,6 +23267,7 @@
     mapped_mission_id: 44011
     win_type: "1065901,1065902,449999|1065903,449999"
     difficulty_recommend: 36000;99
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, Basic Sniping Formation
   }
   {
     id: 10660
@@ -23272,6 +23297,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44012
     difficulty_recommend: 36000;99
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, Wide-Area Assault Formation, High-Speed Mixed Formation
     win_step: "1066001"
   }
   {
@@ -23301,6 +23327,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44013
     difficulty_recommend: 38000;99
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, Basic Sniping Formation, High-Speed Mixed Formation
     win_step: "1066101"
   }
   {
@@ -23330,6 +23357,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44014
     difficulty_recommend: 38000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
     win_step: "1066201"
   }
   {
@@ -23361,6 +23389,7 @@
     mapped_mission_id: 44015
     win_type: "1066301,449999"
     difficulty_recommend: 40000;99
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, High-Speed Mixed Formation
   }
   {
     id: 10664
@@ -23390,6 +23419,7 @@
     round_config: 1:1,2:4,3:3
     mapped_mission_id: 44016
     difficulty_recommend: 40000;99
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
     win_step: "1066401"
   }
   {
@@ -23713,6 +23743,7 @@
     open_mission_keys: 1064100:1
     round_config: 1:1,2:4,3:3
     difficulty_recommend: 45000;99
+    mission_tip: Recommended Formation Type: Wide-Area Assault Formation, Basic Sniping Formation, High-Speed Mixed Formation
     event_score: 1|10,2000,1500,1000,200,50000,5000,50000,4000,5000,2000,10000,1:0;2:0;3:0;5:0;6:0;7:0,44440011:1:100000;44440010:1:100000;44440012:1:100000;44440013:1:100000,10,0,
     score_prize: 1|110039:1
   }
@@ -23744,6 +23775,7 @@
     mapped_mission_id: 44017
     win_type: "1"
     difficulty_recommend: 4500;45
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10677
@@ -23773,6 +23805,7 @@
     mapped_mission_id: 44017
     win_type: "1"
     difficulty_recommend: 28000;99
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10678
@@ -23802,6 +23835,7 @@
     mapped_mission_id: 44018
     win_type: "1"
     difficulty_recommend: 6000;60
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10679
@@ -23831,6 +23865,7 @@
     mapped_mission_id: 44018
     win_type: "1"
     difficulty_recommend: 32000;99
+    mission_tip: Recommended Formation Type: Basic Sniping Formation, High-Speed Mixed Formation
   }
   {
     id: 10680
@@ -23860,6 +23895,7 @@
     win_type: "1"
     difficulty_recommend: 8000;70
     limit_sangvis: 4
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10681
@@ -23889,6 +23925,7 @@
     win_type: "1"
     difficulty_recommend: 36000;99
     limit_sangvis: 4
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation, Wide-Area Assault Formation
   }
   {
     id: 10682
@@ -23918,6 +23955,7 @@
     win_type: "1"
     difficulty_recommend: 11600;80
     limit_sangvis: 4
+    mission_tip: Recommended Formation Type: Basic Sniping Formation
   }
   {
     id: 10683
@@ -23947,6 +23985,7 @@
     win_type: "1"
     difficulty_recommend: 40000;99
     limit_sangvis: 4
+    mission_tip: Recommended Formation Type: High-Speed Mixed Formation
   }
   {
     id: 10685

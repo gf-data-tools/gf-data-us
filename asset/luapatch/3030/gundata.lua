@@ -1,5 +1,5 @@
 local util = require 'xlua.util'
-xlua.private_accessible(CS.BaseTeam)
+xlua.private_accessible(CS.GF.Battle.BaseTeam)
 
 local Condition3_AllEquipFullReinforce = function(self)
 	if self.listGun.Count == 0 then
@@ -40,5 +40,5 @@ local ConditionBase_AllEquipLevel = function(self,level)
 	end
 	return true;
 end
-util.hotfix_ex(CS.BaseTeam,'Condition3_AllEquipFullReinforce',Condition3_AllEquipFullReinforce)
-util.hotfix_ex(CS.BaseTeam,'ConditionBase_AllEquipLevel',ConditionBase_AllEquipLevel)
+util.hotfix_ex(CS.GF.Battle.BaseTeam,'Condition3_AllEquipFullReinforce',Condition3_AllEquipFullReinforce)
+util.hotfix_ex(CS.GF.Battle.BaseTeam,'ConditionBase_AllEquipLevel',ConditionBase_AllEquipLevel)

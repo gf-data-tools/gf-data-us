@@ -1886,6 +1886,264 @@
     rotate: "1"
   }
   {
+    id: 901
+    name: Command Room - Business-Style Panel Bed
+    classes: 9
+    type: 203
+    position: "24,2"
+    space: "6,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A stable bedframe ensures that you can enjoy tonight's sleep. For best results, get a T-Doll to recite the recording of a meeting.
+    code: zhs2016_bed
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "6,104"
+    interact_point_offset: "0.46,0.23,1|*-2.3,2,0"
+  }
+  {
+    id: 902
+    name: Command Room - Conference Rug
+    classes: 9
+    type: 102
+    position: "14,7"
+    space: "6,5,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The solemn color discourages people from getting too close, but just leap onto it and you will realize how refined and comfortable it really is. It won't hurt you.
+    code: zhs2016_carpet
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 903
+    name: Command Room - Visitor Sofa Chair (Left)
+    classes: 9
+    type: 202
+    position: "11,10"
+    space: "3,3,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: Honored guests will sit upon it and converse elegantly. Little do they know that beneath the cushions are candy wrappers and shopping receipts.
+    code: zhs2016_chair_a
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "3"
+    interact_point_offset: "0.5,0.25,1"
+  }
+  {
+    id: 904
+    name: Command Room - Visitor Sofa Chair (Right)
+    classes: 9
+    type: 202
+    position: "20,10"
+    space: "3,3,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: Honored guests will sit upon it and converse elegantly. Little do they know that beneath the cushions are candy wrappers and shopping receipts.
+    code: zhs2016_chair_b
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "2"
+    interact_point_offset: "0.5,0.25,0"
+  }
+  {
+    id: 905
+    name: Command Room - Simple Work Desk
+    classes: 9
+    type: 201
+    position: "14,8"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Convenient to use with a simple design, it embodies the freedom of self-expression. That's right, you can finally stretch your feet out under the table now!
+    code: zhs2016_chandelier
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "104"
+    interact_point_offset: *0.5,2,0.000
+  }
+  {
+    id: 906
+    name: Command Room - Weapons Display Rack
+    classes: 9
+    type: 201
+    position: "3,2"
+    space: "4,2,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: According to the rules, these weapons are for decorative purposes only. You know...this is something only the higher-ups can understand.
+    code: zhs2016_deco_big
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "104"
+    interact_point_offset: *0.101,6.2,0.000
+  }
+  {
+    id: 907
+    name: Command Room - Drone Terminal
+    classes: 9
+    type: 201
+    position: "8,2"
+    space: "3,2,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: In addition to combat, it is commonly used to deliver fruit juices and take photos... Should we install a resistance module on it?
+    code: zhs2016_deco_small
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "104"
+    interact_point_offset: *0.755,2.496,0.000
+  }
+  {
+    id: 908
+    name: Command Room - Folding Lamp
+    classes: 9
+    type: 201
+    position: "21,2"
+    space: "1,2,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: Possessing only the required function for a table lamp: adjustable brightness. Professionalism means to only take care of one's obligations.
+    code: zhs2016_lamp
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "104"
+    interact_point_offset: *-0.705,3.405,0.000
+  }
+  {
+    id: 909
+    name: Command Room - Visitor Sofa
+    classes: 9
+    type: 202
+    position: "14,2"
+    space: "5,3,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: This set of office furniture isn't cheap. It is reasonable to say that a fine porcelain ashtray is needed to go along with the set, but the T-Dolls refuse to budge on this matter.
+    code: zhs2016_sofa
+    texture_type: "1"
+    offset: "0,-0.05,0"
+    rotate: "2"
+    interact_point: "3,2"
+    interact_point_offset: "0.35,0.17,1|0.73,0.17,0"
+  }
+  {
+    id: 911
+    name: Command Room - Dark Patterned Wallpaper
+    classes: 9
+    type: 301
+    space: "3,3,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: The detailed and complex patterns will induce one into deep contemplation... Only by losing oneself in thought can inspiration find you.
+    code: zhs2016_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 912
+    name: Command Room - Metal Deer Head
+    classes: 9
+    type: 302
+    position: "11,6"
+    space: "2,3,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: Very few people have ever seen a live deer in this era. Perhaps one day this deer head will open its mouth and tell you, "look for me in the farthest depths of the forest."
+    code: zhs2016_walldeco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point: "104"
+    interact_point_offset: *0,0,0
+  }
+  {
+    id: 913
+    name: Command Room - Electronic Map
+    classes: 9
+    type: 302
+    position: "13,9"
+    space: "10,8,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The location for the next operation is marked here... Wait, isn't this the previous operation? Who did this? Who's the adjutant for today?!
+    code: zhs2016_walldeco_02
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 914
+    name: Command Room - Tactical Hanging Screen
+    classes: 9
+    type: 302
+    position: "9,10"
+    space: "4,8,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: It displays the combat plans for the day. If there are no operations then perhaps you'll see tonight's chef and menu instead.
+    code: zhs2016_walldeco_03
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 915
+    name: Command Room - Griffin Plaque
+    classes: 9
+    type: 302
+    position: "4,7"
+    space: "5,5,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: This is the origin and proof of your career as a commander. Get a T-Doll to install it at the door. Don't get C96 though, she might not be able to install it properly.
+    code: zhs2016_walldeco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 916
+    name: Command Room - Train Window
+    classes: 9
+    type: 302
+    position: "25,7"
+    space: "6,8,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: This is a desolate city illuminated by the light. Tonight, they do not care about humans. They only think about you.
+    code: zhs2016_window
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+    interact_point: "104"
+    interact_point_offset: *0.104,4.044,0.000
+  }
+  {
+    id: 917
+    name: Command Room - Old Futuristic Floor Tiles
+    classes: 9
+    type: 101
+    space: "5,10,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: Supposedly the people of half a century ago imagined that the floor tiles fifty years into the future would look like this, haha...
+    code: zhs2016_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
     id: 1001
     name: Coffee Shop - Restaurant Booth Bed
     classes: 10
@@ -33277,6 +33535,96 @@
     decompose_gift: 100003
     description: Type64's Poster
     code: poster_WhiteV2021_64type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35701
+    name: The Girl from B.E.L
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P-90's poster.
+    code: poster_Detective2021_P90
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35702
+    name: An Unsuitable Job for Her
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 64 Shiki's poster.
+    code: poster_Detective2021_Type64-AR
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35703
+    name: Infernal Hannya
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Thompson's poster.
+    code: poster_Detective2021_M1928A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35704
+    name: Repairer of Destinies
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1908's poster.
+    code: poster_Detective2021_MondragonM1908
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35706
+    name: Silver Bullet
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: EM-2's poster.
+    code: poster_Detective2021_EM2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 35707
+    name: Miss Magal
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Magal's poster.
+    code: poster_Detective2021_Magal
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

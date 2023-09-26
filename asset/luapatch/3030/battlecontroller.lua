@@ -7,6 +7,7 @@ local FP = CS.TrueSync.FP
 local GetBoneLocalPos = function(self,curFrame,boneName)
 	local characterdata =  self.parentData
 	if characterdata.isVehicleComponent or characterdata.isVehicle then
+		print(characterdata.switchDistance)
 		return self:GetBoneLocalPos(curFrame,boneName) * characterdata.switchDistance
 	else
 		return self:GetBoneLocalPos(curFrame,boneName)
@@ -20,13 +21,13 @@ local Scout = function(self)
 	self:Scout()
 end
 local CreateFriendlyCharacter = function(self)
-
+	
 	local v = self:CreateFriendlyCharacter()
-	if CS.GF.Battle.BattleDynamicData.isVehicleBattle then
-		util.hotfix_ex(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',GetBoneLocalPos)
-	else
-		xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
-	end
+	--if CS.GF.Battle.BattleDynamicData.isVehicleBattle then
+	--	util.hotfix_ex(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',GetBoneLocalPos)
+	--else
+	--	xlua.hotfix(CS.GF.Battle.BattleMemberData,'GetBoneLocalPos',nil)
+	--end
 	if CS.GF.Battle.BattleDynamicData.isRemoteBattle then
 		util.hotfix_ex(CS.GF.Battle.BattleEnemyCharacterManager,'Scout',Scout)
 	else
@@ -43,6 +44,13 @@ local NeedShowVehicleForwardBtn = function(self)
 	return ans
 end
 
+local CloseDeploymentMoni = function()
+	if CS.GF.Battle.BattleController.renderTexture ~= nil then
+		CS.GF.Battle.BattleController.renderTexture:Release();
+	end
+	CS.GF.Battle.BattleController.CloseDeploymentMoni();
+end
 
 util.hotfix_ex(CS.GF.Battle.BattleController,'CreateFriendlyCharacter',CreateFriendlyCharacter)
 util.hotfix_ex(CS.GF.Battle.BattleController,'NeedShowVehicleForwardBtn',NeedShowVehicleForwardBtn)
+util.hotfix_ex(CS.GF.Battle.BattleController,'CloseDeploymentMoni',CloseDeploymentMoni)

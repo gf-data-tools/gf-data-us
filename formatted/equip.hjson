@@ -10318,4 +10318,37 @@
     obtain_ids: "3083"
     sp_description: Echelon Night Vision+5%
   }
+  {
+    id: 339
+    name: .223 Competition Cartridge
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> Enhances skill $Gr SL8 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "110,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_SL8
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "296"
+    equip_introduction: A .223 competition cartridge that IOP developed exclusively for Gr SL8. The exquisite craftsmanship has greatly improved its performance.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:500,pow:1000
+    passive_skill: "759101,759108"
+    max_level: 10
+    auto_select_id: 19054
+    is_show: 1
+    obtain_ids: "3084"
+  }
 ]

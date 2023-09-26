@@ -7390,7 +7390,7 @@
   {
     id: 665
     mission_id: "10632"
-    description: 0-1 Absent
+    description: '''"Ange's actions would inevitably have consequences. That's just who she is."'''
     scripts: -44-A0-1
     campaign: -44
     bgm: BGM_Frontline
@@ -7400,257 +7400,257 @@
   {
     id: 666
     mission_id: "10686"
-    description: Commander 1-1
+    description: '''"Here, all hesitation must be eradicated; no amount of cowardice will help."'''
     scripts: -44-A1-1-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Wrestling Snakes I
+    title: An Arrow in Flight II
     start: -44-A1-1-1
   }
   {
     id: 667
     mission_id: "10665"
-    description: Commander 1-2
+    description: '''"Those who find even the slimmest ray of sunlight blinding may be more accepting of a life deprived of the sun from the very start."'''
     scripts: -44-A1-1First
     campaign: -44
     bgm: BGM_Frontline
-    title: The Birth of Apate II
+    title: An Arrow in Flight II
     start: -44-A1-1First
   }
   {
     id: 668
     mission_id: "10687"
-    description: Commander 1-3
+    description: '''"I am the light of the world; he that followeth me shall not walk in darkness, but shall have the light of life."'''
     scripts: -44-A1-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Hemera Points to the Light II
+    title: Torricelli's Trumpet I
     start: -44-A1-2-1
   }
   {
     id: 669
     mission_id: "10666"
-    description: Commander 1-4
+    description: '''"If the society doesn't uproot its problems, nothing will ever be resolved."'''
     scripts: -44-A1-2First
     campaign: -44
     bgm: BGM_Frontline
-    title: Shoulders of a Griffin II
+    title: Torricelli's Trumpet II
     start: -44-A1-2First
   }
   {
     id: 670
     mission_id: "10688"
-    description: Commander 2-1
+    description: '''"Salvation lies within."'''
     scripts: -44-A1-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Ship of Theseus II
+    title: Torricelli's Trumpet III
     start: -44-A1-2-2
   }
   {
     id: 671
     mission_id: "10689"
-    description: Commander 2-2
+    description: '''"He's young, brave, brilliant, and has aspirations... almost like replica of her."'''
     scripts: -44-A1-3
     campaign: -44
     bgm: BGM_Frontline
-    title: Ariadne's Clew II
+    title: Athena's Owl
     start: -44-A1-3
   }
   {
     id: 672
     mission_id: "10690"
-    description: Commander 2-3
+    description: '''"Days go by, the world decays, and even fond memory slowly fades."'''
     scripts: -44-B0-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Cretan Labyrinth II
+    title: Selene's Dream
     start: -44-B0-1
   }
   {
     id: 673
     mission_id: "10742"
-    description: Commander 2-4
+    description: '''"Paradeus combat simulation will commence shortly. Relevant personnel, please attend the pre-battle briefing."'''
     scripts: -44-B1-1a
     campaign: -44
     bgm: BGM_Frontline
-    title: Dreams on the Island of Dia II
+    title: The Way of What is To come
     start: -44-B1-1a
   }
   {
     id: 674
     mission_id: "10743"
-    description: Commander 3-1
+    description: '''"In conclusion, Squad Puzzle is not suited to fighting as a team. +End of record compilation."'''
     scripts: -44-B1-1b
     campaign: -44
     bgm: BGM_Frontline
-    title: Defying the Moerae II
+    title: Survival Guide
     start: -44-B1-1b
   }
   {
     id: 675
     mission_id: "10633,10649"
-    description: Commander 3-2
+    description: '''"One does not fall for the same trap twice."'''
     scripts: -44-B1-1First,-44-B1-1-1point,-44-B1-1-2point
     campaign: -44
     bgm: BGM_Frontline
-    title: Clothos' Thread II
+    title: Wrestling Snakes I
     start: -44-B1-1First
     point: 73005:-44-L-C-1-1,73027:-44-L-C-1-1
   }
   {
     id: 676
     mission_id: "10691"
-    description: Commander 3-3
+    description: '''"You are the third kind, the one that knows what they're fighting for, Commander."'''
     scripts: -44-B1-1-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Lachesis' Measure II
+    title: Wrestling Snakes II
     start: -44-B1-1-2
   }
   {
     id: 677
     mission_id: "10692"
-    description: Commander 3-4
+    description: '''"Elsa's voice blends into the cheers of the refugees and the whole world became a sea of joy."'''
     scripts: -44-B1-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Atropos' Shears II
+    title: The Birth of Apate I
     start: -44-B1-2-1
   }
   {
     id: 678
     mission_id: "10634,10650"
-    description: Commander 4-1
+    description: '''"At the time, I had yet to grasp what was hidden under her demonic facade."'''
     scripts: -44-B1-2First,-44-B1-2End
     campaign: -44
     bgm: BGM_Frontline
-    title: Nyx's Night III
+    title: The Birth of Apate II
     first: -44-B1-2End
     end: -44-B1-2End
   }
   {
     id: 679
     mission_id: "10744"
-    description: Commander 4-2
+    description: '''"All who believe in the Lord shall receive happiness and peace. All who defy Him shall suffer disaster and judgment."'''
     scripts: -44-B1-2a
     campaign: -44
     bgm: BGM_Frontline
-    title: Hypnos' Eyes II
+    title: Lurking
     start: -44-B1-2a
   }
   {
     id: 680
     mission_id: "10693"
-    description: Commander 4-3
+    description: '''"White devils and the envoy chasing after them."'''
     scripts: -44-B1-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Thanatos' Kiss II
+    title: Hemera Points to the Light I
     start: -44-B1-3-1
   }
   {
     id: 681
     mission_id: "10635,10651"
-    description: Commander 4-4
+    description: '''"'''
     scripts: -44-B1-3First
     campaign: -44
     bgm: BGM_Frontline
-    title: Chaos' Abyss II
+    title: Hemera Points to the Light II
     start: -44-B1-3First
   }
   {
     id: 682
     mission_id: "10694"
-    description: Commander 1-1 EX
+    description: '''"It is imprinted with the image of a mighty griffin baring its claws, surrounded by intricate designs."'''
     scripts: -44-B1-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Wrestling Snakes I - EX
+    title: Hemera Points to the Light III
     start: -44-B1-3-2
   }
   {
     id: 683
     mission_id: "10695"
-    description: Commander 1-2 EX
+    description: '''"Its exterior is mottled from the passage of long years, but its classical proportions are still enough to make one stop to marvel at it."'''
     scripts: -44-B1-4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: The Birth of Apate II - EX
+    title: Shoulders of a Griffin I
     start: -44-B1-4-1
   }
   {
     id: 684
     mission_id: "10636"
-    description: Commander 1-3 EX
+    description: '''"The British love riddles, but they love those who challenge the riddles even more."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Hemera Points to the Light II - EX
+    title: Shoulders of a Griffin II
   }
   {
     id: 685
     mission_id: "10696"
-    description: Commander 1-4 EX
+    description: '''"Everything we do is for the future of ourselves and this world."'''
     scripts: -44-B1-4-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Shoulders of a Griffin II - EX
+    title: Shoulders of a Griffin III
     start: -44-B1-4-2
   }
   {
     id: 686
     mission_id: "10705"
-    description: Commander 2-1 EX
+    description: '''"All happy people are alike; each unhappy person is unhappy in their own way."'''
     scripts: -44-B2-1-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Ship of Theseus II - EX
+    title: Ship of Theseus I
     start: -44-B2-1-1
   }
   {
     id: 687
     mission_id: "10637,10653"
-    description: Commander 2-2 EX
+    description: '''"It's inevitable to be lost in life, but don't ever end up at the wrong destination."'''
     scripts: -44-B2-1-A,-44-B2-1-B,-44-B2-1-C
     campaign: -44
     bgm: BGM_Frontline
-    title: Ariadne's Clew II - EX
+    title: Ship of Theseus II
     point: 73225:-44-L-C-2-1,73263:-44-L-C-2-1
   }
   {
     id: 688
     mission_id: "10706"
-    description: Commander 2-3 EX
+    description: '''"If the planks of the ship of Theseus were constantly being changed out, until none of the planks were the original ones, then would it still be the original ship?"'''
     scripts: -44-B2-1-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Cretan Labyrinth II - EX
+    title: Ship of Theseus III
     start: -44-B2-1-2
   }
   {
     id: 689
     mission_id: "10697"
-    description: Commander 2-4 EX
+    description: '''"In this foreign land, the only person she could trust is me."'''
     scripts: -44-A2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Dreams on the Island of Dia II - EX
+    title: Balls and Vase
     start: -44-A2-1
   }
   {
     id: 690
     mission_id: "10698"
-    description: Commander 3-1 EX
+    description: '''"Maybe one day we'll stand side by side, fighting for the same goal."'''
     scripts: -44-A2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Defying the Moerae II - EX
+    title: Cretan Liar
     start: -44-A2-2
   }
   {
     id: 691
     mission_id: "10745"
-    description: Commander 3-2 EX
+    description: '''"Do not trust the glamourous facade; the only thing we can trust is ourselves."'''
     scripts: -44-A2-2a
     campaign: -44
     bgm: BGM_Frontline
@@ -7660,622 +7660,622 @@
   {
     id: 692
     mission_id: "10746"
-    description: Commander 3-3 EX
+    description: '''"If we can't find mutual understanding... then I will be very sorry."'''
     scripts: -44-A2-3a
     campaign: -44
     bgm: BGM_Frontline
-    title: Lachesis' Measure II - EX
+    title: Cracks
     start: -44-A2-3a
   }
   {
     id: 693
     mission_id: "10707"
-    description: Commander 3-4 EX
+    description: '''"With a Virtual Cognition Image of hers, it's clear that she's 100% a Nyto."'''
     scripts: -44-B2-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Atropos' Shears II - EX
+    title: Ariadne's Clew I
     start: -44-B2-2-1
   }
   {
     id: 694
     mission_id: "10638"
-    description: Commander 4-1 EX
+    description: '''"Most of the conflicts in this world have hubris and prejudice at their heart."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Nyx's Night III - EX
+    title: Ariadne's Clew II
   }
   {
     id: 695
     mission_id: "10708"
-    description: Commander 4-2 EX
+    description: '''"Two small insects both fall into a tiny pit, awaiting the coming storm."'''
     scripts: -44-B2-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Hypnos' Eyes II - EX
+    title: Ariadne's Clew III
     start: -44-B2-2-2
   }
   {
     id: 696
     mission_id: "10699"
-    description: Commander 4-3 EX
+    description: '''"If I can deliver a dirty bomb straight into the prime minister's office, then what else is off-limits to me?"'''
     scripts: -44-A2-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Thanatos' Kiss II - EX
+    title: Heraclitus' River I
     start: -44-A2-3-1
   }
   {
     id: 697
     mission_id: "10667"
-    description: Commander 4-4 EX
+    description: '''"I'll make them an offer they can't refuse."'''
     scripts: -44-A2-3First,-44-A2-3-Point93393,-44-A2-3-Point93555
     campaign: -44
     bgm: BGM_Frontline
-    title: Chaos' Abyss II - EX
+    title: Heraclitus' River II
     start: -44-A2-3First
     point: 93555:-44-A2-3-Point93393,93393:-44-A2-3-Point93555
   }
   {
     id: 698
     mission_id: "10700"
-    description: Ange's Route 1-1
+    description: '''"If he's setting up a game of chess, then I'll just ruin his board."'''
     scripts: -44-A2-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: An Arrow in Flight II
+    title: Heraclitus' River III
     start: -44-A2-3-2
   }
   {
     id: 699
     mission_id: "10701"
-    description: Ange's Route 1-2
+    description: '''"When you gaze into the abyss, you are already within it."'''
     scripts: -44-A2-4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Torricelli's Trumpet II
+    title: The Grain of Millet I
     start: -44-A2-4-1
   }
   {
     id: 700
     mission_id: "10685"
-    description: Ange's Route 2-1
+    description: '''"Butterflies aren't the only thing coming out of a cocoon."'''
     scripts: -44-A2-4First
     campaign: -44
     bgm: BGM_Frontline
-    title: Heraclitus' River II
+    title: The Grain of Millet II
     start: -44-A2-4First
   }
   {
     id: 701
     mission_id: "10702"
-    description: Ange's Route 2-2
+    description: '''"Don't play with Pandora's box."'''
     scripts: -44-A2-4-2
     campaign: -44
     bgm: BGM_Frontline
-    title: The Prisoner's Dilemma II
+    title: The Grain of Millet III
     start: -44-A2-4-2
   }
   {
     id: 702
     mission_id: "10747"
-    description: Ange's Route 3-1
+    description: '''"Festivals, they tend to start at midnight."'''
     scripts: -44-A2-4a
     campaign: -44
     bgm: BGM_Frontline
-    title: Cratylus' River II
+    title: Night Festival
     start: -44-A2-4a
   }
   {
     id: 703
     mission_id: "10709"
-    description: Ange's Route 3-2
+    description: '''"We all have a shared goal of averting disaster and making this world a better place."'''
     scripts: -44-B2-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Achilles and the Tortoise II
+    title: Cretan Labyrinth I
     start: -44-B2-3-1
   }
   {
     id: 704
     mission_id: "10639,10655"
-    description: Ange's Route 4-1
+    description: '''"A first acquaintance lends to the truest of peace of minds."'''
     scripts: -44-B2-3-A,-44-B2-3-B,-44-B2-3-C,-44-B2-3-D
     campaign: -44
     bgm: BGM_Frontline
-    title: Pandora's Box II
+    title: Cretan Labyrinth II
   }
   {
     id: 705
     mission_id: "10710"
-    description: Ange's Route 4-2
+    description: '''"Only blood can heal the wounds."'''
     scripts: -44-B2-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Brain in a Vat II
+    title: Cretan Labyrinth III
     start: -44-B2-3-2
   }
   {
     id: 706
     mission_id: "10749"
-    description: Easter Egg Stage
+    description: '''"What should I say to everyone at the base?"'''
     scripts: -44-B2-3a
     campaign: -44
     bgm: BGM_Frontline
-    title: One-Sided Recollection
+    title: The Indecipherable Heart
     start: -44-B2-3a
   }
   {
     id: 707
     mission_id: "10703"
-    description: Ranking Map 1
+    description: '''"Although we are called "Defy", we will never betray you."'''
     scripts: -44-A2-5-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Scorpion Vortex
+    title: The Prisoner's Dilemma I
     start: -44-A2-5-1
   }
   {
     id: 708
     mission_id: "10668"
-    description: Ranking Map 2
+    description: '''"How many times in life does one set foot on a battlefield that's worth paying with their lives?"'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Operation Mistbuster
+    title: The Prisoner's Dilemma II
   }
   {
     id: 709
     mission_id: "10704"
-    description: Weekly 1 Easy
+    description: '''"There are no bio signs in the building. I'm not detecting AK-12's signal either."'''
     scripts: -44-A2-5-2
     campaign: -44
     bgm: BGM_Frontline
-    title: The Real ∞
+    title: The Prisoner's Dilemma III
     start: -44-A2-5-2
   }
   {
     id: 710
     mission_id: "10748"
-    description: Weekly 1 Hard
+    description: '''"I understand and respect his decision... We're family. I will always support him."'''
     scripts: -44-A2-5a
     campaign: -44
     bgm: BGM_Frontline
-    title: The Real ∞ - EX
+    title: Flash
     start: -44-A2-5a
   }
   {
     id: 711
     mission_id: "10711"
-    description: Weekly 2 Easy
+    description: '''"I want 10 instances of immunity. When I invoke them, you cannot attack me for my words."'''
     scripts: -44-B2-4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: The Imaginary ∞
+    title: Dreams on the Island of Dia I
     start: -44-B2-4-1
   }
   {
     id: 712
     mission_id: "10640,10656"
-    description: Weekly 2 Hard
+    description: '''"Memories dictate one's consciousness, yet the consciousness can hardly recall all the memories."'''
     scripts: -44-B2-4-2-1point,-44-B2-4-2-2point,-44-B2-4-2-2end
     campaign: -44
     bgm: BGM_Frontline
-    title: The Imaginary ∞ - EX
+    title: Dreams on the Island of Dia II
     first: -44-B2-4-2-2end
     end: -44-B2-4-2-2end
   }
   {
     id: 713
     mission_id: "10712"
-    description: Weekly 3 Easy
+    description: '''"Take a good look at your face, because you don't know when you're going to lose it."'''
     scripts: -44-B2-4-3
     campaign: -44
     bgm: BGM_Frontline
-    title: The Symbolic ∞
+    title: Dreams on the Island of Dia III
     start: -44-B2-4-3
   }
   {
     id: 714
     mission_id: "10713"
-    description: Weekly 3 Hard
+    description: '''"I hope that on my triumphant return, I can still see those who are waiting for me."'''
     scripts: -44-B2-4-4
     campaign: -44
     bgm: BGM_Frontline
-    title: The Symbolic ∞ - EX
+    title: Dreams on the Island of Dia IV
     start: -44-B2-4-4
   }
   {
     id: 715
     mission_id: "10714"
-    description: Weekly 4 Easy
+    description: '''"Would you rather do something great in a brave new world or toil away for some dwindling flame in the old world?"'''
     scripts: -44-A3-1-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Gaze ∞
+    title: Cratylus' River I
     start: -44-A3-1-1
   }
   {
     id: 716
     mission_id: "10669"
-    description: Weekly 4 Hard
+    description: '''"'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Gaze ∞ - EX
+    title: Cratylus' River II
   }
   {
     id: 717
     mission_id: "10715"
-    description: Ange's Route 2-4
+    description: '''"The vortex rips through all caught in its center with no exceptions."'''
     scripts: -44-A3-1-2
     campaign: -44
     bgm: BGM_Frontline
-    title: The Grain of Millet II
+    title: Cratylus' River III
     start: -44-A3-1-2
   }
   {
     id: 718
     mission_id: "10719"
-    description: 1-1-1 An Arrow in Flight I
+    description: '''"There are many pointless things in the world. Putting up a fight will never be one of them."'''
     scripts: -44-B3-1-1
     campaign: -44
     bgm: BGM_Frontline
-    title: An Arrow in Flight I
+    title: Defying the Moerae I
     start: -44-B3-1-1
   }
   {
     id: 719
     mission_id: "10641"
-    description: 1-2-1 Torricelli's Trumpet I
+    description: '''"Having a goal and be able to work towards it is far better than having a purpose without knowing the means of achieving it."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Torricelli's Trumpet I
+    title: Defying the Moerae II
   }
   {
     id: 720
     mission_id: "10720"
-    description: 1-2-2 Torricelli's Trumpet III
+    description: '''"When you discover a bomb, best make sure there isn't another one around.'''
     scripts: -44-B3-1-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Torricelli's Trumpet III
+    title: Defying the Moerae III
     start: -44-B3-1-2
   }
   {
     id: 721
     mission_id: "10721"
-    description: 1-3-1 Athena's Owl
+    description: '''"The duty of the gardener is to prune the rotten fruit away."'''
     scripts: -44-B3-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Athena's Owl
+    title: Clotho's Thread I
     start: -44-B3-2-1
   }
   {
     id: 722
     mission_id: "10643,10659"
-    description: 0-1 Selene's Dream
+    description: '''"Nothing's invincible in this world. It's with that belief that I've triumphed until now."'''
     scripts: -44-B3-2First
     campaign: -44
     bgm: BGM_Frontline
-    title: Selene's Dream
+    title: Clotho's Thread II
     start: -44-B3-2First
   }
   {
     id: 723
     mission_id: "10722"
-    description: 1-1-2 Wrestling Snakes II
+    description: '''"Just remember—any place where I am is reality."'''
     scripts: -44-B3-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Wrestling Snakes II
+    title: Clotho's Thread III
     start: -44-B3-2-2
   }
   {
     id: 724
     mission_id: "10716"
-    description: 1-2-1 The Birth of Apate I
+    description: '''"I am the way I am, not because of mere thoughts or programming, but because of something far more valuable."'''
     scripts: -44-A3-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: The Birth of Apate I
+    title: Achilles and the Tortoise I
     start: -44-A3-2-1
   }
   {
     id: 725
     mission_id: "10670"
-    description: 1-3-1 Hemera Points to the Light I
+    description: '''"Dreadful as a foe, yet reassuring as a friend. Aren't these kind of people very charming?"'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Hemera Points to the Light I
+    title: Achilles and the Tortoise II
   }
   {
     id: 726
     mission_id: "10717"
-    description: 1-3-2 Hemera Points to the Light III
+    description: '''"Moths dance around the light, casting fluttery shadows on the tragically beautiful corpse."'''
     scripts: -44-A3-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Hemera Points to the Light III
+    title: Achilles and the Tortoise III
     start: -44-A3-2-2
   }
   {
     id: 727
     mission_id: "10723"
-    description: 1-4-1 Shoulders of a Griffin I
+    description: '''"Returning to old ground is not necessarily a good thing sometimes."'''
     scripts: -44-B3-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Shoulders of a Griffin I
+    title: Lachesis' Measure I
     start: -44-B3-3-1
   }
   {
     id: 728
     mission_id: "10642,10658"
-    description: 1-4-2 Shoulders of a Griffin III
+    description: '''"'''
     scripts: -44-B3-3First,-44-B3-4-1point
     campaign: -44
     bgm: BGM_Frontline
-    title: Shoulders of a Griffin III
+    title: Lachesis' Measure II
     start: -44-B3-3First
     point: 62628:-44-L-C-3-3_B,62612:-44-L-C-3-3_B
   }
   {
     id: 729
     mission_id: "10724"
-    description: 2-1 Balls and Vase
+    description: '''"She laughed as she cried, only to eventually shut her mouth, her voice becoming incredibly tiny."'''
     scripts: -44-B3-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Balls and Vase
+    title: Lachesis' Measure III
     start: -44-B3-3-2
   }
   {
     id: 730
     mission_id: "10725"
-    description: 2-2 Cretan Liar
+    description: '''"Running away from problems comes with a price that is too heavy to pay."'''
     scripts: -44-B3-4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Cretan Liar
+    title: Atropos' Shears I
     start: -44-B3-4-1
   }
   {
     id: 731
     mission_id: "10644"
-    description: 2-3-1 Heraclitus' River I
+    description: '''"'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Heraclitus' River I
+    title: Atropos' Shears II
   }
   {
     id: 732
     mission_id: "10726"
-    description: 2-3-2 Heraclitus' River III
+    description: '''"Our effort to alter fate is futile, but at least it won't befall today."'''
     scripts: -44-B3-4-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Heraclitus' River III
+    title: Atropos' Shears III
     start: -44-B3-4-2
   }
   {
     id: 733
     mission_id: "10718"
-    description: 2-4-1 The Grain of Millet I
+    description: '''"AK12, at your service."'''
     scripts: -44-A3-3
     campaign: -44
     bgm: BGM_Frontline
-    title: The Grain of Millet I
+    title: Zeno's Circle of Knowledge
     start: -44-A3-3
   }
   {
     id: 734
     mission_id: "10727"
-    description: 2-4-2 The Grain of Millet III
+    description: '''"No matter how many fall before them, they will rise to carry on; this the nature of a hero."'''
     scripts: -44-A4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: The Grain of Millet III
+    title: Schrödinger’s Cat
     start: -44-A4-1
   }
   {
     id: 735
     mission_id: "10750"
-    description: 2-5-1 The Prisoner's Dilemma I
+    description: '''"Time leaves its mark in everyone's memory, but years later, only remembrance remains."'''
     scripts: -44-A4-1a
     campaign: -44
     bgm: BGM_Frontline
-    title: The Prisoner's Dilemma I
+    title: Remembrance
     start: -44-A4-1a
   }
   {
     id: 736
     mission_id: "10728"
-    description: 2-5-2 The Prisoner's Dilemma III
+    description: '''"Does hope truly lie at the bottom of Pandora's Box?"'''
     scripts: -44-A4-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: The Prisoner's Dilemma III
+    title: Pandora's Box I
     start: -44-A4-2-1
   }
   {
     id: 737
     mission_id: "10671"
-    description: 2-1-1 Ship of Theseus I
+    description: '''"If Dolls also have a soul, will they dread death just like us?"'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Ship of Theseus I
+    title: Pandora's Box II
   }
   {
     id: 738
     mission_id: "10729"
-    description: 2-1-2 Ship of Theseus III
+    description: '''"Only the moth knows how fascinating the flames truly are."'''
     scripts: -44-A4-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Ship of Theseus III
+    title: Pandora's Box III
     start: -44-A4-2-2
   }
   {
     id: 739
     mission_id: "10730"
-    description: 2-2-1 Ariadne's Clew I
+    description: '''"I do not fear death, I'm just afraid Sister will be sad."'''
     scripts: -44-A4-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Ariadne's Clew I
+    title: Brain in a Vat I
     start: -44-A4-3-1
   }
   {
     id: 740
     mission_id: "10672"
-    description: 2-2-2 Ariadne's Clew III
+    description: '''"He's but a nobody."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Ariadne's Clew III
+    title: Brain in a Vat II
   }
   {
     id: 741
     mission_id: "10731"
-    description: 2-3-1 Cretan Labyrinth I
+    description: '''"He collapses onto the floor like a ragdoll, and Ange's shattered heart falls along with him."'''
     scripts: -44-A4-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Cretan Labyrinth I
+    title: Brain in a Vat III
     start: -44-A4-3-2
   }
   {
     id: 742
     mission_id: "10732"
-    description: 2-3-2 Cretan Labyrinth III
+    description: '''"See you in the brave new world."'''
     scripts: -44-A4-4
     campaign: -44
     bgm: BGM_Frontline
-    title: Cretan Labyrinth III
+    title: Möbius Strip
     start: -44-A4-4
   }
   {
     id: 743
     mission_id: "10733"
-    description: 2-4-1 Dreams on the Island of Dia I
+    description: '''"The most agonizing of dreams are often rooted in reality."'''
     scripts: -44-B4-1-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Dreams on the Island of Dia I
+    title: Nyx's Night I
     start: -44-B4-1-1
   }
   {
     id: 744
     mission_id: "10734"
-    description: 2-4-3 Dreams on the Island of Dia III
+    description: '''"I have a the heartbeat of a human being, thus proving that I am not a monster."'''
     scripts: -44-B4-1-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Dreams on the Island of Dia III
+    title: Nyx's Night II
     start: -44-B4-1-2
   }
   {
     id: 745
     mission_id: "10645"
-    description: 2-4-4 Dreams on the Island of Dia IV
+    description: '''"There are no shortcuts in war."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Dreams on the Island of Dia IV
+    title: Nyx's Night III
     round: 2:-44-L-C-4-1_T
   }
   {
     id: 746
     mission_id: "10735"
-    description: 3-1-1 Cratylus' River I
+    description: '''"Classics never go out of style."'''
     scripts: -44-B4-1-3
     campaign: -44
     bgm: BGM_Frontline
-    title: Cratylus' River I
+    title: Nyx's Night IV
     start: -44-B4-1-3
   }
   {
     id: 747
     mission_id: "10736"
-    description: 3-1-2 Cratylus' River III
+    description: '''"Sweet dreams, stranger."'''
     scripts: -44-B4-2-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Cratylus' River III
+    title: Hypnos' Eyes I
     start: -44-B4-2-1
   }
   {
     id: 748
     mission_id: "10646"
-    description: 3-2-1 Achilles and the Tortoise I
+    description: '''"This is the reason of my loathing against those who desecrate the dead."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Achilles and the Tortoise I
+    title: Hypnos' Eyes II
   }
   {
     id: 749
     mission_id: "10737"
-    description: 3-2-2 Achilles and the Tortoise III
+    description: '''"The fallen spirit chants; the walking living fights."'''
     scripts: -44-B4-2-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Achilles and the Tortoise III
+    title: Hypnos' Eyes III
     start: -44-B4-2-2
   }
   {
     id: 750
     mission_id: "10738"
-    description: 3-3 Zeno's Circle of Knowledge
+    description: '''"Now, it's time to unshackle the mad hound."'''
     scripts: -44-B4-3-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Zeno's Circle of Knowledge
+    title: Thanatos' Kiss I
     start: -44-B4-3-1
   }
   {
     id: 751
     mission_id: "10647"
-    description: 3-1-1 Defying the Moerae I
+    description: '''"In the face of a mighty foe, the resolute mind unsheathes their sword despite certain defeat."'''
     campaign: -44
     bgm: BGM_Frontline
-    title: Defying the Moerae I
+    title: Thanatos' Kiss II
   }
   {
     id: 752
     mission_id: "10739"
-    description: 3-1-2 Defying the Moerae III
+    description: '''"Dirge of the Griffin."'''
     scripts: -44-B4-3-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Defying the Moerae III
+    title: Thanatos' Kiss III
     start: -44-B4-3-2
   }
   {
     id: 753
     mission_id: "10740"
-    description: 3-2-1 Clothos' Thread I
+    description: '''"...Thank you, Robin."'''
     scripts: -44-B4-4-1
     campaign: -44
     bgm: BGM_Frontline
-    title: Clothos' Thread I
+    title: Chaos' Abyss I
     start: -44-B4-4-1
   }
   {
     id: 754
     mission_id: "10648,10664"
-    description: 3-2-2 Clothos' Thread III
+    description: '''"Despair birthed at the moment of hope's demise is often the most delightful."'''
     scripts: -44-B4-4First
     campaign: -44
     bgm: BGM_Frontline
-    title: Clothos' Thread III
+    title: Chaos' Abyss II
     start: -44-B4-4First
   }
   {
     id: 755
     mission_id: "10741"
-    description: 3-3-1 Lachesis' Measure I
+    description: '''"Nobody's sacrifice is without value because by relinquishing their lives, they will be giving the living something even more precious."'''
     scripts: -44-B4-4-2
     campaign: -44
     bgm: BGM_Frontline
-    title: Lachesis' Measure I
+    title: Chaos' Abyss III
     start: -44-B4-4-2
   }
   {
@@ -8283,21 +8283,21 @@
     mission_id: "10652"
     campaign: -44
     bgm: BGM_Frontline
-    title: Schrödinger's Cat
+    title: Shoulders of a Griffin II - EX
   }
   {
     id: 761
     mission_id: "10654"
     campaign: -44
     bgm: BGM_Frontline
-    title: Pandora's Box II
+    title: Ariadne's Clew II - EX
   }
   {
     id: 763
     mission_id: "10656"
     campaign: -44
     bgm: BGM_Frontline
-    title: Brain in a Vat III
+    title: Dreams on the Island of Dia II - EX
     first: -44-B2-4-2-2end
     end: -44-B2-4-2-2end
   }
@@ -8306,21 +8306,21 @@
     mission_id: "10657"
     campaign: -44
     bgm: BGM_Frontline
-    title: Möbius Strip
+    title: Defying the Moerae II - EX
   }
   {
     id: 767
     mission_id: "10660"
     campaign: -44
     bgm: BGM_Frontline
-    title: Nyx's Night IV
+    title: Atropos' Shears II - EX
   }
   {
     id: 768
     mission_id: "10661"
     campaign: -44
     bgm: BGM_Frontline
-    title: Hypnos' Eyes I
+    title: Nyx's Night III - EX
     round: 2:-44-L-C-4-1_T
   }
   {
@@ -8328,35 +8328,35 @@
     mission_id: "10662"
     campaign: -44
     bgm: BGM_Frontline
-    title: Hypnos' Eyes III
+    title: Hypnos' Eyes II - EX
   }
   {
     id: 770
     mission_id: "10663"
     campaign: -44
     bgm: BGM_Frontline
-    title: Thanatos' Kiss I
+    title: Thanatos' Kiss II - EX
   }
   {
     id: 772
     mission_id: "10673"
     campaign: -44
     bgm: BGM_Frontline
-    title: Chaos' Abyss I
+    title: One-Sided Recollection
   }
   {
     id: 773
     mission_id: "10674"
     campaign: -44
     bgm: BGM_Frontline
-    title: Chaos' Abyss III
+    title: Scorpio Vortex
   }
   {
     id: 774
     mission_id: "10675"
     campaign: -44
     bgm: BGM_Frontline
-    title: The Way of What is to Come
+    title: Operation Mistbuster
     round: 8:-44-EXT-04
     point: 93656:-44-EXT-03
   }
@@ -8365,56 +8365,56 @@
     mission_id: "10676"
     campaign: -44
     bgm: BGM_Frontline
-    title: Survival Guide
+    title: The Real ∞
   }
   {
     id: 776
     mission_id: "10677"
     campaign: -44
     bgm: BGM_Frontline
-    title: Lurking
+    title: The Real ∞ - EX
   }
   {
     id: 777
     mission_id: "10678"
     campaign: -44
     bgm: BGM_Frontline
-    title: Reflection
+    title: The Imaginary ∞
   }
   {
     id: 778
     mission_id: "10679"
     campaign: -44
     bgm: BGM_Frontline
-    title: Cracks
+    title: The Imaginary ∞ - EX
   }
   {
     id: 779
     mission_id: "10680"
     campaign: -44
     bgm: BGM_Frontline
-    title: Night Festival
+    title: The Symbolic ∞
   }
   {
     id: 780
     mission_id: "10681"
     campaign: -44
     bgm: BGM_Frontline
-    title: Flash
+    title: The Symbolic ∞ - EX
   }
   {
     id: 781
     mission_id: "10682"
     campaign: -44
     bgm: BGM_Frontline
-    title: The Indecipherable Heart
+    title: Gaze ∞
   }
   {
     id: 782
     mission_id: "10683"
     campaign: -44
     bgm: BGM_Frontline
-    title: Remembrance
+    title: Gaze ∞ - EX
   }
   {
     id: 783
@@ -8812,321 +8812,403 @@
   {
     id: 829
     mission_id: "10799"
-    description: Prologue
+    description: '''"You seek peace, and you fight for a better peace."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ①
     start: -48-1-0
   }
   {
     id: 830
     mission_id: "10834"
-    description: 4-3EX
+    description: '''"I'm going in today, no matter what, and nobody's going to get in my way."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ②
     point: 74104:-48-EXT-4-3-2
   }
   {
     id: 831
     mission_id: "10818,10837"
-    description: 5-2
+    description: '''"It was the shotgun that Light was most skilled with. He fought here."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ③
     point: 74365:-48-EXT-5-2-2,74431:-48-EXT-5-2-2
   }
   {
     id: 832
     mission_id: "10820,10839"
-    description: 5-4
+    description: '''"The bottle is coated in a layer of dust... It belongs to the Galatea Corporation."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ④
     round: 4:-48-5-7-point
   }
   {
     id: 833
     mission_id: "10819,10838"
-    description: 5-3
+    description: '''"Please believe me, Father."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑤
     start: -48-5-9-point
   }
   {
     id: 834
     mission_id: "10821,10840"
-    description: 6-1
+    description: '''"'Opportunities' mean nothing if they do not produce results. He detests people who let him down."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑦
     point: 74687:-48-EXT-6-1,74782:-48-EXT-6-1
   }
   {
     id: 835
     mission_id: "10824,10842"
-    description: 6-4
+    description: '''"The only way you can stay on the case is by staying in the Stasi."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑧
     start: -48-6-10-point
   }
   {
     id: 836
     mission_id: "10851"
+    description: '''"We're all prepared to fight any and all injustice to the bitter end!"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑩
     start: -48-1-1
   }
   {
     id: 837
     mission_id: "10852"
+    description: '''"I'm a Galatea researcher. I have medicine."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑪
     start: -48-1-3
   }
   {
     id: 838
     mission_id: "10853"
+    description: '''"The 'future' is such a vague term. At this point, Germany can only afford to focus on the present."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑫
     start: -48-1-4
   }
   {
     id: 839
     mission_id: "10854"
+    description: '''"I am a Stasi agent and a colleague of K's. You may call me J."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑭
     start: -48-1-6
   }
   {
     id: 840
     mission_id: "10855"
+    description: '''"Such a country is no longer the motherland that we've sacrificed everything for."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: ⑮
     start: -48-1-7
   }
   {
     id: 841
     mission_id: "10856"
+    description: '''"This mission is codenamed 'Neo'. Our objective is to find a missing cargo truck."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: I
     start: -48-1-9
   }
   {
     id: 842
     mission_id: "10857"
+    description: '''"Don't worry... It won't be too long until our proper reunion."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: II
     start: -48-1-10
   }
   {
     id: 843
     mission_id: "10858"
+    description: '''"You could do everything, so why did you defy Father?"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IV
     start: -48-1-12
   }
   {
     id: 844
     mission_id: "10859"
+    description: '''"The minute hands ticks in its progressing, filling J with anxiety."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: V
     start: -48-1-13
   }
   {
     id: 845
     mission_id: "10860"
+    description: '''"Even now, we are still not entirely aware of our adversary's true identity."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VI
     start: -48-1-14
   }
   {
     id: 846
     mission_id: "10861"
+    description: '''"This is the first time someone has tried to hunt me..."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VIII
     start: -48-2-1
   }
   {
     id: 847
     mission_id: "10862"
+    description: '''"Obscured rumors, and the obscured truth."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IX
     start: -48-2-2
   }
   {
     id: 848
     mission_id: "10863"
+    description: '''"It's not easy being an informant, Frau Nele."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: XI
     start: -48-2-4
   }
   {
     id: 849
     mission_id: "10864"
+    description: '''"The Nyto named Bramedb has finally surfaced."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: XII
     start: -48-2-5
   }
   {
     id: 850
     mission_id: "10865"
+    description: '''"Those who fail have outlived their purpose. You taught me that."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: XIV
     start: -48-2-6
   }
   {
     id: 851
     mission_id: "10866"
+    description: '''"Commander, your blood still runs hot."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: XV
     start: -48-2-8
   }
   {
     id: 852
     mission_id: "10867"
+    description: '''"The affection from just half a minute ago was nothing but an act."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IA
     start: -48-2-9
   }
   {
     id: 853
     mission_id: "10868"
+    description: '''"Nimogen saved my life, so I'll return the favor once."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IIA
     start: -48-2-11
   }
   {
     id: 854
     mission_id: "10869"
+    description: '''"The consignee is called 'Umruss'."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IVB
     start: -48-2-12
   }
   {
     id: 855
     mission_id: "10870"
+    description: '''"Does Gray Elementary only take first-grade students?"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VB
     start: -48-2-14
   }
   {
     id: 856
     mission_id: "10871"
+    description: '''"I am not acting on an impulse here. This is the closest we'll ever come to solving this missing cargo case."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VIB
     start: -48-2-15
   }
   {
     id: 857
     mission_id: "10872"
+    description: '''"I will not do anything that will jeopardize the future of our people. Everything I do is for the State."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IB
     start: -48-3-1
   }
   {
     id: 858
     mission_id: "10873"
+    description: '''"The moment is at hand, and all characters are in position."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IIB
     start: -48-3-2
   }
   {
     id: 859
     mission_id: "10874"
+    description: '''"If we lose this shipment of weapons, none of us are going to have a good time!"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: IIIA
     start: -48-3-4
   }
   {
     id: 860
     mission_id: "10875"
+    description: '''"I remember now... You're the last T-Doll of the AR Team... "'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VA
     start: -48-3-5
   }
   {
     id: 861
     mission_id: "10876"
+    description: '''"This encounter almost feels like a journey through time and space."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: VIIA
     start: -48-3-6
   }
   {
     id: 862
     mission_id: "10877"
+    description: '''"She IS M4, but at the same time she isn't."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Alpha
     start: -48-3-8
   }
   {
     id: 863
     mission_id: "10878"
+    description: '''"Your heart once beat with compassion."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Beta
     start: -48-3-9
   }
   {
     id: 864
     mission_id: "10879"
+    description: '''"If you must go, then I'll go with you."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Gamma
     start: -48-3-10
   }
   {
     id: 865
     mission_id: "10880"
+    description: '''"A Paradeus unit is mopping the floor over there..."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Delta
     start: -48-3-12
   }
   {
     id: 866
     mission_id: "10881"
+    description: '''"Ange is right here inside this plant. If we just trust her..."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Epsilon
     start: -48-3-14
   }
   {
     id: 867
     mission_id: "10882"
+    description: '''"...Live on, J. Live on until you can avenge them."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Eta
     start: -48-4-1
   }
   {
     id: 868
     mission_id: "10883"
+    description: '''"We actually have two of such plants."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Theta
     start: -48-4-2
   }
   {
     id: 869
     mission_id: "10884"
+    description: '''"It's been her plan to lead us into a trap right from the start."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Iota
     start: -48-4-3
   }
   {
     id: 870
     mission_id: "10885"
+    description: '''"He's always making someone else pay the price in his place... Making them pay the price for his recklessness and presumption..."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Lambda
     start: -48-4-5
   }
   {
     id: 871
     mission_id: "10886"
+    description: '''"Perhaps it's time we have a new best friend."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Mu
     start: -48-4-7
   }
   {
     id: 872
     mission_id: "10887"
+    description: '''"Today is a great and important day for Germany!"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Nu
     start: -48-4-9
   }
   {
     id: 873
     mission_id: "10888"
+    description: There is a big red circled date on the calendar. Today is a day worth celebrating."
     campaign: -48
     bgm: BGM_Frontline
     title: "1"
@@ -9135,20 +9217,25 @@
   {
     id: 874
     mission_id: "10889"
+    description: '''"Do not go gentle into that good night."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "11"
     start: -48-4-12
   }
   {
     id: 875
     mission_id: "10890"
+    description: '''"We haven't lost yet. More of our comrades still need us."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "100"
     start: -48-4-13
   }
   {
     id: 876
     mission_id: "10891"
+    description: '''"Not everything you see is real. Don't rely on your eyes too much, Commander."'''
     campaign: -48
     bgm: BGM_Frontline
     title: "101"
@@ -9157,108 +9244,138 @@
   {
     id: 877
     mission_id: "10892"
+    description: '''"It's your turn. Let me see Ange."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "110"
     start: -48-5-3
   }
   {
     id: 878
     mission_id: "10893"
+    description: '''"Perfect timing."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "111"
     start: -48-5-5
   }
   {
     id: 879
     mission_id: "10894"
+    description: '''"Our only hope for victory is to deliver the neural cloud servers to safety."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "1000"
     start: -48-5-6
   }
   {
     id: 880
     mission_id: "10895"
+    description: '''"Only the dead have seen the end of the war."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "1001"
     start: -48-5-8
   }
   {
     id: 881
     mission_id: "10896"
+    description: '''"Once again, Griffin's future is in our hands."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: "1010"
     start: -48-5-10
   }
   {
     id: 882
     mission_id: "10897"
+    description: '''"The Factory is no longer just a factory, but a miniature museum. One dedicated to love, death, and robots."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Pico
     start: -48-6-1
   }
   {
     id: 883
     mission_id: "10898"
+    description: '''"We will stop them here, even with just the few of us."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Nano
     start: -48-6-2
   }
   {
     id: 884
     mission_id: "10899"
+    description: '''"Get up, we're all watching you from behind."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Milli
     start: -48-6-4
   }
   {
     id: 885
     mission_id: "10900"
+    description: '''"It's a promise. See you in Berlin."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Deci
     start: -48-6-6
   }
   {
     id: 886
     mission_id: "10901"
+    description: '''"I've brought a special consultant."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Deca
     start: -48-6-7
   }
   {
     id: 887
     mission_id: "10902"
+    description: '''"In the Soviet Union, only people in one kind of place have a significant association with tattoos."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Hecta
     start: -48-6-9
   }
   {
     id: 888
     mission_id: "10903"
+    description: '''"I have delivered death to your doorstep."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Kilo
     start: -48-6-11
   }
   {
     id: 889
     mission_id: "10904"
+    description: '''"It's my turn, dearie. —Bramedb"'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Mega
     start: -48-6-12
   }
   {
     id: 890
     mission_id: "10801"
+    description: '''"God, you sound like a proper Stasi."'''
     scripts: -48-1-2-First,-48-1-2-point1,-48-1-2-point2,-48-1-2-point3,-48-1-2-point4
     campaign: -48
     bgm: BGM_Frontline
+    title: Giga
     start: -48-1-2-First
     point: 64307:-48-1-2-point3,64302:-48-1-2-point4
   }
   {
     id: 891
     mission_id: "10802"
+    description: '''"Grant to the souls of all our faithful departed your mercy, light and peace."'''
     campaign: -48
     bgm: BGM_Frontline
+    title: Tera
   }
   {
     id: 892
@@ -9504,7 +9621,7 @@
   {
     id: 918
     mission_id: "10988"
-    description: Plot Stage 1
+    description: '''"Christmas this year is kickstarted by the Commander's horrific scream and desperate attempt to run away."'''
     scripts: -49-0-0
     campaign: -49
     bgm: BGM_Frontline
@@ -9514,7 +9631,7 @@
   {
     id: 919
     mission_id: "10989"
-    description: Plot Stage 2
+    description: '''"In the dark forest, a battle for Christmas Tokens have quietly begun."'''
     scripts: -49-1-1
     campaign: -49
     bgm: BGM_Frontline
@@ -9524,7 +9641,7 @@
   {
     id: 920
     mission_id: "10990"
-    description: Battle Stage A - Plot 3
+    description: '''"Buried feelings. Feelings that are hard to convey."'''
     scripts: -49-1-2
     campaign: -49
     bgm: BGM_Frontline
@@ -9535,7 +9652,7 @@
   {
     id: 921
     mission_id: "10991"
-    description: Plot Stage 4
+    description: '''"First, drink these up and turn off all rational thinking."'''
     scripts: -49-2-1
     campaign: -49
     bgm: BGM_Frontline
@@ -9545,7 +9662,7 @@
   {
     id: 922
     mission_id: "10992"
-    description: Battle Stage B - Plot 5
+    description: '''"Scores, old and new, will all be settled here."'''
     scripts: -49-2-2
     campaign: -49
     bgm: BGM_Frontline
@@ -9556,7 +9673,7 @@
   {
     id: 923
     mission_id: "10993"
-    description: Plot Stage 6
+    description: '''"I will win, then I'll pry the truth from your mouth."'''
     scripts: -49-3-1
     campaign: -49
     bgm: BGM_Frontline
@@ -9566,7 +9683,7 @@
   {
     id: 924
     mission_id: "10994"
-    description: Battle Stage C - Plot 7
+    description: '''"This is the price one must pay in exchange for happiness."'''
     scripts: -49-3-2
     campaign: -49
     bgm: BGM_Frontline
@@ -9577,7 +9694,7 @@
   {
     id: 925
     mission_id: "10995"
-    description: Plot Stage 8
+    description: '''"Does Christmas magic really work?"'''
     scripts: -49-4-1
     campaign: -49
     bgm: BGM_Frontline
@@ -9587,7 +9704,7 @@
   {
     id: 926
     mission_id: "10996"
-    description: Battle Stage D - Plot 9
+    description: '''"...Before that, I must tell you a secret."'''
     scripts: -49-4-2
     campaign: -49
     bgm: BGM_Frontline
@@ -9598,7 +9715,7 @@
   {
     id: 927
     mission_id: "10997"
-    description: Plot Stage 10
+    description: '''"With a piteous shriek, the Commander dashes out into the cold, snowy night..."'''
     scripts: -49-5-1
     campaign: -49
     bgm: BGM_Frontline
@@ -9608,344 +9725,389 @@
   {
     id: 928
     mission_id: "11011"
+    description: '''"The Bee Sting. It goes everywhere."'''
     campaign: -51
-    title: "101"
+    title: Stinger
     start: -51-1-1
   }
   {
     id: 929
     mission_id: "11013"
+    description: '''"M16A1 has pursued many enemies, but this little moth has quickly proved herself to be the trickiest target she has ever dealt with."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 1-2
+    title: Nike II
     point: 75620:-51-EXT-1-2
   }
   {
     id: 930
     mission_id: "11014"
+    description: '''"I need to leave the Soviet Union immediately. Requesting assistance and political asylum from the 'Evangelist'."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 2-1
+    title: Cangue-Breaking
     point: 75680:-51-EXT-2-1
   }
   {
     id: 931
     mission_id: "11015"
+    description: '''"This has to be the worst mission I've ever been given. BAR NONE!"'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 2-2
+    title: Lurking I
     round: 2:-51-EXT-2-2-2
   }
   {
     id: 932
     mission_id: "11028"
+    description: '''"The more they try to stop us, the more certain we can be that we're going the right way."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-1N
+    title: Traverse Sectioning
     point: 75866:-51-EXT-3-1
   }
   {
     id: 933
     mission_id: "11038"
+    description: story_util-10000933
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-1H
+    title: story_util-20000933
     point: 76094:-51-EXT-3-1
   }
   {
     id: 934
     mission_id: "11018"
+    description: '''"Her blade isn't as sharp as when it first appeared. Bit by bit, we are definitely doing a number on this great white beast."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-2
+    title: Against the Light II
     point: 76372:-51-EXT-3-2
   }
   {
     id: 935
     mission_id: "11029"
+    description: story_util-10000935
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-2N
+    title: story_util-20000935
     point: 75916:-51-EXT-3-2
   }
   {
     id: 936
     mission_id: "11039"
+    description: story_util-10000936
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-2H
+    title: story_util-20000936
     point: 76144:-51-EXT-3-2
   }
   {
     id: 937
     mission_id: "11019"
+    description: '''"This could be checkmate."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-3
+    title: Intersection Point II
     point: 76421:-51-EXT-3-3
   }
   {
     id: 938
     mission_id: "11030"
+    description: story_util-10000938
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-3N
+    title: story_util-20000938
     point: 75965:-51-EXT-3-3
   }
   {
     id: 939
     mission_id: "11040"
+    description: story_util-10000939
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-3H
+    title: story_util-20000939
     point: 76193:-51-EXT-3-3
   }
   {
     id: 940
     mission_id: "11020"
+    description: '''"She is like a brilliant moon in this sinister world... and the moon is finally about to fall."'''
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-4
+    title: Blood Moon I
     point: 76455:-51-EXT-3-4
   }
   {
     id: 941
     mission_id: "11031"
+    description: story_util-10000941
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-4N
+    title: story_util-20000941
     point: 76009:-51-EXT-3-4
   }
   {
     id: 942
     mission_id: "11041"
+    description: story_util-10000942
     campaign: -51
     bgm: BGM_Frontline
-    title: 3-4H
+    title: story_util-20000942
     point: 76237:-51-EXT-3-4
   }
   {
     id: 943
     mission_id: "11052"
     campaign: -51
-    title: Hard Mode Reward Stage
+    title: Overlapping Projections
     start: -51-5-1
   }
   {
     id: 944
     mission_id: "11053"
     campaign: -51
-    title: Nightmare Mode Reward Stage
+    title: Homeomorphic Image
     start: -51-5-2
   }
   {
     id: 945
     mission_id: "11057"
+    description: '''"I'm here to ensure your loyalty—or should I say, to instill some loyalty in you.'''
     campaign: -51
-    title: "102"
+    title: Black Box
     start: -51-1-2
   }
   {
     id: 946
     mission_id: "11058"
+    description: '''"To sketch a mountain, one must stand on the plains; and to sketch a plain, one must stand on a mountain."'''
     campaign: -51
-    title: "103"
+    title: Secret Watch
     start: -51-1-3
   }
   {
     id: 947
     mission_id: "11059"
+    description: '''"Heroes from all over the world are heading toward Berlin on the Argo, all seeking the evil Golden Fleece."'''
     campaign: -51
-    title: "104"
+    title: Pursuit I
     start: -51-1-4
   }
   {
     id: 948
     mission_id: "11060"
+    description: '''"Everything has changed since Unity Day. Those who cannot keep up are destined to drown in the waves."'''
     campaign: -51
-    title: "106"
+    title: Nike I
     start: -51-1-6
   }
   {
     id: 949
     mission_id: "11061"
+    description: '''"It is now a land of death and decay that even birds cannot fly across. We call it 'Avernus'."'''
     campaign: -51
-    title: "108"
+    title: '''"Dead Sea"'''
     start: -51-1-8
   }
   {
     id: 950
     mission_id: "11062"
+    description: '''"Before we turn our eyes to our external enemies, we must first take care of the opportunists within our ranks."'''
     campaign: -51
-    title: "201"
+    title: Flutter
     start: -51-2-1
   }
   {
     id: 951
     mission_id: "11063"
+    description: '''"We need a stiletto to thrust into the heart of the enemy... but it should preferably be wielded by someone else."'''
     campaign: -51
-    title: "203"
+    title: Wheelrut
     start: -51-2-3
   }
   {
     id: 952
     mission_id: "11064"
+    description: '''"Given my status, completing this mission implies that the Griffin Base will come under the General's protection."'''
     campaign: -51
-    title: "205"
+    title: Lurking II
     start: -51-2-5
   }
   {
     id: 953
     mission_id: "11065"
+    description: '''"If the Dead Sea is the entrance to Hell, then we are Aeneas, the one who descended into the Underworld."'''
     campaign: -51
-    title: "207"
+    title: Vortex
     start: -51-2-7
   }
   {
     id: 954
     mission_id: "11066"
+    description: '''"To friendship."'''
     campaign: -51
-    title: "208"
+    title: Gardener
     start: -51-2-8
   }
   {
     id: 955
     mission_id: "11067"
+    description: '''"Right now, we are an unexpected dagger to the enemy's heart."'''
     campaign: -51
-    title: "301"
+    title: Commencement
     start: -51-3-1
   }
   {
     id: 956
     mission_id: "11068"
+    description: '''"I don't seek to be understood. I don't seek forgiveness either."'''
     campaign: -51
-    title: "303"
+    title: Against the Light I
     start: -51-3-3
   }
   {
     id: 957
     mission_id: "11069"
+    description: '''"All the lines, all the points, they all exist for this..."'''
     campaign: -51
-    title: "305"
+    title: Intersection Point I
     start: -51-3-5
   }
   {
     id: 958
     mission_id: "11070"
+    description: '''"I've brought you two trump cards. One is me, and the other is this."'''
     campaign: -51
-    title: "307"
+    title: Strongarm
     start: -51-3-7
   }
   {
     id: 959
     mission_id: "11071"
+    description: '''"I won't abandon anyone. At least, not until I have to."'''
     campaign: -51
-    title: "308"
+    title: Fissure
     start: -51-3-8
   }
   {
     id: 960
     mission_id: "11072"
+    description: '''"Most reunions are very touching, but there are always exceptions."'''
     campaign: -51
-    title: "310"
+    title: Blood Moon II
     start: -51-3-10
   }
   {
     id: 961
     mission_id: "11073"
+    description: '''"The faint moonlight leaks out from between the two towers. Not even birds flying in the air would be visible against this light."'''
     campaign: -51
-    title: "312"
+    title: Reflection
     start: -51-3-12
   }
   {
     id: 962
     mission_id: "11074"
+    description: '''"She has tried to save the world all this while, and now it is time for us to save her."'''
     campaign: -51
-    title: "401"
+    title: Open the Way
     start: -51-4-1
   }
   {
     id: 963
     mission_id: "11075"
+    description: '''"Friends don't always stay friends, and the same goes for enemies."'''
     campaign: -51
-    title: "402"
+    title: Elevation
     start: -51-4-2
   }
   {
     id: 964
     mission_id: "11076"
+    description: '''"Through me you pass into the city of woe, through me you pass into eternal pain, through me among the people lost for aye."'''
     campaign: -51
-    title: "403"
+    title: Ascent
     start: -51-4-3
   }
   {
     id: 965
     mission_id: "11077"
+    description: '''"At the Gate of Hell, the bird has its wings broken."'''
     campaign: -51
-    title: "405"
+    title: Incursion
     start: -51-4-5
   }
   {
     id: 966
     mission_id: "11078"
+    description: '''"Right now, it feels as if she'd returned to that old mansion, but this time, both her arms are intact and her primary weapon is fully loaded."'''
     campaign: -51
-    title: "407"
+    title: Old Rain II
     start: -51-4-7
   }
   {
     id: 967
     mission_id: "11079"
+    description: '''"Everything is possible. Never say never."'''
     campaign: -51
-    title: "409"
+    title: Lonely Island II
     start: -51-4-9
   }
   {
     id: 968
     mission_id: "11080"
+    description: '''"We've all seen hell worse than this. As if I'd let you stop me."'''
     campaign: -51
-    title: "411"
+    title: Traitor II
     start: -51-4-11
   }
   {
     id: 969
     mission_id: "11081"
+    description: '''"I knew it all along. In the end, we really are allies, Commander."'''
     campaign: -51
-    title: "413"
+    title: Solution
     start: -51-4-13
   }
   {
     id: 970
     mission_id: "11082"
+    description: '''"Before me, were those who walked the same path, and there will definitely be others after me."'''
     campaign: -51
-    title: "414"
+    title: Endpoint
     start: -51-4-14
   }
   {
     id: 971
     mission_id: "11047"
+    description: '''"It's time we let the other Dolls try to fight Paradeus without help."'''
     campaign: -51
-    title: Easter Egg 1
+    title: Deduction I
     start: -51-slg-mission-1
   }
   {
     id: 972
     mission_id: "11054"
+    description: '''"It seems a bit too early, but we should still offer her some help."'''
     campaign: -51
-    title: Easter Egg 2
+    title: Deduction II
     start: -51-slg-mission-2
   }
   {
     id: 973
     mission_id: "11055"
+    description: '''"You have learned how to deal with Paradeus. Now, annihilate them!"'''
     campaign: -51
-    title: Easter Egg 3
+    title: Deduction III
     start: -51-slg-mission-3
   }
   {
     id: 974
     mission_id: "11056"
+    description: '''"Show them what we Griffin Dolls are made of!"'''
     campaign: -51
-    title: Easter Egg 4
+    title: Deduction IV
     start: -51-slg-mission-4
   }
   {
@@ -10050,656 +10212,860 @@
     id: 989
     mission_id: "11098"
     campaign: -52
+    title: Lycan: The Hunt Prologue
     start: -52-0-1
   }
   {
     id: 990
     mission_id: "11112"
     campaign: -52
+    title: Chaos Relay
     start: -52-8-1
   }
   {
     id: 991
     mission_id: "11115"
     campaign: -52
+    title: Hunter's Patrol
     start: -52-1-1
   }
   {
     id: 992
     mission_id: "11101,11102"
     campaign: -52
+    title: Target or Trap
     start: -52-2-1
   }
   {
     id: 993
     mission_id: "11107"
     campaign: -52
+    title: Twilight Labyrinth I
     start: -52-3-1
   }
   {
     id: 994
     mission_id: "11103,11104"
     campaign: -52
+    title: Witch's Tent
     start: -52-4-1
   }
   {
     id: 995
     mission_id: "11105,11106"
     campaign: -52
+    title: Pond of Demons
     start: -52-5-1
   }
   {
     id: 996
     mission_id: "11099,11100"
     campaign: -52
+    title: Signal Fire
     start: -52-6-1
   }
   {
     id: 997
     mission_id: "11166"
+    description: '''"This is a miracle, and you are the greatest witnesses of this miracle!"'''
     campaign: -54
+    title: 1 Train Timetable
     start: -54-O-1
   }
   {
     id: 998
     mission_id: "11164"
     campaign: -54
+    title: Transcendental Études
     start: -54-0-1
   }
   {
     id: 999
     mission_id: "11165"
     campaign: -54
+    title: Études-Tableaux
     start: -54-0-2
   }
   {
     id: 1000
     mission_id: "11167"
+    description: '''"The Instructor always has a solution—even if we don't know what."'''
     campaign: -54
+    title: 3-α1 Waltz in A minor
     start: -54-A-1
   }
   {
     id: 1001
     mission_id: "11168"
+    description: '''"This is the only method that is truly 'fail-safe'."'''
     campaign: -54
+    title: 3-α3 Raindrop
     start: -54-A-3
   }
   {
     id: 1002
     mission_id: "11169"
+    description: '''"As expected of Instructor Я. Even the most superficial mission is so carefully thought out."'''
     campaign: -54
+    title: 3-α4 Little Prelude in G minor
     start: -54-A-4
   }
   {
     id: 1003
     mission_id: "11170"
+    description: '''"This is a special operation assigned to Advanced Combat Team Я."'''
     campaign: -54
+    title: 5-α5 Moonlight Sonata
     start: -54-A-5
   }
   {
     id: 1004
     mission_id: "11120,11123,11126"
+    description: '''"You committed a grave error as the field commander, Instructor Я."'''
     campaign: -54
+    title: 5-α6 Chaconne
     start: -54-A-6Point1
   }
   {
     id: 1005
     mission_id: "11171"
+    description: '''"All real 'commanders' are forged in the fire on the frontlines."'''
     campaign: -54
+    title: 5-α7 Winter
     start: -54-A-7
   }
   {
     id: 1006
     mission_id: "11121,11124,11127"
+    description: '''"You know, you should really listen to him."'''
     campaign: -54
+    title: 5-α8 Stradivarius' Magic
     round: 1:-54-EXT-A3-3
   }
   {
     id: 1007
     mission_id: "11172"
+    description: '''"Now is the perfect time to execute Plan B."'''
     campaign: -54
+    title: 16 Concerto Grosso in A minor
     start: -54-A-9
   }
   {
     id: 1008
     mission_id: "11173"
+    description: '''"...There's no more pretense."'''
     campaign: -54
+    title: 17 Brahms Intermezzi
     start: -54-A-10
   }
   {
     id: 1009
     mission_id: "11174"
+    description: '''"Most people don't get to choose the circumstances they are born into—you don't, and neither do I."'''
     campaign: -54
+    title: 18 The Swan
     start: -54-A-11
   }
   {
     id: 1010
     mission_id: "11175"
+    description: '''"She is like a hawk, gathering strength for a power dive. She studies her prey mercilessly."'''
     campaign: -54
+    title: 25 Ruslan and Lyudmila
     start: -54-A-12
   }
   {
     id: 1011
     mission_id: "11122,11125,11128"
+    description: '''"She has turned into a star that lights up the night sky."'''
     campaign: -54
+    title: '''"26 Thus Spoke Zarathustra'''
     round: 1:-54-EXT-A4
   }
   {
     id: 1012
     mission_id: "11176"
+    description: '''"At last... silence reigns here once more."'''
     campaign: -54
+    title: 27 Ride of the Valkyries
     start: -54-A-14
   }
   {
     id: 1013
     mission_id: "11177"
+    description: '''"Maggie, Baba Lyuba sends her regards."'''
     campaign: -54
+    title: 3-β1 Gene Takes a Drink
     start: -54-B-1
   }
   {
     id: 1014
     mission_id: "11129"
+    description: '''"For a Vor, deception will only lead to one fate."'''
     campaign: -54
+    title: 3-β2 Symphony No.2 in C Major
     round: 1:-54-EXT-B1
   }
   {
     id: 1015
     mission_id: "11178"
+    description: '''"There's no retiring for Dolls, just endless reincarnations."'''
     campaign: -54
+    title: 3-β3 Symphony No. 3
     start: -54-B-3
   }
   {
     id: 1016
     mission_id: "11179"
+    description: '''"Catherine and Maggie lean against each other on the cold floor."'''
     campaign: -54
+    title: 5-β4 Introduction and Rondo Capriccioso
     start: -54-B-4
   }
   {
     id: 1017
     mission_id: "11180"
+    description: '''"A dry martini, shaken, not stirred."'''
     campaign: -54
+    title: 5-β5 Danse Macabre
     start: -54-B-5
   }
   {
     id: 1018
     mission_id: "11181"
+    description: '''"If your attack point is 5, then hers would be 530,000."'''
     campaign: -54
+    title: 5-β7 Cavalleria Rusticana
     start: -54-B-7
   }
   {
     id: 1019
     mission_id: "11182"
+    description: '''"Humans never learn their lesson."'''
     campaign: -54
+    title: 12 Gnossienne No. 1
     start: -54-B-9
   }
   {
     id: 1020
     mission_id: "11183"
+    description: '''"Only the good die young. Good thing you're not good, and neither am I."'''
     campaign: -54
+    title: 14 Ballade in G minor
     start: -54-B-11
   }
   {
     id: 1021
     mission_id: "11184"
+    description: '''"I couldn't just leave someone with an attack point of 5 to fight on her own, could I?"'''
     campaign: -54
+    title: 21 La Campanella
     start: -54-B-12
   }
   {
     id: 1022
     mission_id: "11185"
+    description: '''"She turns into an electronic cat and runs down the street."'''
     campaign: -54
+    title: 23 Con Espressione
     start: -54-B-14
   }
   {
     id: 1023
     mission_id: "11186"
+    description: '''"The 'Summer Garden' is unlocked. Do you wish to proceed Y/N?"'''
     campaign: -54
+    title: 3-γ1 Méditation from Thaïs
     start: -54-C-1
   }
   {
     id: 1024
     mission_id: "11187"
+    description: '''"The garden before Erma is utterly different from the one in her memory. It has become painfully apparent to her—there is no going back."'''
     campaign: -54
+    title: 3-γ3 Vladimir's Blues
     start: -54-C-3
   }
   {
     id: 1025
     mission_id: "11188"
+    description: '''"First, let me make this clear. Only one place sells tickets for the Colt Express, and this is it."'''
     campaign: -54
+    title: 3-γ4 The Well-Tempered Clavier
     start: -54-C-4
   }
   {
     id: 1026
     mission_id: "11189"
+    description: '''"If I want to live on as my whole self, I need to solve my memory problems."'''
     campaign: -54
+    title: 5-γ5 The Canary
     start: -54-C-5
   }
   {
     id: 1027
     mission_id: "11190"
+    description: '''"You're like me. You're 'Mother's' child!"'''
     campaign: -54
+    title: 5-γ7 Choral Fantasy
     start: -54-C-7
   }
   {
     id: 1028
     mission_id: "11144,11149,11154"
+    description: '''"I am the first, and you... are the 63rd."'''
     campaign: -54
+    title: 5-γ8 Torna a Surriento - UX
     start: -54-C-8Point1
   }
   {
     id: 1029
     mission_id: "11191"
+    description: '''"Madam Instructor, would you like to do business with me?"'''
     campaign: -54
+    title: 8 Rhapsody on a Theme of Paganini
     start: -54-C-9
   }
   {
     id: 1030
     mission_id: "11145,11150,11155"
+    description: '''"Lyudmila feels like a different person... Maybe that's just her game face."'''
     campaign: -54
+    title: 9 Ghost
     start: -54-C-10Point1
   }
   {
     id: 1031
     mission_id: "11192"
+    description: '''"Evening Star has fallen."'''
     campaign: -54
+    title: 10 L'estro Armonico
     start: -54-C-11
   }
   {
     id: 1032
     mission_id: "11193"
+    description: '''"Regardless of how you modify me, I still love myself best."'''
     campaign: -54
+    title: 29 Summer
     start: -54-C-12
   }
   {
     id: 1033
     mission_id: "11146,11151,11156"
+    description: '''"I'll make sure I pay her out for you as well, Catherine."'''
     campaign: -54
+    title: 30 Symphony No. 6
     round: 1:-54-EXT-C5
   }
   {
     id: 1034
     mission_id: "11194"
+    description: '''"On board the collapsing Colt Express, Erma holds on tightly to Maggie."'''
     campaign: -54
+    title: 31 Zigeunerweisen
     start: -54-C-14
   }
   {
     id: 1035
     mission_id: "11147,11152,11157"
+    description: '''"The stars have risen."'''
     campaign: -54
+    title: 32 1812 Overture
     round: 3:-54-C-15Point1
   }
   {
     id: 1036
     mission_id: "11195"
+    description: '''"You're free, Erma."'''
     campaign: -54
+    title: 33 Air on the G String
     start: -54-C-16
   }
   {
     id: 1037
     mission_id: "11196"
+    description: '''"You lack a certain scent. It's the smell of "money" that rich people have on them."'''
     campaign: -54
+    title: 2 Radiation Alarm
     start: -54-O-2
   }
   {
     id: 1038
     mission_id: "11197"
+    description: '''"Welcome aboard the Colt Express."'''
     campaign: -54
+    title: 3 Bar Counter
     start: -54-O-3
   }
   {
     id: 1039
     mission_id: "11198"
+    description: '''"The Vory are about to begin their 'hunt'."'''
     campaign: -54
+    title: 4 Vintage Gramophone
     start: -54-O-4
   }
   {
     id: 1040
     mission_id: "11199"
+    description: '''"You should call me... BABA LYUBA!'''
     campaign: -54
+    title: 5 Toilet
     start: -54-O-5
   }
   {
     id: 1041
     mission_id: "11200"
+    description: '''"They make only several hundred credits in a month, you think they'd risk their lives for this?"'''
     campaign: -54
+    title: 6 World Time Zone Clocks
     start: -54-O-6
   }
   {
     id: 1042
     mission_id: "11201"
+    description: '''"I need the strength of every single Doll, even those who aren't T-Dolls.'''
     campaign: -54
+    title: 7 Door to VIP-Class Carriage
     start: -54-O-7
   }
   {
     id: 1043
     mission_id: "11202"
+    description: '''"It's all for the sake of the Neo-Soviet Union's future."'''
     campaign: -54
+    title: 11 Large Luggage Rack
     start: -54-O-8
   }
   {
     id: 1044
     mission_id: "11203"
+    description: '''"Having a weakness is a terrifying thing."'''
     campaign: -54
+    title: 15 Window with a View
     start: -54-O-9
   }
   {
     id: 1045
     mission_id: "11204"
+    description: '''"You should be in the world of the humans. You belong there."'''
     campaign: -54
+    title: 19 Elegant Bouquet on the Table
     start: -54-O-10
   }
   {
     id: 1046
     mission_id: "11205"
+    description: '''"That's just how humans are. They seek things that they lack."'''
     campaign: -54
+    title: 20 Vendor's Pushcart
     start: -54-O-11
   }
   {
     id: 1047
     mission_id: "11206"
+    description: '''"I'm a doctor. Saving people is my job."'''
     campaign: -54
+    title: 24 Humorous Graffiti
     start: -54-O-12
   }
   {
     id: 1048
     mission_id: "11207"
+    description: '''"The last Colt Express of the night is about to depart."'''
     campaign: -54
+    title: 28 Maintenance Room
     start: -54-O-13
   }
   {
     id: 1049
     mission_id: "11208"
+    description: '''"Paradeus, it's time you went to hell."'''
     campaign: -54
+    title: 34 Trapdoor
     start: -54-O-14
   }
   {
     id: 1050
     mission_id: "11209"
+    description: '''"Pain always lasts so long, like a snail diligently crawling forward. Yet joy is so fleeting, like a rabbit's tail bounding across the autumn plains."'''
     campaign: -54
+    title: 35 Hanging Screen
     start: -54-O-15
   }
   {
     id: 1051
     mission_id: "11211"
+    description: '''"School's out! Time to head home."'''
     campaign: -54
+    title: '''"35-T1 Étude No. 2'''
     start: -54-T-1
   }
   {
     id: 1052
     mission_id: "11212"
+    description: '''"Good, that's another option down."'''
     campaign: -54
+    title: 35-T2 Prelude No. 5
     start: -54-T-2
   }
   {
     id: 1053
     mission_id: "11213"
+    description: '''"Tareus steps over the blue bag and vanishes into the second-class carriage."'''
     campaign: -54
+    title: 35-T3 Romance
     start: -54-T-3
   }
   {
     id: 1054
     mission_id: "11214"
+    description: '''"Tareus has named her mech after this word—'Miss Eve'."'''
     campaign: -54
+    title: 35-T4 Moments Musicaux
     start: -54-T-4
   }
   {
     id: 1055
     mission_id: "11215"
+    description: '''"We do not follow the law, and the home for a Vor is in prison."'''
     campaign: -54
+    title: 35-W1 Solveig's Song
     start: -54-W-1
   }
   {
     id: 1056
     mission_id: "11216"
+    description: '''"These 'cake-eaters' don't give a damn whether mooks like them live or die."'''
     campaign: -54
+    title: 35-W2 Clarinet Concerto in A Major
     start: -54-W-2
   }
   {
     id: 1057
     mission_id: "11217"
+    description: '''"Loyalty is proved with action, not words."'''
     campaign: -54
+    title: 35-W3 Tour di Mantova
     start: -54-W-3
   }
   {
     id: 1058
     mission_id: "11218"
+    description: '''"This is not a blessing from God, but a curse..."'''
     campaign: -54
+    title: 35-W4 Tristesse
     start: -54-W-4
   }
   {
     id: 1059
     mission_id: "11219"
+    description: '''"I'm not useless; I'm just f*cking unlucky!"'''
     campaign: -54
+    title: 35-N1 Fantaisie-Impromptu
     start: -54-N-1
   }
   {
     id: 1060
     mission_id: "11220"
+    description: '''"Killing the goose only yields temporary profit. Sustainable development is the way to go."'''
     campaign: -54
+    title: 35-N2 Spring Sonata
     start: -54-N-2
   }
   {
     id: 1061
     mission_id: "11221"
+    description: '''"No one has ever managed to trick me like this!"'''
     campaign: -54
+    title: 35-N3 Minuet
     start: -54-N-3
   }
   {
     id: 1062
     mission_id: "11222"
+    description: '''"Poker is all you know, so that makes you Miss Poker."'''
     campaign: -54
+    title: 35-C1 Gymnopedie
     start: -54-K-1
   }
   {
     id: 1063
     mission_id: "11223"
+    description: '''"Dolls who are constantly struggling to survive can always see the ugly, twisted truth."'''
     campaign: -54
+    title: 35-C2 Moon River
     start: -54-K-2
   }
   {
     id: 1064
     mission_id: "11224"
+    description: '''"Free... We're free!"'''
     campaign: -54
+    title: 35-C3 Starry Starry Night
     start: -54-K-3
   }
   {
     id: 1065
     mission_id: "11225"
+    description: '''"From now on, my name is Maggie Ponzi, and yours is Catherine Ponzi."'''
     campaign: -54
+    title: 35-C4 O Sole Mio
     start: -54-K-4
   }
   {
     id: 1066
     mission_id: "11226"
+    description: '''"Sometimes, all forks in life lead to the same endpoint."'''
     campaign: -54
+    title: 35-R1 Tzigane
     start: -54-D-1
   }
   {
     id: 1067
     mission_id: "11227"
+    description: '''"Nothing has changed. Nothing will ever change."'''
     campaign: -54
+    title: 35-R2 Sommeraften
     start: -54-D-2
   }
   {
     id: 1068
     mission_id: "11228"
+    description: '''"The happiness that he started out with has long since turned into regrets."'''
     campaign: -54
+    title: 35-R3 Piano Quintet in B minor
     start: -54-D-3
   }
   {
     id: 1069
     mission_id: "11229"
+    description: '''"Turns out... all I've ever wanted is the gratification of saving lives..."'''
     campaign: -54
+    title: 35-R4 Piano Concerto in F minor
     start: -54-D-4
   }
   {
     id: 1070
     mission_id: "11230"
+    description: '''"No roses exist in any of the places that I can travel to."'''
     campaign: -54
+    title: 35-P1 Twelve Variations on "Ah vous dirai-je, Maman"
     start: -54-P-1
   }
   {
     id: 1071
     mission_id: "11231"
+    description: '''"She knows the Sweet Dreams Box doesn't make any dreams come true, but even so, she refuses to give up."'''
     campaign: -54
+    title: 35-P2 Death and the Maiden
     start: -54-P-2
   }
   {
     id: 1072
     mission_id: "11232"
+    description: '''"Behind him is his eternal angel, his rose for which there is no substitute."'''
     campaign: -54
+    title: 35-P3 Salut d'Amour
     start: -54-P-3
   }
   {
     id: 1073
     mission_id: "11210"
+    description: '''"I will not let your sacrifice be in vain."'''
     campaign: -54
+    title: 36 Vox Lux
     start: -54-A-15
   }
   {
     id: 1075
     mission_id: "11233,11237"
+    description: '''"Even after all this time, Fate has led them back to each other."'''
     campaign: -56
+    title: First Contact
   }
   {
     id: 1076
     mission_id: "11234,11238"
+    description: '''"Always have a backup plan for when your credo fails you."'''
     campaign: -56
+    title: Second Contact
   }
   {
     id: 1077
     mission_id: "11235,11239"
+    description: '''"I want to pay this courage forward to someone else who needs it."'''
     campaign: -56
+    title: Totality
   }
   {
     id: 1078
     mission_id: "11236,11240"
+    description: '''"I am the moon that swallows the sun. Just like how the eclipse is the shadow that swallows all daylight."'''
     campaign: -56
+    title: Third Contact
   }
   {
     id: 1079
     mission_id: "11243"
+    description: '''"Her 13 years of slumber feels like nothing more than a dream, but Daybreak was never gone."'''
     scripts: -56-1-A
     campaign: -56
+    title: Long-Period Perturbation
     start: -56-1-A
   }
   {
     id: 1080
     mission_id: "11244"
+    description: '''"Congratulations, you've embarked on a new journey. This is a good beginning."'''
     scripts: -56-1-B
     campaign: -56
+    title: Short-Period Perturbation
     start: -56-1-B
   }
   {
     id: 1081
     mission_id: "11245"
+    description: '''"Only when the past catches up to you will you understand that running away won't solve anything."'''
     scripts: -56-2-0
     campaign: -56
+    title: Lunar Orbital Inclination
     start: -56-2-0
   }
   {
     id: 1082
     mission_id: "11246"
+    description: '''"Day and night, dawn and dusk, sun and moon."'''
     scripts: -56-4-0
     campaign: -56
+    title: Catastrophe
     start: -56-4-0
   }
   {
     id: 1083
     mission_id: "11247"
+    description: '''"When you point your gun at someone, you should've thought of all the possibilities."'''
     scripts: -56-5-A
     campaign: -56
+    title: Ingress
     start: -56-5-A
   }
   {
     id: 1084
     mission_id: "11248"
+    description: '''"The moon illuminates the way with borrowed light, and that's enough to guide travelers through the fog."'''
     scripts: -56-5-B
     campaign: -56
+    title: Egress
     start: -56-5-B
   }
   {
     id: 1085
     mission_id: "11249"
+    description: '''"The target was codenamed "Capita", and his listed name was Laplace."'''
     scripts: -56-6-0
     campaign: -56
+    title: Homology
     start: -56-6-0
   }
   {
     id: 1086
     mission_id: "11250"
+    description: '''"I miss the man of yesterday and the city of tomorrow."'''
     scripts: -56-8-0
     campaign: -56
+    title: Capture
     start: -56-8-0
   }
   {
     id: 1087
     mission_id: "11251"
+    description: '''"The interpersonal communications between Dolls are not just about the mission, but also about our feelings."'''
     scripts: -56-9-A
     campaign: -56
+    title: Antumbra
     start: -56-9-A
   }
   {
     id: 1088
     mission_id: "11252"
+    description: '''"You're my personal property. Nobody can touch you without my permission."'''
     scripts: -56-9-B
     campaign: -56
+    title: Umbra
     start: -56-9-B
   }
   {
     id: 1089
     mission_id: "11253"
+    description: '''"I've already designated you as the heroine of this work of mine. How can the heroine lose so easily?"'''
     scripts: -56-10-0
     campaign: -56
+    title: Annulus
     start: -56-10-0
   }
   {
     id: 1090
     mission_id: "11254"
+    description: '''"There were nine figures in the photograph, and Eula was standing right next to Samo."'''
     scripts: -56-12-0
     campaign: -56
+    title: Planetary Ring
     start: -56-12-0
   }
   {
     id: 1091
     mission_id: "11255"
+    description: '''"You'll be alone forever. What kind of team leader has no teammates?"'''
     scripts: -56-13-A
     campaign: -56
+    title: Mare Crisium
     start: -56-13-A
   }
   {
     id: 1092
     mission_id: "11256"
+    description: '''"My name is Amaris."'''
     scripts: -56-13-B
     campaign: -56
+    title: Mare Tranquillitatis
     start: -56-13-B
   }
   {
     id: 1093
     mission_id: "11257"
+    description: '''"Dogtags are a tombstone for a special forces soldier after they die. Aliana knows what that means, and that goes double for Amaris."'''
     scripts: -56-14-0
     campaign: -56
+    title: Lunar Node
     start: -56-14-0
   }
   {
     id: 1094
     mission_id: "11258"
+    description: '''"...The night is silent once more."'''
     scripts: -56-16-0
     campaign: -56
+    title: Last Contact
     start: -56-16-0
   }
   {
     id: 1095
     mission_id: "11259"
+    description: '''"A new day will always dawn, and the sun will rise as always."'''
     scripts: -56-17-A
     campaign: -56
+    title: Outer Lagrange Point
     start: -56-17-A
   }
   {
     id: 1096
     mission_id: "11260"
+    description: '''"As always, the gentle moonlight illuminates her way forward."'''
     scripts: -56-17-B
     campaign: -56
+    title: Inner Lagrange Point
     start: -56-17-B
   }
   {

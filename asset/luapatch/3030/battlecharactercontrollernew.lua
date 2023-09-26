@@ -29,5 +29,12 @@ local AddEffectCollision = function(self)
 		self:AddEffectCollision()
 	end
 end
+local OnSwitch = function(self,sender,e)
+	if self.data.isSummon then
+		return
+	end
+	self:OnSwitch(sender,e)
+end
 util.hotfix_ex(CS.GF.Battle.BattleCharacterControllerNew,'Init',Init)
 util.hotfix_ex(CS.GF.Battle.BattleCharacterControllerNew,'AddEffectCollision',AddEffectCollision)
+util.hotfix_ex(CS.GF.Battle.BattleCharacterControllerNew,'OnSwitch',OnSwitch)

@@ -4423,7 +4423,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93411"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4436,7 +4436,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93412"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4449,7 +4449,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93420"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4462,7 +4462,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93431"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4475,7 +4475,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93432"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4488,7 +4488,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93440"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4501,7 +4501,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93451"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -4514,7 +4514,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     prize_id: "93452"
-    on_sale_days: "28"
+    on_sale_days: "756"
     classification_id: "4000"
   }
   {
@@ -32320,7 +32320,6 @@
     item_ids: 7-1,41-100
     gift: 8605-1
     gemprice: "2588"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: AK-12 Lucia Costume Package
     event_code: dailyGiftbag
@@ -32334,7 +32333,6 @@
     item_ids: 7-1,41-100
     gift: 8606-1
     gemprice: "2588"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: AN-94 Antje Costume Package
     event_code: dailyGiftbag
@@ -32348,7 +32346,6 @@
     item_ids: 7-1,41-100
     gift: 8607-1
     gemprice: "2588"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: AK-15 Erwin Costume Package
     event_code: dailyGiftbag
@@ -32362,7 +32359,6 @@
     item_ids: 7-1,41-100
     gift: 8608-1
     gemprice: "2588"
-    if_cheap: "1"
     quota: "2001"
     giftbag_name: RPK-16 Renate Costume Package
     event_code: dailyGiftbag
@@ -32379,6 +32375,116 @@
     giftbag_name: Coalition Units Supply Package
     event_code: dailyGiftbag
     icon: Bumdle_yuugo01
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21835"
+    type: "8"
+    mp: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21836"
+    type: "8"
+    ammo: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21837"
+    type: "8"
+    mre: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21838"
+    type: "8"
+    part: "3000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21839"
+    type: "8"
+    item_ids: 1-10,3-10
+    gemprice: "430"
+    original_price: "860"
+    quota: "2001"
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "21840"
+    type: "8"
+    item_ids: 7-1,41-50
+    gift: 5704-1
+    gemprice: "1888"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Mondragon M1908 Repairer of Destinies Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin07
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "21841"
+    type: "8"
+    gemprice: "118"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_autumn
+    daily_quota: "1"
+    discount: "1.00"
+    prize_id: "293"
+    classification_id: "3002"
+  }
+  {
+    id: "21842"
+    type: "8"
+    item_ids: 8-1,7-1,506-1000
+    gift: 100003-10
+    gemprice: "580"
+    quota: "2002"
+    giftbag_name: Oct Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
     discount: "1.00"
     classification_id: "3002"
   }

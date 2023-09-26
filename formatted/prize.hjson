@@ -1900,7 +1900,6 @@
     name: Daily Special Offer Package
     item_ids: 506-100
     coins: 1-600,2-300,3-150
-    icon: Bumdle_orange
   }
   {
     id: 294
@@ -11543,6 +11542,13 @@
     name: prize-10001893
     gift: 6607-1
     content: prize-20001893
+  }
+  {
+    id: 1896
+    name: prize-10001896
+    gem: 90
+    equip_ids: "339"
+    content: prize-20001896
   }
   {
     id: 1897
@@ -31727,6 +31733,765 @@
     id: 36579
     name: Bridge of Eternity - Mission Reward
     item_ids: 15-50
+  }
+  {
+    id: 36632
+    name: Absent - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036632
+  }
+  {
+    id: 36633
+    name: Wrestling Snakes I - Mission Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20036633
+  }
+  {
+    id: 36634
+    name: The Birth of Apate II - Mission Reward
+    core: 5
+    content: prize-20036634
+  }
+  {
+    id: 36635
+    name: Hemera Points to the Light II - Mission Reward
+    content: prize-20036635
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36636
+    name: Shoulders of a Griffin II - Mission Reward
+    coins: 1-100
+    content: prize-20036636
+  }
+  {
+    id: 36637
+    name: Ship of Theseus II - Mission Reward
+    coins: 2-100
+    content: prize-20036637
+  }
+  {
+    id: 36638
+    name: Ariadne's Clew II - Mission Reward
+    item_ids: 51-2
+    content: prize-20036638
+  }
+  {
+    id: 36639
+    name: Cretan Labyrinth II - Mission Reward
+    item_ids: 45-100
+    content: prize-20036639
+  }
+  {
+    id: 36640
+    name: Dreams on the Island of Dia II - Mission Reward
+    coins: 3-50
+    content: prize-20036640
+  }
+  {
+    id: 36641
+    name: Defying the Moerae II - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036641
+  }
+  {
+    id: 36642
+    name: Lachesis' Measure II - Mission Reward
+    coins: 3-100
+    content: prize-20036642
+  }
+  {
+    id: 36643
+    name: Clothos' Thread II - Mission Reward
+    content: prize-20036643
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36644
+    name: Atropos' Shears II - Mission Reward
+    item_ids: 51-2
+    content: prize-20036644
+  }
+  {
+    id: 36645
+    name: Nyx's Night III - Mission Reward
+    coins: 3-50
+    content: prize-20036645
+  }
+  {
+    id: 36646
+    name: Hypnos' Eyes II - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036646
+  }
+  {
+    id: 36647
+    name: Thanatos' Kiss II - Mission Reward
+    content: prize-20036647
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36648
+    name: Chaos' Abyss II - Mission Reward
+    item_ids: 51-2
+    content: prize-20036648
+  }
+  {
+    id: 36649
+    name: Wrestling Snakes I - EX - Mission Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20036649
+  }
+  {
+    id: 36650
+    name: The Birth of Apate II - EX - Mission Reward
+    gift: 200001-100
+    content: prize-20036650
+  }
+  {
+    id: 36651
+    name: Hemera Points to the Light II - EX - Mission Reward
+    item_ids: 45-50
+    content: prize-20036651
+  }
+  {
+    id: 36652
+    name: Shoulders of a Griffin II - EX - Mission Reward
+    item_ids: 51-2
+    content: prize-20036652
+  }
+  {
+    id: 36653
+    name: Ship of Theseus II - EX - Mission Reward
+    coins: 1-300
+    content: prize-20036653
+  }
+  {
+    id: 36654
+    name: Ariadne's Clew II - EX - Mission Reward
+    content: prize-20036654
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36655
+    name: Cretan Labyrinth II - EX - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036655
+  }
+  {
+    id: 36656
+    name: Dreams on the Island of Dia II - EX - Mission Reward
+    coins: 2-300
+    content: prize-20036656
+  }
+  {
+    id: 36657
+    name: Defying the Moerae II - EX - Mission Reward
+    item_ids: 51-2
+    content: prize-20036657
+  }
+  {
+    id: 36658
+    name: Lachesis' Measure II - EX - Mission Reward
+    content: prize-20036658
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 36659
+    name: Clothos' Thread II - EX - Mission Reward
+    coins: 3-300
+    content: prize-20036659
+  }
+  {
+    id: 36660
+    name: Atropos' Shears II - EX - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036660
+  }
+  {
+    id: 36661
+    name: Nyx's Night III - EX - Mission Reward
+    item_ids: 45-150
+    content: prize-20036661
+  }
+  {
+    id: 36662
+    name: Hypnos' Eyes II - EX - Mission Reward
+    core: 10
+    content: prize-20036662
+  }
+  {
+    id: 36663
+    name: Thanatos' Kiss II - EX - Mission Reward
+    item_ids: 46-200
+    content: prize-20036663
+  }
+  {
+    id: 36664
+    name: Chaos' Abyss II - EX - Mission Reward
+    item_ids: 45-100
+    content: prize-20036664
+  }
+  {
+    id: 36665
+    name: An Arrow in Flight II - Mission Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20036665
+  }
+  {
+    id: 36666
+    name: Torricelli's Trumpet II - Mission Reward
+    coins: 1-50
+    content: prize-20036666
+  }
+  {
+    id: 36667
+    name: Heraclitus' River II - Mission Reward
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    content: prize-20036667
+  }
+  {
+    id: 36668
+    name: The Prisoner's Dilemma II - Mission Reward
+    coins: 1-100
+    content: prize-20036668
+  }
+  {
+    id: 36669
+    name: Cratylus' River II - Mission Reward
+    coins: 2-100
+    content: prize-20036669
+  }
+  {
+    id: 36670
+    name: Achilles and the Tortoise II - Mission Reward
+    coins: 3-100
+    content: prize-20036670
+  }
+  {
+    id: 36671
+    name: Pandora's Box II - Mission Reward
+    item_ids: 45-150
+    content: prize-20036671
+  }
+  {
+    id: 36672
+    name: Brain in a Vat II - Mission Reward
+    item_ids: 15-100
+    content: prize-20036672
+  }
+  {
+    id: 36673
+    name: One-Sided Recollection - Mission Reward
+    core: 10
+    content: prize-20036673
+  }
+  {
+    id: 36676
+    name: The Real ∞ - Mission Reward
+    coins: 2-50
+    content: prize-20036676
+  }
+  {
+    id: 36677
+    name: The Real ∞ - EX - Mission Reward
+    coins: 3-50
+    content: prize-20036677
+  }
+  {
+    id: 36678
+    name: The Imaginary ∞ - Mission Reward
+    coins: 1-50
+    content: prize-20036678
+  }
+  {
+    id: 36679
+    name: The Imaginary ∞ - EX - Mission Reward
+    coins: 2-50
+    content: prize-20036679
+  }
+  {
+    id: 36680
+    name: The Symbolic ∞ - Mission Reward
+    coins: 3-50
+    content: prize-20036680
+  }
+  {
+    id: 36681
+    name: The Symbolic ∞ - EX - Mission Reward
+    coins: 1-50
+    content: prize-20036681
+  }
+  {
+    id: 36682
+    name: Gaze ∞ - Mission Reward
+    coins: 2-50
+    content: prize-20036682
+  }
+  {
+    id: 36683
+    name: Gaze ∞ - EX - Mission Reward
+    coins: 3-50
+    content: prize-20036683
+  }
+  {
+    id: 36685
+    name: The Grain of Millet II - Mission Reward
+    core: 5
+    content: prize-20036685
+  }
+  {
+    id: 36686
+    name: An Arrow in Flight I - Mission Reward
+    coins: 1-50
+    content: prize-20036686
+  }
+  {
+    id: 36687
+    name: Torricelli's Trumpet I - Mission Reward
+    item_ids: 506-50
+    content: prize-20036687
+  }
+  {
+    id: 36688
+    name: Torricelli's Trumpet III - Mission Reward
+    item_ids: 506-50
+    content: prize-20036688
+  }
+  {
+    id: 36689
+    name: Athena's Owl - Mission Reward
+    item_ids: 9-50
+    content: prize-20036689
+  }
+  {
+    id: 36690
+    name: Selene's Dream - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036690
+  }
+  {
+    id: 36691
+    name: Wrestling Snakes II - Mission Reward
+    item_ids: 9-20
+    content: prize-20036691
+  }
+  {
+    id: 36692
+    name: The Birth of Apate I - Mission Reward
+    item_ids: 9-20
+    content: prize-20036692
+  }
+  {
+    id: 36693
+    name: Hemera Points to the Light I - Mission Reward
+    item_ids: 44-100
+    content: prize-20036693
+  }
+  {
+    id: 36694
+    name: Hemera Points to the Light III - Mission Reward
+    item_ids: 44-50
+    content: prize-20036694
+  }
+  {
+    id: 36695
+    name: Shoulders of a Griffin I - Mission Reward
+    core: 5
+    content: prize-20036695
+  }
+  {
+    id: 36696
+    name: Shoulders of a Griffin III - Mission Reward
+    coins: 1-50
+    content: prize-20036696
+  }
+  {
+    id: 36697
+    name: Balls and Vase - Mission Reward
+    item_ids: 14-50
+    content: prize-20036697
+  }
+  {
+    id: 36698
+    name: Cretan Liar - Mission Reward
+    gift: 200001-100
+    content: prize-20036698
+  }
+  {
+    id: 36699
+    name: Heraclitus' River I - Mission Reward
+    item_ids: 14-50
+    content: prize-20036699
+  }
+  {
+    id: 36700
+    name: Heraclitus' River III - Mission Reward
+    item_ids: 9-50
+    content: prize-20036700
+  }
+  {
+    id: 36701
+    name: The Grain of Millet I - Mission Reward
+    item_ids: 506-100
+    content: prize-20036701
+  }
+  {
+    id: 36702
+    name: The Grain of Millet III - Mission Reward
+    core: 5
+    content: prize-20036702
+  }
+  {
+    id: 36703
+    name: The Prisoner's Dilemma I - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036703
+  }
+  {
+    id: 36704
+    name: The Prisoner's Dilemma III - Mission Reward
+    item_ids: 14-50
+    content: prize-20036704
+  }
+  {
+    id: 36705
+    name: Ship of Theseus I - Mission Reward
+    item_ids: 506-50
+    content: prize-20036705
+  }
+  {
+    id: 36706
+    name: Ship of Theseus III - Mission Reward
+    item_ids: 506-50
+    content: prize-20036706
+  }
+  {
+    id: 36707
+    name: Ariadne's Clew I - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036707
+  }
+  {
+    id: 36708
+    name: Ariadne's Clew III - Mission Reward
+    gift: 200001-50
+    content: prize-20036708
+  }
+  {
+    id: 36709
+    name: Cretan Labyrinth I - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036709
+  }
+  {
+    id: 36710
+    name: Cretan Labyrinth III - Mission Reward
+    item_ids: 506-100
+    content: prize-20036710
+  }
+  {
+    id: 36711
+    name: Dreams on the Island of Dia I - Mission Reward
+    item_ids: 45-50
+    content: prize-20036711
+  }
+  {
+    id: 36712
+    name: Dreams on the Island of Dia III - Mission Reward
+    item_ids: 44-100
+    content: prize-20036712
+  }
+  {
+    id: 36713
+    name: Dreams on the Island of Dia IV - Mission Reward
+    item_ids: 14-50
+    content: prize-20036713
+  }
+  {
+    id: 36714
+    name: Cratylus' River I - Mission Reward
+    item_ids: 45-50
+    content: prize-20036714
+  }
+  {
+    id: 36715
+    name: Cratylus' River III - Mission Reward
+    coins: 3-50
+    content: prize-20036715
+  }
+  {
+    id: 36716
+    name: Achilles and the Tortoise I - Mission Reward
+    item_ids: 14-50
+    content: prize-20036716
+  }
+  {
+    id: 36717
+    name: Achilles and the Tortoise III - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036717
+  }
+  {
+    id: 36718
+    name: Zeno's Circle of Knowledge - Mission Reward
+    item_ids: 45-50
+    content: prize-20036718
+  }
+  {
+    id: 36719
+    name: Defying the Moerae I - Mission Reward
+    item_ids: 9-50
+    content: prize-20036719
+  }
+  {
+    id: 36720
+    name: Defying the Moerae III - Mission Reward
+    coins: 3-50
+    content: prize-20036720
+  }
+  {
+    id: 36721
+    name: Clothos' Thread I - Mission Reward
+    item_ids: 45-50
+    content: prize-20036721
+  }
+  {
+    id: 36722
+    name: Clothos' Thread III - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036722
+  }
+  {
+    id: 36723
+    name: Lachesis' Measure I - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036723
+  }
+  {
+    id: 36724
+    name: Lachesis' Measure III - Mission Reward
+    item_ids: 14-50
+    content: prize-20036724
+  }
+  {
+    id: 36725
+    name: Atropos' Shears I - Mission Reward
+    item_ids: 46-50
+    content: prize-20036725
+  }
+  {
+    id: 36726
+    name: Atropos' Shears III - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    content: prize-20036726
+  }
+  {
+    id: 36727
+    name: Schrödinger's Cat - Mission Reward
+    item_ids: 15-50
+    content: prize-20036727
+  }
+  {
+    id: 36728
+    name: Pandora's Box I - Mission Reward
+    core: 5
+    content: prize-20036728
+  }
+  {
+    id: 36729
+    name: Pandora's Box III - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036729
+  }
+  {
+    id: 36730
+    name: Brain in a Vat I - Mission Reward
+    coins: 2-50
+    content: prize-20036730
+  }
+  {
+    id: 36731
+    name: Brain in a Vat III - Mission Reward
+    item_ids: 15-50
+    content: prize-20036731
+  }
+  {
+    id: 36732
+    name: Möbius Strip - Mission Reward
+    item_ids: 45-50
+    content: prize-20036732
+  }
+  {
+    id: 36733
+    name: Nyx's Night I - Mission Reward
+    item_ids: 45-50
+    content: prize-20036733
+  }
+  {
+    id: 36734
+    name: Nyx's Night II - Mission Reward
+    core: 5
+    content: prize-20036734
+  }
+  {
+    id: 36735
+    name: Nyx's Night IV - Mission Reward
+    item_ids: 44-100
+    content: prize-20036735
+  }
+  {
+    id: 36736
+    name: Hypnos' Eyes I - Mission Reward
+    item_ids: 46-100
+    content: prize-20036736
+  }
+  {
+    id: 36737
+    name: Hypnos' Eyes III - Mission Reward
+    item_ids: 45-50
+    content: prize-20036737
+  }
+  {
+    id: 36738
+    name: Thanatos' Kiss I - Mission Reward
+    coins: 2-50
+    content: prize-20036738
+  }
+  {
+    id: 36739
+    name: Thanatos' Kiss III - Mission Reward
+    item_ids: 15-50
+    content: prize-20036739
+  }
+  {
+    id: 36740
+    name: Chaos' Abyss I - Mission Reward
+    coins: 3-50
+    content: prize-20036740
+  }
+  {
+    id: 36741
+    name: Chaos' Abyss III - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036741
+  }
+  {
+    id: 36742
+    name: The Way of What is to Come - Mission Reward
+    gift: 200001-50
+    content: prize-20036742
+  }
+  {
+    id: 36743
+    name: Survival Guide - Mission Reward
+    item_ids: 44-50
+    content: prize-20036743
+  }
+  {
+    id: 36744
+    name: Lurking - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036744
+  }
+  {
+    id: 36745
+    name: Reflection - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20036745
+  }
+  {
+    id: 36746
+    name: Cracks - Mission Reward
+    item_ids: 44-50
+    content: prize-20036746
+  }
+  {
+    id: 36747
+    name: Night Festival - Mission Reward
+    coins: 1-50
+    content: prize-20036747
+  }
+  {
+    id: 36748
+    name: Flash - Mission Reward
+    item_ids: 45-50
+    content: prize-20036748
+  }
+  {
+    id: 36749
+    name: The Indecipherable Heart - Mission Reward
+    item_ids: 45-50
+    content: prize-20036749
+  }
+  {
+    id: 36750
+    name: Remembrance - Mission Reward
+    coins: 2-50
+    content: prize-20036750
   }
   {
     id: 36950
