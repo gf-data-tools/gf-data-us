@@ -11810,6 +11810,24 @@
     rank: 1
   }
   {
+    id: 2331
+    type: 5
+    arg: "1"
+    code: card_BattlePass_Saiga12
+    item_name: ID: Crimson Boundary
+    introduction: ID: Crimson Boundary
+    rank: 1
+  }
+  {
+    id: 2332
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_Saiga12
+    item_name: Cleansing Waves in Shallow Pool
+    introduction: Cleansing Waves in Shallow Pool
+    rank: 1
+  }
+  {
     id: 2345
     type: 5
     arg: "1"
@@ -14980,6 +14998,26 @@
     detail_introduction: item-30140018
   }
   {
+    id: 140019
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140019
+    introduction: item-20140019
+    rank: 1
+    detail_introduction: item-30140019
+  }
+  {
+    id: 140020
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140020
+    introduction: item-20140020
+    rank: 1
+    detail_introduction: item-30140020
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -15158,6 +15196,15 @@
     code: profileFrame_BattlePass_QBZ191
     item_name: Icon Frame: Chilling with Summer
     introduction: Icon Frame: Chilling with Summer
+    rank: 1
+  }
+  {
+    id: 200026
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_Saiga12
+    item_name: Icon Frame - Bubbles and Secrets
+    introduction: Icon Frame - Bubbles and Secrets
     rank: 1
   }
   {
@@ -15400,6 +15447,15 @@
     code: Bumdle_20215year
     item_name: 5th Anniversary Special Supply Box
     introduction: 5th Anniversary Special Supply Box
+    rank: 1
+  }
+  {
+    id: 900056
+    type: 4
+    arg: "900056"
+    code: Platinum_medal
+    item_name: Platinum Medal
+    introduction: Platinum Medal
     rank: 1
   }
   {
@@ -16035,6 +16091,45 @@
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
     rank: 1
     sort: -1
-    detail_introduction: item-31500077
+  }
+  {
+    id: 1500081
+    type: 15
+    arg: "1500081"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500082
+    type: 15
+    arg: "1500082"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Accessory-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500083
+    type: 15
+    arg: "1500083"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500084
+    type: 15
+    arg: "1500084"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
   }
 ]

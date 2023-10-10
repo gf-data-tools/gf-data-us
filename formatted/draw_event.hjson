@@ -4441,6 +4441,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 10:947
     clear_cycle: 1
   }
   {
@@ -4448,6 +4449,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 10:948
     clear_cycle: 1
   }
   {
@@ -4455,6 +4457,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 10:959
     clear_cycle: 1
   }
   {
@@ -4462,6 +4465,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 8:949
     clear_cycle: 1
   }
   {
@@ -4469,6 +4473,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 8:950
     clear_cycle: 1
   }
   {
@@ -4476,6 +4481,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 8:960
     clear_cycle: 1
   }
   {
@@ -4483,6 +4489,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 6:951
     clear_cycle: 1
   }
   {
@@ -4490,6 +4497,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 6:952
     clear_cycle: 1
   }
   {
@@ -4497,6 +4505,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 6:953
     clear_cycle: 1
   }
   {
@@ -4504,6 +4513,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 6:954
     clear_cycle: 1
   }
   {
@@ -4511,6 +4521,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 6:961
     clear_cycle: 1
   }
   {
@@ -4518,6 +4529,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 5:955
     clear_cycle: 1
   }
   {
@@ -4525,6 +4537,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 5:956
     clear_cycle: 1
   }
   {
@@ -4532,6 +4545,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 5:962
     clear_cycle: 1
   }
   {
@@ -4539,6 +4553,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 4:957
     clear_cycle: 1
   }
   {
@@ -4546,6 +4561,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 4:958
     clear_cycle: 1
   }
   {
@@ -4553,6 +4569,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 4:963
     clear_cycle: 1
   }
   {
@@ -4560,6 +4577,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 1000:964
     clear_cycle: 1
   }
   {
@@ -4567,6 +4585,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 1000:965
     clear_cycle: 1
   }
   {
@@ -4574,6 +4593,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 1000:966
     clear_cycle: 1
   }
   {
@@ -4581,6 +4601,7 @@
     type: 1
     start_time: 2023-08-01 00:00:00
     end_time: 2023-08-28 23:59:59
+    drop_ids: 1000:967
     clear_cycle: 1
   }
   {
@@ -5785,5 +5806,83 @@
     end_time: 2023-07-31 23:59:59
     drop_ids: 6:20102,7:908
     clear_cycle: 1
+  }
+  {
+    id: 6096
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20103,200:20104,250:20105,300:20106,1000:20107,1001:20103
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220296:1001
+    mission_show_prize: 220296
+  }
+  {
+    id: 6097
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20108,200:20109,250:20110,300:20111,1000:20112,1001:20108
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220297:1001
+    mission_show_prize: 220297
+  }
+  {
+    id: 6098
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20113,200:20114,250:20115,300:20116,1000:20117,1001:20113
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220298:1001
+    mission_show_prize: 220298
+  }
+  {
+    id: 6099
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20118,200:20119,250:20120,300:20121,1000:20122,1001:20118
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220299:1001
+    mission_show_prize: 220299
+  }
+  {
+    id: 6100
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20123,200:20124,250:20125,300:20126,1000:20127,1001:20123
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220300:1001
+    mission_show_prize: 220300
+  }
+  {
+    id: 6101
+    type: 1
+    start_time: 2023-10-10 00:00:00
+    end_time: 2023-10-23 23:59:59
+    drop_ids: 150:20128,200:20129,250:20130,300:20131,1000:20132,1001:20128
+    title_res: draw_title_170407.png
+    amount_coordinate: "-666,-126"
+    bg_res: draw_content_170407.jpg
+    is_show: 2
+    prize_skip: 220301:1001
+    mission_show_prize: 220301
   }
 ]
