@@ -5916,7 +5916,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-150
+    itemprice: 100111-150
     classification_id: "1004"
   }
   {
@@ -5929,7 +5929,7 @@
     discount: "1.00"
     prize_id: "671"
     pay_type: "1"
-    itemprice: 100160-100
+    itemprice: 100111-100
     classification_id: "1004"
   }
   {
@@ -5942,7 +5942,7 @@
     discount: "1.00"
     prize_id: "672"
     pay_type: "1"
-    itemprice: 100160-120
+    itemprice: 100111-120
     classification_id: "1004"
   }
   {
@@ -5955,7 +5955,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-50
+    itemprice: 100111-50
     classification_id: "1004"
   }
   {
@@ -5968,7 +5968,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-30
+    itemprice: 100111-30
     classification_id: "1004"
   }
   {
@@ -5981,7 +5981,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-30
+    itemprice: 100111-30
     classification_id: "1004"
   }
   {
@@ -5994,7 +5994,7 @@
     discount: "1.00"
     prize_id: "673"
     pay_type: "1"
-    itemprice: 100160-80
+    itemprice: 100111-80
     classification_id: "1004"
   }
   {
@@ -6007,7 +6007,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-3
+    itemprice: 100111-3
     classification_id: "1004"
   }
   {
@@ -6020,7 +6020,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-2
+    itemprice: 100111-2
     classification_id: "1004"
   }
   {
@@ -6033,7 +6033,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-2
+    itemprice: 100111-2
     classification_id: "1004"
   }
   {
@@ -6046,7 +6046,7 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100160-2
+    itemprice: 100111-2
     classification_id: "1004"
   }
   {
@@ -32678,6 +32678,97 @@
     icon: Bumdle_halloween
     discount: "1.00"
     classification_id: "3003"
+  }
+  {
+    id: "21858"
+    type: "8"
+    sort: "11"
+    quota: "2001"
+    giftbag_name: T-Doll: M327
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "220304"
+    pay_type: "1"
+    itemprice: 100113-500
+    classification_id: "1005"
+  }
+  {
+    id: "21859"
+    type: "8"
+    sort: "12"
+    quota: "2001"
+    giftbag_name: T-Doll: KH2002
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1287"
+    pay_type: "1"
+    itemprice: 100113-500
+    classification_id: "1005"
+  }
+  {
+    id: "21860"
+    type: "8"
+    sort: "13"
+    quota: "2001"
+    giftbag_name: T-Doll: PPQ
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1399"
+    pay_type: "1"
+    itemprice: 100112-400
+    classification_id: "1005"
+  }
+  {
+    id: "21861"
+    type: "8"
+    sort: "14"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100113-5
+    classification_id: "1005"
+  }
+  {
+    id: "21862"
+    type: "8"
+    sort: "15"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100112-5
+    classification_id: "1005"
+  }
+  {
+    id: "21863"
+    type: "8"
+    gemprice: "118"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_autumn
+    daily_quota: "1"
+    discount: "1.00"
+    prize_id: "963"
+    classification_id: "3002"
+  }
+  {
+    id: "21864"
+    type: "8"
+    item_ids: 8-1,7-1,506-1000
+    gift: 100003-10
+    gemprice: "580"
+    quota: "2002"
+    giftbag_name: Nov Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: "1.00"
+    classification_id: "3002"
   }
   {
     id: "99001"
