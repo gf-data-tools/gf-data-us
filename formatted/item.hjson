@@ -361,7 +361,7 @@
   }
   {
     id: 52
-    type: 5
+    type: 1
     arg: "1"
     code: 签到枪容错
     item_name: Exclusive Equipment: Secret Gear
@@ -11363,6 +11363,33 @@
     rank: 1
   }
   {
+    id: 2183
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season8_1
+    item_name: Armed Vanguard - Code 6: Vortex
+    introduction: Armed Vanguard – Code 6: Vortex
+    rank: 1
+  }
+  {
+    id: 2184
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season8_2
+    item_name: Hardened Warrior - Code 6: Vortex
+    introduction: Hardened Warrior – Code 6: Vortex
+    rank: 1
+  }
+  {
+    id: 2185
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season8_3
+    item_name: Fearless Ambition - Code 6: Vortex
+    introduction: Fearless Ambition – Code 6: Vortex
+    rank: 1
+  }
+  {
     id: 2186
     type: 5
     arg: "1"
@@ -11758,6 +11785,13 @@
     rank: 1
   }
   {
+    id: 2269
+    type: 5
+    arg: "1"
+    code: profilePic_ChessBonus_M1897
+    rank: 1
+  }
+  {
     id: 2277
     type: 5
     arg: "1"
@@ -11897,6 +11931,24 @@
     code: profilePic_BattlePass_Saiga12
     item_name: Cleansing Waves in Shallow Pool
     introduction: Cleansing Waves in Shallow Pool
+    rank: 1
+  }
+  {
+    id: 2343
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1895
+    item_name: ID: Secrets of the Shipwreck
+    introduction: ID: Secrets of the Shipwreck
+    rank: 1
+  }
+  {
+    id: 2344
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1895
+    item_name: Trumpeter of the Azure Waves
+    introduction: Trumpeter of the Azure Waves
     rank: 1
   }
   {
@@ -12881,6 +12933,34 @@
     code: pass_accumulation
     item_name: Frontline Protocol Advanced Card
     introduction: '''"Didn't you say using it will give me more and better supplies? Where are they?!" "They're all right there by your feet, my dear Commander."'''
+    rank: 1
+  }
+  {
+    id: 10701
+    type: 18
+    arg: "10701"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10702
+    type: 17
+    arg: "10702"
+    code: daily_ticket
+    item_name: Exploration Permit
+    introduction: A permit that allows a single exploration of the Gray Zone. Showing this permit will exempt you from expending additional resources.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 10703
+    type: 18
+    arg: "10703"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
     rank: 1
   }
   {
@@ -14757,6 +14837,15 @@
     rank: 1
   }
   {
+    id: 121002
+    type: 1
+    arg: "1"
+    code: FlightChessMap5_small
+    item_name: Fantasyland
+    introduction: Fortified Chessboard Background - Fantasyland
+    rank: 1
+  }
+  {
     id: 130001
     type: 12
     arg: "130001"
@@ -15118,6 +15207,26 @@
     detail_introduction: item-30140020
   }
   {
+    id: 140021
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140021
+    introduction: item-20140021
+    rank: 1
+    detail_introduction: item-30140021
+  }
+  {
+    id: 140022
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140022
+    introduction: item-20140022
+    rank: 1
+    detail_introduction: item-30140022
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -15305,6 +15414,15 @@
     code: profileFrame_BattlePass_Saiga12
     item_name: Icon Frame - Bubbles and Secrets
     introduction: Icon Frame - Bubbles and Secrets
+    rank: 1
+  }
+  {
+    id: 200028
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1895
+    item_name: Icon Frame - Coastal Trails
+    introduction: Icon Frame - Coastal Trails
     rank: 1
   }
   {
@@ -15566,6 +15684,7 @@
     item_name: High-Speed Beauties
     introduction: Firepower Command adds an extra 10% to both self and PzB39.
     rank: 1
+    item_access: "26"
   }
   {
     id: 1100002
@@ -15575,6 +15694,7 @@
     item_name: High-Speed Beauties
     introduction: When in the same echelon as Grizzly, aiming time is reduced to 1 second and gain 2 stacks of charge per second.
     rank: 1
+    item_access: "26"
   }
   {
     id: 1100003
@@ -15584,6 +15704,7 @@
     item_name: Galactic Oath
     introduction: When in the same echelon as FI M82, normal attacks deal an extra 10% damage to enemies directly in front of self.
     rank: 1
+    item_access: "26"
   }
   {
     id: 1100004
@@ -15593,6 +15714,7 @@
     item_name: Galactic Oath
     introduction: The area in front of self is considered to be in front of AK-Alfa as well.
     rank: 1
+    item_access: "26"
   }
   {
     id: 1100005
@@ -15602,6 +15724,7 @@
     item_name: Bon appétit !
     introduction: '''"Perseverance is the most important talent of all." When Springfield and Gr G36 are on the same echelon, Gr G36 will serve her teammates dessert. It does great things for team morale and all allies will benefit from her Damage Focus skill (effect maxed at 15%) - better watch your weight gain.'''
     rank: 1
+    item_access: "27"
   }
   {
     id: 1100006
@@ -15611,6 +15734,7 @@
     item_name: Bon appétit !
     introduction: '''"I'm quite confident when it comes to making coffee blends!" When Springfield and Gr G36 are on the same echelon, Springfield will serve her teammates coffee. It does great things for team morale. With every stack, rate of fire of all allies increases by 5% (lasting for 5s, capped at 5 stacks) – better watch your weight gain.'''
     rank: 1
+    item_access: "27"
   }
   {
     id: 1100007
@@ -15620,6 +15744,7 @@
     item_name: Corona Fusion
     introduction: When MPK and MPL are in adjacent squares, they no longer inflict negative effects on allies. When MPK and MPL are in adjacent squares to the left and right of each other, upon activating their skills, their area fo effect increases to 2 squares.
     rank: 1
+    item_access: "28"
   }
   {
     id: 1100008
@@ -15629,6 +15754,7 @@
     item_name: Corona Fusion
     introduction: When MPK and MPL are in adjacent squares, they no longer inflict negative effects on allies. When MPK and MPL are in adjacent squares to the left and right of each other, upon activating their skills, their area fo effect increases to 2 squares.
     rank: 1
+    item_access: "29"
   }
   {
     id: 1100009
@@ -15771,6 +15897,26 @@
     sort: -1
   }
   {
+    id: 1500021
+    type: 15
+    arg: "1500021"
+    code: Bumdle_sennku
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Acquired from Veteran Callback. Use this Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500022
+    type: 15
+    arg: "1500022"
+    code: package_choose
+    item_name: Five-Star Equipment Selection Indicator
+    introduction: Acquired from Veteran Callback. Open it to obtain a piece of 5-star equipment of your choice within the given parameters.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1500023
     type: 15
     arg: "1500023"
@@ -15785,66 +15931,84 @@
     type: 15
     arg: "1500024"
     code: Bumdle_hg
-    item_name: item-11500024
-    introduction: item-21500024
+    item_name: 4-Star HG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star HG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500024
   }
   {
     id: 1500025
     type: 15
     arg: "1500025"
     code: Bumdle_smg
-    item_name: item-11500025
-    introduction: item-21500025
+    item_name: 4-Star SMG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star SMG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500025
   }
   {
     id: 1500026
     type: 15
     arg: "1500026"
     code: Bumdle_rf
-    item_name: item-11500026
-    introduction: item-21500026
+    item_name: 4-Star RF T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star RF T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500026
   }
   {
     id: 1500027
     type: 15
     arg: "1500027"
     code: Bumdle_ar
-    item_name: item-11500027
-    introduction: item-21500027
+    item_name: 4-Star AR T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star AR T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500027
   }
   {
     id: 1500028
     type: 15
     arg: "1500028"
     code: Bumdle_mg
-    item_name: item-11500028
-    introduction: item-21500028
+    item_name: 4-Star MG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star MG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500028
   }
   {
     id: 1500029
     type: 15
     arg: "1500029"
     code: Bumdle_sg
-    item_name: item-11500029
-    introduction: item-21500029
+    item_name: 4-Star SG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 4-star SG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500029
   }
   {
     id: 1500030
@@ -16143,6 +16307,46 @@
     sort: -1
   }
   {
+    id: 1500059
+    type: 15
+    arg: "1500059"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Veteran Callback. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500060
+    type: 15
+    arg: "1500060"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration Season 1. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500061
+    type: 15
+    arg: "1500061"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration Season 1. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's 4-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500062
+    type: 15
+    arg: "1500062"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration Season 1. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1500064
     type: 15
     arg: "1500059"
@@ -16231,5 +16435,72 @@
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
     rank: 1
     sort: -1
+  }
+  {
+    id: 1500091
+    type: 15
+    arg: "1500091"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500092
+    type: 15
+    arg: "1500092"
+    code: package_choose
+    item_name: Magazine Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Magazine-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500093
+    type: 15
+    arg: "1500093"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500094
+    type: 15
+    arg: "1500094"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1600001
+    type: 1
+    arg: "1600001"
+    code: anchor_contract
+    item_name: Returning Commander's Special Anchored Production
+    introduction: Unlock the returning Commander's one-off special Anchored Production.
+    rank: 1
+  }
+  {
+    id: 1600002
+    type: 1
+    arg: "1600002"
+    code: ReturnPlayer_activity
+    item_name: Callback Participation Level
+    introduction: Proof of participation in the Callback event. The more active you are, the more you possess.
+    rank: 1
+  }
+  {
+    id: 1600050
+    type: 1
+    arg: "1600050"
+    code: lucky_ticket
+    item_name: Lucky Letter
+    introduction: Put a Lucky Letter into the Wish-Making Letter Box and you'll have a chance of winning the corresponding rewards!
+    rank: 1
   }
 ]

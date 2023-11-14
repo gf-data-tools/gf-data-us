@@ -1,0 +1,200 @@
+[
+  {
+    id: 1
+    type: gun_level_up_count
+    count: 10
+    title: T-Doll Level-Up
+    describe: Level up a T-Doll 10 times.
+    prize_id: 30011
+    activity_bonus: 20
+  }
+  {
+    id: 2
+    type: develop_gun
+    count: 10
+    title: T-Doll Production
+    describe: Perform 10 T-Doll Productions.
+    prize_id: 30012
+    activity_bonus: 20
+  }
+  {
+    id: 3
+    type: eat_gun
+    count: 10
+    title: T-Doll Enhancement
+    describe: Perform 10 T-Doll Enhancements.
+    prize_id: 30013
+    activity_bonus: 20
+  }
+  {
+    id: 4
+    type: s_win
+    count: 15
+    title: Combat Mission
+    describe: Complete 15 battles with S rank.
+    prize_id: 30014
+    activity_bonus: 20
+  }
+  {
+    id: 5
+    type: mission
+    count: 10
+    title: Combat Mission
+    describe: Complete any stage 10 times.
+    prize_id: 30015
+    activity_bonus: 20
+  }
+  {
+    id: 6
+    type: upgrade
+    count: 3
+    title: Skill Enhancement
+    describe: Complete Skill Training 3 times.
+    prize_id: 30016
+    activity_bonus: 20
+  }
+  {
+    id: 7
+    type: heart_collect
+    count: 20
+    title: T-Doll Interaction
+    describe: Collect 20 hearts.
+    prize_id: 30017
+    activity_bonus: 20
+  }
+  {
+    id: 8
+    type: consume_build_coin
+    count: 100
+    title: Battery Consumption
+    describe: Consume 100 Batteries in total.
+    prize_id: 30018
+    activity_bonus: 20
+  }
+  {
+    id: 9
+    type: adopt_pet
+    count: 1
+    title: Pet Adoption
+    describe: Adopt any pet.
+    prize_id: 30019
+    activity_bonus: 20
+  }
+  {
+    id: 10
+    type: adjust_equip
+    count: 10
+    title: Calibration
+    describe: Perform 10 Equipment or Fairy calibrations.
+    function_control_id: 6
+    prize_id: 30020
+    activity_bonus: 20
+  }
+  {
+    id: 11
+    type: coin_mission
+    count: 10
+    title: Combat Simulation
+    describe: Complete 10 Combat Simulations (Coalition Drills do not count).
+    prize_id: 30021
+    activity_bonus: 20
+  }
+  {
+    id: 12
+    type: develop_equip
+    count: 10
+    title: Armament Expansion
+    describe: Perform 10 Equipment Productions.
+    function_control_id: 2
+    prize_id: 30022
+    activity_bonus: 20
+  }
+  {
+    id: 13
+    type: sangvis_exercise_analysis
+    count: 5
+    title: Decoding Practice
+    describe: Complete 5 Decoding Practices.
+    function_control_id: 21
+    prize_id: 30023
+    activity_bonus: 20
+  }
+  {
+    id: 14
+    type: sangvis_exercise
+    count: 10
+    title: Combat Simulation
+    describe: Complete 10 Coalition Drills.
+    function_control_id: 21
+    prize_id: 30024
+    activity_bonus: 20
+  }
+  {
+    id: 15
+    type: sangvis_daily_retrieval
+    count: 8
+    title: Assimilation Protocol
+    describe: Perform 8 Capture Operations.
+    function_control_id: 21
+    prize_id: 30025
+    activity_bonus: 20
+  }
+  {
+    id: 16
+    type: squad_eat_chip_num
+    count: 10
+    title: Chip Enhancement
+    describe: Use up 10 Chips in Chip Enhancement.
+    function_control_id: 15
+    prize_id: 30026
+    activity_bonus: 20
+  }
+  {
+    id: 17
+    type: complete_squad_daily
+    count: 3
+    title: Intel Collection
+    describe: Complete 3 Intel Missions.
+    function_control_id: 15
+    prize_id: 30027
+    activity_bonus: 20
+  }
+  {
+    id: 18
+    type: squad_data_analyse
+    count: 10
+    title: Intel Analysis
+    describe: Perform Intel Analysis 10 times.
+    function_control_id: 15
+    prize_id: 30028
+    activity_bonus: 20
+  }
+  {
+    id: 19
+    type: consume_furniture_coin
+    count: 50
+    title: Dorm Procurement
+    describe: Spend 50 Tokens.
+    prize_id: 30029
+    activity_bonus: 30
+  }
+  {
+    id: 20
+    type: operation
+    count: 20
+    title: Support Dispatch
+    describe: Complete 20 Logistics Missions.
+    prize_id: 30030
+    activity_bonus: 30
+  }
+  {
+    id: 21
+    type: explore
+    count: 5
+    title: Zone Exploration
+    describe: Perform 5 Explorations at the Forward Basecamp.
+    function_control_id: 17
+    prize_id: 30031
+    activity_bonus: 30
+  }
+]

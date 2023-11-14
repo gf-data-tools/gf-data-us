@@ -208,6 +208,17 @@
     id: 24
     force_id: 2
     ai_type: 106
+    name: Lock On
+    description: Move towards the designated NPC following the shortest viable route.
+    pic: ai_guard
+    color: ffffff
+  }
+  {
+    id: 25
+    force_id: 3
+    ai_type: 106
+    name: Lock On
+    description: Move towards the designated NPC following the shortest viable route.
     pic: ai_guard
     color: ffffff
   }

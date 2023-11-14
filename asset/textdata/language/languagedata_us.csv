@@ -16,6 +16,7 @@ NUM,14,14,,0
 NUM,15,15,,0
 NUM,16,Skill CD ,,0
 NUM,17,Lv.,,0
+NUM,18,two,,0
 COMMON,1000,Gifts,,0
 COMMON,1001,Costume,,0
 COMMON,1002,EXP,,0
@@ -27,13 +28,13 @@ COMMON,1007,OK,,0
 COMMON,1008,Cancel,,0
 COMMON,1009,Back,,0
 COMMON,1010,CANCEL,,0
-COMMON,1011,BACK,,0
+COMMON,1011,BACK,,1
 COMMON,1012,Filter By,,0
-COMMON,1013,ONLYSHOW,,0
+COMMON,1013,ONLYSHOW,,1
 COMMON,1014,Show All,,0
 COMMON,1015,SHOWALL,,0
 COMMON,1016,Sort By,,0
-COMMON,1017,OrderBy,,0
+COMMON,1017,OrderBy,,1
 COMMON,1018,Return to Base,,0
 COMMON,1019,RETURNTOBASE,,0
 COMMON,1020,Handgun,,0
@@ -56,38 +57,38 @@ COMMON,1036,Evasion,,0
 COMMON,1037,Armor,,0
 COMMON,1038,Crit Rate,,0
 COMMON,1039,Armor Penetration,,0
-COMMON,1040,Dummy Link,,0
+COMMON,1040,Dummy Link,,1
 COMMON,1041,Core,,0
 COMMON,1042,Dummy Core,,0
-COMMON,1043,DUMMYCORE,,0
+COMMON,1043,DUMMYCORE,,1
 COMMON,1044,Gems,,0
 COMMON,1045,Contract,,0
-COMMON,1046,T-Doll Contract,,0
+COMMON,1046,T-Doll Contract,,1
 COMMON,1047,Quick Production,,0
 COMMON,1048,Equipment Contract,,0
 COMMON,1049,Quick Training,,0
 COMMON,1050,Manpower,,0
-COMMON,1051,MANPOWER,,0
+COMMON,1051,MANPOWER,,1
 COMMON,1052,Ammo,,0
-COMMON,1053,AMMUNITION,,0
+COMMON,1053,AMMUNITION,,1
 COMMON,1054,Ration,,0
-COMMON,1055,RATION,,0
+COMMON,1055,RATION,,1
 COMMON,1056,Parts,,0
-COMMON,1057,PARTS,,0
+COMMON,1057,PARTS,,1
 COMMON,1058,STANDBY,,0
-COMMON,1059,STANDINGBY,,0
+COMMON,1059,STANDINGBY,,1
 COMMON,1060,Locked,,0
-COMMON,1061,Locked,,0
+COMMON,1061,Locked,,1
 COMMON,1062,Night Battle,,0
 COMMON,1063,Day Battle,,0
 COMMON,1064,Share,,0
-COMMON,1065,Delete Cache,,0
+COMMON,1065,Delete Cache,,1
 COMMON,1066,Unlock after,,0
 COMMON,1067,Unlock,,0
 COMMON,1068,LV,,0
 COMMON,1069,Dorm Furniture,,0
 COMMON,1070,Costume,,0
-COMMON,1071,Combat Sim Energy,,0
+COMMON,1071,Combat Sim Energy,,1
 COMMON,1072,Damage,,0
 COMMON,1073,ROF,,0
 COMMON,1074,Accuracy,,0
@@ -133,41 +134,41 @@ COMMON,1113, SMG,,0
 COMMON,1114, RF,,0
 COMMON,1115, AR,,0
 COMMON,1116, MG,,0
-COMMON,1117,at,,0
+COMMON,1117,at,,1
 COMMON,1118,piece,,0
 COMMON,1119,Left ,,0
 COMMON,1120,M,,0
 COMMON,1121,H,,0
 COMMON,1122,D,,0
-COMMON,1123,Remaining,,0
+COMMON,1123,Remaining,,1
 COMMON,1124,Time left,,0
 COMMON,1125,Unlimited,,0
 COMMON,1126,Clear,,0
 COMMON,1127,Chapter,,0
 COMMON,1128,Section,,0
 COMMON,1129,Unlock,,0
-COMMON,1130,Server,,0
+COMMON,1130,Server,,1
 COMMON,1131,Repair Complete,,0
-COMMON,1132,Commander EXP ,,0
-COMMON,1133,Extra Reward,,0
-COMMON,1134,Result,,0
+COMMON,1132,Commander EXP ,,1
+COMMON,1133,Extra Reward,,1
+COMMON,1134,Result,,1
 COMMON,1135,Obtained ,,0
-COMMON,1136,Withdraw,,0
-COMMON,1137,Calling reinforcements,,0
+COMMON,1136,Withdraw,,1
+COMMON,1137,Calling reinforcements,,1
 COMMON,1138,Operating,,0
 COMMON,1139,In Training,,0
-COMMON,1140,Not Editable,,0
+COMMON,1140,Not Editable,,1
 COMMON,1141,All,,0
 COMMON,1142,In Combat,,0
-COMMON,1143,In Logistics ,,0
+COMMON,1143,In Logistics ,,1
 COMMON,1144,Repairing,,0
-COMMON,1145,In Formation,,0
-COMMON,1146,In Logistics ,,0
-COMMON,1147,Critically Damaged,,0
+COMMON,1145,In Formation,,1
+COMMON,1146,In Logistics ,,1
+COMMON,1147,Heavily Damaged,,1
 COMMON,1148,Captain,,0
 COMMON,1149,Remove from Echelon,,0
 COMMON,1150,Confirm,,0
-COMMON,1151,Only show locked T-Doll,,0
+COMMON,1151,Only show locked T-Doll,,1
 COMMON,1152,Reward,,0
 COMMON,1153,Formation,,0
 COMMON,1154,Energy,,0
@@ -176,17 +177,17 @@ COMMON,1156,To Shop,,0
 COMMON,1157,Receive,,0
 COMMON,1158,Mission Report,,0
 COMMON,1159,Obtainable Rewards,,0
-COMMON,1160,Not Editable,,0
-COMMON,1161,Show,,0
+COMMON,1160,Not Editable,,1
+COMMON,1161,Show,,1
 COMMON,1162,Next,,0
 COMMON,1163,Agree,,0
 COMMON,1164,Oath,,0
 COMMON,1165,Touch screen to start,,0
 COMMON,1166,Disengage,,0
 COMMON,1167,Reached Wave,,0
-COMMON,1168,Claim reward and quit,,0
+COMMON,1168,Claim reward and quit,,1
 COMMON,1169,Attempt,,0
-COMMON,1170,In Combat,,0
+COMMON,1170,In Combat,,1
 COMMON,1171,Combat,,0
 COMMON,1172,Support,,0
 COMMON,1173,Adjutant,,0
@@ -194,7 +195,7 @@ COMMON,1174,Basic Training Data,,0
 COMMON,1175,Intermediate Training Data,,0
 COMMON,1176,Advanced Training Data,,0
 COMMON,1177,Obtained<color=#ffb400ff>,,0
-COMMON,1178,Combat Sim complete,,0
+COMMON,1178,Combat Sim complete,,1
 COMMON,1179,Costumes is locked,,0
 COMMON,1180,Commander EXP,,0
 COMMON,1181,Skill Level ,,0
@@ -228,11 +229,11 @@ COMMON,1208,Logistic support,,0
 COMMON,1209,Operation Ended,,0
 COMMON,1210,Loot,,0
 COMMON,1211,Loading,,0
-COMMON,1212,Set,,0
+COMMON,1212,Set,,1
 COMMON,1213,Original price,,0
 COMMON,1214,Discounted price,,0
 COMMON,1215,Purchased,,0
-COMMON,1216,Receive,,0
+COMMON,1216,Receive,,1
 COMMON,1217,Recharge to receive,,0
 COMMON,1218,Idle,,0
 COMMON,1219,Standby,,0
@@ -250,7 +251,7 @@ COMMON,1230,Default Costume,,0
 COMMON,1231,Times,,0
 COMMON,1232,Times,,0
 COMMON,1233,Code No.,,0
-COMMON,1234,HP,,0
+COMMON,1234,HP,,1
 COMMON,1235,Default Costume,,0
 COMMON,1236,Expired,,0
 COMMON,1237,$,,0
@@ -260,7 +261,7 @@ COMMON,1240,Level,,0
 COMMON,1241,Rarity,,0
 COMMON,1242,Acquire //nSequence,,0
 COMMON,1243,ID,,0
-COMMON,1244,Affection,,0
+COMMON,1244,Affection,,1
 COMMON,1245,Damage //nReceived,,0
 COMMON,1246,Crit Damage,,0
 COMMON,1247,Growth,,0
@@ -305,7 +306,7 @@ COMMON,1285,Before replacement,,0
 COMMON,1286,After replacement,,0
 COMMON,1287,Currently owned,,0
 COMMON,1288,Description:,,0
-COMMON,1289,Parts,,0
+COMMON,1289,Parts,,1
 COMMON,1290,Ammo,,0
 COMMON,1291,Analysis of Echelon data,,0
 COMMON,1292,<color=#F27C25FF>Rifles</color><color=#FFFFFFFF>(</color><color=#F27C25FF>RF</color><color=#FFFFFFFF>)</color> provide stable DPS//nand reduce <color=#F27C25FF>Handguns'</color><color=#FFFFFFFF>(</color><color=#F27C25FF>HG</color><color=#FFFFFFFF>)</color> skill cooldown.,,0
@@ -327,7 +328,7 @@ COMMON,1307,Training time,,0
 COMMON,1308,Extra Energy,,0
 COMMON,1309,Combat Sim Extra Energy,,0
 COMMON,1310,Formation details,,0
-COMMON,1311,Limited T-Doll UP,,0
+COMMON,1311,Limited T-Doll UP,,1
 COMMON,1312, ago,,0
 COMMON,1313,Save,,0
 COMMON,1314,Echelon Preset,,0
@@ -350,13 +351,13 @@ COMMON,1330,Icon,,0
 COMMON,1331,Change Medal,,0
 COMMON,1332,Selected medal,,0
 COMMON,1333,Introduction,,0
-COMMON,1334,Appearance,,0
-COMMON,1335,Medal,,0
+COMMON,1334,Appearance,,1
+COMMON,1335,Medal,,1
 COMMON,1336,Support Echelon,,0
 COMMON,1337,Last online:,,0
 COMMON,1338,Accept,,0
 COMMON,1339,Refuse,,0
-COMMON,1340,Purchase,,0
+COMMON,1340,Purchase,,1
 COMMON,1341,Sort by,,0
 COMMON,1342,Friend,,0
 COMMON,1343,Blacklist,,0
@@ -368,14 +369,14 @@ COMMON,1348,Delete friend,,0
 COMMON,1349,Remove from blacklist,,0
 COMMON,1350,Send,,0
 COMMON,1351,Your chat with,,0
-COMMON,1352,,,0
-COMMON,1353,News,,0
+COMMON,1352,,,1
+COMMON,1353,News,,1
 COMMON,1354,Requested,,0
 COMMON,1355,Please respect other people and don't send messages that include personal information.,,0
 COMMON,1356,Refresh,,0
 COMMON,1357,Please respect other people and don't send messages that include personal information.//nSelf intro text field (max 45 letters),,0
 COMMON,1358,Select friend Echelon,,0
-COMMON,1359,A. Already selected this Echelon B. Player reached daily support limit,,0
+COMMON,1359,A. Already selected this Echelon B. Player reached daily support limit,,1
 COMMON,1360,Echelon not usable,,0
 COMMON,1361,Return to Dorm,,0
 COMMON,1362,Visit,,0
@@ -393,7 +394,7 @@ COMMON,1373,Effects: ,,0
 COMMON,1374,Facility info,,0
 COMMON,1375,Work,,0
 COMMON,1376,Adopt,,0
-COMMON,1377,Upgrade condition:,,0
+COMMON,1377,Upgrade condition:,,1
 COMMON,1378,Next Level Effect,,0
 COMMON,1379,Current Level Effect,,0
 COMMON,1380,Description:,,0
@@ -404,10 +405,10 @@ COMMON,1384,Echelon already deployed,,0
 COMMON,1385,Player has reached daily support limit,,0
 COMMON,1386,SOLD OUT,,0
 COMMON,1387,Add to blacklist,,0
-COMMON,1388,Remove from blacklist,,0
+COMMON,1388,Remove from blacklist,,1
 COMMON,1389,Surplus EXP,,0
 COMMON,1390,Sim Energy,,0
-COMMON,1391,10,,0
+COMMON,1391,10,,1
 COMMON,1392,Now open:,,0
 COMMON,1393,Choose Support Echelon,,0
 COMMON,1394,Special//nT-Dolls,,0
@@ -419,13 +420,13 @@ COMMON,1401,and consumes,,0
 COMMON,1402,Preset,,0
 COMMON,1403,Show Equip,,0
 COMMON,1404,Achievement:,,0
-COMMON,1405,Logged in! //nAttendance reward,,0
+COMMON,1405,Logged in! //nAttendance reward,,1
 COMMON,1406,Acquisition location:,,0
 COMMON,1407,Switch account,,0
 COMMON,1408,Obtain method,,0
 COMMON,1409,By Type,,0
 COMMON,1410,Fairy//ncollection,,0
-COMMON,1411,Please check the remaining capacity of your device,,0
+COMMON,1411,Please check the remaining capacity of your device,,1
 COMMON,1412,Check rules,,0
 COMMON,1413,Currently unavailable,,0
 COMMON,1414,T-Doll doesn't exist,,0
@@ -437,10 +438,10 @@ COMMON,1419,Not open,,0
 COMMON,1420,Fairy Collection,,0
 COMMON,1421,Fairy Organization,,0
 COMMON,1424,Unavailable in this mode,,0
-COMMON,1431,Every hour,,0
+COMMON,1431,Every hour,,1
 COMMON,1432,Skill Cost: {0} Fairy Command(s),,0
-COMMON,1433,Trigger Rate,,0
-COMMON,1434,Every {0} hours,,0
+COMMON,1433,Trigger Rate,,1
+COMMON,1434,Every {0} hours,,1
 COMMON,1435,Obtain Reward,,0
 COMMON,1438,Quit,,0
 COMMON,1439,Show more,,0
@@ -456,21 +457,21 @@ COMMON,1448,Non-compulsory update,,0
 COMMON,1449,Skill Research Slot,,0
 COMMON,1450,Selected,,0
 COMMON,1451,Enhancement Level,,0
-COMMON,1452,Live2D,,0
+COMMON,1452,Live2D,,1
 COMMON,1453,MOD 2 Unlock,,0
 COMMON,1454,Current Stage:,,0
 COMMON,1455,Neural Update,,0
-COMMON,1456,Open every Sunday,,0
-COMMON,1457,Fragments possessed,,0
+COMMON,1456,Open every Sunday,,1
+COMMON,1457,Fragments possessed,,1
 COMMON,1458,Neural Upgrade,,0
 COMMON,1459,MOD,,0
 COMMON,1460,NEURAL UPDATE,,0
 COMMON,1461,Limit Increase,,0
-COMMON,1462,Insufficient Affection,,0
-COMMON,1463,Insufficient Level,,0
+COMMON,1462,Insufficient Affection,,1
+COMMON,1463,Insufficient Level,,1
 COMMON,1464,Unlocked,,0
 COMMON,1465,Special,,0
-COMMON,1466,Insufficient materials,,0
+COMMON,1466,Insufficient materials,,1
 COMMON,1467,Dummy Link,,0
 COMMON,1468,Battle data initialization error//c please login again!,,0
 COMMON,1469,Unlock by clearing {0} different missions. //nCurrently cleared: {1}/{2},,0
@@ -490,14 +491,14 @@ COMMON,1482,Y,,0
 COMMON,1483,M,,0
 COMMON,1484,D,,0
 COMMON,1485,Oath date,,0
-COMMON,1486,Can only be modified once,,0
+COMMON,1486,Can only be modified once,,1
 COMMON,1487,Please select the date of Oath,,0
-COMMON,1488,The date you selected is invalid,,0
+COMMON,1488,The date you selected is invalid,,1
 COMMON,1489,5-20,,0
 COMMON,1490,HQ,,0
 COMMON,1491,Character Voice,,0
 COMMON,1492,Recover,,0
-COMMON,1493,Action{0},,0
+COMMON,1493,Action{0},,1
 COMMON,1494,Consume <color=#FFB400FF>Core</color> x {0}//nto obtain a Lv.1 <color=#FFB400FF>【{1}】</color>,,0
 COMMON,1495,<color=#e31414ff>(*Can only be changed once!)</color>,,0
 COMMON,1496,Terms,,0
@@ -508,11 +509,11 @@ COMMON,1500,The photo has been saved//c you can view it in your phone's photo al
 COMMON,1501,{0}M,,0
 COMMON,1502,{0}H,,0
 COMMON,1503,{0}D,,0
-COMMON,1504,shot//n-gun,,0
+COMMON,1504,shot//n-gun,,1
 COMMON,1505,Skill 1,,0
 COMMON,1506,Skill 2,,0
-COMMON,1507,According to the skill level,,0
-COMMON,1508,You can receive these materials,,0
+COMMON,1507,According to the skill level,,1
+COMMON,1508,You can receive these materials,,1
 COMMON,1509,Unlocks at LV.{0},,0
 COMMON,1510,Logistic//n<SIZE=25>Support</SIZE>,,0
 COMMON,1511,Every {0} hour(s),,0
@@ -525,7 +526,7 @@ COMMON,1517,ID,,0
 COMMON,1518,Affection,,0
 COMMON,1519,Damage //nReceived,,0
 COMMON,1520,More,,0
-COMMON,1521,Camera is not authorized//c this feature is not available,,0
+COMMON,1521,Camera is not authorized//c this feature is not available,,1
 COMMON,1522,<color=#B0D923FF>{0} </color>{1},,0
 COMMON,1523,{0}<color=#ffb400ff>/{1}</color>,,0
 COMMON,1524,Promote,,0
@@ -533,18 +534,18 @@ COMMON,1525,Skill 3,,0
 COMMON,1526,{0} has obtained EXP+{1},,0
 COMMON,1527,{0} has obtained EXP+{1}//c level raised to Lv.{2},,0
 COMMON,1528,Training slots are full!,,0
-COMMON,1529,Materials,,0
+COMMON,1529,Materials,,1
 COMMON,1530,Leveling,,0
 COMMON,1531,In EXP Training,,0
 COMMON,1532,In Skill Training,,0
 COMMON,1533,Remaining: {0}s,,0
 COMMON,1534,Decompressing resources… Please wait…,,0
-COMMON,1535,[Options],,0
+COMMON,1535,[Options],,1
 COMMON,1536,NEXT,,0
 COMMON,1537,Lv.,,0
-COMMON,1538,Operational//neffectiveness,,0
+COMMON,1538,Operational//neffectiveness,,1
 COMMON,1539,Train,,0
-COMMON,1540,Only allow the input of half-width positive integers,,0
+COMMON,1540,Only allow the input of half-width positive integers,,1
 COMMON,1541,Has reached the storage limit!,,0
 COMMON,1542,Max Dummies,,0
 COMMON,1543,UP,,0
@@ -555,17 +556,17 @@ COMMON,1547,Combat Effectiveness,,0
 COMMON,1548,Initializing data… This process does not consume network usage.,,0
 COMMON,1549,Special effects not worn,,0
 COMMON,1550,Close,,0
-COMMON,1553,Quick Purchase,,0
+COMMON,1553,Quick Purchase,,1
 COMMON,1554,Event,,0
-COMMON,1555,Griffin,,0
-COMMON,1556,Sangvis Ferri,,0
-COMMON,1557,All,,0
-COMMON,1558,Costume,,0
-COMMON,1559,Begin,,0
-COMMON,1560,Live2D,,0
-COMMON,1561,Popular,,0
-COMMON,1562,Rare,,0
-COMMON,1563,Newest,,0
+COMMON,1555,Griffin,,1
+COMMON,1556,Sangvis Ferri,,1
+COMMON,1557,All,,1
+COMMON,1558,Costume,,1
+COMMON,1559,Begin,,1
+COMMON,1560,Live2D,,1
+COMMON,1561,Popular,,1
+COMMON,1562,Rare,,1
+COMMON,1563,Newest,,1
 COMMON,1564,[Options],,0
 COMMON,1565,Griffin Induction Handbook,,0
 COMMON,1566,Contents,,0
@@ -626,7 +627,7 @@ COMMON,1620,Normal Dolls,,0
 COMMON,1621,Armored Machines,,0
 COMMON,1622,Armored Dolls,,0
 COMMON,1626,Melee Units,,0
-COMMON,1627,Buffs these units,,0
+COMMON,1627,*Buffs units with these traits,,0
 COMMON,1628,Echelon Buff Chip,,0
 COMMON,1629,Strategic Chip,,0
 COMMON,1630,Aura Chip,,0
@@ -760,37 +761,82 @@ COMMON,1759,Rewards Obtained,,0
 COMMON,1760,Resources damaged!,,0
 COMMON,1761,Raise any non-Prototype Fairy to 5-star and Level 100 to unlock this feature.,,0
 COMMON,1762,Login Again,,0
-COMMON,1763,,,0
-COMMON,1764,,,0
-COMMON,1765,,,0
+COMMON,1763,Commander's Outfit: {0},,0
+COMMON,1764,Executed Plan: {0},,0
+COMMON,1765,Buff Overview,,0
 COMMON,1766,Collect all,,0
-COMMON,1767,,,0
-COMMON,1768,,,0
-COMMON,1769,,,0
+COMMON,1767,Duplicate item {0} has been automatically converted into {1}*{2}.,,0
+COMMON,1768,{0}D{1}H,,0
+COMMON,1769,Withdrawn units that are not heavily damaged have been repaired automatically.,,0
+COMMON,1770,EXP Item,,0
+COMMON,1771,Copied,,0
+COMMON,1772,Sent,,0
+COMMON,1773,Confirm your referee as Commander {0} (authentication code {1})?,,0
+COMMON,1774,This player cannot receive any more invitations!,,0
 COMMON,1775,【Custom Package Interface】//nYou may obtain a 4-star T-Doll of your choice. Said Doll must have been available in-game since before Nov. 1st//c 2022.//nPlease head to 【Armory】 to select a T-Doll. Available choices of each gun type are as follows://n【HG】：SAA、Stechkin、Gr Mk23、P7、SPP-1、Spitfire、Thunder、K5、Jericho、Gr P30、Rex Zero 1、Derringer、CZ 100、ZiP .22//n【SMG】：Gr MP5、UMP9、UMP45、PP-90、PP-19、Shipka、UMP40、KLIN、PP-19-01、Cx4 Storm、Honer Badger、MAT-49、K-PDW、CF05、SAF、AR-57、PPD-40、Vigneron M2、MPL、MPK//n【RF】：Springfield、Mosin-Nagant、PTRD、Gr PSG-1、SVD、Gr G28、PzB39、T-5000、XM3、Mk 12、SPR A3G、K31、KSVK、4 Shiki、SSG3000、Tabuk、Mondragon M1908//n【AR】：AS Val、Gr G36、Type 56-1、Fr FAMAS、TAR-21、9A-91、Ribeyrolles、Ak 5、CZ2000、XM8、A-91、SAR-21、EM-2、CR-21、FI M82、FX-05、Federov Avtomat、AK74M//n【MG】：M1918、M60、PK、MG3、Mk48、Mk46、AEK-999、Ameli、Type 80、UKM-2000、Chauchat、M1895 CB、PM1910//n【SG】：M37、M590、Super-Shorty、SPAS-12、M1014、USAS-12、Liberator、Defender、PM5、512、Nova、MAG-7,,0
 COMMON,1776,【Custom Package Interface】//nYou may obtain a 5-star T-Doll of your choice. Said Doll must have been available in-game since before Nov. 1st//c 2022.//nPlease head to 【Armory】 to select a T-Doll. Available choices of each gun type are as follows://n【HG】：Grizzly、M950A、Welrod MkⅡ、NZ75、Five-seven、CZ75、Contender、Python、Px4 Storm、P22、HS2000、PA-15、Desert Eagle、C-93、Webley、HP-35、Kolibri//n【SMG】：Thompson、Vector、Suomi、Gr G36C、Type79、SR-3MP、Gr MP7、AK-74U、C-MS、PM-06、JS 9、100 shiki、P90、X95、PM-9、Lusa、AUG Para、VP1915、SR-2//n【RF】：Kar98k、WA2000、Lee Enfield、NTW-20、M99、IWS 2000、Gd DSR-50、JS05、Carcano M1891、Carcano M91/38、Ballista、SRS、TAC-50、M82A1、M200、QBU-88、R93、Gr SL8、VSK-94、General Liu、SVCh、Model 99、De Lisle、HS.50//n【AR】：Gr G41、416、FAL、OTs-14、Gr G11、Type95、Type97、Am RFB、ART556、T91、K2、Zas M21、AK-12、AN-94、MDR、AUG、K11、64 Shiki、ADS、ACR、SIG-556、R5、AK-15、89 Shiki、AK-Alfa、S-ACR、VHS、SIG MCX、TKB-408、A-545、SCR//n【MG】：Gr MG5、Negev、Gr MG4、PKP、HMG21、QJY-88、Lewis、Gr MG36、Kord、RPK-16、ZB-26、RPK-203//n【SG】：Am KSG、M1887、Saiga-12、AA-12、FP-6、M870、S.A.T.8、CAWS、DP-12、LTLX7000、M6 ASW、FO-12、M26-MASS,,0
+COMMON,1777,Satisfied,,0
+COMMON,1778,Not satisfied,,0
+COMMON,1779,Double,,0
+COMMON,1780,Completed,,0
+COMMON,1781,Pending,,0
+COMMON,1782,Solve the Puzzle,,0
 COMMON,1783,You may obtain a random unobtained costume worth up//nto 3 black cards since before Dec. 31st//c 2021.//nPlease//nhead to 【Black Card Shop Exchange】 to check costumes//nfrom corresponding Gacha Theme.,,0
 COMMON,1784,You may obtain a random unobtained costume worth up//nto 5 black cards since before Dec. 31st//c 2021.//cPlease//nhead to 【Black Card Shop Exchange】 to check costumes//nfrom corresponding Gacha Theme.,,0
 COMMON,1785,You may obtain a random unobtained costume worth up//nto 8 black cards since before Dec. 31st//c 2021.//nPlease//nhead to 【Black Card Shop Exchange】 to check costumes//nfrom corresponding Gacha Theme.,,0
+COMMON,1786,Last Login {1}.{2}.{0},,0
+COMMON,1787,{0} battles fought,,0
+COMMON,1788,{0} enemies defeated,,0
+COMMON,1789,{0} T-Dolls in possession,,0
+COMMON,1790,{0} OATHs sworn,,0
+COMMON,1791,{0} Sangvis units captured,,0
+COMMON,1792,Welcome back to Griffin.,,0
+COMMON,1793,Recommended Echelon,,0
+COMMON,1794,They are waiting for you... waiting for an OATH between you and them.,,0
+COMMON,1795,You have not successfully captured any Coalition Units.,,0
+COMMON,1796,*Time reduced,,0
+COMMON,1797,Training Attempts,,0
+COMMON,1798,Currently out of use,,0
+COMMON,1799,Unlocking,,0
+COMMON,1800,,,0
+COMMON,1801,,,0
+COMMON,1802,,,0
+COMMON,1803,,,0
+COMMON,1804,,,0
+COMMON,1805,,,0
+COMMON,1806,Heavy Weapon Damage,,0
+COMMON,1807,Light Weapon Damage,,0
+COMMON,1808,Heavy Weapon Armor-Piercing,,0
+COMMON,1809,Light Weapon Armor-Piercing,,0
+COMMON,1810,Energy,,0
+COMMON,1811,Max. Energy,,0
+COMMON,1812,,,0
+COMMON,1813,,,0
+COMMON,1814,,,0
+COMMON,1815,,,0
+COMMON,1816,,,0
+COMMON,1817,,,0
+COMMON,1818,,,0
+COMMON,1819,,,0
 BATTLE,10000,Retreat,,0
-BATTLE,10001,Withdraw,,0
-BATTLE,10002,WITHDRAW,,0
-BATTLE,10003,Paused,,0
-BATTLE,10004,PAUSE,,0
-BATTLE,10005,HP,,0
+BATTLE,10001,Withdraw,,1
+BATTLE,10002,WITHDRAW,,1
+BATTLE,10003,Paused,,1
+BATTLE,10004,PAUSE,,1
+BATTLE,10005,HP,,1
 BATTLE,10006,Destroy,,0
 BATTLE,10007,Completion rate,,0
 BATTLE,10008,Time,,0
 BATTLE,10009,Lost,,0
-BATTLE,10010,Mission Start,,0
+BATTLE,10010,Mission Start,,1
 BATTLE,10011,UI help,,0
 BATTLE,10012,Destroy all enemies,,0
 BATTLE,10013,Capture enemy Command Post,,0
-BATTLE,10014,Defeat enemy boss,,0
-BATTLE,10015,End turn,,0
-BATTLE,10016,Dummy Core ,,0
+BATTLE,10014,Defeat enemy boss,,1
+BATTLE,10015,End turn,,1
+BATTLE,10016,Dummy Core ,,1
 BATTLE,10017,No Effect,,0
-BATTLE,10018,Buffs ,,0
+BATTLE,10018,Buffs ,,1
 BATTLE,10019,Effective,,1
 BATTLE,10020, by <color=#FFBE00FF>,,0
 BATTLE,10021,HG Formation Buff increases upon Dummy Linking.,,0
@@ -802,8 +848,8 @@ BATTLE,10026,Press here to select AR Team,,0
 BATTLE,10027,Press here to move AR Team,,0
 BATTLE,10028,Press here again to move AR Team,,0
 BATTLE,10029,Press to capture enemy Command Post,,0
-BATTLE,10030,Ally Echelon victory,,0
-BATTLE,10031,Ally Echelon defeated,,0
+BATTLE,10030,Ally Echelon victory,,1
+BATTLE,10031,Ally Echelon defeated,,1
 BATTLE,10032,Transmitting combat data...,,0
 BATTLE,10033,Echelon wiped out,,0
 BATTLE,10034,Best Record,,0
@@ -815,19 +861,19 @@ BATTLE,10039,Insufficient Manpower. Unable to deploy Echelon!,,0
 BATTLE,10040,Battle Start,,0
 BATTLE,10041,Ally Echelon performing tactical movement,,0
 BATTLE,10042,Current Echelon's Ammo or Rations have been exhausted. Attacking an enemy will result in defeat. Proceed with the attack?,,0
-BATTLE,10043,Strategic objective achieved//c mission success,,0
+BATTLE,10043,Strategic objective achieved//c mission success,,1
 BATTLE,10044,Encirclement capture failed,,0
-BATTLE,10045,Strategic objective failed//c mission failed,,0
-BATTLE,10046,Enemy turn start,,0
+BATTLE,10045,Strategic objective failed//c mission failed,,1
+BATTLE,10046,Enemy turn start,,1
 BATTLE,10047,Powerful enemy reinforcements incoming!,,0
 BATTLE,10048,Encircled and captured by enemy!,,0
 BATTLE,10049,Encircled and captured by ally!,,0
-BATTLE,10050,Ally Echelon under enemy attack!,,0
+BATTLE,10050,Ally Echelon under enemy attack!,,1
 BATTLE,10051,Deployable Echelons limit reached!,,0
 BATTLE,10052,Unable to deploy Echelons on nodes out of sight in Night battle!,,0
 BATTLE,10053,Current Echelon is the last Echelon on the battlefield. The mission is forcibly terminated!,,0
 BATTLE,10054,Forced retreat,,0
-BATTLE,10055,Ally Echelon engaging enemy!,,0
+BATTLE,10055,Ally Echelon engaging enemy!,,1
 BATTLE,10056,Max level reached,,0
 BATTLE,10057,Normal,,0
 BATTLE,10058,Mechanized,,0
@@ -858,7 +904,7 @@ BATTLE,10082,Base EXP,,0
 BATTLE,10083,Defeated,,0
 BATTLE,10084,Reward,,0
 BATTLE,10085,Total EXP,,0
-BATTLE,10086,Echelon under enemy attack,,0
+BATTLE,10086,Echelon under enemy attack,,1
 BATTLE,10087,Echelon engaging enemy,,0
 BATTLE,10088,Friend,,0
 BATTLE,10089,Enemy encircled by allies,,0
@@ -879,8 +925,8 @@ BATTLE,10108,Ally Echelon {0} obtained victory,,0
 BATTLE,10109,Ally Echelon {0} wiped out,,0
 BATTLE,10110,Best Record: Wave {0},,0
 BATTLE,10111,{0} waves remaining to next checkpoint,,0
-BATTLE,10112,Destroy all enemy forces,,0
-BATTLE,10113,Destroy third party forces,,0
+BATTLE,10112,Destroy all enemy forces,,1
+BATTLE,10113,Destroy third party forces,,1
 BATTLE,10114,Buffs {0}//n,,0
 BATTLE,10115,Neither allies nor the enemy can pass through a security gate when its doors are closed.//nThe security gate can be controlled by a gate console.,,0
 BATTLE,10116,Abandoned Goliaths scattered around the map can be picked up by allies to deal damage against certain constructions.,,0
@@ -966,24 +1012,30 @@ BATTLE,10196,You have reached the limit of deployed T-Doll echelons.,,0
 BATTLE,10197,You have reached the limit of deployed Coalition echelons.,,0
 BATTLE,10198,You have reached the limit of deployed HOC units.,,0
 BATTLE,10199,You have reached the limit of deployed non-HOC units.,,0
-BATTLE,10200,,,0
+BATTLE,10200,The enemy is too powerful. Avoid engaging them in battle.,,0
+BATTLE,10201,End proxy battle?,,0
+BATTLE,10202,Repair,,0
+BATTLE,10203,Current battle has failed. Proxy battle terminated.,,0
+BATTLE,10204,Max. ROF,,0
+BATTLE,10205,Max. Attack Speed,,0
+BATTLE,10206,,,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
-CARNIVAL,11002,GETREWARD,,0
+CARNIVAL,11002,GETREWARD,,1
 CARNIVAL,11003,Completed,,0
-CARNIVAL,11004,Points bonus,,0
+CARNIVAL,11004,Points bonus,,1
 CARNIVAL,11005,Commander EXP x<color=#ffb400ff>,,0
 CARNIVAL,11006,1. For unlocked missions//c you can complete them at any time during the remaining event period. //n2. Completed missions will award the corresponding points rewards. //n3. Points will only be awarded after completing the mission and tapping the Get Reward rewards button. //n4. Event screen will be closed at 23:59 on the last day//c and event rewards will be unobtainable after closing. //n5. Each reward can only be received once.,,0
 CARNIVAL,11007,Event Introduction,,0
-CARNIVAL,11008,Show less,,0
+CARNIVAL,11008,Show less,,1
 CARNIVAL,11009,Current,,0
 CARNIVAL,11010,Event Rules,,0
 CARNIVAL,11012,PT,,0
 CARNIVAL,11013,Carnival,,0
 HOME,20004, DORM,,0
-HOME,20005,DORMITORY,,0
+HOME,20005,DORMITORY,,1
 HOME,20006,FACTORY,,0
-HOME,20007,FACTORY,,0
+HOME,20007,FACTORY,,1
 HOME,20008,FORMATION,,0
 HOME,20009,FORMATION,,0
 HOME,20010,EVENT,,0
@@ -994,32 +1046,32 @@ HOME,20014,ARMORY,,0
 HOME,20015,INDEX,,0
 HOME,20016,Important Information,,0
 HOME,20017,Notice,,0
-HOME,20018,Confirm exchange,,0
-HOME,20019,Market,,0
-HOME,20020,Exchange Store,,0
-HOME,20021,Login Supply,,0
-HOME,20022,Collection Rate,,0
+HOME,20018,Confirm exchange,,1
+HOME,20019,Market,,1
+HOME,20020,Exchange Store,,1
+HOME,20021,Login Supply,,1
+HOME,20022,Collection Rate,,1
 HOME,20023,T-Dolls Owned,,0
 HOME,20024,Story Completion Rate,,0
 HOME,20025,Repair Slots unlocked,,0
-HOME,20026,Manufacture Slots available ,,0
+HOME,20026,Manufacture Slots available ,,1
 HOME,20027,Echelons unlocked,,0
 HOME,20028,Resource Limit,,0
 HOME,20029,REPAIR BAY,,0
 HOME,20030,RESTORE,,0
 HOME,20031,RESEARCH,,0
 HOME,20032,RESEARCH,,0
-HOME,20033,COMBAT,,0
+HOME,20033,COMBAT,,1
 HOME,20034,COMBAT,,0
 HOME,20035,</color> Training finished,,0
-HOME,20036,<color=#FFBB00FF>Echelon No. ,,0
-HOME,20037,</color> returned from Logistic Support,,0
+HOME,20036,<color=#FFBB00FF>Echelon No. ,,1
+HOME,20037,</color> returned from Logistic Support,,1
 HOME,20038,</color>Repair complete,,0
 HOME,20039,Unlocks at Commander lvl 3,,0
 HOME,20040,Unlocks at Commander lvl 12,,0
 HOME,20041,Echelon {0} has no leader. Please assign one.,,0
 HOME,20042,Commander//c the system has detected that you disconnected from battle//c you will be reconnected to the battle after returning to the mission.,,0
-HOME,20043,Returned from Auto-Battle!,,0
+HOME,20043,Returned from Auto-Battle!,,1
 HOME,20044,Factory unlocks at Commander lvl 3,,0
 HOME,20045,Promo code verification success! Please receive rewards in mailbox!,,0
 HOME,20046,Daily Login,,0
@@ -1033,9 +1085,9 @@ HOME,20053,Manpower//c Ammo and Rations recovers by 3 points every 3 minutes. Pa
 HOME,20054,Please enter the promo code,,0
 HOME,20055,Gift Code,,0
 HOME,20056,Repeat again with the same Echelon?,,0
-HOME,20057,Friend,,0
-HOME,20058,Leader of 1st Echelon is mandatory//c please assign one.,,0
-HOME,20059,You have received  <color=#FFB400FF>{0}</color> times of rewards in total.,,0
+HOME,20057,Friend,,1
+HOME,20058,Leader of 1st Echelon is mandatory//c please assign one.,,1
+HOME,20059,You have received <color=#FFB400FF>{0}</color> times of rewards in total.,,0
 HOME,20060,Go to event,,0
 HOME,20061,Confirm appointing <color=#ffffffff>{0}//n</color> as your adjutant?,,0
 HOME,20062,Repairing <color=#FFBB00>{0}</color> complete,,0
@@ -1043,7 +1095,7 @@ HOME,20063,Upgrading <color=#FFBB00FF>{0}</color> complete,,0
 HOME,20064,Writing <color=#FFBB00FF>{0}</color> complete,,0
 HOME,20065,<color=#FFBB00>Echelon {0}</color> returned from Logistic Support,,0
 HOME,20066,Training <color=#FFBB00>{0}</color> complete,,0
-HOME,20067,Photo,,0
+HOME,20067,Photo,,1
 HOME,20068,UID: {0},,0
 HOME,20069,{0:MM-dd HH:mm:ss},,0
 HOME,20070,Current time,,0
@@ -1110,41 +1162,68 @@ HOME,20130,There is a grading evaluation which can be performed.,,0
 HOME,20131,Can be collected,,0
 HOME,20132,Purchase at Level {0}. Raise to Level {1} to unlock the rewards listed above.,,0
 HOME,20133,Complete this character's Progression Breakthrough to unlock this artwork.,,0
-HOME,20134,,,0
-HOME,20135,,,0
-HOME,20136,,,0
-HOME,20137,,,0
-HOME,20138,,,0
-HOME,20139,,,0
-DEPLOYMENT,30000,Deploy,,0
+HOME,20134,Replay PV,,0
+HOME,20135,Event Remaining Time,,0
+HOME,20136,Callback Login,,0
+HOME,20137,Callback Missions,,0
+HOME,20138,Callback Fund,,0
+HOME,20139,Callback Shop,,0
+HOME,20140,Event Time,,0
+HOME,20141,Batch {0} rewards will be refreshed soon.,,0
+HOME,20142,First-clear reward must be obtained before you can open this.,,0
+HOME,20143,MM.dd HH00,,0
+HOME,20144,Daily Play Point Redemption Rules,,0
+HOME,20145,Callback Invitation,,0
+HOME,20146,Please input your invitation code to obtain your rewards.,,0
+HOME,20147,Incorrect invitation code. Please input a valid invitation code.,,0
+HOME,20148,Please activate the Callback Fund to obtain rewards.,,0
+HOME,20149,{0}/{1} Invited,,0
+HOME,20150,*You will receive Callback rewards for inviting players. The rewards will be sent automatically to your in-game mailbox.,,0
+HOME,20151,Invitation Code,,0
+HOME,20152,Not sent,,0
+HOME,20153,<color=#ffb400ff><size=48><b>Callback Boost:</b></size></color>//nDuring the Callback period//c <color=#F27C25FF>all Combat Simulation stages in [Data Mode]//c [EXP Mode]//c [Capsule Mode]//c and [Neural Cloud Corridor]</color>//n will yield twice the original rewards. Yield in all <color=#F27C25FF>[Coalition Drills]</color> will be tripled! //n//n<color=#ffb400ff><size=48><b>Callback Login:</b></size></color>//n1. During the event//c simply log into the game to receive generous login rewards.//n2. Login rewards are unlocked according to the number of days a player has logged in in total.//n3. Logging in will accumulate <color=#F27C25FF>Callback Participation Level</color> for unlocking generous participation rewards.//n//n<color=#ffb400ff><size=48><b>Callback Missions:</b></size></color>//n1. During the event//c complete specific Callback Missions to receive the corresponding rewards.//n2. You can preview and complete all Callback Missions in advance//c but the rewards will only be unlocked on the corresponding day of the Callback event.//nYou can still accumulate mission completion progress normally even when the rewards are locked.//n3. Completing Callback Missions will accumulate Callback Participation Level. Once your participation level has reached a specific threshold//c you can collect the corresponding participation rewards.//n4.The final participation reward will include one time-limited Anchored Production exclusively for returning Commanders.//n//n<color=#ffb400ff><size=48><b>Callback Fund:</b></size></color>//n1. Griffin has prepared a special Callback Fund for returning Commanders. Purchase it to obtain a large amount of resources that will help you get your feet on the ground again.//n2. Callback Fund rewards will be unlocked based on your Callback Participation Level//c which you can accumulate by logging in and completing Callback Missions.//nOnce your participation level has reached a specific threshold//c you can collect the corresponding Callback Fund rewards.//n//n<color=#ffb400ff><size=48><b>Callback Shop:</b></size></color>//n1. The Callback Shop is an exclusive shop for returning Commanders. You can freely purchase helpful supplies at bargain prices there.,,0
+HOME,20154,<color=#ffb400ff><size=48><b>Invitation Rules:</b></size></color>//n1. During the event//c an invitation is considered successful when a returning player inputs your invitation code in the Callback Invitation tab.//n2. Each Commander can invite three players to return. Each returning player can only accept an invitation from one Commander.//n3. Invitations are only valid for players on the same server.//n//n<color=#ffb400ff><size=48><b>Reward Rules:</b></size></color>//n1. The first reward will be sent directly to your in-game mailbox once your invitation is confirmed to be successful.//n2. Subsequent rewards will be unlocked when the player returning at your invitation reaches certain participation level thresholds.,,0
+HOME,20155,Gray Zone Exploration,,0
+HOME,20156,Back to Base,,0
+HOME,20157,Customize,,0
+HOME,20158,Equip,,0
+HOME,20159,Equipped,,0
+HOME,20160,Watch out for in-game events,,0
+HOME,20161,Procurement,,0
+HOME,20162,Activate Callback Fund,,0
+HOME,20163,Obtained 10x bargain callback welfare,,0
+HOME,20164,*Purchase to obtain the following rewards immediately,,0
+HOME,20165,Story,,0
+HOME,20166,,,0
+DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
-DEPLOYMENT,30002,Swap,,0
-DEPLOYMENT,30003,Select,,0
+DEPLOYMENT,30002,Swap,,1
+DEPLOYMENT,30003,Select,,1
 DEPLOYMENT,30004,TERMINATE//nMISSION,,0
-DEPLOYMENT,30005,Use command,,0
+DEPLOYMENT,30005,Use command,,1
 DEPLOYMENT,30006,Action Points,,0
-DEPLOYMENT,30007,Remaining,,0
-DEPLOYMENT,30008,Mission select,,0
-DEPLOYMENT,30009,Terminate operation,,0
-DEPLOYMENT,30010,Battlefield description,,0
+DEPLOYMENT,30007,Remaining,,1
+DEPLOYMENT,30008,Mission select,,1
+DEPLOYMENT,30009,Terminate operation,,1
+DEPLOYMENT,30010,Battlefield description,,1
 DEPLOYMENT,30011,Choose Echelon,,0
 DEPLOYMENT,30012,Echelon,,0
 DEPLOYMENT,30013,Wiped out,,0
 DEPLOYMENT,30014,Retreat,,0
-DEPLOYMENT,30015,NIGHT,,0
-DEPLOYMENT,30016,NIGHT,,0
+DEPLOYMENT,30015,NIGHT,,1
+DEPLOYMENT,30016,NIGHT,,1
 DEPLOYMENT,30017,Resupply,,0
 DEPLOYMENT,30018,Combat Effectiveness,,0
-DEPLOYMENT,30019,COMBATEFFECTIVENESS,,0
-DEPLOYMENT,30020,Mission has no turn limit,,0
-DEPLOYMENT,30021,Turns to reach designated point,,0
-DEPLOYMENT,30022,Turns to occupy enemy Command Post,,0
-DEPLOYMENT,30023,Turns to exterminate all enemies,,0
-DEPLOYMENT,30024,Turns to defeat the boss,,0
-DEPLOYMENT,30025,After occupying//c you can detect the distance to this point is<color=#ffb400ff>,,0
-DEPLOYMENT,30026,</color>'s vision range,,0
-DEPLOYMENT,30027,Unable to resupply or deploy,,0
-DEPLOYMENT,30028,In <color=#ffb400ff>,,0
+DEPLOYMENT,30019,COMBATEFFECTIVENESS,,1
+DEPLOYMENT,30020,Mission has no turn limit,,1
+DEPLOYMENT,30021,Turns to reach designated point,,1
+DEPLOYMENT,30022,Turns to occupy enemy Command Post,,1
+DEPLOYMENT,30023,Turns to exterminate all enemies,,1
+DEPLOYMENT,30024,Turns to defeat the boss,,1
+DEPLOYMENT,30025,After occupying//c you can detect the distance to this point is<color=#ffb400ff>,,1
+DEPLOYMENT,30026,</color>'s vision range,,1
+DEPLOYMENT,30027,Unable to resupply or deploy,,1
+DEPLOYMENT,30028,In <color=#ffb400ff>,,1
 DEPLOYMENT,30029,Ally turn start,,0
 DEPLOYMENT,30030,Strategic objective failed//c mission failed,,0
 DEPLOYMENT,30031,Strategic objective achieved//c mission success,,0
@@ -1156,7 +1235,7 @@ DEPLOYMENT,30036,Recently,,0
 DEPLOYMENT,30037,Having <color=#FFBB00FF> no loss or Echelon withdrawal </color>,,0
 DEPLOYMENT,30038,<color=#FFBB00FF>within,,0
 DEPLOYMENT,30039,turns//c </color> obtain victory,,0
-DEPLOYMENT,30040,and<color=#FFBB00FF> eliminate,,0
+DEPLOYMENT,30040,and<color=#FFBB00FF> eliminate,,1
 DEPLOYMENT,30041,</color> enemies,,0
 DEPLOYMENT,30042,Echelon failed to occupy,,0
 DEPLOYMENT,30043,Captured by encirclement,,0
@@ -1200,7 +1279,7 @@ DEPLOYMENT,30080,Only able to deploy ally on Command Post or Heliport!,,0
 DEPLOYMENT,30081,Heliport currently not usable!,,0
 DEPLOYMENT,30082,Unable to deploy Echelons on nodes out of sight in Night battle!,,0
 DEPLOYMENT,30083,Echelon deployment limit reached!,,0
-DEPLOYMENT,30084,Unable to move in the opposite direction!,,0
+DEPLOYMENT,30084,Unable to move in the opposite direction!,,1
 DEPLOYMENT,30085,Unable to move in the opposite direction!,,0
 DEPLOYMENT,30086,Selected T-Doll is not damaged//c repairs are unnecessary.,,0
 DEPLOYMENT,30087,Emergency repair can only be performed at deployment nodes.,,0
@@ -1214,7 +1293,7 @@ DEPLOYMENT,30094,Ally Echelon proceeding with strategic reinforcements,,0
 DEPLOYMENT,30095,An Echelon must be deployed on the Command Post!,,0
 DEPLOYMENT,30096,At least one Echelon needs to be deployed!,,0
 DEPLOYMENT,30097,Operation ended//c please return!,,0
-DEPLOYMENT,30098,At least one Echelon needs to be deployed!,,0
+DEPLOYMENT,30098,At least one Echelon needs to be deployed!,,1
 DEPLOYMENT,30099,During Combat Simulation//c pausing and other actions are disabled.,,0
 DEPLOYMENT,30100,will deduct <color=#FFB400FF>,,0
 DEPLOYMENT,30101,Combat Sim points</color>//c,,0
@@ -1251,17 +1330,17 @@ DEPLOYMENT,30131,Capture,,0
 DEPLOYMENT,30132,Eliminate,,0
 DEPLOYMENT,30135,Awaiting rescue,,0
 DEPLOYMENT,30136,Offline,,0
-DEPLOYMENT,30137,Received,,0
-DEPLOYMENT,30138,Turns to rescue all T-Dolls,,0
+DEPLOYMENT,30137,Received,,1
+DEPLOYMENT,30138,Turns to rescue all T-Dolls,,1
 DEPLOYMENT,30139,Successfully rescued all T-Dolls,,0
 DEPLOYMENT,30140,Successfully rescued,,0
 DEPLOYMENT,30141,  T-Dolls,,0
 DEPLOYMENT,30142,T-Dolls rescued ,,0
 DEPLOYMENT,30143,Hostage rescued ,,0
-DEPLOYMENT,30144,Hostage eliminated//c remaining,,0
-DEPLOYMENT,30145,can be rescued,,0
-DEPLOYMENT,30146,Establish supply line within the turn limit,,0
-DEPLOYMENT,30147,Defend the supply line,,0
+DEPLOYMENT,30144,Hostage eliminated//c remaining,,1
+DEPLOYMENT,30145,can be rescued,,1
+DEPLOYMENT,30146,Establish supply line within the turn limit,,1
+DEPLOYMENT,30147,Defend the supply line,,1
 DEPLOYMENT,30148,Rally point,,0
 DEPLOYMENT,30149,Connect the Command Post and the rally point to set up the supply line. Defend the supply line to obtain victory.,,0
 DEPLOYMENT,30150,Supply line established,,0
@@ -1283,11 +1362,11 @@ DEPLOYMENT,30165,Establish and defend the supply line,,0
 DEPLOYMENT,30166,Supply line established!,,0
 DEPLOYMENT,30167,Planning Mode,,0
 DEPLOYMENT,30168,Execute Plan,,0
-DEPLOYMENT,30169,Choose the movement path in order,,0
+DEPLOYMENT,30169,Choose the movement path in order,,1
 DEPLOYMENT,30170,Insufficient Action Points.,,0
 DEPLOYMENT,30171,Halt current plan?,,0
-DEPLOYMENT,30172,Executing...,,0
-DEPLOYMENT,30173,Start Planning Mode,,0
+DEPLOYMENT,30172,Executing...,,1
+DEPLOYMENT,30173,Start Planning Mode,,1
 DEPLOYMENT,30174,and ally Echelons eliminate,,0
 DEPLOYMENT,30175,Change command,,0
 DEPLOYMENT,30176,Supply line broken!,,0
@@ -1308,8 +1387,8 @@ DEPLOYMENT,30191,Formation Effectiveness,,0
 DEPLOYMENT,30192,Best Record,,0
 DEPLOYMENT,30193,Unlock Checkpoint,,0
 DEPLOYMENT,30194,Current attempt reached no.,,0
-DEPLOYMENT,30195,Wave,,0
-DEPLOYMENT,30196,Disengage,,0
+DEPLOYMENT,30195,Wave,,1
+DEPLOYMENT,30196,Disengage,,1
 DEPLOYMENT,30197,Formation Preset,,0
 DEPLOYMENT,30198,Active,,0
 DEPLOYMENT,30199,Enemies will continue to send reinforcements//c eliminate them to get points.//n Defend the supply line to obtain many points,,0
@@ -1319,26 +1398,26 @@ DEPLOYMENT,30202,S.F. will continually send stronger reinforcements//c when a ce
 DEPLOYMENT,30203,Eliminate the enemy to earn points; If an Echelon is wiped out//c retreating or using Emergency Repair will deduct points; Defending the supply line will award increasing amounts of points; After the event ends//c rewards will be given based on the score ranking,,0
 DEPLOYMENT,30204,Unable to retreat when carrying hostage!,,0
 DEPLOYMENT,30205,Confirm to end the operation and calculate the score?//nCurrent score:,,0
-DEPLOYMENT,30206,//nBest record:,,0
-DEPLOYMENT,30207,(new record),,0
+DEPLOYMENT,30206,//nBest record:,,1
+DEPLOYMENT,30207,(new record),,1
 DEPLOYMENT,30208,Select target for Fairy skill!,,0
 DEPLOYMENT,30209,Cancel chosen target for Fairy skill!,,0
 DEPLOYMENT,30210,turns limit,,0
 DEPLOYMENT,30211,Terminate mission,,0
 DEPLOYMENT,30212,Ceasing operation will <color=#FF7F00FF>//nlose current progress.</color>//nThe operation will <color=#FF7F00FF>restart from the beginning</color> in the next attempt.,,0
 DEPLOYMENT,30213,Confirm to cease operation and return?,,0
-DEPLOYMENT,30214,Suspend operation,,0
-DEPLOYMENT,30215,This command ends the timer until the next turn.,,0
-DEPLOYMENT,30216,Remaining Commands today,,0
-DEPLOYMENT,30217,(Three times per day),,0
-DEPLOYMENT,30218,Remaining <color=#FFB400FF>Suspension Commands</color>,,0
+DEPLOYMENT,30214,Suspend operation,,1
+DEPLOYMENT,30215,This command ends the timer until the next turn.,,1
+DEPLOYMENT,30216,Remaining Commands today,,1
+DEPLOYMENT,30217,(Three times per day),,1
+DEPLOYMENT,30218,Remaining <color=#FFB400FF>Suspension Commands</color>,,1
 DEPLOYMENT,30219,Command Post's troops,,0
 DEPLOYMENT,30220,Enemy,,0
 DEPLOYMENT,30221,Neutral,,0
-DEPLOYMENT,30222,Became a hostage,,0
-DEPLOYMENT,30223,Retreat,,0
-DEPLOYMENT,30224,from,,0
-DEPLOYMENT,30225,to,,0
+DEPLOYMENT,30222,Became a hostage,,1
+DEPLOYMENT,30223,Retreat,,1
+DEPLOYMENT,30224,from,,1
+DEPLOYMENT,30225,to,,1
 DEPLOYMENT,30226,Friend,,0
 DEPLOYMENT,30227,Third party turn start,,0
 DEPLOYMENT,30228,Third party turn end,,0
@@ -1346,21 +1425,21 @@ DEPLOYMENT,30229,Enemy turn start,,0
 DEPLOYMENT,30230,Enemy turn end,,0
 DEPLOYMENT,30231,Friend's troops turn,,0
 DEPLOYMENT,30232,Friendly third party turn,,0
-DEPLOYMENT,30233,Commander's troops,,0
+DEPLOYMENT,30233,Commander's troops,,1
 DEPLOYMENT,30234,Friend Level,,0
 DEPLOYMENT,30235,The Echelon is in operation//c unable to edit,,0
 DEPLOYMENT,30236,<color=#FFB400FF>Echelon {0}</color> will swap with <color=#FFB400FF>Echelon {1}</color>,,0
-DEPLOYMENT,30237,Enemies will continually send reinforcements//nEliminate enemies to get points//nCollect supplies to obtain large amount of points//nUnobtained supplies will disappear,,0
+DEPLOYMENT,30237,Enemies will continually send reinforcements//nEliminate enemies to get points//nCollect supplies to obtain large amount of points//nUnobtained supplies will disappear,,1
 DEPLOYMENT,30238,Survival Mode,,0
 DEPLOYMENT,30239,Before the operation ends//c supplies will be continually airdropped onto the battlefield. Eliminating enemies will increase the number of airdropped supplies. You can choose to retreat and calculate the scores at any time.,,0
 DEPLOYMENT,30240,Enemy Reinforcements,,0
 DEPLOYMENT,30241,Neutral Forces and enemies will continually send reinforcements. The enemies are very strong//c please be cautious!,,0
 DEPLOYMENT,30242,Point rules,,0
-DEPLOYMENT,30243,Eliminate the enemy to earn points; Having an Echelon wiped out//c retreating or using Emergency Repair will deduct points//c Echelons not under your control will not affect the points;  Using a resupply node will award large amount of points; After the event ends//c rewards will be given based on the score ranking,,0
+DEPLOYMENT,30243,Eliminate the enemy to earn points; Having an Echelon wiped out//c retreating or using Emergency Repair will deduct points//c Echelons not under your control will not affect the points; Using a resupply node will award large amount of points; After the event ends//c rewards will be given based on the score ranking,,0
 DEPLOYMENT,30244,Encircled and captured by third party,,0
 DEPLOYMENT,30245,Captured by third party,,0
-DEPLOYMENT,30246,Echelon members have not equipped Night Battle Equipment or AP Ammo,,0
-DEPLOYMENT,30247,Insufficient Night Battle Equipment or AP Ammo capability,,0
+DEPLOYMENT,30246,Echelon members have not equipped Night Battle Equipment or AP Ammo,,1
+DEPLOYMENT,30247,Insufficient Night Battle Equipment or AP Ammo capability,,1
 DEPLOYMENT,30248,Griffin releases yet another report on T-Doll rights: "You want me to be free//c but all I just want is ice cream.",,0
 DEPLOYMENT,30249,Obtained Memory Fragment!,,0
 DEPLOYMENT,30250,Successfully rescued {0} T-Dolls,,0
@@ -1387,26 +1466,26 @@ DEPLOYMENT,30270,Establish and maintain a supply line for {1} rounds within <col
 DEPLOYMENT,30271,Successfully rescue {1} Dolls within <color=#CE8200FF>{0}</color> rounds.,,1
 DEPLOYMENT,30272,End the operation and calculate the score?//nCurrent score: {0}//nBest record: {1},,0
 DEPLOYMENT,30273,End the operation and calculate the score?//nCurrent score: {0} (New record),,0
-DEPLOYMENT,30274,T-Dolls rescued <color=#FFF700FF>{0}</color>/{1},,0
+DEPLOYMENT,30274,T-Dolls rescued <color=#FFF700FF>{0}</color>/{1},,1
 DEPLOYMENT,30275,Entering Turn {0},,0
 DEPLOYMENT,30276,During Combat Simulation//c pausing and other actions are disabled.//nAfter the simulation ends//c <color=#FFB400FF>{0} Sim Energy</color> will be deducted.//nConfirm?,,0
 DEPLOYMENT,30277,During Combat Simulation//c pausing and other actions are disabled.//n<color=#FFB400FF>{0} Sim Energy</color> will be deducted.//nConfirm?,,0
 DEPLOYMENT,30278,After capturing//c nodes up to <color=#ffb400ff>{0}</color> nodes away will be visible.//nDeployment and resupply are unavailable at this node.,,0
 DEPLOYMENT,30279,Echelon {0},,0
-DEPLOYMENT,30280,A change has occurred to the target. The plan is interrupted!,,0
-DEPLOYMENT,30281,Restart //nBattle,,0
+DEPLOYMENT,30280,A change has occurred to the target. The plan is interrupted!,,1
+DEPLOYMENT,30281,Restart Battle,,0
 DEPLOYMENT,30282,Restarting battle will//n<color=#c13939>forfeit current progress//nand any carried ammo and rations.</color>//nThe battle will restart from <color=#c13939>the beginning</color>.,,0
 DEPLOYMENT,30283,Confirm to restart battle?,,0
 DEPLOYMENT,30284,Capture ,,0
 DEPLOYMENT,30285,Send your forces to {0}//nand end your turn to capture node,,0
-DEPLOYMENT,30286,Destroy all third party forces,,0
-DEPLOYMENT,30287,Destroy all enemy forces//nincluding S.F. and third party forces,,0
+DEPLOYMENT,30286,Destroy all third party forces,,1
+DEPLOYMENT,30287,Destroy all enemy forces//nincluding S.F. and third party forces,,1
 DEPLOYMENT,30288,Alternative Target,,0
 DEPLOYMENT,30289,This unit can only undergo Emergency Repair at a Heavy Heliport,,0
 DEPLOYMENT,30290,The Support Echelon limit for this map has been reached,,0
 DEPLOYMENT,30291,Defend for specified turns,,0
 DEPLOYMENT,30292,Victory will be achieved//nafter {0} turns,,0
-DEPLOYMENT,30293,There are active enemy anti-air defense measures near this Heliport//c unable to deploy or airdrop on this node.,,0
+DEPLOYMENT,30293,There are active enemy anti-air defense measures near this Heliport//c unable to deploy or airdrop on this node.,,1
 DEPLOYMENT,30294,This Heliport is under the effect of enemy anti-air defense//c unable to deploy or airdrop,,0
 DEPLOYMENT,30295,Destroy third party BOSS,,0
 DEPLOYMENT,30296,Eliminate third party BOSS within the turn limit,,0
@@ -1420,16 +1499,16 @@ DEPLOYMENT,30303,Already achieved this playthrough,,0
 DEPLOYMENT,30304,Already selected a story line in this playthrough. Please <color=#5F82E2FF>backtrack</color> if you wish to select a different story line.,,0
 DEPLOYMENT,30305,Completing different mission objectives will affect the outcome of the plot. Please consider carefully.,,0
 DEPLOYMENT,30306,Complete 1 of the following objectives,,0
-DEPLOYMENT,30307,Complete the 2 objectives on the left or the rightmost objective,,0
+DEPLOYMENT,30307,Complete the 2 objectives on the left or the rightmost objective,,1
 DEPLOYMENT,30308,Unknown victory condition,,0
 DEPLOYMENT,30309,Please search the map for intel,,0
 DEPLOYMENT,30310,No rewards available,,0
 DEPLOYMENT,30311,Rescuable T-Dolls,,0
-DEPLOYMENT,30312,*Press on an icon to see her location on the map,,0
-DEPLOYMENT,30313,Rescue list,,0
-DEPLOYMENT,30314,Complete with S rank for a chance at better rewards,,0
+DEPLOYMENT,30312,*Press on an icon to see her location on the map,,1
+DEPLOYMENT,30313,Rescue list,,1
+DEPLOYMENT,30314,Complete with S rank for a chance at better rewards,,1
 DEPLOYMENT,30315,S rank completion condition,,0
-DEPLOYMENT,30316,S rank achieved,,0
+DEPLOYMENT,30316,S rank achieved,,1
 DEPLOYMENT,30317,Rank conditions,,0
 DEPLOYMENT,30318,Night battle guide,,0
 DEPLOYMENT,30319,Commander//c this enemy is detected to be extremely strong. Confirm to attack?,,0
@@ -1439,10 +1518,10 @@ DEPLOYMENT,30322,You must complete the mission <color=#CE8200FF>within {0} round
 DEPLOYMENT,30323,The number of remaining enemies is unknown,,0
 DEPLOYMENT,30324,*Press on an icon to see the location of the reward as long as you have vision over the area,,0
 DEPLOYMENT,30325,Demolished,,0
-DEPLOYMENT,30326,Insufficient Intel Points//c unable to unlock this stage,,0
+DEPLOYMENT,30326,Insufficient Intel Points//c unable to unlock this stage,,1
 DEPLOYMENT,30327,Location of the installation,,0
 DEPLOYMENT,30328,Distance of the location of the installation from {0},,0
-DEPLOYMENT,30329,Pausing and other actions are disabled in Combat Simulation. Repeating this battle will cost {0} Sim Energy. Confirm to <color=#FFB400FF>repeat</color>?,,0
+DEPLOYMENT,30329,Pausing and other actions are disabled in Combat Simulation. Repeating this battle will cost {0} Sim Energy. Confirm to <color=#FFB400FF>repeat</color>?,,1
 DEPLOYMENT,30330,Combat Simulation cannot be paused once in progress. Repeating a combat will consume <color=#FFBE00FF>{0} Combat Sim Points</color>. Do you wish to proceed?,,0
 DEPLOYMENT,30333,Changing effect…,,0
 DEPLOYMENT,30334,This Echelon is paralyzed//c unable to move or retreat at the moment,,0
@@ -1608,9 +1687,60 @@ DEPLOYMENT,30497,Awaiting ally's move...,,0
 DEPLOYMENT,30498,Awaiting third party's move...,,0
 DEPLOYMENT,30499,Non-HOC unit already deployed,,0
 DEPLOYMENT,30500,Talent II activated,,0
-DEPLOYMENT,30501,,,0
-DEPLOYMENT,30502,,,0
-DEPLOYMENT,30503,,,0
+DEPLOYMENT,30501,Proxy Battle,,0
+DEPLOYMENT,30502,Proxy Intervening,,0
+DEPLOYMENT,30503,Enemy Echelons,,0
+DEPLOYMENT,30504,Mobile Operation,,0
+DEPLOYMENT,30505,We are encountering difficulties in the current battle. Proxy Battle will be terminated.,,0
+DEPLOYMENT,30506,Due to certain effects//c this echelon does not have enough AP to move.,,0
+DEPLOYMENT,30507,The following units will soon be repaired.,,0
+DEPLOYMENT,30508,Spend Resources<Color=#FF5B22FF>(Quick Repair)</Color>,,0
+DEPLOYMENT,30509,No self-assembled echelons available.,,0
+DEPLOYMENT,30510,Enable Proxy Battle?,,0
+DEPLOYMENT,30511,This will affect deployed echelons. Proceed?,,0
+DEPLOYMENT,30512,Remaining Repairs,,0
+DEPLOYMENT,30513,Repeat Battle,,0
+DEPLOYMENT,30514,Proxy intervening...,,0
+DEPLOYMENT,30515,Proxy intervening.,,0
+DEPLOYMENT,30516,Deployment in progress,,0
+DEPLOYMENT,30517,Recommended Level,,0
+DEPLOYMENT,30518,Recommended CE,,0
+DEPLOYMENT,30519,Recommended Echelon,,0
+DEPLOYMENT,30520,Current Formation Type,,0
+DEPLOYMENT,30521,Recommended Star-Level,,0
+DEPLOYMENT,30522,*You can deploy as long as your complement matches any of the following:,,0
+DEPLOYMENT,30523,*Enemy information is as follows:,,0
+DEPLOYMENT,30524,Switching to daytime battle,,0
+DEPLOYMENT,30525,Echelon Level:,,0
+DEPLOYMENT,30526,*Recommended Fairy level: <Color=#FFB400FF>≥{0} lvl.</Color>,,0
+DEPLOYMENT,30527,*Recommended Fairy star level: <Color=#FFB400FF>≥{0}</Color>,,0
+DEPLOYMENT,30528,*On this difficulty//c you may need the following Fairies in this stage:,,0
+DEPLOYMENT,30529,*Recommended HOC level: <Color=#FFB400FF>≥{0} lvl.</Color>,,0
+DEPLOYMENT,30530,*Recommended HOC star level: <Color=#FFB400FF>≥{0}</Color>,,0
+DEPLOYMENT,30531,*On this difficulty//c you may need the following HOC units in this stage:,,0
+DEPLOYMENT,30532,Target Guide,,0
+DEPLOYMENT,30533,Skill Obtained,,0
+DEPLOYMENT,30534,Insufficient resources. Proxy battle terminated.,,0
+DEPLOYMENT,30535,Insufficient resources. Unable to deploy echelon.,,0
+DEPLOYMENT,30536,Open with the camera zoom setting from your previous clear?,,0
+DEPLOYMENT,30537,Efficiency Level unlocked,,0
+DEPLOYMENT,30538,Conditions met,,0
+DEPLOYMENT,30539,Efficiency Level,,0
+DEPLOYMENT,30540,RPK-16 is quite formidable. Please ensure all DEFY members are in the echelon before engaging her in battle.,,0
+DEPLOYMENT,30541,,,0
+DEPLOYMENT,30542,,,0
+DEPLOYMENT,30543,,,0
+DEPLOYMENT,30544,,,0
+DEPLOYMENT,30545,,,0
+DEPLOYMENT,30546,,,0
+DEPLOYMENT,30547,,,0
+DEPLOYMENT,30548,,,0
+DEPLOYMENT,30549,,,0
+DEPLOYMENT,30550,,,0
+DEPLOYMENT,30551,,,0
+DEPLOYMENT,30552,,,0
+DEPLOYMENT,30553,,,0
+DEPLOYMENT,30554,,,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -1917,8 +2047,8 @@ DORM,31701,Garage,,0
 DORM,31703,Battery x{0},,0
 DORM,31704,T-Dolls under the max level will obtain <color=#ffb400>Surplus EXP</color> in battle//c the amount will equal to <color=#ffb400>{0}%</color> of EXP earned in battle,,0
 DORM,31705,Max level T-Dolls will obtain <color=#ffb400>Surplus EXP</color> in battle//c the amount will equal to <color=#ffb400>{0}%</color> of EXP they're supposed to earn in battle,,0
-DORM,31706,Give costume [<color=#ffb400ff>{0}</color>]//nto Kalina for safekeeping?//n//n<size=40><color=#e31414ff>Kalina will not receive Affection. Automatically unlock the costume when you obtain the corresponding T-Doll.</color></size>,,0
-DORM,31707,Costume[<color=#ffb400ff>{0}</color>]unlocked. Once you obtain the corresponding T-Doll//c you can go to her <color=#ffb400ff>T-Doll page</color> to change her costume.,,0
+DORM,31706,Give costume gift [<color=#ffb400ff>{0}</color>] to Kalina//n for safekeeping?,,0
+DORM,31707,After obtaining the T-Doll//c you can change it on the <color=#ffb400ff>T-Doll Stats interface</color>.,,0
 DORM,31708,Poster,,0
 DORM,31709,Obtained <color=#FFB400FF>{0} batteries</color>. Battery capacity limit reached//c the extra batteries will remain in the condenser.,,0
 DORM,31710,Battery capacity limit reached//c <color=#ffb400>unable to collect</color>,,0
@@ -2142,7 +2272,34 @@ DORM,31943,You have reached the max. capacity of the following items and cannot 
 DORM,31944,Obtain,,0
 DORM,31945,Open Compensation,,0
 DORM,31946,You have reached the max. capacity of some rewards and cannot obtain more. Please check the rewards shelves.,,0
-DORM,31947,,,0
+DORM,31947,Select Chip star-level to be recycled.,,0
+DORM,31948,Likes: <color=#ffb400>{0}/{1}</color>,,0
+DORM,31949,Friendship Points Obtained:,,0
+DORM,31950,Likes Today:,,0
+DORM,31951,*You have already obtained this costume. Gift it to obtain a poster and Black Card.,,0
+DORM,31952,Gift this costume to {0}?,,0
+DORM,31953,Costume gifted.,,0
+DORM,31954,Obtained poster [<color=#ffb400ff>{0}</color>] x1,,0
+DORM,31955,Obtained [<color=#ffb400ff>Black Card</color>] x1,,0
+DORM,31956,Icon [<color=#ffb400ff>{0}</color>] can now be purchased at the <color=#ffb400ff>Shop</color>.,,0
+DORM,31957,T-Doll Affection,,0
+DORM,31959,Costume Preview,,0
+DORM,31960,*You have already obtained this costume.,,0
+DORM,31961,Costumes in storage will not grant Affection. The costume will be unlocked automatically when you obtain the corresponding T-Doll.,,0
+DORM,31962,,,0
+DORM,31963,,,0
+DORM,31964,,,0
+DORM,31965,,,0
+DORM,31966,,,0
+DORM,31967,,,0
+DORM,31968,,,0
+DORM,31969,,,0
+DORM,31970,,,0
+DORM,31971,,,0
+DORM,31972,,,0
+DORM,31973,,,0
+DORM,31974,,,0
+DORM,31975,,,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -2466,7 +2623,22 @@ FACTORY,32321,Tap to Enter,,0
 FACTORY,32322,1. The ratio of the type of Fairy you obtain changes depending on the amount of resources invested.//n2. Reinforcement-type and Combat-type Fairies require more resources to obtain.//n3. Expending more contracts and cores increases the chance of obtaining Reinforcement-type and Combat-type Fairies.,,0
 FACTORY,32323,This production recipe is very unlikely to produce a high-quality yield.,,0
 FACTORY,32324,Fairy Production,,0
-FACTORY,32325,,,0
+FACTORY,32325,*Using recommended recipes can greatly increase your chance of pulling specific Fairy types.,,0
+FACTORY,32326,(The new Callback Anchored Production will reset the current Anchored Production progress. Make sure you complete your construction in time.),,0
+FACTORY,32327,Please utilize your Callback Anchored Production freebie before it expires.,,0
+FACTORY,32328,Anchored Production rules for returning Commanders: //n1. The Commander can select a specific Doll from a list of Dolls as their Target. Click the Begin Production button on the Anchored Production Interface and perform Production using the provided recipes. //n2. Should an Anchored Production fail//c it will temporarily increase the success rate of the next Anchored Production//c to a maximum of 100%. This temporary increase will reset to 0 if the Anchored Target is obtained ahead of time. //n3. The temporarily increased chance of success obtained through failed productions will be retained and will not reset when the Anchored Target is changed.//n4. For the one-off Anchored Production for returning Commanders//c only 1 Doll can be obtained through a successful Anchored Production and only one Anchored Production can be successful. The Commander can select the same Anchored Target for other Anchored Productions. The event will end when a Doll has been successfully produced or when the even naturally expires.//n5. After performing the required number of Anchored Productions//c success in producing the Anchored Target is guaranteed. //n6. The initial success rate of Anchored Production is unrelated to Factory Productions.,,0
+FACTORY,32329,,,0
+FACTORY,32330,,,0
+FACTORY,32331,,,0
+FACTORY,32332,,,0
+FACTORY,32333,,,0
+FACTORY,32334,,,0
+FACTORY,32335,,,0
+FACTORY,32336,,,0
+FACTORY,32337,,,0
+FACTORY,32338,,,0
+FACTORY,32339,,,0
+FACTORY,32340,,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2532,6 +2704,10 @@ DEVELOP,33061,Units in this echelon require repair//c unable to deploy.,,0
 DEVELOP,33063,Quick//nRepair Contract,,0
 DEVELOP,33064,1 Quick Repair will be used,,0
 DEVELOP,33065,Stage with drops still locked,,0
+DEVELOP,33066,This skill is at maximum level!,,0
+DEVELOP,33067,No Quick Training Contracts needed.,,0
+DEVELOP,33068,You have many skill upgrades that require training time.,,0
+DEVELOP,33069,,,0
 ILLUSTRATEDBOOK,35000,Tactical Dolls,,0
 ILLUSTRATEDBOOK,35001,TacticalGirls,,0
 ILLUSTRATEDBOOK,35002,Furniture,,0
@@ -2721,7 +2897,17 @@ ILLUSTRATEDBOOK,35188,Switch to Pre-Evolution,,0
 ILLUSTRATEDBOOK,35189,Switch to Post-Evolution,,0
 ILLUSTRATEDBOOK,35190,This Fairy cannot be modified yet. Coming soon.,,0
 ILLUSTRATEDBOOK,35191,Protocol Assimilation Department,,0
-ILLUSTRATEDBOOK,35192,,,0
+ILLUSTRATEDBOOK,35192,Personnel Information,,0
+ILLUSTRATEDBOOK,35193,Unlocked,,0
+ILLUSTRATEDBOOK,35194,Locked,,0
+ILLUSTRATEDBOOK,35195,How to Use,,0
+ILLUSTRATEDBOOK,35196,Tenacity,,0
+ILLUSTRATEDBOOK,35197,Long-press to view details,,0
+ILLUSTRATEDBOOK,35198,The Neural Upgrade system is locked. Please unlock it first.,,0
+ILLUSTRATEDBOOK,35199,The Past Recollection system is locked. Please unlock it first.,,0
+ILLUSTRATEDBOOK,35205,,,0
+ILLUSTRATEDBOOK,35206,,,0
+ILLUSTRATEDBOOK,35207,,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -2852,6 +3038,10 @@ MAIL,37044,Mail Deleted,,0
 MAIL,37045,Collect Attached Items,,0
 MAIL,37046,Resending Daily Rewards,,0
 MAIL,37047,Dear Commander//c I noticed you hadn't collected your rewards from yesterday when I was sorting things out. I've packed them up for you//c make sure to take them!,,0
+MAIL,37048,Only show pinned messages,,0
+MAIL,37049,You cannot pin any more messages,,0
+MAIL,37050,The rewards in this message have expired and cannot be collected.,,0
+MAIL,37051,This message has expired. It will be automatically deleted once it is unpinned.,,0
 QUESTS,38000,Progress,,0
 QUESTS,38001,Quests,,0
 QUESTS,38002,QUESTS,,0
@@ -2943,6 +3133,10 @@ QUESTS,38090,Purchase {0} levels. Rewards for reaching Level {1} now unlocked.,,
 QUESTS,38091,*You have accumulated enough medals to unlock the rewards.,,0
 QUESTS,38092,Remaining Time (Week),,0
 QUESTS,38093,Can be obtained with each additional level when Protocol Level is above 45.,,0
+QUESTS,38094,Available for purchase when Frontline Protocol reaches level <Color=#ffb300>{0}</Color>.,,0
+QUESTS,38095,Level 45,,0
+QUESTS,38096,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}</color>. Proceed?//nYou have not unlocked this T-Doll!,,0
+QUESTS,38097,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}</color> and <color=#e7a300>Black Card*{1}</color>. Proceed?//nYou have not unlocked this T-Doll yet!,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -3397,14 +3591,65 @@ MISSIONSELECTION,40417,Full-Scale Expedition Successful,,0
 MISSIONSELECTION,40418,Echelon Expedition Successful,,0
 MISSIONSELECTION,40419,Rewards Unobtained,,0
 MISSIONSELECTION,40420,Battle Tips,,0
-MISSIONSELECTION,40421,,,0
-MISSIONSELECTION,40422,,,0
-MISSIONSELECTION,40423,,,0
-MISSIONSELECTION,40424,,,0
-MISSIONSELECTION,40425,,,0
-MISSIONSELECTION,40426,,,0
-MISSIONSELECTION,40427,,,0
-MISSIONSELECTION,40428,,,0
+MISSIONSELECTION,40421,Story Stage,,0
+MISSIONSELECTION,40422,No recommended echelon,,0
+MISSIONSELECTION,40423,Recommended Echelon:,,0
+MISSIONSELECTION,40424,Recommended T-Doll Level <Color=#FFB400FF>≥{0}</Color>; CE <Color=#FFB400FF>≥{1}</Color>.,,0
+MISSIONSELECTION,40425,Recommended Coalition Unit Level <Color=#FFB400FF>≥{0}</Color>; CE <Color=#FFB400FF>≥{1}</Color>.,,0
+MISSIONSELECTION,40426,Recommended Fairy Level <Color=#FFB400FF>≥{0}</Color>; Star-Level <Color=#FFB400FF>≥{1}</Color>.,,0
+MISSIONSELECTION,40427,Recommended HOC Unit Level <Color=#FFB400FF>≥{0}</Color>; CE <Color=#FFB400FF>≥{1}</Color>.,,0
+MISSIONSELECTION,40428,Event Locked,,0
+MISSIONSELECTION,40429,Stage Rewards Preview,,0
+MISSIONSELECTION,40430,Search,,0
+MISSIONSELECTION,40431,Difficulty Settings,,0
+MISSIONSELECTION,40432,Gray Zone Exploration is a campaign event.//n2. After selecting your difficulty level//c each exploration will be completely different.//n3. The player can spend exploration tokens and resources to enter the Gray Zone//c rescue Dolls and score points.//n4. After completing a Gray Zone Exploration//c you will gain generous rewards.//n5. After a certain interval//c the Dolls available for rescue in the Gray Zone will change.//n6. More mysteries await within!//n,,0
+MISSIONSELECTION,40433,Wave {0},,0
+MISSIONSELECTION,40434,First-Clear Reward,,0
+MISSIONSELECTION,40435,Regular Reward,,0
+MISSIONSELECTION,40436,First-clear reward obtained,,0
+MISSIONSELECTION,40437,1. Point rewards are given through Gray Area Exploration.//n2. Point rewards will be permanently available along with Gray Zone Exploration.//n3. Point rewards will be updated and rotated periodically.//n4. There are two kinds of point rewards//c [First Clear Rewards] and [Standard Rewards]. The former is more generous than the latter.//n5. Obtain points in Gray Zone Exploration (by completing incidents and clearing the whole map) to unlock rewards//c which are dispatched automatically.//n6. Once you have received the [First Clear Rewards] of the current season//c [First Clear Rewards] will be disabled//c and you will receive [Standard Rewards] instead.//n7. [Standard Rewards] are unlocked in a cycle. Once the last slot is completed//c the rewards will be automatically reset to the first slot.//n8. [First Clear Rewards] will be reset every time you score is refreshed.//n9. Your current score will reset to 0 every time you refresh your score.,,0
+MISSIONSELECTION,40438,Single Duration,,0
+MISSIONSELECTION,40439,Total Duration,,0
+MISSIONSELECTION,40440,No. of Attempts,,0
+MISSIONSELECTION,40441,Mission Requirements,,0
+MISSIONSELECTION,40442,Deployable Fairies,,0
+MISSIONSELECTION,40443,Changed,,0
+MISSIONSELECTION,40444,Current resources are about to reach their storage limit. Resources that exceed the limit will be <color=#ffb400>lost</color>. Proceed with logistic support mission?//n<size=40><color=grey>We recommend canceling the mission and changing the number of repeat missions to {0}.</color></size>,,0
+MISSIONSELECTION,40445,Current resources are about to reach their storage limit. Resources that exceed the limit will be <color=#ffb400>lost</color>. Proceed with the expedition using the same setup?//n<size=40><color=grey>We recommend canceling the expedition and changing the number of repeat missions to {0}.</color></size>,,0
+MISSIONSELECTION,40446,This module is unlocked by clearing 60 different stages and unlocking stage 8-6.,,0
+MISSIONSELECTION,40447,Deployable HOC Units,,0
+MISSIONSELECTION,40448,Changes have been detected in the current stage. Please exit the stage.,,0
+MISSIONSELECTION,40449,Battle Record,,0
+MISSIONSELECTION,40450,Total No. of Attempts,,0
+MISSIONSELECTION,40451,No. of Elites Encountered,,0
+MISSIONSELECTION,40452,No. of Completed Drills,,0
+MISSIONSELECTION,40453,Entering Day Battle,,0
+MISSIONSELECTION,40454,You cannot withdraw this echelon!,,0
+MISSIONSELECTION,40455,A Fairy has not been assigned to this echelon. Proceed with the battle?,,0
+MISSIONSELECTION,40456,No HOC units have been deployed. Proceed with the battle?,,0
+MISSIONSELECTION,40457,**Gray Zone Exploration Total Count,,0
+MISSIONSELECTION,40458,Pending Gray Zone information,,0
+MISSIONSELECTION,40459,Standard reward available upon completion,,0
+MISSIONSELECTION,40460,Reset upon completion,,0
+MISSIONSELECTION,40461,The 6th Detachment of the Border Surveillance Corps accidentally discovered a mysterious area where no one has gone before during a routine exploration. They decided to take a risk and entered the area//c but ended up going missing for days... When they finally returned//c they brought back some unexpected loot. The Commander has decided to deploy forces and explore this area. Now//c the time has come.,,0
+MISSIONSELECTION,40462,Enemy Level,,0
+MISSIONSELECTION,40463,Battlefield Record,,0
+MISSIONSELECTION,40464,Search Operation,,0
+MISSIONSELECTION,40465,First Clear,,0
+MISSIONSELECTION,40466,Open Scoring Map,,0
+MISSIONSELECTION,40467,,,0
+MISSIONSELECTION,40468,,,0
+MISSIONSELECTION,40469,,,0
+MISSIONSELECTION,40470,,,0
+MISSIONSELECTION,40471,,,0
+MISSIONSELECTION,40472,,,0
+MISSIONSELECTION,40473,,,0
+MISSIONSELECTION,40474,,,0
+MISSIONSELECTION,40475,,,0
+MISSIONSELECTION,40476,,,0
+MISSIONSELECTION,40477,,,0
+MISSIONSELECTION,40492,No Skills,,0
+MISSIONSELECTION,40493,Range,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -3552,7 +3797,7 @@ RESEARCH,51094,Unlock Talent II,,0
 RESEARCH,51095,Evolution EXP,,0
 RESEARCH,51096,View Evolution Guide,,0
 RESEARCH,51097,Evolution III Enhancement,,0
-RESEARCH,51098,,,0
+RESEARCH,51098,Switch to Post-Evolution,,0
 RESEARCH,51099,Evolution Module,,0
 RESEARCH,51100,Tap "Cancel" to deselect Fairy,,0
 RESEARCH,51101,Each Fairy can undergo a maximum of three Evolution Breakthroughs.,,0
@@ -3723,6 +3968,7 @@ SETTING,52150,Max,,0
 SETTING,52151,Current number of Rename Cards: {0},,0
 SETTING,52152,Effect of Selected T-Doll,,0
 SETTING,52153,*Slow down time when a T-Doll is selected.,,0
+SETTING,52154,Simplify Damage Numbers,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -3888,6 +4134,7 @@ EQUIP,54113,Enhancement at maximum,,0
 EQUIP,54114,Calibration Complete,,0
 EQUIP,54115,Currently Equipped On,,0
 EQUIP,54116,Idle,,0
+EQUIP,54117,Equipment*{0},,0
 SEPCIALOPS,60000,Operation: Cube,,0
 SEPCIALOPS,60001,Details,,0
 SEPCIALOPS,60002,In combat,,0
@@ -4007,7 +4254,7 @@ SEPCIALOPS,60115,Nightmare,,0
 SEPCIALOPS,60116,Normal,,0
 SEPCIALOPS,60117,Time,,0
 SEPCIALOPS,60118,HP,,0
-SEPCIALOPS,60119,,,0
+SEPCIALOPS,60119,<color=#d0d0d0>{0}</color>/{1},,0
 SEPCIALOPS,60120,Calculate result,,0
 SEPCIALOPS,60121,Continue battle,,0
 SEPCIALOPS,60122,Infinity Mode,,0
@@ -4602,6 +4849,60 @@ SEPCIALOPS,60713,,,0
 SEPCIALOPS,60714,,,0
 SEPCIALOPS,60715,,,0
 SEPCIALOPS,60716,,,0
+SEPCIALOPS,60718,,,0
+SEPCIALOPS,60719,,,0
+SEPCIALOPS,60720,,,0
+SEPCIALOPS,60721,I remember... that the winters in Beslan were frigid.,,0
+SEPCIALOPS,60722,That MP-443... I still have it with me.,,0
+SEPCIALOPS,60723,People's guns are always pointed at the weak.,,0
+SEPCIALOPS,60724,My brother can never turn a blind eye to the weak.,,0
+SEPCIALOPS,60725,I haven't fought with them in a very long time.,,0
+SEPCIALOPS,60726,How could I have fallen for this kind of trick back then...,,0
+SEPCIALOPS,60727,And so begins the tale of Laplace's demon and Abaddon.,,0
+SEPCIALOPS,60728,I still believe that time will tell everything.,,0
+SEPCIALOPS,60729,One only has the will to fight if they know the reason they're fighting for.,,0
+SEPCIALOPS,60730,If everything in life is futile//c what is the point in struggling?,,0
+SEPCIALOPS,60731,One must fight for survival//c even if one has no reason to live.,,0
+SEPCIALOPS,60732,The shortest distance between two points is a straight line.,,0
+SEPCIALOPS,60733,Farewell//c Ramzan. Farewell//c Marsha.,,0
+SEPCIALOPS,60734,Commander Abaddon//c what an impressive name...,,0
+SEPCIALOPS,60735,As a Doll//c you just have to carry out your mission. Don't think about stupid things.,,0
+SEPCIALOPS,60736,Who in their right mind would come up with the idea of hiding stuff in the eyes of the wolf statues...,,0
+SEPCIALOPS,60737,LAMG//c stop wasting vodka.,,0
+SEPCIALOPS,60738,Griffin Dolls//c don't tell anyone you've served under my command...,,0
+SEPCIALOPS,60739,For you//c however many times it takes...,,0
+SEPCIALOPS,60740,Fight me one more time//c brother.,,0
+SEPCIALOPS,60741,Ending it all with a bang... Isn't it romantic?,,0
+SEPCIALOPS,60742,A melody from a hundred-year-old record is still remembered today. Will the world be a better place in a hundred years because of me?,,0
+SEPCIALOPS,60743,This isn't the first time I've fought the White Faction//c nor will it be the last.,,0
+SEPCIALOPS,60744,This is merely the beginning.,,0
+SEPCIALOPS,60745,If... Sadly//c there are no ifs.,,0
+SEPCIALOPS,60746,Standpoint is but a banal frivolity.,,0
+SEPCIALOPS,60747,Hope. In the end//c it's always the most hurtful thing.,,0
+SEPCIALOPS,60748,I've tried. Have you?,,0
+SEPCIALOPS,60749,Another dull city//c but with some interesting characters.,,0
+SEPCIALOPS,60750,My life is my own. Not even my family can interfere...,,0
+SEPCIALOPS,60751,Is Griffin's promotional slogan really not a scam?,,0
+SEPCIALOPS,60752,If I could do this all over again//c would it end any differently?,,0
+SEPCIALOPS,60753,Who is it? Who's there...?,,0
+SEPCIALOPS,60754,Angelia,,0
+SEPCIALOPS,60755,Anna,,0
+SEPCIALOPS,60756,Junior Lieutenant Angelia,,0
+SEPCIALOPS,60757,Commander Angelia,,0
+SEPCIALOPS,60758,Agent Angelia,,0
+SEPCIALOPS,60759,RO635,,0
+SEPCIALOPS,60760,Ange//c talk to me. I'll keep going even if you think I'm a bother...,,0
+SEPCIALOPS,60761,I will not return empty-handed.,,0
+SEPCIALOPS,60762,Hela has been appearing at high frequencies...,,0
+SEPCIALOPS,60763,This place is absolutely revolting.,,0
+SEPCIALOPS,60764,Being stuffed inside a Dinergate doesn't seem so bad now.,,0
+SEPCIALOPS,60765,Now that the purifiers are disabled//c I don't have much time.,,0
+SEPCIALOPS,60766,I probably have no place in her plan.,,0
+SEPCIALOPS,60767,I can't leave her to face everything on her own.,,0
+SEPCIALOPS,60768,The real battle has only just begun. I will fight to the bitter end.,,0
+SEPCIALOPS,60769,,,0
+SEPCIALOPS,60770,,,0
+SEPCIALOPS,60771,,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -4638,6 +4939,7 @@ GASHAPON,70032,Time-Limited Exchange,,0
 GASHAPON,70033,40% OFF,,0
 GASHAPON,70034,1,,0
 GASHAPON,70035,11,,0
+GASHAPON,70036,Redeeming this item will cost <color=#FFB400FF>{0} Black Cards</color>//c//r proceed?//n(You have not obtained this T-Doll yet!),,0
 MALL,71000,Increase T-Doll Capacity,,0
 MALL,71001,Add T-Doll Production Slot,,0
 MALL,71002,Add Repair Slot,,0
@@ -4796,8 +5098,28 @@ MALL,71156,Potential Energy sold out for today,,0
 MALL,71157,Buy Sim Energy,,0
 MALL,71158,Buy Potential Energy,,0
 MALL,71159,Content Preview,,0
-MALL,71160,,,0
-MALL,71161,,,0
+MALL,71160,Remastered Shop,,0
+MALL,71161,The shop opens when Frontline Protocol reaches level {0}.,,0
+MALL,71162,Head to Selection,,0
+MALL,71163,Twist,,0
+MALL,71164,Mystery Box Information,,0
+MALL,71165,You have not obtained this T-Doll yet!,,0
+MALL,71166,Current Price:,,0
+MALL,71167,Costume Mystery Box,,0
+MALL,71168,Costume Mystery Box Test Language Pack,,0
+MALL,71169,Purchase a Costume Mystery Box that's full of surprises for ￥{0}?,,0
+MALL,71170,Once you have picked your desired costume//c you can't amend your choice. Confirm?,,0
+MALL,71171,Draw,,0
+MALL,71172,Here are {0} costumes that you might like,,0
+MALL,71173,Remaining Costumes,,0
+MALL,71174,Costumes to be Selected,,0
+MALL,71175,Selected Costumes,,0
+MALL,71176,Please select {0}/{1} Costumes,,0
+MALL,71177,Sold Out,,0
+MALL,71178,,,0
+MALL,71179,,,0
+MALL,71180,,,0
+MALL,71181,,,0
 DOWNLOAD,80000,Resuming download of incomplete data files.,,0
 DOWNLOAD,80001,Please ensure that your device has at least ,,0
 DOWNLOAD,80002, memory! Continue?,,0
@@ -5086,7 +5408,7 @@ OTHER,100187,No Coalition Units available for Analysis.,,0
 OTHER,100188,,,0
 OTHER,100189,She's waiting for you...to raise the curtains on a glorious new stage.,,0
 OTHER,100190,You're about to lead her away from the past… The future is reflected in her eyes.,,0
-OTHER,100191,Continua,,0
+OTHER,100191,Continue,,0
 OTHER,100192,This feature is locked. Clear missions and increase your Commander level to unlock more features.,,0
 OTHER,100193,No items obtained//c//n maximum amount of items exceeded.,,0
 OTHER,100195,Maximum number of disassembly selections has been reached//c no more units can be selected.,,0
@@ -5094,6 +5416,131 @@ OTHER,100196,Commander:,,0
 OTHER,100197,Upon terminating Auto Battles//c rewards will be given for battles that have been completed//c while resources for incomplete battles will be refunded. Incomplete battles yield no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100198,Upon terminating Auto Battles//c resources for incomplete battles will be refunded//c but you will gain no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100199,Customer Service Email Address: support@sunborngame.com,,0
+OTHER,100200,This unit is currently on a mission and cannot be swapped out.,,0
+OTHER,100201,Round Change {0},,0
+OTHER,100202,Round {0},,0
+OTHER,100203,Battle {0},,0
+OTHER,100204,Continuous,,0
+OTHER,100205,Score Obtained,,0
+OTHER,100206,Current Environment,,0
+OTHER,100207,Total Score: {0},,0
+OTHER,100208,Clear Points: {0},,0
+OTHER,100209,Kill Points: {0},,0
+OTHER,100210,Points,,0
+OTHER,100211,,,0
+OTHER,100212,,,0
+OTHER,100213,,,0
+OTHER,100214,,,0
+OTHER,100215,,,0
+OTHER,100216,,,0
+OTHER,100217,,,0
+OTHER,100218,,,0
+OTHER,100219,,,0
+OTHER,100220,,,0
+OTHER,100221,,,0
+OTHER,100222,,,0
+OTHER,100223,,,0
+OTHER,100224,,,0
+OTHER,100225,,,0
+OTHER,100226,,,0
+OTHER,100227,,,0
+OTHER,100228,,,0
+OTHER,100229,,,0
+OTHER,100230,,,0
+OTHER,100231,,,0
+OTHER,100232,,,0
+OTHER,100233,,,0
+OTHER,100234,,,0
+OTHER,100235,,,0
+OTHER,100236,,,0
+OTHER,100237,,,0
+OTHER,100238,,,0
+OTHER,100239,,,0
+OTHER,100240,,,0
+OTHER,100241,,,0
+OTHER,100242,,,0
+OTHER,100243,,,0
+OTHER,100244,,,0
+OTHER,100245,,,0
+OTHER,100246,,,0
+OTHER,100247,,,0
+OTHER,100248,,,0
+OTHER,100249,,,0
+OTHER,100250,,,0
+OTHER,100251,,,0
+OTHER,100252,,,0
+OTHER,100253,,,0
+OTHER,100254,,,0
+OTHER,100255,,,0
+OTHER,100256,,,0
+OTHER,100257,,,0
+OTHER,100258,,,0
+OTHER,100259,,,0
+OTHER,100260,,,0
+OTHER,100261,,,0
+OTHER,100262,,,0
+OTHER,100263,,,0
+OTHER,100264,,,0
+OTHER,100265,,,0
+OTHER,100266,,,0
+OTHER,100267,,,0
+OTHER,100268,,,0
+OTHER,100269,,,0
+OTHER,100270,,,0
+OTHER,100271,,,0
+OTHER,100272,,,0
+OTHER,100273,,,0
+OTHER,100274,,,0
+OTHER,100275,,,0
+OTHER,100276,,,0
+OTHER,100277,,,0
+OTHER,100278,,,0
+OTHER,100279,,,0
+OTHER,100280,,,0
+OTHER,100281,,,0
+OTHER,100282,,,0
+OTHER,100283,,,0
+OTHER,100284,,,0
+OTHER,100285,,,0
+OTHER,100286,,,0
+OTHER,100287,,,0
+OTHER,100288,,,0
+OTHER,100289,,,0
+OTHER,100290,,,0
+OTHER,100291,,,0
+OTHER,100292,,,0
+OTHER,100293,,,0
+OTHER,100294,,,0
+OTHER,100296,,,0
+OTHER,100297,,,0
+OTHER,100298,,,0
+OTHER,100299,,,0
+OTHER,100300,,,0
+OTHER,100301,,,0
+OTHER,100302,,,0
+OTHER,100303,,,0
+OTHER,100304,,,0
+OTHER,100305,,,0
+OTHER,100306,,,0
+OTHER,100307,,,0
+OTHER,100308,,,0
+OTHER,100309,,,0
+OTHER,100310,,,0
+OTHER,100311,,,0
+OTHER,100312,,,0
+OTHER,100313,,,0
+OTHER,100314,,,0
+OTHER,100315,,,0
+OTHER,100316,,,0
+OTHER,100317,,,0
+OTHER,100318,,,0
+OTHER,100319,,,0
+OTHER,100320,,,0
+OTHER,100321,,,0
+OTHER,100322,,,0
+OTHER,100323,,,0
+OTHER,100324,,,0
+OTHER,100325,,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
 FRIEND,110002,Friend Points,,0
@@ -5156,9 +5603,12 @@ FRIEND,110058,Previewing,,0
 FRIEND,110059,Icon frame changed successfully,,0
 FRIEND,110060,Icon Frame - Alloy Shell,,0
 FRIEND,110061,Default icon,,0
-FRIEND,110062,,,0
-FRIEND,110063,,,0
-FRIEND,110064,,,0
+FRIEND,110062,No custom echelons available at the moment.,,0
+FRIEND,110063,Today's Acquisitions://nDorm Likes {0}/<color=#72FF00FF>{1}</color>//nBattle Support {2}/<color=#72FF00FF>{3}</color>,,0
+FRIEND,110064,Friendship Points: {0}/{1} Times,,0
+FRIEND,110065,Discount,,0
+FRIEND,110066,{0}D {1}H {2}M remaining,,0
+FRIEND,110067,Quota {0}/{1},,0
 BINGO,120001,Random draw,,0
 BINGO,120002,Cancel draw,,0
 BINGO,120003,Choose number,,0
@@ -5603,6 +6053,32 @@ GUIDE,140343,Rewards can be redeemed when you fill up the 【Daily Protocol】 p
 GUIDE,140344,【Daily Key Tasks】 are refreshed at <color=#f27f19>00:00 every day</color>. 【Weekly Key Tasks】 are refreshed <color=#f27f19>at 00:00 every Monday</color>. Take not of how much time you have left for completing your tasks.,,0
 GUIDE,140345,That's everything covered regarding 【Griffin Daily Tasks】. Remember to complete them//c Commander!,,0
 GUIDE,140346,<color=#f27f19>Activity Points</color> contributes to the progress of 【Griffin Weekly】. You can redeem generous rewards upon reaching certain thresholds.,,0
+GUIDE,140347,Commander//c the Border Surveillance Corps just reported that they'd discovered a mysterious area. Please confirm the message immediately!,,0
+GUIDE,140348,Commander//c the Border Surveillance Corps just reported that they'd discovered a mysterious area. Please confirm the message immediately!,,0
+GUIDE,140349,Commander//c according to the data supplied by the 6th Detachment of the Border Surveillance Corps//c the mysterious area should be directly ahead. Please head there immediately.,,0
+GUIDE,140350,Daily Mandatory Tutorial Placeholder 2-1,,0
+GUIDE,140351,There's danger in the area just ahead! You should select the exploration difficulty depending on your level of preparation. Now please select [Dustbowl] difficulty and begin the exploration.,,0
+GUIDE,140352,Daily Mandatory Tutorial Placeholder 3-1,,0
+GUIDE,140353,We're here//c Commander. Every node ahead will trigger different situations. Some with throw us into battle and even pit us against powerful enemies//c while others will cause random incidents. Please respond accordingly.,,0
+GUIDE,140354,Detailed explanation about the different nodes can be found in the <color=#ffb400ff>Griffin Handbook</color>. You can refer to it anytime.,,0
+GUIDE,140355,You will score <color=#ffb400ff>points</color> for occupying nodes. The more difficult it is to capture a node//c the more points it gives. For example//c the boss node gives a lot more points. You will also gain bonus <color=#ffb400ff>points</color> for occupying all interactable nodes in the area. Once your score reaches a certain threshold//c you will be rewarded with <color=#ffb400ff>loot</color>! Try to be as thorough as you can//c Commander!,,0
+GUIDE,140356,Oh//c by the way//c Commander//c time will pass every time a battle takes place//c and battles will switch between <color=#ffb400ff>day and night modes</color>//c so please keep that in mind.,,0
+GUIDE,140357,You can also use the reset feature anytime to rest the <color=#ffb400ff>difficulty level of the exploration area</color>. That's all for now//c I've leave you to discover the rest! Good luck!,,0
+GUIDE,140358,Damage: Determines the strength of a Doll's single attack.//nAccuracy: Determines the chance of a Doll's attack hitting its target.//nEvasion: Determines the chance of a Doll evading an enemy attack.//nRate of Fire: Determines a Doll's attack speed (or reload speed for MG Dolls)//nRate of Fire Cap: Determines the maximum value of a Doll's attack speed.//nHP: Determines a Doll's survivability. A Doll can no longer fight when her HP reaches 0.//nRepair: Determines the amount of HP that a Doll with no critical damage can regenerate after each turn.//nArmor: Determines a Doll's ability to defend against enemy attacks.//nGrowth: Determines how well a Doll's stats improve as she levels up.,,0
+GUIDE,140360,Damage: Determines the strength of a unit's single attack.//nAccuracy: Determines the chance of a unit's attack hitting its target.//nEvasion: Determines the chance of a unit evading an enemy attack.//nCritical Hit Rate: Determines the chance of a unit's attack dealing bonus critical damage.//nArmor-Piercing: Determines the ability of a unit's attack to pierce through enemy armor.//nAttack Speed: Determines a unit's speed of attack.//nHP: Determines a unit's survivability. A Doll can no longer fight when their HP reaches 0.//nCritical Hit Damage: Determines the strength of a unit's critical hit.//nMovement Speed: Determines a unit's speed of movement.//nRepair: Determines the amount of HP that a unit with no critical damage can regenerate after each turn.//nResilience: Determines a unit's ability to defend against critical damage.,,0
+GUIDE,140361,Damage: Determines the strength of a Fairy's buff on its echelon members' damage.//nAccuracy: Determines the strength of a Fairy's buff on its echelon members' accuracy.//nEvasion: Determines the strength of a Fairy's buff on its echelon members' evasion.//nArmor: Determines the strength of a Fairy's buff on its echelon members' armor.//nGrowth: Determines how well a Fairy's buffs improve as she levels up.,,0
+GUIDE,140362,Lethality: Determines the strength of an HOC unit's attack.//nPierce: Determines an HOC unit's ability to attack through enemy force fields.//nPrecision: Determines the chance of an HOC unit's attack hitting its target.//nReload: Determines an HOC unit's speed of firing.,,0
+GUIDE,140363,Unit Tags & Recommended Formations,,0
+GUIDE,140364,Buff Tiles. Buffs will take effect on eligible friendly units on the green tiles.,,0
+GUIDE,140365,Unit Skill Description,,0
+GUIDE,140366,Chips for elite Coalition Units can be obtained in Dormitories - Protocol Control Center.,,0
+GUIDE,140367,HOC Chips can be obtained in Dormitories - Intelligence Center.,,0
+GUIDE,140368,Fairy talents can be altered in Factory - Calibration.,,0
+GUIDE,140369,,,0
+GUIDE,140370,,,0
+GUIDE,140371,,,0
+GUIDE,140372,,,0
+GUIDE,140373,,,0
 BEGINNERGUIDE,150000,Please head to the [COMBAT] screen.,,0
 BEGINNERGUIDE,150001,After obtaining the three medals for a mission//c you can use the [Auto-Battle] command.,,0
 BEGINNERGUIDE,150002,Different Auto-Battle missions require different numbers of Echelons to engage.,,0
@@ -5754,6 +6230,7 @@ SPECIALFORGLOBAL,160015,Skill,,0
 SPECIALFORGLOBAL,160016,ROF,,0
 SPECIALFORGLOBAL,160017,Maximum Cost,,0
 SPECIALFORGLOBAL,160018,HP,,0
+SPECIALFORGLOBAL,160019,Repair,,0
 PURCHASE_POOL,170000,Drop Rates Provision,,0
 PURCHASE_POOL,170001,Drop Rates Title,,0
 PURCHASE_POOL,170002,//nRarity ratio//n <Color=#EE798BFF>⭐Costumes</Color>:2%//n ⭐<Color=#FFC600FF>5★ Furniture</Color>:8%//n <Color=#8FC31F>4★ Furniture</Color>:36%//n <Color=#97C9C3>3★ Furniture</Color>:54%//n,,0
@@ -6036,6 +6513,32 @@ SQUAD,190272,Rescue Hostage,,0
 SQUAD,190273,Tap to conduct EXP Training,,0
 SQUAD,190274,Tap to conduct Skill Training,,0
 SQUAD,190275,Iterable,,0
+SQUAD,190276,You currently have Quick Analysis Contract*{0}//c this this quick upgrade will consume {1}. Proceed with quick upgrade?,,0
+SQUAD,190277,Upgrade in progress. Terminate upgrade?,,0
+SQUAD,190278,Unable to quick upgrade. You currently have Quick Analysis Contract*{0}//c while you need {1}.,,0
+SQUAD,190279,Batch Unlock,,0
+SQUAD,190280,Insufficient resources. Unable to proceed with Iteration.,,0
+SQUAD,190281,Level requirement not met. Unable to proceed with Iteration.,,0
+SQUAD,190282,Tap Chip to unlock,,0
+SQUAD,190283,Tap Chip to enhance,,0
+SQUAD,190284,Original Sample*{1} will be substituted with Pure Sample*{0}. Proceed?,,0
+SQUAD,190285,Insufficient Chip points. Please upgrade HOC units to obtain Chip points.,,0
+SQUAD,190286,Insufficient Data Samples. Redirect to [Intelligence Center] to obtain Data Samples?,,0
+SQUAD,190287,If you do not have enough Original Samples//c you can substitute them with Pure Samples.,,0
+SQUAD,190288,Chip Unlocked,,0
+SQUAD,190289,Chip Points,,0
+SQUAD,190290,Unlocked,,0
+SQUAD,190291,Insufficient resources. Please reselect.,,0
+SQUAD,190292,All selections will be canceled. Proceed?,,0
+SQUAD,190293,Iteration Guide,,0
+SQUAD,190294,Upgrading HOC unit,,0
+SQUAD,190295,This unit is currently occupied and cannot be upgraded.,,0
+SQUAD,190296,Waiting Time,,0
+SQUAD,190297,Upgrading,,0
+SQUAD,190298,This HOC unit can only be unlocked with fragments.,,0
+SQUAD,190299,,,0
+SQUAD,190300,,,0
+SQUAD,190301,,,0
 TOAST,200000,Formation has been preset,,0
 TOAST,200001,No available Fairies,,0
 TOAST,200002,Clear {0} different stages to unlock <color=#ffb400>Fairies</color>. Current clears {1}/{2},,0
@@ -7249,11 +7752,23 @@ FORMATION,270054,Auto-Formation,,0
 FORMATION,270055,Automatically appointed as leader of Echelon {0},,0
 FORMATION,270056,{0} has no assigned leader. Please assign a leader.,,0
 FORMATION,270057,Echelon {0},,0
-FORMATION,270058,,,0
-FORMATION,270059,,,0
-FORMATION,270060,,,0
-FORMATION,270061,,,0
-FORMATION,270062,,,0
+FORMATION,270058,Use assigned units,,0
+FORMATION,270059,You are missing units of the following type and cannot form a complete echelon. Continue?,,0
+FORMATION,270060,View List,,0
+FORMATION,270061,Continue,,0
+FORMATION,270062,Use assigned units,,0
+FORMATION,270063,This echelon is currently on a mission and cannot be edited!,,0
+FORMATION,270064,Missing {1} of {0}.,,0
+FORMATION,270065,Front Row Unit,,0
+FORMATION,270066,Back Row Unit,,0
+FORMATION,270067,Leader Unit,,0
+FORMATION,270068,Recommended for this formation,,0
+FORMATION,270069,<color=#FFB400FF>[{0}]</color>,,0
+FORMATION,270070,Leader,,0
+FORMATION,270071,Chip Unlocked,,0
+FORMATION,270072,Original Echelon,,0
+FORMATION,270073,The echelon will undergo the following changes.,,0
+FORMATION,270074,,,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
 MINIGAME,280003,Waiting,,0
@@ -7752,3 +8267,77 @@ MINIGAME,280498,Currently in use,,0
 MINIGAME,280499,Not obtained,,0
 MINIGAME,280500,Selected,,0
 MINIGAME,280501,Chessboard background locked and cannot be used.,,0
+MINIGAME,280502,Confirm game difficulty?,,0
+MINIGAME,280503,Dustbowl,,0
+MINIGAME,280504,Windstorm,,0
+MINIGAME,280505,Vitrified,,0
+MINIGAME,280506,Next switch between day/night mode in {0} turn(s).,,0
+MINIGAME,280507,Insufficient resources. Unable to proceed with exploration.,,0
+MINIGAME,280508,Areas that cannot be explored,,0
+MINIGAME,280509,Your Fairies do not meet the requirements. Unable to proceed with exploration.,,0
+MINIGAME,280510,Your HOC do not meet the requirements. Unable to proceed with exploration.,,0
+MINIGAME,280511,Node Guide Reward,,0
+MINIGAME,280512,The map will be reset upon confirmation.,,0
+MINIGAME,280513,*Easy,,0
+MINIGAME,280514,*Normal,,0
+MINIGAME,280515,*Hard,,0
+MINIGAME,280516,x points,,0
+MINIGAME,280517,*Easy,,0
+MINIGAME,280518,*Normal,,0
+MINIGAME,280519,*Hard,,0
+MINIGAME,280520,Map Drop Points + Map Clear Points,,0
+MINIGAME,280521,Commander//c what would you like to do next?,,0
+MINIGAME,280522,*Recommended Fairy Level <Color=#FFB400FF>--</Color>,,0
+MINIGAME,280523,*Recommended Fairy Star Level <Color=#FFB400FF>--</Color>,,0
+MINIGAME,280524,*Recommended HOC Level <Color=#FFB400FF>--</Color>,,0
+MINIGAME,280525,*Recommended HOC Star Level <Color=#FFB400FF>--</Color>,,0
+MINIGAME,280526,Gray Zone Exploration expenditure deducted,,0
+MINIGAME,280527,Pending Gray Zone information,,0
+MINIGAME,280528,You may select the difficulty level of your choice as long as you ensure you have sufficient combat capability to take on the challenges you will encounter during the exploration. Switching the difficulty level will reset your Gray Zone exploration.//nYou will gain points for exploring the Gray Zone. Once you accumulate the required number of points//c you will unlock a variety of rewards. Points can be scored from drops on each node and map completion.,,0
+MINIGAME,280529,This map has been completely cleared.,,0
+MINIGAME,280530,*Insufficient Exploration Tokens,,0
+MINIGAME,280531,Fairies required,,0
+MINIGAME,280532,HOC required,,0
+MINIGAME,280533,Battle Node,,0
+MINIGAME,280534,Fairy Node,,0
+MINIGAME,280535,HOC Node,,0
+MINIGAME,280536,Boss Node,,0
+MINIGAME,280537,Save the decision for later.,,0
+MINIGAME,280538,,,0
+MINIGAME,280539,,,0
+MINIGAME,280540,,,0
+MINIGAME,280541,,,0
+MINIGAME,280542,,,0
+MINIGAME,280543,,,0
+MINIGAME,280544,,,0
+MINIGAME,280545,,,0
+MINIGAME,280546,,,0
+MINIGAME,280547,,,0
+MINIGAME,280548,,,0
+MINIGAME,280549,,,0
+MINIGAME,280550,,,0
+MINIGAME,280551,,,0
+MINIGAME,280552,,,0
+MINIGAME,280553,,,0
+MINIGAME,280554,,,0
+MINIGAME,280555,,,0
+MINIGAME,280556,,,0
+MINIGAME,280557,,,0
+MINIGAME,280558,,,0
+MINIGAME,280559,,,0
+MINIGAME,280560,,,0
+MINIGAME,280561,,,0
+MINIGAME,280562,,,0
+MINIGAME,280563,,,0
+MINIGAME,280564,,,0
+MINIGAME,280565,,,0
+MINIGAME,280566,,,0
+MINIGAME,280567,,,0
+MINIGAME,280568,,,0
+MINIGAME,280569,,,0
+MINIGAME,280570,,,0
+MINIGAME,280571,,,0
+MINIGAME,280572,,,0
+MINIGAME,280573,,,0
+MINIGAME,280574,,,0
+MINIGAME,280575,- None -,,0

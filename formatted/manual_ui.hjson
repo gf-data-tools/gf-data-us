@@ -34,6 +34,14 @@
     is_manual_target: 2
   }
   {
+    id: 78001
+    code_a: GunBox
+    description_a: Friendly Echelon
+    description_b: Box
+    description_c: Open
+    code_b: Console_Icon
+  }
+  {
     id: 363001
     code_a: Boomer
     description_a: Friendly Echelons
@@ -1897,6 +1905,89 @@
     code_b: Console_Icon
   }
   {
+    id: 580118
+    code_a: Griffin
+    description_a: Griffin
+    description_b: Adjust Signal
+    description_c: Amplify
+    code_b: Console_Icon
+  }
+  {
+    id: 580119
+    code_a: Griffin
+    description_a: Griffin
+    description_b: Adjust Signal
+    description_c: Reduce
+    code_b: Console_Icon
+  }
+  {
+    id: 580121
+    code_a: Gospelaxis
+    description_a: Griffin
+    description_b: Evangel Axis
+    description_c: Turn Off
+    code_b: Console_Icon
+  }
+  {
+    id: 580122
+    code_a: Griffin
+    description_a: Griffin
+    description_b: Amplify Signal
+    description_c: Amplify Signal
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 580903
+    code_a: Pyxis
+    description_a: Friendly Echelon
+    description_b: Military Turret
+    description_c: Turn Off
+    code_b: Console_Icon
+  }
+  {
+    id: 581702
+    code_a: Detonator
+    description_a: Angelia
+    description_b: Abandoned Building
+    description_c: Detonate
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 583601
+    code_a: Dandelion_Gri
+    description_a: Dandelion
+    description_b: Paradeus
+    description_c: Interference
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 584511
+    code_a: LiftBlue
+    description_a: Friendly Echelon
+    description_b: Elevator
+    description_c: Move
+    code_b: Console_Icon
+  }
+  {
+    id: 584901
+    code_a: AK12
+    description_a: Angelia
+    description_b: AK-12
+    description_c: Assemble
+    code_b: Console_Icon
+  }
+  {
+    id: 584903
+    code_a: AN94
+    description_a: Angelia
+    description_b: AN-94
+    description_c: Assemble
+    code_b: Console_Icon
+  }
+  {
     id: 590001
     code_a: Rouge_590001
     description_a: Friendly Echelons
@@ -2914,6 +3005,105 @@
     description_c: Teleport
     code_b: Console_Icon
     is_manual_target: 2
+  }
+  {
+    id: 610001
+    code_a: 2023RougeSummer_Mixer
+    description_a: Griffin
+    description_c: Start up
+    code_b: Console_Icon
+  }
+  {
+    id: 610002
+    code_a: 2307RGM1
+    description_a: Griffin
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 610003
+    code_a: 2307RGM2
+    description_a: Griffin
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 610011
+    code_a: 2307RG01
+    description_a: Griffin
+    code_b: Console_Icon
+  }
+  {
+    id: 610012
+    code_a: 2307RG02
+    description_a: Griffin
+    code_b: Console_Icon
+  }
+  {
+    id: 610013
+    code_a: 2307RG03
+    description_a: Griffin
+    code_b: Console_Icon
+  }
+  {
+    id: 610014
+    code_a: 2307RG04
+    description_a: Griffin
+    code_b: Console_Icon
+  }
+  {
+    id: 610015
+    code_a: 2307RG05
+    description_a: Griffin
+    code_b: Console_Icon
+  }
+  {
+    id: 610021
+    code_a: 2307RG01
+    description_a: Griffin
+    description_c: Use
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 610022
+    code_a: 2307RG02
+    description_a: Griffin
+    description_c: Use
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 610023
+    code_a: 2307RG03
+    description_a: Griffin
+    description_c: Use
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 610024
+    code_a: 2307RG04
+    description_a: Griffin
+    description_c: Use
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 610025
+    code_a: 2307RG05
+    description_a: Griffin
+    description_c: Use
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 611009
+    code_a: 2023RougeSummer_Mixer
+    description_a: Griffin
+    description_b: Process Transaction
+    description_c: Process Transaction
+    code_b: Console_Icon
   }
   {
     id: 1000101
@@ -4542,6 +4732,40 @@
     code_b: Console_Icon
   }
   {
+    id: 6360001
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Interference
+    description_c: Launch
+    code_b: Console_Icon
+  }
+  {
+    id: 6360002
+    code_a: Build_PortableEMP
+    description_a: Friendly Echelon
+    description_b: EMP
+    description_c: Throw
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6360003
+    code_a: Boomer
+    description_a: Friendly Echelon
+    description_b: Goliath
+    description_c: Throw
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6360004
+    code_a: Griffin
+    description_a: Friendly Echelon
+    description_c: Activate
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
     id: 6380201
     code_a: Console
     description_a: Friendly Echelons
@@ -5912,6 +6136,208 @@
     description_c: Suppress
     code_b: Console_Icon
     is_manual_target: 2
+  }
+  {
+    id: 6580001
+    code_a: Ammobox
+    description_a: Friendly Echelon
+    description_b: Shell
+    description_c: Load
+    code_b: Console_Icon
+  }
+  {
+    id: 6580002
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580003
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580004
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580005
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580006
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580007
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580008
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580009
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580010
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580011
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Select
+    code_b: Console_Icon
+  }
+  {
+    id: 6580012
+    code_a: Ammobox
+    description_a: Friendly Echelon
+    description_b: Ammo
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 6580013
+    code_a: MissileLauncher
+    description_a: Friendly Echelon
+    description_b: Battery
+    description_c: Activate Support
+    code_b: Console_Icon
+  }
+  {
+    id: 6580014
+    code_a: MissileLauncher
+    description_a: Friendly Echelon
+    description_b: Battery
+    description_c: Deactivate Support
+    code_b: Console_Icon
+  }
+  {
+    id: 6580101
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Heart Rate
+    description_c: +10
+    code_b: Console_Icon
+  }
+  {
+    id: 6580102
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Heart Rate
+    description_c: "-10"
+    code_b: Console_Icon
+  }
+  {
+    id: 6580103
+    code_a: AN94
+    description_a: Friendly Echelon
+    description_b: Talk
+    description_c: AN-94
+    code_b: Console_Icon
+  }
+  {
+    id: 6580104
+    code_a: AK15
+    description_a: Friendly Echelon
+    description_b: Talk
+    description_c: AK-15
+    code_b: Console_Icon
+  }
+  {
+    id: 6580105
+    code_a: AK12
+    description_a: Friendly Echelon
+    description_b: Talk
+    description_c: AK-12
+    code_b: Console_Icon
+  }
+  {
+    id: 6580106
+    code_a: Boomer
+    description_a: Friendly Echelon
+    description_b: Detonate
+    description_c: Goliath
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6580107
+    code_a: Plaincloth
+    description_a: Friendly Echelon
+    description_b: Agent
+    description_c: Converse
+    code_b: Console_Icon
+  }
+  {
+    id: 6580108
+    code_a: Spe_misisonskill
+    description_a: Friendly Echelon
+    description_b: Trap
+    description_c: Deploy
+    code_b: Console_Icon
+  }
+  {
+    id: 6580109
+    code_a: Console_P
+    description_a: Friendly Echelon
+    description_b: Passcode Panel
+    description_c: Operate
+    code_b: Console_Icon
+  }
+  {
+    id: 6580110
+    code_a: portalskill
+    description_a: Friendly Echelon
+    description_b: Radar Node
+    description_c: Teleport
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6580111
+    code_a: Control_Center
+    description_a: Friendly Echelon
+    description_b: Control Hub
+    description_c: Turn Off
+    code_b: Console_Icon
   }
   {
     id: 8120301
@@ -7528,6 +7954,79 @@
     description_a: Friendly Echelons
     description_b: Control Terminal
     description_c: Easy Boss
+    code_b: Console_Icon
+  }
+  {
+    id: 95838002
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Evangel Axis
+    description_c: Turn Off
+    code_b: Console_Icon
+  }
+  {
+    id: 95838004
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Control Panel
+    description_c: Crack
+    code_b: Console_Icon
+  }
+  {
+    id: 95838005
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Control Panel I
+    description_c: Unlock
+    code_b: Console_Icon
+  }
+  {
+    id: 95838006
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Control Panel II
+    description_c: Unlock
+    code_b: Console_Icon
+  }
+  {
+    id: 95838007
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Control Panel III
+    description_c: Open
+    code_b: Console_Icon
+  }
+  {
+    id: 95838010
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: EMP Grenades
+    description_c: Throw out
+    code_b: Console_Icon
+    is_manual_target: 1
+  }
+  {
+    id: 95838023
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Adjust Signal
+    description_c: Amplify
+    code_b: Console_Icon
+  }
+  {
+    id: 95838024
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Adjust Signal
+    description_c: Reduce
+    code_b: Console_Icon
+  }
+  {
+    id: 95842008
+    code_a: Console
+    description_a: Friendly Echelon
+    description_b: Fuze
+    description_c: Place
     code_b: Console_Icon
   }
 ]

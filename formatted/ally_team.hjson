@@ -3388,6 +3388,7 @@
   }
   {
     id: 7001
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
@@ -3397,6 +3398,7 @@
   }
   {
     id: 7002
+    name: Fire Team
     guns: "70006,70007,70008,70009,70010"
     enemy_team_id: 1
     initial_type: 1
@@ -3406,6 +3408,7 @@
   }
   {
     id: 7003
+    name: Assault Team B
     guns: "70011,70012,70013,70014,70015"
     enemy_team_id: 1
     initial_type: 1
@@ -3415,6 +3418,7 @@
   }
   {
     id: 7004
+    name: Recon Team A
     guns: "70016,70017,70018,70019,70020"
     enemy_team_id: 1
     initial_type: 1
@@ -3424,6 +3428,7 @@
   }
   {
     id: 7005
+    name: Recon Team B
     guns: "70021,70022,70023,70024,70025"
     enemy_team_id: 1
     initial_type: 1
@@ -3433,6 +3438,7 @@
   }
   {
     id: 7006
+    name: Squad 16
     guns: "70026,70027,70028,70029,70030"
     enemy_team_id: 1
     initial_type: 1
@@ -3442,6 +3448,7 @@
   }
   {
     id: 7007
+    name: Demolition Team
     guns: "70031,70032,70033,70034,70035"
     enemy_team_id: 1
     initial_type: 1
@@ -3451,6 +3458,7 @@
   }
   {
     id: 7008
+    name: Outsourced Team
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
@@ -3460,6 +3468,7 @@
   }
   {
     id: 7009
+    name: Outsourced Team
     guns: "70006,70007,70008,70009,70010"
     enemy_team_id: 1
     initial_type: 1
@@ -3469,6 +3478,7 @@
   }
   {
     id: 7010
+    name: Outsourced Team
     guns: "70011,70012,70013,70014,70015"
     enemy_team_id: 1
     initial_type: 1
@@ -3478,6 +3488,7 @@
   }
   {
     id: 7011
+    name: Outsourced Team
     guns: "70016,70017,70018,70019,70020"
     enemy_team_id: 1
     initial_type: 1
@@ -3487,6 +3498,7 @@
   }
   {
     id: 7012
+    name: Outsourced Team
     guns: "70021,70022,70023,70024,70025"
     enemy_team_id: 1
     initial_type: 1
@@ -3496,6 +3508,7 @@
   }
   {
     id: 7013
+    name: Outsourced Team
     guns: "70026,70027,70028,70029,70030"
     enemy_team_id: 1
     initial_type: 1
@@ -3505,6 +3518,7 @@
   }
   {
     id: 7014
+    name: Outsourced Team
     guns: "70031,70032,70033,70034,70035"
     enemy_team_id: 1
     initial_type: 1
@@ -3514,6 +3528,7 @@
   }
   {
     id: 7015
+    name: Artillery Observer
     guns: "70031,70032,70033,70034,70035"
     enemy_team_id: 1
     initial_type: 1
@@ -3523,120 +3538,159 @@
   }
   {
     id: 7101
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "1,2,23"
+    is_beyond_start: 1
   }
   {
     id: 7102
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "10"
+    is_beyond_start: 1
   }
   {
     id: 7103
+    name: Recon Team
     guns: "70021,70022,70023,70024,70025"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "12"
+    is_beyond_start: 1
   }
   {
     id: 7104
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "14"
+    is_beyond_start: 1
   }
   {
     id: 7105
+    name: Recon Team A
     guns: "70021,70022,70023,70024,70025"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "11"
+    is_beyond_start: 1
   }
   {
     id: 7106
+    name: Fire Team
     guns: "70006,70007,70008,70009,70010"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "3,24"
+    is_beyond_start: 1
   }
   {
     id: 7107
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "4"
+    is_beyond_start: 1
   }
   {
     id: 7108
+    name: Squad 16
     guns: "70026,70027,70028,70029,70030"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "5"
+    is_beyond_start: 1
   }
   {
     id: 7109
+    name: Assault Team B
     guns: "70011,70012,70013,70014,70015"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "6,25"
+    is_beyond_start: 1
   }
   {
     id: 7110
+    name: Recon Team B
     guns: "70016,70017,70018,70019,70020"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "8"
+    is_beyond_start: 1
   }
   {
     id: 7111
+    name: Recon Team A
     guns: "70021,70022,70023,70024,70025"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "9"
+    is_beyond_start: 1
   }
   {
     id: 7112
+    name: Assault Team A
     guns: "70001,70002,70003,70004,70005"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "7"
+    is_beyond_start: 1
   }
   {
     id: 7113
+    name: Fire Team
     guns: "70006,70007,70008,70009,70010"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "13"
+    is_beyond_start: 1
   }
   {
     id: 7201
@@ -3646,6 +3700,8 @@
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_squad: "1,5,7"
+    is_beyond_start: 1
   }
   {
     id: 7202
@@ -3655,9 +3711,12 @@
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_squad: "2,3,4,6"
+    is_beyond_start: 1
   }
   {
     id: 7207
+    name: Demolition Team
     guns: "70066,70067,70068,70069,70070"
     enemy_team_id: 1
     initial_type: 1
@@ -3667,6 +3726,7 @@
   }
   {
     id: 7208
+    name: Outsourced Team
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
@@ -3676,6 +3736,7 @@
   }
   {
     id: 7209
+    name: Outsourced Team
     guns: "70041,70042,70043,70044,70045"
     enemy_team_id: 1
     initial_type: 1
@@ -3685,6 +3746,7 @@
   }
   {
     id: 7210
+    name: Outsourced Team
     guns: "70046,70047,70048,70049,70050"
     enemy_team_id: 1
     initial_type: 1
@@ -3694,6 +3756,7 @@
   }
   {
     id: 7211
+    name: Outsourced Team
     guns: "70051,70052,70053,70054,70055"
     enemy_team_id: 1
     initial_type: 1
@@ -3703,6 +3766,7 @@
   }
   {
     id: 7212
+    name: Outsourced Team
     guns: "70056,70057,70058,70059,70060"
     enemy_team_id: 1
     initial_type: 1
@@ -3712,6 +3776,7 @@
   }
   {
     id: 7213
+    name: Outsourced Team
     guns: "70061,70062,70063,70064,70065"
     enemy_team_id: 1
     initial_type: 1
@@ -3721,6 +3786,7 @@
   }
   {
     id: 7214
+    name: Outsourced Team
     guns: "70066,70067,70068,70069,70070"
     enemy_team_id: 1
     initial_type: 1
@@ -3730,120 +3796,159 @@
   }
   {
     id: 7301
+    name: Assault Team A
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "1,2,23"
+    is_beyond_start: 1
   }
   {
     id: 7302
+    name: Assault Team A
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "10"
+    is_beyond_start: 1
   }
   {
     id: 7303
+    name: Recon Team A
     guns: "70056,70057,70058,70059,70060"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "12"
+    is_beyond_start: 1
   }
   {
     id: 7304
+    name: Assault Team A
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "14"
+    is_beyond_start: 1
   }
   {
     id: 7305
+    name: Recon Team A
     guns: "70056,70057,70058,70059,70060"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "11"
+    is_beyond_start: 1
   }
   {
     id: 7306
+    name: Fire Team
     guns: "70041,70042,70043,70044,70045"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "3,24"
+    is_beyond_start: 1
   }
   {
     id: 7307
+    name: Assault Team A
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "4"
+    is_beyond_start: 1
   }
   {
     id: 7308
+    name: Squad 16
     guns: "70061,70062,70063,70064,70065"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "5"
+    is_beyond_start: 1
   }
   {
     id: 7309
+    name: Assault Team B
     guns: "70046,70047,70048,70049,70050"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "6,25"
+    is_beyond_start: 1
   }
   {
     id: 7310
+    name: Recon Team B
     guns: "70051,70052,70053,70054,70055"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "8"
+    is_beyond_start: 1
   }
   {
     id: 7311
+    name: Recon Team A
     guns: "70056,70057,70058,70059,70060"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "9"
+    is_beyond_start: 1
   }
   {
     id: 7312
+    name: Assault Team A
     guns: "70036,70037,70038,70039,70040"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "7"
+    is_beyond_start: 1
   }
   {
     id: 7313
+    name: Fire Team
     guns: "70041,70042,70043,70044,70045"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2100;0
     ai_content: 0;0;0
     no_battle_damage: -1
+    mapping_fairy: "13"
+    is_beyond_start: 1
   }
   {
     id: 10001
@@ -4608,7 +4713,7 @@
   }
   {
     id: 10060
-    name: Critically Damaged
+    name: Heavily Damaged
     guns: "100601"
     enemy_team_id: 1716
     initial_type: 1
@@ -4623,7 +4728,7 @@
   }
   {
     id: 10061
-    name: Critically Damaged
+    name: Heavily Damaged
     guns: "100601"
     enemy_team_id: 1713
     initial_type: 1
@@ -6267,6 +6372,7 @@
     betray_result_enemy: "570504"
     enemy_panel_type: 1
     no_battle_damage: -1
+    mapping_guns: 引导用
   }
   {
     id: 316001
@@ -14242,6 +14348,7 @@
   }
   {
     id: 580301
+    name: Anna
     guns: "580301"
     enemy_team_id: 1
     initial_type: 1
@@ -14251,6 +14358,7 @@
   }
   {
     id: 580302
+    name: Anna
     guns: "580302"
     enemy_team_id: 1
     initial_type: 1
@@ -14260,6 +14368,7 @@
   }
   {
     id: 580303
+    name: Marsha
     guns: "580303"
     enemy_team_id: 1
     initial_type: 1
@@ -14302,6 +14411,7 @@
   }
   {
     id: 580901
+    name: Anna
     guns: "580901"
     enemy_team_id: 1
     initial_type: 1
@@ -14311,6 +14421,7 @@
   }
   {
     id: 580902
+    name: NSU Main Force
     guns: "58090201,58090202,58090203,58090204,58090205"
     enemy_team_id: 1
     initial_type: 1
@@ -14320,6 +14431,7 @@
   }
   {
     id: 581101
+    name: Anna
     guns: "581101"
     enemy_team_id: 1
     initial_type: 1
@@ -14329,6 +14441,7 @@
   }
   {
     id: 581103
+    name: Ramzan
     guns: "581103"
     enemy_team_id: 1
     initial_type: 1
@@ -14338,6 +14451,7 @@
   }
   {
     id: 581501
+    name: Angelia
     guns: "581501,581502,581503"
     enemy_team_id: 1
     initial_type: 1
@@ -14370,6 +14484,7 @@
   }
   {
     id: 583402
+    name: Destroyer
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2001:10,10;0
@@ -14595,6 +14710,7 @@
   }
   {
     id: 584701
+    name: Anna
     guns: "584701"
     enemy_team_id: 1
     initial_type: 1
@@ -14604,6 +14720,7 @@
   }
   {
     id: 584702
+    name: NSU Main Force
     guns: "58470201,58470202,58470203,58470204,58470205"
     enemy_team_id: 1
     initial_type: 1
@@ -14613,6 +14730,7 @@
   }
   {
     id: 584801
+    name: Anna
     guns: "584801"
     enemy_team_id: 1
     initial_type: 1
@@ -14622,6 +14740,7 @@
   }
   {
     id: 584802
+    name: Ramzan
     guns: "584802"
     enemy_team_id: 1
     initial_type: 1
@@ -14631,6 +14750,7 @@
   }
   {
     id: 584803
+    name: NSU Main Force
     guns: "58480301,58480302,58480303,58480304,58480305"
     enemy_team_id: 1
     initial_type: 1
@@ -14640,6 +14760,7 @@
   }
   {
     id: 584901
+    name: Angelia
     guns: "584901"
     enemy_team_id: 1
     initial_type: 1
@@ -14654,6 +14775,7 @@
   }
   {
     id: 584902
+    name: AK-12
     guns: "584905"
     enemy_team_id: 1
     initial_type: 1
@@ -14667,6 +14789,7 @@
   }
   {
     id: 584903
+    name: AN-94
     guns: "584906"
     enemy_team_id: 1
     initial_type: 1
@@ -14702,6 +14825,7 @@
   }
   {
     id: 585502
+    name: Destroyer
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2001:10,10;0
@@ -14927,6 +15051,7 @@
   }
   {
     id: 587002
+    name: Destroyer
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2001:10,10;0
@@ -15253,7 +15378,7 @@
   }
   {
     id: 610101
-    name: ally_team-10610101
+    name: Regular Army
     guns: "1"
     enemy_team_id: 612312
     initial_type: 2
@@ -15265,7 +15390,7 @@
   }
   {
     id: 611010
-    name: ally_team-10611010
+    name: Sangvis Force
     guns: "1"
     enemy_team_id: 611010
     initial_type: 2
@@ -15277,7 +15402,7 @@
   }
   {
     id: 611011
-    name: ally_team-10611011
+    name: Sangvis Force
     guns: "1"
     enemy_team_id: 611011
     initial_type: 2
@@ -15289,7 +15414,7 @@
   }
   {
     id: 611012
-    name: ally_team-10611012
+    name: Sangvis Force
     guns: "1"
     enemy_team_id: 611012
     initial_type: 2
@@ -15301,7 +15426,7 @@
   }
   {
     id: 612310
-    name: ally_team-10612310
+    name: Regular Army
     guns: "1"
     enemy_team_id: 612310
     initial_type: 2
@@ -15313,7 +15438,7 @@
   }
   {
     id: 612311
-    name: ally_team-10612311
+    name: Regular Army
     guns: "1"
     enemy_team_id: 612311
     initial_type: 2
@@ -15325,7 +15450,7 @@
   }
   {
     id: 612312
-    name: ally_team-10612312
+    name: Regular Army
     guns: "1"
     enemy_team_id: 612312
     initial_type: 2
@@ -15441,7 +15566,6 @@
   }
   {
     id: 1144001
-    name: ally_team-11144001
     enemy_team_id: 1144001
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15449,7 +15573,6 @@
   }
   {
     id: 1144002
-    name: ally_team-11144002
     enemy_team_id: 1144002
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15457,7 +15580,6 @@
   }
   {
     id: 1144003
-    name: ally_team-11144003
     enemy_team_id: 1144003
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15465,7 +15587,6 @@
   }
   {
     id: 1144004
-    name: ally_team-11144004
     enemy_team_id: 1144002
     ai: 102;0;0
     ai_content: 1;0;0
@@ -15473,7 +15594,7 @@
   }
   {
     id: 1144401
-    name: ally_team-11144401
+    name: Agent
     guns: "1"
     enemy_team_id: 1144401
     initial_type: 2
@@ -15483,7 +15604,7 @@
   }
   {
     id: 1144402
-    name: ally_team-11144402
+    name: Agent
     guns: "1"
     enemy_team_id: 1144402
     initial_type: 2
@@ -15493,7 +15614,7 @@
   }
   {
     id: 1144403
-    name: ally_team-11144403
+    name: Agent
     guns: "1"
     enemy_team_id: 1144403
     initial_type: 2
@@ -15503,7 +15624,6 @@
   }
   {
     id: 1145301
-    name: ally_team-11145301
     enemy_team_id: 1145301
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15511,7 +15631,6 @@
   }
   {
     id: 1145302
-    name: ally_team-11145302
     enemy_team_id: 1145302
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15519,7 +15638,6 @@
   }
   {
     id: 1145303
-    name: ally_team-11145303
     enemy_team_id: 1145303
     ai: 103;0;0
     ai_content: 0;0;0
@@ -15527,7 +15645,6 @@
   }
   {
     id: 1145304
-    name: ally_team-11145304
     enemy_team_id: 1145302
     ai: 102;0;0
     ai_content: 1;0;0
@@ -15535,7 +15652,7 @@
   }
   {
     id: 1145701
-    name: ally_team-11145701
+    name: Agent
     guns: "1"
     enemy_team_id: 1145701
     initial_type: 2
@@ -15545,7 +15662,7 @@
   }
   {
     id: 1145702
-    name: ally_team-11145702
+    name: Agent
     guns: "1"
     enemy_team_id: 1145702
     initial_type: 2
@@ -15555,7 +15672,7 @@
   }
   {
     id: 1145703
-    name: ally_team-11145703
+    name: Agent
     guns: "1"
     enemy_team_id: 1145703
     initial_type: 2
@@ -16738,6 +16855,7 @@
   }
   {
     id: 6363001
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363001
     initial_type: 2
@@ -16749,6 +16867,7 @@
   }
   {
     id: 6363002
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363002
     initial_type: 2
@@ -16760,6 +16879,7 @@
   }
   {
     id: 6363003
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363003
     initial_type: 2
@@ -16771,6 +16891,7 @@
   }
   {
     id: 6363004
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363004
     initial_type: 2
@@ -16782,6 +16903,7 @@
   }
   {
     id: 6363005
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363005
     initial_type: 2
@@ -16793,6 +16915,7 @@
   }
   {
     id: 6363006
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363006
     initial_type: 2
@@ -16804,6 +16927,7 @@
   }
   {
     id: 6363007
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363007
     initial_type: 2
@@ -16815,6 +16939,7 @@
   }
   {
     id: 6363008
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363008
     initial_type: 2
@@ -16826,6 +16951,7 @@
   }
   {
     id: 6363009
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363009
     initial_type: 2
@@ -16837,6 +16963,7 @@
   }
   {
     id: 6363010
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363010
     initial_type: 2
@@ -16848,6 +16975,7 @@
   }
   {
     id: 6363011
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363011
     initial_type: 2
@@ -16859,6 +16987,7 @@
   }
   {
     id: 6363012
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363012
     initial_type: 2
@@ -16870,6 +16999,7 @@
   }
   {
     id: 6363013
+    name: Rebels
     guns: "748"
     enemy_team_id: 6363013
     initial_type: 2
@@ -16881,6 +17011,7 @@
   }
   {
     id: 6363045
+    name: Paradeus
     guns: "748"
     enemy_team_id: 6363045
     ai: 103;1;103
@@ -16891,6 +17022,7 @@
   }
   {
     id: 6363046
+    name: Paradeus
     guns: "748"
     enemy_team_id: 6363046
     ai: 103;1;103
@@ -16901,6 +17033,7 @@
   }
   {
     id: 6363047
+    name: Paradeus
     guns: "748"
     enemy_team_id: 6363047
     ai: 103;1;103
@@ -16911,6 +17044,7 @@
   }
   {
     id: 6363048
+    name: Paradeus
     guns: "748"
     enemy_team_id: 6363048
     ai: 103;1;103
@@ -16943,6 +17077,7 @@
   }
   {
     id: 6363083
+    name: Griffin
     guns: "871,872,873,874,875"
     enemy_team_id: 1
     initial_type: 1
@@ -16954,6 +17089,7 @@
   }
   {
     id: 6363084
+    name: Griffin
     guns: "876,877,878,879"
     enemy_team_id: 1
     initial_type: 1
@@ -16987,6 +17123,7 @@
   }
   {
     id: 6363087
+    name: AR Team
     guns: "852,853,854,855"
     enemy_team_id: 1
     initial_type: 1
@@ -16998,6 +17135,7 @@
   }
   {
     id: 6363088
+    name: Squad 404
     guns: "856,857,858,859"
     enemy_team_id: 1
     initial_type: 1
@@ -17009,6 +17147,7 @@
   }
   {
     id: 6363089
+    name: Railgun
     guns: "825"
     enemy_team_id: 1
     initial_type: 1
@@ -19595,6 +19734,7 @@
   }
   {
     id: 6580001
+    name: Logistics Team
     guns: "6540101,6540102,6540103,6540104,6540105"
     enemy_team_id: 1
     initial_type: 1
@@ -19604,6 +19744,7 @@
   }
   {
     id: 6580002
+    name: Logistics Team
     guns: "6540201,6540202,6540203,6540204,6540205"
     enemy_team_id: 1
     initial_type: 1
@@ -19614,6 +19755,7 @@
   }
   {
     id: 6580003
+    name: Logistics Team
     guns: "6540301,6540302,6540303,6540304,6540305"
     enemy_team_id: 1
     initial_type: 1
@@ -19623,6 +19765,7 @@
   }
   {
     id: 6580101
+    name: Angelia
     guns: "6580101"
     enemy_team_id: 1
     initial_type: 1
@@ -19649,6 +19792,7 @@
   }
   {
     id: 6580103
+    name: AK-12
     guns: "6580104"
     enemy_team_id: 1
     initial_type: 1
@@ -19674,6 +19818,7 @@
   }
   {
     id: 6580105
+    name: Angelia
     guns: "6580105,6580106"
     enemy_team_id: 1
     initial_type: 1
@@ -19686,6 +19831,7 @@
   }
   {
     id: 6580106
+    name: Angelia
     guns: "6580107,6580108,6580109"
     enemy_team_id: 1
     initial_type: 1
@@ -19698,6 +19844,7 @@
   }
   {
     id: 6580107
+    name: Angelia
     guns: "6580110,6580111,6580112"
     enemy_team_id: 1
     initial_type: 1
@@ -19710,6 +19857,7 @@
   }
   {
     id: 6580108
+    name: Angelia
     guns: "6580113,6580114,6580115,6580116"
     enemy_team_id: 1
     initial_type: 1
@@ -19770,6 +19918,7 @@
   }
   {
     id: 6580113
+    name: Angent
     guns: "6580119"
     enemy_team_id: 1
     initial_type: 1
@@ -19782,6 +19931,7 @@
   }
   {
     id: 6580114
+    name: Angelia
     guns: "6580105,6580106"
     enemy_team_id: 1
     initial_type: 1
@@ -19801,6 +19951,7 @@
   }
   {
     id: 6580116
+    name: Mrs. Gray
     guns: "1"
     enemy_team_id: 6580201
     initial_type: 2
@@ -19810,6 +19961,7 @@
   }
   {
     id: 6580117
+    name: Mrs. Gray
     guns: "1"
     enemy_team_id: 6581201
     initial_type: 2
@@ -19819,6 +19971,7 @@
   }
   {
     id: 6580118
+    name: Angelia
     guns: "6580120"
     enemy_team_id: 1
     initial_type: 1
@@ -19868,6 +20021,7 @@
   }
   {
     id: 6580122
+    name: Angelia
     guns: "6580101"
     enemy_team_id: 1
     initial_type: 1
@@ -22106,6 +22260,7 @@
   }
   {
     id: 9583801
+    name: DEFY
     guns: "583801,583802"
     enemy_team_id: 1
     initial_type: 1
@@ -22115,6 +22270,7 @@
   }
   {
     id: 9584001
+    name: Dandelion
     guns: "584001,584002,584003,584004"
     enemy_team_id: 1
     initial_type: 1
@@ -22124,6 +22280,7 @@
   }
   {
     id: 9584002
+    name: Daybreak
     guns: "584005,584006,584007"
     enemy_team_id: 1
     initial_type: 1
@@ -22180,6 +22337,7 @@
   }
   {
     id: 9584091
+    name: Sana
     guns: "6580117,6580118"
     enemy_team_id: 9584008
     initial_type: 2
@@ -22201,6 +22359,7 @@
   }
   {
     id: 9584201
+    name: Dandelion
     guns: "584201,584202,584203,584204"
     enemy_team_id: 1
     initial_type: 1
@@ -22210,6 +22369,7 @@
   }
   {
     id: 9584202
+    name: Daybreak
     guns: "584205,584206,584207"
     enemy_team_id: 1
     initial_type: 1
@@ -22219,6 +22379,7 @@
   }
   {
     id: 9584203
+    name: Fe-56
     guns: "6580117,6580118"
     enemy_team_id: 1
     ai: 103;0;103
@@ -22255,6 +22416,7 @@
   }
   {
     id: 9585701
+    name: DEFY
     guns: "585701,585702"
     enemy_team_id: 1
     initial_type: 1
@@ -22264,6 +22426,7 @@
   }
   {
     id: 9585801
+    name: Dandelion
     guns: "585801,585802,585803,585804"
     enemy_team_id: 1
     initial_type: 1
@@ -22273,6 +22436,7 @@
   }
   {
     id: 9585802
+    name: Daybreak
     guns: "585805,585806,585807"
     enemy_team_id: 1
     initial_type: 1
@@ -22329,6 +22493,7 @@
   }
   {
     id: 9585901
+    name: Dandelion
     guns: "585901,585902,585903,585904"
     enemy_team_id: 1
     initial_type: 1
@@ -22338,6 +22503,7 @@
   }
   {
     id: 9585902
+    name: Daybreak
     guns: "585905,585906,585907"
     enemy_team_id: 1
     initial_type: 1
@@ -22347,6 +22513,7 @@
   }
   {
     id: 9585903
+    name: Fe-56
     guns: "6580117,6580118"
     enemy_team_id: 1
     ai: 0;2001:5,10;0
@@ -22383,6 +22550,7 @@
   }
   {
     id: 9587201
+    name: DEFY
     guns: "587201,587202"
     enemy_team_id: 1
     initial_type: 1
@@ -22403,6 +22571,7 @@
   }
   {
     id: 9587301
+    name: Dandelion
     guns: "587301,587302,587303,587304"
     enemy_team_id: 1
     initial_type: 1
@@ -22412,6 +22581,7 @@
   }
   {
     id: 9587302
+    name: Daybreak
     guns: "587305,587306,587307"
     enemy_team_id: 1
     initial_type: 1
@@ -22421,6 +22591,7 @@
   }
   {
     id: 9587303
+    name: Fe-56
     enemy_team_id: 1
     initial_type: 1
     ai: 0;2001:5,10;0
@@ -22477,6 +22648,7 @@
   }
   {
     id: 9587401
+    name: Dandelion
     guns: "587401,587402,587403,587404"
     enemy_team_id: 1
     initial_type: 1
@@ -22486,6 +22658,7 @@
   }
   {
     id: 9587402
+    name: Daybreak
     guns: "587405,587406,587407"
     enemy_team_id: 1
     initial_type: 1
@@ -22495,6 +22668,7 @@
   }
   {
     id: 9587403
+    name: Fe-56
     guns: "6580117,6580118"
     enemy_team_id: 1
     ai: 103;0;103
@@ -22507,6 +22681,7 @@
   }
   {
     id: 9587404
+    name: Fe-56
     guns: "6580117,6580118"
     enemy_team_id: 1
     ai: 103;0;103
@@ -23478,6 +23653,7 @@
   }
   {
     id: 58550301
+    name: Fortress Droid
     guns: "1"
     enemy_team_id: 585503
     initial_type: 2
@@ -23488,6 +23664,7 @@
   }
   {
     id: 58700201
+    name: Fortress Droid
     guns: "1"
     enemy_team_id: 587002
     initial_type: 2
@@ -23498,6 +23675,7 @@
   }
   {
     id: 58700401
+    name: Fortress Droid
     guns: "1"
     enemy_team_id: 587004
     initial_type: 2

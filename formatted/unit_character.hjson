@@ -295,6 +295,36 @@
     character_des: This unit significantly reduces enemies' accuracy.
   }
   {
+    id: 336
+    name: Armorless
+    character_des: This unit has no armor
+  }
+  {
+    id: 337
+    name: Ranged
+    character_des: This unit attacks from a distance
+  }
+  {
+    id: 338
+    name: Mechanical
+    character_des: This unit is manufactured without any human resemblance
+  }
+  {
+    id: 339
+    name: Taunt
+    character_des: This unit can draw fire
+  }
+  {
+    id: 340
+    name: Aim
+    character_des: Lock on to a single target and deal a large amount of damage to said target
+  }
+  {
+    id: 341
+    name: Buff Clear
+    character_des: Clear buffs from the target echelon
+  }
+  {
     id: 401
     name: Shielded Advance
     character_des: This unit uses a shield to decrease damage taken as he moves. The amount of damage negated equals the current damage this unit can do.
@@ -531,8 +561,8 @@
   }
   {
     id: 448
-    name: unit_character-10000448
-    character_des: unit_character-20000448
+    name: Mechanical Heart
+    character_des: Assist mechanical units in battle.
   }
   {
     id: 900
@@ -607,5 +637,10 @@
   {
     id: 1004
     name: ???
+  }
+  {
+    id: 1005
+    name: Resilient
+    character_des: This unit can withstand critical damage to a certain extent
   }
 ]

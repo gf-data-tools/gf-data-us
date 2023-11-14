@@ -15382,4 +15382,454 @@
     icon_code: 就是这个人
     condition: "11209"
   }
+  {
+    identity: 1041
+    type: map_capture
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 10
+    title: Placing a Piece
+    content: Occupy 1 node in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1042
+    type: map_capture
+    count: 10
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 20
+    title: Forward Position
+    content: Occupy a total of 10 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1043
+    type: map_capture
+    count: 40
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 30
+    title: Uncharted Territory
+    content: Occupy a total of 40 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1044
+    type: map_capture
+    count: 100
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 60
+    title: Progressive Attack
+    content: Occupy a total of 100 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1045
+    type: map_capture
+    count: 200
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 200
+    title: Cannibalization
+    content: Occupy a total of 200 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1046
+    type: map_capture
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 300
+    title: Enclosure
+    content: Occupy a total of 500 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1047
+    type: map_capture
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 600
+    title: Explosive Spread
+    content: Occupy a total of 1,000 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1048
+    type: map_capture
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 1000
+    title: Scattered Like Stars
+    content: Occupy a total of 2,000 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1049
+    type: map_capture
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 1300
+    title: Dissipated Mist
+    content: Occupy a total of 5,000 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1050
+    type: map_capture
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 1600
+    title: Gray Zone Cracked
+    content: Occupy a total of 10,000 nodes in Gray Zone Exploration.
+    type_sort: 1
+    sort: 303
+    icon_code: 日常_占领格子数
+  }
+  {
+    identity: 1051
+    type: daily_encounter
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 10
+    title: Ceasefire
+    content: Trigger 1 incident node in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1052
+    type: daily_encounter
+    count: 10
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 20
+    title: Eye of the Storm
+    content: Trigger a total of 10 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1053
+    type: daily_encounter
+    count: 20
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 30
+    title: Armistice Line
+    content: Trigger a total of 20 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1054
+    type: daily_encounter
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 60
+    title: Goodbye, Trigger
+    content: Trigger a total of 50 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1055
+    type: daily_encounter
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 200
+    title: No Man's Land
+    content: Trigger a total of 100 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1056
+    type: daily_encounter
+    count: 200
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 300
+    title: Night and Dawn
+    content: Trigger a total of 200 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1057
+    type: daily_encounter
+    count: 500
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 600
+    title: After the Dust Settles
+    content: Trigger a total of 500 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1058
+    type: daily_encounter
+    count: 1000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 1000
+    title: Lonely City
+    content: Trigger a total of 1,000 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1059
+    type: daily_encounter
+    count: 2000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 1300
+    title: Peaceful World
+    content: Trigger a total of 2,000 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1060
+    type: daily_encounter
+    count: 5000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 1600
+    title: All Quiet on the Front
+    content: Trigger a total of 5,000 incident nodes in Gray Zone Exploration.
+    type_sort: 13
+    sort: 304
+    icon_code: 日常_非战斗类
+  }
+  {
+    identity: 1061
+    type: daily_game_bonus
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 10
+    title: Tomorrow? Accident?
+    content: Trigger 1 Land of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1062
+    type: daily_game_bonus
+    count: 2
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 20
+    title: Refracted Shadow
+    content: Trigger 2 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1063
+    type: daily_game_bonus
+    count: 5
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 30
+    title: Under the Water
+    content: Trigger 5 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1064
+    type: daily_game_bonus
+    count: 10
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 60
+    title: The Other Side of the Door
+    content: Trigger 10 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1065
+    type: daily_game_bonus
+    count: 20
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 200
+    title: Before the Storm
+    content: Trigger 20 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1066
+    type: daily_game_bonus
+    count: 50
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 300
+    title: In Brambles and Thorns
+    content: Trigger 50 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1067
+    type: daily_game_bonus
+    count: 100
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 600
+    title: What Lies Hidden in the Woods
+    content: Trigger 100 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1068
+    type: daily_game_bonus
+    count: 200
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 1000
+    title: Stare into the Abyss
+    content: Trigger 200 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1069
+    type: daily_game_bonus
+    count: 500
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 1300
+    title: On the Verge of Chaos
+    content: Trigger 500 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
+  {
+    identity: 1070
+    type: daily_game_bonus
+    count: 1000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 1600
+    title: Night Eternal
+    content: Trigger 1,000 Lands of Encounter in Gray Zone Exploration.
+    type_sort: 1
+    sort: 305
+    icon_code: 日常_彩蛋
+  }
 ]

@@ -42,7 +42,7 @@
   {
     id: 9
     name: Aegis Defense
-    description: Deploy a shield with 30% of her max HP, lasting 6 seconds. While the shield is up, enemy units cannot perform normal attacks.
+    description: Generate a shield whose value equals 30% of the unit's max HP, lasting 6 seconds. This unit cannot perform normal attacks while the shield is in effect.
   }
   {
     id: 10
@@ -913,6 +913,191 @@
     id: 183
     name: Fortitude
     description: Limit the amount of damage taken from a single instance of damage.
+  }
+  {
+    id: 184
+    name: Sangvis Tactic - Scarecrow Plus
+    description: The three guns around Scarecrow rotate and fire simultaneously, dealing 3 instances of damage to the target. Damage is greatly increased if the target has no shields.
+  }
+  {
+    id: 185
+    name: Sangvis Tactic - Scarecrow α
+    description: Greatly reduce the damage of the enemy unit with the highest damage stat.
+  }
+  {
+    id: 186
+    name: Sangvis Tactic - Scarecrow β
+    description: Reduce all enemies' accuracy and evasion.
+  }
+  {
+    id: 187
+    name: Sangvis Tactic - Architect Plus
+    description: Architect deals damage that scales with Dummy-Links to all units within a 2-square distance from her target.
+  }
+  {
+    id: 188
+    name: Sangvis Tactic - Architect α
+    description: After loading, deal damage that scales with Dummy-Links to all units within a 1-square distance from her target.
+  }
+  {
+    id: 189
+    name: Sangvis Tactic - Architect β
+    description: Greatly increase self rate of fire.
+  }
+  {
+    id: 190
+    name: Sangvis Tactic - Intruder Plus
+    description: Intruder deals rapid, multi-instance damage to her target using her machine gun. Damage is greatly increased if there are no other units on the same row as the target.
+  }
+  {
+    id: 191
+    name: Sangvis Tactic - Intruder α
+    description: Summon multiple packs of Dinergates as reinforcements.
+  }
+  {
+    id: 192
+    name: Sangvis Tactic - Intruder β
+    description: All allies gain a shield buff.
+  }
+  {
+    id: 193
+    name: Sangvis Tactic - Destroyer Plus
+    description: Destroyer deals damage that scales with Dummy-Links in a cross-shaped area around her target.
+  }
+  {
+    id: 194
+    name: Sangvis Tactic - Destroyer α
+    description: At the start of the battle, aim and launch a grenade at the enemy unit with the highest HP, dealing damage that scales with Dummy-Links and setting fire to the damage area. The fire lasts throughout the battle.
+  }
+  {
+    id: 195
+    name: Sangvis Tactic - Destroyer β
+    description: Clear all enemy shields.
+  }
+  {
+    id: 196
+    name: Sangvis Tactic - Judge Plus
+    description: Judge leaps and executes a flying kick against the enemy unit with the highest current HP, dealing large damage and leaving a purple mark. When units stand within the purple mark, their damage output is reduced.
+  }
+  {
+    id: 197
+    name: Sangvis Tactic - Judge α
+    description: Generate a purple shield that greatly reduces all non-armor-piercing damage against Judge. When Judge's HP falls below 90%, the shield breaks and her damage increases.
+  }
+  {
+    id: 198
+    name: Sangvis Tactic - Judge β
+    description: Clear all stat debuffs on self. Increase self evasion and armor for each type of debuff cleared.
+  }
+  {
+    id: 199
+    name: Silk Spinning
+    description: Lock on to a target and reduce their rate of fire and movement speed.
+  }
+  {
+    id: 200
+    name: Reproduction
+    description: Spawn multiple small clones as reinforcements.
+  }
+  {
+    id: 201
+    name: Slash
+    description: Switch to melee mode and increase attack damage.
+  }
+  {
+    id: 202
+    name: Venom
+    description: Each attack reduces the target's damage output.
+  }
+  {
+    id: 203
+    name: Clean-Up
+    description: Perform a two-instance spray attack across the row of a random target.
+  }
+  {
+    id: 204
+    name: Bombardment
+    description: Lock on to the target with the lowest HP and bombard the square that they are standing on.
+  }
+  {
+    id: 205
+    name: Fortress
+    description: Damage taken by surrounding units is greatly reduced.
+  }
+  {
+    id: 206
+    name: Drone
+    description: Create drones as reinforcements.
+  }
+  {
+    id: 207
+    name: Rumble
+    description: Lock on to a target and fire a round of high-energy ammunition, dealing massive damage and AoE damage.
+  }
+  {
+    id: 208
+    name: Sacred Garden
+    description: Greatly reduce damage received and keep regenerating shield.
+  }
+  {
+    id: 209
+    name: Tranquilizer Shot
+    description: Fire a tranquilizer dart at a random target, reducing their rate of fire and movement speed.
+  }
+  {
+    id: 210
+    name: Light Bomb
+    description: Lock on to the target with the lowest HP, dealing AoE damage to them and the units in all adjacent tiles.
+  }
+  {
+    id: 211
+    name: Radar Scan
+    description: Scan the area between own position and the first row. Any unit that enters the scanned area will be marked as exposed.
+  }
+  {
+    id: 212
+    name: Homing Missile
+    description: Lock on to the nearest unexposed unit and all exposed units and launch a missile that deals AoE damage.
+  }
+  {
+    id: 213
+    name: Smoke Grenade
+    description: Fire smoke grenades at the positions of the two farthest enemy units. Accuracy, damage, rate of fire, and movement speed are greatly reduced for all units standing in the smoke.
+  }
+  {
+    id: 214
+    name: Laser Refraction
+    description: After charging, shoot a laser, dazing the nearest target and removing their shield. When the daze effect wears off, the laser attack is transferred to the row behind.
+  }
+  {
+    id: 215
+    name: Revealed
+    description: Laser attacks deal damage to the target and mark them as exposed.
+  }
+  {
+    id: 216
+    name: Fire Everything EX
+    description: Greatly increase damage output and reduce damage intake. After analyzing shields for 3 seconds, carpet-bomb a large area ahead of self. All units with the area scanned by the radar take massive damage. If their shield remains intact, explosion damage is doubled.
+  }
+  {
+    id: 217
+    name: Annihilation
+    description: Greatly increase attack speed and keep attacking the target until they are out of range.
+  }
+  {
+    id: 218
+    name: Likeness Repels
+    description: Select a random target, then launch framentary grenades at the positions of the target and all units of the same type, dealing damage and giving them a Weakened marker.
+  }
+  {
+    id: 219
+    name: Kizlyar Knife
+    description: Perform a melee attack on the target with the highest number of markers, dealing multiple instances of large damage.
+  }
+  {
+    id: 220
+    name: Breakdown
+    description: Damage intake is greatly increased while becoming immobilized. Afterwards, go berserk (damage, rate of fire, accuracy, durability, resistance are all greatly increased).
   }
   {
     id: 999

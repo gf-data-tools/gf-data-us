@@ -1,11 +1,10 @@
 [
   {
     id: 1
-    name: Energy Shield
-    desc: Grant a shield to all SMGs in the echelon. Each shield can absorb up to 40 points of damage.
+    name: Repair Disabled
+    desc: Your units cannot regenerate any HP by using regenerative skills on the battlefield.
     if_display: 1
-    code: shield
-    skill_group: "900101"
+    code: no_rec
   }
   {
     id: 2
@@ -370,7 +369,7 @@
   {
     id: 739
     name: Rampage Command
-    desc: Crit damage is increased by 50%.
+    desc: Critical Damage +50%.
     if_display: 1
     code: fight_skill_buff102
     skill_group: "756135"
@@ -409,548 +408,1116 @@
   }
   {
     id: 901
+    name: Powerless
+    desc: Critical Rate +50%, Critical Damage -50% for all allies.
     if_display: 1
     code: fight_skill_buff107
     skill_group: "756193"
   }
   {
     id: 902
+    name: Tooth and Nail
+    desc: Damage -50% for all allies, Vulnerability +100% for all enemies.
     if_display: 1
     code: fight_skill_buff301
     skill_group: "756195"
   }
   {
     id: 903
+    name: Disintegrate
+    desc: Armor Penetration +200.
     if_display: 1
     code: fight_skill_buff205
     skill_group: "756198"
   }
   {
     id: 904
+    name: In the Same Boat
+    desc: Damage -20% for all friendly units except the leader.
     if_display: 1
     code: fight_skill_buff108
     skill_group: "756200"
   }
   {
     id: 905
+    name: Incendiary Strike II
+    desc: At the start of the battle, create an incendiary zone on the second row of your echelon, dealing 50 points of damage that scales with Dummy-Links every 0.33 seconds, lasting for 10 seconds.
     if_display: 1
     code: fight_skill_hurt104
     skill_group: "756202"
   }
   {
     id: 906
+    name: Giant Whack
+    desc: Deal damage to the units with the highest HP on both sides every 10 seconds. Said damage equals 10% of the target's maximum HP.
     if_display: 1
     code: fight_skill_hurt301
     skill_group: "756204"
   }
   {
+    id: 1101
+    name: Stand Your Ground
+    desc:
+      '''
+      Increase your front-row units' evasion and armor by 6% after every 3 seconds, stacking up to 10 times.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff103
+    skill_group: "756224"
+  }
+  {
+    id: 1102
+    name: Prompt Preparation
+    desc:
+      '''
+      Initial cooldowns of your units are reduced by 50%.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff105
+    skill_group: "756225"
+  }
+  {
+    id: 1103
+    name: Charred Earth Stratagem
+    desc:
+      '''
+      After every 6 seconds, throw an incendiary projectile at the enemy unit with the highest HP, dealing 60 points of damage per 0.33 seconds for 15 seconds in a 3x3 area.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_hurt102
+    skill_group: "756227"
+  }
+  {
+    id: 1104
+    name: Emergency Shield
+    desc:
+      '''
+      After every 10 seconds, your units' shields that have lost 30% of their HP regenerate for 6 seconds.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756089"
+  }
+  {
+    id: 1105
+    name: Random Strike
+    desc:
+      '''
+      After every 10 seconds, place a powerful debuff on a random enemy that reduces their stats (damage, rate of fire, accuracy, evasion, armor) by 50%.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_hurt101
+    skill_group: "756093"
+  }
+  {
+    id: 1106
+    name: Deflector Shield
+    desc:
+      '''
+      Your unit with the highest HP gains a 9999-point force field at the start of the battle for 5 seconds.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756228"
+  }
+  {
+    id: 1107
+    name: Assault Inertia
+    desc:
+      '''
+      In this battle, damage and evasion of all your units increase by 3% every 4 seconds, stacking up to 10 times.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff102
+    skill_group: "756082"
+  }
+  {
+    id: 1108
+    name: Iron Meat Shield
+    desc:
+      '''
+      Your unit with the highest HP gains an additional 30% damage intake reduction.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff104
+    skill_group: "756230"
+  }
+  {
+    id: 1109
+    name: Assault Command
+    desc:
+      '''
+      Rate of fire of all your units increases by 30%.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: fight_skill_buff101
+    skill_group: "756231"
+  }
+  {
     id: 1133001
+    name: Sniper Support
+    desc: Activate [Snipe] every 6 seconds, dealing 18,000 points of damage that ignores armor to the enemy unit which poses the highest threat.
     if_display: 1
     code: Rouge_590001
     skill_group: "778099"
   }
   {
     id: 1133002
+    name: Sniper Enhancement
+    desc: "[Snipe] Damage +50%."
     if_display: 1
     code: Rouge_590002
     skill_group: "778104"
   }
   {
     id: 1133003
+    name: Spot Cleaning
+    desc: "[Snipe] Damage to elite units +100%."
     if_display: 1
     code: Rouge_590003
     skill_group: "778105"
   }
   {
     id: 1133004
+    name: Complimentary Bombardment
+    desc: "[Snipe] triggers an extra [Bombardment], dealing 6,000 points of damage that scales with Dummy-Links and ignores armor to enemy units within a small radius. CD: 3 seconds."
     if_display: 1
     code: Rouge_590004
     skill_group: "900107"
   }
   {
     id: 1133005
+    name: Mind's Eye
+    desc: "[Snipe] grants all T-Dolls [Precision]."
     if_display: 1
     code: Rouge_590005
     skill_group: "778107"
   }
   {
     id: 1133006
+    name: Armor-Piercing Bullet
+    desc: "[Snipe] inflicts [Broken Armor] on targets."
     if_display: 1
     code: Rouge_590006
     skill_group: "778108"
   }
   {
     id: 1133007
+    name: Artillery Support
+    desc: Activate [Bombardment] every 6 seconds, dealing 6,000 points of damage that scales with Dummy-Links and ignores armor to enemy units within a small radius.
     if_display: 1
     code: Rouge_590101
     skill_group: "778097"
   }
   {
     id: 1133008
+    name: Artillery Enhancement
+    desc: "[Bombardment] Damage +50%."
     if_display: 1
     code: Rouge_590102
     skill_group: "778110"
   }
   {
     id: 1133009
+    name: Cluster Bombardment
+    desc: "[Bombardment] damage to enemy units with no Dummy-Links +50%."
     if_display: 1
     code: Rouge_590103
     skill_group: "778111"
   }
   {
     id: 1133010
+    name: Complimentary Airstrike
+    desc: "[Bombardment] triggers an extra [Airstrike], dealing 2,000 points of damage that scales with Dummy-Links and ignores armor to all enemy units. CD: 3 seconds."
     if_display: 1
     code: Rouge_590104
     skill_group: "900107"
   }
   {
     id: 1133011
+    name: Valiant
+    desc: "[Bombardment] grants all T-Dolls [Focus]."
     if_display: 1
     code: Rouge_590105
     skill_group: "778113"
   }
   {
     id: 1133012
+    name: Shock Ammunition
+    desc: "[Bombardment] inflicts [Shock] on targets."
     if_display: 1
     code: Rouge_590106
     skill_group: "778114"
   }
   {
     id: 1133013
+    name: Airstrike Support
+    desc: Activate [Airstrike] every 6 seconds, dealing 2,000 points of damage that scales with Dummy-Links and ignores armor to all enemy units.
     if_display: 1
     code: Rouge_590201
     skill_group: "778095"
   }
   {
     id: 1133014
+    name: Airstrike Enhancement
+    desc: "[Airstrike] Damage +50%."
     if_display: 1
     code: Rouge_590202
     skill_group: "778116"
   }
   {
     id: 1133015
+    name: Carpet Bombing
+    desc: "[Airstrike] damage to non-elite enemy units +100%."
     if_display: 1
     code: Rouge_590203
     skill_group: "778117"
   }
   {
     id: 1133016
+    name: Complimentary Snipe
+    desc: "[Airstrike] triggers an extra [Snipe], dealing 18,000 points of damage that ignores armor to the enemy unit which poses the highest threat. CD: 3 seconds."
     if_display: 1
     code: Rouge_590204
     skill_group: "900107"
   }
   {
     id: 1133017
+    name: Bloodlust
+    desc: "[Airstrike] grants all T-Dolls [Affinity]."
     if_display: 1
     code: Rouge_590205
     skill_group: "778119"
   }
   {
     id: 1133018
+    name: Raining Fire
+    desc: "[Bombardment] inflicts [Ignition] on targets."
     if_display: 1
     code: Rouge_590206
     skill_group: "778120"
   }
   {
     id: 1133019
+    name: Broken Armor
+    desc: At the start of the battle, inflict 1 stack of [Broken Armor] to all enemies, then inflict 1 stack of [Broken Armor] to the enemy units with the highest HP and highest armor every 6 seconds.
     if_display: 1
     code: Rouge_590301
     skill_group: "778164"
   }
   {
     id: 1133020
+    name: Fragile
+    desc: "[Broken Armor] can stack up to 3 times."
     if_display: 1
     code: Rouge_590302
     skill_group: "778175"
   }
   {
     id: 1133021
+    name: Broken Armor Enhancement
+    desc: "[Broken Armor]'s duration increases to 12 seconds."
     if_display: 1
     code: Rouge_590303
     skill_group: "778168"
   }
   {
     id: 1133022
+    name: Shock
+    desc: At the start of the battle, inflict 1 stack of [Shock] to all enemies, then inflict 1 stack of [Shock] to the enemy unit with the highest damage and the farthest enemy unit every 6 seconds.
     if_display: 1
     code: Rouge_590401
     skill_group: "778160"
   }
   {
     id: 1133023
+    name: Explosive
+    desc: "[Shock] can stack up to 3 times."
     if_display: 1
     code: Rouge_590402
     skill_group: "778176"
   }
   {
     id: 1133024
+    name: Shock Enhancement
+    desc: "[Shock]'s duration increases to 12 seconds."
     if_display: 1
     code: Rouge_590403
     skill_group: "778169"
   }
   {
     id: 1133025
+    name: Ignition
+    desc: At the start of the battle, inflict 1 stack of [Ignition] to all enemies, then inflict 1 stack of [Ignition] to the enemy units with the highest and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590501
     skill_group: "778156"
   }
   {
     id: 1133026
+    name: Inflammable
+    desc: "[Ignition] can stack up to 3 times."
     if_display: 1
     code: Rouge_590502
     skill_group: "778177"
   }
   {
     id: 1133027
+    name: Ignition Enhancement
+    desc: "[Ignition]'s duration increases to 12 seconds."
     if_display: 1
     code: Rouge_590503
     skill_group: "778170"
   }
   {
     id: 1133028
+    name: Focus
+    desc: Grant a stack of [Focus] to the T-Dolls with the highest damage output and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590601
     skill_group: "778153"
   }
   {
     id: 1133029
+    name: Focus Enhancement
+    desc: "[Focus]'s effectiveness increases to 100%."
     if_display: 1
     code: Rouge_590602
     skill_group: "778171"
   }
   {
     id: 1133030
+    name: Inner Peace
+    desc: "[Focus] can stack up to 3 times."
     if_display: 1
     code: Rouge_590603
     skill_group: "778178"
   }
   {
     id: 1133031
+    name: Rapid Fire
+    desc: Grant a stack of [Rapid Fire] to the T-Dolls with the highest damage output and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590604
     skill_group: "778150"
   }
   {
     id: 1133032
+    name: Rapid Fire Enhancement
+    desc: "[Rapid Fire]'s effectiveness increases to 100%."
     if_display: 1
     code: Rouge_590605
     skill_group: "778172"
   }
   {
     id: 1133033
+    name: Restrictions Lifted
+    desc: If a target has 2 stacks of [Rapid Fire] after being granted [Rapid Fire], she receives an additional stack of [Focus].
     if_display: 1
     code: Rouge_590606
     skill_group: "778179"
   }
   {
     id: 1133034
+    name: Precision
+    desc: Grant a stack of [Precision] to the T-Dolls with the highest damage output and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590701
     skill_group: "778147"
   }
   {
     id: 1133035
+    name: Precision Enhancement
+    desc: "[Precision]'s effectiveness increases to 50%."
     if_display: 1
     code: Rouge_590702
     skill_group: "778173"
   }
   {
     id: 1133036
+    name: Mystic Eyes of Death Perception
+    desc: If a target has 2 stacks of [Precision] after being granted [Precision], she receives an additional stack of [Affinity].
     if_display: 1
     code: Rouge_590703
     skill_group: "778180"
   }
   {
     id: 1133037
+    name: Affinity
+    desc: Grant a stack of [Affinity] to the T-Dolls with the highest damage output and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590704
     skill_group: "778144"
   }
   {
     id: 1133038
+    name: Affinity Enhancement
+    desc: "[Affinity]'s effectiveness increases to 50%."
     if_display: 1
     code: Rouge_590705
     skill_group: "778174"
   }
   {
     id: 1133039
+    name: Auto Calibration
+    desc: If a target has no [Precision] when being granted [Affinity], she receives an additional stack of [Precision].
     if_display: 1
     code: Rouge_590706
     skill_group: "778181"
   }
   {
     id: 1133040
+    name: Enhancement
+    desc: Grant a stack of [Enhancement] to the T-Dolls with the highest damage output and lowest HP every 6 seconds.
     if_display: 1
     code: Rouge_590801
     skill_group: "778137"
   }
   {
     id: 1133041
+    name: Enhancement Increase
+    desc: "[Enhancement]'s effectiveness increases to 40%."
     if_display: 1
     code: Rouge_590802
     skill_group: "778141"
   }
   {
     id: 1133042
+    name: Patience
+    desc: Grant a stack of [Patience] to the T-Dolls with the highest HP and highest armor every 6 seconds.
     if_display: 1
     code: Rouge_590901
     skill_group: "778139"
   }
   {
     id: 1133043
+    name: Patience Increase
+    desc: "[Patience]'s effectiveness increases to 50%."
     if_display: 1
     code: Rouge_590902
     skill_group: "778001"
   }
   {
     id: 1133044
+    name: Assault Rifle Focus
+    desc: If there are 2 or more ARs on the field, grant 1 stack of [Focus] to all ARs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591001
     skill_group: "778014"
   }
   {
     id: 1133045
+    name: Assault Rifle Precision
+    desc: If there are 2 or more ARs on the field, grant 1 stack of [Precision] to all ARs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591002
     skill_group: "778015"
   }
   {
     id: 1133046
+    name: Assault Rifle Enhancement
+    desc: If there are 2 or more ARs on the field, grant 1 stack of [Enhancement] to all ARs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591003
     skill_group: "778016"
   }
   {
     id: 1133047
+    name: Bombardment Squad
+    desc: If there are 2 or more ARs on the field, activate [Bombardment] once every 6 seconds starting from the third second, dealing 6,000 points of damage that scales with Dummy-Links and ignores armor to enemy units within a small radius.
     if_display: 1
     code: Rouge_591004
     skill_group: "778017"
   }
   {
     id: 1133048
+    name: Submachine Gun Affinity
+    desc: If there are 2 or more SMGs on the field, grant 1 stack of [Affinity] to all SMGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591101
     skill_group: "778018"
   }
   {
     id: 1133049
+    name: Submachine Gun Enhancement
+    desc: If there are 2 or more SMGs on the field, grant 1 stack of [Enhancement] to all SMGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591102
     skill_group: "778019"
   }
   {
     id: 1133050
+    name: Submachine Gun Patience
+    desc: If there are 2 or more SMGs on the field, grant 1 stack of [Patience] to all SMGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591103
     skill_group: "778020"
   }
   {
     id: 1133051
+    name: Incendiary Grenade
+    desc: If there are 1 or more SMGs on the field, inflict 1 stack of [Ignition] to 3 random enemy units every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591104
     skill_group: "778021"
   }
   {
     id: 1133052
+    name: Rifle Rapid Fire
+    desc: If there are 2 or more RFs on the field, grant 1 stack of [Rapid Fire] to all RFs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591201
     skill_group: "778022"
   }
   {
     id: 1133053
+    name: Rifle Affinity
+    desc: If there are 2 or more RFs on the field, grant 1 stack of [Affinity] to all RFs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591202
     skill_group: "778023"
   }
   {
     id: 1133054
+    name: Rifle Enhancement
+    desc: If there are 2 or more RFs on the field, grant 1 stack of [Enhancement] to all RFs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591203
     skill_group: "778024"
   }
   {
     id: 1133055
+    name: Sniping Team
+    desc: If there are 2 or more RFs on the field, activate [Snipe] once every 6 seconds starting from the third second, dealing 18,000 points of damage that ignores armor to the enemy unit which poses the highest threat.
     if_display: 1
     code: Rouge_591204
     skill_group: "778025"
   }
   {
     id: 1133056
+    name: Handgun Focus
+    desc: If there are 2 or more HGs on the field, grant 1 stack of [Focus] to all HGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591301
     skill_group: "778026"
   }
   {
     id: 1133057
+    name: Handgun Rapid Fire
+    desc: If there are 2 or more HGs on the field, grant 1 stack of [Rapid Fire] to all HGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591302
     skill_group: "778027"
   }
   {
     id: 1133058
+    name: Handgun Precision
+    desc: If there are 2 or more HGs on the field, grant 1 stack of [Precision] to all HGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591303
     skill_group: "778028"
   }
   {
     id: 1133059
+    name: Handgun Affinity
+    desc: If there are 2 or more HGs on the field, grant 1 stack of [Affinity] to all HGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591304
     skill_group: "778029"
   }
   {
     id: 1133060
+    name: Machine Gun Precision
+    desc: If there are 2 or more MGs on the field, grant 1 stack of [Precision] to all MGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591401
     skill_group: "778030"
   }
   {
     id: 1133061
+    name: Machine Gun Affinity
+    desc: If there are 2 or more MGs on the field, grant 1 stack of [Affinity] to all MGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591402
     skill_group: "778031"
   }
   {
     id: 1133062
+    name: Machine Gun Enhancement
+    desc: If there are 2 or more MGs on the field, grant 1 stack of [Enhancement] to all MGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591403
     skill_group: "778032"
   }
   {
     id: 1133063
+    name: Airstrike Team
+    desc: If there are 2 or more MGs on the field, activate [Airstrike] once every 6 seconds starting from the third second, dealing 2,000 points of damage that scales with Dummy-Links and ignores armor to all enemy units.
     if_display: 1
     code: Rouge_591404
     skill_group: "778033"
   }
   {
     id: 1133064
+    name: Shotgun Focus
+    desc: If there are 2 or more SGs on the field, grant 1 stack of [Focus] to all SGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591501
     skill_group: "778034"
   }
   {
     id: 1133065
+    name: Shotgun Patience
+    desc: If there are 2 or more SGs on the field, grant 1 stack of [Patience] to all SGs every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591502
     skill_group: "778035"
   }
   {
     id: 1133066
+    name: Broken Armor Strike
+    desc: If there are 1 or more SGs on the field, inflict 1 stack of [Broken Armor] to 3 random enemy units every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591503
     skill_group: "778036"
   }
   {
     id: 1133067
+    name: Shock Strike
+    desc: If there are 1 or more SGs on the field, inflict 1 stack of [Shock] to 3 random enemy units every 6 seconds starting from the third second.
     if_display: 1
     code: Rouge_591504
     skill_group: "778037"
   }
   {
     id: 1133068
+    name: Bullet Mania
+    desc: Battle Efficiency skill effect and duration increases significantly.
     if_display: 1
     code: Rouge_592001
     skill_group: "778182"
   }
   {
     id: 1133069
+    name: Hero in the Making
+    desc: While Battle Efficiency is in effect, grant all T-Dolls 1 stack of [Focus] every 6 seconds.
     if_display: 1
     code: Rouge_592002
     skill_group: "778184"
   }
   {
     id: 1133070
+    name: Unbridled Fury
+    desc: Unlimited Rage skill effect and duration increases significantly.
     if_display: 1
     code: Rouge_592003
     skill_group: "778186"
   }
   {
     id: 1133071
+    name: Bloodthirsty Fury
+    desc: While Unlimited Rage is in effect, grant all T-Dolls 1 stack of [Affinity] every 6 seconds.
     if_display: 1
     code: Rouge_592004
     skill_group: "778188"
   }
   {
     id: 1133072
+    name: Mechanical Barrier
+    desc: Riot Control skill effect and duration increases significantly.
     if_display: 1
     code: Rouge_592101
     skill_group: "778190"
   }
   {
     id: 1133073
+    name: Multi-Sided Defense
+    desc: While Riot Control is in effect, grant SGs 1 stack of [Patience] every 6 seconds.
     if_display: 1
     code: Rouge_592102
     skill_group: "778192"
   }
   {
     id: 1133074
+    name: Deflection Shield
+    desc: Energy Shield is enhanced and takes 10% less damage within its duration.
     if_display: 1
     code: Rouge_592103
     skill_group: "778194"
   }
   {
     id: 1133075
+    name: Surge Shield
+    desc: While Energy Shield is in effect, increase evasion of T-Dolls with shields by 20% every 5 seconds until the shields disappear, then grant unshielded T-Dolls a shield with 5% of their maximum HP.
     if_display: 1
     code: Rouge_592104
     skill_group: "778196"
   }
   {
     id: 1133076
+    name: Stasis Field
+    desc: Temporary Armor also grants 10% damage intake reduction to T-Dolls on the front row for 60 seconds.
     if_display: 1
     code: Rouge_592105
     skill_group: "778198"
   }
   {
     id: 1133077
+    name: Protective Shell
+    desc: Temporary Armor also grants T-Dolls on the front row a shield with 20% of the maximum HP.
     if_display: 1
     code: Rouge_592106
     skill_group: "778200"
   }
   {
     id: 1133078
+    name: Synergistic Taunt
+    desc: Taunt Target summons an additional target with 30% damage intake reduction.
     if_display: 1
     code: fight_skill_buff101
     skill_group: "900107"
   }
   {
     id: 1133079
+    name: Unexpected Surprise
+    desc: Targets trigger [Bombardment] upon death, dealing 6,000 points of damage that scales with Dummy-Links and ignores armor to enemy units within a small radius.
     if_display: 1
     code: fight_skill_buff101
     skill_group: "900107"
   }
   {
     id: 1133080
+    name: Sniper Guidance
+    desc: "[Snipe] activates at a higher frequency."
     if_display: 1
     code: Rouge_592201
     skill_group: "778106"
   }
   {
     id: 1133081
+    name: Rub Salt in the Wound
+    desc: "[Snipe] damage to targets with [Broken Armor] +50%."
     if_display: 1
     code: Rouge_592202
     skill_group: "778109"
   }
   {
     id: 1133082
+    name: Bombardment Guidance
+    desc: "[Bombardment] activates at a higher frequency."
     if_display: 1
     code: Rouge_592203
     skill_group: "778112"
   }
   {
     id: 1133083
+    name: Kick a Man When He's Down
+    desc: "[Bombardment] damage to targets with [Shock] +50%."
     if_display: 1
     code: Rouge_592204
     skill_group: "778115"
   }
   {
     id: 1133084
+    name: Airstrike Guidance
+    desc: "[Airstrike] activates at a higher frequency."
     if_display: 1
     code: Rouge_592205
     skill_group: "778118"
   }
   {
     id: 1133085
+    name: Loot a Burning House
+    desc: "[Airstrike] damage to targets with [Ignition] +50%."
     if_display: 1
     code: Rouge_592206
     skill_group: "778121"
+  }
+  {
+    id: 12020101
+    name: Firepower Enhancement
+    desc: Increase damage by 15% for the whole echelon.
+    if_display: 1
+    code: daily_game_01
+    skill_group: "120201"
+  }
+  {
+    id: 12020201
+    name: Firepower Enhancement+
+    desc: Increase damage by 30% for the whole echelon.
+    if_display: 1
+    code: daily_game_02
+    skill_group: "120202"
+  }
+  {
+    id: 12020301
+    name: Rate of Fire Enhancement
+    desc: Increase rate of fire by 15% for the whole echelon.
+    if_display: 1
+    code: daily_game_03
+    skill_group: "120203"
+  }
+  {
+    id: 12020401
+    name: Rate of Fire Enhancement+
+    desc: Increase rate of fire by 30% for the whole echelon.
+    if_display: 1
+    code: daily_game_04
+    skill_group: "120204"
+  }
+  {
+    id: 12020501
+    name: Armor-Piercing Enhancement
+    desc: Increase armor-piercing by 100 points for the whole echelon.
+    if_display: 1
+    code: daily_game_05
+    skill_group: "120205"
+  }
+  {
+    id: 12020601
+    name: Armor-Piercing Enhancement+
+    desc: Increase armor-piercing by 200 points for the whole echelon.
+    if_display: 1
+    code: daily_game_06
+    skill_group: "120206"
+  }
+  {
+    id: 12020701
+    name: Shield Enhancement
+    desc: Increase shields by 100 points for the whole echelon.
+    if_display: 1
+    code: daily_game_07
+    skill_group: "120207"
+  }
+  {
+    id: 12020801
+    name: Shield Enhancement+
+    desc: Increase shields by 200 points for the whole echelon.
+    if_display: 1
+    code: daily_game_08
+    skill_group: "120208"
+  }
+  {
+    id: 12020901
+    name: Critical Damage Enhancement
+    desc: Increase critical damage by 25% for the whole echelon.
+    if_display: 1
+    code: daily_game_09
+    skill_group: "120209"
+  }
+  {
+    id: 12021001
+    name: Critical Damage Enhancement+
+    desc: Increase critical damage by 50% for the whole echelon.
+    if_display: 1
+    code: daily_game_10
+    skill_group: "120210"
+  }
+  {
+    id: 12021101
+    name: Evasion Enhancement
+    desc: Increase evasion by 25% for the whole echelon.
+    if_display: 1
+    code: daily_game_11
+    skill_group: "120211"
+  }
+  {
+    id: 12021201
+    name: Evasion Enhancement+
+    desc: Increase evasion by 50% for the whole echelon.
+    if_display: 1
+    code: daily_game_12
+    skill_group: "120212"
+  }
+  {
+    id: 12021301
+    name: Night Vision Enhancement
+    desc: Increase night vision by 25% for the whole echelon.
+    if_display: 1
+    code: daily_game_13
+    skill_group: "120213"
+  }
+  {
+    id: 12021401
+    name: Night Vision Enhancement+
+    desc: Increase night vision by 50% for the whole echelon.
+    if_display: 1
+    code: daily_game_14
+    skill_group: "120214"
+  }
+  {
+    id: 12021501
+    name: Accuracy Enhancement
+    desc: Increase accuracy by 100% for the whole echelon.
+    if_display: 1
+    code: daily_game_15
+    skill_group: "120215"
+  }
+  {
+    id: 12021601
+    name: Accuracy Enhancement+
+    desc: Increase accuracy by 200% for the whole echelon.
+    if_display: 1
+    code: daily_game_16
+    skill_group: "120216"
+  }
+  {
+    id: 12021701
+    name: Movement Speed Enhancement
+    desc: Increase movement speed by 100% for the whole echelon.
+    if_display: 1
+    code: daily_game_17
+    skill_group: "120217"
+  }
+  {
+    id: 12021801
+    name: Movement Speed Enhancement+
+    desc: Increase movement speed by 200% for the whole echelon.
+    if_display: 1
+    code: daily_game_18
+    skill_group: "120218"
+  }
+  {
+    id: 12021901
+    name: Firepower Reduction
+    desc: Reduce damage by 15% for the whole echelon.
+    if_display: 1
+    code: daily_game_19
+    skill_group: "120219"
+  }
+  {
+    id: 12022001
+    name: Firepower Reduction+
+    desc: Reduce damage by 30% for the whole echelon.
+    if_display: 1
+    code: daily_game_20
+    skill_group: "120220"
+  }
+  {
+    id: 12022101
+    name: Evasion Reduction
+    desc: Reduce evasion by 50% for the whole echelon.
+    if_display: 1
+    code: daily_game_21
+    skill_group: "120221"
+  }
+  {
+    id: 12022201
+    name: Evasion Reduction+
+    desc: Reduce evasion by 70% for the whole echelon.
+    if_display: 1
+    code: daily_game_22
+    skill_group: "120222"
+  }
+  {
+    id: 12022301
+    name: Accuracy Reduction
+    desc: Reduce accuracy by 15% for the whole echelon.
+    if_display: 1
+    code: daily_game_23
+    skill_group: "120223"
+  }
+  {
+    id: 12022401
+    name: Accuracy Reduction
+    desc: Reduce accuracy by 30% for the whole echelon.
+    if_display: 1
+    code: daily_game_24
+    skill_group: "120224"
+  }
+  {
+    id: 12022501
+    name: Weak and Dizzy
+    desc: Daze all enemies for 2 seconds every 10 seconds during battle.
+    if_display: 1
+    code: P290
+    skill_group: "120225"
+  }
+  {
+    id: 12022601
+    name: Burst Fire
+    desc: Deal 10,000 points of damage to the enemy unit with the lowest HP every 8 seconds during battle.
+    if_display: 1
+    code: daily_game_26
+    skill_group: "120226"
+  }
+  {
+    id: 12022701
+    name: Cracked Shield
+    desc: Clear all enemy shields every 10 seconds during battle.
+    if_display: 1
+    code: Rouge_590301
+    skill_group: "120227"
+  }
+  {
+    id: 12022801
+    name: Coordinated Provocation
+    desc: At the start of the battle, summon a fully-Linked target with 1,000 HP per Dummy-Link.
+    if_display: 1
+    code: daily_game_28
+    skill_group: "120228"
+  }
+  {
+    id: 12022901
+    name: Flower of Paralysis
+    desc: Paralyze all enemies for 4 seconds at the start of the battle.
+    if_display: 1
+    code: Rouge_590401
+    skill_group: "120229"
+  }
+  {
+    id: 12023001
+    name: Armor-Piercing Power
+    desc: Your units' attacks deal an additional instance of 200-point damage when they pierce through armor.
+    if_display: 1
+    code: mg3mod
+    skill_group: "120230"
+  }
+  {
+    id: 12023101
+    if_display: 1
+    code: daily_game_31
+    skill_group: "120231"
+  }
+  {
+    id: 12023201
+    name: Rapid Skills
+    desc: Your units' skill cooldowns are reduced by 20% with every use.
+    if_display: 1
+    code: AK74M
+    skill_group: "120232"
+  }
+  {
+    id: 12023301
+    name: Shield Critical Hits
+    desc: Critical rate of your shielded units increases by 100%.
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120233"
+  }
+  {
+    id: 12023401
+    name: Shield Critical Hits-1
+    desc: Critical rate of your shielded units is by 100%-1.
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120234"
+  }
+  {
+    id: 12023501
+    name: Shield Critical Hits-2
+    desc: Critical rate of your shielded units is by 100%-2.
+    if_display: 1
+    code: daily_game_33
+    skill_group: "120235"
   }
 ]

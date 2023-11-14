@@ -1,213 +1,110 @@
 [
   {
     id: 1
-    name: Balanced Formation
-    description: A standard and well-balanced AR+SMG formation.
+    name: Basic General-Use Formation
+    description: A standard <color=#ff7f00>AR</color>+<color=#ff7f00>SMG</color> formation with decent movement speed. This formation has steady damage output, and normal attacks prioritize targeting enemy units on the front row.
     reco_location: 1:4,2:4,3:4,5:2,6:2
-    reco_gun_1: "60,20060,62,20065,65,72,118,119,130,175,187,194,196,206,216,262,274,289,314,58,68,70,71,74,105,107,108,133,134,170,193,265,279,313,342,356,361,365,20293,372"
-    reco_gun_2: "54,20055,55,20056,56,20057,57,20061,61,20065,65,66,106,122,20122,171,172,206,207,214,236,237,274,287,288,290,318,293,297,306,133,105,71,138,193,223,239,279,298,73,1027,20171"
-    reco_gun_3: "56,20056,20057,57,20061,61,62,20064,64,20065,65,66,69,72,118,119,122,20122,129,172,175,181,187,194,196,205,207,214,215,227,236,237,243,262,289,314,290,318,293,74,107,120,138,170,223,239,258,265,1007,338,342,361,20205"
-    reco_gun_5: "16,23,20026,26,28,20029,29,20031,31,20032,32,59,20093,93,20101,101,102,20103,103,104,115,127,135,137,143,20143,150,213,224,225,228,245,315,286,304,18,19,22,24,25,33,116,144,178,191,218,1019,267,291,1023,359,20104,20115"
-    reco_gun_6: "20,28,20029,29,20032,32,59,20093,93,20094,94,20101,101,20103,103,115,135,136,177,203,213,234,245,315,251,259,280,295,304,17,18,21,22,27,92,116,169,176,131,191,209,218,267,311,333,347"
+    reco_gun_1: 108|118|125|109|126|117
+    reco_gun_2: 108|118|105|110|155
+    reco_gun_5: 108|105|120|116|125
+    reco_gun_3: 108|118
+    reco_gun_6: 108|105|10101|103|10102|127|129|128|117|113|121|132
+    team_tag_ids: "1,5,8"
   }
   {
     id: 2
-    name: Specialized Armor-Piercing Formation
-    description: A standard RF+HG formation with good armor-piercing capability and damage output but relatively low survivability.
-    reco_location: 1:3,2:1,3,3:3,5:1,6:1
-    reco_gun_1: "36,20037,37,42,46,50,20051,51,117,43,146,148,180,192,198,200,204,235,247,261,266,270,273,320,296,305,38,41,47,49,124,20124,35,145,217,174,1004,230,241,255,1020,268,316,329,334,337,20049,20200,20230,369,20046"
-    reco_gun_2: "1,20001,20002,2,20005,5,20007,7,20091,91,96,100,114,98,126,142,166,168,183,212,20221,221,4,3,6,9,11,13,90,113,123,132,139,140,1001,186,1003,1006,210,1009,1010,220,232,244,1017,1018,277,317,337,20220,20010,371,370,20050"
-    reco_gun_3: "37,20037,20039,39,20044,44,46,48,50,20051,51,20095,95,128,146,148,179,180,184,192,197,200,204,211,222,226,231,235,20252,252,257,266,270,305,34,38,40,41,47,52,49,35,145,147,217,182,1005,201,230,241,255,256,1020,268,284,308,1024,312,316,348,20049,20230,20046"
-    reco_gun_5: "12,20091,91,20097,97,99,100,114,166,183,202,212,20221,221,10,8,13,14,15,141,167,1001,1006,1009,232,244,1017,1018,277,20010,20013"
-    reco_gun_6: "91,20091,99,114,183,212,20221,221,4,233,260,269,1017,232,1009,13,10,8"
+    name: Basic Sniping Formation
+    description: A basic formation for early game, featuring <color=#ff7f00>RFs</color> with <color=#ff7f00>armor-piercing equipment</color>+ <color=#ff7f00>HGs</color>+<color=#ff7f00>SMGs</color>. Movement speed is a bit slow, but this formation has excellent armor-piercing capability and steady damage output. Normal attacks prioritize targeting enemy units on the back row.
+    reco_location: 1:3,2:1,3:3,5:2,4:2
+    reco_gun_1: 108|117|139|121|125
+    reco_gun_4: 108|105|10101|103|10102
+    reco_gun_2: 10101|103|10102|105|110|117|118
+    reco_gun_5: 108|105|120|116
+    reco_gun_3: 108|117|139
+    team_tag_ids: "1,6,9,10"
   }
   {
     id: 3
-    name: Specialized High-Burst Formation
-    description: A standard MG+SG formation with high burst damage and survivability but consumes a lot of resources.
-    reco_location: 1:5,7:6,2:5,3:5,9:6
-    reco_gun_1: "75,20075,20081,81,85,121,199,238,264,275,276,292,307,79,84,110,195,249,300,1021,1026,20199,374"
-    reco_gun_2: "88,109,112,125,149,185,253,77,79,195,271,1021,1026,345,20125,20088"
-    reco_gun_3: "75,20075,78,20081,81,20089,89,173,208,240,254,264,275,276,292,307,84,110,271,300,319,339"
-    reco_gun_7: "161,20161,153,151,155,157,156,160,162,188,189,163,165,229,281,282,159,1022,302,323,324,326,20159,367"
-    reco_gun_9: "161,20161,153,151,20154,154,157,156,160,188,164,283,302,158,152,190,278,1022,302,323,325,326,350"
+    name: Basic High-Burst Formation
+    description: A basic formation for early game, featuring <color=#ff7f00>MGs</color> with <color=#ff7f00>armor-piercing equipment</color>+ <color=#ff7f00>HGs</color>+<color=#ff7f00>SMGs</color>. Movement speed is a bit slow, but this formation has excellent burst damage at the beginning of battles. Normal attacks target random enemy units.
+    reco_location: 1:5,2:1,3:5,4:2,5:2
+    reco_gun_1: 108|117|125
+    reco_gun_4: 108|105|10101|103|10102
+    reco_gun_2: 10101|103|10102|105|110|121|108
+    reco_gun_5: 108|105|120|116
+    reco_gun_3: 108|117|125
+    team_tag_ids: "2,7,9,10"
   }
   {
     id: 4
-    name: Light-Weight Mixed Formation
-    description: A mixed MG+SG+HG formation with relatively low resource consumption. Damage output is increased at the cost of some survivability.
-    reco_location: 1:5,2:5,5:1,8:6,3:5
-    reco_gun_1: "75,20075,20081,81,85,88,109,121,125,149,199,238,276,307,77,79,80,82,87,195,249,1021,1026,20199"
-    reco_gun_2: "75,20075,20081,81,85,112,185,208,253,263,264,274,276,307,79,84,110,195,271,300,1021,1026,345,20125,20088"
-    reco_gun_3: "75,20075,20081,81,78,88,20089,89,109,125,149,173,208,254,264,274,292,77,79,86,111,271,319,339"
-    reco_gun_5: "12,20012,20091,91,99,114,166,183,202,212,20221,221,242,294,10,8,13,15,167,1017,1018,310,20008"
-    reco_gun_8: "161,20161,153,157,151,156,160,162,188,189,163,164,229,281,282,302,152,278,299,1002,1008,1022,1025,302,323,326,351,366"
+    name: Specialized Armor-Piercing Formation
+    description: A standard formation featuring <color=#ff7f00>RFs</color> with <color=#ff7f00>armor-piercing equipment</color>+ <color=#ff7f00>HGs</color>. This formation has excellent armor-piercing capability and steady damage output, but relatively poor survivability and slow movement speed. Normal attacks prioritize targeting enemy units on the back row.
+    reco_location: 1:3,2:1:3,3:3,4:1,5:1
+    reco_gun_1: 108|117|139
+    reco_gun_4: 10101|103|10102|116
+    reco_gun_2: 10101|103|10102
+    reco_gun_5: 10101|103|10102|116
+    reco_gun_3: 108|117|139
+    team_tag_ids: "1,6,9,10"
   }
   {
     id: 5
-    name: High-Speed Mixed Formation
-    description: A slightly uncommon but versatile mixed formation that allows for flexible adjustments depending on unit buff tiles and enemy formations.
-    reco_location: 1:1:4,2:4,4:1:2,5:2,3:1:4
-    reco_gun_1: "60,20060,62,20065,65,72,118,119,130,175,187,194,196,206,216,262,274,289,314,303,285,250,4,126,1017,58,68,70,71,74,105,107,108,133,134,170,193,265,279,313"
-    reco_gun_2: "54,20055,55,20056,56,20057,57,20061,61,20065,65,66,106,122,20122,171,172,206,207,214,236,237,274,287,288,290,318,293,297,306,133,105,71,138,193,223,239,279,298,73,1027,357"
-    reco_gun_3: "56,20056,20057,57,20061,61,62,20064,64,20065,65,66,69,72,118,119,122,20122,129,172,175,181,187,194,196,205,207,214,215,227,236,237,243,262,289,314,290,318,272,260,1017,233,1009,293,74,107,120,138,170,223,239,258,265,1007"
-    reco_gun_4: "242,250,294,248,99,20091,91,286,280,245,315,59,213,28,135,20103,103,20101,101,20093,93,1017,1009,244,232,13,10,8,301,218,209,191,22,18,27,17,92,169,131,331,341"
-    reco_gun_5: "16,23,20026,26,28,20029,29,20031,31,20032,32,59,20093,93,20101,101,102,20103,103,104,115,127,135,137,143,20143,150,213,224,225,228,245,315,286,304,18,19,22,24,25,33,116,144,178,191,218,1019,267,291,1023"
+    name: Early High-Burst Formation
+    description: A standard formation featuring <color=#ff7f00>MGs</color> with <color=#ff7f00>armor-piercing equipment</color>+ <color=#ff7f00>SGs</color>. This formation has excellent burst damage at the beginning of battles, but eats up quite a lot of resources and can be quite slow. Normal attacks target random enemy units.
+    reco_location: 1:5,8:6,2:5,3:5,9:6
+    reco_gun_1: 108|117|119|125
+    reco_gun_2: 108|117|119|125
+    reco_gun_8: 108|116|162|117|109|120
+    reco_gun_3: 108|117|119|125
+    reco_gun_9: 108|113|116|162
+    team_tag_ids: "2,7,9,10,11"
   }
   {
     id: 6
     name: Wide-Area Assault Formation
-    description: A formation built around grenadier AR units most effective against large swarms of tightly-packed enemies.
-    reco_location: 1:4,2:1:4,3:4,5:2,6:2
-    reco_gun_1: "56,20056,20061,61,20063,63,20065,65,66,106,196,216,236,134,108,134,108,20216,373,20066"
-    reco_gun_2: "55,20055,20056,56,20061,61,20063,63,20065,65,66,106,216,236,20001,1,20002,2,20005,5,20007,7,20091,91,96,100,114,98,126,142,166,168,183,212,20221,221,4,3,6,9,11,13,90,113,123,132,139,140,1001,186,1003,1006,210,1009,1010,220,232,244,1017,1018,277,298"
-    reco_gun_3: "56,20056,20061,61,20063,63,20065,65,66,69,106,196,227,236,120,108,120,108"
-    reco_gun_5: "16,23,20026,26,28,20029,29,20031,31,20032,32,59,20093,93,20101,101,102,20103,103,104,115,127,135,137,143,20143,150,213,224,225,228,245,315,286,304,18,19,22,24,25,33,116,144,178,191,218,1019,267,291,1023"
-    reco_gun_6: "20,28,20029,29,20032,32,59,20093,93,20094,94,20101,101,20103,103,115,135,136,177,203,213,234,245,315,251,259,280,295,304,17,18,21,22,27,92,116,169,176,131,191,209,218,267,311"
+    description: A formation built around <color=#ff7f00>grenadier ARs</color> whose skills are effective against enemies that appear in <color=#ff7f00>large packs</color>. This formation has decent movement speed; normal attacks prioritize targeting enemy units on the front row.
+    reco_location: 1:4,2:1:4,3:4,4:2,5:2
+    reco_gun_1: 153|121
+    reco_gun_4: 10101|103
+    reco_gun_2: 10101|103
+    reco_gun_5: 108|105|120
+    reco_gun_3: 153|121
+    team_tag_ids: "3,5,8,12"
   }
   {
     id: 7
     name: Specialized Night Battle Formation
-    description: A formation in which HGs support the damage-dealing ARs by providing buffs and night vision. Suitable for most Night Battles as long as Night Combat Equipment is equipped.
-    reco_location: 1:4,2:1:4,3:4,5:2,6:1:2
-    reco_gun_1: "60,20060,62,20065,65,72,118,119,130,175,187,194,196,206,216,262,274,289,314,58,68,70,71,74,105,107,108,133,134,170,193,265,279,340,356"
-    reco_gun_2: "1,20001,20002,2,20005,5,20007,7,20091,91,96,100,114,98,126,142,166,168,183,212,20221,221,4,3,6,9,11,13,90,113,123,132,139,140,1001,186,1003,1006,210,1009,1010,220,232,244,1017,1018,277,309"
-    reco_gun_3: "56,20056,20057,57,20061,61,62,20064,64,20065,65,66,69,72,118,119,122,20122,129,172,175,181,187,194,196,205,207,214,215,227,236,237,243,262,289,314,290,318,293,74,107,120,138,170,223,239,258,265,1007,340"
-    reco_gun_5: "16,23,20026,26,28,20029,29,20031,31,20032,32,59,20093,93,20101,101,102,20103,103,104,115,127,135,137,143,20143,150,213,224,225,228,245,315,286,304,18,19,22,24,25,33,116,144,178,191,218,1019,267,291,1023"
-    reco_gun_6: "20,28,20029,29,20032,32,59,20093,93,20094,94,20101,101,20103,103,115,135,136,177,203,213,234,245,315,251,259,280,295,304,20091,91,99,114,183,212,20221,221,4,233,260,269,1017,232,1009,13,10,8,17,18,21,22,27,92,116,169,176,131,191,209,218,267,311"
+    description: In this formation, <color=#ff7f00>ARs</color> equipped with <color=#ff7f00>night vision equipment</color> serve as the main source of damage output, while <color=#ff7f00>HGs</color> provide <color=#ff7f00>vision in night battles</color>. This formation, when equipped with <color=#ff7f00>night vision goggles</color>, is suited to most generic night battles. It has decent movement speed and steady damage output. Normal attacks prioritize targeting enemy units on the front row.
+    reco_location: 1:4,2:1:4,3:4,4:2,5:2
+    reco_gun_1: "106"
+    reco_gun_4: 108|105|10101|103|10102
+    reco_gun_2: "10101,106|103,106|10102,106|104"
+    reco_gun_5: 108|105|120|106|116
+    reco_gun_3: "106"
+    team_tag_ids: "1,5,8,13"
   }
   {
     id: 8
-    name: Basic Sniping Formation
-    description: The inclusion of SMGs lends the formation more versatility and is particularly helpful in early-game.
-    reco_location: 1:3,2:1,3:3,5:2,6:1:2
-    reco_gun_1: "36,20037,37,42,46,50,20051,51,117,43,146,148,180,192,198,200,204,235,247,261,266,270,273,320,296,305,38,41,47,49,124,20124,35,145,217,174,1004,230,241,255,1020,268,316"
-    reco_gun_2: "7,20091,91,96,100,114,98,126,142,166,168,183,212,20221,221,4,3,6,9,11,13,90,113,123,132,139,140,1001,186,1003,1006,210,1009,1010,220,232,244,1017,1018,277"
-    reco_gun_3: "39,20039,20044,44,46,48,50,20051,51,20095,95,128,146,148,179,180,184,192,197,200,204,211,222,226,231,235,20252,252,257,266,270,305,34,38,40,41,47,52,49,35,145,147,217,182,1005,201,230,241,255,256,1020,268,284,308,1024,312,316,20201"
-    reco_gun_5: "16,23,20026,26,28,20029,29,20031,31,20032,32,59,20093,93,20101,101,102,20103,103,104,115,127,135,137,143,20143,150,213,224,225,228,245,315,286,304,18,19,22,24,25,33,116,144,178,191,218,1019,267,291,1023,20115"
-    reco_gun_6: "20,28,20029,29,20032,32,59,20093,93,20094,94,20101,101,20103,103,115,135,136,177,203,213,234,245,315,251,259,280,295,304,20091,91,99,114,183,212,20221,221,4,233,260,269,1017,232,1009,13,10,8,17,18,21,22,27,92,116,169,176,131,191,209,218,267,311"
+    name: Single-Target Burst Formation
+    description: A formation built around <color=#ff7f00>RFs with high burst damage</color> and <color=#ff7f00>armor-piercing equipment</color>. With relatively slow movement speed but excellent armor-piercing capability and burst damage, this formation is most effective against a <color=#ff7f00>single powerful elite</color> unit. Normal attacks prioritize targetting enemy units on the back row.
+    reco_location: 1:3,2:1,3:3,5:1,4:1
+    reco_gun_1: 138|117|139|118
+    reco_gun_4: 10101|103|10102|116
+    reco_gun_2: 10101|103|10102|116|107
+    reco_gun_5: 10101|103|10102|116
+    reco_gun_3: 138|117|139
+    team_tag_ids: "3,6,9,10,14"
   }
   {
     id: 9
-    name: High-Burst Sniping Formation
-    description: A formation built around RF units with high burst damage. Most effective against powerful elite enemies.
-    reco_location: 1:3,2:1,3:3,5:1,6:1
-    reco_gun_1: "261,192,180,20053,53,46,42,36,38,124,20124,145,1004,241"
-    reco_gun_2: "1,20001,20002,2,20005,5,20007,7,20091,91,96,100,114,98,126,142,166,168,183,212,20221,221,4,3,6,9,11,13,90,113,123,132,139,140,1001,186,1003,1006,210,1009,1010,220,232,244,1017,1018,277"
-    reco_gun_3: "252,20252,222,192,180,179,128,20053,53,46,20044,44,42,20039,39,34,38,40,145,201,241,1024,20201"
-    reco_gun_5: "12,20012,20091,91,20097,97,99,100,114,166,183,202,212,20221,221,10,8,13,14,15,141,167,1001,1006,1009,232,244,1017,1018,277"
-    reco_gun_6: "91,20091,99,114,183,212,20221,221,4,233,260,269,1017,232,1009,13,10,8,20114"
-  }
-  {
-    id: 10
-    name: Basic Scarecrow Formation
-    sangvis_id: 1001
-    description: A well-balanced formation that performs well under most circumstances.
-    reco_location: 1:3005,2:1001,3:3005,4:3004,5:3007,6:3004,8:2003
-  }
-  {
-    id: 11
-    name: Basic Executioner Formation
-    sangvis_id: 1002
-    description: A melee-oriented formation effective in evading location-sniping attacks from enemies.
-    reco_location: 2:1002,4:2001,5:3008,6:2001,7:2001,8:2008,9:2001
-  }
-  {
-    id: 12
-    name: Basic Hunter Formation
-    sangvis_id: 1003
-    description: Effective in battles against a relatively small group of powerful enemies units.
-    reco_location: 2:1003,1:2004,3:2004,5:3002,8:2006
-  }
-  {
-    id: 13
-    name: Basic Intruder Formation
-    sangvis_id: 1004
-    description: A support-oriented formation effective in minimizing damage taken and friendly casualties.
-    reco_location: 2:1004,1:3006,3:3006,4:3006,5:3006,6:3006,7:2005,8:2005,9:2005
-  }
-  {
-    id: 14
-    name: Basic Destroyer Formation
-    sangvis_id: 1005
-    description: Effective against large swarms of tightly-packed enemies.
-    reco_location: 2:1005,1:3009,3:3009,7:2002,8:2003,9:2002
-  }
-  {
-    id: 15
-    name: Basic Architect Formation
-    sangvis_id: 1006
-    description: A formation capable of dealing both single-target and AoE damage. It also makes a decent support Echelon.
-    reco_location: 2:1006,1:3009,3:3009,5:2010,7:2009,9:2009
-  }
-  {
-    id: 16
-    name: Basic Ouroboros Formation
-    sangvis_id: 1007
-    description: A formation that weakens enemies using Ouroboros' unique crit buff, which can wrap up battles very quickly.
-    reco_location: 2:1007,1:3004,3:3004,5:3002,7:3003,9:3003,8:2008
-  }
-  {
-    id: 17
-    name: Basic Alchemist Formation
-    sangvis_id: 1008
-    description: A melee-oriented formation that can flexibly switch between combat commands depending on enemy formations, giving it high offensive and defensive capabilities.
-    reco_location: 8:1008,1:2004,3:2004,2:3009,5:2006
-  }
-  {
-    id: 18
-    name: Basic Dreamer Formation
-    sangvis_id: 1009
-    description: A formation that performs extremely well in special circumstances, but without compromising its general usability. Very effective in all combat modes.
-    reco_location: 2:1009,1:3004,3:3004,5:2010,8:2006
-  }
-  {
-    id: 19
-    name: Basic Gager Formation
-    sangvis_id: 1010
-    description: A versatile formation that takes advantage of Gager's unique ability to weaken enemies' armor. It performs especially well against large groups of enemies.
-    reco_location: 5:1010,1:2013,2:3009,3:2013,8:2006
-  }
-  {
-    id: 20
-    name: Basic Judge Formation
-    sangvis_id: 1011
-    description: Adjust Judge's position on the battlefield to make her serve different functions. This formation is both flexible and steady in performance.
-    reco_location: 8:1011,4:2006,6:2006,2:3009
-  }
-  {
-    id: 21
-    name: Basic Agent Formation
-    sangvis_id: 1012
-    description: A well-balanced formation with strong opening burst. Agent's reinforcements can also effectively reduce friendly casualties.
-    reco_location: 2:1012,1:2013,3:2013,5:3010,8:2014
-  }
-  {
-    id: 22
-    name: Basic Adeline Formation
-    sangvis_id: 1013
-    description: A formation most effective against high-threat single-unit enemies. It is also capable of supporting other friendly echelons.
-    reco_location: 2:1013,1:3004,3:3004,5:3010,8:2006
-  }
-  {
-    id: 23
-    name: Basic Alina Formation
-    sangvis_id: 1014
-    description: A specialized melee assault formation that can wipe out most enemies before they even enter combat mode.
-    reco_location: 8:1014,2:3009,4:2011,5:2011,6:2011,7:2012,9:2012
-  }
-  {
-    id: 24
-    name: Architect C NVW Model Basic Formation
-    sangvis_id: 1015
-    description: A formation with strong <color=#ff7f00>AoE damage</color> capabilities that performs well in most battles with large packs of enemies.
-    reco_location: 2:1015,1:3009,3:3009,5:3010,8:2006
-  }
-  {
-    id: 25
-    name: Intruder C Sorceress of the End Basic Formation
-    sangvis_id: 1016
-    description: A strong formation for <color=#ff7f00>general use</color> that can handle both high-intensity and protracted battles reasonably well.
-    reco_location: 5:1016,1:2004,3:2004,4:3009,6:3009,8:2014
+    name: Protracted Battle Formation
+    description: A standard formation featuring <color=#ff7f00>MGs</color> with <color=#ff7f00>armor-piercing equipment</color>+ <color=#ff7f00>SGs</color> with armor and shield-type skills. This formation has slow movement speed, but is suitable for protracted battles thanks to the front row units' great defensive capabilities. Normal attacks target random enemy units.
+    reco_location: 1:5,8:6,2:5,3:5,9:6
+    reco_gun_1: 165|113|160|126
+    reco_gun_2: 165|113|160|126
+    reco_gun_8: 108|113|116|162
+    reco_gun_3: 165|113|160|126
+    reco_gun_9: 108|113|116|162|10102|103|126
+    team_tag_ids: "4,7,9,10,11,15"
   }
 ]

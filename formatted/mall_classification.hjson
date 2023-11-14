@@ -81,7 +81,7 @@
   {
     id: 2002
     parent_id: 6000
-    sort: 3
+    sort: 1
     name: Monthly Cards
   }
   {
@@ -116,6 +116,12 @@
     sort: 4
     name: Support Package
     description: 新手支援礼包
+  }
+  {
+    id: 3005
+    parent_id: 3000
+    sort: 5
+    name: Protocol Rerun
   }
   {
     id: 4000
@@ -167,7 +173,12 @@
   {
     id: 6003
     parent_id: 6000
-    sort: 1
+    sort: 3
     name: Supplies
+  }
+  {
+    id: 7000
+    sort: 7
+    name: Friendship store
   }
 ]

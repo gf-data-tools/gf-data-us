@@ -924,7 +924,6 @@
     prize_id: 11002
     title: Wardrobe: Change Gender
     content: Change your gender on the Commander ID interface for the first time
-    unlock_course: "130"
     new_type: 1
     grade_id: 54
     sort: 393
@@ -1714,17 +1713,6 @@
     sort: 441
   }
   {
-    id: 264
-    type: fix_gun
-    count: 1
-    prize_id: 11073
-    title: Tactical Doll: T-Doll Repair
-    content: Perform a T-Doll Repair.
-    new_type: 1
-    grade_id: 1
-    sort: 3
-  }
-  {
     id: 265
     type: develop_gun
     unlock_lv: "3"
@@ -1735,28 +1723,6 @@
     new_type: 1
     grade_id: 2
     sort: 10
-  }
-  {
-    id: 266
-    type: fix_gun
-    count: 3
-    prize_id: 11075
-    title: Tactical Doll: T-Doll Repair
-    content: Perform 3 T-Doll Repairs.
-    new_type: 1
-    grade_id: 2
-    sort: 11
-  }
-  {
-    id: 267
-    type: quick_fix_gun
-    count: 1
-    prize_id: 11076
-    title: Tactical Doll: Quick T-Doll Repair
-    content: Perform a Quick T-Doll Repair.
-    new_type: 1
-    grade_id: 2
-    sort: 12
   }
   {
     id: 268
@@ -4851,5 +4817,73 @@
     new_type: 1
     grade_id: 23
     sort: 168
+  }
+  {
+    id: 558
+    type: map_capture
+    count: 1
+    prize_id: 765
+    title: Gray Zone Exploration: Pushing the Line
+    content: Occupy 1 node in Gray Zone Exploration.
+    new_type: 1
+    grade_id: 45
+    sort: 359
+  }
+  {
+    id: 559
+    type: map_refresh
+    count: 1
+    prize_id: 765
+    title: Gray Zone Exploration: Laying the Ground
+    content: Reset the exploration zone in Gray Zone Exploration once.
+    new_type: 1
+    grade_id: 45
+    sort: 360
+  }
+  {
+    id: 560
+    type: daily_game_boss_win
+    count: 1
+    prize_id: 765
+    title: Gray Zone Exploration: Operation Beheading
+    content: Kill 1 boss in Gray Zone Exploration.
+    new_type: 1
+    grade_id: 45
+    sort: 361
+  }
+  {
+    id: 561
+    type: daily_game_reward
+    count: 1
+    prize_id: 765
+    title: Gray Zone Exploration: Taking the Loot
+    content: Obtain rewards for exploring all nodes in Gray Zone Exploration once.
+    new_type: 1
+    grade_id: 45
+    sort: 362
+  }
+  {
+    id: 562
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 11337
+    title: Node: Supply & Repair Points
+    content: Complete the tutorial on supply and repair points.
+    new_type: 1
+    grade_id: 45
+    sort: 359
+    condition: "10933"
+  }
+  {
+    id: 563
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 11338
+    title: Map Mechanism: Battlefield Effects
+    content: Complete the tutorial on battlefield effects.
+    new_type: 1
+    grade_id: 45
+    sort: 360
+    condition: "10921"
   }
 ]

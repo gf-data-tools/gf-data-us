@@ -303,6 +303,7 @@
     order: 1
     rarity: 1
     filter_type: "2"
+    event_id: 2935
   }
   {
     id: 22
@@ -315,6 +316,7 @@
     order: 2
     rarity: 2
     filter_type: "3"
+    event_id: 2936
   }
   {
     id: 23
@@ -327,6 +329,7 @@
     order: 2
     rarity: 3
     filter_type: "3"
+    event_id: 2937
   }
   {
     id: 24
@@ -360,10 +363,11 @@
     item_ids: 508-5000
     onsale: 1
     code: profilePic_rank0_anniv1_M4.png
-    order: 100
+    order: 1
     rarity: 10
     filter_type: "1"
     frame_id: 200005
+    event_id: 2938
   }
   {
     id: 27
@@ -377,6 +381,7 @@
     rarity: 10
     filter_type: "1"
     frame_id: 200005
+    event_id: 2939
   }
   {
     id: 28
@@ -390,6 +395,7 @@
     rarity: 10
     filter_type: "1"
     frame_id: 200005
+    event_id: 2940
   }
   {
     id: 29
@@ -403,6 +409,7 @@
     rarity: 10
     filter_type: "1"
     frame_id: 200005
+    event_id: 2941
   }
   {
     id: 30
@@ -13918,6 +13925,39 @@
     filter_type: "4"
   }
   {
+    id: 1183
+    item_id: 2183
+    sub_type: 1
+    code: profilePic_ChessFlight_season8_1
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200008
+    logo_code: logo_flightchess_major
+  }
+  {
+    id: 1184
+    item_id: 2184
+    sub_type: 1
+    code: profilePic_ChessFlight_season8_2
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200007
+    logo_code: logo_flightchess_general
+  }
+  {
+    id: 1185
+    item_id: 2185
+    sub_type: 1
+    code: profilePic_ChessFlight_season8_3
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200006
+    logo_code: logo_flightchess_chief
+  }
+  {
     id: 1186
     item_id: 2186
     sub_type: 1
@@ -14379,6 +14419,20 @@
     rarity: 5
   }
   {
+    id: 1269
+    item_id: 2269
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_ChessBonus_M1897
+    order: 1
+    rarity: 5
+    skin: 594
+    filter_type: "4"
+    frame_id: 200005
+  }
+  {
     id: 1277
     item_id: 2277
     sub_type: 1
@@ -14553,6 +14607,28 @@
     order: 1
     rarity: 5
     skin: 30009
+  }
+  {
+    id: 1343
+    item_id: 2343
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_M1895
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1344
+    item_id: 2344
+    sub_type: 1
+    gem: 40
+    item_ids: 508-1000
+    onsale: 1
+    code: profilePic_BattlePass_M1895
+    order: 1
+    rarity: 5
+    skin: 30010
   }
   {
     id: 1345
@@ -14862,6 +14938,15 @@
     item_id: 200026
     sub_type: 4
     code: profileFrame_BattlePass_Saiga12
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100028
+    item_id: 200028
+    sub_type: 4
+    code: profileFrame_BattlePass_M1895
     order: 1
     rarity: 5
     filter_type: "5"

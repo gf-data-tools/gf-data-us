@@ -1,0 +1,191 @@
+[
+  {
+    id: 10
+    name: Abandoned Military Base
+    hint: The exploration team continues on in the sandstorm. The blurry silhouette of a building appears in the distance under the blazing sun... It could be a treasure trove that no one has come across before.
+    script:
+      '''
+      It is an old and very run-down military base. The humans must have left this place in a hurry, or perhaps they knew they would never return again.
+      The damage to the interior is not that extensive. Only the cobwebs in the corners bear witness to what the building has gone through. The team decides to explore the base once the sandstorm is over:
+      '''
+    options: "101,102,203,204,301,302,401,402,501,502,601,602"
+    notes: There's nothing left here. Everything will be slowly buried by the yellow sand. The humans have already lost their diamonds.
+  }
+  {
+    id: 20
+    name: Abandoned Laboratory
+    hint: Vegetation has filled every crevice in the city and occupied every building... Since the humans' departure, plants have become the only master of this place. The faded text on a nearby sign reads, "Radiation... Center Labora..."
+    script:
+      '''
+      This was once the first battlefield where humankind fought against ELID, but now all that's left is desolation. Some stayed in defiance, while others ran in fear. But the battlefield consumes all eventually.
+      The team has discovered some leftover test subjects here which may come in useful.
+      '''
+    options: "701,702,801,802,901,902,1001,1002,1101,1102"
+    notes: The smoke has faded, and everyone has already left for the next battlefield.
+  }
+  {
+    id: 30
+    name: Lighthouse
+    hint: The lighthouse that illuminates one's path is still carrying out its duty faithfully even to this day. If you get lost in the dark, you could go up to the lighthouse. It would at least offer you an embrace.
+    script:
+      '''
+      A lighthouse that is still functional. The keeper has long since gone, but the tower itself is still welcoming all lost travelers with open arms.
+      Gazing into the distance from the lookout, the city is no longer recognizable even with the map nearby.
+      All that can be made out is the roaming ELIDs, damaged buildings, and traces left behind by explorers who had come before you—perhaps these could get you to move farther.
+      '''
+    options: "401,402,601,602,801,802,1001,1002,1201,1202"
+    notes: It has shown you the way. It sends you off, as it has sent off all travelers.
+  }
+  {
+    id: 40
+    name: Convoy Wreckage
+    hint: The hulking heap shows its former owners' ambition and courage. They once thought there was no stopping them... But they don't seem to be in good shape right now.
+    script:
+      '''
+      Judging by the traces left around the wreckage left on the side of the road, the state-of-the-art equipment was not able to repel their assailants that came in waves. However, nobody deserted the convoy... perhaps they didn't want to, or perhaps they simply couldn't.
+      The adventurers left their mark, as well as some precious combat logs for the team:
+      '''
+    options: "101,102,201,202,301,302,401,402,501,502,601,602,1401,1501"
+    notes: Perhaps life is a great adventure with no going back. Some may have already set off on a different journey, while your adventure has only just begun.
+  }
+  {
+    id: 50
+    name: Sea of Epiphyllums
+    hint: A hidden sea of flowers that nobody knows about, or perhaps those who do know about it all keep their mouths shut about its existence.
+    script:
+      '''
+      Moonlight merges with the petals' glow, forming a lake of silver light. Legend has it that these sacred flowers will emit a light of blessings, and those who are chosen will be forgiven and given passage to paradise.
+      Perhaps this is a mystery that you should investigate:
+      '''
+    options: "101,102,205,206,303,304,401,402,501,502,603,604"
+    notes: These deathly flowers are surrounded by a ghostly light. The moment they bloom, people will be plunged into hell.
+  }
+  {
+    id: 60
+    name: Adventurers
+    hint: The chances of meeting friends here are not high at all—this place is full of monsters that are incapable of communication, after all. But since we are all adventurers, why don't we say hello?
+    script:
+      '''
+      The exploration team under the command of another commander grin ear-to-ear when they see you—"For heaven's sake, we thought there's nobody alive in here!"
+      Technically, T-Dolls aren't ALIVE, but who cares? "Friends" are the most serendipitous treasure here.
+      Even more coincidentally, they have something you want:
+      '''
+    options: "701,702,801,802,901,902,1003,1004,1101,1102,1701"
+    notes: Although you did not end up going down the same path, you will definitely meet again in the not so distant future.
+  }
+  {
+    id: 70
+    name: Human Scientists
+    hint: Running into a large pack of ELID in the Red Zone isn't anything special. At least, it's no stranger sight than what you're seeing right now—a group of humans in radiation-proof hazmat suits are chattering with each other no far away from you.
+    script:
+      '''
+      It is a research team made up of E.L.I.D. researchers and geologists hoping to study the ecology of this area and test out the latest E.L.I.D. medication.
+      "Humans leave their homes behind in the hopes that they can return some day, no matter how long it will take or how many obstacles they must overcome."
+      The research team asks if the exploration team could help them gather some crucial data and offers some supplies as a show of gratitude.
+      '''
+    options: "701,702,801,802,901,902,1003,1004,1101,1102,1801,1901"
+    notes: The research team continues on their journey. Humans never know how many more tomorrows they have, but every present moment is spent preparing for a certain moment in the future—at least, that's what they believe.
+  }
+  {
+    id: 80
+    name: Vegetation
+    hint: This is a miraculous sight that no eyes have ever beheld: vegetation has consumed the city and been transformed by radiation storms into a crystalline forest, glistening in the sand and dust.
+    script:
+      '''
+      In this crystalline world, silicificated plants have taken up most of the view. These flowers are practically eternal—as long as their crystalline form isn't damaged, they will bloom for eternity as they remain frozen in time.
+      The team may not be able to protect this beautiful but fragile rose, but they've still decided to take it with them. Perhaps this is a sign for them to keep going in this expansive and boundless land of desolation.
+      But even so, it wouldn't hurt to stay for just a while...
+      '''
+    options: "603,604,703,704,803,804,903,904,1001,1002,1103,1104"
+    notes: This crystalline forest in the deserted city is now a romantic freeze-frame in this dystopia.
+  }
+  {
+    id: 90
+    name: Humans in the Radiation Zone
+    hint: A strange and unfriendly group. They look undoubtedly humanoid, but their exposed arms bear obvious signs of silicification.
+    script:
+      '''
+      After mustering the courage to go up and investigate, the team realizes that these humans—or FORMER humans—are homeless drifters.
+      They are like sand being blown by the wind, with nothing to hold them down and therefore nothing to fear, which is why they have opted to come into a radiation zone and pen the final chapter of their lives here.
+      "Rather than trying to live in the Yellow Zone by fair means or foul, it's better to come and have a look at this strange new world," says a human with silicification. "Tomorrow will come, and so will the unexpected. That's just the way it is."
+      The team receives a gift from them:
+      '''
+    options: "103,104,201,202,301,302,401,402,501,502,2001"
+    notes: No one can control their fate. All they can do is hold on tight to the mast of their little ship when the storm strikes and try not to be consumed.
+  }
+  {
+    id: 100
+    name: Corpse of a Gigantic Mutated ELID
+    hint: A D-Type ELID with a danger rating of S that can only be neutralized by heavy artillery. This big guy looks like bad news even though it's just a corpse.
+    script:
+      '''
+      For some reason, this animal-like D-Type ELID had clearly developed some unique mutations as it cannibalized other ELIDs.
+      Humans currently know very little about D-Type ELIDs. Judging by existing data, they seem to have some sort of authority over less advanced ELIDs. They can form a pack and become its leader. Some hypothesize that they have evolved some level of intelligence.
+      The team searches the surrounding area of the corpse carefully and gathers some samples:
+      '''
+    options: "103,104,203,204,301,302,401,402,501,502,1501,1601"
+    notes: The corpse, once the ruler of this area, still emits a strong feeling of oppression. However, something in the shadows seems even more powerful... You should leave now, and don't look back.
+  }
+  {
+    id: 110
+    name: Wandering Droids
+    hint: These droids, which have lost their synthetic skin, are wandering on the plains, their exposed metallic frames glinting coldly in the sunlight, almost like a scene out of a sci-fi movie.
+    script:
+      '''
+      These droids' neural clouds are largely intact. They seem to have been abandoned here because of their damaged appearance.
+      The team offers to take their neural clouds so that they can be given new bodies, but the offer is firmly turned down: they do not fear death; in fact, they yearn for this distinctly human experience.
+      They are extremely kind to the team. Not only do they inform them of the local distribution of dangerous creatures, they even give them a lot of their supplies and wish them good luck.
+      '''
+    options: "601,602,701,702,801,802,901,902,1003,1004,1101,1102,1302"
+    notes: They would like to spend their final moments in peace and perhaps embark on the next great adventure. Leave them be.
+  }
+  {
+    id: 120
+    name: Blue Phone Box
+    hint: A blue phone box. Everyone on the team wanders if they're hallucinating, since this thing seems to be EVERYWHERE.
+    script:
+      '''
+      This cuboid blue box looks much bigger on the inside. In the center is a complex control interface. The team gathers around it, but nobody knows how to use this thing.
+      As if sensing their confusion, a line of text suddenly appears on the interface, "Thank you for visiting me. I can give you some help."
+      '''
+    options: "1301,1401,1502,1601,1702,1801,1901,2001"
+    notes: Did we answer the call of destiny, or did destiny lead us to this place? There may be no real answer to this question, but destiny already lies ahead.
+  }
+  {
+    id: 130
+    name: Demolition Notice
+    hint: A crumbling building. Someone suggests exploring it, while others think there won't be anything inside.
+    script:
+      '''
+      In the basement, the team finds an "Area Purge Notice" in a tightly-shut drawer: ...From today onwards, residents have 50 working days to lodge any complaints; after 50 working days, the plan will be implemented.
+      This notice has clearly been displayed properly, and it was no difficult task finding it inside a locked drawer in the basement, so all the residents must have read it.
+      Next to the drawers is a small case with no labels. The team hesitate, wondering if they should open it:
+      '''
+    options: "103,104,203,204,301,302,401,402,501,502,1901,2002"
+    notes: What is the answer to the question? What even is the question? Alright, don't ask too many questions. In the end, everything will crumble into dust.
+  }
+  {
+    id: 140
+    name: Old Car
+    hint: An antique sports car is parked quietly on the roadside like a tourist who has stumbled into a place where they don't belong. The chassis, made entirely of stainless steel, was uncommon even decades ago.
+    script:
+      '''
+      The exploration team approach the car, and the gull-wing doors slowly open, revealing the interior—antique instruments, mysterious numbers, an obsolete number pad... Everything shows that it is not a product of this era.
+      When someone is seated on the driver's seat, the car starts automatically but does not move. A line of text appears on the dashboard: Please input your destination.
+      '''
+    options: "107,108,209,210,307,308,405,406,505,506,1205,1206,1402"
+    notes: The sports car is nowhere to be found. What is its destination this time? Perhaps you can ask it about the future the next time you see it.
+  }
+  {
+    id: 150
+    name: Athena's Owl
+    hint: A building that is completely out of place. It looks pristine amid the ruins, and you can just about hear the music playing inside.
+    script:
+      '''
+      A bar that has no business being here. A relaxing minuet drifts through the door as the wooden owl signboard sways gently in the breeze.
+      The team push the door open and enter the bar. Catching sight of them, the bartender, who has been polishing glasses behind the bar counter, offers them a menu:
+      '''
+    options: "105,106,207,208,305,306,403,404,503,504,605,606,705,706,805,806,905,906,1005,1006,1105,1106,1203,1204"
+    notes: The boundary between reality and fantasy has blurred. Perhaps it doesn't even matter whether this is real or not. Even if all of this is fake, it is still a down-to-earth kind of fake.
+  }
+]

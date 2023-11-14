@@ -682,9 +682,9 @@
     rate: 350
     def: 99999
     level: 10100
-    character: Elite,High Threat,Armor,Piercing
+    character: Elite, High-Threat, Colossal, Armor, Piercing
     normal_attack: 900107
-    passive_skill: "200303,403001,403006,119019,755000"
+    passive_skill: "200303,403001,403006,119019,755000,740089"
     effect_ratio: 0.06
     deployment_scale: 0.8
     enemy_illustration_id: 43
@@ -706,9 +706,9 @@
     rate: 350
     def: 99999
     level: 10100
-    character: Elite,High Threat,Armor,Piercing
+    character: Elite, High-Threat, Colossal, Armor, Piercing
     normal_attack: 900107
-    passive_skill: "200303,403009,403014,119019,755000"
+    passive_skill: "200303,403009,403014,119019,755000,740089"
     effect_ratio: 0.06
     deployment_scale: 0.8
     enemy_illustration_id: 43
@@ -730,9 +730,9 @@
     rate: 350
     def: 99999
     level: 10100
-    character: Elite,High Threat,Armor,Piercing
+    character: Elite, High-Threat, Colossal, Armor, Piercing
     normal_attack: 900107
-    passive_skill: "200303,403017,403022,119019,755000"
+    passive_skill: "200303,403017,403022,119019,755000,740089"
     effect_ratio: 0.06
     deployment_scale: 0.8
     enemy_illustration_id: 43
@@ -831,9 +831,9 @@
     rate: 35
     def: 500
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
-    passive_skill: "200303,404024,200304,119019"
+    passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.21
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -905,9 +905,9 @@
     rate: 30
     def: 600
     level: 100
-    character: Elite, Armor, Force Field
+    character: Elite, Colossal, Armor, Force Field
     normal_attack: 404003
-    passive_skill: "200303,404004,404007,755000"
+    passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.16
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -959,9 +959,9 @@
     rate: 30
     def: 2250
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
-    passive_skill: "200303,404024,200304,119019"
+    passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -986,9 +986,9 @@
     rate: 30
     def: 3750
     level: 100
-    character: Elite, Armor, Force Field
+    character: Elite, Colossal, Armor, Force Field
     normal_attack: 404003
-    passive_skill: "200303,404004,404007,755000"
+    passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1061,9 +1061,9 @@
     rate: 30
     def: 2250
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 711101
-    passive_skill: "200303,711102,200304,711103,711003,711004,711005,711006,711002,119019"
+    passive_skill: "200303,711102,200304,711103,711003,711004,711005,711006,711002,119019,740089"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1087,9 +1087,9 @@
     rate: 42
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: Elite, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.09
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -1136,9 +1136,9 @@
     rate: 30
     def: 2250
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
-    passive_skill: "200303,404024,200304,119019"
+    passive_skill: "200303,404024,200304,119019,740089"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1163,9 +1163,9 @@
     rate: 30
     def: 3750
     level: 100
-    character: Elite, Armor, Force Field
+    character: Elite, Colossal, Armor, Force Field
     normal_attack: 404003
-    passive_skill: "200303,404004,404007,755000"
+    passive_skill: "200303,404004,404007,755000,740089"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1190,9 +1190,9 @@
     rate: 20
     def: 99999
     level: 30100
-    character: Melee, Armor, Damage Immunity
+    character: Colossal, Melee, Armor, Damage Immunity
     normal_attack: 403801
-    passive_skill: "200303,200304,403802,403803,200303,403903"
+    passive_skill: "200303,200304,403802,403803,200303,403903,740089"
     effect_ratio: 1.74
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1317,9 +1317,9 @@
     rate: 24
     def: 6000
     level: 30100
-    character: Armor, Force Field, Weaken
+    character: Armor, Colossal, Force Field, Debuff
     normal_attack: 403701
-    passive_skill: "200303,200304,403702,403703,403704"
+    passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.12
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1344,9 +1344,9 @@
     rate: 40
     def: 5000
     level: 30100
-    character: Elite, Armor, Shield, Armor-Piercing
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
-    passive_skill: "200303,403501,403502,403504,755000"
+    passive_skill: "200303,403501,403502,403504,755000,740089"
     effect_ratio: 1.93
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1418,9 +1418,9 @@
     rate: 20
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 900107
-    passive_skill: "200304,405210,405201,755000"
+    passive_skill: "200304,405210,405201,755000,740089"
     effect_ratio: 1.05
     unable_buff_type: "221"
     deployment_scale: 1
@@ -1468,9 +1468,9 @@
     rate: 50
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 405206
-    passive_skill: "200304,405210,405207,405213,755000"
+    passive_skill: "200304,405210,405207,405213,755000,740089"
     effect_ratio: 1.05
     unable_buff_type: "221"
     deployment_scale: 1
@@ -1518,9 +1518,9 @@
     rate: 50
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 900107
-    passive_skill: "200304,405210,405201,755000"
+    passive_skill: "200304,405210,405201,755000,740089"
     effect_ratio: 1.05
     unable_buff_type: "221"
     deployment_scale: 1
@@ -1663,9 +1663,9 @@
     rate: 35
     def: 99999
     level: 100
-    character: Elite, Melee, Armor, Shield
+    character: Elite, Colossal, Melee, Armorr, Shield
     normal_attack: 900460
-    passive_skill: "900461,900464,900463"
+    passive_skill: "900461,900464,900463,740089"
     effect_ratio: 0.95
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1714,9 +1714,9 @@
     rate: 35
     def: 99999
     level: 100
-    character: Elite,High Threat,Armor,Suppress,Weaken
+    character: Elite, High-Threat, Colossal, Armor, Suppression, Debuff
     normal_attack: 900107
-    passive_skill: "900478,900479,900480,119019,755000"
+    passive_skill: "900478,900479,900480,119019,755000,740089"
     effect_ratio: 1.11
     deployment_scale: 1
     enemy_illustration_id: 79
@@ -1738,7 +1738,7 @@
     rate: 30
     def: 99999
     level: 30100
-    character: Technique – Berserk
+    character: Technique - Berserk
     normal_attack: 902266
     passive_skill: "902265,902267,902268,200304"
     effect_ratio: 1.2
@@ -1863,9 +1863,9 @@
     rate: 24
     def: 6000
     level: 30100
-    character: Armor, Force Field, Weaken
+    character: Colossal, Armor, Force Field, Debuff
     normal_attack: 403701
-    passive_skill: "200303,200304,403702,403703,403704"
+    passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.21
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -1890,9 +1890,9 @@
     rate: 60
     def: 5000
     level: 30100
-    character: Elite, Armor, Shield, Armor-Piercing
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
-    passive_skill: "200303,403501,403502,403504,755000"
+    passive_skill: "200303,403501,403502,403504,755000,740089"
     effect_ratio: 2.19
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -2012,9 +2012,9 @@
     rate: 15
     def: 3500
     level: 100
-    character: Elite, Piercing
+    character: Elite, Colossal, Piercing
     normal_attack: 755051
-    passive_skill: "755056"
+    passive_skill: "755056,740089"
     effect_ratio: 0.97
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -2090,7 +2090,7 @@
     level: 30100
     character: Heavy Armor, Energy Charge
     normal_attack: 755042
-    passive_skill: "755043,755044,755045,755046,200304"
+    passive_skill: "755043,755044,755045,755046,200304,740089"
     effect_ratio: 1.05
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -2308,6 +2308,7 @@
   {
     id: 10097
     type: 3
+    name: Gangster
     enemy_info: 俄罗斯黑帮
     code: RussianGangster_HG
     maxlife: 2600
@@ -2428,6 +2429,7 @@
   {
     id: 10102
     type: 4
+    name: Lycaon
     enemy_info: AA-02简化版
     code: AA02_Mini
     maxlife: 16000
@@ -2443,8 +2445,9 @@
     rate: 30
     def: 99999
     level: 100
+    character: High-Threat, Scattered Shots, AoE Damage
     normal_attack: 755226
-    passive_skill: "755218,200304,119019"
+    passive_skill: "755218,200304,119019,740089"
     effect_ratio: 1
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -2454,6 +2457,7 @@
   {
     id: 10103
     type: 4
+    name: Aspis
     enemy_info: 防护机械
     code: Chariot_Military
     maxlife: 46000
@@ -2468,8 +2472,9 @@
     rate: 20
     def: 99999
     level: 100
+    character: Elite, High-Threat
     normal_attack: 755229
-    passive_skill: "755219,755220,755227,755228,755230,119020"
+    passive_skill: "755219,755220,755227,755228,755230,119020,740089"
     effect_ratio: 1
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -2479,6 +2484,7 @@
   {
     id: 10104
     type: 3
+    name: Cyclops_MG
     enemy_info: 独眼巨人(机枪型）
     code: Cyclops_MG
     maxlife: 650
@@ -2493,6 +2499,7 @@
     rate: 50
     def: 99999
     level: 100
+    character: Elite, Consecutive Shots, Armor-Piercing
     normal_attack: 755221
     passive_skill: "755222,755223,755224,755225"
     effect_ratio: 1
@@ -2502,6 +2509,7 @@
   {
     id: 10105
     type: 4
+    name: Cerynitis SWAP
     enemy_info: 军方连射装甲加强版
     code: Cerynitis_SWAP
     maxlife: 680
@@ -2526,6 +2534,7 @@
   {
     id: 10106
     type: 5
+    name: Aegis_GA_SWAP
     enemy_info: 军方重甲人形加强版
     code: Aegis_GA_SWAP
     maxlife: 2850
@@ -2545,6 +2554,213 @@
     effect_ratio: 1.17
     deployment_scale: 1
     enemy_illustration_id: 172
+  }
+  {
+    id: 10107
+    type: 2
+    name: Arachne
+    enemy_info: 大蜘蛛
+    code: MechanicalSpiderM
+    maxlife: 28000
+    pow: 30
+    hit: 120
+    dodge: 60
+    range: 4
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 120
+    rate: 30
+    def: 6000
+    level: 30100
+    character: Elite, Resilient, Colossal, Armor, Spawner
+    normal_attack: 120901
+    passive_skill: "200303,120902,120904,740089"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 200
+    tenacity: 30
+  }
+  {
+    id: 10108
+    type: 2
+    name: Arachne's Clone
+    enemy_info: 小蜘蛛
+    code: MechanicalSpiderS
+    maxlife: 220
+    pow: 30
+    hit: 120
+    dodge: 120
+    range: 2
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 30
+    rate: 50
+    def: 99999
+    level: 30100
+    character: Melee, High-Speed, Agile, Armor, Debuff
+    normal_attack: 120905
+    passive_skill: "200303,200304"
+    effect_ratio: 0.84
+    deployment_scale: 1
+    enemy_illustration_id: 201
+  }
+  {
+    id: 10109
+    type: 4
+    name: Troy
+    enemy_info: 堡垒机器人
+    code: Fortress
+    maxlife: 36000
+    pow: 80
+    hit: 90
+    dodge: 20
+    range: 6
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 200
+    rate: 35
+    def: 8000
+    level: 30100
+    character: Elite, Resilient, Colossal, Armor, AoE Damage, Damage Immunity
+    normal_attack: 121001
+    passive_skill: "200303,121002,121003,121004,740089"
+    effect_ratio: 0.95
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 202
+    tenacity: 50
+  }
+  {
+    id: 10110
+    type: 3
+    name: Technician
+    enemy_info: 工程师
+    code: Engineer
+    maxlife: 18000
+    pow: 52
+    hit: 80
+    dodge: 32
+    range: 6
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 100
+    def: 4000
+    level: 30100
+    character: Elite, Spawner
+    normal_attack: 121101
+    passive_skill: "200303,121102,121103"
+    effect_ratio: 0.82
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 203
+  }
+  {
+    id: 10111
+    type: 4
+    name: Ladon
+    enemy_info: 机甲
+    code: Mecha_N
+    maxlife: 60000
+    pow: 60
+    hit: 180
+    dodge: 50
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 130
+    rate: 60
+    def: 6000
+    level: 30100
+    character: Elite, High-Threat, Colossal, Armor, Damage Immunity, AoE Damage, Shield
+    normal_attack: 121201
+    passive_skill: "200303,121202,121203,121204,740089,119019"
+    effect_ratio: 1.19
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 204
+  }
+  {
+    id: 10112
+    type: 3
+    name: Cannoneer
+    enemy_info: 炮兵
+    code: Artillery
+    maxlife: 16000
+    pow: 42
+    hit: 65
+    dodge: 32
+    range: 8
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    def: 3000
+    level: 30100
+    character: High-Threat, AoE Damage, Debuff
+    normal_attack: 121301
+    passive_skill: "200303,200304,121302,121303,119019"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 205
+  }
+  {
+    id: 10113
+    type: 3
+    name: Beslan Police
+    enemy_info: 别斯兰警察
+    code: USSR_Agent
+    maxlife: 3200
+    pow: 18
+    hit: 18
+    dodge: 5
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 30100
+    character: Elite
+    normal_attack: 902264
+    effect_ratio: 1
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 212
+  }
+  {
+    id: 10114
+    type: 3
+    name: Weakened Asklepian
+    enemy_info: 巨神兵小兵弱化版（夜）
+    code: Obelisk_partB
+    maxlife: 1950
+    pow: 8
+    hit: 72
+    dodge: 50
+    range: 7
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 40
+    def: 1500
+    level: 30100
+    character: Elite,High Threat,Blind,Piercing
+    normal_attack: 755057
+    passive_skill: "755058,119020"
+    effect_ratio: 0.8
+    deployment_scale: 1
+    enemy_illustration_id: 213
   }
   {
     id: 11001
@@ -3222,9 +3438,9 @@
     rate: 20
     def: 99999
     level: 30100
-    character: Melee, Armor, Damage Immunity
+    character: Colossal, Melee, Armor, Damage Immunity
     normal_attack: 403801
-    passive_skill: "200303,200304,403802,403803,200303,403903"
+    passive_skill: "200303,200304,403802,403803,200303,403903,740089"
     effect_ratio: 1.74
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3349,9 +3565,9 @@
     rate: 24
     def: 6000
     level: 30100
-    character: Armor, Force Field, Weaken
+    character: Armor, Colossal, Force Field, Debuff
     normal_attack: 403701
-    passive_skill: "200303,200304,403702,403703,403704"
+    passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.12
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3376,9 +3592,9 @@
     rate: 40
     def: 5000
     level: 30100
-    character: Elite, Armor, Force Field, Armor-Piercing
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
-    passive_skill: "200303,403501,403502,403504,755000"
+    passive_skill: "200303,403501,403502,403504,755000,740089"
     effect_ratio: 1.92
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3450,9 +3666,9 @@
     rate: 35
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 900107
-    passive_skill: "200304,405210,405201,755000"
+    passive_skill: "200304,405210,405201,755000,740089"
     effect_ratio: 1.07
     deployment_scale: 1
     enemy_illustration_id: 74
@@ -3498,9 +3714,9 @@
     rate: 50
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 405206
-    passive_skill: "200304,405210,405207,405213,755000"
+    passive_skill: "200304,405210,405207,405213,755000,740089"
     effect_ratio: 1.07
     deployment_scale: 1
     enemy_illustration_id: 75
@@ -3546,9 +3762,9 @@
     rate: 50
     def: 99999
     level: 30100
-    character: Lethal, Auto Defensive Facility, Support
+    character: Colossal, Lethal, Auto Defense Facility, Support
     normal_attack: 900107
-    passive_skill: "200304,405210,405201,755000"
+    passive_skill: "200304,405210,405201,755000,740089"
     effect_ratio: 1.07
     deployment_scale: 1
     enemy_illustration_id: 76
@@ -3617,9 +3833,9 @@
     rate: 24
     def: 6000
     level: 30100
-    character: Armor, Force Field, Weaken
+    character: Colossal, Armor, Force Field, Debuff
     normal_attack: 403701
-    passive_skill: "200303,200304,403702,403703,403704"
+    passive_skill: "200303,200304,403702,403703,403704,740089"
     effect_ratio: 1.21
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3644,9 +3860,9 @@
     rate: 60
     def: 5000
     level: 30100
-    character: Elite, Armor, Shield, Armor-Piercing
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
-    passive_skill: "200303,403501,403502,403504,755000"
+    passive_skill: "200303,403501,403502,403504,755000,740089"
     effect_ratio: 2.17
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3794,9 +4010,9 @@
     rate: 15
     def: 3500
     level: 100
-    character: Elite, Piercing
+    character: Elite, Colossal, Piercing
     normal_attack: 755051
-    passive_skill: "755056"
+    passive_skill: "755056,740089"
     effect_ratio: 0.97
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3872,7 +4088,7 @@
     level: 30100
     character: Colossal, Shield, Damage Over Time
     normal_attack: 755042
-    passive_skill: "755043,755044,755045,755046,200304"
+    passive_skill: "755043,755044,755045,755046,200304,740089"
     effect_ratio: 1.05
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -3935,6 +4151,7 @@
   {
     id: 12097
     type: 3
+    name: Gangster
     enemy_info: 俄罗斯黑帮
     code: RussianGangster_HG
     maxlife: 2600
@@ -4055,6 +4272,7 @@
   {
     id: 12102
     type: 2
+    name: Lycaon
     enemy_info: AA-02简化版
     code: AA02_Mini
     maxlife: 14000
@@ -4070,8 +4288,9 @@
     rate: 30
     def: 99999
     level: 100
+    character: High-Threat, Scattered Shots, AoE Damage
     normal_attack: 755226
-    passive_skill: "755218,200304,119019"
+    passive_skill: "755218,200304,119019,740089"
     effect_ratio: 1
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -4081,6 +4300,7 @@
   {
     id: 12103
     type: 2
+    name: Aspis
     enemy_info: 防护机械
     code: Chariot_Military
     maxlife: 38000
@@ -4095,8 +4315,9 @@
     rate: 20
     def: 99999
     level: 100
+    character: Elite, High-Threat
     normal_attack: 755229
-    passive_skill: "755219,755220,755227,755228,755230,119020"
+    passive_skill: "755219,755220,755227,755228,755230,119020,740089"
     effect_ratio: 1
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -4106,6 +4327,7 @@
   {
     id: 12104
     type: 3
+    name: Cyclops_MG
     enemy_info: 独眼巨人(机枪型）
     code: Cyclops_MG
     maxlife: 650
@@ -4120,6 +4342,7 @@
     rate: 50
     def: 99999
     level: 100
+    character: Elite, Consecutive Shots, Armor-Piercing
     normal_attack: 755221
     passive_skill: "755222,755223,755224,755225"
     effect_ratio: 1
@@ -4129,6 +4352,7 @@
   {
     id: 12105
     type: 4
+    name: Cerynitis SWAP
     enemy_info: 军方连射装甲加强版
     code: Cerynitis_SWAP
     maxlife: 520
@@ -4153,6 +4377,7 @@
   {
     id: 12106
     type: 5
+    name: Aegis_GA_SWAP
     enemy_info: 军方重甲人形加强版
     code: Aegis_GA_SWAP
     maxlife: 1650
@@ -4172,6 +4397,188 @@
     effect_ratio: 1.17
     deployment_scale: 1
     enemy_illustration_id: 172
+  }
+  {
+    id: 12107
+    type: 2
+    name: Arachne
+    enemy_info: 大蜘蛛
+    code: MechanicalSpiderM
+    maxlife: 26000
+    pow: 30
+    hit: 120
+    dodge: 40
+    range: 4
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 120
+    rate: 30
+    def: 6000
+    level: 30100
+    character: Elite, Resilient, Colossal, Armor, Spawner
+    normal_attack: 120901
+    passive_skill: "200303,120902,120904,740089"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 200
+    tenacity: 30
+  }
+  {
+    id: 12108
+    type: 2
+    name: Arachne's Clone
+    enemy_info: 小蜘蛛
+    code: MechanicalSpiderS
+    maxlife: 200
+    pow: 30
+    hit: 120
+    dodge: 90
+    range: 2
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 30
+    rate: 50
+    def: 99999
+    level: 30100
+    character: Melee, High-Speed, Agile, Armor, Debuff
+    normal_attack: 120905
+    passive_skill: "200303,200304"
+    effect_ratio: 0.84
+    deployment_scale: 1
+    enemy_illustration_id: 201
+  }
+  {
+    id: 12109
+    type: 4
+    name: Troy
+    enemy_info: 堡垒机器人
+    code: Fortress
+    maxlife: 33000
+    pow: 80
+    hit: 90
+    dodge: 15
+    range: 6
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 200
+    rate: 35
+    def: 8000
+    level: 30100
+    character: Elite, Resilient, Colossal, Armor, AoE Damage, Damage Immunity
+    normal_attack: 121001
+    passive_skill: "200303,121002,121003,121004,740089"
+    effect_ratio: 0.95
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 202
+    tenacity: 50
+  }
+  {
+    id: 12110
+    type: 3
+    name: Technician
+    enemy_info: 工程师
+    code: Engineer
+    maxlife: 16000
+    pow: 52
+    hit: 80
+    dodge: 20
+    range: 6
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 100
+    def: 4000
+    level: 30100
+    character: Elite, Spawner
+    normal_attack: 121101
+    passive_skill: "200303,121102,121103"
+    effect_ratio: 0.82
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 203
+  }
+  {
+    id: 12111
+    type: 4
+    name: Ladon
+    enemy_info: 机甲
+    code: Mecha_N
+    maxlife: 55000
+    pow: 60
+    hit: 180
+    dodge: 40
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 130
+    rate: 60
+    def: 6000
+    level: 30100
+    character: Elite, High-Threat, Colossal, Armor, Damage Immunity, AoE Damage, Shield
+    normal_attack: 121201
+    passive_skill: "200303,121202,121203,121204,740089,119019"
+    effect_ratio: 1.19
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 204
+  }
+  {
+    id: 12112
+    type: 3
+    name: Cannoneer
+    enemy_info: 炮兵
+    code: Artillery
+    maxlife: 15000
+    pow: 42
+    hit: 65
+    dodge: 20
+    range: 8
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    def: 3000
+    level: 30100
+    character: High-Threat, AoE Damage, Debuff
+    normal_attack: 121301
+    passive_skill: "200303,200304,121302,121303,119019"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 205
+  }
+  {
+    id: 12113
+    type: 3
+    name: Weakened Asklepian
+    enemy_info: 巨神兵小兵弱化版（夜）
+    code: Obelisk_partB
+    maxlife: 1650
+    pow: 8
+    hit: 72
+    dodge: 20
+    range: 7
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 40
+    def: 1500
+    level: 30100
+    character: Elite,High Threat,Blind,Piercing
+    normal_attack: 755057
+    passive_skill: "755058,119020"
+    effect_ratio: 0.8
+    deployment_scale: 1
+    enemy_illustration_id: 213
   }
   {
     id: 13001
@@ -5593,9 +6000,9 @@
     rate: 24
     def: 6000
     level: 30100
-    character: Armor, Force Field, Weaken
+    character: Colossal, Armor, Force Field, Debuff
     normal_attack: 403701
-    passive_skill: "200303,200304,403702,755214,403704"
+    passive_skill: "200303,200304,403702,755214,403704,740089"
     effect_ratio: 1.21
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034"
@@ -5656,6 +6063,7 @@
   {
     id: 13235
     type: 4
+    name: Possessed Roomba
     enemy_info: 蜘蛛雷-沙罗蚀相
     code: Pumpkin_Dactyl
     maxlife: 800
@@ -5681,6 +6089,7 @@
   {
     id: 13236
     type: 5
+    name: Super Duster
     enemy_info: 军方重甲人形-沙罗蚀相
     code: Mop_Aegis
     maxlife: 2325
@@ -5704,6 +6113,7 @@
   {
     id: 13237
     type: 3
+    name: Hell's Chef
     enemy_info: 独眼巨人(步枪型）-沙罗蚀相
     code: Chief_Cyclops
     maxlife: 1140
@@ -5741,7 +6151,7 @@
     rate: 30
     def: 99999
     level: 30100
-    character: Shielded Advance
+    character: Melee, Damage Immunity
     normal_attack: 755273
     passive_skill: "200304,902269,755274"
     effect_ratio: 0.8
@@ -5793,7 +6203,7 @@
     rate: 30
     def: 99999
     level: 30100
-    character: Melee, Armor
+    character: High-Speed, AoE Damage
     normal_attack: 755270
     passive_skill: "755269,200304"
     effect_ratio: 1.84
@@ -5818,7 +6228,7 @@
     rate: 20
     def: 99999
     level: 100
-    character: Elite, High-Threat
+    character: Elite, High-Threat, High-Speed, Highly Dangerous
     normal_attack: 900107
     passive_skill: "755264,755265,755266,119020"
     effect_ratio: 1
@@ -5843,7 +6253,7 @@
     rate: 25
     def: 99999
     level: 30100
-    character: Armor, Spawner
+    character: Spawner
     normal_attack: 900107
     passive_skill: "200304,755267"
     effect_ratio: 1.41
@@ -5868,7 +6278,7 @@
     rate: 50
     def: 99999
     level: 30100
-    character: Melee, Armor
+    character: AoE Damage
     normal_attack: 900107
     passive_skill: "200304,755268"
     effect_ratio: 0.84
@@ -5893,7 +6303,7 @@
     rate: 35
     def: 99999
     level: 30100
-    character: Elite, High-Speed, Boost
+    character: High-Speed, Armor-Piercing
     normal_attack: 755271
     passive_skill: "755272.200304"
     effect_ratio: 0.7
@@ -5918,7 +6328,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -5942,7 +6352,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -5966,7 +6376,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -5990,7 +6400,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -6014,7 +6424,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -6038,7 +6448,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -6062,7 +6472,7 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
@@ -6086,12 +6496,688 @@
     rate: 18
     def: 99999
     level: 30100
-    character: Griffin, Shield
+    character: Griffin
     normal_attack: 755146
     passive_skill: "755145,755147,755148,200304"
     effect_ratio: 1
     deployment_scale: 1
     enemy_illustration_id: 100051
+  }
+  {
+    id: 13253
+    type: 3
+    name: Nightmare
+    enemy_info: 梦魇-灰域探查
+    code: unknownbonus
+    maxlife: 924
+    pow: 21
+    hit: 23
+    dodge: 15
+    range: 2
+    speed: 20
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304"
+    effect_ratio: 0.6
+    deployment_scale: 1
+    enemy_illustration_id: 36
+  }
+  {
+    id: 14001
+    type: 3
+    name: Corpse Bride
+    enemy_info: 铁血突击白情-灰域探查
+    code: Vespid_bride
+    maxlife: 960
+    pow: 22
+    hit: 70
+    dodge: 32
+    range: 7
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 24
+    def: 99999
+    level: 30100
+    character: Normal
+    normal_attack: 300313
+    passive_skill: "200304,755257"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 121
+  }
+  {
+    id: 14002
+    type: 3
+    name: Phantom
+    enemy_info: 铁血双刀白情-灰域探查
+    code: Brute_Ghost
+    maxlife: 1150
+    pow: 58
+    hit: 70
+    dodge: 18
+    range: 3
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 40
+    rate: 36
+    def: 99999
+    level: 30100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304,755257"
+    effect_ratio: 1.2
+    deployment_scale: 1
+    enemy_illustration_id: 122
+  }
+  {
+    id: 14003
+    type: 4
+    name: Crab Cannon
+    enemy_info: 沙滩九头蛇-灰域探查
+    code: Hydra_beach
+    maxlife: 9000
+    pow: 280
+    hit: 55
+    range: 4
+    speed: 20
+    number: 1
+    angle: 180
+    armor: 199
+    rate: 42
+    def: 99999
+    level: 100
+    character: Armor, Danger
+    normal_attack: 402601
+    passive_skill: "200303,200304,402602,755256"
+    effect_ratio: 1.17
+    deployment_scale: 1
+    enemy_illustration_id: 82
+  }
+  {
+    id: 14004
+    type: 4
+    name: Mechanical Crab
+    enemy_info: 沙滩蜘蛛雷-灰域探查
+    code: landmine_beach
+    maxlife: 800
+    pow: 100
+    hit: 100
+    range: 20
+    speed: 40
+    number: 1
+    angle: 180
+    armor: 20
+    rate: 150
+    def: 99999
+    level: 100
+    character: Elite, Armor, Minelayer
+    normal_attack: 900107
+    passive_skill: "200303,403107,755256"
+    effect_ratio: 0.25
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 83
+  }
+  {
+    id: 14005
+    type: 2
+    name: Watermelon House
+    enemy_info: 沙滩兵工厂-灰域探查
+    code: RecceCentre_beach
+    maxlife: 35000
+    pow: 10
+    hit: 15
+    dodge: 10
+    range: 15
+    number: 1
+    angle: 180
+    armor: 150
+    rate: 25
+    def: 99999
+    level: 30100
+    character: Armor, Spawner
+    normal_attack: 900107
+    passive_skill: "200304,404504,404503,755000,755256"
+    effect_ratio: 1.41
+    unable_buff_type: "221"
+    deployment_scale: 1
+    enemy_illustration_id: 84
+  }
+  {
+    id: 14006
+    type: 2
+    name: Faux Watermelon
+    enemy_info: 沙滩西瓜-灰域探查
+    code: Pathfinder_beach
+    maxlife: 180
+    pow: 10
+    hit: 150
+    dodge: 150
+    range: 3
+    speed: 18
+    number: 1
+    angle: 180
+    armor: 45
+    rate: 50
+    def: 99999
+    level: 30100
+    character: Melee, Armor
+    normal_attack: 300317
+    passive_skill: "200304,755256"
+    effect_ratio: 0.84
+    deployment_scale: 1
+    enemy_illustration_id: 85
+  }
+  {
+    id: 14070
+    type: 2
+    name: Xmas Dinergate
+    enemy_info: 圣诞兵蚁-灰域探查
+    code: Dinergate_chm1
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.07
+    deployment_scale: 1
+    enemy_illustration_id: 106
+  }
+  {
+    id: 14111
+    type: 5
+    name: Demonic Knight
+    enemy_info: 万圣圣盾2020
+    code: Aegis_Halloween
+    maxlife: 1550
+    pow: 11
+    hit: 18
+    range: 3
+    speed: 35
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 40
+    def: 99999
+    level: 100
+    character: Melee, Armor
+    normal_attack: 300316
+    passive_skill: "200303,200304,755257"
+    effect_ratio: 1.14
+    deployment_scale: 1
+    enemy_illustration_id: 104
+  }
+  {
+    id: 14112
+    type: 4
+    name: Demonic Steed
+    enemy_info: 万圣钢狮2020
+    code: Nemeum_Halloween
+    maxlife: 567
+    pow: 84
+    hit: 60
+    range: 7
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 15
+    def: 99999
+    level: 100
+    character: Armor
+    normal_attack: 901053
+    passive_skill: "200303,200304,755257"
+    effect_ratio: 1.28
+    deployment_scale: 1
+    enemy_illustration_id: 105
+  }
+  {
+    id: 14117
+    type: 3
+    name: Pumpkin Ripper
+    enemy_info: 万圣切割者普通
+    code: Ripper_Halloween
+    maxlife: 794
+    pow: 21
+    hit: 23
+    dodge: 15
+    range: 5
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 36
+    def: 99999
+    level: 30100
+    character: Melee
+    normal_attack: 300317
+    passive_skill: "200304,755257"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 101
+  }
+  {
+    id: 14118
+    type: 3
+    name: Phantom Jaeger
+    enemy_info: 万圣猎鸥普通
+    code: Jaeger_Halloween
+    maxlife: 397
+    pow: 42
+    hit: 140
+    dodge: 15
+    range: 7
+    speed: 35
+    number: 1
+    angle: 180
+    armor_piercing: 35
+    rate: 18
+    def: 99999
+    level: 30100
+    character: Assault, Precise
+    normal_attack: 300301
+    passive_skill: "200304,755257"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 102
+  }
+  {
+    id: 14119
+    type: 3
+    name: Witch Dragoon
+    enemy_info: 万圣龙骑兵普通
+    code: Dragon_Halloween
+    maxlife: 1588
+    pow: 42
+    hit: 140
+    dodge: 15
+    range: 4
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 28
+    def: 99999
+    level: 30100
+    character: High speed
+    normal_attack: 300318
+    passive_skill: "200304,755257"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 103
+  }
+  {
+    id: 14123
+    type: 2
+    name: Dinereindeer
+    enemy_info: 驯顺兵鹿
+    code: Dinergate_chm2
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.07
+    deployment_scale: 1
+    enemy_illustration_id: 107
+  }
+  {
+    id: 14124
+    type: 3
+    name: Gingerbread Guard
+    enemy_info: 姜饼护卫者
+    code: Guard_chm
+    maxlife: 2269
+    pow: 11
+    hit: 23
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    def: 99999
+    level: 100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304,755258"
+    effect_ratio: 0.6
+    deployment_scale: 1
+    enemy_illustration_id: 108
+  }
+  {
+    id: 14217
+    type: 2
+    name: Jaws Paradise
+    enemy_info: 兵工厂-泳装2021
+    code: RecceCentreSwim
+    maxlife: 25000
+    pow: 10
+    hit: 6
+    dodge: 4
+    range: 15
+    number: 1
+    angle: 180
+    armor: 150
+    rate: 20
+    def: 99999
+    level: 30100
+    character: Armor, Spawner
+    normal_attack: 900107
+    passive_skill: "200303,200304,404503,404506,755000,755256"
+    effect_ratio: 1.4
+    unable_buff_type: "221"
+    deployment_scale: 1
+    enemy_illustration_id: 123
+  }
+  {
+    id: 14218
+    type: 2
+    name: Shark Row
+    enemy_info: 球-泳装2021
+    code: PathfinderSwim
+    maxlife: 130
+    pow: 10
+    hit: 150
+    dodge: 60
+    range: 3
+    speed: 18
+    number: 1
+    angle: 180
+    armor: 45
+    rate: 40
+    def: 99999
+    level: 30100
+    character: Melee, Armor
+    normal_attack: 300312
+    passive_skill: "200304,755256"
+    effect_ratio: 0.82
+    deployment_scale: 1
+    enemy_illustration_id: 124
+  }
+  {
+    id: 14219
+    type: 3
+    name: Maritime Bartender
+    enemy_info: 独眼巨人(步枪型）
+    code: CyclopsSwim
+    maxlife: 1320
+    pow: 22
+    hit: 46
+    dodge: 32
+    range: 5
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 28
+    def: 99999
+    level: 30100
+    character: Elite, AoE Damage
+    normal_attack: 300301
+    passive_skill: "700101,402605,755256"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 125
+  }
+  {
+    id: 14225
+    type: 2
+    name: Dessertgate
+    enemy_info: 侦察犬-白情
+    code: Dinergate_WhiteDay
+    maxlife: 65
+    pow: 84
+    hit: 140
+    range: 3
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 24
+    def: 99999
+    level: 30100
+    character: Melee
+    normal_attack: 300316
+    passive_skill: "200304,755259"
+    effect_ratio: 0.07
+    deployment_scale: 1
+    enemy_illustration_id: 158
+  }
+  {
+    id: 14226
+    type: 2
+    name: Black Chococalorie Bomb
+    enemy_info: 歌莉娅-白情1
+    code: Dinergate_WhiteDay1
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 159
+  }
+  {
+    id: 14227
+    type: 2
+    name: White Chococalorie Bomb
+    enemy_info: 歌莉娅-白情2
+    code: Dinergate_WhiteDay2
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 160
+  }
+  {
+    id: 14228
+    type: 2
+    name: Truffle Chococalorie Bomb
+    enemy_info: 歌莉娅-白情3
+    code: Dinergate_WhiteDay3
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 161
+  }
+  {
+    id: 14229
+    type: 2
+    name: Black Chococalorie Bomb
+    enemy_info: 歌莉娅-白情1大号
+    code: Dinergate_WhiteDay1B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 159
+  }
+  {
+    id: 14230
+    type: 2
+    name: White Chococalorie Bomb
+    enemy_info: 歌莉娅-白情2大号
+    code: Dinergate_WhiteDay2B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 160
+  }
+  {
+    id: 14231
+    type: 2
+    name: Truffle Chococalorie Bomb
+    enemy_info: 歌莉娅-白情3大号
+    code: Dinergate_WhiteDay3B
+    maxlife: 15000
+    pow: 1000
+    hit: 10000
+    range: 1
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    def: 99999
+    level: 100
+    character: Destructive, Keep Away!
+    normal_attack: 900107
+    passive_skill: "310325,119020,755259"
+    effect_ratio: 0.25
+    deployment_scale: 1
+    enemy_illustration_id: 161
+  }
+  {
+    id: 14232
+    type: 3
+    name: Roaming Fool
+    enemy_info: 泳装角斗士
+    code: Roarer_swimsuit
+    maxlife: 42000
+    pow: 46
+    hit: 46
+    dodge: 10
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    armor: 90
+    rate: 24
+    def: 6000
+    level: 30100
+    character: Colossal, Armor, Force Field, Debuff
+    normal_attack: 403701
+    passive_skill: "200303,200304,403702,755214,403704,755256"
+    effect_ratio: 1.21
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 163
+  }
+  {
+    id: 14233
+    type: 3
+    name: Spearfishing Seer
+    enemy_info: 泳装剑盾士
+    code: Rodelero_swimsuit
+    maxlife: 3500
+    pow: 27
+    hit: 40
+    dodge: 15
+    range: 7
+    speed: 35
+    number: 1
+    angle: 180
+    armor: 40
+    rate: 15
+    def: 600
+    level: 100
+    character: Jumps, Laser, Forcefield
+    normal_attack: 755215
+    passive_skill: "200303,200304,755256"
+    effect_ratio: 1.04
+    unable_buff_type: "221"
+    able_buff_id: "133,135,136,137,3918,8034"
+    deployment_scale: 1
+    enemy_illustration_id: 164
+  }
+  {
+    id: 14234
+    type: 3
+    name: Lycan Surfer
+    enemy_info: 泳装重炮士
+    code: StreletPlus_swimsuit
+    maxlife: 1950
+    pow: 46
+    hit: 72
+    dodge: 50
+    range: 7
+    speed: 25
+    number: 1
+    angle: 180
+    rate: 40
+    def: 1500
+    level: 30100
+    character: High Threat,Force Field,Weaken
+    normal_attack: 755217
+    passive_skill: "200304,755216,119019,755256"
+    effect_ratio: 0.8
+    deployment_scale: 1
+    enemy_illustration_id: 165
   }
   {
     id: 15001
@@ -6352,7 +7438,7 @@
     rate: 42
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
     passive_skill: "200303,200304"
     effect_ratio: 1.06
@@ -6427,7 +7513,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
     passive_skill: "200303,404024,200304"
     effect_ratio: 0.792
@@ -6454,7 +7540,7 @@
     rate: 30
     def: 2250
     level: 100
-    character: Grenade Barrage, Heavy Armor, Forcefield
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
     passive_skill: "200303,404024,200304"
     effect_ratio: 0.792
@@ -6532,9 +7618,9 @@
     rate: 40
     def: 5000
     level: 30100
-    character: Shield, Highly Evasive, Two Modes
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
-    passive_skill: "200303,403501,403502,403504,755000"
+    passive_skill: "200303,403501,403502,403504,755000,740089"
     effect_ratio: 1.6
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918"
@@ -7172,6 +8258,7 @@
     effect_ratio: 1
     deployment_scale: 1
     enemy_illustration_id: 1
+    tenacity: 100
   }
   {
     id: 90002
@@ -7398,7 +8485,7 @@
     effect_ratio: 1.05
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: Strong Doll, Slug
+    recommend_description: RF
     enemy_illustration_id: 18
   }
   {
@@ -7425,7 +8512,7 @@
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: Strong Doll, Slug
+    recommend_description: HG, SMG, AR
     enemy_illustration_id: 26
   }
   {
@@ -7512,7 +8599,7 @@
     effect_ratio: 1.15
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: SG, MG, Slug
+    recommend_description: HG, RF, SG
     enemy_illustration_id: 35
   }
   {
@@ -7564,7 +8651,7 @@
     boss_hp: 62000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406325
     passive_skill: "406301,406323,501029,406322,702000"
     effect_ratio: 0.78
@@ -7599,6 +8686,7 @@
     effect_ratio: 1.06
     voice: "1,2,3"
     deployment_scale: 1
+    recommend_description: AR,MG
     enemy_illustration_id: 27
   }
   {
@@ -7653,6 +8741,7 @@
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
+    recommend_description: SMG, AR, Night Vision Equipment
     enemy_illustration_id: 45
   }
   {
@@ -7680,6 +8769,7 @@
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
+    recommend_description: RF,MG,SG
     enemy_illustration_id: 81
   }
   {
@@ -7707,6 +8797,7 @@
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
+    recommend_description: Powerful T-Doll
     enemy_illustration_id: 138
   }
   {
@@ -7733,6 +8824,7 @@
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
+    recommend_description: MG, SG
     enemy_illustration_id: 109
   }
   {
@@ -7945,6 +9037,7 @@
   {
     id: 800009
     type: 2
+    name: Miss Eve
     enemy_info: 伊芙-100昼战区
     code: Nyto_mecha
     maxlife: 450000
@@ -7959,9 +9052,9 @@
     rate: 40
     def: 6000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,119029"
+    passive_skill: "755239,755240,755241,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -7970,6 +9063,7 @@
   {
     id: 800010
     type: 2
+    name: Babushka Lyuba
     enemy_info: 柳芭老妈-100昼战区
     code: Oldlady_boss
     maxlife: 300000
@@ -8349,9 +9443,9 @@
     rate: 42
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.04
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8373,9 +9467,9 @@
     rate: 42
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.06
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8398,9 +9492,9 @@
     rate: 45
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.03
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8423,9 +9517,9 @@
     rate: 45
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.03
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8498,9 +9592,9 @@
     rate: 42
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.05
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8600,9 +9694,9 @@
     rate: 55
     def: 99999
     level: 100
-    character: Fully Armed, Precision Targeting, Invincible
+    character: High-Threat, Colossal, Armor, Dangerous
     normal_attack: 300301
-    passive_skill: "200303,200304,119019"
+    passive_skill: "200303,200304,119019,740089"
     effect_ratio: 1.03
     deployment_scale: 1
     enemy_illustration_id: 16
@@ -8984,9 +10078,9 @@
     rate: 50
     def: 99999
     level: 20200
-    character: Armor, Auto Defensive Facility
+    character: High-Threat, Colossal, Armor, Auto Defense Facility
     normal_attack: 300310
-    passive_skill: "300319,200301,200302,200303,119029,755000"
+    passive_skill: "300319,200301,200302,200303,119029,755000,740089"
     effect_ratio: 1.53
     deployment_scale: 1
     enemy_illustration_id: 25
@@ -10752,9 +11846,9 @@
     boss_hp: 225000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -12041,9 +13135,9 @@
     boss_hp: 11500
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404025,404026,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404025,404026,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -12069,9 +13163,9 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -12392,9 +13486,9 @@
     boss_hp: 195000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -12791,9 +13885,9 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -13009,9 +14103,9 @@
     boss_hp: 46000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029"
+    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -13038,9 +14132,9 @@
     boss_hp: 260000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029"
+    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13261,9 +14355,9 @@
     boss_hp: 46000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -13290,9 +14384,9 @@
     boss_hp: 320000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,755000"
+    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13319,9 +14413,9 @@
     boss_hp: 260000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13347,9 +14441,9 @@
     rate: 40
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,755000"
+    passive_skill: "406301,406302,406309,406310,406303,406305,406306,406307,406308,406311,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13375,9 +14469,9 @@
     rate: 40
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13459,9 +14553,9 @@
     boss_hp: 220000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -13655,9 +14749,9 @@
     boss_hp: 85000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -14968,9 +16062,9 @@
     boss_hp: 245000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 404014
-    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029"
+    passive_skill: "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -15105,9 +16199,9 @@
     boss_hp: 32000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -15134,9 +16228,9 @@
     boss_hp: 58000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -15231,7 +16325,7 @@
   {
     id: 900288
     type: 1
-    name: Architect – NVW Model
+    name: Architect - NVW Model
     enemy_info: 捕获Boss
     code: BossArchitect_Summer
     maxlife: 40000
@@ -15404,9 +16498,9 @@
     boss_hp: 1200
     def: 200
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.69
     unable_buff_type: "221"
     voice: "1,2"
@@ -15432,9 +16526,9 @@
     boss_hp: 2200
     def: 300
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.7
     unable_buff_type: "221"
     voice: "1,2"
@@ -15460,9 +16554,9 @@
     boss_hp: 5800
     def: 600
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.71
     unable_buff_type: "221"
     voice: "1,2"
@@ -15488,9 +16582,9 @@
     boss_hp: 18000
     def: 1000
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.72
     unable_buff_type: "221"
     voice: "1,2"
@@ -15516,9 +16610,9 @@
     boss_hp: 220000
     def: 3000
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.73
     unable_buff_type: "221"
     voice: "1,2"
@@ -15544,9 +16638,9 @@
     boss_hp: 350000
     def: 6000
     level: 100
-    character: Elite, Blind, Piercing, Armor
+    character: Elite, Colossal, Blinding, Piercing, Armor
     normal_attack: 755062
-    passive_skill: "755059,755060,755061,755063,755064,119029"
+    passive_skill: "755059,755060,755061,755063,755064,119029,740089"
     effect_ratio: 0.73
     unable_buff_type: "221"
     voice: "1,2"
@@ -15735,9 +16829,9 @@
     boss_hp: 52000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756119,756121,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756119,756121,119029,755000,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -15764,9 +16858,9 @@
     boss_hp: 260000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756120,756121,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756120,756121,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -15959,9 +17053,9 @@
     rate: 40
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756120,756121,119029,755000"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,756120,756121,119029,755000,740089"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
@@ -15971,7 +17065,7 @@
   {
     id: 900315
     type: 1
-    name: Intruder – Sorceress of the End
+    name: Intruder - Sorceress of the End
     enemy_info: 捕获Boss
     code: Intruder_Halloween
     maxlife: 52000
@@ -16051,7 +17145,7 @@
   {
     id: 900318
     type: 1
-    name: Destroyer – Dashing Reindeer
+    name: Destroyer - Dashing Reindeer
     enemy_info: 捕获Boss
     code: Destroyer_Christmas
     maxlife: 75000
@@ -16977,9 +18071,9 @@
     boss_hp: 205000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 755203
-    passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029"
+    passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -17006,9 +18100,9 @@
     boss_hp: 465000
     def: 99999
     level: 100
-    character: Elite, Danger
+    character: Elite, Colossal, Dangerous
     normal_attack: 755203
-    passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029"
+    passive_skill: "755197,755199,755200,755201,755202,755204,755205,755206,755207,755208,755209,755210,755211,755212,755213,119029,740089"
     effect_ratio: 1
     unable_buff_type: "221,756"
     voice: "1,2"
@@ -17047,6 +18141,7 @@
   {
     id: 900356
     type: 1
+    name: Gray
     enemy_info: 格雷-强无敌
     code: Mrsgray
     maxlife: 990000
@@ -17089,9 +18184,9 @@
     boss_hp: 990000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,755249"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,755249,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -17101,6 +18196,7 @@
   {
     id: 900358
     type: 1
+    name: Miss Eve
     enemy_info: 70级20%提升版30%血撤退
     code: Nyto_mecha
     maxlife: 8200
@@ -17116,9 +18212,9 @@
     boss_hp: 8200
     def: 300
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755250,119029"
+    passive_skill: "755239,755240,755241,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17127,6 +18223,7 @@
   {
     id: 900359
     type: 1
+    name: Miss Eve
     enemy_info: 105级20%提升版30%血撤退
     code: Nyto_mecha
     maxlife: 160000
@@ -17142,9 +18239,9 @@
     boss_hp: 160000
     def: 5000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755250,119029"
+    passive_skill: "755239,755240,755241,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17153,6 +18250,7 @@
   {
     id: 900360
     type: 1
+    name: Miss Eve
     enemy_info: 140级20%提升版30%血撤退
     code: Nyto_mecha
     maxlife: 520000
@@ -17168,9 +18266,9 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755250,119029"
+    passive_skill: "755239,755240,755241,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17179,6 +18277,7 @@
   {
     id: 900361
     type: 1
+    name: Miss Eve
     enemy_info: 130级-22年夏活夜战秃洞
     code: Nyto_mecha
     maxlife: 220000
@@ -17194,9 +18293,9 @@
     boss_hp: 220000
     def: 6000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,119029"
+    passive_skill: "755239,755240,755241,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17222,9 +18321,9 @@
     boss_hp: 420000
     def: 99999
     level: 100
-    character: Elite, Armor, Support, Weaken
+    character: Elite, Colossal, Armor, Support, Debuff
     normal_attack: 406304
-    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248"
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,740089"
     effect_ratio: 0.66
     unable_buff_type: "221"
     voice: "1,2"
@@ -17234,6 +18333,7 @@
   {
     id: 900363
     type: 1
+    name: Miss Eve
     enemy_info: 70级-【开场无敌】30%血撤退
     code: Nyto_mecha
     maxlife: 12000
@@ -17249,9 +18349,9 @@
     boss_hp: 12000
     def: 500
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755249,755250,119029"
+    passive_skill: "755239,755240,755241,755249,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17260,6 +18360,7 @@
   {
     id: 900364
     type: 1
+    name: Miss Eve
     enemy_info: 110级-【开场无敌】30%血撤退
     code: Nyto_mecha
     maxlife: 185000
@@ -17275,9 +18376,9 @@
     boss_hp: 185000
     def: 5000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755249,755250,119029"
+    passive_skill: "755239,755240,755241,755249,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17286,6 +18387,7 @@
   {
     id: 900365
     type: 1
+    name: Miss Eve
     enemy_info: 140级-【开场无敌】30%血撤退
     code: Nyto_mecha
     maxlife: 520000
@@ -17301,9 +18403,9 @@
     boss_hp: 520000
     def: 7000
     level: 100
-    character: Elite, Piercing
+    character: Elite, Piercing, Colossal
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,755249,755250,119029"
+    passive_skill: "755239,755240,755241,755249,755250,119029,740089,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17312,6 +18414,7 @@
   {
     id: 900366
     type: 1
+    name: Babushka Lyuba
     enemy_info: 135级昼战
     code: Oldlady_boss
     maxlife: 1200000
@@ -17337,6 +18440,7 @@
   {
     id: 900367
     type: 1
+    name: Executioner â€“ Blood Fiend Huntress
     enemy_info: 捕获Boss
     code: Excutioner_Halloween
     maxlife: 90000
@@ -17352,6 +18456,7 @@
     boss_hp: 90000
     def: 1200
     level: 100
+    character: Elite, Executioner
     special_attack: 4
     normal_attack: 300301
     passive_skill: "400201,200303,119029"
@@ -17363,6 +18468,7 @@
   {
     id: 900368
     type: 1
+    name: Tareus
     enemy_info: 捕获Boss
     code: Nyto_tareus
     maxlife: 100000
@@ -17380,7 +18486,7 @@
     level: 100
     character: Elite, Piercing
     normal_attack: 755238
-    passive_skill: "755239,755240,755241,119029"
+    passive_skill: "755239,755240,755241,119029,407302"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -17416,8 +18522,827 @@
     enemy_illustration_id: 68
   }
   {
+    id: 900370
+    type: 1
+    name: Snackberus
+    enemy_info: 巨大铁血狗-灰域探查
+    code: Cerberus_WhiteDay
+    maxlife: 5000
+    pow: 12
+    hit: 25
+    dodge: 5
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 10
+    rate: 150
+    boss_hp: 5000
+    def: 99999
+    level: 100
+    character: Elite, Cerberus, Armor
+    normal_attack: 300326
+    passive_skill: "402001,402101,402002,200303,402103,119029,755259"
+    effect_ratio: 1.03
+    deployment_scale: 1
+    enemy_illustration_id: 162
+  }
+  {
+    id: 900371
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-昼55
+    code: Scarecrow
+    maxlife: 10500
+    pow: 30
+    hit: 50
+    dodge: 20
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10500
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900372
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-昼90
+    code: Scarecrow
+    maxlife: 85000
+    pow: 50
+    hit: 80
+    dodge: 50
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 85000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900373
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-昼125
+    code: Scarecrow
+    maxlife: 200000
+    pow: 160
+    hit: 180
+    dodge: 80
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900374
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-夜40
+    code: Scarecrow
+    maxlife: 10000
+    pow: 25
+    hit: 40
+    dodge: 10
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900375
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-夜85
+    code: Scarecrow
+    maxlife: 70000
+    pow: 40
+    hit: 60
+    dodge: 20
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 70000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900376
+    type: 1
+    name: Scarecrow
+    enemy_info: 灰域Boss-夜115
+    code: Scarecrow
+    maxlife: 180000
+    pow: 145
+    hit: 150
+    dodge: 50
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 180000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile, Accurate
+    normal_attack: 300303
+    passive_skill: "120601,120602,120603,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 195
+  }
+  {
+    id: 900377
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-昼55
+    code: BossArchitect
+    maxlife: 12500
+    pow: 20
+    hit: 40
+    dodge: 10
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 12500
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900378
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-昼90
+    code: BossArchitect
+    maxlife: 95000
+    pow: 35
+    hit: 40
+    dodge: 20
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 95000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900379
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-昼125
+    code: BossArchitect
+    maxlife: 220000
+    pow: 95
+    hit: 40
+    dodge: 30
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 220000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900380
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-夜40
+    code: BossArchitect
+    maxlife: 10500
+    pow: 20
+    hit: 40
+    dodge: 5
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 10500
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900381
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-夜85
+    code: BossArchitect
+    maxlife: 80000
+    pow: 30
+    hit: 40
+    dodge: 10
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 80000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900382
+    type: 1
+    name: Architect
+    enemy_info: 灰域Boss-夜115
+    code: BossArchitect
+    maxlife: 200000
+    pow: 95
+    hit: 40
+    dodge: 20
+    range: 6
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 55
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300307
+    passive_skill: "120604,120605,120606,200303,119029"
+    effect_ratio: 1.55
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 196
+  }
+  {
+    id: 900383
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-昼55
+    code: Intruder
+    maxlife: 11000
+    pow: 20
+    hit: 30
+    dodge: 25
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 11000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900384
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-昼90
+    code: Intruder
+    maxlife: 90000
+    pow: 60
+    hit: 60
+    dodge: 40
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 90000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900385
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-昼125
+    code: Intruder
+    maxlife: 190000
+    pow: 210
+    hit: 90
+    dodge: 60
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 190000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900386
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-夜40
+    code: Intruder
+    maxlife: 10000
+    pow: 15
+    hit: 20
+    dodge: 10
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 10000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900387
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-夜85
+    code: Intruder
+    maxlife: 75000
+    pow: 50
+    hit: 50
+    dodge: 30
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 75000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900388
+    type: 1
+    name: Intruder
+    enemy_info: 灰域Boss-夜115
+    code: Intruder
+    maxlife: 160000
+    pow: 180
+    hit: 70
+    dodge: 45
+    range: 5
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 160000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Agile
+    special_attack: 7
+    normal_attack: 300314
+    passive_skill: "120607,120608,120609,120610,119029"
+    effect_ratio: 0.9
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 197
+  }
+  {
+    id: 900389
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-昼55
+    code: Destroyer
+    maxlife: 14000
+    pow: 30
+    hit: 30
+    dodge: 20
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 14000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900390
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-昼90
+    code: Destroyer
+    maxlife: 100000
+    pow: 50
+    hit: 50
+    dodge: 30
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 100000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900391
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-昼125
+    code: Destroyer
+    maxlife: 240000
+    pow: 180
+    hit: 75
+    dodge: 50
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 240000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900392
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-夜40
+    code: Destroyer
+    maxlife: 12000
+    pow: 20
+    hit: 20
+    dodge: 10
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 12000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900393
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-夜85
+    code: Destroyer
+    maxlife: 90000
+    pow: 40
+    hit: 40
+    dodge: 20
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 90000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900394
+    type: 1
+    name: Destroyer
+    enemy_info: 灰域Boss-夜115
+    code: Destroyer
+    maxlife: 200000
+    pow: 160
+    hit: 60
+    dodge: 35
+    range: 20
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 80
+    rate: 40
+    boss_hp: 200000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, AoE Damage
+    normal_attack: 300304
+    passive_skill: "120612,120613,120614,119029"
+    effect_ratio: 1.05
+    deployment_scale: 1
+    enemy_illustration_id: 198
+  }
+  {
+    id: 900395
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-昼55
+    code: Justice
+    maxlife: 15000
+    pow: 20
+    hit: 60
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 150
+    boss_hp: 15000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900396
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-昼90
+    code: Justice
+    maxlife: 120000
+    pow: 40
+    hit: 100
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 80
+    rate: 150
+    boss_hp: 120000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900397
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-昼125
+    code: Justice
+    maxlife: 260000
+    pow: 60
+    hit: 150
+    dodge: 20
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 100
+    rate: 150
+    boss_hp: 260000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900398
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-夜40
+    code: Justice
+    maxlife: 12000
+    pow: 20
+    hit: 40
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 150
+    boss_hp: 12000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900399
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-夜85
+    code: Justice
+    maxlife: 100000
+    pow: 40
+    hit: 80
+    dodge: 10
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 80
+    rate: 150
+    boss_hp: 100000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
+    id: 900400
+    type: 1
+    name: Judge
+    enemy_info: 灰域Boss-夜115
+    code: Justice
+    maxlife: 220000
+    pow: 60
+    hit: 120
+    dodge: 20
+    range: 20
+    speed: 45
+    number: 1
+    angle: 180
+    armor: 100
+    rate: 150
+    boss_hp: 220000
+    def: 99999
+    level: 100
+    character: Elite, Ranged, Armor, Accurate
+    normal_attack: 300327
+    passive_skill: "120615,120616,120618,120619,120620,200303,119029"
+    effect_ratio: 0.94
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 199
+  }
+  {
     id: 900501
     type: 1
+    name: Minion of Clustering
     enemy_info: 稻草人110AR1
     code: Scarecrow
     maxlife: 510000
@@ -17443,6 +19368,7 @@
   {
     id: 900502
     type: 1
+    name: Minion of Clustering
     enemy_info: 稻草人115AR2
     code: Scarecrow
     maxlife: 690000
@@ -17468,6 +19394,7 @@
   {
     id: 900503
     type: 1
+    name: Knight of Weighting
     enemy_info: 计量官120AR2
     code: BossGager
     maxlife: 990000
@@ -17494,6 +19421,7 @@
   {
     id: 900504
     type: 1
+    name: Knight of Weighting
     enemy_info: 计量官120AR3
     code: BossGager
     maxlife: 990000
@@ -17520,6 +19448,7 @@
   {
     id: 900505
     type: 1
+    name: Puppet of Extremum
     enemy_info: 建筑师125AR3
     code: BossArchitect
     maxlife: 980000
@@ -17546,6 +19475,7 @@
   {
     id: 900506
     type: 1
+    name: Commander of Normal Distribution
     enemy_info: 代理人130AR3
     code: Agent
     maxlife: 1480000
@@ -17571,6 +19501,7 @@
   {
     id: 900507
     type: 1
+    name: Cartographer of Discreteness
     enemy_info: 刽子手110RF1
     code: Excutioner
     maxlife: 750000
@@ -17597,6 +19528,7 @@
   {
     id: 900508
     type: 1
+    name: Cartographer of Discreteness
     enemy_info: 刽子手115RF2
     code: Excutioner
     maxlife: 1015000
@@ -17623,6 +19555,7 @@
   {
     id: 900509
     type: 1
+    name: Shepherd of Variance
     enemy_info: 破坏者120RF2
     code: Destroyer
     maxlife: 930000
@@ -17650,6 +19583,7 @@
   {
     id: 900510
     type: 1
+    name: Shepherd of Variance
     enemy_info: 破坏者120RF3
     code: Destroyer
     maxlife: 930000
@@ -17677,6 +19611,7 @@
   {
     id: 900511
     type: 1
+    name: Guard of Likelihood
     enemy_info: 衔尾蛇125RF3
     code: Weaver
     maxlife: 1050000
@@ -17704,6 +19639,7 @@
   {
     id: 900512
     type: 1
+    name: Singer of Chaos
     enemy_info: 梦想家130RF3
     code: Dreamer
     maxlife: 1395000
@@ -17730,6 +19666,7 @@
   {
     id: 900513
     type: 1
+    name: Spinner of Posterior Probability
     enemy_info: 猎手110MG1
     code: Hunter
     maxlife: 545000
@@ -17755,6 +19692,7 @@
   {
     id: 900514
     type: 1
+    name: Spinner of Posterior Probability
     enemy_info: 猎手115MG2
     code: Hunter
     maxlife: 740000
@@ -17780,6 +19718,7 @@
   {
     id: 900515
     type: 1
+    name: Priest of Shifts
     enemy_info: 炼金术士120MG2
     code: Alchemist
     maxlife: 1160000
@@ -17806,6 +19745,7 @@
   {
     id: 900516
     type: 1
+    name: Priest of Shifts
     enemy_info: 炼金术士120MG3
     code: Alchemist
     maxlife: 1160000
@@ -17832,6 +19772,7 @@
   {
     id: 900517
     type: 1
+    name: Monk of Disturbance
     enemy_info: 干扰者125MG3
     code: Intruder
     maxlife: 1190000
@@ -17858,6 +19799,7 @@
   {
     id: 900518
     type: 1
+    name: Fool of Convergence
     enemy_info: 法官130MG3
     code: Justice
     maxlife: 1970000
@@ -17884,6 +19826,7 @@
   {
     id: 900519
     type: 1
+    name: Spinner of Posterior Probability
     enemy_info: 猎手135BoSS
     code: Hunter
     maxlife: 1505000
@@ -17909,6 +19852,7 @@
   {
     id: 900520
     type: 1
+    name: Cartographer of Discreteness
     enemy_info: 刽子手145BoSS
     code: Excutioner
     maxlife: 2600000
@@ -17935,6 +19879,7 @@
   {
     id: 900521
     type: 1
+    name: Demonic Abyss
     enemy_info: 年兽稻草人150BoSS
     code: Scarecrow_SpringFes
     maxlife: 2950000
@@ -17949,13 +19894,703 @@
     boss_hp: 2950000
     def: 99999
     level: 100
-    character: Elite, Scarecrow
+    character: Elite
     normal_attack: 120301
     passive_skill: "120304,120305,120307,120308,119029,120302,120313,120309"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
     enemy_illustration_id: 194
+  }
+  {
+    id: 900522
+    type: 1
+    name: RPK-16
+    enemy_info: RPK16【秃洞125】90级
+    code: RPK16_Nyto
+    maxlife: 160000
+    pow: 35
+    hit: 500
+    dodge: 80
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 250
+    boss_hp: 160000
+    def: 2000
+    level: 100
+    character: ???
+    normal_attack: 300313
+    passive_skill: "407504,119029"
+    effect_ratio: 0.4
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 156
+  }
+  {
+    id: 900523
+    type: 1
+    name: Lady Gray
+    enemy_info: 格雷夫人100级昼战90级挂虚弱buff
+    code: Mrsgray
+    maxlife: 70000
+    pow: 46
+    hit: 60
+    dodge: 30
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 150000
+    def: 2000
+    level: 100
+    character: Elite, Weaken, Hacking, Support
+    normal_attack: 900107
+    passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 110
+  }
+  {
+    id: 900524
+    type: 1
+    name: Kennedy
+    enemy_info: 甘拉狄50级
+    code: Pamzan_Final
+    maxlife: 8500
+    pow: 28
+    hit: 40
+    dodge: 20
+    range: 6
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 20
+    rate: 40
+    boss_hp: 8500
+    def: 99999
+    debuff_resistance: 50
+    level: 100
+    character: Elite
+    normal_attack: 755288
+    passive_skill: "755287,755289,755290,755291,755292,755300,755301,755302,755303,119029"
+    effect_ratio: 0.8
+    voice: "1,2"
+    deployment_scale: 1
+    enemy_illustration_id: 207
+    tenacity: 50
+  }
+  {
+    id: 900525
+    type: 1
+    name: Kennedy
+    enemy_info: 甘拉狄90级
+    code: Pamzan_Final
+    maxlife: 140000
+    pow: 38
+    hit: 60
+    dodge: 35
+    range: 6
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 40
+    rate: 50
+    boss_hp: 140000
+    def: 99999
+    debuff_resistance: 50
+    level: 100
+    character: Elite
+    normal_attack: 755288
+    passive_skill: "755287,755289,755290,755291,755292,755300,755301,755302,755303,119029"
+    effect_ratio: 0.8
+    voice: "1,2"
+    deployment_scale: 1
+    enemy_illustration_id: 207
+    tenacity: 50
+  }
+  {
+    id: 900526
+    type: 1
+    name: Morridow
+    enemy_info: 默莉朵80级昼战60
+    code: morridow_boss
+    maxlife: 6000
+    pow: 10
+    hit: 20
+    dodge: 20
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 6000
+    def: 6000
+    level: 100
+    character: Elite, ???
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407401,407407,407408,407409,407410,407411,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 154
+  }
+  {
+    id: 900527
+    type: 1
+    name: Morridow
+    enemy_info: 默莉朵135昼战90
+    code: morridow_boss
+    maxlife: 100000
+    pow: 20
+    hit: 30
+    dodge: 60
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 20
+    rate: 40
+    boss_hp: 100000
+    def: 6000
+    level: 100
+    character: Elite, ???
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407401,407407,407408,407409,407410,407411,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 154
+  }
+  {
+    id: 900528
+    type: 1
+    name: Morridow
+    enemy_info: 默莉朵135昼战110
+    code: morridow_boss
+    maxlife: 220000
+    pow: 40
+    hit: 50
+    dodge: 60
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 40
+    boss_hp: 220000
+    def: 6000
+    level: 100
+    character: Elite, ???
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407401,407407,407408,407409,407410,407411,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 154
+  }
+  {
+    id: 900529
+    type: 1
+    name: Nemhran
+    enemy_info: 尼梅兰【秃洞125】75
+    code: Nimeylan
+    maxlife: 46000
+    pow: 32
+    hit: 60
+    dodge: 60
+    range: 99
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 46000
+    def: 800
+    level: 100
+    character: Elite
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+  }
+  {
+    id: 900530
+    type: 1
+    name: Nemhran
+    enemy_info: 尼梅兰【秃洞125】95
+    code: Nimeylan
+    maxlife: 92000
+    pow: 42
+    hit: 80
+    dodge: 60
+    range: 99
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 92000
+    def: 1200
+    level: 100
+    character: Elite
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+  }
+  {
+    id: 900531
+    type: 1
+    name: Nemhran
+    enemy_info: 尼梅兰【秃洞125】130
+    code: Nimeylan
+    maxlife: 220000
+    pow: 52
+    hit: 50
+    dodge: 60
+    range: 99
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 220000
+    def: 5000
+    level: 100
+    character: Elite
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+  }
+  {
+    id: 900532
+    type: 1
+    name: Sana
+    enemy_info: 纱那80级
+    code: Nyto_mecha2
+    maxlife: 3500
+    pow: 26
+    hit: 30
+    dodge: 30
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 3500
+    def: 500
+    level: 100
+    character: Elite, "Nyto"
+    normal_attack: 755278
+    passive_skill: "755276,755277,755279,755280,755281,755282,755283,755284,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 206
+  }
+  {
+    id: 900533
+    type: 1
+    name: Sana
+    enemy_info: 纱那100级
+    code: Nyto_mecha2
+    maxlife: 48000
+    pow: 42
+    hit: 50
+    dodge: 50
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 48000
+    def: 1500
+    level: 100
+    character: Elite, "Nyto"
+    normal_attack: 755278
+    passive_skill: "755276,755277,755279,755280,755281,755282,755283,755284,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 206
+  }
+  {
+    id: 900534
+    type: 1
+    name: Sana
+    enemy_info: 纱那135级
+    code: Nyto_mecha2
+    maxlife: 150000
+    pow: 65
+    hit: 90
+    dodge: 90
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 150000
+    def: 3000
+    level: 100
+    character: Elite, "Nyto"
+    normal_attack: 755278
+    passive_skill: "755276,755277,755279,755280,755281,755282,755283,755284,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 206
+  }
+  {
+    id: 900535
+    type: 1
+    name: Sana
+    enemy_info: 纱那150级夜
+    code: Nyto_mecha2
+    maxlife: 225000
+    pow: 85
+    hit: 120
+    dodge: 120
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 225000
+    def: 30000
+    level: 100
+    character: Elite, "Nyto"
+    normal_attack: 755278
+    passive_skill: "755276,755277,755279,755280,755281,755282,755283,755284,119029,755308,755309,755310,755311,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 206
+  }
+  {
+    id: 900536
+    type: 1
+    name: Kennedy
+    enemy_info: 甘拉狄135级
+    code: Pamzan_Final
+    maxlife: 320000
+    pow: 68
+    hit: 90
+    dodge: 90
+    range: 6
+    speed: 50
+    number: 1
+    angle: 180
+    armor: 60
+    rate: 60
+    boss_hp: 320000
+    def: 99999
+    debuff_resistance: 50
+    level: 100
+    character: Elite
+    normal_attack: 755288
+    passive_skill: "755287,755289,755290,755291,755292,755300,755301,755302,755303,119029"
+    effect_ratio: 0.8
+    voice: "1,2"
+    deployment_scale: 1
+    enemy_illustration_id: 207
+    tenacity: 50
+  }
+  {
+    id: 900537
+    type: 3
+    name: M4A1's Dummy
+    enemy_info: M4A1傀儡
+    code: M4A1_enemy
+    maxlife: 5000
+    pow: 46
+    hit: 48
+    dodge: 44
+    range: 9
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 15
+    rate: 79
+    def: 99999
+    level: 100
+    character: Griffin
+    normal_attack: 300301
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 208
+  }
+  {
+    id: 900538
+    type: 3
+    name: ST AR-15's Dummy
+    enemy_info: AR15傀儡
+    code: AR15_enemy
+    maxlife: 5000
+    pow: 50
+    hit: 49
+    dodge: 50
+    range: 9
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 15
+    rate: 77
+    def: 99999
+    level: 100
+    character: Griffin
+    normal_attack: 300301
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 209
+  }
+  {
+    id: 900539
+    type: 3
+    name: M4 SOPMOD II's Dummy
+    enemy_info: SOP2傀儡
+    code: M4 SOPMOD II_enemy
+    maxlife: 5000
+    pow: 48
+    hit: 50
+    dodge: 44
+    range: 9
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 15
+    rate: 78
+    def: 99999
+    level: 100
+    character: Griffin
+    normal_attack: 300301
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 210
+  }
+  {
+    id: 900540
+    type: 3
+    name: M16A1
+    enemy_info: M16A1
+    code: M16A1Griffin
+    maxlife: 10000
+    pow: 47
+    hit: 46
+    dodge: 48
+    range: 9
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 15
+    rate: 75
+    def: 99999
+    level: 100
+    character: Griffin
+    normal_attack: 300301
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 211
+  }
+  {
+    id: 900541
+    type: 1
+    name: Narcissus
+    enemy_info: 娜希斯昼战45级
+    code: Narciss
+    maxlife: 18000
+    pow: 22
+    hit: 35
+    dodge: 60
+    range: 5
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 18000
+    def: 400
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 900107
+    passive_skill: "902339,902340,902343,902346,902348,902350,902352,902353,902354,912355,922355,932355,942355,952355,962355,912340,922340,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 109
+  }
+  {
+    id: 900542
+    type: 1
+    name: Narcissus
+    enemy_info: 娜希斯昼战75级
+    code: Narciss
+    maxlife: 52000
+    pow: 28
+    hit: 40
+    dodge: 90
+    range: 5
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 52000
+    def: 800
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 900107
+    passive_skill: "902339,902340,902343,902346,902348,902350,902352,902353,902354,912355,922355,932355,942355,952355,962355,912340,922340,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 109
+  }
+  {
+    id: 900543
+    type: 1
+    name: Narcissus
+    enemy_info: 娜希斯昼战100级
+    code: Narciss
+    maxlife: 115000
+    pow: 32
+    hit: 60
+    dodge: 120
+    range: 5
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 115000
+    def: 2000
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 900107
+    passive_skill: "902339,902340,902343,902346,902348,902350,902352,902353,902354,912355,922355,932355,942355,952355,962355,912340,922340,902341,119029,407302"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 109
+  }
+  {
+    id: 900544
+    type: 4
+    name: AA-02 Sinner
+    enemy_info: 耶格尔150昼BOSS新
+    code: Ares
+    maxlife: 380000
+    pow: 52
+    hit: 60
+    dodge: 30
+    range: 20
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 20
+    armor: 120
+    rate: 40
+    def: 99999
+    level: 100
+    character: Elite, Colossal, Armor, Support, Debuff
+    normal_attack: 406304
+    passive_skill: "406301,406302,406320,406321,406303,406305,406306,406307,406308,406311,119029,755248,740089"
+    effect_ratio: 0.8
+    unable_buff_type: "221"
+    voice: "1,2"
+    deployment_scale: 1
+    enemy_illustration_id: 80
+  }
+  {
+    id: 900545
+    type: 1
+    name: Agent
+    enemy_info: 代理人70级
+    code: Agent
+    maxlife: 52000
+    pow: 35
+    hit: 50
+    dodge: 20
+    range: 14
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 52000
+    def: 99999
+    level: 100
+    character: Elite, Agent
+    normal_attack: 402905
+    passive_skill: "402901,402915,402916,402917,402906,402907,402908,402918,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 185
+  }
+  {
+    id: 900546
+    type: 1
+    name: Agent
+    enemy_info: 代理人115级
+    code: Agent
+    maxlife: 180000
+    pow: 55
+    hit: 80
+    dodge: 30
+    range: 14
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 180000
+    def: 99999
+    level: 100
+    character: Elite, Agent
+    normal_attack: 402905
+    passive_skill: "402901,402915,402916,402917,402906,402907,402908,402918,119029"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 185
+  }
+  {
+    id: 900547
+    type: 1
+    enemy_info: 捕获Boss
+    code: BossNarciss
+    maxlife: 115000
+    pow: 32
+    hit: 60
+    dodge: 120
+    range: 5
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 115000
+    def: 2000
+    level: 100
+    normal_attack: 750881
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 215
   }
   {
     id: 910101
@@ -18614,7 +21249,7 @@
     rate: 30
     def: 600
     level: 100
-    character: Missiles, Crusher, Forcefield
+    character: Elite, Colossal, Armor, Force Field
     normal_attack: 404003
     passive_skill: "200303,404004,404007"
     effect_ratio: 0.986
@@ -18967,7 +21602,7 @@
     number: 1
     def: 99999
     level: 100
-    character: Elite, for training
+    character: Training Only
     normal_attack: 300301
     passive_skill: "755000"
     effect_ratio: 1
@@ -18977,6 +21612,7 @@
   {
     id: 910151
     type: 1
+    name: SCAR-L
     enemy_info: SCARL
     code: spSCARL
     maxlife: 10000
@@ -18986,6 +21622,7 @@
     boss_hp: 10000
     def: 99999
     level: 100
+    character: Elite
     normal_attack: 900107
     passive_skill: "119804,119805,119807,119810,119811,119816"
     effect_ratio: 1

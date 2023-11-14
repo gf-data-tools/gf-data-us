@@ -5578,7 +5578,6 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    effect_param_2: "1"
     hurt_id: "304"
     is_form_play: 1
     scale: "1"
@@ -12644,7 +12643,7 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "733"
+    buff_id: "1000005172"
     is_form_play: 1
     scale: "1"
     sound_order: BT_flashbomb_explode
@@ -57545,7 +57544,7 @@
     name: 炮车子弹
     code: EnemyBulletRed
     start_type: muzzle
-    start_offset: "1.8,-0.4,0"
+    start_offset: "-2,-0.4,0"
     destination_type: "5"
     is_form_offset: 1
     is_form_offset_start: 1
@@ -66083,9 +66082,9 @@
     id: 8325
     name: NOVA一排判断
     start_type: "8"
-    start_offset: "-1.5,0,0"
+    start_offset: "-0.5,0,0"
     destination_type: "8"
-    destination_offset: "-1.5,0,0"
+    destination_offset: "-0.5,0,0"
     is_tracing: 1
     exist_duration: "99999"
     effect_type: 1
@@ -66118,16 +66117,12 @@
   {
     id: 8327
     name: NOVA一排护盾
-    start_type: "8"
-    start_offset: "-1.5"
-    destination_type: "8"
-    destination_offset: "-1.5"
-    is_tracing: 1
+    start_type: "3"
+    destination_type: "3"
     exist_duration: "15"
     effect_type: 1
-    effect_area: 2
-    effect_param_1: "2"
-    effect_param_2: "20"
+    effect_area: 3
+    effect_param_1: "3,8,18,23"
     buff_id: 7789:1
     scale: "1"
     is_die_delete: 1
@@ -76199,7 +76194,7 @@
     name: 机甲涅托普攻子弹
     code: SubBulletB
     start_type: Larmor2
-    start_offset: "-1.3,-0.5,0"
+    start_offset: "0,-0.5,0"
     destination_type: "5"
     is_form_offset: 1
     is_form_offset_start: 1
@@ -76233,7 +76228,7 @@
     name: 机甲涅托致盲激光特效
     code: 88type/88typeRazer
     start_type: Larmor2
-    start_offset: "-1.3,-0.5,0"
+    start_offset: "0,-0.5,0"
     destination_type: "5"
     is_form_offset_start: 1
     exist_duration: "30"
@@ -76248,7 +76243,7 @@
     name: 机甲涅托普攻无伤害子弹
     code: SubBulletB
     start_type: Larmor2
-    start_offset: "-1.3,-0.5,0"
+    start_offset: "0,-0.5,0"
     destination_type: "5"
     is_form_offset: 1
     is_form_offset_start: 1
@@ -76468,7 +76463,7 @@
     effect_param_1: "99"
     hurt_id: "2303"
     hurt_cd: "10"
-    buff_id: 8662:1000004928,8672:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8662:1000004928,8672:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76485,7 +76480,7 @@
     effect_param_1: "99"
     hurt_id: "2304"
     hurt_cd: "10"
-    buff_id: 8663:1000004928,8673:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8663:1000004928,8673:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76502,7 +76497,7 @@
     effect_param_1: "99"
     hurt_id: "2305"
     hurt_cd: "10"
-    buff_id: 8664:1000004928,8674:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8664:1000004928,8674:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76519,7 +76514,7 @@
     effect_param_1: "99"
     hurt_id: "2306"
     hurt_cd: "10"
-    buff_id: 8665:1000004928,8675:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8665:1000004928,8675:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76536,7 +76531,7 @@
     effect_param_1: "99"
     hurt_id: "2307"
     hurt_cd: "10"
-    buff_id: 8666:1000004928,8676:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8666:1000004928,8676:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76553,7 +76548,7 @@
     effect_param_1: "99"
     hurt_id: "2308"
     hurt_cd: "10"
-    buff_id: 8667:1000004928,8677:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8667:1000004928,8677:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76570,7 +76565,7 @@
     effect_param_1: "99"
     hurt_id: "2309"
     hurt_cd: "10"
-    buff_id: 8668:1000004928,8678:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8668:1000004928,8678:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76587,7 +76582,7 @@
     effect_param_1: "99"
     hurt_id: "2310"
     hurt_cd: "10"
-    buff_id: 8669:1000004928,8679:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8669:1000004928,8679:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76604,7 +76599,7 @@
     effect_param_1: "99"
     hurt_id: "2311"
     hurt_cd: "10"
-    buff_id: 8670:1000004928,8680:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8670:1000004928,8680:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76621,7 +76616,7 @@
     effect_param_1: "99"
     hurt_id: "2312"
     hurt_cd: "10"
-    buff_id: 8671:1000004928,8681:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,9690:1000004928
+    buff_id: 8671:1000004928,8681:1000004928,1000004926:1000004928,1000004927:1000004928,8689:1000004928,8690:1000004928
     buff_cd: "0,0,0,0,0,0"
     scale: "1"
     still_exist: 1
@@ -76999,9 +76994,9 @@
     name: 机甲范围弹枪口
     code: 2019summer/Y_19_summer_2_1_2
     start_type: Rarmor4
-    start_offset: "1.7"
+    start_offset: "1"
     destination_type: Rarmor4
-    destination_offset: "1.7"
+    destination_offset: "1"
     is_tracing: 1
     rotate: "0,0,15"
     effect_area: 1
@@ -77014,9 +77009,10 @@
     name: 机甲电磁火花
     code: Nytotareus/JJNT_dz_dl
     start_type: Larmor2
-    start_offset: "-2.6,-0.5,0"
+    start_offset: "1.5,-0.5,0"
     destination_type: Larmor2
-    destination_offset: "-2.6,-0.5,0"
+    destination_offset: "1.5,-0.5,0"
+    is_tracing: 1
     exist_duration: "20"
     effect_area: 1
     creation_type: 2
@@ -77028,9 +77024,9 @@
     name: 机甲蓄能炮弹枪口
     code: 2019summer/Y_19_summer_2_1_2_sp
     start_type: Rarmor4
-    start_offset: "1.7"
+    start_offset: "1"
     destination_type: Rarmor4
-    destination_offset: "1.7"
+    destination_offset: "1"
     is_tracing: 1
     rotate: "0,0,15"
     effect_area: 1
@@ -84575,6 +84571,7 @@
     effect_param_1: "17,18,19,7,8,9,12,14"
     hurt_id: "616"
     buff_id: 4737:1,3159:1
+    buff_cd: "0,0"
     scale: "8,0.1,12"
     is_die_delete: 1
   }
@@ -84691,7 +84688,7 @@
     effect_param_1: "17,18,19,7,8,9,12,14"
     hurt_id: "615"
     buff_id: 4737:1,4742:1,4743:1,4738:1,3159:1
-    buff_cd: "0,0,0,0"
+    buff_cd: "0,0,0,0,0"
     scale: "8,0.1,12"
     is_die_delete: 1
   }

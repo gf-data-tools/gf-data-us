@@ -9,7 +9,6 @@
     counter: Train hard!
     character: "1001,903"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000001
     spine_scale: "90,90,1"
   }
   {
@@ -30,7 +29,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000002
     spine_scale: "100,100,1"
   }
   {
@@ -51,7 +49,6 @@
     counter: This unit has high evasion. Make sure your echelon has enough accuracy.
     character: "300"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000003
     spine_scale: "100,100,1"
   }
   {
@@ -72,7 +69,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000004
     spine_scale: "100,100,1"
   }
   {
@@ -116,7 +112,6 @@
     counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000006
     spine_scale: "100,100,1"
   }
   {
@@ -137,7 +132,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000007
     spine_scale: "100,100,1"
   }
   {
@@ -183,7 +177,6 @@
     counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
     character: "307"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000009
     spine_scale: "100,100,1"
   }
   {
@@ -204,7 +197,6 @@
     counter: This melee unit has strong defensive capabilities but deals negligible damage. Most of the threat comes from other damage-oriented units, so it is recommended to pick Dolls of suitable gun types to deal with the units behind the Guards first.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000010
     spine_scale: "90,90,1"
   }
   {
@@ -212,7 +204,7 @@
     name: Hunter
     type: 1
     code: Hunter
-    introduce: Highly flexible and intelligent, she is adept at sabotage and tactical pursuit, though her true power can only manifest when working with Scarecrow and Executioner. Stoic and cool-headed, she enjoys cornering her enemies and capturing them alive. Despite feeling superior to Griffin Dolls, she considers herself above using underhanded tactics against them.
+    introduce: Mobile and intelligent, she's skilled at harassment and pursuit battles. Her true power can only be shown when coordinating with Scarecrow and Executioner. She is calm and subdued, and cornering her foes through various means before capturing them alive. While she has an arrogant attitude toward Griffin, it does not preclude her from using overly despicable methods against them.
     forces: 1
     if_capture: 1
     pow_rank: 4
@@ -250,7 +242,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "304"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000012
     spine_scale: "75,75,1"
   }
   {
@@ -272,7 +263,6 @@
     character: "1003,325"
     enemy_skill: "8"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000013
     spine_scale: "100,100,1"
   }
   {
@@ -293,7 +283,6 @@
     counter: This armored unit is mainly a damage dealer on the back row. It has a low rate of fire but high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
     character: "309"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000014
     spine_scale: "100,100,1"
   }
   {
@@ -314,7 +303,6 @@
     counter: This unit has a very high armor value. Make sure your echelon has enough armor piercing capability before engaging it in combat.
     character: "303,309"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000015
     spine_scale: "100,100,1"
   }
   {
@@ -333,9 +321,8 @@
     speed_rank: 2
     range_rank: 3
     counter: This unit possesses strong armor and deals massive damage. It is unwise to engage it in a drawn-out fight. Confront it with an echelon that has adequate overall combat effectiveness.
-    character: "1003,309,301"
+    character: "1003,302,309,301"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000016
     spine_scale: "80,80,1"
   }
   {
@@ -536,10 +523,9 @@
     armor_rank: 2
     range_rank: 5
     counter: Poses an incredible threat when functioning at full capacity. It is recommended to surround it and cut off its power source before taking it down.
-    character: "1003,309,910"
+    character: "1003,302,309,910"
     enemy_skill: "12"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000025
     spine_scale: "55,55,1"
   }
   {
@@ -609,7 +595,6 @@
     counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000028
     spine_scale: "85,85,1"
   }
   {
@@ -630,7 +615,6 @@
     counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
     character: "308"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000029
     spine_scale: "100,100,1"
   }
   {
@@ -651,7 +635,6 @@
     counter: This unit deals extremely high melee damage but is relatively fragile. However, its armor can still cause a problem if the player's echelon does not have adequate armor piercing. It is recommended to wipe them out with Machine Gun Dolls or Dolls who can quickly deal AoE damage before they come close.
     character: "303,309"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000030
     spine_scale: "150,150,1"
   }
   {
@@ -670,7 +653,6 @@
     character: "1001,1003,323,908"
     enemy_skill: "11"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000031
     spine_scale: "100,100,1"
   }
   {
@@ -689,7 +671,6 @@
     character: "1001,1003,323,908"
     enemy_skill: "11"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000032
     spine_scale: "100,100,1"
   }
   {
@@ -776,7 +757,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000036
     spine_scale: "80,80,1"
   }
   {
@@ -797,7 +777,6 @@
     character: "1001,319"
     enemy_skill: "16"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000037
     spine_scale: "85,85,1"
   }
   {
@@ -819,7 +798,6 @@
     character: "1001,309,314"
     enemy_skill: "17"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000038
     spine_scale: "85,85,1"
   }
   {
@@ -840,7 +818,6 @@
     character: "1003,309,301"
     enemy_skill: "18"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000039
     spine_scale: "80,80,1"
   }
   {
@@ -861,7 +838,6 @@
     character: "303,309,310"
     enemy_skill: "9"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000040
     spine_scale: "100,100,1"
   }
   {
@@ -881,7 +857,6 @@
     counter: There is little pause between attacks from this armored unit, which deals significant damage. It is recommended to prioritize killing them with Rifle T-Dolls.
     character: "1003,309"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000041
     spine_scale: "100,100,1"
   }
   {
@@ -901,7 +876,6 @@
     character: "1001,309,322"
     enemy_skill: "19"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000042
     spine_scale: "100,100,1"
   }
   {
@@ -919,10 +893,9 @@
     speed_rank: 3
     range_rank: 5
     counter: This unit has strong armor and shoots laser beams that deal multiple instances of piercing damage once it finishes charging up. However, the cannon is limited by its maximum angle of depression - its attacks can be avoided if your units approach it quickly enough. Shields can deflect some of the laser damage but is not the most effective.
-    character: "1001,1003,309,320"
+    character: "1001,1003,302,309,320"
     enemy_skill: "20"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000043
     spine_scale: "70,70,1"
   }
   {
@@ -988,7 +961,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "312"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000046
     spine_scale: "100,100,1"
   }
   {
@@ -1010,12 +982,11 @@
     character: "309,312,320"
     enemy_skill: "27"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000047
     spine_scale: "90,90,1"
   }
   {
     id: 48
-    name: Doppelsoldner
+    name: Doppels?ldner
     type: 3
     code: Doppelsoldner
     introduce: A mech with immense firepower. Apart from the bulky armor, it is also equipped with a force field generator. It can attack with the high-velocity autocannons in both hands as well as its multiple grenade launchers, causing wide-spread damage.
@@ -1028,10 +999,9 @@
     speed_rank: 1
     range_rank: 3
     counter: The high armor and force field values give this unit significant damage reduction. It also bombards enemies with multiple grenades. Try to have T-Dolls capable of piercing armor to fire at it as much as possible before it starts attacking, or block its grenades with shield skills. Support from the HOC will make this fight much easier.
-    character: "1003,309,312,319"
+    character: "1003,302,309,312,319"
     enemy_skill: "28,29"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000048
     spine_scale: "60,60,1"
   }
   {
@@ -1049,10 +1019,9 @@
     speed_rank: 3
     range_rank: 4
     counter: The high force field and armor values give this unit incredible damage reduction. It will charge suddenly to break the formation of your echelon so move your T-Dolls in time to evade its attacks. Support from the HOC will make this fight much easier.
-    character: "1001,309,312"
+    character: "1001,302,309,312"
     enemy_skill: "31,32"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000049
     spine_scale: "50,50,1"
   }
   {
@@ -1075,7 +1044,7 @@
     character: "1001,216,309,312"
     enemy_skill: "45,47"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000050
+    extra: ",Rina Satou,"
     spine_scale: "70,70,1"
     org_id: 10603
   }
@@ -1119,7 +1088,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000052
     spine_scale: "90,90,1"
   }
   {
@@ -1138,7 +1106,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000053
     spine_scale: "90,90,1"
   }
   {
@@ -1155,10 +1122,9 @@
     speed_rank: 3
     range_rank: 5
     counter: This unit has balanced abilities and deals sustained, low damage to friendly units. It is unwise to engage it in a drawn-out fight. Confront it with an echelon that has adequate overall combat effectiveness.
-    character: "1001,301"
+    character: "1001,302,301"
     enemy_skill: "57,58"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000054
     spine_scale: "70,70,1"
   }
   {
@@ -1179,7 +1145,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000055
     spine_scale: "100,100,1"
   }
   {
@@ -1201,7 +1166,6 @@
     character: "1003,307"
     enemy_skill: "5"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000056
     spine_scale: "100,100,1"
   }
   {
@@ -1223,7 +1187,6 @@
     character: "303,310"
     enemy_skill: "4"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000057
     spine_scale: "90,90,1"
   }
   {
@@ -1245,7 +1208,6 @@
     character: "1003,304"
     enemy_skill: "7"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000058
     spine_scale: "75,75,1"
   }
   {
@@ -1266,7 +1228,6 @@
     counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
     character: "308"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000059
     spine_scale: "100,100,1"
   }
   {
@@ -1288,7 +1249,6 @@
     character: "303,309,310"
     enemy_skill: "9"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000060
     spine_scale: "100,100,1"
   }
   {
@@ -1331,7 +1291,6 @@
     character: "1001,216,309"
     enemy_skill: "41"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000062
     spine_scale: "85,85,1"
   }
   {
@@ -1350,10 +1309,9 @@
     speed_rank: 2
     range_rank: 2
     counter: This unit has moderate armor and force field values. Though its initial damage reduction is insignificant, the force field will keep regenerating and getting stronger, so a prolonged battle is not a good idea if your echelon is incapable of breaking through its defenses. HOC support is strongly recommended.
-    character: "309,312,316"
+    character: "309,302,312,316"
     enemy_skill: "34,35,140"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000063
     spine_scale: "80,80,1"
   }
   {
@@ -1372,10 +1330,9 @@
     speed_rank: 2
     range_rank: 4
     counter: This unit has high armor and force field values as well as incredible evasion, Pay attention to the timing for dealing meaningful damage. T-Dolls with sniping skills that give guaranteed hits are recommended.
-    character: "1001,309,310,315"
+    character: "1001,302,309,310,315"
     enemy_skill: "36,37,38"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000064
     spine_scale: "80,80,1"
   }
   {
@@ -1396,7 +1353,6 @@
     character: "1003,312,316"
     enemy_skill: "39"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000065
     spine_scale: "100,100,1"
   }
   {
@@ -1417,7 +1373,6 @@
     character: "303"
     enemy_skill: "40"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000066
     spine_scale: "75,75,1"
   }
   {
@@ -1436,7 +1391,6 @@
     counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
     character: "309,308"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000067
     spine_scale: "100,100,1"
   }
   {
@@ -1458,7 +1412,6 @@
     character: "1001,309,911"
     enemy_skill: "44"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000068
     spine_scale: "80,80,1"
   }
   {
@@ -1474,7 +1427,6 @@
     character: "309,321"
     enemy_skill: "21"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000069
     spine_scale: "40,40,1"
   }
   {
@@ -1496,7 +1448,6 @@
     character: "303,309"
     enemy_skill: "22"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000070
     spine_scale: "100,100,1"
   }
   {
@@ -1517,7 +1468,6 @@
     character: "1003,325"
     enemy_skill: "23"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000071
     spine_scale: "100,100,1"
   }
   {
@@ -1538,7 +1488,6 @@
     character: "310"
     enemy_skill: "24"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000072
     spine_scale: "80,80,1"
   }
   {
@@ -1557,10 +1506,9 @@
     speed_rank: 2
     range_rank: 1
     counter: This unit with strong armor and low moving speed launches multiple small missiles in a wide-area bombardment. When the warning appears, move your T-Dolls in time to avoid taking damage.
-    character: "303,309,313"
+    character: "302,303,309,313"
     enemy_skill: "26,33"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000073
     spine_scale: "80,80,1"
   }
   {
@@ -1577,9 +1525,8 @@
     armor_rank: 3
     range_rank: 5
     counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
-    character: "908,910,326"
+    character: "302,908,910,326"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000074
     spine_scale: "-15,15,1"
   }
   {
@@ -1596,9 +1543,8 @@
     armor_rank: 3
     range_rank: 5
     counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
-    character: "908,910,326"
+    character: "302,908,910,326"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000075
     spine_scale: "-15,15,1"
   }
   {
@@ -1615,9 +1561,8 @@
     armor_rank: 3
     range_rank: 5
     counter: This unit provides long-range support for enemies on the map and poses a significant strategic threat. Avoid engaging enemy units under its support. Observe the support range of each section and decide which to attack first so as to prevent being caught in multiple lines of fire.
-    character: "908,910,326"
+    character: "302,908,910,326"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000076
     spine_scale: "-15,15,1"
   }
   {
@@ -1636,10 +1581,9 @@
     speed_rank: 4
     range_rank: 2
     counter: It possesses high armor and can attack enemy units in both the front and back rows. Keep a safe distance between your front and back rows.
-    character: "1001,303,309,310"
+    character: "1001,302,303,309,310"
     enemy_skill: "48,49,50"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000077
     spine_scale: "50,50,1"
   }
   {
@@ -1655,7 +1599,6 @@
     character: "1001,309,310"
     enemy_skill: "51"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000078
     spine_scale: "60,60,1"
   }
   {
@@ -1674,10 +1617,9 @@
     speed_rank: 5
     range_rank: 3
     counter: This unit possesses a certain degree of armor, so make sure your echelon has enough armor piercing and try to maximize your defenses in the front row. In addition, take care to move units targeted by its powerful cannon shot to prevent your backliners from taking damage.
-    character: "1001,1003,309,317,316"
+    character: "1001,1003,302,309,317,316"
     enemy_skill: "52,53"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000079
     spine_scale: "40,40,1"
   }
   {
@@ -1696,10 +1638,9 @@
     speed_rank: 6
     range_rank: 7
     counter: This heavily-armored unit deals high damage to flagged positions. When shielded, it suffers flat damage from feedback if its shield is penetrated. Move your Dolls in time to avoid taking damage.
-    character: "1001,309,326,316"
+    character: "1001,302,309,326,316"
     enemy_skill: "93,94,95"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000080
     spine_scale: "40,40,1"
   }
   {
@@ -1723,7 +1664,6 @@
     character: "1001,900"
     enemy_skill: "85,86,87"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000081
     spine_scale: "60,60,1"
   }
   {
@@ -1743,7 +1683,6 @@
     character: "309,301"
     enemy_skill: "10018"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000082
     spine_scale: "60,60,1"
   }
   {
@@ -1762,7 +1701,6 @@
     character: "1001,309,322"
     enemy_skill: "10019"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000083
     spine_scale: "100,100,1"
   }
   {
@@ -1777,7 +1715,6 @@
     character: "309,321"
     enemy_skill: "10021"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000084
     spine_scale: "40,40,1"
   }
   {
@@ -1798,7 +1735,6 @@
     character: "303,309"
     enemy_skill: "10022"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000085
     spine_scale: "100,100,1"
   }
   {
@@ -1820,7 +1756,6 @@
     character: "1001,303"
     enemy_skill: "88,90,92"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000086
     spine_scale: "100,100,1"
   }
   {
@@ -1840,7 +1775,6 @@
     character: "1001,300"
     enemy_skill: "10087"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000087
   }
   {
     id: 88
@@ -1858,7 +1792,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,300"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000088
   }
   {
     id: 89
@@ -1877,7 +1810,6 @@
     character: "1001,307"
     enemy_skill: "10005"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000089
   }
   {
     id: 90
@@ -1895,7 +1827,6 @@
     counter: This unit is very effective in piercing through armor, which poses a considerable threat to Shotgun T-Dolls. Don't let her touch any friendly SGs. It is recommended to use Dolls with high evasion such as SMGs and HGs in the front row.
     character: "1001,303"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000090
   }
   {
     id: 91
@@ -1915,7 +1846,6 @@
     character: "1001,307,316"
     enemy_skill: "10191,10091"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000091
   }
   {
     id: 92
@@ -1933,7 +1863,6 @@
     counter: Avoid engaging this unit in battle.
     character: "1001,301"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000092
   }
   {
     id: 93
@@ -1951,7 +1880,6 @@
     counter: Avoid engaging this unit in battle.
     character: "1001,301"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000093
   }
   {
     id: 94
@@ -1972,7 +1900,6 @@
     character: "1001,300"
     enemy_skill: "89,91"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000094
     spine_scale: "100,100,1"
   }
   {
@@ -1993,7 +1920,6 @@
     character: "1003,303,315"
     enemy_skill: "54,55"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000095
     spine_scale: "85,85,1"
   }
   {
@@ -2070,7 +1996,6 @@
     character: "309,321"
     enemy_skill: "21"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000099
     spine_scale: "100,100,1"
   }
   {
@@ -2089,7 +2014,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000101
     spine_scale: "90,90,1"
   }
   {
@@ -2108,7 +2032,6 @@
     counter: This unit is the main damage dealer in the back row. It has a low rate of fire and high accuracy, dealing steady and significant damage to the player's units in the front row. It is recommended to clear them up with Dolls who prioritize targets in the back row.
     character: "307"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000102
     spine_scale: "80,80,1"
   }
   {
@@ -2177,7 +2100,6 @@
     counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000106
   }
   {
     id: 107
@@ -2194,7 +2116,6 @@
     counter: This melee unit deals incredibly high damage but has bad survivability. It is recommended to destroy them with Assault Rifle Dolls or Dolls who can quickly deal AoE damage before they come close.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000107
   }
   {
     id: 108
@@ -2279,7 +2200,7 @@
     rate_rank: 1
     speed_rank: 6
     range_rank: 2
-    counter: The unit hinders enemy movements and approaches at high speed, dealing massive damage to enemies. When she attacks, her allies are left completely vulnerable. This is the time to launch an effective retaliation.
+    counter: Restricts the movement of friendly units while rapidly closing in and dealing great damage to them. However, approaching friendly forces also exposes herself to them, so take this opportunity to do lots of damage to her.
     character: "1001,316,329"
     enemy_skill: "111,112"
     launch_time: 2016-5-20 00:00:00
@@ -2392,7 +2313,7 @@
     speed_rank: 2
     range_rank: 2
     counter: This unit has moderate armor and force field values. Though its initial damage reduction is insignificant, the force field will keep regenerating and getting stronger, so a prolonged battle is not a good idea if your echelon is incapable of breaking through its defenses. HOC support is strongly recommended.
-    character: "309,312,316"
+    character: "302,309,312,316"
     enemy_skill: "34,35,140"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "80,80,1"
@@ -2413,7 +2334,7 @@
     speed_rank: 2
     range_rank: 4
     counter: This unit has high armor and force field values as well as incredible evasion, Pay attention to the timing for dealing meaningful damage. T-Dolls with sniping skills that give guaranteed hits are recommended.
-    character: "1001,309,310,315"
+    character: "1001,302,309,310,315"
     enemy_skill: "36,37,38"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "50,50,1"
@@ -2622,7 +2543,7 @@
     armor_rank: 2
     range_rank: 5
     counter: This unit has a high rate of fire and deals moderate damage. Shotguns are recommended to provide adequate armor against their attacks.
-    character: "1001,320"
+    character: "1001,302,320"
     enemy_skill: "129"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "50,50,1"
@@ -2762,7 +2683,7 @@
     speed_rank: 5
     range_rank: 5
     counter: This unit has bombardment capabilities at high health and places great survival pressure on friendly units. It is recommended that you deal with it swiftly.
-    character: "1001,335,320,309"
+    character: "1001,302,335,320,309"
     enemy_skill: "126,127,128"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "50,50,1"
@@ -2983,7 +2904,6 @@
     character: "1001,308"
     enemy_skill: "153"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000148
   }
   {
     id: 149
@@ -3004,7 +2924,6 @@
     character: "1001,303,309"
     enemy_skill: "154,155"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000149
   }
   {
     id: 150
@@ -3024,7 +2943,6 @@
     character: "1001,1003,307,320"
     enemy_skill: "156"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000150
   }
   {
     id: 151
@@ -3044,7 +2962,6 @@
     character: "1001,1003,437"
     enemy_skill: "157,158,159"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000151
   }
   {
     id: 152
@@ -3064,7 +2981,6 @@
     character: "304,316"
     enemy_skill: "151,152"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000152
   }
   {
     id: 153
@@ -3121,7 +3037,6 @@
     character: "1001"
     enemy_skill: "161,162,163,164"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000155
   }
   {
     id: 156
@@ -3142,7 +3057,6 @@
     character: "1004"
     enemy_skill: "165"
     launch_time: 2035-5-20 00:00:00
-    extra: enemy_illustration-40000156
   }
   {
     id: 157
@@ -3182,7 +3096,6 @@
     counter: A plunderer of snacks. Perhaps you could try feeding them some chocolates.
     character: "303"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000158
     spine_scale: "100,100,1"
   }
   {
@@ -3200,7 +3113,6 @@
     character: "1001,1003,323,908"
     enemy_skill: "11"
     launch_time: 2016-5-20 00:00:00
-    extra: enemy_illustration-40000159
     spine_scale: "100,100,1"
   }
   {
@@ -3272,7 +3184,7 @@
     speed_rank: 2
     range_rank: 2
     counter: This unit has moderate armor and force field values. Though its initial damage reduction is insignificant, the force field will keep regenerating and getting stronger, so a prolonged battle is not a good idea if your echelon is incapable of breaking through its defenses. HOC support is strongly recommended.
-    character: "309,312,316"
+    character: "302,309,312,316"
     enemy_skill: "34,35,140"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "80,80,1"
@@ -3372,7 +3284,7 @@
     speed_rank: 1
     range_rank: 3
     counter: Deadly to low-health targets. Eliminate ASAP.
-    character: "1003,314,319"
+    character: "1003,302,314,319"
     enemy_skill: "168"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "60,60,1"
@@ -3393,7 +3305,7 @@
     speed_rank: 3
     range_rank: 3
     counter: This unit can enhance its defenses against mechanical units. Make sure you avoid the damage from its missiles.
-    character: "1001,1003"
+    character: "1001,1003,302"
     enemy_skill: "169,170"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "50,50,1"
@@ -3461,7 +3373,7 @@
     name: Miss Eve
     type: 1
     code: Nyto_mecha
-    introduce: An elite Paradeus unit. Tareus' general capabilities are unremarkable, but her talent in piloting mechs is unparalleled. She has named the mech with the highest synchronization rate "Miss Eve", the only name stored within her memory. Outside of combat, she disguises herself as an ordinary passer-by, but once she enters the neural space, she annihilates everything in her path while piloting Miss Eve...
+    introduce: An elite Paradeus unit. Tareus' general capabilities are unremarkable, but her talent in piloting mechs is unparalleled. She has named the mech with the highest synchronization rate "Miss Eve", the only name stored within her memory. Outside of combat, she disguises herself as an ordinary passer-by, but once she enters neural space, she annihilates everything in her path while piloting Miss Eve...
     forces: 3
     pow_rank: 5
     life_rank: 5
@@ -3472,7 +3384,7 @@
     speed_rank: 5
     range_rank: 5
     counter: This unit has powerful defensive capability on top of ample firepower. Time your attack carefully and focus fire on her.
-    character: "1001,320"
+    character: "1001,320,302"
     enemy_skill: "174,175,176"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "50,50,1"
@@ -3496,8 +3408,31 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    id: 175
+    name: Executioner - Blood Fiend Huntress
+    type: 1
+    code: Excutioner_Halloween
+    introduce: A specialized model for hunting and pursuit. At Executioner's own request, a large artificial limb that can transform into a scythe is incorporated into the design so that she can reap her enemies and wreak havoc effortlessly in battle. At the same time, her black clothing makes it easier to melt into the shadows as her weapon glints coldly behind her enemies' back. Have you seen the one who haunts your dreams? She emerges at night and stalks with death. She hunts down all madness that falls into nightmare.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 5
+    rate_rank: 3
+    armor_rank: 3
+    speed_rank: 3
+    range_rank: 2
+    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,202"
+    enemy_skill: "60"
+    launch_time: 2035-5-20 00:00:00
+    org_id: 10604
+  }
+  {
     id: 176
     name: Tareus
+    type: 1
     code: Nyto_tareus
     introduce: Tareus, a specialized Nyto mech pilot, has an extremely high compatibility and synchronization rate with the mech "Miss Eve". She is also adept at hacking Dolls' neural clouds and unleashing devastating attacks on her targets. Since she has undergone numerous memory wipes and modifications, her virtual cognition image is very fragile and prone to severe mood swings, but her occasional emotional outbursts are always quickly neutralized by her internal programming.
     forces: 3
@@ -3514,6 +3449,7 @@
     enemy_skill: "174,175,176"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "50,50,1"
+    org_id: 10603
   }
   {
     id: 177
@@ -3609,7 +3545,6 @@
     counter: To be introduced
     character: "1001,309"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100001
   }
   {
     id: 100011
@@ -3628,7 +3563,6 @@
     counter: Kill this unit promptly by activating your T-Dolls' skills once he closes in.
     character: "401,402"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100011
   }
   {
     id: 100012
@@ -3647,7 +3581,6 @@
     counter: This unit deals considerable burning damage to flagged positions. Be sure to move your Dolls in time to evade his attacks.
     character: "403"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100012
   }
   {
     id: 100013
@@ -3666,7 +3599,6 @@
     counter: Keep a close eye on this unit's movements. Attract his attention with Dolls that are close to him and direct your Dolls to avoid the AoE damage caused by his flamethrower.
     character: "1001,404,415"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100013
   }
   {
     id: 100014
@@ -3685,7 +3617,6 @@
     counter: Hinder this units' movements and defeat him before he approaches your formation.
     character: "1001,405"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100014
   }
   {
     id: 100015
@@ -3704,7 +3635,6 @@
     counter: This unit deals considerable projectile damage to flagged positions. Be sure to move your Dolls in time to evade his attacks. It is also advised to confront him with an echelon that has decent survivability.
     character: "1001,406,407"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100015
   }
   {
     id: 100016
@@ -3723,7 +3653,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100016
   }
   {
     id: 100017
@@ -3742,7 +3671,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "408"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100017
   }
   {
     id: 100018
@@ -3761,7 +3689,6 @@
     counter: This unit deals projectile damage to flagged positions and places debuffs on affected targets. Be sure to move your Dolls on the back row in time to evade his attacks.
     character: "409,410"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100018
   }
   {
     id: 100019
@@ -3780,7 +3707,6 @@
     counter: Engineers set up mortars that pose a large threat and deal AoE damage that could be a bother to deal with for your units.
     character: "411,412,413"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100019
   }
   {
     id: 100020
@@ -3799,7 +3725,6 @@
     counter: Dolls with sticky bombs must be moved to an unoccupied area or they will cause significant damage to other friendly units.
     character: "1001,414,415"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100020
   }
   {
     id: 100021
@@ -3818,7 +3743,6 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness. Yep.
     character: "1001,423"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100021
   }
   {
     id: 100022
@@ -3837,7 +3761,6 @@
     counter: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated. Focus on attacking the weak point on his back first using units with high accuracy.
     character: "1001,417,404,416"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100022
   }
   {
     id: 100023
@@ -3856,7 +3779,6 @@
     counter: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
     character: "1001,420,421,422"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100023
   }
   {
     id: 100024
@@ -3875,7 +3797,6 @@
     counter: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
     character: "1001,419,418,416"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100024
   }
   {
     id: 100025
@@ -3894,7 +3815,6 @@
     counter: Fire! Move! Face the formidable foes and prevail!
     character: "1001,424,425"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100025
   }
   {
     id: 100026
@@ -3913,7 +3833,6 @@
     counter: Fire! Move! Face the formidable foes and prevail!
     character: "1001,424,425"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100026
   }
   {
     id: 100027
@@ -4025,7 +3944,7 @@
   }
   {
     id: 100033
-    name: Bete
+    name: B?te
     type: 3
     code: Dropkick_Beth
     introduce: An enemy that's unaccounted for.
@@ -4398,7 +4317,6 @@
     character: "1003,303,315"
     enemy_skill: "54,55"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100082
   }
   {
     id: 100083
@@ -4418,6 +4336,5 @@
     character: "1003,309,307"
     enemy_skill: "56"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40100083
   }
 ]

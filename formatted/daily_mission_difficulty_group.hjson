@@ -1,0 +1,37 @@
+[
+  {
+    id: 1
+    name: Dustbowl
+    recommend_gun_level: 65
+    recommend_fairy_level: "45,1"
+    recommend_fairy_tip: Small Amount
+    recommend_fairies: "1,2,3,4,6,7,8,9,23,24,25"
+    recommend_squad_tip: None
+    default_bg: "#FFFFFFFF"
+  }
+  {
+    id: 2
+    name: Windstorm
+    recommend_gun_level: 90
+    recommend_fairy_level: "80,2"
+    recommend_fairy_tip: Complete
+    recommend_fairies: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,23,24,25"
+    recommend_squad_level: "80,2"
+    recommend_squad_tip: Small Amount
+    recommend_squads: "1,2,3,4,5,6,7"
+    default_bg: "#B5522CFF"
+  }
+  {
+    id: 3
+    name: Vitrified
+    recommend_gun_level: 110
+    recommend_fairy_level: "90,4"
+    recommend_fairy_tip: Complete
+    recommend_fairies: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,23,24,25"
+    recommend_squad_level: "90,4"
+    recommend_squad_tip: Complete
+    recommend_squads: " 1,2,3,4,5,6,7"
+    default_effects: DailyUIEffect
+    default_bg: "#9F342BFF"
+  }
+]

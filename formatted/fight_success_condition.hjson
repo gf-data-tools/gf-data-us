@@ -201,9 +201,9 @@
   }
   {
     id: 712
-    name: HG Required
+    name: Specified Gun Types
     type: 11
-    desc: At least 1 HG participating in this battle.
+    desc: An HG takes part in the battle
     condition_coef: "1,1"
     score_coef: 100
   }
@@ -217,9 +217,9 @@
   }
   {
     id: 714
-    name: RF Required
+    name: Specified Gun Types
     type: 11
-    desc: At least 1 RF participating in this battle.
+    desc: An RF takes part in the battle
     condition_coef: "3,1"
     score_coef: 100
   }
@@ -241,7 +241,7 @@
   }
   {
     id: 717
-    name: 3 RFs Required
+    name: Specified Number of a Certain Gun Type
     type: 11
     desc: At least 3 RFs participating in this battle.
     condition_coef: "3,3"
@@ -249,9 +249,9 @@
   }
   {
     id: 718
-    name: MG Required
+    name: Specified Gun Types
     type: 11
-    desc: At least 1 MG participating in this battle.
+    desc: An MG takes part in the battle
     condition_coef: "5,1"
     score_coef: 100
   }
@@ -363,6 +363,7 @@
     id: 901
     name: Specified Number of a Certain Gun Type
     type: 11
+    desc: At least 2 RFs take part in the battle.
     condition_coef: "3,2"
     score_coef: 100
   }
@@ -370,6 +371,7 @@
     id: 902
     name: Specific T-Doll (Any)
     type: 9
+    desc: Include any one from M4A1, M4 SOPMOD II, and ST AR-15.
     condition_coef: "55,56,57"
     score_coef: 100
   }
@@ -377,6 +379,7 @@
     id: 903
     name: Specified Number of a Certain Gun Type
     type: 11
+    desc: At least 2 MGs take part in the battle.
     condition_coef: "5,2"
     score_coef: 100
   }
@@ -384,6 +387,7 @@
     id: 904
     name: Specified Number of a Certain Gun Type
     type: 11
+    desc: At least 3 MGs take part in the battle.
     condition_coef: "5,3"
     score_coef: 100
   }

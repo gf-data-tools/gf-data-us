@@ -784,4 +784,40 @@
     begin_show_time: 2023-05-09 00:00:00
     end_show_time: 2023-05-29 23:59:59
   }
+  {
+    id: "2001"
+    name: Nodes explored
+    type: "2000"
+    sub_type: "1"
+    refresh: test
+    title: Nodes explored
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "2002"
+    name: Bosses killed
+    type: "2000"
+    sub_type: "2"
+    refresh: test
+    title: Bosses killed
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
+  {
+    id: "2003"
+    name: Nodes conquered
+    type: "2000"
+    sub_type: "3"
+    refresh: test
+    title: Nodes conquered
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "160000"
+    every_table_num: "40000"
+  }
 ]

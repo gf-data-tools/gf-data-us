@@ -1475,6 +1475,60 @@
     is_show_count: "1"
   }
   {
+    id: 580001
+    type: 1406
+    arguments: 580098:0
+    extra_language: The mission fails if Anna's echelon withdraws.
+  }
+  {
+    id: 580002
+    type: 1407
+    arguments: 580097:1
+    extra_language: The mission fails if Anna's echelon withdraws.
+  }
+  {
+    id: 581101
+    type: 1101
+    arguments: "3500616,3500617"
+    extra_language: Occupy the target node.
+    is_show_count: "1"
+  }
+  {
+    id: 583401
+    type: 1406
+    arguments: 580120:0
+    extra_language: Destroy all interference pylons.
+    is_show_count: "1"
+  }
+  {
+    id: 583402
+    type: 1303
+    arguments: 583401:1
+    extra_language: Eliminate the designated enemy target(s).
+    is_show_count: "1"
+  }
+  {
+    id: 584801
+    type: 1101
+    arguments: "3500768,3500775"
+    extra_language: Occupy the target node.
+    is_show_count: "1"
+  }
+  {
+    id: 585502
+    type: 1303
+    arguments: 585502:1
+    extra_language: Eliminate the designated enemy target(s).
+    is_show_count: "1"
+  }
+  {
+    id: 587002
+    type: 1303
+    arguments: 587007:1
+    extra_language: Eliminate the designated enemy target(s).
+    is_show_count: "1"
+  }
+  {
     id: 1027801
     type: 1101
     arguments: "94332"
@@ -5516,6 +5570,271 @@
     arguments: "5"
   }
   {
+    id: 1134701
+    type: 1101
+    arguments: "78630"
+  }
+  {
+    id: 1134702
+    type: 1407
+    arguments: 581500:1
+    extra_language: The mission fails if Angelia's echelon withdraws.
+  }
+  {
+    id: 1134901
+    type: 1303
+    arguments: 581701:1
+  }
+  {
+    id: 1135301
+    type: 1306
+    arguments: 6580109:1
+    is_show_count: "1"
+  }
+  {
+    id: 1135501
+    type: 1407
+    arguments: 6580113:1
+    extra_language: Talk to the agent.
+    is_show_count: "1"
+  }
+  {
+    id: 1135502
+    type: 1404
+    arguments: "2"
+    is_show_count: "1"
+  }
+  {
+    id: 1135503
+    type: 1306
+    arguments: 6580116:1
+    is_show_count: "1"
+  }
+  {
+    id: 1135504
+    type: 1407
+    arguments: 6580139:1
+    extra_language: Head to the radar node and set up a trap.
+    is_show_count: "1"
+  }
+  {
+    id: 1135505
+    type: 1407
+    arguments: 6580138:1
+    extra_language: Draw Mrs. Gray to the designated location.
+    is_show_count: "1"
+  }
+  {
+    id: 1135591
+    type: 1407
+    arguments: 6580136:1
+    extra_language: The mission fails if the agent is defeated in battle.
+  }
+  {
+    id: 1135901
+    type: 1405
+    arguments: "1"
+    is_show_count: "1"
+  }
+  {
+    id: 1136801
+    type: 1303
+    arguments: 583601:1
+    extra_language: Defeat Morridow on the central bridge in Avernus.
+  }
+  {
+    id: 1136802
+    type: 1407
+    arguments: 583602:1
+    extra_language: Have Dandelion approach Morridow.
+  }
+  {
+    id: 1138101
+    type: 1101
+    arguments: "78655"
+  }
+  {
+    id: 1138201
+    type: 1303
+    arguments: 585001:1
+  }
+  {
+    id: 1138202
+    type: 1406
+    arguments: 581701:0
+  }
+  {
+    id: 1138301
+    type: 1306
+    arguments: 6580110:1
+    is_show_count: "1"
+  }
+  {
+    id: 1138302
+    type: 1306
+    arguments: 6580111:1
+    is_show_count: "1"
+  }
+  {
+    id: 1138401
+    type: 1407
+    arguments: 6580113:1
+    extra_language: Talk to the agent.
+    is_show_count: "1"
+  }
+  {
+    id: 1138402
+    type: 1404
+    arguments: "3"
+    is_show_count: "1"
+  }
+  {
+    id: 1138403
+    type: 1306
+    arguments: 6580117:1
+    is_show_count: "1"
+  }
+  {
+    id: 1138404
+    type: 1407
+    arguments: 6580139:1
+    extra_language: Head to the radar node and set up a trap.
+    is_show_count: "1"
+  }
+  {
+    id: 1138405
+    type: 1407
+    arguments: 6580138:1
+    extra_language: Draw Mrs. Gray to the designated location.
+    is_show_count: "1"
+  }
+  {
+    id: 1138491
+    type: 1407
+    arguments: 6580136:1
+    extra_language: The mission fails if the agent is defeated in battle.
+  }
+  {
+    id: 1138501
+    type: 1405
+    arguments: "1"
+    is_show_count: "1"
+  }
+  {
+    id: 1138591
+    type: 1407
+    arguments: 6580107:1
+    extra_language: The mission fails if Angelia's echelon withdraws.
+  }
+  {
+    id: 1138801
+    type: 1303
+    arguments: 585601:1
+    extra_language: Defeat Morridow on the central bridge in Avernus.
+  }
+  {
+    id: 1139401
+    type: 1303
+    arguments: 587101:1
+    extra_language: Defeat Morridow on the central bridge in Avernus.
+  }
+  {
+    id: 1139801
+    type: 1301
+    arguments: "5"
+  }
+  {
+    id: 1139901
+    type: 1301
+    arguments: "4"
+  }
+  {
+    id: 1140201
+    type: 1402
+    arguments: "6"
+    extra_language: Hold out until Round 6.
+  }
+  {
+    id: 1140301
+    type: 1402
+    arguments: "6"
+    extra_language: Hold out until Round 6.
+  }
+  {
+    id: 1143601
+    type: 1402
+    arguments: "3"
+    extra_language: Survive 2 turns.
+  }
+  {
+    id: 1143602
+    type: 1102
+    arguments: "201"
+  }
+  {
+    id: 1143901
+    type: 1405
+    arguments: "2"
+  }
+  {
+    id: 1144001
+    type: 1102
+    arguments: "1"
+    is_show_count: "1"
+  }
+  {
+    id: 1144201
+    type: 1407
+    arguments: 610003:6
+  }
+  {
+    id: 1144301
+    type: 1402
+    arguments: "6"
+    extra_language: Hold out until Round 6.
+    is_show_count: "1"
+  }
+  {
+    id: 1144302
+    type: 1406
+    arguments: 541302:0
+  }
+  {
+    id: 1144401
+    type: 1406
+    arguments: 1144411:0
+  }
+  {
+    id: 1144501
+    type: 1407
+    arguments: 610001:12
+  }
+  {
+    id: 1144502
+    type: 1407
+    arguments: 610001:18
+  }
+  {
+    id: 1144503
+    type: 1407
+    arguments: 610001:21
+  }
+  {
+    id: 1144504
+    type: 1407
+    arguments: 611005:1
+  }
+  {
+    id: 1144601
+    type: 1301
+    arguments: "5"
+  }
+  {
+    id: 1145501
+    type: 1407
+    arguments: 610003:8
+  }
+  {
     id: 3610301
     type: 1305
     is_show_count: "1"
@@ -6094,6 +6413,297 @@
     type: 1303
     arguments: 9521412:1
     extra_language: Eliminate the ultimate boss.
+  }
+  {
+    id: 9583801
+    type: 1407
+    arguments: 9583802:1
+    extra_language:
+      '''
+      Nemhran escapes.
+      Nemhran reaches the radar node.
+      '''
+  }
+  {
+    id: 9583802
+    type: 1402
+    arguments: "5"
+    extra_language:
+      '''
+      Nemhran escapes.
+      Enter Round 4 without letting Nemhran reach the radar node.
+      '''
+  }
+  {
+    id: 9583803
+    type: 1303
+    arguments: 9583801:1
+    extra_language: Defeat Nemhran.
+  }
+  {
+    id: 9584001
+    type: 1101
+    arguments: "95496"
+    extra_language:
+      '''
+      After reaching the radar node, move to the central tower to rendezvous with other forces.
+      <color=#CF8000>Occupy the node. ※Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9584002
+    type: 1303
+    arguments: 9584008:1
+    extra_language:
+      '''
+      Engage Nemhran in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9584003
+    type: 1402
+    arguments: "14"
+    extra_language: Reach Round 14.
+  }
+  {
+    id: 9584004
+    type: 1402
+    arguments: "2"
+  }
+  {
+    id: 9584005
+    type: 1306
+    arguments: 9584006:1
+    extra_language:
+      '''
+      Engage Sana in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9584201
+    type: 1402
+    arguments: "6"
+    extra_language: Enter Round 6 without defeating Sana.
+  }
+  {
+    id: 9584202
+    type: 1402
+    arguments: "5"
+    extra_language: Last 5 rounds or more.
+  }
+  {
+    id: 9584203
+    type: 1303
+    arguments: 9584203:1
+    extra_language: Defeat Sana.
+  }
+  {
+    id: 9585701
+    type: 1407
+    arguments: 9583802:1
+    extra_language:
+      '''
+      Nemhran escapes.
+      Nemhran reaches the radar node.
+      '''
+  }
+  {
+    id: 9585702
+    type: 1402
+    arguments: "5"
+    extra_language:
+      '''
+      Nemhran escapes.
+      Enter Round 4 without letting Nemhran reach the radar node.
+      '''
+  }
+  {
+    id: 9585703
+    type: 1303
+    arguments: 9585701:1
+    extra_language: Defeat Nemhran.
+  }
+  {
+    id: 9585801
+    type: 1101
+    arguments: "95737"
+    extra_language:
+      '''
+      After reaching the radar node, move to the central tower to rendezvous with other forces.
+      <color=#CF8000>Occupy the node. ※Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9585802
+    type: 1303
+    arguments: 9585810:1
+    extra_language:
+      '''
+      Engage Nemhran in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9585803
+    type: 1402
+    arguments: "14"
+    extra_language: Reach Round 14.
+  }
+  {
+    id: 9585804
+    type: 1306
+    arguments: 9585806:1
+    extra_language:
+      '''
+      Engage Sana in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9585901
+    type: 1402
+    arguments: "6"
+    extra_language: Enter Round 6 without defeating Sana.
+  }
+  {
+    id: 9585902
+    type: 1402
+    arguments: "5"
+    extra_language: Last 5 rounds or more.
+  }
+  {
+    id: 9585903
+    type: 1303
+    arguments: 9585903:1
+    extra_language: Defeat Sana.
+  }
+  {
+    id: 9587201
+    type: 1407
+    arguments: 9583802:1
+    extra_language:
+      '''
+      Nemhran escapes.
+      Nemhran reaches the radar node.
+      '''
+  }
+  {
+    id: 9587202
+    type: 1402
+    arguments: "5"
+    extra_language:
+      '''
+      Nemhran escapes.
+      Enter Round 4 without letting Nemhran reach the radar node.
+      '''
+  }
+  {
+    id: 9587203
+    type: 1303
+    arguments: 9587201:1
+    extra_language: Defeat Nemhran.
+  }
+  {
+    id: 9587301
+    type: 1101
+    arguments: "95529"
+    extra_language:
+      '''
+      After reaching the radar node, move to the central tower to rendezvous with other forces.
+      <color=#CF8000>Occupy the node. ※Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9587302
+    type: 1303
+    arguments: 9587312:1
+    extra_language:
+      '''
+      Engage Nemhran in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9587303
+    type: 1402
+    arguments: "14"
+    extra_language: Reach Round 14.
+  }
+  {
+    id: 9587304
+    type: 1306
+    arguments: 9587307:1
+    extra_language:
+      '''
+      Engage Sana in battle.
+      <color=#CF8000>Criterion is checked when you end the turn.</color>
+      '''
+  }
+  {
+    id: 9587401
+    type: 1402
+    arguments: "6"
+    extra_language: Enter Round 6 without defeating Sana.
+  }
+  {
+    id: 9587402
+    type: 1402
+    arguments: "5"
+    extra_language: Last 5 rounds or more.
+  }
+  {
+    id: 9587403
+    type: 1303
+    arguments: 9587403:1
+    extra_language: Defeat Sana.
+  }
+  {
+    id: 58000101
+    type: 1407
+    arguments: 78003:1
+    extra_language:
+      '''
+      Explore for 1 round.
+      <color=#CF8000>Moving will change the color of the nodes outside the heliport that you spawn from. The more blue nodes there are at result settlement, the more rewards you get.</color>
+      '''
+  }
+  {
+    id: 58000501
+    type: 1407
+    arguments: 78005:1
+    extra_language: Open any box.
+  }
+  {
+    id: 58000502
+    type: 1402
+    arguments: "1"
+  }
+  {
+    id: 58000601
+    type: 1303
+    arguments: 6520101:1
+  }
+  {
+    id: 58000602
+    type: 1303
+    arguments: 6520102:1
+  }
+  {
+    id: 58000603
+    type: 1303
+    arguments: 6520103:1
+  }
+  {
+    id: 58000604
+    type: 1303
+    arguments: 6520104:1
+  }
+  {
+    id: 58000605
+    type: 1303
+    arguments: 6520105:1
   }
   {
     id: 64101011

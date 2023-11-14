@@ -1,0 +1,737 @@
+[
+  {
+    id: 101
+    tag: Front Row
+    tag_type: 1
+    description: This unit has strong survivability and is suited to being placed on the front row.
+    is_show: 1
+  }
+  {
+    id: 102
+    tag: Back Row
+    tag_type: 1
+    description: This unit has weak survivability and is suited to being placed on the back row.
+    is_show: 1
+  }
+  {
+    id: 103
+    tag: Excellent Support
+    tag_type: 1
+    description: This unit can effectively improve the echelon's damage output and survivability.
+    is_show: 1
+  }
+  {
+    id: 104
+    tag: Illumination
+    tag_type: 1
+    description: This unit can provide the echelon with night vision.
+    is_show: 1
+  }
+  {
+    id: 105
+    tag: Projectile
+    tag_type: 1
+    description: This unit can use projectile weapons.
+    is_show: 1
+  }
+  {
+    id: 106
+    tag: Night Battle Specialization
+    tag_type: 1
+    description: This unit's skill is more potent in night battles.
+    is_show: 1
+  }
+  {
+    id: 107
+    tag: Focus Fire
+    tag_type: 1
+    description: This unit can designate the target to be attacked by the whole echelon.
+    is_show: 1
+  }
+  {
+    id: 108
+    tag: Stat Boost
+    tag_type: 1
+    description: This unit's skill can enhance her own stats.
+    is_show: 1
+  }
+  {
+    id: 109
+    tag: Multi-Target Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal damage to multiple enemy units.
+    is_show: 1
+  }
+  {
+    id: 110
+    tag: Daze
+    tag_type: 1
+    description: This unit's skill can daze enemy units.
+    is_show: 1
+  }
+  {
+    id: 111
+    tag: Acceleration
+    tag_type: 1
+    description: This unit can increase the echelon's movement speed.
+    is_show: 1
+  }
+  {
+    id: 112
+    tag: Team Leader
+    tag_type: 1
+    description: This unit's skill will have different effects when she is the team leader.
+    is_show: 1
+  }
+  {
+    id: 113
+    tag: Shield
+    tag_type: 1
+    description: This unit can provide shields for the echelon.
+    is_show: 1
+  }
+  {
+    id: 114
+    tag: Shield-Piercing
+    tag_type: 1
+    description: This unit's normal attacks or skill can pierce through enemy units' shields and deal effective damage.
+    is_show: 1
+  }
+  {
+    id: 115
+    tag: Armor-Piercing
+    tag_type: 1
+    description: When equipped with armor-piercing equipment, this unit are very effective against armored enemy units.
+    is_show: 1
+  }
+  {
+    id: 116
+    tag: Ace Meatshield
+    tag_type: 1
+    description: This unit has strong survivability and can absorb a ton of damage in battle.
+    is_show: 1
+  }
+  {
+    id: 117
+    tag: Single-Target Heavy Blow
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal a massive amount of damage to a single enemy unit.
+    is_show: 1
+  }
+  {
+    id: 118
+    tag: Damage Powerhouse
+    tag_type: 1
+    description: This unit has high damage output and can deal a large amount of damage in battle.
+    is_show: 1
+  }
+  {
+    id: 119
+    tag: Exclusive Equipment
+    tag_type: 1
+    description: This unit has powerful exclusive equipment that significantly boosts her combat performance.
+    is_show: 1
+  }
+  {
+    id: 120
+    tag: Damage Immunity
+    tag_type: 1
+    description: This unit's skill will grant her immunity to all damage for a short amount of time.
+    is_show: 1
+  }
+  {
+    id: 121
+    tag: AoE Damage
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal damage to all Dummy-Linked enemy units within a certain area.
+    is_show: 1
+  }
+  {
+    id: 122
+    tag: Strong Evasion
+    tag_type: 1
+    description: This unit has outstanding evasion stat and can dodge enemy attacks.
+    is_show: 1
+  }
+  {
+    id: 123
+    tag: Single-Target Suppression
+    tag_type: 1
+    description: This unit can place powerful debuffs on a single enemy unit.
+    is_show: 1
+  }
+  {
+    id: 124
+    tag: Self-Debuff
+    tag_type: 1
+    description: This unit may place debuffs on herself. Use with caution.
+    is_show: 1
+  }
+  {
+    id: 125
+    tag: Mode-Switching
+    tag_type: 1
+    description: This unit can switch between modes to meet different needs on the battlefield.
+    is_show: 1
+  }
+  {
+    id: 126
+    tag: Reinforcements
+    tag_type: 1
+    description: This unit can summon new units as reinforcements to aid in battle.
+    is_show: 1
+  }
+  {
+    id: 127
+    tag: Low HP Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill are more potent against enemy units with low HP.
+    is_show: 1
+  }
+  {
+    id: 128
+    tag: Low Star Rarity Support
+    tag_type: 1
+    description: This unit can effectively increase the damage output and survivability of allies of low star rarity.
+    is_show: 1
+  }
+  {
+    id: 129
+    tag: Damage Intake Reduction
+    tag_type: 1
+    description: This unit's skill can reduce her damage intake.
+    is_show: 1
+  }
+  {
+    id: 130
+    tag: Cleanse
+    tag_type: 1
+    description: This unit can clear debuffs on herself and her allies.
+    is_show: 1
+  }
+  {
+    id: 131
+    tag: Promptness
+    tag_type: 1
+    description: This unit can reduce her own and her allies' skill cooldown.
+    is_show: 1
+  }
+  {
+    id: 132
+    tag: Taunt
+    tag_type: 1
+    description: This unit has the ability to focus enemy fire on herself.
+    is_show: 1
+  }
+  {
+    id: 133
+    tag: Charge
+    tag_type: 1
+    description: This unit's skill involves charge points that can stack up and be consumed.
+    is_show: 1
+  }
+  {
+    id: 134
+    tag: Unity Skill
+    tag_type: 1
+    description: This unit has a Unity Skill that can greatly improve her combat performance.
+    is_show: 1
+  }
+  {
+    id: 135
+    tag: Exclusive Equipment
+    tag_type: 1
+    description: This unit has powerful exclusive equipment that significantly boosts her combat performance.
+    is_show: 1
+  }
+  {
+    id: 136
+    tag: Consecutive Battles
+    tag_type: 1
+    description: This unit's combat performance improves with each consecutive battle.
+    is_show: 1
+  }
+  {
+    id: 137
+    tag: Occupied Node
+    tag_type: 1
+    description: This unit's skill has different effects when fighting on an occupied node.
+    is_show: 1
+  }
+  {
+    id: 138
+    tag: Charge Snipe
+    tag_type: 1
+    description: This unit can deal a massive amount of damage to enemy units after charging.
+    is_show: 1
+  }
+  {
+    id: 139
+    tag: Single-Target Heavy Blow EX
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal a massive amount of damage to a single enemy unit.
+    is_show: 1
+  }
+  {
+    id: 140
+    tag: Shift
+    tag_type: 1
+    description: This unit's skill can shift the position of a single enemy unit.
+    is_show: 1
+  }
+  {
+    id: 141
+    tag: Paralysis
+    tag_type: 1
+    description: This unit can render enemy units unable to move or attack.
+    is_show: 1
+  }
+  {
+    id: 142
+    tag: Short Circuit
+    tag_type: 1
+    description: This unit can cause enemy units to take a fixed amount of damage per second.
+    is_show: 1
+  }
+  {
+    id: 143
+    tag: Front Row Attack
+    tag_type: 1
+    description: Ths unit's normal attacks or skill prioritize targeting the nearest enemy units on the front row.
+    is_show: 1
+  }
+  {
+    id: 144
+    tag: Pierce
+    tag_type: 1
+    description: This unit's skill can deal damage to enemy units on a straight line.
+    is_show: 1
+  }
+  {
+    id: 145
+    tag: Clear Buffs
+    tag_type: 1
+    description: This unit can clear buffs on enemy units.
+    is_show: 1
+  }
+  {
+    id: 146
+    tag: Armor Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill are more potent against armored enemy units.
+    is_show: 1
+  }
+  {
+    id: 147
+    tag: Armorless Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill are more potent against enemy units without armor.
+    is_show: 1
+  }
+  {
+    id: 148
+    tag: Dummy Deficiency Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill are more potent against enemy units with few Dummy-Links.
+    is_show: 1
+  }
+  {
+    id: 149
+    tag: Pierce
+    tag_type: 1
+    description: This unit's skill can deal damage to enemy units on a straight line.
+    is_show: 1
+  }
+  {
+    id: 150
+    tag: Hunt
+    tag_type: 1
+    description: This unit's skill can make consecutive attacks on enemy units.
+    is_show: 1
+  }
+  {
+    id: 151
+    tag: Sniper Kill
+    tag_type: 1
+    description: This unit's skill can deal lethal damage.
+    is_show: 1
+  }
+  {
+    id: 152
+    tag: Armor
+    tag_type: 1
+    description: This unit can either equip armor or has in-built armor.
+    is_show: 1
+  }
+  {
+    id: 153
+    tag: Grenade
+    tag_type: 1
+    description: This unit can launch grenades.
+    is_show: 1
+  }
+  {
+    id: 154
+    tag: Back Row Attack
+    tag_type: 1
+    description: Ths unit's normal attacks or skill prioritize targeting the farthest enemy units on the back row.
+    is_show: 1
+  }
+  {
+    id: 155
+    tag: AK Support
+    tag_type: 1
+    description: This unit can effectively increase the damage output and survivability of friendly AK T-Dolls.
+    is_show: 1
+  }
+  {
+    id: 156
+    tag: Silence
+    tag_type: 1
+    description: This unit can nullify enemy units' skills.
+    is_show: 1
+  }
+  {
+    id: 157
+    tag: DEFY
+    tag_type: 1
+    description: This unit's skill has additional effects when there are DEFY members in the echelon.
+    is_show: 1
+  }
+  {
+    id: 158
+    tag: Last Stand
+    tag_type: 1
+    description: This unit's normal attacks or skill deal more damage to enemy units the lower her current HP.
+    is_show: 1
+  }
+  {
+    id: 159
+    tag: Armor-Piercing EX
+    tag_type: 1
+    description: When equipped with armor-piercing equipment, this unit are very effective against heavily armored enemy units.
+    is_show: 1
+  }
+  {
+    id: 160
+    tag: Reload Buff
+    tag_type: 1
+    description: When this unit reloads, she or her allies gain additional skill effects.
+    is_show: 1
+  }
+  {
+    id: 161
+    tag: Knockback
+    tag_type: 1
+    description: This unit's normal attacks or skill can knock back enemy units.
+    is_show: 1
+  }
+  {
+    id: 162
+    tag: Back Row Protection
+    tag_type: 1
+    description: This unit can effectively protect allies on the back row.
+    is_show: 1
+  }
+  {
+    id: 163
+    tag: Knockback EX
+    tag_type: 1
+    description: This unit's normal attacks or skill can strongly knock back enemy units.
+    is_show: 1
+  }
+  {
+    id: 164
+    tag: Lethal Blow
+    tag_type: 1
+    description: This unit's skill can deal lethal damage.
+    is_show: 1
+  }
+  {
+    id: 165
+    tag: Mounting Ferocity
+    tag_type: 1
+    description: This unit performs better in protracted battles.
+    is_show: 1
+  }
+  {
+    id: 166
+    tag: Blitz Specialization
+    tag_type: 1
+    description: This unit performs extremely well in annihilation and charge modes.
+    is_show: 1
+  }
+  {
+    id: 10101
+    tag: Damage Output Support
+    tag_type: 1
+    description: This unit can effectively improve the echelon's damage output.
+    is_show: 1
+  }
+  {
+    id: 10102
+    tag: Survivability Support
+    tag_type: 1
+    description: This unit can effectively improve the echelon's survivability.
+    is_show: 1
+  }
+  {
+    id: 10103
+    tag: Damage Powerhouse
+    tag_type: 1
+    description: This unit has high damage output and can deal a large amount of damage in battle.
+    is_show: 1
+  }
+  {
+    id: 10104
+    tag: Ace Meatshield
+    tag_type: 1
+    description: This unit has strong survivability and can absorb a ton of damage in battle.
+    is_show: 1
+  }
+  {
+    id: 10105
+    tag: Outstanding Support
+    tag_type: 1
+    description: This unit can effectively improve allies' survivability and damage output.
+    is_show: 1
+  }
+  {
+    id: 10106
+    tag: Armor-Piercing
+    tag_type: 1
+    description: When equipped with armor-piercing equipment, this unit are very effective against armored enemy units.
+    is_show: 1
+  }
+  {
+    id: 10107
+    tag: Night Battle
+    tag_type: 1
+    description: Equipping a pair of night vision goggles can increase this unit's accuracy in night battles.
+    is_show: 1
+  }
+  {
+    id: 10108
+    tag: Strong Evasion
+    tag_type: 1
+    description: This unit has an outstanding evasion stat and can dodge enemy attacks.
+    is_show: 1
+  }
+  {
+    id: 10109
+    tag: Strong Armor
+    tag_type: 1
+    description: This unit has an outstanding armor stat and can effectively repel non-armor-piercing damage.
+    is_show: 1
+  }
+  {
+    id: 10110
+    tag: Large Damage
+    tag_type: 1
+    description: This unit has an outstanding damage stat and can deal significant damage to enemy units with each attack.
+    is_show: 1
+  }
+  {
+    id: 10111
+    tag: High Rate of Fire
+    tag_type: 1
+    description: This unit has an outstanding armor stat and can perform multiple attacks on enemy units rapidly.
+    is_show: 1
+  }
+  {
+    id: 10112
+    tag: High HP
+    tag_type: 1
+    description: This unit has an outstanding HP stat and can take a lot of damage.
+    is_show: 1
+  }
+  {
+    id: 10113
+    tag: High Critical Rate
+    tag_type: 1
+    description: This unit has an outstanding HP stat and has a higher chance of dealing critical damage to enemy units.
+    is_show: 1
+  }
+  {
+    id: 10114
+    tag: High Movement Speed
+    tag_type: 1
+    description: This unit moves at a higher speed and can evade enemy skill attacks with warning.
+    is_show: 1
+  }
+  {
+    id: 10115
+    tag: Low Movement Speed
+    tag_type: 1
+    description: This unit moves at a slower speed and may struggle to evade enemy skill attacks with warning.
+    is_show: 1
+  }
+  {
+    id: 10116
+    tag: Powerful Buff Tiles
+    tag_type: 1
+    description: This unit's buff tiles has outstanding buffs that provide a lot of support to allies.
+    is_show: 1
+  }
+  {
+    id: 10117
+    tag: Exclusive Equipment
+    tag_type: 1
+    description: This unit has powerful exclusive equipment that significantly boosts her combat performance.
+    is_show: 1
+  }
+  {
+    id: 10118
+    tag: Instantaneous Burst
+    tag_type: 1
+    description: This unit can deal a massive amount of damage to enemy units in a short period of time when her skill is activated.
+    is_show: 1
+  }
+  {
+    id: 10119
+    tag: Continuous Output
+    tag_type: 1
+    description: This unit can maintain great damage output for a long period of time when her skill is activated.
+    is_show: 1
+  }
+  {
+    id: 10120
+    tag: Single-Target Heavy Blow
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal a massive amount of damage to a single enemy unit.
+    is_show: 1
+  }
+  {
+    id: 10121
+    tag: Multi-Target Attack
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal damage to multiple enemy units.
+    is_show: 1
+  }
+  {
+    id: 10122
+    tag: AoE Damage
+    tag_type: 1
+    description: This unit's normal attacks or skill can deal damage to all Dummy-Linked enemy units within a certain area.
+    is_show: 1
+  }
+  {
+    id: 10123
+    tag: Damage Immunity
+    tag_type: 1
+    description: This unit's skill will grant her immunity to all damage for a short amount of time.
+    is_show: 1
+  }
+  {
+    id: 10124
+    tag: Daze
+    tag_type: 1
+    description: This unit's skill can daze enemy units.
+    is_show: 1
+  }
+  {
+    id: 10125
+    tag: Pierce
+    tag_type: 1
+    description: This unit's skill can deal damage to enemy units on a straight line.
+    is_show: 1
+  }
+  {
+    id: 10126
+    tag: Knockback
+    tag_type: 1
+    description: This unit's normal attacks or skill can knock back enemy units.
+    is_show: 1
+  }
+  {
+    id: 10127
+    tag: Back Row Attack
+    tag_type: 1
+    description: Ths unit's normal attacks or skill prioritize targeting the farthest enemy units on the back row.
+    is_show: 1
+  }
+  {
+    id: 10128
+    tag: Damage Boost
+    tag_type: 1
+    description: This unit can increase all echelon members' damage.
+    is_show: 1
+  }
+  {
+    id: 10129
+    tag: Evasion Boost
+    tag_type: 1
+    description: This unit can increase all echelon members' evasion.
+    is_show: 1
+  }
+  {
+    id: 10130
+    tag: Accuracy Boost
+    tag_type: 1
+    description: This unit can increase all echelon members' accuracy.
+    is_show: 1
+  }
+  {
+    id: 10131
+    tag: Rate of Fire Boost
+    tag_type: 1
+    description: This unit can increase all echelon members' rate of fire.
+    is_show: 1
+  }
+  {
+    id: 10132
+    tag: Critical Rate Boost
+    tag_type: 1
+    description: This unit can increase all echelon members' critical rate.
+    is_show: 1
+  }
+  {
+    id: 10133
+    tag: Damage Debuff
+    tag_type: 1
+    description: This unit can reduce enemy units' damage.
+    is_show: 1
+  }
+  {
+    id: 10134
+    tag: Evasion Debuff
+    tag_type: 1
+    description: This unit can reduce enemy units' evasion.
+    is_show: 1
+  }
+  {
+    id: 10135
+    tag: Accuracy Debuff
+    tag_type: 1
+    description: This unit can reduce enemy units' accuracy.
+    is_show: 1
+  }
+  {
+    id: 10136
+    tag: Rate of Fire Debuff
+    tag_type: 1
+    description: This unit can reduce enemy units' rate of fire.
+    is_show: 1
+  }
+  {
+    id: 10137
+    tag: Night Battle Specialization
+    tag_type: 1
+    description: This unit has a powerful night battle skill that makes them more effective in night battles.
+    is_show: 1
+  }
+  {
+    id: 10138
+    tag: Damage Intake Increase
+    tag_type: 1
+    description: This unit's skill can increase damage taken by enemy units for a short amount of time.
+    is_show: 1
+  }
+  {
+    id: 10139
+    tag: Melee Charge
+    tag_type: 1
+    description: This unit is suited to charging at enemies.
+    is_show: 1
+  }
+]

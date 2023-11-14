@@ -55,9 +55,9 @@
   }
   {
     id: 10
-    task_type: consume_quick_reinforce
-    title: Quick Repair Contract Consumption
-    content: Spend {0} Quick Repair Contracts.
+    task_type: map_capture
+    title: Route Exploration
+    content: Occupy a total of {0} nodes in Gray Zone Exploration.
   }
   {
     id: 11
@@ -169,7 +169,7 @@
   }
   {
     id: 29
-    task_type: operation_quick_reinforce
+    task_type: daily_game_buff
     title: Action Report - Quick Repair Contract
     content: Obtain {0} Quick Repair Contracts from Logistic Support.
   }

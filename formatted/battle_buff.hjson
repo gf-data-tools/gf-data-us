@@ -22125,7 +22125,7 @@
     id: 4308
     name: 马卡洛夫计时
     conflict_type: 834
-    max_tier: 180
+    max_tier: 240
     type: 500
     duration_type: 1
     duration: *101
@@ -30329,6 +30329,7 @@
     duration: "180"
     boss_available: 1
     is_form_play: 1
+    parameter_value: "180"
   }
   {
     id: 5147
@@ -48195,6 +48196,7 @@
     duration_type: 1
     duration: *101
     boss_available: 1
+    parameter_value: *201
   }
   {
     id: 8889
@@ -48205,6 +48207,7 @@
     duration_type: 1
     duration: *101
     boss_available: 1
+    parameter_value: *201
   }
   {
     id: 8890
@@ -51875,6 +51878,17 @@
     duration: *101
     boss_available: 1
     trigger_creation_id: "209"
+  }
+  {
+    id: 9224
+    name: 四技能伤害提升值层数
+    description: 娜希斯
+    conflict_type: 2350
+    max_tier: 100
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 9225

@@ -1497,4 +1497,77 @@
     content: 6f93506f9a9daa6e_draw_220305182400.jpg
     function_control_id: 16
   }
+  {
+    id: 2100
+    type: 1
+    child_ids: "2101,2102,2103,2104,2105,2106,2107,2108"
+    title: Gray Zone Exploration
+    sub_title: The 6th Detachment of the Border Surveillance Corps accidentally discovered a mysterious area where no one has gone before during a routine exploration.
+    code: manual_daily
+    function_control_id: 29
+  }
+  {
+    id: 2101
+    type: 2
+    title: Begin Exploration
+    sub_title: Learn how to conduct an exploration.
+    content: 33005a33b4ce42c6_draw_231107210145.jpg,aad9d639eacd2668_draw_231107210145.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2102
+    type: 2
+    title: Map Rules
+    sub_title: The terrain in the Gray Zone is unpredictable. It is especially important to understand the rules.
+    content: 3b4bc5f11e7d443e_draw_231107210145.jpg,d6d4c87021b33021_draw_231107210146.jpg,35f8decb5421f867_draw_231107210146.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2103
+    type: 2
+    title: Fairy Node
+    sub_title: Rules and notes regarding Fairy Nodes.
+    content: adec433d929adfd7_draw_231107210146.jpg,d0abcfbf85146fb5_draw_231107210146.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2104
+    type: 2
+    title: HOC Node
+    sub_title: Rules and notes regarding HOC Nodes.
+    content: 59604ba35167bf3a_draw_231107210147.jpg,51726c7e92b80a57_draw_231107210147.jpg,f028cf6f03369656_draw_231107210147.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2105
+    type: 2
+    title: Incident Node
+    sub_title: Rules and notes regarding Incident Nodes.
+    content: 80e31fe4afeb0cc1_draw_231107210147.jpg,58e846ab2c1ab695_draw_231107210148.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2106
+    type: 2
+    title: Point Rewards
+    sub_title: Accumulate points and obtain generous rewards by exploring the Gray Zone.
+    content: 217c6b99879d3b32_draw_231107210148.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2107
+    type: 2
+    title: Reset Exploration
+    sub_title: The exploration progress bar can be reset anytime.
+    content: 23337f128059ca60_draw_231107210148.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2108
+    type: 2
+    title: Proxy Battle
+    sub_title: Griffin's AI Proxy Battle System is currently under testing.
+    content: 71143da57a33252b_draw_231107211148.jpg
+    function_control_id: 29
+  }
 ]
