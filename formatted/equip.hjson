@@ -1552,10 +1552,8 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:300
-    passive_skill: "759184"
     max_level: 10
     auto_select_id: 20002
-    equip_group_id: 7
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000062
@@ -2858,10 +2856,8 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:350
-    passive_skill: "759140"
     max_level: 10
     auto_select_id: 18006
-    equip_group_id: 6
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000103
@@ -2961,10 +2957,8 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:400,hit:400,critical_percent:700
-    passive_skill: "759233"
     max_level: 10
     auto_select_id: 18009
-    equip_group_id: 12
     is_show: 1
     obtain_ids: "3,3049"
     sp_description: equip-40000106
@@ -3793,10 +3787,8 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,critical_percent:750
-    passive_skill: "759189"
     max_level: 10
     auto_select_id: 18026
-    equip_group_id: 8
     is_show: 1
     obtain_ids: "3027"
     sp_description: equip-40000132
@@ -3831,10 +3823,9 @@
     exclusive_rate: 3
     bonus_type: dodge:300,critical_percent:350,hit:1000
     skill: 300119
-    passive_skill: "300120,759147"
+    passive_skill: "300120"
     max_level: 10
     auto_select_id: 18027
-    equip_group_id: 5
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000133
@@ -4535,10 +4526,8 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:500
-    passive_skill: "759239"
     max_level: 10
     auto_select_id: 18036
-    equip_group_id: 11
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000155
@@ -4605,10 +4594,8 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:450,hit:400,dodge:500
-    passive_skill: "759185"
     max_level: 10
     auto_select_id: 18038
-    equip_group_id: 7
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000157
@@ -4674,10 +4661,8 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: pow:1500,dodge:700,critical_harm_rate:250
-    passive_skill: "759234"
     max_level: 10
     auto_select_id: 20020
-    equip_group_id: 12
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000159
@@ -5082,10 +5067,8 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:700,critical_percent:350
-    passive_skill: "759132"
     max_level: 10
     auto_select_id: 20023
-    equip_group_id: 5
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000171
@@ -5389,10 +5372,8 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,critical_percent:350
-    passive_skill: "759216"
     max_level: 10
     auto_select_id: 18052
-    equip_group_id: 9
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000180
@@ -6693,10 +6674,9 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:500
-    passive_skill: "902391,759141"
+    passive_skill: "902391"
     max_level: 10
     auto_select_id: 20035
-    equip_group_id: 6
     is_show: 1
     obtain_ids: "3006"
     sp_description: equip-40000218
@@ -6729,10 +6709,8 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,pow:1000
-    passive_skill: "759221"
     max_level: 10
     auto_select_id: 18068
-    equip_group_id: 10
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000219
@@ -7340,10 +7318,9 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "300903,759217"
+    passive_skill: "300903"
     max_level: 10
     auto_select_id: 19029
-    equip_group_id: 9
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
@@ -7375,10 +7352,9 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:1000
-    passive_skill: "803906,759190"
+    passive_skill: "803906"
     max_level: 10
     auto_select_id: 19030
-    equip_group_id: 8
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000239
@@ -8490,10 +8466,8 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "759222"
     max_level: 10
     auto_select_id: 19038
-    equip_group_id: 10
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8889,10 +8863,9 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: hit:1000
-    passive_skill: "300903,759240"
+    passive_skill: "300903"
     max_level: 10
     auto_select_id: 19041
-    equip_group_id: 11
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
