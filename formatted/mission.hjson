@@ -37323,6 +37323,42 @@
     difficulty_recommend: "1000,15;0,0;0,0;0,0"
   }
   {
+    id: 11116
+    integration_switch: 1-1;4-40:80:160
+    campaign: -53
+    sub: 1
+    if_emergency: -1
+    endless_mode: 1
+    special_type: 1
+    name: Reign of Chaos+
+    difficulty: 25000
+    exp_parameter: 50
+    type: "6"
+    enemy_ai_type: -1
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 7
+    limit_gun_pool: "242,251,254,223,230,232,239,241,249"
+    limit_team: "10,12"
+    map_res_name: OPS15_Y
+    map_information: "13824,12096|13000,10500|-1300,200"
+    adaptive_gun: "143,56,57,205,55,206"
+    fog_length: "150,650"
+    fog_color: "#000000FF"
+    random_line_spot: "95294"
+    ally_code: ArmyLOGO
+    drop_mission_key: "0,0,1111600:1"
+    mission_group_id: 7
+    force_type: "1"
+    round_config: 1:1,2:4,3:3
+    limit_squad: 4
+    difficulty_recommend: "25000,99;0,0;0,0;0,0;0,0"
+    limit_sangvis: 4
+    event_score: 1|10,2000,1500,1000,200,10000,5000,10000,4000,5000,2000,10000,1:10000;2:500;3:2000;5:10000;6:10000;7:2500,94040967:1:20000;94040968:1:20000;94040969:1:20000,0,0,0,0,94040905:20000;94040902:30000;94040901:10000,,8000,20000,10000,5000
+    score_prize: 1-0|110050:1
+    recommended_team_ids: "1,6"
+  }
+  {
     id: 11117
     integration_switch: 1-1
     campaign: -54

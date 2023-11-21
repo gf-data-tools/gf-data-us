@@ -25664,6 +25664,221 @@
     rotate: "2,2,2"
   }
   {
+    id: 10701
+    name: Heroes of the Martial World - Grassy Schoolground
+    classes: 107
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A softy and grassy field that can prevent injuries for martial artists who fall off the arena. Very reassuring.
+    code: KungFu2022_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10702
+    name: Heroes of the Martial World - Howling, Proud Mountains
+    classes: 107
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A perfect recreation of the stunning vistas in a certain country in the east. Gazing at the mountains from afar, one wonders how many proud and spirited heroes roam this earth.
+    code: KungFu2022_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10703
+    name: Heroes of the Martial World - Lion Dance
+    classes: 107
+    type: 201
+    position: "25,4"
+    space: "4,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The Lion King dances to the music of Great Peace. These ferocious eyes have witnessed the birth of countless martial art masters.
+    code: KungFu2022_DancingLion
+    texture_type: "2"
+    offset: "0.000,0.146,0.031"
+    rotate: "2"
+    touch_area: "3,5,3"
+  }
+  {
+    id: 10704
+    name: Heroes of the Martial World - Drunken Rain
+    classes: 107
+    type: 201
+    position: "32,2"
+    space: "3,3,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: Scholar Lu—drunk with inner strength! Fat Han—stumbling with a big pot in his arms! ...These are only for Drunken Boxing students. Keep clear, alcoholic Dolls!
+    code: KungFu2022_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10705
+    name: Heroes of the Martial World - Echo Through Heaven and Earth
+    classes: 107
+    type: 201
+    position: "29,4"
+    space: "3,2,1,1,0,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: A gong for the martial arts tournament. The first strike signals the start of a fight, and the second strike announces that a victor has emerged.
+    code: KungFu2022_deco_02
+    texture_type: "1"
+    offset: "0.000,-0.188,-0.042"
+    rotate: "2"
+  }
+  {
+    id: 10706
+    name: Heroes of the Martial World - Blades of Honor
+    classes: 107
+    type: 201
+    position: "30,9"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: These weapons show their age, but they will regain their sharp glint with just a bit of polishing.
+    code: KungFu2022_deco_03
+    texture_type: "1"
+    offset: "0.000,-0.271,-0.063"
+    rotate: "2"
+  }
+  {
+    id: 10707
+    name: Heroes of the Martial World - Assorted Weapons
+    classes: 107
+    type: 201
+    position: "2,4"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Daggers, spears, swords, halberds, axes, hooks, tiger forks, staves, lances, whips, maces, hammers...One can only be considered a master of martial arts when they can wield a multitude of weapons with great expertise.
+    code: KungFu2022_deco_04
+    texture_type: "1"
+    offset: "0.000,-0.115,-0.031"
+    rotate: "2"
+  }
+  {
+    id: 10708
+    name: Heroes of the Martial World - Attack and Defend
+    classes: 107
+    type: 201
+    position: "1,8"
+    space: "3,2,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: One can practice countless moves and techniques on a simple wooden dummy. Martial arts in its purest form is to follow an attack up with a defense; to follow movement up with stillness.
+    code: KungFu2022_deco_05
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10709
+    name: Heroes of the Martial World - Floating Clouds, Flowing Water
+    classes: 107
+    type: 201
+    position: "2,10"
+    space: "5,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: If one can master light, rapid footwork on these Plum-Blossom Pillars, then traversing great distances and even running on treetops will be a piece of cake.
+    code: KungFu2022_deco_06
+    texture_type: "1"
+    offset: "0.000,-0.136,-0.031"
+    rotate: "2"
+  }
+  {
+    id: 10710
+    name: Heroes of the Martial World - Defender's Railing
+    classes: 107
+    type: 201
+    position: "8,13"
+    space: "6,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Area of spectators that support the defender. The king is invincible and will remain victorious even after a hundred battles. We hope the opponent will recognize this simple truth.
+    code: KungFu2022_deco_07
+    texture_type: "1"
+    offset: "0.000,-0.070,-0.016"
+    rotate: "2"
+  }
+  {
+    id: 10711
+    name: Heroes of the Martial World - Challenger's Railing
+    classes: 107
+    type: 201
+    position: "22,13"
+    space: "6,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Area of spectators that support the challenger. No sovereign rules forever, that's just the way of the world. We hope the opponent is prepared to be deposed.
+    code: KungFu2022_deco_08
+    texture_type: "1"
+    offset: "0.000,-0.099,-0.023"
+    rotate: "2"
+  }
+  {
+    id: 10712
+    name: Heroes of the Martial World - Mighty Clash
+    classes: 107
+    type: 201
+    position: "10,8"
+    space: "14,4,1,1,1,1"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: A place where weapons clash and blows are exchanged; a moment when banners flutter and victory is decided.
+    code: KungFu2022_deco_09,KungFu2022_deco_10,KungFu2022_decofire,KungFu2022_decofire
+    texture_type: "1,1,2,2"
+    sorting: "0,0,20,20"
+    offset: "0.000,-0.479,-0.111|4.608,-0.479,-0.111|-0.738,0.178,0.045|1.383,0.188,0.045"
+    rotate: "2,2,2,2"
+    interact_point: "28,36"
+    interact_point_offset: *4.988,1.081,0.114|*-3.383,0.768,0.171
+  }
+  {
+    id: 10713
+    name: Heroes of the Martial World - Lonely Palace
+    classes: 107
+    type: 201
+    position: "3,0"
+    space: "29,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Martial artists often duel on the rooftop of the Lonely Palace, so this is also part of the arena.
+    code: KungFu2022_deco_11,KungFu2022_deco_12,KungFu2022_deco_13,KungFu2022_deco_14,KungFu2022_deco_15
+    texture_type: "1,1,1,1,1"
+    sorting: "0,0,0,0,0"
+    offset: "1.376,-0.437,0.228|5.977,-0.437,0.228|-3.222,-0.437,0.228|-3.212,4.057,1.260|1.376,4.046,1.264"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 10714
+    name: Heroes of the Martial World - Pierced Moon
+    classes: 107
+    type: 201
+    position: "8,4"
+    space: "3,3,1,1,1,1"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: Draw your bow, nock your arrow. Position yourself and aim for the moon. To master the skill of shooting through a willow leaf from the distance of a hundred paces, one must practice with great perseverance and not rely too much on their Imprint.
+    code: KungFu2022_deco_16
+    texture_type: "1"
+    offset: "0.000,-0.219,-0.052"
+    rotate: "2"
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -35545,6 +35760,96 @@
     decompose_gift: 100003
     description: G43's poster.
     code: poster_Halloween2022_G43
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37701
+    name: Wandering Dragon Fist
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: General Liu's poster.
+    code: poster_KungFu2022_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37702
+    name: Lone Pine Walker
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: QBZ-191's poster.
+    code: poster_KungFu2022_QBZ191
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37703
+    name: Ink-Scaled Thrust
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: VP1915's poster.
+    code: poster_KungFu2022_VP1915
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37704
+    name: Graceful Landing
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Ak 5's poster.
+    code: poster_KungFu2022_Ak5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37705
+    name: Crane's Poise
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 4 Shiki's poster.
+    code: poster_KungFu2022_4type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37706
+    name: Peerless Nunchaku Dance
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type56-1's Poster
+    code: poster_KungFu2022_56-1type
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

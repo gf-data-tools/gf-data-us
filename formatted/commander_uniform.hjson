@@ -2834,6 +2834,146 @@
     color_icon_id: "846,847,848,849,850,851"
   }
   {
+    id: 5011
+    name: Wind-whipped Willow
+    description: Your performance in combat will be the deciding factor of how fashionable you look. Only by putting up a good fight will you be able to afford a trip to the hairdresser's!
+    code: Head1
+    icon: commander_5011_icon
+    type: 1
+    gender: 1
+    uniform_class: "50"
+    color_normal: Commander_5011_N
+    color_0: Commander_5011_0
+    color_1: Commander_5011_1
+    color_2: Commander_5011_2
+    color_3: Commander_5011_3
+    color_4: Commander_5011_4
+    color_icon_id: "852,853,854,855,856,857"
+  }
+  {
+    id: 5012
+    name: Moonlit Blossoms
+    description: This is both an adorable hairstyle and weapon. Take your enemy by surprise and defeat them with your twin-tails.
+    code: Head2
+    icon: commander_5012_icon
+    type: 1
+    gender: 2
+    uniform_class: "50"
+    color_normal: Commander_5012_N
+    color_0: Commander_5012_0
+    color_1: Commander_5012_1
+    color_2: Commander_5012_2
+    color_3: Commander_5012_3
+    color_4: Commander_5012_4
+    color_icon_id: "858,859,860,861,862,863"
+  }
+  {
+    id: 5020
+    name: Pulse of the Eight Gates
+    description: Don't be alarmed, this is the physical manifestation of my internal energy. The benefit? Physicians will be able to spot any problem with my health directly...
+    code: HeadAcco
+    icon: commander_5020_icon
+    type: 2
+    uniform_class: "50"
+    color_normal: Commander_5020_N
+    color_0: Commander_5020_0
+    color_1: Commander_5020_1
+    color_2: Commander_5020_2
+    color_3: Commander_5020_3
+    color_4: Commander_5020_4
+    bone_name: HairBinder2
+    scale: 0.2
+    position: "0.046,0.316"
+    color_icon_id: "864,865,866,867,868,869"
+  }
+  {
+    id: 5031
+    name: Tiger Tattoo
+    description: Apply this intimidating temporary tattoo and everyone will give you a wide berth. Just make sure you don't stand in the rain!
+    code: Body1
+    icon: commander_5031_icon
+    type: 3
+    gender: 1
+    uniform_class: "50"
+    color_normal: Commander_5031_N
+    color_0: Commander_5031_0
+    color_1: Commander_5031_1
+    color_2: Commander_5031_2
+    color_3: Commander_5031_3
+    color_4: Commander_5031_4
+    color_icon_id: "870,871,872,873,874,875"
+  }
+  {
+    id: 5032
+    name: Dragon Brocade
+    description: A martial arts qipao custom-made by a tailor. Both its artistic value and cuteness are off the charts... One simply can't look away from the wearer!
+    code: Body2
+    icon: commander_5032_icon
+    type: 3
+    gender: 2
+    uniform_class: "50"
+    color_normal: Commander_5032_N
+    color_0: Commander_5032_0
+    color_1: Commander_5032_1
+    color_2: Commander_5032_2
+    color_3: Commander_5032_3
+    color_4: Commander_5032_4
+    color_icon_id: "876,877,878,879,880,881"
+  }
+  {
+    id: 5040
+    name: Divine Weapon
+    description: It's hardly odd for a drifter in jianghu to carry a weapon as a precaution, right?
+    code: BodyAcco
+    icon: commander_5040_icon
+    type: 4
+    uniform_class: "50"
+    color_normal: Commander_5040_N
+    color_0: Commander_5040_0
+    color_1: Commander_5040_1
+    color_2: Commander_5040_2
+    color_3: Commander_5040_3
+    color_4: Commander_5040_4
+    bone_name: BodyBinder1
+    scale: 0.2
+    position: "0.006,0.000"
+    color_icon_id: "882,883,884,885,886,887"
+  }
+  {
+    id: 5051
+    name: Furious Waves
+    description: You think you'd be able to master the art of qinggong and run on water just by putting on this regalia that weighs 20 pounds...? You want to leap up into the air? Sir, please do not disregard the existence of gravity!
+    code: Foot1
+    icon: commander_5051_icon
+    type: 5
+    gender: 1
+    uniform_class: "50"
+    color_normal: Commander_5051_N
+    color_0: Commander_5051_0
+    color_1: Commander_5051_1
+    color_2: Commander_5051_2
+    color_3: Commander_5051_3
+    color_4: Commander_5051_4
+    color_icon_id: "888,889,890,891,892,893"
+  }
+  {
+    id: 5052
+    name: Invisible Flurry
+    description: In just an instant, you can travel hundreds of miles like a light and ethereal specter, leaving nary a trace even in the snow... Forget about vehicles, this dress will be your new mode of transportation!
+    code: Foot2
+    icon: commander_5052_icon
+    type: 5
+    gender: 2
+    uniform_class: "50"
+    color_normal: Commander_5052_N
+    color_0: Commander_5052_0
+    color_1: Commander_5052_1
+    color_2: Commander_5052_2
+    color_3: Commander_5052_3
+    color_4: Commander_5052_4
+    color_icon_id: "894,895,896,897,898,899"
+  }
+  {
     id: 5111
     name: Barbarossa
     description: This huge trademark beard will haunt the nightmares of your foes, while having to spend three hours tending to it every day is a nightmare of its own.

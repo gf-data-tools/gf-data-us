@@ -5142,6 +5142,110 @@
     classification_id: 4000
   }
   {
+    id: 5011
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Wind-whipped Willow
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95011
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5012
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Moonlit Blossoms
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95012
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5020
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Pulse of the Eight Gates
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95020
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5031
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Tiger Tattoo
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95031
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5032
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Dragon Brocade
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95032
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5040
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Divine Weapon
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95040
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5051
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Furious Waves
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95051
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5052
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Invisible Flurry
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95052
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
     id: 5111
     type: 66
     gemprice: 400
@@ -32817,7 +32921,6 @@
     item_ids: 7-1,41-100
     gift: 7602-1
     gemprice: 2588
-    if_cheap: 1
     quota: 2001
     giftbag_name: KH2002 Hell's Vanguard Costume Package
     event_code: dailyGiftbag
@@ -32927,6 +33030,20 @@
     icon: Bumdle_yuugo01
     discount: 1
     classification_id: 3002
+  }
+  {
+    id: 21866
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 7702-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10021866
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin07
+    discount: 1
+    classification_id: 3003
   }
   {
     id: 99001
