@@ -342,6 +342,7 @@
     order: 3
     rarity: 3
     filter_type: "2"
+    event_id: 2972
   }
   {
     id: 25
@@ -354,6 +355,7 @@
     order: 4
     rarity: 4
     filter_type: "2"
+    event_id: 2973
   }
   {
     id: 26
@@ -791,6 +793,7 @@
     rarity: 10
     filter_type: "1"
     frame_id: 200005
+    event_id: 2975
   }
   {
     id: 57
@@ -2583,6 +2586,7 @@
     decompose_gift: 100003:1
     filter_type: "5"
     frame_id: 200002
+    event_id: 2976
   }
   {
     id: 181
@@ -14629,6 +14633,28 @@
     skin: 30007
   }
   {
+    id: 1314
+    item_id: 2314
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_PA15
+    order: 1
+    rarity: 5
+    event_id: 2974
+  }
+  {
+    id: 1315
+    item_id: 2315
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_PA15
+    order: 1
+    rarity: 5
+    event_id: 2971
+  }
+  {
     id: 1316
     item_id: 2316
     sub_type: 2
@@ -14995,6 +15021,18 @@
     order: 1
     rarity: 5
     filter_type: "5"
+  }
+  {
+    id: 100022
+    item_id: 200022
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_PA15
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 2977
   }
   {
     id: 100023
