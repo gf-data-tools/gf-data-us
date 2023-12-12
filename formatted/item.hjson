@@ -11372,6 +11372,15 @@
     rank: 1
   }
   {
+    id: 2182
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Excutioner_Halloween
+    item_name: Executioner - Blood Fiend Huntress Icon
+    introduction: Executioner – Blood Fiend Huntress Icon
+    rank: 1
+  }
+  {
     id: 2183
     type: 5
     arg: "1"
@@ -11586,7 +11595,15 @@
     item_name: Gallop of Gingko Leaves and Autumn Winds
     introduction: Gallop of Gingko Leaves and Autumn Winds
     rank: 1
-    detail_introduction: item-30002206
+  }
+  {
+    id: 2212
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_BrenTen
+    item_name: Velvet Shortcake
+    introduction: Velvet Shortcake
+    rank: 1
   }
   {
     id: 2224
@@ -12131,6 +12148,24 @@
     code: profilePic_OfficeLady2023_STG44
     item_name: Detective's Sidekick
     introduction: Detective's Sidekick
+    rank: 1
+  }
+  {
+    id: 2362
+    type: 5
+    arg: "1"
+    code: card_BattlePass_SPAS15
+    item_name: ID Background: Moment of Indulgence
+    introduction: ID Background: Moment of Indulgence
+    rank: 1
+  }
+  {
+    id: 2363
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_SPAS15
+    item_name: Miss Pittsburgh
+    introduction: Miss Pittsburgh
     rank: 1
   }
   {
@@ -14405,6 +14440,34 @@
     rank: 1
   }
   {
+    id: 100166
+    type: 9
+    arg: "100166"
+    code: Christmas_Coin
+    item_name: Christmas Coin
+    introduction: Christmas Coin
+    rank: 1
+    daily_limit: "120"
+  }
+  {
+    id: 100167
+    type: 4
+    arg: "100167"
+    code: Nova_medal_black
+    item_name: Nova Medal: One Coin Short
+    introduction: Nova Medal: One Coin Short
+    rank: 1
+  }
+  {
+    id: 100168
+    type: 4
+    arg: "100168"
+    code: Platinum_medal_black
+    item_name: Platinum Medal: One Coin Short
+    introduction: Platinum Medal: One Coin Short
+    rank: 1
+  }
+  {
     id: 100175
     type: 9
     arg: "100175"
@@ -15379,6 +15442,26 @@
     detail_introduction: item-30140022
   }
   {
+    id: 140023
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140023
+    introduction: item-20140023
+    rank: 1
+    detail_introduction: item-30140023
+  }
+  {
+    id: 140024
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140024
+    introduction: item-20140024
+    rank: 1
+    detail_introduction: item-30140024
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -15584,6 +15667,15 @@
     code: profileFrame_BattlePass_M1895
     item_name: Icon Frame - Coastal Trails
     introduction: Icon Frame - Coastal Trails
+    rank: 1
+  }
+  {
+    id: 200030
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_SPAS15
+    item_name: Icon Frame: Scent of a Burger
+    introduction: Icon Frame: Scent of a Burger
     rank: 1
   }
   {
@@ -16631,6 +16723,46 @@
     id: 1500094
     type: 15
     arg: "1500094"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500095
+    type: 15
+    arg: "1500095"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500096
+    type: 15
+    arg: "1500096"
+    code: package_choose
+    item_name: T-Doll Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Doll-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500097
+    type: 15
+    arg: "1500097"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500098
+    type: 15
+    arg: "1500098"
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.

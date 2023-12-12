@@ -7123,8 +7123,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-150
-    classification_id: 1003
+    itemprice: 100166-150
+    classification_id: 1004
   }
   {
     id: 10716
@@ -7135,8 +7135,8 @@
     discount: 1
     prize_id: 1367
     pay_type: 1
-    itemprice: 900046-100
-    classification_id: 1003
+    itemprice: 100166-100
+    classification_id: 1004
   }
   {
     id: 10717
@@ -7147,8 +7147,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-50
-    classification_id: 1003
+    itemprice: 100166-50
+    classification_id: 1004
   }
   {
     id: 10718
@@ -7159,8 +7159,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-30
-    classification_id: 1003
+    itemprice: 100166-30
+    classification_id: 1004
   }
   {
     id: 10719
@@ -7171,8 +7171,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-30
-    classification_id: 1003
+    itemprice: 100166-30
+    classification_id: 1004
   }
   {
     id: 10721
@@ -7183,8 +7183,8 @@
     discount: 1
     prize_id: 1366
     pay_type: 1
-    itemprice: 900046-80
-    classification_id: 1003
+    itemprice: 100166-80
+    classification_id: 1004
   }
   {
     id: 10722
@@ -7195,8 +7195,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-3
-    classification_id: 1003
+    itemprice: 100166-3
+    classification_id: 1004
   }
   {
     id: 10723
@@ -7207,8 +7207,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-2
-    classification_id: 1003
+    itemprice: 100166-2
+    classification_id: 1004
   }
   {
     id: 10724
@@ -7219,8 +7219,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-2
-    classification_id: 1003
+    itemprice: 100166-2
+    classification_id: 1004
   }
   {
     id: 10725
@@ -7231,8 +7231,8 @@
     event_code: dailyGiftbag
     discount: 1
     pay_type: 1
-    itemprice: 900046-2
-    classification_id: 1003
+    itemprice: 100166-2
+    classification_id: 1004
   }
   {
     id: 10726
@@ -33284,6 +33284,160 @@
     giftbag_name: Dec Special Offer Package
     event_code: dailyGiftbag
     icon: Bumdle_package
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21874
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: M1887
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 272
+    pay_type: 1
+    itemprice: 100168-500
+    classification_id: 1005
+  }
+  {
+    id: 21875
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: Lusa
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 1227
+    pay_type: 1
+    itemprice: 100168-500
+    classification_id: 1005
+  }
+  {
+    id: 21876
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: Fedorov Avtomat
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 1364
+    pay_type: 1
+    itemprice: 100167-400
+    classification_id: 1005
+  }
+  {
+    id: 21877
+    type: 8
+    quota: 2001
+    giftbag_name: T-Doll: Cx4 Storm
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 220112
+    pay_type: 1
+    itemprice: 100167-400
+    classification_id: 1005
+  }
+  {
+    id: 21878
+    type: 8
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    itemprice: 100168-5
+    classification_id: 1005
+  }
+  {
+    id: 21879
+    type: 8
+    gift: 100003-1
+    quota: 2200
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    itemprice: 100167-5
+    classification_id: 1005
+  }
+  {
+    id: 21880
+    type: 8
+    item_ids: 605-10,515-1000
+    gemprice: 1120
+    quota: 2003
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21881
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21882
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21883
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21884
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 21885
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
     discount: 1
     classification_id: 3002
   }

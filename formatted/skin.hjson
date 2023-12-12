@@ -6915,6 +6915,16 @@
     class_id: 82
   }
   {
+    id: 7809
+    name: Velvet Shortcake
+    fit_gun: 139
+    voice: 19
+    dialog: I hear there's a blizzard out there, so just stay here with me for the day! ...Huh, it's not snowing? I-I don't care. I heard it on the weather broadcast!
+    illustrator_cv: 小星, Arise Satou,
+    order: 98
+    class_id: 83
+  }
+  {
     id: 8201
     name: Captain Kord
     fit_gun: 276
@@ -7082,6 +7092,7 @@
     fit_gun: 57
     voice: 4
     dialog: Hop on, we're setting off once I'm done with this coke... You think we're eloping? We can give that a try if you don't mind getting dumped in the middle of nowhere.
+    gift_position: "90,-52"
     order: 91
   }
   {
@@ -7157,5 +7168,13 @@
     voice: 4
     dialog: I just have to play my trumpet like so, and my faithful seagull friends will gather around the shipwreck and help us search for treasure! Heheh, are you finally convinced that you're right to bring me along?
     order: 111
+  }
+  {
+    id: 30011
+    name: Miss Pittsburgh
+    fit_gun: 366
+    voice: 4
+    dialog: Welcome! We have burgers on discount and the nuggets are buy one get one— Ah! The Commander? This is just a side job! Everyone said they enjoy watching me gobble up Mega Beefs... Eh? No, I'm not in financial difficulties. However, the manager did say I can eat to my hearts content after the job is done...
+    order: 115
   }
 ]
