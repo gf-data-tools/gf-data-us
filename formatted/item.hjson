@@ -11597,6 +11597,51 @@
     rank: 1
   }
   {
+    id: 2207
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_Delisle
+    item_name: Weaving Starlight
+    introduction: Weaving Starlight
+    rank: 1
+  }
+  {
+    id: 2208
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_Lusa
+    item_name: Reindeer Latte
+    introduction: Reindeer Latte
+    rank: 1
+  }
+  {
+    id: 2209
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_MPL
+    item_name: Leaping Red on Frost
+    introduction: Leaping Red on Frost
+    rank: 1
+  }
+  {
+    id: 2210
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_MPK
+    item_name: Soaring Fire on Ice
+    introduction: Soaring Fire on Ice
+    rank: 1
+  }
+  {
+    id: 2211
+    type: 5
+    arg: "1"
+    code: profilePic_Christmas2022_KSVK
+    item_name: Beneath Layers of Snow
+    introduction: Beneath Layers of Snow
+    rank: 1
+  }
+  {
     id: 2212
     type: 5
     arg: "1"
@@ -13136,6 +13181,15 @@
     id: 10703
     type: 18
     arg: "10703"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10704
+    type: 18
+    arg: "10704"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -16606,6 +16660,36 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500071
+    type: 15
+    arg: "1500071"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500072
+    type: 15
+    arg: "1500072"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's 4-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500073
+    type: 15
+    arg: "1500073"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
     rank: 1
     sort: -1
   }

@@ -5372,8 +5372,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,critical_percent:350
+    passive_skill: "759216"
     max_level: 10
     auto_select_id: 18052
+    equip_group_id: 9
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000180
@@ -6709,8 +6711,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,pow:1000
+    passive_skill: "759221"
     max_level: 10
     auto_select_id: 18068
+    equip_group_id: 10
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000219
@@ -7318,9 +7322,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "300903"
+    passive_skill: "300903,759217"
     max_level: 10
     auto_select_id: 19029
+    equip_group_id: 9
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
@@ -8466,8 +8471,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: pow:1000
+    passive_skill: "759222"
     max_level: 10
     auto_select_id: 19038
+    equip_group_id: 10
     is_show: 1
     obtain_ids: "3016"
   }
@@ -10327,6 +10334,143 @@
     sp_description: Echelon Night Vision+5%
   }
   {
+    id: 333
+    name: M2 Tripod Mk2
+    description:
+      '''
+      DMG+<pow> MOVE SPEED <speed>
+      RELOAD TIME-2s $M1919A4 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    speed: "-3,-1"
+    skill_effect: 150
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 3
+    code: 人形_特殊_M1919A4
+    develop_duration: 3540
+    company: IOP
+    fit_guns: "80,20080"
+    equip_introduction: An M2 Tripod that IOP modified for M1919A4. Produced with new materials, the tripod has better recoil absorption and is more light-weight.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "759062"
+    max_level: 10
+    auto_select_id: 20055
+    is_show: 1
+    obtain_ids: "3016"
+    sp_description: Reload Time-2s
+  }
+  {
+    id: 334
+    name: Daewoo Exoskeleton Mk5
+    description:
+      '''
+      DMG <pow>
+      EVA+<dodge> $K5 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-8,-8"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_K5
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "212,20212"
+    equip_introduction: A custom exoskeleton developed using K5's combat data. It can drastically boost her combat efficiency.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:800
+    max_level: 10
+    auto_select_id: 20056
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 335
+    name: Type 11 Signal Flare
+    description:
+      '''
+      ACC+<hit>
+      ECH ACC+20% $100 Shiki only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "12,15"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_樱花
+    develop_duration: 3600
+    company: VKT
+    fit_guns: "228,20228"
+    equip_introduction: An exclusive signal flare that IOP redesigned from its Type 10 predecessor for 100 Shiki. It can exchange data directly with 100 Shiki's neural cloud.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:700
+    passive_skill: "759034"
+    max_level: 10
+    auto_select_id: 19052
+    is_show: 1
+    obtain_ids: "3016"
+    sp_description: Echelon ACC+20%
+  }
+  {
+    id: 336
+    name: STM Assault Shield
+    description:
+      '''
+      MOVE SPEED <speed> ARMOR+<armor>
+      DMG INTAKE-1 $DP-12 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "-1,-1"
+    armor: "4,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: 人形_特殊_DP12
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "282,20282"
+    equip_introduction: A brand new custom assault shield modified from DP-12's original shield. It is now a lot lighter and has better anti-ballistic properties.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:500
+    passive_skill: "740091"
+    max_level: 10
+    auto_select_id: 20057
+    is_show: 1
+    obtain_ids: "3016"
+    sp_description: DMG INTAKE-1
+  }
+  {
     id: 337
     name: 7BT1
     description:
@@ -10494,6 +10638,73 @@
     auto_select_id: 20058
     is_show: 1
     obtain_ids: "3086"
-    sp_description: equip-40000347
+  }
+  {
+    id: 351
+    name: PM High-Performance Exoskeleton
+    description:
+      '''
+      DMG <pow>
+      EVA+<dodge>$Makarov MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-5,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_马卡洛夫Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20008"
+    equip_introduction: A high-performance exoskeleton tailor-made for Makarov. It comes with small ballistic armor, which further enhances the toughness of the exoskeleton.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759218"
+    max_level: 10
+    auto_select_id: 20061
+    equip_group_id: 9
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 352
+    name: Medal of Honor
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      DMG+<pow>$PPSh-41 MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "1,2"
+    critical_percent: "20,26"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_PPSh41Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20021"
+    equip_introduction: The two medals that PPSh-41 has treasured for a long time contain memories of past glory. No, they are not rewards for taking the blame for server crashes!
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: critical_percent:1500,pow:500
+    passive_skill: "759223"
+    max_level: 10
+    auto_select_id: 20062
+    equip_group_id: 10
+    is_show: 1
+    obtain_ids: "3096"
   }
 ]
