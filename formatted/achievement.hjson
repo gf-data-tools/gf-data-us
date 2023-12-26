@@ -15832,4 +15832,55 @@
     sort: 305
     icon_code: 日常_彩蛋
   }
+  {
+    identity: 1071
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Nowhere to Stay
+    content: Slow Shock - SUM Life is a Struggle - UX: Clear the stage after blowing up 4 abandoned buildings.
+    type_sort: 100
+    sort: 306
+    icon_code: 无处落脚
+    condition: 11382:1138202
+  }
+  {
+    identity: 1072
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: High Five with Death
+    content: Slow Shock - AUT Isle of the Dead: Rescue 2 agent hostages on normal difficulty/rescue 3 agent hostages on nightmare difficulty.
+    type_sort: 100
+    sort: 307
+    icon_code: 与死神击掌
+    condition: 11355:1135502,11384:1138402
+  }
+  {
+    identity: 1073
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Echoes in the Valley
+    content: Scroll through the entire end credits of Slow Shock.
+    type_sort: 100
+    sort: 308
+    icon_code: 谷底回声
+    condition: "11418"
+  }
 ]

@@ -984,7 +984,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;121005;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10010109
     code: Fortress
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -994,9 +993,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40010109
-    des: building-20010109
-    confront_des: building-30010109
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70001
@@ -1007,7 +1004,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070001
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1018,9 +1015,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070001
-    des: building-20070001
-    confront_des: building-30070001
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70002
@@ -1031,7 +1031,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070002
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1042,9 +1042,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070002
-    des: building-20070002
-    confront_des: building-30070002
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70003
@@ -1055,7 +1058,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070003
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1066,9 +1069,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070003
-    des: building-20070003
-    confront_des: building-30070003
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70004
@@ -1079,7 +1085,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070004
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1090,9 +1096,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070004
-    des: building-20070004
-    confront_des: building-30070004
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70005
@@ -1103,7 +1112,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070005
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1114,9 +1123,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070005
-    des: building-20070005
-    confront_des: building-30070005
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70006
@@ -1127,7 +1139,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10070006
+    name: Suspicious Rock Pile
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1138,9 +1150,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40070006
-    des: building-20070006
-    confront_des: building-30070006
+    des: A suspicious pile of rocks in the wilderness. Some supplies seem to be buried underneath.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC.
+      '''
   }
   {
     id: 70011
@@ -1151,7 +1166,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070011
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1161,9 +1175,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070011
-    des: building-20070011
-    confront_des: building-30070011
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70012
@@ -1174,7 +1186,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070012
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1184,9 +1195,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070012
-    des: building-20070012
-    confront_des: building-30070012
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70013
@@ -1197,7 +1206,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070013
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1207,9 +1215,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070013
-    des: building-20070013
-    confront_des: building-30070013
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70014
@@ -1220,7 +1226,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070014
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1230,9 +1235,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070014
-    des: building-20070014
-    confront_des: building-30070014
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70015
@@ -1243,7 +1246,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070015
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1253,9 +1255,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070015
-    des: building-20070015
-    confront_des: building-30070015
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70016
@@ -1266,7 +1266,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070016
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1276,9 +1275,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070016
-    des: building-20070016
-    confront_des: building-30070016
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70021
@@ -1289,7 +1286,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070021
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1299,9 +1295,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070021
-    des: building-20070021
-    confront_des: building-30070021
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 70022
@@ -1312,7 +1306,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10070022
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1322,9 +1315,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40070022
-    des: building-20070022
-    confront_des: building-30070022
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78001
@@ -1335,7 +1326,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10078001
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1345,9 +1335,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078001
-    des: building-20078001
-    confront_des: building-30078001
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78002
@@ -1358,7 +1346,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10078002
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1368,9 +1355,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078002
-    des: building-20078002
-    confront_des: building-30078002
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78003
@@ -1381,7 +1366,6 @@
     mission_skill: 0;0;78007;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10078003
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1391,9 +1375,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078003
-    des: building-20078003
-    confront_des: building-30078003
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,78001,78006,0;1,78002,78006,0;1,78003,78006,0;1,78004,78006,0"
   }
   {
@@ -1405,7 +1387,6 @@
     mission_skill: 0;0;78007;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10078004
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1415,9 +1396,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078004
-    des: building-20078004
-    confront_des: building-30078004
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78005
@@ -1428,7 +1407,6 @@
     mission_skill: 0;0;78007;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10078005
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -1438,9 +1416,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078005
-    des: building-20078005
-    confront_des: building-30078005
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78006
@@ -1451,7 +1427,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10078006
+    name: Box
     code: GunBox
     shifting_spot: "45,30"
     shifting_team: "-30,0"
@@ -1464,9 +1440,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078006
-    des: building-20078006
-    confront_des: building-30078006
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78007
@@ -1477,7 +1451,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10078007
+    name: Box
     code: GunBox
     shifting_spot: "45,30"
     shifting_team: "-30,0"
@@ -1490,9 +1464,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078007
-    des: building-20078007
-    confront_des: building-30078007
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78008
@@ -1503,7 +1475,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10078008
+    name: Box
     code: GunBox
     shifting_spot: "45,30"
     shifting_team: "-30,0"
@@ -1516,9 +1488,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078008
-    des: building-20078008
-    confront_des: building-30078008
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78009
@@ -1529,7 +1499,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10078009
+    name: Box
     code: GunBox
     shifting_spot: "45,30"
     shifting_team: "-30,0"
@@ -1542,9 +1512,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078009
-    des: building-20078009
-    confront_des: building-30078009
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 78010
@@ -1555,7 +1523,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10078010
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -1565,9 +1532,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40078010
-    des: building-20078010
-    confront_des: building-30078010
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,78101,78023,0;1,78102,78023,0;1,78103,78023,0;1,78104,78023,0;1,78105,78023,0;1,78106,78023,0;1,78111,78023,0;1,78112,78023,0;1,78113,78023,0;1,78114,78023,0;1,78115,78023,0;1,78116,78023,0;1,78121,78023,0;1,78122,78023,0;1,78123,78023,0;1,78124,78023,0;1,78125,78023,0;1,78126,78023,0;1,78131,78023,0;1,78132,78023,0;1,78133,78023,0;1,78134,78023,0;1,78135,78023,0;1,78136,78023,0;1,78137,78014,0;1,78138,78015,0;1,78139,78016,0;1,78140,78017,0;1,78141,78018,0;1,78142,78019,0;1,78143,78020,0;1,78144,78021,0;1,78145,78022,0;1,78146,78023,0;1,78147,78024,0;1,78148,78025,0;1,78149,78026,0;1,78150,78027,0;1,78151,78028,0;1,78152,78029,0;1,78153,78030,0"
   }
   {
@@ -21389,7 +21354,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-10580120
+    name: Evangel Axis
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -21402,9 +21367,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580120
-    des: building-20580120
-    confront_des: building-30580120
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 580301
@@ -21415,7 +21378,7 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580301
+    name: Heartbeat Detector
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21426,9 +21389,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580301
-    des: building-20580301
-    confront_des: building-30580301
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,1133501,580052,0"
   }
   {
@@ -21440,7 +21401,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580302
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21451,9 +21411,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580302
-    des: building-20580302
-    confront_des: building-30580302
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 580303
@@ -21464,7 +21422,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580303
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21475,9 +21432,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580303
-    des: building-20580303
-    confront_des: building-30580303
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 580311
@@ -21488,7 +21443,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580311
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21499,9 +21453,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580311
-    des: building-20580311
-    confront_des: building-30580311
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21513,7 +21465,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580312
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21524,9 +21475,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580312
-    des: building-20580312
-    confront_des: building-30580312
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21538,7 +21487,6 @@
     mission_skill: 0;580051,580908;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580313
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21549,9 +21497,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580313
-    des: building-20580313
-    confront_des: building-30580313
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580911,0;1,580902,580911,0;1,584701,580911,0;1,584702,580911,0;1,584703,580911,0;1,581101,580911,0;1,581102,580911,0;1,581103,580911,0;1,581104,580911,0;1,584801,580911,0;1,584802,580911,0;1,584803,580911,0;1,1133501,580911,0;1,584804,580911,0;1,1133502,580911,0;1,1133503,580911,0;1,1137701,580911,0;1,1137702,580911,0;1,1137703,580911,0;1,1137704,580911,0;1,1133701,580911,0;1,1133702,580911,0;1,1137801,580911,0;1,1137802,580911,0"
   }
   {
@@ -21563,7 +21509,6 @@
     mission_skill: 0;580051,580908;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580314
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21574,9 +21519,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580314
-    des: building-20580314
-    confront_des: building-30580314
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580911,0;1,580902,580911,0;1,584701,580911,0;1,584702,580911,0;1,584703,580911,0;1,581101,580911,0;1,581102,580911,0;1,581103,580911,0;1,581104,580911,0;1,584801,580911,0;1,584802,580911,0;1,584803,580911,0;1,1133501,580911,0;1,584804,580911,0;1,1133502,580911,0;1,1133503,580911,0;1,1137701,580911,0;1,1137702,580911,0;1,1137703,580911,0;1,1137704,580911,0;1,1133701,580911,0;1,1133702,580911,0;1,1137801,580911,0;1,1137802,580911,0"
   }
   {
@@ -21588,7 +21531,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580315
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21599,9 +21541,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580315
-    des: building-20580315
-    confront_des: building-30580315
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21613,7 +21553,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580316
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21624,9 +21563,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580316
-    des: building-20580316
-    confront_des: building-30580316
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21638,7 +21575,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580317
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21649,9 +21585,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580317
-    des: building-20580317
-    confront_des: building-30580317
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21663,7 +21597,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580318
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21674,9 +21607,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580318
-    des: building-20580318
-    confront_des: building-30580318
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21688,7 +21619,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580319
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21699,9 +21629,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580319
-    des: building-20580319
-    confront_des: building-30580319
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21713,7 +21641,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580320
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21724,9 +21651,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580320
-    des: building-20580320
-    confront_des: building-30580320
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21738,7 +21663,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580321
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21749,9 +21673,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580321
-    des: building-20580321
-    confront_des: building-30580321
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21763,7 +21685,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580322
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21774,9 +21695,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580322
-    des: building-20580322
-    confront_des: building-30580322
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21788,7 +21707,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580323
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21799,9 +21717,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580323
-    des: building-20580323
-    confront_des: building-30580323
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21813,7 +21729,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580324
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21824,9 +21739,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580324
-    des: building-20580324
-    confront_des: building-30580324
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21838,7 +21751,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580325
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -21849,9 +21761,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580325
-    des: building-20580325
-    confront_des: building-30580325
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,580901,580060,0;2,584701,580060,0;2,581101,580060,0;2,584801,580060,0;2,580301,580060,0;2,580302,580060,0;1,580901,580052,0;1,580902,580052,0;1,584701,580052,0;1,584702,580052,0;1,584703,580052,0;1,581101,580052,0;1,581102,580052,0;1,581103,580052,0;1,581104,580052,0;1,584801,580052,0;1,584802,580052,0;1,584803,580052,0;1,1133501,580052,0;1,584804,580052,0;1,1133502,580052,0;1,1133503,580052,0;1,1137701,580052,0;1,1137702,580052,0;1,1137703,580052,0;1,1137704,580052,0;1,1133701,580052,0;1,1133702,580052,0;1,1137801,580052,0;1,1137802,580052,0"
   }
   {
@@ -21863,7 +21773,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10580401
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -21873,9 +21782,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580401
-    des: building-20580401
-    confront_des: building-30580401
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,1136401,580111,0;1,1136402,580111,0;1,1136403,580111,0;1,1136404,580111,0;1,1136405,580111,0;1,1136406,580111,0;1,1136407,580111,0;1,1136408,580111,0;1,1136409,580111,0;1,1136410,580111,0;1,1136411,580111,0;1,1136412,580111,0;1,1138602,580111,0;1,1138601,580111,0;1,1138603,580111,0;1,1138604,580111,0;1,1138605,580111,0;1,1138606,580111,0;1,1138607,580111,0;1,1138608,580111,0;1,1138609,580111,0;1,1138610,580111,0;1,1138611,580111,0;1,1138612,580111,0;1,1139201,580111,0;1,1139202,580111,0;1,1139203,580111,0;1,1139204,580111,0;1,1139205,580111,0;1,1139206,580111,0;1,1139207,580111,0;1,1139208,580111,0;1,1139209,580111,0;1,1139210,580111,0;1,1139211,580111,0;1,1139212,580111,0"
   }
   {
@@ -21887,7 +21794,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10580402
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -21897,9 +21803,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580402
-    des: building-20580402
-    confront_des: building-30580402
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,1136401,580111,0;1,1136402,580111,0;1,1136403,580111,0;1,1136404,580111,0;1,1136405,580111,0;1,1136406,580111,0;1,1136407,580111,0;1,1136408,580111,0;1,1136409,580111,0;1,1136410,580111,0;1,1136411,580111,0;1,1136412,580111,0;1,1138602,580111,0;1,1138601,580111,0;1,1138603,580111,0;1,1138604,580111,0;1,1138605,580111,0;1,1138606,580111,0;1,1138607,580111,0;1,1138608,580111,0;1,1138609,580111,0;1,1138610,580111,0;1,1138611,580111,0;1,1138612,580111,0;1,1139201,580111,0;1,1139202,580111,0;1,1139203,580111,0;1,1139204,580111,0;1,1139205,580111,0;1,1139206,580111,0;1,1139207,580111,0;1,1139208,580111,0;1,1139209,580111,0;1,1139210,580111,0;1,1139211,580111,0;1,1139212,580111,0"
   }
   {
@@ -21911,7 +21815,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10580411
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -21921,9 +21824,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580411
-    des: building-20580411
-    confront_des: building-30580411
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,583401,580111,0;1,583402,580111,0;1,583403,580111,0;1,583404,580111,0;1,583405,580111,0;1,585501,580111,0;1,585502,580111,0;1,585503,580111,0;1,585504,580111,0;1,585505,580111,0;1,587001,580111,0;1,587002,580111,0;1,587004,580111,0;1,587003,580111,0;1,587005,580111,0;1,587006,580111,0;1,587007,580111,0"
   }
   {
@@ -21935,7 +21836,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10580501
+    name: Stumbling Pile of Junk
     code: Sundries
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -21947,9 +21848,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580501
-    des: building-20580501
-    confront_des: building-30580501
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 580902
@@ -21960,7 +21859,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
-    name: building-10580902
+    name: Autocannon | Back Door
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -21971,9 +21870,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580902
-    des: building-20580902
-    confront_des: building-30580902
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 580903
@@ -21984,7 +21881,7 @@
     mission_skill: 0;0;580909;0
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
-    name: building-10580903
+    name: Autocannon
     code: Build_Pyxis
     shifting_spot: "0,35"
     shifting_team: "-30,0"
@@ -21996,9 +21893,12 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580903
-    des: building-20580903
-    confront_des: building-30580903
+    confront_des:
+      '''
+      Recommended method of tackling this stage:
+      When Anna's heart rate is low, the cannon will stop attacking.
+      Anna can then deactivate it.
+      '''
     missionskill_on_death: "1,580901,580912,0;1,580902,580912,0;1,584701,580912,0;1,584702,580912,0;1,584703,580912,0;1,581101,580912,0;1,581102,580912,0;1,581103,580912,0;1,581104,580912,0;1,584801,580912,0;1,584802,580912,0;1,584803,580912,0;1,584804,580912,0"
   }
   {
@@ -22010,7 +21910,6 @@
     mission_skill: 0;0;580909;0
     battle_skill: 0;0;0;0
     condition: 0:4,1:4;0:1,1:5
-    name: building-10580904
     code: Build_Pyxis
     shifting_spot: "0,35"
     shifting_team: "-30,0"
@@ -22022,9 +21921,12 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40580904
-    des: building-20580904
-    confront_des: building-30580904
+    confront_des:
+      '''
+      Recommended method of tackling this stage:
+      When Anna's heart rate is low, the cannon will stop attacking.
+      Anna can then deactivate it.
+      '''
   }
   {
     id: 581101
@@ -22035,7 +21937,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10581101
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -22045,9 +21946,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581101
-    des: building-20581101
-    confront_des: building-30581101
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 581501
@@ -22058,7 +21957,7 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581501
+    name: Angelia
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22068,9 +21967,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581501
-    des: building-20581501
-    confront_des: building-30581501
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,581501,580052,0;1,581502,580052,0;1,581503,580052,0;1,581504,580052,0;1,581505,580052,0;1,581701,580052,0;1,581702,580052,0;1,581703,580052,0;1,581704,580052,0;1,584901,580052,0;1,584902,580052,0;1,584903,580052,0;1,584904,580052,0;1,584905,580052,0;1,585001,580052,0;1,585002,580052,0;1,585003,580052,0;1,585004,580052,0;1,585005,580052,0;2,581501,581500,0;2,584901,581500,0"
   }
   {
@@ -22082,7 +21979,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581502
+    name: Reinforcement Point
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22092,9 +21989,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581502
-    des: building-20581502
-    confront_des: building-30581502
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,581501,581503,0;1,581502,581503,0;1,581503,581503,0;1,581504,581503,0"
   }
   {
@@ -22106,7 +22001,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581700
+    name: DEFY
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22116,9 +22011,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581700
-    des: building-20581700
-    confront_des: building-30581700
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 581701
@@ -22129,7 +22022,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581701
+    name: Abandoned Building
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22140,9 +22033,8 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581701
-    des: building-20581701
-    confront_des: building-30581701
+    active_building_info: RuinedBuilding;Abandoned Building;0,0;2000015
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 581702
@@ -22153,7 +22045,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581702
+    name: Wreckage
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22163,9 +22055,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581702
-    des: building-20581702
-    confront_des: building-30581702
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 581799
@@ -22176,7 +22066,7 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10581799
+    name: Angelia
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22186,9 +22076,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40581799
-    des: building-20581799
-    confront_des: building-30581799
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,581501,580052,0;1,581502,580052,0;1,581503,580052,0;1,581504,580052,0;1,581505,580052,0;1,581701,580052,0;1,581702,580052,0;1,581703,580052,0;1,581704,580052,0;1,584901,580052,0;1,584902,580052,0;1,584903,580052,0;1,584904,580052,0;1,584905,580052,0;1,585001,580052,0;1,585002,580052,0;1,585003,580052,0;1,585004,580052,0;1,585005,580052,0;2,581501,581500,0;2,584901,581500,0"
   }
   {
@@ -22200,7 +22088,7 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10583600
+    name: Dandelion
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22210,9 +22098,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40583600
-    des: building-20583600
-    confront_des: building-30583600
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,583602,580111,0;2,583603,580111,0;2,583604,580111,0;2,583605,580111,0;2,583606,580111,0;2,583607,580111,0;2,583608,580111,0;2,583609,580111,0;2,583610,580111,0;2,583611,580111,0;2,583612,580111,0;2,583613,580111,0;2,583614,580111,0;2,583615,580111,0;2,585602,580111,0;2,585603,580111,0;2,585604,580111,0;2,585605,580111,0;2,585606,580111,0;2,585607,580111,0;2,585608,580111,0;2,585609,580111,0;2,585610,580111,0;2,585611,580111,0;2,585612,580111,0;2,585613,580111,0;2,585614,580111,0;2,585615,580111,0;2,587102,580111,0;2,587103,580111,0;2,587104,580111,0;2,587105,580111,0;2,587106,580111,0;2,587107,580111,0;2,587108,580111,0;2,587109,580111,0;2,587110,580111,0;2,587111,580111,0;2,587112,580111,0;2,587113,580111,0;2,587114,580111,0;2,587115,580111,0;2,587116,580111,0;2,587117,580111,0;2,587118,580111,0;2,587119,580111,0;2,587120,580111,0;2,587121,580111,0"
   }
   {
@@ -22224,7 +22110,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10583601
+    name: Morridow
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22234,9 +22120,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40583601
-    des: building-20583601
-    confront_des: building-30583601
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,583612,583604,0;2,583613,583604,0;2,585612,583604,0;2,585613,583604,0;2,587118,583604,0;2,587119,583604,0;"
   }
   {
@@ -22248,7 +22132,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10584501
     code: Hiding
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -22259,9 +22142,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584501
-    des: building-20584501
-    confront_des: building-30584501
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 584502
@@ -22272,7 +22153,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10584502
+    name: Wall III
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22283,9 +22164,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40584502
-    des: building-20584502
-    confront_des: building-30584502
+    confront_des:
+      '''
+      Recommended method of tackling this stage:
+      Deploying HOC units
+      Deploying certain Sangvis Ferri units.
+      '''
   }
   {
     id: 584503
@@ -22296,7 +22180,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10584503
+    name: Wall II
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22307,9 +22191,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40584503
-    des: building-20584503
-    confront_des: building-30584503
+    confront_des:
+      '''
+      Recommended method of tackling this stage:
+      Deploying HOC units
+      Deploying certain Sangvis Ferri units.
+      '''
   }
   {
     id: 584504
@@ -22320,7 +22207,7 @@
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1"
-    name: building-10584504
+    name: Wall I
     code: Rock_daily
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22331,9 +22218,12 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-40584504
-    des: building-20584504
-    confront_des: building-30584504
+    confront_des:
+      '''
+      Recommended method of tackling this stage:
+      Deploying HOC units
+      Deploying certain Sangvis Ferri units.
+      '''
   }
   {
     id: 584511
@@ -22344,7 +22234,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10584511
+    name: Elevator I
     code: LiftBlue
     shifting_spot: "5,20"
     shifting_team: "-30,0"
@@ -22355,9 +22245,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584511
-    des: building-20584511
-    confront_des: building-30584511
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 584512
@@ -22368,7 +22256,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10584512
+    name: Elevator II
     code: LiftBlue
     shifting_spot: "5,20"
     shifting_team: "-30,0"
@@ -22379,9 +22267,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584512
-    des: building-20584512
-    confront_des: building-30584512
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 584513
@@ -22392,7 +22278,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10584513
+    name: Elevator III
     code: LiftBlue
     shifting_spot: "5,20"
     shifting_team: "-30,0"
@@ -22403,9 +22289,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584513
-    des: building-20584513
-    confront_des: building-30584513
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 584514
@@ -22416,7 +22300,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-10584514
+    name: Elevator IV
     code: LiftBlue
     shifting_spot: "5,20"
     shifting_team: "-30,0"
@@ -22427,9 +22311,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584514
-    des: building-20584514
-    confront_des: building-30584514
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 584900
@@ -22440,7 +22322,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10584900
+    name: Reinforcement Point
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22450,9 +22332,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40584900
-    des: building-20584900
-    confront_des: building-30584900
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,584901,584906,0;1,584902,584906,0;1,584903,584906,0;1,584904,584906,0"
   }
   {
@@ -22464,7 +22344,7 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10585600
+    name: Dandelion
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22474,9 +22354,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40585600
-    des: building-20585600
-    confront_des: building-30585600
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,583602,580111,0;2,583603,580111,0;2,583604,580111,0;2,583605,580111,0;2,583606,580111,0;2,583607,580111,0;2,583608,580111,0;2,583609,580111,0;2,583610,580111,0;2,583611,580111,0;2,583612,580111,0;2,583613,580111,0;2,583614,580111,0;2,583615,580111,0;2,585602,580111,0;2,585603,580111,0;2,585604,580111,0;2,585605,580111,0;2,585606,580111,0;2,585607,580111,0;2,585608,580111,0;2,585609,580111,0;2,585610,580111,0;2,585611,580111,0;2,585612,580111,0;2,585613,580111,0;2,585614,580111,0;2,585615,580111,0;2,587102,580111,0;2,587103,580111,0;2,587104,580111,0;2,587105,580111,0;2,587106,580111,0;2,587107,580111,0;2,587108,580111,0;2,587109,580111,0;2,587110,580111,0;2,587111,580111,0;2,587112,580111,0;2,587113,580111,0;2,587114,580111,0;2,587115,580111,0;2,587116,580111,0;2,587117,580111,0;2,587118,580111,0;2,587119,580111,0;2,587120,580111,0;2,587121,580111,0"
   }
   {
@@ -22489,7 +22367,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:1,1:1
     is_destroy: "1,2"
-    name: building-10586901
+    name: Artillery Position
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -22500,9 +22378,11 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40586901
-    des: building-20586901
-    confront_des: building-30586901
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Capture and destroy with an echelon or attack with HOC.
+      '''
   }
   {
     id: 587001
@@ -22513,7 +22393,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:1
-    name: building-10587001
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "-30,0"
@@ -22523,9 +22402,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40587001
-    des: building-20587001
-    confront_des: building-30587001
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,583401,580111,0;1,583402,580111,0;1,583403,580111,0;1,583404,580111,0;1,583405,580111,0;1,585501,580111,0;1,585502,580111,0;1,585503,580111,0;1,585504,580111,0;1,585505,580111,0;1,587001,580111,0;1,587002,580111,0;1,587004,580111,0;1,587003,580111,0;1,587005,580111,0;1,587006,580111,0;1,587007,580111,0"
   }
   {
@@ -23572,7 +23449,6 @@
     mission_skill: 0;0;0;610091
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:1,1:1
-    name: building-10610001
     code: 2023RougeSummer_Mixer
     shifting_spot: "60,30"
     shifting_team: "-60,-30"
@@ -23585,10 +23461,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610001
     initial_state: -1
-    des: building-20610001
-    confront_des: building-30610001
   }
   {
     id: 610002
@@ -23599,7 +23472,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-10610002
     code: Hiding
     shifting_spot: "60,30"
     shifting_team: "-60,-30"
@@ -23611,9 +23483,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610002
-    des: building-20610002
-    confront_des: building-30610002
   }
   {
     id: 610003
@@ -23624,7 +23493,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:1,1:1
-    name: building-10610003
     code: Hiding
     shifting_spot: "60,30"
     shifting_team: "-60,-30"
@@ -23636,9 +23504,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610003
-    des: building-20610003
-    confront_des: building-30610003
   }
   {
     id: 610101
@@ -23649,7 +23514,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610101
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23659,9 +23523,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610101
-    des: building-20610101
-    confront_des: building-30610101
   }
   {
     id: 610201
@@ -23672,7 +23533,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610201
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23682,9 +23542,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610201
-    des: building-20610201
-    confront_des: building-30610201
   }
   {
     id: 610301
@@ -23695,7 +23552,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610301
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23705,9 +23561,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610301
-    des: building-20610301
-    confront_des: building-30610301
   }
   {
     id: 610401
@@ -23718,7 +23571,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610401
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23728,9 +23580,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610401
-    des: building-20610401
-    confront_des: building-30610401
   }
   {
     id: 610601
@@ -23741,7 +23590,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610601
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23751,9 +23599,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610601
-    des: building-20610601
-    confront_des: building-30610601
   }
   {
     id: 610701
@@ -23764,7 +23609,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10610701
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23774,9 +23618,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40610701
-    des: building-20610701
-    confront_des: building-30610701
   }
   {
     id: 611001
@@ -23787,7 +23628,6 @@
     mission_skill: 0;0;0;610091
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:1,1:1
-    name: building-10611001
     code: 2023RougeSummer_Mixer
     shifting_spot: "60,30"
     shifting_team: "-60,-30"
@@ -23800,10 +23640,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40611001
     initial_state: -1
-    des: building-20611001
-    confront_des: building-30611001
     missionskill_on_death: "2,611010,611007,0;2,611011,611008,0;2,612310,611007,0;2,612311,611008,0"
   }
   {
@@ -23815,7 +23652,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10611002
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23825,9 +23661,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40611002
-    des: building-20611002
-    confront_des: building-30611002
   }
   {
     id: 611701
@@ -23838,7 +23671,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10611701
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23848,9 +23680,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40611701
-    des: building-20611701
-    confront_des: building-30611701
   }
   {
     id: 611901
@@ -23861,7 +23690,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10611901
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23871,9 +23699,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40611901
-    des: building-20611901
-    confront_des: building-30611901
   }
   {
     id: 1144001
@@ -23884,7 +23709,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-11144001
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23893,9 +23717,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41144001
-    des: building-21144001
-    confront_des: building-31144001
   }
   {
     id: 1144301
@@ -23907,7 +23728,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:1,1:1
     is_destroy: "2"
-    name: building-11144301
+    name: Artillery Position
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -23918,9 +23739,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41144301
-    des: building-21144301
-    confront_des: building-31144301
   }
   {
     id: 1144302
@@ -23931,7 +23749,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-11144302
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23940,9 +23757,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41144302
-    des: building-21144302
-    confront_des: building-31144302
   }
   {
     id: 1144401
@@ -23953,7 +23767,6 @@
     mission_skill: 0;1144400;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-11144401
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -23962,9 +23775,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41144401
-    des: building-21144401
-    confront_des: building-31144401
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,1144401,1144411,0;2,1144402,1144412,0;2,1144403,1144413,0"
   }
   {
@@ -23976,7 +23787,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-11144402
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -23985,9 +23795,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41144402
-    des: building-21144402
-    confront_des: building-31144402
   }
   {
     id: 1145701
@@ -23998,7 +23805,6 @@
     mission_skill: 0;1145700;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-11145701
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24007,9 +23813,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-41145701
-    des: building-21145701
-    confront_des: building-31145701
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,1145701,1145711,0;2,1145702,1145712,0;2,1145703,1145713,0"
   }
   {
@@ -25343,7 +25147,6 @@
     mission_skill: 0;2000017;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360001
     code: Hiding
     shifting_spot: "65,150"
     shifting_team: "-30,0"
@@ -25356,9 +25159,7 @@
     is_focus: "-1"
     belong_color: "#C3C3C3,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360001
-    des: building-26360001
-    confront_des: building-36360001
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360002
@@ -25369,7 +25170,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360002
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25379,9 +25179,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360002
-    des: building-26360002
-    confront_des: building-36360002
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360003
@@ -25392,7 +25190,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360003
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25402,9 +25199,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360003
-    des: building-26360003
-    confront_des: building-36360003
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360004
@@ -25415,7 +25210,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:1,1:1
-    name: building-16360004
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -25426,9 +25221,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 0;0
-    active_building_info: building-46360004
-    des: building-26360004
-    confront_des: building-36360004
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360005
@@ -25439,7 +25232,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-16360005
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -25452,9 +25245,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 0;0
-    active_building_info: building-46360005
-    des: building-26360005
-    confront_des: building-36360005
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360006
@@ -25465,7 +25257,6 @@
     mission_skill: 0;6360003;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360006
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25475,9 +25266,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360006
-    des: building-26360006
-    confront_des: building-36360006
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360007
@@ -25488,7 +25277,6 @@
     mission_skill: 0;6360008;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360007
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25498,9 +25286,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360007
-    des: building-26360007
-    confront_des: building-36360007
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360008
@@ -25511,7 +25297,6 @@
     mission_skill: 0;6360009;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360008
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25521,9 +25306,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360008
-    des: building-26360008
-    confront_des: building-36360008
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6360009
@@ -25534,7 +25317,6 @@
     mission_skill: 0;6360010;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16360009
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25544,9 +25326,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46360009
-    des: building-26360009
-    confront_des: building-36360009
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6380201
@@ -33604,7 +33384,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580001
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -33614,9 +33393,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580001
-    des: building-26580001
-    confront_des: building-36580001
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580002
@@ -33627,7 +33404,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:0;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1;0:1,1:1
-    name: building-16580002
+    name: Battery
     code: MissileLauncher
     shifting_spot: "-50,97"
     shifting_team: "-30,0"
@@ -33640,9 +33417,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1,1,1,1,1,1
-    active_building_info: building-46580002
-    des: building-26580002
-    confront_des: building-36580002
+    confront_des: This facility cannot be destroyed in this battle.
     squadinfoid: 1019
   }
   {
@@ -33655,7 +33430,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
     is_destroy: "1,2"
-    name: building-16580003
+    name: Weapon Supply Point
     code: Ammobox
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -33666,9 +33441,11 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580003
-    des: building-26580003
-    confront_des: building-36580003
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Capture and destroy with an echelon or attack with HOC.
+      '''
   }
   {
     id: 6580004
@@ -33679,7 +33456,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580004
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -33690,9 +33466,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580004
-    des: building-26580004
-    confront_des: building-36580004
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580005
@@ -33703,7 +33477,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580005
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -33713,9 +33486,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580005
-    des: building-26580005
-    confront_des: building-36580005
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580006
@@ -33726,7 +33497,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580006
+    name: Teleport Node
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33736,9 +33507,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580006
-    des: building-26580006
-    confront_des: building-36580006
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580007
@@ -33749,7 +33518,6 @@
     mission_skill: 0;6580069;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580007
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -33758,9 +33526,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580007
-    des: building-26580007
-    confront_des: building-36580007
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580008
@@ -33771,7 +33537,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580008
+    name: Teleport Node I
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33781,9 +33547,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580008
-    des: building-26580008
-    confront_des: building-36580008
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580009
@@ -33794,7 +33558,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580009
+    name: Teleport Node II
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33804,9 +33568,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580009
-    des: building-26580009
-    confront_des: building-36580009
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580010
@@ -33817,7 +33579,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580010
+    name: Teleport Node III
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33827,9 +33589,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580010
-    des: building-26580010
-    confront_des: building-36580010
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580011
@@ -33840,7 +33600,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580011
+    name: Teleport Node IV
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33850,9 +33610,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580011
-    des: building-26580011
-    confront_des: building-36580011
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580012
@@ -33863,7 +33621,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580012
+    name: Teleport Node V
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33873,9 +33631,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580012
-    des: building-26580012
-    confront_des: building-36580012
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580013
@@ -33886,7 +33642,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580013
+    name: Teleport Node I
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33896,9 +33652,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580013
-    des: building-26580013
-    confront_des: building-36580013
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580014
@@ -33909,7 +33663,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580014
+    name: Teleport Node II
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33919,9 +33673,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580014
-    des: building-26580014
-    confront_des: building-36580014
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580015
@@ -33932,7 +33684,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580015
+    name: Teleport Node III
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33942,9 +33694,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580015
-    des: building-26580015
-    confront_des: building-36580015
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580016
@@ -33955,7 +33705,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580016
+    name: Teleport Node IV
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33965,9 +33715,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580016
-    des: building-26580016
-    confront_des: building-36580016
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580017
@@ -33978,7 +33726,7 @@
     mission_skill: 0;0;0;2000023
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580017
+    name: Teleport Node V
     code: Portal1
     shifting_spot: "120,-30"
     shifting_team: "-30,0"
@@ -33988,9 +33736,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580017
-    des: building-26580017
-    confront_des: building-36580017
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580018
@@ -34001,7 +33747,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580018
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34011,9 +33756,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580018
-    des: building-26580018
-    confront_des: building-36580018
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580019
@@ -34024,7 +33767,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:0
-    name: building-16580019
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34034,9 +33776,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580019
-    des: building-26580019
-    confront_des: building-36580019
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580020
@@ -34047,7 +33787,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-16580020
+    name: Evangel Axis
     code: Gospelaxis
     shifting_spot: "-100,50"
     shifting_team: "30,0"
@@ -34059,9 +33799,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580020
-    des: building-26580020
-    confront_des: building-36580020
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580101
@@ -34072,7 +33810,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580101
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34083,9 +33820,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580101
-    des: building-26580101
-    confront_des: building-36580101
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580102
@@ -34096,7 +33831,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580102
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34106,9 +33840,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580102
-    des: building-26580102
-    confront_des: building-36580102
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580103
@@ -34119,7 +33851,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580103
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34129,9 +33860,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580103
-    des: building-26580103
-    confront_des: building-36580103
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580104
@@ -34142,7 +33871,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580104
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34151,9 +33879,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580104
-    des: building-26580104
-    confront_des: building-36580104
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,6580104,6580118,0;2,6580103,6580119,0;2,6580101,6580120,0;2,6580105,6580120,0;2,6580106,6580120,0;2,6580107,6580120,0,;2,6580108,6580120,0"
   }
   {
@@ -34165,7 +33891,7 @@
     mission_skill: 0;0;0;6580194
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-16580105
+    name: Abandoned Goliath
     code: Boomer
     shifting_spot: "45,100"
     shifting_team: "-30,0"
@@ -34176,9 +33902,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580105
-    des: building-26580105
-    confront_des: building-36580105
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580106
@@ -34189,7 +33913,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580106
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34199,9 +33922,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580106
-    des: building-26580106
-    confront_des: building-36580106
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580107
@@ -34212,7 +33933,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580107
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34222,9 +33942,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580107
-    des: building-26580107
-    confront_des: building-36580107
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580108
@@ -34235,7 +33953,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580108
+    name: Passcode Panel I
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34245,9 +33963,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580108
-    des: building-26580108
-    confront_des: building-36580108
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580109
@@ -34258,7 +33974,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580109
+    name: Passcode Panel II
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34268,9 +33984,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580109
-    des: building-26580109
-    confront_des: building-36580109
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580110
@@ -34281,7 +33995,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580110
+    name: Passcode Panel III
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34291,9 +34005,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580110
-    des: building-26580110
-    confront_des: building-36580110
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580111
@@ -34304,7 +34016,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580111
+    name: Passcode Panel IV
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34314,9 +34026,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580111
-    des: building-26580111
-    confront_des: building-36580111
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580112
@@ -34327,7 +34037,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580112
+    name: Passcode Panel V
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34337,9 +34047,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580112
-    des: building-26580112
-    confront_des: building-36580112
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580113
@@ -34350,7 +34058,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580113
+    name: Passcode Panel VI
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34360,9 +34068,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580113
-    des: building-26580113
-    confront_des: building-36580113
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580114
@@ -34373,7 +34079,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580114
+    name: Passcode Panel VII
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34383,9 +34089,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580114
-    des: building-26580114
-    confront_des: building-36580114
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580115
@@ -34396,7 +34100,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580115
+    name: Passcode Panel VIII
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34406,9 +34110,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580115
-    des: building-26580115
-    confront_des: building-36580115
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580116
@@ -34419,7 +34121,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580116
+    name: Passcode Panel IX
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34429,9 +34131,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580116
-    des: building-26580116
-    confront_des: building-36580116
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580117
@@ -34442,7 +34142,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580117
+    name: Passcode Panel X
     code: Console_P
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -34452,9 +34152,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580117
-    des: building-26580117
-    confront_des: building-36580117
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580118
@@ -34465,7 +34163,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580118
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34475,9 +34172,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580118
-    des: building-26580118
-    confront_des: building-36580118
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580119
@@ -34488,7 +34183,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580119
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34498,9 +34192,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580119
-    des: building-26580119
-    confront_des: building-36580119
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580120
@@ -34511,7 +34203,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580120
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34521,9 +34212,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580120
-    des: building-26580120
-    confront_des: building-36580120
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580121
@@ -34534,7 +34223,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580121
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34544,9 +34232,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580121
-    des: building-26580121
-    confront_des: building-36580121
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580122
@@ -34557,7 +34243,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580122
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34567,9 +34252,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580122
-    des: building-26580122
-    confront_des: building-36580122
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6580102,6580177,0;1,6580103,6580177,0;2,6580122,6580190,0"
   }
   {
@@ -34581,7 +34264,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580123
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34591,9 +34273,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580123
-    des: building-26580123
-    confront_des: building-36580123
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6581102,6580177,0;1,6581103,6580177,0;2,6580101,6580190,0"
   }
   {
@@ -34605,7 +34285,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580124
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34615,9 +34294,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580124
-    des: building-26580124
-    confront_des: building-36580124
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6580202,6580177,0;1,6580203,6580177,0;1,6580204,6580177,0;2,6580113,6580181,0;2,6580114,6580120,0"
   }
   {
@@ -34629,7 +34306,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580125
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34639,9 +34315,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580125
-    des: building-26580125
-    confront_des: building-36580125
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6581203,6580177,0;1,6581204,6580177,0;1,6581205,6580177,0;1,6581206,6580177,0;1,6581202,6580178,0;2,6580113,6580181,0;2,6580114,6580120,0"
   }
   {
@@ -34653,7 +34327,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580126
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34663,9 +34336,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580126
-    des: building-26580126
-    confront_des: building-36580126
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6580301,6580177,0;1,6580302,6580177,0;1,6580303,6580177,0;1,6580304,6580177,0;1,6580305,6580177,0;1,6580306,6580177,0;2,6580118,6580120,0;2,6580120,6580177,0"
   }
   {
@@ -34677,7 +34348,6 @@
     mission_skill: 0;580051;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580127
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34687,9 +34357,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580127
-    des: building-26580127
-    confront_des: building-36580127
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6581301,6580177,0;1,6581302,6580177,0;1,6581303,6580177,0;1,6581304,6580177,0;1,6581305,6580177,0;1,6581306,6580177,0;2,6580120,6580177,0;2,6580121,6580177,0;2,6580118,6580120,0;2,6580121,6580177,0"
   }
   {
@@ -34701,7 +34369,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580128
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -34711,9 +34378,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580128
-    des: building-26580128
-    confront_des: building-36580128
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6580129
@@ -34724,7 +34389,7 @@
     mission_skill: 0;0;0;6580188
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-16580129
+    name: Control Hub
     code: Control_Center
     shifting_spot: "40,50"
     shifting_team: "-30,0"
@@ -34737,9 +34402,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-46580129
-    des: building-26580129
-    confront_des: building-36580129
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9031001
@@ -46035,7 +45698,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19583801
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46045,9 +45707,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583801
-    des: building-29583801
-    confront_des: building-39583801
   }
   {
     id: 9583802
@@ -46058,7 +45717,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19583802
+    name: Evangel Axis I
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46071,9 +45730,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583802
-    des: building-29583802
-    confront_des: building-39583802
   }
   {
     id: 9583803
@@ -46084,7 +45740,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19583803
+    name: Evangel Axis II
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46097,9 +45753,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583803
-    des: building-29583803
-    confront_des: building-39583803
   }
   {
     id: 9583804
@@ -46110,7 +45763,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19583804
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46123,9 +45776,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583804
-    des: building-29583804
-    confront_des: building-39583804
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583805
@@ -46136,7 +45788,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19583805
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46149,9 +45801,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583805
-    des: building-29583805
-    confront_des: building-39583805
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9583801,580111,0;1,9583802,580111,0;1,9583803,580111,0;1,9583804,580111,0;1,9583805,580111,0;1,9583806,580111,0"
   }
   {
@@ -46163,7 +45814,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19583806
+    name: Control Panel ①
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46176,9 +45827,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583806
-    des: building-29583806
-    confront_des: building-39583806
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583807
@@ -46189,7 +45839,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19583807
+    name: Control Panel ②
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46202,9 +45852,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583807
-    des: building-29583807
-    confront_des: building-39583807
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583808
@@ -46215,7 +45864,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19583808
+    name: Control Panel ③
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46228,9 +45877,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583808
-    des: building-29583808
-    confront_des: building-39583808
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583809
@@ -46241,7 +45889,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19583809
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46251,9 +45898,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583809
-    des: building-29583809
-    confront_des: building-39583809
   }
   {
     id: 9583810
@@ -46264,7 +45908,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19583810
+    name: Control Terminal II
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46277,9 +45921,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583810
-    des: building-29583810
-    confront_des: building-39583810
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583811
@@ -46290,7 +45933,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19583811
+    name: Defense Gate II
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46303,9 +45946,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49583811
-    des: building-29583811
-    confront_des: building-39583811
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9583812
@@ -46316,7 +45958,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19583812
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46326,9 +45967,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583812
-    des: building-29583812
-    confront_des: building-39583812
   }
   {
     id: 9583813
@@ -46339,7 +45977,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19583813
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46349,9 +45986,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49583813
-    des: building-29583813
-    confront_des: building-39583813
   }
   {
     id: 9584001
@@ -46362,7 +45996,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19584001
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46375,9 +46009,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584001
-    des: building-29584001
-    confront_des: building-39584001
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9584002
@@ -46388,7 +46021,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19584002
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46401,9 +46034,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584002
-    des: building-29584002
-    confront_des: building-39584002
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9584001,580111,0;1,9584002,580111,0;1,9584003,580111,0;1,9584004,580111,0;1,9584005,580111,0;1,9584006,580111,0;1,9584007,580111,0;1,9584008,580111,0;2,9584006,580111,0"
   }
   {
@@ -46415,7 +46047,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19584003
+    name: Evangel Axis I
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46428,9 +46060,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584003
-    des: building-29584003
-    confront_des: building-39584003
   }
   {
     id: 9584004
@@ -46441,7 +46070,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19584004
+    name: Evangel Axis II
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46454,9 +46083,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584004
-    des: building-29584004
-    confront_des: building-39584004
   }
   {
     id: 9584005
@@ -46467,7 +46093,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19584005
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46480,9 +46106,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584005
-    des: building-29584005
-    confront_des: building-39584005
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9584006
@@ -46493,7 +46118,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584006
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -46503,9 +46127,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584006
-    des: building-29584006
-    confront_des: building-39584006
   }
   {
     id: 9584007
@@ -46516,7 +46137,6 @@
     mission_skill: 0;580112;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584007
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46526,9 +46146,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584007
-    des: building-29584007
-    confront_des: building-39584007
   }
   {
     id: 9584008
@@ -46539,7 +46156,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584008
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46549,9 +46165,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584008
-    des: building-29584008
-    confront_des: building-39584008
   }
   {
     id: 9584009
@@ -46562,7 +46175,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584009
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46572,9 +46184,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584009
-    des: building-29584009
-    confront_des: building-39584009
   }
   {
     id: 9584010
@@ -46585,7 +46194,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584010
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -46595,9 +46203,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584010
-    des: building-29584010
-    confront_des: building-39584010
     missionskill_on_death: "2,9584006,95840020,0;1,9584008,95840030,0"
   }
   {
@@ -46609,7 +46214,6 @@
     mission_skill: 95840036;95840036;95840036;95840036
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19584011
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46619,9 +46223,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584011
-    des: building-29584011
-    confront_des: building-39584011
   }
   {
     id: 9584012
@@ -46632,7 +46233,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584012
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -46642,9 +46242,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584012
-    des: building-29584012
-    confront_des: building-39584012
   }
   {
     id: 9584013
@@ -46655,7 +46252,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584013
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -46665,9 +46261,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584013
-    des: building-29584013
-    confront_des: building-39584013
     missionskill_on_death: "2,9584006,95840020,0;1,9584008,95840030,0"
   }
   {
@@ -46679,7 +46272,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19584201
+    name: Evangel Axis I
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46692,9 +46285,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584201
-    des: building-29584201
-    confront_des: building-39584201
   }
   {
     id: 9584202
@@ -46705,7 +46295,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19584202
+    name: Evangel Axis II
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -46718,9 +46308,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584202
-    des: building-29584202
-    confront_des: building-39584202
   }
   {
     id: 9584203
@@ -46732,7 +46319,7 @@
     battle_skill: 0;0;405004;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1,2"
-    name: building-19584203
+    name: Artillery Position
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -46742,9 +46329,12 @@
     type: 1
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584203
-    des: building-29584203
-    confront_des: building-39584203
+    des: Provides fire support for allied units within its support range, inflicting a sustained bombardment on enemy units during combat.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Capture and destroy with an echelon or attack with HOC.
+      '''
   }
   {
     id: 9584204
@@ -46755,7 +46345,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19584204
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46768,9 +46358,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584204
-    des: building-29584204
-    confront_des: building-39584204
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9584201,580111,0;1,9584202,580111,0;1,9584203,580111,0;1,9584204,580111,0;1,9584205,580111,0;1,9584206,580111,0;1,9584207,580111,0;1,9584208,580111,0;1,9584209,580111,0;1,9584210,580111,0;1,9584211,580111,0;1,9584212,580111,0"
   }
   {
@@ -46782,7 +46371,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19584205
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46795,9 +46384,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584205
-    des: building-29584205
-    confront_des: building-39584205
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9584206
@@ -46808,7 +46396,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19584206
+    name: Control Terminal II
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -46821,9 +46409,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584206
-    des: building-29584206
-    confront_des: building-39584206
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9584207
@@ -46834,7 +46421,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19584207
+    name: Defense Gate II
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46847,9 +46434,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49584207
-    des: building-29584207
-    confront_des: building-39584207
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9584208
@@ -46860,7 +46446,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584208
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46870,9 +46455,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584208
-    des: building-29584208
-    confront_des: building-39584208
   }
   {
     id: 9584209
@@ -46883,7 +46465,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584209
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46893,9 +46474,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584209
-    des: building-29584209
-    confront_des: building-39584209
   }
   {
     id: 9584210
@@ -46906,7 +46484,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584210
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46916,9 +46493,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584210
-    des: building-29584210
-    confront_des: building-39584210
   }
   {
     id: 9584211
@@ -46929,7 +46503,6 @@
     mission_skill: 0;95842020;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19584211
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -46939,9 +46512,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49584211
-    des: building-29584211
-    confront_des: building-39584211
   }
   {
     id: 9585701
@@ -46952,7 +46522,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19585701
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46965,9 +46535,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49585701
-    des: building-29585701
-    confront_des: building-39585701
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9585701,580111,0;1,9585702,580111,0;1,9585703,580111,0;1,9585704,580111,0;1,9585705,580111,0;1,9585706,580111,0"
   }
   {
@@ -46979,7 +46548,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19585802
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -46992,9 +46561,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49585802
-    des: building-29585802
-    confront_des: building-39585802
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9585801,580111,0;1,9585802,580111,0;1,9585803,580111,0;1,9585804,580111,0;1,9585805,580111,0;1,9585806,580111,0;1,9585807,580111,0;1,9585808,580111,0;1,9585809,580111,0;1,9585810,580111,0;2,9585806,580111,0"
   }
   {
@@ -47006,7 +46574,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19585803
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -47016,9 +46583,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49585803
-    des: building-29585803
-    confront_des: building-39585803
     missionskill_on_death: "2,9585806,95840021,0;1,9585810,95840031,0"
   }
   {
@@ -47030,7 +46594,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19585904
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -47043,9 +46607,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49585904
-    des: building-29585904
-    confront_des: building-39585904
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9585901,580111,0;1,9585902,580111,0;1,9585903,580111,0;1,9585904,580111,0;1,9585905,580111,0;1,9585906,580111,0;1,9585907,580111,0;1,9585908,580111,0;1,9585909,580111,0;1,9585910,580111,0;1,9585911,580111,0;1,9585912,580111,0"
   }
   {
@@ -47057,7 +46620,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19587201
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -47070,9 +46633,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49587201
-    des: building-29587201
-    confront_des: building-39587201
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9587201,580111,0;1,9587202,580111,0;1,9587203,580111,0;1,9587204,580111,0;1,9587205,580111,0;1,9587206,580111,0;1,9587207,580111,0;1,9587208,580111,0"
   }
   {
@@ -47084,7 +46646,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19587202
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -47094,9 +46655,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587202
-    des: building-29587202
-    confront_des: building-39587202
   }
   {
     id: 9587302
@@ -47107,7 +46665,7 @@
     mission_skill: 0;0;0;2000006
     battle_skill: 0;0;0;0
     condition: 0:2,1:2;0:2,1:0
-    name: building-19587302
+    name: Defense Gate I
     code: Door_Left
     shifting_spot: "10,80"
     shifting_team: "-20,0"
@@ -47120,9 +46678,8 @@
     transition: Door_Left:0_1,Door_Left:1_3
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49587302
-    des: building-29587302
-    confront_des: building-39587302
+    des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9587301,580111,0;1,9587302,580111,0;1,9587303,580111,0;1,9587304,580111,0;1,9587305,580111,0;1,9587306,580111,0;1,9587307,580111,0;1,95873208,580111,0;1,9587309,580111,0;1,9587310,580111,0;1,9587311,580111,0;1,9587312,580111,0;2,9587307,580111,0"
   }
   {
@@ -47134,7 +46691,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19587303
+    name: Evangel Axis I
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -47147,9 +46704,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587303
-    des: building-29587303
-    confront_des: building-39587303
   }
   {
     id: 9587304
@@ -47160,7 +46714,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19587304
+    name: Evangel Axis II
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -47173,9 +46727,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587304
-    des: building-29587304
-    confront_des: building-39587304
   }
   {
     id: 9587305
@@ -47186,7 +46737,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19587305
+    name: Evangel Axis III
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -47199,9 +46750,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587305
-    des: building-29587305
-    confront_des: building-39587305
   }
   {
     id: 9587306
@@ -47212,7 +46760,7 @@
     mission_skill: 0;580123;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:3;0:1,1:2
-    name: building-19587306
+    name: Evangel Axis IV
     code: Gospelaxis
     shifting_spot: "90,0"
     shifting_team: "-30,0"
@@ -47225,9 +46773,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587306
-    des: building-29587306
-    confront_des: building-39587306
   }
   {
     id: 9587307
@@ -47238,7 +46783,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-19587307
     code: Hiding
     shifting_spot: "0,2"
     shifting_team: "0,1"
@@ -47248,9 +46792,6 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-49587307
-    des: building-29587307
-    confront_des: building-39587307
     missionskill_on_death: "2,9587307,95840022,0;1,9587312,95840032,0"
   }
   {
@@ -47263,7 +46804,7 @@
     battle_skill: 0;0;405001;0
     condition: 0:0,1:0;0:0,1:1
     is_destroy: "1,2"
-    name: building-19587403
+    name: Artillery Position
     code: MissileLauncher
     shifting_spot: "4,97"
     shifting_team: "-30,0"
@@ -47273,9 +46814,11 @@
     inherent_mission_skill: "95842013"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49587403
-    des: building-29587403
-    confront_des: building-39587403
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Capture and destroy with an echelon or attack with HOC.
+      '''
   }
   {
     id: 9587404
@@ -47286,7 +46829,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: building-19587404
+    name: Control Terminal I
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -47299,9 +46842,8 @@
     is_focus: "1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    active_building_info: building-49587404
-    des: building-29587404
-    confront_des: building-39587404
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9587401,580111,0;1,9587402,580111,0;1,9587403,580111,0;1,9587404,580111,0;1,9587405,580111,0;1,9587406,580111,0;1,9587407,580111,0;1,9587408,580111,0;1,9587409,580111,0;1,9587410,580111,0;1,9587411,580111,0;1,9587412,580111,0;1,9587413,580111,0;1,9587414,580111,0;1,9587415,580111,0"
   }
   {

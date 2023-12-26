@@ -26991,6 +26991,155 @@
     bonus_id: 3104
   }
   {
+    id: 20092
+    name: Winter Night Visit
+    classes: 19
+    type: 201
+    space: "7,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: O foolish human, this is the path to the future that shall birth the one who will revolutionize your terrible world. But before you activate it, get that ashtray on the third shelf out of here.
+    code: 2023WinterActivity_Library_deco
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20093
+    name: A Million Roses
+    classes: 19
+    type: 201
+    space: "5,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A beautiful song will embellish life, even if it is not essential to one's survival. It carries people's dream of a better world, which nurtures extraordinary virtues... The more timeless it is, the more good it creates.
+    code: 2023WinterActivity_cdplayer_deco
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20094
+    name: Sky of Ashes
+    classes: 19
+    type: 101
+    space: "10,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The people passing by never pay attention to the ground that they have walked upon, but the ground will always remember the memories that it bears. The value of a piece of land lies not in what's on it, but what it has witnessed... Sorrow, partings, and lots and lots of dust.
+    code: 2023WinterActivity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20095
+    name: Shackles of Freedom
+    classes: 19
+    type: 201
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: In the past, they symbolized bondage and control, but once they have lost their intended function and become a object for display, people stopped fearing them. In fact, they've become a symbol of freedom. Besides, they do look very cool.
+    code: 2023WinterActivity_Gospelaxis_deco
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20096
+    name: The Holy Grail
+    classes: 19
+    type: 302
+    space: "5,8,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The work uniform for the "Holy Grail" at the Relics Department. This is the clothing we wear for scientific research. Apart from challenging the limit time and time again, the design of the uniform and the design trends inspired by it also reflect our infinite imagination of Relic life and fashion to a certain extent.
+    code: 2023WinterActivity_uniform_deco
+    texture_type: "1"
+    offset: "0.000,0.365,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20097
+    name: Image of the Past
+    classes: 19
+    type: 302
+    space: "4,9,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: People invented the camera for the purpose of preserving precious memories and beautiful moments. What makes these preserved memories so precious is the fact that the past is forever out of reach.
+    code: 2023WinterActivity_Laplace,2023WinterActivity_Laplace_deco_A,2023WinterActivity_Laplace_deco_B
+    texture_type: "1,2,2"
+    sorting: "0,10,20"
+    offset: "0.000,0.198,0.000|0.052,-0.038,0.000|0.000,-1.092,0.000"
+    rotate: "3,3,3"
+    interact_point: "106"
+    interact_point_offset: *-0.399,4.265,-0.523
+  }
+  {
+    id: 20098
+    name: Gaze of the Wolf Pack
+    classes: 19
+    type: 201
+    space: "9,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Wolves are quite similar to humans in nature. As social animals that live in groups, they know how to delegate tasks and care for each other. No wolf can survive alone without its companions... unless they come to realize that they have become a burden to the whole pack.
+    code: 2023WinterActivity_Defy,2023WinterActivity_Defy_deco
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.000,0.000,0.000|0.177,0.031,0.010"
+    rotate: "2,2"
+  }
+  {
+    id: 20099
+    name: Morning Light on the Horizon
+    classes: 19
+    type: 301
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Hope is a dangerous thing that can drive people mad. On this desolate earth, it serves no purpose. Harboring hope will only create more hurt... But even so, hope will never disappear, just as the sun will always rise no matter how terrible the world has become.
+    code: 2023WinterActivity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20100
+    name: Nameless One
+    classes: 19
+    type: 201
+    space: "2,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: She doesn't need to be known as a hero, nor does she want to have any monuments erected in her honor. Beneath this face lies the fiery spirit of a nameless one... It might get smashed into pieces if she ever saw this.
+    code: 2023WinterActivity_Ange_deco,2023WinterActivity_Ange_decoA
+    texture_type: "2,1"
+    sorting: "10,0"
+    offset: "0.001,1.140,0.264|0.081,-0.035,-0.008"
+    rotate: "2,2"
+    interact_point: "64"
+    interact_point_offset: *2.771,0.000,0.000
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20101
+    name: Navigator of the Deep Lake
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Slow Shock". "Compared to conquering the remote ice-tipped mountain, exploring the bottom of the mysterious lake in one's heart requires more courage."
+    code: 2023WinterActivity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300

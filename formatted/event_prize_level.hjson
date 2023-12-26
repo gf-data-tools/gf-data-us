@@ -98,6 +98,26 @@
       '''
   }
   {
+    id: 9
+    name: Slow Shock
+    type: 2
+    value: "110061"
+    condition: 400000:40537;500000:40538;600000:40539;800000:40540;1000000:40541;1200000:40542;1500000:40543;1800000:40544;2100000:40545;2400000:40546;3000000:40547;3600000:40548
+    start_time: 2023-12-26 00:00:00
+    end_time: 2024-01-30 23:59:59
+    prize_start_time: 2023-12-26 00:00:00
+    prize_end_time: 2024-01-30 23:59:59
+    left_icon: cae89f6f9eed9a57_draw_231224182944.png
+    background: f18573d678bebb79_draw_231224182944.png
+    notice_txt:
+      '''
+      1. For the duration of the event, accumulate points in the ranking stage of "Slow Shock" and complete score targets to obtain the corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. After the end of the event, no more points can be scored, but the event interface will remain until the reward collection deadline.
+      4. While the event interface is still accessible, you can enter this reward interface through the rolling event banner on the home page. You will not be able to collect your rewards past the deadline.
+      '''
+  }
+  {
     id: 1001
     name: event_prize_level-10001001
     type: 2

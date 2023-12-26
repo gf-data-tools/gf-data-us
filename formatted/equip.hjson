@@ -10362,7 +10362,7 @@
     powerup_part: 0.55
     exclusive_rate: 3
     bonus_type: pow:1000
-    passive_skill: "759062"
+    passive_skill: "759062,759270"
     max_level: 10
     auto_select_id: 20055
     is_show: 1
@@ -10573,6 +10573,39 @@
     obtain_ids: "3084"
   }
   {
+    id: 340
+    name: M2 Custom Armor-Piercing Round
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> Enhances skill $M1918 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,3"
+    armor_piercing: "250,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_M1918
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "75,20075"
+    equip_introduction: Modified from the M2 armor-piercing round, this iteration features greatly enhanced muzzle velocity and ballistic performance.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:700
+    passive_skill: "759127"
+    max_level: 10
+    auto_select_id: 19055
+    is_show: 1
+    obtain_ids: "3097"
+  }
+  {
     id: 341
     name: 7.62 P80 Armor-Piercing Round
     description:
@@ -10638,6 +10671,39 @@
     auto_select_id: 20058
     is_show: 1
     obtain_ids: "3086"
+  }
+  {
+    id: 350
+    name: SAAB Exoskeleton
+    description:
+      '''
+      MOVE SPEED+<speed>
+      EVA+<dodge>Enhances skill$C-MS only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "14,19"
+    speed: "2,2"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_CMS
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "213"
+    equip_introduction: A custom exoskeleton that IOP developed exclusively for C-MS. Sporting C-MS's preferred graffiti, it effectively increases the Doll's combat performance.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759214"
+    max_level: 10
+    auto_select_id: 20060
+    is_show: 1
+    obtain_ids: "3087"
   }
   {
     id: 351

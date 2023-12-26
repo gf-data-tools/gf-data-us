@@ -580,6 +580,24 @@
     rank: 1
   }
   {
+    id: 121
+    type: 3
+    arg: "22"
+    code: Medal_SlowShock
+    item_name: Navigator of the Deep Lake
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Slow Shock". "Compared to conquering the remote ice-tipped mountain, exploring the bottom of the mysterious lake in one's heart requires more courage."
+    rank: 1
+  }
+  {
+    id: 122
+    type: 3
+    arg: "23"
+    code: Medal_SlowShock_rank
+    item_name: Snow Line in the Sea Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their brilliant performance in the scoring map of "Slow Shock". "When the searing flame lights up the night, so too shall I be reborn in white like a rising sun."
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -951,6 +969,46 @@
     rank: 1
     sort: -40
     detail_introduction: A special IOP order for performing a Heavy Production in Factory - Equipment Production. Testtest
+  }
+  {
+    id: 527
+    type: 1
+    arg: "527"
+    code: Grenade
+    item_name: Heart Rate Tool
+    introduction: '''"Your heart is about to explode. Tie it up with this metal bar." (External use)'''
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 528
+    type: 1
+    arg: "528"
+    code: Grenade
+    item_name: Heart Rate Tool
+    introduction: '''"Your heart is about to explode. Tie it up with this metal bar."'''
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 529
+    type: 1
+    arg: "529"
+    code: Flashbang
+    item_name: Signal Tool
+    introduction: '''"Signal variance is at 16 minutes 42 seconds." (External use)'''
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 530
+    type: 1
+    arg: "530"
+    code: Flashbang
+    item_name: Signal Tool
+    introduction: '''"Signal variance is at 16 minutes 42 seconds."'''
+    rank: 1
+    is_hide_info: 1
   }
   {
     id: 601
@@ -11919,6 +11977,42 @@
     rank: 1
   }
   {
+    id: 2273
+    type: 5
+    arg: "1"
+    code: profilePic_rank4_M1919A4Mod
+    item_name: M1919A4 Neural Upgrade Icon
+    introduction: M1919A4 Neural Upgrade Icon
+    rank: 1
+  }
+  {
+    id: 2274
+    type: 5
+    arg: "1"
+    code: profilePic_rank5_K5Mod
+    item_name: K5 Neural Upgrade Icon
+    introduction: K5 Neural Upgrade Icon
+    rank: 1
+  }
+  {
+    id: 2275
+    type: 5
+    arg: "1"
+    code: profilePic_rank6_Type100Mod
+    item_name: 100 Shiki Neural Upgrade Icon
+    introduction: 100 Shiki Neural Upgrade Icon
+    rank: 1
+  }
+  {
+    id: 2276
+    type: 5
+    arg: "1"
+    code: profilePic_rank6_DP12Mod
+    item_name: DP-12 Neural Upgrade Icon
+    introduction: DP-12 Neural Upgrade Icon
+    rank: 1
+  }
+  {
     id: 2277
     type: 5
     arg: "1"
@@ -12000,6 +12094,132 @@
     rank: 1
   }
   {
+    id: 2287
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_01
+    item_name: Icon: Figure in the Mirror
+    introduction: Icon: Figure in the Mirror
+    rank: 1
+  }
+  {
+    id: 2288
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_02
+    item_name: Icon: Baldr's Return
+    introduction: Icon: Baldr's Return
+    rank: 1
+  }
+  {
+    id: 2289
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_03
+    item_name: Icon: Into Darkness
+    introduction: Icon: Into Darkness
+    rank: 1
+  }
+  {
+    id: 2290
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_04
+    item_name: Icon: The Fall of Kepler-78b
+    introduction: Icon: The Fall of Kepler-78b
+    rank: 1
+  }
+  {
+    id: 2291
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_05
+    item_name: Icon: Story Thief
+    introduction: Icon: Story Thief
+    rank: 1
+  }
+  {
+    id: 2292
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_06
+    item_name: Icon: Character in a Story
+    introduction: Icon: Character in a Story
+    rank: 1
+  }
+  {
+    id: 2293
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_07
+    item_name: Icon: Hodur's Return
+    introduction: Icon: Hodur's Return
+    rank: 1
+  }
+  {
+    id: 2294
+    type: 5
+    arg: "1"
+    code: profilePic_SlowShockActivity2023_08
+    item_name: Icon: Walking Against the Light
+    introduction: Icon: Walking Against the Light
+    rank: 1
+  }
+  {
+    id: 2295
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_01
+    item_name: ID: Oath of Honor
+    introduction: ID: Oath of Honor
+    rank: 1
+  }
+  {
+    id: 2296
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_02
+    item_name: ID: Endless Song
+    introduction: ID: Endless Song
+    rank: 1
+  }
+  {
+    id: 2297
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_03
+    item_name: ID: Silent Port of Spirits
+    introduction: ID: Silent Port of Spirits
+    rank: 1
+  }
+  {
+    id: 2298
+    type: 5
+    arg: "1"
+    code: card_SlowShockActivity2023_04
+    item_name: ID: Dawn is Nigh
+    introduction: ID: Dawn is Nigh
+    rank: 1
+  }
+  {
+    id: 2299
+    type: 5
+    arg: "1"
+    code: cg_SlowShockActivity2023_01
+    item_name: Background: Phonograph Museum
+    introduction: Background: Phonograph Museum
+    rank: 1
+  }
+  {
+    id: 2300
+    type: 5
+    arg: "1"
+    code: profilePic_Winter2023_coremask
+    item_name: True Core Mask Commemorative Icon - Show Shock
+    introduction: True Core Mask Commemorative Icon - Show Shock
+    rank: 1
+  }
+  {
     id: 2301
     type: 5
     arg: "1"
@@ -12058,6 +12278,24 @@
     type: 5
     arg: "1"
     code: card_Children2022_us
+    rank: 1
+  }
+  {
+    id: 2329
+    type: 5
+    arg: "1"
+    code: profilePic_friendmall_MK3A1
+    item_name: Icon: MK3A1
+    introduction: Icon: MK3A1
+    rank: 1
+  }
+  {
+    id: 2330
+    type: 5
+    arg: "1"
+    code: card_friendmall_MK3A1
+    item_name: ID Card: Wrench Wench
+    introduction: ID Card: Wrench Wench
     rank: 1
   }
   {
@@ -14541,6 +14779,52 @@
     rank: 1
   }
   {
+    id: 100180
+    type: 9
+    arg: "100180"
+    code: Bumdle_2023SlowShock
+    item_name: Supply Box - Slow Shock
+    introduction: Supply Box - Slow Shock
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100181
+    type: 4
+    arg: "100181"
+    code: Nova_medal
+    item_name: Nova Medal - Slow Shock
+    introduction: Nova Medal - Slow Shock
+    rank: 1
+  }
+  {
+    id: 100182
+    type: 4
+    arg: "100182"
+    code: Platinum_medal
+    item_name: Platinum Medal - Slow Shock
+    introduction: Platinum Medal - Slow Shock
+    rank: 1
+  }
+  {
+    id: 100183
+    type: 4
+    arg: "100183"
+    code: coremask_2023SlowShock
+    item_name: True Core Mask - Slow Shock
+    introduction: True Core Mask - Slow Shock
+    rank: 1
+  }
+  {
+    id: 100184
+    type: 4
+    arg: "100184"
+    code: coremask2_2023SlowShock
+    item_name: Corrupted Heart Mask - Slow Shock
+    introduction: A mask which radiates a sinister aura. Only those who have been through an extremely difficult trial can obtain it. It seems useless when held in the hand, but it can be exchanged for a longed-for encounter at the shop.
+    rank: 1
+  }
+  {
     id: 110001
     type: 4
     arg: "110001"
@@ -15026,6 +15310,123 @@
     item_name: Event Points
     introduction: Event Points
     rank: 1
+  }
+  {
+    id: 110054
+    type: 4
+    arg: "110054"
+    code: EventPT5
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110055
+    type: 4
+    arg: "110055"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110056
+    type: 4
+    arg: "110056"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110057
+    type: 4
+    arg: "110057"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110058
+    type: 4
+    arg: "110058"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110059
+    type: 4
+    arg: "110059"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110060
+    type: 4
+    arg: "110060"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110061
+    type: 4
+    arg: "110061"
+    code: EventPT6
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110062
+    type: 4
+    arg: "110062"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110063
+    type: 4
+    arg: "110063"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110064
+    type: 4
+    arg: "110064"
+    code: EventPT7
+    rank: 1
+  }
+  {
+    id: 110065
+    type: 4
+    arg: "110065"
+    code: PT
+    item_name: item-10110065
+    introduction: item-20110065
+    rank: 1
+    detail_introduction: item-30110065
+  }
+  {
+    id: 110066
+    type: 4
+    arg: "110066"
+    code: EventPT8
+    item_name: item-10110066
+    introduction: item-20110066
+    rank: 1
+    detail_introduction: item-30110066
   }
   {
     id: 120001
@@ -15703,6 +16104,15 @@
     code: profileFrame_BattlePass_QBZ191
     item_name: Icon Frame: Chilling with Summer
     introduction: Icon Frame: Chilling with Summer
+    rank: 1
+  }
+  {
+    id: 200025
+    type: 5
+    arg: "1"
+    code: profileFrame_friendmall_MK3A1
+    item_name: Icon Frame: Deft worker
+    introduction: Icon Frame: Deft worker
     rank: 1
   }
   {
@@ -16650,6 +17060,16 @@
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration Season 1. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500063
+    type: 15
+    arg: "1500063"
+    code: package_choose
+    item_name: Special Event T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a T-Doll within the given parameters.
     rank: 1
     sort: -1
   }

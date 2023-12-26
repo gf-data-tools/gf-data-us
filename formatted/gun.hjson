@@ -6957,14 +6957,14 @@
     special: 8
     eat_ratio: 125
     ratio_range: 120
-    skill1: 100111
+    skill1: 100112
     normal_attack: 300105
-    passive_skill: "300201,300202"
+    passive_skill: "759128,759129"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "23"
     effect_grid_effect: "1,15;8,10"
-    type_equip1: 2;5,17
+    type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16,18
     type_equip3: 3;14,20,21
     ai: 75
@@ -7351,18 +7351,19 @@
     ratio_range: 110
     skill1: 105202
     normal_attack: 300105
-    passive_skill: "300201,300202,999999,756183"
+    passive_skill: "300201,300202,999999,756183,759272"
     effect_grid_center: 19
     effect_guntype: "6"
     effect_grid_pos: "25"
     effect_grid_effect: "3,25;8,10"
     type_equip1: 2;5,17
     type_equip2: 1;1,2,3,16,18
-    type_equip3: 3;14,21
+    type_equip3: 3;14,21,20
     ai: 80
     launch_time: 1970-01-01 08:00:00
     obtain_ids: "1,3,2"
     rank_display: 3
+    mindupdate_consume: 10:15,45:200;10:30,45:800;10:45,45:1600
     explore_tag: "8,11,60"
     gun_detail_bg: nation_US
     org_id: 10704
@@ -18651,16 +18652,18 @@
     ratio_range: 100
     skill1: 108901
     normal_attack: 300101
+    dynamic_passive_skill: "740081"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,12,14,18"
     effect_grid_effect: "1,15;3,20"
     type_equip1: 1;4,13,16
     type_equip2: 2;6
-    type_equip3: 3;10
+    type_equip3: 3;10,20
     ai: 212
     launch_time: 2019-04-16 00:00:00
     obtain_ids: "1"
     rank_display: 4
+    mindupdate_consume: 10:20,45:200;10:40,45:1000;10:60,45:2000
     explore_tag: "29,37,61"
     org_id: 10802
     related_story_id: 100212
@@ -18735,12 +18738,12 @@
     ratio_range: 100
     skill1: 109001
     normal_attack: 300102
-    dynamic_passive_skill: "109005,109002,109003,109004"
+    dynamic_passive_skill: "109005,109002,109003,109004,759215"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
     effect_grid_effect: "1,15;2,5"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;5,6
     type_equip3: 1;1,2,3,4,13
     ai: 213
@@ -19835,19 +19838,20 @@
     ratio_range: 100
     skill1: 110029
     normal_attack: 300102
-    passive_skill: "110032,702010"
-    dynamic_passive_skill: "110030,110031"
+    passive_skill: "110032"
+    dynamic_passive_skill: "110030,110031,740069,740070"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
     effect_grid_effect: "1,12;3,35"
     type_equip1: 3;9,10
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 1;1,2,3,4,13,18
     ai: 228
     launch_time: 2019-04-16 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     org_id: 10203
     related_story_id: 100228
     gun_tag_ids: "113,108"
@@ -23899,18 +23903,19 @@
     skill1: 113201
     normal_attack: 113205
     passive_skill: "300202"
-    dynamic_passive_skill: "113202,113203,113204"
+    dynamic_passive_skill: "113202,113203,113204,740063,740064"
     effect_grid_center: 8
     effect_guntype: "3,5"
     effect_grid_pos: "3,4"
     effect_grid_effect: "1,15;3,15"
-    type_equip1: 3;11
+    type_equip1: 3;11,20
     type_equip2: 2;7
     type_equip3: 1;1,2,3,4,22
     ai: 164
     launch_time: 2020-12-02 00:00:00
     obtain_ids: "2"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     gun_detail_bg: nation_US
     org_id: 10802
     related_story_id: 100282
@@ -29049,8 +29054,10 @@
   }
   {
     id: 366
+    name: SPAS-15
     en_name: SPAS-15
     code: SPAS15
+    extra: u介,Chitose Morinaga,
     en_introduce:
       '''
       Type                       Combat shotgun
@@ -29113,8 +29120,10 @@
   }
   {
     id: 367
+    name: MK3A1
     en_name: MK3A1
     code: MK3A1
+    extra: NAMYO, Saho Shirasu,
     en_introduce:
       '''
       Type                       Shotgun
@@ -29179,8 +29188,10 @@
   }
   {
     id: 368
+    name: UTS-15
     en_name: UTS-15
     code: UTS15
+    extra: 原子Dan, Rinko Shirosaki,
     en_introduce:
       '''
       Type                       Shotgun
@@ -29658,7 +29669,7 @@
     ratio_range: 100
     skill1: 750610
     normal_attack: 300101
-    passive_skill: "750612,750613,750614,750615"
+    passive_skill: "750612,750613,750614,750615,750782"
     dynamic_passive_skill: "750611,750621"
     effect_grid_center: 18
     effect_grid_pos: "12,17,22,18,23,14,19,24"
@@ -30154,6 +30165,319 @@
     atk_speed_max: 120
     ratio_rec: 100
     recommended_team_ids: "6"
+  }
+  {
+    id: 383
+    name: VP9
+    en_name: VP9
+    code: VP9
+    extra: 大丈夫,Hina Youmiya,
+    en_introduce:
+      '''
+      Type                       Semi-automatic pistol
+      Mass                       710 g (25 oz)
+      Length                     186.5 mm (7.34 in)
+      Barrel length              104 mm (4.1 in)
+      Cartridge                  9×19mm Parabellum
+      Action                     Short recoil operated,
+                                 Browning-type tilting barrel,
+                                 locked breech
+      Muzzle velocity            415 m/s
+      Effective firing range     50 m
+      Feed system                15, 17, or 20-round detachable box magazine
+      Sights                     Iron sights,
+                                 tritium sights
+      '''
+    type: 1
+    rank: 4
+    develop_duration: 3240
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 105
+    ratio_rate: 116
+    ratio_speed: 100
+    ratio_hit: 112
+    ratio_dodge: 110
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 116
+    ratio_range: 100
+    skill1: 750755
+    normal_attack: 300101
+    passive_skill: "750760,750761"
+    effect_grid_center: 13
+    effect_grid_pos: "7,12,18,9,14"
+    effect_grid_effect: "2,18;3,15"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10
+    ai: 212
+    launch_time: 2023-12-26 00:00:00
+    obtain_ids: "258"
+    rank_display: 4
+    gun_detail_bg: nation_German
+    org_id: 10703
+    show_damage_skin: ",0,"
+    gun_tag_ids: "10101"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "2,3,4,6,8"
+  }
+  {
+    id: 384
+    name: Jatimatic
+    en_name: Jatimatic
+    code: Jatimatic
+    extra: Rinotuna,,
+    en_introduce:
+      '''
+      Type                       Submachine gun
+      Mass                       1.65 kg (3.64 lb)
+      Length                     375 mm (14.8 in)
+      Barrel length              203 mm (8.0 in)
+      Cartridge                  9×19mm Parabellum
+      Action                     Off-axis bolt travel blowback
+      Rate of fire               600–650 rounds/min
+      Muzzle velocity            360 m/s
+      Effective firing range     100 m
+      Feed system                20- or 40-round detachable box magazine
+      Sights                     Forward open sight
+      '''
+    type: 2
+    rank: 5
+    develop_duration: 9300
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 130
+    ratio_pow: 95
+    ratio_rate: 110
+    ratio_speed: 100
+    ratio_hit: 105
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 115
+    ratio_range: 100
+    skill1: 750754
+    normal_attack: 750757
+    passive_skill: "750781"
+    dynamic_passive_skill: "750758,750759"
+    effect_grid_center: 13
+    effect_guntype: "4"
+    effect_grid_pos: "7,9"
+    effect_grid_effect: "2,18;5,30"
+    type_equip1: 3;9,10
+    type_equip2: 2;6
+    type_equip3: 1;1,2,3,4,13
+    ai: 150
+    launch_time: 2023-12-26 00:00:00
+    obtain_ids: "259"
+    rank_display: 5
+    org_id: 10702
+    related_story_id: 100384
+    show_damage_skin: ",0,"
+    gun_tag_ids: "124,113,129"
+    atk_speed_max: 135
+    ratio_rec: 130
+    recommended_team_ids: "1"
+  }
+  {
+    id: 385
+    name: VRB
+    en_name: VRB
+    code: VRB
+    extra: カワグチ,,
+    en_introduce:
+      '''
+      Type                       Assault rifle
+      Mass                       6.8 lb (3.08 kg)
+      Length                     38 in (96.5 cm)
+      Barrel length              16.75 in
+      Cartridge                  .223REM
+      '''
+    type: 4
+    rank: 5
+    develop_duration: 13800
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 115
+    ratio_pow: 120
+    ratio_rate: 80
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 116
+    armor_piercing: 15
+    crit: 20
+    eat_ratio: 125
+    ratio_range: 100
+    skill1: 121501
+    normal_attack: 121503
+    passive_skill: "121502"
+    dynamic_passive_skill: "121504"
+    effect_grid_center: 12
+    effect_guntype: "2"
+    effect_grid_pos: "16,17,18"
+    effect_grid_effect: "3,30;4,18"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10
+    ai: 48
+    launch_time: 2023-12-26 00:00:00
+    obtain_ids: "257"
+    rank_display: 5
+    gun_detail_bg: nation_German
+    org_id: 10402
+    show_damage_skin: ",0,"
+    gun_tag_ids: "117"
+    atk_speed_max: 60
+    ratio_rec: 115
+    recommended_team_ids: "1"
+  }
+  {
+    id: 386
+    name: LAMG
+    en_name: LAMG
+    code: LAMG
+    extra: 瑶柱菌,,
+    en_introduce:
+      '''
+      Type                       Light machine gun
+      Mass                       5.1 kg (11 lb)
+      Length                     890 m (35 in)
+      Barrel length              381 m (15.0 in)
+      Cartridge                  5.56×45mm NATO
+      Action                     Open bolt,
+                                 Constant Recoil,
+                                 Gas Operated
+      Rate of fire               550–600 rounds/min
+      Muzzle velocity            945 m/s
+      Feed system                M27 linked disintegrating belt
+      Sights                     Iron sights and Picatinny rail for various optics
+      '''
+    type: 5
+    rank: 5
+    develop_duration: 22560
+    baseammo: 40
+    basemre: 30
+    ammo_add_withnumber: 25
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    retirepart: 5
+    ratio_life: 115
+    ratio_pow: 95
+    ratio_rate: 120
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 115
+    armor_piercing: 15
+    crit: 5
+    special: 10
+    eat_ratio: 130
+    ratio_range: 100
+    skill1: 121401
+    normal_attack: 121402
+    passive_skill: "121404,300202,121403"
+    effect_grid_center: 17
+    effect_guntype: "6"
+    effect_grid_pos: "21,22,17,18,23"
+    effect_grid_effect: "1,15;8,15"
+    type_equip1: 2;5,8,17
+    type_equip2: 1;1,2,3,4,13,16
+    type_equip3: 3;9,10,14,21
+    ai: 238
+    launch_time: 2023-12-26 00:00:00
+    obtain_ids: "257"
+    rank_display: 5
+    gun_detail_bg: nation_US
+    org_id: 10202
+    related_story_id: 100386
+    show_damage_skin: ",0,8505,"
+    gun_tag_ids: "108,125"
+    atk_speed_max: 1000
+    ratio_rec: 115
+    recommended_team_ids: "3,5"
+  }
+  {
+    id: 387
+    name: TPS
+    en_name: TPS
+    code: TPS
+    extra: S.Joop,,
+    en_introduce:
+      '''
+      Type                       Shotgun
+      Mass                       6.5 lb (2.9 kg)
+      Length                     39.75 in (101.0 cm)
+      Barrel length              18 in (46 cm)
+      Cartridge                  12-gauge
+      Action                     Pump-action
+      Feed system                Internal tube magazine, 7+1
+      Sights                      M16A2 style front & rear
+      '''
+    type: 6
+    rank: 5
+    develop_duration: 29160
+    baseammo: 30
+    basemre: 40
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 25
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    retirepart: 5
+    ratio_life: 115
+    ratio_pow: 95
+    ratio_rate: 125
+    ratio_speed: 100
+    ratio_hit: 130
+    ratio_dodge: 120
+    ratio_armor: 125
+    armor_piercing: 15
+    crit: 40
+    special: 6
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 750756
+    normal_attack: 300106
+    passive_skill: "300202,300203,200429,750775,,750776,750777,750778,750779,750780"
+    dynamic_passive_skill: "750772,750773,750774"
+    effect_grid_center: 7
+    effect_guntype: "5,6"
+    effect_grid_pos: "11,12,1,2,3"
+    effect_grid_effect: "1,15;8,10"
+    type_equip1: 3;11
+    type_equip2: 2;7
+    type_equip3: 1;1,2,3,4,22
+    ai: 229
+    launch_time: 2023-12-26 00:00:00
+    obtain_ids: "258"
+    rank_display: 5
+    gun_detail_bg: nation_Belgium
+    org_id: 10802
+    related_story_id: 100387
+    show_damage_skin: ",0,"
+    gun_tag_ids: "112,110,103,129"
+    atk_speed_max: 60
+    ratio_rec: 115
+    recommended_team_ids: "5"
   }
   {
     id: 1001
@@ -37429,12 +37753,9 @@
   }
   {
     id: 9110
-    name: gun-10009110
+    name: Dandelion
     en_name: Dandelion_Gri
     code: Dandelion_Gri
-    extra: gun-40009110
-    en_introduce: gun-50009110
-    character: gun-60009110
     type: 2
     rank: 5
     develop_duration: 9300
@@ -37472,12 +37793,9 @@
   }
   {
     id: 9111
-    name: gun-10009111
+    name: 艾赫明
     en_name: Ahmin
     code: Ahmin_battle
-    extra: gun-40009111
-    en_introduce: gun-50009111
-    character: gun-60009111
     type: 2
     rank: 5
     develop_duration: 9300
@@ -37513,12 +37831,9 @@
   }
   {
     id: 9112
-    name: gun-10009112
+    name: Ramzan
     en_name: Pamzan_Young
     code: Pamazan_Young_NPC
-    extra: gun-40009112
-    en_introduce: gun-50009112
-    character: gun-60009112
     type: 2
     rank: 5
     develop_duration: 9300
@@ -37554,12 +37869,9 @@
   }
   {
     id: 9113
-    name: gun-10009113
+    name: Angelia
     en_name: Ange_01
     code: Ange_battle_01
-    extra: gun-40009113
-    en_introduce: gun-50009113
-    character: gun-60009113
     type: 1
     rank: 5
     develop_duration: 3000
@@ -37595,12 +37907,9 @@
   }
   {
     id: 9114
-    name: gun-10009114
+    name: Angelia
     en_name: Ange_02
     code: Ange_battle_02
-    extra: gun-40009114
-    en_introduce: gun-50009114
-    character: gun-60009114
     type: 1
     rank: 5
     develop_duration: 3000
@@ -37636,12 +37945,9 @@
   }
   {
     id: 9115
-    name: gun-10009115
+    name: Angelia
     en_name: Ange_03
     code: Ange_battle_03
-    extra: gun-40009115
-    en_introduce: gun-50009115
-    character: gun-60009115
     type: 1
     rank: 5
     develop_duration: 3000
@@ -37677,12 +37983,9 @@
   }
   {
     id: 9116
-    name: gun-10009116
+    name: Angelia
     en_name: Ange_04
     code: Ange_battle_04
-    extra: gun-40009116
-    en_introduce: gun-50009116
-    character: gun-60009116
     type: 1
     rank: 5
     develop_duration: 3000
@@ -37718,12 +38021,9 @@
   }
   {
     id: 9117
-    name: gun-10009117
+    name: Marsha
     en_name: NPC_Laplace
     code: NPC_Laplace
-    extra: gun-40009117
-    en_introduce: gun-50009117
-    character: gun-60009117
     type: 1
     rank: 5
     develop_duration: 3000
@@ -40914,7 +41214,7 @@
     special: 8
     eat_ratio: 125
     ratio_range: 120
-    skill1: 800303
+    skill1: 800307
     skill2: 800304
     normal_attack: 300105
     passive_skill: "800305,800306"
@@ -40923,7 +41223,7 @@
     effect_guntype: "6"
     effect_grid_pos: "23"
     effect_grid_effect: "1,18;8,10"
-    type_equip1: 2;5,17
+    type_equip1: 2;5,17,19
     type_equip2: 1;1,2,3,16,18
     type_equip3: 3;14,20,21
     ai: 75
@@ -40937,6 +41237,114 @@
     gun_tag_ids: "108"
     atk_speed_max: 1000
     ratio_rec: 95
+    recommended_team_ids: "3,5"
+  }
+  {
+    id: 20080
+    name: M1919A4
+    en_name: M1919A4
+    code: M1919A4Mod
+    introduce:
+      '''
+      类型            中型机枪
+      总重            14公斤
+      全长            964毫米
+      操作人数         2至3名
+      弹药            .30-06 Springfield（U.S.）
+                      7.62×51mm NATO（U.S.）
+                      .303 British
+      枪机种类        后坐作用
+      发射速率        400–600发／分钟
+      枪口初速        850米／秒
+      有效射程        1,400米
+      供弹方式        M9弹链供弹
+      瞄准具型式      可调机械照门
+      '''
+    dialogue: M1919A4,加入啦！战斗的盛宴,快开始吧！
+    extra: 豆芽, Sachiyo Yoshida,
+    en_introduce:
+      '''
+      Type                       Medium machine gun
+
+      Weight                     31 lb (14 kg) 
+
+      Length                     37.94 in (964 mm) 
+
+      Barrel length              24 in (610 mm)
+
+      Cartridge                  .30-06 Springfield (U.S.)
+
+                                 7.62×51mm NATO
+
+                                 .303 British
+
+                                 7.92×57mm Mauser
+
+                                 6.5×55mm
+
+                                 7.62×54mmR
+
+                                 8×63mm patron m/32
+
+                                 7.65×53mm Argentine
+
+                                 7.5×54mm French
+
+      Action                     Recoil-operated/short-recoil operation
+
+      Rate of fire               400–600 round/min (1200–1500 for AN/M2 variant)
+
+      Muzzle velocity            2,800 ft/s (850 m/s)
+
+      Effective firing range     1,500 yd (1,400 m) (maximum effective range)
+
+      Feed system                250-round belt
+      '''
+    type: 5
+    rank: 4
+    develop_duration: 20400
+    baseammo: 40
+    basemre: 30
+    ammo_add_withnumber: 25
+    mre_add_withnumber: 15
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    retirepart: 5
+    ratio_life: 110
+    ratio_pow: 132
+    ratio_rate: 95
+    ratio_speed: 100
+    ratio_hit: 116
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 5
+    special: 9
+    eat_ratio: 116
+    ratio_range: 110
+    skill1: 740084
+    skill2: 740088
+    normal_attack: 740086
+    passive_skill: "300201,300202,740087,759272"
+    effect_grid_center: 19
+    effect_guntype: "6"
+    effect_grid_pos: "23,24,25"
+    effect_grid_effect: "3,30;8,12"
+    type_equip1: 2;5,17,19
+    type_equip2: 1;1,2,3,16,18
+    type_equip3: 3;14,21,20
+    ai: 80
+    launch_time: 2016-05-20 00:00:00
+    obtain_ids: "35"
+    rank_display: 4
+    prize_id: 3080
+    explore_tag: "8,11,60"
+    gun_detail_bg: nation_US
+    related_story_id: 100080
+    show_damage_skin: ",0,5066,7,"
+    gun_tag_ids: "108"
+    atk_speed_max: 1000
+    ratio_rec: 110
     recommended_team_ids: "3,5"
   }
   {
@@ -43429,6 +43837,87 @@
     recommended_team_ids: "1"
   }
   {
+    id: 20212
+    name: K5
+    en_name: K5
+    code: K5Mod
+    introduce:
+      '''
+      类型            半自动手枪
+      总重            空枪：800克
+      全长            190毫米
+      枪管长度        105毫米
+      弹药            9×19毫米鲁格弹
+      枪机种类        枪管短行程后座作用，单/双动
+      枪口初速        350米／秒
+      有效射程        50米
+      供弹方式        12、13发可拆卸式弹匣
+                      异说为13发可拆卸式弹匣事实上可装14发
+                      10、13、14或15发史密斯威森M5906系列可拆式弹匣（会伸出超过弹匣插槽）
+      瞄准具型式      机械瞄具：固定金属缺口式照门和准星（三点式准星）
+      '''
+    dialogue: 果然，无数的迹象都在表明……指挥官，我和您的相遇，是命中注定的。
+    extra: Lpip, Asuka Itou,
+    en_introduce:
+      '''
+      Type                       Semi-automatic pistol
+      Weight                     734 g (25.9 oz) DP51
+                                 751 g (26.5 oz) DP51 MKII
+                                 686 g (24.2 oz) DP51C
+      Length                     178 mm (7.0 in) DP51 (MKII)
+                                 177.8 mm (7.0 in) DP51C
+      Barrel length              104.14 mm (4.1 in)DP51 (MKII)
+                                 91.14 mm (3.6 in) DP51C
+      Cartridge                  9×19mm Parabellum
+      Action                     Semi-automatic
+      Effective firing range     50 m
+      Feed system                13- or 15-round magazine DP51 (MKII)
+      Sights                     Iron sights
+      '''
+    type: 1
+    rank: 5
+    develop_duration: 3180
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    retiremp: 2
+    retireammo: 2
+    retiremre: 2
+    ratio_life: 110
+    ratio_pow: 112
+    ratio_rate: 118
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 122
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 110
+    ratio_range: 100
+    skill1: 740077
+    skill2: 740078
+    normal_attack: 300101
+    dynamic_passive_skill: "740081,740082,740083"
+    effect_grid_center: 13
+    effect_grid_pos: "7,8,9,12,14,18"
+    effect_grid_effect: "1,18;3,20"
+    type_equip1: 1;4,13,16
+    type_equip2: 2;6
+    type_equip3: 3;10,20
+    ai: 212
+    launch_time: 2018-03-22 00:00:00
+    obtain_ids: "35"
+    rank_display: 5
+    prize_id: 3212
+    explore_tag: "29,37,61"
+    related_story_id: 100212
+    show_damage_skin: ",0,5067,2002,3308,5306,6905,"
+    gun_tag_ids: "103,120"
+    atk_speed_max: 120
+    ratio_rec: 110
+    recommended_team_ids: "2,3,4,6,8"
+  }
+  {
     id: 20216
     name: XM8
     en_name: XM8
@@ -43677,6 +44166,84 @@
     recommended_team_ids: "3"
   }
   {
+    id: 20228
+    name: 100 Shiki
+    en_name: Sakura
+    code: Type100Mod
+    introduce:
+      '''
+      类型            冲锋枪
+      总重            空枪：3.38公斤
+      全长            90.3公分/102.5公分
+      枪管长度        23公分
+      弹药            8毫米南部子弹
+      枪机种类        气体反冲式
+      发射速率        450发/分
+      枪口初速        334米/秒
+      有效射程        120米
+      供弹方式        30发弹夹
+      瞄准具型式      铁制表尺
+      '''
+    dialogue: 百式冲锋枪，参上。指挥官，今后的日子，请您多多指教了。
+    extra: かれい,Ai Kakuma,
+    en_introduce:
+      '''
+      Type                       Submachine Gun
+      Weight                     3.8 kg (8.4 lb)
+      Length                     890 mm (35.0 in) 
+      Barrel length              228 mm (9.0 in)
+      Cartridge                  8×22mm Nambu
+      Action                     Blowback
+      Rate of fire               450 rounds per minute 
+      Muzzle velocity            335 m/s (1,100 ft/s)
+      Effective firing range     100-150 m
+      Feed system                30-round detachable curved box magazine
+      '''
+    type: 2
+    rank: 6
+    develop_duration: 8340
+    baseammo: 25
+    basemre: 20
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 10
+    retiremp: 5
+    retireammo: 5
+    retiremre: 2
+    ratio_life: 128
+    ratio_pow: 115
+    ratio_rate: 95
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 112
+    armor_piercing: 15
+    crit: 5
+    eat_ratio: 128
+    ratio_range: 100
+    skill1: 740068
+    skill2: 740076
+    normal_attack: 740072
+    passive_skill: "740071"
+    dynamic_passive_skill: "740069,740070,740073"
+    effect_grid_center: 14
+    effect_guntype: "4"
+    effect_grid_pos: "8,9,10"
+    effect_grid_effect: "1,20;3,40"
+    type_equip1: 3;9,10
+    type_equip2: 2;6,19
+    type_equip3: 1;1,2,3,4,13,18
+    ai: 228
+    launch_time: 2018-11-29 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3228
+    related_story_id: 100228
+    show_damage_skin: ",0,2903,4905,7102,4004,8804,"
+    gun_tag_ids: "113,108,103,116"
+    atk_speed_max: 150
+    ratio_rec: 150
+    recommended_team_ids: "1,2,3,6,7"
+  }
+  {
     id: 20230
     name: OBR
     en_name: OBR
@@ -43832,6 +44399,72 @@
     atk_speed_max: 125
     ratio_rec: 100
     recommended_team_ids: "8"
+  }
+  {
+    id: 20282
+    name: DP-12
+    en_name: DP-12
+    code: DP12Mod
+    extra: Pandea_work,Yuuko Kaida,
+    en_introduce:
+      '''
+      Type                       Bullpup pump-action shotgun
+      Mass                       9.3 lb (4.2 kg)
+      Length                     29.5 in (75 cm)
+      Height                     7 in (18 cm)                           
+      Cartridge                  12 gauge (2¾" shells)
+      Caliber                    12 gauge
+      Action                     Pump action
+      Feed system                7+7+2 (2¾") dual internal tube
+      Sights                     Iron sights are not standard
+      '''
+    type: 6
+    rank: 6
+    develop_duration: 29580
+    baseammo: 30
+    basemre: 40
+    ammo_add_withnumber: 15
+    mre_add_withnumber: 25
+    retiremp: 5
+    retireammo: 2
+    retiremre: 5
+    retirepart: 5
+    ratio_life: 118
+    ratio_pow: 110
+    ratio_rate: 146
+    ratio_speed: 100
+    ratio_hit: 115
+    ratio_dodge: 110
+    ratio_armor: 129
+    armor_piercing: 15
+    crit: 40
+    special: 5
+    eat_ratio: 112
+    ratio_range: 100
+    skill1: 740090
+    skill2: 740062
+    normal_attack: 740067
+    passive_skill: "300202"
+    dynamic_passive_skill: "740063,740064,740065,740066"
+    effect_grid_center: 8
+    effect_guntype: "3,5"
+    effect_grid_pos: "2,3,4"
+    effect_grid_effect: "1,18;3,18"
+    type_equip1: 3;11,20
+    type_equip2: 2;7
+    type_equip3: 1;1,2,3,4,22
+    ai: 164
+    launch_time: 2019-11-19 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3282
+    gun_detail_bg: nation_US
+    related_story_id: 100282
+    show_damage_skin: ",0,8101,8601,"
+    gun_tag_ids: "109,160,113,162,108"
+    atk_speed_max: 60
+    ratio_rec: 133
+    recommended_team_ids: "5,9"
   }
   {
     id: 20293
