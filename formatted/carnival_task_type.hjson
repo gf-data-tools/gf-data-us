@@ -394,48 +394,62 @@
   {
     id: 68
     type: mystery_mission_1
-    title: Challenge and win the designated mission 5 times
-    content: M4A1: AR-15...Have you actually experienced...'death'...? (Find out the mission according to the clue)
+    title: Special Operation
+    content: Clear the stage "Four-Point Perspective - I" {0} times.
   }
   {
     id: 69
     type: mystery_mission_2
-    title: Challenge and win the designated mission 5 times
-    content: IDW: Oh! Safe at last! Thank you so much, Master of someone else! (Find out the mission according to the clue)
+    title: Special Operation
+    content: Clear the stage "Five-Point Perspective - I" {0} times.
   }
   {
     id: 70
     type: mystery_mission_3
-    title: Challenge and win the designated mission 5 times
-    content: MP40: Wait! You over there! Is that FFC? Please finish your ice cream before you join the queue. Don't drip it on someone else! (Find out the mission according to the clue)
+    title: Special Operation
+    content: Clear the stage "Four-Point Perspective - II" {0} times.
   }
   {
     id: 71
     type: mystery_mission_4
+    title: Special Operation
+    content: Clear the stage "Five-Point Perspective - II" {0} times.
   }
   {
     id: 72
     type: mystery_mission_5
+    title: Special Operation
+    content: Clear the stage "F18 The Last Judgment" {0} times.
   }
   {
     id: 73
     type: mystery_mission_6
+    title: Special Operation
+    content: Clear the stage "F18 The Last Judgment EX" {0} times.
   }
   {
     id: 74
     type: mystery_mission_7
+    title: Special Operation
+    content: Clear the stage "F18 The Last Judgment UX" {0} times.
   }
   {
     id: 75
     type: mystery_mission_8
+    title: Special Operation
+    content: Successfully complete "Stage L"{0} times.
   }
   {
     id: 76
     type: mystery_mission_9
+    title: Special Operation
+    content: Successfully complete "Stage M"{0} times.
   }
   {
     id: 77
     type: mystery_mission_10
+    title: Special Operation
+    content: Successfully complete "Stage N"{0} times.
   }
   {
     id: 78
@@ -460,7 +474,8 @@
   {
     id: 82
     type: special_mission_point
-    content: Rabbit Hole high score reaches {0}.
+    title: Scoring Map
+    content: Accumulate {0} points in total in the scoring map of "Slow Shock".
   }
   {
     id: 83
