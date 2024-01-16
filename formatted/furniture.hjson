@@ -25879,6 +25879,194 @@
     rotate: "2"
   }
   {
+    id: 10801
+    name: Spa in the Snow - Coolness Underfoot
+    classes: 108
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Snowflakes melt and disappear the moment they land on the floor tiles; nobody knows of their past, just as nobody will know of the Dolls when the war is over.
+    code: HotSpring2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10802
+    name: Spa in the Snow - Serene Snowy Night
+    classes: 108
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Listen to the rustling snow on this windless, moonless night, with just a flask of clear wine and a handful of friends.
+    code: HotSpring2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10803
+    name: Spa in the Snow - Banners of Warmth
+    classes: 108
+    type: 201
+    position: "29,8"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: When I see snowfall, I know winter is here. When I see these red feather flags, I know you are smiling in the bath.
+    code: HotSpring2023_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10804
+    name: Spa in the Snow - Heartwarming Noticeboard
+    classes: 108
+    type: 201
+    position: "24,5"
+    space: "4,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: I want to remind you to eat on time, but I do not wish to disturb you, so I'm writing it on this eye-catching noticeboard.
+    code: HotSpring2023_deco_02
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10805
+    name: Spa in the Snow - Hearth and Smoke
+    classes: 108
+    type: 201
+    position: "25,0"
+    space: "7,4,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: I have prepared a lot of ingredients, good wine, and a few pots of delicious tales. If you happen to visit, I will say to you, "Welcome!"
+    code: HotSpring2023_deco_03,HotSpring2023_deco_04
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0,0,0|0,0,0"
+    rotate: "2,2"
+    interact_point: "17"
+    interact_point_offset: *-0.963,4.263,-0.285
+  }
+  {
+    id: 10806
+    name: Spa in the Snow - Exquisite Wood Carving
+    classes: 108
+    type: 201
+    position: "32,3"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: If food and happiness can be captured in a wood carving, will this moment be eternalized?
+    code: HotSpring2023_deco_05
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10807
+    name: Spa in the Snow - Musings by the Bath
+    classes: 108
+    type: 201
+    position: "0,5"
+    space: "3,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: If you wish to say something but too embarrassed to say it out loud, just write it down here. Your every word will be read.
+    code: HotSpring2023_deco_06
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10808
+    name: Spa in the Snow - Snow on the Bridge
+    classes: 108
+    type: 201
+    position: "0,12"
+    space: "35,2,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: When you arrive, you dust the frost and gunpowder off your clothes by the bridge. When you leave, you wave goodbye with a smile, then pick up your weapons again and head out into the snow.
+    code: HotSpring2023_deco_07,HotSpring2023_deco_08,HotSpring2023_deco_09,2023Newyearbridge
+    texture_type: "1,1,1,2"
+    sorting: "0,0,0,20"
+    offset: "-3.545,0.365,-1.314|1.064,0.365,-1.314|5.641,0.365,-1.314|-0.261,0.261,-1.084"
+    rotate: "2,2,2,2"
+  }
+  {
+    id: 10809
+    name: Spa in the Snow - Griffin Onsenkan
+    classes: 108
+    type: 201
+    position: "9,0"
+    space: "15,4,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: According to unofficial gossip, since the onsenkan was built, the Commander has only visited once. They ran away from the overzealous Dolls before they could even dip their toes into the bath.
+    code: HotSpring2023_deco_10,HotSpring2023_deco_11,HotSpring2023_deco_12
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.261,-0.229,-0.052|4.337,-0.229,-0.052|-0.261,4.275,0.991"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10810
+    name: Spa in the Snow - Storage of Goods
+    classes: 108
+    type: 201
+    position: "20,5"
+    space: "2,2,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: There's a right storage space even for something as ordinary as umbrellas.
+    code: HotSpring2023_deco_13
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10811
+    name: Spa in the Snow - Hot Drinks in Winter
+    classes: 108
+    type: 201
+    position: "4,8"
+    space: "2,2,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: A woman once asked you to buy her a drink, but you laughed it off and turned her down. Now here you are in front of a vending machine with a "buy 1 get 1 half price" deal, and memories engulf you like a snowstorm. You open two bottles and drink to yourself.
+    code: HotSpring2023_deco_14
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 10812
+    name: Spa in the Snow - Warming Foot Bath
+    classes: 108
+    type: 201
+    position: "1,0"
+    space: "7,4,1,1,1,1"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: This winter is exceptionally frigid. May this warm pool fend off the cold even for just a while.
+    code: HotSpring2023_deco_15,HotSpring2023_deco_16,HotSpring2023_deco_17,HotSpring2023_deco_18
+    texture_type: "1,1,1,1"
+    sorting: "0,20,10,10"
+    offset: "0.000,0.000,0.000|0.000,0.000,0.000|0.000,1.227,0.284|2.297,1.227,0.284"
+    rotate: "2,2,2,2"
+    interact_point: "14"
+    interact_point_offset: *1.254,1.545,-0.285
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -36089,6 +36277,81 @@
     decompose_gift: 100003
     description: Bren Ten's poster.
     code: poster_Christmas2022_BrenTen
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37902
+    name: Silver Tree's Gratitude
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A-545's poster.
+    code: poster_NewYear2023_A545
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37903
+    name: Blue Snow Under You
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr SL8's poster.
+    code: poster_NewYear2023_SL8
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37904
+    name: Journey Among the Stars
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: FX-05's poster.
+    code: poster_NewYear2023_FX05
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37905
+    name: Tranquil Mountain in the Gloom
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: PPD-40's poster.
+    code: poster_NewYear2023_PPD40
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 37906
+    name: Apricot Fantasia
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: OTs-39's poster.
+    code: poster_NewYear2023_OTs39
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

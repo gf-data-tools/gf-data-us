@@ -10773,4 +10773,36 @@
     is_show: 1
     obtain_ids: "3096"
   }
+  {
+    id: 354
+    name: Police Uniform of Justice
+    description:
+      '''
+      CRIT DMG+<critical_harm_rate><%>
+      ACC+<hit> Enhances skill $VSK-94 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "3,5"
+    critical_harm_rate: "16,20"
+    retire_mp: 4
+    retire_mre: 5
+    code: 人形_特殊_VSK94
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "312"
+    equip_introduction: A jacket that VSK-94 has been wearing since her time in the police force. It still looks cool and dandy even after having been through years of fighting.
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:1000,hit:1000
+    passive_skill: "759232"
+    max_level: 10
+    auto_select_id: 20064
+    is_show: 1
+    obtain_ids: "3088"
+  }
 ]
