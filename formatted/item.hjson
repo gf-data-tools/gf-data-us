@@ -11763,6 +11763,15 @@
     rank: 1
   }
   {
+    id: 2222
+    type: 5
+    arg: "1"
+    code: profilePic_NewYear2023_MicroUZI
+    item_name: New Maple Silhouette
+    introduction: New Maple Silhouette
+    rank: 1
+  }
+  {
     id: 2224
     type: 5
     arg: "1"
@@ -12503,6 +12512,24 @@
     code: profilePic_BattlePass_SPAS15
     item_name: Miss Pittsburgh
     introduction: Miss Pittsburgh
+    rank: 1
+  }
+  {
+    id: 2373
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M327
+    item_name: ID Background: Chase on the Spring Hill
+    introduction: ID Background: Chase on the Spring Hill
+    rank: 1
+  }
+  {
+    id: 2374
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M327
+    item_name: Cutie Trainer
+    introduction: Cutie Trainer
     rank: 1
   }
   {
@@ -13482,6 +13509,15 @@
     id: 10704
     type: 18
     arg: "10704"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10705
+    type: 18
+    arg: "10705"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -15971,6 +16007,26 @@
     detail_introduction: item-30140024
   }
   {
+    id: 140025
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140025
+    introduction: item-20140025
+    rank: 1
+    detail_introduction: item-30140025
+  }
+  {
+    id: 140026
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140026
+    introduction: item-20140026
+    rank: 1
+    detail_introduction: item-30140026
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -16194,6 +16250,15 @@
     code: profileFrame_BattlePass_SPAS15
     item_name: Icon Frame: Scent of a Burger
     introduction: Icon Frame: Scent of a Burger
+    rank: 1
+  }
+  {
+    id: 200032
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M327
+    item_name: Icon Frame: Smile with no Bind!
+    introduction: Icon Frame: Smile with no Bind!
     rank: 1
   }
   {
@@ -17208,6 +17273,36 @@
     sort: -1
   }
   {
+    id: 1500078
+    type: 15
+    arg: "1500078"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500079
+    type: 15
+    arg: "1500079"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's 4-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500080
+    type: 15
+    arg: "1500080"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1500081
     type: 15
     arg: "1500081"
@@ -17321,6 +17416,46 @@
     id: 1500098
     type: 15
     arg: "1500098"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500099
+    type: 15
+    arg: "1500099"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500100
+    type: 15
+    arg: "1500100"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Open this Specified Delivery Indicator to obtain a piece of Accessory-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500101
+    type: 15
+    arg: "1500101"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Open this Delivery Indicator for a guaranteed drop of a T-Doll from the list that has yet to be unlocked in the Index. If all the Dolls have already been unlocked, obtain a random Doll from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500102
+    type: 15
+    arg: "1500102"
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Open this Air-Drop Delivery Indicator to obtain a random item from the list.

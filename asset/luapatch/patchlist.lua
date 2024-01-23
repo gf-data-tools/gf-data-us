@@ -318,7 +318,13 @@ patch3040=
 {
 "3040/AVGPicController",
 "3040/DeploymentAutoBattleController",
-"3040/DeploymentTeamController",			
+"3040/DeploymentTeamController",
+"3040/DeploymentEnemyTeamController",
+"3040/DeploymentAllyTeamController",		
+"3040/DeploymentUIController",
+"3040/MissionData",
+"3040/MissionSelectionController",		
+"3040/GarageVehiclePlatformController",				
 }
 -- va11
 print("load Va11");

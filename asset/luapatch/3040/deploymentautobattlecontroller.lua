@@ -1,6 +1,6 @@
 local util = require 'xlua.util'
 xlua.private_accessible(CS.DeploymentAutoBattleController)
-
+xlua.private_accessible(CS.DeploymentAutoMoveStep)
 local FindSupplySpotMainTeamAround = function()
 	local target = nil;
 	local length = 100;
@@ -43,5 +43,13 @@ local ShouldAssitTeamStop = function(autoMoveStep)
 	end
 	return CS.DeploymentAutoBattleController.ShouldAssitTeamStop(autoMoveStep);
 end
+
+local GetID = function(self)
+	if self.vehicleTeamId ~= 0 then
+		return self.vehicleTeamId*100;
+	end
+	return self.teamId;
+end
 util.hotfix_ex(CS.DeploymentAutoBattleController,'FindSupplySpotMainTeamAround',FindSupplySpotMainTeamAround)
 util.hotfix_ex(CS.DeploymentAutoBattleController,'ShouldAssitTeamStop',ShouldAssitTeamStop)
+util.hotfix_ex(CS.DeploymentAutoMoveStep,'GetID',GetID)

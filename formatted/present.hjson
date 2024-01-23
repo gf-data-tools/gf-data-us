@@ -471,6 +471,30 @@
     present_info: Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.
   }
   {
+    item_id: 1500078
+    type: 1
+    prize_id: 150080
+    due_time: 2024/03/26  00:00:00
+    due_prize_id: 140073
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1500079
+    type: 1
+    prize_id: 150081
+    due_time: 2024/03/26  00:00:00
+    due_prize_id: 140074
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1500080
+    type: 1
+    prize_id: 150082
+    due_time: 2024/03/26  00:00:00
+    due_prize_id: 140075
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
     item_id: 1500081
     type: 1
     prize_id: 140001
@@ -563,6 +587,38 @@
     type: 2
     drop_package_id: 945
     due_time: 2024/02/04  23:59:59
+    due_prize_id: 140016
+    present_info: Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.
+  }
+  {
+    item_id: 1500099
+    type: 1
+    prize_id: 140001
+    due_time: 2024/03/10  23:59:59
+    due_prize_id: 140016
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1500100
+    type: 1
+    prize_id: 140002
+    due_time: 2024/03/10  23:59:59
+    due_prize_id: 140016
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1500101
+    type: 2
+    drop_package_id: 2134
+    due_time: 2024/03/10  23:59:59
+    due_prize_id: 140016
+    present_info: Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.
+  }
+  {
+    item_id: 1500102
+    type: 2
+    drop_package_id: 945
+    due_time: 2024/03/10  23:59:59
     due_prize_id: 140016
     present_info: Activate an Indicator that calls for an air delivery across regions and obtain a random item from the air delivery list.
   }
