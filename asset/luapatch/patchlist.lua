@@ -218,7 +218,8 @@ patch3020=
 "3020/QuickJumpBtnController",
 "3020/WishGunEventBoxController",
 "3020/DeploymentBackgroundController",
-"3020/DeploymentUIController",				
+"3020/DeploymentUIController",		
+"3020/MallController",	
 }
 patch3030=
 {
@@ -324,7 +325,8 @@ patch3040=
 "3040/DeploymentUIController",
 "3040/MissionData",
 "3040/MissionSelectionController",		
-"3040/GarageVehiclePlatformController",				
+"3040/GarageVehiclePlatformController",	
+"3040/AdjutantGunListController",			
 }
 -- va11
 print("load Va11");
