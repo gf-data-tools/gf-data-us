@@ -26067,6 +26067,196 @@
     interact_point_offset: *1.254,1.545,-0.285
   }
   {
+    id: 10901
+    name: Dance of the Jade Rabbit - Promised Land of Snow
+    classes: 109
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: O Heaven, bury the ashes of the past year with glistening white snow; let us start afresh on this pure new land.
+    code: SpringFes2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 10902
+    name: Dance of the Jade Rabbit - Blooming Warmth
+    classes: 109
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: As the Dolls are fighting among themselves over who gets to perform as the first act at the New Year's Eve party, the mischievous Architect has already sneaked into the backstage with a Jupiter cannon modified for fireworks...
+    code: SpringFes2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 10903
+    name: Dance of the Jade Rabbit - Gate of Good Fortune
+    classes: 109
+    type: 201
+    position: "1,3"
+    space: "7,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: The fiery red couplets stuck onto the stage door leading to the backstage gives all the Dolls performing tonight a warm and fuzzy feeling of being home.
+    code: SpringFes2023_deco_01
+    texture_type: "1"
+    offset: "0.000,-0.323,-0.073"
+    rotate: "2"
+  }
+  {
+    id: 10904
+    name: Dance of the Jade Rabbit - Dynamic Carp Pond
+    classes: 109
+    type: 201
+    position: "1,10"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: When the music plays, the clever carps in the pond start swimming to the melody... Is this real or is it just a large and intricate music box?
+    code: SpringFes2023_deco_15,SpringFes2023_deco_16,SpringFes2023_pool
+    texture_type: "1,1,2"
+    sorting: "0,20,10"
+    offset: "0.000,0.000,0.000|0,0.3555607,0.0813306|0.198,0.480,0.104"
+    rotate: "2,2,2"
+  }
+  {
+    id: 10905
+    name: Dance of the Jade Rabbit - White Table
+    classes: 109
+    type: 201
+    position: "10,9"
+    space: "9,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Stew slowly on low heat and the soup base will absorb all the flavors. "The delicious flavors and freshness of food can only be preserved with the simplest cooking method!" So say Dolls who don't like spicy food.
+    code: SpringFes2023_deco_02,SpringFes2023_deco_13,SpringFes2023_deco_14
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,0.000,0.000|-1.220,0.000,0.000|1.189,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "14,15"
+    interact_point_offset: *3.150,1.423,-0.285|*-3.222,1.252,0.398
+  }
+  {
+    id: 10906
+    name: Dance of the Jade Rabbit - Red Table
+    classes: 109
+    type: 201
+    position: "19,11"
+    space: "9,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Red oil bubbles as the aroma of numbing spice wafts through the air. "Spiciness isn't just a necessity on a cold winter's day; it is an incontestable religion!" So declare Dolls who are obsessed with spicy food.
+    code: SpringFes2023_deco_03,SpringFes2023_deco_13,SpringFes2023_deco_14
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,0.000,0.000|-1.220,0.000,0.000|1.189,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "14,15"
+    interact_point_offset: *3.150,1.423,-0.285|*-3.222,1.252,0.398
+  }
+  {
+    id: 10907
+    name: Dance of the Jade Rabbit - Fiery Sentiment
+    classes: 109
+    type: 201
+    position: "7,10"
+    space: "3,4,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: '''"Simply light the fuse and the most amazing blessings of the year will be yours!" Courtesy of Griffin's Test of Courage.'''
+    code: SpringFes2023_deco_04
+    texture_type: "1"
+    offset: "0.000,-0.104,-0.021"
+    rotate: "2"
+  }
+  {
+    id: 10908
+    name: Dance of the Jade Rabbit - Announcer Elf
+    classes: 109
+    type: 201
+    position: "26,3"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: A smart announcer robot that blends in perfectly with the snowy vista. It is apparently a Tactical Fairy forced to work overtime.
+    code: SpringFes2023_deco_05
+    texture_type: "1"
+    offset: "0.000,-0.094,-0.021"
+    rotate: "2"
+  }
+  {
+    id: 10909
+    name: Dance of the Jade Rabbit - Rabbit Theater
+    classes: 109
+    type: 201
+    position: "9,0"
+    space: "16,4,1,1,1,0"
+    deco_rate: 1350
+    decompose_gift: 100003
+    description: A glamorous stage specially prepared for the Lunar New Year. At this moment, the spotlight is already in place, quietly waiting for the skilled performers to appear on stage... Drunk Dolls? Don't even think about it!
+    code: SpringFes2023_deco_06,SpringFes2023_deco_07,SpringFes2023_deco_11,SpringFes2023_deco_12,SpringFes2023_RabbitLantern
+    texture_type: "1,1,1,1,2"
+    sorting: "0,0,0,0,20"
+    offset: "-1.182,-0.235,-0.054|3.405,-0.235,-0.054|3.405,4.238,0.978|-1.182,4.238,0.978|0.011,1.246,-0.044"
+    rotate: "2,2,2,2,2"
+    interact_point: "28,36"
+    interact_point_offset: *3.208,0.825,-0.285|*-2.800,0.683,-0.285
+  }
+  {
+    id: 10910
+    name: Dance of the Jade Rabbit - Candy Stall
+    classes: 109
+    type: 201
+    position: "30,6"
+    space: "4,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: A self-service candy stall selling all kinds of sweets. Supply is unlimited for Lunar New Year, but watch out for cavities.
+    code: SpringFes2023_deco_08
+    texture_type: "1"
+    offset: "0.000,-0.250,-0.063"
+    rotate: "2"
+  }
+  {
+    id: 10911
+    name: Dance of the Jade Rabbit - New Year Wishes
+    classes: 109
+    type: 201
+    position: "28,0"
+    space: "5,5,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: The wall filled with the Dolls' New Year wishes look particularly cozy illuminated by the lanterns. You flip one over and it reads, "I wish the Commander would give me 365 days of paid leave this year!"
+    code: SpringFes2023_deco_09
+    texture_type: "1"
+    offset: "0.000,-0.240,0.448"
+    rotate: "2"
+  }
+  {
+    id: 10912
+    name: Dance of the Jade Rabbit - Tireless Sentinel
+    classes: 109
+    type: 201
+    position: "30,11"
+    space: "3,2,1,1,1,1"
+    deco_rate: 1150
+    decompose_gift: 100003
+    description: To prevent drunk Dolls from falling on their faces at the start of the new year, a small light would always stay on and quietly illuminate their way home.
+    code: SpringFes2023_deco_10
+    texture_type: "1"
+    offset: "0.000,-0.271,-0.063"
+    rotate: "2"
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -36367,6 +36557,126 @@
     decompose_gift: 100003
     description: Micro Uzi's Poster
     code: poster_NewYear2023_MicroUZI
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38001
+    name: Scarlet Intoxication
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MK3A1's poster.
+    code: poster_SpringFes2023_MK3A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38002
+    name: Gilded Allure
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Px4 Storm's poster.
+    code: poster_SpringFes2023_Px4Storm
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38003
+    name: Hazy Fragrance
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Erma's poster.
+    code: poster_SpringFes2023_Erma
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38004
+    name: Jade Serenity
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Savage 99's poster.
+    code: poster_SpringFes2023_Savage99
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38005
+    name: Pervasive Aroma
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Rex Zero 1's poster.
+    code: poster_SpringFes2023_RexZero1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38006
+    name: Twofold Felicitation
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Tabuk's poster.
+    code: poster_SpringFes2023_Tabuk
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38007
+    name: Magnolia's Ballad
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: APC556's poster.
+    code: poster_SpringFes2023_APC556
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38008
+    name: Coiling Morning Glory
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: DP28's poster.
+    code: poster_SpringFes2023_DP28
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

@@ -8687,6 +8687,152 @@
     classification_id: "1007"
   }
   {
+    id: "11505"
+    type: "9"
+    item_ids: 2342-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011505
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11506"
+    type: "9"
+    item_ids: 1052-1
+    gemprice: "2400"
+    original_price: "6000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011506
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11507"
+    type: "9"
+    item_ids: 1053-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011507
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11508"
+    type: "9"
+    item_ids: 2341-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011508
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11509"
+    type: "9"
+    item_ids: 1183-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011509
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11510"
+    type: "9"
+    item_ids: 1184-1
+    gemprice: "1600"
+    original_price: "4000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011510
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11511"
+    type: "9"
+    item_ids: 200027-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: mall-10011511
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11512"
+    type: "9"
+    item_ids: 10604-1
+    gemprice: "2000"
+    quota: "2001"
+    giftbag_name: mall-10011512
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11513"
+    type: "9"
+    gift: 100003-1
+    gemprice: "150"
+    quota: "2003"
+    giftbag_name: mall-10011513
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11514"
+    type: "9"
+    gift: 100002-1
+    gemprice: "60"
+    quota: "2003"
+    giftbag_name: mall-10011514
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11515"
+    type: "9"
+    gift: 100001-1
+    gemprice: "30"
+    quota: "2003"
+    giftbag_name: mall-10011515
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
     id: "20001"
     type: "8"
     mp: "9000"
@@ -35091,6 +35237,76 @@
     giftbag_name: February Special Offer Package
     event_code: dailyGiftbag
     icon: Bumdle_Rabbit04
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22005"
+    type: "8"
+    mp: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22006"
+    type: "8"
+    ammo: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22007"
+    type: "8"
+    mre: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22008"
+    type: "8"
+    part: "3000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22009"
+    type: "8"
+    item_ids: 1-10,3-10
+    gemprice: "430"
+    original_price: "860"
+    quota: "2001"
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: "50"
     discount: "1.00"
     classification_id: "3002"
   }

@@ -13437,6 +13437,12 @@
     content: prize-20004287
   }
   {
+    id: 4289
+    name: Icon: Prowler SWAP icon-HD
+    item_ids: 1922-1
+    content: prize-20004289
+  }
+  {
     id: 4290
     name: Coalition Forces: Architect - NVW Model
     sangvis: "1015"
@@ -22435,147 +22441,143 @@
     id: 10086
     name: Carnival Reward
     mp: 100
-    item_ids: 110025-10
+    item_ids: 110026-10
   }
   {
     id: 10087
     name: Carnival Reward
     mp: 100
-    item_ids: 110025-20
+    item_ids: 110026-20
   }
   {
     id: 10088
     name: Carnival Reward
     ammo: 200
-    item_ids: 110025-20
+    item_ids: 110026-20
   }
   {
     id: 10089
     name: Carnival Reward
     ammo: 200
-    item_ids: 110025-30
+    item_ids: 110026-30
   }
   {
     id: 10090
     name: Carnival Reward
     mre: 200
-    item_ids: 110025-20
+    item_ids: 110026-20
   }
   {
     id: 10091
     name: Carnival Reward
     mre: 200
-    item_ids: 110025-30
+    item_ids: 110026-30
   }
   {
     id: 10092
     name: Carnival Reward
     mre: 200
-    item_ids: 110025-50
+    item_ids: 110026-50
   }
   {
     id: 10093
     name: Carnival Reward
     part: 100
-    item_ids: 110025-30
+    item_ids: 110026-30
   }
   {
     id: 10094
     name: Carnival Reward
     part: 100
-    item_ids: 110025-50
+    item_ids: 110026-50
   }
   {
     id: 10095
     name: Carnival Reward
     part: 100
-    item_ids: 110025-100
+    item_ids: 110026-100
   }
   {
     id: 10096
     name: Carnival Reward
     part: 200
-    item_ids: 110025-50
+    item_ids: 110026-50
   }
   {
     id: 10097
     name: Carnival Reward
     part: 200
-    item_ids: 110025-100
+    item_ids: 110026-100
   }
   {
     id: 10098
     name: Carnival Reward
     part: 300
-    item_ids: 110025-150
+    item_ids: 110026-150
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 110025-200,45-200
+    item_ids: 110026-200,45-200
   }
   {
     id: 10100
     name: Active Reward
-    mp: 2000
-    ammo: 2000
-    mre: 2000
-    part: 2000
-    icon: Bumdle_muromets02
+    ammo: 1000
+    mre: 1000
+    icon: Bumdle_red
   }
   {
     id: 10101
     name: Active Reward
-    item_ids: 9-20,4-5,6003-2,525-5,2291-1
-    icon: profilePic_SlowShockActivity2023_05
+    item_ids: 9-20,4-5,6003-2,525-5
+    icon: Bumdle_brown
   }
   {
     id: 10102
     name: Active Reward
     item_ids: 3-5,525-5
-    coins: 2-300
-    icon: Bumdle_muromets02
+    coins: 2-200
+    icon: Bumdle_indigo
   }
   {
     id: 10103
     name: Active Reward
-    item_ids: 1-5,45-100,506-200,601-2,525-5,2288-1
-    icon: profilePic_SlowShockActivity2023_02
+    item_ids: 1-5,45-100,506-200,601-2,525-5
+    icon: Bumdle_guoqing
   }
   {
     id: 10104
     name: Active Reward
     core: 10
-    item_ids: 41-30,8-1
-    icon: Bumdle_muromets02
+    item_ids: 41-20,8-1
+    icon: Bumdle_yellow
   }
   {
     id: 10105
     name: Active Reward
-    furniture: "20093"
-    gift: 100003-10
-    icon: 2023WinterActivity_cdplayer_deco_icon
+    gift: 100003-10,8008-1
+    icon: Bumdle_bline
   }
   {
     id: 10106
     name: Active Reward
-    item_ids: 45-200,6009-2
+    item_ids: 45-100,6009-2
     coins: 3-200
-    icon: Bumdle_muromets02
+    icon: Bumdle_navy
     bp_pay: 10
   }
   {
     id: 10107
     name: Active Reward
-    item_ids: 45-200,41-60,1-10,103-1,10604-3
-    furniture: "20099"
-    icon: 2023WinterActivity_wall_icon
+    item_ids: 45-200,41-50,1-10,103-1,10604-3
+    icon: Bumdle_blue
   }
   {
     id: 10108
     name: Active Reward
     item_ids: 103-1
-    icon: Bumdle_muromets02
+    icon: Bumdle_may
   }
   {
     id: 10109
@@ -22593,12 +22595,12 @@
     id: 10111
     name: Carnival Reward
     mre: 200
-    item_ids: 110025-40
+    item_ids: 110026-40
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110025-50,45-200
+    item_ids: 110026-50,45-200
   }
   {
     id: 10113
@@ -22612,19 +22614,19 @@
     id: 10114
     name: Carnival Reward
     ammo: 200
-    item_ids: 110025-50
+    item_ids: 110026-50
   }
   {
     id: 10115
     name: Carnival Reward
     ammo: 300
-    item_ids: 110025-50
+    item_ids: 110026-50
   }
   {
     id: 10116
     name: prize-10010116
     mre: 300
-    item_ids: 110025-50
+    item_ids: 110026-50
     content: prize-20010116
   }
   {
@@ -38878,7 +38880,7 @@
     ammo: 30000
     mre: 30000
     part: 30000
-    gem: 2023
+    gem: 2024
     item_ids: 122-11
   }
   {
