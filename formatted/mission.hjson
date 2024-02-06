@@ -42778,6 +42778,40 @@
     limit_sangvis: 4
   }
   {
+    id: 11320
+    integration_switch: 1-1
+    campaign: -55
+    sub: 1
+    if_emergency: -1
+    endless_mode: 1
+    special_type: 1
+    name: Flowers of the End+
+    difficulty: 42000
+    exp_parameter: 60
+    type: "6"
+    enemy_ai_type: -1
+    win_turn: 7
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    turn_limit: 7
+    limit_gun_pool: "244,255,273,276,256,258,225,229,265,267,227,59"
+    limit_team: "0,10"
+    map_res_name: OPS21_Y
+    map_information: "6000,6000|6000,5600|0,200"
+    adaptive_gun: "273,272,274,275,103,101,65,122,55,57,56,143,276"
+    fog_length: "50,400"
+    fog_color: "#000000FF"
+    random_line_spot: "95334"
+    force_type: "1"
+    round_config: 1:1,2:4,3:3
+    limit_squad: 5
+    difficulty_recommend: "27000,99;0,0;0,0;0,0"
+    limit_sangvis: 5
+    event_score: 1|10,2000,1500,1000,200,50000,5000,50000,4000,5000,2000,10000,1:10000;2:500;3:2000;5:10000;6:10000;7:2500,9550104:1:50000,0,0,0,0,95401001:10000;95401003:10000;95401004:10000;95401005:10000;95401006:10000;95401007:10000,0
+    score_prize: 1|110054:1
+  }
+  {
     id: 11333
     integration_switch: 1-1
     campaign: -58
