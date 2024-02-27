@@ -2858,8 +2858,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:350
+    passive_skill: "759140"
     max_level: 10
     auto_select_id: 18006
+    equip_group_id: 6
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000103
@@ -3827,9 +3829,10 @@
     exclusive_rate: 3
     bonus_type: dodge:300,critical_percent:350,hit:1000
     skill: 300119
-    passive_skill: "300120"
+    passive_skill: "300120,759147"
     max_level: 10
     auto_select_id: 18027
+    equip_group_id: 5
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000133
@@ -5073,8 +5076,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:700,critical_percent:350
+    passive_skill: "759132"
     max_level: 10
     auto_select_id: 20023
+    equip_group_id: 5
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000171
@@ -6682,9 +6687,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:500
-    passive_skill: "902391"
+    passive_skill: "902391,759141"
     max_level: 10
     auto_select_id: 20035
+    equip_group_id: 6
     is_show: 1
     obtain_ids: "3006"
     sp_description: equip-40000218
@@ -10646,6 +10652,76 @@
     obtain_ids: "3085"
   }
   {
+    id: 342
+    name: Type 57 Signal Flare
+    description:
+      '''
+      ACC+<hit>
+      ECH ACC+20% $Stechkin MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_斯捷奇金Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20007"
+    equip_introduction: A flare gun that Stechkin always carries on her person. With IOP's modification, Stechkin can now better assist her echelon in combat with it.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "759133,759034"
+    max_level: 10
+    auto_select_id: 19057
+    equip_group_id: 5
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon ACC+20%
+  }
+  {
+    id: 343
+    name: Type 64 Signal Flare
+    description:
+      '''
+      ACC+<hit>
+      ECH ACC+20% $Type 64 MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_64式Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20094"
+    equip_introduction: Type 64's favorite flare gun. With IOP's modification, Type 64 can command and contact her echelon better.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "759142,759034"
+    max_level: 10
+    auto_select_id: 19058
+    equip_group_id: 6
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon ACC+20%
+  }
+  {
     id: 347
     name: mk87 Improved Assault Shield
     description:
@@ -10883,5 +10959,37 @@
     auto_select_id: 20064
     is_show: 1
     obtain_ids: "3088"
+  }
+  {
+    id: 357
+    name: TC High-Performance Exoskeleton
+    description:
+      '''
+      EVA+<dodge>
+      Enhances skill $Contender only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "12,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_竞争者
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "183"
+    equip_introduction: An exoskeleton designed specially for Contender that improves her firing consistency and performance in high-intensity battles.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "759246"
+    max_level: 10
+    auto_select_id: 20066
+    is_show: 1
+    obtain_ids: "3089"
   }
 ]

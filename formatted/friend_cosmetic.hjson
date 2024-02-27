@@ -776,6 +776,7 @@
     order: 3
     rarity: 3
     filter_type: "2"
+    event_id: 3190
   }
   {
     id: 55
@@ -787,6 +788,7 @@
     order: 4
     rarity: 4
     filter_type: "3"
+    event_id: 3191
   }
   {
     id: 56
@@ -2974,6 +2976,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3193
   }
   {
     id: 223
@@ -2987,6 +2990,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3194
   }
   {
     id: 224
@@ -15190,6 +15194,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_HK416
     order: 1
     rarity: 5
@@ -15201,6 +15206,7 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_HK416
     order: 1
     rarity: 5
@@ -15361,6 +15367,28 @@
     skin: 8612
   }
   {
+    id: 1360
+    item_id: 2360
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_AUG
+    order: 1
+    rarity: 5
+    event_id: 3192
+  }
+  {
+    id: 1361
+    item_id: 2361
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_AUG
+    order: 1
+    rarity: 5
+    event_id: 3189
+  }
+  {
     id: 1362
     item_id: 2362
     sub_type: 2
@@ -15403,6 +15431,28 @@
     order: 1
     rarity: 5
     skin: 30012
+  }
+  {
+    id: 1394
+    item_id: 2394
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_HK433
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1395
+    item_id: 2395
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_HK433
+    order: 1
+    rarity: 5
+    skin: 30013
   }
   {
     id: 100001
@@ -15616,6 +15666,7 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_HK416
     order: 1
     rarity: 5
@@ -15632,6 +15683,18 @@
     filter_type: "5"
   }
   {
+    id: 100029
+    item_id: 200029
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_AUG
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 3195
+  }
+  {
     id: 100030
     item_id: 200030
     sub_type: 4
@@ -15645,6 +15708,15 @@
     item_id: 200032
     sub_type: 4
     code: profileFrame_BattlePass_M327
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100034
+    item_id: 200034
+    sub_type: 4
+    code: profileFrame_BattlePass_HK433
     order: 1
     rarity: 5
     filter_type: "5"

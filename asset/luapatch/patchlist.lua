@@ -335,7 +335,10 @@ patch3040=
 "3040/QuestsController",
 "3040/BattleVehicleResultController",
 "3040/OPSPanelController",
-"3040/CommonBundleConfirmBoxController",										
+"3040/OPSPanelProcessItem",	
+"3040/CommonBundleConfirmBoxController",
+"3040/AdjustAdjutantScaleController",
+"3040/ExToggleChoose",											
 }
 -- va11
 print("load Va11");
