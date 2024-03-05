@@ -7315,8 +7315,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-150
-    classification_id: "1001"
+    itemprice: 100179-150
+    classification_id: "1004"
   }
   {
     id: "10860"
@@ -7327,8 +7327,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-50
-    classification_id: "1001"
+    itemprice: 100179-50
+    classification_id: "1004"
   }
   {
     id: "10861"
@@ -7339,8 +7339,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-30
-    classification_id: "1001"
+    itemprice: 100179-30
+    classification_id: "1004"
   }
   {
     id: "10862"
@@ -7351,8 +7351,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-30
-    classification_id: "1001"
+    itemprice: 100179-30
+    classification_id: "1004"
   }
   {
     id: "10863"
@@ -7363,8 +7363,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-30
-    classification_id: "1001"
+    itemprice: 100179-30
+    classification_id: "1004"
   }
   {
     id: "10864"
@@ -7375,8 +7375,8 @@
     discount: "1.00"
     prize_id: "1431"
     pay_type: "1"
-    itemprice: 100136-80
-    classification_id: "1001"
+    itemprice: 100179-80
+    classification_id: "1004"
   }
   {
     id: "10865"
@@ -7387,8 +7387,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-3
-    classification_id: "1001"
+    itemprice: 100179-3
+    classification_id: "1004"
   }
   {
     id: "10866"
@@ -7399,8 +7399,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-2
-    classification_id: "1001"
+    itemprice: 100179-2
+    classification_id: "1004"
   }
   {
     id: "10867"
@@ -7411,8 +7411,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-2
-    classification_id: "1001"
+    itemprice: 100179-2
+    classification_id: "1004"
   }
   {
     id: "10868"
@@ -7423,8 +7423,8 @@
     event_code: dailyGiftbag
     discount: "1.00"
     pay_type: "1"
-    itemprice: 100136-2
-    classification_id: "1001"
+    itemprice: 100179-2
+    classification_id: "1004"
   }
   {
     id: "10869"
@@ -35579,6 +35579,90 @@
     daily_quota: "50"
     discount: "1.00"
     classification_id: "3002"
+  }
+  {
+    id: "22019"
+    type: "8"
+    item_ids: 605-10,515-1000
+    gemprice: "1120"
+    quota: "2003"
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22020"
+    type: "8"
+    quota: "2001"
+    giftbag_name: T-Doll: P22
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "652"
+    pay_type: "1"
+    itemprice: 100178-500
+    classification_id: "1005"
+  }
+  {
+    id: "22021"
+    type: "8"
+    quota: "2001"
+    giftbag_name: T-Doll: Lewis
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "651"
+    pay_type: "1"
+    itemprice: 100178-500
+    classification_id: "1005"
+  }
+  {
+    id: "22022"
+    type: "8"
+    quota: "2001"
+    giftbag_name: T-Doll: PPQ
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1399"
+    pay_type: "1"
+    itemprice: 100177-400
+    classification_id: "1005"
+  }
+  {
+    id: "22023"
+    type: "8"
+    quota: "2001"
+    giftbag_name: T-Doll: FARA 83
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1288"
+    pay_type: "1"
+    itemprice: 100177-400
+    classification_id: "1005"
+  }
+  {
+    id: "22024"
+    type: "8"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100178-5
+    classification_id: "1005"
+  }
+  {
+    id: "22025"
+    type: "8"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100177-5
+    classification_id: "1005"
   }
   {
     id: "99001"
