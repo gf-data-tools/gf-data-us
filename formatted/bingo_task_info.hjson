@@ -256,17 +256,6 @@
   {
     task_id: "25"
     type: difficulty
-    task_name: daily_game_buff
-    size: "1"
-    ticket_num: "1"
-    title: 探查奇遇
-    content: 在灰域探查中获得1次战场效果
-    is_mutex: "5"
-    task_type_id: "29"
-  }
-  {
-    task_id: "26"
-    type: difficulty
     task_name: operation_equip_contract
     size: "1"
     ticket_num: "1"
@@ -276,7 +265,7 @@
     task_type_id: "30"
   }
   {
-    task_id: "27"
+    task_id: "26"
     type: difficulty
     task_name: operation_iop_contract
     size: "1"
@@ -287,7 +276,7 @@
     task_type_id: "31"
   }
   {
-    task_id: "28"
+    task_id: "27"
     type: difficulty
     task_name: win_boss
     size: "5"
@@ -297,7 +286,7 @@
     task_type_id: "32"
   }
   {
-    task_id: "29"
+    task_id: "28"
     type: difficulty
     task_name: win_armorrobot
     size: "10"
@@ -307,7 +296,7 @@
     task_type_id: "33"
   }
   {
-    task_id: "30"
+    task_id: "29"
     type: difficulty
     task_name: win_robot
     size: "20"
@@ -317,7 +306,7 @@
     task_type_id: "34"
   }
   {
-    task_id: "31"
+    task_id: "30"
     type: difficulty
     task_name: win_person
     size: "30"
@@ -327,7 +316,7 @@
     task_type_id: "35"
   }
   {
-    task_id: "32"
+    task_id: "31"
     type: difficulty
     task_name: operation_duration
     size: "43200"
@@ -337,7 +326,7 @@
     task_type_id: "36"
   }
   {
-    task_id: "33"
+    task_id: "32"
     type: difficulty
     task_name: simulated_warfare
     size: "2"
@@ -347,7 +336,7 @@
     task_type_id: "38"
   }
   {
-    task_id: "34"
+    task_id: "33"
     type: difficulty
     task_name: upgrade
     size: "1"
@@ -357,7 +346,7 @@
     task_type_id: "39"
   }
   {
-    task_id: "35"
+    task_id: "34"
     type: difficulty
     task_name: s_win
     size: "10"
@@ -367,7 +356,7 @@
     task_type_id: "40"
   }
   {
-    task_id: "36"
+    task_id: "35"
     type: difficulty
     task_name: map_capture
     size: "3"
@@ -377,7 +366,7 @@
     task_type_id: "10"
   }
   {
-    task_id: "37"
+    task_id: "36"
     type: recharge
     task_name: auto_mission
     size: "1"
@@ -387,7 +376,7 @@
     task_type_id: "41"
   }
   {
-    task_id: "38"
+    task_id: "37"
     type: recharge
     task_name: get_lollipop
     size: "1"
@@ -398,7 +387,7 @@
     task_type_id: "42"
   }
   {
-    task_id: "39"
+    task_id: "38"
     type: recharge
     task_name: get_icecream
     size: "1"
@@ -409,7 +398,7 @@
     task_type_id: "43"
   }
   {
-    task_id: "40"
+    task_id: "39"
     type: recharge
     task_name: friend_greeting
     size: "1"
@@ -419,7 +408,7 @@
     task_type_id: "44"
   }
   {
-    task_id: "41"
+    task_id: "40"
     type: recharge
     task_name: upvote
     size: "20"
@@ -429,7 +418,7 @@
     task_type_id: "45"
   }
   {
-    task_id: "42"
+    task_id: "41"
     type: recharge
     task_name: open_gift
     size: "10"
@@ -439,7 +428,7 @@
     task_type_id: "47"
   }
   {
-    task_id: "43"
+    task_id: "42"
     type: recharge
     task_name: consume_build_coin
     size: "100"
@@ -449,7 +438,7 @@
     task_type_id: "48"
   }
   {
-    task_id: "44"
+    task_id: "43"
     type: recharge
     task_name: get_core
     size: "3"
