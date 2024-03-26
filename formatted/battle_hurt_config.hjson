@@ -1498,7 +1498,7 @@
     id: 399
     description: M870P防护值衰减
     critical_hit_rate: "100"
-    extra_defbreak: "100"
+    extra_defbreak: *102
     hit_type: 2
     is_ricochet: 100
   }

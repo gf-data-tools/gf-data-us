@@ -10992,4 +10992,38 @@
     is_show: 1
     obtain_ids: "3089"
   }
+  {
+    id: 364
+    name: Patrol Helmet
+    description:
+      '''
+      MOVE SPEED+<speed>
+      ARMOR+<armor>$M870 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "3,3"
+    armor: "4,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: 人形_特殊_M870
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "229"
+    equip_introduction: A helmet that M870 claims to have frequently worn when she was on duty on highways. It apparently had quite the deterrent effect that aided in her efforts in law enforcement.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:500
+    passive_skill: "759267"
+    max_level: 10
+    auto_select_id: 20069
+    is_show: 1
+    obtain_ids: "3090"
+  }
 ]
