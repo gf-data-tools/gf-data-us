@@ -805,10 +805,14 @@
     id: 57
     item_id: 1057
     sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    onsale: 1
     code: card_rankA_deepdive.prefab
     order: 1
-    rarity: 10
+    rarity: 5
     filter_type: "1,2"
+    event_id: 3225
   }
   {
     id: 58
@@ -1114,6 +1118,7 @@
     order: 8
     rarity: 3
     filter_type: "3"
+    event_id: 3226
   }
   {
     id: 79
@@ -3004,6 +3009,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3228
   }
   {
     id: 225
@@ -3017,6 +3023,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3229
   }
   {
     id: 226
@@ -14303,6 +14310,39 @@
     frame_id: 200002
   }
   {
+    id: 1214
+    item_id: 2214
+    sub_type: 1
+    code: profilePic_ChessFlight_season9_1
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200008
+    logo_code: logo_flightchess_major
+  }
+  {
+    id: 1215
+    item_id: 2215
+    sub_type: 1
+    code: profilePic_ChessFlight_season9_2
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200007
+    logo_code: logo_flightchess_general
+  }
+  {
+    id: 1216
+    item_id: 2216
+    sub_type: 1
+    code: profilePic_ChessFlight_season9_3
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200006
+    logo_code: logo_flightchess_chief
+  }
+  {
     id: 1217
     item_id: 2217
     sub_type: 1
@@ -15466,6 +15506,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_AUG
     order: 1
     rarity: 5
@@ -15477,6 +15518,7 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_AUG
     order: 1
     rarity: 5
@@ -15503,6 +15545,28 @@
     order: 1
     rarity: 5
     skin: 30011
+  }
+  {
+    id: 1370
+    item_id: 2370
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_WA2000
+    order: 1
+    rarity: 5
+    event_id: 3227
+  }
+  {
+    id: 1371
+    item_id: 2371
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_WA2000
+    order: 1
+    rarity: 5
+    event_id: 3224
   }
   {
     id: 1373
@@ -15547,6 +15611,28 @@
     order: 1
     rarity: 5
     skin: 30013
+  }
+  {
+    id: 1406
+    item_id: 2406
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    code: card_BattlePass_M950A
+    order: 1
+    rarity: 5
+  }
+  {
+    id: 1407
+    item_id: 2407
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_M950A
+    order: 1
+    rarity: 5
+    skin: 30014
   }
   {
     id: 100001
@@ -15782,6 +15868,7 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_AUG
     order: 1
     rarity: 5
@@ -15798,6 +15885,18 @@
     filter_type: "5"
   }
   {
+    id: 100031
+    item_id: 200031
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_WA2000
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 3230
+  }
+  {
     id: 100032
     item_id: 200032
     sub_type: 4
@@ -15811,6 +15910,15 @@
     item_id: 200034
     sub_type: 4
     code: profileFrame_BattlePass_HK433
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100036
+    item_id: 200036
+    sub_type: 4
+    code: profileFrame_BattlePass_M950A
     order: 1
     rarity: 5
     filter_type: "5"

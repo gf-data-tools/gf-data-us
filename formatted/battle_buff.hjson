@@ -10942,6 +10942,59 @@
     trigger_creation_id: "1820"
   }
   {
+    id: 2433
+    name: AR15掩体嘲讽
+    conflict_type: 2458
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 2434
+    name: AR15掩体防护
+    conflict_type: 2459
+    max_tier: 99
+    type: 110
+    duration_type: 1
+    duration: "16"
+    boss_available: 1
+    damage_reduce_number: "70"
+  }
+  {
+    id: 2435
+    name: AR15眩晕
+    description: 眩晕，不能行动
+    conflict_type: 2460
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "60"
+    trigger_creation_id: "209"
+    is_form_play: 1
+  }
+  {
+    id: 2436
+    name: AR15自爆触发
+    conflict_type: 2461
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 2437
+    name: AR15自爆停手
+    conflict_type: 2462
+    max_tier: 1
+    type: 221
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
     id: 3000
     name: Beer
     description: Beer

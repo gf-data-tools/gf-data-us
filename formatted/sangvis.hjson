@@ -362,6 +362,7 @@
     introduce: An intelligent Doll created after the Butterfly Incident with high combat capabilities, specializing in short-range assaults and defensive battles. But as the test subject in the developmental phase, her AI is very unstable and difficult to control. Possessing an overwhelming tactical and intellectual advantage over others, she is very self-assured and conceited, but she has little actual combat experience and is too unpredictable even for her allies, which makes her highly dangerous.
     dialogue: 待定，单独提出语言包最好
     extra: ",,"
+    en_introduce: sangvis-30001007
     forces: 1
     type: 1
     character: "2,4,6"
@@ -1386,6 +1387,66 @@
     gun_tag_ids: "137,113,145"
     ratio_rec: 135
     recommended_team_ids: "9"
+  }
+  {
+    id: 1025
+    name: Narciss
+    en_name: Narciss
+    code: BossNarciss
+    introduce: Narciss, a Nyto specialized in combat, was a former Paradeus elite unit skilled in taking down enemies with her floating blades and close-quarter attacks. In order to maximize her combat efficiency, Paradeus built her body and weapons with both strength and speed in mind, while completely disregarding the high mental strain they caused. Prolonged exposure to extreme mental and physical torment had cost Narcissus her empathy, muddled her view of good, and eventually turned her into an outright implement of destruction. But now that said implement is separated from those who forced the will to kill upon her, her heart may one day find peace.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    forces: 3
+    type: 1
+    character: "2,4,6"
+    formation: 1
+    resolution: 125
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 750870
+    skill2_type: 1
+    skill2: 750872
+    skill3: 750873
+    skill_advance: 750874
+    skill_resolution: "750871"
+    passive_skill2: "750876,750878,750879"
+    dynamic_passive_skill: "750877,750880,750883,750884"
+    normal_attack: 750875
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 105
+    ratio_pow: 170
+    ratio_rate: 60
+    ratio_hit: 150
+    ratio_dodge: 130
+    armor_piercing: 180
+    crit: 40
+    crit_dmg: 200
+    eat_ratio: 100
+    ratio_speed: 18
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 8
+    effect_grid_effect: 4:1,20;2,20
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 215
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930026
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10603
+    gun_tag_ids: "117,154,109,124"
+    ratio_rec: 105
+    recommended_team_ids: "8"
   }
   {
     id: 2001

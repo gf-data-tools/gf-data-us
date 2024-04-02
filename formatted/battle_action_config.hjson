@@ -8910,6 +8910,62 @@
     creation_delay: "0,0,0,0"
   }
   {
+    id: 2074
+    name: AR15敌方普攻
+    action_order: attack2
+    action_playspeed: "100"
+    creation_order: "3715,336,336,35,35,35,3714,371502,371502,371501,371501,371501"
+    creation_delay: "1,5,9,1,6,10,1,5,9,1,6,10"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 2075
+    name: AR15掩体
+    action_order: s2
+    action_playspeed: "90"
+    creation_order: "371701,371702"
+    creation_delay: "0,0"
+  }
+  {
+    id: 2076
+    name: AR15掩体防护
+    creation_order: "3717"
+  }
+  {
+    id: 2077
+    name: AR15扔手雷1
+    action_order: s3
+    action_playspeed: "70"
+    creation_order: "3718"
+    sound_order: BT_grenade_woosh
+    sound_delay: "50"
+  }
+  {
+    id: 2078
+    name: AR15扔手雷2
+    action_order: s3
+    action_playspeed: "70"
+    creation_order: "3719"
+    sound_order: BT_grenade_woosh
+    sound_delay: "50"
+  }
+  {
+    id: 2079
+    name: AR15剧情
+    avg_order: always-404-1-1-2
+    avg_delay: "4"
+  }
+  {
+    id: 2080
+    name: AR15自爆
+    action_order: s,die
+    action_delay: "0,60"
+    action_playspeed: "70,60"
+    creation_order: "3720,372001,372002"
+    creation_delay: "60,60,150"
+  }
+  {
     id: 2609
     name: 魂竞争者普攻
     action_order: "1"
@@ -24174,7 +24230,7 @@
     action_playspeed: "100,200"
     creation_order: "9480,9480,9480"
     creation_delay: "41,81,121"
-    effect_order: 3(BossNarciss;七原罪;Seven Deadly Sins;Narciss),10(BossNarciss;0;0)
+    effect_order: 3(BossNarciss;;Seven Deadly Sins;Narciss),10(BossNarciss;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
@@ -24187,7 +24243,7 @@
     action_playspeed: "100,200"
     creation_order: "9482,9482,9482"
     creation_delay: "41,81,121"
-    effect_order: 3(BossNarciss_1;七原罪;Seven Deadly Sins;Narciss),10(BossNarciss;0;0)
+    effect_order: 3(BossNarciss_1;;Seven Deadly Sins;Narciss),10(BossNarciss;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
@@ -26860,6 +26916,106 @@
     id: 541840
     name: 刘皮肤7701增援lv10
     creation_order: "570140"
+  }
+  {
+    id: 541841
+    name: 刘皮肤8703增援lv1
+    creation_order: "570141"
+  }
+  {
+    id: 541842
+    name: 刘皮肤8703增援lv2
+    creation_order: "570142"
+  }
+  {
+    id: 541843
+    name: 刘皮肤8703增援lv3
+    creation_order: "570143"
+  }
+  {
+    id: 541844
+    name: 刘皮肤8703增援lv4
+    creation_order: "570144"
+  }
+  {
+    id: 541845
+    name: 刘皮肤8703增援lv5
+    creation_order: "570145"
+  }
+  {
+    id: 541846
+    name: 刘皮肤8703增援lv6
+    creation_order: "570146"
+  }
+  {
+    id: 541847
+    name: 刘皮肤8703增援lv7
+    creation_order: "570147"
+  }
+  {
+    id: 541848
+    name: 刘皮肤8703增援lv8
+    creation_order: "570148"
+  }
+  {
+    id: 541849
+    name: 刘皮肤8703增援lv9
+    creation_order: "570149"
+  }
+  {
+    id: 541850
+    name: 刘皮肤8703增援lv10
+    creation_order: "570150"
+  }
+  {
+    id: 541851
+    name: 刘皮肤10204增援lv1
+    creation_order: "570151"
+  }
+  {
+    id: 541852
+    name: 刘皮肤10204增援lv2
+    creation_order: "570152"
+  }
+  {
+    id: 541853
+    name: 刘皮肤10204增援lv3
+    creation_order: "570153"
+  }
+  {
+    id: 541854
+    name: 刘皮肤10204增援lv4
+    creation_order: "570154"
+  }
+  {
+    id: 541855
+    name: 刘皮肤10204增援lv5
+    creation_order: "570155"
+  }
+  {
+    id: 541856
+    name: 刘皮肤10204增援lv6
+    creation_order: "570156"
+  }
+  {
+    id: 541857
+    name: 刘皮肤10204增援lv7
+    creation_order: "570157"
+  }
+  {
+    id: 541858
+    name: 刘皮肤10204增援lv8
+    creation_order: "570158"
+  }
+  {
+    id: 541859
+    name: 刘皮肤10204增援lv9
+    creation_order: "570159"
+  }
+  {
+    id: 541860
+    name: 刘皮肤10204增援lv10
+    creation_order: "570160"
   }
   {
     id: 542701
