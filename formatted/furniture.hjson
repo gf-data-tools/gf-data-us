@@ -26257,6 +26257,216 @@
     rotate: "2"
   }
   {
+    id: 11201
+    name: Want-for-Naught Cha Chaan Teng - Speckled Square Tiles
+    classes: 112
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: They occasionally get fed with coke, sauce, condensed milk... but it's no big deal. Mop them up, and they're good as new!
+    code: Dining2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11202
+    name: Want-for-Naught Cha Chaan Teng - Rusty Red Wall
+    classes: 112
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The retro wall in a rusty shade of red has a calm and serene air about it. The inspiration is apparently the color of a certain set of uniform that belongs to the Commander.
+    code: Dining2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11203
+    name: Want-for-Naught Cha Chaan Teng - Quadruple Menu Screens
+    classes: 112
+    type: 302
+    position: "5,1"
+    space: "10,6,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Five-star quality at street stall prices! One bite is all it takes to win you over!
+    code: Dining2023_deco_01
+    texture_type: "1"
+    offset: "0.000,1.543,0.000"
+    rotate: "3"
+  }
+  {
+    id: 11204
+    name: Want-for-Naught Cha Chaan Teng - Milk Tea & Sandwiches
+    classes: 112
+    type: 202
+    position: "21,4"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: There are no silk stockings in silk-stocking milk tea, just as there are no pineapples in pineapple buns.
+    code: Dining2023_deco_17,Dining2023_deco_11,Dining2023_deco_12
+    texture_type: "1,1,1"
+    sorting: "20,0,0"
+    offset: "0.000,0.000,0.000|-0.807,0.000,0.000|0.820,0.000,0.000"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *2.188,1.565,0.114|*-2.071,1.537,-0.285
+  }
+  {
+    id: 11205
+    name: Want-for-Naught Cha Chaan Teng - Fried Eggs & Barbecued Pork
+    classes: 112
+    type: 202
+    position: "26,10"
+    space: "7,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Enjoy a complimentary bottle of soda with your weekday set lunch - double the joy!
+    code: Dining2023_deco_10,Dining2023_deco_11
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0.313,-0.250,-0.052|-0.845,0.000,0.000"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *-2.333,1.480,0.142
+  }
+  {
+    id: 11206
+    name: Want-for-Naught Cha Chaan Teng - Hong Kong-Style French Toast
+    classes: 112
+    type: 202
+    position: "2,7"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: The butter is cool, and the ice cream is cold - how could there be any calories in this?
+    code: Dining2023_deco_16,Dining2023_deco_14
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "-0.250,-0.323,-0.073|0.996,0.079,0.020"
+    rotate: "2,2"
+    interact_point: "18"
+    interact_point_offset: *2.421,1.224,0.341
+  }
+  {
+    id: 11207
+    name: Want-for-Naught Cha Chaan Teng - Siu Mai & Xiaolongbao
+    classes: 112
+    type: 202
+    position: "13,7"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: '''"Sik faan mei ah? Yum cha sin la," says CF05 as she sips on her milk tea. RO635 just stares back in incomprehension. (That's "Have you eaten yet? Have some tea first" in Cantonese.)'''
+    code: Dining2023_deco_15,Dining2023_deco_13
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0.334,-0.282,-0.063|-0.980,0.109,0.028"
+    rotate: "2,2"
+    interact_point: "19"
+    interact_point_offset: *-1.925,1.537,-0.285
+  }
+  {
+    id: 11208
+    name: Want-for-Naught Cha Chaan Teng - Lotus Leaf Pendant Light
+    classes: 112
+    type: 201
+    position: "25,8"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"The lampshade is shaped like a lotus leaf. If the lightbulb were also shaped like a lotus pod... Uh, nevermind." Someone with trypophobia shudders.'''
+    code: Dining2023_deco_02,Dining2023_deco_03
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-2.053,1.523,0.351|2.555,1.558,0.360"
+    rotate: "2,2"
+  }
+  {
+    id: 11209
+    name: Want-for-Naught Cha Chaan Teng - Cabinets of Temptation
+    classes: 112
+    type: 201
+    position: "2,1"
+    space: "12,4,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: Snacks, desserts, drinks, you name it, we have it! Kalina recommends them all! Wait, these four plushies are not for sale! Please stop squishing them!
+    code: Dining2023_deco_04
+    texture_type: "1"
+    offset: "0.000,-0.167,-0.042"
+    rotate: "2"
+  }
+  {
+    id: 11210
+    name: Want-for-Naught Cha Chaan Teng - Daily Staff Roster
+    classes: 112
+    type: 302
+    position: "9,8"
+    space: "4,8,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To cut down costs, Kalina replaced the large mural that was originally planned with some free small posters given by the supplier of milk tea ingredients, then added a row of blackboards to the wall.
+    code: Dining2023_deco_05
+    texture_type: "1"
+    offset: "0.000,0.417,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11211
+    name: Want-for-Naught Cha Chaan Teng - High Roast
+    classes: 112
+    type: 201
+    position: "19,0"
+    space: "13,3,1,1,0,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: When the diner was first built, the roasting rack was only slightly higher than the counter top, but the plump roast geese and chickens kept getting stolen, and the only thing left behind by the culprit was a trail of dainty paw prints, and so the roasting rack got raised to its current height.
+    code: Dining2023_deco_06,Dining2023_deco_07,Dining2023_ants,Dining2023_deco_18,Dining2023_deco_19
+    texture_type: "1,1,2,1,1"
+    sorting: "0,0,0,20,20"
+    offset: "0.000,0.000,0.000|4.600,0.000,0.000|-1.083,0.838,-0.044|0.000,0.000,0.000|4.600,0.000,0.000"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11212
+    name: Want-for-Naught Cha Chaan Teng - Gluttonous Kitty
+    classes: 112
+    type: 302
+    position: "15,15"
+    space: "3,8,1,1,1,1"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: A mysterious thief tried to sneak into the kitchen while pretending to be made of 100% liquid.
+    code: Dining2023_deco_08
+    texture_type: "1"
+    offset: "0.000,0.302,0.000"
+    rotate: "3"
+  }
+  {
+    id: 11213
+    name: Want-for-Naught Cha Chaan Teng - Golden Signboard
+    classes: 112
+    type: 302
+    position: "19,2"
+    space: "5,4,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The Commander originally wanted to have two large signboards custom-made, but promptly scrapped the idea after receiving the quotation.
+    code: Dining2023_deco_09,Dining2023_lightA,Dining2023_lightB
+    texture_type: "1,2,2"
+    sorting: "0,0,0"
+    offset: "0.352,0.000,0.000|-0.658,-0.423,0.000|0.345,-0.380,0.000"
+    rotate: "3,3,3"
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -37037,6 +37247,96 @@
     decompose_gift: 100003
     description: StG44's poster.
     code: poster_OfficeLady2023_STG44
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38901
+    name: Fluffy Fruit Tea
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M4A1's poster.
+    code: poster_Dining2023_M4A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38902
+    name: Racing Parfait
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M4 SOPMOD-II's poster.
+    code: poster_Dining2023_M4 SOPMOD II
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38903
+    name: Owl Latte
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ST AR-15's poster.
+    code: poster_Dining2023_AR15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38904
+    name: Fairy Kingdom Brew
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M16A1's poster.
+    code: poster_Dining2023_M16A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38905
+    name: Sakura Milkshake
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: RO635's poster.
+    code: poster_Dining2023_RO635
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38906
+    name: Knight of the Lily
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A-545's poster.
+    code: poster_Dining2023_A545
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
