@@ -1,0 +1,3050 @@
+[
+  {
+    id: 12
+    name: Main Battle Tank
+    description: Heavy Weapon Coefficient <h_weapon_ratio> Accuracy Coefficient <hit_ratio> Attack Speed Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
+    rank: 5
+    code: TankM1
+    type: 1
+    group: 2
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 20
+    skill: 1:220106
+    h_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    att_roll: 1001
+    bonus_type: h_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 200
+    introduction: Component Pack test5
+    attack_type: 1
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 13
+    name: Main Battle Tank
+    description: Search Range <search_range> Light Weapon Coefficient <l_weapon_ratio> Accuracy Coefficient <hit_ratio> Attack Speed Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
+    rank: 3
+    code: TankM1
+    type: 2
+    group: 1
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 7
+    normal_attack: 220107
+    skill: 1:220201
+    skill_group: "220158,220108"
+    l_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    obtain_ids: "3,3001"
+    att_roll: 1002
+    bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 50
+    introduction: Component Pack test1
+    custom_type: "1002"
+  }
+  {
+    id: 22
+    name: Tactical Mech
+    description: Heavy Weapon Coefficient <h_weapon_ratio> Accuracy Coefficient <hit_ratio> Attack Speed Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
+    rank: 5
+    code: Warjack
+    type: 1
+    group: 2
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 20
+    skill: 1:220140
+    h_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    att_roll: 1001
+    bonus_type: h_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 200
+    introduction: Component Pack test5
+    attack_type: 1
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 23
+    name: Tactical Mech
+    description: Search Range <search_range> Light Weapon Coefficient <l_weapon_ratio> Accuracy Coefficient <hit_ratio> Attack Speed Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
+    rank: 3
+    code: Warjack
+    type: 2
+    group: 1
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 7
+    normal_attack: 900107
+    skill: 1:220141
+    skill_group: "220143,220142,220144,220145,220146,220149,220224,220225"
+    l_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    obtain_ids: "3,3001"
+    att_roll: 1002
+    bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 50
+    introduction: Component Pack test1
+    custom_type: "1002"
+  }
+  {
+    id: 24
+    name: Tactical Mech
+    description: Search Range <search_range> Light Weapon Coefficient <l_weapon_ratio> Accuracy Coefficient <hit_ratio> Attack Speed Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
+    rank: 3
+    code: Warjack
+    type: 3
+    group: 1
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 7
+    normal_attack: 900107
+    skill: 1:220150
+    l_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    obtain_ids: "3,3001"
+    att_roll: 1002
+    bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 50
+    introduction: Component Pack test1
+  }
+  {
+    id: 1001
+    name: Reload Chip
+    rank: 5
+    code: 装填芯片
+    group: 129
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    reload: 9
+    is_show: 1
+    att_roll: 5001
+    bonus_type: reload:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1002
+    name: Attack Speed Chip
+    rank: 5
+    code: 射速芯片
+    group: 130
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    atk_speed: 6
+    is_show: 1
+    att_roll: 5002
+    bonus_type: atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1003
+    name: Precision Chip
+    rank: 5
+    code: 精准芯片
+    group: 131
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    precision: 34
+    is_show: 1
+    att_roll: 5001
+    bonus_type: precision:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1004
+    name: Accuracy Chip
+    rank: 5
+    code: 命中芯片
+    group: 132
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    hit: 11
+    is_show: 1
+    att_roll: 5002
+    bonus_type: hit:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1005
+    name: Armor-Piercing Chip
+    rank: 5
+    code: 护甲芯片
+    group: 133
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    armor: 5
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1006
+    name: Evasion Chip
+    rank: 5
+    code: 闪避芯片
+    group: 134
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    dodge: 4
+    is_show: 1
+    att_roll: 5004
+    bonus_type: dodge:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1007
+    name: Firepower Chip
+    rank: 5
+    code: 火力芯片
+    group: 135
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    heavy_damage: 30
+    light_damage: 30
+    is_show: 1
+    att_roll: 5003
+    bonus_type: heavy_damage:1000,light_damage:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1008
+    name: Full-Speed Chip
+    rank: 5
+    code: 全速芯片
+    group: 136
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    reload: 6
+    atk_speed: 4
+    is_show: 1
+    att_roll: 5003
+    bonus_type: reload:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1009
+    name: Eagle-Eyes Chip
+    rank: 5
+    code: 鹰眼芯片
+    group: 137
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    precision: 21
+    hit: 7
+    is_show: 1
+    att_roll: 5003
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1010
+    name: Crit Chip
+    rank: 5
+    code: 暴击芯片
+    group: 138
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    critical_harm_rate: 10
+    critical_percent: 6
+    is_show: 1
+    att_roll: 5002
+    bonus_type: critical_harm_rate:1000,critical_percent:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1011
+    name: Defense Chip
+    rank: 5
+    code: 防御芯片
+    group: 139
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1012
+    name: Heavy Weaponry Chip
+    rank: 5
+    code: 重武芯片
+    group: 127
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    heavy_damage: 50
+    is_show: 1
+    att_roll: 5001
+    bonus_type: heavy_damage:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1013
+    name: Light Weaponry Chip
+    rank: 5
+    code: 轻武芯片
+    group: 128
+    unlock_lv: "3,10"
+    basic_effect: "3000,5000,5000"
+    light_damage: 50
+    is_show: 1
+    att_roll: 5002
+    bonus_type: light_damage:1000
+    exp_provide: 1000
+    custom_type: "1000"
+  }
+  {
+    id: 1101
+    name: Universal Machine Gun MK-I
+    rank: 5
+    code: MG_Single
+    type: 2
+    group: 101
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770001
+    skill: 1:770002
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 90
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1102
+    name: Anti-Armor Sniper Rifle
+    rank: 5
+    code: RF_AntiTank
+    type: 2
+    group: 102
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770003
+    skill: 1:770004
+    l_weapon_ratio: 160
+    atk_speed_ratio: 35
+    hit_ratio: 200
+    light_damage: 50
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1103
+    name: Machine Gun Team
+    rank: 5
+    code: MG_Multi_Barrel
+    type: 2
+    group: 103
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770008
+    skill: 1:770009
+    skill_group: "770010,770009"
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1104
+    name: Heavy Machine Gun
+    rank: 5
+    code: HMGCom
+    type: 2
+    group: 104
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 220206
+    skill: 1:220205
+    skill_group: "220207,220208,220219"
+    l_weapon_ratio: 150
+    atk_speed_ratio: 120
+    hit_ratio: 60
+    light_damage: 25
+    hit: 6
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1105
+    name: Automotive Night Vision
+    rank: 5
+    code: Searchlight
+    type: 3
+    group: 105
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770006
+    skill_group: "770005,770007"
+    precision: 34
+    hit: 11
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1106
+    name: Flamethrower
+    rank: 5
+    code: Flame_Ejector
+    type: 2
+    group: 106
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770053
+    skill: 1:770054
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1107
+    name: Gatling Gun
+    rank: 5
+    code: MG_Cannon
+    type: 2
+    group: 107
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770055
+    skill: 1:770056
+    l_weapon_ratio: 110
+    atk_speed_ratio: 60
+    hit_ratio: 80
+    light_damage: 30
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1108
+    name: Grenade Launcher
+    rank: 5
+    code: GrenadeComponent
+    type: 1
+    group: 108
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220110
+    skill_group: "220116,220171"
+    h_weapon_ratio: 50
+    reload_ratio: 130
+    precision_ratio: 80
+    heavy_damage: 25
+    reload: 5
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 1109
+    name: Laser Weapon
+    rank: 5
+    code: Laser_Weapon
+    type: 1
+    group: 109
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220119
+    skill_group: "220171"
+    h_weapon_ratio: 75
+    reload_ratio: 80
+    precision_ratio: 50
+    heavy_damage: 20
+    precision: 27
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 1000
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 1110
+    name: Cannon
+    rank: 5
+    code: Cannon
+    type: 1
+    group: 110
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220111
+    skill_group: "220159,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 50
+    precision_ratio: 45
+    heavy_damage: 30
+    reload: 4
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 1111
+    name: Anti-Aircraft Cannon
+    rank: 5
+    code: Flak_Cannon
+    type: 1
+    group: 111
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220125
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 45
+    precision_ratio: 50
+    heavy_damage: 30
+    reload: 4
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 1112
+    name: Impulse Cannon
+    rank: 5
+    code: Pulse_Cannon
+    type: 1
+    group: 112
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220126
+    skill_group: "220127,220128,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 80
+    precision_ratio: 90
+    heavy_damage: 30
+    precision: 21
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 1000
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 1113
+    name: Anti-Armor Cannon
+    rank: 5
+    code: Armor_Cannon
+    type: 1
+    group: 113
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220129
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 40
+    precision_ratio: 50
+    heavy_damage: 25
+    armor: 3
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,armor:1000
+    exp_provide: 1000
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 1114
+    name: Jammer Gun
+    rank: 5
+    code: Interference_Gun
+    type: 3
+    group: 114
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770065
+    precision: 17
+    hit: 6
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1115
+    name: Jammer
+    rank: 5
+    code: Jammer
+    type: 3
+    group: 115
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770074
+    precision: 17
+    hit: 6
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1116
+    name: Signal Receiver
+    rank: 5
+    code: Signal_Tower
+    type: 3
+    group: 116
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770076
+    skill_group: "770077,770078,770079,770080"
+    precision: 34
+    hit: 11
+    is_show: 1
+    att_roll: 4002
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1117
+    name: Smoke Grenade Launcher
+    rank: 5
+    code: Smoke_Emitter
+    type: 3
+    group: 117
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770075
+    precision: 17
+    hit: 6
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1118
+    name: Missile Launcher MK1
+    rank: 5
+    code: Small_Missile_Launcher
+    type: 1
+    group: 118
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220132
+    skill_group: "220171"
+    h_weapon_ratio: 65
+    reload_ratio: 60
+    precision_ratio: 100
+    heavy_damage: 25
+    reload: 5
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 3
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 1119
+    name: Missile Launcher MK2
+    rank: 5
+    code: Medium_Missile_Launcher
+    type: 1
+    group: 119
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220157
+    skill_group: "220171"
+    h_weapon_ratio: 80
+    reload_ratio: 20
+    precision_ratio: 100
+    heavy_damage: 25
+    reload: 5
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 3
+    effect_range: "6"
+    custom_type: "1001"
+  }
+  {
+    id: 1120
+    name: Railgun
+    rank: 5
+    code: Electromagnetic_Artillery
+    type: 1
+    group: 120
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220161
+    skill_group: "220162,220163,220164,220165,220171,220226"
+    h_weapon_ratio: 70
+    reload_ratio: 40
+    precision_ratio: 80
+    heavy_damage: 25
+    precision: 17
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 1000
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 1121
+    name: Explosive Reactive Armor
+    rank: 5
+    code: ERA
+    type: 4
+    group: 121
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770119
+    skill_group: "770123"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1122
+    name: Rotating Turret
+    rank: 5
+    code: Rotating_Turret
+    type: 2
+    group: 122
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770060
+    skill: 1:770057
+    skill_group: "770058,770059,770061"
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 20
+    atk_speed: 3
+    hit: 5
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1123
+    name: Drone Compartment
+    rank: 5
+    code: UAV_Compartment
+    type: 3
+    group: 123
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770071
+    reload: 5
+    atk_speed: 3
+    precision: 17
+    hit: 6
+    is_show: 1
+    att_roll: 4002
+    bonus_type: reload:1000,atk_speed:1000,precision:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1124
+    name: Shield Generator
+    rank: 5
+    code: AutoDef
+    type: 4
+    group: 124
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770067
+    skill_group: "770066,770068,770069,770070"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 3002
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1125
+    name: Phased-Array Radar
+    rank: 5
+    code: PAR
+    type: 3
+    group: 125
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9981
+    skill_group: "770064"
+    precision: 34
+    hit: 11
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1126
+    name: Light Machine Gun
+    rank: 5
+    code: LMGCom
+    type: 2
+    group: 140
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 220210
+    skill: 1:220209
+    l_weapon_ratio: 60
+    atk_speed_ratio: 80
+    hit_ratio: 100
+    atk_speed: 4
+    hit: 7
+    is_show: 1
+    att_roll: 2001
+    bonus_type: atk_speed:1000,hit:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1127
+    name: Automated Defense System
+    rank: 5
+    code: Protective_Generator
+    type: 4
+    group: 141
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770116
+    skill_group: "770122"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1128
+    name: Lightweight Rapid-Fire Railgun
+    rank: 5
+    code: ElecGun
+    type: 2
+    group: 142
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 220212
+    skill: 1:220211
+    skill_group: "220213"
+    l_weapon_ratio: 120
+    atk_speed_ratio: 60
+    hit_ratio: 100
+    light_damage: 30
+    atk_speed: 4
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1129
+    name: Laser Suppression System
+    rank: 5
+    code: LaserSup
+    type: 3
+    group: 143
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770117
+    skill_group: "770118"
+    hit: 7
+    dodge: 3
+    is_show: 1
+    att_roll: 4001
+    bonus_type: hit:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1130
+    name: Vehicle-Mounted Shotgun
+    description: Deal damage to the 3 nearest targets with a chance of having a knockback effect. Increase damage and accuracy for every group of enemies present within a distance of 5.
+    rank: 5
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 1131
+    name: Small Mortar
+    description: Fire a mortar shell, dealing 1x damage and 1x shield damage to enemies within a radius of 2.
+    rank: 5
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 25
+    reload: 5
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 1132
+    name: Laser rangefinder
+    description: Passive: Increase attack range of heavy weapons. Mark an enemy target periodically, prioritizing unmarked units with the highest HP, and significantly reduce their evasion.
+    rank: 5
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 25
+    reload: 5
+    precision: 17
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1133
+    name: Camouflage Netting
+    description: Map Skill: This unit will not be targeted by non-ranged attacks for 3 rounds.
+    rank: 5
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 4
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 1134
+    name: Slat Armor
+    description: Passive: Gain protection At the start of the battle against damage that does not exceed N points. Protection wears off after taking N hits. Active: Regain protection.
+    rank: 5
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 4
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 2001
+    name: Reload Chip
+    rank: 4
+    code: 装填芯片
+    group: 129
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    reload: 7
+    is_show: 1
+    att_roll: 5001
+    bonus_type: reload:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2002
+    name: Attack Speed Chip
+    rank: 4
+    code: 射速芯片
+    group: 130
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    atk_speed: 5
+    is_show: 1
+    att_roll: 5002
+    bonus_type: atk_speed:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2003
+    name: Precision Chip
+    rank: 4
+    code: 精准芯片
+    group: 131
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    precision: 27
+    is_show: 1
+    att_roll: 5001
+    bonus_type: precision:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2004
+    name: Accuracy Chip
+    rank: 4
+    code: 命中芯片
+    group: 132
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    hit: 9
+    is_show: 1
+    att_roll: 5002
+    bonus_type: hit:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2005
+    name: Armor-Piercing Chip
+    rank: 4
+    code: 护甲芯片
+    group: 133
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    armor: 4
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2006
+    name: Evasion Chip
+    rank: 4
+    code: 闪避芯片
+    group: 134
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    dodge: 3
+    is_show: 1
+    att_roll: 5004
+    bonus_type: dodge:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2007
+    name: Firepower Chip
+    rank: 4
+    code: 火力芯片
+    group: 135
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    heavy_damage: 25
+    light_damage: 25
+    is_show: 1
+    att_roll: 5003
+    bonus_type: heavy_damage:1000,light_damage:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2008
+    name: Full-Speed Chip
+    rank: 4
+    code: 全速芯片
+    group: 136
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    reload: 5
+    atk_speed: 3
+    is_show: 1
+    att_roll: 5003
+    bonus_type: reload:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2009
+    name: Eagle-Eyes Chip
+    rank: 4
+    code: 鹰眼芯片
+    group: 137
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    precision: 17
+    hit: 6
+    is_show: 1
+    att_roll: 5003
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2010
+    name: Crit Chip
+    rank: 4
+    code: 暴击芯片
+    group: 138
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    critical_harm_rate: 8
+    critical_percent: 4
+    is_show: 1
+    att_roll: 5002
+    bonus_type: critical_harm_rate:1000,critical_percent:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2011
+    name: Defense Chip
+    rank: 4
+    code: 防御芯片
+    group: 139
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2012
+    name: Heavy Weaponry Chip
+    rank: 4
+    code: 重武芯片
+    group: 127
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    heavy_damage: 40
+    is_show: 1
+    att_roll: 5001
+    bonus_type: heavy_damage:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2013
+    name: Light Weaponry Chip
+    rank: 4
+    code: 轻武芯片
+    group: 128
+    unlock_lv: "3,10"
+    basic_effect: "3000,4000,4000"
+    light_damage: 40
+    is_show: 1
+    att_roll: 5002
+    bonus_type: light_damage:1000
+    exp_provide: 500
+    custom_type: "1000"
+  }
+  {
+    id: 2101
+    name: Universal Machine Gun MK-I
+    rank: 4
+    code: MG_Single
+    type: 2
+    group: 101
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770001
+    skill: 1:770002
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 90
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2102
+    name: Anti-Armor Sniper Rifle
+    rank: 4
+    code: RF_AntiTank
+    type: 2
+    group: 102
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770003
+    skill: 1:770004
+    l_weapon_ratio: 160
+    atk_speed_ratio: 35
+    hit_ratio: 200
+    light_damage: 40
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2103
+    name: Machine Gun Team
+    rank: 4
+    code: MG_Multi_Barrel
+    type: 2
+    group: 103
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770008
+    skill: 1:770009
+    skill_group: "770010,770009"
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2104
+    name: Heavy Machine Gun
+    rank: 4
+    code: HMGCom
+    type: 2
+    group: 104
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 220206
+    skill: 1:220205
+    skill_group: "220207,220208,220219"
+    l_weapon_ratio: 150
+    atk_speed_ratio: 120
+    hit_ratio: 60
+    light_damage: 20
+    hit: 5
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2105
+    name: Automotive Night Vision
+    rank: 4
+    code: Searchlight
+    type: 3
+    group: 105
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770006
+    skill_group: "770005,770007"
+    precision: 27
+    hit: 9
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2106
+    name: Flamethrower
+    rank: 4
+    code: Flame_Ejector
+    type: 2
+    group: 106
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770053
+    skill: 1:770054
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2107
+    name: Gatling Gun
+    rank: 4
+    code: MG_Cannon
+    type: 2
+    group: 107
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770055
+    skill: 1:770056
+    l_weapon_ratio: 110
+    atk_speed_ratio: 60
+    hit_ratio: 80
+    light_damage: 25
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2108
+    name: Grenade Launcher
+    rank: 4
+    code: GrenadeComponent
+    type: 1
+    group: 108
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220110
+    skill_group: "220116,220171"
+    h_weapon_ratio: 50
+    reload_ratio: 130
+    precision_ratio: 80
+    heavy_damage: 20
+    reload: 4
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 500
+    attack_type: 2
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 2109
+    name: Laser Weapon
+    rank: 4
+    code: Laser_Weapon
+    type: 1
+    group: 109
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220119
+    skill_group: "220171"
+    h_weapon_ratio: 75
+    reload_ratio: 80
+    precision_ratio: 50
+    heavy_damage: 18
+    precision: 22
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 500
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 2110
+    name: Cannon
+    rank: 4
+    code: Cannon
+    type: 1
+    group: 110
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220111
+    skill_group: "220159,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 50
+    precision_ratio: 45
+    heavy_damage: 25
+    reload: 3
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 500
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 2111
+    name: Anti-Aircraft Cannon
+    rank: 4
+    code: Flak_Cannon
+    type: 1
+    group: 111
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220125
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 45
+    precision_ratio: 50
+    heavy_damage: 25
+    reload: 3
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 500
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 2112
+    name: Impulse Cannon
+    rank: 4
+    code: Pulse_Cannon
+    type: 1
+    group: 112
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220126
+    skill_group: "220127,220128,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 80
+    precision_ratio: 90
+    heavy_damage: 25
+    precision: 17
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 500
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 2113
+    name: Anti-Armor Cannon
+    rank: 4
+    code: Armor_Cannon
+    type: 1
+    group: 113
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220129
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 40
+    precision_ratio: 50
+    heavy_damage: 20
+    armor: 2
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,armor:1000
+    exp_provide: 500
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 2114
+    name: Jammer Gun
+    rank: 4
+    code: Interference_Gun
+    type: 3
+    group: 114
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770065
+    precision: 14
+    hit: 5
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2115
+    name: Jammer
+    rank: 4
+    code: Jammer
+    type: 3
+    group: 115
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770074
+    precision: 14
+    hit: 5
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2116
+    name: Signal Receiver
+    rank: 4
+    code: Signal_Tower
+    type: 3
+    group: 116
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770076
+    skill_group: "770077,770078,770079,770080"
+    precision: 27
+    hit: 9
+    is_show: 1
+    att_roll: 4002
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2117
+    name: Smoke Grenade Launcher
+    rank: 4
+    code: Smoke_Emitter
+    type: 3
+    group: 117
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770075
+    precision: 14
+    hit: 5
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2118
+    name: Missile Launcher MK1
+    rank: 4
+    code: Small_Missile_Launcher
+    type: 1
+    group: 118
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220132
+    skill_group: "220171"
+    h_weapon_ratio: 65
+    reload_ratio: 60
+    precision_ratio: 100
+    heavy_damage: 20
+    reload: 4
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 500
+    attack_type: 3
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 2119
+    name: Missile Launcher MK2
+    rank: 4
+    code: Medium_Missile_Launcher
+    type: 1
+    group: 119
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220157
+    skill_group: "220171"
+    h_weapon_ratio: 80
+    reload_ratio: 20
+    precision_ratio: 100
+    heavy_damage: 20
+    reload: 4
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 500
+    attack_type: 3
+    effect_range: "6"
+    custom_type: "1001"
+  }
+  {
+    id: 2120
+    name: Railgun
+    rank: 4
+    code: Electromagnetic_Artillery
+    type: 1
+    group: 120
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220161
+    skill_group: "220162,220163,220164,220165,220171,220226"
+    h_weapon_ratio: 70
+    reload_ratio: 40
+    precision_ratio: 80
+    heavy_damage: 20
+    precision: 14
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 500
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 2121
+    name: Explosive Reactive Armor
+    rank: 4
+    code: ERA
+    type: 4
+    group: 121
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770119
+    skill_group: "770123"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2122
+    name: Rotating Turret
+    rank: 4
+    code: Rotating_Turret
+    type: 2
+    group: 122
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 770060
+    skill: 1:770057
+    skill_group: "770058,770059,770061"
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 18
+    atk_speed: 2
+    hit: 4
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2123
+    name: Drone Compartment
+    rank: 4
+    code: UAV_Compartment
+    type: 3
+    group: 123
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770071
+    reload: 4
+    atk_speed: 3
+    precision: 14
+    hit: 5
+    is_show: 1
+    att_roll: 4002
+    bonus_type: reload:1000,atk_speed:1000,precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2124
+    name: Shield Generator
+    rank: 4
+    code: AutoDef
+    type: 4
+    group: 124
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770067
+    skill_group: "770066,770068,770069,770070"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3002
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2125
+    name: Phased-Array Radar
+    rank: 4
+    code: PAR
+    type: 3
+    group: 125
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 2:9981
+    skill_group: "770064"
+    precision: 27
+    hit: 9
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2126
+    name: Light Machine Gun
+    rank: 4
+    code: LMGCom
+    type: 2
+    group: 140
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 220210
+    skill: 1:220209
+    l_weapon_ratio: 60
+    atk_speed_ratio: 80
+    hit_ratio: 100
+    atk_speed: 3
+    hit: 6
+    is_show: 1
+    att_roll: 2001
+    bonus_type: atk_speed:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2127
+    name: Automated Defense System
+    rank: 4
+    code: Protective_Generator
+    type: 4
+    group: 141
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770116
+    skill_group: "770122"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2128
+    name: Lightweight Rapid-Fire Railgun
+    rank: 4
+    code: ElecGun
+    type: 2
+    group: 142
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    search_range: 8
+    normal_attack: 220212
+    skill: 1:220211
+    skill_group: "220213"
+    l_weapon_ratio: 120
+    atk_speed_ratio: 60
+    hit_ratio: 100
+    light_damage: 25
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 500
+    custom_type: "1002"
+  }
+  {
+    id: 2129
+    name: Laser Suppression System
+    rank: 4
+    code: LaserSup
+    type: 3
+    group: 143
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:770117
+    skill_group: "770118"
+    hit: 6
+    dodge: 2
+    is_show: 1
+    att_roll: 4001
+    bonus_type: hit:1000,dodge:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
+    id: 2130
+    name: Vehicle-Mounted Shotgun
+    description: Deal damage to the 3 nearest targets with a chance of having a knockback effect. Increase damage and accuracy for every group of enemies present within a distance of 5.
+    rank: 4
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 2131
+    name: Small Mortar
+    description: Fire a mortar shell, dealing 1x damage and 1x shield damage to enemies within a radius of 2.
+    rank: 4
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 20
+    reload: 4
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 2132
+    name: Laser rangefinder
+    description: Passive: Increase attack range of heavy weapons. Mark an enemy target periodically, prioritizing unmarked units with the highest HP, and significantly reduce their evasion.
+    rank: 4
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 20
+    reload: 4
+    precision: 14
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 2133
+    name: Camouflage Netting
+    description: Map Skill: This unit will not be targeted by non-ranged attacks for 3 rounds.
+    rank: 4
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 3
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 2134
+    name: Slat Armor
+    description: Passive: Gain protection At the start of the battle against damage that does not exceed N points. Protection wears off after taking N hits. Active: Regain protection.
+    rank: 4
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 3
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 3001
+    name: Reload Chip
+    rank: 3
+    code: 装填芯片
+    group: 129
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    reload: 6
+    is_show: 1
+    att_roll: 5001
+    bonus_type: reload:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3002
+    name: Attack Speed Chip
+    rank: 3
+    code: 射速芯片
+    group: 130
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    atk_speed: 4
+    is_show: 1
+    att_roll: 5002
+    bonus_type: atk_speed:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3003
+    name: Precision Chip
+    rank: 3
+    code: 精准芯片
+    group: 131
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    precision: 22
+    is_show: 1
+    att_roll: 5001
+    bonus_type: precision:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3004
+    name: Accuracy Chip
+    rank: 3
+    code: 命中芯片
+    group: 132
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    hit: 7
+    is_show: 1
+    att_roll: 5002
+    bonus_type: hit:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3005
+    name: Armor-Piercing Chip
+    rank: 3
+    code: 护甲芯片
+    group: 133
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    armor: 3
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3006
+    name: Evasion Chip
+    rank: 3
+    code: 闪避芯片
+    group: 134
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    dodge: 3
+    is_show: 1
+    att_roll: 5004
+    bonus_type: dodge:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3007
+    name: Firepower Chip
+    rank: 3
+    code: 火力芯片
+    group: 135
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    heavy_damage: 20
+    light_damage: 20
+    is_show: 1
+    att_roll: 5003
+    bonus_type: heavy_damage:1000,light_damage:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3008
+    name: Full-Speed Chip
+    rank: 3
+    code: 全速芯片
+    group: 136
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    reload: 4
+    atk_speed: 3
+    is_show: 1
+    att_roll: 5003
+    bonus_type: reload:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3009
+    name: Eagle-Eyes Chip
+    rank: 3
+    code: 鹰眼芯片
+    group: 137
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    precision: 14
+    hit: 5
+    is_show: 1
+    att_roll: 5003
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3010
+    name: Crit Chip
+    rank: 3
+    code: 暴击芯片
+    group: 138
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    critical_harm_rate: 5
+    critical_percent: 2
+    is_show: 1
+    att_roll: 5002
+    bonus_type: critical_harm_rate:1000,critical_percent:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3011
+    name: Defense Chip
+    rank: 3
+    code: 防御芯片
+    group: 139
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 5004
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3012
+    name: Heavy Weaponry Chip
+    rank: 3
+    code: 重武芯片
+    group: 127
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    heavy_damage: 33
+    is_show: 1
+    att_roll: 5001
+    bonus_type: heavy_damage:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3013
+    name: Light Weaponry Chip
+    rank: 3
+    code: 轻武芯片
+    group: 128
+    unlock_lv: "3,10"
+    basic_effect: "3000,3000,3000"
+    light_damage: 33
+    is_show: 1
+    att_roll: 5002
+    bonus_type: light_damage:1000
+    exp_provide: 200
+    custom_type: "1000"
+  }
+  {
+    id: 3101
+    name: Universal Machine Gun MK-I
+    rank: 3
+    code: MG_Single
+    type: 2
+    group: 101
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770001
+    skill: 1:770002
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 90
+    light_damage: 18
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3102
+    name: Anti-Armor Sniper Rifle
+    rank: 3
+    code: RF_AntiTank
+    type: 2
+    group: 102
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770003
+    skill: 1:770004
+    l_weapon_ratio: 160
+    atk_speed_ratio: 35
+    hit_ratio: 200
+    light_damage: 33
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3103
+    name: Machine Gun Team
+    rank: 3
+    code: MG_Multi_Barrel
+    type: 2
+    group: 103
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770008
+    skill: 1:770009
+    skill_group: "770010,770009"
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 18
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3104
+    name: Heavy Machine Gun
+    rank: 3
+    code: HMGCom
+    type: 2
+    group: 104
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 220206
+    skill: 1:220205
+    skill_group: "220207,220208,220219"
+    l_weapon_ratio: 150
+    atk_speed_ratio: 120
+    hit_ratio: 60
+    light_damage: 18
+    hit: 4
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3105
+    name: Automotive Night Vision
+    rank: 3
+    code: Searchlight
+    type: 3
+    group: 105
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770006
+    skill_group: "770005,770007"
+    precision: 22
+    hit: 7
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3106
+    name: Flamethrower
+    rank: 3
+    code: Flame_Ejector
+    type: 2
+    group: 106
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770053
+    skill: 1:770054
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 18
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2002
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3107
+    name: Gatling Gun
+    rank: 3
+    code: MG_Cannon
+    type: 2
+    group: 107
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770055
+    skill: 1:770056
+    l_weapon_ratio: 110
+    atk_speed_ratio: 60
+    hit_ratio: 80
+    light_damage: 20
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3108
+    name: Grenade Launcher
+    rank: 3
+    code: GrenadeComponent
+    type: 1
+    group: 108
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220110
+    skill_group: "220116,220171"
+    h_weapon_ratio: 50
+    reload_ratio: 130
+    precision_ratio: 80
+    heavy_damage: 18
+    reload: 3
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 200
+    attack_type: 2
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 3109
+    name: Laser Weapon
+    rank: 3
+    code: Laser_Weapon
+    type: 1
+    group: 109
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220119
+    skill_group: "220171"
+    h_weapon_ratio: 75
+    reload_ratio: 80
+    precision_ratio: 50
+    heavy_damage: 15
+    precision: 19
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 200
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 3110
+    name: Cannon
+    rank: 3
+    code: Cannon
+    type: 1
+    group: 110
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220111
+    skill_group: "220159,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 50
+    precision_ratio: 45
+    heavy_damage: 20
+    reload: 3
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 200
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 3111
+    name: Anti-Aircraft Cannon
+    rank: 3
+    code: Flak_Cannon
+    type: 1
+    group: 111
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220125
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 45
+    precision_ratio: 50
+    heavy_damage: 20
+    reload: 3
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 200
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 3112
+    name: Impulse Cannon
+    rank: 3
+    code: Pulse_Cannon
+    type: 1
+    group: 112
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220126
+    skill_group: "220127,220128,220171"
+    h_weapon_ratio: 60
+    reload_ratio: 80
+    precision_ratio: 90
+    heavy_damage: 20
+    precision: 14
+    is_show: 1
+    att_roll: 1002
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 200
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 3113
+    name: Anti-Armor Cannon
+    rank: 3
+    code: Armor_Cannon
+    type: 1
+    group: 113
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220129
+    skill_group: "220171"
+    h_weapon_ratio: 60
+    reload_ratio: 40
+    precision_ratio: 50
+    heavy_damage: 18
+    armor: 2
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,armor:1000
+    exp_provide: 200
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 3114
+    name: Jammer Gun
+    rank: 3
+    code: Interference_Gun
+    type: 3
+    group: 114
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770065
+    precision: 12
+    hit: 4
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3115
+    name: Jammer
+    rank: 3
+    code: Jammer
+    type: 3
+    group: 115
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770074
+    precision: 12
+    hit: 4
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3116
+    name: Signal Receiver
+    rank: 3
+    code: Signal_Tower
+    type: 3
+    group: 116
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770076
+    skill_group: "770077,770078,770079,770080"
+    precision: 22
+    hit: 7
+    is_show: 1
+    att_roll: 4002
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3117
+    name: Smoke Grenade Launcher
+    rank: 3
+    code: Smoke_Emitter
+    type: 3
+    group: 117
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770075
+    precision: 12
+    hit: 4
+    dodge: 2
+    is_show: 1
+    att_roll: 4003
+    bonus_type: precision:1000,hit:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3118
+    name: Missile Launcher MK1
+    rank: 3
+    code: Small_Missile_Launcher
+    type: 1
+    group: 118
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220132
+    skill_group: "220171"
+    h_weapon_ratio: 65
+    reload_ratio: 60
+    precision_ratio: 100
+    heavy_damage: 18
+    reload: 3
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 200
+    attack_type: 3
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 3119
+    name: Missile Launcher MK2
+    rank: 3
+    code: Medium_Missile_Launcher
+    type: 1
+    group: 119
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220157
+    skill_group: "220171"
+    h_weapon_ratio: 80
+    reload_ratio: 20
+    precision_ratio: 100
+    heavy_damage: 18
+    reload: 3
+    is_show: 1
+    att_roll: 1001
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 200
+    attack_type: 3
+    effect_range: "6"
+    custom_type: "1001"
+  }
+  {
+    id: 3120
+    name: Railgun
+    rank: 3
+    code: Electromagnetic_Artillery
+    type: 1
+    group: 120
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:220161
+    skill_group: "220162,220163,220164,220165,220171,220226"
+    h_weapon_ratio: 70
+    reload_ratio: 40
+    precision_ratio: 80
+    heavy_damage: 18
+    precision: 12
+    is_show: 1
+    att_roll: 1004
+    bonus_type: heavy_damage:1000,precision:1000
+    exp_provide: 200
+    attack_type: 1
+    custom_type: "1001"
+  }
+  {
+    id: 3121
+    name: Explosive Reactive Armor
+    rank: 3
+    code: ERA
+    type: 4
+    group: 121
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770119
+    skill_group: "770123"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3122
+    name: Rotating Turret
+    rank: 3
+    code: Rotating_Turret
+    type: 2
+    group: 122
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 770060
+    skill: 1:770057
+    skill_group: "770058,770059,770061"
+    l_weapon_ratio: 60
+    atk_speed_ratio: 100
+    hit_ratio: 100
+    light_damage: 15
+    atk_speed: 2
+    hit: 4
+    is_show: 1
+    att_roll: 2003
+    bonus_type: light_damage:1000,atk_speed:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3123
+    name: Drone Compartment
+    rank: 3
+    code: UAV_Compartment
+    type: 3
+    group: 123
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770071
+    reload: 3
+    atk_speed: 2
+    precision: 12
+    hit: 4
+    is_show: 1
+    att_roll: 4002
+    bonus_type: reload:1000,atk_speed:1000,precision:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3124
+    name: Shield Generator
+    rank: 3
+    code: AutoDef
+    type: 4
+    group: 124
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770067
+    skill_group: "770066,770068,770069,770070"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3002
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3125
+    name: Phased-Array Radar
+    rank: 3
+    code: PAR
+    type: 3
+    group: 125
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 2:9981
+    skill_group: "770064"
+    precision: 22
+    hit: 7
+    is_show: 1
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3126
+    name: Light Machine Gun
+    rank: 3
+    code: LMGCom
+    type: 2
+    group: 140
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 220210
+    skill: 1:220209
+    l_weapon_ratio: 60
+    atk_speed_ratio: 80
+    hit_ratio: 100
+    atk_speed: 3
+    hit: 5
+    is_show: 1
+    att_roll: 2001
+    bonus_type: atk_speed:1000,hit:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3127
+    name: Automated Defense System
+    rank: 3
+    code: Protective_Generator
+    type: 4
+    group: 141
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770116
+    skill_group: "770122"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3128
+    name: Lightweight Rapid-Fire Railgun
+    rank: 3
+    code: ElecGun
+    type: 2
+    group: 142
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    search_range: 8
+    normal_attack: 220212
+    skill: 1:220211
+    skill_group: "220213"
+    l_weapon_ratio: 120
+    atk_speed_ratio: 60
+    hit_ratio: 100
+    light_damage: 20
+    atk_speed: 3
+    is_show: 1
+    att_roll: 2004
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 200
+    custom_type: "1002"
+  }
+  {
+    id: 3129
+    name: Laser Suppression System
+    rank: 3
+    code: LaserSup
+    type: 3
+    group: 143
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,3000,3000,3000"
+    normal_attack: 900107
+    skill: 1:770117
+    skill_group: "770118"
+    hit: 5
+    dodge: 2
+    is_show: 1
+    att_roll: 4001
+    bonus_type: hit:1000,dodge:1000
+    exp_provide: 200
+    custom_type: "1003"
+  }
+  {
+    id: 3130
+    name: Vehicle-Mounted Shotgun
+    description: Deal damage to the 3 nearest targets with a chance of having a knockback effect. Increase damage and accuracy for every group of enemies present within a distance of 5.
+    rank: 3
+    code: ShotgunVehicle
+    type: 2
+    group: 144
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 8
+    normal_attack: 770128
+    skill: 1:770129
+    l_weapon_ratio: 70
+    atk_speed_ratio: 90
+    hit_ratio: 90
+    light_damage: 18
+    atk_speed: 2
+    is_show: 1
+    att_roll: 2001
+    bonus_type: light_damage:1000,atk_speed:1000
+    exp_provide: 1000
+    custom_type: "1002"
+  }
+  {
+    id: 3131
+    name: Small Mortar
+    description: Fire a mortar shell, dealing 1x damage and 1x shield damage to enemies within a radius of 2.
+    rank: 3
+    code: MortarVehicle
+    type: 1
+    group: 145
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    search_range: 20
+    normal_attack: 900107
+    skill: 1:770133
+    skill_group: "220171,770137"
+    h_weapon_ratio: 80
+    reload_ratio: 50
+    precision_ratio: 50
+    heavy_damage: 18
+    reload: 3
+    is_show: 1
+    att_roll: 1003
+    bonus_type: heavy_damage:1000,reload:1000
+    exp_provide: 1000
+    attack_type: 2
+    effect_range: "4"
+    custom_type: "1001"
+  }
+  {
+    id: 3132
+    name: Laser rangefinder
+    description: Passive: Increase attack range of heavy weapons. Mark an enemy target periodically, prioritizing unmarked units with the highest HP, and significantly reduce their evasion.
+    rank: 3
+    code: LaserRangefinder
+    type: 3
+    group: 146
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770134
+    heavy_damage: 18
+    reload: 3
+    precision: 12
+    is_show: 1
+    att_roll: 4003
+    bonus_type: heavy_damage:1000,reload:1000,precision:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 3133
+    name: Camouflage Netting
+    description: Map Skill: This unit will not be targeted by non-ranged attacks for 3 rounds.
+    rank: 3
+    code: CamouflageNet
+    type: 4
+    group: 147
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 2:9982
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+  {
+    id: 3134
+    name: Slat Armor
+    description: Passive: Gain protection At the start of the battle against damage that does not exceed N points. Protection wears off after taking N hits. Active: Regain protection.
+    rank: 3
+    code: GrilleArmor
+    type: 4
+    group: 148
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,5000,5000,5000"
+    normal_attack: 900107
+    skill: 1:770131
+    skill_group: "770130,770132,770136,770135"
+    armor: 2
+    dodge: 2
+    is_show: 1
+    att_roll: 3001
+    bonus_type: armor:1000,dodge:1000
+    exp_provide: 1000
+    custom_type: "1003"
+  }
+]

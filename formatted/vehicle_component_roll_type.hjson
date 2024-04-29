@@ -1,0 +1,394 @@
+[
+  {
+    id: 1001
+    name: Heavy Weapon Damage
+    type: 1
+    roll_code: heavy_damage
+    group: 1
+  }
+  {
+    id: 1002
+    name: Reload Speed
+    type: 1
+    roll_code: reload
+    group: 1
+  }
+  {
+    id: 1003
+    name: Precision
+    type: 1
+    roll_code: precision
+    group: 1
+  }
+  {
+    id: 1004
+    name: Heavy Weapon AP
+    type: 1
+    roll_code: H_armor_piercing
+    group: 1
+  }
+  {
+    id: 1005
+    name: Light Weapon Damage
+    type: 1
+    roll_code: light_damage
+    group: 1
+  }
+  {
+    id: 1006
+    name: Attack Speed
+    type: 1
+    roll_code: atk_speed
+    group: 1
+  }
+  {
+    id: 1007
+    name: Accuracy
+    type: 1
+    roll_code: hit
+    group: 1
+  }
+  {
+    id: 1008
+    name: Light Weapon AP
+    type: 1
+    roll_code: L_armor_piercing
+    group: 1
+  }
+  {
+    id: 1009
+    name: Critical Rate
+    type: 1
+    roll_code: crit_rate
+    group: 1
+  }
+  {
+    id: 1010
+    name: Critical Damage
+    type: 1
+    roll_code: crit_damage
+    group: 1
+  }
+  {
+    id: 1011
+    name: Armor
+    type: 1
+    roll_code: armor
+    group: 1
+  }
+  {
+    id: 1012
+    name: Evasion
+    type: 1
+    roll_code: dodge
+    group: 1
+  }
+  {
+    id: 1013
+    name: Pierce
+    type: 1
+    roll_code: def_break
+    group: 1
+  }
+  {
+    id: 2001
+    name: Anti-Unarmored Unit Specialization
+    type: 2
+    skill_id: 770036
+    group: 2
+  }
+  {
+    id: 2002
+    name: Anti-Doll Specialization
+    type: 2
+    skill_id: 770038
+    group: 2
+  }
+  {
+    id: 2003
+    name: Single-Target Specialization
+    type: 2
+    skill_id: 770125
+    group: 2
+  }
+  {
+    id: 2004
+    name: Melee Attack
+    type: 2
+    skill_id: 770106
+    group: 2
+  }
+  {
+    id: 2005
+    name: Rapid Enhancement
+    type: 2
+    skill_id: 220187
+    group: 2
+  }
+  {
+    id: 2006
+    name: Light Weapon Support
+    type: 2
+    skill_id: 770113
+    group: 2
+  }
+  {
+    id: 3001
+    name: Anti-Armor Specialization
+    type: 2
+    skill_id: 220173
+    group: 3
+  }
+  {
+    id: 3002
+    name: Anti-Mechanical Unit Specialization
+    type: 2
+    skill_id: 220175
+    group: 3
+  }
+  {
+    id: 3003
+    name: Anti-Dummy-Linked Unit Specialization
+    type: 2
+    skill_id: 220181
+    group: 3
+  }
+  {
+    id: 3004
+    name: Weak Point Targeting
+    type: 2
+    skill_id: 220180
+    group: 3
+  }
+  {
+    id: 3005
+    name: Elite Attack
+    type: 2
+    skill_id: 220167
+    group: 3
+  }
+  {
+    id: 3006
+    name: Heavy Weapon Support
+    type: 2
+    skill_id: 220185
+    group: 3
+  }
+  {
+    id: 4001
+    name: Light Weapon Shield
+    type: 2
+    skill_id: 770090
+    group: 4
+  }
+  {
+    id: 4002
+    name: Heavy Weapon Shield
+    type: 2
+    skill_id: 770091
+    group: 4
+  }
+  {
+    id: 4003
+    name: Pre-emptive Shield
+    type: 2
+    skill_id: 770014
+    group: 4
+  }
+  {
+    id: 4004
+    name: Shield Deflection
+    type: 2
+    skill_id: 770016
+    group: 4
+  }
+  {
+    id: 4005
+    name: Shielded Damage Boost
+    type: 2
+    skill_id: 770019
+    group: 4
+  }
+  {
+    id: 4006
+    name: Cleansing Shield
+    type: 2
+    skill_id: 770024
+    group: 4
+  }
+  {
+    id: 4007
+    name: Mobbed Damage Reduction
+    type: 2
+    skill_id: 770096
+    group: 4
+  }
+  {
+    id: 4008
+    name: Melee Threat
+    type: 2
+    skill_id: 770107
+    group: 4
+  }
+  {
+    id: 4009
+    name: Emergency Shield
+    type: 2
+    skill_id: 770109
+    group: 4
+  }
+  {
+    id: 5001
+    name: Elite Amplification
+    type: 2
+    skill_id: 770037
+    group: 5
+  }
+  {
+    id: 5002
+    name: Paradeus Amplification
+    type: 2
+    skill_id: 770039
+    group: 5
+  }
+  {
+    id: 5003
+    name: Military Amplification
+    type: 2
+    skill_id: 770040
+    group: 5
+  }
+  {
+    id: 5004
+    name: Sangvis Ferri Amplification
+    type: 2
+    skill_id: 770041
+    group: 5
+  }
+  {
+    id: 5005
+    name: Debuff Amplification
+    type: 2
+    skill_id: 220183
+    group: 5
+  }
+  {
+    id: 5006
+    name: Marker Amplification
+    type: 2
+    skill_id: 770114
+    group: 5
+  }
+  {
+    id: 5007
+    name: Emergency Amplification
+    type: 2
+    skill_id: 770104
+    group: 5
+  }
+  {
+    id: 6001
+    name: Light Weapon Weakening
+    type: 2
+    skill_id: 770092
+    group: 6
+  }
+  {
+    id: 6002
+    name: Heavy Weapon Weakening
+    type: 2
+    skill_id: 770093
+    group: 6
+  }
+  {
+    id: 6003
+    name: Random Weakening
+    type: 2
+    skill_id: 770026
+    group: 6
+  }
+  {
+    id: 6004
+    name: Malfunction Stun
+    type: 2
+    skill_id: 770028
+    group: 6
+  }
+  {
+    id: 6005
+    name: Stun Attack
+    type: 2
+    skill_id: 220182
+    group: 6
+  }
+  {
+    id: 6006
+    name: Stun Penalty
+    type: 2
+    skill_id: 770030
+    group: 6
+  }
+  {
+    id: 6007
+    name: Stunned and Exposed
+    type: 2
+    skill_id: 770032
+    group: 6
+  }
+  {
+    id: 6008
+    name: Stunned Self-Destruct
+    type: 2
+    skill_id: 770034
+    group: 6
+  }
+  {
+    id: 6009
+    name: Pre-emptive Suppression
+    type: 2
+    skill_id: 770100
+    group: 6
+  }
+  {
+    id: 7001
+    name: Light Weapon Detonation
+    type: 2
+    skill_id: 770046
+    group: 7
+  }
+  {
+    id: 7002
+    name: Heavy Weapon Detonation
+    type: 2
+    skill_id: 770045
+    group: 7
+  }
+  {
+    id: 7003
+    name: Marker Detonation
+    type: 2
+    skill_id: 770047
+    group: 7
+  }
+  {
+    id: 7004
+    name: Light Weapon Charge
+    type: 2
+    skill_id: 770082
+    group: 7
+  }
+  {
+    id: 7005
+    name: Heavy Weapon Charge
+    type: 2
+    skill_id: 770081
+    group: 7
+  }
+  {
+    id: 7006
+    name: Charge Conversion
+    type: 2
+    skill_id: 770084
+    group: 7
+  }
+]

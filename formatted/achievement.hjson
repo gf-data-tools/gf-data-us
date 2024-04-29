@@ -9390,135 +9390,6 @@
     icon_code: 漫画
   }
   {
-    identity: 611
-    type: squad_get_secret_data
-    count: 1
-    user_exp: 30
-    item_ids: 15-10
-    title: License to Kill
-    content: Acquire a piece of Central Data for the first time.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-  }
-  {
-    identity: 612
-    type: squad_get_secret_data
-    count: 10
-    user_exp: 60
-    item_ids: 15-20
-    title: Game of Jokers
-    content: Acquire 10 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 613
-    type: squad_get_secret_data
-    count: 20
-    user_exp: 100
-    item_ids: 15-40
-    title: Tinner, Clothier, Fighter, Undercover Agent
-    content: Acquire 20 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 614
-    type: squad_get_secret_data
-    count: 50
-    user_exp: 200
-    item_ids: 15-60
-    title: Cambridge Five
-    content: Acquire 50 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 615
-    type: squad_get_secret_data
-    count: 100
-    user_exp: 500
-    item_ids: 15-80
-    title: The Pandora Plan
-    content: Acquire 100 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 616
-    type: squad_get_secret_data
-    count: 200
-    user_exp: 1000
-    item_ids: 15-100
-    title: Chaos Theory
-    content: Acquire 200 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 617
-    type: squad_get_secret_data
-    count: 500
-    user_exp: 2000
-    item_ids: 15-150
-    title: Weapons of the Patriots
-    content: Acquire 500 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 618
-    type: squad_get_secret_data
-    count: 1000
-    user_exp: 3000
-    item_ids: 15-200
-    title: Snake Devourer
-    content: Acquire 1,000 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 619
-    type: squad_get_secret_data
-    count: 2000
-    user_exp: 4000
-    item_ids: 15-250
-    title: Children of Liberty
-    content: Acquire 2,000 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 620
-    type: squad_get_secret_data
-    count: 5000
-    user_exp: 5000
-    item_ids: 15-300
-    title: Black Road
-    content: Acquire 5,000 pieces of Central Data.
-    type_sort: 13
-    sort: 241
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
     identity: 621
     type: squad_get_type1_unit
     count: 1
@@ -9575,272 +9446,12 @@
     unlock_function: 15
   }
   {
-    identity: 625
-    type: squad_get_chip
-    count: 1
-    user_exp: 30
-    item_ids: 14-10
-    title: Black Monolith
-    content: Acquire a chip for the first time.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 626
-    type: squad_get_chip
-    count: 10
-    user_exp: 60
-    item_ids: 14-20
-    title: Pascal's Calculator
-    content: Acquire 10 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 627
-    type: squad_get_chip
-    count: 100
-    user_exp: 100
-    item_ids: 14-40
-    title: Babbage's Difference Engine
-    content: Acquire 100 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 628
-    type: squad_get_chip
-    count: 500
-    user_exp: 200
-    item_ids: 14-60
-    title: Jacquard Loom
-    content: Acquire 500 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 629
-    type: squad_get_chip
-    count: 1000
-    user_exp: 500
-    item_ids: 14-80
-    title: Hollerith's Tabulating Machine
-    content: Acquire 1,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 630
-    type: squad_get_chip
-    count: 2000
-    user_exp: 1000
-    item_ids: 14-100
-    title: Norden Bombsight
-    content: Acquire 2,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 631
-    type: squad_get_chip
-    count: 5000
-    user_exp: 2000
-    item_ids: 14-150
-    title: Zuse's Computer
-    content: Acquire 5,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 632
-    type: squad_get_chip
-    count: 10000
-    user_exp: 3000
-    item_ids: 14-200
-    title: Feynman's Pencil
-    content: Acquire 10,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 633
-    type: squad_get_chip
-    count: 20000
-    user_exp: 4000
-    item_ids: 14-250
-    title: Fermi's Slide Rule
-    content: Acquire 20,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 634
-    type: squad_get_chip
-    count: 30000
-    user_exp: 5000
-    item_ids: 14-300
-    title: Von Neumann's Brain
-    content: Acquire 30,000 chips.
-    type_sort: 13
-    sort: 245
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 635
-    type: squad_change_data_times
-    count: 1
-    user_exp: 30
-    item_ids: 15-10
-    title: Talking Knots
-    content: Use Code Refactoring for the first time.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 636
-    type: squad_change_data_times
-    count: 10
-    user_exp: 60
-    item_ids: 15-20
-    title: Penalty for Copying Homework
-    content: Acquire 10 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 637
-    type: squad_change_data_times
-    count: 20
-    user_exp: 100
-    item_ids: 15-40
-    title: Ghostwriter
-    content: Acquire 20 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 638
-    type: squad_change_data_times
-    count: 50
-    user_exp: 200
-    item_ids: 15-60
-    title: Copier Disciple
-    content: Acquire 50 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 639
-    type: squad_change_data_times
-    count: 100
-    user_exp: 500
-    item_ids: 15-80
-    title: The Bestowing Holy Man
-    content: Acquire 100 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 640
-    type: squad_change_data_times
-    count: 200
-    user_exp: 1000
-    item_ids: 15-100
-    title: Punched Tape
-    content: Acquire 200 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 641
-    type: squad_change_data_times
-    count: 500
-    user_exp: 2000
-    item_ids: 15-150
-    title: Tape Recording
-    content: Acquire 500 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 642
-    type: squad_change_data_times
-    count: 1000
-    user_exp: 3000
-    item_ids: 15-200
-    title: Floppy Disk Writing
-    content: Acquire 1,000 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 643
-    type: squad_change_data_times
-    count: 2000
-    user_exp: 4000
-    item_ids: 15-250
-    title: CD Copy
-    content: Acquire 2,000 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
-    identity: 644
-    type: squad_change_data_times
-    count: 5000
-    user_exp: 5000
-    item_ids: 15-300
-    title: Cloud Backup
-    content: Acquire 5,000 Data Patches through Code Refactoring.
-    type_sort: 13
-    sort: 246
-    icon_code: 机密资料
-    unlock_function: 15
-  }
-  {
     identity: 645
     type: squad_base_data_analyse
     count: 1
-    item_ids: 301-5
+    item_ids: 14-10
     title: Fire of Prometheus
-    content: Perform Intelligence Analysis with Original Sample for the first time.
+    content: Consume an Original Sample for the first time.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9849,12 +9460,12 @@
   {
     identity: 646
     type: squad_base_data_analyse
-    count: 10
+    count: 200
     user_exp: 60
     gem: 10
     item_ids: 14-20
     title: Archimedes' Pool
-    content: Perform Intelligence Analysis 10 times with Original Sample.
+    content: Consume a total of 200 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9863,12 +9474,12 @@
   {
     identity: 647
     type: squad_base_data_analyse
-    count: 100
+    count: 2000
     user_exp: 100
     gem: 20
     item_ids: 14-40
     title: Pythagoreanism
-    content: Perform Intelligence Analysis 100 times with Original Sample.
+    content: Consume a total of 2,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9877,12 +9488,12 @@
   {
     identity: 648
     type: squad_base_data_analyse
-    count: 200
+    count: 4000
     user_exp: 200
     gem: 30
     item_ids: 14-60
     title: Euclidean Geometry
-    content: Perform Intelligence Analysis 200 times with Original Sample.
+    content: Consume a total of 4,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9891,12 +9502,12 @@
   {
     identity: 649
     type: squad_base_data_analyse
-    count: 500
+    count: 10000
     user_exp: 500
     gem: 50
     item_ids: 14-80
     title: Ptolemy's Almagest
-    content: Perform Intelligence Analysis 500 times with Original Sample.
+    content: Consume a total of 10,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9905,12 +9516,12 @@
   {
     identity: 650
     type: squad_base_data_analyse
-    count: 1000
+    count: 20000
     user_exp: 1000
     gem: 70
     item_ids: 14-100
     title: Cartesian Coordinates
-    content: Perform Intelligence Analysis 1,000 times with Original Sample.
+    content: Consume a total of 20,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9919,12 +9530,12 @@
   {
     identity: 651
     type: squad_base_data_analyse
-    count: 2000
+    count: 40000
     user_exp: 2000
     gem: 90
     item_ids: 14-150
     title: Leibniz's Notation
-    content: Perform Intelligence Analysis 2,000 times with Original Sample.
+    content: Consume a total of 40,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9933,12 +9544,12 @@
   {
     identity: 652
     type: squad_base_data_analyse
-    count: 5000
+    count: 100000
     user_exp: 3000
     gem: 120
     item_ids: 14-200
     title: Newton's Apple
-    content: Perform Intelligence Analysis 5,000 times with Original Sample.
+    content: Consume a total of 100,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9947,12 +9558,12 @@
   {
     identity: 653
     type: squad_base_data_analyse
-    count: 10000
+    count: 200000
     user_exp: 4000
     gem: 160
     item_ids: 14-250
     title: Lagrange Point
-    content: Perform Intelligence Analysis 10,000 times with Original Sample.
+    content: Consume a total of 200,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9961,12 +9572,12 @@
   {
     identity: 654
     type: squad_base_data_analyse
-    count: 20000
+    count: 400000
     user_exp: 5000
     gem: 200
     item_ids: 14-300
     title: Laplace's Demon
-    content: Perform Intelligence Analysis 20,000 times with Original Sample.
+    content: Consume a total of 400,000 Original Data Samples.
     type_sort: 14
     sort: 261
     icon_code: 数据分析
@@ -9979,7 +9590,7 @@
     user_exp: 30
     gem: 5
     title: Gaussian Curve
-    content: Perform Intelligence Analysis with Pure Sample for the first time.
+    content: Consume a Pure Sample for the first time.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -9988,12 +9599,12 @@
   {
     identity: 656
     type: squad_senior_data_analyse
-    count: 10
+    count: 200
     user_exp: 60
     gem: 10
     item_ids: 15-20
     title: Zu's Ratio
-    content: Perform Intelligence Analysis 10 times with Pure Sample.
+    content: Consume a total of 200 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10002,12 +9613,12 @@
   {
     identity: 657
     type: squad_senior_data_analyse
-    count: 50
+    count: 1000
     user_exp: 100
     gem: 20
     item_ids: 15-40
     title: Pareto Optimality
-    content: Perform Intelligence Analysis 50 times with Pure Sample.
+    content: Consume a total of 2,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10016,12 +9627,12 @@
   {
     identity: 658
     type: squad_senior_data_analyse
-    count: 100
+    count: 2000
     user_exp: 200
     gem: 30
     item_ids: 15-60
     title: Riemann Function
-    content: Perform Intelligence Analysis 100 times with Pure Sample.
+    content: Consume a total of 4,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10030,12 +9641,12 @@
   {
     identity: 659
     type: squad_senior_data_analyse
-    count: 200
+    count: 4000
     user_exp: 500
     gem: 50
     item_ids: 15-80
     title: Kepler Conjecture
-    content: Perform Intelligence Analysis 200 times with Pure Sample.
+    content: Consume a total of 10,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10044,12 +9655,12 @@
   {
     identity: 660
     type: squad_senior_data_analyse
-    count: 500
+    count: 10000
     user_exp: 1000
     gem: 70
     item_ids: 15-100
     title: Boolean Algebra
-    content: Perform Intelligence Analysis 500 times with Pure Sample.
+    content: Consume a total of 20,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10058,12 +9669,12 @@
   {
     identity: 661
     type: squad_senior_data_analyse
-    count: 1000
+    count: 20000
     user_exp: 2000
     gem: 90
     item_ids: 15-150
     title: Abel Equation
-    content: Perform Intelligence Analysis 1,000 times with Pure Sample.
+    content: Consume a total of 40,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10072,12 +9683,12 @@
   {
     identity: 662
     type: squad_senior_data_analyse
-    count: 2000
+    count: 40000
     user_exp: 3000
     gem: 120
     item_ids: 15-200
     title: Shannon Signal
-    content: Perform Intelligence Analysis 2,000 times with Pure Sample.
+    content: Consume a total of 100,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10086,12 +9697,12 @@
   {
     identity: 663
     type: squad_senior_data_analyse
-    count: 5000
+    count: 100000
     user_exp: 4000
     gem: 160
     item_ids: 15-250
     title: Turing Logic
-    content: Perform Intelligence Analysis 5,000 times with Pure Sample.
+    content: Consume a total of 200,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10100,12 +9711,12 @@
   {
     identity: 664
     type: squad_senior_data_analyse
-    count: 10000
+    count: 200000
     user_exp: 5000
     gem: 200
     item_ids: 15-300
     title: Nash Equilibrium
-    content: Perform Intelligence Analysis 10,000 times with Pure Sample.
+    content: Consume a total of 400,000 Pure Data Samples.
     type_sort: 14
     sort: 262
     icon_code: 数据分析
@@ -10118,7 +9729,7 @@
     user_exp: 30
     item_ids: 14-20,15-20
     title: Stars are the Magic of Friendship
-    content: Promote a unit of your HOC for the first time.
+    content: Upgrade a Fire Support Unit for the first time.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10131,7 +9742,7 @@
     user_exp: 60
     item_ids: 14-40,15-40
     title: Stars are Wonderful Blessings
-    content: Promote a unit of your HOC 5 times.
+    content: Upgrade any Fire Support Unit 5 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10144,7 +9755,7 @@
     user_exp: 100
     item_ids: 14-60,15-60
     title: Stars are Endless Adventures
-    content: Promote a unit of your HOC 10 times.
+    content: Upgrade any Fire Support Unit 10 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10157,7 +9768,7 @@
     user_exp: 200
     item_ids: 14-80,15-80
     title: Stars are Mysterious Worlds
-    content: Promote a unit of your HOC 20 times.
+    content: Upgrade any Fire Support Unit 20 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10170,7 +9781,7 @@
     user_exp: 500
     item_ids: 14-100,15-100
     title: Stars are Pure Love Poems
-    content: Promote a unit of your HOC 50 times.
+    content: Upgrade any Fire Support Unit 50 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10183,7 +9794,7 @@
     user_exp: 1000
     item_ids: 14-150,15-150
     title: Stars are Besieging T-Dolls
-    content: Promote a unit of your HOC 100 times.
+    content: Upgrade any Fire Support Unit 100 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10196,7 +9807,7 @@
     user_exp: 2000
     item_ids: 14-200,15-200
     title: Stars are the Hymns of Hell
-    content: Promote a unit of your HOC 150 times.
+    content: Upgrade any Fire Support Unit 150 times.
     type_sort: 14
     sort: 263
     icon_code: 支援小队升星
@@ -10207,9 +9818,9 @@
     type: squad_rank_max
     count: 1
     user_exp: 30
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     title: Griffin's Heart Medal
-    content: Upgrade a unit of your HOC to max stars for the first time.
+    content: Upgrade a Fire Support Unit to max. star level for the first time.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10220,9 +9831,9 @@
     type: squad_rank_max
     count: 3
     user_exp: 60
-    item_ids: 17-4
+    item_ids: 14-480,15-200
     title: Griffin's Award of Honor
-    content: Upgrade 3 units of your HOC to max stars.
+    content: Upgrade 3 Fire Support Units to max. star level.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10233,9 +9844,9 @@
     type: squad_rank_max
     count: 5
     user_exp: 100
-    item_ids: 17-6
+    item_ids: 14-720,15-300
     title: Griffin's Cross
-    content: Upgrade 5 units of your HOC to max stars.
+    content: Upgrade 5 Fire Support Units to max. star level.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10246,9 +9857,9 @@
     type: squad_rank_max
     count: 10
     user_exp: 200
-    item_ids: 17-8
+    item_ids: 14-960,15-400
     title: Griffin's Heroic Trophy
-    content: Upgrade 10 units of your HOC to max stars.
+    content: Upgrade 10 Fire Support Units to max. star level.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10259,9 +9870,9 @@
     type: squad_rank_max
     count: 20
     user_exp: 500
-    item_ids: 17-10
+    item_ids: 14-1200,15-500
     title: Griffin's Hall of Fame
-    content: Upgrade 20 units of your HOC to max stars.
+    content: Upgrade 20 Fire Support Units to max. star level.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10272,9 +9883,9 @@
     type: squad_rank_max
     count: 30
     user_exp: 1000
-    item_ids: 17-20
+    item_ids: 14-2400,15-1000
     title: Griffin's Valhalla
-    content: Upgrade 30 units of your HOC to max stars.
+    content: Upgrade 30 Fire Support Units to max. star level.
     type_sort: 14
     sort: 264
     icon_code: 支援小队升星
@@ -10285,9 +9896,9 @@
     type: squad_level_max
     count: 1
     user_exp: 30
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     title: Tank Hunter
-    content: Level up a unit of your HOC to max level for the first time.
+    content: Raise a Fire Support Unit to max. level for the first time.
     type_sort: 14
     sort: 265
     icon_code: 升级
@@ -10298,9 +9909,9 @@
     type: squad_level_max
     count: 3
     user_exp: 60
-    item_ids: 17-4
+    item_ids: 14-480,15-200
     title: Armored Nemesis
-    content: Level up 3 units of your HOC to max level.
+    content: Raise 3 Fire Support Units to max. level.
     type_sort: 14
     sort: 265
     icon_code: 升级
@@ -10311,9 +9922,9 @@
     type: squad_level_max
     count: 5
     user_exp: 100
-    item_ids: 17-6
+    item_ids: 14-720,15-300
     title: S.F. Scavenger
-    content: Level up 5 units of your HOC to max level.
+    content: Raise 5 Fire Support Units to max. level.
     type_sort: 14
     sort: 265
     icon_code: 升级
@@ -10324,9 +9935,9 @@
     type: squad_level_max
     count: 10
     user_exp: 200
-    item_ids: 17-8
+    item_ids: 14-960,15-400
     title: Battlefield Lawn Mower
-    content: Level up 10 units of your HOC to max level.
+    content: Raise 10 Fire Support Units to max. level.
     type_sort: 14
     sort: 265
     icon_code: 升级
@@ -10337,9 +9948,9 @@
     type: squad_level_max
     count: 20
     user_exp: 500
-    item_ids: 17-10
+    item_ids: 14-1200,15-500
     title: Autonomous Disaster
-    content: Level up 20 units of your HOC to max level.
+    content: Raise 20 Fire Support Units to max. level.
     type_sort: 14
     sort: 265
     icon_code: 升级
@@ -10350,142 +9961,12 @@
     type: squad_level_max
     count: 30
     user_exp: 1000
-    item_ids: 17-20
+    item_ids: 14-2400,15-1000
     title: Weapon of Mass Destruction
-    content: Level up 30 units of your HOC to max level.
+    content: Raise 30 Fire Support Units to max. level.
     type_sort: 14
     sort: 265
     icon_code: 升级
-    unlock_function: 15
-  }
-  {
-    identity: 684
-    type: squad_train_time
-    count: 1
-    user_exp: 30
-    item_ids: 46-10
-    title: You Can Never Practice Too Much
-    content: Complete HOC EXP Training for the first time.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 685
-    type: squad_train_time
-    count: 10
-    user_exp: 60
-    item_ids: 46-20
-    title: Study Hard and Improve Every Day
-    content: Complete 10 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 686
-    type: squad_train_time
-    count: 100
-    user_exp: 100
-    item_ids: 46-30
-    title: Congratulations, You Have Graduated From Being a Locust
-    content: Complete 100 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 687
-    type: squad_train_time
-    count: 200
-    user_exp: 200
-    item_ids: 46-50
-    title: Filling a Bucket of Sweat is Better Than Spilling a Bucket of Blood
-    content: Complete 200 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 688
-    type: squad_train_time
-    count: 500
-    user_exp: 500
-    item_ids: 46-80
-    title: Reasonable Requirements are Trained
-    content: Complete 500 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 689
-    type: squad_train_time
-    count: 1000
-    user_exp: 1000
-    item_ids: 46-100
-    title: Unreasonble Requirements are Honed
-    content: Complete 1,000 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 690
-    type: squad_train_time
-    count: 2000
-    user_exp: 2000
-    item_ids: 46-150
-    title: Easy Days Only Exist Yesterday
-    content: Complete 2,000 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 691
-    type: squad_train_time
-    count: 5000
-    user_exp: 3000
-    item_ids: 46-200
-    title: The Victorious Only Seeks Battle After the Victory has Been Won
-    content: Complete 5,000 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 692
-    type: squad_train_time
-    count: 10000
-    user_exp: 4000
-    item_ids: 46-250
-    title: Peace is Only Temporary
-    content: Complete 10,000 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
-    unlock_function: 15
-  }
-  {
-    identity: 693
-    type: squad_train_time
-    count: 20000
-    user_exp: 5000
-    item_ids: 46-300
-    title: I've Become Strong
-    content: Complete 20,000 hours of HOC EXP Training.
-    type_sort: 14
-    sort: 266
-    icon_code: 支援小队经验训练
     unlock_function: 15
   }
   {
@@ -10494,7 +9975,7 @@
     count: 1
     user_exp: 30
     title: Precision Shooting Training
-    content: Complete HOC Skill Training for the first time.
+    content: Raise an Fire Support unit's skill level by 1 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10507,7 +9988,7 @@
     count: 10
     user_exp: 60
     title: Suppression Fire Training
-    content: Complete HOC Skill Training 10 times.
+    content: Raise any Fire Support Unit's skill level by 10 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10520,7 +10001,7 @@
     count: 20
     user_exp: 100
     title: Positioning Training
-    content: Complete HOC Skill Training 20 times.
+    content: Raise any Fire Support Unit's skill level by 20 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10533,7 +10014,7 @@
     count: 50
     user_exp: 200
     title: Quick Draw Training
-    content: Complete HOC Skill Training 50 times.
+    content: Raise any Fire Support Unit's skill level by 50 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10546,7 +10027,7 @@
     count: 100
     user_exp: 500
     title: Camouflage Training
-    content: Complete HOC Skill Training 100 times.
+    content: Raise any Fire Support Unit's skill level by 100 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10559,7 +10040,7 @@
     count: 200
     user_exp: 1000
     title: Target Selection Training
-    content: Complete HOC Skill Training 200 times.
+    content: Raise any Fire Support Unit's skill level by 200 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10572,7 +10053,7 @@
     count: 500
     user_exp: 2000
     title: Map Rewriting Training
-    content: Complete HOC Skill Training 500 times.
+    content: Raise any Fire Support Unit's skill level by 500 level.
     type_sort: 14
     sort: 267
     icon_code: 支援小队技能训练
@@ -10584,9 +10065,9 @@
     type: squad_up_advanced_times
     count: 1
     user_exp: 30
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     title: Test Hum
-    content: Undergo HOC Iteration for the first time.
+    content: Perform Fire Support Unit iteration for the first time.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10597,9 +10078,9 @@
     type: squad_up_advanced_times
     count: 5
     user_exp: 60
-    item_ids: 17-4
+    item_ids: 14-480,15-200
     title: Battlefield Roar
-    content: Undergo HOC Iteration 5 times.
+    content: Perform 5 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10610,9 +10091,9 @@
     type: squad_up_advanced_times
     count: 10
     user_exp: 100
-    item_ids: 17-6
+    item_ids: 14-720,15-300
     title: Hour Chime
-    content: Undergo HOC Iteration 10 times.
+    content: Perform 10 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10623,9 +10104,9 @@
     type: squad_up_advanced_times
     count: 20
     user_exp: 200
-    item_ids: 17-8
+    item_ids: 14-960,15-400
     title: Rolling Barrage
-    content: Undergo HOC Iteration 20 times.
+    content: Perform 20 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10636,9 +10117,9 @@
     type: squad_up_advanced_times
     count: 50
     user_exp: 500
-    item_ids: 17-10
+    item_ids: 14-1200,15-500
     title: Crossing Fire Net
-    content: Undergo HOC Iteration 50 times.
+    content: Perform 50 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10649,9 +10130,9 @@
     type: squad_up_advanced_times
     count: 100
     user_exp: 1000
-    item_ids: 17-15
+    item_ids: 14-1800,15-750
     title: Killing Zone
-    content: Undergo HOC Iteration 100 times.
+    content: Perform 100 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10662,9 +10143,9 @@
     type: squad_up_advanced_times
     count: 200
     user_exp: 2000
-    item_ids: 17-20
+    item_ids: 14-2400,15-1000
     title: Missile Orchestra
-    content: Undergo HOC Iteration 200 times.
+    content: Perform 200 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
@@ -10675,259 +10156,12 @@
     type: squad_up_advanced_times
     count: 300
     user_exp: 3000
-    item_ids: 17-30
+    item_ids: 14-3600,15-1500
     title: Gunfire Waltz
-    content: Undergo HOC Iteration 300 times.
+    content: Perform 300 Fire Support Unit iterations.
     type_sort: 14
     sort: 268
     icon_code: 强化
-    unlock_function: 15
-  }
-  {
-    identity: 709
-    type: squad_chip_retire_times
-    count: 1
-    user_exp: 30
-    item_ids: 14-10
-    title: Chip Dismantling
-    content: Dismantle a chip for the first time.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 710
-    type: squad_chip_retire_times
-    count: 10
-    user_exp: 60
-    item_ids: 14-20
-    title: Breaking Your Keyboard in Rage
-    content: Dismantle 10 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 711
-    type: squad_chip_retire_times
-    count: 100
-    user_exp: 100
-    item_ids: 14-40
-    title: Taking Apart Your Graphics Card in Rage
-    content: Dismantle 100 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 712
-    type: squad_chip_retire_times
-    count: 200
-    user_exp: 200
-    item_ids: 14-60
-    title: Snapping Your Motherboard in Rage
-    content: Dismantle 200 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 713
-    type: squad_chip_retire_times
-    count: 500
-    user_exp: 500
-    item_ids: 14-80
-    title: Kicking Your Processor in Rage
-    content: Dismantle 500 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 714
-    type: squad_chip_retire_times
-    count: 1000
-    user_exp: 1000
-    item_ids: 14-100
-    title: Grilling Your Power Supply in Rage
-    content: Dismantle 1,000 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 715
-    type: squad_chip_retire_times
-    count: 2000
-    user_exp: 2000
-    item_ids: 14-150
-    title: Washing Your Hard Drive in Rage
-    content: Dismantle 2,000 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 716
-    type: squad_chip_retire_times
-    count: 5000
-    user_exp: 3000
-    item_ids: 14-200
-    title: Crying Over Your RAM in Rage
-    content: Dismantle 5,000 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 717
-    type: squad_chip_retire_times
-    count: 10000
-    user_exp: 4000
-    item_ids: 14-250
-    title: Punching a Hole in Your Monitor in Rage
-    content: Dismantle 10,000 chips.
-    type_sort: 14
-    sort: 269
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 718
-    type: squad_eat_chip_num
-    count: 1
-    user_exp: 30
-    item_ids: 14-10
-    title: Chip Enhancement
-    content: Perform Chip Enhancement for the first time.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 719
-    type: squad_eat_chip_num
-    count: 10
-    user_exp: 60
-    item_ids: 14-20
-    title: Overclock Newbie
-    content: Spend 10 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 720
-    type: squad_eat_chip_num
-    count: 100
-    user_exp: 100
-    item_ids: 14-40
-    title: Overclock Apprentice
-    content: Spend 100 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 721
-    type: squad_eat_chip_num
-    count: 200
-    user_exp: 200
-    item_ids: 14-60
-    title: Overclock Enthusiast
-    content: Spend 200 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 722
-    type: squad_eat_chip_num
-    count: 500
-    user_exp: 500
-    item_ids: 14-80
-    title: Overclock Warrior
-    content: Spend 500 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 723
-    type: squad_eat_chip_num
-    count: 1000
-    user_exp: 1000
-    item_ids: 14-100
-    title: Overclock Professional
-    content: Spend 1,000 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 724
-    type: squad_eat_chip_num
-    count: 2000
-    user_exp: 2000
-    item_ids: 14-150
-    title: Overclock Master
-    content: Spend 2,000 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 725
-    type: squad_eat_chip_num
-    count: 5000
-    user_exp: 3000
-    item_ids: 14-200
-    title: Overclock Elite
-    content: Spend 5,000 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 726
-    type: squad_eat_chip_num
-    count: 10000
-    user_exp: 4000
-    item_ids: 14-250
-    title: Overclock Legend
-    content: Spend 10,000 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
-    unlock_function: 15
-  }
-  {
-    identity: 727
-    type: squad_eat_chip_num
-    count: 20000
-    user_exp: 5000
-    item_ids: 14-300
-    title: Overclock God
-    content: Spend 20,000 chips through Chip Enhancement.
-    type_sort: 14
-    sort: 270
-    icon_code: 芯片
     unlock_function: 15
   }
   {
@@ -15882,5 +15116,2258 @@
     sort: 308
     icon_code: 谷底回声
     condition: "11418"
+  }
+  {
+    identity: 1074
+    type: squad_get_chip
+    count: 1
+    user_exp: 30
+    item_ids: 14-10
+    title: Black Monolith
+    content: Unlock your first Chip.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1075
+    type: squad_get_chip
+    count: 10
+    user_exp: 60
+    item_ids: 14-20
+    title: Persica's Computer
+    content: Unlock 10 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1076
+    type: squad_get_chip
+    count: 20
+    user_exp: 100
+    item_ids: 14-40
+    title: Babbage's Difference Engine
+    content: Unlock 20 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1077
+    type: squad_get_chip
+    count: 30
+    user_exp: 200
+    item_ids: 14-60
+    title: Jacquard Loom
+    content: Unlock 30 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1078
+    type: squad_get_chip
+    count: 50
+    user_exp: 500
+    item_ids: 14-80
+    title: Hollerith's Tabulating Machine
+    content: Unlock 50 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1079
+    type: squad_get_chip
+    count: 70
+    user_exp: 1000
+    item_ids: 14-100
+    title: Norden Bombsight
+    content: Unlock 70 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1080
+    type: squad_get_chip
+    count: 100
+    user_exp: 2000
+    item_ids: 14-150
+    title: Zuse's Programmable Computer
+    content: Unlock 100 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1081
+    type: squad_get_chip
+    count: 150
+    user_exp: 3000
+    item_ids: 14-200
+    title: Feynman's Pencil
+    content: Unlock 150 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1082
+    type: squad_get_chip
+    count: 200
+    user_exp: 4000
+    item_ids: 14-250
+    title: Fermi's Slide Rule
+    content: Unlock 200 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1083
+    type: squad_get_chip
+    count: 300
+    user_exp: 5000
+    item_ids: 14-300
+    title: Neumann's Brain
+    content: Unlock 300 Chips.
+    type_sort: 13
+    sort: 245
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1084
+    type: squad_eat_chip_num
+    count: 1
+    user_exp: 30
+    item_ids: 14-10
+    title: Chip Enhancement
+    content: Enhance a Chip to max. level for the first time.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1085
+    type: squad_eat_chip_num
+    count: 10
+    user_exp: 60
+    item_ids: 14-20
+    title: Overclocking Beginner
+    content: Enhance 10 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1086
+    type: squad_eat_chip_num
+    count: 20
+    user_exp: 100
+    item_ids: 14-40
+    title: Overclocking Learner
+    content: Enhance 20 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1087
+    type: squad_eat_chip_num
+    count: 30
+    user_exp: 200
+    item_ids: 14-60
+    title: Overclocking Practitioner
+    content: Enhance 30 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1088
+    type: squad_eat_chip_num
+    count: 50
+    user_exp: 500
+    item_ids: 14-80
+    title: Overclocking Challenger
+    content: Enhance 50 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1089
+    type: squad_eat_chip_num
+    count: 70
+    user_exp: 1000
+    item_ids: 14-100
+    title: Overclocking Visionary
+    content: Enhance 70 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1090
+    type: squad_eat_chip_num
+    count: 100
+    user_exp: 2000
+    item_ids: 14-150
+    title: Overclocking Mystic
+    content: Enhance 100 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1091
+    type: squad_eat_chip_num
+    count: 150
+    user_exp: 3000
+    item_ids: 14-200
+    title: Overclocking Ascender
+    content: Enhance 150 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1092
+    type: squad_eat_chip_num
+    count: 200
+    user_exp: 4000
+    item_ids: 14-250
+    title: Overclocking Sovereign
+    content: Enhance 200 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1093
+    type: squad_eat_chip_num
+    count: 300
+    user_exp: 5000
+    item_ids: 14-300
+    title: Overclocking Celestial
+    content: Enhance 300 Chips to max. level.
+    type_sort: 14
+    sort: 270
+    icon_code: 芯片
+    unlock_function: 15
+  }
+  {
+    identity: 1094
+    type: different_vehicle
+    count: 1
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 57-1000,1800005-1
+    title: Tritton
+    content: Unlock a Mobile Armor in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1095
+    type: different_vehicle
+    count: 2
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Austin
+    content: Unlock 2 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1096
+    type: different_vehicle
+    count: 3
+    user_exp: 1500
+    mp: 1500
+    ammo: 1500
+    mre: 1500
+    part: 1500
+    title: Christie
+    content: Unlock 3 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1097
+    type: different_vehicle
+    count: 4
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Ginzburg
+    content: Unlock 4 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1098
+    type: different_vehicle
+    count: 5
+    user_exp: 2500
+    mp: 2500
+    ammo: 2500
+    mre: 2500
+    part: 2500
+    title: Koshkin
+    content: Unlock 5 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1099
+    type: different_vehicle
+    count: 6
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Valentine
+    content: Unlock 6 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1100
+    type: different_vehicle
+    count: 7
+    user_exp: 3500
+    mp: 3500
+    ammo: 3500
+    mre: 3500
+    part: 3500
+    title: Sherman
+    content: Unlock 7 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1101
+    type: different_vehicle
+    count: 8
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Ferry Porsche
+    content: Unlock 8 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1102
+    type: different_vehicle
+    count: 9
+    user_exp: 4500
+    mp: 4500
+    ammo: 4500
+    mre: 4500
+    part: 4500
+    title: Kotin
+    content: Unlock 9 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1103
+    type: different_vehicle
+    count: 10
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Kartsev
+    content: Unlock 10 different Mobile Armors in the Index.
+    type_sort: 13
+    sort: 309
+    icon_code: 解锁不同载具图鉴
+    unlock_function: 30
+  }
+  {
+    identity: 1104
+    type: get_vehicle_component_rank5
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Rare Component Beginner
+    content: Obtain a five-star Mobile Armor Component.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1105
+    type: get_vehicle_component_rank5
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Rare Component Apprentice
+    content: Obtain 5 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1106
+    type: get_vehicle_component_rank5
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Rare Component Artisan
+    content: Obtain 10 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1107
+    type: get_vehicle_component_rank5
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Rare Component Elite
+    content: Obtain 50 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1108
+    type: get_vehicle_component_rank5
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Rare Component Expert
+    content: Obtain 100 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1109
+    type: get_vehicle_component_rank5
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133032-1,133033-1,133035-1,133036-1,133064-1,133065-1
+    title: Rare Component Master
+    content: Obtain 500 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1110
+    type: get_vehicle_component_rank5
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Rare Component Virtuoso
+    content: Obtain 1,000 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1111
+    type: get_vehicle_component_rank5
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Rare Component Manager
+    content: Obtain 2,000 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1112
+    type: get_vehicle_component_rank5
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Rare Component Tycoon
+    content: Obtain 5,000 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1113
+    type: get_vehicle_component_rank5
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Rare Component Overlord
+    content: Obtain 10,000 five-star Mobile Armor Components.
+    type_sort: 13
+    sort: 310
+    icon_code: 累计获取5星载具组件
+    unlock_function: 30
+  }
+  {
+    identity: 1114
+    type: get_vehicle_component_type0
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Universal Component Beginner
+    content: Obtain a Mobile Armor Universal Component.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1115
+    type: get_vehicle_component_type0
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Universal Component Apprentice
+    content: Obtain 5 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1116
+    type: get_vehicle_component_type0
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Universal Component Artisan
+    content: Obtain 10 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1117
+    type: get_vehicle_component_type0
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Universal Component Elite
+    content: Obtain 50 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1118
+    type: get_vehicle_component_type0
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Universal Component Expert
+    content: Obtain 100 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1119
+    type: get_vehicle_component_type0
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Universal Component Master
+    content: Obtain 500 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1120
+    type: get_vehicle_component_type0
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Universal Component Virtuoso
+    content: Obtain 1,000 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1121
+    type: get_vehicle_component_type0
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Universal Component Manager
+    content: Obtain 2,000 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1122
+    type: get_vehicle_component_type0
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Universal Component Tycoon
+    content: Obtain 5,000 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1123
+    type: get_vehicle_component_type0
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Universal Component Overlord
+    content: Obtain 10,000 Mobile Armor Universal Components.
+    type_sort: 13
+    sort: 311
+    icon_code: 累计获取通用武器
+    unlock_function: 30
+  }
+  {
+    identity: 1124
+    type: get_vehicle_component_type1
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Heavy Weapon Beginner
+    content: Obtain a Mobile Armor Heavy Weapon Component.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1125
+    type: get_vehicle_component_type1
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Heavy Weapon Apprentice
+    content: Obtain 5 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1126
+    type: get_vehicle_component_type1
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Heavy Weapon Artisan
+    content: Obtain 10 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1127
+    type: get_vehicle_component_type1
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Heavy Weapon Elite
+    content: Obtain 50 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1128
+    type: get_vehicle_component_type1
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Heavy Weapon Expert
+    content: Obtain 100 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1129
+    type: get_vehicle_component_type1
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Heavy Weapon Master
+    content: Obtain 500 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1130
+    type: get_vehicle_component_type1
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Heavy Weapon Virtuoso
+    content: Obtain 1,000 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1131
+    type: get_vehicle_component_type1
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Heavy Weapon Manager
+    content: Obtain 2,000 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1132
+    type: get_vehicle_component_type1
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Heavy Weapon Tycoon
+    content: Obtain 5,000 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1133
+    type: get_vehicle_component_type1
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Heavy Weapon Overlord
+    content: Obtain 10,000 Mobile Armor Heavy Weapon Components.
+    type_sort: 13
+    sort: 312
+    icon_code: 累计获取重武器
+    unlock_function: 30
+  }
+  {
+    identity: 1134
+    type: get_vehicle_component_type2
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Light Weapon Beginner
+    content: Obtain a Mobile Armor Light Weapon Component.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1135
+    type: get_vehicle_component_type2
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Light Weapon Apprentice
+    content: Obtain 5 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1136
+    type: get_vehicle_component_type2
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Light Weapon Artisan
+    content: Obtain 10 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1137
+    type: get_vehicle_component_type2
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Light Weapon Elite
+    content: Obtain 50 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1138
+    type: get_vehicle_component_type2
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Light Weapon Expert
+    content: Obtain 100 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1139
+    type: get_vehicle_component_type2
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Light Weapon Master
+    content: Obtain 500 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1140
+    type: get_vehicle_component_type2
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Light Weapon Virtuoso
+    content: Obtain 1,000 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1141
+    type: get_vehicle_component_type2
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Light Weapon Manager
+    content: Obtain 2,000 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1142
+    type: get_vehicle_component_type2
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Light Weapon Tycoon
+    content: Obtain 5,000 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1143
+    type: get_vehicle_component_type2
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Light Weapon Overlord
+    content: Obtain 10,000 Mobile Armor Light Weapon Components.
+    type_sort: 13
+    sort: 313
+    icon_code: 累计获取轻武器
+    unlock_function: 30
+  }
+  {
+    identity: 1144
+    type: get_vehicle_component_type3
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Function Component Beginner
+    content: Obtain a Mobile Armor Function Component.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1145
+    type: get_vehicle_component_type3
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Function Component Apprentice
+    content: Obtain 5 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1146
+    type: get_vehicle_component_type3
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Function Component Artisan
+    content: Obtain 10 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1147
+    type: get_vehicle_component_type3
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Function Component Elite
+    content: Obtain 50 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1148
+    type: get_vehicle_component_type3
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Function Component Expert
+    content: Obtain 100 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1149
+    type: get_vehicle_component_type3
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Function Component Master
+    content: Obtain 500 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1150
+    type: get_vehicle_component_type3
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Function Component Virtuoso
+    content: Obtain 1,000 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1151
+    type: get_vehicle_component_type3
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Function Component Manager
+    content: Obtain 2,000 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1152
+    type: get_vehicle_component_type3
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Function Component Tycoon
+    content: Obtain 5,000 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1153
+    type: get_vehicle_component_type3
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Function Component Overlord
+    content: Obtain 10,000 Mobile Armor Function Components.
+    type_sort: 13
+    sort: 314
+    icon_code: 累计获取功能组件
+    unlock_function: 30
+  }
+  {
+    identity: 1154
+    type: get_vehicle_component_type4
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Defense Component Beginner
+    content: Obtain a Mobile Armor Defense Component.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1155
+    type: get_vehicle_component_type4
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Defense Component Apprentice
+    content: Obtain 5 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1156
+    type: get_vehicle_component_type4
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Defense Component Artisan
+    content: Obtain 10 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1157
+    type: get_vehicle_component_type4
+    count: 50
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Defense Component Elite
+    content: Obtain 50 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1158
+    type: get_vehicle_component_type4
+    count: 100
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Defense Component Expert
+    content: Obtain 100 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1159
+    type: get_vehicle_component_type4
+    count: 500
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Defense Component Master
+    content: Obtain 500 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1160
+    type: get_vehicle_component_type4
+    count: 1000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Defense Component Virtuoso
+    content: Obtain 1,000 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1161
+    type: get_vehicle_component_type4
+    count: 2000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Defense Component Manager
+    content: Obtain 2,000 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1162
+    type: get_vehicle_component_type4
+    count: 5000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Defense Component Tycoon
+    content: Obtain 5,000 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1163
+    type: get_vehicle_component_type4
+    count: 10000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Defense Component Overlord
+    content: Obtain 10,000 Mobile Armor Defense Components.
+    type_sort: 13
+    sort: 315
+    icon_code: 累计获取防护组件
+    unlock_function: 30
+  }
+  {
+    identity: 1164
+    type: vehicle_progress
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: "-0.53,53.20"
+    content: Unlock a Mobile Armor tech tree node.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1165
+    type: vehicle_progress
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: "30.30,59.90"
+    content: Unlock 5 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1166
+    type: vehicle_progress
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: "7.00,51.50"
+    content: Unlock 10 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1167
+    type: vehicle_progress
+    count: 15
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 133037-1,133038-1,133039-1,133040-1,133041-1,133066-1,133067-1
+    title: "9.20,48.8"
+    content: Unlock 15 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1168
+    type: vehicle_progress
+    count: 30
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: "36.22,49.98"
+    content: Unlock 30 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1169
+    type: vehicle_progress
+    count: 45
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: "60.00,57.98"
+    content: Unlock 45 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1170
+    type: vehicle_progress
+    count: 60
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: "-83.03,42.34"
+    content: Unlock 60 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1171
+    type: vehicle_progress
+    count: 90
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: "-0.13,51.50"
+    content: Unlock 90 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1172
+    type: vehicle_progress
+    count: 120
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: "44.45,48.70"
+    content: Unlock 120 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1173
+    type: vehicle_progress
+    count: 150
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: "116.40,39.91"
+    content: Unlock 150 Mobile Armor tech tree nodes.
+    type_sort: 13
+    sort: 316
+    icon_code: 激活天赋树节点
+    unlock_function: 30
+  }
+  {
+    identity: 1174
+    type: vehicle_skin
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: 1674 5R4.4/14
+    content: Obtain a Mobile Armor blueprint.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1175
+    type: vehicle_skin
+    count: 5
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: 1092 6.3YR7/9.6
+    content: Obtain 5 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1176
+    type: vehicle_skin
+    count: 10
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: FS 13591
+    content: Obtain 10 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1177
+    type: vehicle_skin
+    count: 20
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: FS 14193
+    content: Obtain 20 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1178
+    type: vehicle_skin
+    count: 50
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: S 1560-R90B
+    content: Obtain 50 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1179
+    type: vehicle_skin
+    count: 100
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: S 3560-R90B
+    content: Obtain 100 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1180
+    type: vehicle_skin
+    count: 200
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Ral 4007
+    content: Obtain 200 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1181
+    type: vehicle_skin
+    count: 500
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Ral 9011
+    content: Obtain 500 Mobile Armor blueprints.
+    type_sort: 13
+    sort: 317
+    icon_code: 累计获得载具皮肤
+    unlock_function: 30
+  }
+  {
+    identity: 1182
+    type: vehicle_kill
+    count: 50
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Odysseus
+    content: Initiate combat and kill 50 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1183
+    type: vehicle_kill
+    count: 100
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: The Unbearable Weight of Dinergate
+    content: Initiate combat and kill 100 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1184
+    type: vehicle_kill
+    count: 200
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Crime and Punishment
+    content: Initiate combat and kill 200 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1185
+    type: vehicle_kill
+    count: 500
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 133056-1
+    title: Katyusha
+    content: Initiate combat and kill 500 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1186
+    type: vehicle_kill
+    count: 1000
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 133042-1,133043-1,133044-1,133045-1,133046-1,133068-1
+    title: Song of the Plains
+    content: Initiate combat and kill 1,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1187
+    type: vehicle_kill
+    count: 2000
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Bella Ciao
+    content: Initiate combat and kill 2,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1188
+    type: vehicle_kill
+    count: 5000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Old Soldiers Never Die
+    content: Initiate combat and kill 5,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1189
+    type: vehicle_kill
+    count: 10000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: War and Peace
+    content: Initiate combat and kill 10,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1190
+    type: vehicle_kill
+    count: 20000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: And Quiet Flows the Don
+    content: Initiate combat and kill 20,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1191
+    type: vehicle_kill
+    count: 50000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: The Dawns Here Are Quiet
+    content: Initiate combat and kill 50,000 enemy units using a Mobile Armor in a victorious battle.
+    type_sort: 1
+    sort: 318
+    icon_code: 胜利使用载具主动杀敌
+    unlock_function: 30
+  }
+  {
+    identity: 1192
+    type: vehicle_consume
+    count: 100
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Vehicle Piloting Rookie
+    content: Consume 100 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1193
+    type: vehicle_consume
+    count: 200
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Vehicle Piloting Learner
+    content: Consume 200 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1194
+    type: vehicle_consume
+    count: 500
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Vehicle Piloting Practitioner
+    content: Consume 500 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1195
+    type: vehicle_consume
+    count: 1000
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Vehicle Piloting Challenger
+    content: Consume 1,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1196
+    type: vehicle_consume
+    count: 2000
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Vehicle Piloting Commander
+    content: Consume 2,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1197
+    type: vehicle_consume
+    count: 5000
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Vehicle Piloting Guru
+    content: Consume 5,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1198
+    type: vehicle_consume
+    count: 10000
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Vehicle Piloting Specialist
+    content: Consume 10,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1199
+    type: vehicle_consume
+    count: 20000
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Vehicle Piloting Expert
+    content: Consume 20,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1200
+    type: vehicle_consume
+    count: 50000
+    user_exp: 4000
+    mp: 4000
+    ammo: 4000
+    mre: 4000
+    part: 4000
+    title: Vehicle Piloting Maestro
+    content: Consume 50,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1201
+    type: vehicle_consume
+    count: 100000
+    user_exp: 5000
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    title: Vehicle Piloting Divinity
+    content: Consume 100,000 points of Mobile Armor Energy.
+    type_sort: 1
+    sort: 319
+    icon_code: 消耗能源
+    unlock_function: 30
+  }
+  {
+    identity: 1202
+    type: vehicle_defeat_challenge_1
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Battle Village: Lvl 1
+    content: Clear Armor Assault - Main Battle Tank Level 1.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1203
+    type: vehicle_defeat_challenge_1
+    count: 3
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    item_ids: 133031-1
+    title: Battle Village: Lvl 3
+    content: Clear Armor Assault - Main Battle Tank Level 3.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1204
+    type: vehicle_defeat_challenge_1
+    count: 5
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    title: Battle Village: Lvl 5
+    content: Clear Armor Assault - Main Battle Tank Level 5.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1205
+    type: vehicle_defeat_challenge_1
+    count: 10
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    title: Battle Village: Lvl 10
+    content: Clear Armor Assault - Main Battle Tank Level 10.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1206
+    type: vehicle_defeat_challenge_1
+    count: 15
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Battle Village: Lvl 15
+    content: Clear Armor Assault - Main Battle Tank Level 15.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1207
+    type: vehicle_defeat_challenge_1
+    count: 20
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    title: Battle Village: Lvl 20
+    content: Clear Armor Assault - Main Battle Tank Level 20.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1208
+    type: vehicle_defeat_challenge_1
+    count: 25
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Battle Village: Lvl 25
+    content: Clear Armor Assault - Main Battle Tank Level 25.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1209
+    type: vehicle_defeat_challenge_1
+    count: 30
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Battle Village: Lvl 30
+    content: Clear Armor Assault - Main Battle Tank Level 30.
+    type_sort: 1
+    sort: 320
+    icon_code: 坦克通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1210
+    type: vehicle_defeat_challenge_2
+    count: 1
+    user_exp: 30
+    mp: 30
+    ammo: 30
+    mre: 30
+    part: 30
+    title: Gray Zone Assault: G
+    content: Clear Armor Assault - Tactical Mech Level 1.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1211
+    type: vehicle_defeat_challenge_2
+    count: 3
+    user_exp: 60
+    mp: 60
+    ammo: 60
+    mre: 60
+    part: 60
+    title: Gray Zone Assault: S
+    content: Clear Armor Assault - Tactical Mech Level 3.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1212
+    type: vehicle_defeat_challenge_2
+    count: 5
+    user_exp: 100
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    item_ids: 133055-1
+    title: New Gray Zone Assault
+    content: Clear Armor Assault - Tactical Mech Level 5.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1213
+    type: vehicle_defeat_challenge_2
+    count: 10
+    user_exp: 200
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 133047-1,133048-1,133049-1,133050-1,133069-1
+    title: Gray Zone Assault: F
+    content: Clear Armor Assault - Tactical Mech Level 10.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1214
+    type: vehicle_defeat_challenge_2
+    count: 15
+    user_exp: 500
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    title: Gray Zone Assault: 64
+    content: Clear Armor Assault - Tactical Mech Level 15.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1215
+    type: vehicle_defeat_challenge_2
+    count: 20
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133051-1,133052-1,133053-1,133054-1,133070-1
+    title: Gray Zone Assault: EX
+    content: Clear Armor Assault - Tactical Mech Level 20.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1216
+    type: vehicle_defeat_challenge_2
+    count: 25
+    user_exp: 2000
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    title: Gray Zone Assault: Alpha
+    content: Clear Armor Assault - Tactical Mech Level 25.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
+  }
+  {
+    identity: 1217
+    type: vehicle_defeat_challenge_2
+    count: 30
+    user_exp: 3000
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    title: Gray Zone Assault: OG
+    content: Clear Armor Assault - Tactical Mech Level 30.
+    type_sort: 1
+    sort: 321
+    icon_code: 机甲通关日常玩法ex层数
+    unlock_function: 30
   }
 ]

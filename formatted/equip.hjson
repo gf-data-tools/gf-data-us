@@ -1486,7 +1486,7 @@
     passive_skill: "759090"
     max_level: 10
     auto_select_id: 19002
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000060
@@ -1555,7 +1555,7 @@
     passive_skill: "759184"
     max_level: 10
     auto_select_id: 20002
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000062
@@ -2309,7 +2309,7 @@
     passive_skill: "759098"
     max_level: 10
     auto_select_id: 20003
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000086
@@ -2758,7 +2758,7 @@
     passive_skill: "759089"
     max_level: 10
     auto_select_id: 18005
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000100
@@ -2861,7 +2861,7 @@
     passive_skill: "759140"
     max_level: 10
     auto_select_id: 18006
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000103
@@ -2964,7 +2964,7 @@
     passive_skill: "759233"
     max_level: 10
     auto_select_id: 18009
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3,3049"
     sp_description: equip-40000106
@@ -3130,7 +3130,7 @@
     passive_skill: "759096"
     max_level: 10
     auto_select_id: 18010
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000111
@@ -3300,6 +3300,7 @@
     is_show: 1
     obtain_ids: "3023"
     sp_description: equip-40000117
+    description_skill: 109406
   }
   {
     id: 118
@@ -3329,6 +3330,7 @@
     is_show: 1
     obtain_ids: "3051"
     sp_description: equip-40000118
+    description_skill: 109504
   }
   {
     id: 119
@@ -3796,7 +3798,7 @@
     passive_skill: "759189"
     max_level: 10
     auto_select_id: 18026
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3027"
     sp_description: equip-40000132
@@ -3834,10 +3836,11 @@
     passive_skill: "300120,759147"
     max_level: 10
     auto_select_id: 18027
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000133
+    description_skill: 759147
   }
   {
     id: 134
@@ -4538,7 +4541,7 @@
     passive_skill: "759239"
     max_level: 10
     auto_select_id: 18036
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000155
@@ -4608,7 +4611,7 @@
     passive_skill: "759185"
     max_level: 10
     auto_select_id: 18038
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000157
@@ -4677,7 +4680,7 @@
     passive_skill: "759234"
     max_level: 10
     auto_select_id: 20020
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000159
@@ -5085,7 +5088,7 @@
     passive_skill: "759132"
     max_level: 10
     auto_select_id: 20023
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000171
@@ -5392,7 +5395,7 @@
     passive_skill: "759216"
     max_level: 10
     auto_select_id: 18052
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000180
@@ -6044,7 +6047,7 @@
     passive_skill: "900992"
     max_level: 10
     auto_select_id: 18061
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
@@ -6080,7 +6083,7 @@
     passive_skill: "900993"
     max_level: 10
     auto_select_id: 19021
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
@@ -6116,7 +6119,7 @@
     passive_skill: "900994"
     max_level: 10
     auto_select_id: 20030
-    equip_group_id: 1
+    group_id: "1"
     is_addition: 1
     is_show: 1
     obtain_ids: "3032"
@@ -6151,7 +6154,7 @@
     passive_skill: "901014"
     max_level: 10
     auto_select_id: 18062
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3059"
@@ -6186,7 +6189,7 @@
     passive_skill: "901015"
     max_level: 10
     auto_select_id: 19022
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3060"
@@ -6221,7 +6224,7 @@
     passive_skill: "901016"
     max_level: 10
     auto_select_id: 20031
-    equip_group_id: 2
+    group_id: "2"
     is_addition: 1
     is_show: 1
     obtain_ids: "3033"
@@ -6464,6 +6467,7 @@
     is_show: 1
     obtain_ids: "3004,3096"
     sp_description: equip-40000211
+    description_skill: 902239
   }
   {
     id: 212
@@ -6532,6 +6536,7 @@
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000213
+    description_skill: 902256
   }
   {
     id: 214
@@ -6633,6 +6638,7 @@
     is_show: 1
     obtain_ids: "3005"
     sp_description: equip-40000216
+    description_skill: 115807
   }
   {
     id: 217
@@ -6696,10 +6702,11 @@
     passive_skill: "902391,759141"
     max_level: 10
     auto_select_id: 20035
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3006"
     sp_description: equip-40000218
+    description_skill: 902391
   }
   {
     id: 219
@@ -6732,7 +6739,7 @@
     passive_skill: "759221"
     max_level: 10
     auto_select_id: 18068
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3003"
     sp_description: equip-40000219
@@ -7312,6 +7319,7 @@
     is_show: 1
     obtain_ids: "3008,3096"
     sp_description: equip-40000237
+    description_skill: 100507
   }
   {
     id: 238
@@ -7343,7 +7351,7 @@
     passive_skill: "300903,759217"
     max_level: 10
     auto_select_id: 19029
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
@@ -7378,10 +7386,11 @@
     passive_skill: "803906,759190"
     max_level: 10
     auto_select_id: 19030
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000239
+    description_skill: 803906
   }
   {
     id: 240
@@ -7486,6 +7495,7 @@
     is_show: 1
     obtain_ids: "3009,3096"
     sp_description: equip-40000242
+    description_skill: 756004
   }
   {
     id: 243
@@ -7623,6 +7633,7 @@
     is_show: 1
     obtain_ids: "3010"
     sp_description: equip-40000246
+    description_skill: 756060
   }
   {
     id: 247
@@ -7690,6 +7701,7 @@
     is_show: 1
     obtain_ids: "3011,3096"
     sp_description: equip-40000248
+    description_skill: 756117
   }
   {
     id: 249
@@ -7759,6 +7771,7 @@
     is_show: 1
     obtain_ids: "3012"
     sp_description: equip-40000250
+    description_skill: 759011
   }
   {
     id: 251
@@ -8226,6 +8239,7 @@
     is_show: 1
     obtain_ids: "3014"
     sp_description: equip-40000264
+    description_skill: 759018
   }
   {
     id: 265
@@ -8260,6 +8274,7 @@
     is_show: 1
     obtain_ids: "3015"
     sp_description: equip-40000265
+    description_skill: 759019
   }
   {
     id: 266
@@ -8430,6 +8445,7 @@
     auto_select_id: 18084
     is_show: 1
     obtain_ids: "3064"
+    description_skill: 759029
   }
   {
     id: 271
@@ -8493,7 +8509,7 @@
     passive_skill: "759222"
     max_level: 10
     auto_select_id: 19038
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -8629,6 +8645,7 @@
     is_show: 1
     obtain_ids: "3065"
     sp_description: equip-40000276
+    description_skill: 759030
   }
   {
     id: 277
@@ -8668,6 +8685,7 @@
     auto_select_id: 18088
     is_show: 1
     obtain_ids: "3066,3096"
+    description_skill: 759031
   }
   {
     id: 278
@@ -8832,6 +8850,7 @@
     is_show: 1
     obtain_ids: "3067,3096"
     sp_description: equip-40000282
+    description_skill: 759032
   }
   {
     id: 283
@@ -8865,6 +8884,7 @@
     auto_select_id: 18092
     is_show: 1
     obtain_ids: "3068"
+    description_skill: 759040
   }
   {
     id: 284
@@ -8896,7 +8916,7 @@
     passive_skill: "300903,759240"
     max_level: 10
     auto_select_id: 19041
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
@@ -9033,6 +9053,7 @@
     auto_select_id: 18095
     is_show: 1
     obtain_ids: "3069"
+    description_skill: 759041
   }
   {
     id: 289
@@ -9165,6 +9186,7 @@
     auto_select_id: 18099
     is_show: 1
     obtain_ids: "3070"
+    description_skill: 759044
   }
   {
     id: 293
@@ -9231,6 +9253,7 @@
     auto_select_id: 18100
     is_show: 1
     obtain_ids: "3071"
+    description_skill: 759046
   }
   {
     id: 295
@@ -9265,6 +9288,7 @@
     auto_select_id: 18101
     is_show: 1
     obtain_ids: "3072,3096"
+    description_skill: 759055
   }
   {
     id: 296
@@ -9560,6 +9584,7 @@
     auto_select_id: 18106
     is_show: 1
     obtain_ids: "3073"
+    description_skill: 759057
   }
   {
     id: 305
@@ -9921,6 +9946,7 @@
     auto_select_id: 18107
     is_show: 1
     obtain_ids: "3074"
+    description_skill: 759065
   }
   {
     id: 316
@@ -9955,6 +9981,7 @@
     auto_select_id: 18108
     is_show: 1
     obtain_ids: "3075"
+    description_skill: 759066
   }
   {
     id: 317
@@ -10050,6 +10077,7 @@
     auto_select_id: 19047
     is_show: 1
     obtain_ids: "3081"
+    description_skill: 759070
   }
   {
     id: 321
@@ -10083,6 +10111,7 @@
     auto_select_id: 19048
     is_show: 1
     obtain_ids: "3082"
+    description_skill: 759072
   }
   {
     id: 325
@@ -10356,6 +10385,7 @@
     is_show: 1
     obtain_ids: "3083"
     sp_description: Echelon Night Vision+5%
+    description_skill: 759073
   }
   {
     id: 333
@@ -10524,7 +10554,7 @@
     passive_skill: "759097"
     max_level: 10
     auto_select_id: 19053
-    equip_group_id: 3
+    group_id: "3"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10559,7 +10589,7 @@
     passive_skill: "759091"
     max_level: 10
     auto_select_id: 18114
-    equip_group_id: 4
+    group_id: "4"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10595,6 +10625,7 @@
     auto_select_id: 19054
     is_show: 1
     obtain_ids: "3084"
+    description_skill: 759101
   }
   {
     id: 340
@@ -10628,6 +10659,7 @@
     auto_select_id: 19055
     is_show: 1
     obtain_ids: "3097"
+    description_skill: 759127
   }
   {
     id: 341
@@ -10661,6 +10693,7 @@
     auto_select_id: 19056
     is_show: 1
     obtain_ids: "3085"
+    description_skill: 759131
   }
   {
     id: 342
@@ -10692,7 +10725,7 @@
     passive_skill: "759133,759034"
     max_level: 10
     auto_select_id: 19057
-    equip_group_id: 5
+    group_id: "5"
     is_show: 1
     obtain_ids: "3096"
     sp_description: Echelon ACC+20%
@@ -10727,7 +10760,7 @@
     passive_skill: "759142,759034"
     max_level: 10
     auto_select_id: 19058
-    equip_group_id: 6
+    group_id: "6"
     is_show: 1
     obtain_ids: "3096"
     sp_description: Echelon ACC+20%
@@ -10765,6 +10798,7 @@
     auto_select_id: 20058
     is_show: 1
     obtain_ids: "3086"
+    description_skill: 759155
   }
   {
     id: 348
@@ -10797,7 +10831,7 @@
     passive_skill: "759186"
     max_level: 10
     auto_select_id: 19060
-    equip_group_id: 7
+    group_id: "7"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10833,7 +10867,7 @@
     passive_skill: "759062,759191"
     max_level: 10
     auto_select_id: 20059
-    equip_group_id: 8
+    group_id: "8"
     is_show: 1
     obtain_ids: "3096"
     sp_description: Reload Time-2s
@@ -10870,6 +10904,7 @@
     auto_select_id: 20060
     is_show: 1
     obtain_ids: "3087"
+    description_skill: 759214
   }
   {
     id: 351
@@ -10901,7 +10936,7 @@
     passive_skill: "759218"
     max_level: 10
     auto_select_id: 20061
-    equip_group_id: 9
+    group_id: "9"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10935,7 +10970,7 @@
     passive_skill: "759223"
     max_level: 10
     auto_select_id: 20062
-    equip_group_id: 10
+    group_id: "10"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -10970,6 +11005,7 @@
     auto_select_id: 20064
     is_show: 1
     obtain_ids: "3088"
+    description_skill: 759232
   }
   {
     id: 355
@@ -10977,6 +11013,7 @@
     description:
       '''
       EVA+<dodge>
+
       PPK MOD only
       '''
     rank: 5
@@ -11000,7 +11037,7 @@
     passive_skill: "759241"
     max_level: 10
     auto_select_id: 20065
-    equip_group_id: 11
+    group_id: "11"
     is_show: 1
     obtain_ids: "3096"
   }
@@ -11034,7 +11071,7 @@
     passive_skill: "759235"
     max_level: 10
     auto_select_id: 19061
-    equip_group_id: 12
+    group_id: "12"
     is_show: 1
     obtain_ids: "3096"
     sp_description: ECH DMG+5%
@@ -11070,6 +11107,7 @@
     auto_select_id: 20066
     is_show: 1
     obtain_ids: "3089"
+    description_skill: 759246
   }
   {
     id: 364
@@ -11104,5 +11142,40 @@
     auto_select_id: 20069
     is_show: 1
     obtain_ids: "3090"
+    description_skill: 759267
+  }
+  {
+    id: 367
+    name: Panda Dangle
+    description:
+      '''
+      ACC+<hit>
+      EVA+<dodge> Enhances skill $CF05 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "1,2"
+    dodge: "15,19"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_CF05
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "295"
+    equip_introduction: CF05's favourite multi-purpose dangle. Seeing it always reminds her of home.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: hit:1000,dodge:1000
+    passive_skill: "759279"
+    max_level: 10
+    auto_select_id: 20071
+    is_show: 1
+    obtain_ids: "3091"
+    description_skill: 759279
   }
 ]

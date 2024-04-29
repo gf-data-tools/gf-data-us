@@ -5346,6 +5346,7 @@
     rotate: "20,0,0"
     exist_duration: "132"
     is_form_play: 1
+    creation_type: 2
     scale: "0.8,0.8"
   }
   {
@@ -26917,7 +26918,7 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    hurt_id: "2"
+    hurt_id: "2426"
     is_form_play: 1
     creation_type: 2
     scale: "1"
@@ -26934,7 +26935,7 @@
     route_type: 1
     speed: 15000
     effect_area: 1
-    hurt_id: "2"
+    hurt_id: "2427"
     is_form_play: 1
     scale: "0.35,0.35,1"
   }
@@ -27134,8 +27135,8 @@
     hurt_id: "423"
     is_form_play: 1
     scale: "1"
-    trigger_creation_id: "2182,117,36"
-    trigger_creation_delay: "-1,-1,-1"
+    trigger_creation_id: "2182,117,36,9188"
+    trigger_creation_delay: "-1,-1,-1,-1"
   }
   {
     id: 2093
@@ -27147,8 +27148,8 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "988"
-    buff_cd: "59"
+    buff_id: 988:1,1000005047:1,1000005048:1,8811:1
+    buff_cd: "59,59,59,59"
     is_form_play: 1
     scale: "1"
     sound_order: BT_gasbomb_explode
@@ -28959,7 +28960,7 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    hurt_id: "2"
+    hurt_id: "2404"
     buff_id: "593"
     is_form_play: 1
     creation_type: 2
@@ -28976,7 +28977,7 @@
     speed: 15000
     effect_type: 2
     effect_area: 1
-    hurt_id: "382"
+    hurt_id: "2405"
     is_form_play: 1
     scale: "0.35,0.35,1"
   }
@@ -30518,7 +30519,8 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "3175"
+    buff_id: 3175:1,1000005005:1
+    buff_cd: "0,0"
     is_form_play: 1
     scale: "1"
     sound_order: BT_flashbomb_explode
@@ -37937,7 +37939,7 @@
     exist_duration: "30"
     effect_type: 2
     effect_area: 1
-    effect_param_1: *101
+    effect_param_1: *102
     hurt_id: "503"
     is_form_play: 1
     creation_type: 2
@@ -37974,7 +37976,7 @@
     exist_duration: "30"
     effect_type: 2
     effect_area: 1
-    effect_param_1: *101
+    effect_param_1: *102
     hurt_id: "504"
     is_form_play: 1
     creation_type: 2
@@ -51092,6 +51094,19 @@
     is_die_delete: 1
   }
   {
+    id: 3713
+    name: G36伤害和回避记录
+    start_type: "3"
+    start_offset: "-20,0,0"
+    destination_type: "3"
+    destination_offset: "-20,0,0"
+    is_tracing: 1
+    exist_duration: "10"
+    scale: "1"
+    summoner_order: "1700"
+    is_die_delete: 1
+  }
+  {
     id: 3714
     name: AR15敌方射击法球
     start_type: "1"
@@ -51180,6 +51195,40 @@
     hurt_id: "2685"
     is_form_play: 1
     scale: "10,0,10"
+  }
+  {
+    id: 3721
+    name: 希普卡强化子弹1
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2687"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_uzi,BT_uzi,BT_uzi，BT_uzi
+    sound_delay: "0,2,4,6"
+    is_orb_effect: 1
+  }
+  {
+    id: 3730
+    name: 布伦子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2700"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
   }
   {
     id: 4000
@@ -61870,7 +61919,7 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: "15075"
+    buff_id: 15075:1
     buff_cd: "3"
     is_form_play: 1
     scale: "1"
@@ -62238,6 +62287,88 @@
     exist_duration: "30"
     hurt_id: "3020"
     scale: "1"
+  }
+  {
+    id: 6144
+    name: 霰弹枪子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "3022"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 6145
+    name: 霰弹枪枪口火光
+    code: ShotGun/Fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "40"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 6146
+    name: 导弹设施枪口火花
+    code: Zaij_Grenade_fire
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+    sound_order: BT_squad_bazooka
+  }
+  {
+    id: 6147
+    name: 迫击炮
+    code: Zaij_Tank_shell
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset_start: 1
+    route_type: 2
+    route_hight: 650
+    speed: 2400
+    spin_velocity: -240
+    rotate: "0,0,60"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "6148,25"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_squad_mortar
+  }
+  {
+    id: 6148
+    name: 迫击炮结算
+    code: Zaij_Cannon_explosion
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "3023"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_traintank_tank_explo
   }
   {
     id: 8001
@@ -73527,6 +73658,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2240"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1,1,0"
     trigger_creation_id: "8843,8844,8845,8846"
@@ -73547,6 +73679,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8847,8851"
@@ -73566,6 +73699,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8848,8854"
@@ -73585,6 +73719,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8849,8852"
@@ -73604,6 +73739,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2241"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,1,1.6"
     trigger_creation_id: "8850,8853"
@@ -73623,6 +73759,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73640,6 +73777,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73657,6 +73795,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73674,6 +73813,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73691,6 +73831,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73708,6 +73849,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73725,6 +73867,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -73742,6 +73885,7 @@
     effect_param_1: *101
     effect_param_2: *101
     hurt_id: "2242"
+    buff_id: 9281:1000005394
     is_form_play: 1
     scale: "1.6,0.1,1.6"
   }
@@ -83581,6 +83725,38 @@
     scale: "1"
   }
   {
+    id: 9483
+    name: 1000破防
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2390"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9484
+    name: 1000破防，3000伤害
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2391"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
     id: 9485
     name: 娜希斯一技能受击效果
     code: NXS_pg_dg02
@@ -83633,6 +83809,1306 @@
     hurt_id: "1"
     creation_type: 2
     scale: "1"
+  }
+  {
+    id: 9489
+    name: RPG29枪口火花2
+    code: XDZY/XDZY_TY1
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset_start: 1
+    exist_duration: "30"
+    is_form_play: 1
+    creation_type: 2
+    scale: "0.8,0.8"
+  }
+  {
+    id: 9490
+    name: RPG29特殊攻击
+    code: XDZY/XDZY_TY5_1
+    start_type: "8"
+    start_offset: "-60,2"
+    destination_type: "6"
+    decision_offset: "-56,2"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 200
+    speed: 3400
+    easing_type: 1
+    spin_velocity: -105
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.3,0.3"
+    trigger_creation_id: "9492,25,9494,9491"
+    trigger_creation_delay: "-1,-1,-1,-1"
+    sound_order: BT_squad_bazooka
+    edge_indicator: Pics/Squads/RPG29_icon:2
+  }
+  {
+    id: 9491
+    name: RPG29特殊攻击直达
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2397"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9492
+    name: RPG29特殊攻击结算范围
+    code: XDZY/RPG29_XDZY_bz
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2395"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 9493
+    name: RPG29特殊攻击破防结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2396"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9494
+    name: RPG29特殊攻击额外结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2398"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9495
+    name: RPG29边缘指示器
+    code: 迫击炮
+    start_type: "8"
+    start_offset: "-50,15"
+    destination_type: "8"
+    destination_offset: "-22,7"
+    is_tracing: 1
+    route_type: 2
+    speed: 2000
+    easing_type: 1
+    exist_duration: *101
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9496
+    name: 歌莉娅召唤物
+    code: Dinergate
+    start_type: "3"
+    start_offset: "-1"
+    destination_type: "3"
+    destination_offset: "-1"
+    is_tracing: 1
+    exist_duration: "45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "4327"
+    summoner_delay: "1"
+  }
+  {
+    id: 9497
+    name: 鬼雾范围敌方
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "90"
+    buff_id: 9259:1,9260:1
+    buff_cd: "10,10"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 9498
+    name: 二技能鬼雾子弹
+    code: WSMX_jgz
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2399"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9499
+    name: 二技能无鬼雾子弹
+    code: WSMX_jgz
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2400"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9500
+    name: 万圣梦想家一技能激光束
+    start_type: "3"
+    start_offset: "15"
+    destination_type: "3"
+    destination_offset: "15"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "30"
+    effect_param_2: "4"
+    hurt_id: "2401"
+    creation_type: 2
+    scale: "30,0,4"
+  }
+  {
+    id: 9501
+    name: 一技能额外子弹
+    code: WSMX_jgz
+    start_type: "1"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2402"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9502
+    name: 普攻
+    code: bullet/bullet3
+    start_type: "1"
+    start_offset: "0.3,-0.15,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2403"
+    is_form_play: 1
+    scale: "0.7,0.5"
+    sound_order: BT_pistol
+  }
+  {
+    id: 9503
+    name: 表演普攻
+    code: bullet/bullet3
+    start_type: "1"
+    start_offset: "-0.3,-0.15,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2403"
+    is_form_play: 1
+    scale: "0.7,0.5"
+    sound_order: BT_rifle
+  }
+  {
+    id: 9504
+    name: 万圣梦想家一技能激光束
+    code: WSMX_jg
+    start_type: "1"
+    destination_type: "1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "45"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9505
+    name: 鬼雾期间
+    code: WSMX_stg
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    effect_area: 1
+    creation_type: 2
+    scale: "0.7,0.7,0.7"
+  }
+  {
+    id: 9506
+    name: 夜视提升
+    code: WSMX_yzts
+    start_type: "3"
+    start_offset: "0,2.5,0"
+    destination_type: "3"
+    destination_offset: "0,2.5,0"
+    is_tracing: 1
+    exist_duration: "60"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9507
+    name: 一技能蓄力
+    code: WSMX_xld
+    start_type: "1"
+    start_offset: "-0.5,-0.1,0"
+    destination_type: "1"
+    destination_offset: "-0.5,-0.1,0"
+    is_tracing: 1
+    exist_duration: "35"
+    effect_area: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9508
+    name: 狙击枪口火光
+    code: Agent/Agent_Attack02
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9509
+    name: 狙击枪口火光
+    code: Agent/Agent_Attack02
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "20"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 9511
+    name: 凉香机枪普攻
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 9512
+    name: 凉香RPG普攻
+    code: LDFX_dan01
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "25,9514"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 9513
+    name: 凉香RPG二技能
+    code: LDFX_dan01
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.6,0.6,0.6"
+    trigger_creation_id: "25,9515"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 9514
+    name: 凉香RPG普攻结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2406"
+    buff_id: 9284:1,9286:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9515
+    name: 凉香RPG二技能结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2407"
+    buff_id: 9284:1,9286:1
+    buff_cd: "0,0"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9516
+    name: 塔奇克马枪口火光1
+    code: Zaij02_MG_spinfire
+    start_type: "1"
+    start_offset: "-0.3"
+    destination_type: "1"
+    destination_offset: "-0.3"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.4,0.4,0.4"
+  }
+  {
+    id: 9517
+    name: 塔奇克马机枪普攻1
+    code: bullet/bullet2
+    start_type: "1"
+    start_offset: "-0.1,-0.1"
+    destination_type: "5"
+    destination_offset: "-0.1,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2408"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 9518
+    name: 塔奇克马枪口火光2
+    code: Zaij02_MG_spinfire
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "1"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    exist_duration: "1"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.4,0.4,0.4"
+  }
+  {
+    id: 9519
+    name: 塔奇克马机枪普攻2
+    code: bullet/bullet2
+    start_type: "1"
+    start_offset: "-0.8,-0.1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2408"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 9520
+    name: 机枪无判定子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 9521
+    name: 机枪无判定子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+  }
+  {
+    id: 9522
+    name: 塔奇克马主炮
+    code: LDFX_dan02
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 7
+    speed: 2500
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.7,0.7,0.7"
+    trigger_creation_id: "25,9525"
+    trigger_creation_delay: "-1,-1"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 9523
+    name: 塔奇克马主炮火光
+    code: LDFX_yan02
+    start_type: "1"
+    start_offset: "-0.4"
+    destination_type: "1"
+    destination_offset: "-0.4"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9524
+    name: 凉香RPG火花
+    code: LDFX_yan01
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "-0.6,0.6,0.6"
+  }
+  {
+    id: 9525
+    name: 塔奇克马主炮结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2409"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9526
+    name: 布丁枪榴弹面片
+    code: 爆破榴弹
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    spin_velocity: -300
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.45,0.45"
+    trigger_creation_id: "9527,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9527
+    name: 布丁榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2410"
+    buff_id: 9302:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9528
+    name: 布丁枪中心伤害500
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 120
+    speed: 2400
+    effect_area: 1
+    hurt_id: "2411"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9529
+    name: 人形凉香RPG火花
+    code: LDFX_yan01
+    start_type: "1"
+    start_offset: "0,-0.1"
+    destination_type: "1"
+    destination_offset: "0,-0.1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    exist_duration: "60"
+    effect_area: 1
+    is_form_play: 1
+    creation_type: 1
+    scale: "0.45,0.45,0.45"
+  }
+  {
+    id: 9530
+    name: 人形凉香RPG榴弹面片
+    code: LDFX_dan01
+    start_type: "1"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 2400
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "0.45,0.45,0.45"
+    trigger_creation_id: "9531,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9531
+    name: 人形凉香RPG结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2412"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9540
+    name: 开局判断上
+    start_type: "3"
+    start_offset: "-0.8,0,4.3"
+    destination_type: "3"
+    destination_offset: "-0.8,0,4.3"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9541
+    name: 开局判断下
+    start_type: "3"
+    start_offset: "-0.8,0,-4.3"
+    destination_type: "3"
+    destination_offset: "-0.8,0,-4.3"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9542
+    name: 开局判断左
+    start_type: "3"
+    start_offset: "-3.2,0,0"
+    destination_type: "3"
+    destination_offset: "-3.2,0,0"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9543
+    name: 开局判断右
+    start_type: "3"
+    start_offset: "1.6,0,0"
+    destination_type: "3"
+    destination_offset: "1.6,0,0"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 9318:1
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,1,3"
+  }
+  {
+    id: 9544
+    name: fm24判断子弹
+    start_type: "5"
+    start_offset: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "1"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 9545
+    name: fm24额外子弹
+    code: bullet/bullet3
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2416"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9546
+    name: 开场第1排
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9332:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9547
+    name: 开场第2排
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9333:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9548
+    name: 开场第3排
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "12"
+    buff_id: 9334:1
+    creation_type: 2
+    scale: "2,1,12"
+  }
+  {
+    id: 9549
+    name: 影响格7
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9550
+    name: 影响格4
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9551
+    name: 影响格1
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9552
+    name: 影响格8
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9553
+    name: 影响格5
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9554
+    name: 影响格2
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9555
+    name: 影响格9
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9556
+    name: 影响格6
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9557
+    name: 影响格3
+    code: WNL_Field
+    start_type: "8"
+    start_offset: "-1.5,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-5.9"
+    is_tracing: 1
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    buff_id: 1000005427:1,1000005428:1,1000005429:1,1000005430:1,1000005434:1
+    buff_cd: "10,10,10,10,10"
+    scale: "0.6,0.6,0.6"
+  }
+  {
+    id: 9558
+    name: 霰弹枪子弹
+    start_type: "1"
+    start_offset: "-1"
+    destination_type: "5"
+    destination_offset: "-1"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_clone: 1
+    route_type: 1
+    speed: 3000
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2417"
+    is_form_play: 1
+    scale: "1"
+    sound_order: BT_Shot_1
+    is_orb_effect: 1
+  }
+  {
+    id: 9559
+    name: 开场上
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "9"
+    effect_param_2: "4"
+    buff_id: 9373:1
+    creation_type: 2
+    scale: "9,0.1,4"
+  }
+  {
+    id: 9560
+    name: 开场下
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    is_tracing: 1
+    exist_duration: "120"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "9"
+    effect_param_2: "4"
+    buff_id: 9374:1
+    creation_type: 2
+    scale: "9,0.1,4"
+  }
+  {
+    id: 9567
+    name: 步枪子弹k31
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2424"
+    is_form_play: 1
+    scale: "0.7,0.7"
+    sound_order: BT_rifle
+    is_orb_effect: 1
+  }
+  {
+    id: 9580
+    name: 手榴弹面片
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "9582,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9581
+    name: 手榴毒弹面片
+    code: 手榴弹
+    start_type: "2"
+    destination_type: "6"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    hurt_id: "417"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "9583,25"
+    trigger_creation_delay: "-1,-1"
+  }
+  {
+    id: 9582
+    name: 榴弹结算范围
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2430"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9583
+    name: 毒榴弹结算范围
+    code: 18qi_du
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: *102
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2431"
+    hurt_cd: "30"
+    buff_id: "9423"
+    buff_cd: "10"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_grenade_explode
+  }
+  {
+    id: 9584
+    name: EM2狙击子弹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2432"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 9585
+    name: 突击步枪枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2433"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
+  }
+  {
+    id: 9586
+    name: tac狙击子弹
+    code: SniperSkillBullet
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 4
+    speed: 3800
+    rotate: "0,90,0"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "368"
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "93"
+    trigger_creation_delay: "-1"
+    sound_order: BT_rifle_skill
+  }
+  {
+    id: 9587
+    name: tac狙击子弹dimian
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 3800
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    hurt_id: "2434"
+    hurt_cd: "1"
+    is_single_hurt: 1
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 9588
+    name: 同排射速
+    start_type: "3"
+    destination_type: "3"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "20"
+    buff_id: "9431"
+    is_form_play: 1
+    creation_type: 2
+    scale: "2,0,20"
+  }
+  {
+    id: 9589
+    name: 手枪子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2435"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+  }
+  {
+    id: 9601
+    name: 手枪精准普攻[*]
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2441"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
+  }
+  {
+    id: 9602
+    name: 手枪弱点普攻[*]
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2442"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_pistol
+    is_orb_effect: 1
   }
   {
     id: 9740
@@ -92334,7 +93810,7 @@
     exist_duration: "90"
     is_form_play: 1
     creation_type: 5
-    scale: "1"
+    scale: "0.2"
     sound_order: BT_White_Laser
     is_die_delete: 1
   }
@@ -92411,7 +93887,6 @@
   {
     id: 10548
     name: 干扰器
-    code: testcube
     start_type: "3"
     start_offset: "2.5"
     destination_type: "3"
@@ -92552,7 +94027,7 @@
     effect_param_1: "50"
     effect_param_2: "3"
     hurt_id: "679"
-    buff_id: 5136:1000002294
+    buff_id: 5136:1000002341
     is_form_play: 1
     creation_type: 5
     scale: "1,0.2"
@@ -92656,10 +94131,9 @@
     destination_offset: "2.5"
     is_form_offset: 1
     is_form_offset_start: 1
-    route_type: 1
-    speed: 5000
+    exist_duration: "10"
     effect_type: 2
-    effect_area: 1
+    effect_area: 2
     effect_param_1: "5"
     effect_param_2: "12"
     hurt_id: "681"
@@ -92676,10 +94150,9 @@
     destination_offset: "2.5"
     is_form_offset: 1
     is_form_offset_start: 1
-    route_type: 1
-    speed: 5000
+    exist_duration: "10"
     effect_type: 2
-    effect_area: 1
+    effect_area: 2
     effect_param_1: "5"
     effect_param_2: "12"
     hurt_id: "682"
@@ -92788,14 +94261,14 @@
     start_type: "3"
     destination_type: "3"
     is_form_offset: 1
-    exist_duration: "30"
+    exist_duration: *102
     effect_type: 1
     effect_area: 1
-    effect_param_1: *102
-    hurt_id: "2"
+    effect_param_1: *101
+    hurt_id: "694"
     buff_id: "221"
     is_form_play: 1
-    scale: "1"
+    scale: "0.5,0.5,0.5"
   }
   {
     id: 10570
@@ -92871,7 +94344,7 @@
     exist_duration: *101
     is_form_play: 1
     creation_type: 5
-    scale: "1,0.2"
+    scale: "1"
     is_die_delete: 1
   }
   {
@@ -92891,7 +94364,7 @@
     hurt_cd: "30"
     is_form_play: 1
     creation_type: 5
-    scale: "1,0.2"
+    scale: "1"
     sound_order: BT_White_Laser
     is_die_delete: 1
   }
@@ -93002,7 +94475,6 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: 1000009042:2
     buff_cd: "1"
     is_single_hurt: 1
     scale: "0.35,0.35,1"
@@ -93018,7 +94490,6 @@
     effect_type: 2
     effect_area: 1
     effect_param_1: *101
-    buff_id: 1000009042:2
     buff_cd: "1"
     is_single_hurt: 1
     scale: "0.35,0.35,1"
@@ -93026,7 +94497,6 @@
   {
     id: 10583
     name: test
-    code: testcube
     start_type: "1"
     destination_type: "1"
     is_form_offset_start: 1
@@ -93177,6 +94647,903 @@
     buff_id: 5219:1,5220:1000002338
     buff_cd: "0,0"
     scale: "1"
+  }
+  {
+    id: 10593
+    name: 高达轻武子弹lv2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    effect_area: 1
+    hurt_id: "693"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10594
+    name: 高达轻武透明子弹lv3
+    start_type: "3"
+    start_offset: "2.5"
+    destination_type: "3"
+    destination_offset: "2.5"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "5"
+    effect_param_2: "12"
+    hurt_id: "693"
+    is_form_play: 1
+    scale: "5,0.1,12"
+    is_orb_effect: 1
+  }
+  {
+    id: 10595
+    name: 史蒂文斯620当前排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "13,18,8"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "4,0.1,2"
+    trigger_creation_id: "10643,10644,10645"
+    trigger_creation_delay: "0,0,0"
+  }
+  {
+    id: 10596
+    name: 抽卡
+    start_type: "3"
+    destination_type: "3"
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,8.4;0,0,12.6;0,0,16.8;0,0,21"
+    exist_duration: "10"
+    scale: "4,0.1,2"
+    trigger_creation_id: "10597,10598,10599,10600,10601,10602"
+    trigger_creation_delay: "0,0,0,0,0,0"
+  }
+  {
+    id: 10597
+    name: 情况1
+    code: testcube
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5230"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10598
+    name: 情况2
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5231"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10599
+    name: 情况3
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-8.4"
+    destination_type: "7"
+    destination_offset: "0,0,-8.4"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5232"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10600
+    name: 情况4
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-12.6"
+    destination_type: "7"
+    destination_offset: "0,0,-12.6"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5233"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10601
+    name: 情况5
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-16.8"
+    destination_type: "7"
+    destination_offset: "0,0,-16.8"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5234"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10602
+    name: 情况6
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-21"
+    destination_type: "7"
+    destination_offset: "0,0,-21"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5235"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10603
+    name: 影响格1
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10604
+    name: 影响格2
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10605
+    name: 影响格3
+    code: testcube
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10606
+    name: 影响格4
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10607
+    name: 影响格5
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10608
+    name: 影响格6
+    code: testcube
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: 1000002345:1,1000002346:1
+    buff_cd: "5,5"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10609
+    name: 史蒂文斯620第二排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "7,12,17"
+    buff_id: "5245"
+    buff_cd: "5"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10610
+    name: 史蒂文斯620第三排
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    exist_duration: "999999"
+    effect_type: 1
+    effect_area: 3
+    effect_param_1: "6,11,16"
+    buff_id: "5245"
+    buff_cd: "5"
+    scale: "4,0.1,2"
+  }
+  {
+    id: 10611
+    name: 第二排监视者
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    exist_duration: "10"
+    effect_type: 1
+    scale: "4,0.1,2"
+    summoner_order: "1683"
+  }
+  {
+    id: 10612
+    name: 第三排监视者
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    exist_duration: "10"
+    effect_type: 1
+    scale: "4,0.1,2"
+    summoner_order: "1684"
+  }
+  {
+    id: 10613
+    name: 江崎布丁红雷
+    code: LDFX02_sld02
+    start_type: "2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,0;2.4,0,0;-2.4,0,0"
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "10615,10616,10617"
+    trigger_creation_delay: "-1,-1,-1"
+  }
+  {
+    id: 10614
+    name: 红雷爆炸
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "695"
+    buff_id: 5246:1,5247:1
+    buff_cd: "0,0"
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 10615
+    name: 红雷预警1
+    code: 爆炸范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10614"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10616
+    name: 红雷预警2
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,4.2"
+    destination_type: "7"
+    destination_offset: "0,0,4.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10614"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10617
+    name: 红雷预警3
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10614"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10618
+    name: 江崎布丁黑雷
+    code: LDFX02_sld01
+    start_type: "2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "10620,10621,10622"
+    trigger_creation_delay: "-1,-1,-1"
+  }
+  {
+    id: 10619
+    name: 黑雷爆炸
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "695"
+    buff_id: 5246:1,5247:1
+    buff_cd: "0,0"
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 10620
+    name: 黑雷预警1
+    code: 爆炸范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10619"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10621
+    name: 黑雷预警2
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "2.4,0,0"
+    destination_type: "7"
+    destination_offset: "2.4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10619"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10622
+    name: 黑雷预警3
+    code: 爆炸范围
+    start_type: "7"
+    start_offset: "-2.4,0,0"
+    destination_type: "7"
+    destination_offset: "-2.4,0,0"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "10619"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 10623
+    name: 1号位
+    start_type: "8"
+    start_offset: "-6.3,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-5.9"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1685"
+  }
+  {
+    id: 10624
+    name: 2号位
+    start_type: "8"
+    start_offset: "-3.9,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-5.9"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1686"
+  }
+  {
+    id: 10625
+    name: 3号位
+    start_type: "8"
+    start_offset: "-1.5,0,-5.9"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-5.9"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1687"
+  }
+  {
+    id: 10626
+    name: 4号位
+    start_type: "8"
+    start_offset: "-6.3,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-6.3,0,-1.7"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1688"
+  }
+  {
+    id: 10627
+    name: 5号位
+    start_type: "8"
+    start_offset: "-3.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1689"
+  }
+  {
+    id: 10628
+    name: 6号位
+    start_type: "8"
+    start_offset: "-1.5,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-1.5,0,-1.7"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1690"
+  }
+  {
+    id: 10629
+    name: 7号位
+    start_type: "8"
+    start_offset: "-6.3,0,2.5"
+    destination_type: "8"
+    destination_offset: "-6.3,0,2.5"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1691"
+  }
+  {
+    id: 10630
+    name: 8号位
+    start_type: "8"
+    start_offset: "-3.9,0,2.5"
+    destination_type: "8"
+    destination_offset: "-3.9,0,2.5"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1692"
+  }
+  {
+    id: 10631
+    name: 9号位
+    start_type: "8"
+    start_offset: "-1.5,0,2.5"
+    destination_type: "8"
+    destination_offset: "-1.5,0,2.5"
+    random_number: "1"
+    random_offset: "-40,0,0"
+    exist_duration: "90"
+    is_form_play: 1
+    scale: "1"
+    summoner_order: "1693"
+  }
+  {
+    id: 10632
+    name: 九宫格随机
+    start_type: "8"
+    start_offset: "-43.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-43.9,0,-1.7"
+    random_number: "1"
+    random_offset: "0,0,4.2;0,0,0;0,0,-4.2;2.4,0,0;2.4,0,4.2;2.4,0,-4.2;-2.4,0,0;-2.4,0,4.2;-2.4,0,-4.2"
+    exist_duration: "10"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5259"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10633
+    name: 判定有无人
+    start_type: "3"
+    start_offset: "40,0,0"
+    destination_type: "3"
+    destination_offset: "40,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5260"
+    is_form_play: 1
+    scale: "2,0.1,3"
+  }
+  {
+    id: 10634
+    name: 有人！
+    start_type: "3"
+    start_offset: "-40,0,0"
+    destination_type: "3"
+    destination_offset: "-40,0,0"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5261"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10635
+    name: 钥匙
+    code: Riy_moon_kuang
+    start_type: "3"
+    start_offset: "40,0,0"
+    destination_type: "3"
+    destination_offset: "40,0,0"
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5262"
+    buff_cd: "3"
+    is_form_play: 1
+    scale: "1"
+    active_times: 1
+  }
+  {
+    id: 10636
+    name: 岛村孝标记
+    code: LDFX02_biaoji
+    start_type: "3"
+    start_offset: "0,0.5,0"
+    destination_type: "3"
+    destination_offset: "0,0.5,0"
+    is_tracing: 1
+    rotate: "90,0,0"
+    effect_area: 1
+    is_form_play: 2
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
+  }
+  {
+    id: 10637
+    name: 岛村孝混乱伤害
+    start_type: "3"
+    start_offset: "-0.65"
+    destination_type: "3"
+    destination_offset: "-0.65"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "697"
+    hurt_cd: "30"
+    scale: "1"
+    trigger_creation_id: "10638,10639,10640,10641"
+    trigger_creation_delay: "0,0,0,0"
+  }
+  {
+    id: 10638
+    name: 岛村孝混乱伤害
+    start_type: "3"
+    start_offset: "0,0,4.2"
+    destination_type: "3"
+    destination_offset: "0,0,4.2"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "697"
+    hurt_cd: "30"
+    scale: "1"
+  }
+  {
+    id: 10639
+    name: 岛村孝混乱伤害
+    start_type: "3"
+    start_offset: "0,0,-4.2"
+    destination_type: "3"
+    destination_offset: "0,0,-4.2"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "697"
+    hurt_cd: "30"
+    scale: "1"
+  }
+  {
+    id: 10640
+    name: 岛村孝混乱伤害
+    start_type: "3"
+    start_offset: "2.4"
+    destination_type: "3"
+    destination_offset: "2.4"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "697"
+    hurt_cd: "30"
+    scale: "1"
+  }
+  {
+    id: 10641
+    name: 岛村孝混乱伤害
+    start_type: "3"
+    start_offset: "-2.4"
+    destination_type: "3"
+    destination_offset: "-2.4"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    hurt_id: "697"
+    hurt_cd: "30"
+    scale: "1"
+  }
+  {
+    id: 10642
+    name: 机枪子弹
+    code: bullet/bullet2
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    rotate: "-45,0,-45"
+    effect_area: 1
+    hurt_id: "698"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10643
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10644
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,4.2"
+    destination_type: "7"
+    destination_offset: "0,0,4.2"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10645
+    name: 当前排特效
+    code: testcube
+    start_type: "7"
+    start_offset: "0,0,-4.2"
+    destination_type: "7"
+    destination_offset: "0,0,-4.2"
+    exist_duration: "999999"
+    scale: "2,0.1,4"
+  }
+  {
+    id: 10646
+    name: 机枪子弹
+    code: bullet/bullet2
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    rotate: "-45,0,-45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 10647
+    name: 边缘指示物
+    start_type: "3"
+    start_offset: "0,10,0"
+    destination_type: "3"
+    destination_offset: "0,10,0"
+    is_form_offset: 1
+    exist_duration: *101
+    scale: "1"
+    edge_indicator: Pics/Squads/MG15_Skill:2
+    is_orb_effect: 1
+  }
+  {
+    id: 10648
+    name: 九宫格随机
+    start_type: "8"
+    start_offset: "-43.9,0,-1.7"
+    destination_type: "8"
+    destination_offset: "-43.9,0,-1.7"
+    random_number: "1"
+    random_offset: "0,0,4.2;0,0,0;0,0,-4.2;2.4,0,0;2.4,0,4.2;2.4,0,-4.2;-2.4,0,0;-2.4,0,4.2;-2.4,0,-4.2"
+    exist_duration: "10"
+    effect_type: 1
+    effect_area: 2
+    effect_param_1: "2"
+    effect_param_2: "3"
+    buff_id: "5259"
+    is_form_play: 1
+    scale: "1"
+  }
+  {
+    id: 10649
+    name: 爆破打击子弹MG5
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2681"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
   }
   {
     id: 26001
@@ -94863,6 +97230,137 @@
     trigger_creation_delay: "0,4,8,12,16,20,24,28,32,36,40,44"
   }
   {
+    id: 106131
+    name: 江崎布丁红雷
+    code: LDFX02_sld02
+    start_type: "2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,0;2.4,0,0;-2.4,0,0"
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "106151"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 106141
+    name: 红雷爆炸
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "695"
+    buff_cd: "0,0"
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 106151
+    name: 红雷预警1
+    code: 爆炸范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "106141"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 106181
+    name: 江崎布丁黑雷
+    code: LDFX02_sld01
+    start_type: "2"
+    destination_type: "8"
+    destination_offset: "-3.9,0,-1.7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    random_number: "1"
+    random_offset: "0,0,0;0,0,4.2;0,0,-4.2"
+    route_type: 2
+    route_hight: 500
+    speed: 1500
+    spin_velocity: 3000
+    effect_area: 1
+    is_form_play: 1
+    scale: "1"
+    trigger_creation_id: "106201"
+    trigger_creation_delay: "-1"
+  }
+  {
+    id: 106191
+    name: 黑雷爆炸
+    code: 爆炸
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 2
+    effect_param_1: *101
+    effect_param_2: *102
+    hurt_id: "695"
+    buff_cd: "0,0"
+    creation_type: 1
+    scale: "1"
+  }
+  {
+    id: 106201
+    name: 黑雷预警1
+    code: 爆炸范围
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    rotate: "90,0,0"
+    exist_duration: "120"
+    is_form_play: 1
+    scale: "1.25,2.15"
+    trigger_creation_id: "106191"
+    trigger_creation_delay: "90"
+  }
+  {
+    id: 106360
+    name: 岛村孝混乱
+    code: LDFX02_buff
+    start_type: "3"
+    start_offset: "0,1,0"
+    destination_type: "3"
+    destination_offset: "0,1,0"
+    is_tracing: 1
+    effect_area: 1
+    is_form_play: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
+    id: 106361
+    name: 岛村孝混乱
+    code: LDFX02_boom
+    start_type: "3"
+    destination_type: "3"
+    is_tracing: 1
+    exist_duration: "30"
+    effect_area: 1
+    is_form_play: 2
+    scale: "1"
+    is_die_delete: 1
+  }
+  {
     id: 120101
     name: 巴雷特弹药计数3
     code: M82A1/M82A1_3
@@ -95309,6 +97807,23 @@
     is_form_play: 1
     scale: "0.4,0.4"
     sound_order: BT_arrow_enemy_n
+  }
+  {
+    id: 235001
+    name: 异构体众眩晕
+    code: Ketwk_dl03
+    start_type: "3"
+    destination_type: "3"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "2"
+    buff_id: 221:1,205:1
+    buff_cd: "0,0"
+    creation_type: 2
+    scale: "0.5,0.5,0.5"
+    sound_order: skill_isomer_disturbation
+    is_die_delete: 1
   }
   {
     id: 235301
@@ -99638,6 +102153,21 @@
     hurt_id: "2686"
     is_form_play: 1
     scale: "1"
+  }
+  {
+    id: 372101
+    name: 希普卡强化子弹2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "2687"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    is_orb_effect: 1
   }
   {
     id: 536801
@@ -103991,6 +106521,266 @@
     summoner_order: "149720"
   }
   {
+    id: 570141
+    name: 刘皮肤8703增援lv1
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149721"
+  }
+  {
+    id: 570142
+    name: 刘皮肤8703增援lv2
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149722"
+  }
+  {
+    id: 570143
+    name: 刘皮肤8703增援lv3
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149723"
+  }
+  {
+    id: 570144
+    name: 刘皮肤8703增援lv4
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149724"
+  }
+  {
+    id: 570145
+    name: 刘皮肤8703增援lv5
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149725"
+  }
+  {
+    id: 570146
+    name: 刘皮肤8703增援lv6
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149726"
+  }
+  {
+    id: 570147
+    name: 刘皮肤8703增援lv7
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149727"
+  }
+  {
+    id: 570148
+    name: 刘皮肤8703增援lv8
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149728"
+  }
+  {
+    id: 570149
+    name: 刘皮肤8703增援lv9
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149729"
+  }
+  {
+    id: 570150
+    name: 刘皮肤8703增援lv10
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149730"
+  }
+  {
+    id: 570151
+    name: 刘皮肤10204增援lv1
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149731"
+  }
+  {
+    id: 570152
+    name: 刘皮肤10204增援lv2
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149732"
+  }
+  {
+    id: 570153
+    name: 刘皮肤10204增援lv3
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149733"
+  }
+  {
+    id: 570154
+    name: 刘皮肤10204增援lv4
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149734"
+  }
+  {
+    id: 570155
+    name: 刘皮肤10204增援lv5
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149735"
+  }
+  {
+    id: 570156
+    name: 刘皮肤10204增援lv6
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149736"
+  }
+  {
+    id: 570157
+    name: 刘皮肤10204增援lv7
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149737"
+  }
+  {
+    id: 570158
+    name: 刘皮肤10204增援lv8
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149738"
+  }
+  {
+    id: 570159
+    name: 刘皮肤10204增援lv9
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149739"
+  }
+  {
+    id: 570160
+    name: 刘皮肤10204增援lv10
+    start_type: "8"
+    start_offset: "-8.58,0,-1.65"
+    destination_type: "8"
+    destination_offset: "-8.58,0,-1.65"
+    random_number: "3"
+    random_offset: ‘0,0,4.2;0,0,0;0,0,-4.2
+    effect_area: 1
+    scale: "1"
+    summoner_order: "149740"
+  }
+  {
     id: 570501
     name: 万圣火球受击
     code: wsgs_baozha
@@ -107841,7 +110631,7 @@
   {
     id: 582701
     name: 黑色boss枪口火光
-    code: Blacknyto_fire
+    code: Blacknyto_fire1
     start_type: "1"
     start_offset: "0.1,-0.2"
     destination_type: "1"
@@ -109961,6 +112751,20 @@
     scale: "1"
   }
   {
+    id: 884201
+    name: 额外易伤
+    start_type: "7"
+    destination_type: "7"
+    is_form_offset: 1
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: "1"
+    buff_id: 9281:1000005394
+    is_form_play: 1
+    scale: "1"
+  }
+  {
     id: 900002
     name: 设施着火
     code: sheshi/XDZY_sheshi 1_1
@@ -110980,6 +113784,135 @@
     buff_id: 9117:1000005277,9118:1000005277,1201:1000005277,1204:1000005277
     buff_cd: "0,0,0,0"
     scale: "0.85,1.5,1"
+  }
+  {
+    id: 948501
+    name: RPG29普通攻击
+    code: XDZY/XDZY_TY5_1
+    start_type: "8"
+    start_offset: "-60,2"
+    destination_type: "6"
+    decision_offset: "-56,2"
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 2
+    route_hight: 200
+    speed: 3400
+    easing_type: 1
+    spin_velocity: -105
+    rotate: "0,0,45"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.3,0.3"
+    trigger_creation_id: "948701,25,948601"
+    trigger_creation_delay: "-1,-1,-1"
+    sound_order: BT_squad_bazooka
+    edge_indicator: Pics/Squads/RPG29_icon:2
+  }
+  {
+    id: 948601
+    name: RPG29普通攻击直达
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_area: 1
+    hurt_id: "2394"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 948701
+    name: RPG29普通攻击结算范围
+    code: XDZY/XDZY_TY2
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2392"
+    is_form_play: 1
+    creation_type: 2
+    scale: "1"
+    sound_order: BT_squad_explode
+  }
+  {
+    id: 948801
+    name: RPG29普通攻击破防结算范围
+    start_type: "7"
+    destination_type: "7"
+    exist_duration: "30"
+    effect_type: 2
+    effect_area: 1
+    effect_param_1: *101
+    hurt_id: "2393"
+    creation_type: 2
+    scale: "1"
+  }
+  {
+    id: 949601
+    name: 鬼雾范围我方
+    code: WSMX_yan
+    start_type: "8"
+    destination_type: "8"
+    is_tracing: 1
+    exist_duration: *101
+    effect_type: 1
+    effect_area: 1
+    effect_param_1: "90"
+    buff_id: 9259:1000005391,9260:1000005391,9261:1000005390
+    buff_cd: "10,10,10"
+    creation_type: 2
+    scale: "1"
+    still_exist: 1
+  }
+  {
+    id: 953001
+    name: 人形凉香RPG榴弹面片
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    is_tracing: 1
+    route_type: 1
+    speed: 2400
+    rotate: "0,0,20"
+    effect_area: 1
+    hurt_id: "241201"
+    is_form_play: 1
+    scale: "0.45,0.45,0.45"
+  }
+  {
+    id: 953002
+    name: 机枪子弹
+    code: bullet/bullet2
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "241202"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
+    sound_order: BT_machine
+    is_orb_effect: 1
+  }
+  {
+    id: 958901
+    name: 手枪子弹
+    start_type: "1"
+    destination_type: "5"
+    is_form_offset: 1
+    is_form_offset_start: 1
+    route_type: 1
+    speed: 5000
+    effect_area: 1
+    hurt_id: "243501"
+    is_form_play: 1
+    scale: "0.35,0.35,1"
   }
   {
     id: 975001
@@ -112724,5 +115657,20 @@
     is_form_play: 1
     scale: "0.35,0.35,1"
     sound_order: BT_pistol
+  }
+  {
+    id: 999156
+    name: 迅雷锁链缠绕
+    code: LDFX02_suolian
+    start_type: "6"
+    start_offset: "-0.5,0.5,-0.8"
+    destination_type: "6"
+    destination_offset: "-0.5,0.5,-0.8"
+    is_tracing: 1
+    exist_duration: "150"
+    effect_area: 1
+    is_form_play: 1
+    scale: "0.5,0.5,0.5"
+    is_die_delete: 1
   }
 ]

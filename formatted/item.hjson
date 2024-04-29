@@ -394,10 +394,31 @@
     arg: "1"
     code: Fairy_Biscuit
     item_name: Fairy Bulking Cookie
-    introduction: '''"An extremely tasty snack for Fairies. Eating it will give the Fairy a large amount of Breakthrough EXP'''
+    introduction: An extremely tasty snack for Fairies. Eating it will give the Fairy a large amount of Breakthrough EXP, but the ingredients seem to be deliberately obscured on the packaging...
     rank: 1
     sort: -71
     detail_introduction: Use to increase a Fairy's Breakthrough EXP in Upgrade & Breakthrough.
+  }
+  {
+    id: 57
+    type: 1
+    arg: "1"
+    code: Energy
+    item_name: Energy
+    introduction: IOP has standardized the energy specifications of its products, allowing its contractors to power all Mobile Armors using a single energy system.
+    rank: 1
+  }
+  {
+    id: 60
+    type: 1
+    arg: "1"
+    code: Component_EXP_Item
+    item_name: Component Processing Package
+    introduction: IOP provides additional special processing services for components to enable better assembly, thereby improving the effectiveness of Mobile Armor units. To simplify the process, IOP directly provides component processing packages, allowing the Logistics Department to upgrade and process the components by themselves.
+    rank: 1
+    sort: 115
+    item_access: "7"
+    detail_introduction: Adds 100 points of Development Value to a Component.
   }
   {
     id: 100
@@ -486,7 +507,7 @@
     arg: "10"
     code: Medal_Theater8th
     item_name: 8th Theater Pioneer Medal
-    introduction: '''"To commend a Commander and the T-Dolls under their command for achieving a remarkable score in the 8th Theater through relentless hard work. "When the seas are rough and the tides treacherous, some would choose to bide their time'''
+    introduction: To commend a Commander and the T-Dolls under their command for achieving a remarkable score in the 8th Theater through relentless hard work. "When the seas are rough and the tides treacherous, some would choose to bide their time, yet you persevere against the waves."
     rank: 1
   }
   {
@@ -1018,6 +1039,15 @@
     introduction: '''"Signal variance is at 16 minutes 42 seconds."'''
     rank: 1
     is_hide_info: 1
+  }
+  {
+    id: 535
+    type: 1
+    arg: "1"
+    code: gun_material1_coin1
+    item_name: Combat Simulation Sim Energy
+    introduction: Consume Sim Energy to conduct certain combat simulations and obtain necessary materials for upgrading T-Dolls and Fairies.
+    rank: 1
   }
   {
     id: 601
@@ -12492,6 +12522,15 @@
     rank: 1
   }
   {
+    id: 2313
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_M1
+    item_name: Bathed In Starlight
+    introduction: Bathed In Starlight
+    rank: 1
+  }
+  {
     id: 2314
     type: 5
     arg: "1"
@@ -12775,6 +12814,24 @@
     code: profilePic_BattlePass_M327
     item_name: Cutie Trainer
     introduction: Cutie Trainer
+    rank: 1
+  }
+  {
+    id: 2382
+    type: 5
+    arg: "1"
+    code: profilePic_friendmall_MLEMK1
+    item_name: Lee Enfield Icon
+    introduction: Lee Enfield Icon
+    rank: 1
+  }
+  {
+    id: 2383
+    type: 5
+    arg: "1"
+    code: card_friendmall_MLEMK1
+    item_name: ID: Salute in Red Coat
+    introduction: ID: Salute in Red Coat
     rank: 1
   }
   {
@@ -13477,66 +13534,59 @@
     type: 4
     arg: "9006"
     code: Checked
-    item_name: item-10009006
-    introduction: item-20009006
+    item_name: The Division Silver Medal Mark 1*
+    introduction: The Division Silver Medal Mark 1*
     rank: 1
-    detail_introduction: item-30009006
   }
   {
     id: 9007
     type: 4
     arg: "9007"
     code: Checked
-    item_name: item-10009007
-    introduction: item-20009007
+    item_name: The Division Silver Medal Mark 2*
+    introduction: The Division Silver Medal Mark 2*
     rank: 1
-    detail_introduction: item-30009007
   }
   {
     id: 9008
     type: 4
     arg: "9008"
     code: secretpoint
-    item_name: item-10009008
-    introduction: item-20009008
+    item_name: Hidden Achievement Drop Test
+    introduction: Hidden Achievement Weird Drop Test
     rank: 1
-    detail_introduction: item-30009008
   }
   {
     id: 9009
     type: 4
     arg: "9009"
-    item_name: item-10009009
-    introduction: item-20009009
+    item_name: Test
+    introduction: Test
     rank: 1
-    detail_introduction: item-30009009
   }
   {
     id: 9010
     type: 4
     arg: "9010"
-    item_name: item-10009010
-    introduction: item-20009010
+    item_name: Test
+    introduction: Test
     rank: 1
-    detail_introduction: item-30009010
   }
   {
     id: 9011
     type: 4
     arg: "9011"
-    item_name: item-10009011
-    introduction: item-20009011
+    item_name: Test
+    introduction: Test
     rank: 1
-    detail_introduction: item-30009011
   }
   {
     id: 9012
     type: 4
     arg: "9012"
-    item_name: item-10009012
-    introduction: item-20009012
+    item_name: Test
+    introduction: Test
     rank: 1
-    detail_introduction: item-30009012
   }
   {
     id: 9013
@@ -13561,10 +13611,9 @@
     type: 1
     arg: "9015"
     code: Christmas_Coin
-    item_name: item-10009015
-    introduction: item-20009015
+    item_name: Rabbit Hole npc1
+    introduction: Rabbit Hole npcnpc1
     rank: 1
-    detail_introduction: item-30009015
     is_hide_info: 1
   }
   {
@@ -13572,10 +13621,9 @@
     type: 1
     arg: "9016"
     code: Christmas_Coin
-    item_name: item-10009016
-    introduction: item-20009016
+    item_name: Rabbit Hole npcnpc2
+    introduction: Rabbit Hole npcnpc2
     rank: 1
-    detail_introduction: item-30009016
     is_hide_info: 1
   }
   {
@@ -13583,10 +13631,9 @@
     type: 1
     arg: "9017"
     code: Christmas_Coin
-    item_name: item-10009017
-    introduction: item-20009017
+    item_name: Rabbit Hole npcnpc3
+    introduction: Rabbit Hole npcnpc3
     rank: 1
-    detail_introduction: item-30009017
     is_hide_info: 1
   }
   {
@@ -13594,10 +13641,9 @@
     type: 1
     arg: "9018"
     code: Christmas_Coin
-    item_name: item-10009018
-    introduction: item-20009018
+    item_name: Rabbit Hole npcnpc4
+    introduction: Rabbit Hole npcnpc4
     rank: 1
-    detail_introduction: item-30009018
     is_hide_info: 1
   }
   {
@@ -13605,10 +13651,9 @@
     type: 1
     arg: "9019"
     code: Christmas_Coin
-    item_name: item-10009019
-    introduction: item-20009019
+    item_name: Rabbit Hole npc card score marker
+    introduction: Rabbit Hole npc card score marker
     rank: 1
-    detail_introduction: item-30009019
     is_hide_info: 1
   }
   {
@@ -15876,6 +15921,8 @@
     type: 4
     arg: "110064"
     code: EventPT7
+    item_name: Event Points
+    introduction: Event Points
     rank: 1
   }
   {
@@ -15883,20 +15930,15 @@
     type: 4
     arg: "110065"
     code: PT
-    item_name: item-10110065
-    introduction: item-20110065
+    item_name: Event Score
     rank: 1
-    detail_introduction: item-30110065
   }
   {
     id: 110066
     type: 4
     arg: "110066"
     code: EventPT8
-    item_name: item-10110066
-    introduction: item-20110066
     rank: 1
-    detail_introduction: item-30110066
   }
   {
     id: 120001
@@ -16159,6 +16201,933 @@
     item_name: Artillery Firing Arc
     introduction: Load! Make it snappy! Good, now aim for the target, get ready to blow them into smithereensâ€”FIRE!
     rank: 1
+  }
+  {
+    id: 133007
+    type: 13
+    arg: "7"
+    code: TankM1_1001_icon
+    item_name: Desert Yellow - Main Battle Tank Armor Design
+    introduction: The careful combination of yellow, brown, and black helps you blend in with the vast desert.
+    rank: 5
+  }
+  {
+    id: 133008
+    type: 13
+    arg: "8"
+    code: MG_Single_1001_icon
+    item_name: Desert Yellow - Universal Machine Gun MK-I
+    introduction: A basic machine gun painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133009
+    type: 13
+    arg: "9"
+    code: RF_AntiTank_1001_icon
+    item_name: Desert Yellow - Anti-Armor Sniper Rifle
+    introduction: An anti-armor sniper rifle painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133011
+    type: 13
+    arg: "10"
+    code: MG_Multi_Barrel_1001_icon
+    item_name: Desert Yellow - Machine Gun Team
+    introduction: Provides dense fire support. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133012
+    type: 13
+    arg: "11"
+    code: Searchlight_1001_icon
+    item_name: Desert Yellow - Automotive Night Vision
+    introduction: Provides night vision. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133013
+    type: 13
+    arg: "12"
+    code: Flame_Ejector_1001_icon
+    item_name: Desert Yellow - Flamethrower
+    introduction: Spews fire at close range. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133014
+    type: 13
+    arg: "13"
+    code: MG_Cannon_1001_icon
+    item_name: Desert Yellow - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133015
+    type: 13
+    arg: "14"
+    code: GrenadeComponent_1001_icon
+    item_name: Desert Yellow - Grenade Launcher
+    introduction: A versatile multi-purpose launcher painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133016
+    type: 13
+    arg: "15"
+    code: Laser_Weapon_1001_icon
+    item_name: Desert Yellow - Laser Weapon
+    introduction: A multi-target weapon that deals continuous damage. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133017
+    type: 13
+    arg: "16"
+    code: Cannon_1001_icon
+    item_name: Desert Yellow - Cannon
+    introduction: A cannon that deals damage to a large area. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133018
+    type: 13
+    arg: "17"
+    code: Flak_Cannon_1001_icon
+    item_name: Desert Yellow - Anti-Aircraft Cannon
+    introduction: A long-range cannon painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133019
+    type: 13
+    arg: "18"
+    code: Pulse_Cannon_1001_icon
+    item_name: Desert Yellow - Impulse Cannon
+    introduction: A short-range cannon that deals continuous damage. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133020
+    type: 13
+    arg: "19"
+    code: Armor_Cannon_1001_icon
+    item_name: Desert Yellow - Armored Cannon
+    introduction: A cannon protected by additional armor and painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133021
+    type: 13
+    arg: "20"
+    code: Interference_Gun_1001_icon
+    item_name: Desert Yellow - Jammer Gun
+    introduction: Fires jammer shells that affect mechanical units. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133022
+    type: 13
+    arg: "21"
+    code: Jammer_1001_icon
+    item_name: Desert Yellow - Jammer
+    introduction: A piece of support equipment that creates interference in an area. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133023
+    type: 13
+    arg: "22"
+    code: Signal_Tower_1001_icon
+    item_name: Desert Yellow - Signal Transceiver
+    introduction: A piece of support equipment that boosts friendly forces. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133024
+    type: 13
+    arg: "23"
+    code: Smoke_Emitter_1001_icon
+    item_name: Desert Yellow - Smoke Grenade Launcher
+    introduction: Creates pinpointed smoke interference. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133025
+    type: 13
+    arg: "24"
+    code: Small_Missile_Launcher_1001_icon
+    item_name: Desert Yellow - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133026
+    type: 13
+    arg: "25"
+    code: Medium_Missile_Launcher_1001_icon
+    item_name: Desert Yellow - Missile Launcher MK2
+    introduction: Provides powerful fire support for friendly forces. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133027
+    type: 13
+    arg: "26"
+    code: Electromagnetic_Artillery_1001_icon
+    item_name: Desert Yellow - Railgun
+    introduction: A powerful main weapon painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133028
+    type: 13
+    arg: "27"
+    code: Protective_Generator_1001_icon
+    item_name: Desert Yellow - Automated Defense System
+    introduction: Can switch between a variety of weapons. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133029
+    type: 13
+    arg: "28"
+    code: Rotating_Turret_1001_icon
+    item_name: Desert Yellow - Rotating Turret
+    introduction: Dispatches combat drones. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133030
+    type: 13
+    arg: "29"
+    code: UAV_Compartment_1001_icon
+    item_name: Desert Yellow - Drone Compartment
+    introduction: Provides defense for the Mobile Armor. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133031
+    type: 13
+    arg: "30"
+    code: TankM1_1002_icon
+    item_name: Urban Camouflage - Main Battle Tank Armor Design
+    introduction: In this jungle of steel rebar and concrete, I am the hunter, and you are the prey.
+    rank: 5
+  }
+  {
+    id: 133032
+    type: 13
+    arg: "31"
+    code: MG_Single_1002_icon
+    item_name: Urban Camouflage - Universal Machine Gun MK-I
+    introduction: A basic machine gun painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133033
+    type: 13
+    arg: "32"
+    code: RF_AntiTank_1002_icon
+    item_name: Urban Camouflage - Anti-Armor Sniper Rifle
+    introduction: An anti-armor sniper rifle painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133035
+    type: 13
+    arg: "33"
+    code: MG_Multi_Barrel_1002_icon
+    item_name: Urban Camouflage - Machine Gun Team
+    introduction: A mounted multi-barrel machine gun painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133036
+    type: 13
+    arg: "34"
+    code: Searchlight_1002_icon
+    item_name: Urban Camouflage - Automotive Night Vision
+    introduction: Provides night vision. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133037
+    type: 13
+    arg: "35"
+    code: Flame_Ejector_1002_icon
+    item_name: Urban Camouflage - Flamethrower
+    introduction: Spews fire at close range. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133038
+    type: 13
+    arg: "36"
+    code: MG_Cannon_1002_icon
+    item_name: Urban Camouflage - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133039
+    type: 13
+    arg: "37"
+    code: GrenadeComponent_1002_icon
+    item_name: Urban Camouflage - Grenade Launcher
+    introduction: A versatile multi-purpose launcher painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133040
+    type: 13
+    arg: "38"
+    code: Laser_Weapon_1002_icon
+    item_name: Urban Camouflage - Laser Weapon
+    introduction: A multi-target weapon that deals continuous damage. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133041
+    type: 13
+    arg: "39"
+    code: Cannon_1002_icon
+    item_name: Urban Camouflage - Cannon
+    introduction: A cannon that deals damage to a large area. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133042
+    type: 13
+    arg: "40"
+    code: Flak_Cannon_1002_icon
+    item_name: Urban Camouflage - Anti-Aircraft Cannon
+    introduction: A long-range cannon painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133043
+    type: 13
+    arg: "41"
+    code: Pulse_Cannon_1002_icon
+    item_name: Urban Camouflage - Impulse Cannon
+    introduction: A short-range cannon that deals continuous damage. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133044
+    type: 13
+    arg: "42"
+    code: Armor_Cannon_1002_icon
+    item_name: Urban Camouflage - Armored Cannon
+    introduction: A cannon protected by additional armor and painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133045
+    type: 13
+    arg: "43"
+    code: Interference_Gun_1002_icon
+    item_name: Urban Camouflage - Jammer Gun
+    introduction: Fires jammer shells that affect mechanical units. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133046
+    type: 13
+    arg: "44"
+    code: Jammer_1002_icon
+    item_name: Urban Camouflage - Jammer
+    introduction: A piece of support equipment that creates interference in an area. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133047
+    type: 13
+    arg: "45"
+    code: Signal_Tower_1002_icon
+    item_name: Urban Camouflage - Signal Transceiver
+    introduction: A piece of support equipment that boosts friendly forces. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133048
+    type: 13
+    arg: "46"
+    code: Smoke_Emitter_1002_icon
+    item_name: Urban Camouflage - Smoke Grenade Launcher
+    introduction: Creates pinpointed smoke interference. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133049
+    type: 13
+    arg: "47"
+    code: Small_Missile_Launcher_1002_icon
+    item_name: Urban Camouflage - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133050
+    type: 13
+    arg: "48"
+    code: Medium_Missile_Launcher_1002_icon
+    item_name: Urban Camouflage - Missile Launcher MK2
+    introduction: Provides powerful fire support for friendly forces. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133051
+    type: 13
+    arg: "49"
+    code: Electromagnetic_Artillery_1002_icon
+    item_name: Urban Camouflage - Railgun
+    introduction: A powerful main weapon painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133052
+    type: 13
+    arg: "50"
+    code: Protective_Generator_1002_icon
+    item_name: Urban Camouflage - Automated Defense System
+    introduction: Can switch between a variety of weapons. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133053
+    type: 13
+    arg: "51"
+    code: Rotating_Turret_1002_icon
+    item_name: Urban Camouflage - Rotating Turret
+    introduction: Dispatches combat drones. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133054
+    type: 13
+    arg: "52"
+    code: UAV_Compartment_1002_icon
+    item_name: Urban Camouflage - Drone Compartment
+    introduction: Provides defense for the Mobile Armor. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133055
+    type: 13
+    arg: "53"
+    code: Warjack_1001_icon
+    item_name: Desert Yellow - Tactical Mech Armor Design
+    introduction: The careful combination of yellow, brown, and black helps you blend in with the vast desert.
+    rank: 5
+  }
+  {
+    id: 133056
+    type: 13
+    arg: "54"
+    code: Warjack_1002_icon
+    item_name: Urban Camouflage - Tactical Mech Armor Design
+    introduction: In this jungle of steel rebar and concrete, I am the hunter, and you are the prey.
+    rank: 5
+  }
+  {
+    id: 133057
+    type: 13
+    arg: "46"
+    code: LMGCom_1001_icon
+    item_name: Desert Yellow - Light Machine Gun
+    introduction: A multi-target machine gun for weak units. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133058
+    type: 13
+    arg: "47"
+    code: ElecGun_1001_icon
+    item_name: Desert Yellow - Lightweight Rapid-Fire Railgun
+    introduction: A railgun that sacrifices firepower in exchange for rate of fire. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133059
+    type: 13
+    arg: "48"
+    code: AutoDef_1001_icon
+    item_name: Desert Yellow - Shield Generator
+    introduction: Provides defense for the Mobile Armor. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133060
+    type: 13
+    arg: "49"
+    code: LaserSup_1001_icon
+    item_name: Desert Yellow - Laser Suppression System
+    introduction: Interferes with enemies' aim. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133061
+    type: 13
+    arg: "50"
+    code: HMGCom_1001_icon
+    item_name: Desert Yellow - Heavy Machine Gun
+    introduction: A machine gun with stronger firepower. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133062
+    type: 13
+    arg: "51"
+    code: PAR_1001_icon
+    item_name: Desert Yellow - Phased-Array Radar
+    introduction: Scans the area. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133063
+    type: 13
+    arg: "52"
+    code: ERA_1001_icon
+    item_name: Desert Yellow - Explosive Reactive Armor
+    introduction: Provides effective defense against armor-piercing rounds. Painted in the Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133064
+    type: 13
+    arg: "46"
+    code: LMGCom_1002_icon
+    item_name: Urban Camouflage - Light Machine Gun
+    introduction: A multi-target machine gun for weak units. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133065
+    type: 13
+    arg: "47"
+    code: ElecGun_1002_icon
+    item_name: Urban Camouflage - Lightweight Rapid-Fire Railgun
+    introduction: A railgun that sacrifices firepower in exchange for rate of fire. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133066
+    type: 13
+    arg: "48"
+    code: AutoDef_1002_icon
+    item_name: Urban Camouflage - Shield Generator
+    introduction: Provides defense for the Mobile Armor. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133067
+    type: 13
+    arg: "49"
+    code: LaserSup_1002_icon
+    item_name: Urban Camouflage - Laser Suppression System
+    introduction: Interferes with enemies' aim. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133068
+    type: 13
+    arg: "50"
+    code: HMGCom_1002_icon
+    item_name: Urban Camouflage - Heavy Machine Gun
+    introduction: A machine gun with stronger firepower. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133069
+    type: 13
+    arg: "51"
+    code: PAR_1002_icon
+    item_name: Urban Camouflage - Phased-Array Radar
+    introduction: Scans the area. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133070
+    type: 13
+    arg: "52"
+    code: ERA_1002_icon
+    item_name: Urban Camouflage - Explosive Reactive Armor
+    introduction: Provides effective defense against armor-piercing rounds. Painted in the Urban Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133071
+    type: 13
+    arg: "49"
+    code: TankM1_1003_icon
+    item_name: KV-2 Megalodon - Main Battle Tank Armor Design
+    introduction: A shark with a wide grin and this monster of steel are a perfect match!
+    rank: 5
+  }
+  {
+    id: 133072
+    type: 13
+    arg: "50"
+    code: TankM1_1004_icon
+    item_name: KV-2 Snow Camouflage - Main Battle Tank Armor Design
+    introduction: An avalanche is a joke compared to this guy here.
+    rank: 5
+  }
+  {
+    id: 133073
+    type: 13
+    arg: "51"
+    code: TankM1_1005_icon
+    item_name: Verdict Feldgrau - Main Battle Tank Armor Design
+    introduction: Look at this new and beautifully painted rifling. I wonder which lucky Dinergate will hear its first bellow?
+    rank: 5
+  }
+  {
+    id: 133074
+    type: 13
+    arg: "52"
+    code: TankM1_1006_icon
+    item_name: Verdict Snow Camouflage - Main Battle Tank Armor Design
+    introduction: Even the coldest caterpillar tread won't dampen its passionate fire.
+    rank: 5
+  }
+  {
+    id: 133075
+    type: 13
+    arg: "53"
+    code: TankM1_1007_icon
+    item_name: Verdict Desert Yellow - Main Battle Tank Armor Design
+    introduction: Let the roar of the engine turn the desert upside down!
+    rank: 5
+  }
+  {
+    id: 133076
+    type: 13
+    arg: "54"
+    code: TankM1_1008_icon
+    item_name: Verdict Woodland Camouflage - Main Battle Tank Armor Design
+    introduction: Mow down mountains. Bridge rivers. Splash up mud. Shake up trees.
+    rank: 5
+  }
+  {
+    id: 133077
+    type: 13
+    arg: "55"
+    code: Warjack_1009_icon
+    item_name: TCW48-A3 Steel Claw - Tactical Mech Armor Design
+    introduction: Learn to master your emotions. Composure is your strongest weapon.
+    rank: 5
+  }
+  {
+    id: 133078
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1009_icon
+    item_name: TCW48-A3 Steel Claw - Flamethrower
+    introduction: The Steel Claw's custom-fitted flamethrower, which spews fire at close range.
+    rank: 5
+  }
+  {
+    id: 133079
+    type: 13
+    arg: "55"
+    code: MG_Multi_Barrel_1009_icon
+    item_name: TCW48-A3 Steel Claw - Gatling Gun
+    introduction: The Steel Claw's custom-fitted multi-barrel machine gun, which provides dense fire support.
+    rank: 5
+  }
+  {
+    id: 133080
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1009_icon
+    item_name: TCW48-A3 Steel Claw - Shell Launcher
+    introduction: The Steel Claw's custom-fitted small-caliber shell launcher.
+    rank: 5
+  }
+  {
+    id: 133081
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1009_icon
+    item_name: TCW48-A3 Steel Claw - Shield Generator
+    introduction: The Steel Claw's custom-fitted shield generator, which provides defense for the Mobile Armor.
+    rank: 5
+  }
+  {
+    id: 133082
+    type: 13
+    arg: "55"
+    code: Jammer_1009_icon
+    item_name: TCW48-A3 Steel Claw - Jammer
+    introduction: The Steel Claw's custom-fitted jammer, which creates interference in an area.
+    rank: 5
+  }
+  {
+    id: 133083
+    type: 13
+    arg: "55"
+    code: TankM1_1010
+    item_name: Pegasus - Main Battle Tank Armor Design
+    introduction: A perfect marriage of heft and nimbleness!
+    rank: 5
+  }
+  {
+    id: 133084
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1010
+    item_name: Pegasus - Smoke Grenade Launcher
+    introduction: The Pegasus' custom-fitted smoke grenade launcher, which can create pinpointed smoke interference.
+    rank: 5
+  }
+  {
+    id: 133085
+    type: 13
+    arg: "55"
+    code: Medium_Missile_Launcher_1010
+    item_name: Pegasus - Missile Launcher MK2
+    introduction: The Pegasus' custom-fitted medium missile launcher, which provides powerful fire support for allies.
+    rank: 5
+  }
+  {
+    id: 133086
+    type: 13
+    arg: "55"
+    code: ElecGun_1010
+    item_name: Pegasus - Lightweight Rapid-Fire Railgun
+    introduction: The Pegasus' custom-fitted rapid-fire railgun, which can perform consecutive small-scale electromagnetic attacks.
+    rank: 5
+  }
+  {
+    id: 133087
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1010
+    item_name: Pegasus - Shell Launcher
+    introduction: The Pegasus' custom-fitted shell launcher, which can deal damage to a small area.
+    rank: 5
+  }
+  {
+    id: 133088
+    type: 13
+    arg: "55"
+    code: Jammer_1010
+    item_name: Pegasus - Jammer
+    introduction: The Pegasus' custom-fitted jammer, which creates interference in an area.
+    rank: 5
+  }
+  {
+    id: 133089
+    type: 13
+    arg: "55"
+    code: MG_Single_1003_icon
+    item_name: KV-2 Universal - Universal Machine Gun MK-I
+    introduction: A basic machine gun that can be painted in all designs compatible with the KV-2.
+    rank: 5
+  }
+  {
+    id: 133090
+    type: 13
+    arg: "55"
+    code: Searchlight_1003_icon
+    item_name: KV-2 Megalodon - Automotive Night Vision
+    introduction: Provides night vision. Painted in the KV-2's Megalodon design.
+    rank: 5
+  }
+  {
+    id: 133091
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1003_icon
+    item_name: KV-2 Megalodon - Automated Defense System
+    introduction: Provides defense for the Mobile Armor. Painted in the KV-2's Megalodon design.
+    rank: 5
+  }
+  {
+    id: 133092
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1003_icon
+    item_name: KV-2 Megalodon - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the KV-2's Megalodon design.
+    rank: 5
+  }
+  {
+    id: 133093
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1003_icon
+    item_name: KV-2 Megalodon - Flamethrower
+    introduction: Spews fire at close range. Painted in the KV-2's Megalodon design.
+    rank: 5
+  }
+  {
+    id: 133094
+    type: 13
+    arg: "55"
+    code: Searchlight_1004_icon
+    item_name: KV-2 Snow Camouflage - Automotive Night Vision
+    introduction: Provides night vision. Painted in the KV-2's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133095
+    type: 13
+    arg: "55"
+    code: Protective_Generator_1004_icon
+    item_name: KV-2 Snow Camouflage - Automated Defense System
+    introduction: Provides defense for the Mobile Armor. Painted in the KV-2's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133096
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1004_icon
+    item_name: KV-2 Snow Camouflage - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the KV-2's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133097
+    type: 13
+    arg: "55"
+    code: Flame_Ejector_1004_icon
+    item_name: KV-2 Snow Camouflage - Flamethrower
+    introduction: Spews fire at close range. Painted in the KV-2's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133098
+    type: 13
+    arg: "55"
+    code: Flak_Cannon_1005_icon
+    item_name: Verdict Feldgrau - Anti-Aircraft Cannon
+    introduction: A long-range cannon painted in the Verdict's Feldgrau design.
+    rank: 5
+  }
+  {
+    id: 133099
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1005_icon
+    item_name: Verdict Feldgrau - Smoke Grenade Launcher
+    introduction: Creates pinpointed smoke interference. Painted in the Verdict's Feldgrau design.
+    rank: 5
+  }
+  {
+    id: 133100
+    type: 13
+    arg: "55"
+    code: Signal_Tower_1005_icon
+    item_name: Verdict Universal - Signal Transceiver
+    introduction: A piece of support equipment that boosts friendly forces. Painted in the Verdict's universal design.
+    rank: 5
+  }
+  {
+    id: 133101
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1005_icon
+    item_name: Verdict Feldgrau - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Verdict's Feldgrau design.
+    rank: 5
+  }
+  {
+    id: 133102
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1005_icon
+    item_name: Verdict Feldgrau - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Verdict's Feldgrau design.
+    rank: 5
+  }
+  {
+    id: 133103
+    type: 13
+    arg: "55"
+    code: Flak_Cannon_1006_icon
+    item_name: Verdict Universal - Anti-Aircraft Cannon
+    introduction: A long-range cannon painted in the Verdict's Camouflage and Desert design.
+    rank: 5
+  }
+  {
+    id: 133104
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1006_icon
+    item_name: Verdict Snow Camouflage - Smoke Grenade Launcher
+    introduction: Creates pinpointed smoke interference. Painted in the Verdict's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133105
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1006_icon
+    item_name: Verdict Snow Camouflage - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Verdict's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133106
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1006_icon
+    item_name: Verdict Snow Camouflage - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Verdict's Snow Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133107
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1007_icon
+    item_name: Verdict Universal - Smoke Grenade Launcher
+    introduction: Creates pinpointed smoke interference. Painted in the Verdict's Desert and Woodland design.
+    rank: 5
+  }
+  {
+    id: 133108
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1007_icon
+    item_name: Verdict Desert Yellow - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Verdict's Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133109
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1007_icon
+    item_name: Verdict Desert Yellow - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Verdict's Desert Yellow design.
+    rank: 5
+  }
+  {
+    id: 133110
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1008_icon
+    item_name: Verdict Woodland Camouflage - Shell Launcher
+    introduction: A small-caliber shell launcher painted in the Verdict's Woodland Camouflage design.
+    rank: 5
+  }
+  {
+    id: 133111
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1008_icon
+    item_name: Verdict Woodland Camouflage - Missile Launcher MK1
+    introduction: Provides accurate strikes in battles. Painted in the Verdict's Woodland Camouflage design.
+    rank: 5
   }
   {
     id: 140001
@@ -16457,6 +17426,26 @@
     detail_introduction: Function Item Placeholder
   }
   {
+    id: 161000
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: Tareus - Assistant Appearance
+    introduction: Tareus - Assistant Appearance
+    rank: 1
+    detail_introduction: Function Item Space
+  }
+  {
+    id: 161001
+    type: 1
+    arg: "1"
+    code: PT
+    item_name: Sana - Assistant Appearance
+    introduction: Sana - Assistant Appearance
+    rank: 1
+    detail_introduction: Function Item Space
+  }
+  {
     id: 200001
     type: 5
     arg: "1"
@@ -16706,6 +17695,15 @@
     code: profileFrame_BattlePass_M327
     item_name: Icon Frame: Smile with no Bind!
     introduction: Icon Frame: Smile with no Bind!
+    rank: 1
+  }
+  {
+    id: 200033
+    type: 5
+    arg: "1"
+    code: profileFrame_friendmall_MLEMK1
+    item_name: Icon Frame - Fearless Honor
+    introduction: Icon Frame - Fearless Honor
     rank: 1
   }
   {
@@ -18093,5 +19091,187 @@
     item_name: Lucky Letter
     introduction: Put a Lucky Letter into the Wish-Making Letter Box and you'll have a chance of winning the corresponding rewards!
     rank: 1
+  }
+  {
+    id: 1800001
+    type: 15
+    arg: "1800001"
+    code: package_random
+    item_name: Military-Grade Weapon Component Box
+    introduction: Guaranteed drop of five-star Heavy/Light Weapon Components.
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800002
+    type: 15
+    arg: "1800002"
+    code: package_random
+    item_name: Military-Grade Function Component Box
+    introduction: Guaranteed drop of five-star Function/Defense/Universal Components.
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800003
+    type: 15
+    arg: "1800003"
+    code: package_random
+    item_name: Professional-Grade Component Box
+    introduction: Moderate chance of obtaining five-star Components.
+    rank: 4
+    sort: -1
+  }
+  {
+    id: 1800004
+    type: 15
+    arg: "1800004"
+    code: package_random
+    item_name: Industrial-Grade Component Box
+    introduction: Small chance of obtaining five-star Components.
+    rank: 3
+    sort: -1
+  }
+  {
+    id: 1800005
+    type: 15
+    arg: "1800005"
+    code: package_random
+    item_name: Standard-Grade Component Box
+    introduction: Chance of obtaining Components.
+    rank: 2
+    sort: -1
+  }
+  {
+    id: 1800006
+    type: 15
+    arg: "1800006"
+    code: package_random
+    item_name: High-Precision Heavy Weapon Universal Component Box
+    introduction: Guaranteed drop of five-star Heavy Weapon/Universal Components.
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800007
+    type: 15
+    arg: "1800007"
+    code: package_random
+    item_name: High-Precision Light Weapon Universal Component Box
+    introduction: Guaranteed drop of five-star Light Weapon/Universal Components.
+    rank: 5
+    sort: -1
+  }
+  {
+    id: 1800008
+    type: 15
+    arg: "1800008"
+    code: package_random
+    item_name: item-11800008
+    introduction: item-21800008
+    rank: 5
+    sort: -1
+    detail_introduction: item-31800008
+  }
+  {
+    id: 1800009
+    type: 15
+    arg: "1800009"
+    code: package_random
+    item_name: item-11800009
+    introduction: item-21800009
+    rank: 5
+    sort: -1
+    detail_introduction: item-31800009
+  }
+  {
+    id: 1800011
+    type: 15
+    arg: "1800011"
+    code: package_choose
+    item_name: Five-Star Component Selection Indicator
+    introduction: Five-Star Component Selection Indicator
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800012
+    type: 15
+    arg: "1800012"
+    code: package_choose
+    item_name: Four-Star Component Selection Indicator
+    introduction: Four-Star Component Selection Indicator
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800013
+    type: 15
+    arg: "1800013"
+    code: package_choose
+    item_name: Three-Star Component Selection Indicator
+    introduction: Three-Star Component Selection Indicator
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800021
+    type: 15
+    arg: "1800021"
+    code: package_choose
+    item_name: Five-Star Component Multiple Selection
+    introduction: Five-Star Component Multiple Selection
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800022
+    type: 15
+    arg: "1800022"
+    code: package_choose
+    item_name: Four-Star Component Multiple Selection
+    introduction: Four-Star Component Multiple Selection
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800023
+    type: 15
+    arg: "1800023"
+    code: package_choose
+    item_name: Three-Star Component Multiple Selection
+    introduction: Three-Star Component Multiple Selection
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800031
+    type: 15
+    arg: "1800031"
+    code: package_choose
+    item_name: Five-Star Component Fixed
+    introduction: Five-Star Component Fixed
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800032
+    type: 15
+    arg: "1800032"
+    code: package_choose
+    item_name: Four-Star Component Fixed
+    introduction: Four-Star Component Fixed
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1800033
+    type: 15
+    arg: "1800033"
+    code: package_choose
+    item_name: Three-Star Component Fixed
+    introduction: Three-Star Component Fixed
+    rank: 1
+    sort: -1
   }
 ]

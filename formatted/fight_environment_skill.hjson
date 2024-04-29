@@ -217,7 +217,7 @@
   {
     id: 720
     name: Target of Steel
-    desc: Summon a fully Dummy-Linked target every 10 seconds. Each Dummy of the target has 1000HP.
+    desc: Summon a group of fully-Linked targets with a total HP of 1000 every 10 seconds.
     if_display: 1
     code: fight_skill_hurt103
     skill_group: "990017"
@@ -561,6 +561,42 @@
     if_display: 1
     code: fight_skill_buff101
     skill_group: "756231"
+  }
+  {
+    id: 230901
+    name: Opening Freeze
+    desc:
+      '''
+      Stun all enemies for 5 seconds at the start of the battle.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: assess202309fightskill_1
+    skill_group: "759262"
+  }
+  {
+    id: 230902
+    name: Ground of Assault
+    desc:
+      '''
+      Inflict 20% vulnerability on all enemies at the start of the battle.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: assess202309fightskill_2
+    skill_group: "759263"
+  }
+  {
+    id: 230903
+    name: Support Coverage
+    desc:
+      '''
+      After every 5 seconds, deal 3000 points of damage and 1000 points of shield damage.
+      <color=#CF8000>This effect lasts 1 turn.</color>
+      '''
+    if_display: 1
+    code: assess202309fightskill_3
+    skill_group: "759264"
   }
   {
     id: 1133001
@@ -1461,7 +1497,7 @@
   {
     id: 12022801
     name: Coordinated Provocation
-    desc: At the start of the battle, summon a fully-Linked target with 1,000 HP per Dummy-Link.
+    desc: Summon a group of fully-Linked targets with a total HP of 1000 at the start of the battle.
     if_display: 1
     code: daily_game_28
     skill_group: "120228"

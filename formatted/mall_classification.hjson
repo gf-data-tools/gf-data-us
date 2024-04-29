@@ -124,14 +124,20 @@
     name: Protocol Rerun
   }
   {
+    id: 3007
+    parent_id: 3000
+    sort: 6
+    name: Costume Mystery Box
+  }
+  {
     id: 4000
-    sort: 5
+    sort: 6
     name: Costumes
     description: 指挥官服装
   }
   {
     id: 5000
-    sort: 6
+    sort: 5
     name: Items
     description: 消耗品
   }
@@ -178,7 +184,12 @@
   }
   {
     id: 7000
-    sort: 7
+    sort: 8
     name: Friendship store
+  }
+  {
+    id: 8000
+    sort: 7
+    name: Mobile Armor Shop
   }
 ]

@@ -114,6 +114,7 @@
     description: Increases rewards from Forward Basecamp by {0}%{1}
     arguments: 5
     max_level: 3
+    is_show: 1
     type: 1
     function_skill: exploration_reward_up
   }
@@ -125,6 +126,7 @@
     description: Increases chances of receiving mid-expedition rewards from Forward Basecamp by {0}%{1}
     arguments: 1
     max_level: 5
+    is_show: 1
     type: 1
     function_skill: exploration_mid_rate_up
   }

@@ -53,8 +53,8 @@
     description: 增加梯队属性
     code: buff
     type: 1
-    duration_type: "1"
-    duration_time: "1"
+    duration_type: "1,51"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900113
     conflict_type: 6
@@ -108,13 +108,25 @@
     conflict_type: 15
   }
   {
+    id: 61
+    name: mission_buff_config-10000061
+    description: mission_buff_config-20000061
+    code: buff
+    type: 1
+    duration_type: "1,51"
+    duration_time: "1,2"
+    exp_buff: "1"
+    battle_skill_config_id: 900113
+    conflict_type: 6
+  }
+  {
     id: 1004
     name: 花瓣buff
     description: 增加梯队属性
     code: buff
     type: 1
-    duration_type: "4"
-    duration_time: "1"
+    duration_type: "1,51"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900154
     conflict_type: 1004
@@ -432,8 +444,8 @@
     description: mission_buff_config-20001900
     code: ExtraAp
     type: 1
-    duration_type: "4"
-    duration_time: "1"
+    duration_type: "1,51"
+    duration_time: "1,1"
     exp_buff: "1"
     battle_skill_config_id: 900900
     conflict_type: 1900
@@ -446,7 +458,7 @@
     code: ExtraAp
     type: 1
     duration_type: "1"
-    duration_time: "99"
+    duration_time: "999"
     exp_buff: "1"
     battle_skill_config_id: 900903
     conflict_type: 2000
@@ -490,6 +502,18 @@
     conflict_type: 10001
     priority: -1
     carry_mission_skill: "10002"
+  }
+  {
+    id: 10041
+    name: mission_buff_config-10010041
+    description: mission_buff_config-20010041
+    code: buff
+    type: 1
+    duration_type: "1,51"
+    duration_time: "1,2"
+    exp_buff: "1"
+    battle_skill_config_id: 900154
+    conflict_type: 1004
   }
   {
     id: 10086
@@ -861,7 +885,6 @@
     id: 381402
     name: mission_buff_config-10381402
     description: mission_buff_config-20381402
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -872,7 +895,6 @@
     id: 381403
     name: mission_buff_config-10381403
     description: mission_buff_config-20381403
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -883,7 +905,6 @@
     id: 381404
     name: mission_buff_config-10381404
     description: mission_buff_config-20381404
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -894,7 +915,6 @@
     id: 381405
     name: mission_buff_config-10381405
     description: mission_buff_config-20381405
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -905,7 +925,6 @@
     id: 381406
     name: mission_buff_config-10381406
     description: mission_buff_config-20381406
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -916,7 +935,6 @@
     id: 381407
     name: mission_buff_config-10381407
     description: mission_buff_config-20381407
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -927,7 +945,6 @@
     id: 381408
     name: mission_buff_config-10381408
     description: mission_buff_config-20381408
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -938,7 +955,6 @@
     id: 381409
     name: mission_buff_config-10381409
     description: mission_buff_config-20381409
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -949,7 +965,6 @@
     id: 381410
     name: mission_buff_config-10381410
     description: mission_buff_config-20381410
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -960,7 +975,6 @@
     id: 381411
     name: mission_buff_config-10381411
     description: mission_buff_config-20381411
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -971,7 +985,6 @@
     id: 381412
     name: mission_buff_config-10381412
     description: mission_buff_config-20381412
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -982,7 +995,6 @@
     id: 381413
     name: mission_buff_config-10381413
     description: mission_buff_config-20381413
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -993,7 +1005,6 @@
     id: 381414
     name: mission_buff_config-10381414
     description: mission_buff_config-20381414
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1004,7 +1015,6 @@
     id: 381415
     name: mission_buff_config-10381415
     description: mission_buff_config-20381415
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1015,7 +1025,6 @@
     id: 381416
     name: mission_buff_config-10381416
     description: mission_buff_config-20381416
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1026,7 +1035,6 @@
     id: 381417
     name: mission_buff_config-10381417
     description: mission_buff_config-20381417
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1037,7 +1045,6 @@
     id: 381418
     name: mission_buff_config-10381418
     description: mission_buff_config-20381418
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1048,7 +1055,6 @@
     id: 381419
     name: mission_buff_config-10381419
     description: mission_buff_config-20381419
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1059,7 +1065,6 @@
     id: 381420
     name: mission_buff_config-10381420
     description: mission_buff_config-20381420
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1070,7 +1075,6 @@
     id: 381421
     name: mission_buff_config-10381421
     description: mission_buff_config-20381421
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1081,7 +1085,6 @@
     id: 381422
     name: mission_buff_config-10381422
     description: mission_buff_config-20381422
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1092,7 +1095,6 @@
     id: 381423
     name: mission_buff_config-10381423
     description: mission_buff_config-20381423
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1103,7 +1105,6 @@
     id: 381424
     name: mission_buff_config-10381424
     description: mission_buff_config-20381424
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1114,7 +1115,6 @@
     id: 381425
     name: mission_buff_config-10381425
     description: mission_buff_config-20381425
-    code: GunBox
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1125,7 +1125,6 @@
     id: 381468
     name: mission_buff_config-10381468
     description: mission_buff_config-20381468
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1137,7 +1136,6 @@
     id: 381602
     name: mission_buff_config-10381602
     description: mission_buff_config-20381602
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1151,7 +1149,6 @@
     id: 381603
     name: mission_buff_config-10381603
     description: mission_buff_config-20381603
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -1165,7 +1162,6 @@
     id: 381903
     name: mission_buff_config-10381903
     description: mission_buff_config-20381903
-    code: fighting
     type: 1
     duration_type: "1"
     duration_time: "3"
@@ -1413,6 +1409,7 @@
     id: 482001
     name: mission_buff_config-10482001
     description: mission_buff_config-20482001
+    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -2008,6 +2005,7 @@
     id: 520801
     name: mission_buff_config-10520801
     description: mission_buff_config-20520801
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -2056,6 +2054,7 @@
   {
     id: 541311
     name: Airstrike Guidance
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -2386,7 +2385,7 @@
     name: mission_buff_config-10580002
     description: mission_buff_config-20580002
     code: Weak
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2424,7 +2423,7 @@
     name: mission_buff_config-10580005
     description: mission_buff_config-20580005
     code: Rouge_593303
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2497,7 +2496,7 @@
     name: mission_buff_config-10580105
     description: mission_buff_config-20580105
     code: medusa
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2509,7 +2508,7 @@
     name: mission_buff_config-10580120
     description: mission_buff_config-20580120
     code: Energytowerdebuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2524,7 +2523,7 @@
     name: mission_buff_config-10580121
     description: mission_buff_config-20580121
     code: combo
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2551,7 +2550,7 @@
     name: mission_buff_config-10580123
     description: mission_buff_config-20580123
     code: Energytowerdebuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -2586,7 +2585,7 @@
     name: mission_buff_config-10580205
     description: mission_buff_config-20580205
     code: medusa
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -2670,7 +2669,7 @@
     name: mission_buff_config-10583601
     description: mission_buff_config-20583601
     code: debuff
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -4191,7 +4190,6 @@
     id: 597011
     name: mission_buff_config-10597011
     description: mission_buff_config-20597011
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4204,7 +4202,6 @@
     id: 597012
     name: mission_buff_config-10597012
     description: mission_buff_config-20597012
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4217,7 +4214,6 @@
     id: 597013
     name: mission_buff_config-10597013
     description: mission_buff_config-20597013
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4230,7 +4226,6 @@
     id: 597014
     name: mission_buff_config-10597014
     description: mission_buff_config-20597014
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4243,7 +4238,6 @@
     id: 597015
     name: mission_buff_config-10597015
     description: mission_buff_config-20597015
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4256,7 +4250,6 @@
     id: 597016
     name: mission_buff_config-10597016
     description: mission_buff_config-20597016
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4269,7 +4262,6 @@
     id: 597017
     name: mission_buff_config-10597017
     description: mission_buff_config-20597017
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4282,7 +4274,6 @@
     id: 597018
     name: mission_buff_config-10597018
     description: mission_buff_config-20597018
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "1"
@@ -4328,7 +4319,6 @@
     id: 598001
     name: mission_buff_config-10598001
     description: mission_buff_config-20598001
-    code: buff
     type: 1
     duration_type: "5"
     duration_time: "2"
@@ -4608,6 +4598,52 @@
     priority: 1
   }
   {
+    id: 640100
+    name: mission_buff_config-10640100
+    description: mission_buff_config-20640100
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 640102
+    priority: 1
+  }
+  {
+    id: 640101
+    name: mission_buff_config-10640101
+    description: mission_buff_config-20640101
+    code: ExtraMove
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 640101
+    ext_move: 1
+  }
+  {
+    id: 640102
+    name: mission_buff_config-10640102
+    description: mission_buff_config-20640102
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 757192
+    conflict_type: 640102
+    shader: SkeletonCloakingEnemy;_ShowEffect:0,1|_Cutoff:0,5
+  }
+  {
+    id: 640103
+    name: mission_buff_config-10640103
+    description: mission_buff_config-20640103
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 640103
+    carry_mission_skill: "640104"
+  }
+  {
     id: 910630
     name: mission_buff_config-10910630
     description: mission_buff_config-20910630
@@ -4618,6 +4654,20 @@
     exp_buff: "1"
     battle_skill_config_id: 910630
     conflict_type: 910630
+  }
+  {
+    id: 998002
+    name: mission_buff_config-10998002
+    description: mission_buff_config-20998002
+    code: Intruder_H1
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 998002
+    conditions_type: "51"
+    conditions_time: 0-1
+    conflict_type: 998002
   }
   {
     id: 1000000
@@ -4649,7 +4699,7 @@
     description: 减少梯队收到伤害
     code: buff
     type: 1
-    duration_type: "4"
+    duration_type: "5"
     duration_time: "1"
     exp_buff: "1"
     battle_skill_config_id: 900106
@@ -4683,7 +4733,6 @@
     id: 1000005
     name: mission_buff_config-11000005
     description: mission_buff_config-21000005
-    code: SpeedUp
     type: 2
     duration_type: "1"
     duration_time: "99"
@@ -4705,7 +4754,6 @@
     id: 1000007
     name: mission_buff_config-11000007
     description: mission_buff_config-21000007
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -4716,7 +4764,6 @@
     id: 1000008
     name: mission_buff_config-11000008
     description: mission_buff_config-21000008
-    code: Chasing_AntiMissile
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -4751,7 +4798,6 @@
     id: 1000011
     name: mission_buff_config-11000011
     description: mission_buff_config-21000011
-    code: ExtraAp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4762,7 +4808,6 @@
     id: 4040901
     name: mission_buff_config-14040901
     description: mission_buff_config-24040901
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -4808,6 +4853,51 @@
     cannot_move: "1"
     conflict_type: 6000003
     priority: -1
+  }
+  {
+    id: 6000004
+    name: mission_buff_config-16000004
+    description: mission_buff_config-26000004
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 6000004
+    carry_mission_skill: "6005014,6005013"
+  }
+  {
+    id: 6000005
+    name: mission_buff_config-16000005
+    description: mission_buff_config-26000005
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220194
+    conflict_type: 6000005
+  }
+  {
+    id: 6000006
+    name: mission_buff_config-16000006
+    description: mission_buff_config-26000006
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220195
+    conflict_type: 6000006
+  }
+  {
+    id: 6000007
+    name: mission_buff_config-16000007
+    description: mission_buff_config-26000007
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 220196
+    conflict_type: 6000007
   }
   {
     id: 6360000
@@ -4869,7 +4959,7 @@
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
-    manual_ui_code: CarryBoomerIcon#EC4702
+    manual_ui_code: CarryEMPIcon#1E90FF
     conflict_type: 6360004
     carry_mission_skill: "6360011"
   }
@@ -4919,6 +5009,77 @@
     exp_buff: "1"
     cannot_move: "1"
     conflict_type: 6360008
+  }
+  {
+    id: 6400000
+    name: mission_buff_config-16400000
+    description: mission_buff_config-26400000
+    code: SAC2045_CamouflageSkill
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    battle_skill_config_id: 757192
+    conflict_type: 6400000
+    carry_mission_skill: "6400003"
+    shader: SkeletonCloaking;_ShowEffect:0,1|_Cutoff:0,5
+  }
+  {
+    id: 6400001
+    name: mission_buff_config-16400001
+    description: mission_buff_config-26400001
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6400001
+    carry_mission_skill: "6400000"
+  }
+  {
+    id: 6400002
+    name: mission_buff_config-16400002
+    description: mission_buff_config-26400002
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 640002
+    conditions_type: "5"
+    conditions_time: 0-2
+    conflict_type: 6400002
+  }
+  {
+    id: 6400003
+    name: mission_buff_config-16400003
+    description: mission_buff_config-26400003
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    conflict_type: 6400003
+  }
+  {
+    id: 6400004
+    name: mission_buff_config-16400004
+    description: mission_buff_config-26400004
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    conflict_type: 6400004
+  }
+  {
+    id: 6400005
+    name: mission_buff_config-16400005
+    description: mission_buff_config-26400005
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    special_spot_config_id: 6400005
+    conditions_type: "1"
+    conditions_time: 0-1
+    conflict_type: 6400005
   }
   {
     id: 6410101
@@ -5064,6 +5225,7 @@
     id: 6440004
     name: mission_buff_config-16440004
     description: mission_buff_config-26440004
+    code: debuff
     type: 2
     duration_type: "1"
     duration_time: "1"
@@ -5076,6 +5238,7 @@
     id: 6440005
     name: mission_buff_config-16440005
     description: mission_buff_config-26440005
+    code: buff
     type: 2
     duration_type: "1"
     duration_time: "99"
@@ -5272,7 +5435,6 @@
     id: 6510010
     name: mission_buff_config-16510010
     description: mission_buff_config-26510010
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5285,7 +5447,6 @@
     id: 6510011
     name: mission_buff_config-16510011
     description: mission_buff_config-26510011
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5296,7 +5457,6 @@
     id: 6510012
     name: mission_buff_config-16510012
     description: mission_buff_config-26510012
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5308,7 +5468,6 @@
     id: 6510013
     name: mission_buff_config-16510013
     description: mission_buff_config-26510013
-    code: buff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -5805,6 +5964,7 @@
     id: 6540202
     name: mission_buff_config-16540202
     description: mission_buff_config-26540202
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6345,6 +6505,7 @@
     id: 6540248
     name: mission_buff_config-16540248
     description: mission_buff_config-26540248
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6401,6 +6562,7 @@
   {
     id: 6560004
     name: Freeze
+    code: debuff
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -6734,7 +6896,7 @@
     name: mission_buff_config-16580107
     description: mission_buff_config-26580107
     code: Theresa_Back
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "1"
     exp_buff: "1"
@@ -6768,7 +6930,7 @@
     name: mission_buff_config-16580110
     description: mission_buff_config-26580110
     code: Theresa_Back
-    type: 2
+    type: 1
     duration_type: "1"
     duration_time: "999"
     exp_buff: "1"
@@ -6788,6 +6950,561 @@
     carry_mission_skill: "6580139,6580149,6580140,6580150,6580141,6580151,6580142,6580152,6580143,6580153,6580144,6580154,6580145,6580155,6580146,6580156,6580147,6580157,6580148,6580158,6580169"
   }
   {
+    id: 6620001
+    name: mission_buff_config-16620001
+    description: mission_buff_config-26620001
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 6620001
+    carry_mission_skill: "6620006"
+  }
+  {
+    id: 6629000
+    name: mission_buff_config-16629000
+    description: mission_buff_config-26629000
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6629000
+    carry_mission_skill: "6629408"
+  }
+  {
+    id: 6629001
+    name: mission_buff_config-16629001
+    description: mission_buff_config-26629001
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: CarryEMPIcon#1E90FF
+    conflict_type: 6629001
+    carry_mission_skill: "6629409"
+  }
+  {
+    id: 6629002
+    name: mission_buff_config-16629002
+    description: mission_buff_config-26629002
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    manual_ui_code: BlinkIcon#90b22a
+    conflict_type: 6629002
+    carry_mission_skill: "6629410"
+  }
+  {
+    id: 6629003
+    name: mission_buff_config-16629003
+    description: mission_buff_config-26629003
+    code: SpeedUp
+    type: 1
+    duration_type: "3"
+    duration_time: "1"
+    exp_buff: "1"
+    free_ap_move: 1
+    conflict_type: 6629003
+  }
+  {
+    id: 6629004
+    name: mission_buff_config-16629004
+    description: mission_buff_config-26629004
+    code: assess202309_13
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759260
+    conflict_type: 6629004
+  }
+  {
+    id: 6629005
+    name: mission_buff_config-16629005
+    description: mission_buff_config-26629005
+    code: assess202309_14
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759261
+    conflict_type: 6629005
+  }
+  {
+    id: 6629006
+    name: mission_buff_config-16629006
+    description: mission_buff_config-26629006
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629006
+    carry_mission_skill: "6629414"
+  }
+  {
+    id: 6629007
+    name: mission_buff_config-16629007
+    description: mission_buff_config-26629007
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629007
+    carry_mission_skill: "6629415"
+  }
+  {
+    id: 6629008
+    name: mission_buff_config-16629008
+    description: mission_buff_config-26629008
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629008
+    carry_mission_skill: "6629416"
+  }
+  {
+    id: 6629009
+    name: mission_buff_config-16629009
+    description: mission_buff_config-26629009
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629009
+  }
+  {
+    id: 6629100
+    name: mission_buff_config-16629100
+    description: mission_buff_config-26629100
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629100
+  }
+  {
+    id: 6629101
+    name: mission_buff_config-16629101
+    description: mission_buff_config-26629101
+    code: assess202309_1
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759248
+    conflict_type: 6629100
+    priority: 1
+  }
+  {
+    id: 6629102
+    name: mission_buff_config-16629102
+    description: mission_buff_config-26629102
+    code: assess202309_2
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759249
+    conflict_type: 6629100
+    priority: 2
+  }
+  {
+    id: 6629103
+    name: mission_buff_config-16629103
+    description: mission_buff_config-26629103
+    code: assess202309_3
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759250
+    conflict_type: 6629100
+    priority: 3
+  }
+  {
+    id: 6629104
+    name: mission_buff_config-16629104
+    description: mission_buff_config-26629104
+    code: assess202309_4
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759251
+    conflict_type: 6629100
+    priority: 4
+  }
+  {
+    id: 6629200
+    name: mission_buff_config-16629200
+    description: mission_buff_config-26629200
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629200
+  }
+  {
+    id: 6629201
+    name: mission_buff_config-16629201
+    description: mission_buff_config-26629201
+    code: assess202309_5
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759252
+    conflict_type: 6629200
+    priority: 1
+  }
+  {
+    id: 6629202
+    name: mission_buff_config-16629202
+    description: mission_buff_config-26629202
+    code: assess202309_6
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759253
+    conflict_type: 6629200
+    priority: 2
+  }
+  {
+    id: 6629203
+    name: mission_buff_config-16629203
+    description: mission_buff_config-26629203
+    code: assess202309_7
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759254
+    conflict_type: 6629200
+    priority: 3
+  }
+  {
+    id: 6629204
+    name: mission_buff_config-16629204
+    description: mission_buff_config-26629204
+    code: assess202309_8
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759255
+    conflict_type: 6629200
+    priority: 4
+  }
+  {
+    id: 6629300
+    name: mission_buff_config-16629300
+    description: mission_buff_config-26629300
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    conflict_type: 6629300
+  }
+  {
+    id: 6629301
+    name: mission_buff_config-16629301
+    description: mission_buff_config-26629301
+    code: assess202309_9
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759256
+    conflict_type: 6629300
+    priority: 1
+  }
+  {
+    id: 6629302
+    name: mission_buff_config-16629302
+    description: mission_buff_config-26629302
+    code: assess202309_10
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759257
+    conflict_type: 6629300
+    priority: 2
+  }
+  {
+    id: 6629303
+    name: mission_buff_config-16629303
+    description: mission_buff_config-26629303
+    code: assess202309_11
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759258
+    conflict_type: 6629300
+    priority: 3
+  }
+  {
+    id: 6629304
+    name: mission_buff_config-16629304
+    description: mission_buff_config-26629304
+    code: assess202309_12
+    type: 1
+    duration_type: "1"
+    duration_time: "99"
+    exp_buff: "1"
+    battle_skill_config_id: 759259
+    conflict_type: 6629300
+    priority: 4
+  }
+  {
+    id: 6630001
+    name: mission_buff_config-16630001
+    description: mission_buff_config-26630001
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630001
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_0#a84fb5
+    conflict_type: 6630001
+  }
+  {
+    id: 6630002
+    name: mission_buff_config-16630002
+    description: mission_buff_config-26630002
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630002
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_1#a84fb5
+    conflict_type: 6630001
+    priority: 1
+  }
+  {
+    id: 6630003
+    name: mission_buff_config-16630003
+    description: mission_buff_config-26630003
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630003
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_2#a84fb5
+    conflict_type: 6630001
+    priority: 2
+  }
+  {
+    id: 6630004
+    name: mission_buff_config-16630004
+    description: mission_buff_config-26630004
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630004
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_3#a84fb5
+    conflict_type: 6630001
+    priority: 3
+  }
+  {
+    id: 6630005
+    name: mission_buff_config-16630005
+    description: mission_buff_config-26630005
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630005
+    conditions_type: "4"
+    conditions_time: 0-1
+    manual_ui_code: killicon_4#a84fb5
+    conflict_type: 6630001
+    priority: 4
+  }
+  {
+    id: 6630011
+    name: mission_buff_config-16630011
+    description: mission_buff_config-26630011
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "8"
+    exp_buff: "1"
+    special_spot_config_id: 6630011
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+  }
+  {
+    id: 6630012
+    name: mission_buff_config-16630012
+    description: mission_buff_config-26630012
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "7"
+    exp_buff: "1"
+    special_spot_config_id: 6630012
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 1
+  }
+  {
+    id: 6630013
+    name: mission_buff_config-16630013
+    description: mission_buff_config-26630013
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "6"
+    exp_buff: "1"
+    special_spot_config_id: 6630013
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 2
+  }
+  {
+    id: 6630014
+    name: mission_buff_config-16630014
+    description: mission_buff_config-26630014
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "5"
+    exp_buff: "1"
+    special_spot_config_id: 6630014
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 3
+  }
+  {
+    id: 6630015
+    name: mission_buff_config-16630015
+    description: mission_buff_config-26630015
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "4"
+    exp_buff: "1"
+    special_spot_config_id: 6630015
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 4
+  }
+  {
+    id: 6630016
+    name: mission_buff_config-16630016
+    description: mission_buff_config-26630016
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "3"
+    exp_buff: "1"
+    special_spot_config_id: 6630016
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 5
+  }
+  {
+    id: 6630017
+    name: mission_buff_config-16630017
+    description: mission_buff_config-26630017
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    special_spot_config_id: 6630017
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 6
+  }
+  {
+    id: 6630018
+    name: mission_buff_config-16630018
+    description: mission_buff_config-26630018
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    special_spot_config_id: 6630018
+    conditions_type: "5"
+    conditions_time: 0-1
+    conflict_type: 6630011
+    priority: 7
+  }
+  {
+    id: 6630019
+    name: mission_buff_config-16630019
+    description: mission_buff_config-26630019
+    code: Vpm5
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6630011
+    priority: 8
+    ext_ap_cost: 1
+  }
+  {
+    id: 6630020
+    name: mission_buff_config-16630020
+    description: mission_buff_config-26630020
+    type: 1
+    duration_type: "99"
+    duration_time: "1"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 6630020
+    carry_mission_skill: "6630006,6630007,6630026"
+  }
+  {
+    id: 6630021
+    name: mission_buff_config-16630021
+    description: mission_buff_config-26630021
+    code: NightView
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    vision_buff: "2"
+    conflict_type: 6630021
+  }
+  {
+    id: 6630022
+    name: mission_buff_config-16630022
+    description: mission_buff_config-26630022
+    code: buff
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 6630022
+    carry_mission_skill: "6630024"
+  }
+  {
     id: 7000001
     name: mission_buff_config-17000001
     description: mission_buff_config-27000001
@@ -6801,7 +7518,6 @@
     id: 9100001
     name: mission_buff_config-19100001
     description: mission_buff_config-29100001
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6812,7 +7528,6 @@
     id: 9100002
     name: mission_buff_config-19100002
     description: mission_buff_config-29100002
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6823,7 +7538,6 @@
     id: 9100003
     name: mission_buff_config-19100003
     description: mission_buff_config-29100003
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6834,7 +7548,6 @@
     id: 9100004
     name: mission_buff_config-19100004
     description: mission_buff_config-29100004
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6845,7 +7558,6 @@
     id: 9100005
     name: mission_buff_config-19100005
     description: mission_buff_config-29100005
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6856,7 +7568,6 @@
     id: 9100006
     name: mission_buff_config-19100006
     description: mission_buff_config-29100006
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6867,7 +7578,6 @@
     id: 9100007
     name: mission_buff_config-19100007
     description: mission_buff_config-29100007
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6878,7 +7588,6 @@
     id: 9100008
     name: mission_buff_config-19100008
     description: mission_buff_config-29100008
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6889,7 +7598,6 @@
     id: 9100009
     name: mission_buff_config-19100009
     description: mission_buff_config-29100009
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6900,7 +7608,6 @@
     id: 9100010
     name: mission_buff_config-19100010
     description: mission_buff_config-29100010
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6911,7 +7618,6 @@
     id: 9100011
     name: mission_buff_config-19100011
     description: mission_buff_config-29100011
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6922,7 +7628,6 @@
     id: 9100012
     name: mission_buff_config-19100012
     description: mission_buff_config-29100012
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6933,7 +7638,6 @@
     id: 9100013
     name: mission_buff_config-19100013
     description: mission_buff_config-29100013
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6944,7 +7648,6 @@
     id: 9100014
     name: mission_buff_config-19100014
     description: mission_buff_config-29100014
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6955,7 +7658,6 @@
     id: 9100015
     name: mission_buff_config-19100015
     description: mission_buff_config-29100015
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6966,7 +7668,6 @@
     id: 9100016
     name: mission_buff_config-19100016
     description: mission_buff_config-29100016
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6977,7 +7678,6 @@
     id: 9100017
     name: mission_buff_config-19100017
     description: mission_buff_config-29100017
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6988,7 +7688,6 @@
     id: 9100018
     name: mission_buff_config-19100018
     description: mission_buff_config-29100018
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -6999,7 +7698,6 @@
     id: 9100019
     name: mission_buff_config-19100019
     description: mission_buff_config-29100019
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7010,7 +7708,6 @@
     id: 9100020
     name: mission_buff_config-19100020
     description: mission_buff_config-29100020
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7021,7 +7718,6 @@
     id: 9100021
     name: mission_buff_config-19100021
     description: mission_buff_config-29100021
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7032,7 +7728,6 @@
     id: 9100022
     name: mission_buff_config-19100022
     description: mission_buff_config-29100022
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7043,7 +7738,6 @@
     id: 9100023
     name: mission_buff_config-19100023
     description: mission_buff_config-29100023
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7054,7 +7748,6 @@
     id: 9100024
     name: mission_buff_config-19100024
     description: mission_buff_config-29100024
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7065,7 +7758,6 @@
     id: 9100025
     name: mission_buff_config-19100025
     description: mission_buff_config-29100025
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7076,7 +7768,6 @@
     id: 9100026
     name: mission_buff_config-19100026
     description: mission_buff_config-29100026
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7087,7 +7778,6 @@
     id: 9100027
     name: mission_buff_config-19100027
     description: mission_buff_config-29100027
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7098,7 +7788,6 @@
     id: 9100028
     name: mission_buff_config-19100028
     description: mission_buff_config-29100028
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7109,7 +7798,6 @@
     id: 9100029
     name: mission_buff_config-19100029
     description: mission_buff_config-29100029
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7120,7 +7808,6 @@
     id: 9100030
     name: mission_buff_config-19100030
     description: mission_buff_config-29100030
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7131,7 +7818,6 @@
     id: 9100031
     name: mission_buff_config-19100031
     description: mission_buff_config-29100031
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7142,7 +7828,6 @@
     id: 9100032
     name: mission_buff_config-19100032
     description: mission_buff_config-29100032
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7153,7 +7838,6 @@
     id: 9100033
     name: mission_buff_config-19100033
     description: mission_buff_config-29100033
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7164,7 +7848,6 @@
     id: 9100034
     name: mission_buff_config-19100034
     description: mission_buff_config-29100034
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7175,7 +7858,6 @@
     id: 9100035
     name: mission_buff_config-19100035
     description: mission_buff_config-29100035
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7186,7 +7868,6 @@
     id: 9100036
     name: mission_buff_config-19100036
     description: mission_buff_config-29100036
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7197,7 +7878,6 @@
     id: 9100037
     name: mission_buff_config-19100037
     description: mission_buff_config-29100037
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7208,7 +7888,6 @@
     id: 9100038
     name: mission_buff_config-19100038
     description: mission_buff_config-29100038
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7219,7 +7898,6 @@
     id: 9100039
     name: mission_buff_config-19100039
     description: mission_buff_config-29100039
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7230,7 +7908,6 @@
     id: 9100040
     name: mission_buff_config-19100040
     description: mission_buff_config-29100040
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7241,7 +7918,6 @@
     id: 9100041
     name: mission_buff_config-19100041
     description: mission_buff_config-29100041
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7252,7 +7928,6 @@
     id: 9100042
     name: mission_buff_config-19100042
     description: mission_buff_config-29100042
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7263,7 +7938,6 @@
     id: 9100043
     name: mission_buff_config-19100043
     description: mission_buff_config-29100043
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7274,7 +7948,6 @@
     id: 9100044
     name: mission_buff_config-19100044
     description: mission_buff_config-29100044
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7285,7 +7958,6 @@
     id: 9100045
     name: mission_buff_config-19100045
     description: mission_buff_config-29100045
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7296,7 +7968,6 @@
     id: 9100046
     name: mission_buff_config-19100046
     description: mission_buff_config-29100046
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7307,7 +7978,6 @@
     id: 9100047
     name: mission_buff_config-19100047
     description: mission_buff_config-29100047
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7318,7 +7988,6 @@
     id: 9100048
     name: mission_buff_config-19100048
     description: mission_buff_config-29100048
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7329,7 +7998,6 @@
     id: 9100049
     name: mission_buff_config-19100049
     description: mission_buff_config-29100049
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7340,7 +8008,6 @@
     id: 9100050
     name: mission_buff_config-19100050
     description: mission_buff_config-29100050
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7351,7 +8018,6 @@
     id: 9100051
     name: mission_buff_config-19100051
     description: mission_buff_config-29100051
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7362,7 +8028,6 @@
     id: 9100052
     name: mission_buff_config-19100052
     description: mission_buff_config-29100052
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7373,7 +8038,6 @@
     id: 9100053
     name: mission_buff_config-19100053
     description: mission_buff_config-29100053
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7384,7 +8048,6 @@
     id: 9100054
     name: mission_buff_config-19100054
     description: mission_buff_config-29100054
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7395,7 +8058,6 @@
     id: 9100055
     name: mission_buff_config-19100055
     description: mission_buff_config-29100055
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7406,7 +8068,6 @@
     id: 9100056
     name: mission_buff_config-19100056
     description: mission_buff_config-29100056
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7417,7 +8078,6 @@
     id: 9100057
     name: mission_buff_config-19100057
     description: mission_buff_config-29100057
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7428,7 +8088,6 @@
     id: 9100058
     name: mission_buff_config-19100058
     description: mission_buff_config-29100058
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7439,7 +8098,6 @@
     id: 9100059
     name: mission_buff_config-19100059
     description: mission_buff_config-29100059
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7450,7 +8108,6 @@
     id: 9100060
     name: mission_buff_config-19100060
     description: mission_buff_config-29100060
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "1"
@@ -7461,7 +8118,6 @@
     id: 9130601
     name: mission_buff_config-19130601
     description: mission_buff_config-29130601
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7475,7 +8131,6 @@
     id: 9200001
     name: mission_buff_config-19200001
     description: mission_buff_config-29200001
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7486,7 +8141,6 @@
     id: 9200002
     name: mission_buff_config-19200002
     description: mission_buff_config-29200002
-    code: SpeedUp
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -7761,6 +8415,18 @@
     conflict_type: 9584201
     priority: 9584201
     carry_mission_skill: "95842010"
+  }
+  {
+    id: 10000021
+    name: mission_buff_config-20000021
+    description: mission_buff_config-30000021
+    code: buff
+    type: 1
+    duration_type: "5"
+    duration_time: "2"
+    exp_buff: "1"
+    battle_skill_config_id: 900106
+    conflict_type: 1000002
   }
   {
     id: 58000401

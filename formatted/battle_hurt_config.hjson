@@ -1649,7 +1649,7 @@
     id: 414
     description: 巴雷特狙击
     damage_ratio: *201
-    is_critical_hit: 1000004561
+    is_critical_hit: 209
     critical_hit_rate: "100"
     float_wide: 15
     buff_id_target: 120112:1
@@ -2074,7 +2074,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001216
+    fix_damage: "1000001216"
   }
   {
     id: 459
@@ -2095,7 +2095,7 @@
     buff_id_target: 1000001220:1,1000009220:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001221
+    fix_damage: "1000001221"
   }
   {
     id: 461
@@ -2119,7 +2119,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001223
+    fix_damage: "1000001223"
   }
   {
     id: 463
@@ -2132,7 +2132,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001224
+    fix_damage: "1000001224"
   }
   {
     id: 464
@@ -2145,7 +2145,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001225
+    fix_damage: "1000001225"
   }
   {
     id: 465
@@ -2158,7 +2158,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001226
+    fix_damage: "1000001226"
   }
   {
     id: 466
@@ -2171,7 +2171,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001227
+    fix_damage: "1000001227"
   }
   {
     id: 467
@@ -2184,7 +2184,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001228
+    fix_damage: "1000001228"
   }
   {
     id: 468
@@ -2197,7 +2197,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001229
+    fix_damage: "1000001229"
   }
   {
     id: 469
@@ -2210,7 +2210,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001230
+    fix_damage: "1000001230"
   }
   {
     id: 470
@@ -2223,7 +2223,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 50
-    fix_damage: 1000001231
+    fix_damage: "1000001231"
   }
   {
     id: 471
@@ -2235,7 +2235,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000001249
+    fix_damage: "1000001249"
   }
   {
     id: 472
@@ -2443,7 +2443,7 @@
     is_miss: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000001460
+    fix_damage: "1000001460"
     ui_control: 1
   }
   {
@@ -2456,7 +2456,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000001460
+    fix_damage: "1000001460"
   }
   {
     id: 500
@@ -2466,7 +2466,7 @@
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000001460
+    fix_damage: "1000001460"
   }
   {
     id: 501
@@ -2548,7 +2548,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001488
+    fix_damage: "1000001488"
   }
   {
     id: 509
@@ -2570,7 +2570,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000001488
+    fix_damage: "1000001488"
   }
   {
     id: 511
@@ -2579,7 +2579,7 @@
     buff_id_self: 4128:1
     buff_rate: *201
     hit_type: 1
-    fix_damage: 1000001488
+    fix_damage: "1000001488"
   }
   {
     id: 512
@@ -2588,7 +2588,7 @@
     buff_id_target: 1000001496:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001488
+    fix_damage: "1000001488"
   }
   {
     id: 513
@@ -2597,7 +2597,7 @@
     buff_id_target: 4134:1,4132:-1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001488
+    fix_damage: "1000001488"
   }
   {
     id: 514
@@ -2864,7 +2864,7 @@
     buff_id_target: 1000001687:1,1000001703:1,1000001705:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001693
+    fix_damage: "1000001693"
   }
   {
     id: 541
@@ -2878,7 +2878,7 @@
     buff_id_target: 1000001694:1,1000001704:1,1000001706:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001695
+    fix_damage: "1000001695"
   }
   {
     id: 542
@@ -2920,7 +2920,7 @@
     buff_id_target: 4367:1,1000001707
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001696
+    fix_damage: "1000001696"
   }
   {
     id: 546
@@ -2933,7 +2933,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001693
+    fix_damage: "1000001693"
   }
   {
     id: 547
@@ -2946,7 +2946,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001695
+    fix_damage: "1000001695"
   }
   {
     id: 548
@@ -2959,7 +2959,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001696
+    fix_damage: "1000001696"
   }
   {
     id: 560
@@ -2969,7 +2969,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000001772
+    fix_damage: "1000001772"
   }
   {
     id: 561
@@ -2999,7 +2999,7 @@
     buff_id_target: 1000001756:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001757
+    fix_damage: "1000001757"
   }
   {
     id: 564
@@ -3062,7 +3062,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001761
+    fix_damage: "1000001761"
   }
   {
     id: 571
@@ -3071,7 +3071,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001762
+    fix_damage: "1000001762"
   }
   {
     id: 572
@@ -3080,7 +3080,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001763
+    fix_damage: "1000001763"
   }
   {
     id: 573
@@ -3089,7 +3089,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001764
+    fix_damage: "1000001764"
   }
   {
     id: 574
@@ -3098,7 +3098,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001765
+    fix_damage: "1000001765"
   }
   {
     id: 575
@@ -3107,7 +3107,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001766
+    fix_damage: "1000001766"
   }
   {
     id: 576
@@ -3116,7 +3116,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001767
+    fix_damage: "1000001767"
   }
   {
     id: 577
@@ -3125,7 +3125,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001768
+    fix_damage: "1000001768"
   }
   {
     id: 578
@@ -3134,7 +3134,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001769
+    fix_damage: "1000001769"
   }
   {
     id: 579
@@ -3143,7 +3143,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000001770
+    fix_damage: "1000001770"
   }
   {
     id: 580
@@ -3256,7 +3256,7 @@
     defbreak_rate: "100"
     hit_type: 2
     is_ricochet: 100
-    fix_damage: 1000001960
+    fix_damage: "1000001960"
   }
   {
     id: 593
@@ -3276,7 +3276,7 @@
     id: 594
     description: 迎击普攻
     damage_ratio: *201
-    is_critical_hit: 1000002076
+    is_critical_hit: 28
     critical_hit_rate: "100"
     float_wide: 5
     is_miss: 1
@@ -3290,7 +3290,7 @@
     critical_hit_rate: "100"
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000001968
+    fix_damage: "1000001968"
   }
   {
     id: 596
@@ -3366,7 +3366,7 @@
     float_wide: 15
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000001989
+    fix_damage: "1000001989"
   }
   {
     id: 604
@@ -3414,7 +3414,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000002074
+    fix_damage: "1000002074"
   }
   {
     id: 609
@@ -3435,7 +3435,7 @@
     buff_id_target: 4712:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000001968
+    fix_damage: "1000001968"
     ui_control: 1
   }
   {
@@ -3445,7 +3445,7 @@
     critical_hit_rate: "100"
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000001968
+    fix_damage: "1000001968"
   }
   {
     id: 612
@@ -3473,7 +3473,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000002081
+    fix_damage: "1000002081"
   }
   {
     id: 615
@@ -3481,7 +3481,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000002082
+    fix_damage: "1000002082"
   }
   {
     id: 616
@@ -3489,7 +3489,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000002095
+    fix_damage: "1000002095"
   }
   {
     id: 617
@@ -3497,7 +3497,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000002096
+    fix_damage: "1000002096"
   }
   {
     id: 619
@@ -3519,7 +3519,7 @@
     buff_id_target: 4813:1000002101
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000002102
+    fix_damage: "1000002102"
   }
   {
     id: 621
@@ -3631,70 +3631,70 @@
     description: 卡车伤害1
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002192
+    fix_damage: "1000002192"
   }
   {
     id: 633
     description: 卡车伤害2
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002153
+    fix_damage: "1000002153"
   }
   {
     id: 634
     description: 卡车伤害3
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002154
+    fix_damage: "1000002154"
   }
   {
     id: 635
     description: 卡车伤害4
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002155
+    fix_damage: "1000002155"
   }
   {
     id: 636
     description: 卡车伤害5
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002156
+    fix_damage: "1000002156"
   }
   {
     id: 637
     description: 卡车伤害6
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002157
+    fix_damage: "1000002157"
   }
   {
     id: 638
     description: 卡车伤害7
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002158
+    fix_damage: "1000002158"
   }
   {
     id: 639
     description: 卡车伤害8
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002159
+    fix_damage: "1000002159"
   }
   {
     id: 640
     description: 卡车伤害9
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002160
+    fix_damage: "1000002160"
   }
   {
     id: 641
     description: 卡车伤害10
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002161
+    fix_damage: "1000002161"
   }
   {
     id: 642
@@ -3750,77 +3750,77 @@
     buff_id_target: 5046:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000002190
+    fix_damage: "1000002190"
   }
   {
     id: 647
     description: 卡车伤害1
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002193
+    fix_damage: "1000002193"
   }
   {
     id: 648
     description: 卡车伤害2
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002194
+    fix_damage: "1000002194"
   }
   {
     id: 649
     description: 卡车伤害3
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002195
+    fix_damage: "1000002195"
   }
   {
     id: 650
     description: 卡车伤害4
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002196
+    fix_damage: "1000002196"
   }
   {
     id: 651
     description: 卡车伤害5
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002197
+    fix_damage: "1000002197"
   }
   {
     id: 652
     description: 卡车伤害6
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002198
+    fix_damage: "1000002198"
   }
   {
     id: 653
     description: 卡车伤害7
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002199
+    fix_damage: "1000002199"
   }
   {
     id: 654
     description: 卡车伤害8
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002200
+    fix_damage: "1000002200"
   }
   {
     id: 655
     description: 卡车伤害9
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002201
+    fix_damage: "1000002201"
   }
   {
     id: 656
     description: 卡车伤害10
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 1000002202
+    fix_damage: "1000002202"
   }
   {
     id: 657
@@ -3882,6 +3882,508 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 663
+    description: 坦克重武lv1【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 664
+    description: 坦克重武lv3【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5114:1000002278
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,5114:1000002278,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 665
+    description: 坦克轻武lv1
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 666
+    description: 坦克轻武lv2
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5115:1
+    buff_rate: *202
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 667
+    description: 坦克轻武lv3
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5115:1
+    hurt_buff_trigger_type: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056,1000002337"
+  }
+  {
+    id: 668
+    description: 坦克轻武法球
+    extra_damage: *101
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000002280,1000009019,1000009052,1000009056"
+    ui_control: 1
+  }
+  {
+    id: 669
+    description: 榴弹发射器【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "34"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 670
+    description: 加农炮【重武器】
+    damage_ratio: *201
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "100"
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,5134:1000002336,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 671
+    description: 榴弹发射器特殊弹药【重武器】
+    damage_ratio: "200"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_id_target: 202:1000002282,208:1000002282,5120:1000002283
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002281,1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 202:1000002282,208:1000002282,5121:1,5120:1000002283,1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 672
+    description: 多管单机枪组
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5125:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 673
+    description: 烈焰喷射器
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002291"
+  }
+  {
+    id: 674
+    description: 机枪炮
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 675
+    description: 蓄力激光【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002286,1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 676
+    description: 装甲加农炮【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 677
+    description: 干扰枪子弹
+    critical_hit_rate: "100"
+    buff_id_target: 5128:1,5129:1,5130:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 678
+    description: 激光重武【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    buff_id_target: 5133:1,1000009073:1,1000009074:1
+    buff_rate: "100"
+    defbreak_rate: "7"
+    hit_type: 1
+    fix_damage: "1000002292,1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    ui_control: 1
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 679
+    description: 高达原生激光【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 680
+    description: 高达原生激光LV3【重武器】
+    damage_ratio: *203
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 681
+    description: 高达轻武lv1
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 682
+    description: 高达轻武lv1
+    damage_ratio: *202
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 683
+    description: 高达轻武lv2
+    damage_ratio: "300"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 684
+    description: 高达轻武lv3
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 5142:1
+    hurt_buff_trigger_type: 1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 685
+    description: 高达榴弹
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 686
+    description: 高达雷区
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_id_target: 221:1,5142:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 687
+    description: 电磁炮【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: *202
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 688
+    description: 重武器词条额外
+    damage_ratio: "200"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002323"
+  }
+  {
+    id: 689
+    description: 高射加农【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 690
+    description: 加农炮【重武器】
+    damage_ratio: *201
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "100"
+    buff_rate: "100"
+    target_skill: 900166
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,5134:1000002336,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 691
+    description: 小导弹【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "17"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1
+  }
+  {
+    id: 692
+    description: 贯穿一击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 693
+    description: 近战额外伤害
+    extra_damage: "1000"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000002339,1000009019,1000009052,1000009056"
+  }
+  {
+    id: 694
+    description: 引爆爆炸伤害
+    extra_damage: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 695
+    description: 江琦布丁红雷
+    damage_ratio: "50"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 696
+    description: 岛村孝标记
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    buff_id_target: "5263"
+    hit_type: 1
+  }
+  {
+    id: 697
+    description: 混乱伤害
+    extra_damage: "10"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 698
+    description: MG15支援伤害
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
     hit_type: 1
   }
   {
@@ -3975,6 +4477,8 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
+    buff_id_target: 9411:1000005508
+    buff_rate: "100"
     hit_type: 1
   }
   {
@@ -4017,8 +4521,8 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000005060
-    is_armor: 1000005060
+    is_miss: 196
+    is_armor: 196
     hit_type: 1
   }
   {
@@ -4079,8 +4583,8 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 10
-    is_miss: 1000004003
-    is_armor: 1000004003
+    is_miss: 163
+    is_armor: 163
     hit_type: 1
     is_shield: 1000004004
   }
@@ -4135,7 +4639,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004017
+    fix_damage: "1000004017"
   }
   {
     id: 2019
@@ -4143,7 +4647,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004038
+    fix_damage: "1000004038"
   }
   {
     id: 2020
@@ -4154,7 +4658,7 @@
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003551
+    fix_damage: "1000003551"
   }
   {
     id: 2021
@@ -4175,7 +4679,7 @@
     float_wide: 15
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003551
+    fix_damage: "1000003551"
   }
   {
     id: 2023
@@ -4223,7 +4727,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004116
+    fix_damage: "1000004116"
   }
   {
     id: 2028
@@ -4262,7 +4766,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004128
+    fix_damage: "1000004128"
   }
   {
     id: 2032
@@ -4274,7 +4778,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004130
+    fix_damage: "1000004130"
   }
   {
     id: 2033
@@ -4286,7 +4790,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004131
+    fix_damage: "1000004131"
   }
   {
     id: 2034
@@ -4298,7 +4802,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004132
+    fix_damage: "1000004132"
   }
   {
     id: 2035
@@ -4310,7 +4814,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004133
+    fix_damage: "1000004133"
   }
   {
     id: 2036
@@ -4322,7 +4826,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004134
+    fix_damage: "1000004134"
   }
   {
     id: 2037
@@ -4334,7 +4838,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004135
+    fix_damage: "1000004135"
   }
   {
     id: 2038
@@ -4346,7 +4850,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004136
+    fix_damage: "1000004136"
   }
   {
     id: 2039
@@ -4358,7 +4862,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004137
+    fix_damage: "1000004137"
   }
   {
     id: 2040
@@ -4370,7 +4874,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004138
+    fix_damage: "1000004138"
   }
   {
     id: 2041
@@ -4382,7 +4886,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004139
+    fix_damage: "1000004139"
   }
   {
     id: 2042
@@ -4523,7 +5027,7 @@
     critical_hit_rate: "100"
     hit_type: 1
     is_shield: 100
-    fix_damage: 999
+    fix_damage: "999"
   }
   {
     id: 2057
@@ -4531,7 +5035,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004039
+    fix_damage: "1000004039"
   }
   {
     id: 2058
@@ -4539,7 +5043,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004040
+    fix_damage: "1000004040"
   }
   {
     id: 2059
@@ -4547,7 +5051,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004041
+    fix_damage: "1000004041"
   }
   {
     id: 2060
@@ -4555,7 +5059,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004042
+    fix_damage: "1000004042"
   }
   {
     id: 2061
@@ -4563,7 +5067,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004043
+    fix_damage: "1000004043"
   }
   {
     id: 2062
@@ -4571,7 +5075,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004044
+    fix_damage: "1000004044"
   }
   {
     id: 2063
@@ -4579,7 +5083,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004045
+    fix_damage: "1000004045"
   }
   {
     id: 2064
@@ -4587,7 +5091,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004046
+    fix_damage: "1000004046"
   }
   {
     id: 2065
@@ -4595,7 +5099,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004047
+    fix_damage: "1000004047"
   }
   {
     id: 2066
@@ -4623,7 +5127,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004207
+    fix_damage: "1000004207"
   }
   {
     id: 2090
@@ -4632,7 +5136,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004207
+    fix_damage: "1000004207"
   }
   {
     id: 2094
@@ -4652,7 +5156,7 @@
     is_critical_hit: 2
     buff_id_self: 7727:1
     buff_rate: "100"
-    fix_damage: 1000004232
+    fix_damage: "1000004232"
   }
   {
     id: 2096
@@ -4694,7 +5198,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004231
+    fix_damage: "1000004231"
   }
   {
     id: 2100
@@ -4905,7 +5409,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004231
+    fix_damage: "1000004231"
   }
   {
     id: 2115
@@ -5392,7 +5896,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004385
+    fix_damage: "1000004385"
   }
   {
     id: 2158
@@ -5403,7 +5907,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004386
+    fix_damage: "1000004386"
   }
   {
     id: 2159
@@ -5414,7 +5918,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004387
+    fix_damage: "1000004387"
   }
   {
     id: 2160
@@ -5425,7 +5929,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004388
+    fix_damage: "1000004388"
   }
   {
     id: 2161
@@ -5436,7 +5940,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004389
+    fix_damage: "1000004389"
   }
   {
     id: 2162
@@ -5447,7 +5951,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004390
+    fix_damage: "1000004390"
   }
   {
     id: 2163
@@ -5458,7 +5962,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004391
+    fix_damage: "1000004391"
   }
   {
     id: 2164
@@ -5469,7 +5973,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004392
+    fix_damage: "1000004392"
   }
   {
     id: 2165
@@ -5480,7 +5984,7 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004393
+    fix_damage: "1000004393"
   }
   {
     id: 2166
@@ -5489,7 +5993,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2167
@@ -5498,7 +6002,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2168
@@ -5507,7 +6011,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2169
@@ -5516,7 +6020,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2170
@@ -5525,7 +6029,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2171
@@ -5534,7 +6038,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2172
@@ -5543,7 +6047,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2173
@@ -5552,7 +6056,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2174
@@ -5561,7 +6065,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2175
@@ -5570,7 +6074,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004395
+    fix_damage: "1000004395"
   }
   {
     id: 2176
@@ -5645,7 +6149,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000004421
+    is_miss: 69
     is_armor: 1
     hit_type: 1
   }
@@ -5666,7 +6170,7 @@
     buff_id_target: 8036:1,8037:2,8038:2,8033:2
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2185
@@ -5677,7 +6181,7 @@
     buff_id_target: 8036:1,8037:4,8038:4,8033:4
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2186
@@ -5688,7 +6192,7 @@
     buff_id_target: 8036:1,8037:2,8038:2,8033:2
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2187
@@ -5699,7 +6203,7 @@
     buff_id_target: 8036:1,8037:1,8038:1,8033:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2188
@@ -5709,7 +6213,7 @@
     buff_id_target: 8036:1,8037:1,8038:1,8033:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2189
@@ -5747,7 +6251,7 @@
     is_form_hurt: 1
     is_miss: 1
     hit_type: 1
-    fix_damage: 1000004439
+    fix_damage: "1000004439"
   }
   {
     id: 2193
@@ -5801,7 +6305,7 @@
     id: 2197
     description: ppsh榴弹
     damage_ratio: *201
-    is_critical_hit: 1000005240
+    is_critical_hit: 120
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
@@ -5967,7 +6471,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 1000004520
-    fix_damage: 1000004491
+    fix_damage: "1000004491"
   }
   {
     id: 2212
@@ -5979,7 +6483,7 @@
     is_armor: 1
     hit_type: 1
     is_shield: 1000004520
-    fix_damage: 1000004521
+    fix_damage: "1000004521"
   }
   {
     id: 2213
@@ -5990,7 +6494,7 @@
     buff_rate: "100"
     hit_type: 1
     is_ricochet: 1000004492
-    fix_damage: 1000004490
+    fix_damage: "1000004490"
   }
   {
     id: 2214
@@ -6120,7 +6624,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_miss: 1
-    is_armor: 1000004566
+    is_armor: 214
     hit_type: 1
   }
   {
@@ -6239,7 +6743,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004771
+    fix_damage: "1000004771"
   }
   {
     id: 2241
@@ -6250,7 +6754,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004771
+    fix_damage: "1000004771"
   }
   {
     id: 2242
@@ -6261,7 +6765,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004771
+    fix_damage: "1000004771"
   }
   {
     id: 2243
@@ -6271,7 +6775,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004729
+    fix_damage: "1000004729"
   }
   {
     id: 2244
@@ -6421,7 +6925,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004748
+    fix_damage: "1000004748"
   }
   {
     id: 2259
@@ -6429,7 +6933,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004750
+    fix_damage: "1000004750"
   }
   {
     id: 2260
@@ -6447,7 +6951,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000004753
+    is_miss: 145
     is_armor: 1
     hit_type: 1
   }
@@ -6458,7 +6962,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000004753
+    is_miss: 145
     is_armor: 1
     hit_type: 1
   }
@@ -6472,7 +6976,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004762
+    fix_damage: "1000004762"
   }
   {
     id: 2264
@@ -6579,7 +7083,7 @@
     defbreak_rate: "33"
     hit_type: 2
     is_ricochet: 100
-    fix_damage: 1000004782
+    fix_damage: "1000004782"
   }
   {
     id: 2275
@@ -6588,7 +7092,7 @@
     critical_hit_rate: "100"
     hit_type: 1
     is_ricochet: 100
-    fix_damage: 1000004783
+    fix_damage: "1000004783"
   }
   {
     id: 2276
@@ -6602,7 +7106,7 @@
     defbreak_rate: "33"
     hit_type: 2
     is_ricochet: 100
-    fix_damage: 1000004782
+    fix_damage: "1000004782"
   }
   {
     id: 2277
@@ -6614,7 +7118,7 @@
     is_armor: 1
     hit_type: 1
     is_ricochet: 100
-    fix_damage: 1000004785
+    fix_damage: "1000004785"
   }
   {
     id: 2278
@@ -6630,7 +7134,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000004790
+    fix_damage: "1000004790"
   }
   {
     id: 2280
@@ -6657,7 +7161,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004791
+    fix_damage: "1000004791"
   }
   {
     id: 2283
@@ -6666,7 +7170,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004792
+    fix_damage: "1000004792"
   }
   {
     id: 2284
@@ -6675,7 +7179,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000004793
+    fix_damage: "1000004793"
   }
   {
     id: 2285
@@ -6688,7 +7192,7 @@
     buff_id_target: 8578:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004794
+    fix_damage: "1000004794"
   }
   {
     id: 2286
@@ -6699,7 +7203,7 @@
     float_wide: 15
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004794
+    fix_damage: "1000004794"
   }
   {
     id: 2287
@@ -6713,7 +7217,7 @@
     buff_id_target: 8577:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004794
+    fix_damage: "1000004794"
   }
   {
     id: 2288
@@ -6725,7 +7229,7 @@
     is_form_hurt: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004794
+    fix_damage: "1000004794"
   }
   {
     id: 2289
@@ -6738,7 +7242,7 @@
     buff_id_target: 8577:1000004803,8579:1,8580:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004794
+    fix_damage: "1000004794"
   }
   {
     id: 2290
@@ -6825,7 +7329,7 @@
     extra_defbreak: "500"
     hit_type: 2
     is_ricochet: 100
-    fix_damage: 1000004897
+    fix_damage: "1000004897"
   }
   {
     id: 2297
@@ -6876,7 +7380,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000004231
+    fix_damage: "1000004231"
   }
   {
     id: 2302
@@ -6896,7 +7400,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004916
+    fix_damage: "1000004916"
   }
   {
     id: 2304
@@ -6906,7 +7410,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004917
+    fix_damage: "1000004917"
   }
   {
     id: 2305
@@ -6916,7 +7420,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004918
+    fix_damage: "1000004918"
   }
   {
     id: 2306
@@ -6926,7 +7430,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004919
+    fix_damage: "1000004919"
   }
   {
     id: 2307
@@ -6936,7 +7440,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004920
+    fix_damage: "1000004920"
   }
   {
     id: 2308
@@ -6946,7 +7450,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004921
+    fix_damage: "1000004921"
   }
   {
     id: 2309
@@ -6956,7 +7460,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004922
+    fix_damage: "1000004922"
   }
   {
     id: 2310
@@ -6966,7 +7470,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004923
+    fix_damage: "1000004923"
   }
   {
     id: 2311
@@ -6976,7 +7480,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004924
+    fix_damage: "1000004924"
   }
   {
     id: 2312
@@ -6986,7 +7490,7 @@
     is_form_hurt: 1
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000004925
+    fix_damage: "1000004925"
   }
   {
     id: 2313
@@ -7004,7 +7508,7 @@
     target_move_percent: "100"
     target_skill: 740085
     hit_type: 1
-    fix_damage: 1000004946
+    fix_damage: "1000004946"
   }
   {
     id: 2314
@@ -7107,7 +7611,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000004955
+    fix_damage: "1000004955"
   }
   {
     id: 2324
@@ -7173,7 +7677,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000005077
+    fix_damage: "1000005077"
   }
   {
     id: 2332
@@ -7298,7 +7802,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005179
+    fix_damage: "1000005179"
   }
   {
     id: 2345
@@ -7309,7 +7813,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000005179
+    fix_damage: "1000005179"
   }
   {
     id: 2346
@@ -7322,7 +7826,7 @@
     buff_rate: "100"
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000005179
+    fix_damage: "1000005179"
   }
   {
     id: 2347
@@ -7570,10 +8074,10 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000519301
+    is_miss: 133
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005193
+    fix_damage: "1000005193"
   }
   {
     id: 2370
@@ -7582,10 +8086,10 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000519401
+    is_miss: 233
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005194
+    fix_damage: "1000005194"
   }
   {
     id: 2371
@@ -7594,10 +8098,10 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000519501
+    is_miss: 77
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005195
+    fix_damage: "1000005195"
   }
   {
     id: 2372
@@ -7607,7 +8111,7 @@
     hit_type: 1
     is_ricochet: 100
     is_shield: 100
-    fix_damage: 1000005212
+    fix_damage: "1000005212"
   }
   {
     id: 2373
@@ -7616,10 +8120,10 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 1000521601
+    is_miss: 129
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005216
+    fix_damage: "1000005216"
   }
   {
     id: 2374
@@ -7632,7 +8136,7 @@
     buff_id_target: 1000005224:1,1000170301:1,1000170501:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169301
+    fix_damage: "1000169301"
   }
   {
     id: 2375
@@ -7645,7 +8149,7 @@
     buff_id_target: 1000005225:1,1000170401:1,1000170601:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169501
+    fix_damage: "1000169501"
   }
   {
     id: 2376
@@ -7658,7 +8162,7 @@
     buff_id_target: 4367:1,1000170701
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169601
+    fix_damage: "1000169601"
   }
   {
     id: 2377
@@ -7670,7 +8174,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169301
+    fix_damage: "1000169301"
   }
   {
     id: 2378
@@ -7682,7 +8186,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169501
+    fix_damage: "1000169501"
   }
   {
     id: 2379
@@ -7694,7 +8198,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000169601
+    fix_damage: "1000169601"
   }
   {
     id: 2380
@@ -7704,7 +8208,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000005332
+    fix_damage: "1000005332"
   }
   {
     id: 2381
@@ -7716,7 +8220,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005347
+    fix_damage: "1000005347"
   }
   {
     id: 2382
@@ -7729,7 +8233,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005347
+    fix_damage: "1000005347"
   }
   {
     id: 2383
@@ -7738,7 +8242,7 @@
     critical_hit_rate: "100"
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005363
+    fix_damage: "1000005363"
   }
   {
     id: 2384
@@ -7750,7 +8254,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000005375
+    fix_damage: "1000005375"
   }
   {
     id: 2385
@@ -7762,7 +8266,7 @@
     buff_id_target: 9229:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000005375
+    fix_damage: "1000005375"
   }
   {
     id: 2386
@@ -7790,7 +8294,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000005375
+    fix_damage: "1000005375"
   }
   {
     id: 2389
@@ -7799,6 +8303,402 @@
     float_wide: 15
     buff_id_self: 9231:1
     buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2390
+    description: 1000破防
+    critical_hit_rate: "100"
+    extra_defbreak: *101
+    hit_type: 1
+  }
+  {
+    id: 2391
+    description: 1000破防，3000伤害
+    extra_damage: *102
+    critical_hit_rate: "100"
+    extra_defbreak: *101
+    hit_type: 1
+  }
+  {
+    id: 2392
+    description: rpg29普通攻击
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: "1000005383,1000005384"
+  }
+  {
+    id: 2393
+    description: rpg29破防
+    critical_hit_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+  }
+  {
+    id: 2394
+    description: rpg29直达
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: "1000005383,1000005384"
+  }
+  {
+    id: 2395
+    description: rpg29特殊攻击
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: "1000005383,1000005384"
+  }
+  {
+    id: 2396
+    description: rpg29特殊破防
+    critical_hit_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+  }
+  {
+    id: 2397
+    description: rpg29特殊直达
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+    fix_damage: "1000005383,1000005384"
+  }
+  {
+    id: 2398
+    description: rpg29特殊额外
+    damage_ratio: *203
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: *203
+    hit_type: 2
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000005383,1000005384,1000005385"
+    range_buff_target: 9252:1000005386
+  }
+  {
+    id: 2399
+    description: 鬼雾狙击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2400
+    description: 无鬼雾狙击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2401
+    description: 万圣梦想家一技能激光
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2402
+    description: 额外穿盾子弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 2403
+    description: 普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2404
+    description: K11榴弹结算范围
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000005398
+  }
+  {
+    id: 2405
+    description: K11额外伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    is_shield: 1000005398
+  }
+  {
+    id: 2406
+    description: 凉香RPG普攻
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2407
+    description: 凉香RPG二技能
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2408
+    description: 塔奇克马普通攻击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 2409
+    description: 塔奇克马榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2410
+    description: 布丁榴弹
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_target: 9302:1
+  }
+  {
+    id: 2411
+    description: 布丁榴弹中心
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 9302:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2412
+    description: 凉香榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    hit_type: 1
+  }
+  {
+    id: 2416
+    description: 额外攻击fm24
+    extra_damage: *102
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 9331:1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 2417
+    description: 霰弹枪普通攻击
+    damage_ratio: *202
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+  }
+  {
+    id: 2424
+    description: k31普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000005490"
+  }
+  {
+    id: 2426
+    description: 榴弹g3
+    damage_ratio: *201
+    is_critical_hit: 121
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_self: 9409:1000005496
+  }
+  {
+    id: 2427
+    description: 榴弹g3
+    damage_ratio: *201
+    is_critical_hit: 121
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 2430
+    description: 榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_target: 9422:1
+    range_buff_self: 9421:1,9420:1
+  }
+  {
+    id: 2431
+    description: 毒榴弹
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000005520"
+  }
+  {
+    id: 2432
+    description: EM2狙击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    buff_id_target: 9424:1000005521
+    buff_rate: "100"
+    target_move_percent: "100"
+    hit_type: 1
+  }
+  {
+    id: 2433
+    description: 普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000005522"
+  }
+  {
+    id: 2434
+    description: 隼击退
+    damage_ratio: *203
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: *203
+    target_move_percent: *203
+    target_skill: 740103
+    hit_type: 1
+  }
+  {
+    id: 2435
+    description: 额外普攻
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000005543"
+  }
+  {
+    id: 2441
+    description: 手枪精准普攻[*]
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000005582"
+  }
+  {
+    id: 2442
+    description: 手枪弱点普攻[*]
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
     hit_type: 1
   }
   {
@@ -8128,7 +9028,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003374
+    fix_damage: "1000003374"
   }
   {
     id: 2519
@@ -8188,7 +9088,7 @@
     buff_id_self: 3712:-20,3714:-20
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003351
+    fix_damage: "1000003351"
   }
   {
     id: 2525
@@ -8224,7 +9124,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003356
+    fix_damage: "1000003356"
   }
   {
     id: 2528
@@ -8433,7 +9333,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003551
+    fix_damage: "1000003551"
   }
   {
     id: 2560
@@ -8444,7 +9344,7 @@
     is_form_hurt: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003551
+    fix_damage: "1000003551"
   }
   {
     id: 2561
@@ -8478,7 +9378,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003564
+    fix_damage: "1000003564"
   }
   {
     id: 2571
@@ -8497,7 +9397,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003570
+    fix_damage: "1000003570"
   }
   {
     id: 2576
@@ -8576,7 +9476,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003643
+    fix_damage: "1000003643"
   }
   {
     id: 2583
@@ -8585,7 +9485,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     hit_type: 1
-    fix_damage: 1000003643
+    fix_damage: "1000003643"
   }
   {
     id: 2584
@@ -8598,7 +9498,7 @@
     is_miss: 1
     is_armor: 1
     beat_back_percent: "10"
-    buff_id_target: 1000003642:1
+    buff_id_target: 1000005424:1,1000005425:1,1000005426:1
     buff_rate: "100"
     target_move_percent: "100"
     target_skill: 500101
@@ -8612,7 +9512,7 @@
     buff_rate: "100"
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000003647
+    fix_damage: "1000003647"
   }
   {
     id: 2586
@@ -8631,7 +9531,7 @@
     float_wide: 15
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003643
+    fix_damage: "1000003643"
   }
   {
     id: 2588
@@ -8659,7 +9559,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003681
+    fix_damage: "1000003681"
   }
   {
     id: 2591
@@ -8673,7 +9573,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003681
+    fix_damage: "1000003681"
   }
   {
     id: 2592
@@ -8687,7 +9587,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003681
+    fix_damage: "1000003681"
   }
   {
     id: 2593
@@ -8698,7 +9598,7 @@
     id: 2594
     description: 毒池伤害
     hit_type: 1
-    fix_damage: 1000003684
+    fix_damage: "1000003684"
   }
   {
     id: 2596
@@ -8922,7 +9822,7 @@
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000003725
+    fix_damage: "1000003725"
   }
   {
     id: 2619
@@ -9055,13 +9955,13 @@
     id: 2631
     description: 子弹伤害
     hit_type: 1
-    fix_damage: 1
+    fix_damage: "1"
   }
   {
     id: 2632
     description: 爆炸物伤害
     hit_type: 1
-    fix_damage: 5
+    fix_damage: "5"
   }
   {
     id: 2635
@@ -9080,7 +9980,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000003790
+    fix_damage: "1000003790"
   }
   {
     id: 2637
@@ -9106,7 +10006,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000003804
+    fix_damage: "1000003804"
   }
   {
     id: 2640
@@ -9136,7 +10036,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003815
+    fix_damage: "1000003815"
   }
   {
     id: 2644
@@ -9189,7 +10089,7 @@
     is_miss: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003851
+    fix_damage: "1000003851"
   }
   {
     id: 2650
@@ -9223,7 +10123,7 @@
     buff_id_target: 7189:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003934
+    fix_damage: "1000003934"
   }
   {
     id: 2653
@@ -9290,7 +10190,7 @@
     buff_id_target: 740602:-1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003950
+    fix_damage: "1000003950"
   }
   {
     id: 2659
@@ -9314,7 +10214,7 @@
     buff_id_self: 72008:1,1000003871:1,1000387714:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003861
+    fix_damage: "1000003861"
   }
   {
     id: 2661
@@ -9327,7 +10227,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003865
+    fix_damage: "1000003865"
   }
   {
     id: 2662
@@ -9344,7 +10244,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003879
+    fix_damage: "1000003879"
   }
   {
     id: 2664
@@ -9359,7 +10259,7 @@
     description: NXS999
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 99999
+    fix_damage: "99999"
   }
   {
     id: 2671
@@ -9376,7 +10276,7 @@
     hurt_buff_trigger_type: 3
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003960
+    fix_damage: "1000003960"
   }
   {
     id: 2672
@@ -9387,7 +10287,7 @@
     buff_id_target: 7413:-1,7409:1000003958
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003959
+    fix_damage: "1000003959"
   }
   {
     id: 2673
@@ -9398,7 +10298,7 @@
     buff_id_target: 7409:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003959
+    fix_damage: "1000003959"
   }
   {
     id: 2675
@@ -9454,7 +10354,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003351
+    fix_damage: "1000003351"
   }
   {
     id: 2680
@@ -9463,7 +10363,16 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000003959
+    fix_damage: "1000003959"
+  }
+  {
+    id: 2681
+    description: 连珠终结MG5
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
   }
   {
     id: 2682
@@ -9504,7 +10413,7 @@
     defbreak_rate: "100"
     hit_type: 1
     is_shield: 1
-    fix_damage: 1000002366
+    fix_damage: "1000002366"
   }
   {
     id: 2686
@@ -9513,6 +10422,281 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     hit_type: 1
+  }
+  {
+    id: 2687
+    description: 希普卡强化攻击
+    damage_ratio: "60"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 9507:1
+    buff_rate: "50"
+    hit_type: 1
+  }
+  {
+    id: 2700
+    description: 布伦额外伤害
+    damage_ratio: "10"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 3001
+    description: 普通攻击【真普攻】【轻武器】
+    damage_ratio: *202
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3002
+    description: 狙击【真普攻】【轻武器】
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 43
+    is_armor: 43
+    buff_id_self: 15004:-1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3003
+    description: 70%普通攻击【真普攻】【轻武器】
+    damage_ratio: "70"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 15009:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009008,1000009052,1000009056"
+  }
+  {
+    id: 3004
+    description: 30%普通攻击【真普攻】【轻武器】
+    damage_ratio: "30"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 15012:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3005
+    description: 扣盾编制攻击
+    extra_damage: "1000"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 3006
+    description: 眩晕结束伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 3007
+    description: 载具-触发爆炸伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    buff_id_target: 15054:-99,15053:-99
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000009061"
+  }
+  {
+    id: 3008
+    description: 烈焰喷射器【真普攻】【轻武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009025,1000009052,1000009056"
+  }
+  {
+    id: 3009
+    description: 小口径炮弹【真普攻】【轻武器】
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3010
+    description: 机枪模式【真普攻】【轻武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3011
+    description: 榴弹模式【真普攻】【轻武器】暂弃
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3012
+    description: 榴弹模式直达【真普攻】【轻武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3013
+    description: 载具能量伤害
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 3014
+    description: 载具反击
+    extra_damage: "200"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 3015
+    description: 范围击退1
+    beat_back_percent: "99"
+    buff_rate: "100"
+    target_skill: 770103
+    hit_type: 1
+  }
+  {
+    id: 3016
+    description: 身后范围普通伤害
+    damage_ratio: "10"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 3017
+    description: 无人机撞击编制伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 3018
+    description: 扣盾伤害
+    extra_damage: "1"
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000009057"
+  }
+  {
+    id: 3019
+    description: 引爆爆炸伤害
+    extra_damage: "1"
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    fix_damage: "1000009022"
+  }
+  {
+    id: 3020
+    description: 词条护盾值伤害
+    extra_damage: *101
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
+    id: 3021
+    description: 自毁
+    extra_damage: "99999"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 3022
+    description: 车载霰弹枪普攻【真普攻】【轻武器】
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+    fix_damage: "1000009019,1000009052,1000009056"
+  }
+  {
+    id: 3023
+    description: 迫击炮【重武器】
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
+    range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
+    range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1,15146:1
   }
   {
     id: 7772
@@ -9527,7 +10711,7 @@
     extra_damage: "15"
     critical_hit_rate: "100"
     hit_type: 1
-    fix_damage: 15
+    fix_damage: "15"
   }
   {
     id: 12509
@@ -9562,7 +10746,7 @@
     buff_id_target: 7413:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003351
+    fix_damage: "1000003351"
   }
   {
     id: 26792
@@ -9576,7 +10760,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000397606
+    fix_damage: "1000397606"
   }
   {
     id: 26793
@@ -9587,7 +10771,7 @@
     buff_id_target: 7413:-1,7409:-1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003959
+    fix_damage: "1000003959"
   }
   {
     id: 34901
@@ -9649,7 +10833,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006000
+    fix_damage: "1000006000"
   }
   {
     id: 60001
@@ -9659,7 +10843,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000006001
+    fix_damage: "1000006001"
   }
   {
     id: 60002
@@ -9684,7 +10868,7 @@
     is_armor: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006002
+    fix_damage: "1000006002"
   }
   {
     id: 60004
@@ -9696,7 +10880,7 @@
     is_miss: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006003
+    fix_damage: "1000006003"
   }
   {
     id: 60005
@@ -9707,7 +10891,7 @@
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006001
+    fix_damage: "1000006001"
   }
   {
     id: 60006
@@ -9718,7 +10902,7 @@
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006004
+    fix_damage: "1000006004"
   }
   {
     id: 60007
@@ -9729,7 +10913,7 @@
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006004
+    fix_damage: "1000006004"
   }
   {
     id: 60008
@@ -9740,7 +10924,7 @@
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000006004
+    fix_damage: "1000006004"
   }
   {
     id: 70001
@@ -9749,7 +10933,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000070001
+    fix_damage: "1000070001"
   }
   {
     id: 70002
@@ -9758,7 +10942,7 @@
     critical_hit_rate: "100"
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000070008
+    fix_damage: "1000070008"
   }
   {
     id: 70003
@@ -9767,7 +10951,7 @@
     critical_hit_rate: "100"
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000070007
+    fix_damage: "1000070007"
   }
   {
     id: 70004
@@ -9777,7 +10961,7 @@
     buff_id_target: 760020:1000070010
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000070009
+    fix_damage: "1000070009"
   }
   {
     id: 217601
@@ -9788,7 +10972,36 @@
     buff_id_target: 7966:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000004384
+    fix_damage: "1000004384"
+  }
+  {
+    id: 241201
+    description: 凉香榴弹
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 241202
+    description: 普通攻击凉香
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 243501
+    description: 额外普攻
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000005544"
   }
   {
     id: 251001
@@ -9808,7 +11021,7 @@
     buff_id_target: 3619:1,361901:1,361902:1,361903:1,361904:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003374
+    fix_damage: "1000003374"
   }
   {
     id: 251802
@@ -9823,7 +11036,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003374
+    fix_damage: "1000003374"
   }
   {
     id: 251901
@@ -9926,7 +11139,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000368101
+    fix_damage: "1000368101"
   }
   {
     id: 260601
@@ -9984,7 +11197,7 @@
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000003726
+    fix_damage: "1000003726"
   }
   {
     id: 261802
@@ -9994,7 +11207,7 @@
     float_wide: 15
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000003727
+    fix_damage: "1000003727"
   }
   {
     id: 262601
@@ -10031,13 +11244,13 @@
     id: 263101
     description: ***
     hit_type: 1
-    fix_damage: 2
+    fix_damage: "2"
   }
   {
     id: 263102
     description: ***
     hit_type: 1
-    fix_damage: 10
+    fix_damage: "10"
   }
   {
     id: 263103
@@ -10045,7 +11258,7 @@
     buff_id_target: 712303:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 2
+    fix_damage: "2"
   }
   {
     id: 263104
@@ -10058,7 +11271,7 @@
     id: 263105
     description: ***
     hit_type: 1
-    fix_damage: 3
+    fix_damage: "3"
   }
   {
     id: 263501
@@ -10077,7 +11290,7 @@
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
-    fix_damage: 1000003792
+    fix_damage: "1000003792"
   }
   {
     id: 264201
@@ -10120,7 +11333,7 @@
     description: 真实伤害
     hit_type: 1
     is_shield: 100
-    fix_damage: 1000003841
+    fix_damage: "1000003841"
   }
   {
     id: 264901
@@ -10159,7 +11372,7 @@
     buff_id_target: 719101:-1,719102:-1,719105:1000003941
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003938
+    fix_damage: "1000003938"
   }
   {
     id: 265303
@@ -10167,7 +11380,7 @@
     buff_id_target: 719101:-1,719102:-1,719105:1000003941
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003939
+    fix_damage: "1000003939"
   }
   {
     id: 265304
@@ -10175,7 +11388,7 @@
     buff_id_target: 719101:-1,719102:-1,719105:1000003941
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003940
+    fix_damage: "1000003940"
   }
   {
     id: 265401
@@ -10349,7 +11562,7 @@
     buff_id_self: 72008:1,1000003871:1,1000387714:1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000003861
+    fix_damage: "1000003861"
   }
   {
     id: 266101
@@ -10362,7 +11575,7 @@
     hurt_buff_trigger_type: 1
     buff_rate: "100"
     hit_type: 1
-    fix_damage: 1000386501
+    fix_damage: "1000386501"
   }
   {
     id: 266102
@@ -10407,7 +11620,7 @@
     is_form_hurt: 1
     is_armor: 1
     hit_type: 1
-    fix_damage: 1000003960
+    fix_damage: "1000003960"
   }
   {
     id: 267501

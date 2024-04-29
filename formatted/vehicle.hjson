@@ -1,0 +1,124 @@
+[
+  {
+    id: 1
+    name: Main Battle Tank
+    en_name: tank
+    code: TankM1
+    introduce: An armored unit with powerful heavy weapon firepower that can attack enemies from long range with heavy weaponry as well as engage enemies at close range using a variety of light weapons. Its versatility, combined with its armor and high maneuverability, give it supreme control over the battlefield in ground warfare.
+    type: 1
+    population: 2
+    energy_max: 60
+    energy_bak_max: 180
+    energy_cost: 20
+    baseammo: 40
+    basemre: 40
+    ammo_part: 10
+    mre_part: 10
+    type_component1: "1"
+    type_component2: "3,4"
+    type_component3: "1,2"
+    type_component4: "2"
+    type_component5: "3"
+    name_component1: Heavy Weapon Slot
+    name_component2: Defense/Function Slot
+    name_component3: Heavy/Light Weapon Slot
+    name_component4: Light Weapon Slot
+    name_component5: Function Slot
+    common_component_num: 4
+    crew_ids: "1001,1002,1003,1004"
+    launch_times: 2016-05-20 00:00:00
+    basic_hp: 3600
+    basic_heavy_damage: 290
+    basic_light_damage: 220
+    basic_reload: 136
+    basic_atk_speed: 64
+    basic_precision: 102
+    basic_hit: 24
+    basic_armor: 10
+    basic_dodge: 12
+    H_armor_piercing: 85
+    L_armor_piercing: 45
+    def_break: 180
+    crit: 10
+    crit_dmg: 150
+    night_vision: 2
+    move: 12
+    L_attack_rang: 8
+    H_attack_rang: 20
+    long_attack_range: "1,2"
+    assist_type: 1
+    battle_assist_range: "1,2"
+    display_assist_damage_area: 100
+    original_component1: 12
+    original_component2: 13
+    talent_skill: "220156,220202"
+    normal_attack: 900107
+    performance_skill: 220220
+    assit_skill: 220200
+    basic_effect: 25000
+    C_off: "1.6,5.2"
+    unlock_mission: "11485,11487;11483"
+    dorm_interact: 1;0.75;0
+  }
+  {
+    id: 2
+    name: Tactical Mech
+    en_name: Warjack
+    code: Warjack
+    introduce: The Tactical Mech project has carried out several prototype trials with investment from IOP. Hoping to abandon the cumbersome layout of the original military mech, IOP designed this new version with high mobility in mind and outfitted it with powerful weaponry and equipment. Its ability to strike from different distances through the use of light and heavy weapons enables it to fill a niche of armored vehicles that can fight in complex combat environments such as in urban settings and on mountainous terrain.
+    type: 2
+    population: 2
+    energy_max: 80
+    energy_bak_max: 240
+    energy_cost: 20
+    baseammo: 40
+    basemre: 40
+    ammo_part: 10
+    mre_part: 10
+    type_component1: "1,2"
+    type_component2: "2"
+    type_component3: "2"
+    type_component4: "3,4"
+    type_component5: "3"
+    name_component1: Heavy/Light Weapon Slot
+    name_component2: Light Weapon Slot
+    name_component3: Light Weapon Slot
+    name_component4: Defense/Function Slot
+    name_component5: Function Slot
+    common_component_num: 4
+    crew_ids: "2001"
+    launch_times: 2016-05-20 00:00:00
+    basic_hp: 4400
+    basic_heavy_damage: 220
+    basic_light_damage: 290
+    basic_reload: 104
+    basic_atk_speed: 80
+    basic_precision: 81
+    basic_hit: 30
+    basic_armor: 10
+    basic_dodge: 12
+    H_armor_piercing: 65
+    L_armor_piercing: 60
+    def_break: 140
+    crit: 40
+    crit_dmg: 150
+    night_vision: 2
+    move: 12
+    L_attack_rang: 8
+    H_attack_rang: 20
+    long_attack_range: "0,0"
+    battle_assist_range: "0,0"
+    display_assist_damage_area: 100
+    original_component1: 22
+    original_component2: 23
+    original_component3: 24
+    talent_skill: "220154"
+    passive_skill: "220203"
+    normal_attack: 900107
+    performance_skill: 900001
+    basic_effect: 25000
+    C_off: "1.6,5.2"
+    unlock_mission: "11484,11486;11482"
+    dorm_interact: 2;0.6;0
+  }
+]

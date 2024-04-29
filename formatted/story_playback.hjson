@@ -3,6 +3,8 @@
     id: 1
     name: Chapter 0
     type: 1
+    tag: story_playback-40000001
+    order: 1
   }
   {
     id: 2
@@ -10,6 +12,8 @@
     name: Chapter 1
     chapter: "1"
     type: 1
+    tag: story_playback-40000002
+    order: 2
   }
   {
     id: 3
@@ -17,6 +21,8 @@
     name: Chapter 2
     chapter: "2"
     type: 1
+    tag: story_playback-40000003
+    order: 3
   }
   {
     id: 4
@@ -24,6 +30,8 @@
     name: Chapter 3
     chapter: "3"
     type: 1
+    tag: story_playback-40000004
+    order: 4
   }
   {
     id: 5
@@ -31,6 +39,8 @@
     name: Chapter 4
     chapter: "4"
     type: 1
+    tag: story_playback-40000005
+    order: 5
   }
   {
     id: 6
@@ -38,6 +48,8 @@
     name: Chapter 5
     chapter: "5"
     type: 1
+    tag: story_playback-40000006
+    order: 6
   }
   {
     id: 7
@@ -45,6 +57,8 @@
     name: Operation Cube
     chapter: "5.5"
     type: 2
+    tag: story_playback-40000007
+    order: 7
   }
   {
     id: 8
@@ -52,6 +66,8 @@
     name: Chapter 6
     chapter: "6"
     type: 1
+    tag: story_playback-40000008
+    order: 8
   }
   {
     id: 9
@@ -59,13 +75,17 @@
     name: Chapter 7
     chapter: "7"
     type: 1
+    tag: story_playback-40000009
+    order: 9
   }
   {
     id: 10
-    story_campaign_id: "-2,-3,-4,-5"
+    story_campaign_id: "-2,-3,-4,-5,-23"
     name: Arctic Warfare
     chapter: "7.5"
     type: 2
+    tag: story_playback-40000010
+    order: 10
   }
   {
     id: 11
@@ -73,6 +93,8 @@
     name: Blindfold Theorem
     chapter: "7.75"
     type: 2
+    tag: story_playback-40000011
+    order: 11
   }
   {
     id: 12
@@ -80,6 +102,8 @@
     name: Chapter 8
     chapter: "8"
     type: 1
+    tag: story_playback-40000012
+    order: 12
   }
   {
     id: 13
@@ -87,6 +111,8 @@
     name: Deep Dive
     chapter: "8.5"
     type: 2
+    tag: story_playback-40000013
+    order: 13
   }
   {
     id: 14
@@ -94,6 +120,8 @@
     name: Chapter 9
     chapter: "9"
     type: 1
+    tag: story_playback-40000014
+    order: 14
   }
   {
     id: 15
@@ -101,6 +129,8 @@
     name: Chapter 10
     chapter: "10"
     type: 1
+    tag: story_playback-40000015
+    order: 15
   }
   {
     id: 16
@@ -108,6 +138,8 @@
     name: Singularity
     chapter: "10.5"
     type: 2
+    tag: story_playback-40000016
+    order: 16
   }
   {
     id: 17
@@ -115,6 +147,8 @@
     name: Continuum Turbulence
     chapter: "10.75"
     type: 2
+    tag: story_playback-40000017
+    order: 17
   }
   {
     id: 18
@@ -122,6 +156,8 @@
     name: Chapter 11
     chapter: "11"
     type: 1
+    tag: story_playback-40000018
+    order: 18
   }
   {
     id: 19
@@ -129,6 +165,8 @@
     name: Isomer
     chapter: "11.5"
     type: 2
+    tag: story_playback-40000019
+    order: 19
   }
   {
     id: 20
@@ -136,6 +174,8 @@
     name: Shattered Connexion
     chapter: "11.75"
     type: 2
+    tag: story_playback-40000020
+    order: 20
   }
   {
     id: 21
@@ -143,6 +183,8 @@
     name: Chapter 12
     chapter: "12"
     type: 1
+    tag: story_playback-40000021
+    order: 21
   }
   {
     id: 22
@@ -150,6 +192,8 @@
     name: Polarized Light
     chapter: "12.5"
     type: 2
+    tag: story_playback-40000022
+    order: 22
   }
   {
     id: 23
@@ -157,101 +201,16 @@
     name: Chapter 13
     chapter: "13"
     type: 1
+    tag: story_playback-40000023
+    order: 23
   }
   {
     id: 24
     story_campaign_id: "-41"
-    name: story_playback-10000024
-    chapter: story_playback-20000024
+    name: Dual Randomness
+    chapter: "13.25"
     type: 2
-    description: story_playback-30000024
-  }
-  {
-    id: 25
-    story_campaign_id: "-44"
-    name: story_playback-10000025
-    chapter: story_playback-20000025
-    type: 2
-    description: story_playback-30000025
-  }
-  {
-    id: 26
-    story_campaign_id: "-48"
-    name: story_playback-10000026
-    chapter: story_playback-20000026
-    type: 2
-    description: story_playback-30000026
-  }
-  {
-    id: 27
-    story_campaign_id: "-51"
-    name: story_playback-10000027
-    chapter: story_playback-20000027
-    type: 2
-    description: story_playback-30000027
-  }
-  {
-    id: 28
-    story_campaign_id: "-54"
-    name: story_playback-10000028
-    chapter: story_playback-20000028
-    type: 2
-    description: story_playback-30000028
-  }
-  {
-    id: 30
-    story_campaign_id: "-34"
-    name: story_playback-10000030
-    chapter: story_playback-20000030
-    type: 3
-    description: story_playback-30000030
-  }
-  {
-    id: 31
-    story_campaign_id: "-35"
-    name: story_playback-10000031
-    chapter: story_playback-20000031
-    type: 3
-    description: story_playback-30000031
-  }
-  {
-    id: 32
-    story_campaign_id: "-37"
-    name: story_playback-10000032
-    chapter: story_playback-20000032
-    type: 3
-    description: story_playback-30000032
-  }
-  {
-    id: 33
-    story_campaign_id: "-49"
-    name: story_playback-10000033
-    chapter: story_playback-20000033
-    type: 3
-    description: story_playback-30000033
-  }
-  {
-    id: 34
-    story_campaign_id: "-56"
-    name: story_playback-10000034
-    chapter: story_playback-20000034
-    type: 3
-    description: story_playback-30000034
-  }
-  {
-    id: 35
-    story_campaign_id: "-40"
-    name: story_playback-10000035
-    chapter: story_playback-20000035
-    type: 3
-    description: story_playback-30000035
-  }
-  {
-    id: 36
-    story_campaign_id: "-47"
-    name: story_playback-10000036
-    chapter: story_playback-20000036
-    type: 3
-    description: story_playback-30000036
+    tag: EP.
+    order: 24
   }
 ]

@@ -143,8 +143,8 @@
     id: 16
     type: squad_eat_chip_num
     count: 10
-    title: Chip Enhancement
-    describe: Use up 10 Chips in Chip Enhancement.
+    title: Support Dispatch
+    describe: Compete 10 Auto-Battles.
     function_control_id: 15
     prize_id: 30026
     activity_bonus: 20
@@ -152,10 +152,9 @@
   {
     id: 17
     type: complete_squad_daily
-    count: 3
-    title: Intel Collection
-    describe: Complete 3 Intel Missions.
-    function_control_id: 15
+    count: 10
+    title: Doll Interaction
+    describe: Give 10 gifts to T-Dolls or Coalition Units.
     prize_id: 30027
     activity_bonus: 20
   }
@@ -163,8 +162,8 @@
     id: 18
     type: squad_data_analyse
     count: 10
-    title: Intel Analysis
-    describe: Perform Intel Analysis 10 times.
+    title: Combat Mission
+    describe: Use Fire Support Units 10 times in battles.
     function_control_id: 15
     prize_id: 30028
     activity_bonus: 20

@@ -3010,6 +3010,7 @@
     id: 610001
     code_a: 2023RougeSummer_Mixer
     description_a: Griffin
+    description_b: Mixer
     description_c: Start up
     code_b: Console_Icon
   }
@@ -3017,6 +3018,7 @@
     id: 610002
     code_a: 2307RGM1
     description_a: Griffin
+    description_b: Liquefied Interference Spray
     description_c: Pick Up
     code_b: Console_Icon
   }
@@ -3024,6 +3026,7 @@
     id: 610003
     code_a: 2307RGM2
     description_a: Griffin
+    description_b: Doll Lubricating Oil
     description_c: Pick Up
     code_b: Console_Icon
   }
@@ -3031,30 +3034,36 @@
     id: 610011
     code_a: 2307RG01
     description_a: Griffin
+    description_b: Liquefied Weakening Spray
+    description_c: Produce
     code_b: Console_Icon
   }
   {
     id: 610012
     code_a: 2307RG02
     description_a: Griffin
+    description_b: Doll Propulsion Oil
     code_b: Console_Icon
   }
   {
     id: 610013
     code_a: 2307RG03
     description_a: Griffin
+    description_b: High-Performance Weakening Spray
     code_b: Console_Icon
   }
   {
     id: 610014
     code_a: 2307RG04
     description_a: Griffin
+    description_b: High-Performance Propulsion Oil
     code_b: Console_Icon
   }
   {
     id: 610015
     code_a: 2307RG05
     description_a: Griffin
+    description_b: Unstable Compound
     code_b: Console_Icon
   }
   {
@@ -3103,6 +3112,11 @@
     description_a: Griffin
     description_b: Process Transaction
     description_c: Process Transaction
+    code_b: Console_Icon
+  }
+  {
+    id: 640104
+    code_a: Rouge_591004
     code_b: Console_Icon
   }
   {
@@ -4761,6 +4775,7 @@
     id: 6360004
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Buff
     description_c: Activate
     code_b: Console_Icon
     is_manual_target: 2
@@ -4803,6 +4818,16 @@
     description_a: Friendly Echelons
     description_b: Defense Gate X1
     description_c: Open
+    code_b: Console_Icon
+  }
+  {
+    id: 6400000
+    code_a: SAC2045_CamouflageSkill
+    code_b: Console_Icon
+  }
+  {
+    id: 6400003
+    code_a: SAC2045_CamouflageSkill
     code_b: Console_Icon
   }
   {
@@ -6337,6 +6362,89 @@
     description_a: Friendly Echelon
     description_b: Control Hub
     description_c: Turn Off
+    code_b: Console_Icon
+  }
+  {
+    id: 6620001
+    code_a: Boomer
+    description_a: Friendly Echelon
+    description_b: Goliath
+    description_c: Throw
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6620002
+    code_a: Build_PortableEMP
+    description_b: EMP
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6620003
+    code_a: portalskill
+    description_b: Unoccupied Node
+    description_c: Teleport
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6620004
+    code_a: Griffin
+    description_b: Opening Freeze
+    description_c: Obtain
+    code_b: Console_Icon
+  }
+  {
+    id: 6620005
+    code_a: Griffin
+    description_b: Ground of Assault
+    code_b: Console_Icon
+  }
+  {
+    id: 6620006
+    code_a: Griffin
+    description_b: Support Coverage
+    code_b: Console_Icon
+  }
+  {
+    id: 6620007
+    code_a: Build_PortableEMP
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 6620008
+    code_a: Console
+    description_b: Defense Gate
+    description_c: Open
+    code_b: Console_Icon
+  }
+  {
+    id: 6630001
+    code_a: Boomer
+    description_b: Goliath (Facility)
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6630002
+    code_a: Boomer
+    description_b: Goliath (Enemy)
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6630003
+    code_a: Griffin
+    description_b: Vision Buff
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6630004
+    code_a: Boomer
+    description_c: Abandon
     code_b: Console_Icon
   }
   {

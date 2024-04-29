@@ -348,6 +348,170 @@
     activation_skills: "750878,750879"
   }
   {
+    id: 1046
+    description: 45监视
+    watch_trigger_type: 1
+    activation_watch_trigger: 1018
+    activation_skills: "759095"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1047
+    description: 离场监视
+    watch_trigger_type: 6
+    activation_skills: "750899"
+  }
+  {
+    id: 1048
+    description: 掉编监视
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "755320"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1049
+    description: 敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "755320"
+  }
+  {
+    id: 1050
+    description: 10%血量监视
+    record_chara1: 1000005401
+    watch_trigger_type: 2
+    activation_watch_trigger: 1019
+    activation_skills: "755323"
+    record_watch_trigger: 1019
+    new_record_chara1: 1000005401
+  }
+  {
+    id: 1051
+    description: 素子掉编监视
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 1015
+    activation_skills: "750904"
+    new_record_chara1: 1000005160
+  }
+  {
+    id: 1052
+    description: 敌方死亡监视
+    watch_trigger_type: 7
+    watch_sp_trigger: "750902"
+    activation_skills: "750903"
+  }
+  {
+    id: 1053
+    description: 敌方精英死亡监视
+    watch_trigger_type: 7
+    watch_sp_trigger: "750903"
+    activation_skills: "750906"
+  }
+  {
+    id: 1054
+    description: 布丁敌方死亡监视
+    watch_trigger_type: 7
+    activation_skills: "750908"
+  }
+  {
+    id: 1060
+    description: 死亡监视
+    watch_trigger_type: 7
+    activation_skills: "740099"
+  }
+  {
+    id: 1061
+    description: 被暴击监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 1060
+    activation_skills: "740106"
+    sp_skill_target: "1"
+  }
+  {
+    id: 1062
+    description: 风暴离场监视
+    watch_trigger_type: 6
+    activation_skills: "740110"
+  }
+  {
+    id: 3001
+    description: 距离监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 2001
+    activation_skills: "770002"
+    sp_skill_target: "1"
+  }
+  {
+    id: 3002
+    description: 受伤监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 2002
+    activation_skills: "770007"
+    sp_skill_target: "1"
+  }
+  {
+    id: 3003
+    description: 眩晕监视
+    record_chara1: 1000009017
+    watch_trigger_type: 1
+    activation_watch_trigger: 2003
+    activation_skills: "770035"
+    sp_skill_target: "1"
+    new_record_chara1: 1000009017
+  }
+  {
+    id: 3004
+    description: 爆炸触发
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 2004
+    activation_skills: "770048"
+    sp_skill_target: "1"
+  }
+  {
+    id: 3005
+    description: 防护期间受伤监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 2005
+    activation_skills: "770069"
+  }
+  {
+    id: 3006
+    description: 载具能量受伤监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 2006
+    activation_skills: "770085"
+  }
+  {
+    id: 3007
+    description: 载具能量受伤反击监视
+    watch_trigger_type: 2
+    activation_watch_trigger: 2007
+    activation_skills: "770087"
+  }
+  {
+    id: 3008
+    description: 受伤监视
+    record_chara1: 1000009070
+    watch_trigger_type: 2
+    activation_watch_trigger: 2008
+    activation_skills: "770132"
+    record_watch_trigger: 2010
+    new_record_chara1: 1000009071
+  }
+  {
+    id: 3009
+    description: 受伤监视记录次数
+    watch_trigger_type: 2
+    activation_watch_trigger: 2009
+    activation_skills: "770136"
+  }
+  {
     id: 5001
     description: 曦和监视
     record_chara1: 1000002118
@@ -392,6 +556,60 @@
     activation_watch_trigger: 5005
     activation_skills: "120806"
     new_record_chara1: 1000002219
+  }
+  {
+    id: 5006
+    description: 榴弹发射器监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 1
+    activation_watch_trigger: 5006
+    activation_skills: "220118"
+    sp_skill_target: "1"
+    new_record_chara1: 1000002219
+  }
+  {
+    id: 5007
+    description: 词条精英击杀监视
+    watch_trigger_type: 7
+    watch_sp_trigger: "220168"
+    activation_skills: "220168"
+  }
+  {
+    id: 5008
+    description: 掉编监视
+    record_chara1: 1000005160
+    watch_trigger_type: 2
+    activation_watch_trigger: 5008
+    activation_skills: "220169"
+  }
+  {
+    id: 5009
+    description: 江琦布丁监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 2
+    activation_watch_trigger: 5009
+    activation_skills: "121921"
+    sp_skill_target: "1"
+  }
+  {
+    id: 5010
+    description: 江琦布丁解控监视
+    record_chara1: 1000002355
+    watch_trigger_type: 1
+    activation_watch_trigger: 5010
+    activation_skills: "121917"
+    new_record_chara1: 1000002355
+  }
+  {
+    id: 5011
+    description: MG15监视
+    max_times: 1
+    if_delete_buff: 1
+    watch_trigger_type: 7
+    activation_skills: "121806"
+    sp_skill_target: "1"
   }
   {
     id: 70001

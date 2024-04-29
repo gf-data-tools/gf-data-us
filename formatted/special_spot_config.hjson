@@ -23,8 +23,8 @@
     code: "2"
     priority: 10
     duration_type: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 2
@@ -41,8 +41,8 @@
     code: "3"
     priority: 11
     duration_type: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 3
@@ -60,8 +60,8 @@
     priority: 14
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 4
@@ -79,8 +79,8 @@
     priority: 16
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 8
@@ -120,18 +120,18 @@
     code: "12"
     priority: 20
     duration_type: "1"
-    duration_time: "3"
-    mission_buff_config_id: 6
+    duration_time: "1"
+    mission_buff_config_id: 61
     detect_target_type: "-1"
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 12
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,1201"
+    death_effect_target_type: "-1"
     effect_duration: 6
     effect_conditions: "0,1"
   }
@@ -200,8 +200,8 @@
     priority: 98
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     side_type: 2
@@ -652,6 +652,50 @@
     effect_conditions: "0,1"
   }
   {
+    id: 1201
+    name: special_spot_config-10001201
+    description: special_spot_config-20001201
+    code: "12"
+    priority: 20
+    duration_type: "1"
+    duration_time: "1"
+    mission_buff_config_id: 61
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 12
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,1202"
+    death_effect_target_type: "-1"
+    effect_duration: 6
+    effect_conditions: "0,1"
+  }
+  {
+    id: 1202
+    name: special_spot_config-10001202
+    description: special_spot_config-20001202
+    code: "12"
+    priority: 20
+    duration_type: "1"
+    duration_time: "1"
+    mission_buff_config_id: 61
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 12
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "6,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 6
+    effect_conditions: "0,1"
+  }
+  {
     id: 1301
     name: special_spot_config-10001301
     description: special_spot_config-20001301
@@ -1039,8 +1083,8 @@
     priority: 1701
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1701
@@ -1059,8 +1103,8 @@
     priority: 1702
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1702
@@ -1081,7 +1125,7 @@
     duration_time: "2,1"
     special_spot_config_id: 1801
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1800
@@ -1100,7 +1144,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1801
@@ -1157,13 +1201,13 @@
     duration_time: "1"
     mission_buff_config_id: 1900
     detect_target_type: "-1"
-    effect_target_type: "1,8,301,303"
+    effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1900
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1900,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_duration: 1000024
     effect_conditions: "1"
@@ -1174,17 +1218,18 @@
     description: special_spot_config-20001901
     priority: 1901
     duration_type: "1"
-    duration_time: "2"
+    duration_time: "1"
     mission_buff_config_id: 1900
     detect_target_type: "-1"
-    effect_target_type: "1,8,301,303"
+    effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1901
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "1900,0,0"
+    skill_config_id_on_death: "0,0,1900"
+    death_effect_target_type: "-1"
     effect_duration: 1000024
     effect_conditions: "1"
   }
@@ -1291,7 +1336,7 @@
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1311,7 +1356,7 @@
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1331,7 +1376,7 @@
     mission_buff_config_id: 2300
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,8,301"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     conflict_type: 2301
@@ -1451,7 +1496,7 @@
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
     effect_duration: 900002
-    spot_buff_config_id: 3
+    spot_buff_config_id: 8
   }
   {
     id: 70012
@@ -1461,8 +1506,8 @@
     priority: 70012
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 70012
@@ -1482,8 +1527,8 @@
     priority: 70014
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 70014
@@ -1502,8 +1547,8 @@
     priority: -1
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 72001
@@ -1520,8 +1565,8 @@
     priority: -1
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 72002
@@ -1706,17 +1751,18 @@
     code: "1004"
     priority: 20
     duration_type: "1"
-    duration_time: "2"
-    mission_buff_config_id: 1004
+    duration_time: "1"
+    mission_buff_config_id: 10041
     detect_target_type: "-1"
-    effect_target_type: "1,8"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 10
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
-    skill_config_id_on_death: "0,0,0"
+    skill_config_id_on_birth: "1004,0,0"
+    skill_config_id_on_death: "0,0,100402"
+    death_effect_target_type: "-1"
     effect_duration: 1004
     effect_conditions: "0,1"
   }
@@ -1724,20 +1770,21 @@
     id: 100402
     name: special_spot_config-10100402
     description: special_spot_config-20100402
-    code: "100401"
-    priority: 100401
+    code: "1004"
+    priority: 20
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1"
-    effect_target_type: "1"
+    mission_buff_config_id: 10041
+    detect_target_type: "-1"
+    effect_target_type: "1,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
-    conflict_type: 100401
-    conditions_type: 0;0
-    conditions_time: 0-0;0-0
+    conflict_type: 10
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
     skill_config_id_on_birth: "1004,0,0"
     skill_config_id_on_death: "0,0,0"
+    effect_duration: 1004
     effect_conditions: "0,1"
   }
   {
@@ -2252,7 +2299,7 @@
     duration_type: "1"
     duration_time: "1"
     special_spot_config_id: 410302
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -2417,8 +2464,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 410501
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 410501
@@ -3316,7 +3363,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440302
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3353,7 +3400,7 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 440301
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3544,7 +3591,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440611
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3562,7 +3609,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440612
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3580,7 +3627,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440613
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3598,7 +3645,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440614
-    detect_target_type: "1,8,301"
+    detect_target_type: "1,8,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3820,7 +3867,7 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 440000
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -3892,7 +3939,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 440911
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     detect_range: 3
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -4498,8 +4545,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 481400
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 481400
@@ -6070,8 +6117,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 483411
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 483401
@@ -8081,7 +8128,7 @@
     duration_type: "1"
     duration_time: "1"
     special_spot_config_id: 510202
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -8421,8 +8468,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 510703
-    detect_target_type: "1,7,8"
-    effect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
+    effect_target_type: "1,7,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 510703
@@ -8757,7 +8804,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,301"
+    effect_target_type: "1,3,7,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 510931
@@ -9462,7 +9509,7 @@
     priority: 1
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -9611,7 +9658,7 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 541321
-    detect_target_type: "201,301"
+    detect_target_type: "201,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -12404,7 +12451,7 @@
     duration_time: "99"
     mission_buff_config_id: 580102
     detect_target_type: "-1"
-    effect_target_type: "1,7,8,301,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 580103
@@ -12749,16 +12796,15 @@
     priority: 1
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 581701
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
   }
@@ -12861,7 +12907,7 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 583602
-    detect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
     detect_range: 1
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
@@ -12918,8 +12964,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 583602
-    detect_target_type: "1,301"
-    effect_target_type: "1,301"
+    detect_target_type: "1,301,10,305,304"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 583604
@@ -13522,7 +13568,7 @@
     duration_time: "99"
     mission_buff_config_id: 597001
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597001
@@ -13541,7 +13587,7 @@
     duration_time: "99"
     mission_buff_config_id: 597002
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597002
@@ -13560,7 +13606,7 @@
     duration_time: "99"
     mission_buff_config_id: 597003
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597003
@@ -13579,7 +13625,7 @@
     duration_time: "99"
     mission_buff_config_id: 597004
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597004
@@ -13598,7 +13644,7 @@
     duration_time: "99"
     mission_buff_config_id: 597005
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597005
@@ -13617,7 +13663,7 @@
     duration_time: "99"
     mission_buff_config_id: 597006
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597006
@@ -13636,7 +13682,7 @@
     duration_time: "99"
     mission_buff_config_id: 597007
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597007
@@ -13655,7 +13701,7 @@
     duration_time: "99"
     mission_buff_config_id: 597008
     detect_target_type: "-1"
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 597008
@@ -13929,7 +13975,7 @@
     mission_buff_config_id: 599901
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13950,7 +13996,7 @@
     mission_buff_config_id: 599902
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13971,7 +14017,7 @@
     mission_buff_config_id: 599903
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -13992,7 +14038,7 @@
     mission_buff_config_id: 599904
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -14013,7 +14059,7 @@
     mission_buff_config_id: 599905
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -14034,7 +14080,7 @@
     mission_buff_config_id: 599906
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -14055,7 +14101,7 @@
     mission_buff_config_id: 599907
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -14076,7 +14122,7 @@
     mission_buff_config_id: 599908
     detect_target_type: "-1"
     detect_range: 10
-    effect_target_type: "1,301"
+    effect_target_type: "1,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 2
     effect_range: 10
@@ -14655,6 +14701,159 @@
     death_effect_target_type: "-1"
   }
   {
+    id: 640000
+    name: special_spot_config-10640000
+    description: special_spot_config-20640000
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6400001
+    detect_target_type: "1,2,7,8,9,10,301,303,305"
+    effect_target_type: "1,2,7,8,9,10,301,303,305"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640000
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640001
+    name: special_spot_config-10640001
+    description: special_spot_config-20640001
+    priority: 1
+    duration_type: "1,3"
+    duration_time: "1,1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640002
+    name: special_spot_config-10640002
+    description: special_spot_config-20640002
+    priority: 1
+    duration_type: "1,3"
+    duration_time: "1,1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640100
+    name: special_spot_config-10640100
+    description: special_spot_config-20640100
+    code: EzakiBoss
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640100
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640101
+    name: special_spot_config-10640101
+    description: special_spot_config-20640101
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    conditions_count: 1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640102
+    name: special_spot_config-10640102
+    description: special_spot_config-20640102
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 640102
+    detect_target_type: "4,5,6"
+    detect_range: 1
+    effect_target_type: "4,5,6"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640102
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "640102,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 640103
+    name: special_spot_config-10640103
+    description: special_spot_config-20640103
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    detect_range: 1
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 1
+    conflict_type: 640103
+    conditions_type: 0;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,640104"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "0,1"
+  }
+  {
+    id: 640104
+    name: special_spot_config-10640104
+    description: special_spot_config-20640104
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 640104
+    conditions_type: 0;0
+    conditions_time: 1-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "0,1"
+  }
+  {
     id: 700121
     name: special_spot_config-10700121
     description: special_spot_config-20700121
@@ -14663,8 +14862,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_hurt_config_id: 70012
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 700121
@@ -14683,8 +14882,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_hurt_config_id: 70014
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 700141
@@ -14739,7 +14938,7 @@
     duration_type: "1"
     duration_time: "99"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 900003
@@ -14786,6 +14985,63 @@
     effect_duration: 900002
     effect_conditions: "0,1"
     spot_buff_config_id: 2
+  }
+  {
+    id: 998001
+    name: special_spot_config-10998001
+    description: special_spot_config-20998001
+    priority: 1
+    duration_type: "1"
+    duration_time: "2"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 7
+  }
+  {
+    id: 998002
+    name: special_spot_config-10998002
+    description: special_spot_config-20998002
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    special_spot_config_id: 998003
+    detect_target_type: "-1"
+    detect_range: 1
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998002
+    conditions_type: 0;3
+    conditions_time: 0-0;0-1
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 3
+  }
+  {
+    id: 998003
+    name: special_spot_config-10998003
+    description: special_spot_config-20998003
+    priority: 2
+    duration_type: "3"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 998002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
   }
   {
     id: 1000001
@@ -14875,7 +15131,7 @@
     priority: 1000005
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000005
@@ -14893,7 +15149,7 @@
     priority: 1000006
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000006
@@ -15106,7 +15362,7 @@
     duration_type: "1,3"
     duration_time: "1,1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000017
@@ -15297,7 +15553,7 @@
     duration_type: "1"
     duration_time: "99"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000028
@@ -15683,8 +15939,8 @@
     duration_type: "1,3"
     duration_time: "99,99"
     mission_hurt_config_id: 1000048
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 1000048
@@ -19365,16 +19621,15 @@
     priority: 1120101
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120101
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19406,16 +19661,15 @@
     priority: 1120201
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120201
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19447,16 +19701,15 @@
     priority: 1120301
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120301
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19488,16 +19741,15 @@
     priority: 1120401
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120401
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -19529,16 +19781,15 @@
     priority: 1120501
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 1120501
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -20571,7 +20822,7 @@
     priority: 2110101
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 2110101
@@ -20815,7 +21066,7 @@
     duration_time: "99"
     mission_buff_config_id: 6000003
     detect_target_type: "-1"
-    effect_target_type: "301"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6000004
@@ -20834,8 +21085,8 @@
     priority: 6000005
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6000005
@@ -21070,6 +21321,311 @@
     skill_config_id_on_birth: "0,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_duration: 1013
+  }
+  {
+    id: 6005001
+    name: special_spot_config-16005001
+    description: special_spot_config-26005001
+    code: "6005001"
+    priority: 6005001
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,6580001,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005002
+    name: special_spot_config-16005002
+    description: special_spot_config-26005002
+    code: "6005002"
+    priority: 6005002
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,6580001,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005003
+    name: special_spot_config-16005003
+    description: special_spot_config-26005003
+    code: "6005003"
+    priority: 6005003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005004
+    name: special_spot_config-16005004
+    description: special_spot_config-26005004
+    code: "6005004"
+    priority: 6005004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005005
+    name: special_spot_config-16005005
+    description: special_spot_config-26005005
+    code: "6005005"
+    priority: 6005005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 544202
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1000108
+  }
+  {
+    id: 6005006
+    name: special_spot_config-16005006
+    description: special_spot_config-26005006
+    code: "6005006"
+    priority: 6005006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005007
+    name: special_spot_config-16005007
+    description: special_spot_config-26005007
+    code: "6005007"
+    priority: 6005007
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005007
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005008
+    name: special_spot_config-16005008
+    description: special_spot_config-26005008
+    code: "6005008"
+    priority: 6005008
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005009
+    name: special_spot_config-16005009
+    description: special_spot_config-26005009
+    code: "6005009"
+    priority: 6005009
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005009
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005010
+    name: special_spot_config-16005010
+    description: special_spot_config-26005010
+    code: "6005010"
+    priority: 6005010
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005010
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005011
+    name: special_spot_config-16005011
+    description: special_spot_config-26005011
+    code: "6005011"
+    priority: 6005011
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005011
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005012
+    name: special_spot_config-16005012
+    description: special_spot_config-26005012
+    code: "6005012"
+    priority: 6005012
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6005012
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6005013
+    name: special_spot_config-16005013
+    description: special_spot_config-26005013
+    code: "6005013"
+    priority: 6005013
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    effect_range: 1
+    conflict_type: 6005013
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6005014
+    name: special_spot_config-16005014
+    description: special_spot_config-26005014
+    priority: 9130601
+    duration_type: "1,3"
+    duration_time: "99,99"
+    mission_buff_config_id: 1000009
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9130601
+    conditions_type: "3,3;0"
+    conditions_time: 0-1,0-1;0-0
+    skill_config_id_on_birth: "1000009,1000004,9130608"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1000019
+    effect_conditions: "0,1"
+  }
+  {
+    id: 6005015
+    name: special_spot_config-16005015
+    description: special_spot_config-26005015
+    priority: 9130608
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "1,3,4,5,6,7,8,201"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 9130608
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,1000005,9130607"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_conditions: "0,1"
   }
   {
     id: 6030141
@@ -21885,6 +22441,24 @@
     skill_config_id_on_death: "0,0,0"
   }
   {
+    id: 6400005
+    name: special_spot_config-16400005
+    description: special_spot_config-26400005
+    priority: 1
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6400005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 6410101
     name: special_spot_config-16410101
     description: special_spot_config-26410101
@@ -21892,7 +22466,7 @@
     priority: 6410101
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,8"
+    detect_target_type: "1,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -22647,7 +23221,7 @@
     priority: 6410907
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,8"
+    detect_target_type: "1,3,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26576,7 +27150,7 @@
     priority: 6460001
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26776,7 +27350,7 @@
     priority: 6460011
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26797,7 +27371,7 @@
     priority: 6460012
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26818,7 +27392,7 @@
     priority: 6460013
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -26839,7 +27413,7 @@
     priority: 6460014
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8"
+    detect_target_type: "1,7,8,10"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27453,7 +28027,7 @@
     priority: 6480012
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27472,7 +28046,7 @@
     priority: 6480013
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -27740,7 +28314,7 @@
     priority: 6480027
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28198,7 +28772,7 @@
     priority: 6480050
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28218,7 +28792,7 @@
     priority: 6480051
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28238,7 +28812,7 @@
     priority: 6480052
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28258,7 +28832,7 @@
     priority: 6480053
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28277,7 +28851,7 @@
     priority: 6480054
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28295,7 +28869,7 @@
     priority: 6480055
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28313,7 +28887,7 @@
     priority: 6480056
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28331,7 +28905,7 @@
     priority: 6480057
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -28371,7 +28945,7 @@
     priority: 6480059
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29044,7 +29618,7 @@
     priority: 6480094
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29062,7 +29636,7 @@
     priority: 6480095
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29080,7 +29654,7 @@
     priority: 6480096
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29098,7 +29672,7 @@
     priority: 6480097
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29116,7 +29690,7 @@
     priority: 6480098
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29134,7 +29708,7 @@
     priority: 6480099
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29152,7 +29726,7 @@
     priority: 6480100
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29170,7 +29744,7 @@
     priority: 6480101
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29188,7 +29762,7 @@
     priority: 6480102
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29206,7 +29780,7 @@
     priority: 6480103
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29224,7 +29798,7 @@
     priority: 6480104
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29242,7 +29816,7 @@
     priority: 6480105
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29260,7 +29834,7 @@
     priority: 6480106
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -29278,7 +29852,7 @@
     priority: 6480107
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,7,8,201,301"
+    detect_target_type: "1,3,7,8,201,301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -31413,7 +31987,7 @@
     mission_buff_config_id: 6510013
     detect_target_type: "-1"
     detect_range: 1
-    effect_target_type: "3,301,302,303"
+    effect_target_type: "3,301,10,305,304,302,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -32625,8 +33199,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 6520003
-    detect_target_type: "1,3,7,8,301"
-    effect_target_type: "1,3,7,8,301"
+    detect_target_type: "1,3,7,8,301,10,305,304"
+    effect_target_type: "1,3,7,8,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6520022
@@ -33337,7 +33911,7 @@
     mission_buff_config_id: 6540200
     detect_target_type: "-1"
     detect_range: 2
-    effect_target_type: "1,7,8"
+    effect_target_type: "1,7,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 3
@@ -34896,7 +35470,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 6540183
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -35075,7 +35649,7 @@
     duration_time: "1"
     mission_buff_config_id: 6540246
     detect_target_type: "-1"
-    effect_target_type: "1,301,8"
+    effect_target_type: "1,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6540191
@@ -35095,8 +35669,8 @@
     priority: 6540192
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,301,8"
-    effect_target_type: "1,301,8"
+    detect_target_type: "1,301,10,305,304,8"
+    effect_target_type: "1,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6540192
@@ -35563,8 +36137,8 @@
     duration_type: "1"
     duration_time: "1"
     mission_hurt_config_id: 6560001
-    detect_target_type: "1,3,301,8"
-    effect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560021
@@ -35851,7 +36425,7 @@
     duration_time: "99"
     mission_buff_config_id: 6560004
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560036
@@ -35871,7 +36445,7 @@
     duration_time: "99"
     special_spot_config_id: 6560039
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560037
@@ -35891,7 +36465,7 @@
     duration_time: "99"
     special_spot_config_id: 6560040
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560038
@@ -35950,7 +36524,7 @@
     special_spot_config_id: 6560042
     detect_target_type: "-1"
     detect_range: 1
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6560041
@@ -36200,8 +36774,8 @@
     duration_type: "1"
     duration_time: "99"
     mission_buff_config_id: 6580000
-    detect_target_type: "1,8"
-    effect_target_type: "1,8"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 6580005
@@ -36559,7 +37133,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -36581,7 +37155,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -36603,7 +37177,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -36625,7 +37199,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -36647,7 +37221,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -36669,7 +37243,7 @@
     duration_type: "2"
     duration_time: "1"
     detect_target_type: "-1"
-    detect_range: 4
+    detect_range: 5
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -38764,6 +39338,1173 @@
     effect_duration: 900003
   }
   {
+    id: 6620001
+    name: special_spot_config-16620001
+    description: special_spot_config-26620001
+    code: "6620001"
+    priority: 6620001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6620002
+    name: special_spot_config-16620002
+    description: special_spot_config-26620002
+    code: "6620002"
+    priority: 6620002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+  }
+  {
+    id: 6620003
+    name: special_spot_config-16620003
+    description: special_spot_config-26620003
+    code: "6620003"
+    priority: 6620003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6620004
+    name: special_spot_config-16620004
+    description: special_spot_config-26620004
+    code: "6620004"
+    priority: 6620004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6620005
+    name: special_spot_config-16620005
+    description: special_spot_config-26620005
+    code: "6620005"
+    priority: 6620005
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1008
+  }
+  {
+    id: 6620006
+    name: special_spot_config-16620006
+    description: special_spot_config-26620006
+    code: "6620006"
+    priority: 6620006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6620006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629000
+    name: special_spot_config-16629000
+    description: special_spot_config-26629000
+    code: "6629000"
+    priority: 6629000
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629000
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629001
+    name: special_spot_config-16629001
+    description: special_spot_config-26629001
+    code: "6629001"
+    priority: 6629001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629002
+    name: special_spot_config-16629002
+    description: special_spot_config-26629002
+    code: "6629002"
+    priority: 6629002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629003
+    name: special_spot_config-16629003
+    description: special_spot_config-26629003
+    code: "6629003"
+    priority: 6629003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629004
+    name: special_spot_config-16629004
+    description: special_spot_config-26629004
+    code: "6629004"
+    priority: 6629004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629005
+    name: special_spot_config-16629005
+    description: special_spot_config-26629005
+    code: "6629005"
+    priority: 6629005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629006
+    name: special_spot_config-16629006
+    description: special_spot_config-26629006
+    code: "6629006"
+    priority: 6629006
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629006
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629101
+    name: special_spot_config-16629101
+    description: special_spot_config-26629101
+    code: "6629101"
+    priority: 6629101
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629201
+    name: special_spot_config-16629201
+    description: special_spot_config-26629201
+    code: "6629201"
+    priority: 6629201
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629301
+    name: special_spot_config-16629301
+    description: special_spot_config-26629301
+    code: "6629301"
+    priority: 6629301
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629401
+    name: special_spot_config-16629401
+    description: special_spot_config-26629401
+    code: "6629401"
+    priority: 6629401
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: -1
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629905
+    name: special_spot_config-16629905
+    description: special_spot_config-26629905
+    code: "6629905"
+    priority: 6629905
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629905
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629910
+    name: special_spot_config-16629910
+    description: special_spot_config-26629910
+    code: "6629910"
+    priority: 6629910
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629100
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629910
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629911
+    name: special_spot_config-16629911
+    description: special_spot_config-26629911
+    code: "6629911"
+    priority: 6629911
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629101
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629911
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629912
+    name: special_spot_config-16629912
+    description: special_spot_config-26629912
+    code: "6629912"
+    priority: 6629912
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629102
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629912
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629913
+    name: special_spot_config-16629913
+    description: special_spot_config-26629913
+    code: "6629913"
+    priority: 6629913
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629103
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629913
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629914
+    name: special_spot_config-16629914
+    description: special_spot_config-26629914
+    code: "6629914"
+    priority: 6629914
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629104
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629914
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629915
+    name: special_spot_config-16629915
+    description: special_spot_config-26629915
+    code: "6629915"
+    priority: 6629915
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629003
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629915
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629920
+    name: special_spot_config-16629920
+    description: special_spot_config-26629920
+    code: "6629920"
+    priority: 6629920
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629200
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629920
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629921
+    name: special_spot_config-16629921
+    description: special_spot_config-26629921
+    code: "6629921"
+    priority: 6629921
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629201
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629921
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629922
+    name: special_spot_config-16629922
+    description: special_spot_config-26629922
+    code: "6629922"
+    priority: 6629922
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629202
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629922
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629923
+    name: special_spot_config-16629923
+    description: special_spot_config-26629923
+    code: "6629923"
+    priority: 6629923
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629203
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629923
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629924
+    name: special_spot_config-16629924
+    description: special_spot_config-26629924
+    code: "6629924"
+    priority: 6629924
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629204
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629924
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629925
+    name: special_spot_config-16629925
+    description: special_spot_config-26629925
+    code: "6629925"
+    priority: 6629925
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629004
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629925
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629930
+    name: special_spot_config-16629930
+    description: special_spot_config-26629930
+    code: "6629930"
+    priority: 6629930
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629300
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629930
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629931
+    name: special_spot_config-16629931
+    description: special_spot_config-26629931
+    code: "6629931"
+    priority: 6629931
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629301
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629931
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629932
+    name: special_spot_config-16629932
+    description: special_spot_config-26629932
+    code: "6629932"
+    priority: 6629932
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629302
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629932
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629933
+    name: special_spot_config-16629933
+    description: special_spot_config-26629933
+    code: "6629933"
+    priority: 6629933
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629303
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629933
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629934
+    name: special_spot_config-16629934
+    description: special_spot_config-26629934
+    code: "6629934"
+    priority: 6629934
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629304
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629934
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629935
+    name: special_spot_config-16629935
+    description: special_spot_config-26629935
+    code: "6629935"
+    priority: 6629935
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6629005
+    detect_target_type: "1,10"
+    effect_target_type: "1,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629935
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629941
+    name: special_spot_config-16629941
+    description: special_spot_config-26629941
+    code: "6629941"
+    priority: 6629941
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629941
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629942
+    name: special_spot_config-16629942
+    description: special_spot_config-26629942
+    code: "6629942"
+    priority: 6629942
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629942
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629943
+    name: special_spot_config-16629943
+    description: special_spot_config-26629943
+    code: "6629943"
+    priority: 6629943
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629943
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629951
+    name: special_spot_config-16629951
+    description: special_spot_config-26629951
+    code: "6629951"
+    priority: 6629951
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629951
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6360001,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6629952
+    name: special_spot_config-16629952
+    description: special_spot_config-26629952
+    code: "6629952"
+    priority: 6629952
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6629952
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "1000001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_birth: 1000020
+  }
+  {
+    id: 6630001
+    name: special_spot_config-16630001
+    description: special_spot_config-26630001
+    code: "6630001"
+    priority: 6630001
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630001
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630002,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630002
+    name: special_spot_config-16630002
+    description: special_spot_config-26630002
+    code: "6630002"
+    priority: 6630002
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630002
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630003,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630003
+    name: special_spot_config-16630003
+    description: special_spot_config-26630003
+    code: "6630003"
+    priority: 6630003
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630004,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630004
+    name: special_spot_config-16630004
+    description: special_spot_config-26630004
+    code: "6630004"
+    priority: 6630004
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630005,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630005
+    name: special_spot_config-16630005
+    description: special_spot_config-26630005
+    code: "6630005"
+    priority: 6630005
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630006
+    name: special_spot_config-16630006
+    description: special_spot_config-26630006
+    code: "6630006"
+    priority: 6630006
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6630001
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630006
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630011
+    name: special_spot_config-16630011
+    description: special_spot_config-26630011
+    code: "6630011"
+    priority: 6630011
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630011
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630012,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630012
+    name: special_spot_config-16630012
+    description: special_spot_config-26630012
+    code: "6630012"
+    priority: 6630012
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630012
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630013,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630013
+    name: special_spot_config-16630013
+    description: special_spot_config-26630013
+    code: "6630013"
+    priority: 6630013
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630013
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630014,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630014
+    name: special_spot_config-16630014
+    description: special_spot_config-26630014
+    code: "6630014"
+    priority: 6630014
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630014
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630015,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630015
+    name: special_spot_config-16630015
+    description: special_spot_config-26630015
+    code: "6630015"
+    priority: 6630015
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630015
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630016,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630016
+    name: special_spot_config-16630016
+    description: special_spot_config-26630016
+    code: "6630016"
+    priority: 6630016
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630016
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630017,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630017
+    name: special_spot_config-16630017
+    description: special_spot_config-26630017
+    code: "6630017"
+    priority: 6630017
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630017
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630018,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630018
+    name: special_spot_config-16630018
+    description: special_spot_config-26630018
+    code: "6630018"
+    priority: 6630018
+    duration_type: "1"
+    duration_time: "1"
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630018
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "6630019,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630019
+    name: special_spot_config-16630019
+    description: special_spot_config-26630019
+    code: "6630019"
+    priority: 6630019
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630019
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 900002
+    spot_buff_config_id: 3
+  }
+  {
+    id: 6630020
+    name: special_spot_config-16630020
+    description: special_spot_config-26630020
+    code: "6630020"
+    priority: 6630020
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630020
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630021
+    name: special_spot_config-16630021
+    description: special_spot_config-26630021
+    code: "6630021"
+    priority: 6630021
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630021
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6630001,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630022
+    name: special_spot_config-16630022
+    description: special_spot_config-26630022
+    code: "6630022"
+    priority: 6630022
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630022
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,6630002,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
+    id: 6630023
+    name: special_spot_config-16630023
+    description: special_spot_config-26630023
+    code: "6630023"
+    priority: 6630023
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 6630011
+    detect_target_type: "1,8,10"
+    effect_target_type: "1,8,10"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 6630023
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+  }
+  {
     id: 7000001
     name: special_spot_config-17000001
     description: special_spot_config-27000001
@@ -38772,8 +40513,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 7000001
-    detect_target_type: "1,3,5,7,8,201,301"
-    effect_target_type: "1,3,5,7,8,201,301"
+    detect_target_type: "1,3,5,7,8,201,301,10,305,304"
+    effect_target_type: "1,3,5,7,8,201,301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 7000001
@@ -40243,7 +41984,7 @@
     duration_type: "1"
     duration_time: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,4,5,6,7,8,201"
+    effect_target_type: "1,3,4,5,6,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9130608
@@ -40873,16 +42614,15 @@
     priority: 9332110
     duration_type: "1"
     duration_time: "99"
-    mission_buff_config_id: 1000002
+    mission_buff_config_id: 10000021
     detect_target_type: "-1"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
-    side_type: 2
     conflict_type: 9332110
-    conditions_type: 2;0
+    conditions_type: 3;0
     conditions_time: 0-1;0-0
-    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_birth: "1000002,0,0"
     skill_config_id_on_death: "0,0,0"
     effect_conditions: "0,1"
   }
@@ -40928,7 +42668,7 @@
     priority: 9332113
     duration_type: "1"
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9332113
@@ -41540,8 +43280,8 @@
     priority: 9337206
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "1,3,201"
-    effect_target_type: "1,3,7,8,201"
+    detect_target_type: "1,3,201,10"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9337206
@@ -41558,8 +43298,8 @@
     priority: 9337207
     duration_type: "1"
     duration_time: "1"
-    detect_target_type: "7"
-    effect_target_type: "7"
+    detect_target_type: "7,10"
+    effect_target_type: "7,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9337207
@@ -44041,7 +45781,7 @@
     duration_time: "1"
     special_spot_config_id: 9410211
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410210
@@ -44099,7 +45839,7 @@
     duration_time: "1"
     special_spot_config_id: 9410214
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410213
@@ -44157,7 +45897,7 @@
     duration_time: "9999999"
     mission_buff_config_id: 6410216
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410213
@@ -44322,8 +46062,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410331
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410331
@@ -44341,8 +46081,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410332
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410332
@@ -44360,8 +46100,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9410333
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9410333
@@ -44380,7 +46120,7 @@
     duration_time: "1"
     special_spot_config_id: 9411239
     detect_target_type: "-1"
-    effect_target_type: "1,3,7,8,201"
+    effect_target_type: "1,3,7,8,201,10"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9411238
@@ -44456,8 +46196,8 @@
     duration_type: "3"
     duration_time: "1"
     mission_buff_config_id: 9411870
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9411870
@@ -44642,8 +46382,8 @@
     duration_type: "1,3"
     duration_time: "99,1"
     special_spot_config_id: 9490402
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9490401
@@ -44661,8 +46401,8 @@
     priority: 9490402
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9490402
@@ -44697,8 +46437,8 @@
     priority: 9521001
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521001
@@ -44734,8 +46474,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521212
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521211
@@ -44771,8 +46511,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521310
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521309
@@ -44825,8 +46565,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521405
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521404
@@ -44862,8 +46602,8 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9521407
-    detect_target_type: "1,7,8,301,303"
-    effect_target_type: "1,7,8,301,303"
+    detect_target_type: "1,7,8,301,10,305,304,303"
+    effect_target_type: "1,7,8,301,10,305,304,303"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9521406
@@ -44956,7 +46696,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9583804
-    detect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -45009,7 +46749,7 @@
     duration_type: "1"
     duration_time: "99"
     special_spot_config_id: 9584002
-    detect_target_type: "1,3,301,8"
+    detect_target_type: "1,3,301,10,305,304,8"
     effect_target_type: "-1"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
@@ -45119,7 +46859,7 @@
     duration_time: "99"
     mission_buff_config_id: 9584201
     detect_target_type: "-1"
-    effect_target_type: "1,3,301,8"
+    effect_target_type: "1,3,301,10,305,304,8"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 9584203
@@ -45227,8 +46967,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44350002
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44350001
@@ -45263,8 +47003,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44360004
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44360001
@@ -45283,8 +47023,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44360005
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44360003
@@ -45355,9 +47095,9 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44370002
-    detect_target_type: "301"
+    detect_target_type: "301,10,305,304"
     detect_range: 1
-    effect_target_type: "301"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45394,8 +47134,8 @@
     priority: 44400001
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400001
@@ -45413,8 +47153,8 @@
     priority: 44400002
     duration_type: "1"
     duration_time: "99"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400002
@@ -45431,8 +47171,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400004
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     conflict_type: 44400003
@@ -45524,8 +47264,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400025
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45543,8 +47283,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400026
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45562,8 +47302,8 @@
     priority: 44400025
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45581,8 +47321,8 @@
     priority: 44400026
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45600,8 +47340,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44400028
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45619,8 +47359,8 @@
     priority: 44400028
     duration_type: "3"
     duration_time: "1"
-    detect_target_type: "301"
-    effect_target_type: "301"
+    detect_target_type: "301,10,305,304"
+    effect_target_type: "301,10,305,304"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45694,8 +47434,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44430005
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1
@@ -45732,8 +47472,8 @@
     duration_type: "3"
     duration_time: "1"
     special_spot_config_id: 44440002
-    detect_target_type: "1,3,301,302,303,7,8,201"
-    effect_target_type: "1,3,301,302,303,7,8,201"
+    detect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
+    effect_target_type: "1,3,301,10,305,304,302,303,7,8,201"
     effect_spotbelong_type: "0,1,2,3"
     effect_range_type: 1
     effect_range: 1

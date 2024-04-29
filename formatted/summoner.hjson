@@ -16782,7 +16782,7 @@
     passive_skill: "121105,900673,200304"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
-    start_offset: "-1,0,1.5"
+    start_offset: "1,0,1.5"
     camp: 1
     is_hp_showed: 1
     is_damage_showed: 1
@@ -16832,11 +16832,542 @@
     passive_skill: "121105,900673,200304"
     unable_buff_id: "3250,3251,3252,3253,3254,3255"
     scale: "1,1,1"
-    start_offset: "0,0,-1.5"
+    start_offset: "1,0,-1.5"
     camp: 1
     is_hp_showed: 1
     is_damage_showed: 1
     is_damage_source: 1
+  }
+  {
+    id: 1679
+    name: 战术人型机甲
+    code: empty
+    hp: 10000
+    pow: 1000002297
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 50
+    level: 1
+    normal_attack: 900107
+    passive_skill: "220153,220151,220152"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    unable_buff_type: "101,102,103,104,105,106,108,109,110,111,112,128,129,201,202,203,204,205,206,208,220,221,801,802,803,804,805,806,808,810,811,812,826,830,400,301,215"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 1
+    is_damage_source: 1
+    phase_duration: 999999
+  }
+  {
+    id: 1680
+    name: 圣盾_GA
+    code: Aegis_GA
+    hp: 1000002330
+    pow: 1000002331
+    hit: 1000002333
+    dodge: 1000002334
+    range: 3
+    def: 9999
+    speed: 30
+    number: 3
+    angle: 180
+    armor: 1000002335
+    rate: 1000002332
+    level: 30125
+    normal_attack: 300316
+    passive_skill: "200303,200304,770043"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "14,0,-4.2"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1681
+    name: 圣盾_GA
+    code: Aegis_GA
+    hp: 1000002330
+    pow: 1000002331
+    hit: 1000002333
+    dodge: 1000002334
+    range: 3
+    def: 9999
+    speed: 30
+    number: 3
+    angle: 180
+    armor: 1000002335
+    rate: 1000002332
+    level: 30125
+    normal_attack: 300316
+    passive_skill: "200303,200304,770043"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "14,0,4.2"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1682
+    name: 圣盾_GA
+    code: Aegis_GA
+    hp: 1000002330
+    pow: 1000002331
+    hit: 1000002333
+    dodge: 1000002334
+    range: 3
+    def: 9999
+    speed: 30
+    number: 3
+    angle: 180
+    armor: 1000002335
+    rate: 1000002332
+    level: 30125
+    normal_attack: 300316
+    passive_skill: "200303,200304,770043"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "14,0,0"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1683
+    name: 监视二排
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121717"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 1
+    phase_duration: 999999
+  }
+  {
+    id: 1684
+    name: 监视三排
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121718"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 1
+    phase_duration: 999999
+  }
+  {
+    id: 1685
+    name: 1号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1686
+    name: 2号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1687
+    name: 3号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1688
+    name: 4号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1689
+    name: 5号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1690
+    name: 6号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1691
+    name: 7号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1692
+    name: 8号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1693
+    name: 9号
+    code: Drone
+    hp: 99999
+    pow: 1
+    hit: 1
+    range: 1
+    def: 9999
+    speed: 50
+    number: 1
+    angle: 1
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "121917,121918,121919"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 2
+    phase_duration: 999999
+  }
+  {
+    id: 1694
+    name: 无脸路人A-男
+    code: FacelessMenA
+    hp: 1000002356
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "12,0,-4"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1695
+    name: 无脸路人A-男
+    code: FacelessMenA
+    hp: 1000002356
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "12,0,3"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1696
+    name: 无脸路人A-男
+    code: FacelessMenA
+    hp: 1000002356
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "12,0,-1"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1697
+    name: 异构体-60
+    code: FacelessMenB
+    hp: 1000002361
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "15,0,-6"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1698
+    name: 异构体-60
+    code: FacelessMenB
+    hp: 1000002361
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "15,0,-2"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1699
+    name: 异构体-60
+    code: FacelessMenB
+    hp: 1000002361
+    pow: 1000002357
+    hit: 1000002359
+    dodge: 1000002360
+    range: 20
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 1000002358
+    level: 100
+    normal_attack: 755330
+    passive_skill: "200304"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "15,0,1"
+    camp: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 1700
+    name: G36伤害和回避记录
+    code: empty
+    hp: 99999
+    pow: 1000009234
+    hit: 1
+    dodge: 1000009233
+    range: 100
+    def: 9999
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 1
+    shield: 1
+    rate: 1
+    level: 1
+    normal_attack: 900107
+    passive_skill: "803908,1000405,1000408"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "0,0,0"
+    camp: 1
+    is_stay: 1
   }
   {
     id: 1701
@@ -23986,6 +24517,79 @@
     phase_duration: 99999
   }
   {
+    id: 4325
+    name: 支援替身-1
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000,759265"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-44,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4326
+    name: 支援替身-2
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000,759266"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-44,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 4327
+    name: GLY_Black_Enemy
+    code: Golyat
+    hp: 1000005389
+    pow: 1000
+    hit: 10000
+    range: 2
+    def: 9999
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 150
+    level: 100
+    normal_attack: 900107
+    passive_skill: "310325,119020,770044"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255,743101,743102"
+    unable_buff_type: "101,102,103,104,106,201,202,203,204,206"
+    scale: "0.7,0.7,0.7"
+    start_offset: "0,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
     id: 4841
     name: 异构体150夜
     code: Isomer
@@ -24056,6 +24660,78 @@
     camp: 1
     is_hp_showed: 1
     is_damage_showed: 1
+  }
+  {
+    id: 6000
+    name: 无人机
+    code: EngineerUAV
+    hp: 10
+    pow: 1
+    hit: 1
+    range: 5
+    speed: 30
+    number: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000,770072,770073,770124"
+    unable_buff_id: "4632,4633,4634,4635,4636,4637,4638,4639,4640,4641,185,3029,7163,817,818,8535,8379,8943,8944,8945,8946"
+    unable_buff_type: "101,102,103,104,105,106,108,109,110,111,112,128,129,201,202,203,204,205,206,208,220,221,801,802,803,804,805,806,808,810,811,812,826,830,301,215,122,124"
+    scale: "1,1,1"
+    start_offset: "2,0,-2"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    phase_duration: 2
+  }
+  {
+    id: 6001
+    name: 替身
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    scale: "1,1,1"
+    start_offset: "-20,0,0"
+    camp: 2
+    is_stay: 1
+    phase_duration: 99999
+  }
+  {
+    id: 6002
+    name: 无人机2
+    code: EngineerUAV
+    hp: 10
+    pow: 1
+    hit: 1
+    range: 5
+    speed: 30
+    number: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000,770072,770073,770124"
+    unable_buff_id: "4632,4633,4634,4635,4636,4637,4638,4639,4640,4641,185,3029,7163,817,818,8535,8379,8943,8944,8945,8946"
+    unable_buff_type: "101,102,103,104,105,106,108,109,110,111,112,128,129,201,202,203,204,205,206,208,220,221,801,802,803,804,805,806,808,810,811,812,826,830,301,215,122,124"
+    scale: "1,1,1"
+    start_offset: "2,0,2"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+    phase_duration: 2
   }
   {
     id: 10703
@@ -28747,6 +29423,566 @@
     is_damage_showed: 1
   }
   {
+    id: 149721
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003585
+    hit: 1000003595
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003605
+    level: 1
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149722
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003586
+    hit: 1000003596
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003606
+    level: 2
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149723
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003587
+    hit: 1000003597
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003607
+    level: 3
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149724
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003588
+    hit: 1000003598
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003608
+    level: 4
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149725
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003589
+    hit: 1000003599
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003609
+    level: 5
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149726
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003590
+    hit: 1000003600
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003610
+    level: 6
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149727
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003591
+    hit: 1000003601
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003611
+    level: 7
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149728
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003592
+    hit: 1000003602
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003612
+    level: 8
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149729
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003593
+    hit: 1000003603
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003613
+    level: 9
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149730
+    name: 刘氏步枪
+    code: GeneralLiu_8703
+    hp: 15
+    pow: 1000003594
+    hit: 1000003604
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003614
+    level: 10
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149731
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003585
+    hit: 1000003595
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003605
+    level: 1
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149732
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003586
+    hit: 1000003596
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003606
+    level: 2
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149733
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003587
+    hit: 1000003597
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003607
+    level: 3
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149734
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003588
+    hit: 1000003598
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003608
+    level: 4
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149735
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003589
+    hit: 1000003599
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003609
+    level: 5
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149736
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003590
+    hit: 1000003600
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003610
+    level: 6
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149737
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003591
+    hit: 1000003601
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003611
+    level: 7
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149738
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003592
+    hit: 1000003602
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003612
+    level: 8
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149739
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003593
+    hit: 1000003603
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003613
+    level: 9
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
+    id: 149740
+    name: 刘氏步枪
+    code: GeneralLiu_10204
+    hp: 15
+    pow: 1000003594
+    hit: 1000003604
+    dodge: 1000003581
+    range: 8
+    def: 9999
+    speed: 16
+    number: 3
+    angle: 1000003616
+    armor_piercing: 1000003582
+    armor: 1000003583
+    crit_hit: 1000003584
+    rate: 1000003614
+    level: 10
+    normal_attack: 900854
+    passive_skill: "900673,900851,900852,900853,900855,900856,900858,900849"
+    unable_buff_id: "185,3029,7163,817,818,8535,8379"
+    scale: "1,1,1"
+    start_offset: "-8,0,0"
+    camp: 1
+    is_stay: 1
+    is_hp_showed: 1
+    is_damage_showed: 1
+  }
+  {
     id: 150001
     name: 法官的电子盾1
     code: empty
@@ -31572,6 +32808,31 @@
     camp: 1
     is_hp_showed: 1
     is_damage_showed: 1
+  }
+  {
+    id: 432701
+    name: 支援替身-1
+    code: empty
+    hp: 999
+    pow: 1
+    hit: 1
+    dodge: 1
+    range: 100
+    def: 9999
+    speed: 100
+    number: 1
+    shield: 1
+    rate: 30
+    level: 1
+    normal_attack: 900107
+    passive_skill: "750000,750958,750959"
+    unable_buff_id: "3250,3251,3252,3253,3254,3255"
+    unable_buff_type: "101,102,103,104,105,106,108,109,110,111,112,128,129,201,202,203,204,205,206,208,220,221,801,802,803,804,805,806,808,810,811,812,826,830,301,215,122,124"
+    scale: "1,1,1"
+    start_offset: "-44,0,0"
+    camp: 1
+    is_stay: 1
+    phase_duration: 99999
   }
   {
     id: 999010

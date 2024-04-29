@@ -1308,7 +1308,7 @@
     action_order: bossskill
     action_playspeed: "100"
     creation_order: "305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307,305,306,307"
-    creation_delay: "39,39,39,43,43,43,47,47,47,51,51,51,55,55,55,59,59,59,63,63,63,67,67,67,71,71,71,75,75,75,79,79,79.83.83.83"
+    creation_delay: "39,39,39,43,43,43,47,47,47,51,51,51,55,55,55,59,59,59,63,63,63,67,67,67,71,71,71,75,75,75,79,79,79,83,83,83"
   }
   {
     id: 302
@@ -8966,6 +8966,22 @@
     creation_delay: "60,60,150"
   }
   {
+    id: 2081
+    name: 希普卡强化普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "3721,21,138,8,8,8,372101"
+    creation_delay: "0,0,0,9,4,7,2"
+  }
+  {
+    id: 2100
+    name: 布伦套装普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "5,3730,21,139,139,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,0,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
     id: 2609
     name: 魂竞争者普攻
     action_order: "1"
@@ -13071,7 +13087,7 @@
     action_delay: "0,40"
     action_playspeed: "100,100"
     creation_order: "10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393,10391,10392,10393"
-    creation_delay: "39,39,39,43,43,43,47,47,47,51,51,51,55,55,55,59,59,59,63,63,63,67,67,67,71,71,71,75,75,75,79,79,79.83.83.83"
+    creation_delay: "39,39,39,43,43,43,47,47,47,51,51,51,55,55,55,59,59,59,63,63,63,67,67,67,71,71,71,75,75,75,79,79,79,83,83,83"
   }
   {
     id: 3558
@@ -13563,7 +13579,7 @@
   {
     id: 3624
     name: 高达重武器原生lv1
-    action_order: skill1
+    action_order: heavyattack
     action_playspeed: "100"
     creation_order: "10553,10554"
     creation_delay: "22,22"
@@ -13571,7 +13587,7 @@
   {
     id: 3625
     name: 高达重武器原生lv2
-    action_order: skill1
+    action_order: heavyattack
     action_playspeed: "100"
     creation_order: "10553,10555"
     creation_delay: "22,22"
@@ -13579,7 +13595,7 @@
   {
     id: 3626
     name: 高达重武器原生lv3
-    action_order: skill1
+    action_order: heavyattack
     action_playspeed: "100"
     creation_order: "10553,10555,10556"
     creation_delay: "22,22,22"
@@ -13590,7 +13606,7 @@
     action_order: attack_SP
     action_playspeed: "150"
     creation_order: "10557,10557,10558,6124"
-    creation_delay: "5,10,15,5"
+    creation_delay: "0,3,9,6"
   }
   {
     id: 3628
@@ -13614,7 +13630,7 @@
     action_order: attack_SP
     action_playspeed: "150"
     creation_order: "10561,10561,10562,6124"
-    creation_delay: "5,10,15,5"
+    creation_delay: "0,3,9,6"
   }
   {
     id: 3631
@@ -13754,6 +13770,140 @@
     id: 3651
     name: 勃朗宁友方（改）
     creation_order: "10592"
+  }
+  {
+    id: 3652
+    name: 高达轻武器近战
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10557,10557,10558,6124,10593"
+    creation_delay: "0,3,6,0,9"
+  }
+  {
+    id: 3653
+    name: 高达轻武器近战lv3
+    action_order: attack_SP
+    action_playspeed: "150"
+    creation_order: "10561,10561,10562,6124,10594"
+    creation_delay: "0,3,6,0,9"
+  }
+  {
+    id: 3654
+    name: 开场
+    creation_order: "10611,10612,10609,10610"
+    creation_delay: "0,0,1,1"
+  }
+  {
+    id: 3655
+    name: 史蒂文斯620换弹
+    action_order: "3"
+    action_playspeed: "100"
+    creation_order: "10596"
+  }
+  {
+    id: 3656
+    name: 再抽一次
+    creation_order: "10596"
+  }
+  {
+    id: 3657
+    name: 移动后重新部署
+    creation_order: "10609,10610"
+    creation_delay: "0,0"
+  }
+  {
+    id: 3658
+    name: 无动作技能CUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10596"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 3659
+    name: 江崎布丁扔红雷
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10613"
+    creation_delay: "21"
+  }
+  {
+    id: 3660
+    name: 江崎布丁扔黑雷
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "10618"
+    creation_delay: "21"
+  }
+  {
+    id: 3662
+    name: 江崎解控-开场
+    creation_order: "10623,10624,10625,10626,10627,10628,10629,10630,10631"
+    creation_delay: "0,0,0,0,0,0,0,0,0"
+  }
+  {
+    id: 3663
+    name: 江崎解控
+    creation_order: "10632"
+  }
+  {
+    id: 3664
+    name: 江琦判断有人
+    creation_order: "10633"
+  }
+  {
+    id: 3665
+    name: 再找一次
+    creation_order: "10648"
+  }
+  {
+    id: 3666
+    name: 钥匙
+    creation_order: "10635"
+  }
+  {
+    id: 3667
+    name: 岛村孝召唤1
+    action_order: s1
+    action_playspeed: "50"
+    summon_order: "1694,1695,1696"
+    summon_delay: "15,20,25"
+  }
+  {
+    id: 3668
+    name: 岛村孝召唤2
+    action_order: s2
+    action_playspeed: "50"
+    summon_order: "1697,1698,1699"
+    summon_delay: "12,18,24"
+  }
+  {
+    id: 3669
+    name: 岛村孝标记
+    action_order: attack
+    action_playspeed: "100"
+  }
+  {
+    id: 3670
+    name: 岛村孝混乱
+    creation_order: "10637"
+  }
+  {
+    id: 3671
+    name: MG15支援
+    creation_order: "10642,139,139,10642,10646,10646,10646"
+    creation_delay: "0,0,5,2,4,6,8"
+  }
+  {
+    id: 3672
+    name: 无动作技能CUTIN
+    action_delay: "-1"
+    action_playspeed: "100"
+    creation_order: "10647"
+    effect_order: "1"
+    effect_duration: "1"
+    summon_order: "432701"
   }
   {
     id: 4001
@@ -18347,6 +18497,34 @@
     creation_order: "9011"
   }
   {
+    id: 5846
+    name: 造成1000点力场破防
+    creation_order: "9483"
+  }
+  {
+    id: 5847
+    name: 召唤物-支援
+    summon_order: "4325"
+  }
+  {
+    id: 5848
+    name: 全图3000非编伤害和1000破盾
+    creation_order: "9484"
+  }
+  {
+    id: 5849
+    name: 召唤物-支援破防
+    summon_order: "4326"
+  }
+  {
+    id: 5850
+    name: 歌莉娅工厂
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9496"
+    creation_delay: "25"
+  }
+  {
     id: 6000
     name: 扳机触发普攻-通用
   }
@@ -18645,6 +18823,18 @@
     id: 7027
     name: 护盾爆裂
     creation_order: "6143"
+  }
+  {
+    id: 7028
+    name: 车载霰弹枪【真普攻】
+    creation_order: "6144,6145"
+    creation_delay: "0,0"
+  }
+  {
+    id: 7029
+    name: 迫击炮
+    creation_order: "6146,6147"
+    creation_delay: "0,0"
   }
   {
     id: 8001
@@ -24269,6 +24459,401 @@
     creation_delay: "8"
   }
   {
+    id: 8850
+    name: rpg29攻击
+    creation_order: "948501,9495"
+    creation_delay: "0,0"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8851
+    name: rpg29特殊导弹攻击
+    creation_order: "9490,9495"
+    creation_delay: "0,0"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "0,13,26"
+  }
+  {
+    id: 8852
+    name: rpg29cutIn
+    action_order: wait,attack
+    action_delay: "0,5"
+    action_playspeed: "100,100"
+    creation_order: "9489"
+    creation_delay: "15"
+    sound_order: BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer,BT_squad_howitzer
+    sound_delay: "11,14,17,20,23,26,29,32"
+  }
+  {
+    id: 8853
+    name: 万圣梦想家普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9502"
+    creation_delay: "3"
+  }
+  {
+    id: 8854
+    name: 万圣梦想家鬼雾
+    creation_order: "949601,9497"
+    creation_delay: "0,0"
+    creation_afterdeath: "1"
+  }
+  {
+    id: 8855
+    name: 万圣梦想家二技能鬼雾
+    action_order: s1
+    action_playspeed: "100"
+    creation_order: "9498,9498,9498,9509,9509,9509"
+    creation_delay: "40,61,82,40,61,82"
+  }
+  {
+    id: 8856
+    name: 万圣梦想家二技能无鬼雾
+    action_order: s2
+    action_playspeed: "100"
+    creation_order: "9499,9499,9499,9507,9507,9507,9508,9508,9508"
+    creation_delay: "65,110,155,33,78,123,65,110,155"
+  }
+  {
+    id: 8857
+    name: 万圣梦想家一技能
+    action_order: skill1,s4
+    action_delay: "0,41"
+    action_playspeed: "100,100"
+    creation_order: "9500,9504"
+    creation_delay: "60,43"
+    effect_order: 3(Dreamer_Halloween;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8858
+    name: 万圣梦想家一技能解析
+    action_order: skill1,s4
+    action_delay: "0,41"
+    action_playspeed: "100,100"
+    creation_order: "9500,9504"
+    creation_delay: "60,43"
+    effect_order: 3(Dreamer_Halloween_1;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_delay: "1,41"
+    effect_duration: "1,90"
+    stop_time_duration: "40"
+  }
+  {
+    id: 8859
+    name: 万圣梦想家一技能额外
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "9501"
+    creation_delay: "2"
+  }
+  {
+    id: 8860
+    name: 万圣梦想家一技能解析额外
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "9501"
+    creation_delay: "2"
+  }
+  {
+    id: 8861
+    name: 表演普攻
+    action_order: attack
+    action_playspeed: "100"
+    creation_order: "9503"
+    creation_delay: "3"
+  }
+  {
+    id: 8862
+    name: 凉香机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9511,35,9241,9241,9,9,9,9,35,35,35,35,35"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
+  }
+  {
+    id: 8863
+    name: 铁血普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "301,35"
+    creation_delay: "0,0"
+    sound_order: BT_pistol
+  }
+  {
+    id: 8864
+    name: 凉香RPG普攻
+    action_order: a1
+    action_playspeed: "100"
+    creation_order: "9512,9524"
+    creation_delay: "3,3"
+  }
+  {
+    id: 8865
+    name: 凉香RPG二技能
+    action_order: c1,a4,c2
+    action_delay: "0,30,120"
+    action_playspeed: "100,100,100"
+    creation_order: "9513,9524"
+    creation_delay: "90,90"
+  }
+  {
+    id: 8866
+    name: 塔奇克马双枪
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9517,9516,9519,9518,9520,9516,9521,9518,9520,9516,9521,9518"
+    creation_delay: "10,10,2,2,12,12,4,4,14,14,6,6"
+  }
+  {
+    id: 8867
+    name: 塔奇克马主炮
+    action_order: skill
+    action_playspeed: "100"
+    creation_order: "9522,9523"
+    creation_delay: "10,10"
+  }
+  {
+    id: 8868
+    name: 素子
+    action_order: s
+    action_playspeed: "100"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8869
+    name: 布丁榴弹
+    action_order: skill
+    action_playspeed: "100"
+    creation_order: "9526,9528"
+    creation_delay: "15,15"
+  }
+  {
+    id: 8870
+    name: 凉香RPG普攻
+    action_order: a1
+    action_playspeed: "100"
+    creation_order: "9529,9530,953001"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8871
+    name: 凉香切换枪
+    action_order: c2
+    action_playspeed: "100"
+  }
+  {
+    id: 8872
+    name: 凉香切换RPG
+    action_order: c1
+    action_playspeed: "100"
+  }
+  {
+    id: 8873
+    name: 凉香rpg换弹
+    action_order: a2
+    action_playspeed: "100"
+  }
+  {
+    id: 8874
+    name: 凉香RPG二技能半
+    action_order: a3,a4
+    action_delay: "0,30"
+    action_playspeed: "150,100"
+    creation_order: "9513,9524"
+    creation_delay: "90,90"
+  }
+  {
+    id: 8875
+  }
+  {
+    id: 8880
+    name: 520开场判断
+    creation_order: "9540,9541,9542,9543"
+    creation_delay: "0,0,0,0"
+  }
+  {
+    id: 8881
+    name: 换弹
+    action_order: "3"
+    action_playspeed: "100"
+  }
+  {
+    id: 8882
+    name: 霰弹枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9558,30"
+    creation_delay: "0,0"
+    sound_order: BT_Shot_1
+  }
+  {
+    id: 8883
+    name: 机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "5,21,139,139,9,9,9,9,21,21,21,21,21,9545"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8,5"
+  }
+  {
+    id: 8884
+    name: 620主动
+    effect_duration: "1"
+  }
+  {
+    id: 8885
+    name: 620开场判定
+    creation_order: "9546,9547,9548,9559,9560"
+    creation_delay: "0,0,0,0,0"
+  }
+  {
+    id: 8886
+    name: 620开场1
+    creation_order: "9555,9556,9557"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8887
+    name: 620开场2
+    creation_order: "9552,9553,9554"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8888
+    name: 620开场3
+    creation_order: "9549,9550,9551"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8889
+    name: 影响格8
+    creation_order: "9552"
+  }
+  {
+    id: 8890
+    name: 影响格5
+    creation_order: "9553"
+  }
+  {
+    id: 8891
+    name: 影响格2
+    creation_order: "9554"
+  }
+  {
+    id: 8892
+    name: 影响格7
+    creation_order: "9549"
+  }
+  {
+    id: 8893
+    name: 影响格4
+    creation_order: "9550"
+  }
+  {
+    id: 8894
+    name: 影响格1
+    creation_order: "9551"
+  }
+  {
+    id: 8895
+    creation_order: "573301"
+    move_order: "81601"
+  }
+  {
+    id: 8901
+    name: 步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9567,21,139"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8910
+    name: 手榴弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9580"
+    creation_delay: "40"
+    sound_order: BT_grenade_woosh
+    sound_delay: "35"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8911
+    name: 手榴毒弹
+    action_order: "2"
+    action_playspeed: "100"
+    creation_order: "9581"
+    creation_delay: "40"
+    sound_order: BT_grenade_woosh
+    sound_delay: "35"
+    effect_order: "9"
+    effect_duration: "30"
+  }
+  {
+    id: 8912
+    name: EM-2射击
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9584"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "3"
+  }
+  {
+    id: 8913
+    name: 突击步枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9585,7,7,21,140,140"
+    creation_delay: "0,2,4,0,0,2"
+    sound_order: BT_AK,BT_AK,BT_AK
+    sound_delay: "0,3,6"
+  }
+  {
+    id: 8914
+    name: 隼狙击
+    action_order: "1"
+    action_delay: "40"
+    action_playspeed: "100"
+    creation_order: "9586,9587,9588"
+    creation_delay: "40,40,40"
+    sound_order: BT_Sniper_skill_0
+    sound_delay: "40"
+    effect_order: "1"
+    effect_duration: "1"
+  }
+  {
+    id: 8915
+    name: 击退强制位移
+    move_order: "81602"
+  }
+  {
+    id: 8916
+    name: 穿盾伤害
+    creation_order: "9589"
+  }
+  {
+    id: 8921
+    name: 手枪精准普攻[*]
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9601,21,138"
+    creation_delay: "0,0,0"
+  }
+  {
+    id: 8922
+    name: 手枪弱点普攻[*]
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "9602,21,138"
+    creation_delay: "0,0,0"
+  }
+  {
     id: 9001
     name: 狙击妖精
     creation_order: "901,951"
@@ -24371,61 +24956,61 @@
     id: 9017
     name: 人形妖精1
     summon_order: "11,21"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9018
     name: 人形妖精2
     summon_order: "12,22"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9019
     name: 人形妖精3
     summon_order: "13,23"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9020
     name: 人形妖精4
     summon_order: "14,24"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9021
     name: 人形妖精5
     summon_order: "15,25"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9022
     name: 人形妖精6
     summon_order: "16,26"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9023
     name: 人形妖精7
     summon_order: "17,27"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9024
     name: 人形妖精8
     summon_order: "18,28"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9025
     name: 人形妖精9
     summon_order: "19,29"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9026
     name: 人形妖精10
     summon_order: "20,30"
-    summon_delay: "1,1,1"
+    summon_delay: "45,45"
   }
   {
     id: 9027
@@ -24598,6 +25183,14 @@
     stop_time_duration: "120"
   }
   {
+    id: 9211
+    name: 爆破打击MG5
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "10649,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,2,4,6,8,0,2,4,6,8"
+  }
+  {
     id: 9995
     name: 战区boss特效
     creation_order: "386,10000,238"
@@ -24685,6 +25278,30 @@
     action_playspeed: "100"
     creation_order: "83501,83501,83501,836,836,836"
     creation_delay: "0,3,7,0,3,7"
+  }
+  {
+    id: 36591
+    name: 江崎布丁扔红雷
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "106131"
+    creation_delay: "21"
+  }
+  {
+    id: 36601
+    name: 江崎布丁扔黑雷
+    action_order: skill1
+    action_playspeed: "100"
+    creation_order: "106181"
+    creation_delay: "21"
+  }
+  {
+    id: 36701
+    name: 岛村孝混乱
+    action_order: s3
+    action_playspeed: "100"
+    creation_order: "106361"
+    creation_delay: "15"
   }
   {
     id: 38601
@@ -25373,6 +25990,24 @@
     action_playspeed: "100"
     creation_order: "234402"
     sound_order: skill_soldfactory_summon
+  }
+  {
+    id: 171801
+    name: 异构体众
+    action_order: move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move,move
+    action_delay: "0,35,70,105,140,175,210,245,280,315,350,385,420,455,490,525,560"
+    action_playspeed: "50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50"
+    creation_order: "235001,235001,235001,235001,235001"
+    creation_delay: "0,120,240,360,480"
+    move_order: "7410"
+  }
+  {
+    id: 171802
+    name: 机枪普攻
+    action_order: "1"
+    action_playspeed: "100"
+    creation_order: "953002,21,139,139,9,9,9,9,21,21,21,21,21"
+    creation_delay: "0,0,0,5,2,4,6,8,2,4,6,8"
   }
   {
     id: 172101
@@ -28924,6 +29559,11 @@
     id: 841201
     name: 水白
     creation_order: "874001"
+  }
+  {
+    id: 891601
+    name: 穿盾伤害
+    creation_order: "958901"
   }
   {
     id: 900002

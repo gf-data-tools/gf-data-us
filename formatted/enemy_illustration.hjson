@@ -1992,8 +1992,8 @@
     armor_rank: 3
     speed_rank: 3
     range_rank: 1
-    counter: WARNING! Make sure your echelon has enough damage output to neutralize this unit, otherwise avoid it.
-    character: "309,321"
+    counter: This unit has extremely strong armor and resilience. Also watch out for Goliath that spawns as reinforcements and take them out in a timely manner!
+    character: "1003,1005,334,321"
     enemy_skill: "21"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
@@ -3427,6 +3427,7 @@
     character: "1001,202"
     enemy_skill: "60"
     launch_time: 2035-5-20 00:00:00
+    extra: ", Shizuka Itou,"
     org_id: 10604
   }
   {
@@ -3449,6 +3450,7 @@
     character: "1001,320"
     enemy_skill: "174,175,176"
     launch_time: 2035-5-20 00:00:00
+    extra: ", Nozomi Nagumo,"
     spine_scale: "50,50,1"
     org_id: 10603
   }
@@ -3547,6 +3549,7 @@
     character: "1001"
     enemy_skill: "179,116,180,181,182,183"
     launch_time: 2035-5-20 00:00:00
+    extra: ",Kaya Okuno,"
     spine_scale: "70,70,1"
     org_id: 10604
   }
@@ -3880,7 +3883,7 @@
     name: Destroyer
     type: 1
     code: DestroyerPlus
-    introduce: An expert in blowing things up and disarming bombs who also possesses decent combat abilities. Occasionally teams up with Alchemist. She's usually haughty and sharp-tongued, but is actually a tsundere with a somewhat childish temper. She cries under pressure and is very sensitive about her height.
+    introduce: With Dreamer's modifications, Destroyer's brand new form features greatly enhanced firepower. Her attacks pack an even more powerful punch than before, but her personality and neural cloud have not changed much.
     forces: 1
     pow_rank: 5
     life_rank: 5
@@ -4194,11 +4197,12 @@
     spine_scale: "100,100,1"
   }
   {
-    id: 217
-    name: enemy_illustration-10000217
-    type: 3
-    code: AR15Mod_enemy
-    introduce: enemy_illustration-20000217
+    id: 215
+    name: Narciss
+    type: 1
+    code: BossNarciss
+    introduce: Narciss, a Nyto specialized in combat, was a former Paradeus elite unit skilled in taking down enemies with her floating blades and close-quarter attacks. In order to maximize her combat efficiency, Paradeus built her body and weapons with both strength and speed in mind, while completely disregarding the high mental strain they caused. Prolonged exposure to extreme mental and physical torment had cost Narcissus her empathy, muddled her view of good, and eventually turned her into an outright implement of destruction. But now that said implement is separated from those who forced the will to kill upon her, her heart may one day find peace.
+    forces: 3
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4206,19 +4210,32 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000217
+    counter: This unit has two combat modes, melee and ranged. If all seven floating blades are destroyed , this unit will switch from ranged mode to melee mode. When in melee mode, she poses an incredible threat to units with few Dummy-Links.
+    character: "1001,329,330"
+    enemy_skill: "108,109,110"
+    launch_time: 2035-5-20 00:00:00
+    org_id: 10603
+  }
+  {
+    id: 217
+    type: 3
+    code: AR15Mod_enemy
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
     character: "100"
     enemy_skill: "224,225,226,227"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000217
     spine_scale: "70,70,1"
   }
   {
     id: 218
-    name: enemy_illustration-10000218
     type: 3
     code: A545_NPC
-    introduce: enemy_illustration-20000218
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4226,19 +4243,15 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000218
     character: "100"
     enemy_skill: "222"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000218
     spine_scale: "70,70,1"
   }
   {
     id: 219
-    name: enemy_illustration-10000219
     type: 3
     code: PPsh41Enemy
-    introduce: enemy_illustration-20000219
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4246,19 +4259,15 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000219
     character: "100"
     enemy_skill: "223"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000219
     spine_scale: "70,70,1"
   }
   {
     id: 220
-    name: enemy_illustration-10000220
     type: 3
     code: AK47_enemy
-    introduce: enemy_illustration-20000220
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4266,18 +4275,14 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000220
     character: "100"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000220
     spine_scale: "70,70,1"
   }
   {
     id: 221
-    name: enemy_illustration-10000221
     type: 3
     code: VZ61Enemy
-    introduce: enemy_illustration-20000221
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4285,18 +4290,14 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000221
     character: "100"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000221
     spine_scale: "70,70,1"
   }
   {
     id: 222
-    name: enemy_illustration-10000222
     type: 3
     code: MAC10Enemy
-    introduce: enemy_illustration-20000222
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4304,10 +4305,8 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: enemy_illustration-30000222
     character: "100"
     launch_time: 2035-12-31 00:00:00
-    extra: enemy_illustration-40000222
     spine_scale: "70,70,1"
   }
   {

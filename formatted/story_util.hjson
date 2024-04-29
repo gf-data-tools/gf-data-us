@@ -56,9 +56,9 @@
     bgm: BGM_Frontline
     title: Drill
     is_util: 1
-    start: always-404-1-1-1
-    first: always-404-1-1-3
-    end: always-404-1-1-3
+    start: 1-1-1
+    first: 1-1-2
+    end: 1-1-2
   }
   {
     id: 6
@@ -2369,7 +2369,7 @@
   {
     id: 207
     mission_id: "10052"
-    description: '''"I... Where am I..."'''
+    description: '''"Where...exactly am I...?"'''
     scripts: -16-3-1
     campaign: -16
     bgm: BGM_Frontline
@@ -2380,11 +2380,11 @@
   {
     id: 208
     mission_id: "10053"
-    description: '''"Ange, we've recovered M4A1. Any instructions for our next move?"'''
+    description: '''"Ange, we've retrieved M4A1. Any further instructions?"'''
     scripts: -16-4-1,-16-4-4-Point5546,-16-4-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Stroke Dead-Center I
+    title: Exhaust I
     is_util: 1
     start: -16-4-1
     point: 5546:-16-4-4-Point5546
@@ -2394,11 +2394,11 @@
   {
     id: 209
     mission_id: "10054"
-    description: '''"Griffin's shifting towards Area S11? I see it, it's a total mess over here."'''
+    description: '''"Griffin is moving into Area S11? I see. So it's turning into a shitshow here."'''
     scripts: -16-5-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Stroke Dead-Center II
+    title: Exhaust II
     is_util: 1
     first: -16-5-2First
     end: -16-5-2First
@@ -2406,11 +2406,11 @@
   {
     id: 210
     mission_id: "10055"
-    description: '''"I've received a comms request from AK-12. She's broadcasting in clear. Shall I put her through?"'''
+    description: '''"I'm receiving a transmission request with AK-12's plain code. Should I take it?"'''
     scripts: -16-6-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Stroke Dead-Center III
+    title: Exhaust III
     is_util: 1
     first: -16-6-2First
     end: -16-6-2First
@@ -2418,11 +2418,11 @@
   {
     id: 211
     mission_id: "10056"
-    description: '''"It cost us heavily, but I think we secured the rendezvous route."'''
+    description: '''"We have paid a huge price, but that should be enough to safeguard the route to the rendezvous point."'''
     scripts: -16-7-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Stroke Dead-Center IV
+    title: Exhaust IV
     is_util: 1
     first: -16-7-2First
     end: -16-7-2First
@@ -2430,11 +2430,11 @@
   {
     id: 212
     mission_id: "10057"
-    description: '''"AK-12, you haven't forgotten your own specialty, have you?"'''
+    description: '''"You do remember that this is your forte, don't you, AK-12?'''
     scripts: -16-8-4-Point5627,-16-8-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Compression Initiates I
+    title: Compression I
     is_util: 1
     point: 5627:-16-8-4-Point5627
     first: -16-8-2First
@@ -2443,11 +2443,11 @@
   {
     id: 213
     mission_id: "10058"
-    description: '''"I can't believe your neural cloud is in such a mess from just a simple disconnection... It's too fragile, even for an older Doll model..."'''
+    description: '''"Just a simple disconnection was enough to completely scramble her neural cloud... She's too mentally fragile even for an old model..."'''
     scripts: -16-9-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Compression Initiates II
+    title: Compression II
     is_util: 1
     first: -16-9-2First
     end: -16-9-2First
@@ -2455,22 +2455,22 @@
   {
     id: 214
     mission_id: "10059"
-    description: '''"Are you really okay with letting her handle these enemies by herself?"'''
+    description: '''"Are you really okay with leaving all these enemies to her alone?"'''
     scripts: -16-10-1
     campaign: -16
     bgm: BGM_Frontline
-    title: Compression Initiates III
+    title: Compression III
     is_util: 1
     start: -16-10-1
   }
   {
     id: 215
     mission_id: "10060"
-    description: '''"M4, that's enough. Those are friendlies up ahead. They're members of Task Force DEFY, Ange and AN-94."'''
+    description: '''"That'll be enough, M4. These are allies. Members of Task Force DEFY, Ange and AN-94.'''
     scripts: -16-11-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Compression Initiates IV
+    title: Compression IV
     is_util: 1
     first: -16-11-2First
     end: -16-11-2First
@@ -2478,11 +2478,11 @@
   {
     id: 216
     mission_id: "10061"
-    description: '''"Thank you for your hard work, everyone! Please stay at your posts, process your casualties, and wait for new instructions from the Commander!"'''
+    description: '''"Thanks for the hard work! Please stay at your posts, account for all our injured, and await new directives from the Commander!"'''
     scripts: -16-12-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Re-Ignition I
+    title: Ignition I
     is_util: 1
     first: -16-12-2First
     end: -16-12-2First
@@ -2490,11 +2490,11 @@
   {
     id: 217
     mission_id: "10062"
-    description: '''"Isn't there any way to contact any of the commanders? What about the Military? Any response from them yet?"'''
+    description: '''"Still no way of contacting the Commander? What about the Military? Nothing either?"'''
     scripts: -16-13-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Re-Ignition II
+    title: Ignition II
     is_util: 1
     first: -16-13-2First
     end: -16-13-2First
@@ -2502,11 +2502,11 @@
   {
     id: 218
     mission_id: "10063"
-    description: '''"...And that is everything we know about what's happening in Area S09."'''
+    description: '''"...That's all we know about the situation in Area S09."'''
     scripts: -16-14-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Re-Ignition III
+    title: Ignition III
     is_util: 1
     first: -16-14-2First
     end: -16-14-2First
@@ -2514,11 +2514,11 @@
   {
     id: 219
     mission_id: "10064"
-    description: '''"Commander, we've succeeded in bringing back the T-Dolls from the other side!"'''
+    description: '''"Commander, we've successfully brought back the T-Dolls on the other side!"'''
     scripts: -16-15-2First
     campaign: -16
     bgm: BGM_Frontline
-    title: Re-Ignition IV
+    title: Ignition IV
     is_util: 1
     first: -16-15-2First
     end: -16-15-2First
@@ -2526,7 +2526,7 @@
   {
     id: 220
     mission_id: "10065"
-    description: '''"...Yes. We will definitely stop the Military from taking Mastermind. Definitely."'''
+    description: '''"...Yes. We must...prevent the Military from acquiring the Mastermind at all costs."'''
     scripts: -17-1-1,-17-1-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2539,7 +2539,7 @@
   {
     id: 221
     mission_id: "10066"
-    description: '''"Ange, are you making progress?"'''
+    description: '''"Is it going well, Ange?"'''
     scripts: -17-2-1,-17-2-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2565,7 +2565,7 @@
   {
     id: 223
     mission_id: "10068"
-    description: '''"Persica, I've already told M4A1 to have her team stop what they're doing and order AK-12 and AN-94 to prepare for electronic warfare."'''
+    description: '''"Persica, I've already ordered them to drop everything and have AK-12 and AN-94 prepare for electronic warfare."'''
     scripts: -17-4-1,-17-4-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2578,7 +2578,7 @@
   {
     id: 224
     mission_id: "10069"
-    description: '''"Communications are recovering... Is this a good thing, or a bad thing?"'''
+    description: '''"Comms are back up... Not sure if that's good news or bad news..."'''
     scripts: -17-5-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2590,7 +2590,7 @@
   {
     id: 225
     mission_id: "10070"
-    description: '''"I guess you're not going to let the matter go, are you?"'''
+    description: '''"I'm guessing you're not gonna let this go, are you?"'''
     scripts: -17-6-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2602,7 +2602,7 @@
   {
     id: 226
     mission_id: "10071"
-    description: '''"I'm back, and things don't look good at all... I mean, that's still the Military's main force out there..."'''
+    description: '''"I'm back. Things really aren't looking good... After all, these are the Military's main forces..."'''
     scripts: -17-7-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2614,7 +2614,7 @@
   {
     id: 227
     mission_id: "10072"
-    description: '''"I'm curious about something... when Ange asked you to rescue someone, were you disappointed when you learned it was Squad 404 that you'd be saving?"'''
+    description: '''"I'm curious. Were you disappointed at all...when Ange told us our rescue target is Squad 404?"'''
     scripts: -17-8-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2626,7 +2626,7 @@
   {
     id: 228
     mission_id: "10073"
-    description: '''"Agent, M4A1 has returned. She has already made contact with 404 at the central database."'''
+    description: '''"Agent, M4A1 has returned and established contact with Squad 404, currently located in the large database."'''
     scripts: -17-9-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2638,7 +2638,7 @@
   {
     id: 229
     mission_id: "10074"
-    description: '''"45, Griffin's echelons will be here in three minutes."'''
+    description: '''"45, Griffin forces will arrive in three minutes."'''
     scripts: -17-10-1
     campaign: -17
     bgm: BGM_Frontline
@@ -2649,7 +2649,7 @@
   {
     id: 230
     mission_id: "10075"
-    description: '''"Did you have a good rest, ladies? Time to work."'''
+    description: '''"Have we all got enough rest, girls? Let's get cracking then."'''
     scripts: -17-11-1,-17-11-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2662,7 +2662,7 @@
   {
     id: 231
     mission_id: "10076"
-    description: '''"45, Their firepower's too much for us!"'''
+    description: '''"45, their firepower is way too much!"'''
     scripts: -17-12-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2674,7 +2674,7 @@
   {
     id: 232
     mission_id: "10077"
-    description: '''"Haven't our reinforcements arrived yet? If we keep falling back, we'll have to use the Sangvis database as cover."'''
+    description: '''"Is our backup still not here? If we fall back any farther, we'll have to use the Sangvis database as cover."'''
     scripts: -17-13-1,-17-13-2First
     campaign: -17
     bgm: BGM_Frontline
@@ -2687,11 +2687,11 @@
   {
     id: 233
     mission_id: "10078"
-    description: '''"Commander! There's an emergency! We found forces under the command of S.F. Ringleader Gager during our withdrawal!"'''
+    description: '''"Emergency, Commander! We've discovered Sangvis elite Gager's forces on our retreat!"'''
     scripts: -17-14-1,-17-14-2First
     campaign: -17
     bgm: BGM_Frontline
-    title: Minor Pieces Draw I
+    title: Weakling's End I
     is_util: 1
     start: -17-14-1
     first: -17-14-2First
@@ -2700,11 +2700,11 @@
   {
     id: 234
     mission_id: "10079"
-    description: '''"I remember now... So many things... "'''
+    description: '''"It's coming back to me... All the things that happened..."'''
     scripts: -17-15-1,-17-15-2First
     campaign: -17
     bgm: BGM_Frontline
-    title: Minor Pieces Draw II
+    title: Weakling's End II
     is_util: 1
     start: -17-15-1
     first: -17-15-2First
@@ -2713,11 +2713,11 @@
   {
     id: 235
     mission_id: "10080"
-    description: '''"What...should we do now?"'''
+    description: '''"So...what do we do now?"'''
     scripts: -17-16-1,-17-16-2First
     campaign: -17
     bgm: BGM_Frontline
-    title: Minor Pieces Draw III
+    title: Weakling's End III
     is_util: 1
     start: -17-16-1
     first: -17-16-2First
@@ -2726,11 +2726,11 @@
   {
     id: 236
     mission_id: "10081"
-    description: '''"Esteemed Commander of Griffin. I am truly honored to be able to face you on the battlefield... And then, to personally trample you underfoot."'''
+    description: '''"It's my honor, mighty Commander of Griffin, to meet an adversary like you on the battlefield...and tear you apart with my own hands."'''
     scripts: -17-17-1,-17-17-2First
     campaign: -17
     bgm: BGM_Frontline
-    title: Minor Pieces Draw IV
+    title: Weakling's End IV
     is_util: 1
     start: -17-17-1
     first: -17-17-2First
@@ -2739,7 +2739,7 @@
   {
     id: 237
     mission_id: "10082"
-    description: '''"Wake up, M4. We're about to begin the operation."'''
+    description: '''"Wake up, M4. Mission is go."'''
     scripts: -18-1-1,-18-1-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2752,7 +2752,7 @@
   {
     id: 238
     mission_id: "10083"
-    description: '''"We've wiped out the remaining Sangvis units around us."'''
+    description: '''"Remaining Sangvis units all eradicated."'''
     scripts: -18-2-1,-18-2-4-Point6188,-18-2-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2766,7 +2766,7 @@
   {
     id: 239
     mission_id: "10084"
-    description: '''"I believe you understand that we're in treacherous waters. Just destroying Sangvis Ferri will not be enough to stop the Military."'''
+    description: '''"I'm sure you, too, understand that things are pretty critical. Just killing Sangvis forces won't be enough to stop the Military."'''
     scripts: -18-3-1,-18-3-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2779,7 +2779,7 @@
   {
     id: 240
     mission_id: "10085"
-    description: '''"You've come at last."'''
+    description: '''"You're finally here."'''
     scripts: -18-4-1,-18-4-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2792,7 +2792,7 @@
   {
     id: 241
     mission_id: "10086"
-    description: '''"Squad 404! How are you holding up?!"'''
+    description: '''"Can you hold it any longer, Squad 404?!"'''
     scripts: -18-5-1,-18-5-4-Point6303,-18-5-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2806,7 +2806,7 @@
   {
     id: 242
     mission_id: "10087"
-    description: '''"The military units aren't moving anymore... Were they too close to ground zero?"'''
+    description: '''"The Military units have all frozen... Are they too close to the explosion?"'''
     scripts: -18-6-1,-18-6-2First
     campaign: -18
     bgm: BGM_Frontline
@@ -2819,7 +2819,7 @@
   {
     id: 243
     mission_id: "10088"
-    description: '''"Hey! Are you the Commander?"'''
+    description: '''"My, you're the Commander?!"'''
     scripts: -16-16-1
     campaign: -16
     bgm: BGM_Frontline
@@ -2830,7 +2830,7 @@
   {
     id: 244
     mission_id: "10089"
-    description: '''"Um, there you are, Commander... I was only able to reunite with my sister Gr G3 thanks to you."'''
+    description: '''"Hmm, the Commander is here... Thank you for giving me the chance to regroup with G3."'''
     scripts: -17-18-1
     campaign: -17
     bgm: BGM_Frontline
@@ -2841,7 +2841,7 @@
   {
     id: 245
     mission_id: "10090"
-    description: '''"The Military, Sangvis Ferri, Griffin...and a bunch of people of unknown affiliation. This really is a chaotic battlefield."'''
+    description: '''"The Military, Sangvis Ferri, Griffin...and some unknown forces. What a mess."'''
     scripts: -18-7-1
     campaign: -18
     bgm: BGM_Frontline
@@ -2852,7 +2852,7 @@
   {
     id: 246
     mission_id: "10091"
-    description: '''"Ahh... Where will they aim for next? Those big bruisers really are going to level our home."'''
+    description: '''"Oh dear... Is that where they're aiming this time? Those big boys seriously wanna level our home, don't they?"'''
     scripts: -18-8-1
     campaign: -18
     bgm: BGM_Frontline
@@ -2862,7 +2862,7 @@
   {
     id: 247
     mission_id: "10092"
-    description: '''"I must find Mastermind before we reach the destination... Where is she?!"'''
+    description: '''"Before reaching our destination, we have to... Mastermind...where?!"'''
     scripts: BattleAvg/-18-Day3-6B,BattleAvg/-18-Day3-6C
     campaign: -16
     bgm: BGM_Frontline
@@ -5411,7 +5411,7 @@
   {
     id: 473
     mission_id: "10426"
-    description: '''"The train stops outside an unfamiliar base. A new storm is brewing."'''
+    description: '''"The train stops outside an unfamiliar base, and a new storm is brewing."'''
     scripts: -36-1-1
     campaign: -36
     bgm: BGM_Frontline
@@ -5433,7 +5433,7 @@
   {
     id: 475
     mission_id: "10428"
-    description: '''"The AR Team prepares for the operation to seize the coastal defense artillery."'''
+    description: '''"The AR Team sets out in order to take the coastal defense artillery."'''
     scripts: -36-1-3
     campaign: -36
     bgm: BGM_Frontline
@@ -5444,7 +5444,7 @@
   {
     id: 476
     mission_id: "10429"
-    description: '''"Squad 404 prepares for the operation to open the gates that are blocking the Commander's way."'''
+    description: '''"Squad 404 sets out in order to open the gate blocking the Commander's path."'''
     scripts: -36-1-4
     campaign: -36
     bgm: BGM_Frontline
@@ -5455,7 +5455,7 @@
   {
     id: 477
     mission_id: "10430"
-    description: '''"Griffin troops mobilize to slow the Military's advance."'''
+    description: '''"The various Griffin squads fight a blocking action to stop the Military."'''
     scripts: -36-1-5
     campaign: -36
     bgm: BGM_Frontline
@@ -5466,7 +5466,7 @@
   {
     id: 478
     mission_id: "10431"
-    description: '''"The path to one's destination is always fraught with obstacles..."'''
+    description: '''"The path to the objective is always filled with obstacles..."'''
     scripts: -36-1-6
     campaign: -36
     bgm: BGM_Frontline
@@ -5477,7 +5477,7 @@
   {
     id: 479
     mission_id: "10432"
-    description: '''"The remains of Dolls strewn all over the field is evidence of the horrific battle that has taken place here."'''
+    description: '''"The Doll corpses littering the ground hint at some tragic battle that took place here in the past."'''
     scripts: -36-1-7
     campaign: -36
     bgm: BGM_Frontline
@@ -5488,7 +5488,7 @@
   {
     id: 480
     mission_id: "10433"
-    description: '''"It is still daytime, but the sky is already alight with blue aurora."'''
+    description: '''"Though it's broad daylight, the blue aurora fills the sky."'''
     scripts: -36-1-8
     campaign: -36
     bgm: BGM_Frontline
@@ -5499,7 +5499,7 @@
   {
     id: 481
     mission_id: "10434"
-    description: '''"The blizzard blowing over Estonia foreshadows the enemy's attack."'''
+    description: '''"The snowy skies of Estonia herald the enemy's advance."'''
     scripts: -36-1-9
     campaign: -36
     bgm: BGM_Frontline
@@ -5510,7 +5510,7 @@
   {
     id: 482
     mission_id: "10435"
-    description: '''"The curtain opens over a gruesome battle..."'''
+    description: '''"The curtain rises on a terrible battle."'''
     scripts: -36-1-10
     campaign: -36
     bgm: BGM_Frontline
@@ -5521,7 +5521,7 @@
   {
     id: 483
     mission_id: "10436"
-    description: '''"The smoke clears from the battlefield, revealing the members of Task Force DEFY, all assembled for the first time."'''
+    description: '''"Behind the clearing smoke is our first encounter with Task Force DEFY."'''
     scripts: -36-2-1
     campaign: -36
     bgm: BGM_Frontline
@@ -5543,7 +5543,7 @@
   {
     id: 485
     mission_id: "10438"
-    description: '''"Thanks to Squad 404 and Task Force DEFY, the way is finally clear for Griffin troops."'''
+    description: '''"With the help of Squad 404, the gate finally opens for the Griffin squads."'''
     scripts: -36-2-3
     campaign: -36
     bgm: BGM_Frontline
@@ -5565,7 +5565,7 @@
   {
     id: 487
     mission_id: "10440"
-    description: '''"Meanwhile, a jeep traveling at top speed is transporting the AR Team to the coastal defense artillery..."'''
+    description: '''"On the other side, the Jeep carrying the AR Team is rushing toward the coastal defense artillery at top speed..."'''
     scripts: -36-2-5
     campaign: -36
     bgm: BGM_Frontline
@@ -5576,7 +5576,7 @@
   {
     id: 488
     mission_id: "10441"
-    description: '''"M4 and the leader of the enemy squad come head-to-head in a deadly pursuit. The one who finally grabs the lever is..."'''
+    description: '''"M4 and the enemy squad leader engage in a life-or-death pursuit, and the one who finally takes hold of the control lever is..."'''
     scripts: -36-2-6
     campaign: -36
     bgm: BGM_Frontline
@@ -5587,7 +5587,7 @@
   {
     id: 489
     mission_id: "10442"
-    description: '''"Having successfully infiltrated the base, Squad 404 find themselves reunited with an old friend..."'''
+    description: '''"After successfully infiltrating the base, Squad 404 finds themselves reunited with a long-lost friend..."'''
     scripts: -36-2-7
     campaign: -36
     bgm: BGM_Frontline
@@ -5598,7 +5598,7 @@
   {
     id: 490
     mission_id: "10443"
-    description: '''"Trapped in the base layer of her neural cloud, UMP45 is forced to relive her most painful memory."'''
+    description: '''"After being pulled into her neural cloud's base layer, UMP45 relives the most painful day in her memories."'''
     scripts: -36-2-8
     campaign: -36
     bgm: BGM_Frontline
@@ -5609,7 +5609,7 @@
   {
     id: 491
     mission_id: "10444"
-    description: '''"To rescue the AR Team from the enemy's pincer attack, Dandelion hacks the remaining Sangvis forces."'''
+    description: '''"In order to rescue the AR Team from an enemy pincer attack, Dandelion hacks into the remaining Sangvis forces."'''
     scripts: -36-2-9
     campaign: -36
     bgm: BGM_Frontline
@@ -5620,7 +5620,7 @@
   {
     id: 492
     mission_id: "10445"
-    description: '''"Abandoned by Elisa, Sangvis forces fall apart and scatter in defeat in the cold and gloomy rain..."'''
+    description: '''"Amidst the cold rain, the Sangvis forces, bereft of Elisa, scatter in all directions."'''
     scripts: -36-2-10
     campaign: -36
     bgm: BGM_Frontline
@@ -5631,7 +5631,7 @@
   {
     id: 493
     mission_id: "10446"
-    description: '''"This was the first time UMP45 had ever lied, but it could not feel any more natural to her."'''
+    description: '''"This is UMP45's first time telling a lie, but nothing could possibly feel more natural."'''
     scripts: -36-3-1
     campaign: -36
     bgm: BGM_Frontline
@@ -5642,7 +5642,7 @@
   {
     id: 494
     mission_id: "10447"
-    description: '''"In the power room where a bunch of enemies are lying dormant, UMP45 flicks the main switch..."'''
+    description: '''"In a power room filled with sleeping enemies, UMP45 pulls down the master switch..."'''
     scripts: -36-3-2
     campaign: -36
     bgm: BGM_Frontline
@@ -5653,7 +5653,7 @@
   {
     id: 495
     mission_id: "10448"
-    description: '''"Squad 404 may have outrun the enemy for now, but they are still in danger."'''
+    description: '''"Though they have shaken off the enemy's pursuit, Squad 404 is still in danger."'''
     scripts: -36-3-3
     campaign: -36
     bgm: BGM_Frontline
@@ -5664,7 +5664,7 @@
   {
     id: 496
     mission_id: "10449"
-    description: '''"I am simply a Doll of yours."'''
+    description: '''"I am simply a Doll of yours. "'''
     scripts: -36-3-4
     campaign: -36
     bgm: BGM_Frontline
@@ -5675,7 +5675,7 @@
   {
     id: 497
     mission_id: "10450"
-    description: '''"The AR Team has seized control of the coastal defense artillery. The second shot is about to be fired..."'''
+    description: '''"The AR Team takes control of the coastal defense artillery, and the second shot is about to be fired..."'''
     scripts: -36-3-5
     campaign: -36
     bgm: BGM_Frontline
@@ -5686,7 +5686,7 @@
   {
     id: 498
     mission_id: "10451"
-    description: '''"A small squad has been quickly assembled to secure the main force's retreat."'''
+    description: '''"A small squad quickly assembles to help the rest of the main body complete their withdrawal."'''
     scripts: -36-3-6
     campaign: -36
     bgm: BGM_Frontline
@@ -5697,7 +5697,7 @@
   {
     id: 499
     mission_id: "10452"
-    description: '''"Send him victorious, happy and glorious, long to reign over us, God save the King!"'''
+    description: '''"Send him victorious, happy and glorious, long to reign over us, God save the King."'''
     scripts: -36-3-7
     campaign: -36
     bgm: BGM_Frontline
@@ -5708,7 +5708,7 @@
   {
     id: 500
     mission_id: "10453"
-    description: '''"She stands alone in the realm of Dolls, like a dark reflection drowning in shadow."'''
+    description: '''"She stands alone in a kingdom of Dolls, like a jet black reflection in a sea of shadows."'''
     scripts: -36-3-8
     campaign: -36
     bgm: BGM_Frontline
@@ -5719,7 +5719,7 @@
   {
     id: 501
     mission_id: "10454"
-    description: '''"Perhaps we all yearn to find answers that we haven't been able to find in each other's neural cloud."'''
+    description: '''"Perhaps we were both hoping to find the answer we couldn't obtain in each other's neural clouds."'''
     scripts: -36-4-1
     campaign: -36
     bgm: BGM_Frontline
@@ -5730,7 +5730,7 @@
   {
     id: 502
     mission_id: "10455"
-    description: '''"While Squad 404 is pondering their course of action in front of the tightly-shut quarantine gate, an attack suddenly occurs.'''
+    description: '''"Squad 404 is coming up with a plan in front of the sealed quarantine door when they are suddenly attacked."'''
     scripts: -36-4-2
     campaign: -36
     bgm: BGM_Frontline
@@ -5741,7 +5741,7 @@
   {
     id: 503
     mission_id: "10456"
-    description: '''"UMP45 scurries into a passageway in pursuit of the enemy. What awaits her on the other end is..."'''
+    description: '''"UMP45 crawls into the tunnel the enemy left behind them, unwilling to give up. Waiting for her at the other end is..."'''
     scripts: -36-4-3
     campaign: -36
     bgm: BGM_Frontline
@@ -5752,7 +5752,7 @@
   {
     id: 504
     mission_id: "10457"
-    description: '''"A girl who has named herself 'Anna' joins the fight alongside Squad 404."'''
+    description: '''"The girl who calls herself Anna joins Squad 404's battle."'''
     scripts: -36-4-4
     campaign: -36
     bgm: BGM_Frontline
@@ -5763,7 +5763,7 @@
   {
     id: 505
     mission_id: "10458"
-    description: '''"I'll do my part, and you'll do what you have to do!"'''
+    description: '''"I will do what I must, and so must you!"'''
     scripts: -36-4-5
     campaign: -36
     bgm: BGM_Frontline
@@ -5774,7 +5774,7 @@
   {
     id: 506
     mission_id: "10459"
-    description: '''"I'll beat you, just like I did before."'''
+    description: '''"Just like then, I won't lose to you."'''
     scripts: -36-4-6
     campaign: -36
     bgm: BGM_Frontline
@@ -5785,7 +5785,7 @@
   {
     id: 507
     mission_id: "10460"
-    description: '''"Lend me your strength so I can keep the promise I once made."'''
+    description: '''"Give me your strength and let me keep the promise I once made with you."'''
     scripts: -36-4-7
     campaign: -36
     bgm: BGM_Frontline
@@ -5796,7 +5796,7 @@
   {
     id: 508
     mission_id: "10461"
-    description: '''"Time to play our ace in the hole."'''
+    description: '''"Now is the time to play the ace in the hole."'''
     scripts: -36-4-8
     campaign: -36
     bgm: BGM_Frontline
@@ -5818,7 +5818,7 @@
   {
     id: 510
     mission_id: "10463"
-    description: '''"Sangvis remnants run into the Military in a narrow passageway."'''
+    description: '''"In a narrow passage, the remaining Sangvis forces encounter the Military..."'''
     scripts: -36-4-10
     campaign: -36
     bgm: BGM_Frontline
@@ -5829,7 +5829,7 @@
   {
     id: 511
     mission_id: "10464"
-    description: '''"The Griffin squad and the Military's reinforcements are engaged in a fierce battle at the entrance of the base."'''
+    description: '''"At the base entrance, the Griffin squads are engaged in a fierce battle with the Military reinforcements."'''
     scripts: -36-4-11
     campaign: -36
     bgm: BGM_Frontline
@@ -5840,7 +5840,7 @@
   {
     id: 512
     mission_id: "10465"
-    description: '''"The Commander heads towards the valves with explosives with no backup..."'''
+    description: '''"The Commander takes up explosive charges and heads toward the seawater valves."'''
     scripts: -36-4-12
     campaign: -36
     bgm: BGM_Frontline
@@ -5851,7 +5851,7 @@
   {
     id: 513
     mission_id: "10466"
-    description: '''"A mech breaks through S.F.'s encirclement and makes straight for the elevator."'''
+    description: '''"A lone mech breaks through the Sangvis perimeter and heads straight for the elevator."'''
     scripts: -36-4-13
     campaign: -36
     bgm: BGM_Frontline
@@ -5870,7 +5870,7 @@
   {
     id: 515
     mission_id: "10468"
-    description: '''"This isn't the first time we've fired at each other."'''
+    description: '''"This isn't the first time we've shot at each other."'''
     scripts: -36-5-2
     campaign: -36
     bgm: BGM_Frontline
@@ -5881,7 +5881,7 @@
   {
     id: 516
     mission_id: "10469"
-    description: '''"He listens as the seawater draws closer and closer. He waits for his final judgment."'''
+    description: '''"He listens as the seawater draws close, and waits for his final judgement."'''
     scripts: -36-5-3
     campaign: -36
     bgm: BGM_Frontline
@@ -5892,7 +5892,7 @@
   {
     id: 517
     mission_id: "10470"
-    description: '''"The aurora lights up the sky, shining more brightly than ever."'''
+    description: '''"The aurora rises above the sky, brighter than it has ever been before."'''
     scripts: -36-5-4
     campaign: -36
     bgm: BGM_Frontline
@@ -5911,7 +5911,7 @@
   {
     id: 519
     mission_id: "10471"
-    description: '''"Elisa, it'll be over soon."'''
+    description: '''"Elisa, everything will be over soon."'''
     scripts: -36-5-5
     campaign: -36
     bgm: BGM_Frontline
@@ -5938,7 +5938,7 @@
   {
     id: 522
     mission_id: "10467"
-    description: '''"At the risk of being discovered by the enemy, the Commander slips behind enemy lines..."'''
+    description: '''"At risk of being discovered by the enemy, the Commander infiltrates the enemy's back lines...":'''
     scripts: -36-5-1
     campaign: -36
     bgm: BGM_Frontline
@@ -5949,7 +5949,7 @@
   {
     id: 523
     mission_id: "10472"
-    description: '''"What we need is the truth, not to become puppets ourselves."'''
+    description: '''"What we need is the truth, and not to become puppets."'''
     scripts: -36-5-6First
     campaign: -36
     bgm: BGM_Frontline
@@ -5960,7 +5960,7 @@
   {
     id: 524
     mission_id: "10473"
-    description: '''"The seawater is flooding in. You cannot leave this place in time."'''
+    description: '''"The seawater is flooding in, and nobody will be able to leave this place."'''
     scripts: -36-5-6End
     campaign: -36
     bgm: BGM_Frontline
@@ -8517,10 +8517,11 @@
   {
     id: 798
     mission_id: "10780"
-    description: 2021 Swimsuit 1
+    description: '''"A magical boat trip with one's idol begins with visiting famous attractions!"'''
     scripts: -47-1-1,-47-1-2
     campaign: -47
     bgm: BGM_Frontline
+    title: Tidal Surge
     start: -47-1-1
     first: -47-1-2
     end: -47-1-2
@@ -8528,10 +8529,11 @@
   {
     id: 799
     mission_id: "10781"
-    description: 2021 Swimsuit 2
+    description: '''"The waters here are deep, deep enough to submerge a monster that defies imagination."'''
     scripts: -47-2-WS-1,-47-2-1,-47-2-2
     campaign: -47
     bgm: BGM_Frontline
+    title: Undercurrent
     start: -47-2-1
     round: 1:-47-2-WS-1
     first: -47-2-2
@@ -8540,10 +8542,11 @@
   {
     id: 800
     mission_id: "10782"
-    description: 2021 Swimsuit 3
+    description: '''"Know her, love her, become her."'''
     scripts: -47-3-1,-47-3-2
     campaign: -47
     bgm: BGM_Frontline
+    title: Pursuit
     start: -47-3-1
     first: -47-3-2
     end: -47-3-2
@@ -8551,10 +8554,11 @@
   {
     id: 801
     mission_id: "10783"
-    description: 2021 Swimsuit 4
+    description: '''"Find our abducted friend... before things get even worse."'''
     scripts: -47-4-1,-47-4-2
     campaign: -47
     bgm: BGM_Frontline
+    title: Zero-Sum
     start: -47-4-1
     first: -47-4-2
     end: -47-4-2

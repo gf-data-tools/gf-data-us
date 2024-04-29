@@ -5304,13 +5304,13 @@
   {
     id: 786
     name: Career Quest Reward 86
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: Achieve 5-star promotion with a unit of your HOC for the first time.
   }
   {
     id: 787
     name: Career Quest Reward 87
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: Complete HOC EXP Training for the first time.
   }
   {
@@ -5328,7 +5328,7 @@
   {
     id: 790
     name: Career Quest Reward 90
-    item_ids: 17-2
+    item_ids: 14-240,15-100
     content: Undergo HOC Iteration for the first time.
   }
   {
@@ -12002,6 +12002,13 @@
     gem: 90
     equip_ids: "364"
     content: prize-20001971
+  }
+  {
+    id: 1974
+    name: prize-10001974
+    gem: 90
+    equip_ids: "367"
+    content: prize-20001974
   }
   {
     id: 2001
@@ -21565,6 +21572,160 @@
     content: prize-20007548
   }
   {
+    id: 7624
+    name: prize-10007624
+    ammo: 300
+    mre: 300
+    content: prize-20007624
+  }
+  {
+    id: 7625
+    name: prize-10007625
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    content: prize-20007625
+  }
+  {
+    id: 7626
+    name: prize-10007626
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 44-15
+    content: prize-20007626
+  }
+  {
+    id: 7627
+    name: prize-10007627
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 46-25,44-15
+    content: prize-20007627
+  }
+  {
+    id: 7628
+    name: prize-10007628
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+    item_ids: 9-5,46-25,44-15
+    content: prize-20007628
+  }
+  {
+    id: 7775
+    name: prize-10007775
+    item_ids: 10707-30
+    content: prize-20007775
+  }
+  {
+    id: 7776
+    name: prize-10007776
+    item_ids: 10707-45
+    content: prize-20007776
+  }
+  {
+    id: 7777
+    name: prize-10007777
+    item_ids: 10707-60
+    content: prize-20007777
+  }
+  {
+    id: 7778
+    name: prize-10007778
+    item_ids: 10707-45
+    content: prize-20007778
+  }
+  {
+    id: 7779
+    name: prize-10007779
+    item_ids: 10707-68
+    content: prize-20007779
+  }
+  {
+    id: 7780
+    name: prize-10007780
+    item_ids: 10707-90
+    content: prize-20007780
+  }
+  {
+    id: 7781
+    name: prize-10007781
+    item_ids: 10707-90
+    content: prize-20007781
+  }
+  {
+    id: 7782
+    name: prize-10007782
+    item_ids: 10707-120
+    content: prize-20007782
+  }
+  {
+    id: 7783
+    name: prize-10007783
+    item_ids: 10707-75
+    content: prize-20007783
+  }
+  {
+    id: 7784
+    name: prize-10007784
+    item_ids: 10707-150
+    content: prize-20007784
+  }
+  {
+    id: 7785
+    name: prize-10007785
+    item_ids: 10707-60
+    content: prize-20007785
+  }
+  {
+    id: 7786
+    name: prize-10007786
+    item_ids: 10707-135
+    content: prize-20007786
+  }
+  {
+    id: 7787
+    name: prize-10007787
+    item_ids: 10707-180
+    content: prize-20007787
+  }
+  {
+    id: 7788
+    name: prize-10007788
+    item_ids: 10707-180
+    content: prize-20007788
+  }
+  {
+    id: 7789
+    name: prize-10007789
+    item_ids: 10707-270
+    content: prize-20007789
+  }
+  {
+    id: 7790
+    name: prize-10007790
+    item_ids: 10707-360
+    content: prize-20007790
+  }
+  {
+    id: 7791
+    name: prize-10007791
+    item_ids: 10707-112
+    content: prize-20007791
+  }
+  {
+    id: 7792
+    name: prize-10007792
+    item_ids: 10707-90
+    content: prize-20007792
+  }
+  {
     id: 8001
     name: Beginner's Top-up Event: Day 1
     gem: 50
@@ -22515,84 +22676,84 @@
     id: 10086
     name: Carnival Reward
     mp: 100
-    item_ids: 110026-10
+    item_ids: 110027-10
   }
   {
     id: 10087
     name: Carnival Reward
     mp: 100
-    item_ids: 110026-20
+    item_ids: 110027-20
   }
   {
     id: 10088
     name: Carnival Reward
     ammo: 200
-    item_ids: 110026-20
+    item_ids: 110027-20
   }
   {
     id: 10089
     name: Carnival Reward
     ammo: 200
-    item_ids: 110026-30
+    item_ids: 110027-30
   }
   {
     id: 10090
     name: Carnival Reward
     mre: 200
-    item_ids: 110026-20
+    item_ids: 110027-20
   }
   {
     id: 10091
     name: Carnival Reward
     mre: 200
-    item_ids: 110026-30
+    item_ids: 110027-30
   }
   {
     id: 10092
     name: Carnival Reward
     mre: 200
-    item_ids: 110026-50
+    item_ids: 110027-50
   }
   {
     id: 10093
     name: Carnival Reward
     part: 100
-    item_ids: 110026-30
+    item_ids: 110027-30
   }
   {
     id: 10094
     name: Carnival Reward
     part: 100
-    item_ids: 110026-50
+    item_ids: 110027-50
   }
   {
     id: 10095
     name: Carnival Reward
     part: 100
-    item_ids: 110026-100
+    item_ids: 110027-100
   }
   {
     id: 10096
     name: Carnival Reward
     part: 200
-    item_ids: 110026-50
+    item_ids: 110027-50
   }
   {
     id: 10097
     name: Carnival Reward
     part: 200
-    item_ids: 110026-100
+    item_ids: 110027-100
   }
   {
     id: 10098
     name: Carnival Reward
     part: 300
-    item_ids: 110026-150
+    item_ids: 110027-150
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 110026-200,45-200
+    item_ids: 110027-200,45-200
   }
   {
     id: 10100
@@ -22630,7 +22791,7 @@
   {
     id: 10105
     name: Active Reward
-    gift: 100003-10,8008-1
+    gift: 100003-10,8309-1
     icon: Bumdle_bline
   }
   {
@@ -22669,12 +22830,12 @@
     id: 10111
     name: Carnival Reward
     mre: 200
-    item_ids: 110026-40
+    item_ids: 110027-40
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110026-50,45-200
+    item_ids: 110027-50,45-200
   }
   {
     id: 10113
@@ -22688,19 +22849,19 @@
     id: 10114
     name: Carnival Reward
     ammo: 200
-    item_ids: 110026-50
+    item_ids: 110027-50
   }
   {
     id: 10115
     name: Carnival Reward
     ammo: 300
-    item_ids: 110026-50
+    item_ids: 110027-50
   }
   {
     id: 10116
     name: prize-10010116
     mre: 300
-    item_ids: 110026-50
+    item_ids: 110027-50
     content: prize-20010116
   }
   {
@@ -39423,6 +39584,100 @@
     fairy_ids: 33-757119
   }
   {
+    id: 40593
+    name: "20,000 Points Reward"
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40594
+    name: "32,000 Points Reward"
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40595
+    name: "44,000 Points Reward"
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40596
+    name: "56,000 Points Reward"
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "85"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40597
+    name: "68,000 Points Reward"
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40598
+    name: "80,000 Points Reward"
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    equip_ids: "84"
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40599
+    name: "100,000 Points Reward"
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40600
+    name: "120,000 Points Reward"
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    equip_ids: "83"
+    icon: Bumdle_yellow
+  }
+  {
     id: 44001
     name: Theater 3,000 Points Reward
     mp: 500
@@ -45526,6 +45781,1283 @@
     content: prize-20150088
   }
   {
+    id: 200001
+    name: prize-10200001
+    content: prize-20200001
+    vehicle_component: "1001"
+  }
+  {
+    id: 200002
+    name: prize-10200002
+    content: prize-20200002
+    vehicle_component: "1002"
+  }
+  {
+    id: 200003
+    name: prize-10200003
+    content: prize-20200003
+    vehicle_component: "1003"
+  }
+  {
+    id: 200004
+    name: prize-10200004
+    content: prize-20200004
+    vehicle_component: "1004"
+  }
+  {
+    id: 200005
+    name: prize-10200005
+    content: prize-20200005
+    vehicle_component: "1005"
+  }
+  {
+    id: 200006
+    name: prize-10200006
+    content: prize-20200006
+    vehicle_component: "1006"
+  }
+  {
+    id: 200007
+    name: prize-10200007
+    content: prize-20200007
+    vehicle_component: "1007"
+  }
+  {
+    id: 200008
+    name: prize-10200008
+    content: prize-20200008
+    vehicle_component: "1008"
+  }
+  {
+    id: 200009
+    name: prize-10200009
+    content: prize-20200009
+    vehicle_component: "1009"
+  }
+  {
+    id: 200010
+    name: prize-10200010
+    content: prize-20200010
+    vehicle_component: "1010"
+  }
+  {
+    id: 200011
+    name: prize-10200011
+    content: prize-20200011
+    vehicle_component: "1011"
+  }
+  {
+    id: 200012
+    name: prize-10200012
+    content: prize-20200012
+    vehicle_component: "1012"
+  }
+  {
+    id: 200013
+    name: prize-10200013
+    content: prize-20200013
+    vehicle_component: "1013"
+  }
+  {
+    id: 200014
+    name: prize-10200014
+    content: prize-20200014
+    vehicle_component: "1101"
+  }
+  {
+    id: 200015
+    name: prize-10200015
+    content: prize-20200015
+    vehicle_component: "1102"
+  }
+  {
+    id: 200016
+    name: prize-10200016
+    content: prize-20200016
+    vehicle_component: "1103"
+  }
+  {
+    id: 200017
+    name: prize-10200017
+    content: prize-20200017
+    vehicle_component: "1104"
+  }
+  {
+    id: 200018
+    name: prize-10200018
+    content: prize-20200018
+    vehicle_component: "1105"
+  }
+  {
+    id: 200019
+    name: prize-10200019
+    content: prize-20200019
+    vehicle_component: "1106"
+  }
+  {
+    id: 200020
+    name: prize-10200020
+    content: prize-20200020
+    vehicle_component: "1107"
+  }
+  {
+    id: 200021
+    name: prize-10200021
+    content: prize-20200021
+    vehicle_component: "1108"
+  }
+  {
+    id: 200022
+    name: prize-10200022
+    content: prize-20200022
+    vehicle_component: "1109"
+  }
+  {
+    id: 200023
+    name: prize-10200023
+    content: prize-20200023
+    vehicle_component: "1110"
+  }
+  {
+    id: 200024
+    name: prize-10200024
+    content: prize-20200024
+    vehicle_component: "1111"
+  }
+  {
+    id: 200025
+    name: prize-10200025
+    content: prize-20200025
+    vehicle_component: "1112"
+  }
+  {
+    id: 200026
+    name: prize-10200026
+    content: prize-20200026
+    vehicle_component: "1113"
+  }
+  {
+    id: 200027
+    name: prize-10200027
+    content: prize-20200027
+    vehicle_component: "1114"
+  }
+  {
+    id: 200028
+    name: prize-10200028
+    content: prize-20200028
+    vehicle_component: "1115"
+  }
+  {
+    id: 200029
+    name: prize-10200029
+    content: prize-20200029
+    vehicle_component: "1116"
+  }
+  {
+    id: 200030
+    name: prize-10200030
+    content: prize-20200030
+    vehicle_component: "1117"
+  }
+  {
+    id: 200031
+    name: prize-10200031
+    content: prize-20200031
+    vehicle_component: "1118"
+  }
+  {
+    id: 200032
+    name: prize-10200032
+    content: prize-20200032
+    vehicle_component: "1119"
+  }
+  {
+    id: 200033
+    name: prize-10200033
+    content: prize-20200033
+    vehicle_component: "1120"
+  }
+  {
+    id: 200034
+    name: prize-10200034
+    content: prize-20200034
+    vehicle_component: "1121"
+  }
+  {
+    id: 200035
+    name: prize-10200035
+    content: prize-20200035
+    vehicle_component: "1122"
+  }
+  {
+    id: 200036
+    name: prize-10200036
+    content: prize-20200036
+    vehicle_component: "1123"
+  }
+  {
+    id: 200037
+    name: prize-10200037
+    content: prize-20200037
+    vehicle_component: "1124"
+  }
+  {
+    id: 200038
+    name: prize-10200038
+    content: prize-20200038
+    vehicle_component: "1125"
+  }
+  {
+    id: 200039
+    name: prize-10200039
+    content: prize-20200039
+    vehicle_component: "1126"
+  }
+  {
+    id: 200040
+    name: prize-10200040
+    content: prize-20200040
+    vehicle_component: "1127"
+  }
+  {
+    id: 200041
+    name: prize-10200041
+    content: prize-20200041
+    vehicle_component: "1128"
+  }
+  {
+    id: 200042
+    name: prize-10200042
+    content: prize-20200042
+    vehicle_component: "1129"
+  }
+  {
+    id: 201001
+    name: prize-10201001
+    content: prize-20201001
+    vehicle_component: "2001"
+  }
+  {
+    id: 201002
+    name: prize-10201002
+    content: prize-20201002
+    vehicle_component: "2002"
+  }
+  {
+    id: 201003
+    name: prize-10201003
+    content: prize-20201003
+    vehicle_component: "2003"
+  }
+  {
+    id: 201004
+    name: prize-10201004
+    content: prize-20201004
+    vehicle_component: "2004"
+  }
+  {
+    id: 201005
+    name: prize-10201005
+    content: prize-20201005
+    vehicle_component: "2005"
+  }
+  {
+    id: 201006
+    name: prize-10201006
+    content: prize-20201006
+    vehicle_component: "2006"
+  }
+  {
+    id: 201007
+    name: prize-10201007
+    content: prize-20201007
+    vehicle_component: "2007"
+  }
+  {
+    id: 201008
+    name: prize-10201008
+    content: prize-20201008
+    vehicle_component: "2008"
+  }
+  {
+    id: 201009
+    name: prize-10201009
+    content: prize-20201009
+    vehicle_component: "2009"
+  }
+  {
+    id: 201010
+    name: prize-10201010
+    content: prize-20201010
+    vehicle_component: "2010"
+  }
+  {
+    id: 201011
+    name: prize-10201011
+    content: prize-20201011
+    vehicle_component: "2011"
+  }
+  {
+    id: 201012
+    name: prize-10201012
+    content: prize-20201012
+    vehicle_component: "2012"
+  }
+  {
+    id: 201013
+    name: prize-10201013
+    content: prize-20201013
+    vehicle_component: "2013"
+  }
+  {
+    id: 201014
+    name: prize-10201014
+    content: prize-20201014
+    vehicle_component: "2101"
+  }
+  {
+    id: 201015
+    name: prize-10201015
+    content: prize-20201015
+    vehicle_component: "2102"
+  }
+  {
+    id: 201016
+    name: prize-10201016
+    content: prize-20201016
+    vehicle_component: "2103"
+  }
+  {
+    id: 201017
+    name: prize-10201017
+    content: prize-20201017
+    vehicle_component: "2104"
+  }
+  {
+    id: 201018
+    name: prize-10201018
+    content: prize-20201018
+    vehicle_component: "2105"
+  }
+  {
+    id: 201019
+    name: prize-10201019
+    content: prize-20201019
+    vehicle_component: "2106"
+  }
+  {
+    id: 201020
+    name: prize-10201020
+    content: prize-20201020
+    vehicle_component: "2107"
+  }
+  {
+    id: 201021
+    name: prize-10201021
+    content: prize-20201021
+    vehicle_component: "2108"
+  }
+  {
+    id: 201022
+    name: prize-10201022
+    content: prize-20201022
+    vehicle_component: "2109"
+  }
+  {
+    id: 201023
+    name: prize-10201023
+    content: prize-20201023
+    vehicle_component: "2110"
+  }
+  {
+    id: 201024
+    name: prize-10201024
+    content: prize-20201024
+    vehicle_component: "2111"
+  }
+  {
+    id: 201025
+    name: prize-10201025
+    content: prize-20201025
+    vehicle_component: "2112"
+  }
+  {
+    id: 201026
+    name: prize-10201026
+    content: prize-20201026
+    vehicle_component: "2113"
+  }
+  {
+    id: 201027
+    name: prize-10201027
+    content: prize-20201027
+    vehicle_component: "2114"
+  }
+  {
+    id: 201028
+    name: prize-10201028
+    content: prize-20201028
+    vehicle_component: "2115"
+  }
+  {
+    id: 201029
+    name: prize-10201029
+    content: prize-20201029
+    vehicle_component: "2116"
+  }
+  {
+    id: 201030
+    name: prize-10201030
+    content: prize-20201030
+    vehicle_component: "2117"
+  }
+  {
+    id: 201031
+    name: prize-10201031
+    content: prize-20201031
+    vehicle_component: "2118"
+  }
+  {
+    id: 201032
+    name: prize-10201032
+    content: prize-20201032
+    vehicle_component: "2119"
+  }
+  {
+    id: 201033
+    name: prize-10201033
+    content: prize-20201033
+    vehicle_component: "2120"
+  }
+  {
+    id: 201034
+    name: prize-10201034
+    content: prize-20201034
+    vehicle_component: "2121"
+  }
+  {
+    id: 201035
+    name: prize-10201035
+    content: prize-20201035
+    vehicle_component: "2122"
+  }
+  {
+    id: 201036
+    name: prize-10201036
+    content: prize-20201036
+    vehicle_component: "2123"
+  }
+  {
+    id: 201037
+    name: prize-10201037
+    content: prize-20201037
+    vehicle_component: "2124"
+  }
+  {
+    id: 201038
+    name: prize-10201038
+    content: prize-20201038
+    vehicle_component: "2125"
+  }
+  {
+    id: 201039
+    name: prize-10201039
+    content: prize-20201039
+    vehicle_component: "2126"
+  }
+  {
+    id: 201040
+    name: prize-10201040
+    content: prize-20201040
+    vehicle_component: "2127"
+  }
+  {
+    id: 201041
+    name: prize-10201041
+    content: prize-20201041
+    vehicle_component: "2128"
+  }
+  {
+    id: 201042
+    name: prize-10201042
+    content: prize-20201042
+    vehicle_component: "2129"
+  }
+  {
+    id: 202001
+    name: prize-10202001
+    content: prize-20202001
+    vehicle_component: "3001"
+  }
+  {
+    id: 202002
+    name: prize-10202002
+    content: prize-20202002
+    vehicle_component: "3002"
+  }
+  {
+    id: 202003
+    name: prize-10202003
+    content: prize-20202003
+    vehicle_component: "3003"
+  }
+  {
+    id: 202004
+    name: prize-10202004
+    content: prize-20202004
+    vehicle_component: "3004"
+  }
+  {
+    id: 202005
+    name: prize-10202005
+    content: prize-20202005
+    vehicle_component: "3005"
+  }
+  {
+    id: 202006
+    name: prize-10202006
+    content: prize-20202006
+    vehicle_component: "3006"
+  }
+  {
+    id: 202007
+    name: prize-10202007
+    content: prize-20202007
+    vehicle_component: "3007"
+  }
+  {
+    id: 202008
+    name: prize-10202008
+    content: prize-20202008
+    vehicle_component: "3008"
+  }
+  {
+    id: 202009
+    name: prize-10202009
+    content: prize-20202009
+    vehicle_component: "3009"
+  }
+  {
+    id: 202010
+    name: prize-10202010
+    content: prize-20202010
+    vehicle_component: "3010"
+  }
+  {
+    id: 202011
+    name: prize-10202011
+    content: prize-20202011
+    vehicle_component: "3011"
+  }
+  {
+    id: 202012
+    name: prize-10202012
+    content: prize-20202012
+    vehicle_component: "3012"
+  }
+  {
+    id: 202013
+    name: prize-10202013
+    content: prize-20202013
+    vehicle_component: "3013"
+  }
+  {
+    id: 202014
+    name: prize-10202014
+    content: prize-20202014
+    vehicle_component: "3101"
+  }
+  {
+    id: 202015
+    name: prize-10202015
+    content: prize-20202015
+    vehicle_component: "3102"
+  }
+  {
+    id: 202016
+    name: prize-10202016
+    content: prize-20202016
+    vehicle_component: "3103"
+  }
+  {
+    id: 202017
+    name: prize-10202017
+    content: prize-20202017
+    vehicle_component: "3104"
+  }
+  {
+    id: 202018
+    name: prize-10202018
+    content: prize-20202018
+    vehicle_component: "3105"
+  }
+  {
+    id: 202019
+    name: prize-10202019
+    content: prize-20202019
+    vehicle_component: "3106"
+  }
+  {
+    id: 202020
+    name: prize-10202020
+    content: prize-20202020
+    vehicle_component: "3107"
+  }
+  {
+    id: 202021
+    name: prize-10202021
+    content: prize-20202021
+    vehicle_component: "3108"
+  }
+  {
+    id: 202022
+    name: prize-10202022
+    content: prize-20202022
+    vehicle_component: "3109"
+  }
+  {
+    id: 202023
+    name: prize-10202023
+    content: prize-20202023
+    vehicle_component: "3110"
+  }
+  {
+    id: 202024
+    name: prize-10202024
+    content: prize-20202024
+    vehicle_component: "3111"
+  }
+  {
+    id: 202025
+    name: prize-10202025
+    content: prize-20202025
+    vehicle_component: "3112"
+  }
+  {
+    id: 202026
+    name: prize-10202026
+    content: prize-20202026
+    vehicle_component: "3113"
+  }
+  {
+    id: 202027
+    name: prize-10202027
+    content: prize-20202027
+    vehicle_component: "3114"
+  }
+  {
+    id: 202028
+    name: prize-10202028
+    content: prize-20202028
+    vehicle_component: "3115"
+  }
+  {
+    id: 202029
+    name: prize-10202029
+    content: prize-20202029
+    vehicle_component: "3116"
+  }
+  {
+    id: 202030
+    name: prize-10202030
+    content: prize-20202030
+    vehicle_component: "3117"
+  }
+  {
+    id: 202031
+    name: prize-10202031
+    content: prize-20202031
+    vehicle_component: "3118"
+  }
+  {
+    id: 202032
+    name: prize-10202032
+    content: prize-20202032
+    vehicle_component: "3119"
+  }
+  {
+    id: 202033
+    name: prize-10202033
+    content: prize-20202033
+    vehicle_component: "3120"
+  }
+  {
+    id: 202034
+    name: prize-10202034
+    content: prize-20202034
+    vehicle_component: "3121"
+  }
+  {
+    id: 202035
+    name: prize-10202035
+    content: prize-20202035
+    vehicle_component: "3122"
+  }
+  {
+    id: 202036
+    name: prize-10202036
+    content: prize-20202036
+    vehicle_component: "3123"
+  }
+  {
+    id: 202037
+    name: prize-10202037
+    content: prize-20202037
+    vehicle_component: "3124"
+  }
+  {
+    id: 202038
+    name: prize-10202038
+    content: prize-20202038
+    vehicle_component: "3125"
+  }
+  {
+    id: 202039
+    name: prize-10202039
+    content: prize-20202039
+    vehicle_component: "3126"
+  }
+  {
+    id: 202040
+    name: prize-10202040
+    content: prize-20202040
+    vehicle_component: "3127"
+  }
+  {
+    id: 202041
+    name: prize-10202041
+    content: prize-20202041
+    vehicle_component: "3128"
+  }
+  {
+    id: 202042
+    name: prize-10202042
+    content: prize-20202042
+    vehicle_component: "3129"
+  }
+  {
+    id: 203001
+    name: prize-10203001
+    content: prize-20203001
+    vehicle_component: 1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1101;1102;1103;1104;1105;1106;1107;1108;1109;1110;1111;1112;1113;1114;1115;1116;1117;1118;1119;1120;1121;1122;1123;1124;1125;1126;1127;1128;1129
+  }
+  {
+    id: 203002
+    name: prize-10203002
+    content: prize-20203002
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126;2127;2128;2129
+  }
+  {
+    id: 203003
+    name: prize-10203003
+    content: prize-20203003
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126;3127;3128;3129
+  }
+  {
+    id: 204001
+    name: prize-10204001
+    content: prize-20204001
+    vehicle_component: 1001;1002;1003;1004;1005;1006;1007;1008;1009;1010;1011;1012;1013;1101;1102;1103;1104;1105;1106;1107;1108;1109;1110;1111;1112;1113;1114;1115;1116;1117;1118;1119;1120;1121;1122;1123;1124;1125;1126
+  }
+  {
+    id: 204002
+    name: prize-10204002
+    content: prize-20204002
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126
+  }
+  {
+    id: 204003
+    name: prize-10204003
+    content: prize-20204003
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126
+  }
+  {
+    id: 205001
+    name: prize-10205001
+    content: prize-20205001
+    vehicle_component: 1106-0-770082,reload,precision
+  }
+  {
+    id: 205002
+    name: prize-10205002
+    content: prize-20205002
+    vehicle_component: 2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2101;2102;2103;2104;2105;2106;2107;2108;2109;2110;2111;2112;2113;2114;2115;2116;2117;2118;2119;2120;2121;2122;2123;2124;2125;2126
+  }
+  {
+    id: 205003
+    name: prize-10205003
+    content: prize-20205003
+    vehicle_component: 3001;3002;3003;3004;3005;3006;3007;3008;3009;3010;3011;3012;3013;3101;3102;3103;3104;3105;3106;3107;3108;3109;3110;3111;3112;3113;3114;3115;3116;3117;3118;3119;3120;3121;3122;3123;3124;3125;3126
+  }
+  {
+    id: 210001
+    name: prize-10210001
+    item_ids: 1800002-2
+    content: prize-20210001
+  }
+  {
+    id: 210002
+    name: prize-10210002
+    item_ids: 1800001-2
+    content: prize-20210002
+  }
+  {
+    id: 210003
+    name: prize-10210003
+    item_ids: 1800002-2
+    content: prize-20210003
+  }
+  {
+    id: 210004
+    name: prize-10210004
+    item_ids: 1800001-2
+    content: prize-20210004
+  }
+  {
+    id: 210005
+    name: prize-10210005
+    item_ids: 1800002-2
+    content: prize-20210005
+  }
+  {
+    id: 210006
+    name: prize-10210006
+    item_ids: 1800001-2
+    content: prize-20210006
+  }
+  {
+    id: 210007
+    name: prize-10210007
+    item_ids: 1800002-2
+    content: prize-20210007
+  }
+  {
+    id: 210008
+    name: prize-10210008
+    item_ids: 1800001-2
+    content: prize-20210008
+  }
+  {
+    id: 210009
+    name: prize-10210009
+    item_ids: 1800002-2
+    content: prize-20210009
+  }
+  {
+    id: 210010
+    name: prize-10210010
+    item_ids: 1800001-2
+    content: prize-20210010
+  }
+  {
+    id: 210011
+    name: prize-10210011
+    item_ids: 1800002-3
+    content: prize-20210011
+  }
+  {
+    id: 210012
+    name: prize-10210012
+    item_ids: 1800001-3
+    content: prize-20210012
+  }
+  {
+    id: 210013
+    name: prize-10210013
+    item_ids: 1800002-3
+    content: prize-20210013
+  }
+  {
+    id: 210014
+    name: prize-10210014
+    item_ids: 1800001-3
+    content: prize-20210014
+  }
+  {
+    id: 210015
+    name: prize-10210015
+    item_ids: 1800002-3
+    content: prize-20210015
+  }
+  {
+    id: 210016
+    name: prize-10210016
+    item_ids: 1800001-3
+    content: prize-20210016
+  }
+  {
+    id: 210017
+    name: prize-10210017
+    item_ids: 1800002-3
+    content: prize-20210017
+  }
+  {
+    id: 210018
+    name: prize-10210018
+    item_ids: 1800001-3
+    content: prize-20210018
+  }
+  {
+    id: 210019
+    name: prize-10210019
+    item_ids: 1800002-3
+    content: prize-20210019
+  }
+  {
+    id: 210020
+    name: prize-10210020
+    item_ids: 1800001-3
+    content: prize-20210020
+  }
+  {
+    id: 210021
+    name: prize-10210021
+    item_ids: 1800002-4
+    content: prize-20210021
+  }
+  {
+    id: 210022
+    name: prize-10210022
+    item_ids: 1800001-4
+    content: prize-20210022
+  }
+  {
+    id: 210023
+    name: prize-10210023
+    item_ids: 1800002-4
+    content: prize-20210023
+  }
+  {
+    id: 210024
+    name: prize-10210024
+    item_ids: 1800001-4
+    content: prize-20210024
+  }
+  {
+    id: 210025
+    name: prize-10210025
+    item_ids: 1800002-4
+    content: prize-20210025
+  }
+  {
+    id: 210026
+    name: prize-10210026
+    item_ids: 1800001-4
+    content: prize-20210026
+  }
+  {
+    id: 210027
+    name: prize-10210027
+    item_ids: 1800002-4
+    content: prize-20210027
+  }
+  {
+    id: 210028
+    name: prize-10210028
+    item_ids: 1800001-4
+    content: prize-20210028
+  }
+  {
+    id: 210029
+    name: prize-10210029
+    item_ids: 1800002-4
+    content: prize-20210029
+  }
+  {
+    id: 210030
+    name: prize-10210030
+    item_ids: 1800001-4
+    content: prize-20210030
+  }
+  {
+    id: 210031
+    name: prize-10210031
+    item_ids: 1800002-2
+    content: prize-20210031
+  }
+  {
+    id: 210032
+    name: prize-10210032
+    item_ids: 1800001-2
+    content: prize-20210032
+  }
+  {
+    id: 210033
+    name: prize-10210033
+    item_ids: 1800002-2
+    content: prize-20210033
+  }
+  {
+    id: 210034
+    name: prize-10210034
+    item_ids: 1800001-2
+    content: prize-20210034
+  }
+  {
+    id: 210035
+    name: prize-10210035
+    item_ids: 1800002-2
+    content: prize-20210035
+  }
+  {
+    id: 210036
+    name: prize-10210036
+    item_ids: 1800001-2
+    content: prize-20210036
+  }
+  {
+    id: 210037
+    name: prize-10210037
+    item_ids: 1800002-2
+    content: prize-20210037
+  }
+  {
+    id: 210038
+    name: prize-10210038
+    item_ids: 1800001-2
+    content: prize-20210038
+  }
+  {
+    id: 210039
+    name: prize-10210039
+    item_ids: 1800002-2
+    content: prize-20210039
+  }
+  {
+    id: 210040
+    name: prize-10210040
+    item_ids: 1800001-2
+    content: prize-20210040
+  }
+  {
+    id: 210041
+    name: prize-10210041
+    item_ids: 1800002-3
+    content: prize-20210041
+  }
+  {
+    id: 210042
+    name: prize-10210042
+    item_ids: 1800001-3
+    content: prize-20210042
+  }
+  {
+    id: 210043
+    name: prize-10210043
+    item_ids: 1800002-3
+    content: prize-20210043
+  }
+  {
+    id: 210044
+    name: prize-10210044
+    item_ids: 1800001-3
+    content: prize-20210044
+  }
+  {
+    id: 210045
+    name: prize-10210045
+    item_ids: 1800002-3
+    content: prize-20210045
+  }
+  {
+    id: 210046
+    name: prize-10210046
+    item_ids: 1800001-3
+    content: prize-20210046
+  }
+  {
+    id: 210047
+    name: prize-10210047
+    item_ids: 1800002-3
+    content: prize-20210047
+  }
+  {
+    id: 210048
+    name: prize-10210048
+    item_ids: 1800001-3
+    content: prize-20210048
+  }
+  {
+    id: 210049
+    name: prize-10210049
+    item_ids: 1800002-3
+    content: prize-20210049
+  }
+  {
+    id: 210050
+    name: prize-10210050
+    item_ids: 1800001-3
+    content: prize-20210050
+  }
+  {
+    id: 210051
+    name: prize-10210051
+    item_ids: 1800002-4
+    content: prize-20210051
+  }
+  {
+    id: 210052
+    name: prize-10210052
+    item_ids: 1800001-4
+    content: prize-20210052
+  }
+  {
+    id: 210053
+    name: prize-10210053
+    item_ids: 1800002-4
+    content: prize-20210053
+  }
+  {
+    id: 210054
+    name: prize-10210054
+    item_ids: 1800001-4
+    content: prize-20210054
+  }
+  {
+    id: 210055
+    name: prize-10210055
+    item_ids: 1800002-4
+    content: prize-20210055
+  }
+  {
+    id: 210056
+    name: prize-10210056
+    item_ids: 1800001-4
+    content: prize-20210056
+  }
+  {
+    id: 210057
+    name: prize-10210057
+    item_ids: 1800002-4
+    content: prize-20210057
+  }
+  {
+    id: 210058
+    name: prize-10210058
+    item_ids: 1800001-4
+    content: prize-20210058
+  }
+  {
+    id: 210059
+    name: prize-10210059
+    item_ids: 1800002-4
+    content: prize-20210059
+  }
+  {
+    id: 210060
+    name: prize-10210060
+    item_ids: 1800001-4
+    content: prize-20210060
+  }
+  {
+    id: 210061
+    name: prize-10210061
+    item_ids: 1800006-4
+    content: prize-20210061
+  }
+  {
+    id: 210062
+    name: prize-10210062
+    item_ids: 1800006-4
+    content: prize-20210062
+  }
+  {
+    id: 210063
+    name: prize-10210063
+    item_ids: 1800006-4
+    content: prize-20210063
+  }
+  {
+    id: 210064
+    name: prize-10210064
+    item_ids: 1800006-4
+    content: prize-20210064
+  }
+  {
+    id: 210065
+    name: prize-10210065
+    item_ids: 1800006-4
+    content: prize-20210065
+  }
+  {
+    id: 210066
+    name: prize-10210066
+    item_ids: 1800007-4
+    content: prize-20210066
+  }
+  {
+    id: 210067
+    name: prize-10210067
+    item_ids: 1800007-4
+    content: prize-20210067
+  }
+  {
+    id: 210068
+    name: prize-10210068
+    item_ids: 1800007-4
+    content: prize-20210068
+  }
+  {
+    id: 210069
+    name: prize-10210069
+    item_ids: 1800007-4
+    content: prize-20210069
+  }
+  {
+    id: 210070
+    name: prize-10210070
+    item_ids: 1800007-4
+    content: prize-20210070
+  }
+  {
+    id: 220001
+    name: prize-10220001
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-20220001
+  }
+  {
+    id: 220002
+    name: prize-10220002
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 57-1000
+    content: prize-20220002
+  }
+  {
+    id: 220003
+    name: prize-10220003
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 57-1000
+    content: prize-20220003
+  }
+  {
+    id: 220004
+    name: prize-10220004
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    content: prize-20220004
+  }
+  {
+    id: 220005
+    name: prize-10220005
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    content: prize-20220005
+  }
+  {
     id: 220006
     name: New Patch Special Offer
     item_ids: 13-1,8-1,41-100,506-200
@@ -47661,5 +49193,152 @@
     item_ids: 515-400,516-400,41-10
     coins: 1-400,2-350,3-300
     icon: Bumdle_ruby
+  }
+  {
+    id: 9220006
+    name: prize-19220006
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    content: prize-29220006
+  }
+  {
+    id: 9220007
+    name: prize-19220007
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    item_ids: 1800005-1
+    content: prize-29220007
+  }
+  {
+    id: 9220008
+    name: prize-19220008
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    item_ids: 1800004-1
+    content: prize-29220008
+  }
+  {
+    id: 9220009
+    name: prize-19220009
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+    item_ids: 1800004-1
+    content: prize-29220009
+  }
+  {
+    id: 9220010
+    name: prize-19220010
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 1800003-1
+    content: prize-29220010
+  }
+  {
+    id: 9220011
+    name: prize-19220011
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 1800001-1,133008-1,133009-1,133011-1,133057-1,133058-1
+    content: prize-29220011
+  }
+  {
+    id: 9220012
+    name: prize-19220012
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    content: prize-29220012
+  }
+  {
+    id: 9220013
+    name: prize-19220013
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    item_ids: 1800002-1
+    content: prize-29220013
+  }
+  {
+    id: 9220014
+    name: prize-19220014
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+    content: prize-29220014
+  }
+  {
+    id: 9220015
+    name: prize-19220015
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133007-1
+    content: prize-29220015
+  }
+  {
+    id: 9220016
+    name: prize-19220016
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133012-1,133013-1,133014-1,133015-1,133059-1,133060-1
+    content: prize-29220016
+  }
+  {
+    id: 9220017
+    name: prize-19220017
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133016-1,133017-1,133018-1,133019-1,133020-1,133061-1
+    content: prize-29220017
+  }
+  {
+    id: 9220018
+    name: prize-19220018
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 133021-1,133022-1,133023-1,133024-1,133025-1,133062-1
+    content: prize-29220018
+  }
+  {
+    id: 9220019
+    name: prize-19220019
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    item_ids: 57-1000
+    content: prize-29220019
+  }
+  {
+    id: 9220020
+    name: prize-19220020
+    mp: 500
+    ammo: 500
+    mre: 500
+    part: 500
+    item_ids: 133026-1,133027-1,133028-1,133029-1,133030-1,133063-1
+    content: prize-29220020
   }
 ]

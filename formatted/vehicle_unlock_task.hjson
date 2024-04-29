@@ -1,0 +1,69 @@
+[
+  {
+    id: 1
+    description: Reach Commander Level 50
+    task_type: commander_level
+    count: "50"
+    vehicle_id: 1
+    group_type: 1
+  }
+  {
+    id: 2
+    description: Obtain a total of 120 medals
+    task_type: mission_medal_all
+    count: "120"
+    vehicle_id: 1
+    group_type: 1
+  }
+  {
+    id: 3
+    description: Possess 10 lvl 100 T-Dolls or Sangvis units
+    task_type: i_gun_level
+    count: "10"
+    condition: "100"
+    vehicle_id: 1
+    group_type: 1
+  }
+  {
+    id: 4
+    description: Complete Main Battle Tank tutorial in the Mobile Armor Range
+    task_type: c_guide_complete
+    condition: "11487"
+    vehicle_id: 1
+    group_type: 1
+  }
+  {
+    id: 5
+    description: Kill AA-02 Sinner once (Normal 13-6 recommended)
+    task_type: i_kill_enemy_all
+    count: "1"
+    condition: "80"
+    vehicle_id: 2
+    group_type: 1
+  }
+  {
+    id: 6
+    description: Obtain a total of 50 gold medals
+    task_type: mission_bestrank5
+    count: "50"
+    vehicle_id: 2
+    group_type: 1
+  }
+  {
+    id: 7
+    description: Possess 2 lvl 100 Fire Support Units
+    task_type: i_squad_level
+    count: "2"
+    condition: "100"
+    vehicle_id: 2
+    group_type: 1
+  }
+  {
+    id: 8
+    description: Complete the Tactical Mech tutorial in the Mobile Armor Range
+    task_type: c_guide_complete
+    condition: "11486"
+    vehicle_id: 2
+    group_type: 1
+  }
+]

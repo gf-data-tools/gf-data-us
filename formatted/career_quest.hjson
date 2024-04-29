@@ -455,7 +455,6 @@
   {
     id: 150
     type: friend_apply
-    unlock_label: mission:7
     count: 1
     prize_id: 758
     title: Friends: Adding Friends
@@ -467,7 +466,6 @@
   {
     id: 151
     type: friend_card_change
-    unlock_label: mission:7
     count: 1
     prize_id: 759
     title: Friends: Changing Card Background
@@ -479,7 +477,6 @@
   {
     id: 152
     type: friend_headpic_change
-    unlock_label: mission:7
     count: 1
     prize_id: 760
     title: Friend: Changing Card Icon
@@ -693,10 +690,10 @@
   {
     id: 172
     type: squad_base_data_analyse
-    count: 1
+    count: 20
     prize_id: 780
-    title: Heavy Ordnance Corps: Original Sample
-    content: Analyze an Original Sample in "Intelligence Center – Analyzer".
+    title: HOC: Original Samples
+    content: Consume a total of 20 Original Data Samples
     new_type: 1
     grade_id: 29
     sort: 206
@@ -704,43 +701,21 @@
   {
     id: 173
     type: squad_senior_data_analyse
-    count: 1
+    count: 20
     prize_id: 781
-    title: Heavy Ordnance Corps: Pure Sample
-    content: Analyze a Pure Sample in "Intelligence Center – Analyzer".
+    title: HOC: Pure Samples
+    content: Consume a total of 20 Pure Data Samples
     new_type: 1
     grade_id: 29
     sort: 207
-  }
-  {
-    id: 174
-    type: squad_get_chip
-    count: 1
-    prize_id: 782
-    title: Heavy Ordnance Corps: Chip
-    content: Acquire a chip for the first time.
-    new_type: 1
-    grade_id: 29
-    sort: 208
-  }
-  {
-    id: 175
-    type: squad_get_secret_data
-    count: 1
-    prize_id: 783
-    title: Heavy Ordnance Corps: Core Data
-    content: Acquire a piece of Central Data for the first time.
-    new_type: 1
-    grade_id: 29
-    sort: 209
   }
   {
     id: 176
     type: squad_get_type1_unit
     count: 1
     prize_id: 784
-    title: Heavy Ordnance Corps: Unlock
-    content: Unlock your first HOC Fire Support Unit.
+    title: HOC: Unlocked
+    content: Unlock a Heavy Ordnance Corps unit for the first time
     new_type: 1
     grade_id: 29
     sort: 210
@@ -750,8 +725,8 @@
     type: squad_up_rank
     count: 1
     prize_id: 785
-    title: Heavy Ordnance Corps: Promotion
-    content: Promote an HOC unit for the first time.
+    title: HOC: Upgrade
+    content: Upgrade a Fire Support Unit for the first time
     new_type: 1
     grade_id: 30
     sort: 222
@@ -761,30 +736,19 @@
     type: squad_rank_max
     count: 1
     prize_id: 786
-    title: Heavy Ordnance Corps: Promotion
-    content: Promote an HOC unit to 5 stars for the first time.
+    title: HOC: Upgrade
+    content: Upgrade a Fire Support Unit to five-star for the first time
     new_type: 1
     grade_id: 33
     sort: 264
-  }
-  {
-    id: 179
-    type: squad_train_time
-    count: 1
-    prize_id: 787
-    title: Heavy Ordnance Corps: EXP Training
-    content: Complete EXP Training on an HOC unit in "Garage – Training Range".
-    new_type: 1
-    grade_id: 29
-    sort: 211
   }
   {
     id: 180
     type: squad_level_max
     count: 1
     prize_id: 788
-    title: Heavy Ordnance Corps: Level Up
-    content: Train an HOC unit to level 100.
+    title: HOC: Level Up
+    content: Raise a Fire Support Unit to lvl 100 for the first time
     new_type: 1
     grade_id: 33
     sort: 265
@@ -794,8 +758,8 @@
     type: squad_up_skill_times
     count: 1
     prize_id: 789
-    title: Heavy Ordnance Corps: Skill Training
-    content: Complete Skill Training on an HOC unit in "Garage – Training Range".
+    title: HOC: Skill Training
+    content: Complete HOC skill training once at Intelligence Center – Training Range
     new_type: 1
     grade_id: 30
     sort: 223
@@ -805,33 +769,11 @@
     type: squad_up_advanced_times
     count: 1
     prize_id: 790
-    title: Heavy Ordnance Corps: Iteration
-    content: Perform an HOC Iteration for the first time.
+    title: HOC: Iteration
+    content: Perform a Fire Support Unit iteration for the first time
     new_type: 1
     grade_id: 33
     sort: 266
-  }
-  {
-    id: 184
-    type: squad_chip_retire_times
-    count: 1
-    prize_id: 792
-    title: Heavy Ordnance Corps: Chip Dismantling
-    content: Dismantle a Chip in "Garage – Chips Storage".
-    new_type: 1
-    grade_id: 30
-    sort: 224
-  }
-  {
-    id: 185
-    type: squad_eat_chip_num
-    count: 1
-    prize_id: 793
-    title: Heavy Ordnance Corps: Chip Enhancement
-    content: Perform a Chip Enhancement in "Garage – Chips Storage".
-    new_type: 1
-    grade_id: 30
-    sort: 225
   }
   {
     id: 186
@@ -2647,7 +2589,7 @@
     count: 1
     prize_id: 11157
     title: Fairy: Fairy Skill
-    content: Level up a Fairy's skill to Level 5 in "Research – Skill Training" (not counting the Prototype Fairy).
+    content: Level up a Fairy's skill to Level 5 in "Research – Skill Training".
     new_type: 1
     grade_id: 25
     sort: 187
@@ -2659,7 +2601,7 @@
     count: 1
     prize_id: 11158
     title: Fairy: Fairy Skill
-    content: Level up a Fairy's skill to Level 10 in "Research – Skill Training" (not counting the Prototype Fairy).
+    content: Level up a Fairy's skill to Level 10 in "Research – Skill Training" .
     new_type: 1
     grade_id: 26
     sort: 198
@@ -2671,7 +2613,7 @@
     count: 2
     prize_id: 11159
     title: Fairy: Fairy Skill
-    content: Level up 2 Fairies skills to Level 10 in "Research – Skill Training" (not counting the Prototype Fairy).
+    content: Level up 2 Fairies skills to Level 10 in "Research – Skill Training" .
     new_type: 1
     grade_id: 27
     sort: 204
@@ -2716,10 +2658,10 @@
   {
     id: 355
     type: squad_base_data_analyse
-    count: 20
+    count: 400
     prize_id: 11163
-    title: Heavy Ordnance Corps: Original Sample
-    content: Analyze 20 Original Samples in "Intelligence Center – Analyzer"
+    title: HOC: Original Samples
+    content: Consume a total of 400 Original Data Samples
     new_type: 1
     grade_id: 30
     sort: 226
@@ -2727,10 +2669,10 @@
   {
     id: 356
     type: squad_senior_data_analyse
-    count: 5
+    count: 100
     prize_id: 11164
-    title: Heavy Ordnance Corps: Pure Sample
-    content: Analyze 5 Pure Samples in "Intelligence Center – Analyzer"
+    title: HOC: Pure Samples
+    content: Consume a total of 100 Pure Data Samples
     new_type: 1
     grade_id: 30
     sort: 227
@@ -2740,8 +2682,8 @@
     type: c_squad_rank
     count: 1
     prize_id: 11165
-    title: Heavy Ordnance Corps: Promotion
-    content: Promote an HOC unit to 3 stars.
+    title: HOC: Upgrade
+    content: Upgrade a Fire Support Unit to 3-star for the first time
     new_type: 1
     grade_id: 31
     sort: 241
@@ -2752,8 +2694,8 @@
     type: c_squad_rank
     count: 1
     prize_id: 11166
-    title: Heavy Ordnance Corps: Promotion
-    content: Promote an HOC unit to 4 stars.
+    title: HOC: Upgrade
+    content: Upgrade a Fire Support Unit to 4-star for the first time
     new_type: 1
     grade_id: 32
     sort: 253
@@ -2764,7 +2706,7 @@
     type: write_squad_report
     count: 1
     prize_id: 11167
-    title: Heavy Ordnance Corps: Special Combat Report
+    title: HOC: Special Combat Reports
     content: Write Special Combat Report 1 time in "Data Room - Desk".
     new_type: 1
     grade_id: 29
@@ -2775,7 +2717,7 @@
     type: exchange_squad_report
     count: 1
     prize_id: 11168
-    title: Heavy Ordnance Corps: Special Combat Report
+    title: HOC: Special Combat Reports
     content: Redeem a Special Combat Report in "Forward Basecamp – Black Market Shop".
     new_type: 1
     grade_id: 30
@@ -2786,8 +2728,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11169
-    title: Heavy Ordnance Corps: Level Training
-    content: Level up an HOC unit to Level 30 in "Garage – Training Range".
+    title: HOC: Level Up
+    content: Raise a Fire Support Unit to lvl 30 for the first time
     new_type: 1
     grade_id: 30
     sort: 229
@@ -2798,8 +2740,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11170
-    title: Heavy Ordnance Corps: Level Training
-    content: Level up an HOC unit to Level 50 in "Garage – Training Range".
+    title: HOC: Level Up
+    content: Raise a Fire Support Unit to lvl 50 for the first time
     new_type: 1
     grade_id: 31
     sort: 242
@@ -2810,8 +2752,8 @@
     type: c_squad_level
     count: 1
     prize_id: 11171
-    title: Heavy Ordnance Corps: Level Training
-    content: Level up an HOC unit to Level 70 in "Garage – Training Range".
+    title: HOC: Level Up
+    content: Raise a Fire Support Unit to lvl 70 for the first time
     new_type: 1
     grade_id: 32
     sort: 254
@@ -2822,8 +2764,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11172
-    title: Heavy Ordnance Corps: Skill Training
-    content: Level up an HOC unit's skills so that the total of all skill levels equals 6 in "Garage – Training Range".
+    title: HOC: Skill Training
+    content: Raise a Fire Support Unit's overall skill level to lvl 6 at Intelligence Center – Training Range
     new_type: 1
     grade_id: 30
     sort: 230
@@ -2834,8 +2776,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11173
-    title: Heavy Ordnance Corps: Skill Training
-    content: Level up an HOC unit's skills so that the total of all skill levels equals 15 in "Garage – Training Range".
+    title: HOC: Skill Training
+    content: Raise a Fire Support Unit's overall skill level to lvl 15 at Intelligence Center – Training Range
     new_type: 1
     grade_id: 31
     sort: 243
@@ -2846,8 +2788,8 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11174
-    title: Heavy Ordnance Corps: Skill Training
-    content: Level up an HOC unit's skills so that the total of all skill levels equals 24 in "Garage – Training Range".
+    title: HOC: Skill Training
+    content: Raise a Fire Support Unit's overall skill level to lvl 24 at Intelligence Center – Training Range
     new_type: 1
     grade_id: 32
     sort: 255
@@ -2858,151 +2800,20 @@
     type: c_squad_allskills_level
     count: 1
     prize_id: 11175
-    title: Heavy Ordnance Corps: Skill Training
-    content: Level up an HOC unit's skills so that the total of all skill levels equals 30 in "Garage – Training Range".
+    title: HOC: Skill Training
+    content: Raise a Fire Support Unit's overall skill level to lvl 30 at Intelligence Center – Training Range
     new_type: 1
     grade_id: 33
     sort: 267
     condition: "30"
   }
   {
-    id: 368
-    type: c_squad_chip_level
-    count: 1
-    prize_id: 11176
-    title: Heavy Ordnance Corps: Chip Enhancement
-    content: Enhance an HOC Chip to Level 5.
-    new_type: 1
-    grade_id: 30
-    sort: 231
-    condition: "5"
-  }
-  {
-    id: 369
-    type: c_squad_chip_level
-    count: 3
-    prize_id: 11177
-    title: Heavy Ordnance Corps: Chip Enhancement
-    content: Enhance 3 HOC Chips to Level 5.
-    new_type: 1
-    grade_id: 31
-    sort: 244
-    condition: "5"
-  }
-  {
-    id: 370
-    type: c_squad_chip_level
-    count: 6
-    prize_id: 11178
-    title: Heavy Ordnance Corps: Chip Enhancement
-    content: Enhance 6 HOC Chips to Level 10.
-    new_type: 1
-    grade_id: 32
-    sort: 256
-    condition: "10"
-  }
-  {
-    id: 371
-    type: c_squad_chip_level
-    count: 6
-    prize_id: 11179
-    title: Heavy Ordnance Corps: Chip Enhancement
-    content: Enhance 6 HOC Chips to Level 20.
-    new_type: 1
-    grade_id: 33
-    sort: 268
-    condition: "20"
-  }
-  {
-    id: 372
-    type: squad_get_chip
-    count: 20
-    prize_id: 11180
-    title: Heavy Ordnance Corps: Chip
-    content: Obtain 20 Chips in total.
-    new_type: 1
-    grade_id: 30
-    sort: 232
-  }
-  {
-    id: 373
-    type: c_establish_up
-    count: 1
-    prize_id: 11181
-    title: Heavy Ordnance Corps: Storeroom
-    content: Level up "Storeroom" to Level 1 in the Garage.
-    new_type: 1
-    grade_id: 29
-    sort: 213
-    condition: "601"
-  }
-  {
-    id: 374
-    type: c_establish_up
-    count: 3
-    prize_id: 11182
-    title: Heavy Ordnance Corps: Storeroom
-    content: Level up "Storeroom" to Level 3 in the Garage.
-    new_type: 1
-    grade_id: 30
-    sort: 233
-    condition: "601"
-  }
-  {
-    id: 375
-    type: c_establish_up
-    count: 6
-    prize_id: 11183
-    title: Heavy Ordnance Corps: Storeroom
-    content: Level up "Storeroom" to Level 6 in the Garage.
-    new_type: 1
-    grade_id: 32
-    sort: 245
-    condition: "601"
-  }
-  {
-    id: 376
-    type: c_establish_up
-    count: 10
-    prize_id: 11184
-    title: Heavy Ordnance Corps: Storeroom
-    content: Level up "Storeroom" to Level 10 in the Garage.
-    new_type: 1
-    grade_id: 33
-    sort: 257
-    condition: "601"
-  }
-  {
-    id: 377
-    type: c_establish_up
-    count: 1
-    prize_id: 11185
-    title: Heavy Ordnance Corps: Maintenance Machinery
-    content: Level up "Maintenance Machinery" to Level 1 in the Garage.
-    new_type: 1
-    grade_id: 29
-    sort: 214
-    condition: "602"
-  }
-  {
-    id: 378
-    type: c_establish_up
-    count: 2
-    prize_id: 11186
-    title: Heavy Ordnance Corps: Maintenance Machinery
-    content: Level up "Maintenance Machinery" to Level 2 in the Garage.
-    new_type: 1
-    grade_id: 30
-    sort: 234
-    condition: "602"
-  }
-  {
     id: 381
     type: c_establish_up
     count: 1
     prize_id: 11187
-    title: Heavy Ordnance Corps: Training Range
-    content: Level up "Training Range" to Level 1 in the Garage.
+    title: HOC: Training Range
+    content: Upgrade the Training Range in the Intelligence Center to lvl 1
     new_type: 1
     grade_id: 29
     sort: 215
@@ -3013,8 +2824,8 @@
     type: c_establish_up
     count: 3
     prize_id: 11188
-    title: Heavy Ordnance Corps: Training Range
-    content: Level up "Training Range" to Level 3 in the Garage.
+    title: HOC: Training Range
+    content: Upgrade the Training Range in the Intelligence Center to lvl 3
     new_type: 1
     grade_id: 30
     sort: 235
@@ -3025,8 +2836,8 @@
     type: c_establish_up
     count: 6
     prize_id: 11189
-    title: Heavy Ordnance Corps: Training Range
-    content: Level up "Training Range" to Level 6 in the Garage.
+    title: HOC: Training Range
+    content: Upgrade the Training Range in the Intelligence Center to lvl 6
     new_type: 1
     grade_id: 32
     sort: 247
@@ -3037,67 +2848,19 @@
     type: c_establish_up
     count: 10
     prize_id: 11190
-    title: Heavy Ordnance Corps: Training Range
-    content: Level up "Training Range" to Level 10 in the Garage.
+    title: HOC: Training Range
+    content: Upgrade the Training Range in the Intelligence Center to lvl 10
     new_type: 1
     grade_id: 33
     sort: 259
     condition: "603"
   }
   {
-    id: 385
-    type: c_establish_up
-    count: 1
-    prize_id: 11191
-    title: Heavy Ordnance Corps: Briefing Station
-    content: Level up "Briefing Station" to Level 1 in the Intelligence Center.
-    new_type: 1
-    grade_id: 29
-    sort: 216
-    condition: "502"
-  }
-  {
-    id: 386
-    type: c_establish_up
-    count: 3
-    prize_id: 11192
-    title: Heavy Ordnance Corps: Briefing Station
-    content: Level up "Briefing Station" to Level 3 in the Intelligence Center.
-    new_type: 1
-    grade_id: 30
-    sort: 236
-    condition: "502"
-  }
-  {
-    id: 387
-    type: c_establish_up
-    count: 6
-    prize_id: 11193
-    title: Heavy Ordnance Corps: Briefing Station
-    content: Level up "Briefing Station" to Level 6 in the Intelligence Center.
-    new_type: 1
-    grade_id: 32
-    sort: 248
-    condition: "502"
-  }
-  {
-    id: 388
-    type: c_establish_up
-    count: 10
-    prize_id: 11194
-    title: Heavy Ordnance Corps: Briefing Station
-    content: Level up "Briefing Station" to Level 10 in the Intelligence Center.
-    new_type: 1
-    grade_id: 33
-    sort: 260
-    condition: "502"
-  }
-  {
     id: 389
     type: c_establish_up
     count: 1
     prize_id: 11195
-    title: Heavy Ordnance Corps: Listening Post
+    title: HOC: Listening Post
     content: Level up "Listening Post" to Level 1 in the Intelligence Center.
     new_type: 1
     grade_id: 29
@@ -3109,7 +2872,7 @@
     type: c_establish_up
     count: 3
     prize_id: 11196
-    title: Heavy Ordnance Corps: Listening Post
+    title: HOC: Listening Post
     content: Level up "Listening Post" to Level 3 in the Intelligence Center.
     new_type: 1
     grade_id: 30
@@ -3121,7 +2884,7 @@
     type: c_establish_up
     count: 6
     prize_id: 11197
-    title: Heavy Ordnance Corps: Listening Post
+    title: HOC: Listening Post
     content: Level up "Listening Post" to Level 6 in the Intelligence Center.
     new_type: 1
     grade_id: 32
@@ -3133,7 +2896,7 @@
     type: c_establish_up
     count: 10
     prize_id: 11198
-    title: Heavy Ordnance Corps: Listening Post
+    title: HOC: Listening Post
     content: Level up "Listening Post" to Level 10 in the Intelligence Center.
     new_type: 1
     grade_id: 33
@@ -3145,7 +2908,7 @@
     type: c_establish_up
     count: 1
     prize_id: 11199
-    title: Heavy Ordnance Corps: Storage
+    title: HOC: Storage Equipment
     content: Level up "Storage" to Level 1 in the Intelligence Center.
     new_type: 1
     grade_id: 29
@@ -3157,7 +2920,7 @@
     type: c_establish_up
     count: 3
     prize_id: 11200
-    title: Heavy Ordnance Corps: Storage
+    title: HOC: Storage Equipment
     content: Level up "Storage" to Level 3 in the Intelligence Center.
     new_type: 1
     grade_id: 30
@@ -3169,7 +2932,7 @@
     type: c_establish_up
     count: 6
     prize_id: 11201
-    title: Heavy Ordnance Corps: Storage
+    title: HOC: Storage Equipment
     content: Level up "Storage" to Level 6 in the Intelligence Center.
     new_type: 1
     grade_id: 32
@@ -3181,60 +2944,12 @@
     type: c_establish_up
     count: 10
     prize_id: 11202
-    title: Heavy Ordnance Corps: Storage
+    title: HOC: Storage Equipment
     content: Level up "Storage" to Level 10 in the Intelligence Center.
     new_type: 1
     grade_id: 33
     sort: 262
     condition: "503"
-  }
-  {
-    id: 397
-    type: c_establish_up
-    count: 1
-    prize_id: 11203
-    title: Heavy Ordnance Corps: Analyzer
-    content: Level up "Analyzer" to Level 1 in the Intelligence Center.
-    new_type: 1
-    grade_id: 29
-    sort: 219
-    condition: "504"
-  }
-  {
-    id: 398
-    type: c_establish_up
-    count: 3
-    prize_id: 11204
-    title: Heavy Ordnance Corps: Analyzer
-    content: Level up "Analyzer" to Level 3 in the Intelligence Center.
-    new_type: 1
-    grade_id: 30
-    sort: 239
-    condition: "504"
-  }
-  {
-    id: 399
-    type: c_establish_up
-    count: 6
-    prize_id: 11205
-    title: Heavy Ordnance Corps: Analyzer
-    content: Level up "Analyzer" to Level 6 in the Intelligence Center.
-    new_type: 1
-    grade_id: 32
-    sort: 251
-    condition: "504"
-  }
-  {
-    id: 400
-    type: c_establish_up
-    count: 10
-    prize_id: 11206
-    title: Heavy Ordnance Corps: Analyzer
-    content: Level up "Analyzer" to Level 10 in the Intelligence Center.
-    new_type: 1
-    grade_id: 33
-    sort: 263
-    condition: "504"
   }
   {
     id: 401
@@ -4471,8 +4186,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11312
-    title: Heavy Ordnance Corps: Beginner Exam
-    content: You will need to turn the battle situation to your advantage by destroying battlefield facilities with HOC units in order to pass the exam.
+    title: HOC: Basic Examination
+    content: Complete the Promotion Stage and turn a battle around by destroying battlefield facilities using a Fire Support Unit
     new_type: 1
     grade_id: 29
     sort: 220
@@ -4484,8 +4199,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11313
-    title: Heavy Ordnance Corps: Intermediate Exam
-    content: You will need to use your HOC units to defeat enemies armed with force fields in order to pass the exam.
+    title: HOC: Intermediate Examination
+    content: Complete the Promotion Stage and defeat enemies with force fields using a Fire Support Unit
     new_type: 1
     grade_id: 31
     sort: 252
@@ -4497,8 +4212,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11314
-    title: Heavy Ordnance Corps: Final Exam
-    content: You will need to defeat powerful enemies with high-level HOC units in order to pass the final exam.
+    title: HOC: Final Examination
+    content: Complete the Promotion Stage and defeat powerful enemies using a high-level Fire Support Unit
     new_type: 1
     grade_id: 33
     sort: 269
@@ -4510,8 +4225,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11315
-    title: Heavy Ordnance Corps: Destroying Facilities
-    content: Complete the tutorial and learn how to destroy battlefield facilities with HOC units.
+    title: HOC: Destroy Facilities
+    content: Complete the tutorial and learn how to destroy battlefield facilities using Fire Support Units
     new_type: 1
     grade_id: 29
     sort: 221
@@ -4522,8 +4237,8 @@
     type: c_tutorial_mission
     count: 1
     prize_id: 11316
-    title: Heavy Ordnance Corps: Destroying Force Fields
-    content: Complete the tutorial and learn how to defeat enemies protected by force fields with HOC units.
+    title: HOC: Destroy Force Fields
+    content: Complete the tutorial and learn how to defeat enemies with force fields using Fire Support Units
     new_type: 1
     grade_id: 30
     sort: 240
@@ -4885,5 +4600,451 @@
     grade_id: 45
     sort: 360
     condition: "10921"
+  }
+  {
+    id: 564
+    type: different_vehicle_1
+    count: 1
+    prize_id: 9220019
+    title: Mobile Armor: First Gun
+    content: Unlock the Main Battle Tank in the Index
+    new_type: 1
+    grade_id: 65
+    sort: 361
+  }
+  {
+    id: 565
+    type: get_vehicle_component
+    count: 1
+    prize_id: 9220007
+    title: Mobile Armor: Component Acquisition
+    content: Obtain a random Mobile Armor Component
+    new_type: 1
+    grade_id: 65
+    sort: 362
+  }
+  {
+    id: 566
+    type: vehicle_shooting_range
+    count: 1
+    prize_id: 220002
+    title: Mobile Armor: Live-Fire Test & Evaluation
+    content: Complete a Mobile Armor Test at the Armor Range
+    new_type: 1
+    grade_id: 65
+    sort: 363
+  }
+  {
+    id: 567
+    type: vehicle_progress
+    count: 1
+    prize_id: 9220008
+    title: Mobile Armor: Technological Advancement
+    content: Activate a node on a Mobile Armor tech tree
+    new_type: 1
+    grade_id: 65
+    sort: 364
+  }
+  {
+    id: 568
+    type: vehicle_kill
+    count: 1
+    prize_id: 220002
+    title: Mobile Armor: First Battle
+    content: Initiate combat and kill an enemy unit using a Mobile Armor in a victorious battle
+    new_type: 1
+    grade_id: 65
+    sort: 365
+  }
+  {
+    id: 569
+    type: vehicle_component_level
+    count: 3
+    prize_id: 220002
+    title: Mobile Armor: Component Enhancement
+    content: Level up Mobile Armor Components 3 times
+    new_type: 1
+    grade_id: 65
+    sort: 366
+  }
+  {
+    id: 570
+    type: get_vehicle_component
+    count: 10
+    prize_id: 9220009
+    title: Mobile Armor: Component Acquisition
+    content: Obtain a total of 10 Mobile Armor Components
+    new_type: 1
+    grade_id: 66
+    sort: 367
+  }
+  {
+    id: 571
+    type: vehicle_progress
+    count: 3
+    prize_id: 220002
+    title: Mobile Armor: Technological Advancement
+    content: Unlock 3 nodes on any Mobile Armor tech trees
+    new_type: 1
+    grade_id: 66
+    sort: 368
+  }
+  {
+    id: 572
+    type: vehicle_kill
+    count: 5
+    prize_id: 220003
+    title: Mobile Armor: Display of Strength
+    content: Initiate combat and kill 5 enemy units using a Mobile Armor in victorious battles
+    new_type: 1
+    grade_id: 66
+    sort: 369
+  }
+  {
+    id: 573
+    type: get_vehicle_component_rank5
+    count: 1
+    prize_id: 9220010
+    title: Mobile Armor: Rare Components
+    content: Obtain a five-star Mobile Armor Component
+    new_type: 1
+    grade_id: 66
+    sort: 370
+  }
+  {
+    id: 574
+    type: vehicle_skill_progress
+    count: 1
+    prize_id: 220002
+    title: Mobile Armor: Skill Upgrade
+    content: Activate a node on a skill tech tree
+    new_type: 1
+    grade_id: 66
+    sort: 371
+  }
+  {
+    id: 575
+    type: vehicle_daily_game
+    count: 1
+    prize_id: 220003
+    title: Mobile Armor: Grey Zone Exploration
+    content: Capture any node in Gray Zone Exploration "Crystallized Zone – Hell"
+    new_type: 1
+    grade_id: 66
+    sort: 372
+  }
+  {
+    id: 576
+    type: get_vehicle_component_rank5
+    count: 5
+    prize_id: 9220011
+    title: Mobile Armor: Rare Components
+    content: Obtain 5 five-star Mobile Armor Components
+    new_type: 1
+    grade_id: 67
+    sort: 373
+  }
+  {
+    id: 577
+    type: vehicle_unlock_slot1
+    count: 2
+    prize_id: 220003
+    title: Mobile Armor: Slot Unlocked
+    content: Unlock all Component slots on the Main Battle Tank
+    new_type: 1
+    grade_id: 68
+    sort: 374
+  }
+  {
+    id: 578
+    type: vehicle_defeat_challenge_1
+    count: 1
+    prize_id: 9220016
+    title: Mobile Armor: Advanced Assault
+    content: Clear Level 1 in Armor Assault - Main Battle Tank
+    new_type: 1
+    grade_id: 67
+    sort: 375
+  }
+  {
+    id: 579
+    type: vehicle_kill
+    count: 20
+    prize_id: 9220015
+    title: Mobile Armor: Battlefield Veteran
+    content: Initiate combat and kill 20 enemy units using a Mobile Armor in victorious battles
+    new_type: 1
+    grade_id: 67
+    sort: 376
+  }
+  {
+    id: 580
+    type: vehicle_skill_progress
+    count: 2
+    prize_id: 220004
+    title: Mobile Armor: Skill Upgrade
+    content: Activate 2 nodes on any skill tech trees
+    new_type: 1
+    grade_id: 67
+    sort: 377
+  }
+  {
+    id: 581
+    type: vehicle_daily_game_boss
+    count: 3
+    prize_id: 9220017
+    title: Mobile Armor: Grey Zone Exploration
+    content: Capture 3 boss nodes in Gray Zone Exploration "Crystallized Zone – Hell"
+    new_type: 1
+    grade_id: 68
+    sort: 378
+  }
+  {
+    id: 582
+    type: vehicle_daily_game
+    count: 60
+    prize_id: 220004
+    title: Mobile Armor: Grey Zone Exploration
+    content: Capture 60 nodes in Gray Zone Exploration "Crystallized Zone – Hell"
+    new_type: 1
+    grade_id: 68
+    sort: 379
+  }
+  {
+    id: 583
+    type: vehicle_progress
+    count: 10
+    prize_id: 9220018
+    title: Mobile Armor: Skill Upgrade
+    content: Activate 10 nodes on any skill tech trees
+    new_type: 1
+    grade_id: 67
+    sort: 380
+  }
+  {
+    id: 584
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 220003
+    title: Mobile Armor: Final Examination
+    content: Complete the examination stage with the Main Battle Tank
+    new_type: 1
+    grade_id: 69
+    sort: 381
+    condition: "11481"
+  }
+  {
+    id: 585
+    type: c_tutorial_mission
+    count: 1
+    prize_id: 9220020
+    title: Mobile Armor: Final Examination
+    content: Complete the examination stage with the Tactical Mech
+    new_type: 1
+    grade_id: 69
+    sort: 382
+    condition: "11480"
+  }
+  {
+    id: 586
+    type: vehicle_defeat_challenge_1
+    count: 10
+    prize_id: 220005
+    title: Mobile Armor: Advanced Assault
+    content: Clear Level 10 in Armor Assault - Main Battle Tank
+    new_type: 1
+    grade_id: 68
+    sort: 383
+  }
+  {
+    id: 587
+    type: vehicle_skill_progress
+    count: 4
+    prize_id: 9220006
+    title: Mobile Armor: Skill Upgrade
+    content: Activate 4 nodes on any skill tech trees
+    new_type: 1
+    grade_id: 68
+    sort: 384
+  }
+  {
+    id: 588
+    type: get_vehicle_component_rank5
+    count: 30
+    prize_id: 220005
+    title: Mobile Armor: Rare Components
+    content: Obtain 30 five-star Mobile Armor Components
+    new_type: 1
+    grade_id: 69
+    sort: 385
+  }
+  {
+    id: 589
+    type: vehicle_defeat_challenge_1
+    count: 30
+    prize_id: 220006
+    title: Mobile Armor: Advanced Assault
+    content: Clear Level 30 in Armor Assault - Main Battle Tank
+    new_type: 1
+    grade_id: 69
+    sort: 386
+  }
+  {
+    id: 590
+    type: vehicle_component_level_type0
+    count: 10
+    prize_id: 220003
+    title: Mobile Armor: Component Enhancement
+    content: Upgrade any Mobile Armor Universal Component to lvl 10
+    new_type: 1
+    grade_id: 69
+    sort: 387
+  }
+  {
+    id: 591
+    type: vehicle_component_level_type1
+    count: 10
+    prize_id: 220003
+    title: Mobile Armor: Component Enhancement
+    content: Upgrade any Mobile Armor Heavy Weapon Component to lvl 10
+    new_type: 1
+    grade_id: 69
+    sort: 388
+  }
+  {
+    id: 592
+    type: vehicle_component_level_type2
+    count: 10
+    prize_id: 220003
+    title: Mobile Armor: Component Enhancement
+    content: Upgrade any Mobile Armor Light Weapon Component to lvl 10
+    new_type: 1
+    grade_id: 69
+    sort: 389
+  }
+  {
+    id: 593
+    type: vehicle_component_level_type3
+    count: 10
+    prize_id: 220003
+    title: Mobile Armor: Component Enhancement
+    content: Upgrade any Mobile Armor Function Component to lvl 10
+    new_type: 1
+    grade_id: 69
+    sort: 390
+  }
+  {
+    id: 594
+    type: vehicle_component_level_type4
+    count: 10
+    prize_id: 220003
+    title: Mobile Armor: Component Enhancement
+    content: Upgrade any Mobile Armor Defense Component to lvl 10
+    new_type: 1
+    grade_id: 69
+    sort: 391
+  }
+  {
+    id: 595
+    type: vehicle_progress
+    count: 15
+    prize_id: 220006
+    title: Mobile Armor: Technological Advancement
+    content: Unlock 15 nodes on any Mobile Armor tech trees
+    new_type: 1
+    grade_id: 68
+    sort: 392
+  }
+  {
+    id: 600
+    type: vehicle_progress
+    count: 30
+    prize_id: 220005
+    title: Mobile Armor: Technological Advancement
+    content: Unlock 30 nodes on any Mobile Armor tech trees
+    new_type: 1
+    grade_id: 69
+    sort: 393
+  }
+  {
+    id: 1003
+    type: squad_get_chip
+    count: 1
+    prize_id: 782
+    title: HOC: Chips
+    content: Install a Chip on an Fire Support Unit for the first time
+    new_type: 1
+    grade_id: 29
+    sort: 208
+  }
+  {
+    id: 1005
+    type: squad_eat_chip_num
+    count: 1
+    prize_id: 793
+    title: HOC: Chip Enhancement
+    content: Perform an HOC Chip enhancement
+    new_type: 1
+    grade_id: 30
+    sort: 225
+  }
+  {
+    id: 1008
+    type: c_squad_chip_level
+    count: 1
+    prize_id: 11176
+    title: HOC: Chip Enhancement
+    content: Upgrade an HOC Chip to lvl 5
+    new_type: 1
+    grade_id: 30
+    sort: 231
+    condition: "5"
+  }
+  {
+    id: 1009
+    type: c_squad_chip_level
+    count: 3
+    prize_id: 11177
+    title: HOC: Chip Enhancement
+    content: Upgrade 3 HOC Chips to lvl 5
+    new_type: 1
+    grade_id: 31
+    sort: 244
+    condition: "5"
+  }
+  {
+    id: 1010
+    type: c_squad_chip_level
+    count: 6
+    prize_id: 11178
+    title: HOC: Chip Enhancement
+    content: Upgrade 6 HOC Chips to lvl 10
+    new_type: 1
+    grade_id: 32
+    sort: 256
+    condition: "10"
+  }
+  {
+    id: 1011
+    type: c_squad_chip_level
+    count: 6
+    prize_id: 11179
+    title: HOC: Chip Enhancement
+    content: Upgrade 6 HOC Chips to lvl 20
+    new_type: 1
+    grade_id: 33
+    sort: 268
+    condition: "20"
+  }
+  {
+    id: 1012
+    type: squad_get_chip
+    count: 20
+    prize_id: 11180
+    title: HOC: Chips
+    content: Unlock a total of 20 Chips
+    new_type: 1
+    grade_id: 30
+    sort: 232
   }
 ]

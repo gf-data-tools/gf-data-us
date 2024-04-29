@@ -263,7 +263,7 @@
     id: 402
     type: 2
     title: Fairy Production
-    sub_title: You can obtain Fairies from Equipment Heavy Production.
+    sub_title: Obtain a Fairy via Fairy Heavy Production.
     content: 119ae27100a2d4c9_draw_221018121824.jpg
     function_control_id: 1
     goto_page: 21
@@ -315,24 +315,24 @@
     id: 500
     type: 1
     child_ids: "501,502,503,504,505,506,507,508,509"
-    title: HOC
-    sub_title: Now that the Heavy Ordnance Corps have been rolled out, we might be able to turn the battlefield situation around.
+    title: Fire Support Unit
+    sub_title: The creation of the Fire Support Unit may well turn the tables on the battlefield.
     code: manural_squad
     function_control_id: 10000
   }
   {
     id: 501
     type: 2
-    title: HOC Introduction
-    sub_title: HOC can provide powerful fire support.
+    title: Fire Support Unit Introduction
+    sub_title: Fire Support Unit can provide powerful fire support.
     content: c9b6d65f625a8f55_draw_221018122617.jpg
     function_control_id: 10000
   }
   {
     id: 502
     type: 2
-    title: HOC Research
-    sub_title: Research and develop HOC by analyzing data.
+    title: Fire Support Unit Research
+    sub_title: Conduct research on Fire Support Units using data samples.
     content: c9d0a4eeca01ce09_draw_210119001.jpg,6982b9f7b0e558d0_draw_200717089.jpg,e8f628ad70ebf648_draw_200717090.jpg,996180b927348ad2_draw_200717091.jpg,f5cf9cdd04b35cf7_draw_200717092.jpg
     function_control_id: 10000
     goto_page: 202
@@ -340,16 +340,16 @@
   {
     id: 503
     type: 2
-    title: HOC in Battles
-    sub_title: HOC may possess impressive firepower, but they are not capable of fighting on their own.
+    title: Fire Support Unit in Battles
+    sub_title: Fire Support Units possess impressive firepower, but they are not capable of fighting on their own.
     content: 289035bdd3c6d3e4_draw_200717095.jpg,75f54d7de4478346_draw_200717093.jpg,0ac3aac8aa1d7510_draw_200717096.jpg,feb5426e770b58b4_draw_200717097.jpg,36b2f8bf4e431d60_draw_200717094.jpg,c26fc2f0d9e2ae0d_draw_200717098.jpg
     function_control_id: 10000
   }
   {
     id: 504
     type: 2
-    title: HOC Enhancement
-    sub_title: Please continue to enhance your HOC!
+    title: Fire Support Unit Training
+    sub_title: Please keep strengthening your Fire Support Units!
     content: ab22c5e34c6f28bf_draw_210901001.jpg,f6ca103a01c8f37f_draw_200717077.jpg
     function_control_id: 10000
     goto_page: 203
@@ -357,16 +357,16 @@
   {
     id: 505
     type: 2
-    title: HOC Circuits
-    sub_title: Insert new chips into the HOC's circuit to improve their performance in battle.
+    title: Fire Support Unit Circuit
+    sub_title: Equip your Fire Support Units with chips to further improve their performance.
     content: 625b49274cd8bb70_draw_200717084.jpg,12047ac26a23a7e3_draw_200717083.jpg,10c7fcddc77866bb_draw_200717081.jpg,f3643ed66f3601f5_draw_200717082.jpg
     function_control_id: 10000
   }
   {
     id: 506
     type: 2
-    title: HOC Skills
-    sub_title: The HOC's skills need to be trained.
+    title: Fire Support Unit Skill
+    sub_title: Improving Fire Support Units' skills requires more rigorous training.
     content: e7fa25b3a3da8412_draw_200717085.jpg
     function_control_id: 10000
     goto_page: 203
@@ -374,16 +374,16 @@
   {
     id: 507
     type: 2
-    title: HOC Iteration
-    sub_title: Fully-leveled HOC can still be improved.
+    title: Fire Support Unit Iteration
+    sub_title: Fire Support Units can still be enhanced after reaching max. level.
     content: 7dd300a5cbe3a082_draw_200717079.jpg,8dd7603f1bd8a069_draw_200717080.jpg
     function_control_id: 10000
   }
   {
     id: 508
     type: 2
-    title: Garage
-    sub_title: You can access and manage your HOC in the Garage.
+    title: Intelligence Center
+    sub_title: The facilities in the Intelligence Center provides all the necessary support for Fire Support Units.
     content: 837cbee47b7c181b_draw_200717074.jpg,d53f289b4c287a91_draw_200717073.jpg
     function_control_id: 10000
     goto_page: 203
@@ -391,8 +391,8 @@
   {
     id: 509
     type: 2
-    title: Intelligence Center
-    sub_title: Analyzing samples at the Intelligence Center is the best way to obtain HOC.
+    title: tutorial_manual-10000509
+    sub_title: tutorial_manual-20000509
     content: 98750a6e5a08a9cf_draw_200717076.jpg,3f63932ac85c3f41_draw_200717075.jpg
     function_control_id: 10000
     goto_page: 202
@@ -579,8 +579,8 @@
   {
     id: 710
     type: 2
-    title: HOC in Battles
-    sub_title: HOC may possess impressive firepower, but they are not capable of fighting on their own.
+    title: Fire Support Unit in Battles
+    sub_title: Fire Support Units possess impressive firepower, but they are not capable of fighting on their own.
     content: 289035bdd3c6d3e4_draw_200717095.jpg,75f54d7de4478346_draw_200717093.jpg,0ac3aac8aa1d7510_draw_200717096.jpg,feb5426e770b58b4_draw_200717097.jpg,36b2f8bf4e431d60_draw_200717094.jpg,c26fc2f0d9e2ae0d_draw_200717098.jpg
     function_control_id: 10000
   }
@@ -927,7 +927,7 @@
     id: 1112
     type: 2
     title: Garage
-    sub_title: You can access and manage your HOC in the Garage.
+    sub_title: View and manage your Mobile Armors in the Garage.
     content: 837cbee47b7c181b_draw_200717074.jpg,d53f289b4c287a91_draw_200717073.jpg
     function_control_id: 10000
     goto_page: 203
@@ -936,7 +936,7 @@
     id: 1113
     type: 2
     title: Intelligence Center
-    sub_title: Analyzing samples at the Intelligence Center is the best way to obtain HOC.
+    sub_title: The facilities in the Intelligence Center provides all the necessary support for Fire Support Units.
     content: 98750a6e5a08a9cf_draw_200717076.jpg,3f63932ac85c3f41_draw_200717075.jpg
     function_control_id: 10000
     goto_page: 202
@@ -1403,8 +1403,8 @@
   {
     id: 1910
     type: 2
-    title: Gachapon
-    sub_title: Commanders can obtain Gachapon Tickets from Luffberry Chess, which can be used to draw rewards at the Gachapon Machine.
+    title: Gachapon Machine
+    sub_title: Play Luffberry Chess to obtain gachapon tokens for different rewards.
     content: b08e271c92d3423d_draw_220621143851.jpg
     function_control_id: 26
   }
@@ -1569,5 +1569,102 @@
     sub_title: Griffin's AI Proxy Battle System is currently under testing.
     content: 71143da57a33252b_draw_231107211148.jpg
     function_control_id: 29
+  }
+  {
+    id: 2109
+    type: 2
+    title: Gray Zone Exploration Planning Mode
+    sub_title: Plan and automatically conduct an exploration in the Gray Zone.
+    content: c4b9a9b33aeb7da9_draw_240410184410.jpg,9fae9bc9333590e1_draw_240410184410.jpg
+    function_control_id: 29
+  }
+  {
+    id: 2110
+    type: 2
+    title: Armored Assault
+    sub_title: Clear the Boss node in the Crystallized Zone to gain access to the Armored Assault stage.
+    content: 84e8d4bfa700c394_draw_240409172835.jpg,013e93342af5655c_draw_240409172836.jpg,5485c2291a8ab6e1_draw_240411144656.jpg,0cb03320fa827aab_draw_240411144657.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2200
+    type: 1
+    child_ids: "2201,2202,2203,2204,2205,2206,2207,2208,2209"
+    title: Mobile Armor
+    sub_title: Griffin has been authorized to deploy Mobile Armors in response to the risk of attack by high-threat hostile forces.
+    code: manual_vehicle
+    function_control_id: 30
+  }
+  {
+    id: 2201
+    type: 2
+    title: Armor Details
+    sub_title: Introduction of the Mobile Armor Details interface.
+    content: df53c727a0abed4e_draw_240409123217.jpg,dedbb7ce5fa41a6e_draw_240409123218.jpg,299d3144e4255d7d_draw_240409123218.jpg,990be31c9811beed_draw_240409123218.jpg,4770bcd9e0546371_draw_240409123219.jpg,fd0bd3bd9e0fd99b_draw_240409123219.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2202
+    type: 2
+    title: Armor Leveling
+    sub_title: Leveling and enhancement of Mobile Armors.
+    content: 80bff2e673221dab_draw_240409150944.jpg,5e1c1bdcf4f69d2b_draw_240409150945.jpg,4fdd14aa7fb6bfc5_draw_240409150945.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2203
+    type: 2
+    title: Component Enhancement
+    sub_title: Acquisition and enhancement of Mobile Armor Components.
+    content: 84e8d4bfa700c394_draw_240409172835.jpg,013e93342af5655c_draw_240409172836.jpg,974c0cc0d40757eb_draw_240409172836.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2204
+    type: 2
+    title: Battlefield Information
+    sub_title: Displayed information of the Mobile Armor in this stage.
+    content: c4c2abf255000f89_draw_240409192525.jpg,1e4e08ac3a819d51_draw_240409192525.jpg,9bbd7d34b00582d7_draw_240409192525.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2205
+    type: 2
+    title: Engaging Enemies in Combat
+    sub_title: Introduction of how to fight battles using Mobile Armors.
+    content: ba561c1eae9671ec_draw_240409193633.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2206
+    type: 2
+    title: Garage
+    sub_title: View and manage your Mobile Armors in the Garage.
+    content: c01bb726419a514d_draw_240409195325.jpg,f61bd84a8b6d1a7a_draw_240409195325.jpg,eda069d3e71d7eb4_draw_240409195326.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2207
+    type: 2
+    title: Special Unit: Main Battle Tank
+    sub_title: Introduction of the Main Battle Tank's special functions.
+    content: 9b8a1bea3862bab4_draw_240410180746.jpg,1ddcaf68c13bd7d0_draw_240410180747.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2208
+    type: 2
+    title: Special Unit: Tactical Mech
+    sub_title: Introduction of the Tactical Mech's special functions.
+    content: 04ae3c50a8085d5e_draw_240410180747.jpg
+    function_control_id: 30
+  }
+  {
+    id: 2209
+    type: 2
+    title: Armor Design Shop
+    sub_title: Customize the design of your Mobile Armors in the Armor Design Shop.
+    content: 4d85c53b2fc1b4ff_draw_240410180748.jpg,ac5e814899fc32ed_draw_240410180748.jpg,b5f569f4228f8b25_draw_240410180748.jpg
+    function_control_id: 30
   }
 ]

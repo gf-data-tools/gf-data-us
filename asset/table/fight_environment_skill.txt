@@ -53,7 +53,7 @@ fight_environment_skill-20000718,Increase the evasion and armor of allies on the
 fight_environment_skill-10000719,Last-Ditch Struggle
 fight_environment_skill-20000719,Generate a shield with a value that equals 10% of the enemy's lost HP every 15 seconds. The shield lasts for 6 seconds.
 fight_environment_skill-10000720,Target of Steel
-fight_environment_skill-20000720,Summon a fully Dummy-Linked target every 10 seconds. Each Dummy of the target has 1000HP.
+fight_environment_skill-20000720,Summon a group of fully-Linked targets with a total HP of 1000 every 10 seconds.
 fight_environment_skill-10000721,Hammer and Anvil
 fight_environment_skill-20000721,Generate a group of enemies in front of the echelon every 6 seconds.
 fight_environment_skill-10000722,Undaunted Morale
@@ -355,7 +355,7 @@ fight_environment_skill-32022601,Deal 10//c000 points of damage to the enemy uni
 fight_environment_skill-22022701,Cracked Shield
 fight_environment_skill-32022701,Clear all enemy shields every 10 seconds during battle.
 fight_environment_skill-22022801,Coordinated Provocation
-fight_environment_skill-32022801,At the start of the battle//c summon a fully-Linked target with 1//c000 HP per Dummy-Link.
+fight_environment_skill-32022801,Summon a group of fully-Linked targets with a total HP of 1000 at the start of the battle.
 fight_environment_skill-22022901,Flower of Paralysis
 fight_environment_skill-32022901,Paralyze all enemies for 4 seconds at the start of the battle.
 fight_environment_skill-22023001,Armor-Piercing Power
@@ -370,9 +370,9 @@ fight_environment_skill-22023401,Shield Critical Hits-1
 fight_environment_skill-32023401,Critical rate of your shielded units is by 100%-1.
 fight_environment_skill-22023501,Shield Critical Hits-2
 fight_environment_skill-32023501,Critical rate of your shielded units is by 100%-2.
-fight_environment_skill-10230901,
-fight_environment_skill-20230901,
-fight_environment_skill-10230902,
-fight_environment_skill-20230902,
-fight_environment_skill-10230903,
-fight_environment_skill-20230903,
+fight_environment_skill-10230901,Opening Freeze
+fight_environment_skill-20230901,Stun all enemies for 5 seconds at the start of the battle.//n<color=#CF8000>This effect lasts 1 turn.</color>
+fight_environment_skill-10230902,Ground of Assault
+fight_environment_skill-20230902,Inflict 20% vulnerability on all enemies at the start of the battle.//n<color=#CF8000>This effect lasts 1 turn.</color>
+fight_environment_skill-10230903,Support Coverage
+fight_environment_skill-20230903,After every 5 seconds//c deal 3000 points of damage and 1000 points of shield damage.//n<color=#CF8000>This effect lasts 1 turn.</color>

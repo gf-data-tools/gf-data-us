@@ -4,7 +4,7 @@
     name: SHD Bespoke "V"
     des: When using the complete set of SHD special equipment, Agent Vector gains the ability to significantly increase her echelon's overall survivability.
     code: EgroupVec
-    equip_unit: "199,200,201"
+    equip_unit: "201,200,199"
     group_skill: 2:992050,3:992051
     fit_gun: "1028"
     is_addition: 1
@@ -25,7 +25,7 @@
     des: With a full set of gear, Mosin-Nagant can maximize her performance on the battlefield. Everything's gonna be fine.
     code: EgroupM1891
     equip_unit: "337,111,86"
-    group_skill: 2:778217,3:759100
+    group_skill: 3:759100
     fit_gun: "20039"
   }
   {
@@ -34,7 +34,7 @@
     des: With a full set of 16LAB special equipment, ST AR-15 receives a powerful boost to her combat performance, and her secondary weapon also becomes more wieldy.
     code: EgroupAR15
     equip_unit: "100,338,60"
-    group_skill: 2:778217,3:759094
+    group_skill: 3:759094
     fit_gun: "20057"
   }
   {
@@ -42,8 +42,8 @@
     name: Stechkin Bash
     des: With a full set of 16LAB special equipment, Stechkin receives a powerful boost to her ability to support her echelon and boost its overall combat performance.
     code: EgroupAPS
-    equip_unit: "133,171,342"
-    group_skill: 2:778217,3:759134
+    equip_unit: "133,342,171"
+    group_skill: 3:759134
     fit_gun: "20007"
   }
   {
@@ -51,8 +51,8 @@
     name: Rainforest Adventure
     des: With a full set of camouflage equipment, Type 64 can blend in better in forested combat environment and perform unexpected attacks on enemies.
     code: Egroup64type
-    equip_unit: "103,218,343"
-    group_skill: 2:778217,3:759143
+    equip_unit: "218,343,103"
+    group_skill: 3:759143
     fit_gun: "20094"
   }
   {
@@ -60,8 +60,8 @@
     name: Petite Courier
     des: Wearing her complete set, Gr MP5 is much more agile on the battlefield and can deliver information and supplies much more quickly.
     code: EgroupMP5
-    equip_unit: "62,157,348"
-    group_skill: 2:778217,3:759187
+    equip_unit: "62,348,157"
+    group_skill: 3:759187
     fit_gun: "20026"
   }
   {
@@ -69,8 +69,8 @@
     name: Silent One
     des: Decked out in the full set of custom-made equipment, Gr MG4 can take out her targets with great accuracy even on chaotic battlefields.
     code: EgroupMG4
-    equip_unit: "132,239,349"
-    group_skill: 2:778217,3:759192
+    equip_unit: "239,132,349"
+    group_skill: 3:759192
     fit_gun: "20125"
   }
   {
@@ -79,7 +79,7 @@
     des: Decked out in the full set of custom-made items, Makarov can command T-Dolls with greater effectiveness on the battlefield.
     code: EgroupPM
     equip_unit: "180,238,351"
-    group_skill: 2:778217,3:759219
+    group_skill: 3:759219
     fit_gun: "20008"
   }
   {
@@ -88,22 +88,25 @@
     des: Wearing her complete set, PPSh-41 can now work more seamlessly with other T-Dolls and is always ready to achieve personal glory.
     code: EgroupPPSh41
     equip_unit: "352,272,219"
-    group_skill: 2:778217,3:759224
+    group_skill: 3:759224
     fit_gun: "20021"
   }
   {
     id: 11
     name: Dark Queen
+    des: Wearing her complete set, PPK can now inflict exquisite pain on others to her heart's content.
     code: EgroupPPK
     equip_unit: "155,284,355"
-    group_skill: 2:778217,3:759242
+    group_skill: 3:759242
     fit_gun: "20010"
   }
   {
     id: 12
+    name: 404 Custom 416
+    des: Squad 404's custom set for 416 can greatly improves her combat performance.
     code: EgroupHK416KMod
     equip_unit: "106,356,159"
-    group_skill: 2:778217,3:759236
+    group_skill: 3:759236
     fit_gun: "20065"
   }
 ]

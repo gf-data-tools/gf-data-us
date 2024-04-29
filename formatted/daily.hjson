@@ -52,11 +52,11 @@
   {
     identity: 6
     mission_type: 2
-    type: squad_data_analyse
-    count: 4
-    title: Construction: Intelligence Analysis
-    content: Perform 4 Intelligence Analyses.
-    function_control_id: 15
+    type: get_vehicle_component
+    count: 6
+    title: Construction: Component Acquisition
+    content: Obtain 6 Mobile Armor Components.
+    function_control_id: 30
     prize_id: 8308
     exchange_prize_id: 8315
   }
@@ -146,105 +146,94 @@
   {
     identity: 15
     mission_type: 4
-    type: complete_squad_daily
-    count: 1
-    title: Logistics: Information Gathering
-    content: Complete 1 Information Quest.
-    function_control_id: 15
-    prize_id: 8308
-    exchange_prize_id: 8315
-  }
-  {
-    identity: 16
-    mission_type: 4
     type: sangvis_exercise
     count: 3
-    title: Logistics: Simulated Exercise
+    title: Logistics: Combat Simulation
     content: Complete 3 Coalition Drills.
     function_control_id: 21
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
-    identity: 17
+    identity: 16
     mission_type: 4
     type: auto_battle
     count: 1
     title: Logistics: Support Dispatch
-    content: Complete 1 Auto-Battle.
+    content: Complete an Auto-Battle.
     function_control_id: 15
+    prize_id: 8308
+    exchange_prize_id: 8315
+  }
+  {
+    identity: 17
+    mission_type: 5
+    type: from_friend_build_coin
+    count: 5
+    title: Cooperation: Joint Operation
+    content: Obtain shared batteries from friends 5 times.
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 18
     mission_type: 5
-    type: from_friend_build_coin
+    type: like
     count: 5
     title: Collaboration: Joint Operations
-    content: Obtain Shared Batteries from your friends' Dorms 5 times.
+    content: Like 5 players' Dormitories.
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 19
     mission_type: 5
-    type: like
-    count: 5
+    type: borrow_friend_team
+    count: 2
     title: Collaboration: Joint Operations
-    content: Like your friends' Dorms 5 times.
+    content: Use Support Echelons twice.
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 20
-    mission_type: 5
-    type: borrow_friend_team
-    count: 2
-    title: Collaboration: Joint Operations
-    content: Use 2 Friend Echelons in battle.
+    mission_type: 6
+    type: explore
+    count: 1
+    title: Other: Zone Exploration
+    content: Perform an exploration at the Forward Basecamp.
+    function_control_id: 17
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 21
     mission_type: 6
-    type: explore
+    type: sangvis_daily_retrieval
     count: 1
-    title: Other: Regional Exploration
-    content: Launch 1 expedition from the Forward Basecamp.
-    function_control_id: 17
+    title: Other: Protocol Assimilation
+    content: Perform a Capture Operation (either a Standard Capture or an Aided Capture).
+    function_control_id: 21
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 22
     mission_type: 6
-    type: sangvis_daily_retrieval
-    count: 1
-    title: Other: Protocol Assimilation
-    content: Perform 1 Capture (Standard and Aided Captures both count).
-    function_control_id: 21
+    type: heart_collect
+    count: 5
+    title: Other: Doll Interaction
+    content: Collect 5 hearts.
     prize_id: 8308
     exchange_prize_id: 8315
   }
   {
     identity: 23
     mission_type: 6
-    type: heart_collect
-    count: 5
-    title: Other: Doll Exchange
-    content: Collect 5 Hearts.
-    prize_id: 8308
-    exchange_prize_id: 8315
-  }
-  {
-    identity: 24
-    mission_type: 6
     type: gift
     count: 1
     title: Other: Doll Exchange
-    content: Give a Gift to a T-Doll or Coalition Unit once.
+    content: Give a gift to a T-Doll or Coalition Unit.
     prize_id: 8308
     exchange_prize_id: 8315
   }

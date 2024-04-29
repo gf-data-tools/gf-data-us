@@ -152,6 +152,21 @@
     notice_txt: event_prize_level-20001001
   }
   {
+    id: 10001
+    name: Down the Rabbit Hole PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "10105"
+    condition: 20000:40593;32000:40594;44000:40595;56000:40596;68000:40597;80000:40598;100000:40599;120000:40600
+    left_icon: efc1d87bd104024e_draw_240416150852.png
+    background: 44e23d05dc5559b3_draw_240416150856.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign stage "Down the Rabbit Hole PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
     id: 90001
     name: The Glistening Bloom
     type: 2

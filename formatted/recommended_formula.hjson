@@ -745,8 +745,9 @@
     name: Chips
     content:
       '''
-      *Usable by ARs and SMGs.
-      Buffs <color=#FFB400FF>damage</color> and <color=#FFB400FF>rate of fire</color>, but reduces <color=#FFB400FF>crit damage</color>.
+      *Equipment usable by AR/SMG T-Dolls can be categorized into the following types:
+      1. Equipment that increases the Doll's <color=#FFB400FF>damage</color> and <color=#FFB400FF>rate of fire</color> but reduces her <color=#FFB400FF>critical damage</color>;
+      2. Equipment that increases the Doll's <color=#FFB400FF>damage</color> and <color=#FFB400FF>critical damage</color> but reduces her <color=#FFB400FF>rate of fire</color>.
       '''
     background: equip_bg
     mp: 170
@@ -962,7 +963,7 @@
     develop_type: 3
     type: "21"
     name: Tripod
-    content: '''"*Usable by MGs. Increase a T-Doll's <color=#FFB400FF>accuracy</color> and <color=#FFB400FF>reload speed</color>'''
+    content: *Usable by MGs. Increase a T-Doll's <color=#FFB400FF>accuracy</color> and <color=#FFB400FF>reload speed</color>, but reduce her <color=#FFB400FF>move speed</color>.
     background: equip_bg
     mp: 300
     ammo: 10
