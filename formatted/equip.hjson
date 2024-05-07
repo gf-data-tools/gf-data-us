@@ -2010,7 +2010,7 @@
     auto_select_id: 7002
     is_show: 1
     obtain_ids: "3,3001"
-    sp_description: equip-40000077
+    sp_description: Target-2 DMG*3
   }
   {
     id: 78
@@ -2042,7 +2042,7 @@
     auto_select_id: 7002
     is_show: 1
     obtain_ids: "3,3001,3028"
-    sp_description: equip-40000078
+    sp_description: Target-2 DMG*3
   }
   {
     id: 79
@@ -2076,7 +2076,7 @@
     auto_select_id: 7002
     is_show: 1
     obtain_ids: "3,3001,3028"
-    sp_description: equip-40000079
+    sp_description: Target-2 DMG*3
   }
   {
     id: 80
@@ -2110,7 +2110,7 @@
     auto_select_id: 7002
     is_show: 1
     obtain_ids: "3001,3028"
-    sp_description: equip-40000080
+    sp_description: Target-2 DMG*3
   }
   {
     id: 81
@@ -2495,8 +2495,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:400,critical_harm_rate:700
+    passive_skill: "759085,759088"
     max_level: 10
     auto_select_id: 20005
+    group_id: "13,14"
     is_show: 1
     obtain_ids: "3,3048"
     sp_description: equip-40000092
@@ -3559,8 +3561,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:500,critical_percent:400
+    passive_skill: "759083"
     max_level: 10
     auto_select_id: 18020
+    group_id: "13"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000125
@@ -4574,8 +4578,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:450,hit:500,dodge:500
+    passive_skill: "759086"
     max_level: 10
     auto_select_id: 18037
+    group_id: "14"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000156
@@ -5192,7 +5198,7 @@
     auto_select_id: 19014
     is_show: 1
     obtain_ids: "3030"
-    sp_description: equip-40000174
+    sp_description: Target-2
   }
   {
     id: 175
@@ -6637,7 +6643,7 @@
     auto_select_id: 19027
     is_show: 1
     obtain_ids: "3005"
-    sp_description: equip-40000216
+    sp_description: Target-2
     description_skill: 115807
   }
   {
@@ -6937,7 +6943,7 @@
     auto_select_id: 6004
     is_show: 1
     obtain_ids: "3001,3028"
-    sp_description: equip-40000225
+    sp_description: Echelon ACC+10%
   }
   {
     id: 226
@@ -7083,7 +7089,7 @@
     auto_select_id: 7003
     is_show: 1
     obtain_ids: "3001,3028"
-    sp_description: equip-40000230
+    sp_description: Target+2
   }
   {
     id: 231
@@ -7118,7 +7124,7 @@
     auto_select_id: 7003
     is_show: 1
     obtain_ids: "3001,3028"
-    sp_description: equip-40000231
+    sp_description: Target+2
   }
   {
     id: 232
@@ -11108,6 +11114,74 @@
     is_show: 1
     obtain_ids: "3089"
     description_skill: 759246
+  }
+  {
+    id: 358
+    name: .45UMP Hollow-Point Rounds
+    description:
+      '''
+      DMG+<pow>
+      ACC+<hit> $UMP45 MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "6,10"
+    hit: "8,10"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_UMP45Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20103"
+    equip_introduction: A new type of hollow-point rounds custom made for UMP45 with greatly reduced sonic boom.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000,hit:500
+    passive_skill: "759084"
+    max_level: 10
+    auto_select_id: 19062
+    group_id: "13"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 359
+    name: 9mm UMP Hollow-Point Rounds
+    description:
+      '''
+      DMG+<pow>
+      CRIT RATE+<critical_percent><%> $UMP9 MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,8"
+    critical_percent: "6,10"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: 弹匣_特殊_UMP9Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20101"
+    equip_introduction: A new type of hollow-point rounds custom made for UMP9 with improved lethality.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "759087"
+    max_level: 10
+    auto_select_id: 19063
+    group_id: "14"
+    is_show: 1
+    obtain_ids: "3096"
   }
   {
     id: 364

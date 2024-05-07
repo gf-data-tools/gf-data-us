@@ -735,6 +735,62 @@
     present_info: present-11500112
   }
   {
+    item_id: 1500113
+    type: 1
+    prize_id: 140001
+    due_time: 2024/06/23 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500113
+  }
+  {
+    item_id: 1500114
+    type: 1
+    prize_id: 140002
+    due_time: 2024/06/23 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500114
+  }
+  {
+    item_id: 1500115
+    type: 2
+    drop_package_id: 2242
+    due_time: 2024/06/23 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500115
+  }
+  {
+    item_id: 1500116
+    type: 2
+    drop_package_id: 945
+    due_time: 2024/06/23 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500116
+  }
+  {
+    item_id: 1700001
+    type: 1
+    prize_id: 150089
+    due_time: 2024/07/10  00:00:00
+    due_prize_id: 140073
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1700002
+    type: 1
+    prize_id: 150090
+    due_time: 2024/07/10  00:00:00
+    due_prize_id: 140074
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
+    item_id: 1700003
+    type: 1
+    prize_id: 150091
+    due_time: 2024/07/10  00:00:00
+    due_prize_id: 140075
+    present_info: Activate an Indicator that specifies the delivery coordinates, then select an item from the delivery list.
+  }
+  {
     item_id: 1800001
     type: 2
     drop_package_id: 2000001
@@ -862,5 +918,75 @@
     prize_id: 205003
     present_info: present-11800033
     function: 30
+  }
+  {
+    item_id: 9000001
+    type: 2
+    poster: PackageImage_anniversary_1
+    drop_package_id: 20137
+    due_time: 2024/07/03  23:59:59
+    due_prize_id: 7397
+    present_info:
+      '''
+      A "1st Anniversary Exclusive Costume Ticket" allows you to obtain a random unobtained costume from the available list below. You will receive a random costume from that range instead if you possess all corresponding costumes. 
+      Costumes Available: Lee Enfield-Lifelong Protector, FAL-The Big Day, Type95-Narcissus, Suomi-Korvatunturi Pixie, Gr MG5-Crimson Guardian, M99-Cyclamen, Five-seveN-Cruise Queen, Vector-Kitty Paws, WA2000-Haunted Castle, Gr G36C-Ode to Summer
+      *Expires after Jul. 3rd, 2024.
+      '''
+  }
+  {
+    item_id: 9000002
+    type: 2
+    poster: PackageImage_anniversary_2
+    drop_package_id: 20138
+    due_time: 2024/07/03  23:59:59
+    due_prize_id: 7397
+    present_info:
+      '''
+      A "2nd Anniversary Exclusive Costume Ticket" allows you to obtain a random unobtained costume from the available list below. You will receive a random costume from that range instead if you possess all corresponding costumes. 
+      Costumes Available: SPAS-12-Goblin Huntress, Type79-Nine-Tail Fox, NTW-20-The Aristocrat Experience, 416-Starry Cocoon, Springfield-Classic Witch, OTs-14-Flurry of Petals, WA2000-Date in the Snow, Thompson-Demon Hunter, Gr G41-Beach Punk 2064, Gd DSR-50-Highest Bid
+      *Expires after Jul. 3rd, 2024.
+      '''
+  }
+  {
+    item_id: 9000003
+    type: 2
+    poster: PackageImage_anniversary_3
+    drop_package_id: 20139
+    due_time: 2024/07/03  23:59:59
+    due_prize_id: 7397
+    present_info:
+      '''
+      A "3rd Anniversary Exclusive Costume Ticket" allows you to obtain a random unobtained costume from the available list below. You will receive a random costume from that range instead if you possess all corresponding costumes. 
+      Costumes Available: OTs-14-Sangria Succulent, AN-94-Silent Rouge, MDR-Cocktail Observer, Five-seveN-Adventures of Little Finn, R93-Holiday Lucky Star, PA-15-High School Thrills, Carcano M91/38-Miss Pinocchio, AUG-Requiem Array, Five-seveN-Blue Christmas, SPAS-12-Midsummer Fruit
+      *Expires after Jul. 3rd, 2024.
+      '''
+  }
+  {
+    item_id: 9000004
+    type: 2
+    poster: PackageImage_anniversary_4
+    drop_package_id: 20140
+    due_time: 2024/07/03  23:59:59
+    due_prize_id: 7397
+    present_info:
+      '''
+      A "4th Anniversary Exclusive Costume Ticket" allows you to obtain a random unobtained costume from the available list below. You will receive a random costume from that range instead if you possess all corresponding costumes. 
+      Costumes Available: 416-Black Kitty's Gift, R5-Pas de Deux, Gr G36c-Red Beret, ZB-26-Nook of Ephemeral Dreams, UMP9-Bolero Dance Bird, Type 95-White Lotus in Limpid Waters, AK-Alfa-Cat Snatcher Beneath the Stars, Saiga-12-Crimson Navigator
+      *Expires after Jul. 3rd, 2024.
+      '''
+  }
+  {
+    item_id: 9000005
+    type: 2
+    poster: PackageImage_anniversary_5
+    drop_package_id: 20141
+    due_time: 2024/07/03  23:59:59
+    due_prize_id: 7397
+    present_info:
+      '''
+      A "5th Anniversary Exclusive Costume Ticket" allows you to obtain a random unobtained costume from the available list below. You will receive a random costume from that range instead if you possess all corresponding costumes. 
+      Costumes Available: Type88-White Comet, Bearer of Wishes, General Liu-Willow Foxfire, PA-15-Dance in the Ice Sea, DP-12-Morning Fable, OTs-14-Destined Love, R5-Pas de Deux, ZB-26-The 1000th Paper Crane, Lewis-Warmth of the Wintersweet, M4 SOPMODII-Birdsong in the Woods, Type 97S-Drunken Petals
+      *Expires after Jul. 3rd, 2024.
+      '''
   }
 ]

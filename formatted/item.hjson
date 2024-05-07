@@ -10750,6 +10750,15 @@
     rank: 1
   }
   {
+    id: 2090
+    type: 5
+    arg: "1"
+    code: profilePic_mask_6years
+    item_name: True Core Mask Commemorative Icon - 6th Anniversary
+    introduction: True Core Mask Commemorative Icon - 6th Anniversary
+    rank: 1
+  }
+  {
     id: 2091
     type: 5
     arg: "1"
@@ -12522,6 +12531,69 @@
     rank: 1
   }
   {
+    id: 2306
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_98K
+    item_name: Foxtrot Round the Corner
+    introduction: Foxtrot Round the Corner
+    rank: 1
+  }
+  {
+    id: 2307
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_DesertEagle
+    item_name: Roses and Birdsong
+    introduction: Roses and Birdsong
+    rank: 1
+  }
+  {
+    id: 2308
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_HS50
+    item_name: Intoxicating Crystal
+    introduction: Intoxicating Crystal
+    rank: 1
+  }
+  {
+    id: 2309
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_9A91
+    item_name: Hidden Secret
+    introduction: Hidden Secret
+    rank: 1
+  }
+  {
+    id: 2310
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_MG36
+    item_name: Kudzu Knight
+    introduction: Kudzu Knight
+    rank: 1
+  }
+  {
+    id: 2311
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_Mk48
+    item_name: Catcher in the Banquet
+    introduction: Catcher in the Banquet
+    rank: 1
+  }
+  {
+    id: 2312
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2023_SR2
+    item_name: Foam Terminator
+    introduction: Foam Terminator
+    rank: 1
+  }
+  {
     id: 2313
     type: 5
     arg: "1"
@@ -12921,6 +12993,24 @@
     code: profilePic_BattlePass_M950A
     item_name: Headbanger Syndrome
     introduction: Headbanger Syndrome
+    rank: 1
+  }
+  {
+    id: 2442
+    type: 5
+    arg: "1"
+    code: card_BattlePass_95type
+    item_name: ID: Picturesque Pavilion
+    introduction: ID: Picturesque Pavilion
+    rank: 1
+  }
+  {
+    id: 2443
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_95type
+    item_name: Brocade in Misty Rain
+    introduction: Brocade in Misty Rain
     rank: 1
   }
   {
@@ -13915,6 +14005,15 @@
     id: 10707
     type: 18
     arg: "10707"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10708
+    type: 18
+    arg: "10708"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -15057,6 +15156,33 @@
     introduction: Fragrant Cocoa
     rank: 1
     daily_limit: "60"
+  }
+  {
+    id: 100138
+    type: 4
+    arg: "100138"
+    code: core_mask_6year
+    item_name: True Core Mask - 6th Anniversary
+    introduction: True Core Mask - 6th Anniversary
+    rank: 1
+  }
+  {
+    id: 100139
+    type: 4
+    arg: "100139"
+    code: Bumdle_20226year
+    item_name: 6th Anniversary Special Supply Box
+    introduction: 6th Anniversary Special Supply Box
+    rank: 1
+  }
+  {
+    id: 100140
+    type: 4
+    arg: "100140"
+    code: Bumdle_6year
+    item_name: 6th Anniversary Costume Voucher
+    introduction: 6th Anniversary Costume Voucher
+    rank: 1
   }
   {
     id: 100144
@@ -17416,6 +17542,26 @@
     detail_introduction: item-30140030
   }
   {
+    id: 140031
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140031
+    introduction: item-20140031
+    rank: 1
+    detail_introduction: item-30140031
+  }
+  {
+    id: 140032
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140032
+    introduction: item-20140032
+    rank: 1
+    detail_introduction: item-30140032
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -17722,6 +17868,15 @@
     code: profileFrame_BattlePass_M950A
     item_name: Icon Frame - Slurp—
     introduction: Icon Frame - Slurp—
+    rank: 1
+  }
+  {
+    id: 200039
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_95type
+    item_name: Icon Frame - Seeping Music
+    introduction: Icon Frame - Seeping Music
     rank: 1
   }
   {
@@ -19066,6 +19221,46 @@
     sort: -1
   }
   {
+    id: 1500113
+    type: 15
+    arg: "1500113"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Orchid Pond in Fall. Obtain a random piece of equipment from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500114
+    type: 15
+    arg: "1500114"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Orchid Pond in Fall. Open this Specified Delivery Indicator to obtain a piece of Accessory-Type Equipment of your choice from the list.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500115
+    type: 15
+    arg: "1500115"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Orchid Pond in Fall. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500116
+    type: 15
+    arg: "1500116"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Orchid Pond in Fall. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -19091,6 +19286,36 @@
     item_name: Lucky Letter
     introduction: Put a Lucky Letter into the Wish-Making Letter Box and you'll have a chance of winning the corresponding rewards!
     rank: 1
+  }
+  {
+    id: 1700001
+    type: 15
+    arg: "1700001"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700002
+    type: 15
+    arg: "1700002"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700003
+    type: 15
+    arg: "1700003"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
   }
   {
     id: 1800001
@@ -19167,22 +19392,20 @@
     type: 15
     arg: "1800008"
     code: package_random
-    item_name: item-11800008
-    introduction: item-21800008
+    item_name: Military-Grade Weapon Component Box 2.0
+    introduction: Guaranteed drop of five-star Heavy/Light Weapon Components.
     rank: 5
     sort: -1
-    detail_introduction: item-31800008
   }
   {
     id: 1800009
     type: 15
     arg: "1800009"
     code: package_random
-    item_name: item-11800009
-    introduction: item-21800009
+    item_name: Military-Grade Function Component Box 2.0
+    introduction: Guaranteed drop of five-star Function/Defense/Universal Components.
     rank: 5
     sort: -1
-    detail_introduction: item-31800009
   }
   {
     id: 1800011
@@ -19271,6 +19494,56 @@
     code: package_choose
     item_name: Three-Star Component Fixed
     introduction: Three-Star Component Fixed
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 9000001
+    type: 15
+    arg: "9000001"
+    code: Bumdle_1year_Coupons
+    item_name: 1st Anniversary Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 9000002
+    type: 15
+    arg: "9000002"
+    code: Bumdle_2year_Coupons
+    item_name: 2nd Anniversary Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 9000003
+    type: 15
+    arg: "9000003"
+    code: Bumdle_3year_Coupons
+    item_name: 3rd Anniversary Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 9000004
+    type: 15
+    arg: "9000004"
+    code: Bumdle_4year_Coupons
+    item_name: 4th Anniversary Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 9000005
+    type: 15
+    arg: "9000005"
+    code: Bumdle_5year_Coupons
+    item_name: 5th Anniversary Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
     rank: 1
     sort: -1
   }

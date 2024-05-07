@@ -26257,6 +26257,268 @@
     rotate: "2"
   }
   {
+    id: 11001
+    name: Six Beautiful Years - Wood Grain Vinyl
+    classes: 110
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: Restricted by the tight budget, Griffin's Logistics Department burned the midnight oil to stick wood grain vinyl onto the floor and erased the memory of all witnesses.
+    code: Anniversary2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11002
+    name: Six Beautiful Years - Starry Shards in the Night Sky
+    classes: 110
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: '''"Look at those stars. They must be shards of a gigantic gemstone. They are no less beautiful even though they're broken." "Indeed. You are also no less liable for the plates that you smashed."'''
+    code: Anniversary2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11003
+    name: Six Beautiful Years - Candlelit Passion
+    classes: 110
+    type: 201
+    position: "2,9"
+    space: "8,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Rich decorations and warm candlelight can not only make the dessert appear more delicious, but also quietly cover up the space left behind by the dessert that goes missing.
+    code: Anniversary2023_deco_01
+    texture_type: "1"
+    offset: "0,-0.291956,0.490069"
+    rotate: "2"
+    touch_area: "8,4,0"
+  }
+  {
+    id: 11004
+    name: Six Beautiful Years - Diamond Pendants
+    classes: 110
+    type: 201
+    position: "17,8"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Simple and elegant diamond-shaped structures hanging in mid-air make for the perfect embellishment for the night view outside the window, as well as the three moons in the eyes of the drunkards.
+    code: Anniversary2023_deco_02
+    texture_type: "1"
+    offset: "0,3.1281,0"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 11005
+    name: Six Beautiful Years - 7th Night Movement
+    classes: 110
+    type: 201
+    position: "24,3"
+    space: "8,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Without anyone playing the instrument, the keys sink and bounce back up again. Low music resounds through the great hall like a deep and melancholic sigh.
+    code: Anniversary2023_deco_03,Anniversary2023_deco_05
+    texture_type: "1,1"
+    sorting: "0,10"
+    offset: "-0.1334656,-0.1188678,0|-0.12511763953,0.531777,0"
+    rotate: "2,2"
+    interact_point: "14"
+    interact_point_offset: *-1.05,2.049,0
+    touch_area: "8,5,0"
+  }
+  {
+    id: 11006
+    name: Six Beautiful Years - Looking Back
+    classes: 110
+    type: 302
+    position: "6,6"
+    space: "4,9,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The first preservable photograph in history was created in 1837. To this very day, humans still record moments of their lives using this old-fashioned method. I believe the reason will become apparent as you gaze at the photographs.
+    code: Anniversary2023_walldeco_A
+    texture_type: "1"
+    offset: "0,0.250248,0"
+    rotate: "3"
+    touch_area: "4,9,0"
+  }
+  {
+    id: 11007
+    name: Six Beautiful Years - Ethanol Vortex
+    classes: 110
+    type: 201
+    position: "23,0"
+    space: "6,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Do not open the liquor cabinet lightly. I'm warning you again—what you're opening isn't a liquor cabinet, but the gate to a drunken hell!
+    code: Anniversary2023_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 11008
+    name: Six Beautiful Years - Our Six Years
+    classes: 110
+    type: 201
+    position: "13,0"
+    space: "9,7,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Six may be the loneliest number, but we, who have been together for Six years, are not lonely in the slightest.
+    code: Anniversary2023_deco_06,Anniversary2023_balloon
+    texture_type: "1,2"
+    sorting: "10,0"
+    offset: "-0.271102,-0.855014,0.750744|-0.20854,1.543196,1.324229"
+    rotate: "2,2"
+    touch_area: "9,7,0"
+  }
+  {
+    id: 11009
+    name: Six Beautiful Years - Melodious Staircase
+    classes: 110
+    type: 201
+    position: "32,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The stairs to the alcove of beautiful music are hard to climb. This way, people will know that the expression of each note is no easy feat.
+    code: Anniversary2023_deco_07
+    texture_type: "1"
+    offset: "0.125124,-0.281529,0.20854"
+    rotate: "2"
+  }
+  {
+    id: 11010
+    name: Six Beautiful Years - Bright Staircase
+    classes: 110
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The stairs to the alcove of burning candle are hard to climb. This way, people will know that every speck of light is to be treasured.
+    code: Anniversary2023_deco_08,Anniversary2023_deco_09
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0,0,0|0.0041708,4.4888235,1.0364438"
+    rotate: "2,2"
+  }
+  {
+    id: 11011
+    name: Six Beautiful Years - Owl-Shaped Clock
+    classes: 110
+    type: 201
+    position: "6,2"
+    space: "2,2,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: Stop asking. It really isn't here to deliver the post. It's also not magical in the slightest.
+    code: Anniversary2023_owl_deco
+    texture_type: "2"
+    offset: "0,0.198113,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-1.5167,0,0
+    touch_area: "3,6,0"
+  }
+  {
+    id: 11012
+    name: Six Beautiful Years - Kalina's Vigil
+    classes: 110
+    type: 201
+    position: "0,12"
+    space: "2,2,1,1,1,1"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: This woman cannot be present in person, but with the help of technology, she has successfully made herself an indispensable part of the celebration—oh, look! She just put out some new products!
+    code: Anniversary2023_deco_10
+    texture_type: "1"
+    offset: "0,-0.31281,0"
+    rotate: "2"
+  }
+  {
+    id: 11013
+    name: Six Beautiful Years - This Minute, This Second
+    classes: 110
+    type: 302
+    position: "8,2"
+    space: "2,3,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: You think it's 4:45 right now? Sheesh.
+    code: Anniversary2023_walldeco_02
+    texture_type: "1"
+    offset: "0,0.20854,0"
+    rotate: "3"
+    touch_area: "2,3,0"
+  }
+  {
+    id: 11014
+    name: Six Beautiful Years - Silent Cello
+    classes: 110
+    type: 201
+    position: "30,7"
+    space: "4,7,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: As the only cellist got pulled into the whirlpool of liquor, the cello has no choice but to fall silent. After all, cellos aren't allowed to drink.
+    code: Anniversary2023_deco_11,Anniversary2023_deco_12
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0,0,0|-0.1928995,0.500496,0"
+    rotate: "2,2"
+    interact_point: "14"
+    interact_point_offset: *-0.525,2.789,0
+  }
+  {
+    id: 11015
+    name: Six Beautiful Years - Faux Stuffed Stag Head
+    classes: 110
+    type: 302
+    position: "25,3"
+    space: "3,6,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: This isn't just an imitation of a stuffed stag head, but also of a time when deer were all over the place.
+    code: Anniversary2023_walldeco_03
+    texture_type: "1"
+    offset: "0,0.604766,0"
+    rotate: "3"
+    touch_area: "3,6,0"
+  }
+  {
+    id: 11016
+    name: Six Beautiful Years - Land of Peace
+    classes: 110
+    type: 201
+    position: "20,11"
+    space: "8,3,1,1,1,1"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The pawns, who have grown tired of guarding the king and the queen as well as being trodden by the rooks, bishops, and knights, welcome a game of their own—no war, no conflict, no politicking. Just a bunch of bores killing some time.
+    code: Anniversary2023_deco_13,Anniversary2023_deco_14,Anniversary2023_deco_15
+    texture_type: "1,1,1"
+    sorting: "0,20,0"
+    offset: "-0.9061063,-0.198113,0|0.021896762562,-0.198113,0|0.9290457,-0.198113,0"
+    rotate: "2,2,2"
+    interact_point: "12,14"
+    interact_point_offset: *-2.2167,1.0528,0|*2.2167,1.0528,0
+    touch_area: "8,4,0"
+  }
+  {
     id: 11201
     name: Want-for-Naught Cha Chaan Teng - Speckled Square Tiles
     classes: 112
@@ -27726,6 +27988,23 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20117
+    name: Tachikoma
+    classes: 299
+    type: 299
+    space: "3,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A combat vehicle with a predilection for natural motor oil. Its secret tricks include Super Spin Thunderball and Ultra-Super Magic Bicycle Kick.
+    code: 2024Ghost_Tachikoma
+    texture_type: "1"
+    offset: "0.093,-0.050,-0.011"
+    rotate: "2"
+    interact_point: "17"
+    interact_point_offset: *0.166,0.105,-0.285
+    bonus_id: 3108
   }
   {
     id: 30001
@@ -37088,6 +37367,111 @@
     rotate: "3"
   }
   {
+    id: 38301
+    name: Foxtrot Round the Corner
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kar98k's poster.
+    code: poster_Anniversary2023_98K
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38302
+    name: Roses and Birdsong
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Desert Eagle's poster.
+    code: poster_Anniversary2023_DesertEagle
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38303
+    name: Intoxicating Crystal
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HS.50's poster.
+    code: poster_Anniversary2023_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38304
+    name: Hidden Secret
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 9A-91's poster.
+    code: poster_Anniversary2023_9A91
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38305
+    name: Kudzu Knight
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr MG36's poster.
+    code: poster_Anniversary2023_MG36
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38306
+    name: Catcher in the Banquet
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mk48's poster.
+    code: poster_Anniversary2023_Mk48
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38307
+    name: Foam Terminator
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SR2's poster.
+    code: poster_Anniversary2023_SR2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 38309
     name: Bathed In Starlight
     classes: 300
@@ -41708,6 +42092,21 @@
     decompose_gift: 100003
     description: M950A's poster.
     code: poster_BattlePass_M950A
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330015
+    name: Brocade in Misty Rain
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type95's Poster
+    code: poster_BattlePass_95type
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
