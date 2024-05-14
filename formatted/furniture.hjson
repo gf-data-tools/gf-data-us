@@ -27991,11 +27991,13 @@
   }
   {
     id: 20112
+    name: Cyber Orb
     classes: 19
     type: 201
     space: "2,2,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: An AI that once ran Sector 2Z64. After being striped of certain settings and programs, it is now a crystal ball that answers any questions posed by the Dolls.
     code: 2024Ghost_deco01,2024Ghost_Cyberbrain
     texture_type: "1,2"
     sorting: "0,20"
@@ -28004,11 +28006,13 @@
   }
   {
     id: 20113
+    name: Full Dive Simulator
     classes: 19
     type: 202
     space: "3,3,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: Originally an immersive device that enabled the Commander to access Sector 2Z64, it is now a fairly comfortable chair for afternoon naps.
     code: 2024Ghost_deco04,2024Ghost_deco02,2024Ghost_LinkedDevice
     texture_type: "1,1,2"
     sorting: "0,20,10"
@@ -28019,11 +28023,13 @@
   }
   {
     id: 20114
+    name: Prison Cell Group Photo
     classes: 19
     type: 302
     space: "5,6,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: A photo of four people taken in Sector 2Z64. At the strong insistence of a lady who wishes to remain anonymous, it is now hanging on the wall in the command room.
     code: 2024Ghost_deco03
     texture_type: "1"
     offset: "0.000,0.558,0.000"
@@ -28031,11 +28037,13 @@
   }
   {
     id: 20115
+    name: Endless Night
     classes: 19
     type: 301
     space: "9,5,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: In here, you will not feel the passage of time, only the data stream shooting through the night sky.
     code: 2024Ghost_wall
     texture_type: "1"
     offset: "0,0,0"
@@ -28043,11 +28051,13 @@
   }
   {
     id: 20116
+    name: Sleepless Land
     classes: 19
     type: 101
     space: "3,5,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: When time no longer has meaning, even sleep has started to elude us.
     code: 2024Ghost_floor
     texture_type: "1"
     offset: "0,0,0"
@@ -28072,11 +28082,13 @@
   }
   {
     id: 20118
+    name: Emblem That Points to Eternity
     classes: 19
     type: 302
     space: "2,5,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
+    description: Humans may never reach the shores of Utopia, but don't lose faith. The tracks we leave behind will guide those who come after us in the right direction.
     code: 2024Ghost_Medal
     texture_type: "1"
     offset: "0,0,0"
@@ -29764,13 +29776,13 @@
   }
   {
     id: 30598
-    name: furniture-10030598
+    name: Soul Hacker
     classes: 300
     type: 303
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: furniture-20030598
+    description: Purin Esaki's poster.
     code: poster_Ghost2024_Ezaki
     texture_type: "1"
     sorting: "5"
@@ -29779,13 +29791,13 @@
   }
   {
     id: 30599
-    name: furniture-10030599
+    name: Requiem of Dreams
     classes: 300
     type: 303
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: furniture-20030599
+    description: Suzuka Mizukane's poster.
     code: poster_Ghost2024_Mizukinn
     texture_type: "1"
     sorting: "5"
@@ -29794,13 +29806,13 @@
   }
   {
     id: 30600
-    name: furniture-10030600
+    name: Whisper of the Ghost
     classes: 300
     type: 303
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: furniture-20030600
+    description: Motoko Kusanagi's poster.
     code: poster_Ghost2024_Motoko
     texture_type: "1"
     sorting: "5"

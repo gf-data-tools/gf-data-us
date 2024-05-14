@@ -1700,7 +1700,7 @@
   }
   {
     id: 598
-    name: gift_item-10000598
+    name: Soul Hacker
     type: 2
     rank: 6
     favor: 50000
@@ -1708,14 +1708,13 @@
     skin: 598
     poster: 30598
     code: gift_bundle_Ghost2024_Ezaki
-    bonus_description: gift_item-30000598
-    description: gift_item-50000598
-    detail_introduction: gift_item-40000598
-    normal_description: gift_item-20000598
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
     id: 599
-    name: gift_item-10000599
+    name: Requiem of Dreams
     type: 2
     rank: 6
     favor: 50000
@@ -1723,14 +1722,13 @@
     skin: 599
     poster: 30599
     code: gift_bundle_Ghost2024_Mizukinn
-    bonus_description: gift_item-30000599
-    description: gift_item-50000599
-    detail_introduction: gift_item-40000599
-    normal_description: gift_item-20000599
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
     id: 600
-    name: gift_item-10000600
+    name: Whisper of the Ghost
     type: 2
     rank: 6
     favor: 50000
@@ -1738,10 +1736,9 @@
     skin: 600
     poster: 30600
     code: gift_bundle_Ghost2024_Motoko
-    bonus_description: gift_item-30000600
-    description: gift_item-50000600
-    detail_introduction: gift_item-40000600
-    normal_description: gift_item-20000600
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
     id: 601
@@ -9748,17 +9745,16 @@
   }
   {
     id: 100022
-    name: gift_item-10100022
+    name: Slightly Bitter Pudding
     type: 1
     rank: 5
     favor: 30000
     code: gift_item_GhostPudding
-    bonus_description: gift_item-30100022
-    description: gift_item-50100022
+    bonus_description: A caramel pudding often seen in vending machines, but for some reason it tastes a little bitter.
+    description: Gift this item to a T-Doll in your dormitory to increase her Affection by 3 point.
     item_access: "2"
-    detail_introduction: gift_item-40100022
     sort: -1017
-    normal_description: gift_item-20100022
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
     id: 200001
@@ -10037,17 +10033,16 @@
   }
   {
     id: 200022
-    name: gift_item-10200022
+    name: Electronic Fragment
     type: 3
     rank: 5
     code: gift_item_GhostPiece
-    bonus_description: gift_item-30200022
-    description: gift_item-50200022
+    bonus_description: A data fragment intercepted in Sector 2Z64. Analyze it to obtain the experience it contains.
+    description: Gift to the corresponding Doll in the dorm to obtain 10,000 EXP.
     exp: 10000
     item_access: "2"
-    detail_introduction: gift_item-40200022
     sort: -1017
-    normal_description: gift_item-20200022
+    normal_description: EXP for T-Dolls and Fairies
   }
   {
     id: 400001

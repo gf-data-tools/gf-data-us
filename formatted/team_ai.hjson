@@ -226,8 +226,8 @@
     id: 26
     force_id: 2
     ai_type: 201
-    name: team_ai-10000026
-    description: team_ai-20000026
+    name: Patrol
+    description: Move along a specific route and monitor the surrounding area in a 1-node radius, while not deviating from the original route by more than 1 node. Susceptible to the effects of special skills.
     pic: ai_patrol
     color: ffffff
   }
@@ -235,8 +235,8 @@
     id: 27
     force_id: 2
     ai_type: 202
-    name: team_ai-10000027
-    description: team_ai-20000027
+    name: Alert
+    description: Remain stationary when there are no hostile units within detection range. When hostile units enter detection range, move toward the nearest hostile unit following the shortest viable route. Susceptible to the effects of special skills.
     pic: ai_guard
     color: ffffff
   }

@@ -13007,6 +13007,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_01
+    item_name: Icon: Melancholic Vigil
+    introduction: Icon: Melancholic Vigil
     rank: 1
   }
   {
@@ -13014,6 +13016,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_02
+    item_name: Icon: Into the Pink Vortex
+    introduction: Icon: Into the Pink Vortex
     rank: 1
   }
   {
@@ -13021,6 +13025,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_03
+    item_name: Icon: Bonds and Connections
+    introduction: Icon: Bonds and Connections
     rank: 1
   }
   {
@@ -13028,6 +13034,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_04
+    item_name: Icon: The Knight's Charge
+    introduction: Icon: The Knight's Charge
     rank: 1
   }
   {
@@ -13035,6 +13043,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_05
+    item_name: Icon: Watching the Sun Go Down
+    introduction: Icon: Watching the Sun Go Down
     rank: 1
   }
   {
@@ -13042,6 +13052,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_06
+    item_name: Icon: Late-Night Drink With Cherry Blossoms
+    introduction: Icon: Late-Night Drink With Cherry Blossoms
     rank: 1
   }
   {
@@ -13049,6 +13061,8 @@
     type: 5
     arg: "1"
     code: card_Ghost2024_01
+    item_name: ID: Shining Long Night
+    introduction: ID: Shining Long Night
     rank: 1
   }
   {
@@ -13056,6 +13070,8 @@
     type: 5
     arg: "1"
     code: card_Ghost2024_02
+    item_name: ID: Stinging Truth
+    introduction: ID: Stinging Truth
     rank: 1
   }
   {
@@ -13063,6 +13079,8 @@
     type: 5
     arg: "1"
     code: card_Ghost2024_03
+    item_name: ID: End of the World
+    introduction: ID: End of the World
     rank: 1
   }
   {
@@ -13070,6 +13088,8 @@
     type: 5
     arg: "1"
     code: card_Ghost2024_04
+    item_name: ID: Cold Wonderland
+    introduction: ID: Cold Wonderland
     rank: 1
   }
   {
@@ -13077,6 +13097,8 @@
     type: 5
     arg: "1"
     code: cg_Ghost2024
+    item_name: Background: Tachikoma's Daily Life
+    introduction: Background: Tachikoma’s Daily Life
     rank: 1
   }
   {
@@ -13102,6 +13124,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_Motoko
+    item_name: Whisper of the Ghost
+    introduction: Whisper of the Ghost
     rank: 1
   }
   {
@@ -13109,6 +13133,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_Ezaki
+    item_name: Soul Hacker
+    introduction: Soul Hacker
     rank: 1
   }
   {
@@ -13116,6 +13142,8 @@
     type: 5
     arg: "1"
     code: profilePic_Ghost2024_Mizukinn
+    item_name: Requiem of Dreams
+    introduction: Requiem of Dreams
     rank: 1
   }
   {
@@ -15575,31 +15603,28 @@
     type: 9
     arg: "100204"
     code: Coin_SAC2045
-    item_name: item-10100204
-    introduction: item-20100204
+    item_name: Shattered Glass Commendation
+    introduction: Shattered Glass Commendation
     rank: 1
     daily_limit: "60"
-    detail_introduction: item-30100204
   }
   {
     id: 100205
     type: 4
     arg: "100205"
     code: Nova_medal_black
-    item_name: item-10100205
-    introduction: item-20100205
+    item_name: Nova Medal - Through the Looking-Glass
+    introduction: Nova Medal - Through the Looking-Glass
     rank: 1
-    detail_introduction: item-30100205
   }
   {
     id: 100206
     type: 4
     arg: "100206"
     code: Platinum_medal_black
-    item_name: item-10100206
-    introduction: item-20100206
+    item_name: Platinum Medal - Through the Looking-Glass
+    introduction: Platinum Medal - Through the Looking-Glass
     rank: 1
-    detail_introduction: item-30100206
   }
   {
     id: 110001
@@ -18615,66 +18640,84 @@
     type: 15
     arg: "1500031"
     code: Bumdle_hg
-    item_name: item-11500031
-    introduction: item-21500031
+    item_name: 5-Star HG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star HG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500031
   }
   {
     id: 1500032
     type: 15
     arg: "1500032"
     code: Bumdle_smg
-    item_name: item-11500032
-    introduction: item-21500032
+    item_name: 5-Star SMG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star SMG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500032
   }
   {
     id: 1500033
     type: 15
     arg: "1500033"
     code: Bumdle_rf
-    item_name: item-11500033
-    introduction: item-21500033
+    item_name: 5-Star RF T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star RF T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500033
   }
   {
     id: 1500034
     type: 15
     arg: "1500034"
     code: Bumdle_ar
-    item_name: item-11500034
-    introduction: item-21500034
+    item_name: 5-Star AR T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star AR T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500034
   }
   {
     id: 1500035
     type: 15
     arg: "1500035"
     code: Bumdle_mg
-    item_name: item-11500035
-    introduction: item-21500035
+    item_name: 5-Star MG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star MG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500035
   }
   {
     id: 1500036
     type: 15
     arg: "1500036"
     code: Bumdle_sg
-    item_name: item-11500036
-    introduction: item-21500036
+    item_name: 5-Star SG T-Doll Transfer Letter
+    introduction:
+      '''
+      You may obtain a 5-star SG T-Doll of your choice. Said Doll must have been available in-game since before Sep. 8th, 2022. Scroll sideways to browse all eligible Dolls.
+      *Valid until Feb. 12, 2023
+      '''
     rank: 1
     sort: -1
-    detail_introduction: item-31500036
   }
   {
     id: 1500037

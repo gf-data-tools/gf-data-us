@@ -127,6 +127,8 @@
   }
   {
     id: 101
+    name: Tachikoma
+    description: Heavy Weapon Coefficient <h_weapon_ratio> Accuracy Coefficient<hit_ratio> Rate of Fire Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
     rank: 5
     code: Tachikoma
     type: 1
@@ -149,6 +151,8 @@
   }
   {
     id: 102
+    name: Tachikoma
+    description: Search Range <search_range> Light Weapon Coefficient <l_weapon_ratio> Accuracy Coefficient <hit_ratio> Rate of Fire Coefficient <atk_speed_ratio> Reload Coefficient <reload_ratio> Precision Coefficient <precision_ratio>
     rank: 5
     code: Tachikoma
     type: 2
@@ -169,6 +173,7 @@
   }
   {
     id: 103
+    name: Tachikoma
     rank: 5
     code: Tachikoma
     type: 3
@@ -1119,7 +1124,7 @@
   {
     id: 1133
     name: Camouflage Netting
-    description: Map Skill: This unit will not be targeted by non-ranged attacks for 3 rounds.
+    description: Map Skill: This unit will not be targeted by non-ranged attacks for 3 rounds. This skill can only be used once.
     rank: 5
     code: CamouflageNet
     type: 4
@@ -2071,7 +2076,7 @@
   }
   {
     id: 2132
-    name: Laser rangefinder
+    name: Laser Rangefinder
     description: Passive: Increase attack range of heavy weapons. Mark an enemy target periodically, prioritizing unmarked units with the highest HP, and significantly reduce their evasion.
     rank: 4
     code: LaserRangefinder
@@ -2113,7 +2118,7 @@
   {
     id: 2134
     name: Slat Armor
-    description: Passive: Gain protection At the start of the battle against damage that does not exceed N points. Protection wears off after taking N hits. Active: Regain protection.
+    description: Passive: Gain protection at the start of the battle against damage that does not exceed N points. Protection wears off after taking N hits. Active: Regain protection.
     rank: 4
     code: GrilleArmor
     type: 4

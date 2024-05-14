@@ -3043,6 +3043,7 @@
     code_a: 2307RG02
     description_a: Griffin
     description_b: Doll Propulsion Oil
+    description_c: Produce
     code_b: Console_Icon
   }
   {
@@ -3050,6 +3051,7 @@
     code_a: 2307RG03
     description_a: Griffin
     description_b: High-Performance Weakening Spray
+    description_c: Produce
     code_b: Console_Icon
   }
   {
@@ -3057,6 +3059,7 @@
     code_a: 2307RG04
     description_a: Griffin
     description_b: High-Performance Propulsion Oil
+    description_c: Produce
     code_b: Console_Icon
   }
   {
@@ -3064,12 +3067,14 @@
     code_a: 2307RG05
     description_a: Griffin
     description_b: Unstable Compound
+    description_c: Produce
     code_b: Console_Icon
   }
   {
     id: 610021
     code_a: 2307RG01
     description_a: Griffin
+    description_b: Liquefied Weakening Spray
     description_c: Use
     code_b: Console_Icon
     is_manual_target: 2
@@ -3078,6 +3083,7 @@
     id: 610022
     code_a: 2307RG02
     description_a: Griffin
+    description_b: Doll Propulsion Oil
     description_c: Use
     code_b: Console_Icon
     is_manual_target: 2
@@ -3086,6 +3092,7 @@
     id: 610023
     code_a: 2307RG03
     description_a: Griffin
+    description_b: High-Performance Weakening Spray
     description_c: Use
     code_b: Console_Icon
     is_manual_target: 2
@@ -3094,6 +3101,7 @@
     id: 610024
     code_a: 2307RG04
     description_a: Griffin
+    description_b: High-Performance Propulsion Oil
     description_c: Use
     code_b: Console_Icon
     is_manual_target: 2
@@ -3102,6 +3110,7 @@
     id: 610025
     code_a: 2307RG05
     description_a: Griffin
+    description_b: Unstable Compound
     description_c: Use
     code_b: Console_Icon
     is_manual_target: 2
@@ -3117,6 +3126,9 @@
   {
     id: 640104
     code_a: Rouge_591004
+    description_a: Tachikoma
+    description_b: Thermo-Optic Camouflage Countermeasure
+    description_c: On
     code_b: Console_Icon
   }
   {
@@ -4823,11 +4835,17 @@
   {
     id: 6400000
     code_a: SAC2045_CamouflageSkill
+    description_a: Friendly Echelon
+    description_b: Thermo-Optic Camouflage
+    description_c: On
     code_b: Console_Icon
   }
   {
     id: 6400003
     code_a: SAC2045_CamouflageSkill
+    description_a: Friendly Echelon
+    description_b: Thermo-Optic Camouflage
+    description_c: Off
     code_b: Console_Icon
   }
   {
@@ -6376,13 +6394,16 @@
   {
     id: 6620002
     code_a: Build_PortableEMP
+    description_a: Friendly Echelon
     description_b: EMP
+    description_c: Throw
     code_b: Console_Icon
     is_manual_target: 2
   }
   {
     id: 6620003
     code_a: portalskill
+    description_a: Friendly Echelon
     description_b: Unoccupied Node
     description_c: Teleport
     code_b: Console_Icon
@@ -6391,6 +6412,7 @@
   {
     id: 6620004
     code_a: Griffin
+    description_a: Friendly Echelon
     description_b: Opening Freeze
     description_c: Obtain
     code_b: Console_Icon
@@ -6398,24 +6420,31 @@
   {
     id: 6620005
     code_a: Griffin
+    description_a: Friendly Echelon
     description_b: Ground of Assault
+    description_c: Obtain
     code_b: Console_Icon
   }
   {
     id: 6620006
     code_a: Griffin
+    description_a: Friendly Echelon
     description_b: Support Coverage
+    description_c: Gain
     code_b: Console_Icon
   }
   {
     id: 6620007
     code_a: Build_PortableEMP
+    description_a: Friendly Echelon
+    description_b: EMP
     description_c: Pick Up
     code_b: Console_Icon
   }
   {
     id: 6620008
     code_a: Console
+    description_a: Friendly Echelon
     description_b: Defense Gate
     description_c: Open
     code_b: Console_Icon
@@ -6423,27 +6452,35 @@
   {
     id: 6630001
     code_a: Boomer
+    description_a: Friendly Echelon
     description_b: Goliath (Facility)
+    description_c: Throw
     code_b: Console_Icon
     is_manual_target: 2
   }
   {
     id: 6630002
     code_a: Boomer
+    description_a: Friendly Echelon
     description_b: Goliath (Enemy)
+    description_c: Throw
     code_b: Console_Icon
     is_manual_target: 2
   }
   {
     id: 6630003
     code_a: Griffin
+    description_a: Friendly Echelon
     description_b: Vision Buff
+    description_c: On
     code_b: Console_Icon
     is_manual_target: 2
   }
   {
     id: 6630004
     code_a: Boomer
+    description_a: Friendly Echelon
+    description_b: Goliath
     description_c: Abandon
     code_b: Console_Icon
   }
