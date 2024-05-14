@@ -126,6 +126,64 @@
     introduction: Component Pack test1
   }
   {
+    id: 101
+    rank: 5
+    code: Tachikoma
+    type: 1
+    group: 2
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 20
+    skill: 1:755322
+    h_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    att_roll: 1001
+    bonus_type: h_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 200
+    attack_type: 1
+    effect_range: "1.5"
+    custom_type: "1001"
+  }
+  {
+    id: 102
+    rank: 5
+    code: Tachikoma
+    type: 2
+    group: 1
+    unlock_lv: "1,3,10"
+    basic_effect: "500600700800"
+    search_range: 7
+    normal_attack: 755321
+    l_weapon_ratio: 100
+    reload_ratio: 100
+    atk_speed_ratio: 100
+    precision_ratio: 100
+    hit_ratio: 100
+    att_roll: 1002
+    bonus_type: search_range:500,l_weapon_ratio:500,hit_ratio:500,atk_speed_ratio:500,reload_ratio:500,precision_ratio:500
+    exp_provide: 50
+    custom_type: "1002"
+  }
+  {
+    id: 103
+    rank: 5
+    code: Tachikoma
+    type: 3
+    group: 125
+    unlock_lv: "1,3,10"
+    basic_effect: "4500,4000,4000,4000"
+    normal_attack: 900107
+    skill: 1:755323
+    skill_group: "755324"
+    att_roll: 4001
+    bonus_type: precision:1000,hit:1000
+    exp_provide: 500
+    custom_type: "1003"
+  }
+  {
     id: 1001
     name: Reload Chip
     rank: 5

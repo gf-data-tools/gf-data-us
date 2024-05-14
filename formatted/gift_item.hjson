@@ -1699,6 +1699,51 @@
     normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
+    id: 598
+    name: gift_item-10000598
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1043
+    skin: 598
+    poster: 30598
+    code: gift_bundle_Ghost2024_Ezaki
+    bonus_description: gift_item-30000598
+    description: gift_item-50000598
+    detail_introduction: gift_item-40000598
+    normal_description: gift_item-20000598
+  }
+  {
+    id: 599
+    name: gift_item-10000599
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1044
+    skin: 599
+    poster: 30599
+    code: gift_bundle_Ghost2024_Mizukinn
+    bonus_description: gift_item-30000599
+    description: gift_item-50000599
+    detail_introduction: gift_item-40000599
+    normal_description: gift_item-20000599
+  }
+  {
+    id: 600
+    name: gift_item-10000600
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1042
+    skin: 600
+    poster: 30600
+    code: gift_bundle_Ghost2024_Motoko
+    bonus_description: gift_item-30000600
+    description: gift_item-50000600
+    detail_introduction: gift_item-40000600
+    normal_description: gift_item-20000600
+  }
+  {
     id: 601
     name: A Couple's Journey
     type: 2
@@ -9702,6 +9747,20 @@
     normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
   }
   {
+    id: 100022
+    name: gift_item-10100022
+    type: 1
+    rank: 5
+    favor: 30000
+    code: gift_item_GhostPudding
+    bonus_description: gift_item-30100022
+    description: gift_item-50100022
+    item_access: "2"
+    detail_introduction: gift_item-40100022
+    sort: -1017
+    normal_description: gift_item-20100022
+  }
+  {
     id: 200001
     name: Combat Report
     type: 3
@@ -9975,6 +10034,20 @@
     detail_introduction: There are no shortcuts to becoming an idol; only by practicing over and over again can you step on stage and make the audience sway for you.
     sort: -1016
     normal_description: EXP for T-Dolls and Fairies
+  }
+  {
+    id: 200022
+    name: gift_item-10200022
+    type: 3
+    rank: 5
+    code: gift_item_GhostPiece
+    bonus_description: gift_item-30200022
+    description: gift_item-50200022
+    exp: 10000
+    item_access: "2"
+    detail_introduction: gift_item-40200022
+    sort: -1017
+    normal_description: gift_item-20200022
   }
   {
     id: 400001

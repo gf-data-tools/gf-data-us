@@ -27990,6 +27990,70 @@
     rotate: "3"
   }
   {
+    id: 20112
+    classes: 19
+    type: 201
+    space: "2,2,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_deco01,2024Ghost_Cyberbrain
+    texture_type: "1,2"
+    sorting: "0,20"
+    offset: "0.000,-0.176,-0.041|0.000,1.096,0.253"
+    rotate: "2,2"
+  }
+  {
+    id: 20113
+    classes: 19
+    type: 202
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_deco04,2024Ghost_deco02,2024Ghost_LinkedDevice
+    texture_type: "1,1,2"
+    sorting: "0,20,10"
+    offset: "0.000,-0.057,-0.013|0.000,-0.054,-0.013|0.670,0.315,-0.137"
+    rotate: "2,2,2"
+    interact_point: "14"
+    interact_point_offset: *-1.021,1.593,-0.285
+  }
+  {
+    id: 20114
+    classes: 19
+    type: 302
+    space: "5,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_deco03
+    texture_type: "1"
+    offset: "0.000,0.558,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20115
+    classes: 19
+    type: 301
+    space: "9,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20116
+    classes: 19
+    type: 101
+    space: "3,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
     id: 20117
     name: Tachikoma
     classes: 299
@@ -28005,6 +28069,18 @@
     interact_point: "17"
     interact_point_offset: *0.166,0.105,-0.285
     bonus_id: 3108
+  }
+  {
+    id: 20118
+    classes: 19
+    type: 302
+    space: "2,5,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: 2024Ghost_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
   }
   {
     id: 30001
@@ -29681,6 +29757,51 @@
     decompose_gift: 100003
     description: M1897's Poster
     code: poster_ChessBonus_M1897
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30598
+    name: furniture-10030598
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20030598
+    code: poster_Ghost2024_Ezaki
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30599
+    name: furniture-10030599
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20030599
+    code: poster_Ghost2024_Mizukinn
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30600
+    name: furniture-10030600
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: furniture-20030600
+    code: poster_Ghost2024_Motoko
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

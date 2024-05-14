@@ -4869,7 +4869,7 @@
     name: 涅托AR用召唤物-70
     action_order: spattack
     action_playspeed: "100"
-    effect_order: 3(Nyto_Silver;感召仪式-AR;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "741,742,744"
     summon_delay: "60,60,75"
@@ -4879,7 +4879,7 @@
     name: 涅托RF用召唤物-70
     action_order: spattack
     action_playspeed: "100"
-    effect_order: 3(Nyto_Silver;感召仪式-RF;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "741,742,744"
     summon_delay: "60,60,75"
@@ -4889,7 +4889,7 @@
     name: 涅托通用用召唤物-70
     action_order: spattack
     action_playspeed: "100"
-    effect_order: 3(Nyto_Silver;感召仪式-通用;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "741,742,744"
     summon_delay: "60,60,75"
@@ -4903,7 +4903,7 @@
     creation_delay: "4,47,0,30,35"
     sound_order: BT_BOSS_skill
     sound_delay: "47"
-    effect_order: 3(Nyto_Silver;行星之棺;Planetary Sarcophagus;NYTO),7(redshine),7(redshine)
+    effect_order: 3(Nyto_Silver;;Planetary Sarcophagus;NYTO),7(redshine),7(redshine)
     effect_delay: "45,25,35"
     effect_duration: "1,10,10"
     move_order: "438"
@@ -5045,7 +5045,7 @@
     name: 涅托AR用召唤物-125
     action_order: spattack
     action_playspeed: "100"
-    effect_order: 3(Nyto_Silver;感召仪式-AR;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "761,762,764,746,747"
     summon_delay: "60,60,75,75,75"
@@ -5057,7 +5057,7 @@
     action_playspeed: "100"
     creation_order: "4250,4255"
     creation_delay: "60,60"
-    effect_order: 3(Nyto_Silver;感召仪式-RF;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "761,762"
     summon_delay: "60,60"
@@ -5069,7 +5069,7 @@
     action_playspeed: "100"
     creation_order: "4250"
     creation_delay: "60"
-    effect_order: 3(Nyto_Silver;感召仪式-通用;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "746,747"
     summon_delay: "60,60"
@@ -5079,7 +5079,7 @@
     name: 涅托AR用召唤物-140
     action_order: spattack
     action_playspeed: "100"
-    effect_order: 3(Nyto_Silver;感召仪式-AR;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "766,768,769,770,771"
     summon_delay: "60,60,75,75,75"
@@ -5091,7 +5091,7 @@
     action_playspeed: "100"
     creation_order: "4256,4257"
     creation_delay: "60,60"
-    effect_order: 3(Nyto_Silver;感召仪式-RF;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
   }
   {
@@ -5101,7 +5101,7 @@
     action_playspeed: "100"
     creation_order: "4256"
     creation_delay: "60"
-    effect_order: 3(Nyto_Silver;感召仪式-通用;Rally the Cults;Nyto)
+    effect_order: 3(Nyto_Silver;;Rally the Cults;Nyto)
     effect_duration: "1"
     summon_order: "770,771"
     summon_delay: "60,60"
@@ -13108,7 +13108,7 @@
     creation_delay: "72,20,203,40,40,40,40,40,63,40,40,40,40"
     sound_order: BT_BOSS_skill,BT_Rotate
     sound_delay: "63,90"
-    effect_order: 3(Architect;狂欢终结;MISSILE LAUNCH;ARCHITECT),2(shakesrc),7(redshine)
+    effect_order: 3(Architect;;MISSILE LAUNCH;ARCHITECT),2(shakesrc),7(redshine)
     effect_delay: "61,218,41"
     effect_duration: "30,43,10"
     stop_time_speed: "0,0"
@@ -13158,7 +13158,7 @@
     creation_delay: "0,7,7,7,7,14,14,14,14,14,14,14,14,195,199,203,207,211,215,219,223,227,231,235,239,243,267,268,269,270,257,258,259,260,261,262,263,264,265,285,122,79,290,375"
     sound_order: BT_BOSS_skill,BT_Sabotager_Jump,BT_Sabotager_Fire
     sound_delay: "85,164,182"
-    effect_order: 7(redshine),7(redshine),2(shakesrc),3(DestroyerPlus;盖娅终结;ROCKET LAUNCH;GAIA)
+    effect_order: 7(redshine),7(redshine),2(shakesrc),3(DestroyerPlus;;ROCKET LAUNCH;GAIA)
     effect_delay: "115,87,280,110"
     effect_duration: "10,10,100,1"
     stop_time_delay: "112"
@@ -23350,7 +23350,7 @@
     creation_delay: "0,150,70"
     sound_order: 21Summer_EN_Appear,BT_BossCutin
     sound_delay: "65,20"
-    effect_order: 3(pamzanboss;失控;Losing Control;Ganglati)
+    effect_order: 3(pamzanboss;;Losing Control;Ganglati)
     effect_duration: "1"
   }
   {
@@ -23493,7 +23493,7 @@
     action_playspeed: "100"
     creation_order: "9319,9354,9326,9327,9328,9329,9330,9331,9332,9333,9334,9335,9336,9343,9344,9345,9346,9347,9348,9349,9350,9351,9352,9353,9355"
     creation_delay: "100,104,106,108,110,112,114,92,94,96,98,100,102,92,94,96,98,100,102,104,106,108,110,112,114"
-    effect_order: 3(Nyto_mecha2;火树银花;Pyrotechnics;Sana),10(Nyto_sana;0;0)
+    effect_order: 3(Nyto_mecha2;;Pyrotechnics;Sana),10(Nyto_sana;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
@@ -23505,7 +23505,7 @@
     action_playspeed: "100"
     creation_order: "9319,9354,9326,9327,9328,9329,9330,9331,9332,9333,9334,9335,9336,9343,9344,9345,9346,9347,9348,9349,9350,9351,9352,9353,9355"
     creation_delay: "100,104,106,108,110,112,114,92,94,96,98,100,102,92,94,96,98,100,102,104,106,108,110,112,114"
-    effect_order: 3(Nyto_mecha2_1;火树银花;Pyrotechnics;Sana),10(Nyto_sana;0;0)
+    effect_order: 3(Nyto_mecha2_1;;Pyrotechnics;Sana),10(Nyto_sana;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
@@ -24524,7 +24524,7 @@
     action_playspeed: "100,100"
     creation_order: "9500,9504"
     creation_delay: "60,43"
-    effect_order: 3(Dreamer_Halloween;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_order: 3(Dreamer_Halloween;;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
@@ -24537,7 +24537,7 @@
     action_playspeed: "100,100"
     creation_order: "9500,9504"
     creation_delay: "60,43"
-    effect_order: 3(Dreamer_Halloween_1;雾夜游灵;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
+    effect_order: 3(Dreamer_Halloween_1;;Misty Night Wanderer;Halloween Dreamer),10(Dreamer_Halloween;0;0)
     effect_delay: "1,41"
     effect_duration: "1,90"
     stop_time_duration: "40"
