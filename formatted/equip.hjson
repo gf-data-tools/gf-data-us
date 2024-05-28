@@ -11253,6 +11253,39 @@
     description_skill: 759279
   }
   {
+    id: 370
+    name: DIY Smart Grenade
+    description:
+      '''
+      DMG+<pow>
+      Enhances skill $K11 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,12"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: Magazine_SP_K11
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "236"
+    equip_introduction: The 20mm grenade that K11 modified herself has eradicated its initial problems with irregular detonation delays and aiming inaccuracies. It is also significantly more lethal against targets.
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "759291"
+    max_level: 10
+    auto_select_id: 19069
+    is_show: 1
+    obtain_ids: "3092"
+    description_skill: 759291
+  }
+  {
     id: 387
     name: Crisp Leather Jacket
     description:

@@ -1157,6 +1157,7 @@
     order: 13
     rarity: 4
     filter_type: "2"
+    event_id: 3452
   }
   {
     id: 82
@@ -1169,6 +1170,7 @@
     order: 12
     rarity: 5
     filter_type: "3"
+    event_id: 3453
   }
   {
     id: 83
@@ -3917,6 +3919,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3455
   }
   {
     id: 300
@@ -3930,6 +3933,7 @@
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3456
   }
   {
     id: 301
@@ -15391,6 +15395,16 @@
     rarity: 5
   }
   {
+    id: 1322
+    item_id: 2322
+    sub_type: 1
+    code: profilePic_sangvis_Nyto_mecha2
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    frame_id: 200002
+  }
+  {
     id: 1329
     item_id: 2329
     sub_type: 1
@@ -15712,6 +15726,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_MLEMK1
     order: 1
     rarity: 5
@@ -15723,6 +15738,7 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_MLEMK1
     order: 1
     rarity: 5
@@ -15821,6 +15837,28 @@
     order: 1
     rarity: 5
     skin: 30013
+  }
+  {
+    id: 1397
+    item_id: 2397
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_NTW20
+    order: 1
+    rarity: 5
+    event_id: 3454
+  }
+  {
+    id: 1398
+    item_id: 2398
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_NTW20
+    order: 1
+    rarity: 5
+    event_id: 3451
   }
   {
     id: 1406
@@ -16285,6 +16323,7 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_MLEMK1
     order: 1
     rarity: 5
@@ -16299,6 +16338,18 @@
     order: 1
     rarity: 5
     filter_type: "5"
+  }
+  {
+    id: 100035
+    item_id: 200035
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_NTW20
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 3457
   }
   {
     id: 100036
