@@ -7990,6 +7990,75 @@
     class_id: 88
   }
   {
+    id: 8401
+    name: Fluffy Dumptruck
+    fit_gun: 122
+    ai: 48401
+    voice: 4
+    dialog: So soft, so fluffy... Hmm... So much more comfy than the messy basement I just saw in my dream...
+    order: 110
+    class_id: 89
+    skin_source: 3
+  }
+  {
+    id: 8402
+    name: Home with Paladin
+    fit_gun: 374
+    ai: 48402
+    voice: 4
+    dialog: Sword pulled out of a stone, steel helm, divine steed... Crap, I forgot to make my armor! Wait here, you evil drake! Once I'm dressed properly as a knight, I'll come settle the score with you!
+    gift_position: "-98.9,207.9"
+    order: 110
+    class_id: 89
+    skin_source: 1
+  }
+  {
+    id: 8403
+    name: Candy Wrapper Story
+    fit_gun: 163
+    ai: 48403
+    voice: 4
+    dialog: 98... 99... Uh, hold on! Give me your candy wrapper! I just need one more till I have 100 of these, then I can exchange them for a new lollipop.
+    order: 110
+    class_id: 89
+    skin_source: 3
+  }
+  {
+    id: 8404
+    name: Beer-Drinking Canis Minor
+    fit_gun: 117
+    ai: 48404
+    voice: 4
+    dialog: Excuse me, Commander, do you know the owner of this robot dog? I went to the pantry for a drink and it's been following me ever since...
+    order: 110
+    class_id: 89
+    skin_source: 3
+  }
+  {
+    id: 8405
+    name: Oh! My Sweet Magician!
+    fit_gun: 12
+    ai: 48405
+    voice: 4
+    dialog: Now, children, you see this omnipotent magic hat? I can grant any wish as long as you pray to me sincerely~
+    illustrator_cv: 星迴, Ayaka Itatani,
+    order: 110
+    class_id: 89
+    skin_source: 3
+  }
+  {
+    id: 8406
+    name: Tin Soldier's Marvelous Day
+    fit_gun: 2
+    ai: 48406
+    voice: 4
+    dialog: Patrol Dog and Tin Soldier No. 2, step forward! ...Commander, you'd better not underestimate us, you know? If our enemies ever pick up sorcery, the three of us will be Griffin's only hope!
+    illustrator_cv: 小星, Eriko Matsui,
+    order: 110
+    class_id: 89
+    skin_source: 3
+  }
+  {
     id: 8601
     name: Dangerous Mission
     fit_gun: 282
@@ -8308,5 +8377,14 @@
     dialog: '''"On this path pavilions stand tall, when will you heed my beckoning call?" ...My song is not mournful, for I know with absolute certainty that the loved one for whom I am waiting will come at the promised time. Don't you agree, Commander?'''
     illustrator_cv: --,Kami Daimon,
     order: 122
+  }
+  {
+    id: 30017
+    name: Special Agent Gets No Day Off
+    fit_gun: 54
+    voice: 4
+    dialog: I think the other jacket looks better on you after all. Change back into it, Commander. Now that the others are here, let's prepare to set out. A day off? What's that got to do with us?
+    illustrator_cv: 小枪, Nozomi Yamane,
+    order: 125
   }
 ]

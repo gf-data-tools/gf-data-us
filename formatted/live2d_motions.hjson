@@ -30869,8 +30869,8 @@
     motion_name: motions/wait_2.mtn
     hold_time: "30,35"
     probability: 0.5
-    voice: GUN|G11_0|LOADING
-    text: GUN|G11_0|LOADING
+    voice: GUN|G11|LOADING
+    text: GUN|G11|LOADING
     name: Standby(Special) 2
     camera: 1
     delay: 4300
@@ -30882,8 +30882,8 @@
     motion_name: motions/touch_1.mtn
     touch_area: head
     probability: 1
-    voice: GUN|G11_0|PHRASE
-    text: GUN|G11_0|PHRASE
+    voice: GUN|G11|PHRASE
+    text: GUN|G11|PHRASE
     name: Interaction 1
     camera: 1
     voice_code: PHRASE
@@ -30894,8 +30894,8 @@
     motion_name: motions/touch_2.mtn
     touch_area: head
     probability: 1
-    voice: GUN|G11_0|COMBINE
-    text: GUN|G11_0|COMBINE
+    voice: GUN|G11|COMBINE
+    text: GUN|G11|COMBINE
     name: Interaction 2
     camera: 1
     voice_code: COMBINE
@@ -30906,8 +30906,8 @@
     motion_name: motions/touch_3.mtn
     touch_area: leg
     probability: 1
-    voice: GUN|G11_0|RETREAT
-    text: GUN|G11_0|RETREAT
+    voice: GUN|G11|RETREAT
+    text: GUN|G11|RETREAT
     name: Interaction 3
     camera: 1
     delay: 2000
@@ -30919,8 +30919,8 @@
     motion_name: motions/touch_4.mtn
     touch_area: body
     probability: 1
-    voice: GUN|G11_0|OPERATIONBEGIN
-    text: GUN|G11_0|OPERATIONBEGIN
+    voice: GUN|G11|OPERATIONBEGIN
+    text: GUN|G11|OPERATIONBEGIN
     name: Interaction 4
     camera: 1
     delay: 500
@@ -30942,8 +30942,8 @@
     motion_name: motions/wedding_touch.mtn
     touch_area: body
     probability: 1
-    voice: GUN|G11_0|DIALOGUEWEDDING
-    text: GUN|G11_0|DIALOGUEWEDDING
+    voice: GUN|G11|DIALOGUEWEDDING
+    text: GUN|G11|DIALOGUEWEDDING
     name: Post-Oath
     camera: 1
     voice_code: DIALOGUEWEDDING
@@ -30953,8 +30953,8 @@
     type: 500
     motion_name: motions/wedding.mtn
     probability: 1
-    voice: GUN|G11_0|SOULCONTRACT
-    text: GUN|G11_0|SOULCONTRACT
+    voice: GUN|G11|SOULCONTRACT
+    text: GUN|G11|SOULCONTRACT
     name: Oath Scene
     camera: 1
     voice_code: SOULCONTRACT
@@ -30973,8 +30973,8 @@
     type: 1000
     motion_name: motions/login.mtn
     probability: 1
-    voice: GUN|G11_0|HELLO
-    text: GUN|G11_0|HELLO
+    voice: GUN|G11|HELLO
+    text: GUN|G11|HELLO
     name: Login
     camera: 1
     delay: 1000
@@ -30994,8 +30994,8 @@
     motion_name: motions/broken_1.mtn
     touch_area: head
     probability: 1
-    voice: GUN|G11_0|RETREAT
-    text: GUN|G11_0|RETREAT
+    voice: GUN|G11|RETREAT
+    text: GUN|G11|RETREAT
     name: Interaction 1
     camera: 1
     is_hurt: 1
@@ -31008,8 +31008,8 @@
     motion_name: motions/broken_2.mtn
     touch_area: body
     probability: 1
-    voice: GUN|G11_0|DIALOGUE3
-    text: GUN|G11_0|DIALOGUE3
+    voice: GUN|G11|DIALOGUE3
+    text: GUN|G11|DIALOGUE3
     name: Interaction 2
     camera: 1
     is_hurt: 1
@@ -31022,8 +31022,8 @@
     motion_name: motions/broken_3.mtn
     touch_area: body
     probability: 1
-    voice: GUN|G11_0|LOADING
-    text: GUN|G11_0|LOADING
+    voice: GUN|G11|LOADING
+    text: GUN|G11|LOADING
     name: Interaction 3
     camera: 1
     is_hurt: 1
@@ -31036,8 +31036,8 @@
     motion_name: motions/broken_4.mtn
     touch_area: leg
     probability: 1
-    voice: GUN|G11_0|TIP
-    text: GUN|G11_0|TIP
+    voice: GUN|G11|TIP
+    text: GUN|G11|TIP
     name: Interaction 4
     camera: 1
     is_hurt: 1
@@ -31050,8 +31050,8 @@
     motion_name: motions/broken_5.mtn
     touch_area: leg
     probability: 1
-    voice: GUN|G11_0|DIALOGUE2
-    text: GUN|G11_0|DIALOGUE2
+    voice: GUN|G11|DIALOGUE2
+    text: GUN|G11|DIALOGUE2
     name: Interaction 5
     camera: 1
     is_hurt: 1
@@ -31063,8 +31063,8 @@
     type: 1001
     motion_name: motions/login.mtn
     probability: 1
-    voice: GUN|G11_0|GAIN
-    text: GUN|G11_0|GAIN
+    voice: GUN|G11|GAIN
+    text: GUN|G11|GAIN
     name: Login
     camera: 1
     is_hurt: 1

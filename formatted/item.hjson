@@ -628,6 +628,24 @@
     rank: 1
   }
   {
+    id: 128
+    type: 3
+    arg: "29"
+    code: Medal_Theater11th
+    item_name: Theater 11 Pioneer Medal
+    introduction: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 11. "The enemy gets to decide when the war begins, but only you can say when the war ends."
+    rank: 1
+  }
+  {
+    id: 129
+    type: 3
+    arg: "30"
+    code: Medal_Theater11th_rank
+    item_name: Theater 11 Conqueror Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 11. "The land you conquered has become the promised land of peace and happiness."
+    rank: 1
+  }
+  {
     id: 131
     type: 3
     arg: "32"
@@ -12662,6 +12680,60 @@
     rank: 1
   }
   {
+    id: 2323
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_G11
+    item_name: Gr G11 - Fluffy Dumptruck
+    introduction: Gr G11 - Fluffy Dumptruck
+    rank: 1
+  }
+  {
+    id: 2324
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_M240L
+    item_name: M240L - Home with Paladin
+    introduction: M240L - Home with Paladin
+    rank: 1
+  }
+  {
+    id: 2325
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_AA12
+    item_name: AA-12 - Candy Wrapper Story
+    introduction: AA-12 - Candy Wrapper Story
+    rank: 1
+  }
+  {
+    id: 2326
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_PSG1
+    item_name: Gr PSG-1 - Beer-Drinking Canis Minor
+    introduction: Gr PSG-1 - Beer-Drinking Canis Minor
+    rank: 1
+  }
+  {
+    id: 2327
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_C96
+    item_name: C96 - Oh! My Sweet Magician!
+    introduction: C96 - Oh! My Sweet Magician!
+    rank: 1
+  }
+  {
+    id: 2328
+    type: 5
+    arg: "1"
+    code: profilePic_Children2023_M1911
+    item_name: M1911 - Tin Soldier's Marvelous Day
+    introduction: M1911 - Tin Soldier's Marvelous Day
+    rank: 1
+  }
+  {
     id: 2329
     type: 5
     arg: "1"
@@ -13180,6 +13252,24 @@
     code: profilePic_Ghost2024_Mizukinn
     item_name: Requiem of Dreams
     introduction: Requiem of Dreams
+    rank: 1
+  }
+  {
+    id: 2454
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M16A1
+    item_name: ID: After the Gunshot
+    introduction: ID: After the Gunshot
+    rank: 1
+  }
+  {
+    id: 2455
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M16A1
+    item_name: M16A1 -Special Agent Gets No Day Off
+    introduction: M16A1 -Special Agent Gets No Day Off
     rank: 1
   }
   {
@@ -14186,6 +14276,14 @@
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10709
+    type: 18
+    arg: "10709"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
     rank: 1
   }
   {
@@ -16526,6 +16624,15 @@
     rank: 1
   }
   {
+    id: 130023
+    type: 12
+    arg: "130023"
+    code: Y_Z_zhihuiguan_Restaurant
+    item_name: Hair-Raising Trick
+    introduction: The rules are simple - if the knife hits the apple, you do the dishes today; if it doesn't, then it'll have to be me.
+    rank: 1
+  }
+  {
     id: 133007
     type: 13
     arg: "7"
@@ -17759,6 +17866,26 @@
     detail_introduction: item-30140032
   }
   {
+    id: 140033
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140033
+    introduction: item-20140033
+    rank: 1
+    detail_introduction: item-30140033
+  }
+  {
+    id: 140034
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140034
+    introduction: item-20140034
+    rank: 1
+    detail_introduction: item-30140034
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -18083,6 +18210,15 @@
     code: profileFrame_BattlePass_95type
     item_name: Icon Frame - Seeping Music
     introduction: Icon Frame - Seeping Music
+    rank: 1
+  }
+  {
+    id: 200042
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M16A1
+    item_name: Icon Frame - Dust Motes in the Light
+    introduction: Icon Frame - Dust Motes in the Ligth
     rank: 1
   }
   {
@@ -19485,6 +19621,46 @@
     sort: -1
   }
   {
+    id: 1500120
+    type: 15
+    arg: "1500120"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Whiskey Storm. Obtain a random piece of equipment from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500121
+    type: 15
+    arg: "1500121"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Whiskey Storm. Obtain a piece of ammunition-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500122
+    type: 15
+    arg: "1500122"
+    code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Whiskey Storm. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500123
+    type: 15
+    arg: "1500123"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Whiskey Storm. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -19535,6 +19711,36 @@
     id: 1700003
     type: 15
     arg: "1700003"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700004
+    type: 15
+    arg: "1700004"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700005
+    type: 15
+    arg: "1700005"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700006
+    type: 15
+    arg: "1700006"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.

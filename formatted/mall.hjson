@@ -5350,6 +5350,110 @@
     classification_id: 4000
   }
   {
+    id: 5711
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Infinite Foods and Flavors
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95711
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5712
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Aromatic Flowers and Teas
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95712
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5720
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Feast for the Eyes
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95720
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5731
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Cookery Life
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95731
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5732
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Orchard Poetry
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95732
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5740
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Kitchenware Ingenuity
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95740
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5751
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Tipsy Dance Steps
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95751
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
+    id: 5752
+    type: 66
+    gemprice: 400
+    original_price: 500
+    quota: 2001
+    giftbag_name: Sweet Fantasy
+    event_code: dailyGiftbag
+    discount: 1
+    prize_id: 95752
+    on_sale_days: 28
+    classification_id: 4000
+  }
+  {
     id: 10006
     type: 8
     sort: 61
@@ -38504,6 +38608,114 @@
     icon: Bumdle_package
     discount: 1
     classification_id: 3002
+  }
+  {
+    id: 22145
+    type: 8
+    mp: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22146
+    type: 8
+    ammo: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22147
+    type: 8
+    mre: 9000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22148
+    type: 8
+    part: 3000
+    gemprice: 480
+    original_price: 960
+    quota: 2001
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22149
+    type: 8
+    item_ids: 1-10,3-10
+    gemprice: 430
+    original_price: 860
+    quota: 2001
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: 50
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22150
+    type: 8
+    item_ids: 509-100,44-100
+    gemprice: 128
+    quota: 2005
+    giftbag_name: Fairy Command Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Division
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22151
+    type: 8
+    item_ids: 6009-5,601-10,602-1,44-500,6003-5
+    gemprice: 980
+    quota: 2001
+    giftbag_name: Dye Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Division
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22152
+    type: 8
+    item_ids: 7-1,41-100
+    gift: 8402-1
+    gemprice: 2588
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: M240L Home with Paladin Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin03
+    discount: 1
+    classification_id: 3003
   }
   {
     id: 99001
