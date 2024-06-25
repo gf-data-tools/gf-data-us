@@ -9976,6 +9976,152 @@
     classification_id: "1007"
   }
   {
+    id: "11650"
+    type: "9"
+    item_ids: 2409-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: Bacchanalia
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11651"
+    type: "9"
+    item_ids: 1185-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: Kar98k
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11652"
+    type: "9"
+    item_ids: 1186-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: M4A1
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11653"
+    type: "9"
+    item_ids: 2408-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: A-545 Icon
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11654"
+    type: "9"
+    item_ids: 1301-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Heartless Doll
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11655"
+    type: "9"
+    item_ids: 1302-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Smile of the Wolf
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11656"
+    type: "9"
+    item_ids: 200037-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon Frame - Ignition Source
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11657"
+    type: "9"
+    item_ids: 10604-1
+    gemprice: "2000"
+    quota: "2001"
+    giftbag_name: Extra Impulse
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11658"
+    type: "9"
+    gift: 100003-1
+    gemprice: "150"
+    quota: "2003"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11659"
+    type: "9"
+    gift: 100002-1
+    gemprice: "60"
+    quota: "2003"
+    giftbag_name: Ice Cream Cone
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11660"
+    type: "9"
+    gift: 100001-1
+    gemprice: "30"
+    quota: "2003"
+    giftbag_name: Lollipop
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
     id: "11663"
     type: "8"
     quota: "2001"
@@ -38716,6 +38862,57 @@
     icon: Bumdle_newskin03
     discount: "1.00"
     classification_id: "3003"
+  }
+  {
+    id: "22153"
+    type: "8"
+    gemprice: "128"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_blue
+    daily_quota: "1"
+    discount: "1.00"
+    prize_id: "220061"
+    classification_id: "3002"
+  }
+  {
+    id: "22154"
+    type: "8"
+    item_ids: 8-1,41-100,506-1000
+    gift: 100003-10
+    gemprice: "580"
+    quota: "2002"
+    giftbag_name: July Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22155"
+    type: "8"
+    item_ids: 605-10,515-1000
+    gemprice: "1120"
+    quota: "2003"
+    giftbag_name: Coalition Units Supply Package
+    event_code: dailyGiftbag
+    icon: Bumdle_yuugo01
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22156"
+    type: "8"
+    gemprice: "398"
+    quota: "2002"
+    giftbag_name: Neural Upgrade Special Offer
+    event_code: dailyGiftbag
+    icon: Bumdle_heavy
+    daily_quota: "2"
+    discount: "1.00"
+    prize_id: "220056"
+    classification_id: "3002"
   }
   {
     id: "99001"

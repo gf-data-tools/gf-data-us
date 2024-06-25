@@ -12039,6 +12039,13 @@
     content: prize-20001989
   }
   {
+    id: 1999
+    name: prize-10001999
+    gem: 90
+    equip_ids: "373"
+    content: prize-20001999
+  }
+  {
     id: 2001
     name: Haunted Castle
     gift: 6-1
@@ -12738,6 +12745,14 @@
     content: prize-20003125
   }
   {
+    id: 3131
+    name: prize-10003131
+    item_ids: 2428-1
+    equip_ids: "380"
+    skin: 5070
+    content: prize-20003131
+  }
+  {
     id: 3136
     name: prize-10003136
     item_ids: 1768-1
@@ -12882,12 +12897,36 @@
     content: prize-20003230
   }
   {
+    id: 3233
+    name: prize-10003233
+    item_ids: 2429-1,200003-1
+    equip_ids: "381"
+    skin: 5071
+    content: prize-20003233
+  }
+  {
     id: 3252
     name: prize-10003252
     item_ids: 1619-1
     equip_ids: "178"
     skin: 5034
     content: prize-20003252
+  }
+  {
+    id: 3256
+    name: prize-10003256
+    item_ids: 2430-1
+    equip_ids: "382"
+    skin: 5072
+    content: prize-20003256
+  }
+  {
+    id: 3262
+    name: prize-10003262
+    item_ids: 2431-1
+    equip_ids: "383"
+    skin: 5073
+    content: prize-20003262
   }
   {
     id: 3282
@@ -13802,6 +13841,12 @@
     id: 4311
     name: Icon: Alina - Mosasaur Rider Icon
     item_ids: 2109-1
+  }
+  {
+    id: 4312
+    name: Icon: Great White Playground icon
+    item_ids: 2110-1
+    content: prize-20004312
   }
   {
     id: 4313

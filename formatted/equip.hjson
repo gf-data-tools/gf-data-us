@@ -11360,6 +11360,170 @@
     description_skill: 759291
   }
   {
+    id: 373
+    name: GP11 Modified Rounds
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> Enhances skill $K31 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "110,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_K31
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "247"
+    equip_introduction: These boat tail spitzer bullets will only fall below the speed of sound after traveling across a very long distance. Improved from the standard GP11 rounds, they are K31's favorite ammunition.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:500,pow:1000
+    skill: 759303
+    passive_skill: "759304"
+    max_level: 10
+    auto_select_id: 19071
+    is_show: 1
+    obtain_ids: "3101"
+    description_skill: 759304
+  }
+  {
+    id: 380
+    name: Medal of the Lion
+    description:
+      '''
+      CRIT RATE<critical_percent><%>
+      DMG+<pow> $EVO 3 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,15"
+    critical_percent: "-5,-5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_EVO3
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "131,20131"
+    equip_introduction: A medal specially made to commend EVO 3's conscientiousness. The design features various elements from her hometown.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700
+    max_level: 10
+    auto_select_id: 20062
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 381
+    name: The Queen's Cape
+    description:
+      '''
+      ROF<rate>
+      EVA+<dodge> $Px4 Storm only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "20,25"
+    rate: "-5,-1"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_Px4Storm
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "233,20233"
+    equip_introduction: The cape was apparently a purchase that Px4 Storm made only after very careful calculations to effectively minimize the danger she faces during operations.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:800
+    max_level: 10
+    auto_select_id: 20079
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 382
+    name: Falcon Refined Rounds
+    description:
+      '''
+      AP+<armor_piercing>
+      CRIT DMG+<critical_harm_rate><%> $Falcon only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_harm_rate: "6,10"
+    armor_piercing: "115,120"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Falcon
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "256,20256"
+    equip_introduction: The refined cartridge that Falcon picks out after much careful deliberation can pierce through heavy armor with a single shot.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 19073
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 383
+    name: JS Chip
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      CRIT DMG+<critical_harm_rate><%> $EM-2 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,8"
+    hit: "3,5"
+    critical_harm_rate: "10,15"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_EM2
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "262,20262"
+    equip_introduction: This chip for EM-2's exclusive use effectively improves her ability to calculate variables and formulate plans.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,hit:1000,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 20080
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
     id: 387
     name: Crisp Leather Jacket
     description:
