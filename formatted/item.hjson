@@ -180,7 +180,7 @@
     introduction: If you don't pressure your analysts, you'll never know how capable your employees actually are. "In response to the other party's interests, this contract demands that you include a photo of a real kitty as bonus payment."
     rank: 1
     sort: 105
-    item_access: "1,5,2"
+    item_access: "5,2"
     detail_introduction: Can be used in the Intelligence Center to instantly complete a Data Analysis.
   }
   {
@@ -191,7 +191,6 @@
     item_name: Data Patch
     introduction: Data Patches that can further upgrade HOC units. Some can be obtained by dismantling fully leveled HOC units. "'When in a group of three, there is bound to be one who will have something to teach me.' That's why... 'So long, teacher.'"
     rank: 1
-    sort: 110
     item_access: "9,10"
     detail_introduction: Can be used to iterate and enhance a fully-leveled 5* HOC unit.
   }
@@ -14128,6 +14127,45 @@
     is_hide_info: 1
   }
   {
+    id: 9026
+    type: 1
+    arg: "9026"
+    code: EventPT4
+    item_name: The Cage Conundrum PT
+    introduction: The Lantern Conundrum PT
+    rank: 1
+  }
+  {
+    id: 9027
+    type: 1
+    arg: "9027"
+    code: Rouge_Raid
+    item_name: Once obtained, friendly echelons taking part in the event will gain the skill "Joint Assault", which grants Sniper Support, Artillery Support, and Airstrike Support simultaneously.
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Joint Assault", which grants Sniper Support, Artillery Support, and Airstrike Support simultaneously.
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 9028
+    type: 1
+    arg: "9028"
+    code: Rouge_Focus
+    item_name: Once obtained, friendly echelons taking part in the event will gain the skill "Focus" as well as battlefield effects of the same name.
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Focus" as well as battlefield effects of the same name.
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 9029
+    type: 1
+    arg: "9029"
+    code: Rouge_Strengthen
+    item_name: Once obtained, friendly echelons taking part in the event will gain the skill "Enhancement" as well as battlefield effects of the same name.
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Enhancement" as well as battlefield effects of the same name.
+    rank: 1
+    is_hide_info: 1
+  }
+  {
     id: 9030
     type: 1
     arg: "9030"
@@ -15701,6 +15739,64 @@
     item_name: Platinum Medal: One Coin Short
     introduction: Platinum Medal: One Coin Short
     rank: 1
+  }
+  {
+    id: 100169
+    type: 9
+    arg: "100169"
+    code: Fix_Coin
+    item_name: Correction Coin
+    introduction: Correction Coin
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100170
+    type: 4
+    arg: "100170"
+    code: Nova_medal
+    item_name: Nova Medal - Maze Guess
+    introduction: Nova Medal – Maze Guess
+    rank: 1
+  }
+  {
+    id: 100171
+    type: 4
+    arg: "100171"
+    code: Platinum_medal
+    item_name: Platinum Medal - Maze Guess
+    introduction: Platinum Medal – Maze Guess
+    rank: 1
+  }
+  {
+    id: 100172
+    type: 1
+    arg: "100172"
+    code: Rouge_Raid
+    item_name: Joint Assault
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Joint Assault", which grants Sniper Support, Artillery Support, and Airstrike Support simultaneously.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 100173
+    type: 1
+    arg: "100173"
+    code: Rouge_Focus
+    item_name: Focus
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Focus" as well as battlefield effects of the same name.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 100174
+    type: 1
+    arg: "100174"
+    code: Rouge_Strengthen
+    item_name: Enhancement
+    introduction: Once obtained, friendly echelons taking part in the event will gain the skill "Enhancement" as well as battlefield effects of the same name.
+    rank: 1
+    sort: -1
   }
   {
     id: 100175

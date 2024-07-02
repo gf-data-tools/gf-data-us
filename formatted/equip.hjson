@@ -10092,6 +10092,38 @@
     description_skill: 759070
   }
   {
+    id: 320
+    name: MAB High-Power Exoskeleton
+    description:
+      '''
+      DMG+<pow>
+      EVA+<dodge> $PA-15 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "1,3"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: 人形_特殊_PA15
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "260"
+    equip_introduction: A new exoskeleton that IOP developed for PA-15. It has a built-in chip that syncs combat data with PA-15's neural cloud, which greatly enhances her combat efficiency.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700,dodge:600
+    max_level: 10
+    auto_select_id: 20051
+    is_show: 1
+    obtain_ids: "3093"
+  }
+  {
     id: 321
     name: 8mm Mauser Special Rounds
     description:

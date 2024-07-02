@@ -227,25 +227,6 @@
     classification_id: "5004"
   }
   {
-    id: "26"
-    type: "1"
-    sort: "13"
-    item_ids: 16-1
-    gemprice: "50"
-    discount: "1.00"
-    classification_id: "5002"
-  }
-  {
-    id: "27"
-    type: "1"
-    sort: "14"
-    item_ids: 16-10
-    gemprice: "380"
-    if_cheap: "1"
-    discount: "1.00"
-    classification_id: "5002"
-  }
-  {
     id: "28"
     type: "1"
     sort: "3"
@@ -8039,6 +8020,155 @@
     pay_type: "1"
     itemprice: 100163-2
     classification_id: "1001"
+  }
+  {
+    id: "11179"
+    type: "8"
+    sort: "2"
+    quota: "2001"
+    giftbag_name: T-Doll: CZ2000
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "588"
+    pay_type: "1"
+    itemprice: 100170-400
+    classification_id: "1003"
+  }
+  {
+    id: "11180"
+    type: "8"
+    sort: "3"
+    quota: "2001"
+    giftbag_name: T-Doll: AUG
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "40078"
+    pay_type: "1"
+    itemprice: 100171-500
+    classification_id: "1003"
+  }
+  {
+    id: "11181"
+    type: "8"
+    sort: "4"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100170-5
+    classification_id: "1003"
+  }
+  {
+    id: "11182"
+    type: "8"
+    sort: "5"
+    gift: 100003-1
+    quota: "2200"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100171-5
+    classification_id: "1003"
+  }
+  {
+    id: "11183"
+    type: "8"
+    quota: "2001"
+    giftbag_name: Persica - C12H22O11
+    event_code: dailyGiftbag
+    icon: NPC_Persica_210
+    discount: "1.00"
+    prize_id: "1721"
+    pay_type: "1"
+    itemprice: 100169-240
+    classification_id: "1004"
+  }
+  {
+    id: "11184"
+    type: "8"
+    quota: "2001"
+    giftbag_name: MAB High-Power Exoskeleton
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "1722"
+    pay_type: "1"
+    itemprice: 100169-150
+    classification_id: "1004"
+  }
+  {
+    id: "11185"
+    type: "8"
+    item_ids: 44-1
+    quota: "2020"
+    giftbag_name: Calibration Tickets
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100169-1
+    classification_id: "1004"
+  }
+  {
+    id: "11186"
+    type: "8"
+    quota: "2020"
+    giftbag_name: Dummy Core
+    event_code: dailyGiftbag
+    discount: "1.00"
+    prize_id: "617"
+    pay_type: "1"
+    itemprice: 100169-2
+    classification_id: "1004"
+  }
+  {
+    id: "11187"
+    type: "8"
+    item_ids: 9-1
+    quota: "2020"
+    giftbag_name: Enhancement Capsule
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100169-1
+    classification_id: "1004"
+  }
+  {
+    id: "11188"
+    type: "8"
+    item_ids: 41-1
+    quota: "2100"
+    giftbag_name: Token
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100169-3
+    classification_id: "1004"
+  }
+  {
+    id: "11189"
+    type: "8"
+    item_ids: 46-1
+    quota: "2070"
+    giftbag_name: Special Combat Report
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100169-2
+    classification_id: "1004"
+  }
+  {
+    id: "11190"
+    type: "8"
+    gift: 100003-1
+    quota: "2070"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    itemprice: 100169-2
+    classification_id: "1004"
   }
   {
     id: "11206"

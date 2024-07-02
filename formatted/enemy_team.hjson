@@ -43263,6 +43263,7 @@
   {
     id: 591104
     reward_gun_pool: "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,207,99,118,39"
+    draw_event_s_id: 680
     enemy_leader: 10012
     if_stay: 1
     limit_guns: "207"
@@ -43301,8 +43302,11 @@
   }
   {
     id: 591204
+    reward_gun_pool: "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,73,101,60,23"
+    draw_event_s_id: 682
     enemy_leader: 10008
     if_stay: 1
+    limit_guns: "73"
     targettrain_cancollect: 1
     recommended_team_ids: "1"
   }
