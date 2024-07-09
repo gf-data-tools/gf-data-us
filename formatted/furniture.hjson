@@ -26519,6 +26519,197 @@
     touch_area: "8,4,0"
   }
   {
+    id: 11101
+    name: Beneath the Fireworks - Echoes in the Streets
+    classes: 111
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The most beautiful thing isn't the fireworks, but your illuminated smile.
+    code: SummerFes2023_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11102
+    name: Beneath the Fireworks - Midsummer Fireworks
+    classes: 111
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: How I wish we would never reach the end of this long road.
+    code: SummerFes2023_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11103
+    name: Beneath the Fireworks - Hundred Blossoms, Thousand Colors
+    classes: 111
+    type: 201
+    position: "26,0"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: '''"The umbrellas are raised'''
+    code: SummerFes2023_deco_01,SummerFes2023_deco_02
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|0.000,2.240,0.514"
+    rotate: "2,2"
+  }
+  {
+    id: 11104
+    name: '''"Beneath the Fireworks - Soft'''
+    classes: 111
+    type: 201
+    position: "3,0"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Light shows the way in the mortal world—you are the light.
+    code: SummerFes2023_deco_03,SummerFes2023_deco_04
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|0.000,2.246,0.511"
+    rotate: "2,2"
+  }
+  {
+    id: 11105
+    name: Beneath the Fireworks - Glamorous Float
+    classes: 111
+    type: 201
+    position: "11,0"
+    space: "10,6,1,1,1,0"
+    deco_rate: 1400
+    decompose_gift: 100003
+    description: The view from above is lovely, but you also find it lonely at the top.
+    code: SummerFes2023_deco_05,SummerFes2023_deco_06,SummerFes2023_deco_07,SummerFes2023_deco_08,SummerFes2023_deco_09,SummerSwim2023_lights
+    texture_type: "1,1,1,1,1,2"
+    sorting: "10,10,10,10,0,20"
+    offset: "0.000,0.000,0.000|4.609,0.000,0.000|0.000,4.489,1.037|0.000,0.023,0.000|0.000,0.000,0.000|0.238,1.925,0.143"
+    rotate: "2,2,2,2,2,2"
+    interact_point: "27"
+    interact_point_offset: *0.088,5.805,1.081
+  }
+  {
+    id: 11106
+    name: Beneath the Fireworks - Thump-Thump
+    classes: 111
+    type: 201
+    position: "7,5"
+    space: "3,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: '''"The drums beat thunderously—thump-thump'''
+    code: SummerFes2023_deco_10
+    texture_type: "1"
+    offset: "-0.097,0.000,-0.131"
+    rotate: "2"
+  }
+  {
+    id: 11107
+    name: Beneath the Fireworks - Ta-Dah
+    classes: 111
+    type: 201
+    position: "23,4"
+    space: "3,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Once the drumbeats die down, the world lapses into a brief moment of silence.
+    code: SummerFes2023_deco_11
+    texture_type: "1"
+    offset: "-0.115,0.000,-0.160"
+    rotate: "2"
+  }
+  {
+    id: 11108
+    name: Beneath the Fireworks - Streetside Flavors
+    classes: 111
+    type: 201
+    position: "27,6"
+    space: "6,4,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Happiness can sometimes be very simple—as simple as feeding her a takoyaki.
+    code: SummerFes2023_deco_12,SummerFes2023_deco_13
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "-0.344,0.000,0.000|-0.344,0.000,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11109
+    name: Beneath the Fireworks - Special Skill
+    classes: 111
+    type: 201
+    position: "10,10"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Sometimes, just like the game of goldfish snooping—you dip your paper scooper into the water... That's right, you only get one chance.
+    code: SummerFes2023_deco_14
+    texture_type: "1"
+    offset: "-0.209,0.000,-0.834"
+    rotate: "2"
+  }
+  {
+    id: 11110
+    name: Beneath the Fireworks - Sweet Coolness
+    classes: 111
+    type: 201
+    position: "1,10"
+    space: "6,4,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: The shaved ice melts in your mouth—sweetly, coolly.
+    code: SummerFes2023_deco_15,SummerFes2023_deco_16
+    texture_type: "1,1"
+    sorting: "20,0"
+    offset: "0.152,0.000,0.000|0.152,0.000,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11111
+    name: Beneath the Fireworks - Double Test
+    classes: 111
+    type: 201
+    position: "16,9"
+    space: "7,4,1,1,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: Is this a game to test how accurately a Griffin Doll can shoot or how full the stall owner's wallet is? You wonder in bemusement as you stand before the stall.
+    code: SummerFes2023_deco_17,SummerFes2023_deco_18
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.147,0.000,-0.314|2.157,0.000,-0.314"
+    rotate: "2,2"
+  }
+  {
+    id: 11112
+    name: Beneath the Fireworks - Brief Respite
+    classes: 111
+    type: 201
+    position: "25,11"
+    space: "7,3,1,1,1,1"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: You sit here with your chin resting on your palm. Fireworks light up the sky and fade away as the gentle night breeze carries cheerful laughter in the air. This is your celebration. This is the world for which you fight.
+    code: SummerFes2023_deco_19,SummerFes2023_deco_20
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.000,0.000,-0.803|2.304,0.000,-0.803"
+    rotate: "2,2"
+    interact_point: "12,14"
+    interact_point_offset: *-2.538,2.106,-1.679|*2.975,1.252,-1.821
+  }
+  {
     id: 11201
     name: Want-for-Naught Cha Chaan Teng - Speckled Square Tiles
     classes: 112
@@ -37704,6 +37895,96 @@
     decompose_gift: 100003
     description: M1911's poster.
     code: poster_Children2023_M1911
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38501
+    name: Seaside Striker
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Lusa's poster.
+    code: poster_Swimsuit2023_Lusa
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38502
+    name: Encounter at the Blue Pond
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 433's poster.
+    code: poster_Swimsuit2023_HK433
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38503
+    name: Song From the High Tower
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: VP1919's poster.
+    code: poster_Swimsuit2023_VP1915
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38504
+    name: Fishing Lure
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AR-18's poster.
+    code: poster_Swimsuit2023_AR18
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38505
+    name: Swaying Palms
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LAMG's poster.
+    code: poster_Swimsuit2023_LAMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38506
+    name: Little Midnight Angelfish
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Super-Shorty's Poster
+    code: poster_Swimsuit2023_SuperShorty
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
