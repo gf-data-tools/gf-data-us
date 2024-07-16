@@ -8417,6 +8417,7 @@
     fit_gun: 285
     voice: 4
     dialog: Commander, this is the place I've talked about before! Enjoying a delightful afternoon tea of floral fragrance amidst butterfly specimens... How can it be this underappreciated for so long?
+    gift_position: "34.7,183.3"
     order: 105
   }
   {
@@ -8425,6 +8426,7 @@
     fit_gun: 367
     voice: 4
     dialog: Shotguns aren't supposed to be fixed this way? Commander, do we really need someone else to tell us if what we're doign is reight? Just follow in the footsteps of our artistic passion!
+    gift_position: "-154.6,148.6"
     order: 105
   }
   {
@@ -8433,6 +8435,7 @@
     fit_gun: 361
     voice: 4
     dialog: Good morning, Commander. The sound of rain last night was very soothing, wasn't it? I love the pitter-pattering of raindrops hitting the tent, and I love the clear sky and fresh air in the morning even more... A hot cup of tea would make the moment perfect. Would you like some?
+    gift_position: "-199.3,218.7"
     order: 109
   }
   {
@@ -8502,5 +8505,13 @@
     dialog: I think the other jacket looks better on you after all. Change back into it, Commander. Now that the others are here, let's prepare to set out. A day off? What's that got to do with us?
     illustrator_cv: 小枪, Nozomi Yamane,
     order: 125
+  }
+  {
+    id: 30018
+    name: How to Train a Gamer
+    fit_gun: 348
+    voice: 4
+    dialog: The reward for winning first place in the new AI shooting game at the lab is... dinner with the Commander?! W-where's the power cable? I'm going all out!
+    order: 128
   }
 ]
