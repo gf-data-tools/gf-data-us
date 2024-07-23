@@ -652,6 +652,24 @@
     rank: 1
   }
   {
+    id: 134
+    type: 3
+    arg: "35"
+    code: Medal_Theater12th
+    item_name: Theater 12 Pioneer Medal
+    introduction: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 12. "We shall put an end to this endless strife; we shall restore the smiles on children's faces."
+    rank: 1
+  }
+  {
+    id: 135
+    type: 3
+    arg: "36"
+    code: Medal_Theater12th_rank
+    item_name: Theater 12 Conqueror Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 12. "Only with the arrival of you and your team will peace cease to be fantasy."
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -735,6 +753,15 @@
     code: CentreDataMK47
     item_name: Central Data: Mk 47
     introduction: Data Fragments for the Mk 47 HOC - "Your supporting fire services are no longer required. We'll follow the usual arrangement—" "—Hang on, looks like there were more enemies than expected... That'll be extra, Boss."
+    rank: 1
+  }
+  {
+    id: 310
+    type: 1
+    arg: "1"
+    code: CentreDataRPG29
+    item_name: Core Data: RPG-29
+    introduction: Data Fragment of the HOC unit RPG-29. "Who the hell wears green camouflage on a winter night?! Zero marks!" "Sis, first of all, that's a Christmas tree."
     rank: 1
   }
   {
