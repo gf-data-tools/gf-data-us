@@ -166,7 +166,7 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
-    buff_id_self: 307:1
+    buff_id_self: 307:1,30701:1000009409
     buff_rate: *201
     hit_type: 1
   }
@@ -1649,13 +1649,13 @@
     id: 414
     description: 巴雷特狙击
     damage_ratio: *201
-    is_critical_hit: -47
     critical_hit_rate: "100"
     float_wide: 15
     buff_id_target: 120112:1
     buff_id_self: 1000:1
     buff_rate: *204
     hit_type: 1
+    fix_damage: "1000090001"
   }
   {
     id: 415
@@ -4387,6 +4387,76 @@
     hit_type: 1
   }
   {
+    id: 699
+    description: 马提尼亨利攻击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 700
+    description: SV-98套装狙击
+    damage_ratio: *201
+    extra_damage: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 701
+    description: Rex摩托伤害
+    extra_damage: "200"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 702
+    description: Thunder50狙击
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    hit_type: 1
+  }
+  {
+    id: 703
+    description: Thunder50狙击专属
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 704
+    description: SR-3MP必中攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009454"
+  }
+  {
+    id: 705
+    description: SR-3MP普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000009454"
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -4469,6 +4539,82 @@
     hit_type: 1
   }
   {
+    id: 1401
+    description: 战车-迫击炮己方
+    extra_damage: "999"
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 1402
+    description: 战车-迫击炮敌方
+    extra_damage: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 1403
+    description: 死亡-高伤害
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    defbreak_rate: "100"
+    hit_type: 1
+    is_shield: 100
+    fix_damage: "1000002369"
+  }
+  {
+    id: 1404
+    description: 恶魔-侵蚀伤害
+    extra_damage: "150"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1405
+    description: 恶魔-侵蚀Dot
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000002370"
+  }
+  {
+    id: 1501
+    description: 拉普拉斯妖宝剑
+    extra_damage: "999"
+    critical_hit_rate: "100"
+    buff_rate: "100"
+    hit_type: 1
+    range_buff_self: 2501:2
+  }
+  {
+    id: 1502
+    description: 拉普拉斯妖权杖分身自爆
+    extra_damage: "9"
+    critical_hit_rate: "100"
+    is_form_hurt: 1
+    hit_type: 1
+  }
+  {
+    id: 1503
+    description: 拉普拉斯妖权杖分身自爆自伤
+    extra_damage: "999999"
+    critical_hit_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 1504
+    description: RPK-16天花板掉落伤害
+    critical_hit_rate: "100"
+    hit_type: 1
+    fix_damage: "1000002426"
+  }
+  {
     id: 2001
     description: 英雄本色
     damage_ratio: *201
@@ -4521,8 +4667,8 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -60
-    is_armor: -60
+    is_miss: 1
+    is_armor: 1
     hit_type: 1
   }
   {
@@ -6149,7 +6295,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 69
+    is_miss: 1
     is_armor: 1
     hit_type: 1
   }
@@ -6305,11 +6451,11 @@
     id: 2197
     description: ppsh榴弹
     damage_ratio: *201
-    is_critical_hit: 120
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000090002"
   }
   {
     id: 2198
@@ -6624,7 +6770,7 @@
     critical_hit_rate: "100"
     float_wide: 15
     is_miss: 1
-    is_armor: -42
+    is_armor: 1
     hit_type: 1
   }
   {
@@ -6951,7 +7097,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -111
+    is_miss: 1
     is_armor: 1
     hit_type: 1
   }
@@ -6962,7 +7108,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -111
+    is_miss: 1
     is_armor: 1
     hit_type: 1
   }
@@ -8074,7 +8220,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -123
+    is_miss: 1
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005193"
@@ -8086,7 +8232,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -23
+    is_miss: 1
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005194"
@@ -8098,7 +8244,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: 77
+    is_miss: 1
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005195"
@@ -8120,7 +8266,7 @@
     is_critical_hit: 1
     critical_hit_rate: "100"
     float_wide: 15
-    is_miss: -127
+    is_miss: 1
     is_armor: 1
     hit_type: 1
     fix_damage: "1000005216"
@@ -8590,23 +8736,23 @@
     id: 2426
     description: 榴弹g3
     damage_ratio: *201
-    is_critical_hit: 121
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000090003"
     range_buff_self: 9409:1000005496
   }
   {
     id: 2427
     description: 榴弹g3
     damage_ratio: *201
-    is_critical_hit: 121
     critical_hit_rate: "100"
     float_wide: 15
     is_form_hurt: 1
     hit_type: 1
+    fix_damage: "1000090003"
   }
   {
     id: 2430
@@ -10437,6 +10583,30 @@
     hit_type: 1
   }
   {
+    id: 2688
+    description: 双刀涅托普攻
+    damage_ratio: "50"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 100
+  }
+  {
+    id: 2689
+    description: 气功涅托普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    fix_damage: "1000002368"
+  }
+  {
     id: 2700
     description: 布伦额外伤害
     damage_ratio: "10"
@@ -10797,6 +10967,17 @@
     is_shield: 50
   }
   {
+    id: 46001
+    description: hk416套装
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    buff_id_target: 1000122001:1,1000922001:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000122101"
+  }
+  {
     id: 52001
     description: 柯尔特防卫者击退
     damage_ratio: *201
@@ -10964,6 +11145,23 @@
     fix_damage: "1000070009"
   }
   {
+    id: 140501
+    description: 恶魔-侵蚀Dot
+    hit_type: 1
+    is_ricochet: 100
+    is_shield: 100
+    fix_damage: "1000002374"
+  }
+  {
+    id: 200601
+    description: 专注射击
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    hit_type: 1
+  }
+  {
     id: 217601
     description: 狙击妖精-改1
     extra_damage: *101
@@ -10973,6 +11171,46 @@
     buff_rate: "100"
     hit_type: 1
     fix_damage: "1000004384"
+  }
+  {
+    id: 218201
+    description: TFQ子弹
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 222701
+    description: 普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    hit_type: 1
+  }
+  {
+    id: 226101
+    description: M240L主动普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 226201
+    description: M240L溢出穿甲值
+    extra_damage: *103
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_armor: 1
+    hit_type: 1
   }
   {
     id: 241201

@@ -5465,7 +5465,7 @@
     code: 弹闸_子弹_79式
     develop_duration: 3180
     company: S&B
-    fit_guns: "127"
+    fit_guns: "127,20127"
     equip_introduction: 85-grain full metal jacket bullets allow for greater penetration and have become Type 79's new favorite.
     powerup_mp: 0.48
     powerup_ammo: 0.48
@@ -5476,7 +5476,7 @@
     max_level: 10
     auto_select_id: 19018
     is_show: 1
-    obtain_ids: "3056"
+    obtain_ids: "3056,3096"
     sp_description: equip-40000182
   }
   {
@@ -11502,6 +11502,41 @@
     description_skill: 759304
   }
   {
+    id: 376
+    name: Tactical Defense Shield
+    description:
+      '''
+      EVA+<dodge>
+      ARMOR+<armor> Enhances skill $Liberator only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "1,2"
+    armor: "4,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_Liberator
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "283"
+    equip_introduction: The high-performance bulletproof shield designed by IOP for Liberator features immaculate structural balance.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:400
+    passive_skill: "759316"
+    max_level: 10
+    auto_select_id: 20074
+    is_show: 1
+    obtain_ids: "3102"
+    description_skill: 759316
+  }
+  {
     id: 380
     name: Medal of the Lion
     description:
@@ -11684,7 +11719,7 @@
     develop_duration: 3060
     company: IOP
     fit_guns: "1043"
-    equip_introduction: A state-of-the-art prosthetic eyeball that makes it very easy for the wearer to identity a targetâ€™s mental weakness. However, Purin has been specifically forbidden from using it out of combat.
+    equip_introduction: A state-of-the-art prosthetic eyeball that makes it very easy for the wearer to identify a target's mental weakness. However, Purin has been specifically forbidden from using it out of combat.
     powerup_mp: 0.3
     powerup_ammo: 0.23
     powerup_mre: 0.15
@@ -11718,7 +11753,7 @@
     develop_duration: 2700
     company: IOP
     fit_guns: "1044"
-    equip_introduction: According to observation, her prosthetic does not require any vision correction, but for whatever reason, she keeps this pair of spectacles on her person at all times.
+    equip_introduction: Upon further observation, her prosthetic apparently does not require any vision correction, but for whatever reason, she keeps this pair of spectacles on her person at all times.
     powerup_mp: 0.45
     powerup_ammo: 0.15
     powerup_mre: 0.3
@@ -11730,5 +11765,39 @@
     is_addition: 1
     is_show: 1
     obtain_ids: "3113"
+  }
+  {
+    id: 396
+    name: Special Combat Uniform
+    description:
+      '''
+      CRIT DMG+<critical_harm_rate><%>
+      EVA+<dodge> Enhances skill $Type 79 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "16,21"
+    critical_harm_rate: "5,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_79Type
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "127,20127"
+    equip_introduction: A combat uniform tailor-made for Type 79 that is suited to almost any harsh combat environment.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:500,dodge:1000
+    passive_skill: "1000910"
+    max_level: 10
+    auto_select_id: 20080
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 1000910
   }
 ]
