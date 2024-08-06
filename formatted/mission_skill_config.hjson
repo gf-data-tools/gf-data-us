@@ -26977,6 +26977,1815 @@
     drop_item: 57:1
   }
   {
+    id: 670101
+    name: mission_skill_config-10670101
+    code: "1"
+    description: mission_skill_config-20670101
+    lvup_description: mission_skill_config-30670101
+    skill_group_id: 670101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480101:1
+    subsidiary_mission_skill: "1000073,480171,670110,670108"
+    is_manual: 480101
+  }
+  {
+    id: 670102
+    name: mission_skill_config-10670102
+    code: "1"
+    description: mission_skill_config-20670102
+    lvup_description: mission_skill_config-30670102
+    skill_group_id: 670102
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480102:1,480104:1
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480102
+  }
+  {
+    id: 670103
+    name: mission_skill_config-10670103
+    code: "1"
+    description: mission_skill_config-20670103
+    lvup_description: mission_skill_config-30670103
+    skill_group_id: 670103
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    special_spot_add: 480103:1,480105:1,480131:1
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480103
+  }
+  {
+    id: 670104
+    name: mission_skill_config-10670104
+    code: "1"
+    description: mission_skill_config-20670104
+    lvup_description: mission_skill_config-30670104
+    skill_group_id: 670104
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    special_spot_add: 670104:1
+    subsidiary_mission_skill: "670106"
+    is_manual: 670104
+    allyteam_summoner: "670101"
+  }
+  {
+    id: 670105
+    name: mission_skill_config-10670105
+    code: "1"
+    description: mission_skill_config-20670105
+    lvup_description: mission_skill_config-30670105
+    skill_group_id: 670105
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 99
+    is_airborne: 2
+    trigger_id: 48010101&&1
+    target_id: "48010101"
+    special_spot_add: 670105:1
+    subsidiary_mission_skill: "670107"
+    is_manual: 480111
+  }
+  {
+    id: 670106
+    name: mission_skill_config-10670106
+    code: "1"
+    description: mission_skill_config-20670106
+    lvup_description: mission_skill_config-30670106
+    skill_group_id: 670106
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "67010401"
+    special_spot_minus: 670104:1
+    mission_buff_add: 670104:1,670106:1,20301:1,20302:1
+  }
+  {
+    id: 670107
+    name: mission_skill_config-10670107
+    code: "1"
+    description: mission_skill_config-20670107
+    lvup_description: mission_skill_config-30670107
+    skill_group_id: 670107
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "67010501"
+    special_spot_minus: 670105:1
+    mission_buff_add: 670105:1
+  }
+  {
+    id: 670108
+    name: mission_skill_config-10670108
+    code: "1"
+    description: mission_skill_config-20670108
+    lvup_description: mission_skill_config-30670108
+    skill_group_id: 670108
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "48010808"
+    target_id: "67010001"
+    mission_buff_add: 670103:1
+  }
+  {
+    id: 670110
+    name: mission_skill_config-10670110
+    code: "1"
+    description: mission_skill_config-20670110
+    lvup_description: mission_skill_config-30670110
+    skill_group_id: 670110
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 100007201||67010001
+    special_spot_add: 670101:1
+    subsidiary_mission_skill: "670111,670112,670113,670114,670115,670116,670117"
+  }
+  {
+    id: 670111
+    name: mission_skill_config-10670111
+    code: "1"
+    description: mission_skill_config-20670111
+    lvup_description: mission_skill_config-30670111
+    skill_group_id: 670111
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010101&&1
+  }
+  {
+    id: 670112
+    name: mission_skill_config-10670112
+    code: "1"
+    description: mission_skill_config-20670112
+    lvup_description: mission_skill_config-30670112
+    skill_group_id: 670112
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010102&&1
+  }
+  {
+    id: 670113
+    name: mission_skill_config-10670113
+    code: "1"
+    description: mission_skill_config-20670113
+    lvup_description: mission_skill_config-30670113
+    skill_group_id: 670113
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010103&&1
+  }
+  {
+    id: 670114
+    name: mission_skill_config-10670114
+    code: "1"
+    description: mission_skill_config-20670114
+    lvup_description: mission_skill_config-30670114
+    skill_group_id: 670114
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010104&&1
+  }
+  {
+    id: 670115
+    name: mission_skill_config-10670115
+    code: "1"
+    description: mission_skill_config-20670115
+    lvup_description: mission_skill_config-30670115
+    skill_group_id: 670115
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010105&&1
+  }
+  {
+    id: 670116
+    name: mission_skill_config-10670116
+    code: "1"
+    description: mission_skill_config-20670116
+    lvup_description: mission_skill_config-30670116
+    skill_group_id: 670116
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010106&&1
+  }
+  {
+    id: 670117
+    name: mission_skill_config-10670117
+    code: "1"
+    description: mission_skill_config-20670117
+    lvup_description: mission_skill_config-30670117
+    skill_group_id: 670117
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 67010107&&1
+  }
+  {
+    id: 670121
+    name: mission_skill_config-10670121
+    code: "1"
+    description: mission_skill_config-20670121
+    lvup_description: mission_skill_config-30670121
+    skill_group_id: 670121
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670121:1
+  }
+  {
+    id: 670122
+    name: mission_skill_config-10670122
+    code: "1"
+    description: mission_skill_config-20670122
+    lvup_description: mission_skill_config-30670122
+    skill_group_id: 670122
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670123
+    name: mission_skill_config-10670123
+    code: "1"
+    description: mission_skill_config-20670123
+    lvup_description: mission_skill_config-30670123
+    skill_group_id: 670123
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670124
+    name: mission_skill_config-10670124
+    code: "1"
+    description: mission_skill_config-20670124
+    lvup_description: mission_skill_config-30670124
+    skill_group_id: 670124
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 670120:1
+  }
+  {
+    id: 670125
+    name: mission_skill_config-10670125
+    code: "1"
+    description: mission_skill_config-20670125
+    lvup_description: mission_skill_config-30670125
+    skill_group_id: 670125
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670190"
+  }
+  {
+    id: 670126
+    name: mission_skill_config-10670126
+    code: "1"
+    description: mission_skill_config-20670126
+    lvup_description: mission_skill_config-30670126
+    skill_group_id: 670126
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670191"
+  }
+  {
+    id: 670127
+    name: mission_skill_config-10670127
+    code: "1"
+    description: mission_skill_config-20670127
+    lvup_description: mission_skill_config-30670127
+    skill_group_id: 670127
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670192"
+  }
+  {
+    id: 670128
+    name: mission_skill_config-10670128
+    code: "1"
+    description: mission_skill_config-20670128
+    lvup_description: mission_skill_config-30670128
+    skill_group_id: 670128
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "67012001"
+    target_id: "1"
+    special_spot_minus: 670120:1
+    allyteam_summoner: "670193"
+  }
+  {
+    id: 670131
+    name: mission_skill_config-10670131
+    code: "1"
+    description: mission_skill_config-20670131
+    lvup_description: mission_skill_config-30670131
+    skill_group_id: 670131
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670132
+    name: mission_skill_config-10670132
+    code: "1"
+    description: mission_skill_config-20670132
+    lvup_description: mission_skill_config-30670132
+    skill_group_id: 670132
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670133
+    name: mission_skill_config-10670133
+    code: "1"
+    description: mission_skill_config-20670133
+    lvup_description: mission_skill_config-30670133
+    skill_group_id: 670133
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+  }
+  {
+    id: 670141
+    name: mission_skill_config-10670141
+    code: "1"
+    description: mission_skill_config-20670141
+    lvup_description: mission_skill_config-30670141
+    skill_group_id: 670141
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670142
+    name: mission_skill_config-10670142
+    code: "1"
+    description: mission_skill_config-20670142
+    lvup_description: mission_skill_config-30670142
+    skill_group_id: 670142
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670143
+    name: mission_skill_config-10670143
+    code: "1"
+    description: mission_skill_config-20670143
+    lvup_description: mission_skill_config-30670143
+    skill_group_id: 670143
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670144
+    name: mission_skill_config-10670144
+    code: "1"
+    description: mission_skill_config-20670144
+    lvup_description: mission_skill_config-30670144
+    skill_group_id: 670144
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670145
+    name: mission_skill_config-10670145
+    code: "1"
+    description: mission_skill_config-20670145
+    lvup_description: mission_skill_config-30670145
+    skill_group_id: 670145
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670146
+    name: mission_skill_config-10670146
+    code: "1"
+    description: mission_skill_config-20670146
+    lvup_description: mission_skill_config-30670146
+    skill_group_id: 670146
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 670147
+    name: mission_skill_config-10670147
+    code: "1"
+    description: mission_skill_config-20670147
+    lvup_description: mission_skill_config-30670147
+    skill_group_id: 670147
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 100007201&&67010001
+    target_id: "1"
+    subsidiary_mission_skill: "1000073,480171,670108"
+    is_manual: 480141
+  }
+  {
+    id: 680001
+    code: "1"
+    skill_group_id: 680001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680001:1
+  }
+  {
+    id: 680002
+    code: "1"
+    skill_group_id: 680002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680002:1
+  }
+  {
+    id: 680003
+    code: "1"
+    skill_group_id: 680003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680003:1
+  }
+  {
+    id: 680006
+    code: "1"
+    skill_group_id: 680006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680006:1
+  }
+  {
+    id: 680016
+    code: "1"
+    skill_group_id: 680016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680016:1
+  }
+  {
+    id: 680100
+    code: "1"
+    skill_group_id: 680100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680100:1
+  }
+  {
+    id: 680200
+    code: "1"
+    skill_group_id: 680200
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680200:1
+  }
+  {
+    id: 680201
+    code: "1"
+    skill_group_id: 680201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680201:1
+  }
+  {
+    id: 680210
+    code: "1"
+    skill_group_id: 680210
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680210:1
+  }
+  {
+    id: 680211
+    code: "1"
+    skill_group_id: 680211
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 20301:1,20302:1
+  }
+  {
+    id: 680301
+    code: "1"
+    skill_group_id: 680301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680301:1,680300:1
+  }
+  {
+    id: 680302
+    code: "1"
+    skill_group_id: 680302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680302:1,680300:1
+  }
+  {
+    id: 680303
+    code: "1"
+    skill_group_id: 680303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680303:1,680300:1
+  }
+  {
+    id: 680304
+    code: "1"
+    skill_group_id: 680304
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680304:1,680300:1
+  }
+  {
+    id: 680305
+    code: "1"
+    skill_group_id: 680305
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680305:1,680300:1
+  }
+  {
+    id: 680306
+    code: "1"
+    skill_group_id: 680306
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680306:1
+  }
+  {
+    id: 680511
+    code: "1"
+    skill_group_id: 680511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680511:1,680531:1
+  }
+  {
+    id: 680512
+    code: "1"
+    skill_group_id: 680512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680512:1,680531:1
+  }
+  {
+    id: 680513
+    code: "1"
+    skill_group_id: 680513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680513:1,680531:1
+  }
+  {
+    id: 680514
+    code: "1"
+    skill_group_id: 680514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680514:1,680531:1
+  }
+  {
+    id: 680515
+    code: "1"
+    skill_group_id: 680515
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680515:1,680531:1
+  }
+  {
+    id: 680521
+    name: Open
+    code: "1"
+    skill_group_id: 680521
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051101&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680522
+    name: Open
+    code: "1"
+    skill_group_id: 680522
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051201&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680523
+    name: Open
+    code: "1"
+    skill_group_id: 680523
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051301&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680524
+    name: Open
+    code: "1"
+    skill_group_id: 680524
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051401&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680525
+    name: Open
+    code: "1"
+    skill_group_id: 680525
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: 68051501&&68053101
+    special_spot_minus: 680531:1
+    is_manual: 680521
+  }
+  {
+    id: 680531
+    code: "1"
+    skill_group_id: 680531
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051101&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680532
+    code: "1"
+    skill_group_id: 680532
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051201&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680533
+    code: "1"
+    skill_group_id: 680533
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051301&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680534
+    code: "1"
+    skill_group_id: 680534
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051401&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680535
+    code: "1"
+    skill_group_id: 680535
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    data_pool: "30"
+    target_id: 68051501&&68053100
+    special_spot_add: 680531:1
+    is_manual: 680531
+  }
+  {
+    id: 680701
+    code: "1"
+    skill_group_id: 680701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 680701:1
+  }
+  {
+    id: 690000
+    name: mission_skill_config-10690000
+    code: "1"
+    description: mission_skill_config-20690000
+    lvup_description: mission_skill_config-30690000
+    skill_group_id: 690000
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690010"
+  }
+  {
+    id: 690001
+    name: mission_skill_config-10690001
+    code: "1"
+    description: mission_skill_config-20690001
+    lvup_description: mission_skill_config-30690001
+    skill_group_id: 690001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690001:1
+  }
+  {
+    id: 690010
+    name: mission_skill_config-10690010
+    code: "1"
+    description: mission_skill_config-20690010
+    lvup_description: mission_skill_config-30690010
+    skill_group_id: 690010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690020"
+    drop_item: 9044:-9999
+  }
+  {
+    id: 690011
+    name: mission_skill_config-10690011
+    code: "1"
+    description: mission_skill_config-20690011
+    lvup_description: mission_skill_config-30690011
+    skill_group_id: 690011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690021"
+    drop_item: 9044:1
+  }
+  {
+    id: 690012
+    name: mission_skill_config-10690012
+    code: "1"
+    description: mission_skill_config-20690012
+    lvup_description: mission_skill_config-30690012
+    skill_group_id: 690012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 2
+    is_airborne: 2
+    effect_cast: "1000170"
+    is_manual: 690012
+    consumption_item: 9044:1
+  }
+  {
+    id: 690020
+    name: mission_skill_config-10690020
+    code: "1"
+    description: mission_skill_config-20690020
+    lvup_description: mission_skill_config-30690020
+    skill_group_id: 690020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690030"
+    drop_item: 9045:-9999
+  }
+  {
+    id: 690021
+    name: mission_skill_config-10690021
+    code: "1"
+    description: mission_skill_config-20690021
+    lvup_description: mission_skill_config-30690021
+    skill_group_id: 690021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690031"
+    drop_item: 9045:1
+  }
+  {
+    id: 690022
+    name: mission_skill_config-10690022
+    code: "1"
+    description: mission_skill_config-20690022
+    lvup_description: mission_skill_config-30690022
+    skill_group_id: 690022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    effect_cast: "1000171"
+    mission_buff_add: 690022:1,690800:1
+    subsidiary_mission_skill: "690800"
+    is_manual: 690022
+    consumption_item: 9045:1
+  }
+  {
+    id: 690030
+    name: mission_skill_config-10690030
+    code: "1"
+    description: mission_skill_config-20690030
+    lvup_description: mission_skill_config-30690030
+    skill_group_id: 690030
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690040"
+    drop_item: 9046:-9999
+  }
+  {
+    id: 690031
+    name: mission_skill_config-10690031
+    code: "1"
+    description: mission_skill_config-20690031
+    lvup_description: mission_skill_config-30690031
+    skill_group_id: 690031
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690041"
+    drop_item: 9046:1
+  }
+  {
+    id: 690032
+    name: mission_skill_config-10690032
+    code: "1"
+    description: mission_skill_config-20690032
+    lvup_description: mission_skill_config-30690032
+    skill_group_id: 690032
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_cast: "1000172"
+    target_id: "1"
+    mission_buff_add: 690032:1,20202:1
+    is_manual: 690032
+    consumption_item: 9046:1
+  }
+  {
+    id: 690040
+    name: mission_skill_config-10690040
+    code: "1"
+    description: mission_skill_config-20690040
+    lvup_description: mission_skill_config-30690040
+    skill_group_id: 690040
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "690011"
+    drop_item: 9047:-9999
+  }
+  {
+    id: 690041
+    name: mission_skill_config-10690041
+    code: "1"
+    description: mission_skill_config-20690041
+    lvup_description: mission_skill_config-30690041
+    skill_group_id: 690041
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    drop_item: 9047:1
+  }
+  {
+    id: 690042
+    name: mission_skill_config-10690042
+    code: "1"
+    description: mission_skill_config-20690042
+    lvup_description: mission_skill_config-30690042
+    skill_group_id: 690042
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_cast: "1000169"
+    target_id: "1"
+    mission_buff_add: 690042:1
+    is_manual: 690042
+    consumption_item: 9047:1
+  }
+  {
+    id: 690100
+    name: mission_skill_config-10690100
+    code: "1"
+    description: mission_skill_config-20690100
+    lvup_description: mission_skill_config-30690100
+    skill_group_id: 690100
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690100:1
+  }
+  {
+    id: 690101
+    name: mission_skill_config-10690101
+    code: "1"
+    description: mission_skill_config-20690101
+    lvup_description: mission_skill_config-30690101
+    skill_group_id: 690101
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690101:1
+  }
+  {
+    id: 690301
+    name: mission_skill_config-10690301
+    code: "1"
+    description: mission_skill_config-20690301
+    lvup_description: mission_skill_config-30690301
+    skill_group_id: 690301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690301:1
+  }
+  {
+    id: 690311
+    name: mission_skill_config-10690311
+    code: "1"
+    description: mission_skill_config-20690311
+    lvup_description: mission_skill_config-30690311
+    skill_group_id: 690311
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690311:1
+    special_spot_minus: 690301:1
+    is_manual: 690311
+  }
+  {
+    id: 690501
+    name: mission_skill_config-10690501
+    code: "1"
+    description: mission_skill_config-20690501
+    lvup_description: mission_skill_config-30690501
+    skill_group_id: 690501
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 20401:1
+  }
+  {
+    id: 690502
+    name: mission_skill_config-10690502
+    code: "1"
+    description: mission_skill_config-20690502
+    lvup_description: mission_skill_config-30690502
+    skill_group_id: 690502
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690502:1,690001:1
+  }
+  {
+    id: 690503
+    name: mission_skill_config-10690503
+    code: "1"
+    description: mission_skill_config-20690503
+    lvup_description: mission_skill_config-30690503
+    skill_group_id: 690503
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690503:1,690001:1
+  }
+  {
+    id: 690504
+    name: mission_skill_config-10690504
+    code: "1"
+    description: mission_skill_config-20690504
+    lvup_description: mission_skill_config-30690504
+    skill_group_id: 690504
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    mission_buff_add: 690504:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690504
+  }
+  {
+    id: 690511
+    name: mission_skill_config-10690511
+    code: "1"
+    description: mission_skill_config-20690511
+    lvup_description: mission_skill_config-30690511
+    skill_group_id: 690511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690511:1
+  }
+  {
+    id: 690512
+    name: mission_skill_config-10690512
+    code: "1"
+    description: mission_skill_config-20690512
+    lvup_description: mission_skill_config-30690512
+    skill_group_id: 690512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "69050301"
+    subsidiary_mission_skill: "690511"
+    is_manual: 690512
+  }
+  {
+    id: 690513
+    name: mission_skill_config-10690513
+    code: "1"
+    description: mission_skill_config-20690513
+    lvup_description: mission_skill_config-30690513
+    skill_group_id: 690513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 1
+    target_id: "69050201"
+    subsidiary_mission_skill: "690511"
+    is_manual: 690513
+  }
+  {
+    id: 690514
+    name: mission_skill_config-10690514
+    code: "1"
+    description: mission_skill_config-20690514
+    lvup_description: mission_skill_config-30690514
+    skill_group_id: 690514
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    special_spot_add: 690514:1
+    subsidiary_mission_skill: "690524"
+    is_manual: 690514
+  }
+  {
+    id: 690524
+    name: mission_skill_config-10690524
+    code: "1"
+    description: mission_skill_config-20690524
+    lvup_description: mission_skill_config-30690524
+    skill_group_id: 690524
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 690504:1
+  }
+  {
+    id: 690601
+    name: mission_skill_config-10690601
+    code: "1"
+    description: mission_skill_config-20690601
+    lvup_description: mission_skill_config-30690601
+    skill_group_id: 690601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "100007201"
+    target_id: "69060201"
+    special_spot_minus: 690602:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690601
+  }
+  {
+    id: 690602
+    name: mission_skill_config-10690602
+    code: "1"
+    description: mission_skill_config-20690602
+    lvup_description: mission_skill_config-30690602
+    skill_group_id: 690602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690602:1
+  }
+  {
+    id: 690701
+    name: mission_skill_config-10690701
+    code: "1"
+    description: mission_skill_config-20690701
+    lvup_description: mission_skill_config-30690701
+    skill_group_id: 690701
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690701:1,690001:1
+  }
+  {
+    id: 690702
+    name: mission_skill_config-10690702
+    code: "1"
+    description: mission_skill_config-20690702
+    lvup_description: mission_skill_config-30690702
+    skill_group_id: 690702
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690702:1
+  }
+  {
+    id: 690711
+    name: mission_skill_config-10690711
+    code: "1"
+    description: mission_skill_config-20690711
+    lvup_description: mission_skill_config-30690711
+    skill_group_id: 690711
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070101"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690711
+    allyteam_summoner: "690702"
+  }
+  {
+    id: 690721
+    name: mission_skill_config-10690721
+    code: "1"
+    description: mission_skill_config-20690721
+    lvup_description: mission_skill_config-30690721
+    skill_group_id: 690721
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070102"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690721
+    allyteam_summoner: "690703"
+  }
+  {
+    id: 690731
+    name: mission_skill_config-10690731
+    code: "1"
+    description: mission_skill_config-20690731
+    lvup_description: mission_skill_config-30690731
+    skill_group_id: 690731
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    cd_time_type: 1
+    start_range: 1
+    trigger_id: "69070103"
+    special_spot_add: 690711:1
+    subsidiary_mission_skill: "690741"
+    is_manual: 690731
+    allyteam_summoner: "690704"
+  }
+  {
+    id: 690741
+    name: mission_skill_config-10690741
+    code: "1"
+    description: mission_skill_config-20690741
+    lvup_description: mission_skill_config-30690741
+    skill_group_id: 690741
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690701:1
+  }
+  {
+    id: 690790
+    name: mission_skill_config-10690790
+    code: "1"
+    description: mission_skill_config-20690790
+    lvup_description: mission_skill_config-30690790
+    skill_group_id: 690790
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    subsidiary_mission_skill: "690791,690792,690793"
+  }
+  {
+    id: 690791
+    name: mission_skill_config-10690791
+    code: "1"
+    description: mission_skill_config-20690791
+    lvup_description: mission_skill_config-30690791
+    skill_group_id: 690791
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: "69070199"
+    target_id: "1"
+    special_spot_add: 690791:1
+  }
+  {
+    id: 690792
+    name: mission_skill_config-10690792
+    code: "1"
+    description: mission_skill_config-20690792
+    lvup_description: mission_skill_config-30690792
+    skill_group_id: 690792
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690792:1
+  }
+  {
+    id: 690793
+    name: mission_skill_config-10690793
+    code: "1"
+    description: mission_skill_config-20690793
+    lvup_description: mission_skill_config-30690793
+    skill_group_id: 690793
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_minus: 690791:1
+  }
+  {
+    id: 690800
+    name: mission_skill_config-10690800
+    code: "1"
+    description: mission_skill_config-20690800
+    lvup_description: mission_skill_config-30690800
+    skill_group_id: 690800
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 69080101&&69080004
+    target_id: "69080101"
+    mission_buff_minus: 690801:1
+  }
+  {
+    id: 690801
+    name: mission_skill_config-10690801
+    code: "1"
+    description: mission_skill_config-20690801
+    lvup_description: mission_skill_config-30690801
+    skill_group_id: 690801
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690801:1,690800:1
+  }
+  {
+    id: 690802
+    name: mission_skill_config-10690802
+    code: "1"
+    description: mission_skill_config-20690802
+    lvup_description: mission_skill_config-30690802
+    skill_group_id: 690802
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690802:1
+  }
+  {
+    id: 690803
+    name: mission_skill_config-10690803
+    code: "1"
+    description: mission_skill_config-20690803
+    lvup_description: mission_skill_config-30690803
+    skill_group_id: 690803
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690803:1
+  }
+  {
+    id: 690804
+    name: mission_skill_config-10690804
+    code: "1"
+    description: mission_skill_config-20690804
+    lvup_description: mission_skill_config-30690804
+    skill_group_id: 690804
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: "100007201"
+    target_id: "1"
+    mission_buff_add: 690804:1
+    subsidiary_mission_skill: "1000073"
+    is_manual: 690804
+  }
+  {
+    id: 690812
+    name: mission_skill_config-10690812
+    code: "1"
+    description: mission_skill_config-20690812
+    lvup_description: mission_skill_config-30690812
+    skill_group_id: 690812
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 1&&69082200
+    target_id: 69080301&&69081200
+    special_spot_add: 690812:1
+    subsidiary_mission_skill: "690822"
+    is_manual: 690812
+  }
+  {
+    id: 690813
+    name: mission_skill_config-10690813
+    code: "1"
+    description: mission_skill_config-20690813
+    lvup_description: mission_skill_config-30690813
+    skill_group_id: 690813
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    effect_self: "1000016"
+    trigger_id: 1&&69081201
+    target_id: "1"
+    special_spot_minus: 690803:1
+    subsidiary_mission_skill: "690843,690800,690823"
+    is_manual: 690813
+  }
+  {
+    id: 690814
+    name: mission_skill_config-10690814
+    code: "1"
+    description: mission_skill_config-20690814
+    lvup_description: mission_skill_config-30690814
+    skill_group_id: 690814
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    mission_buff_add: 690813:1,690800:1
+    subsidiary_mission_skill: "690800,690824"
+    is_manual: 690814
+  }
+  {
+    id: 690822
+    name: mission_skill_config-10690822
+    code: "1"
+    description: mission_skill_config-20690822
+    lvup_description: mission_skill_config-30690822
+    skill_group_id: 690822
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 690822:1
+  }
+  {
+    id: 690823
+    name: mission_skill_config-10690823
+    code: "1"
+    description: mission_skill_config-20690823
+    lvup_description: mission_skill_config-30690823
+    skill_group_id: 690823
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    special_spot_minus: 690812:1
+    subsidiary_mission_skill: "690833"
+  }
+  {
+    id: 690824
+    name: mission_skill_config-10690824
+    code: "1"
+    description: mission_skill_config-20690824
+    lvup_description: mission_skill_config-30690824
+    skill_group_id: 690824
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_minus: 690804:1
+  }
+  {
+    id: 690833
+    name: mission_skill_config-10690833
+    code: "1"
+    description: mission_skill_config-20690833
+    lvup_description: mission_skill_config-30690833
+    skill_group_id: 690833
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    start_range: 99
+    target_id: "69080201"
+    special_spot_minus: 690822:1
+  }
+  {
+    id: 690843
+    name: mission_skill_config-10690843
+    code: "1"
+    description: mission_skill_config-20690843
+    lvup_description: mission_skill_config-30690843
+    skill_group_id: 690843
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 2
+    mission_buff_add: 690813:1,690800:1
+  }
+  {
+    id: 690901
+    name: mission_skill_config-10690901
+    code: "1"
+    description: mission_skill_config-20690901
+    lvup_description: mission_skill_config-30690901
+    skill_group_id: 690901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    mission_buff_add: 690801:1
+  }
+  {
     id: 700111
     skill_group_id: 700111
     level: 1
@@ -56897,6 +58706,328 @@
     mission_buff_add: 6630001:1,6630011:1
   }
   {
+    id: 6650001
+    code: "1"
+    skill_group_id: 6650001
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650001:1,6449989:1
+  }
+  {
+    id: 6650002
+    code: "1"
+    skill_group_id: 6650002
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650002:1,6440084:1
+  }
+  {
+    id: 6650003
+    code: "1"
+    skill_group_id: 6650003
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "665000231"
+    target_id: "665000231"
+    special_spot_minus: 6650002:1,6440081:1,6440082:1,6440083:1,6440084:1,6440085:1,6440086:1,6440087:1,6440088:1,6440089:1
+    subsidiary_mission_skill: "6440119"
+    is_manual: 6440003
+  }
+  {
+    id: 6650004
+    code: "1"
+    skill_group_id: 6650004
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650005:1,6650006:1,6650007:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650005
+    code: "1"
+    skill_group_id: 6650005
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650008:1,6650009:1,6650010:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650006
+    code: "1"
+    skill_group_id: 6650006
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 6650003:1,6650011:1,6650012:1,6650013:1,6650014:1,6650015:1
+  }
+  {
+    id: 6650007
+    name: Stand Your Ground
+    code: "1"
+    description: After every 3 seconds, increase evasion and armor of friendly T-Dolls on the front row by 6%, stacking up to 10 times.
+    skill_group_id: 6650007
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000531
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650005:1,6650003:1
+    is_manual: 6580002
+    consumption_item: 542:10
+  }
+  {
+    id: 6650008
+    name: Prompt Preparation
+    code: "1"
+    description: Reduce all echelon members' initial cooldowns by 50%.
+    skill_group_id: 6650008
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000631
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650006:1,6650003:1
+    is_manual: 6580003
+    consumption_item: 542:10
+  }
+  {
+    id: 6650009
+    name: Charred Earth Stratagem
+    code: "1"
+    description: After every 6 seconds, throw an incendiary projectile at the enemy unit with the highest HP, dealing 60 points of damage every 0.33 seconds for 15 seconds to all units within a 3x3 area.
+    skill_group_id: 6650009
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000731
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650007:1,6650003:1
+    is_manual: 6580004
+    consumption_item: 542:10
+  }
+  {
+    id: 6650010
+    name: Emergency Shield
+    code: "1"
+    description: After every 10 seconds, echelon members' shields that have lost 30% of their HP regenerate for 6 seconds.
+    skill_group_id: 6650010
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000831
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650008:1,6650003:1
+    is_manual: 6580005
+    consumption_item: 542:10
+  }
+  {
+    id: 6650011
+    name: Random Strike
+    code: "1"
+    description: After every 10 seconds, place a powerful debuff on a random enemy that reduces their stats (damage, rate of fire, accuracy, evasion, armor) by 50%.
+    skill_group_id: 6650011
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665000931
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650009:1,6650003:1
+    is_manual: 6580006
+    consumption_item: 542:10
+  }
+  {
+    id: 6650012
+    name: Deflector Shield
+    code: "1"
+    description: The echelon member with the highest HP gains a 9999-point deflection force field at the start of the battle for 5 seconds.
+    skill_group_id: 6650012
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001031
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650010:1,6650003:1
+    is_manual: 6580007
+    consumption_item: 542:10
+  }
+  {
+    id: 6650013
+    name: Assault Inertia
+    code: "1"
+    description: In this battle, damage and evasion of all echelon members increase by 3% every 4 seconds, stacking up to 10 times.
+    skill_group_id: 6650013
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001131
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650011:1,6650003:1
+    is_manual: 6580008
+    consumption_item: 542:10
+  }
+  {
+    id: 6650014
+    name: Iron Meat Shield
+    code: "1"
+    description: The echelon member with the highest HP gains an additional 30% damage intake reduction.
+    skill_group_id: 6650014
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001231
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650012:1,6650003:1
+    is_manual: 6580009
+    consumption_item: 542:10
+  }
+  {
+    id: 6650015
+    name: Assault Command
+    code: "1"
+    description: Increase all echelon members' rate of fire by 30%.
+    skill_group_id: 6650015
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    trigger_id: 665000331&&665001331
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650013:1,6650003:1
+    is_manual: 6580010
+    consumption_item: 542:10
+  }
+  {
+    id: 6650016
+    code: "1"
+    skill_group_id: 6650016
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 665000331&&665001431
+    mission_buff_add: 6510003:1
+    subsidiary_mission_skill: "6650018"
+    is_manual: 6650001
+    consumption_item: 542:10
+  }
+  {
+    id: 6650017
+    code: "1"
+    skill_group_id: 6650017
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "1,7,8"
+    cd_time_type: 1
+    start_range: 99
+    trigger_id: 665000331&&665001531
+    mission_buff_add: 6630020:1
+    subsidiary_mission_skill: "6650019"
+    is_manual: 6650002
+    consumption_item: 542:10
+  }
+  {
+    id: 6650018
+    code: "1"
+    skill_group_id: 6650018
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650014:1,6650003:1
+  }
+  {
+    id: 6650019
+    code: "1"
+    skill_group_id: 6650019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    special_spot_add: 6650004:1
+    special_spot_minus: 6650015:1,6650003:1
+  }
+  {
+    id: 6650020
+    code: "1"
+    skill_group_id: 6650020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:-9999
+  }
+  {
+    id: 6650021
+    code: "1"
+    skill_group_id: 6650021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:1
+  }
+  {
+    id: 6650022
+    code: "1"
+    skill_group_id: 6650022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    drop_item: 542:5
+  }
+  {
     id: 8120101
     name: Open Command (for Defense Gate I Type ①)
     code: "1"
@@ -70483,6 +72614,609 @@
     special_spot_add: 9521406:1
   }
   {
+    id: 9700301
+    name: mission_skill_config-19700301
+    description: mission_skill_config-29700301
+    lvup_description: mission_skill_config-39700301
+    skill_group_id: 9700301
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100020091"
+    is_manual: 9700301
+  }
+  {
+    id: 9700302
+    name: mission_skill_config-19700302
+    description: mission_skill_config-29700302
+    lvup_description: mission_skill_config-39700302
+    skill_group_id: 9700302
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100010091"
+    is_manual: 9700301
+  }
+  {
+    id: 9700303
+    name: mission_skill_config-19700303
+    description: mission_skill_config-29700303
+    lvup_description: mission_skill_config-39700303
+    skill_group_id: 9700303
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100040091"
+    is_manual: 9700301
+  }
+  {
+    id: 9700304
+    name: mission_skill_config-19700304
+    description: mission_skill_config-29700304
+    lvup_description: mission_skill_config-39700304
+    skill_group_id: 9700304
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100030091"
+    is_manual: 9700301
+  }
+  {
+    id: 9700305
+    name: mission_skill_config-19700305
+    description: mission_skill_config-29700305
+    lvup_description: mission_skill_config-39700305
+    skill_group_id: 9700305
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 1170001:1
+  }
+  {
+    id: 9700306
+    name: mission_skill_config-19700306
+    description: mission_skill_config-29700306
+    lvup_description: mission_skill_config-39700306
+    skill_group_id: 9700306
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 1170003:1
+  }
+  {
+    id: 9700307
+    name: mission_skill_config-19700307
+    description: mission_skill_config-29700307
+    lvup_description: mission_skill_config-39700307
+    skill_group_id: 9700307
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    mission_buff_add: 9700307:1
+  }
+  {
+    id: 9700308
+    name: mission_skill_config-19700308
+    description: mission_skill_config-29700308
+    lvup_description: mission_skill_config-39700308
+    skill_group_id: 9700308
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    mission_buff_add: 9700308:1
+    mission_buff_minus: 9700307:1
+  }
+  {
+    id: 9700309
+    name: mission_skill_config-19700309
+    description: mission_skill_config-29700309
+    lvup_description: mission_skill_config-39700309
+    skill_group_id: 9700309
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 1170002:1
+  }
+  {
+    id: 9700601
+    name: mission_skill_config-19700601
+    description: mission_skill_config-29700601
+    lvup_description: mission_skill_config-39700601
+    skill_group_id: 9700601
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "101010191"
+    target_id: "1"
+    special_spot_minus: 1010101:1
+    subsidiary_mission_skill: "9700603,9700605"
+    is_manual: 9700601
+  }
+  {
+    id: 9700602
+    name: mission_skill_config-19700602
+    description: mission_skill_config-29700602
+    lvup_description: mission_skill_config-39700602
+    skill_group_id: 9700602
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "101010191"
+    target_id: "1"
+    special_spot_minus: 1010101:1
+    subsidiary_mission_skill: "9700604,9700605"
+    is_manual: 9700601
+  }
+  {
+    id: 9700603
+    name: mission_skill_config-19700603
+    description: mission_skill_config-29700603
+    lvup_description: mission_skill_config-39700603
+    skill_group_id: 9700603
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 8
+    target_id: "101010091"
+    special_spot_add: 1000100:1
+  }
+  {
+    id: 9700604
+    name: mission_skill_config-19700604
+    description: mission_skill_config-29700604
+    lvup_description: mission_skill_config-39700604
+    skill_group_id: 9700604
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 8
+    target_id: "101010091"
+    special_spot_add: 1000200:1
+  }
+  {
+    id: 9700605
+    name: mission_skill_config-19700605
+    description: mission_skill_config-29700605
+    lvup_description: mission_skill_config-39700605
+    skill_group_id: 9700605
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: 101010091&&100010091&&100020091
+    subsidiary_mission_skill: "9700606"
+  }
+  {
+    id: 9700606
+    name: mission_skill_config-19700606
+    description: mission_skill_config-29700606
+    lvup_description: mission_skill_config-39700606
+    skill_group_id: 9700606
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 8
+    target_id: "102010091"
+    special_spot_minus: 1020101:1,1000001:1
+  }
+  {
+    id: 9700607
+    name: mission_skill_config-19700607
+    description: mission_skill_config-29700607
+    lvup_description: mission_skill_config-39700607
+    skill_group_id: 9700607
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: 1&&117010190
+    special_spot_add: 1170101:1
+    is_manual: 9700607
+  }
+  {
+    id: 9700608
+    name: mission_skill_config-19700608
+    description: mission_skill_config-29700608
+    lvup_description: mission_skill_config-39700608
+    skill_group_id: 9700608
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9700608:1
+  }
+  {
+    id: 9700901
+    name: mission_skill_config-19700901
+    description: mission_skill_config-29700901
+    lvup_description: mission_skill_config-39700901
+    skill_group_id: 9700901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 1170201:1
+  }
+  {
+    id: 9701201
+    name: mission_skill_config-19701201
+    description: mission_skill_config-29701201
+    lvup_description: mission_skill_config-39701201
+    skill_group_id: 9701201
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    target_id: "958400191"
+    mission_buff_minus: 9584001:1
+    is_manual: 9701201
+  }
+  {
+    id: 9701202
+    name: mission_skill_config-19701202
+    description: mission_skill_config-29701202
+    lvup_description: mission_skill_config-39701202
+    skill_group_id: 9701202
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9584001:1
+  }
+  {
+    id: 9701203
+    name: mission_skill_config-19701203
+    description: mission_skill_config-29701203
+    lvup_description: mission_skill_config-39701203
+    skill_group_id: 9701203
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9701203:1,9701205:1
+  }
+  {
+    id: 9701204
+    name: mission_skill_config-19701204
+    description: mission_skill_config-29701204
+    lvup_description: mission_skill_config-39701204
+    skill_group_id: 9701204
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "4,5,6"
+    cd_time_type: 1
+    start_range: 1
+    data_pool: "95"
+    special_spot_add: 6360013:1
+    mission_buff_minus: 9584001:1,9701203:1
+    subsidiary_mission_skill: "9701205"
+    is_manual: 6360003
+  }
+  {
+    id: 9701205
+    name: mission_skill_config-19701205
+    description: mission_skill_config-29701205
+    lvup_description: mission_skill_config-39701205
+    skill_group_id: 9701205
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_minus: 9701204:1
+  }
+  {
+    id: 9701206
+    name: mission_skill_config-19701206
+    description: mission_skill_config-29701206
+    lvup_description: mission_skill_config-39701206
+    skill_group_id: 9701206
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "100010091"
+    mission_buff_add: 9701204:1
+    subsidiary_mission_skill: "9701207"
+    is_manual: 9701206
+  }
+  {
+    id: 9701207
+    name: mission_skill_config-19701207
+    description: mission_skill_config-29701207
+    lvup_description: mission_skill_config-39701207
+    skill_group_id: 9701207
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_minus: 1000100:1
+  }
+  {
+    id: 9701208
+    name: mission_skill_config-19701208
+    description: mission_skill_config-29701208
+    lvup_description: mission_skill_config-39701208
+    skill_group_id: 9701208
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9701208:1
+  }
+  {
+    id: 9701209
+    name: mission_skill_config-19701209
+    description: mission_skill_config-29701209
+    lvup_description: mission_skill_config-39701209
+    skill_group_id: 9701209
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+  }
+  {
+    id: 9701504
+    name: mission_skill_config-19701504
+    description: mission_skill_config-29701504
+    lvup_description: mission_skill_config-39701504
+    skill_group_id: 9701504
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    special_spot_add: 1010101:1
+  }
+  {
+    id: 9701506
+    name: mission_skill_config-19701506
+    description: mission_skill_config-29701506
+    lvup_description: mission_skill_config-39701506
+    skill_group_id: 9701506
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "101010191"
+    target_id: "1"
+    special_spot_minus: 1010101:1
+    subsidiary_mission_skill: "9701508,9701510"
+    is_manual: 9700601
+  }
+  {
+    id: 9701507
+    name: mission_skill_config-19701507
+    description: mission_skill_config-29701507
+    lvup_description: mission_skill_config-39701507
+    skill_group_id: 9701507
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    trigger_id: "101010191"
+    target_id: "1"
+    special_spot_minus: 1010101:1
+    subsidiary_mission_skill: "9701509,9701510"
+    is_manual: 9700601
+  }
+  {
+    id: 9701508
+    name: mission_skill_config-19701508
+    description: mission_skill_config-29701508
+    lvup_description: mission_skill_config-39701508
+    skill_group_id: 9701508
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    target_id: "101010091"
+    special_spot_add: 1000100:1
+  }
+  {
+    id: 9701509
+    name: mission_skill_config-19701509
+    description: mission_skill_config-29701509
+    lvup_description: mission_skill_config-39701509
+    skill_group_id: 9701509
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    target_id: "101010091"
+    special_spot_add: 1000200:1
+  }
+  {
+    id: 9701510
+    name: mission_skill_config-19701510
+    description: mission_skill_config-29701510
+    lvup_description: mission_skill_config-39701510
+    skill_group_id: 9701510
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: 101010091&&100010091&&100020091
+    subsidiary_mission_skill: "9701511"
+  }
+  {
+    id: 9701511
+    name: mission_skill_config-19701511
+    description: mission_skill_config-29701511
+    lvup_description: mission_skill_config-39701511
+    skill_group_id: 9701511
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    target_id: "102010091"
+    special_spot_add: 1010101:1
+    special_spot_minus: 1010201:1
+  }
+  {
+    id: 9701512
+    name: mission_skill_config-19701512
+    description: mission_skill_config-29701512
+    lvup_description: mission_skill_config-39701512
+    skill_group_id: 9701512
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    mission_buff_add: 9701512:1
+  }
+  {
+    id: 9701513
+    name: mission_skill_config-19701513
+    description: mission_skill_config-29701513
+    lvup_description: mission_skill_config-39701513
+    skill_group_id: 9701513
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    target_id: "1"
+    special_spot_add: 9701513:1
+  }
+  {
+    id: 9701901
+    name: mission_skill_config-19701901
+    description: mission_skill_config-29701901
+    lvup_description: mission_skill_config-39701901
+    skill_group_id: 9701901
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100020091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701902
+    name: mission_skill_config-19701902
+    description: mission_skill_config-29701902
+    lvup_description: mission_skill_config-39701902
+    skill_group_id: 9701902
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100010091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701903
+    name: mission_skill_config-19701903
+    description: mission_skill_config-29701903
+    lvup_description: mission_skill_config-39701903
+    skill_group_id: 9701903
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100040091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701904
+    name: mission_skill_config-19701904
+    description: mission_skill_config-29701904
+    lvup_description: mission_skill_config-39701904
+    skill_group_id: 9701904
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100030091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701905
+    name: mission_skill_config-19701905
+    description: mission_skill_config-29701905
+    lvup_description: mission_skill_config-39701905
+    skill_group_id: 9701905
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100060091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701906
+    name: mission_skill_config-19701906
+    description: mission_skill_config-29701906
+    lvup_description: mission_skill_config-39701906
+    skill_group_id: 9701906
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100050091"
+    is_manual: 9700301
+  }
+  {
+    id: 9701907
+    name: mission_skill_config-19701907
+    description: mission_skill_config-29701907
+    lvup_description: mission_skill_config-39701907
+    skill_group_id: 9701907
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    start_range: 100
+    is_airborne: 2
+    target_id: "100070091"
+    is_manual: 9700301
+  }
+  {
     id: 40400001
     name: 【标记】枪少彩蛋测试
     skill_group_id: 40400001
@@ -72705,6 +75439,81 @@
     cd_time_type: 1
     target_id: "1"
     mission_buff_add: 9550101:1
+  }
+  {
+    id: 95401019
+    name: mission_skill_config-105401019
+    description: mission_skill_config-115401019
+    lvup_description: mission_skill_config-125401019
+    skill_group_id: 95401019
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112010091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120100:1
+  }
+  {
+    id: 95401020
+    name: mission_skill_config-105401020
+    description: mission_skill_config-115401020
+    lvup_description: mission_skill_config-125401020
+    skill_group_id: 95401020
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112020091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120200:1
+  }
+  {
+    id: 95401021
+    name: mission_skill_config-105401021
+    description: mission_skill_config-115401021
+    lvup_description: mission_skill_config-125401021
+    skill_group_id: 95401021
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112030091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120300:1
+  }
+  {
+    id: 95401022
+    name: mission_skill_config-105401022
+    description: mission_skill_config-115401022
+    lvup_description: mission_skill_config-125401022
+    skill_group_id: 95401022
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112040091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120400:1
+  }
+  {
+    id: 95401023
+    name: mission_skill_config-105401023
+    description: mission_skill_config-115401023
+    lvup_description: mission_skill_config-125401023
+    skill_group_id: 95401023
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "112050091"
+    special_spot_add: 2110100:1,2110101:1,2110102:1,1000901:1:1
+    special_spot_minus: 9332110:1,1120500:1
   }
   {
     id: 95838001

@@ -24111,7 +24111,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10640000
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24121,9 +24120,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40640000
-    des: building-20640000
-    confront_des: building-30640000
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 640001
@@ -24134,7 +24131,6 @@
     mission_skill: 0;640006,640005;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10640001
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24144,9 +24140,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40640001
-    des: building-20640001
-    confront_des: building-30640001
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,1150500,6400008,0"
   }
   {
@@ -24158,7 +24152,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10640002
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24168,9 +24161,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40640002
-    des: building-20640002
-    confront_des: building-30640002
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 640003
@@ -24181,7 +24172,6 @@
     mission_skill: 0;640006,640005;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10640003
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24191,9 +24181,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40640003
-    des: building-20640003
-    confront_des: building-30640003
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,1150500,6400008,0"
   }
   {
@@ -24205,7 +24193,6 @@
     mission_skill: 0;640006,640005;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-10640004
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -24215,10 +24202,1154 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-40640004
-    des: building-20640004
-    confront_des: building-30640004
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "2,1151600,6400009,0"
+  }
+  {
+    id: 670101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670141"
+    inherent_mission_skill: "480000,1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670102
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670142"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670103
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670143"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670104
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670144"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670105
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670145"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670106
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670146"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670107
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0;0:0,1:0;0:0,1:0;0:1,1:1
+    code: Hiding
+    shifting_spot: "50,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: 480101|480104|480103|480109
+    active_mission_skill: "670101,670102,670103,670105,480121,480131,480132,480133,480134,480135,480136,670147"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1,1,1,1
+    initial_state: -1
+  }
+  {
+    id: 670108
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480108"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670111
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480161"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670112
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480162"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670113
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480163"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670114
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "480164"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670115
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670125;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "670121"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 670116
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670126;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "2,670190,670122,0"
+  }
+  {
+    id: 670117
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670127;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "2,670191,670123,0"
+  }
+  {
+    id: 670118
+    defender: 99999
+    defender_upper: 99999
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;670128;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "2,670192,670124,0"
+  }
+  {
+    id: 680001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680002
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680002"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680003
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680003"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680006
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680001,680006"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680016
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680001,680016"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680100
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+    missionskill_on_death: "1,680102,680100,0;1,680103,680100,0;1,680104,680100,0;"
+  }
+  {
+    id: 680200
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680200"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+    missionskill_on_death: "2,680201,680201,0;2,680601,680201,0"
+  }
+  {
+    id: 680201
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680211"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+    missionskill_on_death: "1,680202,680210,0;1,680602,680210,0;"
+  }
+  {
+    id: 680301
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680301"
+    inherent_mission_skill: "680001,680301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680302
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680302"
+    inherent_mission_skill: "680001,680302"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680303
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680303"
+    inherent_mission_skill: "680001,680303"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680304
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680304"
+    inherent_mission_skill: "680001,680304"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680305
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680305"
+    inherent_mission_skill: "680001,680305"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680306
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680306"
+    inherent_mission_skill: "680001,680306"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680501
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: Control Panel I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "680521,680531"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680502
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: Control Terminal II
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "680522,680532"
+    inherent_mission_skill: "680001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680503
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: Control Terminal III
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "680523,680533"
+    inherent_mission_skill: "680001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680504
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: Control Terminal IV
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "680524,680534"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680505
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    name: Control Terminal V
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "680525,680535"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680511
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: Defense Gate I
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680531"
+    inherent_mission_skill: "680511"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680512
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: Defense Gate II
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680531"
+    inherent_mission_skill: "680512"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680513
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: Defense Gate III
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680531"
+    inherent_mission_skill: "680513"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680514
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: Defense Gate IV
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680531"
+    inherent_mission_skill: "680514"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680515
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    name: Defense Gate V
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    working_special_spot: "680531"
+    inherent_mission_skill: "680515"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 680701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "680701"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 690000
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690000"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690001
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690101
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690100"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "2,690101,690101,0;2,690201,690101,0"
+  }
+  {
+    id: 690301
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "690311"
+    active_mission_skill: "690311"
+    inherent_mission_skill: "690301"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+  }
+  {
+    id: 690501
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690501"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690502
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690502"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690503
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690503"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690504
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000007
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Boomer
+    shifting_spot: "45,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000072"
+    active_mission_skill: "690504"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690601
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000072"
+    active_mission_skill: "690601"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690602
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    code: Door_Left_S
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "690602"
+    inherent_mission_skill: "690602"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690701
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690701"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "2,690701,690790,0"
+  }
+  {
+    id: 690702
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690702"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690801
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690801"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690802
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000012
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:2,1:2;0:0,1:0
+    code: Substation
+    shifting_spot: "50,100"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    active_mission_skill: "690812"
+    inherent_mission_skill: "690802"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+  }
+  {
+    id: 690803
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000013
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:0,1:0
+    code: EMP
+    shifting_spot: "10,103"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,2"
+    show_info: 1
+    working_special_spot: "690812"
+    active_mission_skill: "690813"
+    inherent_mission_skill: "690803"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    initial_state: -1
+  }
+  {
+    id: 690804
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000017
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Build_PortableEMP
+    shifting_spot: "65,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000072"
+    active_mission_skill: "690804"
+    inherent_mission_skill: "1000072"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 690901
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:1,1:1;0:1,1:0
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "690901"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
   }
   {
     id: 1144001
@@ -25253,7 +26384,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049901
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25262,9 +26392,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049901
-    des: building-24049901
-    confront_des: building-34049901
   }
   {
     id: 4049902
@@ -25275,7 +26402,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049902
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25284,9 +26410,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049902
-    des: building-24049902
-    confront_des: building-34049902
   }
   {
     id: 4049904
@@ -25297,7 +26420,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049904
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25306,9 +26428,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049904
-    des: building-24049904
-    confront_des: building-34049904
   }
   {
     id: 4049905
@@ -25319,7 +26438,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049905
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25328,9 +26446,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049905
-    des: building-24049905
-    confront_des: building-34049905
   }
   {
     id: 4049906
@@ -25341,7 +26456,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049906
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25350,9 +26464,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049906
-    des: building-24049906
-    confront_des: building-34049906
   }
   {
     id: 4049907
@@ -25363,7 +26474,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049907
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25372,9 +26482,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049907
-    des: building-24049907
-    confront_des: building-34049907
   }
   {
     id: 4049908
@@ -25385,7 +26492,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049908
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25394,9 +26500,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049908
-    des: building-24049908
-    confront_des: building-34049908
   }
   {
     id: 4049909
@@ -25407,7 +26510,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049909
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25416,9 +26518,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049909
-    des: building-24049909
-    confront_des: building-34049909
   }
   {
     id: 4049910
@@ -25429,7 +26528,6 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: building-14049910
     code: Hiding
     shifting_spot: "0,0"
     shifting_team: "0,0"
@@ -25438,9 +26536,6 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    active_building_info: building-44049910
-    des: building-24049910
-    confront_des: building-34049910
   }
   {
     id: 6000001
@@ -35776,6 +36871,7 @@
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
     is_destroy: "1"
+    name: Rubble
     code: Rock_S
     shifting_spot: "0,120"
     shifting_team: "-30,0"
@@ -35786,6 +36882,12 @@
     type: 7
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    des: A pile of rubble blocking movement along the thoroughfare.
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+       Attack with HOC units
+      '''
   }
   {
     id: 6630002
@@ -35805,6 +36907,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,6630101,6630009,0;1,6630102,6630009,0;1,6630103,6630009,0;1,6630104,6630009,0;1,6630105,6630009,0;1,6630106,6630009,0;1,6630107,6630009,0;1,6630108,6630009,0;1,6630109,6630009,0;1,6630110,6630009,0;1,6630111,6630009,0;1,6630112,6630009,0;1,6630113,6630009,0;1,6630114,6630009,0;1,6630115,6630009,0;1,6630116,6630009,0;1,6630117,6630009,0;1,6630118,6630009,0;1,6630119,6630009,0;1,6630120,6630009,0;1,6630121,6630009,0;1,6630122,6630009,0;1,6630123,6630009,0;1,6630124,6630009,0;1,6630125,6630009,0;1,6630126,6630009,0;1,6630127,6630009,0;1,6630128,6630009,0;1,6630129,6630009,0;1,6630130,6630009,0;1,6630131,6630009,0;1,6630132,6630009,0;1,6630133,6630009,0;1,6630134,6630009,0;1,6630135,6630009,0;1,6630136,6630009,0;1,6630191,6630009,0;1,6630192,6630009,0;2,6630001,6630009,0"
   }
   {
@@ -35825,6 +36928,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6630004
@@ -35835,6 +36939,7 @@
     mission_skill: 0;0;0;0
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;1:1,1:0
+    name: Abandoned Goliath
     code: Boomer
     shifting_spot: "45,100"
     shifting_team: "-30,0"
@@ -35846,6 +36951,7 @@
     type: 7
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6630005
@@ -35864,6 +36970,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6630006
@@ -35885,6 +36992,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6630007
@@ -35904,6 +37012,7 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 6630008
@@ -35923,6 +37032,142 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650001
+    defender: 50
+    defender_upper: 50
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;6440125;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6650001"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650002
+    defender: 100
+    defender_upper: 100
+    belong: 1
+    hold_belong: 1
+    mission_skill: 0;0;0;6440067
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:3,1:3
+    name: Iaso's Box
+    code: iaso
+    shifting_spot: "0,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6650002"
+    active_mission_skill: "6650003"
+    inherent_mission_skill: "6650002"
+    type: 7
+    is_focus: "-1,0"
+    transition: iaso:0_1,iaso:1_0
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    active_building_info: iaso;Iaso's Box;0,0;0
+    des: Sends control orders to the linked installations.
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650003
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:1;0:1,1:0
+    name: Control Panel I
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6650003"
+    active_mission_skill: "6650007,6650008,6650009,6650016,6650017"
+    inherent_mission_skill: "6650004"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650004
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:1;0:1,1:0
+    name: Control Terminal II
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6650003"
+    active_mission_skill: "6650010,6650011,6650012,6650016,6650017"
+    inherent_mission_skill: "6650005"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650005
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:1;0:1,1:0
+    name: Control Terminal III
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "6650003"
+    active_mission_skill: "6650013,6650014,6650015,6650016,6650017"
+    inherent_mission_skill: "6650006"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+  }
+  {
+    id: 6650006
+    defender: 50
+    defender_upper: 50
+    belong: 2
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "6650020"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
+    missionskill_on_death: "1,6650001,6650021,0;1,6650002,6650021,0;1,6650003,6650021,0;1,6650004,6650021,0;1,6650005,6650021,0;1,6650006,6650021,0;1,6650007,6650021,0;1,6650008,6650021,0;1,6650009,6650021,0;1,6650010,6650021,0;1,6650011,6650021,0;1,6650012,6650021,0;1,6650013,6650021,0;1,6650014,6650021,0;1,6650015,6650021,0;1,6650016,6650021,0;1,6650017,6650021,0;1,6650018,6650021,0;1,6650019,6650022,0;1,6650020,6650021,0;1,6650021,6650021,0;1,6650022,6650021,0;1,6650023,6650021,0;1,6650024,6650021,0;1,6650025,6650021,0;1,6650026,6650021,0;1,6650027,6650021,0;1,6650028,6650021,0;1,6650029,6650021,0;1,6650030,6650021,0;1,6650031,6650021,0;1,6650032,6650021,0;1,6650033,6650021,0;1,6650034,6650021,0;1,6650035,6650021,0;1,6650036,6650021,0;1,6650037,6650021,0;1,6650038,6650021,0;1,6650039,6650021,0;1,6650040,6650021,0;1,6650041,6650021,0;1,6650042,6650021,0;1,6650043,6650021,0;1,6650044,6650021,0;1,6650045,6650021,0;1,6650046,6650021,0;1,6650047,6650021,0;1,6650048,6650021,0;1,6650049,6650021,0;1,6650050,6650021,0;1,6650051,6650021,0;1,6650052,6650021,0;1,6650053,6650021,0;2,6650005,6650021,0;2,6650006,6650021,0;2,6650007,6650021,0;2,6650008,6650021,0;2,6650009,6650021,0"
   }
   {
     id: 9031001
@@ -48448,6 +49693,653 @@
     des: Sends control orders to the linked installations.
     confront_des: This facility cannot be destroyed in this battle.
     missionskill_on_death: "1,9587401,580111,0;1,9587402,580111,0;1,9587403,580111,0;1,9587404,580111,0;1,9587405,580111,0;1,9587406,580111,0;1,9587407,580111,0;1,9587408,580111,0;1,9587409,580111,0;1,9587410,580111,0;1,9587411,580111,0;1,9587412,580111,0;1,9587413,580111,0;1,9587414,580111,0;1,9587415,580111,0"
+  }
+  {
+    id: 9700301
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000100"
+    active_mission_skill: "9700301"
+    inherent_mission_skill: "1000100"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9700302
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000200"
+    active_mission_skill: "9700302"
+    inherent_mission_skill: "1000200"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9700303
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000300"
+    active_mission_skill: "9700303"
+    inherent_mission_skill: "1000300"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9700304
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000400"
+    active_mission_skill: "9700304"
+    inherent_mission_skill: "1000400"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9700305
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9700305"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "1,9700302,9700306,0"
+  }
+  {
+    id: 9700306
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9700307"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9700307
+    defender: 99999
+    defender_upper: 99999
+    belong: 1
+    hold_belong: 1
+    mission_skill: 9700308;9700308;9700308;9700308
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9700601
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9700601"
+    inherent_mission_skill: "1010100,1010101"
+    type: 4
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9700602
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9700602"
+    inherent_mission_skill: "1010100,1010101"
+    type: 2
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9700603
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000006
+    battle_skill: 0;0;0;0
+    condition: 0:2,1:2;0:2,1:0
+    code: Door_Left
+    shifting_spot: "10,80"
+    shifting_team: "-20,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1020101"
+    inherent_mission_skill: "1020100,1020101,1000001,9700608"
+    type: 6
+    is_focus: "-1,0"
+    transition: Door_Left:0_1,Door_Left:1_3
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9700604
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    active_mission_skill: "9700607"
+    inherent_mission_skill: "1000700"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9700901
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9700901"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701201
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9701201"
+    inherent_mission_skill: "1010100"
+    type: 1
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9701202
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 9701209;9701209;9701209;9701209
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Sundries
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000100"
+    active_mission_skill: "9701206"
+    inherent_mission_skill: "1000100,9701208"
+    type: 5
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701203
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9701202"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701204
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9701203"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701501
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9701506"
+    inherent_mission_skill: "1010100,1010101"
+    type: 1
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9701502
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9701507"
+    inherent_mission_skill: "1010100,1010101"
+    type: 3
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9701503
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1020100,1010201"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701504
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9701504"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701505
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701506
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9701512,9701513"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+  }
+  {
+    id: 9701901
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000100"
+    active_mission_skill: "9701901"
+    inherent_mission_skill: "1000100"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701902
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000200"
+    active_mission_skill: "9701902"
+    inherent_mission_skill: "1000200"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701903
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000300"
+    active_mission_skill: "9701903"
+    inherent_mission_skill: "1000300"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701904
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000400"
+    active_mission_skill: "9701904"
+    inherent_mission_skill: "1000400"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701905
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000500"
+    active_mission_skill: "9701905"
+    inherent_mission_skill: "1000500"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701906
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000022
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: LiftBlue
+    shifting_spot: "5,0"
+    shifting_team: "-5,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1000600"
+    active_mission_skill: "9701906"
+    inherent_mission_skill: "1000600"
+    type: 22
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+    initial_state: -1
+  }
+  {
+    id: 9701907
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;2000005
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Console
+    shifting_spot: "40,150"
+    shifting_team: "-30,0"
+    battle_assist_range: "0,0"
+    show_info: 1
+    working_special_spot: "1010101"
+    active_mission_skill: "9701907"
+    inherent_mission_skill: "1010100"
+    type: 3
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;0
+  }
+  {
+    id: 9701908
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "9700305"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
+    missionskill_on_death: "1,9701902,9700306,0"
+  }
+  {
+    id: 9701909
+    defender: 99999
+    defender_upper: 99999
+    belong: 3
+    hold_belong: 1
+    mission_skill: 0;0;0;0
+    battle_skill: 0;0;0;0
+    condition: 0:0,1:0;0:0,1:1
+    code: Hiding
+    shifting_spot: "0,0"
+    shifting_team: "0,0"
+    battle_assist_range: "0,0"
+    inherent_mission_skill: "1000700"
+    type: 5
+    is_focus: "-1,0"
+    belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
+    working_spot_activation: 1;1
   }
   {
     id: 43130001

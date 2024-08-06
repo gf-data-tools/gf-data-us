@@ -15512,6 +15512,261 @@
     no_battle_damage: -1
   }
   {
+    id: 670100
+    name: ally_team-10670100
+    guns: "969"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "670104"
+    transform_result: "2"
+    no_battle_damage: 50
+  }
+  {
+    id: 670101
+    name: ally_team-10670101
+    guns: "670101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670190
+    name: ally_team-10670190
+    guns: "1"
+    enemy_team_id: 670190
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670191
+    name: ally_team-10670191
+    guns: "1"
+    enemy_team_id: 670191
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670192
+    name: ally_team-10670192
+    guns: "1"
+    enemy_team_id: 670192
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 670193
+    name: ally_team-10670193
+    guns: "1"
+    enemy_team_id: 670193
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 680101
+    name: Erma
+    guns: "680101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 680201
+    name: Erma
+    guns: "680201"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 680601
+    name: Erma
+    guns: "680601"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690101
+    name: ally_team-10690101
+    guns: "1"
+    enemy_team_id: 690101
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690102
+    name: ally_team-10690102
+    guns: "1"
+    enemy_team_id: 690102
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690201
+    name: ally_team-10690201
+    guns: "1"
+    enemy_team_id: 690201
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690202
+    name: ally_team-10690202
+    guns: "1"
+    enemy_team_id: 690202
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    no_battle_damage: -1
+  }
+  {
+    id: 690203
+    name: ally_team-10690203
+    guns: "1"
+    enemy_team_id: 690203
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 0;0;0
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    betray_result_enemy: "690203"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690501
+    name: ally_team-10690501
+    guns: "10095,10096,10097"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690511"
+    betray_result: "1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10095|10096|10097|10109
+    betray_result_ai: 20010:5,10
+  }
+  {
+    id: 690502
+    name: ally_team-10690502
+    guns: "10101"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "690511"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690601
+    name: ally_team-10690601
+    guns: "10098,10099,10100"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690511"
+    betray_result: "1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10098|10099|10100|10110
+    betray_result_ai: 20010:5,10
+  }
+  {
+    id: 690602
+    name: ally_team-10690602
+    guns: "10102"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "690511"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690701
+    name: ally_team-10690701
+    guns: "10103,10104,10105,10106"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "690711,690721"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: 10103|10104|10105,10103|10104
+    betray_result_ai: 20010:5,10#20010:5,10
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 690702
+    name: ally_team-10690702
+    guns: "10107"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 690703
+    name: ally_team-10690703
+    guns: "10108"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20010:5,10;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0
@@ -21075,6 +21330,193 @@
     no_battle_damage: -1
   }
   {
+    id: 6650001
+    name: Citizen?
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "2"
+    betray_result: "2"
+    betray_result_enemy: "6650049"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650002
+    name: Citizen?
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650003
+    name: Citizen?
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650004
+    name: Citizen?
+    guns: "1028"
+    enemy_team_id: 6650001
+    initial_type: 1
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "1"
+    transform_number: "1"
+    transform_result: 1:64-5
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650005
+    name: Prisoner
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650006
+    name: Prisoner
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650007
+    name: Prisoner
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650008
+    name: Prisoner
+    guns: "1028"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    transform_condition: "2"
+    transform_number: "690091,690090"
+    transform_result: 1:64-5,1:64-5
+    betray_result_enemy: "1,1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650009
+    name: Prisoner
+    guns: "1028"
+    enemy_team_id: 6650009
+    ai: 102;0;102
+    ai_content: 15;0;15
+    betray_condition: 1;2
+    betray_number: 3;690098,690100
+    betray_result: 1;2,2
+    betray_result_enemy: 6650009;6650009,6650009
+    no_battle_damage: -1
+  }
+  {
+    id: 6650010
+    name: Prison Guard
+    guns: "100061,100062,100063"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650011
+    name: Prison Guard
+    guns: "100061,100062,100063"
+    enemy_team_id: 6650001
+    ai: 102;0;102
+    ai_content: 2;0;2
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: -1
+  }
+  {
+    id: 6650012
+    name: Commander
+    guns: "905"
+    enemy_team_id: 6650001
+    ai: 103;20100;103
+    ai_content: 1;0;1
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: 10
+    betray_result_ai: "20100"
+  }
+  {
+    id: 6650013
+    name: Machlian
+    guns: "1010"
+    enemy_team_id: 6650001
+    ai: 103;20100;103
+    ai_content: 1;0;1
+    betray_condition: "1"
+    betray_number: "3"
+    betray_result: "1"
+    betray_result_enemy: "1"
+    no_battle_damage: 10
+    betray_result_ai: "20100"
+  }
+  {
     id: 9120101
     name: Disconnected Neural Cloud
     guns: "716"
@@ -23054,6 +23496,30 @@
     ai_content: "95599,95595;0;95599,95595"
     transform_condition: "3"
     transform_number: 95595-2
+    no_battle_damage: -1
+  }
+  {
+    id: 9700301
+    name: ally_team-19700301
+    guns: "748"
+    enemy_team_id: 9700301
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900016,900015,900028,900024,900025,900019,900005,900001,900002;0;900016,900015,900028,900024,900025,900019,900005,900001,900002"
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9701901
+    name: ally_team-19701901
+    guns: "748"
+    enemy_team_id: 9701901
+    initial_type: 2
+    ai: 101;1;101
+    ai_content: "900049,900048,900061,900057,900058,900052,900038,900034,900035;0;900049,900048,900061,900057,900058,900052,900038,900034,900035"
+    icon: Army
+    enemy_panel_type: 1
     no_battle_damage: -1
   }
   {

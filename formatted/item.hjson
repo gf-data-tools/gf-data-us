@@ -649,6 +649,17 @@
     type: 3
     arg: "32"
     code: Medal_SAC2045
+    item_name: Mirror Image Recurser Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Through the Looking-Glass". "Beneath the calm surface, there are powerful and dangerous undercurrents. Only your eyes can discern the truth."
+    rank: 1
+  }
+  {
+    id: 132
+    type: 3
+    arg: "33"
+    code: Medal_202404Activity
+    item_name: Time Redeemer Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "The Summer Garden of Forking Paths". "Through division, here in death's dream kingdom, the golden vision reappears."
     rank: 1
   }
   {
@@ -13434,6 +13445,13 @@
     rank: 1
   }
   {
+    id: 2456
+    type: 5
+    arg: "1"
+    code: profilePic_WhiteV2024_Erma
+    rank: 1
+  }
+  {
     id: 2466
     type: 5
     arg: "1"
@@ -13458,6 +13476,132 @@
     code: profilePic_BattlePass_HS50
     item_name: How to Train a Gamer
     introduction: How to Train a Gamer
+    rank: 1
+  }
+  {
+    id: 2469
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_TPS
+    item_name: Cardiac Arrest
+    introduction: Cardiac Arrest
+    rank: 1
+  }
+  {
+    id: 2470
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_ColtWalker
+    item_name: Pillow Talk with Maggie
+    introduction: Pillow Talk with Maggie
+    rank: 1
+  }
+  {
+    id: 2471
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_97typeS
+    item_name: Truth Serum Abuser
+    introduction: Truth Serum Abuser
+    rank: 1
+  }
+  {
+    id: 2472
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_Mk48
+    item_name: Culprit of Love-Sickness
+    introduction: Culprit of Love-Sickness
+    rank: 1
+  }
+  {
+    id: 2473
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_Fedorov
+    item_name: Minty Exhale
+    introduction: Minty Exhale
+    rank: 1
+  }
+  {
+    id: 2474
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_PP90
+    item_name: Lullaby Beneath the Light
+    introduction: Lullaby Beneath the Light
+    rank: 1
+  }
+  {
+    id: 2475
+    type: 5
+    arg: "1"
+    code: profilePic_Hospital2024_CZ52
+    item_name: Crow-Expelling Dark Sorceress
+    introduction: Crow-Expelling Dark Sorceress
+    rank: 1
+  }
+  {
+    id: 2476
+    type: 5
+    arg: "1"
+    code: profilePic_202404Acticity_01
+    item_name: Icon: Keeper of the Keys
+    introduction: Icon: Keeper of the Keys
+    rank: 1
+  }
+  {
+    id: 2477
+    type: 5
+    arg: "1"
+    code: profilePic_202404Acticity_02
+    item_name: Icon: A Gaze Frozen in Time
+    introduction: Icon: A Gaze Frozen in Time
+    rank: 1
+  }
+  {
+    id: 2478
+    type: 5
+    arg: "1"
+    code: profilePic_202404Acticity_03
+    item_name: Icon: Metamorphosis
+    introduction: Icon: Metamorphosis
+    rank: 1
+  }
+  {
+    id: 2479
+    type: 5
+    arg: "1"
+    code: card_202404Acticity_01
+    item_name: ID: A Letter from Erma
+    introduction: ID: A Letter from Erma
+    rank: 1
+  }
+  {
+    id: 2480
+    type: 5
+    arg: "1"
+    code: card_202404Acticity_02
+    item_name: ID: Up the Stairway to the World
+    introduction: ID: Up the Stairway to the World
+    rank: 1
+  }
+  {
+    id: 2481
+    type: 5
+    arg: "1"
+    code: card_202404Acticity_03
+    item_name: ID: Ascension
+    introduction: ID: Ascension
+    rank: 1
+  }
+  {
+    id: 2482
+    type: 5
+    arg: "1"
+    code: cg_202404Acticity
+    item_name: Background: Private Cell
+    introduction: Background: Private Cell
     rank: 1
   }
   {
@@ -16053,6 +16197,43 @@
     code: Platinum_medal_black
     item_name: Platinum Medal - Through the Looking-Glass
     introduction: Platinum Medal - Through the Looking-Glass
+    rank: 1
+  }
+  {
+    id: 100212
+    type: 4
+    arg: "100212"
+    code: Nova_medal_black
+    item_name: Nova Medal - The Summer Garden of Forking Paths
+    introduction: Nova Medal - The Summer Garden of Forking Paths
+    rank: 1
+  }
+  {
+    id: 100213
+    type: 4
+    arg: "100213"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - The Summer Garden of Forking Paths
+    introduction: Platinum Medal - The Summer Garden of Forking Paths
+    rank: 1
+  }
+  {
+    id: 100214
+    type: 9
+    arg: "100214"
+    code: Coin_202404Shapeofmemory
+    item_name: Shape of Memory
+    introduction: Memories are faithfully preserved and buried in the past. When she finds all the keys, she will retrieve her lost treasure.
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100215
+    type: 4
+    arg: "100215"
+    code: coremask2_202404
+    item_name: Corrupted Heart Mask - The Summer Garden of Forking Paths
+    introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
     rank: 1
   }
   {
@@ -20048,6 +20229,36 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Throne in the Clouds. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500128
+    type: 15
+    arg: "1500128"
+    code: Bumdle_summergarden01
+    item_name: Exclusive Costume Ticket Ⅰ
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500129
+    type: 15
+    arg: "1500129"
+    code: Bumdle_summergarden02
+    item_name: Exclusive Costume Ticket Ⅱ
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500130
+    type: 15
+    arg: "1500130"
+    code: Bumdle_summergarden03
+    item_name: Exclusive Costume Ticket Ⅲ
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
     rank: 1
     sort: -1
   }

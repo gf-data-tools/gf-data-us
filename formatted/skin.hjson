@@ -1364,6 +1364,16 @@
     skin_source: 1
   }
   {
+    id: 595
+    name: Gilded Collector
+    fit_gun: 283
+    voice: 4
+    dialog: You're surprised that I like old vinyl records? Heheh, I just really appreciate how evenly the needle glides over the surface of the vinyl and also how refined it feels to use a record player! Wanna listen to some music with me?
+    illustrator_cv: --, Madoka Asahina,
+    order: 106
+    class_id: 99
+  }
+  {
     id: 598
     name: Soul Hacker
     fit_gun: 1043
@@ -8374,6 +8384,92 @@
     illustrator_cv: 星迴, Naomi Oozora,
     order: 119
     class_id: 94
+  }
+  {
+    id: 10201
+    name: Angel's Tears Beneath the Moon
+    fit_gun: 376
+    voice: 16
+    dialog: Why are angels in paintings always smiling? Doesn't it make them sad to hear about human suffering all the time?
+    gift_position: "-353.6,75.6"
+    order: 126
+    class_id: 98
+    skin_source: 1
+  }
+  {
+    id: 10301
+    name: Cardiac Arrest
+    fit_gun: 387
+    voice: 4
+    dialog: Let's play a game and see whose heart can stop beating for longer, Commander! Oh right, Dolls don't have hearts, so I win-
+    order: 129
+    class_id: 100
+    skin_source: 2
+  }
+  {
+    id: 10302
+    name: Pillow Talk with Maggie
+    fit_gun: 375
+    voice: 4
+    dialog: Here to discuss investments with me? I just so happen to have a deal worth billions... Oh, wrong script. Give me some time to calibrate... Commander, would you like some counseling service tonight?
+    order: 129
+    class_id: 100
+    skin_source: 2
+  }
+  {
+    id: 10303
+    name: Truth Serum Abuser
+    fit_gun: 161
+    voice: 4
+    dialog: Commander, cat got your tongue? If you have something to say, just spit it out already, or I'll use truth serum on you!
+    illustrator_cv: 豆芽,Yuka Ootsubo,
+    order: 129
+    class_id: 100
+    skin_source: 2
+  }
+  {
+    id: 10304
+    name: Culprit of Love-Sickness
+    fit_gun: 121
+    voice: 4
+    dialog: Your CT scan shows that you don't love me enough. That's okay, I just have to remove this part and this part of your brain, and you will be utterly love-sick-
+    gift_position: "-241,87.5"
+    illustrator_cv: YoYo, Rika Tachibana,
+    order: 129
+    class_id: 100
+    skin_source: 1
+  }
+  {
+    id: 10305
+    name: Minty Exhale
+    fit_gun: 335
+    voice: 4
+    dialog: Would you like to try out a relaxation method that I just learned? Here, follow my breath. Inhale... Exhale... Are you feeling a bit more relaxed? Does it feel like your anxiety has flown away?
+    order: 129
+    class_id: 100
+    skin_source: 2
+  }
+  {
+    id: 10306
+    name: Lullaby Beneath the Light
+    fit_gun: 23
+    voice: 4
+    dialog: I don't know what you're talking about. What sisterhood? What maid...? Did you have some kind of weird dream? Then lie down here. I'll watch over you while you sleep.
+    illustrator_cv: 多尔, Shiki Aoki,
+    order: 129
+    class_id: 100
+    skin_source: 2
+  }
+  {
+    id: 10307
+    name: Crow-Expelling Dark Sorceress
+    fit_gun: 210
+    voice: 4
+    dialog: Sorry if I woke you. I noticed that you looked exasperated with all the crow poop on the roof of the vehicle and wanted to do something for you... I'm glad I alleviated your troubles.
+    gift_position: "-106,104.7"
+    illustrator_cv: 小星, Asuka Kawakami,
+    order: 129
+    class_id: 100
   }
   {
     id: 30001

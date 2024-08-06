@@ -28286,6 +28286,170 @@
     rotate: "3"
   }
   {
+    id: 20120
+    name: Carefree Lawn
+    classes: 19
+    type: 101
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Has the time capsule we buried together back in the days been secretly consumed by the passing years?
+    code: 202404Activity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20121
+    name: Sealed Heart
+    classes: 19
+    type: 301
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The garden where we used to play in our childhood is now sealed off by cold metal fences. There is no going back, just like our childhood.
+    code: 202404Activity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20122
+    name: Flowers' Musing
+    classes: 19
+    type: 201
+    space: "4,8,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Do flowers know they are flowers before they bloom? Or do they think they are bamboo palms?
+    code: 202404Activity_deco1
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20123
+    name: Story Time
+    classes: 19
+    type: 202
+    space: "8,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Curled up comfortably in a chair, breathing in the warm aroma of tea, listening to the story Mother was telling... That's the best childhood memory.
+    code: 202404Activity_deco3,202404Activity_deco2,202404Activity_deco4
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "0.000,-0.125,0.000|-0.928,-0.146,-0.005|0.976,-0.146,0.001"
+    rotate: "2,2,2"
+    interact_point: "14,12"
+    interact_point_offset: *2.363,0.854,0.000|*-2.275,0.968,-0.285
+  }
+  {
+    id: 20124
+    name: Hidden Sanctuary
+    classes: 19
+    type: 201
+    space: "10,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: She will never guess which bush I'm hiding in. If she figures it out... Humph, lucky guess!
+    code: 202404Activity_deco5
+    texture_type: "1"
+    offset: "0.000,-0.125,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20125
+    name: Trace of Time
+    classes: 19
+    type: 201
+    space: "1,1,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Some things tend to slip away without us noticing, such as the ball that disappeared among the bushes in our childhood... or the children who used to play ball together.
+    code: 202404Activity_ball
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "820125"
+    interact_point_offset: *0.000,0.356,0.000
+    touch_area: "2,2,2"
+  }
+  {
+    id: 20126
+    name: Whispering Branches
+    classes: 19
+    type: 302
+    space: "3,23,0,0,7,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: There was a time when we sat chatting on a tree, our legs dangling off a branch. But now that we're too old to climb, we can only stand and listen at the bottom of the tree.
+    code: 202404Activity_deco6
+    texture_type: "1"
+    offset: "0.500,-0.219,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20127
+    name: Angel Fountain
+    classes: 19
+    type: 201
+    space: "7,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: In the stories, angels live in Heaven, so why is this angel standing in the fountain? Does she like splashing in water?
+    code: 202404Activity_deco16,202404Activity_fountain
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "-0.104,-0.365,0.000|-0.063,0.313,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 20128
+    name: Wanted Poster
+    classes: 19
+    type: 201
+    space: "3,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An essential prop for playing catchâ€”you draw the target on a poster, then cross them out once they're caught, or wait till the poster fades as the years pass.
+    code: 202404Activity_deco7
+    texture_type: "1"
+    offset: "-0.063,-0.271,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20129
+    name: Tea Party Under the Tree
+    classes: 19
+    type: 202
+    space: "13,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: What truly matters is the company, not the snacks... That's how it's supposed to be.
+    code: 202404Activity_deco8,202404Activity_deco9,202404Activity_deco10,202404Activity_deco11,202404Activity_deco12,202404Activity_deco13,202404Activity_deco14,202404Activity_deco17
+    texture_type: "1,1,1,1,1,1,1,1"
+    sorting: "0,0,0,0,10,20,10,-10"
+    offset: "0.000,-0.626,0.000|-4.606,-0.626,0.000|-4.600,3.858,0.000|0.000,3.858,0.000|-0.188,0.167,0.000|0.709,0.156,0.000|1.627,0.167,0.000|0.667,-0.667,0.000"
+    rotate: "2,2,2,2,2,2,2,2"
+    interact_point: "14,12"
+    interact_point_offset: *4.288,1.992,-0.285|*-0.292,2.134,-0.285
+  }
+  {
+    id: 20130
+    name: Time Redeemer Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "The Summer Garden of Forking Paths". "Through division, here in death's dream kingdom, the golden vision reappears."
+    code: 202404Activity_Meal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -29960,6 +30124,21 @@
     decompose_gift: 100003
     description: M1897's Poster
     code: poster_ChessBonus_M1897
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 30595
+    name: Gilded Collector
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Liberator's poster.
+    code: poster_AprilFool2023_Liberator
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
@@ -42405,6 +42584,126 @@
     sorting: "0,10,50"
     offset: "0,0,0|0.5,-2.08,-3.836|0.7,-1.53,-2"
     rotate: "3,2,2"
+  }
+  {
+    id: 310201
+    name: Angel's Tears Beneath the Moon
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Erma's poster.
+    code: poster_WhiteV2024_Erma
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310301
+    name: Cardiac Arrest
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TPS's poster.
+    code: poster_Hospital2024_TPS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310302
+    name: Pillow Talk with Maggie
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Colt Walker's poster.
+    code: poster_Hospital2024_ColtWalker
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310303
+    name: Truth Serum Abuser
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type97S's Poster
+    code: poster_Hospital2024_97typeS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310304
+    name: Culprit of Love-Sickness
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mk48's Poster
+    code: poster_Hospital2024_Mk48
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310305
+    name: Minty Exhale
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Fedorov Avtomat's poster.
+    code: poster_Hospital2024_Fedorov
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310306
+    name: Lullaby Beneath the Light
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: PP-90's poster.
+    code: poster_Hospital2024_PP90
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310307
+    name: Crow-Expelling Dark Sorceress
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: CZ52's Poster
+    code: poster_Hospital2024_CZ52
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
   }
   {
     id: 330001

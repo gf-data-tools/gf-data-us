@@ -3132,6 +3132,185 @@
     code_b: Console_Icon
   }
   {
+    id: 670104
+    code_a: Dandelion_Gri
+    description_a: manual_ui-10670104
+    description_b: manual_ui-20670104
+    description_c: manual_ui-30670104
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 680301
+    code_a: 202404book
+    description_a: Friendly Echelon
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 680521
+    code_a: Door_Left
+    description_a: Control Terminal
+    description_b: Defense Gate
+    description_c: On
+    code_b: Console_Icon
+  }
+  {
+    id: 680531
+    code_a: Door_Left
+    description_a: Control Terminal
+    description_b: Defense Gate
+    description_c: Close
+    code_b: Console_Icon
+  }
+  {
+    id: 690012
+    code_a: Tarot02
+    description_a: manual_ui-10690012
+    description_b: manual_ui-20690012
+    description_c: manual_ui-30690012
+    code_b: Console_Icon
+    is_manual_target: 4
+  }
+  {
+    id: 690022
+    code_a: Tarot04
+    description_a: manual_ui-10690022
+    description_b: manual_ui-20690022
+    description_c: manual_ui-30690022
+    code_b: Console_Icon
+    is_manual_target: 4
+  }
+  {
+    id: 690032
+    code_a: Tarot01
+    description_a: manual_ui-10690032
+    description_b: manual_ui-20690032
+    description_c: manual_ui-30690032
+    code_b: Console_Icon
+    is_manual_target: 4
+  }
+  {
+    id: 690042
+    code_a: Tarot03
+    description_a: manual_ui-10690042
+    description_b: manual_ui-20690042
+    description_c: manual_ui-30690042
+    code_b: Console_Icon
+    is_manual_target: 4
+  }
+  {
+    id: 690311
+    code_a: Console
+    description_a: manual_ui-10690311
+    description_b: manual_ui-20690311
+    description_c: manual_ui-30690311
+    code_b: Console_Icon
+  }
+  {
+    id: 690504
+    code_a: Boomer
+    description_a: manual_ui-10690504
+    description_b: manual_ui-20690504
+    description_c: manual_ui-30690504
+    code_b: Console_Icon
+  }
+  {
+    id: 690512
+    code_a: Griffin
+    description_a: manual_ui-10690512
+    description_b: manual_ui-20690512
+    description_c: manual_ui-30690512
+    code_b: Console_Icon
+  }
+  {
+    id: 690513
+    code_a: Griffin
+    description_a: manual_ui-10690513
+    description_b: manual_ui-20690513
+    description_c: manual_ui-30690513
+    code_b: Console_Icon
+  }
+  {
+    id: 690514
+    code_a: Golyat
+    description_a: manual_ui-10690514
+    description_b: manual_ui-20690514
+    description_c: manual_ui-30690514
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690601
+    code_a: Door_Left
+    description_a: manual_ui-10690601
+    description_b: manual_ui-20690601
+    description_c: manual_ui-30690601
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690711
+    code_a: Griffin
+    description_a: manual_ui-10690711
+    description_b: manual_ui-20690711
+    description_c: manual_ui-30690711
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690721
+    code_a: Griffin
+    description_a: manual_ui-10690721
+    description_b: manual_ui-20690721
+    description_c: manual_ui-30690721
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690731
+    code_a: Griffin
+    description_a: manual_ui-10690731
+    description_b: manual_ui-20690731
+    description_c: manual_ui-30690731
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690804
+    code_a: Build_PortableEMP
+    description_a: manual_ui-10690804
+    description_b: manual_ui-20690804
+    description_c: manual_ui-30690804
+    code_b: Console_Icon
+  }
+  {
+    id: 690812
+    code_a: Substation
+    description_a: manual_ui-10690812
+    description_b: manual_ui-20690812
+    description_c: manual_ui-30690812
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 690813
+    code_a: EMP
+    description_a: manual_ui-10690813
+    description_b: manual_ui-20690813
+    description_c: manual_ui-30690813
+    code_b: Console_Icon
+  }
+  {
+    id: 690814
+    code_a: PortableEMP_Nobase
+    description_a: manual_ui-10690814
+    description_b: manual_ui-20690814
+    description_c: manual_ui-30690814
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
     id: 1000101
     code_a: Rock
     description_a: Friendly Echelons
@@ -6485,6 +6664,24 @@
     code_b: Console_Icon
   }
   {
+    id: 6650001
+    code_a: Griffin
+    description_a: Friendly Echelon
+    description_b: Mobility
+    description_c: Gain
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
+    id: 6650002
+    code_a: Griffin
+    description_a: Friendly Echelon
+    description_b: Goliath
+    description_c: Gain
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
     id: 8120301
     code_a: Door_Left
     description_a: Control Terminal I
@@ -7826,6 +8023,46 @@
     description_a: Friendly Echelons
     description_b: Junk Pile
     description_c: Search
+    code_b: Squad_Icon
+  }
+  {
+    id: 9700301
+    code_a: LiftBlue
+    description_a: manual_ui-19700301
+    description_b: manual_ui-29700301
+    description_c: manual_ui-39700301
+    code_b: Squad_Icon
+  }
+  {
+    id: 9700601
+    code_a: Console
+    description_a: manual_ui-19700601
+    description_b: manual_ui-29700601
+    description_c: manual_ui-39700601
+    code_b: Squad_Icon
+  }
+  {
+    id: 9700607
+    code_a: Boomer
+    description_a: manual_ui-19700607
+    description_b: manual_ui-29700607
+    description_c: manual_ui-39700607
+    code_b: Squad_Icon
+  }
+  {
+    id: 9701201
+    code_a: Console
+    description_a: manual_ui-19701201
+    description_b: manual_ui-29701201
+    description_c: manual_ui-39701201
+    code_b: Squad_Icon
+  }
+  {
+    id: 9701206
+    code_a: Boomer
+    description_a: manual_ui-19701206
+    description_b: manual_ui-29701206
+    description_c: manual_ui-39701206
     code_b: Squad_Icon
   }
   {
