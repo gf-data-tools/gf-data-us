@@ -122,6 +122,15 @@ local ShowNewTag = function(self)
 			newTag.gameObject:SetActive(false);
 		end
 	end
+	local combat = self.transform:Find("InCombat");
+	if combat ~= nil then 
+		if self.mission ~= nil then
+			local inbattle = self.opsMission:isInCombat();
+			combat.gameObject:SetActive(inbattle);
+		else
+			combat.gameObject:SetActive(false);
+		end
+	end
 end
 local CheckIsolateSpots = function(self)
 	self:CheckIsolateSpots();
@@ -135,6 +144,24 @@ end
 local RequestSetDrawEvent = function(self,data)
 	self:RequestSetDrawEvent(data);
 	self:LoadLetterUI();
+end
+local LoadLetterUI = function(self)
+	self:LoadLetterUI();
+	if self.letterUI ~= nil and not self.letterUI:isNull() then
+		local read = CS.UnityEngine.PlayerPrefs.GetInt("isLetterInlet",0);
+		if read == 0 then
+			self:ShowLetterEvent();	
+			CS.UnityEngine.PlayerPrefs.SetInt("isLetterInlet",1);
+			CS.UnityEngine.PlayerPrefs.Save();	
+		end
+	end
+end
+local ShowLetterList = function(self)
+	self:ShowLetterList();
+	local read = CS.UnityEngine.PlayerPrefs.GetInt("isFirstLetterTip",0);
+	if read == 0 then
+		PlayGuide("isFirstLetterTip");
+	end
 end
 local Init = function(self)
 	self.difficulty = self.info.difficulty;
@@ -154,7 +181,33 @@ local InitUIElements = function(self)
 	self.btnGunSure:AddOnClick(function()
 		self.goGunFliter:SetActive(false);
 	end)
+	local btn = self.transform:Find("Btn_Tutorials"):GetComponent(typeof(CS.ExButton));
+	btn:AddOnClick(function()
+		PlayGuide("isLetterPerTip");
+	end)	
 end
+
+function PlayGuide(guidename)
+	print("播放教程"..guidename);
+	CS.UnityEngine.PlayerPrefs.SetInt(guidename,1);
+	CS.UnityEngine.PlayerPrefs.Save();
+	local textAsset = CS.ResManager.GetObjectByPath("ProfilesConfig/TutorialsConfig", ".txt");
+	if textAsset == nil then
+		return;
+	end
+	local datas = CS.System.Collections.Generic.List(CS.System.String)();
+	local lineTxt = Split(textAsset.text,"\r\n");
+	for i = 1, #lineTxt do
+		local temp = Split(lineTxt[i],",");
+		if temp[1] == guidename then
+			for j=2,#temp do
+				datas:Add(temp[j]);
+			end
+		end
+	end
+	CS.GriffinEntryMessageBoxController.OpenGuide(datas, CS.GuideType.End);
+end
+
 util.hotfix_ex(CS.OPSPanelController,'ReturnContainerPos',ReturnContainerPos)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowProcessAllMission',ShowProcessAllMission)
@@ -163,6 +216,8 @@ util.hotfix_ex(CS.OPSPanelController,'MoveSpine',MoveSpine)
 util.hotfix_ex(CS.OPSPanelController,'CancelMission',CancelMission)
 util.hotfix_ex(CS.OPSPanelController,'CheckIsolateSpots',CheckIsolateSpots)
 util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
+util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
+util.hotfix_ex(CS.OPSPanelController,'ShowLetterList',ShowLetterList)
 util.hotfix_ex(CS.OPSPanelBackGround,'CheckNewsPos',CheckNewsPos)
 util.hotfix_ex(CS.OPSPanelSpot,'ShowNewTag',ShowNewTag)
 util.hotfix_ex(CS.OPSPanelSpot,'Init',Init)
