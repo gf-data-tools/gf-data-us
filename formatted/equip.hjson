@@ -5064,8 +5064,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:500,pow:1000
+    passive_skill: "759293"
     max_level: 10
     auto_select_id: 19012
+    group_id: "19"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000170
@@ -5854,8 +5856,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: armor:400
+    passive_skill: "759298"
     max_level: 10
     auto_select_id: 20028
+    group_id: "20"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000193
@@ -11465,6 +11469,75 @@
     is_show: 1
     obtain_ids: "3092"
     description_skill: 759291
+  }
+  {
+    id: 371
+    name: Woodland Camouflage Cloak
+    description:
+      '''
+      CRIT DMG+<critical_harm_rate><%>
+      ICD-80% $NTW-20 MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_harm_rate: "10,15"
+    skill_effect: 300
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_NTW20Mod
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "20053"
+    equip_introduction: The most suitable gear for carrying out missions in woodland. It is exceptionally light and portable, probably to make it easier for NTW-20 to maneuver her motorbike with only one hand.
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:1000
+    passive_skill: "759059,759294"
+    max_level: 10
+    auto_select_id: 20072
+    group_id: "19"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: ICD-80%
+  }
+  {
+    id: 372
+    name: 18.4mm Baton Rounds
+    description:
+      '''
+      ACC+<hit>
+      DMG INTAKE-3 $Type 97S MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "10,15"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    retire_part: 3
+    code: Magazine_SP_97typeSMod
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "20161"
+    equip_introduction: Type 97S' most commonly-used ammo when she is on duty. They are perfect for dispersing all kinds of rioters and evildoers.
+    powerup_mp: 0.08
+    powerup_ammo: 0.39
+    powerup_mre: 0.08
+    powerup_part: 0.48
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "300902,759299"
+    max_level: 10
+    auto_select_id: 19070
+    group_id: "20"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: DMG INTAKE-3
   }
   {
     id: 373

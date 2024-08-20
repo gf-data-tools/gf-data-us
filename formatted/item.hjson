@@ -13605,6 +13605,25 @@
     rank: 1
   }
   {
+    id: 2486
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M99
+    item_name: ID: The Prankster and the Little Patches
+    introduction: ID: The Prankster and the Little Patches
+    rank: 1
+  }
+  {
+    id: 2487
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M99
+    item_name: Drumrolls When the Curtain Rises
+    introduction: Drumrolls When the Curtain Rises
+    rank: 1
+    detail_introduction: item-30002487
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -14662,6 +14681,15 @@
     id: 10710
     type: 18
     arg: "10710"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10711
+    type: 18
+    arg: "10711"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -18391,6 +18419,26 @@
     detail_introduction: item-30140036
   }
   {
+    id: 140037
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140037
+    introduction: item-20140037
+    rank: 1
+    detail_introduction: item-30140037
+  }
+  {
+    id: 140038
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140038
+    introduction: item-20140038
+    rank: 1
+    detail_introduction: item-30140038
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -18751,6 +18799,15 @@
     code: profileFrame_BattlePass_HS50
     item_name: Icon Frame - Love, Robots & EM Waves
     introduction: Icon Frame - Love, Robots & EM Waves
+    rank: 1
+  }
+  {
+    id: 200044
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M99
+    item_name: Icon Frame - Colorful Music
+    introduction: Icon Frame - Colorful Music
     rank: 1
   }
   {
@@ -20263,6 +20320,46 @@
     sort: -1
   }
   {
+    id: 1500131
+    type: 15
+    arg: "1500131"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Fun Rehearsal. Obtain a random piece of equipment from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500132
+    type: 15
+    arg: "1500132"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Fun Rehearsal. Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500133
+    type: 15
+    arg: "1500133"
+    code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Fun Rehearsal. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1500134
+    type: 15
+    arg: "1500134"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Fun Rehearsal. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -20373,6 +20470,36 @@
     id: 1700009
     type: 15
     arg: "1700009"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700010
+    type: 15
+    arg: "1700010"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700011
+    type: 15
+    arg: "1700011"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+  }
+  {
+    id: 1700012
+    type: 15
+    arg: "1700012"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.

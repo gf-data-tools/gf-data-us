@@ -27210,6 +27210,51 @@
     interact_point_offset: "0,0,0"
   }
   {
+    id: 20024
+    name: Poster – 2022 Mirror Stage – Decalcomanie
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2022 Summer Event – Special poster for Mirror Stage – Decalcomanie.
+    code: pv_2021winter
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20025
+    name: Poster – 2022 Poincaré Recurrence
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2022 Winter Event – Special poster for Poincaré Recurrence
+    code: pv_2021summer
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20026
+    name: Poster – 2022 Mirror Stage – Protean
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2022 Summer Event – Special poster for Mirror Stage – Protean.
+    code: pv_2021winter_Protean
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 20028
     name: Secret Record
     classes: 81
@@ -42955,6 +43000,21 @@
     decompose_gift: 100003
     description: HS.50's poster.
     code: poster_BattlePass_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330019
+    name: Drumrolls When the Curtain Rises
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M99's Poster
+    code: poster_BattlePass_M99
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

@@ -8817,6 +8817,7 @@
     id: 829
     mission_id: "10799"
     description: '''"You seek peace, and you fight for a better peace."'''
+    scripts: -48-1-0
     campaign: -48
     bgm: BGM_Frontline
     title: ①
@@ -8824,467 +8825,517 @@
   }
   {
     id: 830
-    mission_id: "10834"
+    mission_id: "10851"
     description: '''"I'm going in today, no matter what, and nobody's going to get in my way."'''
+    scripts: -48-1-1
     campaign: -48
     bgm: BGM_Frontline
     title: ②
-    point: 74104:-48-EXT-4-3-2
-  }
-  {
-    id: 831
-    mission_id: "10818,10837"
-    description: '''"It was the shotgun that Light was most skilled with. He fought here."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ③
-    point: 74365:-48-EXT-5-2-2,74431:-48-EXT-5-2-2
-  }
-  {
-    id: 832
-    mission_id: "10820,10839"
-    description: '''"The bottle is coated in a layer of dust... It belongs to the Galatea Corporation."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ④
-    round: 4:-48-5-7-point
-  }
-  {
-    id: 833
-    mission_id: "10819,10838"
-    description: '''"Please believe me, Father."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ⑤
-    start: -48-5-9-point
-  }
-  {
-    id: 834
-    mission_id: "10821,10840"
-    description: '''"'Opportunities' mean nothing if they do not produce results. He detests people who let him down."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ⑦
-    point: 74687:-48-EXT-6-1,74782:-48-EXT-6-1
-  }
-  {
-    id: 835
-    mission_id: "10824,10842"
-    description: '''"The only way you can stay on the case is by staying in the Stasi."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ⑧
-    start: -48-6-10-point
-  }
-  {
-    id: 836
-    mission_id: "10851"
-    description: '''"We're all prepared to fight any and all injustice to the bitter end!"'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: ⑩
     start: -48-1-1
   }
   {
-    id: 837
-    mission_id: "10852"
-    description: '''"I'm a Galatea researcher. I have medicine."'''
+    id: 831
+    mission_id: "10801"
+    description: '''"It was the shotgun that Light was most skilled with. He fought here."'''
+    scripts: -48-1-2-First,-48-1-2-point1,-48-1-2-point2,-48-1-2-point3,-48-1-2-point4
     campaign: -48
     bgm: BGM_Frontline
-    title: ⑪
+    title: ③
+    start: -48-1-2-First
+    point: 64307:-48-1-2-point3,64302:-48-1-2-point4
+  }
+  {
+    id: 832
+    mission_id: "10852"
+    description: '''"The bottle is coated in a layer of dust... It belongs to the Galatea Corporation."'''
+    scripts: -48-1-3
+    campaign: -48
+    bgm: BGM_Frontline
+    title: ④
     start: -48-1-3
   }
   {
-    id: 838
+    id: 833
     mission_id: "10853"
-    description: '''"The 'future' is such a vague term. At this point, Germany can only afford to focus on the present."'''
+    description: '''"Please believe me, Father."'''
+    scripts: -48-1-4
     campaign: -48
     bgm: BGM_Frontline
-    title: ⑫
+    title: ⑤
     start: -48-1-4
   }
   {
-    id: 839
+    id: 834
     mission_id: "10854"
-    description: '''"I am a Stasi agent and a colleague of K's. You may call me J."'''
+    description: '''"'Opportunities' mean nothing if they do not produce results. He detests people who let him down."'''
+    scripts: -48-1-6
     campaign: -48
     bgm: BGM_Frontline
-    title: ⑭
+    title: ⑦
     start: -48-1-6
   }
   {
-    id: 840
+    id: 835
     mission_id: "10855"
-    description: '''"Such a country is no longer the motherland that we've sacrificed everything for."'''
+    description: '''"The only way you can stay on the case is by staying in the Stasi."'''
+    scripts: -48-1-7
     campaign: -48
     bgm: BGM_Frontline
-    title: ⑮
+    title: ⑧
     start: -48-1-7
   }
   {
-    id: 841
+    id: 836
     mission_id: "10856"
-    description: '''"This mission is codenamed 'Neo'. Our objective is to find a missing cargo truck."'''
+    description: '''"We're all prepared to fight any and all injustice to the bitter end!"'''
+    scripts: -48-1-9
     campaign: -48
     bgm: BGM_Frontline
-    title: I
+    title: ⑩
     start: -48-1-9
   }
   {
-    id: 842
+    id: 837
     mission_id: "10857"
-    description: '''"Don't worry... It won't be too long until our proper reunion."'''
+    description: '''"I'm a Galatea researcher. I have medicine."'''
+    scripts: -48-1-10
     campaign: -48
     bgm: BGM_Frontline
-    title: II
+    title: ⑪
     start: -48-1-10
   }
   {
-    id: 843
+    id: 838
     mission_id: "10858"
-    description: '''"You could do everything, so why did you defy Father?"'''
+    description: '''"The 'future' is such a vague term. At this point, Germany can only afford to focus on the present."'''
+    scripts: -48-1-12
     campaign: -48
     bgm: BGM_Frontline
-    title: IV
+    title: ⑫
     start: -48-1-12
   }
   {
-    id: 844
+    id: 839
     mission_id: "10859"
-    description: '''"The minute hands ticks in its progressing, filling J with anxiety."'''
+    description: '''"I am a Stasi agent and a colleague of K's. You may call me J."'''
+    scripts: -48-1-13
     campaign: -48
     bgm: BGM_Frontline
-    title: V
+    title: ⑭
     start: -48-1-13
   }
   {
-    id: 845
+    id: 840
     mission_id: "10860"
-    description: '''"Even now, we are still not entirely aware of our adversary's true identity."'''
+    description: '''"Such a country is no longer the motherland that we've sacrificed everything for."'''
+    scripts: -48-1-14
     campaign: -48
     bgm: BGM_Frontline
-    title: VI
+    title: ⑮
     start: -48-1-14
   }
   {
-    id: 846
+    id: 841
     mission_id: "10861"
-    description: '''"This is the first time someone has tried to hunt me..."'''
+    description: '''"This mission is codenamed 'Neo'. Our objective is to find a missing cargo truck."'''
+    scripts: -48-2-1
     campaign: -48
     bgm: BGM_Frontline
-    title: VIII
+    title: I
     start: -48-2-1
   }
   {
-    id: 847
+    id: 842
     mission_id: "10862"
-    description: '''"Obscured rumors, and the obscured truth."'''
+    description: '''"Don't worry... It won't be too long until our proper reunion."'''
+    scripts: -48-2-2
     campaign: -48
     bgm: BGM_Frontline
-    title: IX
+    title: II
     start: -48-2-2
   }
   {
-    id: 848
+    id: 843
     mission_id: "10863"
-    description: '''"It's not easy being an informant, Frau Nele."'''
+    description: '''"You could do everything, so why did you defy Father?"'''
+    scripts: -48-2-4
     campaign: -48
     bgm: BGM_Frontline
-    title: XI
+    title: IV
     start: -48-2-4
   }
   {
-    id: 849
+    id: 844
     mission_id: "10864"
-    description: '''"The Nyto named Bramedb has finally surfaced."'''
+    description: '''"The minute hands ticks in its progressing, filling J with anxiety."'''
+    scripts: -48-2-5
     campaign: -48
     bgm: BGM_Frontline
-    title: XII
+    title: V
     start: -48-2-5
   }
   {
-    id: 850
+    id: 845
     mission_id: "10865"
-    description: '''"Those who fail have outlived their purpose. You taught me that."'''
+    description: '''"Even now, we are still not entirely aware of our adversary's true identity."'''
+    scripts: -48-2-6
     campaign: -48
     bgm: BGM_Frontline
-    title: XIV
+    title: VI
     start: -48-2-6
   }
   {
-    id: 851
+    id: 846
     mission_id: "10866"
-    description: '''"Commander, your blood still runs hot."'''
+    description: '''"This is the first time someone has tried to hunt me..."'''
+    scripts: -48-2-8
     campaign: -48
     bgm: BGM_Frontline
-    title: XV
+    title: VIII
     start: -48-2-8
   }
   {
-    id: 852
+    id: 847
     mission_id: "10867"
-    description: '''"The affection from just half a minute ago was nothing but an act."'''
+    description: '''"Obscured rumors, and the obscured truth."'''
+    scripts: -48-2-9
     campaign: -48
     bgm: BGM_Frontline
-    title: IA
+    title: IX
     start: -48-2-9
   }
   {
-    id: 853
+    id: 848
     mission_id: "10868"
-    description: '''"Nimogen saved my life, so I'll return the favor once."'''
+    description: '''"It's not easy being an informant, Frau Nele."'''
+    scripts: -48-2-11
     campaign: -48
     bgm: BGM_Frontline
-    title: IIA
+    title: XI
     start: -48-2-11
   }
   {
-    id: 854
+    id: 849
     mission_id: "10869"
-    description: '''"The consignee is called 'Umruss'."'''
+    description: '''"The Nyto named Bramedb has finally surfaced."'''
+    scripts: -48-2-12
     campaign: -48
     bgm: BGM_Frontline
-    title: IVB
+    title: XII
     start: -48-2-12
   }
   {
-    id: 855
+    id: 850
     mission_id: "10870"
-    description: '''"Does Gray Elementary only take first-grade students?"'''
+    description: '''"Those who fail have outlived their purpose. You taught me that."'''
+    scripts: -48-2-14
     campaign: -48
     bgm: BGM_Frontline
-    title: VB
+    title: XIV
     start: -48-2-14
   }
   {
-    id: 856
+    id: 851
     mission_id: "10871"
-    description: '''"I am not acting on an impulse here. This is the closest we'll ever come to solving this missing cargo case."'''
+    description: '''"Commander, your blood still runs hot."'''
+    scripts: -48-2-15
     campaign: -48
     bgm: BGM_Frontline
-    title: VIB
+    title: XV
     start: -48-2-15
   }
   {
-    id: 857
+    id: 852
     mission_id: "10872"
-    description: '''"I will not do anything that will jeopardize the future of our people. Everything I do is for the State."'''
+    description: '''"The affection from just half a minute ago was nothing but an act."'''
+    scripts: -48-3-1
     campaign: -48
     bgm: BGM_Frontline
-    title: IB
+    title: IA
     start: -48-3-1
   }
   {
-    id: 858
+    id: 853
     mission_id: "10873"
-    description: '''"The moment is at hand, and all characters are in position."'''
+    description: '''"Nimogen saved my life, so I'll return the favor once."'''
+    scripts: -48-3-2
     campaign: -48
     bgm: BGM_Frontline
-    title: IIB
+    title: IIA
     start: -48-3-2
   }
   {
-    id: 859
+    id: 854
     mission_id: "10874"
-    description: '''"If we lose this shipment of weapons, none of us are going to have a good time!"'''
+    description: '''"The consignee is called 'Umruss'."'''
+    scripts: -48-3-4
     campaign: -48
     bgm: BGM_Frontline
-    title: IIIA
+    title: IVB
     start: -48-3-4
   }
   {
-    id: 860
+    id: 855
     mission_id: "10875"
-    description: '''"I remember now... You're the last T-Doll of the AR Team... "'''
+    description: '''"Does Gray Elementary only take first-grade students?"'''
+    scripts: -48-3-5
     campaign: -48
     bgm: BGM_Frontline
-    title: VA
+    title: VB
     start: -48-3-5
   }
   {
-    id: 861
+    id: 856
     mission_id: "10876"
-    description: '''"This encounter almost feels like a journey through time and space."'''
+    description: '''"I am not acting on an impulse here. This is the closest we'll ever come to solving this missing cargo case."'''
+    scripts: -48-3-6
     campaign: -48
     bgm: BGM_Frontline
-    title: VIIA
+    title: VIB
     start: -48-3-6
   }
   {
-    id: 862
+    id: 857
     mission_id: "10877"
-    description: '''"She IS M4, but at the same time she isn't."'''
+    description: '''"I will not do anything that will jeopardize the future of our people. Everything I do is for the State."'''
+    scripts: -48-3-8
     campaign: -48
     bgm: BGM_Frontline
-    title: Alpha
+    title: IB
     start: -48-3-8
   }
   {
-    id: 863
+    id: 858
     mission_id: "10878"
-    description: '''"Your heart once beat with compassion."'''
+    description: '''"The moment is at hand, and all characters are in position."'''
+    scripts: -48-3-9
     campaign: -48
     bgm: BGM_Frontline
-    title: Beta
+    title: IIB
     start: -48-3-9
   }
   {
-    id: 864
+    id: 859
     mission_id: "10879"
-    description: '''"If you must go, then I'll go with you."'''
+    description: '''"If we lose this shipment of weapons, none of us are going to have a good time!"'''
+    scripts: -48-3-10
     campaign: -48
     bgm: BGM_Frontline
-    title: Gamma
+    title: IIIA
     start: -48-3-10
   }
   {
-    id: 865
+    id: 860
     mission_id: "10880"
-    description: '''"A Paradeus unit is mopping the floor over there..."'''
+    description: '''"I remember now... You're the last T-Doll of the AR Team... "'''
+    scripts: -48-3-12
     campaign: -48
     bgm: BGM_Frontline
-    title: Delta
+    title: VA
     start: -48-3-12
   }
   {
-    id: 866
+    id: 861
     mission_id: "10881"
-    description: '''"Ange is right here inside this plant. If we just trust her..."'''
+    description: '''"This encounter almost feels like a journey through time and space."'''
+    scripts: -48-3-14
     campaign: -48
     bgm: BGM_Frontline
-    title: Epsilon
+    title: VIIA
     start: -48-3-14
   }
   {
-    id: 867
+    id: 862
     mission_id: "10882"
-    description: '''"...Live on, J. Live on until you can avenge them."'''
+    description: '''"She IS M4, but at the same time she isn't."'''
+    scripts: -48-4-1
     campaign: -48
     bgm: BGM_Frontline
-    title: Eta
+    title: Alpha
     start: -48-4-1
   }
   {
-    id: 868
+    id: 863
     mission_id: "10883"
+    description: '''"Your heart once beat with compassion."'''
+    scripts: -48-4-2
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Beta
+    start: -48-4-2
+  }
+  {
+    id: 864
+    mission_id: "10884"
+    description: '''"If you must go, then I'll go with you."'''
+    scripts: -48-4-3
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Gamma
+    start: -48-4-3
+  }
+  {
+    id: 865
+    mission_id: "10813,10833"
+    description: '''"A Paradeus unit is mopping the floor over there..."'''
+    scripts: -48-4-4-point1,-48-4-4-point2
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Delta
+  }
+  {
+    id: 866
+    mission_id: "10885"
+    description: '''"Ange is right here inside this plant. If we just trust her..."'''
+    scripts: -48-4-5
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Epsilon
+    start: -48-4-5
+  }
+  {
+    id: 867
+    mission_id: "10886"
+    description: '''"...Live on, J. Live on until you can avenge them."'''
+    scripts: -48-4-7
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Eta
+    start: -48-4-7
+  }
+  {
+    id: 868
+    mission_id: "10834"
     description: '''"We actually have two of such plants."'''
     campaign: -48
     bgm: BGM_Frontline
     title: Theta
-    start: -48-4-2
+    point: 74104:-48-EXT-4-3-2
   }
   {
     id: 869
-    mission_id: "10884"
+    mission_id: "10887"
     description: '''"It's been her plan to lead us into a trap right from the start."'''
+    scripts: -48-4-9
     campaign: -48
     bgm: BGM_Frontline
     title: Iota
-    start: -48-4-3
-  }
-  {
-    id: 870
-    mission_id: "10885"
-    description: '''"He's always making someone else pay the price in his place... Making them pay the price for his recklessness and presumption..."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: Lambda
-    start: -48-4-5
-  }
-  {
-    id: 871
-    mission_id: "10886"
-    description: '''"Perhaps it's time we have a new best friend."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: Mu
-    start: -48-4-7
-  }
-  {
-    id: 872
-    mission_id: "10887"
-    description: '''"Today is a great and important day for Germany!"'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: Nu
     start: -48-4-9
   }
   {
-    id: 873
+    id: 870
     mission_id: "10888"
-    description: There is a big red circled date on the calendar. Today is a day worth celebrating."
+    description: '''"He's always making someone else pay the price in his place... Making them pay the price for his recklessness and presumption..."'''
+    scripts: -48-4-11
     campaign: -48
     bgm: BGM_Frontline
-    title: "1"
+    title: Lambda
     start: -48-4-11
   }
   {
-    id: 874
+    id: 871
     mission_id: "10889"
-    description: '''"Do not go gentle into that good night."'''
+    description: '''"Perhaps it's time we have a new best friend."'''
+    scripts: -48-4-12
     campaign: -48
     bgm: BGM_Frontline
-    title: "11"
+    title: Mu
     start: -48-4-12
   }
   {
-    id: 875
+    id: 872
     mission_id: "10890"
+    description: '''"Today is a great and important day for Germany!"'''
+    scripts: -48-4-13
+    campaign: -48
+    bgm: BGM_Frontline
+    title: Nu
+    start: -48-4-13
+  }
+  {
+    id: 873
+    mission_id: "10891"
+    description: There is a big red circled date on the calendar. Today is a day worth celebrating."
+    scripts: -48-5-1
+    campaign: -48
+    bgm: BGM_Frontline
+    title: "1"
+    start: -48-5-1
+  }
+  {
+    id: 874
+    mission_id: "10892"
+    description: '''"Do not go gentle into that good night."'''
+    scripts: -48-5-3
+    campaign: -48
+    bgm: BGM_Frontline
+    title: "11"
+    start: -48-5-3
+  }
+  {
+    id: 875
+    mission_id: "10818,10837"
     description: '''"We haven't lost yet. More of our comrades still need us."'''
     campaign: -48
     bgm: BGM_Frontline
     title: "100"
-    start: -48-4-13
+    point: 74365:-48-EXT-5-2-2,74431:-48-EXT-5-2-2
   }
   {
     id: 876
-    mission_id: "10891"
+    mission_id: "10893"
     description: '''"Not everything you see is real. Don't rely on your eyes too much, Commander."'''
+    scripts: -48-5-5
     campaign: -48
     bgm: BGM_Frontline
     title: "101"
-    start: -48-5-1
-  }
-  {
-    id: 877
-    mission_id: "10892"
-    description: '''"It's your turn. Let me see Ange."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: "110"
-    start: -48-5-3
-  }
-  {
-    id: 878
-    mission_id: "10893"
-    description: '''"Perfect timing."'''
-    campaign: -48
-    bgm: BGM_Frontline
-    title: "111"
     start: -48-5-5
   }
   {
-    id: 879
+    id: 877
     mission_id: "10894"
-    description: '''"Our only hope for victory is to deliver the neural cloud servers to safety."'''
+    description: '''"It's your turn. Let me see Ange."'''
+    scripts: -48-5-6
     campaign: -48
     bgm: BGM_Frontline
-    title: "1000"
+    title: "110"
     start: -48-5-6
   }
   {
-    id: 880
+    id: 878
+    mission_id: "10820,10839"
+    description: '''"Perfect timing."'''
+    scripts: -48-5-7-point
+    campaign: -48
+    bgm: BGM_Frontline
+    title: "111"
+    round: 4:-48-5-7-point
+  }
+  {
+    id: 879
     mission_id: "10895"
+    description: '''"Our only hope for victory is to deliver the neural cloud servers to safety."'''
+    scripts: -48-5-8
+    campaign: -48
+    bgm: BGM_Frontline
+    title: "1000"
+    start: -48-5-8
+  }
+  {
+    id: 880
+    mission_id: "10819,10838"
     description: '''"Only the dead have seen the end of the war."'''
+    scripts: -48-5-9-point
     campaign: -48
     bgm: BGM_Frontline
     title: "1001"
-    start: -48-5-8
+    start: -48-5-9-point
   }
   {
     id: 881
     mission_id: "10896"
     description: '''"Once again, Griffin's future is in our hands."'''
+    scripts: -48-5-10
     campaign: -48
     bgm: BGM_Frontline
     title: "1010"
@@ -9294,6 +9345,7 @@
     id: 882
     mission_id: "10897"
     description: '''"The Factory is no longer just a factory, but a miniature museum. One dedicated to love, death, and robots."'''
+    scripts: -48-6-1
     campaign: -48
     bgm: BGM_Frontline
     title: Pico
@@ -9303,6 +9355,7 @@
     id: 883
     mission_id: "10898"
     description: '''"We will stop them here, even with just the few of us."'''
+    scripts: -48-6-2
     campaign: -48
     bgm: BGM_Frontline
     title: Nano
@@ -9312,6 +9365,7 @@
     id: 884
     mission_id: "10899"
     description: '''"Get up, we're all watching you from behind."'''
+    scripts: -48-6-4
     campaign: -48
     bgm: BGM_Frontline
     title: Milli
@@ -9321,6 +9375,7 @@
     id: 885
     mission_id: "10900"
     description: '''"It's a promise. See you in Berlin."'''
+    scripts: -48-6-6
     campaign: -48
     bgm: BGM_Frontline
     title: Deci
@@ -9330,6 +9385,7 @@
     id: 886
     mission_id: "10901"
     description: '''"I've brought a special consultant."'''
+    scripts: -48-6-7
     campaign: -48
     bgm: BGM_Frontline
     title: Deca
@@ -9337,193 +9393,52 @@
   }
   {
     id: 887
-    mission_id: "10902"
+    mission_id: "10821,10840"
     description: '''"In the Soviet Union, only people in one kind of place have a significant association with tattoos."'''
     campaign: -48
     bgm: BGM_Frontline
     title: Hecta
-    start: -48-6-9
+    point: 74687:-48-EXT-6-1,74782:-48-EXT-6-1
   }
   {
     id: 888
-    mission_id: "10903"
+    mission_id: "10902"
     description: '''"I have delivered death to your doorstep."'''
+    scripts: -48-6-9
     campaign: -48
     bgm: BGM_Frontline
     title: Kilo
-    start: -48-6-11
+    start: -48-6-9
   }
   {
     id: 889
-    mission_id: "10904"
+    mission_id: "10824,10842"
     description: '''"It's my turn, dearie. —Bramedb"'''
+    scripts: -48-6-10-point
     campaign: -48
     bgm: BGM_Frontline
     title: Mega
-    start: -48-6-12
+    start: -48-6-10-point
   }
   {
     id: 890
-    mission_id: "10801"
+    mission_id: "10903"
     description: '''"God, you sound like a proper Stasi."'''
-    scripts: -48-1-2-First,-48-1-2-point1,-48-1-2-point2,-48-1-2-point3,-48-1-2-point4
+    scripts: -48-6-11
     campaign: -48
     bgm: BGM_Frontline
     title: Giga
-    start: -48-1-2-First
-    point: 64307:-48-1-2-point3,64302:-48-1-2-point4
+    start: -48-6-11
   }
   {
     id: 891
-    mission_id: "10802"
+    mission_id: "10904"
     description: '''"Grant to the souls of all our faithful departed your mercy, light and peace."'''
+    scripts: -48-6-12
     campaign: -48
     bgm: BGM_Frontline
     title: Tera
-  }
-  {
-    id: 892
-    mission_id: "10803"
-    description: story_util-10000892
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000892
-  }
-  {
-    id: 893
-    mission_id: "10804"
-    description: story_util-10000893
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000893
-  }
-  {
-    id: 894
-    mission_id: "10805"
-    description: story_util-10000894
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000894
-  }
-  {
-    id: 895
-    mission_id: "10806"
-    description: story_util-10000895
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000895
-  }
-  {
-    id: 896
-    mission_id: "10807"
-    description: story_util-10000896
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000896
-  }
-  {
-    id: 897
-    mission_id: "10808"
-    description: story_util-10000897
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000897
-  }
-  {
-    id: 898
-    mission_id: "10809"
-    description: story_util-10000898
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000898
-  }
-  {
-    id: 899
-    mission_id: "10810"
-    description: story_util-10000899
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000899
-  }
-  {
-    id: 900
-    mission_id: "10811"
-    description: story_util-10000900
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000900
-  }
-  {
-    id: 901
-    mission_id: "10812"
-    description: story_util-10000901
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000901
-  }
-  {
-    id: 902
-    mission_id: "10825"
-    description: story_util-10000902
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000902
-  }
-  {
-    id: 903
-    mission_id: "10826"
-    description: story_util-10000903
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000903
-  }
-  {
-    id: 904
-    mission_id: "10827"
-    description: story_util-10000904
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000904
-  }
-  {
-    id: 905
-    mission_id: "10828"
-    description: story_util-10000905
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000905
-  }
-  {
-    id: 906
-    mission_id: "10829"
-    description: story_util-10000906
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000906
-  }
-  {
-    id: 907
-    mission_id: "10830"
-    description: story_util-10000907
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000907
-  }
-  {
-    id: 908
-    mission_id: "10831"
-    description: story_util-10000908
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000908
-  }
-  {
-    id: 909
-    mission_id: "10832"
-    description: story_util-10000909
-    campaign: -48
-    bgm: BGM_Frontline
-    title: story_util-20000909
+    start: -48-6-12
   }
   {
     id: 910

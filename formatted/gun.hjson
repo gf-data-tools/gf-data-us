@@ -24415,7 +24415,7 @@
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
     type_equip3: 3;9,10
-    ai: 215
+    ai: 290
     launch_time: 2021-06-15 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
@@ -29491,7 +29491,7 @@
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
     type_equip3: 3;9,10
-    ai: 48
+    ai: 372
     launch_time: 2023-07-22 00:00:00
     obtain_ids: "253"
     rank_display: 5
@@ -29682,7 +29682,7 @@
     type_equip1: 1;4,13,16
     type_equip2: 2;6
     type_equip3: 3;10
-    ai: 4
+    ai: 375
     launch_time: 2023-06-07 00:00:00
     obtain_ids: "1"
     rank_display: 5
@@ -29750,7 +29750,7 @@
     type_equip1: 3;9,10
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13
-    ai: 150
+    ai: 376
     launch_time: 2023-06-07 00:00:00
     obtain_ids: "1,2"
     rank_display: 5
@@ -40716,7 +40716,7 @@
     skill1: 803101
     skill2: 803105
     normal_attack: 803106
-    passive_skill: "803107,803102,803103"
+    passive_skill: "803107,803102,803103,759296"
     dynamic_passive_skill: "803104"
     effect_grid_center: 13
     effect_guntype: "1"
@@ -40724,7 +40724,7 @@
     effect_grid_effect: "6,20"
     type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
-    type_equip3: 3;15,23
+    type_equip3: 3;15,23,20
     ai: 53
     launch_time: 2020-02-12 00:00:00
     obtain_ids: "35"
@@ -44172,13 +44172,13 @@
     skill1: 900886
     skill2: 900887
     normal_attack: 900888
-    passive_skill: "300202,300203,900885"
+    passive_skill: "300202,300203,900885,759301"
     effect_grid_center: 8
     effect_guntype: "5"
     effect_grid_pos: "2,3,4,8"
     effect_grid_effect: "1,15"
     type_equip1: 3;11,20
-    type_equip2: 2;7
+    type_equip2: 2;7,19
     type_equip3: 1;1,2,3,4,22
     ai: 161
     launch_time: 2017-01-13 00:00:00
