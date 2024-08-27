@@ -185,6 +185,21 @@
       '''
   }
   {
+    id: 10002
+    name: Imaginary Maze PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "10158"
+    condition: 80000:40601;120000:40602;160000:40603;200000:40604;240000:40605;280000:40606;320000:40607;360000:40608
+    left_icon: 3f43620d3a7c124f_draw_240821113957.png
+    background: e8b8be2fc66504b5_draw_240821113840.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Imaginary Maze PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
     id: 90001
     name: The Glistening Bloom
     type: 2

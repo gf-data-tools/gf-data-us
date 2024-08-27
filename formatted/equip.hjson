@@ -11739,6 +11739,40 @@
     obtain_ids: "3016"
   }
   {
+    id: 386
+    name: Custom PR Rail
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      ACC+<hit> Enhances skill $Gr MG5 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "14,16"
+    critical_percent: "18,20"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_MG5
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "109"
+    equip_introduction: The use of composite materials in this classic design reduces the weight of the rail and, at the same time, improves its precision.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,critical_percent:1000
+    passive_skill: "1000301"
+    max_level: 10
+    auto_select_id: 18118
+    is_show: 1
+    obtain_ids: "3103"
+    description_skill: 1000301
+  }
+  {
     id: 387
     name: Crisp Leather Jacket
     description:

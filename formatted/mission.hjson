@@ -11748,6 +11748,38 @@
     guide_cdn: mission-50010157
   }
   {
+    id: 10158
+    integration_switch: 1-1;4-40:80:160
+    campaign: -29
+    sub: 1
+    if_emergency: -1
+    endless_mode: 1
+    name: Imaginary Maze+
+    difficulty: 40000
+    recommend_gun_level: 120
+    exp_parameter: 60
+    type: "6"
+    enemy_ai_type: 4
+    expect_turn: 13
+    boss_team_id: "2372"
+    turn_duration: 360000000
+    turn_limit: 13
+    map_res_name: OPS4_Y
+    map_information: "8640,7650|5600,4640|-500,-200"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    random_line_spot: "9414,9405,9408,9411"
+    ally_code: ArmyLOGO
+    round_config: 1:1,2:2,3:3
+    limit_squad: -1
+    difficulty_recommend: "40000,99;0,0;0,0;0,0;0,0"
+    limit_sangvis: 4
+    event_score: 1|10,2000,1500,1000,200,50000,5000,50000,4000,5000,2000,10000,1:0;2:0;3:0;5:0;6:0;7:0,0,0,0,0,0,0,0,0,0,8000,20000,10000,5000
+    recommended_team_ids: "4,5,9"
+    limit_vehicle: -1
+    guide_cdn: mission-50010158
+  }
+  {
     id: 10194
     integration_switch: 1-1;4-40:80:160
     campaign: -31
