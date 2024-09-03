@@ -2726,6 +2726,7 @@
     order: 1
     rarity: 3
     filter_type: "3"
+    event_id: 3601
   }
   {
     id: 203
@@ -3044,6 +3045,7 @@
     order: 1
     rarity: 5
     filter_type: "1,2"
+    event_id: 3602
   }
   {
     id: 228
@@ -4269,11 +4271,13 @@
     id: 330
     item_id: 1330
     sub_type: 1
+    onsale: 1
     code: profilePic_fireworks_2018
     order: 1
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3604
   }
   {
     id: 331
@@ -4289,11 +4293,13 @@
     id: 332
     item_id: 1332
     sub_type: 1
+    onsale: 1
     code: profilePic_sop_2018summer
     order: 1
     rarity: 5
     filter_type: "1"
     frame_id: 200005
+    event_id: 3605
   }
   {
     id: 333
@@ -15837,6 +15843,78 @@
     skin: 30011
   }
   {
+    id: 1364
+    item_id: 2364
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_Dancer2023_PA15
+    order: 1
+    rarity: 5
+    skin: 8701
+  }
+  {
+    id: 1365
+    item_id: 2365
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_Dancer2023_QBU191
+    order: 1
+    rarity: 5
+    skin: 8702
+  }
+  {
+    id: 1366
+    item_id: 2366
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_Dancer2023_GeneralLiu
+    order: 1
+    rarity: 5
+    skin: 8703
+  }
+  {
+    id: 1367
+    item_id: 2367
+    sub_type: 1
+    gem: 160
+    item_ids: 508-4000
+    onsale: 1
+    code: profilePic_Dancer2023_G28
+    order: 1
+    rarity: 5
+    skin: 8704
+  }
+  {
+    id: 1368
+    item_id: 2368
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_Dancer2023_M14
+    order: 1
+    rarity: 5
+    skin: 8705
+  }
+  {
+    id: 1369
+    item_id: 2369
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_Dancer2023_RMB93
+    order: 1
+    rarity: 5
+    skin: 8706
+  }
+  {
     id: 1370
     item_id: 2370
     sub_type: 1
@@ -16233,6 +16311,7 @@
     sub_type: 1
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profilePic_friendmall_VHS
     order: 1
     rarity: 5
@@ -16244,6 +16323,7 @@
     sub_type: 2
     gem: 320
     item_ids: 508-8000
+    onsale: 1
     code: card_friendmall_VHS
     order: 1
     rarity: 5
@@ -16308,6 +16388,28 @@
     skin: 599
   }
   {
+    id: 1452
+    item_id: 2452
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_friendmall_M110
+    order: 1
+    rarity: 5
+    event_id: 3603
+  }
+  {
+    id: 1453
+    item_id: 2453
+    sub_type: 2
+    gem: 320
+    item_ids: 508-8000
+    code: card_friendmall_M110
+    order: 1
+    rarity: 5
+    event_id: 3600
+  }
+  {
     id: 1454
     item_id: 2454
     sub_type: 2
@@ -16340,6 +16442,18 @@
     order: 1
     rarity: 5
     skin: 10201
+  }
+  {
+    id: 1465
+    item_id: 2465
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_AprilFool2024_ZasM76
+    order: 1
+    rarity: 5
+    skin: 6307
   }
   {
     id: 1466
@@ -16880,6 +16994,7 @@
     sub_type: 4
     gem: 200
     item_ids: 508-5000
+    onsale: 1
     code: profileFrame_friendmall_VHS
     order: 1
     rarity: 5
@@ -16894,6 +17009,18 @@
     order: 1
     rarity: 5
     filter_type: "5"
+  }
+  {
+    id: 100041
+    item_id: 200041
+    sub_type: 4
+    gem: 200
+    item_ids: 508-5000
+    code: profileFrame_friendmall_M110
+    order: 1
+    rarity: 5
+    filter_type: "5"
+    event_id: 3606
   }
   {
     id: 100042

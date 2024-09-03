@@ -10785,6 +10785,152 @@
     classification_id: "3003"
   }
   {
+    id: "11808"
+    type: "9"
+    item_ids: 2453-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: Dream Baker
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11809"
+    type: "9"
+    item_ids: 1189-1
+    gemprice: "3200"
+    original_price: "8000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: Dinergate
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11810"
+    type: "9"
+    item_ids: 1226-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: A Christmas Meeting with Nature
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11811"
+    type: "9"
+    item_ids: 2452-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: M110 Icon
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11812"
+    type: "9"
+    item_ids: 1330-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Kitsune Mask
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11813"
+    type: "9"
+    item_ids: 1332-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Reservoir Dog
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11814"
+    type: "9"
+    item_ids: 200041-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon Frame - Aromatic Fairy Tale
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11815"
+    type: "9"
+    item_ids: 10604-1
+    gemprice: "2000"
+    quota: "2001"
+    giftbag_name: Extra Impulse
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11816"
+    type: "9"
+    gift: 100003-1
+    gemprice: "150"
+    quota: "2003"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11817"
+    type: "9"
+    gift: 100002-1
+    gemprice: "60"
+    quota: "2003"
+    giftbag_name: Ice Cream Cone
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11818"
+    type: "9"
+    gift: 100001-1
+    gemprice: "30"
+    quota: "2003"
+    giftbag_name: Lollipop
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
     id: "11835"
     type: "8"
     gift: 10307-1
@@ -39808,6 +39954,90 @@
     icon: Bumdle_package
     discount: "1.00"
     classification_id: "3002"
+  }
+  {
+    id: "22179"
+    type: "8"
+    mp: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Manpower Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Manpower
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22180"
+    type: "8"
+    ammo: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ammo Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ammunition
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22181"
+    type: "8"
+    mre: "9000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Ration Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Ration
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22182"
+    type: "8"
+    part: "3000"
+    gemprice: "480"
+    original_price: "960"
+    quota: "2001"
+    giftbag_name: Half-Price Parts Package
+    event_code: dailyGiftbag
+    icon: Bumdle_Parts
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22183"
+    type: "8"
+    item_ids: 1-10,3-10
+    gemprice: "430"
+    original_price: "860"
+    quota: "2001"
+    giftbag_name: Half-Price Contract Package
+    event_code: dailyGiftbag
+    icon: Bumdle_black
+    daily_quota: "50"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22184"
+    type: "8"
+    item_ids: 7-1,41-100
+    gift: 8702-1
+    gemprice: "2588"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: QBU-191 - A Song Composed for You Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin02
+    discount: "1.00"
+    classification_id: "3003"
   }
   {
     id: "99001"
