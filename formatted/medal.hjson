@@ -336,4 +336,28 @@
     is_date: 2
     decorate_code: Logo_Events
   }
+  {
+    id: 41
+    name: Theater 13 Pioneer Medal
+    order: 59
+    evo_step: "1"
+    appearance_id: "238"
+    item_id: 140
+    medal_obtain: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 13.
+    medal_color: "#ff0000"
+    is_date: 2
+    decorate_code: Logo_Events
+  }
+  {
+    id: 42
+    name: Theater 13 Conqueror Medal
+    order: 58
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "239,240,241,242,243,244,245,246,247,248,249,250"
+    item_id: 141
+    medal_obtain: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 13.
+    medal_color: "#ff0000"
+    is_date: 2
+    decorate_code: Logo_Events
+  }
 ]
