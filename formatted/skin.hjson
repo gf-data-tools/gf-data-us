@@ -8205,6 +8205,17 @@
     skin_source: 2
   }
   {
+    id: 8507
+    name: Shark-Riding Beauty
+    fit_gun: 94
+    voice: 4
+    dialog: I hear that there are a lot of wondrous marine creatures in these waters, would you like to come and observe them with me, Commander? Don't worry, I've specially chosen this motorboat that looks like a great white, so it's going to be perfectly safe!
+    gift_position: "-41,-121"
+    order: 113
+    class_id: 90
+    skin_source: 1
+  }
+  {
     id: 8601
     name: Dangerous Mission
     fit_gun: 282
@@ -8452,6 +8463,79 @@
     class_id: 94
   }
   {
+    id: 10001
+    name: Inari at Hatsu-uma Festival
+    fit_gun: 46
+    voice: 15
+    dialog: Quiet. One must show the Goddess utmost respect... Of course. We'll share a drink after the ceremony is over, Commander. Remember to bring a portion of Inari sushi.
+    illustrator_cv: RIRE, Mitsuki Nakae,
+    order: 122
+    class_id: 96
+    skin_source: 1
+  }
+  {
+    id: 10002
+    name: Honorable Spirit in Red
+    fit_gun: 381
+    voice: 15
+    dialog: Happy New Year, Commander! You are standing before the super pastry chef who has leveled up her baking skills to Shogatsu Plus—moi! Have some of these freshly made kagami mochi!
+    gift_position: "-86,84"
+    order: 122
+    class_id: 96
+    skin_source: 2
+  }
+  {
+    id: 10004
+    name: Cat of the Night
+    fit_gun: 307
+    voice: 15
+    dialog: ...Oh, it's you, Commander. I've sorted out everything on my end and am taking a break. This little one? Isn't she adorable?
+    order: 122
+    class_id: 96
+    skin_source: 1
+  }
+  {
+    id: 10005
+    name: Blue Moon Wisteria
+    fit_gun: 343
+    voice: 15
+    dialog: Boss? ...Please hold on a second, I'm not done yet... I want to put bouquets like this one everywhere around the base. Seeing them will surely lift everyone's spirit.
+    order: 122
+    class_id: 96
+    skin_source: 1
+  }
+  {
+    id: 10006
+    name: Toshigami's Divine Messenger
+    fit_gun: 308
+    voice: 15
+    dialog: Urk... Ack... (Coughs) Sheesh, I nearly choked to death... You saw that, Commander? Even a hunter needs to rest, okay?! You'd better keep that a secret for me! Here, want a prawn?
+    order: 122
+    class_id: 96
+  }
+  {
+    id: 10007
+    name: Tangerine Fragrance
+    fit_gun: 167
+    voice: 15
+    dialog: Dear customer, here's the tangerine you ordered— What? You didn't order this? Oh dear, how very naughty of you. You shouldn't try to chat up a waitress like that just because she's too pretty, Commander~
+    illustrator_cv: 巫目目, Ayaka Fujii,
+    order: 122
+    class_id: 96
+    skin_source: 1
+  }
+  {
+    id: 10008
+    name: Deer Calls in Winter
+    fit_gun: 34
+    voice: 15
+    dialog: Greetings, Commander. You are the very picture of health today... I sound strange talking like that? That's a shame, I thought it suited me.
+    illustrator_cv: Alize, Risa Taneda,
+    order: 122
+    class_id: 96
+    skin_source: 1
+  }
+  {
     id: 10201
     name: Angel's Tears Beneath the Moon
     fit_gun: 376
@@ -8694,5 +8778,13 @@
     dialog: '''"One-two, one... Turn, smile, spin my drumstick..." Good! I must make sure I put my best foot forward at the celebration and don't get distracted by the Commander's smile... Huh? My drumstick... I dropped it!'''
     illustrator_cv: 小星,Rumi Okubo,
     order: 130
+  }
+  {
+    id: 30020
+    name: Immaculate Rondo
+    fit_gun: 152
+    voice: 4
+    dialog: I will not allow anything oily or filthy to remain before me... Master, please watch closely - Activating Super Cleaning Mode!
+    order: 134
   }
 ]

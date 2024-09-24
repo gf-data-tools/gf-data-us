@@ -3167,10 +3167,12 @@
     sub_type: 2
     gem: 400
     item_ids: 508-10000
+    onsale: 1
     code: card_rankA_2018winter
     order: 1
     rarity: 5
     filter_type: "1,3"
+    event_id: 3637
   }
   {
     id: 239
@@ -3469,6 +3471,7 @@
     order: 1
     rarity: 10
     filter_type: "1"
+    event_id: 3638
   }
   {
     id: 261
@@ -3993,6 +3996,7 @@
     order: 100
     rarity: 5
     filter_type: "1,2"
+    event_id: 3639
   }
   {
     id: 305
@@ -4584,6 +4588,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_halloween
+    event_id: 3640
   }
   {
     id: 358
@@ -4933,6 +4938,32 @@
     skin: 2807
     filter_type: "4"
     frame_id: 200005
+  }
+  {
+    id: 385
+    item_id: 1385
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_Xmas18_candy
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200005
+    event_id: 3641
+  }
+  {
+    id: 386
+    item_id: 1386
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    code: profilePic_Xmas18_deer
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200005
+    event_id: 3642
   }
   {
     id: 388
@@ -15547,6 +15578,18 @@
     skin: 30009
   }
   {
+    id: 1334
+    item_id: 2334
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_Swimsuit2023_64type
+    order: 1
+    rarity: 5
+    skin: 8507
+  }
+  {
     id: 1335
     item_id: 2335
     sub_type: 1
@@ -16171,6 +16214,90 @@
     event_id: 3490
   }
   {
+    id: 1410
+    item_id: 2410
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_NewYear2024_98K
+    order: 1
+    rarity: 5
+    skin: 10001
+  }
+  {
+    id: 1411
+    item_id: 2411
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_NewYear2024_M110
+    order: 1
+    rarity: 5
+    skin: 10002
+  }
+  {
+    id: 1412
+    item_id: 2412
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_NewYear2024_ZB26
+    order: 1
+    rarity: 5
+    skin: 10004
+  }
+  {
+    id: 1413
+    item_id: 2413
+    sub_type: 1
+    gem: 160
+    item_ids: 508-4000
+    onsale: 1
+    code: profilePic_NewYear2024_APC556
+    order: 1
+    rarity: 5
+    skin: 10005
+  }
+  {
+    id: 1414
+    item_id: 2414
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_NewYear2024_C14
+    order: 1
+    rarity: 5
+    skin: 10006
+  }
+  {
+    id: 1415
+    item_id: 2415
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_NewYear2024_HK45
+    order: 1
+    rarity: 5
+    skin: 10007
+  }
+  {
+    id: 1416
+    item_id: 2416
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_NewYear2024_M1
+    order: 1
+    rarity: 5
+    skin: 10008
+  }
+  {
     id: 1417
     item_id: 2417
     sub_type: 1
@@ -16670,6 +16797,26 @@
     skin: 30019
   }
   {
+    id: 1520
+    item_id: 2520
+    sub_type: 1
+    gem: 80
+    item_ids: 508-2000
+    onsale: 1
+    code: profilePic_BattlePass_M1897
+    order: 1
+    rarity: 5
+    skin: 30020
+  }
+  {
+    id: 1521
+    item_id: 2521
+    sub_type: 2
+    code: card_BattlePass_M1897
+    order: 1
+    rarity: 5
+  }
+  {
     id: 100001
     item_id: 200001
     sub_type: 4
@@ -17055,6 +17202,15 @@
     item_id: 200044
     sub_type: 4
     code: profileFrame_BattlePass_M99
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100045
+    item_id: 200045
+    sub_type: 4
+    code: profileFrame_BattlePass_M1897
     order: 1
     rarity: 5
     filter_type: "5"
