@@ -1,7 +1,9 @@
 [
   {
+    sub_id: 1001
     id: 1
     name: Drone-Type Civilian Target
+    sub_name: Drone-Type Civilian Target
     type: 2
     code: Drone
     introduce: A standard target drone only used for training and practice. Automatically records combat footage (provided its onboard camera hasn't been destroyed).
@@ -12,8 +14,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 2001
     id: 2
     name: Prowler
+    sub_name: Prowler
     type: 2
     code: Prowler
     introduce: Sangvis Ferri's low-spec combat mech. It has poor firepower and mobility. Primarily used to patrol their own lines and conduct reconnaissance.
@@ -32,8 +36,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 3001
     id: 3
     name: Scout
+    sub_name: Scout
     type: 2
     code: Scouts
     introduce: Sangvis Ferri's low-spec combat mech. It has mediocre combat capabilities but is highly mobile and good at concealment. Often used in frontline reconnaissance.
@@ -52,8 +58,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 4001
     id: 4
     name: Ripper
+    sub_name: Ripper
     type: 3
     code: Ripper
     introduce: Sangvis Ferri's regular combat Dummy equipped with short-range assault weaponry. Its high mobility often puts it in the role of a vanguard or a scout.
@@ -72,8 +80,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 5001
     id: 5
     name: Scarecrow
+    sub_name: Scarecrow
     type: 1
     code: Scarecrow
     introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
@@ -96,8 +106,36 @@
     related_story_id: 200005
   }
   {
+    sub_id: 5002
+    id: 5
+    name: Scarecrow
+    sub_name: Scarecrow - Gray Zone Specialized Model
+    type: 1
+    code: Scarecrow
+    introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 4
+    range_rank: 3
+    counter: Enemy roaming in the Gray Zone, engage with caution!
+    character: "1001,306,307"
+    enemy_skill: "184,185,186"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Kaya Okuno,"
+    spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200005
+  }
+  {
+    sub_id: 6001
     id: 6
     name: Dinergate
+    sub_name: Dinergate
     type: 2
     code: Dinergate
     introduce: Sangvis Ferri's low-spec combat mech. It has mediocre combat capabilities but is suited for mass production. Usually used in defensive or search missions. Attacks by ramming with force; not to be underestimated in groups.
@@ -115,8 +153,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 7001
     id: 7
     name: Vespid
+    sub_name: Vespid
     type: 3
     code: Vespid
     introduce: Sangvis Ferri's regular combat Dummy equipped with long-range assault weaponry. Its firepower is about the same as a low-tier Military unit. It makes up the main force in small-scale skirmishes.
@@ -135,8 +175,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 8001
     id: 8
     name: Executioner
+    sub_name: Executioner
     type: 1
     code: Excutioner
     introduce: An elite scout who often partners with Scarecrow but is slightly higher in rank. A rough-mannered and impulsive tomboy who takes delight in fair fights and dislikes bullying the weak.
@@ -160,8 +202,10 @@
     related_story_id: 200008
   }
   {
+    sub_id: 9001
     id: 9
     name: Jaeger
+    sub_name: Jaeger
     type: 3
     code: Jaeger
     introduce: Sangvis Ferri's regular combat Dummy equipped with long-range sniping weaponry. Deals heavy damage and has high accuracy, but is physically fragile. An enemy to watch out for on the battlefield.
@@ -180,8 +224,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 10001
     id: 10
     name: Guard
+    sub_name: Guard
     type: 3
     code: Guard
     introduce: Sangvis Ferri's high-spec combat Dummy equipped with a shield and short-range weaponry. As its appearance suggests, it has high defensive capabilities and is often used to defend important units or to enter the fray as a more advanced vanguard.
@@ -200,8 +246,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 11001
     id: 11
     name: Hunter
+    sub_name: Hunter
     type: 1
     code: Hunter
     introduce: Mobile and intelligent, she's skilled at harassment and pursuit battles. Her true power can only be shown when coordinating with Scarecrow and Executioner. She is calm and subdued, and cornering her foes through various means before capturing them alive. While she has an arrogant attitude toward Griffin, it does not preclude her from using overly despicable methods against them.
@@ -225,8 +273,10 @@
     related_story_id: 200011
   }
   {
+    sub_id: 12001
     id: 12
     name: Dragoon
+    sub_name: Dragoon
     type: 3
     code: Dragoon
     introduce: Sangvis Ferri's high-spec combat Dummy equipped with a small-scale transportational mech. It has considerable firepower, firing range, and maneuverability, making it an effective assaulter on the battlefield.
@@ -245,8 +295,10 @@
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 13001
     id: 13
     name: Jaguar
+    sub_name: Jaguar
     type: 2
     code: Jaguar
     introduce: Sangvis Ferri's regular combat mech. A mobile mortar that deals high damage. Its maneuverability is poor, but its firepower is comparable to that of contemporary Military weapons.
@@ -266,8 +318,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 14001
     id: 14
     name: Nemeum
+    sub_name: Nemeum
     type: 4
     code: Nemeum
     introduce: A regular military mech made for the army equipped with the contemporary military firing system. It can charge up to deal higher damage, but has a low rate of fire and poor defense.
@@ -286,8 +340,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 15001
     id: 15
     name: Aegis
+    sub_name: Aegis
     type: 5
     code: Aegis
     introduce: The Military's regular combat unit. Outfitted with regular electric weaponry and a military shield, it possesses excellent melee combat capabilities and very sturdy armor.
@@ -306,8 +362,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 16001
     id: 16
     name: Manticore
+    sub_name: Manticore
     type: 4
     code: Manticore
     introduce: A regular military mech made for the army equipped with contemporary military assault weaponry and armor. It deals staggering long-range damage and is extremely well-defended.
@@ -326,8 +384,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 17001
     id: 17
     name: Intruder
+    sub_name: Intruder
     type: 1
     code: Intruder
     introduce: In charge of providing battle strategies, yet also adept at decryption and sabotage. Relatively high in rank, she can directly issue commands to combat Dolls but answers to Gager. Her apparent poise and soft-spokenness mask a gaping sense of emptiness. She enjoys human theater and hopes to derive her own personality from it.
@@ -350,8 +410,36 @@
     related_story_id: 200017
   }
   {
+    sub_id: 17002
+    id: 17
+    name: Intruder
+    sub_name: Intruder - Gray Zone Specialized Model
+    type: 1
+    code: Intruder
+    introduce: In charge of providing battle strategies, yet also adept at decryption and sabotage. Relatively high in rank, she can directly issue commands to combat Dolls but answers to Gager. Her apparent poise and soft-spokenness mask a gaping sense of emptiness. She enjoys human theater and hopes to derive her own personality from it.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 4
+    rate_rank: 5
+    speed_rank: 3
+    range_rank: 3
+    counter: Enemy roaming in the Gray Zone, engage with caution!
+    character: "1001,306"
+    enemy_skill: "190,191,192"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200017
+  }
+  {
+    sub_id: 18001
     id: 18
     name: Destroyer
+    sub_name: Destroyer
     type: 1
     code: Destroyer
     introduce: An expert in blowing things up and disarming bombs who also possesses decent combat abilities. Occasionally teams up with Alchemist. She's usually haughty and sharp-tongued, but is actually a tsundere with a somewhat childish temper. She cries under pressure and is very sensitive about her height.
@@ -366,7 +454,6 @@
     range_rank: 5
     counter: This unit deals incredibly high single-target damage but has a low rate of fire and mediocre accuracy. T-Dolls with high evasion provide better defense against her.
     character: "1001,206"
-    enemy_skill: "64,99"
     launch_time: 2016-5-20 00:00:00
     extra: ",Yuuki Takada,"
     spine_scale: "85,85,1"
@@ -374,8 +461,10 @@
     related_story_id: 200018
   }
   {
+    sub_id: 19001
     id: 19
     name: Hunter Elite
+    sub_name: Hunter Elite
     type: 1
     code: HunterElite
     introduce: An elite Sangvis Doll with high flexibility and intelligence who specializes in sabotage and tactical pursuit. Her processor has undergone a vast upgrade over its original specs, allowing her to skillfully use various methods to cut off her enemies' escape.
@@ -395,8 +484,10 @@
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 20001
     id: 20
     name: Executioner Elite
+    sub_name: Executioner Elite
     type: 1
     code: ExcutionerElite
     introduce: An elite Sangvis Doll who prefers direct confrontations to tactical maneuvers. Now wields an improved long blade that enhances her close-quarter combat prowess. Takes delight in fair fights and dislikes bullying the weak.
@@ -416,8 +507,37 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 21001
     id: 21
     name: Ouroboros
+    sub_name: Ouroboros
+    type: 1
+    code: Weaver
+    introduce: An intelligent Doll created after the Butterfly Incident with high combat capabilities, specializing in short-range assaults and defensive battles. But as the test subject in the developmental phase, her AI is very unstable and difficult to control. Possessing an overwhelming tactical and intellectual advantage over others, she is very self-assured and conceited, but she has little actual combat experience and is too unpredictable even for her allies, which makes her highly dangerous.
+    forces: 1
+    if_capture: 1
+    pow_rank: 4
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: This unit deals high damage to flagged positions. Be sure to move your Dolls away in time to evade her attack.
+    character: "1001,210,309"
+    enemy_skill: "71"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Rumi Ookubo,"
+    spine_scale: "80,80,1"
+    org_id: 10603
+    related_story_id: 200021
+  }
+  {
+    sub_id: 21002
+    id: 21
+    name: Ouroboros
+    sub_name: Ouroboros - Augmented Model
     type: 1
     code: Weaver
     introduce: An intelligent Doll created after the Butterfly Incident with high combat capabilities, specializing in short-range assaults and defensive battles. But as the test subject in the developmental phase, her AI is very unstable and difficult to control. Possessing an overwhelming tactical and intellectual advantage over others, she is very self-assured and conceited, but she has little actual combat experience and is too unpredictable even for her allies, which makes her highly dangerous.
@@ -441,8 +561,10 @@
     related_story_id: 200021
   }
   {
+    sub_id: 22001
     id: 22
     name: Ouroboros Elite
+    sub_name: Ouroboros Elite
     type: 1
     code: WeaverElite
     introduce: A high-spec elite Sangvis Doll adept at combat and tactical simulations. With extremely good performance in every aspect, she is an all-rounder on the battlefield. Having acquired a myriad of combat data, her capabilities have improved even further. She is very self-assured and conceited...but has little actual combat experience and is too unpredictable even for her allies, so having her join the fray comes with its own risks.
@@ -462,8 +584,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 23001
     id: 23
     name: Alchemist
+    sub_name: Alchemist
     type: 1
     code: Alchemist
     introduce: A Sangvis elite who specializes in all kinds of tactics and interrogations. Occasionally teams up with Destroyer. Arrogant, brash, and ruthless, she will do anything to achieve her goals. She has a sadistic streak and toys with Griffin Dolls to satisfy her perverse tendencies. However, her mental maturity still compels her to go the extra mile for her Sangvis companions.
@@ -486,8 +610,36 @@
     related_story_id: 200023
   }
   {
+    sub_id: 24001
     id: 24
     name: Dreamer
+    sub_name: Dreamer
+    type: 1
+    code: Dreamer
+    introduce: Combat-oriented and possesses ultra long-range pinpoint sniping capability. A Doll created after the Buttlerfly Incident who answers directly to Elisa. Since she isn't designed to engage enemies directly, she spends most of her time hanging around Sangvis Ferri HQ and bullying Judge for her own amusement. Her charming smile is a flimsy disguise for her arrogance and capriciousness. She is extremely mentally unstable and egotistical, and is prone to becoming frenzied and losing control in battle. She has formidable destructive power and will often disregard her allies' safety. Fortunately, she rarely ever appears in direct combat.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit can fire from long range. Take your units' moving speed into consideration to prevent heavy losses suffered from spending too much time in motion.
+    character: "1001,209"
+    enemy_skill: "70"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Kaya Okuno,"
+    spine_scale: "75,75,1"
+    org_id: 10604
+    related_story_id: 200024
+  }
+  {
+    sub_id: 24002
+    id: 24
+    name: Dreamer
+    sub_name: Dreamer - Augmented Model
     type: 1
     code: Dreamer
     introduce: Combat-oriented and possesses ultra long-range pinpoint sniping capability. A Doll created after the Buttlerfly Incident who answers directly to Elisa. Since she isn't designed to engage enemies directly, she spends most of her time hanging around Sangvis Ferri HQ and bullying Judge for her own amusement. Her charming smile is a flimsy disguise for her arrogance and capriciousness. She is extremely mentally unstable and egotistical, and is prone to becoming frenzied and losing control in battle. She has formidable destructive power and will often disregard her allies' safety. Fortunately, she rarely ever appears in direct combat.
@@ -510,8 +662,10 @@
     related_story_id: 200024
   }
   {
+    sub_id: 25001
     id: 25
     name: Jupiter
+    sub_name: Jupiter
     type: 2
     code: Jupiter
     introduce: A giant Sangvis weapons emplacement developed from stolen military tech. Stationary but possesses incomparable firepower and an ultra long firing range. The main cannon can be neutralized by surrounding the mortar and cutting off its power source, leaving only the machine gun turret operational.
@@ -529,8 +683,36 @@
     spine_scale: "55,55,1"
   }
   {
+    sub_id: 26001
     id: 26
     name: Gager
+    sub_name: Gager
+    type: 1
+    code: BossGager
+    introduce: Mostly in charge of issuing commands and deploying units. Relatively high in rank, she is in command of combat units, yet is quite adept at combat herself. Answers directly to Agent. Serious, uptight, and meticulous, she always appears cool and businesslike both in speech and action. She holds herself to a code of honor even against her enemies.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 4
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,207"
+    enemy_skill: "66,67"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yui Ishikawa,"
+    spine_scale: "85,85,1"
+    org_id: 10602
+    related_story_id: 200026
+  }
+  {
+    sub_id: 26002
+    id: 26
+    name: Gager
+    sub_name: Gager - Augmented Model
     type: 1
     code: BossGager
     introduce: Mostly in charge of issuing commands and deploying units. Relatively high in rank, she is in command of combat units, yet is quite adept at combat herself. Answers directly to Agent. Serious, uptight, and meticulous, she always appears cool and businesslike both in speech and action. She holds herself to a code of honor even against her enemies.
@@ -553,8 +735,10 @@
     related_story_id: 200026
   }
   {
+    sub_id: 27001
     id: 27
     name: Architect
+    sub_name: Architect
     type: 1
     code: BossArchitect
     introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
@@ -578,8 +762,36 @@
     related_story_id: 200027
   }
   {
+    sub_id: 27002
+    id: 27
+    name: Architect
+    sub_name: Architect - Gray Zone Specialized Model
+    type: 1
+    code: BossArchitect
+    introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: Enemy roaming in the Gray Zone, engage with caution!
+    character: "1001,319"
+    enemy_skill: "187,188,189"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Yuka Ootsuba,"
+    spine_scale: "85,85,1"
+    org_id: 10603
+    related_story_id: 200027
+  }
+  {
+    sub_id: 28001
     id: 28
     name: Brute
+    sub_name: Brute
     type: 3
     code: Brute
     introduce: Sangvis Ferri's new melee combat unit. It approaches enemies at high speed and deals a fearsome amount of damage, but is only equipped with negligible armor, making it quite fragile.
@@ -598,8 +810,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 29001
     id: 29
     name: Striker
+    sub_name: Striker
     type: 3
     code: Striker
     introduce: Sangvis Ferri's regular combat unit equipped with a long-range machine gun. Possesses high firepower and rate of fire, making it the main damage dealers and suppressors on the field.
@@ -618,8 +832,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 30001
     id: 30
     name: Tarantula
+    sub_name: Tarantula
     type: 4
     code: Tarantula
     introduce: An upgraded version of the Sangvis "Dinergate". With significantly improved survivability, it can close in quickly and deal massive damage to enemies in groups.
@@ -638,8 +854,10 @@
     spine_scale: "150,150,1"
   }
   {
+    sub_id: 31001
     id: 31
     name: Goliath
+    sub_name: Goliath
     type: 2
     code: Golyat
     introduce: Sangvis Ferri's explosive-type combat unit. Explodes upon contact with enemies, dealing a horrific amount of wide-spread damage. It must be destroyed before it draws close.
@@ -656,8 +874,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 32001
     id: 32
     name: Red Self-Explosion Enemy
+    sub_name: Red Self-Explosion Enemy
     type: 2
     code: GolyatPlus
     introduce: An upgraded version of the Goliath. No existing T-Doll has enough firepower to destroy it within a short period of time. Avoidance may be the best solution.
@@ -674,8 +894,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 33001
     id: 33
     name: Cerberus
+    sub_name: Cerberus
     type: 1
     code: BossCerberus
     introduce: The ultimate upgraded version of the Sangvis "Dinergate". Its size, armor, and firepower have all been significantly augmented, allowing it to carry a Doll's neural cloud (albeit an incomplete copy). However, it isn't very cost-effective, making mass production difficult. Its tactical role is unclear, even its development records are a mystery, so it doesn't see much use on the battlefield.
@@ -697,8 +919,10 @@
     org_id: 10603
   }
   {
+    sub_id: 34001
     id: 34
-    name: Destroyer Plus
+    name: Destroyer
+    sub_name: Destroyer Plus
     type: 1
     code: DestroyerPlus
     introduce: Destroyer's brand new form after having her body modified by Dreamer sees a massive increase in firepower, though her personality and mental age haven't changed much.
@@ -717,8 +941,54 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 34002
+    id: 34
+    name: Destroyer
+    sub_name: Destroyer PLUS - Augmented Model
+    type: 1
+    code: DestroyerPlus
+    introduce: Destroyer's brand new form after having her body modified by Dreamer sees a massive increase in firepower, though her personality and mental age haven't changed much.
+    forces: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit deals high damage to flagged positions. Be sure to move your Dolls away in time to evade her attack.
+    character: "1001,206"
+    enemy_skill: "64,65,99"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "80,80,1"
+  }
+  {
+    sub_id: 34003
+    id: 34
+    name: Destroyer
+    sub_name: Destroyer PLUS - Gray Zone Specialized Model
+    type: 1
+    code: DestroyerPlus
+    introduce: Destroyer's brand new form after having her body modified by Dreamer sees a massive increase in firepower, though her personality and mental age haven't changed much.
+    forces: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Enemy roaming in the Gray Zone, engage with caution!
+    character: "1001,319"
+    enemy_skill: "193,194,195"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    sub_id: 35001
     id: 35
     name: Judge
+    sub_name: Judge
     type: 1
     code: Justice
     introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
@@ -742,8 +1012,64 @@
     related_story_id: 200035
   }
   {
+    sub_id: 35002
+    id: 35
+    name: Judge
+    sub_name: Judge - Augmented Model
+    type: 1
+    code: Justice
+    introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: This unit has a high rate of fire and attacks multiple targets simultaneously, but only deals moderate damage. Shotgun Dolls are recommended to provide adequate armor. Be sure to move out of purple areas in time to avoid taking continuous damage and getting debuffed.
+    character: "1001,211,309"
+    enemy_skill: "73,74,75"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Aki Toyosaki,"
+    spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200035
+  }
+  {
+    sub_id: 35003
+    id: 35
+    name: Judge
+    sub_name: Judge - Gray Zone Specialized Model
+    type: 1
+    code: Justice
+    introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Enemy roaming in the Gray Zone, engage with caution!
+    character: "1001,309,307"
+    enemy_skill: "196,197,198"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Aki Toyosaki,"
+    spine_scale: "70,70,1"
+    org_id: 10604
+    related_story_id: 200035
+  }
+  {
+    sub_id: 36001
     id: 36
     name: Nightmare
+    sub_name: Nightmare
     type: 3
     code: unknown
     introduce: Virtual enemies which only exist in cyberspace who slowly approach then lunge at their opponents to bite them. These thoughtforms are typically defensive units representing firewalls generated by electronic warfare modules, or they could be viruses or malware lurking in electronic layers. They could also be some kind of inexplicable, profound entity.
@@ -760,8 +1086,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 37001
     id: 37
     name: Cyclops_AR
+    sub_name: Cyclops_AR
     type: 3
     code: Cyclops
     introduce: The Military's combat unit armed with a rifle and grenade launcher. Its armor is weaker compared to other models.
@@ -780,8 +1108,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 38001
     id: 38
     name: Cyclops_SG
+    sub_name: Cyclops_SG
     type: 5
     code: Cyclops_SG
     introduce: The Military's regular combat unit armed with a shotgun and bulletproof shield. Its general performance remains largely the same as the original model.
@@ -801,8 +1131,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 39001
     id: 39
     name: Hydra
+    sub_name: Hydra
     type: 4
     code: Hydra
     introduce: A regular military mech made for the army. Upgraded and modified from the "Manticore", it is outfitted with even more advanced military-grade weapons and armor. The main cannon can unleash devastating barrages against enemies.
@@ -821,8 +1153,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 40001
     id: 40
     name: Aegis_GA
+    sub_name: Aegis_GA
     type: 5
     code: Aegis_GA
     introduce: The Military's regular combat unit equipped with standard electric weapon and military-grade shield. It excels in melee combat and is clad in very sturdy armor.
@@ -841,8 +1175,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 41001
     id: 41
     name: Cerynitis
+    sub_name: Cerynitis
     type: 4
     code: Cerynitis
     introduce: The Military's regular combat mech. Upgraded and modified from the "Nemeum", it is outfitted with a military-grade long-range firing system, giving it even stronger armor and higher rapid-fire capabilities.
@@ -860,8 +1196,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 42001
     id: 42
     name: Dactyl
+    sub_name: Dactyl
     type: 4
     code: Dactyl
     introduce: The Military's small-sized mobile minelayer. It approaches enemies at high speed and distributes mines. Even if the unit itself is destroyed, the mines can still cause chaos on the battlefield.
@@ -879,8 +1217,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 43001
     id: 43
     name: Typhon
+    sub_name: Typhon
     type: 4
     code: Typhon
     introduce: A regular military tank made for the army. It is outfitted with a powerful laser cannon that can charge up and penetrate enemy lines, dealing devastating damage. The only way to neutralize it is to approach its cumbersome form quickly and exploit its firing blind spot to destroy it ASAP.
@@ -899,8 +1239,34 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 44001
     id: 44
     name: M16A1
+    sub_name: M16A1
+    type: 1
+    code: M16A1_Boss
+    introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
+    forces: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 6
+    rate_rank: 6
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 6
+    counter: This unit will conduct continuous wide-area bombardment on your forces. Please eliminate her promptly.
+    character: "1001,215,309"
+    enemy_skill: "8101,8301"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Nozomi Yamane,"
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 44002
+    id: 44
+    name: M16A1
+    sub_name: M16A1 - Diminished Model
     type: 1
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
@@ -915,14 +1281,88 @@
     range_rank: 6
     counter: Depending on the gun type of the Doll marked by M16A1's detector, M16A1 will receive different buffs. When a detector is placed, consider carefully what kind of Doll you use to pick it up.
     character: "1001,215,309"
-    enemy_skill: "81,82,83"
+    enemy_skill: "81,82"
     launch_time: 2016-5-20 00:00:00
     extra: ",Nozomi Yamane,"
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 44003
+    id: 44
+    name: M16A1
+    sub_name: M16A1 - Consummate Model
+    type: 1
+    code: M16A1_Boss
+    introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
+    forces: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 6
+    rate_rank: 6
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 6
+    counter: Depending on the gun type of the Doll marked by M16A1's detector, M16A1 will receive different buffs. When a detector is placed, consider carefully what kind of Doll you use to pick it up.
+    character: "1001,215,309"
+    enemy_skill: "81,82,8301"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Nozomi Yamane,"
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 44004
+    id: 44
+    name: M16A1
+    sub_name: M16A1 - Sovereign Model
+    type: 1
+    code: M16A1_Boss
+    introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
+    forces: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 6
+    rate_rank: 6
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 6
+    counter: This unit will target your unit with the highest damage output. Please engage her strategically.
+    character: "1001,215,309"
+    enemy_skill: "83"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Nozomi Yamane,"
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 44005
+    id: 44
+    name: M16A1
+    sub_name: M16A1 - Augmented Model
+    type: 1
+    code: M16A1_Boss
+    introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
+    forces: 1
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 6
+    rate_rank: 6
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 6
+    counter: This unit will target your unit with the highest damage output and create a large burning area. Please engage her strategically.
+    character: "1001,215,309"
+    enemy_skill: "81,8201,83"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Nozomi Yamane,"
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 45001
     id: 45
     name: Agent
+    sub_name: Agent
     type: 1
     code: Agent
     introduce: In charge of liaising between Elisa and her Sangvis subordinates as well as logistics management. As a high-ranking unit adept at both combat and tactics, she's able to command all Dolls in combat, and they all directly answer to her. Calm and composed, she always speaks in a courteous tone to friends and foes alike. However, apart from the genuine respect she has for her master, she holds everyone else in low regard, especially Griffin.
@@ -945,8 +1385,36 @@
     related_story_id: 200045
   }
   {
+    sub_id: 45002
+    id: 45
+    name: Agent
+    sub_name: Agent - Augmented Model
+    type: 1
+    code: Agent
+    introduce: In charge of liaising between Elisa and her Sangvis subordinates as well as logistics management. As a high-ranking unit adept at both combat and tactics, she's able to command all Dolls in combat, and they all directly answer to her. Calm and composed, she always speaks in a courteous tone to friends and foes alike. However, apart from the genuine respect she has for her master, she holds everyone else in low regard, especially Griffin.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 2
+    rate_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    counter: When this unit activates her shield, penetrate it by concentrating your fire to stop her high-damage attack from charging.
+    character: "1001,212"
+    enemy_skill: "77,78,7801"
+    launch_time: 2016-5-20 00:00:00
+    extra: ",Hitomi Nabatame,"
+    spine_scale: "80,80,1"
+    org_id: 10604
+    related_story_id: 200045
+  }
+  {
+    sub_id: 46001
     id: 46
     name: Strelet
+    sub_name: Strelet
     type: 3
     code: Strelet
     introduce: A basic infantry unit equipped with an assault weapon system of firepower comparable to that of the Military. Despite being a mass-produced basic model, its combat capabilities far surpasses Sangvis Ferri's regular units.
@@ -964,8 +1432,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 47001
     id: 47
     name: Rodelero
+    sub_name: Rodelero
     type: 3
     code: Rodelero
     introduce: An agile heavy-fire unit equipped with a jetpack that can propel it quickly from the back of the field to the forefront. It then charges up and cuts through its enemies with a massive laser beam. It is also outfitted with a force field generator that can repel physical fire.
@@ -985,8 +1455,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 48001
     id: 48
-    name: Doppelsoldner
+    name: Doppels?ldner
+    sub_name: Doppels?ldner
     type: 3
     code: Doppelsoldner
     introduce: A mech with immense firepower. Apart from the bulky armor, it is also equipped with a force field generator. It can attack with the high-velocity autocannons in both hands as well as its multiple grenade launchers, causing wide-spread damage.
@@ -1005,8 +1477,10 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 49001
     id: 49
     name: Uhlan
+    sub_name: Uhlan
     type: 4
     code: Uhlan
     introduce: A fearsome heavily-armored tank also equipped with a force field generator. Its only long-range weaponry is an autocannon, but it can charge into the forefront and make short work of enemy formations.
@@ -1025,8 +1499,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 50001
     id: 50
-    name: Adeline
+    name: Black Nyto
+    sub_name: Black Nyto
     type: 1
     code: Nyto_black
     introduce: One of Paradeus' Nytos. Wielding a highly destructive rifle, she dances among explosions and crashes through her enemies like an angry wave. As a mass-produced model, she has the habit of suppressing her emotions. It is impossible to tell if there are human sentiments lurking beneath her cold and unfathomable facade.
@@ -1049,8 +1525,10 @@
     org_id: 10603
   }
   {
+    sub_id: 51001
     id: 51
-    name: Alina
+    name: White Nyto
+    sub_name: White Nyto
     type: 1
     code: Nyto_white
     introduce: One of Paradeus' Nytos. She descends upon the battlefield like a pure white angel of death, cutting through steel and harvesting lives with her scythe. She takes pride in being one of the earliest advanced Nytos and only shows her cute and gentle side to those she deems worthy.
@@ -1073,8 +1551,10 @@
     org_id: 10603
   }
   {
+    sub_id: 52001
     id: 52
     name: ELID Infected_Armed
+    sub_name: ELID Infected_Armed
     type: 3
     code: Zombie2
     introduce: Human soldiers affected by Collapse radiation. They have lost their reason and descended into an aggressive, rabid state. They move on instinct while wildly spraying shots from their assault rifles at anything they see, but they're no longer capable of complex actions like launching grenades.
@@ -1091,8 +1571,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 53001
     id: 53
     name: ELID Infected_Unarmed
+    sub_name: ELID Infected_Unarmed
     type: 3
     code: Zombie1
     introduce: Human soldiers affected by Collapse radiation. They have lost their weapons and attack anything that moves with their bare hands. While all they can do is flail wildly at the opposition, they possess frightening strength and speed thanks to enhancement from Collapse Fluid.
@@ -1109,8 +1591,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 54001
     id: 54
     name: BOSS Zombie
+    sub_name: BOSS Zombie
     type: 1
     code: Smasher
     introduce: Human soldiers who have been severely affected and mutated by Collapse Radiation. The internal organs and dermal layers of ELID Infected show varying degrees of silicization depending on their amount of exposure. These severely-infected cases possess skin that is extremely tough and resilient to damage, in addition to being more violent and destructive than other Infected.
@@ -1128,8 +1612,31 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 54002
+    id: 54
+    name: BOSS Zombie
+    sub_name: ELID Ringleader - Summer Model
+    type: 1
+    code: Smasher
+    introduce: Human soldiers who have been severely affected and mutated by Collapse Radiation. The internal organs and dermal layers of ELID Infected show varying degrees of silicization depending on their amount of exposure. These severely-infected cases possess skin that is extremely tough and resilient to damage, in addition to being more violent and destructive than other Infected.
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 4
+    dodge_rank: 4
+    rate_rank: 4
+    speed_rank: 3
+    range_rank: 5
+    counter: This unit has balanced abilities and deals sustained, low damage to friendly units. It is unwise to engage it in a drawn-out fight. Confront it with an echelon that has adequate overall combat effectiveness.
+    character: "1001,302,301"
+    enemy_skill: "57,58,5801,5802"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 55001
     id: 55
     name: Prowler_SWAP
+    sub_name: Prowler_SWAP
     type: 2
     code: Prowler_SWAP
     introduce: An upgraded version of the Prowler. The weak firepower and low mobility have been compensated, making it fully viable in direct confrontations that involve intense crossfires.
@@ -1148,8 +1655,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 56001
     id: 56
     name: Jaeger_SWAP
+    sub_name: Jaeger_SWAP
     type: 3
     code: Jaeger_SWAP
     introduce: An upgraded version of the Jaeger. With improved firepower and accuracy as well as better survivability, it has become an even more formidable enemy.
@@ -1169,8 +1678,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 57001
     id: 57
     name: Guard_SWAP
+    sub_name: Guard_SWAP
     type: 3
     code: Guard_SWAP
     introduce: An upgraded version of the Guard. Both its shield and short-range weaponry have been enhanced, further improving its already outstanding defensive capabilities.
@@ -1190,8 +1701,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 58001
     id: 58
     name: Dragoon_SWAP
+    sub_name: Dragoon_SWAP
     type: 3
     code: Dragoon_SWAP
     introduce: An upgraded version of the Dragoon. Both the transportational mech and assault weaponry have been enhanced, making its overall improvement the most significant out of all Sangvis units. Confront with caution.
@@ -1211,8 +1724,10 @@
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 59001
     id: 59
     name: Striker_SWAP
+    sub_name: Striker_SWAP
     type: 3
     code: Striker_SWAP
     introduce: An upgraded version of the Striker. With improved firepower and sturdier armor, it deals more damage and is more effective in suppressing enemy fire.
@@ -1231,8 +1746,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 60001
     id: 60
     name: Aegis_SWAP
+    sub_name: Aegis_SWAP
     type: 5
     code: Aegis_SWAP
     introduce: An upgraded version of the Military Aegis hacked by Sangvis Ferri. Outfitted with contemporary high-spec military armor and a reinforced shield, its melee combat capabilities also see a devastating improvement.
@@ -1252,8 +1769,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 61001
     id: 61
     name: Mercurows
+    sub_name: Mercurows
     type: 1
     code: Nyto_Silver
     introduce: One of the "Nytos" in the mysterious faction. Very little is known about her. Nimogen addresses her as her younger sister. An enthusiast in human poetry, she seems to have unique tastes and sentimentality regarding the subject.
@@ -1273,8 +1792,33 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 61002
+    id: 61
+    name: Mercurows
+    sub_name: Mercurows - Augmented Model
+    type: 1
+    code: Nyto_Silver
+    introduce: One of the "Nytos" in the mysterious faction. Very little is known about her. Nimogen addresses her as her younger sister. An enthusiast in human poetry, she seems to have unique tastes and sentimentality regarding the subject.
+    forces: 3
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 4
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309,312"
+    enemy_skill: "42,43"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    sub_id: 62001
     id: 62
     name: Nimogen
+    sub_name: Nimogen
     type: 1
     code: Nyto_Gold
     introduce: One of the "Nytos" in the mysterious faction. Mercurows addresses her as her elder sister. Very respectful towards "Father". Little else is known about her.
@@ -1294,8 +1838,33 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 62002
+    id: 62
+    name: Anna
+    sub_name: Anna
+    type: 1
+    code: Nyto_Gold
+    introduce: Information unavailable, Proceed with caution!
+    forces: 3
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 3
+    speed_rank: 4
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1001,216,309"
+    enemy_skill: "41"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "85,85,1"
+  }
+  {
+    sub_id: 63001
     id: 63
     name: Gladiator
+    sub_name: Gladiator
     type: 3
     code: Roarer
     introduce: A unit abandoned in Tallinn. It attacks as a melee unit equipped with heavy armor. Related to the mysterious faction.
@@ -1315,8 +1884,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 64001
     id: 64
     name: Patroller
+    sub_name: Patroller
     type: 4
     code: Thunder
     introduce: A unit abandoned in Tallinn. It attacks with its underslung cannon and jumps to dodge attacks. Related to the mysterious faction.
@@ -1336,8 +1907,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 65001
     id: 65
     name: Gunner
+    sub_name: Gunner
     type: 3
     code: StreletPlus
     introduce: A unit abandoned in Tallinn. Very similar to the Strelet but this one possesses even higher firepower and will lower the evasion of enemy Dolls with special ammo. Related to the mysterious faction.
@@ -1356,8 +1929,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 66001
     id: 66
     name: Abandoned Isomer
+    sub_name: Abandoned Isomer
     type: 3
     code: Isomer
     introduce: A unit abandoned in Tallinn. It has no offensive capabilities on its own but can stun surrounding enemies. Related to the mysterious faction.
@@ -1376,8 +1951,10 @@
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 67001
     id: 67
     name: Pyxis
+    sub_name: Pyxis
     type: 2
     code: Pyxis
     introduce: A tenacious light mortar equipped with a rapid-firing weapon system that's almost military-grade. As a basic, mass-produced combat unit, it is immobile once deployed and often used to provide suppressive fire.
@@ -1394,8 +1971,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 68001
     id: 68
     name: Failed Isomer
+    sub_name: Failed Isomer
     type: 1
     code: Nyto_Isomer_White
     introduce: An Isomer who has merged with Nimogen's neural cloud and taken over her body in Tallinn. She wishes to lead all Isomers in Tallinn in "leaving this place". After the arrival of the Commander's forces in Tallinn, she designates M4 as the "Qualifier" who can guide their departure.
@@ -1415,8 +1994,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 69001
     id: 69
     name: RecceCentre
+    sub_name: RecceCentre
     type: 2
     code: RecceCentre
     introduce: The Military's micro factory for producing Pathfinders. It has little combat capabilities of its own and moves rather slowly, but it's usually protected by a large amount of defensive units.
@@ -1430,8 +2011,10 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 70001
     id: 70
     name: Pathfinder
+    sub_name: Pathfinder
     type: 2
     code: Pathfinder
     introduce: Pathfinder: An orb-shaped unit produced by the RecceCentre. Its combat capabilities depend on the RecceCentre's configuration. Equipped with basic firepower, it is fragile but also very nimble. Suited for mass production.
@@ -1451,8 +2034,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 71001
     id: 71
     name: Centaurus
+    sub_name: Centaurus
     type: 3
     code: Archer
     introduce: The Military's regular combat unit that fires special arrows with exploding arrowheads. It is a well-trained elite unit with an ultra long firing range and high accuracy.
@@ -1471,8 +2056,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 72001
     id: 72
     name: Orthrus
+    sub_name: Orthrus
     type: 2
     code: Beast
     introduce: The Military's regular combat mech. It is a heavy tank-type melee unit commonly used to bulldoze enemy formations and take pressure off the front row. It's rugged and sturdy, but its attacks are repetitive and predictable, so it's only good as a meat shield.
@@ -1491,8 +2078,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 73001
     id: 73
     name: Minotaurus
+    sub_name: Minotaurus
     type: 5
     code: TeslaTrooper
     introduce: A high-spec military mech made for the army. Equipped with heavy armor and a missile launcher, making it very well-rounded.
@@ -1512,8 +2101,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 74001
     id: 74
     name: Argonauts - Carina
+    sub_name: Argonauts - Carina
     type: 2
     code: GustafL_3
     introduce: The front section of the high-spec military railway cannon made for the army.
@@ -1530,8 +2121,10 @@
     spine_scale: "-15,15,1"
   }
   {
+    sub_id: 75001
     id: 75
     name: Argonauts - Vela
+    sub_name: Argonauts - Vela
     type: 2
     code: GustafL_2
     introduce: The middle section of the high-spec military railway cannon made for the army.
@@ -1548,8 +2141,10 @@
     spine_scale: "-15,15,1"
   }
   {
+    sub_id: 76001
     id: 76
     name: Argonauts - Puppis
+    sub_name: Argonauts - Puppis
     type: 2
     code: GustafL_1
     introduce: The rear section of the high-spec military railway cannon made for the army.
@@ -1566,8 +2161,10 @@
     spine_scale: "-15,15,1"
   }
   {
+    sub_id: 77001
     id: 77
     name: Kratos
+    sub_name: Kratos
     type: 4
     code: Kratos
     introduce: A special unit produced by the Military which has a massive body and great strength. It is suited for overwhelming assaults and excels as both a meat shield and formation breaker.
@@ -1587,8 +2184,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 78001
     id: 78
     name: Acheron
+    sub_name: Acheron
     type: 4
     code: Acheron
     introduce: Special equipment developed by the Military. It resembles a lamp post and deploys after reaching a designated location, whereupon it generates a defensive force field. Typically assigned to where its abilities are needed.
@@ -1602,8 +2201,10 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 79001
     id: 79
     name: Coeus
+    sub_name: Coeus
     type: 4
     code: Coeus
     introduce: A special mech produced by the Military. It is equipped with compact, explosive firepower and possesses a certain degree of mobility, making it something like a trump card used to tactically suppress the opposition with its unmatchable superiority in specs.
@@ -1623,8 +2224,10 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 80001
     id: 80
     name: AA-02 Sinner
+    sub_name: AA-02 Sinner
     type: 1
     code: Ares
     introduce: An elite mech produced by the Military, originally meant to be piloted by a certain officer. Possesses outstanding performance and is equipped with powerful weapons. Even without its massive cannon it can still attack with guided missiles. It is also equipped with a shield for defense. This tactical mech, known as "Sinner", confers overwhelming dominance of the entire battlefield.
@@ -1644,15 +2247,36 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 80002
+    id: 80
+    name: AA-02 Sinner
+    sub_name: AA-02 Sinner - Augmented Model
+    type: 1
+    code: Ares
+    introduce: An elite mech produced by the Military, originally meant to be piloted by a certain officer. Possesses outstanding performance and is equipped with powerful weapons. Even without its massive cannon it can still attack with guided missiles. It is also equipped with a shield for defense. This tactical mech, known as "Sinner", confers overwhelming dominance of the entire battlefield.
+    forces: 2
+    pow_rank: 6
+    life_rank: 6
+    hit_rank: 6
+    dodge_rank: 4
+    rate_rank: 4
+    armor_rank: 6
+    speed_rank: 6
+    range_rank: 7
+    counter: This heavily-armored unit deals high damage to flagged positions. When shielded, it suffers flat damage from feedback if its shield is penetrated. Move your Dolls in time to avoid taking damage.
+    character: "1001,302,309,326,316"
+    enemy_skill: "93,94,95"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "40,40,1"
+  }
+  {
+    sub_id: 81001
     id: 81
     name: Elisa
+    sub_name: Elisa
     type: 1
     code: Eliza_boss
-    introduce:
-      '''
-      A high-end AI developed by Lyco. The commander only has to give a simple order and the mainframe "Elisa" will automatically compute a sensible plan of action. This high-end AI mainframe is furnished with a team of dedicated Dolls, which can be remotely commanded through the network to carry out her plans.
-       However, she is not a simple AI program. Lyco's ultimate aim was to create an artificial consciousness, a perfect AI that could think and feel like a human being. After the Butterfly Incident, "Elisa" gained a physical body and took command of all S.F. Dolls. In order to avenge her father Lyco, she attacked all humans and non-S.F. Dolls on sight. At the same time, she hopes to become the perfect AI in Lyco's mind - that is to say, she wants a mind that is the same as a human being's - and so she has begun looking for a sample of the perfect AI among her father's files.
-      '''
+    introduce: "#VALUE!"
     forces: 1
     pow_rank: 7
     life_rank: 6
@@ -1667,8 +2291,31 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 81002
+    id: 81
+    name: Elisa
+    sub_name: Elisa - Augmented Model
+    type: 1
+    code: Eliza_boss
+    introduce: "#VALUE!"
+    forces: 1
+    pow_rank: 7
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 4
+    rate_rank: 4
+    range_rank: 5
+    counter: The Reverse Collapse effect might render your Dolls unable to fight, but floating in the air is also a form of protection. Make use of this to evade otherwise unavoidable damage!
+    character: "1001,900"
+    enemy_skill: "85,86,87"
+    launch_time: 2016-5-20 00:00:00
+    spine_scale: "60,60,1"
+  }
+  {
+    sub_id: 82001
     id: 82
     name: Crab Cannon
+    sub_name: Crab Cannon
     type: 4
     code: Hydra_beach
     introduce: An autonomous weapon that a certain military enterprise spent a sky-high budget to develop. Meticulously designed to disguise itself as a creature, but other than looking bigger, it isn't anything special. The manufacturer denies this to be the main reason of its going defunct.
@@ -1686,8 +2333,10 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 83001
     id: 83
     name: Mechanical Crab
+    sub_name: Mechanical Crab
     type: 4
     code: landmine_beach
     introduce: An old autonomous weapon developed by a certain military enterprise. The initial idea was to camouflage it as a creature, but they went a bit overboard and it ended up becoming "highly aggressive mechanical seafood". The design got rejected.
@@ -1704,8 +2353,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 84001
     id: 84
     name: Watermelon House
+    sub_name: Watermelon House
     type: 2
     code: RecceCentre_beach
     introduce: An old autonomous weapon manufactured by a certain military enterprise. A facility for producing Faux Watermelons, but the development progress was hindered by unsuspecting tourists.
@@ -1718,8 +2369,10 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 85001
     id: 85
     name: Faux Watermelon
+    sub_name: Faux Watermelon
     type: 2
     code: Pathfinder_beach
     introduce: An old autonomous weapon developed by a certain military enterprise. The original idea was to deceive enemies by disguising it as tasty food, which resulted in an accident in which a tester mistook it as real food and attempted to cut it open.
@@ -1738,8 +2391,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 86001
     id: 86
     name: Ripper SWAP
+    sub_name: Ripper SWAP
     type: 3
     code: Ripper_SWAP
     introduce: A vastly upgraded Ripper features massive improvement to both its firepower and mobility. It sports a new uniform and hair color to cut all ties with the past.
@@ -1759,8 +2414,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 87001
     id: 87
     name: Cocktail Addict
+    sub_name: Cocktail Addict
     type: 3
     code: Cocktail
     introduce: A dangerous person in the streets., Throws Molotov cocktails that deal continuous burning damage to enemies.
@@ -1777,8 +2434,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 88001
     id: 88
     name: Fanatical Assaulter
+    sub_name: Fanatical Assaulter
     type: 3
     code: Cottoncaper
     introduce: A dangerous person that charges at the forefront with appalling courage.
@@ -1794,8 +2453,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 89001
     id: 89
     name: Mercenary Rifle Shooter
+    sub_name: Mercenary Rifle Shooter
     type: 3
     code: Hiresniper
     introduce: An experienced mercenary who keeps his distance and snipes enemies.
@@ -1812,8 +2473,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 90001
     id: 90
     name: Indebted Assassin
+    sub_name: Indebted Assassin
     type: 3
     code: Swordsman
     introduce: Wields a sharp blade, very athletic.
@@ -1829,8 +2492,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 91001
     id: 91
     name: Carcano M91/38
+    sub_name: Carcano M91/38
     type: 1
     code: CarcanoEnemy
     introduce: An enemy that's unaccounted for.
@@ -1848,8 +2513,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 92001
     id: 92
     name: Henrietta
+    sub_name: Henrietta
     type: 1
     code: HenEnemy
     introduce: An enemy that's unaccounted for.
@@ -1865,8 +2532,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 93001
     id: 93
     name: Rico
+    sub_name: Rico
     type: 1
     code: RicoEnemy
     introduce: An enemy that's unaccounted for.
@@ -1882,8 +2551,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 94001
     id: 94
     name: Vespid_SWAP
+    sub_name: Vespid_SWAP
     type: 3
     code: Vespid_SWAP
     introduce: An upgraded version of Vespid that can do a significant amount of damage to enemies. It sports a new helmet and set of armor to highlight the difference in power between itself and the older model.
@@ -1903,8 +2574,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 95001
     id: 95
     name: Brute_SWAP
+    sub_name: Brute_SWAP
     type: 3
     code: Brute_SWAP
     introduce: An upgraded version of Brute that poses a significant threat to armored enemies.
@@ -1923,8 +2596,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 96001
     id: 96
     name: Nemeum_SWAP
+    sub_name: Nemeum_SWAP
     type: 4
     code: Nemeum_SWAP2
     introduce: An upgraded version of Nemeum whose high accuracy makes it hard to evade its attacks.
@@ -1943,8 +2618,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 97001
     id: 97
     name: Wandering Refugee
+    sub_name: Wandering Refugee
     type: 3
     code: refugee_hg
     introduce: Human stragglers infected by Collapse Fluid radiation who still retain some level of sanity. They fight enemies using small arms and light weapons.
@@ -1961,8 +2638,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 98001
     id: 98
     name: Rampaging Refugee
+    sub_name: Rampaging Refugee
     type: 3
     code: refugee_smg
     introduce: Human stragglers infected by Collapse Fluid radiation who have become ferocious and blood-thirsty due to their severe condition. They will not give up until they have destroyed their enemies.
@@ -1979,8 +2658,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 99001
     id: 99
     name: Goliath Factory
+    sub_name: Goliath Factory
     type: 2
     code: Golyat_Factory
     introduce: A mobile Sangvis weapon factory that can keep churning out self-detonating Goliaths. The longer it remains on the battlefield, the more threatening it is.
@@ -1999,8 +2680,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 101001
     id: 101
     name: Pumpkin Ripper
+    sub_name: Pumpkin Ripper
     type: 3
     code: Ripper_Halloween
     introduce: A festive special-edition Sangvis Dummy equipped with short-range submachine weapons and somewhat useless protective gear on the head. It is fairly mobile and often takes part in battles as a jack-o'-lantern carver or patrol that uses a jack-o'-lantern as illumination.
@@ -2017,8 +2700,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 102001
     id: 102
     name: Phantom Jaeger
+    sub_name: Phantom Jaeger
     type: 3
     code: Jaeger_Halloween
     introduce: A festive special-edition Sangvis Dummy armed with a long-ranged sniper weapon with high firepower and accuracy. Even though it has meticulously peppered itself with phosphorus powder to appear luminous, that does nothing to change its fragile nature.
@@ -2035,8 +2720,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 103001
     id: 103
     name: Witch Dragoon
+    sub_name: Witch Dragoon
     type: 3
     code: Dragon_Halloween
     introduce: A festive special-edition Sangvis Dummy equipped with an experimental hover-transport device, an anti-grav wide-brimmed hat, and an assault rifle. With its considerable firepower, attack range, and mobility, it often plays the part of scaring Destroyer and getting bombed.
@@ -2052,8 +2739,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 104001
     id: 104
     name: Demonic Knight
+    sub_name: Demonic Knight
     type: 5
     code: Aegis_Halloween
     introduce: Once a valiant knight who has fought in countless battles, he turned into a Demonic Knight after a demon possessed his body. Even though he has lost all his memories, he still vaguely remembers there is something he must protect.
@@ -2069,8 +2758,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 105001
     id: 105
     name: Demonic Steed
+    sub_name: Demonic Steed
     type: 4
     code: Nemeum_Halloween
     introduce: Once a fearless war horse, it turned into a Demonic Steed after a demon possessed its body. Even though it has lost all its memories, it still vaguely remembers there is something it must protect.
@@ -2086,8 +2777,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 106001
     id: 106
     name: Xmas Dinergate
+    sub_name: Xmas Dinergate
     type: 2
     code: Dinergate_chm1
     introduce: A low-tier Sangvis celebratory unit that has relatively low transporting capacity, but with the reindeer's help, it's mostly used in enhancing the Christmas atmosphere. If its preset route is blocked, it will crash through a wall to deliver presents if it has to, so please do not arbitrarily change the location of your door.
@@ -2102,8 +2795,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 107001
     id: 107
     name: Dinereindeer
+    sub_name: Dinereindeer
     type: 2
     code: Dinergate_chm2
     introduce: A low-tier Sangvis transportational unit mostly used in enhancing the Christmas atmosphere. If its preset route is blocked, it will crash through a wall to deliver presents if it has to, so please do not arbitrarily change the location of your door.
@@ -2118,8 +2813,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 108001
     id: 108
     name: Gingerbread Guard
+    sub_name: Gingerbread Guard
     type: 3
     code: Guard_chm
     introduce: A high-tier Sangvis holiday unit equipped with a gingerbread shield and candy cane. As its appearance suggests, it is very sugary. It is mostly used to defend the very important kitchen or to intercept Dreamer, who slips in to steal candy while using Destroyer as a diversion.
@@ -2136,8 +2833,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 109001
     id: 109
     name: Narcissus
+    sub_name: Narcissus
     type: 1
     code: Narciss
     introduce: One of Paradeus' Nytos. Her failure in certain aspects makes her much stronger than her fellow Nytos in combat. She attacks like a violent storm, tearing down all enemies in her path and finding joy in destruction.
@@ -2154,10 +2853,13 @@
     character: "1001,329,330"
     enemy_skill: "108,109,110"
     launch_time: 2016-5-20 00:00:00
+    extra: ", Chisa Suganuma,"
   }
   {
+    sub_id: 110001
     id: 110
     name: Gray
+    sub_name: Gray
     type: 1
     code: Mrsgray
     introduce: One of Paradeus' Nytos. A medical expert who is cool-headed and calculating. She is good at making use of everything that will give her an edge, as well as weakening her enemies to give herself an advantage.
@@ -2175,8 +2877,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 111001
     id: 111
     name: Morridow
+    sub_name: Morridow
     type: 1
     code: Morridow_nor
     introduce: One of Paradeus' Nytos. Cunning, ruthless, and capricious.
@@ -2188,8 +2892,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 112001
     id: 112
     name: Morridow
+    sub_name: Morridow
     type: 1
     code: Morridow
     introduce: One of Paradeus' Nytos. Cunning, ruthless, and capricious. An unfathomable spokesperson who sets traps like a spider - she doesn't show herself until she attacks.
@@ -2207,8 +2913,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 113001
     id: 113
     name: Agent
+    sub_name: Agent
     type: 3
     code: Plaincloth
     introduce: Members of the Stasi who are deployed here on a certain mission. They specialize in tracking and survival. You're only worth something if you're alive - they know this only too well.
@@ -2224,8 +2932,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 114001
     id: 114
     name: Rioter
+    sub_name: Rioter
     type: 3
     code: Mobster
     introduce: Gangsters active in the old town. The law is a complete joke to them; people in the underbelly of society have their own set of rules. They throw haphazard DIY weapons at enemies and are absolutely confident that their projectiles will hit the closest target.
@@ -2242,8 +2952,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 115001
     id: 115
     name: Defender
+    sub_name: Defender
     type: 3
     code: Punish
     introduce: A melee unit that charges across the battlefield with a heavy shield and an assault weapon.
@@ -2261,8 +2973,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 116001
     id: 116
     name: Hymnal Organ
+    sub_name: Hymnal Organ
     type: 2
     code: Cherub
     introduce: A specialized combat unit that continuously attacks enemies with high HP using a laser beam. The attack is monotonous but concentrated and can lethally penetrate enemy formations.
@@ -2280,8 +2994,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 117001
     id: 117
     name: Quill of Patmos
+    sub_name: Quill of Patmos
     type: 2
     code: Visjnoe
     introduce: A tactical device set up on the battlefield that reacts to all mechanical units, including T-Dolls. It removes enemies buffs as well as clears negative status effects on allies - very bad news as an enemy support unit.
@@ -2299,8 +3015,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 118001
     id: 118
     name: Gladiator
+    sub_name: Gladiator
     type: 3
     code: Roarer_New
     introduce: A large, heavily-armored melee unit related to the mysterious faction.
@@ -2320,8 +3038,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 119001
     id: 119
     name: Patroler
+    sub_name: Patroler
     type: 4
     code: Thunder_New
     introduce: This unit attacks with the cannon mounted on its lower section and leaps to evade attacks. Related to the mysterious faction.
@@ -2341,8 +3061,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 120001
     id: 120
     name: Gunner
+    sub_name: Gunner
     type: 3
     code: Soldier_New
     introduce: A unit very similar to the Stretlet, but with improved firepower and uses special ammo that reduces enemies' evasion. Related to the mysterious faction.
@@ -2361,8 +3083,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 121001
     id: 121
     name: Corpse Bride
+    sub_name: Corpse Bride
     type: 3
     code: Vespid_bride
     introduce: In the silent mansion, a resplendent wedding dress is possessed by strong, lingering resentment. Do not let her beauty bewitch you - remember to dodge if she throws her bouquet at you.
@@ -2380,8 +3104,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 122001
     id: 122
     name: Phantom
+    sub_name: Phantom
     type: 3
     code: Brute_Ghost
     introduce: In the silent mansion, one can sometimes hear eerie, echoing weeping. Watch out for the white glint as you turn a corner - it's bad news, whether it's the phantom himself or his blade.
@@ -2398,8 +3124,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 123001
     id: 123
     name: Great White Playground
+    sub_name: Great White Playground
     type: 2
     code: RecceCentreSwim
     introduce: An illegal military weapon camouflaged as a shark-themed amusement park to facilitate smuggling. Its primary function is the production of Shark Volleyballs. Its cute exterior makes it popular with kids while being transported in disguise.
@@ -2413,8 +3141,10 @@
     spine_scale: "40,40,1"
   }
   {
+    sub_id: 124001
     id: 124
     name: Shark Volleyball
+    sub_name: Shark Volleyball
     type: 2
     code: PathfinderSwim
     introduce: An illegal military weapon camouflaged as a volleyball to facilitate smuggling. Its disguise is so good that accidents where people have ended up serving "explosive spikes" have occurred whiel they were being transported.
@@ -2433,8 +3163,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 125001
     id: 125
     name: Oceanic Bartender
+    sub_name: Oceanic Bartender
     type: 3
     code: CyclopsSwim
     introduce: A service Doll specialized for use on ocean cruises. Combines the functions of a server and a bodyguard and can switch between modes to suit the situation. They can also be switched to manual control when necessary.
@@ -2452,8 +3184,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 126001
     id: 126
     name: Architect - NVW Model
+    sub_name: Architect - NVW Model
     type: 1
     code: BossArchitect_Summer
     introduce: Architect - Naval Warfare Specialized Model, NVW Model for short, is a naval warfare Doll body that IOP created by breaking down and making modifications to an abandoned Sangvis project. When not on the seaside, Architect will alter her surroundings into a naval environment with stored materials before entering combat. Constructing suitable battle fronts is an architect's job, after all.
@@ -2475,8 +3209,10 @@
     org_id: 10603
   }
   {
+    sub_id: 127001
     id: 127
     name: Professional Bodyguard
+    sub_name: Professional Bodyguard
     type: 3
     code: guard_katsura
     introduce: A professional bodyguard hired to provide protection services. They have been rigorously trained and is both very skilled and very loyal.
@@ -2487,14 +3223,16 @@
     rate_rank: 5
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "430"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 128001
     id: 128
     name: Veteran Bodyguard
+    sub_name: Veteran Bodyguard
     type: 3
     code: guard_bald
     introduce: A professional bodyguard hired to provide protection services. They have been rigorously trained and is both very skilled and very loyal. They are among the most skilled in their field and their greater strength is immediately obvious through their distinctive characteristics.
@@ -2511,8 +3249,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 129001
     id: 129
     name: Staff of Aesclepius
+    sub_name: Staff of Aesclepius
     type: 3
     code: Obelisk_partB
     introduce: A heavy firepower Doll unit that uses a machine gun. The machine gun they carry charges up and then fires three plasma beams, which can both cause blindness and ignore evasion to some extent. Their power is greatly improved when combined with the Dish of Aceso.
@@ -2524,15 +3264,17 @@
     rate_rank: 3
     speed_rank: 1
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,1003,335,320"
     enemy_skill: "130"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 130001
     id: 130
     name: Dish of Aceso
+    sub_name: Dish of Aceso
     type: 2
     code: Obelisk_partA
     introduce: A specialized combat unit that uses a machine gun. They fire plasma beams at their target and ignore its evasion to some extent. Their power is greatly improved when combined with the Staff of Aesclepius..
@@ -2550,8 +3292,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 131001
     id: 131
     name: Warden
+    sub_name: Warden
     type: 3
     code: Riotguard
     introduce: A security unit with great suppressive power. They often deploy in groups, using their shields to pressure the enemy along with their taser batons.
@@ -2570,8 +3314,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 132001
     id: 132
     name: Maccabee
+    sub_name: Maccabee
     type: 5
     code: Metalmax
     introduce: A powerful and heavily-armored melee unit that deals devastating strikes to lighter targets with the hammer it wields.
@@ -2590,8 +3336,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 133001
     id: 133
     name: Hannibal
+    sub_name: Hannibal
     type: 5
     code: Executioner
     introduce: A special heavy mech unit produced by Paradeus that possessess the most advanced melee weaponry and armor. Its selling point is being hard to destroy and devastating combat power.
@@ -2610,8 +3358,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 134001
     id: 134
     name: Grenadier
+    sub_name: Grenadier
     type: 3
     code: Grenadier
     introduce: A light Doll unit that primarily fights with thrown weapons. They use thrown grenades to deal massive damage in an area.
@@ -2630,8 +3380,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 135001
     id: 135
     name: Murat
+    sub_name: Murat
     type: 5
     code: Mastersergeant
     introduce: A new model of command unit equipped with powerful sensors. It can give clear and effective orders to its subordinates, but its personal combat power might need some improvement.
@@ -2651,8 +3403,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 136001
     id: 136
     name: Machlian
+    sub_name: Machlian
     type: 1
     code: Rogue_M
     introduce: This long-lost Bohnsdorf maiden is the very picture of life as she stands before you, as though she had never passed away.
@@ -2670,8 +3424,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 137001
     id: 137
     name: Elusinian Mysteries
+    sub_name: Elusinian Mysteries
     type: 1
     code: Obelisk
     introduce: A machine gun unit with ferocious firepower, equipped with a dual machine gun system that can blind opponents. It converts the Box of Iaso placed within it into plasma beams which it fires, allowing it to simultaneously attack many units and contaminate the ground within its attacks' area of effect.
@@ -2690,8 +3446,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 138001
     id: 138
     name: Grig
+    sub_name: Grig
     type: 1
     code: Teal
     introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
@@ -2710,8 +3468,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 139001
     id: 139
     name: Bramedb
+    sub_name: Bramedb
     type: 1
     code: Bramede
     introduce: An elite Paradeus unit, she is extremely charming and can easily break down her opponent's defense. She is still seductive even in her combat mode. She is skilled at confusing the hearts and neural clouds of humans and Dolls and possesses extremely high electronic warfare abilities. She can steal information while hacking a Doll's neural cloud and even cause them to crash.
@@ -2730,8 +3490,10 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 140001
     id: 140
     name: Intruder - Sorceress of the End
+    sub_name: Intruder - Sorceress of the End
     type: 1
     code: Intruder_Halloween
     introduce: Intruder - Sorceress of the End is a Doll body specializing in military encounters that IOP created from simulation data gathered by extensive analysis and experimentation on Intruder. With new technology applied to her emotion module, not only does the Sorceress of the End model possess immense command and support capabilities, she can also instill crippling fear in her enemies' minds on a small battlefield, effectively destroying their morale.
@@ -2752,8 +3514,10 @@
     org_id: 10602
   }
   {
+    sub_id: 141001
     id: 141
     name: CAWS
+    sub_name: CAWS
     type: 3
     code: HKCAWS_XmasEnemy
     introduce: I'm back from my gift shopping, please pay me for 119 presents... You want to know why you don't have to pay for the last one? That's because it's my gift to you.
@@ -2771,8 +3535,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 142001
     id: 142
     name: VSK-94
+    sub_name: VSK-94
     type: 3
     code: VSK_XmasEnemy
     introduce: I'm here to give you a gift, please cooperate and don't panic... Wait, so you're saying this makes people even more nervous? Sorry, Boss, force of habit.
@@ -2790,8 +3556,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 143001
     id: 143
     name: P7
+    sub_name: P7
     type: 3
     code: P7_XmasEnemy
     introduce: Aw, in the end you still ended up in the palm of my hand.
@@ -2803,14 +3571,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "100,443"
     enemy_skill: "143"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 144001
     id: 144
     name: FP-6
+    sub_name: FP-6
     type: 3
     code: FP6_XmasEnemy
     introduce: I didn't know being Santa Claus would be so tricky... How does that fat old coot squeeze himself in, anyway?
@@ -2822,14 +3592,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "100,444"
     enemy_skill: "144"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 145001
     id: 145
     name: 100 Shiki
+    sub_name: 100 Shiki
     type: 3
     code: Type100_XmasEnemy
     introduce: Ah... I finally dug myself out... Hm? This is...? Uwah! Thank you, this is the best present ever!
@@ -2841,17 +3613,19 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "100,445"
     enemy_skill: "145"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 146001
     id: 146
     name: Px4 Storm
+    sub_name: Px4 Storm
     type: 1
     code: Px4Storm_XmasBoss
-    introduce: Christmas is all about the sales, and only discount prices can multiply the value of happiness~
+    introduce: Christmas sales are the real point of Christmas. Only discounted prices can multiply happiness~
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -2866,8 +3640,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 147001
     id: 147
     name: Destroyer - Dashing Reindeer
+    sub_name: Destroyer - Dashing Reindeer
     type: 1
     code: Destroyer_Christmas
     introduce: Destroyer - Dashing Reindeer is a specialized model developed for combat in snow, ensuring that Destroyer can maintain her high speed and accuracy even in the cold. This model also features enhanced firepower and explosive strength. At Destroyer's own forceful insistence, the appearance is based on a reindeer, and her ammo is packaged as Christmas hanging ornaments, so that she can deliver sweet death to her enemies.
@@ -2888,8 +3664,10 @@
     org_id: 10603
   }
   {
+    sub_id: 148001
     id: 148
     name: Nyto - Patroller
+    sub_name: Nyto - Patroller
     type: 3
     code: Nyto_Black_SMG
     introduce: An elite Nyto that is mass-produced by Avernus. She wields dual submachineguns and possesses the high mobility and firepower needed to handle daily patrol missions.
@@ -2907,8 +3685,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 149001
     id: 149
     name: Nyto - Hammerer
+    sub_name: Nyto - Hammerer
     type: 5
     code: Nyto_Black_Hammer
     introduce: An elite Nyto that is mass-produced by Avernus. She uses a massive hammer as a weapon, and after special modifications, the weapon can inflict stunning effects. Meanwhile, her frame also possesses greater defensive power.
@@ -2927,8 +3707,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 150001
     id: 150
     name: Nyto - Hawkeye
+    sub_name: Nyto - Hawkeye
     type: 3
     code: Nyto_Black_RF
     introduce: An elite Nyto that is mass-produced by Avernus. She uses a sniper rifle as a primary weapon and can accurately strike fatal blows on her opponents' weaknesses from extremely long distances.
@@ -2946,8 +3728,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 151001
     id: 151
     name: Nyto - Supporter
+    sub_name: Nyto - Supporter
     type: 3
     code: Nyto_White_Commander
     introduce: An elite Nyto that is mass-produced by Avernus. She uses a tactical tablet to weaken her foes or strengthen her allies. She can support her teammates and increase their combat power.
@@ -2965,8 +3749,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 152001
     id: 152
     name: Garmr
+    sub_name: Garmr
     type: 2
     code: Cerberus_White
     introduce: The latest model of mechanical hound that is mass-produced in Avernus. It is highly agile, mobile, and equipped with powerful teeth and claws.
@@ -2984,8 +3770,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 153001
     id: 153
     name: Northern Elite Agent
+    sub_name: Northern Elite Agent
     type: 3
     code: USSR_Agent
     introduce: An elite agent from a frigid land. A one in a million talent who possesses a wealth of combat experience and a ruthless attitude.
@@ -2997,13 +3785,15 @@
     rate_rank: 5
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001"
     launch_time: 2035-5-20 00:00:00
   }
   {
+    sub_id: 154001
     id: 154
     name: Morridow
+    sub_name: Morridow
     type: 1
     code: morridow_boss
     introduce: This elite Paradeus unit is cunning and sinister, a master of disguise with many faces. Her accomplishments have awarded her a valuable chance for modification, and she has a body made with brand-new Paradeus technology. Her combat power has been greatly improved and her trapping technique has been upgraded as well. However, her virtual cognition image seems to have changed without her realizing...
@@ -3021,8 +3811,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 155001
     id: 155
     name: Nemhran
+    sub_name: Nemhran
     type: 1
     code: Nimeylan
     introduce: An elite Paradeus unit who is cold, unfeeling, clear of mind and self-aware. She occupies an irreplaceable position in Paradeus. She has short-range flight abilities and is skilled at disrupting enemies with electronic weapons, and over extended, painful torture, she fills her foes witrh despair and helplessness before slowly extinguishing their will to live.
@@ -3040,8 +3832,31 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 155002
+    id: 155
+    name: Nemhran
+    sub_name: Nemhran - Augmented Model
+    type: 1
+    code: Nimeylan
+    introduce: An elite Paradeus unit who is cold, unfeeling, clear of mind and self-aware. She occupies an irreplaceable position in Paradeus. She has short-range flight abilities and is skilled at disrupting enemies with electronic weapons, and over extended, painful torture, she fills her foes witrh despair and helplessness before slowly extinguishing their will to live.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit creates orbs of lights which can deal great damage to friendly units. Take note and defend against them.
+    character: "1001"
+    enemy_skill: "161,162,163,164"
+    launch_time: 2016-5-20 00:00:00
+  }
+  {
+    sub_id: 156001
     id: 156
     name: RPK-16
+    sub_name: RPK-16
     type: 1
     code: RPK16_Nyto
     introduce: With the support of Paradeus' technology, RPK-16's modification is now partially complete. Although is still in an incomplete state, her firepower has been greatly enhanced and she can use certain Paradeus core technologies. Their effect on her neural cloud remains unknown.
@@ -3060,8 +3875,10 @@
     launch_time: 2035-5-20 00:00:00
   }
   {
+    sub_id: 157001
     id: 157
     name: Hunter - Nightfall Moth
+    sub_name: Hunter - Nightfall Moth
     type: 1
     code: Hunter_WhiteDay
     introduce: Hunter - Nightfall Moth is a uniquely-specialized assassination model. Her clothing incorporates structures similar to those of insect wing scales, and the colors they reflect can be adjusted in order to blend into the environment. In keeping with Hunter's personal preferences, they default to a cornflower blue color under normal circumstances, which seems to exert a certain degree of hypnotic effect. In combat, this effect is primarily shown by filling the air with blue flower petals or by suddenly changing the background. This also implies that by the time you see the abovementioned scenery, you have already stepped into Hunter's trap.
@@ -3075,7 +3892,7 @@
     armor_rank: 4
     speed_rank: 5
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,203,309"
     launch_time: 2035-5-20 00:00:00
     extra: ",Ami Hagiwara,"
@@ -3083,8 +3900,10 @@
     org_id: 10602
   }
   {
+    sub_id: 158001
     id: 158
     name: Dessertgate
+    sub_name: Dessertgate
     type: 2
     code: Dinergate_WhiteDay
     introduce: A dessertgate born from a production line that was modified by Persicaria. Its energy source is sweet snacks and it will cheerfully snatch away delicious desserts. While it is also very delicious in itself, one should take care not to chip their teeth on it.
@@ -3100,8 +3919,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 159001
     id: 159
     name: Black Chococalorie Bomb
+    sub_name: Black Chococalorie Bomb
     type: 2
     code: Dinergate_WhiteDay1
     introduce: A massive ball of chocolate which emanates a delicious scent, its chopped almonds and the tempting lustre of its dark chocolate hint at its high-class deliciousness. However, it explodes easily, so please do not eat it.
@@ -3117,8 +3938,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 160001
     id: 160
     name: White Chococalorie Bomb
+    sub_name: White Chococalorie Bomb
     type: 2
     code: Dinergate_WhiteDay2
     introduce: A massive ball of chocolate which emanates a delicious scent, its chopped almonds and the tempting lustre of its white chocolate hint at its high-class deliciousness. However, it explodes easily, so please do not eat it.
@@ -3134,8 +3957,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 161001
     id: 161
     name: Truffle Chococalorie Bomb
+    sub_name: Truffle Chococalorie Bomb
     type: 2
     code: Dinergate_WhiteDay3
     introduce: A massive ball of chocolate which emanates a delicious scent, its gleaming surface has exquisite patterns drawn on it with melted chocolate, and the sweet flavor when it splits open can satisfy the most demanding palate.However, it explodes easily, so please do not eat it.
@@ -3151,8 +3976,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 162001
     id: 162
     name: Snackberus
+    sub_name: Snackberus
     type: 1
     code: Cerberus_WhiteDay
     introduce: After making a mistake and returning to her "nightmare", Destroyer is gradually losing her senses and only the temptation of chocolate remains. Can dogs eat chocolate?
@@ -3171,8 +3998,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 163001
     id: 163
     name: Roaming Fool
+    sub_name: Roaming Fool
     type: 3
     code: Roarer_swimsuit
     introduce: A simple-minded Lycan local with no particular talents and guards the sanctuary with pure brawn.
@@ -3191,8 +4020,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 164001
     id: 164
     name: Spearfishing Seer
+    sub_name: Spearfishing Seer
     type: 3
     code: Rodelero_swimsuit
     introduce: A mysterious girl revered by the locals in Lycan as the "Seer". The amphibious high-pressure gun she wields seems to be her trusty hunting weapon.
@@ -3211,8 +4042,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 165001
     id: 165
     name: Lycan Surfer
+    sub_name: Lycan Surfer
     type: 3
     code: StreletPlus_swimsuit
     introduce: A surfer who constantly wanders along the seaside of the Lycan Sanctuary, wielding a modified surfboard as a defensive weapon.
@@ -3223,15 +4056,17 @@
     rate_rank: 3
     speed_rank: 1
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1003,312,316"
     enemy_skill: "39"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 166001
     id: 166
     name: Alina - Mosasaur Rider
+    sub_name: Alina - Mosasaur Rider
     type: 1
     code: Nyto_White_Summer
     introduce: Alina - Mosasaur Rider is a specialized model for naval battles. Metal limbs, which are heavy and unwieldy in water, are replaced with lighter and more powerful ones, and both her outfit and construction materials are designed for optimal performance in naval warfare. As per Alina's own suggestion, a sharper and more nimble scythe inspired by an ancient marine creature from the Cretaceous Period has been forged to upgrade her weapon. With her giant scythe howling like a majestic beast, the pure white Goddess of Death is about to dive into the ocean, rending the ties between body and soul, reaping lives submerged in seawater.
@@ -3253,8 +4088,10 @@
     org_id: 10603
   }
   {
+    sub_id: 167001
     id: 167
     name: Vor
+    sub_name: Vor
     type: 3
     code: RussianGangster_HG
     introduce: A member of a violent criminal syndicate formed of nefarious villains who abide only by their own rules. They obtain their ends through whatever ruthless means necessary.
@@ -3265,14 +4102,16 @@
     rate_rank: 5
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "300"
     enemy_skill: "167"
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 168001
     id: 168
     name: Lycaon
+    sub_name: Lycaon
     type: 4
     code: AA02_Mini
     introduce: A light mech used by infantry, it features high-performance mobility systens which allow it to nimbly negotiate complex terrain. It is equipped with two large-caliber machine gun arms and boasts impressive firepower against infantry targets.
@@ -3291,8 +4130,10 @@
     spine_scale: "60,60,1"
   }
   {
+    sub_id: 169001
     id: 169
     name: Coeus
+    sub_name: Coeus
     type: 4
     code: Chariot_Military
     introduce: A missile carrier usable against air and ground targets. Equipped with a quad-linked Stinger anti-aircraft missile system. It possesses an extremely long range and has been widely employed against enemy airborne and armored ground targets.
@@ -3312,8 +4153,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 170001
     id: 170
     name: Cyclops_MG
+    sub_name: Cyclops_MG
     type: 3
     code: Cyclops_MG
     introduce: A military support unit equipped with a high-velocity multi-barrel machine gun. It can provide powerful fire suppression and deal a lot of damage within its effective range.
@@ -3332,8 +4175,10 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 171001
     id: 171
     name: Cerynitis SWAP
+    sub_name: Cerynitis SWAP
     type: 4
     code: Cerynitis_SWAP
     introduce: A modified and superior model of the Military's standard combat mech Cerynitis, now equipped with the latest long-range firing system. The defensive capability of its reactive armor has been enhanced, and its rapid-firing performance also sees a signficant boost.
@@ -3351,8 +4196,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 172001
     id: 172
     name: Aegis_GA_SWAP
+    sub_name: Aegis_GA_SWAP
     type: 5
     code: Aegis_GA_SWAP
     introduce: A modified and superior model of the Military's standard combat unit Aegis. Equipped with a reactive armored shield that enhances its melee offensive capability, it is now more effective in breaching its enemies' defenses.
@@ -3370,8 +4217,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 173001
     id: 173
     name: Miss Eve
+    sub_name: Miss Eve
     type: 1
     code: Nyto_mecha
     introduce: An elite Paradeus unit. Tareus' general capabilities are unremarkable, but her talent in piloting mechs is unparalleled. She has named the mech with the highest synchronization rate "Miss Eve", the only name stored within her memory. Outside of combat, she disguises herself as an ordinary passer-by, but once she enters neural space, she annihilates everything in her path while piloting Miss Eve...
@@ -3391,8 +4240,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 174001
     id: 174
     name: Baba Lyuba
+    sub_name: Baba Lyuba
     type: 1
     code: Oldlady_boss
     introduce: A boss of the Vory. She may be past the age of 50, but she is still spirited and mighty in battle. Dual wielding shotguns and driving her high-speed wheelchair, she can nimbly dodge obstacles in her way and make savage attacks on both her enemies and their wallets.
@@ -3409,8 +4260,10 @@
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 175001
     id: 175
     name: Executioner - Blood Fiend Huntress
+    sub_name: Executioner - Blood Fiend Huntress
     type: 1
     code: Excutioner_Halloween
     introduce: A specialized model for hunting and pursuit. At Executioner's own request, a large artificial limb that can transform into a scythe is incorporated into the design so that she can reap her enemies and wreak havoc effortlessly in battle. At the same time, her black clothing makes it easier to melt into the shadows as her weapon glints coldly behind her enemies' back. Have you seen the one who haunts your dreams? She emerges at night and stalks with death. She hunts down all madness that falls into nightmare.
@@ -3424,16 +4277,18 @@
     armor_rank: 3
     speed_rank: 3
     range_rank: 2
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,202"
     enemy_skill: "60"
     launch_time: 2035-5-20 00:00:00
-    extra: ", Shizuka Itou,"
+    extra: ",Shizuka Itou,"
     org_id: 10604
   }
   {
+    sub_id: 176001
     id: 176
     name: Tareus
+    sub_name: Tareus
     type: 1
     code: Nyto_tareus
     introduce: Tareus, a specialized Nyto mech pilot, has an extremely high compatibility and synchronization rate with the mech "Miss Eve". She is also adept at hacking Dolls' neural clouds and unleashing devastating attacks on her targets. Since she has undergone numerous memory wipes and modifications, her virtual cognition image is very fragile and prone to severe mood swings, but her occasional emotional outbursts are always quickly neutralized by her internal programming.
@@ -3447,7 +4302,7 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,320"
     enemy_skill: "174,175,176"
     launch_time: 2035-5-20 00:00:00
@@ -3456,8 +4311,10 @@
     org_id: 10603
   }
   {
+    sub_id: 177001
     id: 177
     name: Possessed Roomba
+    sub_name: Possessed Roomba
     type: 4
     code: Pumpkin_Dactyl
     introduce: An old machine on the verge of breaking down. However, being dressed with a strange pumpkin seems to have given it the ability to shove away all kinds of clutter.
@@ -3468,15 +4325,17 @@
     armor_rank: 2
     speed_rank: 3
     range_rank: 5
-    counter: This lightly-armored unit has quite a high move speed. This unit rapidly deploys landmines at the start of the battle. Dolls take massive damage when landmines are triggered. Take care to avoid them or eliminate this unit early on.
+    counter: This unit has weak armor and high moving speed. It starts deploying mines in the early stages of battle, causing massive damage upon contact with enemy Dolls. Take care to avoid the mines or destroy this unit ASAP.
     character: "1001,309,322"
     enemy_skill: "19"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 178001
     id: 178
     name: Super Duster
+    sub_name: Super Duster
     type: 5
     code: Mop_Aegis
     introduce: A simple and crude tool for dusting all surfaces, but the rough movements simply send the dust flying everywhere... Sorry, there will be an additional charge for another cleaning.
@@ -3495,8 +4354,10 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 179001
     id: 179
     name: Hell's Chef
+    sub_name: Hell's Chef
     type: 3
     code: Chief_Cyclops
     introduce: You can hire this chef for 90% off just for today - that is, if you don't mind it seasoning everything with mustard.
@@ -3508,15 +4369,17 @@
     rate_rank: 3
     speed_rank: 4
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,319"
     enemy_skill: "16"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 180001
     id: 180
     name: Aliana
+    sub_name: Aliana
     type: 1
     code: spSCARL
     introduce: Former leader of Daybreak Squad, and the executioner of the "Dogtag" protocol. She is the most trusted subordinate of every commander she has served under, but in Amaris' eyes, she does not deserve this honor.
@@ -3532,8 +4395,10 @@
     launch_time: 2035-5-20 00:00:00
   }
   {
+    sub_id: 181001
     id: 181
     name: Scarecrow - Demonic Abyss
+    sub_name: Scarecrow - Demonic Abyss
     type: 1
     code: Scarecrow_SpringFes
     introduce: Scarecrow - Demonic Abyss is a new model with enhanced firepower. With new upgrades, Scarecrow's hovering guns are capable of more powerful damage output. The command ports on her fingertips are also enhanced, strengthening the connection between Scarecrow and the hovering guns. The inspiration for her outfit is apparently a certain mythical beast that would wreak havoc in human villages at the end of each year. Its ferocious eyes would glow in the dark, and its sharp claws can tear through anything... just like Scarecrow.
@@ -3555,8 +4420,10 @@
     org_id: 10604
   }
   {
+    sub_id: 182001
     id: 182
     name: Minion of Clustering
+    sub_name: Minion of Clustering
     type: 1
     code: Scarecrow
     introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
@@ -3568,15 +4435,17 @@
     rate_rank: 4
     speed_rank: 4
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,201"
     enemy_skill: "59"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 183001
     id: 183
     name: Knight of Weighting
+    sub_name: Knight of Weighting
     type: 1
     code: BossGager
     introduce: Mostly in charge of issuing commands and deploying units. Relatively high in rank, she is in command of combat units, yet is quite adept at combat herself. Answers directly to Agent. Serious, uptight, and meticulous, she always appears cool and businesslike both in speech and action. She holds herself to a code of honor even against her enemies.
@@ -3588,15 +4457,17 @@
     rate_rank: 3
     speed_rank: 4
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,207"
     enemy_skill: "66,67,96"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 184001
     id: 184
     name: Puppet of Extremum
+    sub_name: Puppet of Extremum
     type: 1
     code: BossArchitect
     introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
@@ -3616,8 +4487,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 185001
     id: 185
     name: Commander of Normal Distribution
+    sub_name: Commander of Normal Distribution
     type: 1
     code: Agent
     introduce: In charge of liaising between Elisa and her Sangvis subordinates as well as logistics management. As a high-ranking unit adept at both combat and tactics, she's able to command all Dolls in combat, and they all directly answer to her. Calm and composed, she always speaks in a courteous tone to friends and foes alike. However, apart from the genuine respect she has for her master, she holds everyone else in low regard, especially Griffin.
@@ -3636,8 +4509,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 186001
     id: 186
     name: Cartographer of Discreetness
+    sub_name: Cartographer of Discreetness
     type: 1
     code: Excutioner
     introduce: An elite scout who often partners with Scarecrow but is slightly higher in rank. A rough-mannered and impulsive tomboy who takes delight in fair fights and dislikes bullying the weak.
@@ -3650,15 +4525,17 @@
     armor_rank: 3
     speed_rank: 3
     range_rank: 2
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,202,309"
     enemy_skill: "60"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 187001
     id: 187
     name: Shepherd of Variance
+    sub_name: Shepherd of Variance
     type: 1
     code: Destroyer
     introduce: An expert in blowing things up and disarming bombs who also possesses decent combat abilities. Occasionally teams up with Alchemist. She's usually haughty and sharp-tongued, but is actually a tsundere with a somewhat childish temper. She cries under pressure and is very sensitive about her height.
@@ -3677,8 +4554,10 @@
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 188001
     id: 188
     name: Guard of Likelihood
+    sub_name: Guard of Likelihood
     type: 1
     code: Weaver
     introduce: An intelligent Doll created after the Butterfly Incident with high combat capabilities, specializing in short-range assaults and defensive battles. But as the test subject in the developmental phase, her AI is very unstable and difficult to control. Possessing an overwhelming tactical and intellectual advantage over others, she is very self-assured and conceited, but she has little actual combat experience and is too unpredictable even for her allies, which makes her highly dangerous.
@@ -3698,8 +4577,10 @@
     spine_scale: "80,80,1"
   }
   {
+    sub_id: 189001
     id: 189
     name: Singer of Chaos
+    sub_name: Singer of Chaos
     type: 1
     code: Dreamer
     introduce: Combat-oriented and possesses ultra long-range pinpoint sniping capability. A Doll created after the Buttlerfly Incident who answers directly to Elisa. Since she isn't designed to engage enemies directly, she spends most of her time hanging around Sangvis Ferri HQ and bullying Judge for her own amusement. Her charming smile is a flimsy disguise for her arrogance and capriciousness. She is extremely mentally unstable and egotistical, and is prone to becoming frenzied and losing control in battle. She has formidable destructive power and will often disregard her allies' safety. Fortunately, she rarely ever appears in direct combat.
@@ -3718,8 +4599,10 @@
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 190001
     id: 190
     name: Spinner of Posterior Probability
+    sub_name: Spinner of Posterior Probability
     type: 1
     code: Hunter
     introduce: Mobile and intelligent, she's skilled at harassment and pursuit battles. Her true power can only be shown when coordinating with Scarecrow and Executioner. She is calm and subdued, and cornering her foes through various means before capturing them alive. While she has an arrogant attitude toward Griffin, it does not preclude her from using overly despicable methods against them.
@@ -3732,15 +4615,17 @@
     armor_rank: 4
     speed_rank: 5
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,203,309"
     enemy_skill: "62"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "75,75,1"
   }
   {
+    sub_id: 191001
     id: 191
     name: Priest of Shifts
+    sub_name: Priest of Shifts
     type: 1
     code: Alchemist
     introduce: A Sangvis elite who specializes in all kinds of tactics and interrogations. Occasionally teams up with Destroyer. Arrogant, brash, and ruthless, she will do anything to achieve her goals. She has a sadistic streak and toys with Griffin Dolls to satisfy her perverse tendencies. However, her mental maturity still compels her to go the extra mile for her Sangvis companions.
@@ -3752,15 +4637,17 @@
     rate_rank: 4
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,205"
     enemy_skill: "63"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 192001
     id: 192
     name: Monk of Disturbance
+    sub_name: Monk of Disturbance
     type: 1
     code: Intruder
     introduce: In charge of providing battle strategies, yet also adept at decryption and sabotage. Relatively high in rank, she can directly issue commands to combat Dolls but answers to Gager. Her apparent poise and soft-spokenness mask a gaping sense of emptiness. She enjoys human theater and hopes to derive her own personality from it.
@@ -3772,15 +4659,17 @@
     rate_rank: 5
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,204"
     enemy_skill: "84"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "85,85,1"
   }
   {
+    sub_id: 193001
     id: 193
     name: Fool of Convergence
+    sub_name: Fool of Convergence
     type: 1
     code: Justice
     introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
@@ -3800,8 +4689,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 194001
     id: 194
     name: Demonic Abyss
+    sub_name: Demonic Abyss
     type: 1
     code: Scarecrow_SpringFes
     introduce: Scarecrow - Demonic Abyss is a new model with enhanced firepower. With new upgrades, Scarecrow's hovering guns are capable of more powerful damage output. The command ports on her fingertips are also enhanced, strengthening the connection between Scarecrow and the hovering guns. The inspiration for her outfit is apparently a certain mythical beast that would wreak havoc in human villages at the end of each year. Its ferocious eyes would glow in the dark, and its sharp claws can tear through anything... just like Scarecrow.
@@ -3820,109 +4711,10 @@
     spine_scale: "70,70,1"
   }
   {
-    id: 195
-    name: Scarecrow
-    type: 1
-    code: Scarecrow
-    introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
-    forces: 1
-    pow_rank: 5
-    life_rank: 4
-    hit_rank: 4
-    dodge_rank: 4
-    rate_rank: 4
-    speed_rank: 4
-    range_rank: 3
-    counter: Enemy roaming in the Gray Zone, engage with caution!
-    character: "1001,306,307"
-    enemy_skill: "184,185,186"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "70,70,1"
-  }
-  {
-    id: 196
-    name: Architect
-    type: 1
-    code: BossArchitect
-    introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
-    forces: 1
-    pow_rank: 6
-    life_rank: 5
-    hit_rank: 4
-    dodge_rank: 3
-    rate_rank: 3
-    speed_rank: 3
-    range_rank: 5
-    counter: Enemy roaming in the Gray Zone, engage with caution!
-    character: "1001,319"
-    enemy_skill: "187,188,189"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "85,85,1"
-  }
-  {
-    id: 197
-    name: Intruder
-    type: 1
-    code: Intruder
-    introduce: In charge of providing battle strategies, yet also adept at decryption and sabotage. Relatively high in rank, she can directly issue commands to combat Dolls but answers to Gager. Her apparent poise and soft-spokenness mask a gaping sense of emptiness. She enjoys human theater and hopes to derive her own personality from it.
-    forces: 1
-    pow_rank: 4
-    life_rank: 4
-    hit_rank: 3
-    dodge_rank: 4
-    rate_rank: 5
-    speed_rank: 3
-    range_rank: 3
-    counter: Enemy roaming in the Gray Zone, engage with caution!
-    character: "1001,306"
-    enemy_skill: "190,191,192"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "85,85,1"
-  }
-  {
-    id: 198
-    name: Destroyer
-    type: 1
-    code: DestroyerPlus
-    introduce: With Dreamer's modifications, Destroyer's brand new form features greatly enhanced firepower. Her attacks pack an even more powerful punch than before, but her personality and neural cloud have not changed much.
-    forces: 1
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 4
-    dodge_rank: 3
-    rate_rank: 3
-    speed_rank: 4
-    range_rank: 5
-    counter: Enemy roaming in the Gray Zone, engage with caution!
-    character: "1001,319"
-    enemy_skill: "193,194,195"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "85,85,1"
-  }
-  {
-    id: 199
-    name: Judge
-    type: 1
-    code: Justice
-    introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
-    forces: 1
-    pow_rank: 5
-    life_rank: 6
-    hit_rank: 4
-    dodge_rank: 4
-    rate_rank: 4
-    armor_rank: 3
-    speed_rank: 4
-    range_rank: 5
-    counter: Enemy roaming in the Gray Zone, engage with caution!
-    character: "1001,309,307"
-    enemy_skill: "196,197,198"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "70,70,1"
-  }
-  {
+    sub_id: 200001
     id: 200
     name: Arachne
+    sub_name: Arachne
     type: 2
     code: MechanicalSpiderM
     introduce: A combat unit mainframe built in the form of a spider with high mobility. It is equipped with a large complement of smaller combat droids, which makes it a formidable opponent in both assaults and surprise encounters.
@@ -3935,16 +4727,18 @@
     armor_rank: 5
     speed_rank: 3
     range_rank: 2
+    tenacity_rank: 3
     counter: This unit with strong armor spawns clones to disrupt its enemies. It also has considerable defensive capability, so be sure to engage with an echelon that has adequate overall combat effectiveness.
     character: "1001,1005,302,309,321"
     enemy_skill: "199,200,201"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "70,70,1"
-    tenacity_rank: 3
   }
   {
+    sub_id: 201001
     id: 201
     name: Arachne's Clone
+    sub_name: Arachne's Clone
     type: 2
     code: MechanicalSpiderS
     introduce: A small combat unit built in the form of a spider with extremely high mobility and offensive capability. It does devastating damage to both living and mechanical units. These units are spawned in large, unpredictable swarms, making them formidable enemies.
@@ -3964,8 +4758,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 202001
     id: 202
     name: Troy
+    sub_name: Troy
     type: 4
     code: Fortress
     introduce: A fortress-type ultra-heavy combat droid that can transport land forces. It also possesses strategic-level battlefield attack capabilities, making it an advanced combat unit that can easily tip the scales in battles.
@@ -3978,16 +4774,18 @@
     armor_rank: 6
     speed_rank: 3
     range_rank: 3
+    tenacity_rank: 5
     counter: In addition to having powerful defensive capability, this unit is also capable of making decent AoE attacks. It is recommended that you prioritize eliminating this unit.
     character: "1001,1005,302,309,319,313"
     enemy_skill: "203,204,205"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "70,70,1"
-    tenacity_rank: 5
   }
   {
+    sub_id: 203001
     id: 203
     name: Technician
+    sub_name: Technician
     type: 3
     code: Engineer
     introduce: An engineer-type combat droid. It is not particularly lethal or destructive on its own, but as a support unit for other enemies, it can cause quite the headache. Its drone is constantly monitoring the battlefield from above.
@@ -4006,8 +4804,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 204001
     id: 204
     name: Ladon
+    sub_name: Ladon
     type: 4
     code: Mecha_N
     introduce: Paradeus' newest ultra-heavy mech unit. It is capable of doing devastating damage from long, mid, and short range, making it an all-rounder in combat and a dreadful opponent.
@@ -4027,8 +4827,10 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 205001
     id: 205
     name: Cannoneer
+    sub_name: Cannoneer
     type: 3
     code: Artillery
     introduce: Similar to the Gunner, but with improved firepower. The harder-hitting weapon comes at the cost of reduced mobility.
@@ -4040,19 +4842,22 @@
     rate_rank: 3
     speed_rank: 3
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1003,319,316"
     enemy_skill: "209,210"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 206001
     id: 206
     name: Sana
+    sub_name: Sana
     type: 1
     code: Nyto_mecha2
     introduce: An elite Paradeus unit who looks like a frail and delicate girl, but once she dons her custom-made mask and mounts her personal mech, you will wish you could run faster.
     forces: 3
+    if_capture: 1
     pow_rank: 5
     life_rank: 6
     hit_rank: 5
@@ -4064,11 +4869,38 @@
     character: "1001,216"
     enemy_skill: "211,212,213,214,215,216"
     launch_time: 2016-5-20 00:00:00
+    extra: ", Yurina Amami,"
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 206002
+    id: 206
+    name: Sana
+    sub_name: Sana - Augmented Model
+    type: 1
+    code: Nyto_mecha2
+    introduce: An elite Paradeus unit who looks like a frail and delicate girl, but once she dons her custom-made mask and mounts her personal mech, you will wish you could run faster.
+    forces: 3
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 6
+    hit_rank: 5
+    dodge_rank: 6
+    rate_rank: 4
+    speed_rank: 6
+    range_rank: 7
+    counter: This unit has the ability to cause severe disruption on the battlefield. Make sure you engage with a suitable echelon.
+    character: "1001,216"
+    enemy_skill: "211,212,213,214,215,216"
+    launch_time: 2016-5-20 00:00:00
+    extra: ", Yurina Amami,"
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 207001
     id: 207
     name: Kennedy
+    sub_name: Kennedy
     type: 1
     code: Pamzan_Final
     introduce: An assassin of unknown origin affiliated with Paradeus. He is a bizarre patchwork of man and machine. The technology employed in his creation seems to be different from what can be found on other Paradeus units.
@@ -4081,16 +4913,18 @@
     armor_rank: 2
     speed_rank: 4
     range_rank: 3
+    tenacity_rank: 5
     counter: This unit deals very powerful slash damage. Make sure you engage with a suitable echelon.
     character: "1001"
     enemy_skill: "217,218,219,220"
     launch_time: 2016-5-20 00:00:00
     spine_scale: "70,70,1"
-    tenacity_rank: 5
   }
   {
+    sub_id: 208001
     id: 208
     name: M4A1's Dummy
+    sub_name: M4A1's Dummy
     type: 3
     code: M4A1_enemy
     introduce: A Dummy of M4A1, but without her indecisiveness. It obeys without question.
@@ -4107,8 +4941,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 209001
     id: 209
     name: ST AR-15's Dummy
+    sub_name: ST AR-15's Dummy
     type: 3
     code: AR15_enemy
     introduce: A Dummy of ST AR-15. Other than the missing sneer, it looks no different from the mainframe.
@@ -4125,8 +4961,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 210001
     id: 210
     name: SOP-II's Dummy
+    sub_name: SOP-II's Dummy
     type: 3
     code: M4 SOPMOD II_enemy
     introduce: A Dummy of M4 SOPMOD II. Its operation logic is completely identical to the mainframe. It even has the same terrifying laugh.
@@ -4143,8 +4981,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 211001
     id: 211
     name: M16A1
+    sub_name: M16A1
     type: 3
     code: M16A1Griffin
     introduce: M16A1, who has been given a special mission and authorizations, must wake up at each important fork and push the AR Team back onto their path towards the light.
@@ -4161,8 +5001,10 @@
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 212001
     id: 212
     name: Guards Regiment Shooter
+    sub_name: Guards Regiment Shooter
     type: 3
     code: USSR_Agent
     introduce: An armed member of the Beslan Guards Regiment, a group that is comprised of fanatical extremists with formal tactical training and skills in using firearms. They are one of the main armed forces taking part in the riot.
@@ -4173,13 +5015,15 @@
     rate_rank: 5
     speed_rank: 3
     range_rank: 3
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001"
     launch_time: 2035-5-20 00:00:00
   }
   {
+    sub_id: 213001
     id: 213
     name: Weakened Asklepian
+    sub_name: Weakened Asklepian
     type: 3
     code: Obelisk_partB
     introduce: A heavy-firepower droid that wields a machine gun. When the machine gun is charged, it can fire three plasma beams, which can blind enemies and ignore their evasion to a certain extent. Its destructiveness is further increased when equipped with [Flask of Aceso], but it deals significantly less damage when in a weakened state.
@@ -4191,59 +5035,20 @@
     rate_rank: 3
     speed_rank: 1
     range_rank: 4
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,1003,335,320"
     enemy_skill: "130"
     launch_time: 2035-5-20 00:00:00
     spine_scale: "100,100,1"
   }
   {
-    id: 214
-    name: Sana
-    type: 1
-    code: Nyto_mecha2
-    introduce: Sana is a specialized Doll for piloting mechs. With specific training and modifications, piloting mechs does not put any strain on her body, and she can pilot one in a fight for an extended period of time. Defenses, no matter how robust, will eventually crumble against her extremely powerful firepower and incredible durability. Unlike other Paradeus units, Sana inherits all her memories from a human girl named "Sana". However, while she is expected to become "Sana", the memories feel foreign to her, and her psyche wants to reject them. Perhaps she is secretly looking forward to the day when she can tear off the mask and become herself...
-    forces: 3
-    if_capture: 1
-    pow_rank: 5
-    life_rank: 6
-    hit_rank: 5
-    dodge_rank: 6
-    rate_rank: 4
-    speed_rank: 6
-    range_rank: 7
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
-    character: "1001,216"
-    enemy_skill: "211,212,213,214,215,216"
-    launch_time: 2035-5-20 00:00:00
-    spine_scale: "70,70,1"
-    org_id: 10604
-  }
-  {
-    id: 215
-    name: Narciss
-    type: 1
-    code: BossNarciss
-    introduce: Narciss, a Nyto specialized in combat, was a former Paradeus elite unit skilled in taking down enemies with her floating blades and close-quarter attacks. In order to maximize her combat efficiency, Paradeus built her body and weapons with both strength and speed in mind, while completely disregarding the high mental strain they caused. Prolonged exposure to extreme mental and physical torment had cost Narcissus her empathy, muddled her view of good, and eventually turned her into an outright implement of destruction. But now that said implement is separated from those who forced the will to kill upon her, her heart may one day find peace.
-    forces: 3
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit has two combat modes, melee and ranged. If all seven floating blades are destroyed , this unit will switch from ranged mode to melee mode. When in melee mode, she poses an incredible threat to units with few Dummy-Links.
-    character: "1001,329,330"
-    enemy_skill: "108,109,110"
-    launch_time: 2035-5-20 00:00:00
-    org_id: 10603
-  }
-  {
+    sub_id: 217001
     id: 217
     name: ST AR-15
+    sub_name: ST AR-15
     type: 3
     code: AR15Mod_enemy
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4251,16 +5056,20 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     enemy_skill: "224,225,226,227"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 218001
     id: 218
     name: A-545
+    sub_name: A-545
     type: 3
     code: A545_NPC
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4268,16 +5077,20 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     enemy_skill: "222"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 219001
     id: 219
     name: PPSh-41
+    sub_name: PPSh-41
     type: 3
     code: PPsh41Enemy
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4285,16 +5098,20 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     enemy_skill: "223"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 220001
     id: 220
     name: AK-47
+    sub_name: AK-47
     type: 3
     code: AK47_enemy
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4302,15 +5119,19 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 221001
     id: 221
     name: Skorpion
+    sub_name: Skorpion
     type: 3
     code: VZ61Enemy
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4318,15 +5139,19 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 222001
     id: 222
     name: Ingram
+    sub_name: Ingram
     type: 3
     code: MAC10Enemy
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4334,13 +5159,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 223001
     id: 223
     name: Isomer - Fearsome Blade
+    sub_name: Isomer - Fearsome Blade
     type: 3
     code: Nyto_Isomer_F
     forces: 3
@@ -4351,13 +5179,16 @@
     rate_rank: 3
     speed_rank: 3
     range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "303"
     enemy_skill: "228"
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 224001
     id: 224
     name: Isomer - Chaos
+    sub_name: Isomer - Chaos
     type: 3
     code: Nyto_Isomer_N
     forces: 3
@@ -4368,13 +5199,16 @@
     rate_rank: 3
     speed_rank: 3
     range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "319"
     enemy_skill: "229"
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 225001
     id: 225
     name: Isomer - Pole Star
+    sub_name: Isomer - Pole Star
     type: 3
     code: Nyto_Isomer_S
     forces: 3
@@ -4385,13 +5219,16 @@
     rate_rank: 3
     speed_rank: 3
     range_rank: 3
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "307"
     enemy_skill: "230"
     launch_time: 2016-5-20 00:00:00
   }
   {
+    sub_id: 226001
     id: 226
     name: Dr. 48
+    sub_name: Dr. 48
     type: 3
     code: Mk48_10304_enemy
     pow_rank: 5
@@ -4401,13 +5238,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 227001
     id: 227
     name: Dr. Fedrov
+    sub_name: Dr. Fedrov
     type: 3
     code: Fedorov_10305_enemy
     pow_rank: 5
@@ -4417,13 +5257,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 228001
     id: 228
     name: Dr. 90
+    sub_name: Dr. 90
     type: 3
     code: PP90_10306_enemy
     pow_rank: 5
@@ -4433,13 +5276,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 229001
     id: 229
     name: Dr. TPS
+    sub_name: Dr. TPS
     type: 3
     code: TPS_10301_enemy
     pow_rank: 5
@@ -4449,13 +5295,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 230001
     id: 230
     name: 520's Dummy
+    sub_name: 520's Dummy
     type: 3
     code: Stevens520_enemy
     pow_rank: 5
@@ -4465,13 +5314,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 231001
     id: 231
     name: 5620's Dummy
+    sub_name: 5620's Dummy
     type: 3
     code: Stevens620_enemy
     pow_rank: 5
@@ -4481,13 +5333,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 232001
     id: 232
     name: Erma's Dummy
+    sub_name: Erma's Dummy
     type: 3
     code: Erma_enemy
     pow_rank: 5
@@ -4497,13 +5352,16 @@
     rate_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }
   {
+    sub_id: 100001001
     id: 100001
     name: Gebbennu
+    sub_name: Gebbennu
     type: 1
     code: Gebbennu
     introduce: A massive duplex combat unit. Other than its incredible firepower, everything else is a mystery.
@@ -4521,8 +5379,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100011001
     id: 100011
     name: Shield
+    sub_name: Shield
     type: 3
     code: DivMauler
     introduce: An enemy that's unaccounted for.
@@ -4539,8 +5399,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100012001
     id: 100012
     name: Fumigator
+    sub_name: Fumigator
     type: 3
     code: DivGrenadier
     introduce: An enemy that's unaccounted for.
@@ -4557,8 +5419,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100013001
     id: 100013
     name: Sweeper
+    sub_name: Sweeper
     type: 3
     code: DivSweeper
     introduce: An enemy that's unaccounted for.
@@ -4575,8 +5439,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100014001
     id: 100014
     name: Runner
+    sub_name: Runner
     type: 3
     code: DivRunner
     introduce: An enemy that's unaccounted for.
@@ -4593,8 +5459,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100015001
     id: 100015
     name: Guard
+    sub_name: Guard
     type: 3
     code: DivGuard
     introduce: An enemy that's unaccounted for.
@@ -4611,8 +5479,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100016001
     id: 100016
     name: Enforcer
+    sub_name: Enforcer
     type: 3
     code: DivExecutor
     introduce: An enemy that's unaccounted for.
@@ -4629,8 +5499,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100017001
     id: 100017
     name: Rifleman
+    sub_name: Rifleman
     type: 3
     code: DivRifleman
     introduce: An enemy that's unaccounted for.
@@ -4647,8 +5519,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100018001
     id: 100018
     name: Scout
+    sub_name: Scout
     type: 3
     code: DivScout
     introduce: An enemy that's unaccounted for.
@@ -4665,8 +5539,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100019001
     id: 100019
     name: Engineer
+    sub_name: Engineer
     type: 3
     code: DivEngineer
     introduce: An enemy that's unaccounted for.
@@ -4683,8 +5559,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100020001
     id: 100020
     name: Rogue Agent
+    sub_name: Rogue Agent
     type: 3
     code: DivTraitor
     introduce: An enemy that's unaccounted for.
@@ -4701,8 +5579,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100021001
     id: 100021
     name: Agent 47
+    sub_name: Agent 47
     type: 1
     code: AK47_enemy
     introduce: An enemy that's unaccounted for.
@@ -4719,8 +5599,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100022001
     id: 100022
     name: Incinerator: Robert
+    sub_name: Incinerator: Robert
     type: 1
     code: DivBurn
     introduce: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated.
@@ -4737,8 +5619,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100023001
     id: 100023
     name: Fang
+    sub_name: Fang
     type: 1
     code: HK416Boss
     introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
@@ -4755,8 +5639,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100024001
     id: 100024
     name: Hellfire
+    sub_name: Hellfire
     type: 1
     code: VectorBoss
     introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
@@ -4773,8 +5659,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100025001
     id: 100025
     name: Fang
+    sub_name: Fang
     type: 1
     code: HK416Boss
     introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
@@ -4791,8 +5679,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100026001
     id: 100026
     name: Hellfire
+    sub_name: Hellfire
     type: 1
     code: VectorBoss
     introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
@@ -4809,8 +5699,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100027001
     id: 100027
     name: Vector
+    sub_name: Vector
     type: 1
     code: Vector_enemy
     introduce: An enemy that's unaccounted for.
@@ -4827,11 +5719,13 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100028001
     id: 100028
     name: Demonic Knight
+    sub_name: Demonic Knight
     type: 3
     code: Dropkick_MeleeDevil
-    introduce: Enemy that has yet been conceptualized
+    introduce: An enemy that's unaccounted for.
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -4845,8 +5739,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100029001
     id: 100029
     name: Demonic Beast
+    sub_name: Demonic Beast
     type: 3
     code: Dropkick_RemoteDevil
     introduce: An enemy that's unaccounted for.
@@ -4863,8 +5759,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100030001
     id: 100030
     name: Shaved Ice Sprite
+    sub_name: Shaved Ice Sprite
     type: 3
     code: Dropkick_IceGhost
     introduce: An enemy that's unaccounted for.
@@ -4881,8 +5779,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100031001
     id: 100031
     name: Tangan-chan
+    sub_name: Tangan-chan
     type: 3
     code: Dropkick_CyclopsChan
     introduce: An enemy that's unaccounted for.
@@ -4894,13 +5794,15 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: This unit is well-balanced so engage with an echelon that has adequate overall combat effectiveness.
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,303"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100032001
     id: 100032
     name: Herald of Beans
+    sub_name: Herald of Beans
     type: 3
     code: Dropkick_BeansEmissary
     introduce: An enemy that's unaccounted for.
@@ -4917,8 +5819,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100033001
     id: 100033
     name: B?te
+    sub_name: B?te
     type: 3
     code: Dropkick_Beth
     introduce: An enemy that's unaccounted for.
@@ -4935,8 +5839,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100034001
     id: 100034
     name: Yurine's Facsimile
+    sub_name: Yurine's Facsimile
     type: 1
     code: Dropkick_YurineBoss
     introduce: An enemy that's unaccounted for.
@@ -4953,8 +5859,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100035001
     id: 100035
     name: Enraged Minos
+    sub_name: Enraged Minos
     type: 1
     code: Dropkick_MinosBoss
     introduce: An enemy that's unaccounted for.
@@ -4971,8 +5879,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100036001
     id: 100036
     name: Seaside Watermelon
+    sub_name: Seaside Watermelon
     type: 2
     code: Pathfinder_Small
     introduce: An ordinary watermelon.
@@ -4989,8 +5899,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100037001
     id: 100037
     name: Bathhouse Assassin
+    sub_name: Bathhouse Assassin
     type: 3
     code: Bathhouse_guest_2
     introduce: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
@@ -5008,8 +5920,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100038001
     id: 100038
     name: Bathhouse Assassin
+    sub_name: Bathhouse Assassin
     type: 3
     code: Bathhouse_guest_1
     introduce: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
@@ -5027,8 +5941,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100039001
     id: 100039
     name: Speed Demon's Wheel
+    sub_name: Speed Demon's Wheel
     type: 4
     code: Tyre_enemy
     introduce: An allegedly sentient wheel. It will suddenly appear in the streets and barrel up to a victim to its liking... The subject of an urban legend among the younger generation.
@@ -5046,8 +5962,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100040001
     id: 100040
     name: Truck-kun
+    sub_name: Truck-kun
     type: 4
     code: Truck_enemy
     introduce: A mysterious and unpredictable light cargo truck. Despite having never passed the traffic safety test, it still speeds around everywhere recklessly and has a special penchant for hurtling down the streets in quiet residential areas.
@@ -5065,8 +5983,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100041001
     id: 100041
     name: Bubble Machine
+    sub_name: Bubble Machine
     type: 4
     code: Bubble_machine
     introduce: A micro-factory that creates Drifting Bubbles. Due to its slow movements and general harmlessness, it often ends up getting chased around by children and their parents.
@@ -5084,8 +6004,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100042001
     id: 100042
     name: Drifting Bubble
+    sub_name: Drifting Bubble
     type: 2
     code: Bubble
     introduce: A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.
@@ -5097,14 +6019,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
-    counter: '''"A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.'''
+    counter: A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.
     character: "319"
     enemy_skill: "10042"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100043001
     id: 100043
     name: Romero
+    sub_name: Romero
     type: 2
     code: saga_dog_enemy
     introduce: A zombie dog of unknown origin that loves dried shredded squid. He carries out his duty of guarding his home and protecting Franchouchou very diligently. He may look small and weak, but he can transform into a vicious beast that razes everything.
@@ -5122,8 +6046,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100044001
     id: 100044
     name: Gray Singer
+    sub_name: Gray Singer
     type: 3
     code: HK21_SagaEnemy
     introduce: Member of Late Night Café. She will dash towards her target while shouting "Big Sister" and punish anyone who does not give the correct response.
@@ -5141,8 +6067,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100045001
     id: 100045
     name: Green Singer
+    sub_name: Green Singer
     type: 3
     code: JS-127_SagaEnemy
     introduce: Member of Late Night Café. She will dash toward her target while shouting "angle of my bangs" and punish anyone who does not give the correct response.
@@ -5160,8 +6088,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100046001
     id: 100046
     name: Red Singer
+    sub_name: Red Singer
     type: 3
     code: PM06_SagaEnemy
     introduce: Member of Late Night Café. She will dash towards her target while shouting "red all over" and punish anyone who does not give the correct response.
@@ -5179,8 +6109,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100047001
     id: 100047
     name: Spirited Vocalist
+    sub_name: Spirited Vocalist
     type: 3
     code: MG5_SagaEnemy
     introduce: Main vocalist of the band Gray Tree. Seemingly cold and willful, she looks like someone you really don't want to mess with. However, she is actually a well-known pacifist and often cleans up after her band members.
@@ -5198,8 +6130,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100048001
     id: 100048
     name: Fiery Guitarist
+    sub_name: Fiery Guitarist
     type: 3
     code: M1887_SagaEnemy
     introduce: Guitarist of the band Gray Tree. She loves colors that are bright like a flame and always has red hair dye and incendiary devices with her. She starts a fire when she is in an irritable mood.
@@ -5217,8 +6151,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100049001
     id: 100049
     name: Breakneck Drummer
+    sub_name: Breakneck Drummer
     type: 3
     code: 80type_SagaEnemy
     introduce: Drummer of the band Gray Tree. Her drumming speed is faster than the eye can see, and she is also good at creating dazzling visual effects with her drone, but sometimes she messes up and sends her drone careening toward the audience.
@@ -5236,8 +6172,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100050001
     id: 100050
     name: Bassist with Shades
+    sub_name: Bassist with Shades
     type: 3
     code: M1897_SagaEnemy
     introduce: Bassist of the band Gray Tree. Her face is always obscured by a pair of shades, making it difficult to tell if she is awake or asleep and whether she is playing the bass guitar or just a broom.
@@ -5255,8 +6193,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100051001
     id: 100051
     name: Mysterious Keyboardist
+    sub_name: Mysterious Keyboardist
     type: 3
     code: G11_SagaEnemy
     introduce: Keyboardist of the band Gray Tree. She only ever shows herself at performances and is seldom seen otherwise. She seems to be on a mysterious mission.
@@ -5274,8 +6214,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100052001
     id: 100052
     name: Serf of the City
+    sub_name: Serf of the City
     type: 3
     code: FacelessMenA
     introduce: Faces blurred by the tedium of work and hearts eroded by unending overtime, they become marionettes of rage.
@@ -5286,14 +6228,19 @@
     rate_rank: 4
     speed_rank: 1
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "303"
     enemy_skill: "40"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100053001
     id: 100053
+    name: Serf of the City
+    sub_name: Serf of the City
     type: 3
     code: FacelessMenB
+    introduce: Faces blurred by the tedium of work and hearts eroded by unending overtime, they become marionettes of rage.
     pow_rank: 1
     life_rank: 4
     hit_rank: 1
@@ -5301,13 +6248,16 @@
     rate_rank: 4
     speed_rank: 1
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "303"
     enemy_skill: "40"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100054001
     id: 100054
     name: Serdyukov's Dummy
+    sub_name: Serdyukov's Dummy
     type: 3
     code: SPS_NPC
     pow_rank: 5
@@ -5318,12 +6268,15 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100055001
     id: 100055
     name: KSVK's Dummy
+    sub_name: KSVK's Dummy
     type: 3
     code: KSVK_NPC
     pow_rank: 5
@@ -5334,12 +6287,15 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100056001
     id: 100056
     name: A-545's Dummy
+    sub_name: A-545's Dummy
     type: 3
     code: A545_NPC
     introduce: This A-545 doesn't drink vodka.
@@ -5351,12 +6307,15 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "100"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100057001
     id: 100057
     name: Purin Esaki
+    sub_name: Purin Esaki
     type: 1
     code: EzakiBoss
     introduce: Intense in temperament, with the firepower to match. Best pray that she does not catch you. Oh, and this Purin has no penchant for pudding.
@@ -5368,13 +6327,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10052,10053"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100058001
     id: 100058
     name: Takashi Shimamura
+    sub_name: Takashi Shimamura
     type: 1
     code: TakashiBoss
     introduce: A silent young man always dressed in black. A mastermind hidden in the night.
@@ -5386,13 +6348,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10054,10055"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100059001
     id: 100059
     name: Suzuka Mizukane
+    sub_name: Suzuka Mizukane
     type: 1
     code: MizukinnBoss
     introduce: People often mistakenly attribute their fear for Mizukane to the RPG launcher on her shoulder and the machine gun in her hand. Only when she puts down her weapons do they realize what true terror is.
@@ -5404,13 +6369,16 @@
     armor_rank: 5
     speed_rank: 5
     range_rank: 5
+    counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10056,10057,10058"
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100082001
     id: 100082
     name: Brute_SWAP
+    sub_name: Brute_SWAP
     type: 3
     code: Brute_SWAP
     introduce: A Brute which has been greatly enhanced over its original specs, able to better display its combat abilities.
@@ -5428,8 +6396,10 @@
     launch_time: 2035-12-31 00:00:00
   }
   {
+    sub_id: 100083001
     id: 100083
     name: Nemeum_SWAP
+    sub_name: Nemeum_SWAP
     type: 4
     code: Nemeum_SWAP2
     introduce: A Nemeum which has been greatly enhanced over its original specs, able to better display its combat abilities.

@@ -17562,7 +17562,7 @@
     guns: "861,862,863,864,865"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17574,7 +17574,7 @@
     guns: "866,867,868,869,870"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17586,7 +17586,7 @@
     guns: "871,872,873,874,875"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17598,7 +17598,7 @@
     guns: "876,877,878,879"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17610,7 +17610,7 @@
     guns: "880,881,882,883,884"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17622,7 +17622,7 @@
     guns: "885,886,887,888,889"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17634,7 +17634,7 @@
     guns: "852,853,854,855"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -17646,7 +17646,7 @@
     guns: "856,857,858,859"
     enemy_team_id: 1
     initial_type: 1
-    ai: 0;2010;0
+    ai: 0;20100;0
     ai_content: 0;0;0
     icon: Army
     enemy_panel_type: 1
@@ -23521,6 +23521,126 @@
     icon: Army
     enemy_panel_type: 1
     no_battle_damage: -1
+  }
+  {
+    id: 9711002
+    name: ally_team-19711002
+    guns: "748"
+    enemy_team_id: 9711002
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 5;0;5
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9711003
+    name: ally_team-19711003
+    guns: "748"
+    enemy_team_id: 9711002
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 5;0;5
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9711501
+    name: ally_team-19711501
+    guns: "9710001,9710002,9710003,9710004"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9712802
+    name: ally_team-19712802
+    guns: "748"
+    enemy_team_id: 9712802
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 8;0;8
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9712803
+    name: ally_team-19712803
+    guns: "748"
+    enemy_team_id: 9712802
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 8;0;8
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9712804
+    name: ally_team-19712804
+    guns: "748"
+    enemy_team_id: 9712802
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 8;0;8
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9712901
+    name: ally_team-19712901
+    guns: "748"
+    enemy_team_id: 9712901
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 5;0;5
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9713001
+    name: ally_team-19713001
+    guns: "748"
+    enemy_team_id: 9713001
+    initial_type: 2
+    ai: 102;1;102
+    ai_content: 8;0;8
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 9713002
+    name: ally_team-19713002
+    guns: "9710001,9710002,9710004"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: 100
+  }
+  {
+    id: 9713003
+    name: ally_team-19713003
+    guns: "9710005"
+    enemy_team_id: 1
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    icon: Army
+    enemy_panel_type: 1
+    no_battle_damage: 100
   }
   {
     id: 40499001

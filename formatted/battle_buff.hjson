@@ -8618,6 +8618,50 @@
     boss_available: 1
   }
   {
+    id: 1026
+    name: Cross效果层数
+    conflict_type: 1026
+    max_tier: 25
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 1027
+    name: XM556效果层数
+    conflict_type: 1027
+    max_tier: 999
+    type: 401
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 1028
+    name: MK18效果层数
+    conflict_type: 1028
+    max_tier: 5
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 1029
+    name: MK18近身人数
+    conflict_type: 1029
+    max_tier: 999
+    type: 401
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
     id: 1100
     name: hs2000标记
     description: 若存在则未被判断
@@ -32643,6 +32687,281 @@
     move_number: "75"
   }
   {
+    id: 5286
+    name: AK12改造一技能触发
+    conflict_type: 5286
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 5287
+    name: AK12影响格伤害
+    description: 火力上升
+    conflict_type: 5287
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5288
+    name: AK12影响格射速
+    description: 射速上升
+    conflict_type: 5288
+    max_tier: 1
+    type: 104
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 5289
+    name: AK12影响格命中
+    description: 命中上升
+    conflict_type: 5289
+    max_tier: 1
+    type: 103
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *203
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 5290
+    name: AK12影响格暴击
+    description: 暴击概率上升
+    conflict_type: 5290
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *204
+    trigger_creation_id: "201"
+    buff_animation: YellowFlash
+  }
+  {
+    id: 5291
+    name: AK12暴击监视
+    conflict_type: 5291
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 4006
+  }
+  {
+    id: 5292
+    name: AK12二技能触发
+    conflict_type: 5292
+    max_tier: 9999
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5293
+    name: AK12二技能伤害
+    conflict_type: 5293
+    max_tier: 9999
+    type: 801
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 5294
+    name: AK12二技能命中
+    conflict_type: 5294
+    max_tier: 9999
+    type: 803
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 5295
+    name: AK12效果显示通用
+    conflict_type: 101
+    max_tier: 9999
+    type: 401
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 5296
+    name: AK12专属
+    conflict_type: 5296
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5297
+    name: AK12隐身
+    conflict_type: 5297
+    max_tier: 1
+    type: 303
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 5300
+    name: SPAS12一技能触发
+    conflict_type: 5300
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 5301
+    name: SPAS12护盾监视
+    conflict_type: 5301
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5302
+    name: SPAS12伤害加成
+    conflict_type: 5302
+    max_tier: 1
+    type: 801
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    pow_number: *201
+  }
+  {
+    id: 5320
+    name: AK12攻击目标
+    conflict_type: 5320
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+  }
+  {
+    id: 5321
+    name: AK12增伤标记
+    conflict_type: 5321
+    max_tier: 999
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000007053
+  }
+  {
+    id: 5322
+    name: AK12减甲层数
+    conflict_type: 5322
+    max_tier: 999
+    type: 808
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+  }
+  {
+    id: 5323
+    name: AK12减闪层数
+    conflict_type: 5323
+    max_tier: 999
+    type: 802
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    dodge_number: *202
+  }
+  {
+    id: 5324
+    name: KLIN装备
+    conflict_type: 2324
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5325
+    name: KLIN首次掷弹增益
+    conflict_type: 2325
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5326
+    name: KLIN技能触发
+    conflict_type: 2326
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 5327
+    name: KLIN伤害提升
+    conflict_type: 2327
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: "200"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 5328
+    name: KLIN免疫伤害
+    conflict_type: 2328
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    fix_damage: 1000002455
+  }
+  {
     id: 5700
     name: ***
     conflict_type: 100
@@ -32653,6 +32972,143 @@
     boss_available: 1
     trigger_creation_id: "5700"
     is_form_play: 1
+  }
+  {
+    id: 5801
+    name: L9A1攻击次数
+    conflict_type: 5801
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5802
+    name: L9A1烟雾命中下降
+    conflict_type: 5802
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 5803
+    name: L9A1烟雾移速下降
+    conflict_type: 5803
+    max_tier: 1
+    type: 205
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    move_number: *203
+  }
+  {
+    id: 5804
+    name: L9A1夜晚夜视提升
+    conflict_type: 5804
+    max_tier: 1
+    type: 404
+    duration_type: 1
+    duration: *103
+    boss_available: 1
+    night_view_percent: *204
+  }
+  {
+    id: 5805
+    name: L9A1夜晚触发
+    conflict_type: 5805
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5806
+    name: L9A1二技能触发1
+    conflict_type: 5806
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5807
+    name: L9A1二技能触发2
+    conflict_type: 5807
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5808
+    name: L9A1护甲下降
+    conflict_type: 5808
+    max_tier: 1
+    type: 208
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: *201
+  }
+  {
+    id: 5809
+    name: L9A1护盾
+    conflict_type: 5809
+    max_tier: 99
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: *201
+  }
+  {
+    id: 5810
+    name: L9A1三技能触发1
+    conflict_type: 5810
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5811
+    name: L9A1三技能触发2
+    conflict_type: 5811
+    max_tier: 3
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 5812
+    name: L9A1范围易伤
+    conflict_type: 5812
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
+  }
+  {
+    id: 5813
+    name: L9A1随机易伤
+    conflict_type: 5813
+    max_tier: 3
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: *201
   }
   {
     id: 6000
@@ -32678,6 +33134,82 @@
     boss_available: 1
     is_form_play: 1
     buff_animation: YellowFlash
+  }
+  {
+    id: 6101
+    name: 泳装计量官潮湿标记
+    conflict_type: 6101
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "6206"
+  }
+  {
+    id: 6102
+    name: 泳装计量官射速下降
+    conflict_type: 6102
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *202
+  }
+  {
+    id: 6103
+    name: 泳装计量官命中下降
+    conflict_type: 6103
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *202
+  }
+  {
+    id: 6104
+    name: 泳装计量官潮湿射速下降
+    conflict_type: 6102
+    max_tier: 1
+    type: 204
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    rate_number: *203
+  }
+  {
+    id: 6105
+    name: 泳装计量官潮湿命中下降
+    conflict_type: 6103
+    max_tier: 1
+    type: 203
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    hit_number: *203
+  }
+  {
+    id: 6106
+    name: 泳装计量官增伤标记
+    conflict_type: 6106
+    max_tier: 1
+    type: 402
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+    fix_damage: 1000006104
+  }
+  {
+    id: 6107
+    name: 泳装计量官四技能层数
+    conflict_type: 6107
+    max_tier: 10
+    type: 500
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
   }
   {
     id: 7101
@@ -56552,6 +57084,690 @@
     boss_available: 1
   }
   {
+    id: 9569
+    name: WA2000套装装备1
+    conflict_type: 2569
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9570
+    name: WA2000套装装备2
+    conflict_type: 2570
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9571
+    name: WA2000套装
+    conflict_type: 2571
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9572
+    name: 纳甘左轮套装装备1
+    conflict_type: 2572
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9573
+    name: 纳甘左轮套装装备2
+    conflict_type: 2573
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9574
+    name: 纳甘左轮套装
+    conflict_type: 2574
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9575
+    name: WA2000套装穿甲
+    conflict_type: 2575
+    max_tier: 999
+    type: 811
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+    arp_number: "1"
+  }
+  {
+    id: 9576
+    name: WA2000套装命中
+    conflict_type: 2576
+    max_tier: 999
+    type: 803
+    duration_type: 1
+    duration: "450"
+    boss_available: 1
+    hit_number: "1"
+  }
+  {
+    id: 9577
+    name: 纳甘左轮易伤
+    conflict_type: 2577
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    damage_reduce_number: "110"
+  }
+  {
+    id: 9578
+    name: MK18技能触发
+    conflict_type: 2578
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 9579
+    name: MK18近身检测
+    conflict_type: 2579
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "1002503"
+  }
+  {
+    id: 9580
+    name: MK18近身检测反馈
+    conflict_type: 2580
+    max_tier: 99
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 9581
+    name: MK18伤害提升
+    conflict_type: 2581
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9582
+    name: MK18暴击率提升
+    conflict_type: 2582
+    max_tier: 5
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *202
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9583
+    name: MK18掉编监视
+    conflict_type: 2583
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1067
+  }
+  {
+    id: 9584
+    name: MK18掉编伤害提升
+    conflict_type: 2584
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: "2970"
+    boss_available: 1
+    pow_number: "125"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9585
+    name: M400队内AR输出最高
+    conflict_type: 2585
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "6"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9586
+    name: M400伤害提升
+    conflict_type: 2586
+    max_tier: 99
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9587
+    name: M400标记AR
+    conflict_type: 2587
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+    available_gun_type: "4"
+  }
+  {
+    id: 9588
+    name: M400命中提升
+    conflict_type: 2588
+    max_tier: 99
+    type: 103
+    duration_type: 1
+    duration: "3000"
+    boss_available: 1
+    hit_number: *202
+    trigger_creation_id: "203"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: HitBuffText
+  }
+  {
+    id: 9589
+    name: M400暴击率提升
+    conflict_type: 2589
+    max_tier: 99
+    type: 106
+    duration_type: 1
+    duration: "3000"
+    boss_available: 1
+    critical_number: *203
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9590
+    name: Cross嘲讽标记
+    conflict_type: 2590
+    max_tier: 1
+    type: 301
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    trigger_creation_id: "3741"
+    is_form_play: 1
+    watch_id: 1071
+  }
+  {
+    id: 9591
+    name: Cross技能触发
+    conflict_type: 2591
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9592
+    name: Cross攻击目标
+    conflict_type: 2592
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+    watch_id: 1069
+  }
+  {
+    id: 9593
+    name: Cross目标死亡
+    conflict_type: 2593
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9594
+    name: Cross暴击监视
+    conflict_type: 2594
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+    watch_id: 1068
+  }
+  {
+    id: 9595
+    name: Cross狩猎效果
+    conflict_type: 2595
+    max_tier: 25
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9596
+    name: Cross伤害提升
+    conflict_type: 2596
+    max_tier: 25
+    type: 101
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9597
+    name: Cross射速提升
+    conflict_type: 2597
+    max_tier: 25
+    type: 104
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    rate_number: *202
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9598
+    name: XM556技能触发
+    conflict_type: 2598
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9599
+    name: XM556层数
+    conflict_type: 2599
+    max_tier: 999
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9600
+    name: XM556攻击目标
+    conflict_type: 2600
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "11"
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9601
+    name: XM556伤害增加
+    conflict_type: 2601
+    max_tier: 999
+    type: 801
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9602
+    name: XM556减伤
+    conflict_type: 2602
+    max_tier: 1
+    type: 110
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    damage_reduce_number: *201
+    is_form_play: 1
+  }
+  {
+    id: 9603
+    name: XM556护盾
+    conflict_type: 2603
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: "100"
+    trigger_creation_id: "220"
+    is_form_play: 1
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9604
+    name: Cross技能触发嘲讽
+    conflict_type: 2604
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    is_form_play: 1
+  }
+  {
+    id: 9605
+    name: Cross额外伤害提升
+    conflict_type: 2605
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    pow_number: "102"
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9606
+    name: Cross额外射速提升
+    conflict_type: 2606
+    max_tier: 5
+    type: 104
+    duration_type: 1
+    duration: "300"
+    boss_available: 1
+    rate_number: "102"
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9607
+    name: MK18全队伤害提升
+    conflict_type: 2607
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
+    id: 9608
+    name: MK18全队暴击提升
+    conflict_type: 2608
+    max_tier: 1
+    type: 106
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    critical_number: *202
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+  }
+  {
+    id: 9609
+    name: MK18掉编伤害减免
+    conflict_type: 2609
+    max_tier: 5
+    type: 110
+    duration_type: 1
+    duration: "2970"
+    boss_available: 1
+    damage_reduce_number: "75"
+    is_form_play: 1
+  }
+  {
+    id: 9610
+    name: XM556变更目标触发
+    conflict_type: 2610
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    is_form_play: 1
+    forced_skill: "1002804"
+  }
+  {
+    id: 9611
+    name: MK18技能触发检测
+    conflict_type: 2611
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
+    id: 9612
+    name: XM556换弹结束触发
+    conflict_type: 2612
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "60"
+    boss_available: 1
+  }
+  {
+    id: 9613
+    name: XM556开场不触发护盾
+    conflict_type: 2613
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9614
+    name: MP7装备
+    conflict_type: 2614
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9615
+    name: MP7伤害减少
+    conflict_type: 2615
+    max_tier: 99
+    type: 801
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    pow_number: "-1"
+  }
+  {
+    id: 9620
+    name: G41套装装备1
+    conflict_type: 2620
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9621
+    name: G41套装装备2
+    conflict_type: 2621
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9622
+    name: G41套装
+    conflict_type: 2622
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 1080
+  }
+  {
+    id: 9623
+    name: M500套装装备1
+    conflict_type: 2623
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9624
+    name: M500套装装备2
+    conflict_type: 2624
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9625
+    name: M500套装
+    conflict_type: 2625
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9626
+    name: G41套装火力提升
+    description: 火力上升
+    conflict_type: 2626
+    max_tier: 5
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    trigger_creation_id: "201"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9627
+    name: G41射速提升
+    conflict_type: 2627
+    max_tier: 12
+    type: 104
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    rate_number: "103"
+    trigger_creation_id: "204"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: RateBuffText
+  }
+  {
+    id: 9628
+    name: M500套装护甲
+    conflict_type: 2628
+    max_tier: 3
+    type: 108
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    armor_reduce_number: "105"
+  }
+  {
+    id: 9629
+    name: M500套装伤害
+    conflict_type: 2629
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "90"
+    boss_available: 1
+    pow_number: "105"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
@@ -62867,6 +64083,68 @@
     duration: "-1"
     boss_available: 1
     trigger_creation_id: "426810"
+  }
+  {
+    id: 580601
+    name: L9A1二技能触发1对象
+    conflict_type: 580601
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+    forced_skill: "503012"
+  }
+  {
+    id: 580602
+    name: L9A1二技能触发1敌人
+    conflict_type: 580602
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 580603
+    name: L9A1二技能触发1层数
+    conflict_type: 580603
+    max_tier: 70
+    type: 400
+    duration_type: 1
+    duration: "15"
+    boss_available: 1
+  }
+  {
+    id: 580701
+    name: L9A1二技能触发2对象
+    conflict_type: 580701
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
+  }
+  {
+    id: 580901
+    name: L9A1护盾层数
+    conflict_type: 580901
+    max_tier: 15
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 580902
+    name: L9A1护盾触发
+    conflict_type: 580902
+    max_tier: 3
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    forced_skill: "503011"
   }
   {
     id: 710101
@@ -70293,6 +71571,16 @@
     duration: *101
     boss_available: 1
     night_view_percent: "100"
+  }
+  {
+    id: 908801
+    name: 枪种反馈触发
+    conflict_type: 908801
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "30"
+    boss_available: 1
   }
   {
     id: 920001

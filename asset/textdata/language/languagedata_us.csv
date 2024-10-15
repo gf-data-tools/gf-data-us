@@ -831,7 +831,7 @@ COMMON,1819,Support Range,,0
 COMMON,1820,Night Vision,,0
 COMMON,1821,Type not in possession,,0
 COMMON,1822,,,0
-COMMON,1823,,,0
+COMMON,1823,Energy insufficient for deploying Mobile Armors.,,0
 COMMON,1824,,,0
 COMMON,1825,,,0
 COMMON,1826,,,0
@@ -839,6 +839,7 @@ COMMON,1827,,,0
 COMMON,1828,,,0
 COMMON,1829,,,0
 COMMON,1830,,,0
+COMMON,1831,Video file failed to download. Retry?,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,1
 BATTLE,10002,WITHDRAW,,1
@@ -1044,8 +1045,9 @@ BATTLE,10207,Cooldown: None,,0
 BATTLE,10208,Initial Cooldown: None,,0
 BATTLE,10209,1. Capsule Mode: Conduct a Sweep to obtain the stage-clear reward and drops from random nodes in the stage.//n2. Data Mode: Conduct a Sweep to obtain the corresponding reward at your current shortest clear time.//n3. EXP Mode: Conduct a Sweep to obtain the stage-clear reward.//n4. Neural Cloud Corridor: Conduct a Sweep to obtain the stage-clear reward and drops from random nodes in the stage.//n5. Defense Drill: Conduct a Sweep to obtain the corresponding reward of the highest wave you have cleared.//n6. Coalition Drill: Conduct a Sweep to obtain reward that equals battle yield +10%.,,0
 BATTLE,10210,Insufficient items. Unable to conduct Sweep.,,0
-BATTLE,10211,,,0
-BATTLE,10212,,,0
+BATTLE,10211,Skill,,0
+BATTLE,10212,Passive,,0
+BATTLE,10213,,,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,1
@@ -1224,6 +1226,31 @@ HOME,20165,Story,,0
 HOME,20166,Main Unit,,0
 HOME,20167,Sweep,,0
 HOME,20168,New Career Quests available,,0
+HOME,20169,Major event {0} now underway {1}{2}.,,0
+HOME,20170,//c you have stages that have not been cleared,,0
+HOME,20171,//c you can still obtain {1}*{0},,0
+HOME,20172,You currently have {0}*unopened {1}.,,0
+HOME,20173,Scoring Map {0} Score {1},,0
+HOME,20174,{0} daily Theater attempt(s) left.,,0
+HOME,20175,Key Card event is now underway. There are {0} available mission(s) today.,,0
+HOME,20176,Point event is now underway. Current score {0}{1}{2}.,,0
+HOME,20177,There are currently {0} available mission(s),,0
+HOME,20178,Season {1} missions will be unlocked in {0} day(s),,0
+HOME,20179,All missions are now available.,,0
+HOME,20180,Gray Zone Exploration current score has reached {0} points//c wave {1}.,,0
+HOME,20181,There are {0} day(s) left in the current Luffberry Chess season. You can still obtain Gachapon Tickets*{1}.,,0
+HOME,20182,Sim Energy*<color=#ffb400ff>{0}</color>//c Potential Energy*<color=#ffb400ff>{1}</color> remaining today.,,0
+HOME,20183,Today's Daily Quest progress {0}. Weekly score progress {1}.,,0
+HOME,20184,Complete Career Quests to increase your Career Level.,,0
+HOME,20185,Electronic Pulse current quantity - {0}.,,0
+HOME,20186,Battle EXP is full. Ask Kalina to write combat reports.,,0
+HOME,20187,Dispatch exploration teams at the Forward Basecamp.,,0
+HOME,20188,Exploration Team has returned.,,0
+HOME,20189,Head to the Garage to obtain your vehicle permit.,,0
+HOME,20190,You have unread stories at the CafÃ©.,,0
+HOME,20191,Current logistics support {0},,0
+HOME,20192,Coalition Unit "{0}" captured; {1}{2} remaining.,,0
+HOME,20193,{0} available for purchase; {1} remaining.,,0
 DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,1
@@ -1775,16 +1802,17 @@ DEPLOYMENT,30556,Select at least one unit to participate in the battle,,0
 DEPLOYMENT,30557,Vehicle enhancement settings cannot be altered during battles. You may only view the details by long-pressing a unit.,,0
 DEPLOYMENT,30558,Available Energy,,0
 DEPLOYMENT,30559,Echelon information currently inaccessible.,,0
-DEPLOYMENT,30560,,,0
-DEPLOYMENT,30561,,,0
-DEPLOYMENT,30562,,,0
-DEPLOYMENT,30563,,,0
-DEPLOYMENT,30564,,,0
-DEPLOYMENT,30565,,,0
-DEPLOYMENT,30566,,,0
-DEPLOYMENT,30567,,,0
-DEPLOYMENT,30568,,,0
-DEPLOYMENT,30569,,,0
+DEPLOYMENT,30560,Next Round,,0
+DEPLOYMENT,30561,Cancel,,0
+DEPLOYMENT,30562,Please select valid targets,,0
+DEPLOYMENT,30563,No valid target,,0
+DEPLOYMENT,30564,Insufficient Energy; Mobile Armor cannot continue to fight. Terminating proxy battle.//nProceed with Energy conversion?,,0
+DEPLOYMENT,30565,Status Interface Default Display,,0
+DEPLOYMENT,30566,Prioritize display of ally status,,0
+DEPLOYMENT,30567,Prioritize display of enemy status,,0
+DEPLOYMENT,30568,Prioritize display of facility status,,0
+DEPLOYMENT,30569,Hide all status displays,,0
+DEPLOYMENT,30570,Unknown signal interference.//nUnable to view details about this echelon.,,0
 DORM,31000,Warehouse,,0
 DORM,31001,Warehouse,,0
 DORM,31002,Re-supply,,0
@@ -2695,6 +2723,7 @@ FACTORY,32338,Enhance Components,,0
 FACTORY,32339,This unit is currently in battle and cannot be enhanced.,,0
 FACTORY,32340,This unit is currently in battle and cannot be calibrated.,,0
 FACTORY,32341,Callback Event Deadline:,,0
+FACTORY,32342,You are about to select an unenhanced Component without skill entries (including <color=#FFB400FF>five-star Components</color>). Confirm?,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -2965,6 +2994,7 @@ ILLUSTRATEDBOOK,35205,Mobile Armor Components,,0
 ILLUSTRATEDBOOK,35206,Mobile Armors,,0
 ILLUSTRATEDBOOK,35207,Mobile Armor Appearance,,0
 ILLUSTRATEDBOOK,35208,Search,,0
+ILLUSTRATEDBOOK,35209,Model Details,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -3741,6 +3771,8 @@ MISSIONSELECTION,40508,Activate Armor,,0
 MISSIONSELECTION,40509,*Tap the day/night logo to enter an echelon/unit's Proxy planning mode.,,0
 MISSIONSELECTION,40510,Skill activated,,0
 MISSIONSELECTION,40511,Skill not activated,,0
+MISSIONSELECTION,40512,You have reached the maximum number of single Sweeps you can do.,,0
+MISSIONSELECTION,40513,Insufficient Sim Energy/Potential Energy. Unable to continue Sweep.,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -5119,7 +5151,7 @@ MALL,71061,Remaining:{0};,,0
 MALL,71062,Remaining:{0};//nTime left:{1}D {2}H,,0
 MALL,71063,Remaining:{0};//nTime left:{1}H {2}M,,0
 MALL,71064,{0} Gems,,0
-MALL,71065,A total of {0} Gems (Includes {1} bonus Gems),,0
+MALL,71065,{0} Gems(Includes extra gifts: {1} Gems),,0
 MALL,71066,Time left {0} D,,0
 MALL,71067,Age Confirmation,,0
 MALL,71068,Players under the age of 20//nhas a maximum Gems purchase limit every month.//nPlease enter your age.//n<Color=#FF0000FF>※You will not be able to edit your age later</Color>,,0
@@ -8687,6 +8719,6 @@ VEHICLE,290182,Select at least 1 available Mobile Armor,,0
 VEHICLE,290183,Select at least 1 available Fire Support Unit,,0
 VEHICLE,290184,Not compatible with the current Mobile Armor. Unable to apply.,,0
 VEHICLE,290185,The current appearance contains designs that you have not unlocked. Purchase the missing items?,,0
-VEHICLE,290186,,,0
-VEHICLE,290187,,,0
-VEHICLE,290188,,,0
+VEHICLE,290186,Currently viewing [No Skill Entries] Components. Skill entries automatically deselected.,,0
+VEHICLE,290187,Currently viewing Components with specified skill entries. [No Skill Entries] automatically deselected.,,0
+VEHICLE,290188,No Skill Entries,,0

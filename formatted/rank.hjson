@@ -5,7 +5,7 @@
     type: 1
     sub_rank: 1
     sub_rank_name: rank-30000001
-    refresh: month:1:0
+    "": month:1:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -18,7 +18,7 @@
     sub_type: "1"
     sub_rank: 2
     sub_rank_name: rank-30000002
-    refresh: week:7:0
+    "": week:7:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -31,7 +31,7 @@
     sub_type: "2"
     sub_rank: 3
     sub_rank_name: rank-30000003
-    refresh: week:7:0
+    "": week:7:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -44,7 +44,7 @@
     sub_type: "3"
     sub_rank: 1
     sub_rank_name: rank-30000004
-    refresh: week:7:0
+    "": week:7:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -55,7 +55,7 @@
     name: rank-20000005
     type: 3
     sub_rank_name: rank-30000005
-    refresh: week:7:0
+    "": week:7:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -66,7 +66,7 @@
     name: rank-20000006
     type: 4
     sub_rank_name: rank-30000006
-    refresh: month:1:0
+    "": month:1:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -77,7 +77,7 @@
     name: rank-20000007
     type: 5
     sub_rank_name: rank-30000007
-    refresh: month:1:0
+    "": month:1:0
     title: Refreshes at 4 AM daily
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -87,18 +87,18 @@
     id: 8
     name: Event Ranking
     type: 6
-    sub_type: "11320"
+    sub_type: "11435"
     sub_rank_name: rank-30000008
-    refresh: end:2024-02-19 23:59:59
+    "": end:2024-10-18 23:59:59
     title: <Flowers of the End+> Ranking (Rewards at February 27th)
-    top_rewards: 1:40514,2:40515,3:40516,4:40517,5:40518,6:40519,7:40520,8:40521,9:40522,10:40523,100:40524
+    top_rewards: 1:40577,2:40578,3:40579,4:40580,5:40581,6:40582,7:40583,8:40584,9:40585,10:40586,100:40587
     visable_rank: 100
-    score_rewards: 350000:40525,600000:40526,800000:40527,900000:40528,1100000:40529
+    score_rewards: 450000:40588,700000:40589,1000000:40590,1200000:40591,1500000:40592
     ranking_onlist_number: 80000
     visable_count: 100
     rank_list_num: 1
-    begin_show_time: 2024-02-06 00:00:00
-    end_show_time: 2024-03-04 23:59:59
+    begin_show_time: 2024-10-15
+    end_show_time: 2024-11-04 23:59:59
     prize_preview: https://gfus-cdn.sunborngame.com/banner/listAward.html
   }
   {
@@ -106,7 +106,7 @@
     name: rank-20000101
     type: 101
     sub_rank_name: rank-30000101
-    refresh: test
+    "": test
     top_rewards: 1:412101,2:412102,3:412103,4:412104,5:412105,6:412106,7:412107,8:412108,9:412109,10:412110,100:412111
     percentage_rewards: 5:412112,10:412113,15:412114,20:412115,30:412116,40:412117,50:412118,100:412119
     visable_rank: 100
@@ -118,7 +118,7 @@
     name: rank-20000102
     type: 102
     sub_rank_name: rank-30000102
-    refresh: test
+    "": test
     visable_rank: 100
     ranking_onlist_number: 120
     visable_count: 300
@@ -128,7 +128,7 @@
     name: rank-20000112
     type: 112
     sub_rank_name: rank-30000112
-    refresh: test
+    "": test
     top_rewards: 1:412201,2:412202,3:412203,4:412204,5:412205,6:412206,7:412207,8:412208,9:412209,10:412210,100:412211
     percentage_rewards: 5:412212,10:412213,15:412214,20:412215,30:412216,40:412217,50:412218,100:412219
     visable_rank: 100
@@ -141,7 +141,7 @@
     type: 113
     sub_type: "1703"
     sub_rank_name: rank-30000122
-    refresh: test
+    "": test
     title: rank-10000122
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -153,7 +153,7 @@
     type: 113
     sub_type: "1704"
     sub_rank_name: rank-30000123
-    refresh: test
+    "": test
     title: rank-10000123
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -165,7 +165,7 @@
     type: 113
     sub_type: "1705"
     sub_rank_name: rank-30000124
-    refresh: test
+    "": test
     title: rank-10000124
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -177,7 +177,7 @@
     type: 113
     sub_type: "1706"
     sub_rank_name: rank-30000125
-    refresh: test
+    "": test
     title: rank-10000125
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -189,7 +189,7 @@
     type: 113
     sub_type: "1707"
     sub_rank_name: rank-30000126
-    refresh: test
+    "": test
     title: rank-10000126
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -201,7 +201,7 @@
     type: 114
     sub_type: "1703"
     sub_rank_name: rank-30000127
-    refresh: test
+    "": test
     title: rank-10000127
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -213,7 +213,7 @@
     type: 114
     sub_type: "1704"
     sub_rank_name: rank-30000128
-    refresh: test
+    "": test
     title: rank-10000128
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -225,7 +225,7 @@
     type: 114
     sub_type: "1705"
     sub_rank_name: rank-30000129
-    refresh: test
+    "": test
     title: rank-10000129
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -237,7 +237,7 @@
     type: 114
     sub_type: "1706"
     sub_rank_name: rank-30000130
-    refresh: test
+    "": test
     title: rank-10000130
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -249,7 +249,7 @@
     type: 114
     sub_type: "1707"
     sub_rank_name: rank-30000131
-    refresh: test
+    "": test
     title: rank-10000131
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -261,7 +261,7 @@
     type: 113
     sub_type: "1708"
     sub_rank_name: rank-30000132
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -273,7 +273,7 @@
     type: 113
     sub_type: "1709"
     sub_rank_name: rank-30000133
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -285,7 +285,7 @@
     type: 113
     sub_type: "1710"
     sub_rank_name: rank-30000134
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -297,7 +297,7 @@
     type: 114
     sub_type: "1708"
     sub_rank_name: rank-30000135
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -309,7 +309,7 @@
     type: 114
     sub_type: "1709"
     sub_rank_name: rank-30000136
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -321,7 +321,7 @@
     type: 114
     sub_type: "1710"
     sub_rank_name: rank-30000137
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -333,7 +333,7 @@
     type: 113
     sub_type: "1711"
     sub_rank_name: rank-30000138
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -345,7 +345,7 @@
     type: 113
     sub_type: "1712"
     sub_rank_name: rank-30000139
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -357,7 +357,7 @@
     type: 113
     sub_type: "1713"
     sub_rank_name: rank-30000140
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -369,7 +369,7 @@
     type: 114
     sub_type: "1711"
     sub_rank_name: rank-30000141
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -381,7 +381,7 @@
     type: 114
     sub_type: "1712"
     sub_rank_name: rank-30000142
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -393,7 +393,7 @@
     type: 114
     sub_type: "1713"
     sub_rank_name: rank-30000143
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -405,7 +405,7 @@
     type: 113
     sub_type: "1715"
     sub_rank_name: rank-30000144
-    refresh: test
+    "": test
     title: Unavoidable Lie
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -417,7 +417,7 @@
     type: 114
     sub_type: "1715"
     sub_rank_name: rank-30000145
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -429,7 +429,7 @@
     type: 113
     sub_type: "1723"
     sub_rank_name: rank-30000160
-    refresh: test
+    "": test
     title: Time Spent
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -441,7 +441,7 @@
     type: 114
     sub_type: "1723"
     sub_rank_name: rank-30000161
-    refresh: test
+    "": test
     title: Damage Inflicted Ranking
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -452,7 +452,7 @@
     name: rank-20000162
     type: 8
     sub_rank_name: rank-30000162
-    refresh: test
+    "": test
     title: rank-10000162
     visable_rank: 100
     ranking_onlist_number: 20000
@@ -464,7 +464,7 @@
     type: 113
     sub_type: "1724"
     sub_rank_name: rank-30000163
-    refresh: test
+    "": test
     title: rank-10000163
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -476,7 +476,7 @@
     type: 113
     sub_type: "1725"
     sub_rank_name: rank-30000164
-    refresh: test
+    "": test
     title: rank-10000164
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -488,7 +488,7 @@
     type: 113
     sub_type: "1726"
     sub_rank_name: rank-30000165
-    refresh: test
+    "": test
     title: rank-10000165
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -500,7 +500,7 @@
     type: 114
     sub_type: "1724"
     sub_rank_name: rank-30000166
-    refresh: test
+    "": test
     title: rank-10000166
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -512,7 +512,7 @@
     type: 114
     sub_type: "1725"
     sub_rank_name: rank-30000167
-    refresh: test
+    "": test
     title: rank-10000167
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -524,7 +524,7 @@
     type: 114
     sub_type: "1726"
     sub_rank_name: rank-30000168
-    refresh: test
+    "": test
     title: rank-10000168
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -536,7 +536,7 @@
     type: 113
     sub_type: "1730"
     sub_rank_name: rank-30000175
-    refresh: test
+    "": test
     title: rank-10000175
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -548,7 +548,7 @@
     type: 114
     sub_type: "1730"
     sub_rank_name: rank-30000176
-    refresh: test
+    "": test
     title: rank-10000176
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -560,7 +560,7 @@
     type: 113
     sub_type: "1734"
     sub_rank_name: rank-30000184
-    refresh: test
+    "": test
     title: rank-10000184
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -572,7 +572,7 @@
     type: 113
     sub_type: "1735"
     sub_rank_name: rank-30000185
-    refresh: test
+    "": test
     title: rank-10000185
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -584,7 +584,7 @@
     type: 113
     sub_type: "1736"
     sub_rank_name: rank-30000186
-    refresh: test
+    "": test
     title: rank-10000186
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -596,7 +596,7 @@
     type: 114
     sub_type: "1734"
     sub_rank_name: rank-30000187
-    refresh: test
+    "": test
     title: rank-10000187
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -608,7 +608,7 @@
     type: 114
     sub_type: "1735"
     sub_rank_name: rank-30000188
-    refresh: test
+    "": test
     title: rank-10000188
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -620,7 +620,7 @@
     type: 114
     sub_type: "1736"
     sub_rank_name: rank-30000189
-    refresh: test
+    "": test
     title: rank-10000189
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -632,7 +632,7 @@
     type: 113
     sub_type: "1737"
     sub_rank_name: rank-30000190
-    refresh: test
+    "": test
     title: rank-10000190
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -644,7 +644,7 @@
     type: 113
     sub_type: "1738"
     sub_rank_name: rank-30000191
-    refresh: test
+    "": test
     title: rank-10000191
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -656,7 +656,7 @@
     type: 114
     sub_type: "1737"
     sub_rank_name: rank-30000192
-    refresh: test
+    "": test
     title: rank-10000192
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -668,7 +668,7 @@
     type: 114
     sub_type: "1738"
     sub_rank_name: rank-30000193
-    refresh: test
+    "": test
     title: rank-10000193
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -680,7 +680,7 @@
     type: 113
     sub_type: "1739"
     sub_rank_name: rank-30000194
-    refresh: test
+    "": test
     title: rank-10000194
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -692,7 +692,7 @@
     type: 113
     sub_type: "1740"
     sub_rank_name: rank-30000195
-    refresh: test
+    "": test
     title: rank-10000195
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -704,7 +704,7 @@
     type: 113
     sub_type: "1741"
     sub_rank_name: rank-30000196
-    refresh: test
+    "": test
     title: rank-10000196
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -716,7 +716,7 @@
     type: 113
     sub_type: "1742"
     sub_rank_name: rank-30000197
-    refresh: test
+    "": test
     title: rank-10000197
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -728,7 +728,7 @@
     type: 114
     sub_type: "1739"
     sub_rank_name: rank-30000198
-    refresh: test
+    "": test
     title: rank-10000198
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -740,7 +740,7 @@
     type: 114
     sub_type: "1740"
     sub_rank_name: rank-30000199
-    refresh: test
+    "": test
     title: rank-10000199
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -752,7 +752,7 @@
     type: 114
     sub_type: "1741"
     sub_rank_name: rank-30000200
-    refresh: test
+    "": test
     title: rank-10000200
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -764,7 +764,7 @@
     type: 114
     sub_type: "1742"
     sub_rank_name: rank-30000201
-    refresh: test
+    "": test
     title: rank-10000201
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -776,7 +776,7 @@
     type: 113
     sub_type: "1743"
     sub_rank_name: rank-30000202
-    refresh: test
+    "": test
     title: rank-10000202
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -788,7 +788,7 @@
     type: 113
     sub_type: "1744"
     sub_rank_name: rank-30000203
-    refresh: test
+    "": test
     title: rank-10000203
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -800,7 +800,7 @@
     type: 113
     sub_type: "1745"
     sub_rank_name: rank-30000204
-    refresh: test
+    "": test
     title: rank-10000204
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -812,7 +812,7 @@
     type: 114
     sub_type: "1743"
     sub_rank_name: rank-30000205
-    refresh: test
+    "": test
     title: rank-10000205
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -824,7 +824,7 @@
     type: 114
     sub_type: "1744"
     sub_rank_name: rank-30000206
-    refresh: test
+    "": test
     title: rank-10000206
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -836,7 +836,7 @@
     type: 114
     sub_type: "1745"
     sub_rank_name: rank-30000207
-    refresh: test
+    "": test
     title: rank-10000207
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -849,7 +849,7 @@
     sub_type: "10105"
     sub_rank: 1
     sub_rank_name: Point
-    refresh: test
+    "": test
     title: <Down the Rabbit Hole+> Ranking
     visable_rank: 100
     ranking_onlist_number: 80000
@@ -862,7 +862,7 @@
     sub_type: "10158"
     sub_rank: 1
     sub_rank_name: Point
-    refresh: test
+    "": test
     title: <Imaginary Maze+> Ranking
     visable_rank: 100
     ranking_onlist_number: 80000
@@ -873,7 +873,7 @@
     name: rank-20001001
     type: 1001
     sub_rank_name: rank-30001001
-    refresh: test
+    "": test
     title: rank-10001001
     visable_rank: 10
     ranking_onlist_number: 160000
@@ -886,7 +886,7 @@
     name: Nodes explored
     type: 2000
     sub_type: "1"
-    refresh: test
+    "": test
     title: Nodes explored
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -897,7 +897,7 @@
     name: Bosses killed
     type: 2000
     sub_type: "2"
-    refresh: test
+    "": test
     title: Bosses killed
     visable_rank: 100
     ranking_onlist_number: 160000
@@ -908,7 +908,7 @@
     name: Nodes conquered
     type: 2000
     sub_type: "3"
-    refresh: test
+    "": test
     title: Nodes conquered
     visable_rank: 100
     ranking_onlist_number: 160000

@@ -156,6 +156,26 @@
       '''
   }
   {
+    id: 10
+    name: Labyrinthine Defense+
+    type: 2
+    value: "110064"
+    condition: 60000:40565;120000:40566;600000:40567;1000000:40568;1500000:40569;2000000:40570;2200000:40571;2700000:40572;3200000:40573;3600000:40574;4000000:40575;4500000:40576
+    start_time: 2024-10-15 00:00:00
+    end_time: 2024-10-28 23:59:59
+    prize_start_time: 2024-10-15 00:00:00
+    prize_end_time: 2024-11-04 23:59:59
+    left_icon: fddde112d30b76f7_draw_240926173708.png
+    background: af896c8f9ed7b151_draw_240926173707.png
+    notice_txt:
+      '''
+      1. For the duration of the event, accumulate points in the stage "Labyrinthine Defense+" and complete score targets to obtain the corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. After the end of the event, no more points can be scored, but the event interface will remain until the reward collection deadline.
+      4. While the event interface is still accessible, you can enter this reward interface through the rolling event banner on the home page. You will not be able to collect your rewards past the deadline.
+      '''
+  }
+  {
     id: 1001
     name: event_prize_level-10001001
     type: 2

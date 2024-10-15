@@ -4457,6 +4457,76 @@
     fix_damage: "1000009454"
   }
   {
+    id: 706
+    description: SPAS12攻击
+    damage_ratio: "100"
+    target_move: "2"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    beat_back_percent: "5"
+    target_move_percent: "100"
+    target_skill: 500101
+    hit_type: 1
+    fix_damage: "1000007024"
+  }
+  {
+    id: 707
+    description: WA2000套装普通攻击
+    damage_ratio: "100"
+    extra_damage: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+  }
+  {
+    id: 708
+    description: MP7装备攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 9615:1000009498
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
+    id: 710
+    description: ak12普通攻击
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_target: 8161:1,5320:1
+    buff_id_self: 8096:1
+    buff_rate: "100"
+    hit_type: 1
+    fix_damage: "1000007054"
+  }
+  {
+    id: 711
+    description: XM556技能普攻
+    damage_ratio: "100"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    buff_id_self: 9599:1,1027:1
+    hurt_buff_trigger_type: 1
+    buff_rate: "100"
+    hit_type: 1
+  }
+  {
     id: 900
     description: 白色跳跳兵激光
     damage_ratio: *201
@@ -4613,6 +4683,32 @@
     critical_hit_rate: "100"
     hit_type: 1
     fix_damage: "1000002426"
+  }
+  {
+    id: 1701
+    description: L9A1普通攻击
+    damage_ratio: "100"
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    defbreak_rate: "100"
+    hit_type: 2
+    is_ricochet: 100
+  }
+  {
+    id: 1702
+    description: L9A1主技能
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    is_miss: 1
+    is_armor: 1
+    buff_rate: "100"
+    hit_type: 1
   }
   {
     id: 2001
@@ -6421,6 +6517,7 @@
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2195
@@ -6435,6 +6532,7 @@
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2196
@@ -6537,10 +6635,11 @@
     float_wide: 15
     is_miss: 1
     is_armor: 1
-    buff_id_target: 8161:1
+    buff_id_target: 8161:1,5320:1
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2206
@@ -6569,6 +6668,7 @@
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2208
@@ -6583,6 +6683,7 @@
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2209
@@ -6597,6 +6698,7 @@
     buff_id_self: 8096:1
     buff_rate: "100"
     hit_type: 1
+    fix_damage: "1000007054"
   }
   {
     id: 2210
@@ -10867,6 +10969,60 @@
     fix_damage: "1000002302,1000002303,1000002304,1000002305,1000002306,1000002307,1000002308,1000002309,1000002312,1000002314,1000002316,1000002317"
     range_buff_target: 1000002311:1,1000002313:1,1000002321:1,5175:1000002315,1000002310:2,1000002327:1,1000002328:1,1000002329:1,1000009073:1,1000009074:1
     range_buff_self: 5154:1000002301,15086:1000002324,1000002322:1,5208:1,15146:1
+  }
+  {
+    id: 4001
+    description: 泳装计量官普攻
+    damage_ratio: "60"
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4002
+    description: 泳装计量官大招普攻
+    damage_ratio: *201
+    is_critical_hit: 1
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_miss: 1
+    is_armor: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4003
+    description: 泳装计量官大招锚击
+    damage_ratio: *202
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4004
+    description: 泳装计量官二技能洪流
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
+  }
+  {
+    id: 4005
+    description: 泳装计量官三技能洪流
+    damage_ratio: *201
+    critical_hit_rate: "100"
+    float_wide: 15
+    is_form_hurt: 1
+    hit_type: 1
+    is_shield: 1000006101
   }
   {
     id: 7772
