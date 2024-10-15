@@ -4457,6 +4457,7 @@
   }
   {
     id: 78007
+    name: Process Transaction
     skill_group_id: 78007
     level: 1
     spot_type: "-1"
@@ -4470,6 +4471,7 @@
   }
   {
     id: 78008
+    name: Process Transaction
     skill_group_id: 78008
     level: 1
     spot_type: "-1"
@@ -20383,6 +20385,7 @@
   }
   {
     id: 575001
+    name: Process Transaction
     skill_group_id: 575001
     level: 1
     spot_type: "-1"
@@ -27639,6 +27642,7 @@
   }
   {
     id: 680301
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680301
     level: 1
@@ -27651,6 +27655,7 @@
   }
   {
     id: 680302
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680302
     level: 1
@@ -27663,6 +27668,7 @@
   }
   {
     id: 680303
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680303
     level: 1
@@ -27675,6 +27681,7 @@
   }
   {
     id: 680304
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680304
     level: 1
@@ -27687,6 +27694,7 @@
   }
   {
     id: 680305
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680305
     level: 1
@@ -27699,6 +27707,7 @@
   }
   {
     id: 680306
+    name: Fairy Tale Book?
     code: "1"
     skill_group_id: 680306
     level: 1
@@ -27846,6 +27855,7 @@
   }
   {
     id: 680531
+    name: Close
     code: "1"
     skill_group_id: 680531
     level: 1
@@ -27861,6 +27871,7 @@
   }
   {
     id: 680532
+    name: Close
     code: "1"
     skill_group_id: 680532
     level: 1
@@ -27876,6 +27887,7 @@
   }
   {
     id: 680533
+    name: Close
     code: "1"
     skill_group_id: 680533
     level: 1
@@ -27891,6 +27903,7 @@
   }
   {
     id: 680534
+    name: Close
     code: "1"
     skill_group_id: 680534
     level: 1
@@ -27906,6 +27919,7 @@
   }
   {
     id: 680535
+    name: Close
     code: "1"
     skill_group_id: 680535
     level: 1
@@ -53813,7 +53827,7 @@
     id: 6560040
     name: Pick Up Goliath
     code: "1"
-    description: Get a Goliath
+    description: Goliath obtained.
     skill_group_id: 6560040
     level: 1
     spot_type: "-1"
@@ -53830,7 +53844,7 @@
     id: 6560041
     name: Pick up EMP Grenade
     code: "1"
-    description: Get an EMP Grenade
+    description: EMP grenade obtained.
     skill_group_id: 6560041
     level: 1
     spot_type: "-1"
@@ -53847,7 +53861,7 @@
     id: 6560042
     name: Throw Goliath
     code: "1"
-    description: Blow it to bits.
+    description: Blow it to bits.
     skill_group_id: 6560042
     level: 1
     spot_type: "-1"
@@ -53862,9 +53876,9 @@
   }
   {
     id: 6560043
-    name: Throw EMP Grenade
+    name: Throw EMP Grenade.
     code: "1"
-    description: Red light... Green light.
+    description: Red light... Green light.
     skill_group_id: 6560043
     level: 1
     spot_type: "-1"
@@ -58582,6 +58596,7 @@
   {
     id: 6630019
     name: Golden Axe? Silver Axe?【Neither
+    description: Young one, was the axe you lost the golden axe on the left or the silver axe on the right?
     skill_group_id: 6630019
     level: 1
     spot_type: "-1"
@@ -58596,6 +58611,7 @@
   {
     id: 6630020
     name: Golden Axe? Silver Axe?【...
+    description: Young one, was the axe you lost the golden axe on the left or the silver axe on the right?
     skill_group_id: 6630020
     level: 1
     spot_type: "-1"
@@ -58610,6 +58626,7 @@
   {
     id: 6630021
     name: Golden Axe? Silver Axe?【Both
+    description: Young one, was the axe you lost the golden axe on the left or the silver axe on the right?
     skill_group_id: 6630021
     level: 1
     spot_type: "-1"
@@ -58941,7 +58958,9 @@
   }
   {
     id: 6650016
+    name: Mobility Boosted
     code: "1"
+    description: Selected echelon gains mobility boost
     skill_group_id: 6650016
     level: 1
     spot_type: "-1"
@@ -58957,7 +58976,9 @@
   }
   {
     id: 6650017
+    name: Throw Goliath
     code: "1"
+    description: Selected echelon gains throwable Goliath
     skill_group_id: 6650017
     level: 1
     spot_type: "-1"
