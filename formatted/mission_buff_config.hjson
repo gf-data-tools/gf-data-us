@@ -4715,8 +4715,8 @@
   }
   {
     id: 690022
-    name: mission_buff_config-10690022
-    description: mission_buff_config-20690022
+    name: Wands
+    description: Affected by EMP
     code: Theresa_Back
     type: 1
     duration_type: "1"
@@ -4730,8 +4730,8 @@
   }
   {
     id: 690032
-    name: mission_buff_config-10690032
-    description: mission_buff_config-20690032
+    name: Swords
+    description: Damage is significantly increased in the next battle, but the echelon will be immobilized after the battle.
     code: powBuff
     type: 1
     duration_type: "1"
@@ -4747,8 +4747,8 @@
   }
   {
     id: 690042
-    name: mission_buff_config-10690042
-    description: mission_buff_config-20690042
+    name: Cups
+    description: Gain a shield at the start of every battle for 1 round
     code: shield
     type: 1
     duration_type: "1"
@@ -4761,8 +4761,8 @@
   }
   {
     id: 690052
-    name: mission_buff_config-10690052
-    description: mission_buff_config-20690052
+    name: Immobilized
+    description: Exhausted
     code: Theresa_Back
     type: 1
     duration_type: "1"
@@ -4923,8 +4923,7 @@
   }
   {
     id: 690813
-    name: mission_buff_config-10690813
-    description: mission_buff_config-20690813
+    name: EM Paralysis
     code: Theresa_Back
     type: 1
     duration_type: "1"

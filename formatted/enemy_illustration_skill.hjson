@@ -1107,96 +1107,115 @@
   {
     id: 222
     name: Fire Command
+    description: Increase the entire echelon's damage.
   }
   {
     id: 223
+    name: Grenade EX
+    description: Throw a grenade at the target, dealing 1.8x damage that scales with Dummy-Links to all units in a radius of 2.5.
   }
   {
     id: 224
+    name: Dual Wield
+    description: When the primary and secondary weapons unleash an attack at the same time, the secondary weapon deals 50% damage.
   }
   {
     id: 225
+    name: Cover Protection
+    description: Generate an obstacle with taunt effect in front of self. Units behind the obstacle take less damage.
   }
   {
     id: 226
+    name: Grenade Tactic α
+    description: Throw a grenade at a random tile occupied by an enemy, dealing damage that scales with Dummy-Links and stunning its occupant.
   }
   {
     id: 227
+    name: Grenade Tactic β
+    description: Throw a grenade at the tile occupied by the enemy unit with the highest HP, dealing damage that scales with Dummy-Links and additional damage.
   }
   {
     id: 228
-    name: enemy_illustration_skill-10000228
-    description: enemy_illustration_skill-20000228
+    name: Dual Slash
+    description: Deal 2 instances of damage that ignores shields to the nearest target.
   }
   {
     id: 229
-    name: enemy_illustration_skill-10000229
-    description: enemy_illustration_skill-20000229
+    name: Energy Surge
+    description: Launch a ball of energy at the nearest target, dealing damage that scales with Dummy-Links.
   }
   {
     id: 230
-    name: enemy_illustration_skill-10000230
-    description: enemy_illustration_skill-20000230
+    name: Energy Strike
+    description: Launch a ball of energy at the target with the highest HP, dealing damage that scales with self Dummy-Links.
   }
   {
     id: 231
-    name: enemy_illustration_skill-10000231
-    description: enemy_illustration_skill-20000231
+    name: Pentacles
+    description: Starting with 3 Pentacles, gain 1 Pentacle every 3 seconds, capping at 6 Pentacles.
   }
   {
     id: 232
-    name: enemy_illustration_skill-10000232
-    description: enemy_illustration_skill-20000232
+    name: Swords
+    description: Consume 2 Pentacles to summon a Sword above 3 random enemies, dealing 999 points of damage in a small area. Each successful hit generates 2 Pentacles.
   }
   {
     id: 233
-    name: enemy_illustration_skill-10000233
-    description: enemy_illustration_skill-20000233
+    name: Cups
+    description: Take no more than 999 points of damage for each hit. When HP falls below 50%, consume 1 Pentacle to gain a shield. Gain additional shield HP for every Pentacle in possession.
   }
   {
     id: 234
-    name: enemy_illustration_skill-10000234
-    description: enemy_illustration_skill-20000234
+    name: Wands
+    description: Consume 2 Pentacles to summon 2 clones, and increase the entire echelon's damage and evasion. After 10 seconds, the clones self-destruct, dealing AoE damage that scales with Dummy-Links and generating 1 Pentacle.
   }
   {
     id: 235
-    name: enemy_illustration_skill-10000235
-    description: enemy_illustration_skill-20000235
+    name: Draw I
+    description:
+      '''
+      When HP falls below 80%, trigger one of the following effects at random:
+      The Emperor: Reduce movement speed, rate of fire, and accuracy for both sides.
+      The Hierophant: Both sides summon front-row units to aid in battle.
+      The Chariot: Both sides conduct artillery strikes.
+      '''
   }
   {
     id: 236
-    name: enemy_illustration_skill-10000236
-    description: enemy_illustration_skill-20000236
+    name: Draw II
+    description:
+      '''
+      When HP falls below 60%, trigger one of the following effects at random:
+      The Lovers: Units on neither side will lose Dummy-Links or die.
+      The Hermit: Accuracy is significantly reduced for both sides.
+      Temperance: Remove debuffs on both sides.
+      '''
   }
   {
     id: 237
-    name: enemy_illustration_skill-10000237
-    description: enemy_illustration_skill-20000237
+    name: Draw III
+    description:
+      '''
+      When HP falls below 30%, trigger one of the following effects at random:
+      Death: Both sides take a massive amount of damage.
+      The Devil: Both sides take corrosive damage.
+      The Moon: Both sides regain their lost shields.
+      '''
   }
   {
     id: 238
-    name: enemy_illustration_skill-10000238
-    description: enemy_illustration_skill-20000238
   }
   {
     id: 239
-    name: enemy_illustration_skill-10000239
-    description: enemy_illustration_skill-20000239
   }
   {
     id: 240
-    name: enemy_illustration_skill-10000240
-    description: enemy_illustration_skill-20000240
   }
   {
     id: 241
-    name: enemy_illustration_skill-10000241
-    description: enemy_illustration_skill-20000241
   }
   {
     id: 242
-    name: enemy_illustration_skill-10000242
-    description: enemy_illustration_skill-20000242
   }
   {
     id: 999
@@ -1210,38 +1229,38 @@
   }
   {
     id: 5801
-    name: enemy_illustration_skill-10005801
-    description: enemy_illustration_skill-20005801
+    name: Frozen Shell
+    description: ELID ringleaders have some armor protection. Their outer shell will be destroyed when their HP is reduced or if they are hit by incendiary attacks.
   }
   {
     id: 5802
-    name: enemy_illustration_skill-10005802
-    description: enemy_illustration_skill-20005802
+    name: Frozen Aura
+    description: ELID ringleaders have a debuff aura. The closer your units are to an ELID ringleader, the stronger the debuff on their stats.
   }
   {
     id: 7801
-    name: enemy_illustration_skill-10007801
-    description: enemy_illustration_skill-20007801
+    name: Comprehensive Boost
+    description: When Agent's HP falls below a certain threshold, she becomes invincible for a period of time, during which all her stats are significantly increased.
   }
   {
     id: 8101
-    name: enemy_illustration_skill-10008101
-    description: enemy_illustration_skill-20008101
+    name: Revelation of Fate
+    description: Throw an incendiary grenade, a smoke grenade, a flashbang, and a grenade at 8 random tiles in the area occupied by your forces.
   }
   {
     id: 8102
-    name: enemy_illustration_skill-10008102
-    description: enemy_illustration_skill-20008102
+    name: Griffin Tactic – M16A1
+    description: When M16A1 loses HP, she gains a shield, deals burning damage in a cross-shaped area occupied by your forces, and throws a flashbang every 12 seconds that stuns all your units.
   }
   {
     id: 8201
-    name: enemy_illustration_skill-10008201
-    description: enemy_illustration_skill-20008201
+    name: Venue Restriction
+    description: The area occupied by your forces will burn continuously.
   }
   {
     id: 8301
-    name: enemy_illustration_skill-10008301
-    description: enemy_illustration_skill-20008301
+    name: Critical Warning
+    description: Summon an airstrike on 8 random tiles in the area occupied by your forces, dealing a massive amount of damage.
   }
   {
     id: 10005

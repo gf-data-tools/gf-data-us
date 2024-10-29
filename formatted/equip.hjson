@@ -3773,8 +3773,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,pow:1000,critical_percent:1000
+    passive_skill: "1000101"
     max_level: 10
     auto_select_id: 18025
+    group_id: "23"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000131
@@ -5376,8 +5378,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:700,critical_percent:350
+    passive_skill: "1000201"
     max_level: 10
     auto_select_id: 18051
+    group_id: "24"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000179
@@ -11845,6 +11849,75 @@
     obtain_ids: "3016"
   }
   {
+    id: 384
+    name: FA Prototype Exoskeleton
+    description:
+      '''
+      ACC<hit>
+      EVA+<dodge> $M950A MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "-5,-3"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_M950AMod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20097"
+    equip_introduction: An exoskeleton with new upgrades based on M950A's previously broken one, but no changes have been made to its appearance, allegedly to commemorate the friend who gave her the equipment.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:800
+    passive_skill: "1000202"
+    max_level: 10
+    auto_select_id: 20081
+    group_id: "24"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 385
+    name: Type 64 Lightweight Rig
+    description:
+      '''
+      CRIT DMG+<critical_harm_rate><%>
+      AMMO+<bullet_number_up> $LWMMG MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_harm_rate: "6,10"
+    bullet_number_up: "3,4"
+    retire_mp: 1
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 5
+    code: TDoll_SP_LWMMGMod
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "20081"
+    equip_introduction: A piece of military equipment designed specially for LWMMG. Made of cost-effective materials, it is very tough and durable.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,critical_harm_rate:1000
+    passive_skill: "1000102"
+    max_level: 10
+    auto_select_id: 20082
+    group_id: "23"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
     id: 386
     name: Custom PR Rail
     description:
@@ -12078,5 +12151,109 @@
     is_show: 1
     obtain_ids: "3016"
     description_skill: 1000910
+  }
+  {
+    id: 397
+    name: Polymer Drum Magazine
+    description:
+      '''
+      AMMO+<bullet_number_up>
+      ACC+<hit> Enhances skill $USAS-12 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "6,10"
+    bullet_number_up: "2,3"
+    retire_mp: 1
+    retire_ammo: 4
+    retire_mre: 1
+    retire_part: 1
+    code: 配件_特殊_USAS12
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "189"
+    equip_introduction: One of USAS-12's most highly used accessories. The 20-round capacity and the high firing speed give her combat capability a significant boost.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,hit:1000
+    passive_skill: "1001301"
+    max_level: 10
+    auto_select_id: 18118
+    is_show: 1
+    obtain_ids: "3105"
+    description_skill: 1001301
+  }
+  {
+    id: 404
+    name: Custom Combat Motorbike
+    description:
+      '''
+      EVA+<dodge> ROF<rate>
+      ARMOR+<armor> Enhances skill $Rex Zero 1 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "8,11"
+    rate: "-5,-1"
+    armor: "3,5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_RexZero1
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "310,20310"
+    equip_introduction: Rex Zero 1's favorite motorcycle. She loves being a speed demon on the battlefield.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "992490"
+    max_level: 10
+    auto_select_id: 20083
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992490
+  }
+  {
+    id: 405
+    name: Nocturnal Cape
+    description:
+      '''
+      DMG+<pow> CRIT DMG+<critical_harm_rate><%>
+      ICD-80% $Gd DSR-50 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    critical_harm_rate: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_DSR50
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "179"
+    equip_introduction: A cape that Gd DSR-50 often brings along. It comes in handy in both battles and night-time operations.
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:500,pow:1000
+    passive_skill: "759059"
+    max_level: 10
+    auto_select_id: 20084
+    is_show: 1
+    obtain_ids: "3115"
+    sp_description: Initial Cooldown -80%
   }
 ]

@@ -28488,7 +28488,7 @@
     space: "3,3,0,0,0,0"
     deco_rate: 1000
     decompose_gift: 100003
-    description: An essential prop for playing catchâ€”you draw the target on a poster, then cross them out once they're caught, or wait till the poster fades as the years pass.
+    description: An essential prop for playing catch—you draw the target on a poster, then cross them out once they're caught, or wait till the poster fades as the years pass.
     code: 202404Activity_deco7
     texture_type: "1"
     offset: "-0.063,-0.271,0.000"
@@ -28519,8 +28519,39 @@
     space: "2,5,1,1,1,0"
     deco_rate: 1000
     decompose_gift: 100003
-    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "The Summer Garden of Forking Paths". "Through division, here in death's dream kingdom, the golden vision reappears."
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Summer Garden of the Forking Paths". "Through division, here in death's dream kingdom, the golden vision reappears."
     code: 202404Activity_Meal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20137
+    name: Prophetic Guidance
+    classes: 19
+    type: 201
+    space: "5,3,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A soul finally starts to wonder as it stands before the rectangular card table—did this particular card get flipped over because of a coincidental exercise of free will, or was it predetermined by fate?
+    code: 202406Activity_Tarot_deco1,202406Activity_Tarot
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.000,0.000,0.000|0.035,0.608,0.144"
+    rotate: "2,2"
+    interact_point: "82013701,82013702,82013703,82013704,82013705,82013706,82013707,82013708,82013709,82013710,82013711"
+    interact_point_offset: *0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000|*0.000,0.854,0.000
+  }
+  {
+    id: 20138
+    name: Choice of Eternal Return Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Awarded to the Commander and his Dolls for outstanding performance during the "Cartesian Theater" event. "Endless repetition, over and over, for you."
+    code: 202406Activity_Medal
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
@@ -38531,6 +38562,111 @@
     rotate: "3"
   }
   {
+    id: 38801
+    name: Beauty in the Graveyard
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Python's poster.
+    code: poster_Halloween2023_Python
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38802
+    name: Nightstalker Beneath the Crimson Moon
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: NZ75's poster.
+    code: poster_Halloween2023_NZ75
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38803
+    name: Perspective (Self-Portrait)
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Sterling's poster.
+    code: poster_Halloween2023_Sterling
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38804
+    name: Operation Candy Bonanza!
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 100 Shiki's poster.
+    code: poster_Halloween2023_Type100
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38805
+    name: Witch's Potions Selling Like Hotcakes
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Stechkin's poster.
+    code: poster_Halloween2023_APS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38806
+    name: Sorcerer's Imaginarium
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 4 Shiki's poster.
+    code: poster_Halloween2023_4type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38807
+    name: When the Ravens Cry
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Micro Uzi's poster.
+    code: poster_Halloween2023_MicroUZI
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 38901
     name: Fluffy Fruit Tea
     classes: 300
@@ -43007,6 +43143,111 @@
     rotate: "3"
   }
   {
+    id: 310501
+    name: Swan's-Down Phantom
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gd DSR-50's Poster
+    code: poster_Masque2024_DSR50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310502
+    name: Sweetheart Hunter
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P2000's poster.
+    code: poster_Masque2024_P2000
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310503
+    name: Seal of Darkness
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SIG MCX's poster.
+    code: poster_Masque2024_SIGMCX
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310504
+    name: Moonlit Magician
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: De Lisle's poster.
+    code: poster_Masque2024_Delisle
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310505
+    name: Holy Maiden's Prayer
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SSG3000's poster.
+    code: poster_Masque2024_SSG3000
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310506
+    name: Doki Doki After Dark
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ZiP .22's poster.
+    code: poster_Masque2024_ZIP22
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310507
+    name: Historian of Thievery
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1895's Poster
+    code: poster_Masque2024_M1895
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 330001
     name: Breeze in a Summer Afternoon
     classes: 300
@@ -43286,6 +43527,21 @@
     decompose_gift: 100003
     description: M1897's Poster
     code: poster_BattlePass_M1897
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330022
+    name: Cozy Root Note
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LWMMG's Poster
+    code: poster_BattlePass_LWMMG
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

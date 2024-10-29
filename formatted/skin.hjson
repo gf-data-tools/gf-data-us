@@ -5661,6 +5661,15 @@
     note: Original Costume
   }
   {
+    id: 5075
+    name: Rex Zero 1 - Original Model
+    fit_gun: 20310
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
     id: 5101
     name: Willow Foxfire
     fit_gun: 316
@@ -8387,6 +8396,78 @@
     class_id: 92
   }
   {
+    id: 8801
+    name: Beauty in the Graveyard
+    fit_gun: 4
+    voice: 18
+    dialog: Looks like I'm not the only one to have discovered this treasure. Let's have a duel then. Whoever loses has to accept their punishment! I won't go easy on you, Commander...
+    illustrator_cv: YoYo, Shiki Aoki,
+    order: 118
+    class_id: 93
+    skin_source: 2
+  }
+  {
+    id: 8802
+    name: Nightstalker Beneath the Crimson Moon
+    fit_gun: 126
+    voice: 18
+    dialog: In the name of the Moon, I will— C-Commander, what are you doing here? Only dark beings like myself should be roaming this sort of cursed land, so please go...
+    order: 118
+    class_id: 93
+    skin_source: 2
+  }
+  {
+    id: 8803
+    name: Perspective (Self-Portrait)
+    fit_gun: 359
+    voice: 18
+    dialog: Watch out for the ghostly candlelight. Indeed, the forces in the shadows are up to no good again... However, we still have the upper hand... if you can help me prop up this picture frame, that is.
+    order: 118
+    class_id: 93
+    skin_source: 2
+  }
+  {
+    id: 8804
+    name: Operation Candy Bonanza!
+    fit_gun: 228
+    voice: 18
+    dialog: Hello, Commander. I am on my way to solicit Halloween candy. I hear there's a cottage over there with lots of sweets! There may be bad guys who ambush and mug passers-by for their sweets? I'm sure I won't be so unlucky...
+    order: 118
+    class_id: 93
+    skin_source: 2
+  }
+  {
+    id: 8805
+    name: Witch's Potions Selling Like Hotcakes
+    fit_gun: 7
+    voice: 18
+    dialog: Commander, Commander! I splurged on some magic potions and saved the first spoonful specially for you! Tastes good, right? That's how much it cost, please tap your card here~
+    gift_position: "-102.5,5.2"
+    illustrator_cv: 小星, Miku Itou,
+    order: 118
+    class_id: 93
+    skin_source: 1
+  }
+  {
+    id: 8806
+    name: Sorcerer's Imaginarium
+    fit_gun: 270
+    voice: 18
+    dialog: Fantasy manga often features an artifact that can grant any wish. If I ever got my hands on one, I would wish for people to stop pressing me for chapter updates...
+    order: 118
+    class_id: 93
+    skin_source: 2
+  }
+  {
+    id: 8807
+    name: When the Ravens Cry
+    fit_gun: 32
+    voice: 18
+    dialog: Com~man~der, here I come! Whoever gets caught must— W-wait, what just grabbed me?! Commander, help!!!
+    order: 118
+    class_id: 93
+  }
+  {
     id: 8901
     name: Fluffy Fruit Tea
     fit_gun: 55
@@ -8622,6 +8703,80 @@
     class_id: 100
   }
   {
+    id: 10501
+    name: Swan's-Down Phantom
+    fit_gun: 179
+    voice: 4
+    dialog: Commander, would you like me to check how sturdy your protective equipment is? I'll try to be gentle... or would you like me to do this some other way?
+    illustrator_cv: 小枪, Yuka Saitou,
+    order: 133
+    class_id: 102
+    skin_source: 2
+  }
+  {
+    id: 10502
+    name: Sweetheart Hunter
+    fit_gun: 399
+    voice: 4
+    dialog: With a pink heart spewed from her exhaust pipe, Ruby is charging at an incomparable speed to the finishing line—to victory!
+    order: 133
+    class_id: 102
+    skin_source: 2
+  }
+  {
+    id: 10503
+    name: Seal of Darkness
+    fit_gun: 338
+    voice: 4
+    dialog: To seal this creature born of darkness—hey, Commander, stop tugging at my chains! This police officer spent four hours putting this costume together!
+    gift_position: "-154.4,-60.9"
+    order: 133
+    class_id: 102
+    skin_source: 1
+  }
+  {
+    id: 10504
+    name: Moonlit Magician
+    fit_gun: 337
+    voice: 4
+    dialog: As a magician, the most important thing today is to put on a pair of noise-canceling headphones. No matter if the audience cheers or boos, I must remain calm and not let my nerves show.
+    illustrator_cv: 鳗鱼, Ayane Sakura,
+    order: 133
+    class_id: 102
+    skin_source: 2
+  }
+  {
+    id: 10505
+    name: Holy Maiden's Prayer
+    fit_gun: 273
+    voice: 4
+    dialog: Is something troubling you, Commander? I am happy to listen to you, no matter how long it takes. I'd love to help.
+    illustrator_cv: 小星, Hitomi Oowada,
+    order: 133
+    class_id: 102
+    skin_source: 2
+  }
+  {
+    id: 10506
+    name: Doki Doki After Dark
+    fit_gun: 354
+    voice: 4
+    dialog: A thief who can change disguises? And walks on a tightrope? That's a piece of cake for me! ...Oh, the wind is so strong, my mask is getting blown off! ...Commander, help me pick it up!
+    order: 133
+    class_id: 102
+    skin_source: 2
+  }
+  {
+    id: 10507
+    name: Historian of Thievery
+    fit_gun: 5
+    voice: 4
+    dialog: Thievery is an elegant art form. Now I'm going to tell you about the history of—please stop patting me on the head! I'm a babushka telling an old story, not a little kid babbling about some fairy tale!
+    gift_position: "-113.9,239.6"
+    order: 133
+    class_id: 102
+  }
+  {
     id: 30001
     name: Breeze in a Summer Afternoon
     fit_gun: 57
@@ -8786,5 +8941,13 @@
     voice: 4
     dialog: I will not allow anything oily or filthy to remain before me... Master, please watch closely - Activating Super Cleaning Mode!
     order: 134
+  }
+  {
+    id: 30022
+    name: Cozy Root Note
+    fit_gun: 81
+    voice: 4
+    dialog: I, who gladly embraced my place as a foil, shall one day be basked in the spotlight's glow? ...May rigorous practice provide the answer!
+    order: 138
   }
 ]
