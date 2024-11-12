@@ -5042,6 +5042,30 @@
     spine_scale: "100,100,1"
   }
   {
+    sub_id: 216001
+    id: 216
+    name: Dreamer - Moonlit Sentinel
+    sub_name: Dreamer - Moonlit Sentinel
+    type: 1
+    code: Dreamer_Halloween
+    introduce: Dreamer - Moonlit Sentinel is a specialized model developed for fighting in the dark. Her optimized laser weapon can penetrate to back-row enemies from a longer distance. The devil's horns custom-made to Dreamer's own specifications also emit a jamming signal while in battle, enshrouding herself and her allies in layers of thick, black smoke, turning them into phantoms that spread confusion, chaos, and imminent death... You'd better pray you never encounter her during the night... because no prey survives in an environment where she has the absolute upper hand.
+    forces: 1
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,209"
+    enemy_skill: "70,97"
+    launch_time: 2035-5-20 00:00:00
+    extra: ",Kaya Okuno,"
+    org_id: 10604
+  }
+  {
     sub_id: 217001
     id: 217
     name: ST AR-15
