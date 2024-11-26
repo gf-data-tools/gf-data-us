@@ -3739,8 +3739,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:1000,hit:1000
+    passive_skill: "1000401"
     max_level: 10
     auto_select_id: 18024
+    group_id: "25"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000130
@@ -5830,8 +5832,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:800
+    passive_skill: "1000501"
     max_level: 10
     auto_select_id: 20027
+    group_id: "26"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000192
@@ -12053,6 +12057,76 @@
     obtain_ids: "3113"
   }
   {
+    id: 390
+    name: Maid Exclusive Chip
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      EVA+<dodge> $Gr G36 MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,15"
+    hit: "3,5"
+    dodge: "8,10"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_G36
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20064"
+    equip_introduction: A high-performance chip custom made for Gr G36 which will prevent miscalculations even at the busiest of times.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:700,hit:1000,dodge:1000
+    passive_skill: "1000402"
+    max_level: 10
+    auto_select_id: 20079
+    group_id: "25"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 391
+    name: MK5 Signal Flare
+    description:
+      '''
+      ACC+<hit>
+      ECH ACC+20% $RO635 MOD only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "12,15"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_RO635
+    develop_duration: 3600
+    company: 16Lab
+    fit_guns: "20143"
+    equip_introduction: A signal flare that RO635 often brings along on her missions. It has came in clutch many times when she was in danger, so she can't bear the idea of replacing it even if it gets mocked for being old and battered.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:700
+    passive_skill: "759034,1000502"
+    max_level: 10
+    auto_select_id: 19074
+    group_id: "26"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: ECH ACC+20%
+  }
+  {
     id: 392
     name: 9x18mm SPK
     description:
@@ -12186,6 +12260,40 @@
     is_show: 1
     obtain_ids: "3105"
     description_skill: 1001301
+  }
+  {
+    id: 403
+    name: XD 9mm +P Rounds
+    description:
+      '''
+      DMG+<pow>
+      ROF<rate> $Vector only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    rate: "-8,-5"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Vector
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "20"
+    equip_introduction: 9mm +P ammo that I.O.P developed exclusively for Vector. The new cartridge design rectifies Vector's poor compatibility with +P ammo. The adoption of XD rounds also provides a massive boost in lethality.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    passive_skill: "1001601"
+    max_level: 10
+    auto_select_id: 19080
+    is_show: 1
+    obtain_ids: "3106"
+    description_skill: 1001601
   }
   {
     id: 404

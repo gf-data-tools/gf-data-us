@@ -4911,6 +4911,16 @@
     detail_introduction: item-30001386
   }
   {
+    id: 1387
+    type: 5
+    arg: "1"
+    code: card_Xmas18
+    item_name: ID Card: T-Reindeer
+    introduction: ID Card: T-Reindeer
+    rank: 1
+    detail_introduction: item-30001387
+  }
+  {
     id: 1388
     type: 5
     arg: "1"
@@ -5349,6 +5359,36 @@
     introduction: Background: Witching Hour
     rank: 1
     detail_introduction: item-30001438
+  }
+  {
+    id: 1439
+    type: 5
+    arg: "1"
+    code: profilePic_znq19_HK416
+    item_name: Icon: Enlightened Explorer
+    introduction: Icon: Enlightened Explorer
+    rank: 1
+    detail_introduction: item-30001439
+  }
+  {
+    id: 1440
+    type: 5
+    arg: "1"
+    code: profilePic_znq19_SOPMOD
+    item_name: Icon: Shining Pursuer
+    introduction: Icon: Shining Pursuer
+    rank: 1
+    detail_introduction: item-30001440
+  }
+  {
+    id: 1441
+    type: 5
+    arg: "1"
+    code: profilePic_znq19_RO635
+    item_name: Icon: Seed of Hope
+    introduction: Icon: Seed of Hope
+    rank: 1
+    detail_introduction: item-30001441
   }
   {
     id: 1444
@@ -14175,6 +14215,69 @@
     rank: 1
   }
   {
+    id: 2559
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_FM24
+    item_name: To Golden Encounters
+    introduction: To Golden Encounters
+    rank: 1
+  }
+  {
+    id: 2560
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_JS9mm
+    item_name: Parfait Martini
+    introduction: Parfait Martini
+    rank: 1
+  }
+  {
+    id: 2561
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_LTLX7000
+    item_name: Macallan Intoxication
+    introduction: Macallan Intoxication
+    rank: 1
+  }
+  {
+    id: 2562
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_SR3MP
+    item_name: A Gift of Guns N' Roses
+    introduction: A Gift of Guns N' Roses
+    rank: 1
+  }
+  {
+    id: 2563
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_56-1type
+    item_name: Baileys with Zongzi
+    introduction: Baileys with Zongzi
+    rank: 1
+  }
+  {
+    id: 2564
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_RMB93
+    item_name: Berry Tipsy Night
+    introduction: Berry Tipsy Night
+    rank: 1
+  }
+  {
+    id: 2565
+    type: 5
+    arg: "1"
+    code: profilePic_Bunny24_MP40
+    item_name: Champagne of Spades
+    introduction: Champagne of Spades
+    rank: 1
+  }
+  {
     id: 2568
     type: 5
     arg: "1"
@@ -15349,6 +15452,15 @@
     id: 10713
     type: 18
     arg: "10713"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10714
+    type: 18
+    arg: "10714"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -21625,6 +21737,39 @@
     id: 1700018
     type: 15
     arg: "1700018"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700019
+    type: 15
+    arg: "1700019"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700020
+    type: 15
+    arg: "1700020"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700021
+    type: 15
+    arg: "1700021"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.

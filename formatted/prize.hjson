@@ -12955,6 +12955,13 @@
     content: prize-20002374
   }
   {
+    id: 2393
+    name: prize-10002393
+    gem: 90
+    equip_ids: "403"
+    content: prize-20002393
+  }
+  {
     id: 2414
     name: prize-10002414
     item_ids: 100224-6,100222-1
@@ -27686,6 +27693,12 @@
     furniture: "2027"
   }
   {
+    id: 12191
+    name: prize-10012191
+    furniture: "2049"
+    content: prize-20012191
+  }
+  {
     id: 12201
     name: Battery
     item_ids: 506-10
@@ -28492,6 +28505,13 @@
     name: Costumes: Kalina - Lover's Discourse
     skin: 208
     icon: NPC_Kalina_208
+  }
+  {
+    id: 12508
+    name: prize-10012508
+    content: prize-20012508
+    send_limit: 1
+    commander_uniform: "2920"
   }
   {
     id: 14101
@@ -47652,6 +47672,12 @@
     content: prize-20120129
   }
   {
+    id: 121008
+    name: prize-10121008
+    furniture: "2082"
+    content: prize-20121008
+  }
+  {
     id: 130001
     name: prize-10130001
     item_ids: 1500014-1
@@ -49406,7 +49432,7 @@
   {
     id: 150040
     name: prize-10150040
-    item_ids: 1700016-1
+    item_ids: 1700019-1
     content: prize-20150040
   }
   {
@@ -49466,7 +49492,7 @@
   {
     id: 150050
     name: prize-10150050
-    item_ids: 1700017-1
+    item_ids: 1700020-1
     content: prize-20150050
   }
   {
@@ -49526,7 +49552,7 @@
   {
     id: 150060
     name: prize-10150060
-    item_ids: 1700018-1
+    item_ids: 1700021-1
     content: prize-20150060
   }
   {
@@ -49726,6 +49752,24 @@
     name: prize-10150106
     equip_ids: "236,278,247,295,105,349,237,168,282,356,277,270,283,169,292,175,294,182,371,198,266,304,384"
     content: prize-20150106
+  }
+  {
+    id: 150107
+    name: prize-10150107
+    equip_ids: "16,20,32,44,66,72,90"
+    content: prize-20150107
+  }
+  {
+    id: 150108
+    name: prize-10150108
+    equip_ids: "211,337,338,342,343,348,248,351,352,355,242,358,359,365,366,368,369,264,372,374,375,216,385,246,390"
+    content: prize-20150108
+  }
+  {
+    id: 150109
+    name: prize-10150109
+    equip_ids: "236,278,247,295,105,349,237,168,282,356,277,270,283,169,292,175,294,182,371,198,266,304,384,315,391"
+    content: prize-20150109
   }
   {
     id: 200001

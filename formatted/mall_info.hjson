@@ -11735,6 +11735,138 @@
     classification_id: "1007"
   }
   {
+    id: "11986"
+    type: "9"
+    item_ids: 1387-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: T-Reindeer
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11987"
+    type: "9"
+    item_ids: 1405-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: Sangvis Presence
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11988"
+    type: "9"
+    item_ids: 1418-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID Card: Sanctuary Oath
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11989"
+    type: "9"
+    item_ids: 1439-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Enlightened Explorer
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11990"
+    type: "9"
+    item_ids: 1440-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Shining Pursuer
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11991"
+    type: "9"
+    item_ids: 1441-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Seed of Hope
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11992"
+    type: "9"
+    item_ids: 10604-1
+    gemprice: "2000"
+    quota: "2001"
+    giftbag_name: Extra Impulse
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11993"
+    type: "9"
+    gift: 100003-1
+    gemprice: "150"
+    quota: "2003"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11994"
+    type: "9"
+    gift: 100002-1
+    gemprice: "60"
+    quota: "2003"
+    giftbag_name: Ice Cream Cone
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "11995"
+    type: "9"
+    gift: 100001-1
+    gemprice: "30"
+    quota: "2003"
+    giftbag_name: Lollipop
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
     id: "12000"
     type: "8"
     gift: 10507-1
@@ -42265,6 +42397,60 @@
     icon: Bumdle_yuugo01
     discount: "1.00"
     classification_id: "3002"
+  }
+  {
+    id: "22297"
+    type: "8"
+    gemprice: "128"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_red
+    daily_quota: "1"
+    discount: "1.00"
+    prize_id: "220059"
+    classification_id: "3002"
+  }
+  {
+    id: "22298"
+    type: "8"
+    item_ids: 8-1,7-1,506-1000
+    gift: 100003-10
+    gemprice: "580"
+    quota: "2002"
+    giftbag_name: Dec Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_package
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22299"
+    type: "8"
+    item_ids: 7-1,41-100
+    gift: 10805-1
+    gemprice: "2588"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: A Gift of Guns N' Roses Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin03
+    discount: "1.00"
+    classification_id: "3003"
+  }
+  {
+    id: "22300"
+    type: "8"
+    item_ids: 7-1,41-50
+    gift: 10806-1
+    gemprice: "1888"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Baileys with Zongzi Costume Package
+    event_code: dailyGiftbag
+    icon: Bumdle_newskin03
+    discount: "1.00"
+    classification_id: "3003"
   }
   {
     id: "99001"

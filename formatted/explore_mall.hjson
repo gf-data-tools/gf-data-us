@@ -874,14 +874,12 @@
     type: 3
     prize_id: 12339
     cost: 4003-4000
-    is_new: 1
   }
   {
     id: 184
     type: 3
     prize_id: 12340
     cost: 4003-5000
-    is_new: 1
   }
   {
     id: 185
@@ -889,6 +887,27 @@
     prize_id: 12341
     cost: 4003-5000
     start_time: " "
+  }
+  {
+    id: 188
+    type: 1
+    prize_id: 12191
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 237
+    type: 1
+    prize_id: 121008
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 238
+    type: 52
+    prize_id: 12508
+    cost: 4001-4500
+    quota: 1
     is_new: 1
   }
 ]
