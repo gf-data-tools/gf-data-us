@@ -17315,6 +17315,26 @@
     logo_code: logo_halloween
   }
   {
+    id: 1599
+    item_id: 2599
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_SAT8
+    order: 1
+    rarity: 5
+    skin: 30024
+  }
+  {
+    id: 1600
+    item_id: 2600
+    sub_type: 2
+    code: card_BattlePass_SAT8
+    order: 1
+    rarity: 5
+  }
+  {
     id: 100001
     item_id: 200001
     sub_type: 4
@@ -17718,6 +17738,15 @@
     item_id: 200047
     sub_type: 4
     code: profileFrame_BattlePass_LWMMG
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100049
+    item_id: 200049
+    sub_type: 4
+    code: profileFrame_BattlePass_SAT8
     order: 1
     rarity: 5
     filter_type: "5"

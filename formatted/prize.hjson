@@ -23886,6 +23886,30 @@
     content: prize-20008579
   }
   {
+    id: 8585
+    name: prize-10008585
+    item_ids: 140047-1
+    content: prize-20008585
+  }
+  {
+    id: 8586
+    name: prize-10008586
+    item_ids: 140048-1,10606-300,200049-1,2600-1
+    content: prize-20008586
+  }
+  {
+    id: 8587
+    name: prize-10008587
+    item_ids: 140048-1,10606-300,200049-1,2600-1
+    content: prize-20008587
+  }
+  {
+    id: 8588
+    name: prize-10008588
+    gift: 30010-1
+    content: prize-20008588
+  }
+  {
     id: 9101
     name: Photo From Christmas 2018
     item_ids: 1212-1
@@ -42929,6 +42953,99 @@
     fairy_ids: 18-0
   }
   {
+    id: 40637
+    name: Stage Reward I
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40638
+    name: Stage Reward II
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40639
+    name: Stage Reward III
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40640
+    name: Stage Reward IV
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "105"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40641
+    name: Stage Reward V
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40642
+    name: Stage Reward VI
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    icon: Bumdle_ruby
+  }
+  {
+    id: 40643
+    name: Stage Reward VII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40644
+    name: Stage Reward VIII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    icon: Bumdle_yellow
+    fairy_ids: 19-0
+  }
+  {
     id: 44001
     name: Theater 3,000 Points Reward
     mp: 500
@@ -47672,6 +47789,32 @@
     content: prize-20120129
   }
   {
+    id: 120134
+    name: prize-10120134
+    item_ids: 41-30,1500172-1
+    content: prize-20120134
+  }
+  {
+    id: 120135
+    name: prize-10120135
+    item_ids: 41-30
+    gift: 30024-1
+    content: prize-20120135
+  }
+  {
+    id: 120136
+    name: prize-10120136
+    item_ids: 41-30,1500173-1
+    content: prize-20120136
+  }
+  {
+    id: 120137
+    name: prize-10120137
+    gem: 680
+    item_ids: 1500174-1
+    content: prize-20120137
+  }
+  {
     id: 121008
     name: prize-10121008
     furniture: "2082"
@@ -48054,6 +48197,24 @@
     name: prize-10130066
     item_ids: 10606-300,200047-1,2558-1
     content: prize-20130066
+  }
+  {
+    id: 130070
+    name: prize-10130070
+    item_ids: 1500175-1
+    content: prize-20130070
+  }
+  {
+    id: 130071
+    name: prize-10130071
+    item_ids: 602-1,1500172-1,1500173-1,1500174-1,505-680
+    content: prize-20130071
+  }
+  {
+    id: 130072
+    name: prize-10130072
+    item_ids: 10606-300,200049-1,2600-1
+    content: prize-20130072
   }
   {
     id: 140001
@@ -49194,6 +49355,54 @@
     name: prize-10140196
     gun_id: "338"
     content: prize-20140196
+  }
+  {
+    id: 140205
+    name: prize-10140205
+    gun_id: "260"
+    content: prize-20140205
+  }
+  {
+    id: 140206
+    name: prize-10140206
+    gun_id: "188"
+    content: prize-20140206
+  }
+  {
+    id: 140207
+    name: prize-10140207
+    gun_id: "390"
+    content: prize-20140207
+  }
+  {
+    id: 140208
+    name: prize-10140208
+    gun_id: "388"
+    content: prize-20140208
+  }
+  {
+    id: 140209
+    name: prize-10140209
+    gun_id: "306"
+    content: prize-20140209
+  }
+  {
+    id: 140210
+    name: prize-10140210
+    gun_id: "245"
+    content: prize-20140210
+  }
+  {
+    id: 140211
+    name: prize-10140211
+    gun_id: "303"
+    content: prize-20140211
+  }
+  {
+    id: 140212
+    name: prize-10140212
+    gun_id: "375"
+    content: prize-20140212
   }
   {
     id: 150001

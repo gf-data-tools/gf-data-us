@@ -14287,6 +14287,24 @@
     rank: 1
   }
   {
+    id: 2599
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_SAT8
+    item_name: Ballad of Twilight Blossoms
+    introduction: Ballad of Twilight Blossoms
+    rank: 1
+  }
+  {
+    id: 2600
+    type: 5
+    arg: "1"
+    code: card_BattlePass_SAT8
+    item_name: ID: Stars Streaking Past the Night Sky
+    introduction: ID: Stars Streaking Past the Night Sky
+    rank: 1
+  }
+  {
     id: 4001
     type: 1
     arg: "4001"
@@ -19337,6 +19355,26 @@
     detail_introduction: item-30140044
   }
   {
+    id: 140047
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140047
+    introduction: item-20140047
+    rank: 1
+    detail_introduction: item-30140047
+  }
+  {
+    id: 140048
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140048
+    introduction: item-20140048
+    rank: 1
+    detail_introduction: item-30140048
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -19733,6 +19771,15 @@
     code: profileFrame_BattlePass_LWMMG
     item_name: Icon Frame: Rhythmic Beam
     introduction: Icon Frame: Rhythmic Beam
+    rank: 1
+  }
+  {
+    id: 200049
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_SAT8
+    item_name: Icon Frame - A Gentle Shepherd's Song
+    introduction: Icon Frame - A Gentle Shepherd's Song
     rank: 1
   }
   {
@@ -21515,6 +21562,50 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Solo Boundary, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500172
+    type: 15
+    arg: "1500172"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Story of the Shepherd Village, Warm Sunshine. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500173
+    type: 15
+    arg: "1500173"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Story of the Shepherd Village. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500174
+    type: 15
+    arg: "1500174"
+    code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Story of the Shepherd Village, Warm Sunshine. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500175
+    type: 15
+    arg: "1500175"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Story of the Shepherd Village, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1
