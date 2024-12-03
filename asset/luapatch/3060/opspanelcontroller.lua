@@ -134,6 +134,10 @@ local LoadLetterUI = function(self)
 		end	
 	end
 end
+local RequestSetDrawEvent = function(self,data)
+	self:CheckAllTimelineState();
+	self:RequestSetDrawEvent(data);
+end
 local CheckAllTimelineState = function(self)
 	if self.campaionId ~= -74 then
 		self:CheckAllTimelineState();
@@ -191,6 +195,7 @@ util.hotfix_ex(CS.OPSPanelMissionHolder,'PlayMove',PlayMove)
 util.hotfix_ex(CS.OPSPanelController,'CanChooseDrag',CanChooseDrag)
 util.hotfix_ex(CS.OPSPanelController,'ShowReward',ShowReward)
 util.hotfix_ex(CS.OPSPanelController,'LoadLetterUI',LoadLetterUI)
+util.hotfix_ex(CS.OPSPanelController,'RequestSetDrawEvent',RequestSetDrawEvent)
 util.hotfix_ex(CS.OPSPanelController,'CheckAllTimelineState',CheckAllTimelineState)
 util.hotfix_ex(CS.BreakoutPhaseBattleFinishController,'RequestBOBreakoutOrganizePackageHandle',RequestBOBreakoutOrganizePackageHandle)
 
