@@ -18380,12 +18380,11 @@
     boss_team_id: "5081011"
     turn_duration: 360000000
     turn_limit: 1
-    limit_gun_pool: "254"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|0,0"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "506"
+    support_available: 1
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "350100,350101"
@@ -18412,12 +18411,11 @@
     boss_team_id: "5081021"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "208"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|-1100,-300"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "507"
+    support_available: 1
     expect_defend_line_turn: 2
     random_line_spot: "83727"
     round_config: 1:1,2:2,3:3
@@ -18446,12 +18444,11 @@
     boss_team_id: "5081035"
     turn_duration: 360000000
     turn_limit: 3
-    limit_gun_pool: "250"
     map_res_name: OPS30_Y
     map_information: "5760,5040|2560,1688|-300,-1600"
     fog_length: "0,500"
     fog_color: "#000000E5"
-    draw_event_s_id: "508"
+    support_available: 1
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "350300,350301"
@@ -18478,12 +18475,11 @@
     boss_team_id: "5081048"
     turn_duration: 360000000
     turn_limit: 9
-    limit_gun_pool: "253"
     map_res_name: OPS31_Y
     map_information: "5760,5040|4096,2702|0,1000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "508"
+    support_available: 1
     round_config: 1:1,2:2,3:3
     limit_squad: 2
     win_type: "1"
