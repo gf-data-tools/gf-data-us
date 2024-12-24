@@ -1204,18 +1204,33 @@
   }
   {
     id: 238
+    name: Command Mission
+    description: Embla will periodically summon Paradeus units into battle.
   }
   {
     id: 239
+    name: Collapse
+    description: Random tiles will be attacked by falling ceiling debris. Units hit will be damaged and stunned.
   }
   {
     id: 240
+    name: Bugle Call
+    description: Embla will provide a shield to units in front of her and increase damage for units behind her.
   }
   {
     id: 241
+    name: Evolve
+    description:
+      '''
+      Embla will switch between recovery mode and assault mode:
+      Recovery Mode: Restore shields of other enemy units every 3 seconds.
+      Assault Mode:Increase ROF and movement speed of other enemy units every 3 seconds.
+      '''
   }
   {
     id: 242
+    name: Obsession
+    description: Embla will receive a high-powered shield and taunt all friendly units to attack her. If the shield is broken after some time, all enemy units will be paralysed and receive massively increased damage. Otherwise, all enemy units will receive high HP shields and a huge increase to damage.
   }
   {
     id: 999
@@ -1224,8 +1239,7 @@
   }
   {
     id: 1801
-    name: enemy_illustration_skill-10001801
-    description: enemy_illustration_skill-20001801
+    name: Strafe
   }
   {
     id: 5801

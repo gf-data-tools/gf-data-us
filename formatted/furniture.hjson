@@ -28557,6 +28557,35 @@
     rotate: "3"
   }
   {
+    id: 20140
+    name: An Ordinary Day
+    classes: 19
+    type: 201
+    space: "9,7,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"They worked together, carrying out ordinary missions in an ordinary environment, having ordinary conversations, and making their usual coordinated moves..." "What happened next?" "It became a fantasy in her dreams that is now forever beyond her reach."'''
+    code: 202407Activity_SnowGlobe_deco1,202407Activity_SnowGlobe,202407Activity_SnowGlobe_deco2
+    texture_type: "1,2,1"
+    sorting: "0,10,20"
+    offset: "0.000,-0.438,0.000|0.000,0.438,0.000|0.000,-0.438,0.000"
+    rotate: "2,2,2"
+  }
+  {
+    id: 20141
+    name: Eye of the Witness Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Zero Charge". "With heavy snow, cover up all traces of existence; through each other's eyes, bear witness to the end of the wolf pack."
+    code: 202407Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -38766,6 +38795,96 @@
     decompose_gift: 100003
     description: Falcon's poster.
     code: poster_Dining2023_Falcon
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39001
+    name: Starry Guide
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M26-MASS' poster.
+    code: poster_Christmas2023_M26MASS
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39003
+    name: Fluffy White Party
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SPAS-15's poster.
+    code: poster_Christmas2023_SPAS15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39004
+    name: Sketch of a Christmas Apple
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TKB-408's poster.
+    code: poster_Christmas2023_TKB408
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39005
+    name: Gift in Red Velvet
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr Mk23's poster.
+    code: poster_Christmas2023_Mk23
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39006
+    name: Good Morning, Lark
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr MP5's poster.
+    code: poster_Christmas2023_MP5
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 39007
+    name: Reindeer Anecdote
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Zas M76's poster.
+    code: poster_Christmas2023_ZasM76
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

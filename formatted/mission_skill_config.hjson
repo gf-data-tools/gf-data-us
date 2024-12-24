@@ -26983,7 +26983,9 @@
   }
   {
     id: 670101
+    name: Convert: Teleport Node
     code: "1"
+    description: Converts a Blank Module into a Teleport Node. Once this is done, it cannot be reversed.
     skill_group_id: 670101
     level: 1
     spot_type: "-1"
@@ -26998,7 +27000,9 @@
   }
   {
     id: 670102
+    name: Convert: EMP Grenade Tower
     code: "1"
+    description: Converts a Blank Module into an EMP Grenade Tower. Once this is done, it cannot be reversed.
     skill_group_id: 670102
     level: 1
     spot_type: "-1"
@@ -27013,7 +27017,9 @@
   }
   {
     id: 670103
+    name: Convert: Data Station
     code: "1"
+    description: Converts a Blank Module into a Data Station, which allows data to be downloaded every round to obtain score. Once this is done, it cannot be reversed.
     skill_group_id: 670103
     level: 1
     spot_type: "-1"
@@ -27028,7 +27034,9 @@
   }
   {
     id: 670104
+    name: ???
     code: "1"
+    description: Teleport to the target locatino and cause some changes
     skill_group_id: 670104
     level: 1
     spot_type: "-1"
@@ -27042,7 +27050,9 @@
   }
   {
     id: 670105
+    name: Teleport
     code: "1"
+    description: Teleport to another node and receive increased move speed and evasion lasting 1 turn
     skill_group_id: 670105
     level: 1
     spot_type: "-1"
@@ -27295,7 +27305,9 @@
   }
   {
     id: 670131
+    name: Teleport Node
     code: "1"
+    description: Dandelion's special teleport node. Receive increased move speed and evasion for 1 turn after teleportation.
     skill_group_id: 670131
     level: 1
     spot_type: "-1"
@@ -27304,7 +27316,9 @@
   }
   {
     id: 670132
+    name: EMP Grenades
     code: "1"
+    description: Dandelion's special EMP Grenade. Can be collected once every turn.
     skill_group_id: 670132
     level: 1
     spot_type: "-1"
@@ -27313,7 +27327,9 @@
   }
   {
     id: 670133
+    name: Data Station
     code: "1"
+    description: Dandelion's special data station. Can download data to earn points every turn.
     skill_group_id: 670133
     level: 1
     spot_type: "-1"
@@ -27322,7 +27338,9 @@
   }
   {
     id: 670141
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670141
     level: 1
     spot_type: "-1"
@@ -27336,7 +27354,9 @@
   }
   {
     id: 670142
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670142
     level: 1
     spot_type: "-1"
@@ -27350,7 +27370,9 @@
   }
   {
     id: 670143
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670143
     level: 1
     spot_type: "-1"
@@ -27364,7 +27386,9 @@
   }
   {
     id: 670144
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670144
     level: 1
     spot_type: "-1"
@@ -27378,7 +27402,9 @@
   }
   {
     id: 670145
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670145
     level: 1
     spot_type: "-1"
@@ -27392,7 +27418,9 @@
   }
   {
     id: 670146
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670146
     level: 1
     spot_type: "-1"
@@ -27406,7 +27434,9 @@
   }
   {
     id: 670147
+    name: Convert: Repair and Resupply Station
     code: "1"
+    description: Convert the empty module to a repair station able to provide 4 resupplies and 4 repairs. It cannot be returned to normal after the conversion.
     skill_group_id: 670147
     level: 1
     spot_type: "-1"
@@ -28132,7 +28162,9 @@
   }
   {
     id: 690504
+    name: Pick Up
     code: "1"
+    description: Pick up Abandoned Goliath
     skill_group_id: 690504
     level: 1
     spot_type: "-1"
@@ -28159,6 +28191,7 @@
   }
   {
     id: 690512
+    name: Converge
     code: "1"
     skill_group_id: 690512
     level: 1
@@ -28173,6 +28206,7 @@
   }
   {
     id: 690513
+    name: Converge
     code: "1"
     skill_group_id: 690513
     level: 1
@@ -28187,7 +28221,9 @@
   }
   {
     id: 690514
+    name: Throw
     code: "1"
+    description: Throw the Goliath and deal damage to the targeted enemy
     skill_group_id: 690514
     level: 1
     spot_type: "-1"
@@ -28433,7 +28469,9 @@
   }
   {
     id: 690804
+    name: Pick Up
     code: "1"
+    description: Pick up EMP Grenade
     skill_group_id: 690804
     level: 1
     spot_type: "-1"
@@ -72414,6 +72452,8 @@
   }
   {
     id: 9700301
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9700301
     level: 1
     spot_type: "-1"
@@ -72426,6 +72466,8 @@
   }
   {
     id: 9700302
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9700302
     level: 1
     spot_type: "-1"
@@ -72438,6 +72480,8 @@
   }
   {
     id: 9700303
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9700303
     level: 1
     spot_type: "-1"
@@ -72450,6 +72494,8 @@
   }
   {
     id: 9700304
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9700304
     level: 1
     spot_type: "-1"
@@ -72508,6 +72554,8 @@
   }
   {
     id: 9700601
+    name: Crack
+    description: Unlock access control for this control panel.
     skill_group_id: 9700601
     level: 1
     spot_type: "-1"
@@ -72521,6 +72569,8 @@
   }
   {
     id: 9700602
+    name: Crack
+    description: Unlock access control for this control panel.
     skill_group_id: 9700602
     level: 1
     spot_type: "-1"
@@ -72577,6 +72627,8 @@
   }
   {
     id: 9700607
+    name: Preset Detonation
+    description: Place explosives here
     skill_group_id: 9700607
     level: 1
     spot_type: "-1"
@@ -72607,6 +72659,12 @@
   }
   {
     id: 9701201
+    name: Close Gate
+    description:
+      '''
+      Turn off power.
+      ※Can remove buffs from some enemies.
+      '''
     skill_group_id: 9701201
     level: 1
     spot_type: "-1"
@@ -72639,6 +72697,8 @@
   }
   {
     id: 9701204
+    name: Throw Goliath
+    description: Blow it to bits.
     skill_group_id: 9701204
     level: 1
     spot_type: "-1"
@@ -72664,6 +72724,7 @@
   }
   {
     id: 9701206
+    name: Pick Up Goliath
     skill_group_id: 9701206
     level: 1
     spot_type: "-1"
@@ -72696,6 +72757,7 @@
   }
   {
     id: 9701209
+    description: Go ahead and dig, little rabbit. Perhaps you will even dig up something fascinating.
     skill_group_id: 9701209
     level: 1
     spot_type: "-1"
@@ -72714,6 +72776,8 @@
   }
   {
     id: 9701506
+    name: Crack
+    description: Unlock access control for this control panel.
     skill_group_id: 9701506
     level: 1
     spot_type: "-1"
@@ -72727,6 +72791,8 @@
   }
   {
     id: 9701507
+    name: Crack
+    description: Unlock access control for this control panel.
     skill_group_id: 9701507
     level: 1
     spot_type: "-1"
@@ -72804,6 +72870,8 @@
   }
   {
     id: 9701901
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701901
     level: 1
     spot_type: "-1"
@@ -72816,6 +72884,8 @@
   }
   {
     id: 9701902
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701902
     level: 1
     spot_type: "-1"
@@ -72828,6 +72898,8 @@
   }
   {
     id: 9701903
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701903
     level: 1
     spot_type: "-1"
@@ -72840,6 +72912,8 @@
   }
   {
     id: 9701904
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701904
     level: 1
     spot_type: "-1"
@@ -72852,6 +72926,8 @@
   }
   {
     id: 9701905
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701905
     level: 1
     spot_type: "-1"
@@ -72864,6 +72940,8 @@
   }
   {
     id: 9701906
+    name: Teleport Control
+    description: Relocate to the other side.
     skill_group_id: 9701906
     level: 1
     spot_type: "-1"
@@ -72876,6 +72954,8 @@
   }
   {
     id: 9701907
+    name: Teleport Control
+    description: Take Off~
     skill_group_id: 9701907
     level: 1
     spot_type: "-1"
@@ -72888,6 +72968,8 @@
   }
   {
     id: 9710601
+    name: Open
+    description: Open Defense Gate
     skill_group_id: 9710601
     level: 1
     spot_type: "-1"
@@ -72941,6 +73023,8 @@
   }
   {
     id: 9711503
+    name: Control Panel II
+    description: Change Connection to ←
     skill_group_id: 9711503
     level: 1
     spot_type: "-1"
@@ -72955,6 +73039,8 @@
   }
   {
     id: 9711504
+    name: Control Panel II
+    description: Change Connection to ↑
     skill_group_id: 9711504
     level: 1
     spot_type: "-1"
@@ -72969,6 +73055,8 @@
   }
   {
     id: 9711505
+    name: Control Panel II
+    description: Change Connection to ↓
     skill_group_id: 9711505
     level: 1
     spot_type: "-1"
@@ -72983,6 +73071,8 @@
   }
   {
     id: 9711506
+    name: Control Panel III
+    description: Change Connection to →
     skill_group_id: 9711506
     level: 1
     spot_type: "-1"
@@ -72997,6 +73087,8 @@
   }
   {
     id: 9711507
+    name: Control Panel III
+    description: Change Connection to ↓
     skill_group_id: 9711507
     level: 1
     spot_type: "-1"
@@ -73011,6 +73103,8 @@
   }
   {
     id: 9711508
+    name: Control Panel III
+    description: Change Connection to ←
     skill_group_id: 9711508
     level: 1
     spot_type: "-1"
@@ -73025,6 +73119,8 @@
   }
   {
     id: 9711509
+    name: Control Terminal IV
+    description: Change Connection to ←
     skill_group_id: 9711509
     level: 1
     spot_type: "-1"
@@ -73039,6 +73135,8 @@
   }
   {
     id: 9711510
+    name: Control Terminal IV
+    description: Change Connection to ↑
     skill_group_id: 9711510
     level: 1
     spot_type: "-1"
@@ -73053,6 +73151,8 @@
   }
   {
     id: 9711511
+    name: Control Terminal IV
+    description: Change Connection to →
     skill_group_id: 9711511
     level: 1
     spot_type: "-1"
@@ -73067,6 +73167,8 @@
   }
   {
     id: 9711512
+    name: Control Terminal V
+    description: Change Connection to →
     skill_group_id: 9711512
     level: 1
     spot_type: "-1"
@@ -73081,6 +73183,8 @@
   }
   {
     id: 9711513
+    name: Control Terminal V
+    description: Change Connection to ↑
     skill_group_id: 9711513
     level: 1
     spot_type: "-1"
@@ -73095,6 +73199,8 @@
   }
   {
     id: 9711514
+    name: Control Terminal V
+    description: Change Connection to ↓
     skill_group_id: 9711514
     level: 1
     spot_type: "-1"
@@ -73119,6 +73225,8 @@
   }
   {
     id: 9712901
+    name: Control Panel II
+    description: Change Connection to ←
     skill_group_id: 9712901
     level: 1
     spot_type: "-1"
@@ -73133,6 +73241,8 @@
   }
   {
     id: 9712902
+    name: Control Panel II
+    description: Change Connection to ↓
     skill_group_id: 9712902
     level: 1
     spot_type: "-1"
@@ -73147,6 +73257,8 @@
   }
   {
     id: 9712903
+    name: Control Panel II
+    description: Change Connection to ↗
     skill_group_id: 9712903
     level: 1
     spot_type: "-1"
@@ -73161,6 +73273,8 @@
   }
   {
     id: 9712904
+    name: Control Panel III
+    description: Change Connection to ↑
     skill_group_id: 9712904
     level: 1
     spot_type: "-1"
@@ -73175,6 +73289,8 @@
   }
   {
     id: 9712905
+    name: Control Panel III
+    description: Change Connection to ←
     skill_group_id: 9712905
     level: 1
     spot_type: "-1"
@@ -73189,6 +73305,8 @@
   }
   {
     id: 9712906
+    name: Control Panel III
+    description: Change Connection to ↘
     skill_group_id: 9712906
     level: 1
     spot_type: "-1"
@@ -73203,6 +73321,8 @@
   }
   {
     id: 9712907
+    name: Control Terminal IV
+    description: Change Connection to ↓
     skill_group_id: 9712907
     level: 1
     spot_type: "-1"
@@ -73217,6 +73337,8 @@
   }
   {
     id: 9712908
+    name: Control Terminal IV
+    description: Change Connection to ←
     skill_group_id: 9712908
     level: 1
     spot_type: "-1"
@@ -73231,6 +73353,8 @@
   }
   {
     id: 9712909
+    name: Control Terminal IV
+    description: Change Connection to →
     skill_group_id: 9712909
     level: 1
     spot_type: "-1"
@@ -73245,6 +73369,8 @@
   }
   {
     id: 9712910
+    name: Control Terminal V
+    description: Change Connection to →
     skill_group_id: 9712910
     level: 1
     spot_type: "-1"
@@ -73259,6 +73385,8 @@
   }
   {
     id: 9712911
+    name: Control Terminal V
+    description: Change Connection to ↑
     skill_group_id: 9712911
     level: 1
     spot_type: "-1"
@@ -73273,6 +73401,8 @@
   }
   {
     id: 9712912
+    name: Control Terminal V
+    description: Change Connection to ←
     skill_group_id: 9712912
     level: 1
     spot_type: "-1"
@@ -73287,6 +73417,8 @@
   }
   {
     id: 9712913
+    name: Control Terminal VI
+    description: Change Connection to →
     skill_group_id: 9712913
     level: 1
     spot_type: "-1"
@@ -73301,6 +73433,8 @@
   }
   {
     id: 9712914
+    name: Control Terminal VI
+    description: Change Connection to ↑
     skill_group_id: 9712914
     level: 1
     spot_type: "-1"
@@ -73315,6 +73449,8 @@
   }
   {
     id: 9712915
+    name: Control Terminal VI
+    description: Change Connection to ↓
     skill_group_id: 9712915
     level: 1
     spot_type: "-1"
@@ -73329,6 +73465,8 @@
   }
   {
     id: 9712916
+    name: Control Terminal VII
+    description: Change Connection to ↓
     skill_group_id: 9712916
     level: 1
     spot_type: "-1"
@@ -73343,6 +73481,8 @@
   }
   {
     id: 9712917
+    name: Control Terminal VII
+    description: Change Connection to →
     skill_group_id: 9712917
     level: 1
     spot_type: "-1"
@@ -73357,6 +73497,8 @@
   }
   {
     id: 9712918
+    name: Control Terminal VII
+    description: Change Connection to ↑
     skill_group_id: 9712918
     level: 1
     spot_type: "-1"
@@ -73371,6 +73513,8 @@
   }
   {
     id: 9713001
+    name: Close Defense Gate
+    description: Cooldown of 2 turns before you can operate the same Defense Gate again
     skill_group_id: 9713001
     level: 1
     spot_type: "-1"
@@ -73386,6 +73530,8 @@
   }
   {
     id: 9713002
+    name: Close Defense Gate
+    description: Cooldown of 3 turns before you can operate the same Defense Gate again
     skill_group_id: 9713002
     level: 1
     spot_type: "-1"
@@ -73401,6 +73547,8 @@
   }
   {
     id: 9713003
+    name: Close Defense Gate
+    description: Cooldown of 4 turns before you can operate the same Defense Gate again
     skill_group_id: 9713003
     level: 1
     spot_type: "-1"
@@ -73416,6 +73564,8 @@
   }
   {
     id: 9713004
+    name: Close Defense Gate
+    description: Cooldown of 5 turns before you can operate the same Defense Gate again
     skill_group_id: 9713004
     level: 1
     spot_type: "-1"
@@ -73453,6 +73603,7 @@
   }
   {
     id: 9713101
+    name: Pick Up
     skill_group_id: 9713101
     level: 1
     spot_type: "-1"
@@ -73467,6 +73618,7 @@
   }
   {
     id: 9713102
+    name: Pick Up
     skill_group_id: 9713102
     level: 1
     spot_type: "-1"
@@ -73481,6 +73633,7 @@
   }
   {
     id: 9713103
+    name: Pick Up
     skill_group_id: 9713103
     level: 1
     spot_type: "-1"

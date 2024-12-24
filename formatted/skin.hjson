@@ -8562,6 +8562,71 @@
     class_id: 94
   }
   {
+    id: 9001
+    name: Starry Guide
+    fit_gun: 351
+    voice: 19
+    dialog: Have you rested enough, Commander? Then it's time for another shopping spree at the next market! ...You can't walk anymore? Not even a little? Fine, just lean on me.
+    illustrator_cv: 多尔, Ryouka Yuzuki,
+    order: 121
+    class_id: 95
+    skin_source: 2
+  }
+  {
+    id: 9003
+    name: Fluffy White Party
+    fit_gun: 366
+    voice: 19
+    dialog: I didn't expect you to be so excited about the party tonight, Commander... As a reward for arriving early, you can pick anything as a present~ That includes me, naturally~
+    order: 121
+    class_id: 95
+    skin_source: 2
+  }
+  {
+    id: 9004
+    name: Sketch of a Christmas Apple
+    fit_gun: 340
+    voice: 19
+    dialog: The apples and bread we just bought are pretty high quality, eh? Heheh, I'm using them as reference for my spray-painting practice! Where am I practicing? In your command room, of course!
+    illustrator_cv: 星迴, Yuuki Kuwahara,
+    order: 121
+    class_id: 95
+    skin_source: 2
+  }
+  {
+    id: 9005
+    name: Gift in Red Velvet
+    fit_gun: 99
+    voice: 19
+    dialog: Darling, look! The magic of love will turn this ordinary cream cake an eye-catching shade of red~ You want the magic to last forever? Then make sure you eat it all~
+    illustrator_cv: YeoNwa, Hikaru Akao,
+    order: 121
+    class_id: 95
+    skin_source: 2
+  }
+  {
+    id: 9006
+    name: Good Morning, Lark
+    fit_gun: 26
+    voice: 19
+    dialog: Commander, if you don't get up soon, the gifts by the door will all be taken by the others— Oh? The door flew open immediately?! I was just kidding! I've been guarding them for you!
+    gift_position: "-32.8,-52"
+    illustrator_cv: 小星, Naomi Mukaiyama,
+    order: 121
+    class_id: 95
+    skin_source: 1
+  }
+  {
+    id: 9007
+    name: Reindeer Anecdote
+    fit_gun: 284
+    voice: 19
+    dialog: Wow~ An extra large gift sack! Thank you, Commander! With this, I can carry all the presents and give them out to more good kids! There's also one for you, of course!
+    order: 121
+    class_id: 95
+    skin_source: 2
+  }
+  {
     id: 9008
     name: Wreath of Purity
     fit_gun: 21
@@ -8802,6 +8867,16 @@
     gift_position: "-113.9,239.6"
     order: 133
     class_id: 102
+  }
+  {
+    id: 10605
+    name: An Empty Seat, A Hint of Champagne
+    fit_gun: 118
+    voice: 4
+    dialog: Why do you insist on imitating some famous detective by jumping onto a horse carriage? What a pain... I've prepared the backseat for you. You're not allowed to make risky moves like that in the future!
+    gift_position: "-155.3,-74.4"
+    order: 135
+    class_id: 103
   }
   {
     id: 10801
