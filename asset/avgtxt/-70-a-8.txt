@@ -22,7 +22,7 @@ NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:...Am I? I'
 NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:...The situation will be resolved soon. +As long as you are here, there is still hope for us.
 NPC-Laplace(11)<Speaker>Laplace</Speaker><Position>80,0</Position>||:You're right, the upcoming experiment is of utmost importance. Not only will it validate decades of research and development, it will also shape the future of humanity.
 NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:You will not be disappointed.
-()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Nemhran hands over something else—it is a weekly newspaper. +The headline reads, "Manotti Attends Rossartre Memorial Exhibition at Goethe-Universität Frankfurt".
+()<Speaker></Speaker>||<SE1>AVG_20Winter_Book</SE1>:Nemhran hands over something else—it is a weekly newspaper. +The headline reads, "Manotti Attends Rossartre Memorial Exhibition at Goethe-Universitaet Frankfurt".
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Laplace takes the newspaper with an amused grin.
 NPC-Laplace(12)<Speaker>Laplace</Speaker><Position>80,0</Position>||:The most important skill a politician can master is the same as that for an actor. +They must be able to capture the masses' hearts and manipulate them. In this regard, we have been rather clumsy. +We only managed to hit the veins, not the heart itself.
 NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:Should I set up comms channel 42 for you?
@@ -42,7 +42,7 @@ NPC-Nemhran(0)<Speaker>Nemhran</Speaker><Position>80,90</Position>||:It is my pl
 ()<Speaker></Speaker>||<CGDelay>0.5</CGDelay>:
 ()||<黑屏1><CGDelay>0.7</CGDelay><BGM>BGM_Empty</BGM>:
 ()<Speaker></Speaker>||<BGM>GF_2022_Summer_AVG_2</BGM><BIN>710</BIN><黑屏2><common_effect>%%code=AVG_xiaxue%%</common_effect><CGDelay>0.7</CGDelay>:
-()<Speaker></Speaker>||:
+()<Speaker></Speaker>||:The Main, Frankfurt.
 ()<Speaker></Speaker>||:Today, Frankfurt sees its first snowfall of the season. +The snowflakes are too light to gather, drifting down gently like tufts of fluff, settling on withered branches and the brims of passers-by's hats. +The sanitation Dolls have already started their work, sweeping the thin layer of snow from the middle of the roads to the side. The melting snow leaves the streets damp and glistening.
 NPC_Embla_RPK(0)<Speaker>Embla</Speaker>||:Phew...
 ()<Speaker></Speaker>||<SE1>ClothingUp</SE1>:Embla's breaths now form visible tendrils of white. +She walks among the hurried crowds, admiring the view of the Main and feeling the press of the throng around her.

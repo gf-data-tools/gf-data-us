@@ -77,7 +77,7 @@ PPQ(0);NPC-Keven(7)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Give me 15 m
 PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(7)||:15 minutes? Why will you have to take so long? What are you doing?
 PPQ(0);NPC-Keven(9)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Stop asking questions!</color>
 PPQ(0)<Speaker>Brigitte</Speaker>;NPC-Keven(9)||:You didn't get pulled over by the traffic police, did you?
-NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Shut up! +15 minutes!!!</color>
+NPC-Keven(12)<Speaker>J</Speaker><通讯框>||:<color=#00CCFF>Shut up!</color> +<color=#00CCFF>15 minutes!!!</color>
 ()<Speaker></Speaker>||<SE1>AVG_tele_disconnect</SE1>:J hangs up.
 ()<Speaker></Speaker>||<SE1>AVG_door_elecport</SE1>:After spending some time to psych herself up, Brigitte returns to the elevator with a smile...
 ()||<黑屏1><CGDelay>0.7</CGDelay>:
