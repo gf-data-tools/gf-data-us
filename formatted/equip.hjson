@@ -12437,6 +12437,41 @@
     sp_description: Initial Cooldown -80%
   }
   {
+    id: 408
+    name: M33 Type Augmented Rounds
+    description:
+      '''
+      DMG+<pow> AP+<armor_piercing>
+      ROF<rate>Enhances skill$Thunder only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "12,15"
+    rate: "-8,-6"
+    armor_piercing: "20,25"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Thunder50
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "202"
+    equip_introduction: Upgraded and enhanced from the original .50 BMG design, these new rounds now pack an even heavier punch.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:700,armor_piercing:1000
+    passive_skill: "1001901"
+    max_level: 10
+    auto_select_id: 19081
+    is_show: 1
+    obtain_ids: "3107"
+    description_skill: 1001901
+  }
+  {
     id: 411
     name: 1PN64 Night Scope
     description:

@@ -12155,6 +12155,138 @@
     classification_id: 1006
   }
   {
+    id: 12027
+    type: 9
+    item_ids: 1457-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012027
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12028
+    type: 9
+    item_ids: 1479-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012028
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12029
+    type: 9
+    item_ids: 1492-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012029
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12030
+    type: 9
+    item_ids: 1442-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012030
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12031
+    type: 9
+    item_ids: 1443-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012031
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12032
+    type: 9
+    item_ids: 1478-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: mall-10012032
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12033
+    type: 9
+    item_ids: 10604-1
+    gemprice: 2000
+    quota: 2001
+    giftbag_name: mall-10012033
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12034
+    type: 9
+    gift: 100003-1
+    gemprice: 150
+    quota: 2003
+    giftbag_name: mall-10012034
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12035
+    type: 9
+    gift: 100002-1
+    gemprice: 60
+    quota: 2003
+    giftbag_name: mall-10012035
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12036
+    type: 9
+    gift: 100001-1
+    gemprice: 30
+    quota: 2003
+    giftbag_name: mall-10012036
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
     id: 12038
     type: 8
     gift: 10605-1
@@ -42717,6 +42849,35 @@
     icon: Bumdle_Christmas
     discount: 1
     classification_id: 3003
+  }
+  {
+    id: 22302
+    type: 8
+    gemprice: 128
+    quota: 2001
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_red
+    daily_quota: 1
+    discount: 1
+    prize_id: 220061
+    classification_id: 3002
+  }
+  {
+    id: 22303
+    type: 8
+    item_ids: 41-500
+    mp: 2025
+    ammo: 2025
+    mre: 2025
+    part: 2025
+    gemprice: 2025
+    quota: 2001
+    giftbag_name: New Year's Day Package
+    event_code: dailyGiftbag
+    icon: Bumdle_2025
+    discount: 1
+    classification_id: 3002
   }
   {
     id: 99001
