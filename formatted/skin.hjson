@@ -5691,8 +5691,8 @@
     fit_gun: 20206
     voice: 4
     is_hidden: 2
-    dialog: Original Model Costume
-    note: Original Model Costume
+    dialog: Original Costume
+    note: Original Costume
   }
   {
     id: 5101
@@ -8879,32 +8879,40 @@
   }
   {
     id: 10601
+    name: Samo is Not a Spy
     fit_gun: 377
     voice: 4
+    dialog: I'm just a hobbyist photographer who loves chatting online, who just so happened to leave home to walk my dog Samo... What's the matter? I think my explanation's quite reasonable…
     order: 135
     class_id: 103
     skin_source: 2
   }
   {
     id: 10602
+    name: Perique Wisp
     fit_gun: 386
     voice: 4
+    dialog: Looks like you've got the tape recorder and notebook ready... Our story can continue once you pour me one more cup of vodka mixed with coffee.
     order: 135
     class_id: 103
     skin_source: 2
   }
   {
     id: 10603
+    name: An Owl's Evening Visit
     fit_gun: 342
     voice: 4
+    dialog: Only mediocre detectives need to conduct forensics on-site. I can deduce who the true culprit is with just a few newspaper reports... The detective owl on my shoulder? Hmph, it's but a mere decoration.
     order: 135
     class_id: 103
     skin_source: 2
   }
   {
     id: 10604
+    name: Light Lilac Ticket Stub
     fit_gun: 315
     voice: 4
+    dialog: Senior! Are you interested in watching the new detective play together? It seems to be about the murder of a front row audience member in a crowded theater... Eh? Is that fear on your face, Senior?
     gift_position: "-150.8,-48.9"
     order: 135
     class_id: 103
@@ -8922,16 +8930,21 @@
   }
   {
     id: 10606
+    name: Instinct, Thy Name is Red
     fit_gun: 26
     voice: 4
+    dialog: Oh, red mantle of wisdom! Just as the wise would hide a leaf in a forest, a wise criminal would hide the murder weapon in... Ah! Eureka!
+    illustrator_cv: 小星,Naomi Mukaiyama,
     order: 135
     class_id: 103
     skin_source: 2
   }
   {
     id: 10607
+    name: Coroner Nyandyke
     fit_gun: 99
     voice: 4
+    dialog: Just as every object sings a unique melody, each skeleton has its own secrets to spill... So, Darling, where shall we begin today's investigation?
     illustrator_cv: YeoNwa,Hikaru Akao,
     order: 135
     class_id: 103
@@ -9198,12 +9211,11 @@
   }
   {
     id: 30025
-    name: skin-10030025
+    name: Snowy Night Patrol
     fit_gun: 85
     voice: 4
-    dialog: skin-20030025
-    note: skin-30030025
-    illustrator_cv: skin-40030025
+    dialog: I heard that a gigantic beast would appear during snowy nights, trapping every lost traveler. That does not apply to me however... Because I'm the one capable of putting a leash on this beast.
+    illustrator_cv: --,Kaori Nazuka,
     order: 145
   }
 ]
