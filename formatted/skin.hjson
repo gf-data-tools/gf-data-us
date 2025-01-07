@@ -5686,6 +5686,15 @@
     note: Original Costume
   }
   {
+    id: 5076
+    name: AK-12 - Original Model
+    fit_gun: 20206
+    voice: 4
+    is_hidden: 2
+    dialog: Original Model Costume
+    note: Original Model Costume
+  }
+  {
     id: 5101
     name: Willow Foxfire
     fit_gun: 316
@@ -8869,6 +8878,39 @@
     class_id: 102
   }
   {
+    id: 10601
+    fit_gun: 377
+    voice: 4
+    order: 135
+    class_id: 103
+    skin_source: 2
+  }
+  {
+    id: 10602
+    fit_gun: 386
+    voice: 4
+    order: 135
+    class_id: 103
+    skin_source: 2
+  }
+  {
+    id: 10603
+    fit_gun: 342
+    voice: 4
+    order: 135
+    class_id: 103
+    skin_source: 2
+  }
+  {
+    id: 10604
+    fit_gun: 315
+    voice: 4
+    gift_position: "-150.8,-48.9"
+    order: 135
+    class_id: 103
+    skin_source: 1
+  }
+  {
     id: 10605
     name: An Empty Seat, A Hint of Champagne
     fit_gun: 118
@@ -8877,6 +8919,23 @@
     gift_position: "-155.3,-74.4"
     order: 135
     class_id: 103
+  }
+  {
+    id: 10606
+    fit_gun: 26
+    voice: 4
+    order: 135
+    class_id: 103
+    skin_source: 2
+  }
+  {
+    id: 10607
+    fit_gun: 99
+    voice: 4
+    illustrator_cv: YeoNwa,Hikaru Akao,
+    order: 135
+    class_id: 103
+    skin_source: 2
   }
   {
     id: 10801
@@ -9136,5 +9195,15 @@
     dialog: As we stroll through a green meadow with little lambs while basking in the lingering twilight together, I try to convey my feelings through a wagon full of daisies... Commander, this is the warmest, happiest scene I can envision!
     illustrator_cv: 豆芽,Azumi Asakura,
     order: 143
+  }
+  {
+    id: 30025
+    name: skin-10030025
+    fit_gun: 85
+    voice: 4
+    dialog: skin-20030025
+    note: skin-30030025
+    illustrator_cv: skin-40030025
+    order: 145
   }
 ]

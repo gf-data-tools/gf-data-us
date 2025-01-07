@@ -14353,6 +14353,15 @@
     rank: 1
   }
   {
+    id: 2530
+    type: 5
+    arg: "1"
+    code: profilePic_rank6_AK12Mod
+    item_name: AK-12 Neural Upgrade Icon
+    introduction: AK-12 Neural Upgrade Icon
+    rank: 1
+  }
+  {
     id: 2531
     type: 5
     arg: "1"
@@ -14371,12 +14380,66 @@
     rank: 1
   }
   {
+    id: 2533
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_SCARH
+    item_name: Samo is Not a Spy
+    introduction: Samo is Not a Spy
+    rank: 1
+  }
+  {
+    id: 2534
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_LAMG
+    item_name: Perique Wisp
+    introduction: Perique Wisp
+    rank: 1
+  }
+  {
+    id: 2535
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_KH2002
+    item_name: An Owl's Evening Visit
+    introduction: An Owl's Evening Visit
+    rank: 1
+  }
+  {
+    id: 2536
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_AUGPARA
+    item_name: Light Lilac Ticket Stub
+    introduction: Light Lilac Ticket Stub
+    rank: 1
+  }
+  {
     id: 2537
     type: 5
     arg: "1"
     code: profilePic_Detective2024_9A91
     item_name: An Empty Seat, A Hint of Champagne
     introduction: An Empty Seat, A Hint of Champagne
+    rank: 1
+  }
+  {
+    id: 2538
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_MP5
+    item_name: Instinct, Thy Name is Red
+    introduction: Instinct, Thy Name is Red
+    rank: 1
+  }
+  {
+    id: 2539
+    type: 5
+    arg: "1"
+    code: profilePic_Detective2024_Mk23
+    item_name: Coroner Nyandyke
+    introduction: Coroner Nyandyke
     rank: 1
   }
   {
@@ -14486,6 +14549,26 @@
     item_name: ID: Stars Streaking Past the Night Sky
     introduction: ID: Stars Streaking Past the Night Sky
     rank: 1
+  }
+  {
+    id: 2608
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_PK
+    item_name: item-10002608
+    introduction: item-20002608
+    rank: 1
+    detail_introduction: item-30002608
+  }
+  {
+    id: 2609
+    type: 5
+    arg: "1"
+    code: card_BattlePass_PK
+    item_name: item-10002609
+    introduction: item-20002609
+    rank: 1
+    detail_introduction: item-30002609
   }
   {
     id: 4001
@@ -19604,6 +19687,26 @@
     detail_introduction: item-30140048
   }
   {
+    id: 140049
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140049
+    introduction: item-20140049
+    rank: 1
+    detail_introduction: item-30140049
+  }
+  {
+    id: 140050
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140050
+    introduction: item-20140050
+    rank: 1
+    detail_introduction: item-30140050
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -20010,6 +20113,16 @@
     item_name: Icon Frame - A Gentle Shepherd's Song
     introduction: Icon Frame - A Gentle Shepherd's Song
     rank: 1
+  }
+  {
+    id: 200050
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_PK
+    item_name: item-10200050
+    introduction: item-20200050
+    rank: 1
+    detail_introduction: item-30200050
   }
   {
     id: 900030
@@ -21870,6 +21983,54 @@
     introduction: Acquired from Frontline Protocol - Story of the Shepherd Village, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500176
+    type: 15
+    arg: "1500176"
+    code: package_choose
+    item_name: item-11500176
+    introduction: item-21500176
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500176
+    type_sort: 1
+  }
+  {
+    id: 1500177
+    type: 15
+    arg: "1500177"
+    code: package_choose
+    item_name: item-11500177
+    introduction: item-21500177
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500177
+    type_sort: 1
+  }
+  {
+    id: 1500178
+    type: 15
+    arg: "1500178"
+    code: package_random
+    item_name: item-11500178
+    introduction: item-21500178
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500178
+    type_sort: 1
+  }
+  {
+    id: 1500179
+    type: 15
+    arg: "1500179"
+    code: package_random
+    item_name: item-11500179
+    introduction: item-21500179
+    rank: 1
+    sort: -1
+    detail_introduction: item-31500179
     type_sort: 1
   }
   {

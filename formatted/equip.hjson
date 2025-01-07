@@ -12504,4 +12504,39 @@
     is_show: 1
     obtain_ids: "3116"
   }
+  {
+    id: 412
+    name: Winter Frost VI
+    description:
+      '''
+      DMG+<pow> ROF<rate>
+      CRIT DMG+<critical_harm_rate><%>Enhances skill $AK-12 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    rate: "-10,-5"
+    critical_harm_rate: "15,20"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_AK12
+    develop_duration: 3060
+    company: ZNT
+    fit_guns: "206,20206"
+    equip_introduction: The piece of equipment that AK-12 brought with herself when she withdrew from Avernus is a 6th-gen tactical cape developed by Paradeus that can render her invisible. When inactive, the material is semi-translucent and incredibly light, almost like a thin layer of mist.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_harm_rate:750
+    passive_skill: "992500"
+    max_level: 10
+    auto_select_id: 20088
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992500
+  }
 ]
