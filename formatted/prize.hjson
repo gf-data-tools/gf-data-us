@@ -12710,6 +12710,36 @@
     content: prize-20002223
   }
   {
+    id: 2224
+    name: prize-10002224
+    gem: 5
+    content: prize-20002224
+  }
+  {
+    id: 2225
+    name: prize-10002225
+    gem: 15
+    content: prize-20002225
+  }
+  {
+    id: 2226
+    name: prize-10002226
+    gem: 25
+    content: prize-20002226
+  }
+  {
+    id: 2227
+    name: prize-10002227
+    gem: 50
+    content: prize-20002227
+  }
+  {
+    id: 2228
+    name: prize-10002228
+    gem: 88
+    content: prize-20002228
+  }
+  {
     id: 2332
     name: prize-10002332
     gem: 90
@@ -13658,6 +13688,13 @@
     name: prize-10002551
     gun_id: "383"
     content: prize-20002551
+  }
+  {
+    id: 2552
+    name: prize-10002552
+    gem: 90
+    equip_ids: "413"
+    content: prize-20002552
   }
   {
     id: 3001
@@ -24540,84 +24577,84 @@
     id: 10086
     name: Carnival Reward
     mp: 100
-    item_ids: 110032-10
+    item_ids: 110033-10
   }
   {
     id: 10087
     name: Carnival Reward
     mp: 100
-    item_ids: 110032-20
+    item_ids: 110033-20
   }
   {
     id: 10088
     name: Carnival Reward
     ammo: 200
-    item_ids: 110032-20
+    item_ids: 110033-20
   }
   {
     id: 10089
     name: Carnival Reward
     ammo: 200
-    item_ids: 110032-30
+    item_ids: 110033-30
   }
   {
     id: 10090
     name: Carnival Reward
     mre: 200
-    item_ids: 110032-20
+    item_ids: 110033-20
   }
   {
     id: 10091
     name: Carnival Reward
     mre: 200
-    item_ids: 110032-30
+    item_ids: 110033-30
   }
   {
     id: 10092
     name: Carnival Reward
     mre: 200
-    item_ids: 110032-50
+    item_ids: 110033-50
   }
   {
     id: 10093
     name: Carnival Reward
     part: 100
-    item_ids: 110032-30
+    item_ids: 110033-30
   }
   {
     id: 10094
     name: Carnival Reward
     part: 100
-    item_ids: 110032-50
+    item_ids: 110033-50
   }
   {
     id: 10095
     name: Carnival Reward
     part: 100
-    item_ids: 110032-100
+    item_ids: 110033-100
   }
   {
     id: 10096
     name: Carnival Reward
     part: 200
-    item_ids: 110032-50
+    item_ids: 110033-50
   }
   {
     id: 10097
     name: Carnival Reward
     part: 200
-    item_ids: 110032-100
+    item_ids: 110033-100
   }
   {
     id: 10098
     name: Carnival Reward
     part: 300
-    item_ids: 110032-150
+    item_ids: 110033-150
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 110032-200,45-200
+    item_ids: 110033-200,45-200
   }
   {
     id: 10100
@@ -24655,7 +24692,7 @@
   {
     id: 10105
     name: Active Reward
-    gift: 9008-1,100003-10
+    gift: 10107-1,100003-10
     icon: Bumdle_bline
   }
   {
@@ -24694,12 +24731,12 @@
     id: 10111
     name: Carnival Reward
     mre: 200
-    item_ids: 110032-40
+    item_ids: 110033-40
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110032-50,45-200
+    item_ids: 110033-50,45-200
   }
   {
     id: 10113
@@ -24713,19 +24750,19 @@
     id: 10114
     name: Carnival Reward
     ammo: 200
-    item_ids: 110032-50
+    item_ids: 110033-50
   }
   {
     id: 10115
     name: Carnival Reward
     ammo: 300
-    item_ids: 110032-50
+    item_ids: 110033-50
   }
   {
     id: 10116
     name: prize-10010116
     mre: 300
-    item_ids: 110032-50
+    item_ids: 110033-50
     content: prize-20010116
   }
   {
@@ -50297,7 +50334,7 @@
   {
     id: 150040
     name: prize-10150040
-    item_ids: 1700022-1
+    item_ids: 1700025-1
     content: prize-20150040
   }
   {
@@ -50357,7 +50394,7 @@
   {
     id: 150050
     name: prize-10150050
-    item_ids: 1700023-1
+    item_ids: 1700026-1
     content: prize-20150050
   }
   {
@@ -50417,7 +50454,7 @@
   {
     id: 150060
     name: prize-10150060
-    item_ids: 1700024-1
+    item_ids: 1700027-1
     content: prize-20150060
   }
   {
@@ -50653,6 +50690,24 @@
     name: prize-10150112
     equip_ids: "236,278,247,295,105,349,237,168,282,356,277,270,283,169,292,175,294,182,371,198,266,304,384,315,391,316,394"
     content: prize-20150112
+  }
+  {
+    id: 150113
+    name: prize-10150113
+    equip_ids: "16,20,32,44,66,72,90"
+    content: prize-20150113
+  }
+  {
+    id: 150114
+    name: prize-10150114
+    equip_ids: "211,337,338,342,343,348,248,351,352,355,242,358,359,365,366,368,369,264,372,374,375,216,385,246,390,250,393,218,398"
+    content: prize-20150114
+  }
+  {
+    id: 150115
+    name: prize-10150115
+    equip_ids: "236,278,247,295,105,349,237,168,282,356,277,270,283,169,292,175,294,182,371,198,266,304,384,315,391,316,394,319,399"
+    content: prize-20150115
   }
   {
     id: 200001
@@ -54638,6 +54693,12 @@
     mre: 1000
     part: 1000
     icon: Bumdle_red
+  }
+  {
+    id: 220396
+    name: prize-10220396
+    content: prize-20220396
+    commander_uniform: "5840"
   }
   {
     id: 330248

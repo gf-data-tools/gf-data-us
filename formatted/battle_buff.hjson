@@ -32832,6 +32832,16 @@
     boss_available: 1
   }
   {
+    id: 5298
+    name: AK12隐身标识
+    conflict_type: 5298
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+  }
+  {
     id: 5300
     name: SPAS12一技能触发
     conflict_type: 5300
@@ -59971,6 +59981,15 @@
     boss_available: 1
   }
   {
+    id: 71201
+    name: 噩梦标记人数计数-AK12隐身
+    conflict_type: 71201
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: *101
+  }
+  {
     id: 72001
     name: 肉鸽普攻触发
     conflict_type: 201
@@ -64083,6 +64102,28 @@
     duration: "-1"
     boss_available: 1
     trigger_creation_id: "426810"
+  }
+  {
+    id: 529801
+    name: AK12监视离场
+    conflict_type: 529801
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 4007
+  }
+  {
+    id: 529802
+    name: AK12监视死亡
+    conflict_type: 529802
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    watch_id: 4008
   }
   {
     id: 580601
