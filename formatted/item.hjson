@@ -14515,6 +14515,24 @@
     rank: 1
   }
   {
+    id: 2540
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1851N
+    item_name: Pale Plume Takes Flight
+    introduction: Pale Plume Takes Flight
+    rank: 1
+  }
+  {
+    id: 2541
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1851N
+    item_name: ID Background: Vibrant Beats
+    introduction: ID Background: Vibrant Beats
+    rank: 1
+  }
+  {
     id: 2557
     type: 5
     arg: "1"
@@ -19735,6 +19753,26 @@
     detail_introduction: item-30140040
   }
   {
+    id: 140041
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140041
+    introduction: item-20140041
+    rank: 1
+    detail_introduction: item-30140041
+  }
+  {
+    id: 140042
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140042
+    introduction: item-20140042
+    rank: 1
+    detail_introduction: item-30140042
+  }
+  {
     id: 140043
     type: 14
     arg: "1"
@@ -20182,6 +20220,15 @@
     code: profileFrame_BattlePass_M1897
     item_name: Icon Frame - Flawless Echo
     introduction: Icon Frame - Flawless Echo
+    rank: 1
+  }
+  {
+    id: 200046
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1851N
+    item_name: Icon Frame: Sweetheart Plumage
+    introduction: Icon Frame: Sweetheart Plumage
     rank: 1
   }
   {
@@ -21980,6 +22027,50 @@
     code: Bumdle_zerocharge03
     item_name: Zero Charge Special Costume Voucher - DEFY Special Supply
     introduction: Use this costume voucher in the Warehouse to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500145
+    type: 15
+    arg: "1500145"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Face-off! Blazing Holidays, Warm Sunshine. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500146
+    type: 15
+    arg: "1500146"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Face-off! Blazing Holidays, Warm Sunshine. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500147
+    type: 15
+    arg: "1500147"
+    code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Face-off! Blazing Holidays, Warm Sunshine. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500148
+    type: 15
+    arg: "1500148"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Face-off! Blazing Holidays, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1
