@@ -3677,8 +3677,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:400,critical_percent:350
+    passive_skill: "1001801"
     max_level: 10
     auto_select_id: 18022
+    group_id: "32"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000128
@@ -6563,9 +6565,10 @@
     exclusive_rate: 3
     bonus_type: dodge:700
     skill: 902257
-    passive_skill: "902256"
+    passive_skill: "902256,1001701"
     max_level: 10
     auto_select_id: 20033
+    group_id: "31"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000213
@@ -12509,6 +12512,76 @@
     sp_description: Initial Cooldown -80%
   }
   {
+    id: 406
+    name: Police Cap of the Night
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      EVA+<dodge> $Welrod MkII MOD only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "2,5"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: Accessories_SP_WelrodMod
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "20114"
+    equip_introduction: A cap that Welrod MkII wears when she is on duty. In the face of crime and evil, this cap is a banner of divine justice!
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1001702,759412"
+    max_level: 10
+    auto_select_id: 18119
+    group_id: "31"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon Night Vision +10%
+  }
+  {
+    id: 407
+    name: STEN-Exclusive Exoskeleton
+    description:
+      '''
+      ACC<hit>
+      EVA+<dodge> $STEN MkII MOD only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "-3,-1"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_StenMK2Mod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20029"
+    equip_introduction: An exoskeleton designed for STEN MkII's exclusive use. It improves her mobility, but there are still some tiny design flaws.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1001802"
+    max_level: 10
+    auto_select_id: 20085
+    group_id: "32"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
     id: 408
     name: M33 Type Augmented Rounds
     description:
@@ -12644,5 +12717,73 @@
     is_show: 1
     obtain_ids: "3108"
     description_skill: 1002201
+  }
+  {
+    id: 416
+    name: GH Heavy Shield
+    description:
+      '''
+      MOVE SPEED<speed> ARMOR+<armor>
+      DMG INTAKE-1 $SPAS-12 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    speed: "-3,-3"
+    armor: "3,7"
+    skill_effect: 150
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_SPAS12
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "162,20162"
+    equip_introduction: A ballistic shield specially fitted for SPAS-12. It is immeasurably hefty, but provides a great sense of security.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:600
+    passive_skill: "740091"
+    max_level: 10
+    auto_select_id: 20091
+    is_show: 1
+    obtain_ids: "3016"
+    sp_description: DMG INTAKE-1
+  }
+  {
+    id: 417
+    name: Angel Exoskeleton
+    description:
+      '''
+      DMG<pow>
+      EVA+<dodge> $HS2000 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-6,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_HS2000
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "250"
+    equip_introduction: Equipment specially created for medical Dolls, used to great effect during rescue operations. HS2000 loves using this series of exoskeletons.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20092
+    is_show: 1
+    obtain_ids: "3117"
   }
 ]

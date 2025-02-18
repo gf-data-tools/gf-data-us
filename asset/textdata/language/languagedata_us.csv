@@ -832,14 +832,24 @@ COMMON,1820,Night Vision,,0
 COMMON,1821,Type not in possession,,0
 COMMON,1822,,,0
 COMMON,1823,Energy insufficient for deploying Mobile Armors.,,0
-COMMON,1824,,,0
-COMMON,1825,,,0
-COMMON,1826,,,0
-COMMON,1827,,,0
-COMMON,1828,,,0
-COMMON,1829,,,0
-COMMON,1830,,,0
+COMMON,1824,Maximum number of sent letters reached,,0
+COMMON,1825,This letter has been sent and cannot be edited further,,0
+COMMON,1826,Confirm to send the letter?,,0
+COMMON,1827,Confirm to retract the letter? You will have to rewrite the letter after retracting it.,,0
+COMMON,1828,Current letter has been edited//c would you like to abandon saving it?,,0
+COMMON,1829,Screenshot saved,,0
+COMMON,1830,Current letter has not been edited,,0
 COMMON,1831,Video file failed to download. Retry?,,0
+COMMON,1832,Special Enemy,,0
+COMMON,1833,,,0
+COMMON,1834,,,0
+COMMON,1835,,,0
+COMMON,1836,,,0
+COMMON,1837,,,0
+COMMON,1838,,,0
+COMMON,1839,,,0
+COMMON,1840,,,0
+COMMON,1841,,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,1
 BATTLE,10002,WITHDRAW,,1
@@ -1047,7 +1057,7 @@ BATTLE,10209,1. Capsule Mode: Conduct a Sweep to obtain the stage-clear reward a
 BATTLE,10210,Insufficient items. Unable to conduct Sweep.,,0
 BATTLE,10211,Skill,,0
 BATTLE,10212,Passive,,0
-BATTLE,10213,,,0
+BATTLE,10213,Unity Skill,,0
 CARNIVAL,11000,Progress,,0
 CARNIVAL,11001,Get reward,,0
 CARNIVAL,11002,GETREWARD,,1
@@ -1251,6 +1261,22 @@ HOME,20190,You have unread stories at the CafÃ©.,,0
 HOME,20191,Current logistics support {0},,0
 HOME,20192,Coalition Unit "{0}" captured; {1}{2} remaining.,,0
 HOME,20193,{0} available for purchase; {1} remaining.,,0
+HOME,20194,//nRemaining time before Capture Zone can be refreshed: <color=#E4A821>{0}</color>,,0
+HOME,20195,//nCapture Zone can be refreshed now,,0
+HOME,20196,Remaining: {0},,0
+HOME,20197,Combat Simulations available,,0
+HOME,20198,Theater,,0
+HOME,20199,Point Event,,0
+HOME,20200,<color=#E4A821>{0}</color> days left in the current season.//n,,0
+HOME,20201,{0}//n{1},,0
+HOME,20202,List of requests,,0
+HOME,20203,Cancel request,,0
+HOME,20204,No requests have been sent,,0
+HOME,20205,Requests,,0
+HOME,20206,{0}/{1},,0
+HOME,20207,Request cancelled,,0
+HOME,20208,Current level is {0}/{1}//c Function to send friend requests is not yet available,,0
+HOME,20209,,,0
 DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,1
@@ -2383,6 +2409,7 @@ DORM,31983,Search character name,,0
 DORM,31984,Collected,,0
 DORM,31985,Cancel collection,,0
 DORM,31986,No characters currently marked,,0
+DORM,31987,Already owned,,0
 FACTORY,32000,Start,,0
 FACTORY,32001,Production complete,,0
 FACTORY,32002,Produce T-Doll,,0
@@ -3226,6 +3253,7 @@ QUESTS,38095,Level 25,,0
 QUESTS,38096,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}</color>. Proceed?//nYou have not unlocked this T-Doll!,,0
 QUESTS,38097,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}</color> and <color=#e7a300>Black Card*{1}</color>. Proceed?//nYou have not unlocked this T-Doll yet!,,0
 QUESTS,38098,New Mission,,0
+QUESTS,38099,Received at Level 25,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -3762,7 +3790,7 @@ MISSIONSELECTION,40499,This echelon does not meet the combat efficiency requirem
 MISSIONSELECTION,40500,Insufficient battle resources. Unable to re-spply.,,0
 MISSIONSELECTION,40501,This Vehicle is currently low on power.,,0
 MISSIONSELECTION,40502,This Vehicle is currently under repair.,,0
-MISSIONSELECTION,40503,,,0
+MISSIONSELECTION,40503,Insufficient combat resources. Unable to resupply.,,0
 MISSIONSELECTION,40504,This move will consume Energy*<color=#FFB400FF>{0}</color>,,0
 MISSIONSELECTION,40505,Sniper Battle,,0
 MISSIONSELECTION,40506,No echelons or units have been selected,,0
@@ -4094,6 +4122,15 @@ SETTING,52151,Current number of Rename Cards: {0},,0
 SETTING,52152,Effect of Selected T-Doll,,0
 SETTING,52153,*Slow down time when a T-Doll is selected.,,0
 SETTING,52154,Simplify Damage Numbers,,0
+SETTING,52155,Allow Girls' Frontline access to your gallery? You will be able to store photos once the app receives permission.,,0
+SETTING,52156,Please allow Girls' Frontline access to your gallery through your "Settings" app.,,0
+SETTING,52157,,,0
+SETTING,52158,,,0
+SETTING,52159,,,0
+SETTING,52160,,,0
+SETTING,52161,,,0
+SETTING,52162,,,0
+SETTING,52163,,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -5038,17 +5075,83 @@ SEPCIALOPS,60770,Produce!,,0
 SEPCIALOPS,60771,Mixer,,0
 SEPCIALOPS,60772,Vortex of Secrets+,,0
 SEPCIALOPS,60773,Chapter locked,,0
-SEPCIALOPS,60774,,,0
-SEPCIALOPS,60775,,,0
-SEPCIALOPS,60776,,,0
-SEPCIALOPS,60777,,,0
-SEPCIALOPS,60778,,,0
-SEPCIALOPS,60779,,,0
-SEPCIALOPS,60780,,,0
-SEPCIALOPS,60781,,,0
-SEPCIALOPS,60782,,,0
-SEPCIALOPS,60783,,,0
-SEPCIALOPS,60784,,,0
+SEPCIALOPS,60774,Check sent letter,,0
+SEPCIALOPS,60775,Check reply,,0
+SEPCIALOPS,60776,Read,,0
+SEPCIALOPS,60777,Save temporarily,,0
+SEPCIALOPS,60778,Send,,0
+SEPCIALOPS,60779,Reset,,0
+SEPCIALOPS,60780,Edit,,0
+SEPCIALOPS,60781,Save,,0
+SEPCIALOPS,60782,Check reply,,0
+SEPCIALOPS,60783,Letter writing available,,0
+SEPCIALOPS,60784,Sent,,0
+SEPCIALOPS,60785,Leader LV{0},,0
+SEPCIALOPS,60786,Enter Dark Zone,,0
+SEPCIALOPS,60787,Evita,,0
+SEPCIALOPS,60788,Intelligence,,0
+SEPCIALOPS,60789,Pick Up,,0
+SEPCIALOPS,60790,Leader,,0
+SEPCIALOPS,60791,Enemy Information,,0
+SEPCIALOPS,60792,Terminate Mission,,0
+SEPCIALOPS,60793,One-Click Sell,,0
+SEPCIALOPS,60794,Purchase,,0
+SEPCIALOPS,60795,Close,,0
+SEPCIALOPS,60796,Trade Results,,0
+SEPCIALOPS,60797,Terminating the battle will <color=#FF7F00FF>//ncause you to lose your current progress in battle</color>//nNext time you enter this battle//nyou will start with <color=#FF7F00FF>reset progress</color>,,0
+SEPCIALOPS,60798,Restarting the battle will//n<color=#c13939>cause you to lose your current progress in battle</color>//n and <color=#c13939>restart with reset battle progress</color>,,0
+SEPCIALOPS,60799,Not enough manpower//c unable to deploy selected Dolls.,,0
+SEPCIALOPS,60800,Song of Medicines and Poisons,,0
+SEPCIALOPS,60801,Waiting Through the Night,,0
+SEPCIALOPS,60802,Sweet Soiree,,0
+SEPCIALOPS,60803,Bee Sting,,0
+SEPCIALOPS,60804,Who would you like to write a letter to//c Commander?,,0
+SEPCIALOPS,60805,Search for name,,0
+SEPCIALOPS,60806,Starting Ammo,,0
+SEPCIALOPS,60807,Starting Manpower,,0
+SEPCIALOPS,60808,Ammo Cap,,0
+SEPCIALOPS,60809,Manpower Cap,,0
+SEPCIALOPS,60810,Ammo Recovery,,0
+SEPCIALOPS,60811,Manpower Recovery,,0
+SEPCIALOPS,60812,Deployment Costs,,0
+SEPCIALOPS,60813,Upgrade Costs,,0
+SEPCIALOPS,60814,Deployment Cooldown,,0
+SEPCIALOPS,60815,s,,0
+SEPCIALOPS,60816,Insufficient ammo//c unable to upgrade character.,,0
+SEPCIALOPS,60817,Recruit,,0
+SEPCIALOPS,60818,Echelon to be deployed,,0
+SEPCIALOPS,60819,Logistics Support,,0
+SEPCIALOPS,60820,Backpack,,0
+SEPCIALOPS,60821,Intelligence,,0
+SEPCIALOPS,60822,Retreat,,0
+SEPCIALOPS,60823,Mission Target,,0
+SEPCIALOPS,60824,Cancel,,0
+SEPCIALOPS,60825,Tutorial,,0
+SEPCIALOPS,60826,60 can be received every day//c capped at 180 maximum//Remaining receivable: {0},,0
+SEPCIALOPS,60827,Received Parts,,0
+SEPCIALOPS,60828,Discard Portion,,0
+SEPCIALOPS,60829,*Equipment exceeding the limit of the backpack cannot be brought back//c so please plan accordingly.,,0
+SEPCIALOPS,60830,Total Value,,0
+SEPCIALOPS,60831,No stock for purchase currently,,0
+SEPCIALOPS,60832,,,0
+SEPCIALOPS,60833,,,0
+SEPCIALOPS,60834,,,0
+SEPCIALOPS,60835,,,0
+SEPCIALOPS,60836,,,0
+SEPCIALOPS,60837,,,0
+SEPCIALOPS,60838,,,0
+SEPCIALOPS,60839,Close,,0
+SEPCIALOPS,60840,,,0
+SEPCIALOPS,60841,,,0
+SEPCIALOPS,60842,Combat Report,,0
+SEPCIALOPS,60843,Enemies eliminated,,0
+SEPCIALOPS,60844,,,0
+SEPCIALOPS,60845,,,0
+SEPCIALOPS,60846,,,0
+SEPCIALOPS,60847,,,0
+SEPCIALOPS,60848,,,0
+SEPCIALOPS,60849,,,0
+SEPCIALOPS,60850,,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -5694,6 +5797,10 @@ OTHER,100327,Please screenshot/tap to copy sharing code,,0
 OTHER,100328,Input sharing code,,0
 OTHER,100329,Enable direct reassignment of characters in other echelons,,0
 OTHER,100330,Scan sharing code,,0
+OTHER,100331,{0} added to purchase limit at 12AM on the first of every month.//nUnused purchase chances can be accumulated.,,0
+OTHER,100332,Order Information Abnormal,,0
+OTHER,100333,,,0
+OTHER,100334,,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
 FRIEND,110002,Friend Points,,0
@@ -7880,6 +7987,7 @@ SANGVIS,260158,Provide Load,,0
 SANGVIS,260159,Research,,0
 SANGVIS,260160,Item Quantity,,0
 SANGVIS,260161,In possession,,0
+SANGVIS,260162,Coalition Units: {0},,0
 FORMATION,270002,Echelon//nPreset,,0
 FORMATION,270003,Select Formation,,0
 FORMATION,270004,Formation Strengths,,0
@@ -8534,6 +8642,33 @@ MINIGAME,280573,No more planning mode nodes,,0
 MINIGAME,280574,Resources insufficient for completing all selected nodes,,0
 MINIGAME,280575,- None -,,0
 MINIGAME,280576,Clear this stage once,,0
+MINIGAME,280577,,,0
+MINIGAME,280578,,,0
+MINIGAME,280579,,,0
+MINIGAME,280580,,,0
+MINIGAME,280581,,,0
+MINIGAME,280582,,,0
+MINIGAME,280583,,,0
+MINIGAME,280584,,,0
+MINIGAME,280585,,,0
+MINIGAME,280586,,,0
+MINIGAME,280587,,,0
+MINIGAME,280588,,,0
+MINIGAME,280589,,,0
+MINIGAME,280590,,,0
+MINIGAME,280591,,,0
+MINIGAME,280592,,,0
+MINIGAME,280593,Purchase successful,,0
+MINIGAME,280594,,,0
+MINIGAME,280595,,,0
+MINIGAME,280596,,,0
+MINIGAME,280597,,,0
+MINIGAME,280598,,,0
+MINIGAME,280599,,,0
+MINIGAME,280600,,,0
+MINIGAME,280601,,,0
+MINIGAME,280602,,,0
+MINIGAME,280603,,,0
 VEHICLE,290001,Universal Components,,0
 VEHICLE,290002,Heavy Weapon,,0
 VEHICLE,290003,Light Weapon,,0

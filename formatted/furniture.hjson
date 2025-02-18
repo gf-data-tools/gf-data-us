@@ -28586,6 +28586,35 @@
     rotate: "3"
   }
   {
+    id: 20147
+    name: Call of the Endgame
+    classes: 19
+    type: 201
+    space: "9,7,1,1,0,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"The white pawn must become a queen! Kill them all!" The newbie Dinergate exclaims with arms raised. "No, no! We need to save the trapped king first..." The veteran chess-playing Dinergate gently suggested as he analyzed the state of the chessboard.'''
+    code: 202408Activity_Chess_deco,202408Activity_Chess
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.000,-0.178,0.000|0.021,0.344,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 20148
+    name: Deadlock Breaker Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Angular Gyrus". "Those who help themselves will be helped by the heavens. Break through all the shackles, and the future will open up before you with endless possibilities."
+    code: 202408Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -43607,6 +43636,111 @@
     rotate: "3"
   }
   {
+    id: 310701
+    name: Crimson Queen
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AUG's Poster
+    code: poster_Chess2024_AUG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310702
+    name: Castling Rook
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Rhino's poster.
+    code: poster_Chess2024_Rhino
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310703
+    name: Peerless Chessmaster
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Thompson's Poster
+    code: poster_Chess2024_M1928A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310704
+    name: Vaulting Knight
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: APC556's poster.
+    code: poster_Chess2024_APC556
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310705
+    name: Oracle Guardian
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P7's Poster
+    code: poster_Chess2024_P7
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310706
+    name: Shattered Pawn
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MP41's Poster.
+    code: poster_Chess2024_MP41
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310707
+    name: Feline Smasher
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: IDW's Poster.
+    code: poster_Chess2024_IDW
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 310801
     name: To Golden Encounters
     classes: 300
@@ -43629,7 +43763,7 @@
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: JS 9's poster.
+    description: JS 9's Poster.
     code: poster_Bunny24_JS9mm
     texture_type: "1"
     sorting: "5"
@@ -43644,7 +43778,7 @@
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: LTLX7000's poster.
+    description: LTLX7000's Poster.
     code: poster_Bunny24_LTLX7000
     texture_type: "1"
     sorting: "5"
@@ -43659,7 +43793,7 @@
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: SR-3MP's poster
+    description: SR-3MP's Poster
     code: poster_Bunny24_SR3MP
     texture_type: "1"
     sorting: "5"
@@ -43689,7 +43823,7 @@
     space: "3,6,1,1,1,0"
     deco_rate: 750
     decompose_gift: 100003
-    description: RMB-93's poster.
+    description: RMB-93's Poster.
     code: poster_Bunny24_RMB93
     texture_type: "1"
     sorting: "5"

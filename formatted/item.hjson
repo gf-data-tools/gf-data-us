@@ -722,6 +722,8 @@
     type: 3
     arg: "37"
     code: Medal_202406Activity
+    item_name: Choice of Eternal Return Medal
+    introduction: Awarded to the Commander and his Dolls for outstanding performance during the "Cartesian Theater" event. "Endless repetition, over and over, for you."
     rank: 1
   }
   {
@@ -734,12 +736,21 @@
     rank: 1
   }
   {
+    id: 139
+    type: 3
+    arg: "40"
+    code: Medal_202408Activity
+    item_name: Deadlock Breaker Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Angular Gyrus". "Those who help themselves will be helped by the heavens. Break through all the shackles, and the future will open up before you with endless possibilities."
+    rank: 1
+  }
+  {
     id: 140
     type: 3
     arg: "41"
     code: Medal_Theater13th
     item_name: Theater 13 Pioneer Medal
-    introduction: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 13. "The sight of you fighting valiantly on the frontlines has become the hope in people's hearts."
+    introduction: To commend this Commander and the T-Dolls under their command for the fantastic score they have achieved through tireless hard work in Theater 13. "The image of you fighting in the frontlines has become hope in the eyes of people."
     rank: 1
   }
   {
@@ -748,7 +759,7 @@
     arg: "42"
     code: Medal_Theater13th_rank
     item_name: Theater 13 Conqueror Medal
-    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 13. "With you as their core, your Dolls are now a furious tide that sweeps away everything in its path."
+    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in Theater 13. "Your Dolls have gathered into a raging storm, capable of blowing away anything standing in their way. And you, are the very heart of this storm."
     rank: 1
   }
   {
@@ -12917,6 +12928,33 @@
     rank: 1
   }
   {
+    id: 2318
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season11_1
+    item_name: Homomorphic Perception - Code Nine: Closed String
+    introduction: Homomorphic Perception - Code Nine: Closed String
+    rank: 1
+  }
+  {
+    id: 2319
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season11_2
+    item_name: Prosthetic Interconnection - Code Nine: Closed String
+    introduction: Prosthetic Interconnection - Code Nine: Closed String
+    rank: 1
+  }
+  {
+    id: 2320
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season11_3
+    item_name: Engraved Imprint - Code Nine: Closed String
+    introduction: Engraved Imprint - Code Nine: Closed String
+    rank: 1
+  }
+  {
     id: 2321
     type: 5
     arg: "1"
@@ -14533,6 +14571,132 @@
     rank: 1
   }
   {
+    id: 2542
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_AUG
+    item_name: Crimson Queen
+    introduction: Crimson Queen
+    rank: 1
+  }
+  {
+    id: 2543
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_Rhino
+    item_name: Castling Rook
+    introduction: Castling Rook
+    rank: 1
+  }
+  {
+    id: 2544
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_M1928A1
+    item_name: Peerless Chessmaster
+    introduction: Peerless Chessmaster
+    rank: 1
+  }
+  {
+    id: 2545
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_APC556
+    item_name: Vaulting Knight
+    introduction: Vaulting Knight
+    rank: 1
+  }
+  {
+    id: 2546
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_P7
+    item_name: Oracle Guardian
+    introduction: Oracle Guardian
+    rank: 1
+  }
+  {
+    id: 2547
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_MP41
+    item_name: Shattered Pawn
+    introduction: Shattered Pawn
+    rank: 1
+  }
+  {
+    id: 2548
+    type: 5
+    arg: "1"
+    code: profilePic_Chess2024_IDW
+    item_name: Feline Smasher
+    introduction: Feline Smasher
+    rank: 1
+  }
+  {
+    id: 2549
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_01
+    item_name: Icon: Long Time No See
+    introduction: Icon: Long Time No See
+    rank: 1
+  }
+  {
+    id: 2550
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_02
+    item_name: Icon: Unspoken
+    introduction: Icon: Unspoken
+    rank: 1
+  }
+  {
+    id: 2551
+    type: 5
+    arg: "1"
+    code: profilePic_202408Activity_03
+    item_name: Icon: Tempered Will
+    introduction: Icon: Tempered Will
+    rank: 1
+  }
+  {
+    id: 2552
+    type: 5
+    arg: "1"
+    code: card_202408Activity_01
+    item_name: ID: Unreachable
+    introduction: ID: Unreachable
+    rank: 1
+  }
+  {
+    id: 2553
+    type: 5
+    arg: "1"
+    code: card_202408Activity_02
+    item_name: ID: Close to the Sky
+    introduction: ID: Close to the Sky
+    rank: 1
+  }
+  {
+    id: 2554
+    type: 5
+    arg: "1"
+    code: cg_202408Activity_01
+    item_name: Background: Twilight Echo
+    introduction: Background: Twilight Echo
+    rank: 1
+  }
+  {
+    id: 2555
+    type: 5
+    arg: "1"
+    code: cg_202408Activity_02
+    item_name: Background: Immaculate Grace
+    introduction: Background: Immaculate Grace
+    rank: 1
+  }
+  {
     id: 2557
     type: 5
     arg: "1"
@@ -14656,6 +14820,15 @@
     code: card_BattlePass_PK
     item_name: ID: Master of the Snow City
     introduction: ID: Master of the Snow City
+    rank: 1
+  }
+  {
+    id: 3501
+    type: 5
+    arg: "1"
+    code: profilePic_rank5_SPAS12Mod
+    item_name: SPAS-12 Neural Upgrade Icon
+    introduction: SPAS-12 Neural Upgrade Icon
     rank: 1
   }
   {
@@ -15851,6 +16024,15 @@
     id: 10716
     type: 18
     arg: "10716"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10717
+    type: 18
+    arg: "10717"
     code: daily_points
     item_name: Gray Zone Exploration Score
     introduction: Gray Zone Exploration Score
@@ -17537,6 +17719,43 @@
     arg: "100232"
     code: coremask2_202407ZeroCharge
     item_name: Corrupted Heart Mask – Zero Charge
+    introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
+    rank: 1
+  }
+  {
+    id: 100233
+    type: 4
+    arg: "100233"
+    code: Nova_medal
+    item_name: Nova Medal - Angular Gyrus
+    introduction: Nova Medal - Angular Gyrus
+    rank: 1
+  }
+  {
+    id: 100234
+    type: 4
+    arg: "100234"
+    code: Platinum_medal
+    item_name: Platinum Medal - Angular Gyrus
+    introduction: Platinum Medal - Angular Gyrus
+    rank: 1
+  }
+  {
+    id: 100235
+    type: 9
+    arg: "100235"
+    code: Coin_202408AngularGyrus
+    item_name: Pawn of Victory
+    introduction: Of all the pieces on the chessboard, only pawns have no right to retreat.
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100236
+    type: 4
+    arg: "100236"
+    code: coremask2_202408AngularGyrus
+    item_name: Corrupted Heart Mask – Angular Gyrus
     introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
     rank: 1
   }
@@ -22076,6 +22295,87 @@
     type_sort: 1
   }
   {
+    id: 1500149
+    type: 15
+    arg: "1500149"
+    code: Bumdle_Angulargyrus01
+    item_name: Angular Gyrus Special Costume Voucher I
+    introduction: Use this costume voucher in the Warehouse to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500150
+    type: 15
+    arg: "1500150"
+    code: Bumdle_Angulargyrus02
+    item_name: Angular Gyrus Special Costume Voucher II
+    introduction: Use this costume voucher in the Warehouse to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500151
+    type: 15
+    arg: "1500151"
+    code: Bumdle_Angulargyrus03
+    item_name: Angular Gyrus Special Costume Voucher III
+    introduction: Use this costume voucher in the Warehouse to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500152
+    type: 15
+    arg: "1500152"
+    code: Bumdle_invocation_3
+    item_name: Four-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a four-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500153
+    type: 15
+    arg: "1500153"
+    code: Bumdle_invocation_2
+    item_name: Five-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a five-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500154
+    type: 15
+    arg: "1500154"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500155
+    type: 15
+    arg: "1500155"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1500156
     type: 15
     arg: "1500156"
@@ -22532,6 +22832,39 @@
     type_sort: 1
   }
   {
+    id: 1700028
+    type: 15
+    arg: "1700028"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700029
+    type: 15
+    arg: "1700029"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700030
+    type: 15
+    arg: "1700030"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of five-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1800001
     type: 15
     arg: "1800001"
@@ -22780,6 +23113,39 @@
     code: Bumdle_5year_Coupons
     item_name: 5th Anniversary Supreme Costume Voucher
     introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000006
+    type: 15
+    arg: "9000006"
+    code: Bumdle_WhiteValentineCoupons1
+    item_name: Collector's Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000007
+    type: 15
+    arg: "9000007"
+    code: Bumdle_WhiteValentineCoupons2
+    item_name: Luxury Costume Voucher
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000008
+    type: 15
+    arg: "9000008"
+    code: Bumdle_WhiteValentineCoupons3
+    item_name: Supreme Costume Voucher
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1
     sort: -1
     type_sort: 1

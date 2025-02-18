@@ -50008,6 +50008,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     des: Imposes airspace denial on heliports within its range. Airdrops, echelon deployment and hostage recovery cannot be performed on affected heliports.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9700901
@@ -50028,6 +50029,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     des: Provides fire support for allied units within its support range, inflicting a sustained bombardment on enemy units during combat.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701201
@@ -50095,6 +50097,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701204
@@ -50115,6 +50118,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     des: Imposes airspace denial on heliports within its range. Airdrops, echelon deployment and hostage recovery cannot be performed on affected heliports.
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701501
@@ -50182,6 +50186,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701504
@@ -50201,6 +50206,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701505
@@ -50219,6 +50225,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701506
@@ -50238,6 +50245,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    confront_des: This facility cannot be destroyed in this battle.
   }
   {
     id: 9701901
