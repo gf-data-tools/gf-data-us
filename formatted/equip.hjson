@@ -12786,4 +12786,38 @@
     is_show: 1
     obtain_ids: "3117"
   }
+  {
+    id: 418
+    name: No. 1 Exoskeleton
+    description:
+      '''
+      DMG+<pow>
+      EVA<dodge> Enhances skill $KLIN only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    dodge: "3,5"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_KLIN
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "177"
+    equip_introduction: Supposedly the only requirement KLIN had for this exoskeleton was that it had to be No. 1, just like herself!
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,dodge:1000
+    passive_skill: "1003001"
+    max_level: 10
+    auto_select_id: 20093
+    is_show: 1
+    obtain_ids: "3109"
+    description_skill: 1003001
+  }
 ]
