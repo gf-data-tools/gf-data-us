@@ -26920,6 +26920,229 @@
     rotate: "3,3,3"
   }
   {
+    id: 11301
+    name: Divine Hymn - Beneath the Vault
+    classes: 113
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Beneath the intricate architecture and ornamentation is layer upon layer of bricks—a simple and resilient foundation that supports people's happiness.
+    code: WhiteV2024_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11302
+    name: Divine Hymn - Eden in Our Dreams
+    classes: 113
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A carefree life in this verdant land of bliss may be a pipe dream, but if we keep striving for all that is good and beautiful, we will eventually find our paradise.
+    code: WhiteV2024_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11303
+    name: Divine Hymn - Pew of Tranquility
+    classes: 113
+    type: 201
+    position: "19,5"
+    space: "6,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A holy dividing line that separates the happy couple and the guests—it's nice to be on the front row, but please don't get too excited.
+    code: WhiteV2024_deco_01
+    texture_type: "1"
+    offset: "-0.042,-0.511,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11304
+    name: Divine Hymn - Pew of Serenity
+    classes: 113
+    type: 201
+    position: "9,5"
+    space: "6,4,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A sacred partition that separates the host and the guests. It's great being on the front row, but please don't get too worked up.
+    code: WhiteV2024_deco_02
+    texture_type: "1"
+    offset: "0.010,-0.375,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11305
+    name: Divine Hymn - Icon of Prayers
+    classes: 113
+    type: 201
+    position: "7,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: An ancient stone statue that has stood the test of time, frozen in a moment of prayer. "If I also stay as still as a statue, will humans in the future pay their respects to me?" Muses a small Dinergate as it quietly applies a gray paint job on itself.
+    code: WhiteV2024_deco_03
+    texture_type: "1"
+    offset: "0.000,-0.094,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11306
+    name: Divine Hymn - Champagne Temptation
+    classes: 113
+    type: 201
+    position: "29,11"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Many visit this place not to witness the ceremony, but just for a glass of good wine. However, there are taboos on this consecrated ground.
+    code: WhiteV2024_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 11307
+    name: Divine Hymn - Mini Witnesses
+    classes: 113
+    type: 202
+    position: "10,9"
+    space: "4,5,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: The hustling camera team can hear the yellow Dinergate barking out orders from a distance—"You, make sure the framing is good! You lot, set up the tripod properly! ...Hm? Where's my megaphone?!"
+    code: WhiteV2024_videoAnt
+    texture_type: "2"
+    offset: "0.125,0.219,0.000"
+    rotate: "2"
+    interact_point: "73"
+    interact_point_offset: *-0.788,0.882,0.000
+    touch_area: "4,5,4"
+  }
+  {
+    id: 11308
+    name: Divine Hymn - Dignity of Fruits
+    classes: 113
+    type: 201
+    position: "24,11"
+    space: "5,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: The combined platter of various fruits and desserts is determined not to be outdone by the overcrowded Champagne table... The hotpot and chopsticks? They're just for giving some extra height.
+    code: WhiteV2024_deco_05
+    texture_type: "1"
+    offset: "-0.240,-0.125,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11309
+    name: Divine Hymn - Fountain of Wishes (and Coins)
+    classes: 113
+    type: 201
+    position: "27,0"
+    space: "6,5,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: '''"Toss a coin into the fountain while facing away from it and you can make three wishes! It works a lot better if you do it this way!" Reads a friendly sign written by Kalina, the manager of the fountain.'''
+    code: WhiteV2024_deco_06,WhiteV2024_fountainPigeon
+    texture_type: "1,2"
+    sorting: "0,0"
+    offset: "-0.270,-0.169,0.000|-0.125,2.117,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11310
+    name: Divine Hymn - Altar of Vows
+    classes: 113
+    type: 201
+    position: "11,0"
+    space: "12,5,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: This is where the red carpet leads up to. Please infuse every single word you utter here with reverence, as God is listening on this raised altar.
+    code: WhiteV2024_deco_07,WhiteV2024_deco_08,WhiteV2024_deco_09,WhiteV2024_weddingStage
+    texture_type: "1,1,1,2"
+    sorting: "0,0,20,10"
+    offset: "-1.189,-0.271,0.000|3.419,-0.271,0.000|0.083,0.375,0.000|-0.021,2.252,0.000"
+    rotate: "2,2,2,2"
+    interact_point: "74"
+    interact_point_offset: *0.204,1.366,-0.285
+  }
+  {
+    id: 11311
+    name: Divine Hymn - Cage of Happiness
+    classes: 113
+    type: 202
+    position: "0,0"
+    space: "7,7,1,1,0,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Following the basic principle of a cage for trapping birds, this installation is furnished with a comfortable and relaxing hammock chair so that even the most cautious guest can't resist its temptations... It's just that the price is calculated by the second.
+    code: WhiteV2024_deco_10,WhiteV2024_swingPigeon,WhiteV2024_swingPigeon2
+    texture_type: "1,2,2"
+    sorting: "0,0,0"
+    offset: "-0.375,-1.387,3.305|-0.688,2.742,3.305|-0.288,-0.624,3.305"
+    rotate: "2,2,2"
+    interact_point: "12"
+    interact_point_offset: *0.263,2.533,-0.285
+  }
+  {
+    id: 11312
+    name: Divine Hymn - Feast on Peace Square
+    classes: 113
+    type: 201
+    position: "19,9"
+    space: "4,4,1,1,0,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Stop asking why they don't fly. One can't perform on an empty stomach!
+    code: WhiteV2024_pigeon
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "4,4,4"
+  }
+  {
+    id: 11313
+    name: Divine Hymn - Gift of the Celestial Rings
+    classes: 113
+    type: 201
+    position: "16,6"
+    space: "2,2,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The rings spin and dissolve... This is how the most beautiful planet in the heavens bestows its gracious blessings.
+    code: WhiteV2024_deco_11
+    texture_type: "1"
+    offset: "0.000,1.037,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11314
+    name: Divine Hymn - Fast as Lightning
+    classes: 113
+    type: 201
+    position: "3,10"
+    space: "6,3,1,1,1,1"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A prince can have no crown, but he cannot be without an elegant steed—even if it's just a part dismantled from a merry-go-round, it's better than nothing.
+    code: WhiteV2024_deco_12
+    texture_type: "1"
+    offset: "0.000,-0.209,0.000"
+    rotate: "2"
+    interact_point: "12"
+    interact_point_offset: *-0.613,2.874,-0.285
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -43315,6 +43538,126 @@
     decompose_gift: 100003
     description: Erma's poster.
     code: poster_WhiteV2024_Erma
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310202
+    name: Nightfall in Hemera's Window
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 433's poster.
+    code: poster_WhiteV2024_HK433
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310203
+    name: Transparent Blue
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 416's poster.
+    code: poster_WhiteV2024_HK416
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310204
+    name: Pure of Sound, Pure of Heart
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: General Liu's poster.
+    code: poster_WhiteV2024_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310205
+    name: Eirene's Whispers
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: X95's poster.
+    code: poster_WhiteV2024_X95
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310207
+    name: Together, With Flowers Watching Over Us
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: K2's poster.
+    code: poster_WhiteV2024_K2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310208
+    name: Graceful Figure in the Water
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Saiga-12's poster.
+    code: poster_WhiteV2024_Saiga12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310209
+    name: Exquisite Carmine
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr G3's poster.
+    code: poster_WhiteV2024_G3
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310210
+    name: Dance of Light and Shadows
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G43's poster.
+    code: poster_WhiteV2024_G43
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
