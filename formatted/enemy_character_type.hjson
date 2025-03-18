@@ -7738,6 +7738,251 @@
     enemy_illustration_sub_id: 246001
   }
   {
+    id: 13321
+    type: 3
+    enemy_info: 多斯保镖-AR
+    code: Guard1Breakout
+    maxlife: 1140
+    pow: 22
+    hit: 46
+    dodge: 32
+    range: 5
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 30
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100060
+    danger: 20
+    enemy_illustration_sub_id: 100060001
+  }
+  {
+    id: 13322
+    type: 3
+    enemy_info: 多斯保镖-RF
+    code: Guard2Breakout
+    maxlife: 600
+    pow: 46
+    hit: 140
+    dodge: 18
+    range: 8
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 20
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100061
+    danger: 20
+    enemy_illustration_sub_id: 100061001
+  }
+  {
+    id: 13323
+    type: 3
+    enemy_info: 多斯保镖-SG
+    code: Guard3Breakout
+    maxlife: 1320
+    pow: 12
+    hit: 28
+    dodge: 3
+    range: 2
+    speed: 40
+    number: 1
+    angle: 180
+    armor: 50
+    rate: 20
+    def: 99999
+    level: 30100
+    normal_attack: 301106
+    passive_skill: "200304"
+    effect_ratio: 1.17
+    deployment_scale: 1
+    enemy_illustration_id: 100062
+    danger: 20
+    enemy_illustration_sub_id: 100062001
+  }
+  {
+    id: 13324
+    type: 3
+    enemy_info: 黑金队员-AR
+    code: BG1Breakout
+    maxlife: 850
+    pow: 32
+    hit: 38
+    dodge: 32
+    range: 5
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 50
+    def: 99999
+    level: 100
+    normal_attack: 300301
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100063
+    danger: 20
+    enemy_illustration_sub_id: 100063001
+  }
+  {
+    id: 13325
+    type: 3
+    enemy_info: 黑金队员-SMG
+    code: BG2Breakout
+    maxlife: 1350
+    pow: 26
+    hit: 26
+    dodge: 68
+    range: 3
+    speed: 60
+    number: 1
+    angle: 180
+    rate: 80
+    def: 99999
+    level: 100
+    normal_attack: 300317
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100064
+    danger: 20
+    enemy_illustration_sub_id: 100064001
+  }
+  {
+    id: 13326
+    type: 3
+    enemy_info: 黑金队员-RF
+    code: BG3Breakout
+    maxlife: 650
+    pow: 46
+    hit: 64
+    dodge: 26
+    range: 8
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 20
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100065
+    danger: 20
+    enemy_illustration_sub_id: 100065001
+  }
+  {
+    id: 13327
+    type: 3
+    enemy_info: 伪装的多斯保镖
+    code: DisGuardBreakout
+    maxlife: 1050
+    pow: 46
+    hit: 64
+    dodge: 90
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 20
+    rate: 30
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100066
+    danger: 20
+    enemy_illustration_sub_id: 100066001
+  }
+  {
+    id: 13328
+    type: 3
+    enemy_info: 伪装的黑金队员
+    code: DisBGBreakout
+    maxlife: 1050
+    pow: 46
+    hit: 64
+    dodge: 90
+    range: 7
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 20
+    rate: 30
+    def: 99999
+    level: 30100
+    normal_attack: 300317
+    passive_skill: "200304"
+    effect_ratio: 1
+    deployment_scale: 1
+    enemy_illustration_id: 100067
+    danger: 20
+    enemy_illustration_sub_id: 100067001
+  }
+  {
+    id: 13329
+    type: 3
+    enemy_info: 精英多斯保镖
+    code: EliteGuardBreakout
+    maxlife: 23000
+    pow: 46
+    hit: 86
+    dodge: 60
+    range: 7
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    rate: 40
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    effect_ratio: 1.2
+    deployment_scale: 1
+    enemy_illustration_id: 100068
+    danger: 20
+    enemy_illustration_sub_id: 100068001
+  }
+  {
+    id: 13330
+    type: 3
+    enemy_info: 精英黑金队员
+    code: EliteBGBreakout
+    maxlife: 23000
+    pow: 46
+    hit: 86
+    dodge: 60
+    range: 7
+    speed: 50
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    rate: 40
+    def: 99999
+    level: 30100
+    normal_attack: 300301
+    effect_ratio: 1.2
+    deployment_scale: 1
+    enemy_illustration_id: 100069
+    danger: 20
+    enemy_illustration_sub_id: 100069001
+  }
+  {
     id: 14001
     type: 3
     name: Corpse Bride
@@ -9160,6 +9405,30 @@
     enemy_illustration_id: 3
     danger: 10
     enemy_illustration_sub_id: 3001
+  }
+  {
+    id: 17001
+    type: 4
+    enemy_info: 绿无敌-装甲突击34
+    code: Hydra
+    maxlife: 15000
+    pow: 350
+    hit: 55
+    range: 4
+    speed: 8
+    number: 1
+    angle: 180
+    armor: 199
+    rate: 42
+    def: 99999
+    level: 100
+    normal_attack: 402601
+    passive_skill: "200303,200304,402602,119020,770043"
+    effect_ratio: 1.25
+    deployment_scale: 1
+    enemy_illustration_id: 39
+    danger: 60
+    enemy_illustration_sub_id: 39001
   }
   {
     id: 20000
@@ -19727,7 +19996,7 @@
     level: 100
     character: Elite
     normal_attack: 755167
-    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,755193,755194,755195,119029,407302,770042"
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
@@ -23771,6 +24040,33 @@
     enemy_illustration_sub_id: 100059001
   }
   {
+    id: 900661
+    type: 1
+    name: Gray
+    enemy_info: 捕获Boss
+    code: Mrsgray
+    maxlife: 220000
+    pow: 46
+    hit: 60
+    dodge: 30
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 220000
+    def: 2000
+    level: 100
+    character: Elite, Weaken, Hacking, Support
+    normal_attack: 750993
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 110
+    danger: 1000
+    enemy_illustration_sub_id: 110001
+  }
+  {
     id: 900676
     type: 1
     name: Purin Esaki
@@ -24380,6 +24676,897 @@
     enemy_illustration_id: 155
     danger: 1000
     enemy_illustration_sub_id: 155001
+  }
+  {
+    id: 900821
+    type: 1
+    name: Hebe
+    enemy_info: 赫柏30级
+    code: HebeBoss
+    maxlife: 15000
+    pow: 18
+    hit: 35
+    dodge: 30
+    range: 3
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 15000
+    def: 400
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900822
+    type: 1
+    name: Hebe
+    enemy_info: 赫柏70级
+    code: HebeBoss
+    maxlife: 55000
+    pow: 28
+    hit: 40
+    dodge: 90
+    range: 3
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 55000
+    def: 800
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900823
+    type: 1
+    name: Hebe
+    enemy_info: 赫柏100级
+    code: HebeBoss
+    maxlife: 125000
+    pow: 32
+    hit: 60
+    dodge: 120
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 125000
+    def: 2000
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900824
+    type: 1
+    name: Hebe
+    enemy_info: 赫柏120级
+    code: HebeBoss
+    maxlife: 220000
+    pow: 46
+    hit: 90
+    dodge: 200
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 220000
+    def: 4000
+    level: 100
+    character: Elite, Certain Death, Cyborg
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900825
+    type: 1
+    name: Gray
+    enemy_info: 格雷夫人40级昼战
+    code: Mrsgray
+    maxlife: 18000
+    pow: 20
+    hit: 30
+    dodge: 20
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 18000
+    def: 300
+    level: 100
+    character: Elite, Weaken, Hacking, Support
+    normal_attack: 900107
+    passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 110
+    danger: 1000
+    enemy_illustration_sub_id: 110001
+  }
+  {
+    id: 900826
+    type: 1
+    name: Gray
+    enemy_info: 格雷夫人110昼战
+    code: Mrsgray
+    maxlife: 180000
+    pow: 46
+    hit: 60
+    dodge: 40
+    range: 9
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 180000
+    def: 2000
+    level: 100
+    character: Elite, Weaken, Hacking, Support
+    normal_attack: 900107
+    passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 110
+    danger: 1000
+    enemy_illustration_sub_id: 110001
+  }
+  {
+    id: 900827
+    type: 1
+    name: Bramedb
+    enemy_info: 布拉梅德（70级）
+    code: Bramede
+    maxlife: 16000
+    pow: 35
+    hit: 50
+    dodge: 50
+    range: 12
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    rate: 15
+    boss_hp: 16000
+    def: 1600
+    level: 100
+    character: Elite, Summoner, Stealer
+    normal_attack: 117701
+    passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042,450100"
+    effect_ratio: 1
+    unable_buff_type: "104"
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 139
+    danger: 1000
+    enemy_illustration_sub_id: 139001
+  }
+  {
+    id: 900828
+    type: 1
+    name: Bramedb
+    enemy_info: 布拉梅德（120级）
+    code: Bramede
+    maxlife: 180000
+    pow: 60
+    hit: 90
+    dodge: 100
+    range: 12
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    rate: 20
+    boss_hp: 180000
+    def: 4000
+    level: 100
+    character: Elite, Summoner, Stealer
+    normal_attack: 117701
+    passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042"
+    effect_ratio: 1
+    unable_buff_type: "104"
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 139
+    danger: 1000
+    enemy_illustration_sub_id: 139001
+  }
+  {
+    id: 900829
+    type: 1
+    name: Morridow
+    enemy_info: 默莉朵80级昼战
+    code: Morridow
+    maxlife: 8000
+    pow: 60
+    hit: 50
+    dodge: 40
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 8000
+    def: 800
+    level: 100
+    character: Elite, Weaken, Certain Death
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 112
+    danger: 1000
+    enemy_illustration_sub_id: 112001
+  }
+  {
+    id: 900830
+    type: 1
+    name: Morridow
+    enemy_info: 默莉朵130昼战
+    code: Morridow
+    maxlife: 36000
+    pow: 80
+    hit: 90
+    dodge: 120
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 36000
+    def: 5000
+    level: 100
+    character: Elite, Weaken, Certain Death
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 112
+    danger: 1000
+    enemy_illustration_sub_id: 112001
+  }
+  {
+    id: 900841
+    type: 1
+    enemy_info: 多斯70
+    code: DosBreakout
+    maxlife: 46000
+    pow: 46
+    hit: 35
+    dodge: 30
+    range: 8
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 50
+    boss_hp: 46000
+    def: 99999
+    level: 100
+    normal_attack: 450062
+    passive_skill: "450063,450064,450065,450066,450067,450068,450069,450070,450071,450072,450073,450075,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100070
+    danger: 1000
+    enemy_illustration_sub_id: 100070001
+  }
+  {
+    id: 900842
+    type: 1
+    enemy_info: 多斯100
+    code: DosBreakout
+    maxlife: 260000
+    pow: 65
+    hit: 70
+    dodge: 60
+    range: 8
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 50
+    boss_hp: 260000
+    def: 99999
+    level: 100
+    normal_attack: 450062
+    passive_skill: "450063,450064,450065,450066,450067,450068,450069,450070,450071,450072,450073,450075,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100070
+    danger: 1000
+    enemy_illustration_sub_id: 100070001
+  }
+  {
+    id: 900843
+    type: 1
+    enemy_info: M16-大将军70
+    code: M16A1Arena
+    maxlife: 32000
+    pow: 52
+    hit: 45
+    dodge: 20
+    range: 20
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 10
+    armor: 10
+    rate: 40
+    boss_hp: 32000
+    def: 99999
+    level: 100
+    normal_attack: 402800
+    passive_skill: "402801,402809,402810,402811,402812,402813,402814,402819,402820,402821,403406,403407,403408,119029"
+    effect_ratio: 1.02
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100071
+    danger: 1000
+    enemy_illustration_sub_id: 100071001
+  }
+  {
+    id: 900844
+    type: 1
+    enemy_info: M16-大将军100
+    code: M16A1Arena
+    maxlife: 220000
+    pow: 72
+    hit: 75
+    dodge: 40
+    range: 20
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    armor: 30
+    rate: 40
+    boss_hp: 220000
+    def: 99999
+    level: 100
+    normal_attack: 402800
+    passive_skill: "402801,402809,402810,402811,402812,402813,402814,402819,402820,402821,119029"
+    effect_ratio: 1.02
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100071
+    danger: 1000
+    enemy_illustration_sub_id: 100071001
+  }
+  {
+    id: 900845
+    type: 1
+    enemy_info: 黑卡蒂80
+    code: HecateBoss
+    maxlife: 52000
+    pow: 56
+    hit: 80
+    dodge: 50
+    range: 12
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 52000
+    def: 99999
+    level: 100
+    normal_attack: 450080
+    passive_skill: "450081,450082,450083,450084,450085,450086,450087,450088,450089,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100072
+    danger: 1000
+    enemy_illustration_sub_id: 100072001
+  }
+  {
+    id: 900846
+    type: 1
+    enemy_info: 黑卡蒂110
+    code: HecateBoss
+    maxlife: 320000
+    pow: 84
+    hit: 150
+    dodge: 80
+    range: 12
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 320000
+    def: 99999
+    level: 100
+    normal_attack: 450080
+    passive_skill: "450081,450082,450083,450084,450085,450086,450087,450088,450089,119029"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 100072
+    danger: 1000
+    enemy_illustration_sub_id: 100072001
+  }
+  {
+    id: 900851
+    type: 1
+    enemy_info: 斯提克斯70（半血撤退）
+    code: StyxBoss
+    maxlife: 38000
+    pow: 42
+    hit: 90
+    dodge: 40
+    range: 5
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 38000
+    def: 800
+    level: 100
+    normal_attack: 450090
+    passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042,755187"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 248
+    danger: 1000
+    enemy_illustration_sub_id: 248001
+  }
+  {
+    id: 900852
+    type: 1
+    enemy_info: 斯提克斯120（半血撤退）
+    code: StyxBoss
+    maxlife: 320000
+    pow: 110
+    hit: 200
+    dodge: 90
+    range: 5
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 320000
+    def: 4000
+    level: 100
+    normal_attack: 450090
+    passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042,755187"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 248
+    danger: 1000
+    enemy_illustration_sub_id: 248001
+  }
+  {
+    id: 900853
+    type: 1
+    enemy_info: 斯提克斯80
+    code: StyxBoss
+    maxlife: 45000
+    pow: 65
+    hit: 150
+    dodge: 60
+    range: 5
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 45000
+    def: 800
+    level: 100
+    normal_attack: 450090
+    passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 248
+    danger: 1000
+    enemy_illustration_sub_id: 248001
+  }
+  {
+    id: 900854
+    type: 1
+    enemy_info: 斯提克斯130
+    code: StyxBoss
+    maxlife: 380000
+    pow: 120
+    hit: 240
+    dodge: 100
+    range: 5
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 380000
+    def: 5000
+    level: 100
+    normal_attack: 450090
+    passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 248
+    danger: 1000
+    enemy_illustration_sub_id: 248001
+  }
+  {
+    id: 900855
+    type: 1
+    enemy_info: 赫柏30级（半血撤退）
+    code: HebeBoss
+    maxlife: 22000
+    pow: 22
+    hit: 35
+    dodge: 30
+    range: 3
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 22000
+    def: 400
+    level: 100
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042,755187"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900856
+    type: 1
+    enemy_info: 赫柏100级（半血撤退）
+    code: HebeBoss
+    maxlife: 165000
+    pow: 42
+    hit: 60
+    dodge: 120
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 165000
+    def: 2000
+    level: 100
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042,755187"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900857
+    type: 1
+    enemy_info: 赫柏70级
+    code: HebeBoss
+    maxlife: 75000
+    pow: 32
+    hit: 40
+    dodge: 90
+    range: 3
+    speed: 40
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 75000
+    def: 800
+    level: 100
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900858
+    type: 1
+    enemy_info: 赫柏120级
+    code: HebeBoss
+    maxlife: 270000
+    pow: 52
+    hit: 100
+    dodge: 200
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 270000
+    def: 4000
+    level: 100
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900859
+    type: 1
+    enemy_info: 尼梅兰30
+    code: Nimeylan
+    maxlife: 22000
+    pow: 22
+    hit: 60
+    dodge: 30
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 22000
+    def: 800
+    level: 100
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+    danger: 1000
+    enemy_illustration_sub_id: 155001
+  }
+  {
+    id: 900860
+    type: 1
+    enemy_info: 尼梅兰100
+    code: Nimeylan
+    maxlife: 125000
+    pow: 46
+    hit: 80
+    dodge: 80
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 40
+    boss_hp: 125000
+    def: 1200
+    level: 100
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+    danger: 1000
+    enemy_illustration_sub_id: 155001
+  }
+  {
+    id: 900861
+    type: 1
+    enemy_info: 默莉朵80级
+    code: Morridow
+    maxlife: 9000
+    pow: 60
+    hit: 50
+    dodge: 40
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 9000
+    def: 800
+    level: 100
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 112
+    danger: 1000
+    enemy_illustration_sub_id: 112001
+  }
+  {
+    id: 900862
+    type: 1
+    enemy_info: 默莉朵130
+    code: Morridow
+    maxlife: 36000
+    pow: 80
+    hit: 90
+    dodge: 120
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 36000
+    def: 5000
+    level: 100
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 112
+    danger: 1000
+    enemy_illustration_sub_id: 112001
+  }
+  {
+    id: 900863
+    type: 1
+    enemy_info: 斯提克斯【秃洞150】
+    code: StyxBoss
+    maxlife: 560000
+    pow: 150
+    hit: 300
+    dodge: 120
+    range: 5
+    speed: 45
+    number: 1
+    angle: 180
+    rate: 60
+    boss_hp: 560000
+    def: 6000
+    level: 100
+    normal_attack: 450090
+    passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
+    effect_ratio: 1.1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 248
+    danger: 1000
+    enemy_illustration_sub_id: 248001
+  }
+  {
+    id: 900864
+    type: 1
+    enemy_info: 赫柏【秃洞135】
+    code: HebeBoss
+    maxlife: 370000
+    pow: 64
+    hit: 120
+    dodge: 240
+    range: 3
+    speed: 30
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 370000
+    def: 4000
+    level: 100
+    normal_attack: 450054
+    passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 247
+    danger: 1000
+    enemy_illustration_sub_id: 247001
+  }
+  {
+    id: 900865
+    type: 1
+    enemy_info: 尼梅兰【秃洞135】
+    code: Nimeylan
+    maxlife: 420000
+    pow: 58
+    hit: 250
+    dodge: 180
+    range: 20
+    speed: 100
+    number: 1
+    angle: 180
+    armor_piercing: 50
+    rate: 60
+    boss_hp: 420000
+    def: 7000
+    level: 100
+    normal_attack: 755167
+    passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 155
+    danger: 1000
+    enemy_illustration_sub_id: 155002
+  }
+  {
+    id: 900866
+    type: 1
+    enemy_info: 布拉梅德【秃洞120】
+    code: Bramede
+    maxlife: 180000
+    pow: 60
+    hit: 90
+    dodge: 100
+    range: 12
+    speed: 30
+    number: 1
+    angle: 180
+    armor_piercing: 30
+    rate: 20
+    boss_hp: 180000
+    def: 4000
+    level: 100
+    normal_attack: 117701
+    passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042,450100"
+    effect_ratio: 1
+    unable_buff_type: "104"
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 139
+    danger: 1000
+    enemy_illustration_sub_id: 139001
+  }
+  {
+    id: 900867
+    type: 1
+    enemy_info: 默莉朵【秃洞100】
+    code: Morridow
+    maxlife: 32000
+    pow: 65
+    hit: 60
+    dodge: 150
+    range: 9
+    speed: 50
+    number: 1
+    angle: 180
+    rate: 40
+    boss_hp: 32000
+    def: 1200
+    level: 100
+    normal_attack: 900107
+    passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
+    effect_ratio: 1
+    voice: "1,2,3"
+    deployment_scale: 1
+    enemy_illustration_id: 112
+    danger: 1000
+    enemy_illustration_sub_id: 112001
   }
   {
     id: 910101

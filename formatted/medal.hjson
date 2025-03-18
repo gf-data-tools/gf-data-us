@@ -406,4 +406,28 @@
     is_date: 2
     decorate_code: Logo_Events
   }
+  {
+    id: 47
+    name: Marine Theater Pioneer Medal
+    order: 53
+    evo_step: "1"
+    appearance_id: "266"
+    item_id: 146
+    medal_obtain: Awarded to Commanders who have achieved a brilliant score in the Marine Theater event.
+    medal_color: "#ff0000"
+    is_date: 2
+    decorate_code: Logo_Events
+  }
+  {
+    id: 48
+    name: Marine Theater Conqueror Medal
+    order: 52
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "267,268,269,270,271,272,273,274,275,276,277,278"
+    item_id: 147
+    medal_obtain: Awarded to Commanders who have achieved an exceptional score in the final stage of the Marine Theater event.
+    medal_color: "#ff0000"
+    is_date: 2
+    decorate_code: Logo_Events
+  }
 ]

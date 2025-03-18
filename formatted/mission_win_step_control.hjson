@@ -943,7 +943,7 @@
   }
   {
     id: 1147304
-    win_step: "1147304"
+    win_step: "1147304,1147305"
     next_id: win0
   }
   {
@@ -1050,6 +1050,28 @@
     id: 9587302
     win_step: "9587304,9587302"
     lose_step: "9587303"
+    next_id: win0
+  }
+  {
+    id: 9720401
+    win_step: "9720401"
+    next_id: "9720402"
+    lock_id: "9720401"
+  }
+  {
+    id: 9720402
+    win_step: "9720402,9720403"
+    next_id: win0
+  }
+  {
+    id: 9722601
+    win_step: "9722601"
+    next_id: "9722602"
+    lock_id: "9722601"
+  }
+  {
+    id: 9722602
+    win_step: "9720402,9722602"
     next_id: win0
   }
   {

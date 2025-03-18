@@ -5911,7 +5911,13 @@
   {
     id: 1147304
     type: 1103
-    arguments: 3:6,7:2
+    arguments: 3:6
+  }
+  {
+    id: 1147305
+    type: 1103
+    arguments: 7:2
+    extra_language: mission_win_type_config-11147305
   }
   {
     id: 1147401
@@ -6252,6 +6258,53 @@
     id: 1171001
     type: 1303
     arguments: 9702301:1
+  }
+  {
+    id: 1180100
+    type: 1305
+    is_show_count: "1"
+  }
+  {
+    id: 1180101
+    type: 1406
+    arguments: 730111:0
+  }
+  {
+    id: 1180201
+    type: 1407
+    arguments: 730211:1
+  }
+  {
+    id: 1180202
+    type: 1407
+    arguments: 730221:1
+    is_hidden: 2
+  }
+  {
+    id: 1180301
+    type: 1303
+    arguments: 730301:1
+  }
+  {
+    id: 1180501
+    type: 1406
+    arguments: 730111:1
+  }
+  {
+    id: 1180502
+    type: 1407
+    arguments: 730111:2
+    is_hidden: 2
+  }
+  {
+    id: 1180701
+    type: 1303
+    arguments: 730701:1
+  }
+  {
+    id: 1180901
+    type: 1402
+    arguments: "2"
   }
   {
     id: 1666101
@@ -7112,6 +7165,188 @@
     type: 1402
     arguments: "3"
     extra_language: Survive until Round 3
+  }
+  {
+    id: 9720401
+    type: 1407
+    arguments: 9720404:3
+    extra_language:
+      '''
+      Collect 1 supply box.
+      · Pick up the box and move it to the radar node.
+      '''
+  }
+  {
+    id: 9720402
+    type: 1404
+    arguments: "1"
+  }
+  {
+    id: 9720403
+    type: 1101
+    arguments: "900789"
+  }
+  {
+    id: 9720405
+    type: 1404
+    arguments: "2"
+    extra_language: ???
+    is_hidden: 1
+  }
+  {
+    id: 9720801
+    type: 1402
+    arguments: "4"
+    extra_language: Survive until Round 4
+  }
+  {
+    id: 9721101
+    type: 1407
+    arguments: 1170101:2
+    extra_language:
+      '''
+      Reach any two radar nodes and set the explosives.
+      · No need to pick up and move the explosives.
+      '''
+  }
+  {
+    id: 9721401
+    type: 1303
+    arguments: 9721401:1,9721402:1
+  }
+  {
+    id: 9721601
+    type: 1306
+    arguments: 9721601:1
+    extra_language: Defeat Morridow
+  }
+  {
+    id: 9722501
+    type: 1402
+    arguments: "2"
+    extra_language: Survive until Round 2
+  }
+  {
+    id: 9722601
+    type: 1407
+    arguments: 9720404:3
+    extra_language:
+      '''
+      Collect 3 supply boxes.
+      · Pick up the boxes and move them to the radar node.
+      '''
+  }
+  {
+    id: 9722602
+    type: 1101
+    arguments: "900851"
+  }
+  {
+    id: 9722801
+    type: 1407
+    arguments: 1170101:3
+    extra_language:
+      '''
+      Reach the three radar nodes and set the explosives.
+      · No need to pick up and move the explosives.
+      '''
+  }
+  {
+    id: 9722901
+    type: 1303
+    arguments: 9722901:1,9722902:1
+  }
+  {
+    id: 9723001
+    type: 1306
+    arguments: 9723001:1
+    extra_language: Defeat Morridow
+  }
+  {
+    id: 9740101
+    type: 1402
+    arguments: "2"
+  }
+  {
+    id: 9740102
+    type: 1407
+    arguments: 9720404:1
+  }
+  {
+    id: 9740103
+    type: 1407
+    arguments: 9740116:1
+  }
+  {
+    id: 9740701
+    type: 1303
+    arguments: 9740701:1
+  }
+  {
+    id: 9740702
+    type: 1407
+    arguments: 9740701:2
+  }
+  {
+    id: 9741401
+    type: 1406
+    arguments: 6449974:1
+  }
+  {
+    id: 9741402
+    type: 1303
+    arguments: 9741406:1
+  }
+  {
+    id: 9741403
+    type: 1303
+    arguments: 9743706:1
+  }
+  {
+    id: 9741404
+    type: 1303
+    arguments: 9744206:1
+  }
+  {
+    id: 9741405
+    type: 1406
+    arguments: 6449974:0
+    is_hidden: 1
+  }
+  {
+    id: 9741901
+    type: 1406
+    arguments: 9741902:0
+  }
+  {
+    id: 9742401
+    type: 1407
+    arguments: 9742401:2
+  }
+  {
+    id: 9743601
+    type: 1303
+    arguments: 9743601:1
+  }
+  {
+    id: 9743801
+    type: 1406
+    arguments: 9741902:0
+  }
+  {
+    id: 9743901
+    type: 1407
+    arguments: 9742401:2
+  }
+  {
+    id: 9744101
+    type: 1303
+    arguments: 9744101:1
+  }
+  {
+    id: 9744401
+    type: 1407
+    arguments: 9742401:2
   }
   {
     id: 58000101

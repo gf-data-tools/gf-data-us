@@ -61,6 +61,7 @@
     ratio_range: 95
     skill1: 100503
     normal_attack: 300115
+    passive_skill: "1003404"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14,18"
     effect_grid_effect: "1,12;3,25"
@@ -147,7 +148,7 @@
     ratio_range: 105
     skill1: 102401
     normal_attack: 300101
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,759313"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14,18"
     effect_grid_effect: "2,10;3,25"
@@ -396,7 +397,7 @@
     ratio_range: 80
     skill1: 101309
     normal_attack: 300115
-    passive_skill: "800502,800501,999999"
+    passive_skill: "800502,800501,999999,1002404"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14"
     effect_grid_effect: "1,16;5,8"
@@ -577,6 +578,7 @@
     ratio_range: 100
     skill1: 100805
     normal_attack: 900271
+    passive_skill: "759135,759136,759137,759138"
     effect_grid_center: 13
     effect_grid_pos: "12,14,17,19"
     effect_grid_effect: "1,6;2,12"
@@ -668,7 +670,7 @@
     ratio_range: 100
     skill1: 101502
     normal_attack: 300101
-    passive_skill: "999999"
+    passive_skill: "999999,759220"
     dynamic_passive_skill: "803602"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,18"
@@ -754,7 +756,7 @@
     ratio_range: 105
     skill1: 102503
     normal_attack: 300101
-    passive_skill: "702030,999999"
+    passive_skill: "999999"
     effect_grid_center: 13
     effect_grid_pos: "12,14,17,19"
     effect_grid_effect: "2,7;3,28"
@@ -861,7 +863,7 @@
     ratio_range: 95
     skill1: 105001
     normal_attack: 300101
-    passive_skill: "999999,756161"
+    passive_skill: "999999,756161,759243,759245"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,18"
     effect_grid_effect: "2,16;5,8"
@@ -1418,7 +1420,7 @@
     ratio_range: 85
     skill1: 116203
     normal_attack: 300102
-    passive_skill: "200421"
+    passive_skill: "200421,1004804,1004805,1004806,1004807"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
@@ -1933,7 +1935,7 @@
     ratio_range: 135
     skill1: 102101
     normal_attack: 300102
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,759225"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "12,14"
@@ -2438,7 +2440,7 @@
     ratio_range: 120
     skill1: 103105
     normal_attack: 300102
-    passive_skill: "710802"
+    passive_skill: "710802,759188"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,9"
@@ -2539,7 +2541,7 @@
     ratio_range: 95
     skill1: 102302
     normal_attack: 300102
-    passive_skill: "900156,702031,999999,756175,756160"
+    passive_skill: "900156,999999,756175,756160"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "8"
@@ -2708,7 +2710,7 @@
     ratio_range: 110
     skill1: 102102
     normal_attack: 300102
-    passive_skill: "900156,200427,999999"
+    passive_skill: "900156,200427,999999,1001804"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
@@ -3387,7 +3389,7 @@
     ratio_range: 90
     skill1: 100102
     normal_attack: 300104
-    passive_skill: "999999"
+    passive_skill: "999999,1005304"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "17,19"
@@ -3567,7 +3569,7 @@
     ratio_range: 100
     skill1: 102815
     normal_attack: 300104
-    passive_skill: "511030"
+    passive_skill: "511030,759099"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "12"
@@ -4030,7 +4032,7 @@
     ratio_range: 110
     skill1: 102706
     normal_attack: 300104
-    passive_skill: "501030,999999"
+    passive_skill: "501030,999999,1001404"
     dynamic_passive_skill: "801411"
     effect_grid_center: 13
     effect_guntype: "1"
@@ -4315,7 +4317,7 @@
     ratio_range: 130
     skill1: 100404
     normal_attack: 300104
-    passive_skill: "710807"
+    passive_skill: "710807,1002304"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
@@ -4770,7 +4772,7 @@
     ratio_range: 160
     skill1: 102707
     normal_attack: 300104
-    passive_skill: "501033"
+    passive_skill: "501033,759296"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
@@ -4980,7 +4982,7 @@
     ratio_range: 115
     skill1: 100107
     normal_attack: 300103
-    passive_skill: "200412,201434,201001,202001,702016,702026"
+    passive_skill: "200412,201434,201001,202001,702016,702026,702041,756232"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "12,14,17,18,19"
@@ -5081,7 +5083,7 @@
     ratio_range: 115
     skill1: 102113
     normal_attack: 300103
-    passive_skill: "200464,200413,900156,200417,201432,201005,202007,702020"
+    passive_skill: "200464,200413,900156,200417,201432,201005,202007,702020,702041,756232"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18,19"
@@ -5570,7 +5572,7 @@
     ratio_range: 125
     skill1: 802506
     normal_attack: 300103
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,1002104"
     dynamic_passive_skill: "802505,802501"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -5663,6 +5665,7 @@
     ratio_range: 100
     skill1: 100108
     normal_attack: 300103
+    passive_skill: "1002904"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,19"
@@ -5771,7 +5774,7 @@
     ratio_range: 110
     skill1: 102109
     normal_attack: 300103
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,759309"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "14"
@@ -5863,6 +5866,7 @@
     ratio_range: 100
     skill1: 100107
     normal_attack: 300103
+    passive_skill: "1000404,1000406"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18"
@@ -5981,7 +5985,7 @@
     ratio_range: 100
     skill1: 102112
     normal_attack: 300103
-    passive_skill: "200411,200406,200414,900156,202004,702018,702025,756002"
+    passive_skill: "200411,200406,200414,900156,202004,702018,702025,756002,756232,759237,759238"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "18"
@@ -6077,7 +6081,7 @@
     ratio_range: 110
     skill1: 102115
     normal_attack: 300103
-    passive_skill: "900156"
+    passive_skill: "900156,759284"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "18"
@@ -8051,7 +8055,7 @@
     ratio_range: 100
     skill1: 105104
     normal_attack: 300105
-    passive_skill: "300201,300202,740029"
+    passive_skill: "300201,300202,740029,759290"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "22,24"
@@ -8155,7 +8159,7 @@
     ratio_range: 85
     skill1: 105103
     normal_attack: 300105
-    passive_skill: "300201,300202,999999"
+    passive_skill: "300201,300202,999999,1001104,1001106"
     effect_grid_center: 17
     effect_guntype: "6"
     effect_grid_pos: "21,23"
@@ -8516,7 +8520,7 @@
     ratio_range: 100
     skill1: 100201
     normal_attack: 300102
-    passive_skill: "710806,999999"
+    passive_skill: "710806,999999,1003904"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
@@ -8609,7 +8613,7 @@
     ratio_range: 100
     skill1: 902390
     normal_attack: 300102
-    passive_skill: "900156,999999"
+    passive_skill: "900156,999999,759144,759145"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "8"
@@ -8699,7 +8703,7 @@
     ratio_range: 100
     skill1: 100114
     normal_attack: 300104
-    passive_skill: "803010,999999"
+    passive_skill: "803010,999999,759277"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
@@ -9254,7 +9258,7 @@
     ratio_range: 100
     skill1: 102203
     normal_attack: 300102
-    passive_skill: "200431,200407,900156,200415,202003"
+    passive_skill: "200431,200407,900156,200415,202003,756233,759076,759079"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
@@ -9424,7 +9428,7 @@
     ratio_range: 100
     skill1: 102403
     normal_attack: 300102
-    passive_skill: "200431,200407,900156,200420,202002,702019,702024,756001"
+    passive_skill: "200431,200407,900156,200420,202002,702019,702024,756001,756233,759075,759078"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
@@ -10468,6 +10472,7 @@
     ratio_range: 100
     skill1: 101504
     normal_attack: 300101
+    passive_skill: "1001704"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,12,14"
     effect_grid_effect: "1,10;2,8"
@@ -11246,7 +11251,7 @@
     ratio_range: 100
     skill1: 104101
     normal_attack: 301804
-    passive_skill: "301401,301402,200411,200406,200419,202005"
+    passive_skill: "301401,301402,200411,200406,200419,202005,756232"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "18"
@@ -11521,7 +11526,7 @@
     ratio_range: 100
     skill1: 105105
     normal_attack: 300105
-    passive_skill: "300201,300202,803926"
+    passive_skill: "300201,300202,803926,759193,759194,759195,759196,759197,759198"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "22,24"
@@ -11779,7 +11784,7 @@
     ratio_range: 100
     skill1: 102808
     normal_attack: 300104
-    passive_skill: "501033"
+    passive_skill: "1004002,1004003"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
@@ -11871,7 +11876,6 @@
     ratio_range: 100
     skill1: 100118
     normal_attack: 300103
-    passive_skill: "702029"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17"
@@ -11963,7 +11967,6 @@
     ratio_range: 100
     skill1: 100408
     normal_attack: 300103
-    passive_skill: "702029"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "19"
@@ -12406,13 +12409,14 @@
     crit: 5
     eat_ratio: 95
     ratio_range: 100
-    skill1: 100120
-    normal_attack: 300102
+    skill1: 1002005
+    normal_attack: 1002006
+    passive_skill: "1002004,1002007,1002008"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "7,8,9"
     effect_grid_effect: "2,18;5,30"
-    type_equip1: 3;9,10
+    type_equip1: 3;9,10,20
     type_equip2: 2;6
     type_equip3: 1;1,2,3,4,13,18
     ai: 135
@@ -13981,7 +13985,7 @@
     ratio_range: 100
     skill1: 105302
     normal_attack: 300106
-    passive_skill: "300202,300203,999999"
+    passive_skill: "300202,300203,999999,1003105,1003104"
     effect_grid_center: 7
     effect_guntype: "5"
     effect_grid_pos: "1,3"
@@ -15340,7 +15344,6 @@
     ratio_range: 100
     skill1: 106203
     normal_attack: 300103
-    passive_skill: "702035,756162,756174,756186"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "12,14"
@@ -15433,7 +15436,7 @@
     ratio_range: 100
     skill1: 106404
     normal_attack: 300802
-    passive_skill: "300801"
+    passive_skill: "300801,1003304"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18,19"
@@ -16448,7 +16451,7 @@
     ratio_range: 100
     skill1: 105106
     normal_attack: 300105
-    passive_skill: "300201,300202,702033"
+    passive_skill: "300201,300202"
     effect_grid_center: 18
     effect_guntype: "6"
     effect_grid_pos: "22,23,24"
@@ -17319,7 +17322,7 @@
     ratio_range: 100
     skill1: 108001
     normal_attack: 300103
-    passive_skill: "108004,900156"
+    passive_skill: "108004,900156,992519,992520"
     dynamic_passive_skill: "108005"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -18066,7 +18069,7 @@
     ratio_range: 100
     skill1: 108607
     normal_attack: 108612
-    passive_skill: "108608,108609,108610,108611,200426,201439,201004,702028,200405,702041"
+    passive_skill: "108608,108609,108610,108611,200426,201439,201004,702028,200405,702041,200489"
     effect_grid_center: 12
     effect_guntype: "2"
     effect_grid_pos: "17,18,16"
@@ -18899,6 +18902,7 @@
     ratio_range: 100
     skill1: 109101
     normal_attack: 300103
+    passive_skill: "1005204,1005205"
     dynamic_passive_skill: "109102"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -19301,7 +19305,7 @@
     ratio_range: 100
     skill1: 110001
     normal_attack: 110002
-    passive_skill: "110003,702033,999999"
+    passive_skill: "110003,999999"
     effect_grid_center: 13
     effect_grid_pos: "12,14,7,8,9"
     effect_grid_effect: "1,12;3,20"
@@ -20088,7 +20092,7 @@
     ratio_range: 100
     skill1: 120106
     normal_attack: 301704
-    passive_skill: "120101,120102,120103,120104,120105,120111,120112,120113,120114,200430,756002"
+    passive_skill: "120101,120102,120103,120104,120105,120111,120112,120113,120114,200430,756002,1003804,1003805"
     dynamic_passive_skill: "120107,120108,120109,120110"
     effect_grid_center: 13
     effect_guntype: "1"
@@ -20475,7 +20479,7 @@
     ratio_range: 100
     skill1: 110067
     normal_attack: 300103
-    passive_skill: "110071,110072,110083,702029"
+    passive_skill: "110071,110072,110083"
     dynamic_passive_skill: "110069,110070"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -20557,7 +20561,7 @@
     ratio_range: 100
     skill1: 110052
     normal_attack: 300103
-    passive_skill: "110053"
+    passive_skill: "110053,750685"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18,19"
@@ -22591,7 +22595,7 @@
     ratio_range: 100
     skill1: 111701
     normal_attack: 300105
-    passive_skill: "300202,111708,111710,111704,111705,111706,111707,111711,756177"
+    passive_skill: "300202,111704,111705,111706,111707,111711,756177"
     dynamic_passive_skill: "111709,111702"
     effect_grid_center: 17
     effect_guntype: "6"
@@ -23442,7 +23446,7 @@
     ratio_range: 100
     skill1: 112901
     normal_attack: 112903
-    passive_skill: "112902,300201,300202,112904,112906,202013"
+    passive_skill: "112902,300201,300202,112904,112906,202013,756232"
     dynamic_passive_skill: "112905"
     effect_grid_center: 18
     effect_guntype: "6"
@@ -23511,7 +23515,7 @@
     ratio_range: 100
     skill1: 112801
     normal_attack: 112806
-    passive_skill: "300201,300202,202009"
+    passive_skill: "300201,300202,202009,756232"
     dynamic_passive_skill: "112802,112803,112804,112805"
     effect_grid_center: 18
     effect_guntype: "6"
@@ -24105,7 +24109,7 @@
     ratio_range: 100
     skill1: 900287
     normal_attack: 300101
-    passive_skill: "900283,900286,900293,900288,900289,900290,900291"
+    passive_skill: "900283,900293,900288,900289,900290,900291"
     dynamic_passive_skill: "900292"
     effect_grid_center: 19
     effect_grid_pos: "14,15,18,19,23"
@@ -24168,7 +24172,7 @@
     ratio_range: 100
     skill1: 900294
     normal_attack: 300102
-    passive_skill: "702034,756169"
+    passive_skill: "756169"
     effect_grid_center: 13
     effect_guntype: "4"
     effect_grid_pos: "8,9"
@@ -24230,7 +24234,7 @@
     ratio_range: 100
     skill1: 113501
     normal_attack: 113502
-    passive_skill: "113503,113504"
+    passive_skill: "113503,113504,750619"
     dynamic_passive_skill: "113505"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -24291,7 +24295,7 @@
     ratio_range: 130
     skill1: 113601
     normal_attack: 113602
-    passive_skill: "113603,702038"
+    passive_skill: "113603,992523,992524"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "18,19"
@@ -24601,7 +24605,7 @@
     ratio_range: 100
     skill1: 900418
     normal_attack: 900415
-    passive_skill: "900416,702028,118011,118013,750343"
+    passive_skill: "900416,702028,118011,118013,750343,200490"
     dynamic_passive_skill: "900423"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -24727,7 +24731,6 @@
     ratio_range: 100
     skill1: 113901
     normal_attack: 300102
-    passive_skill: "702037"
     effect_grid_center: 12
     effect_guntype: "4"
     effect_grid_pos: "6,7,8"
@@ -24848,7 +24851,6 @@
     ratio_range: 130
     skill1: 101703
     normal_attack: 300103
-    passive_skill: "702033"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "18,19"
@@ -25153,7 +25155,7 @@
     ratio_range: 100
     skill1: 115801
     normal_attack: 115803
-    passive_skill: "115804"
+    passive_skill: "115804,1004204"
     dynamic_passive_skill: "115802,115805,115806"
     effect_grid_center: 8
     effect_guntype: "5,6"
@@ -25464,7 +25466,7 @@
     ratio_range: 100
     skill1: 115901
     normal_attack: 115902
-    passive_skill: "115904,115905,300202,759071"
+    passive_skill: "115904,115905,300202,759071,1004105,1004104"
     dynamic_passive_skill: "115903"
     effect_grid_center: 18
     effect_guntype: "6"
@@ -25821,7 +25823,6 @@
     ratio_range: 100
     skill1: 900801
     normal_attack: 900800
-    passive_skill: "702039"
     dynamic_passive_skill: "900802"
     effect_grid_center: 14
     effect_guntype: "2"
@@ -32147,7 +32148,7 @@
     ratio_range: 100
     skill1: 900721
     normal_attack: 900720
-    passive_skill: "900722,900723"
+    passive_skill: "900722,900723,750689"
     dynamic_passive_skill: "900724"
     effect_grid_center: 13
     effect_guntype: "2,4"
@@ -33151,7 +33152,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33188,7 +33189,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33261,7 +33262,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026062
     normal_attack: 402601
     passive_skill: "402602"
     effect_grid_center: 19
@@ -33334,7 +33335,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33371,7 +33372,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33408,7 +33409,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33445,7 +33446,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026061
     normal_attack: 300103
     passive_skill: "402604"
     effect_grid_center: 19
@@ -33482,7 +33483,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026062
     normal_attack: 402601
     passive_skill: "402602"
     effect_grid_center: 19
@@ -33519,7 +33520,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026062
     normal_attack: 402601
     passive_skill: "402602"
     effect_grid_center: 19
@@ -36273,7 +36274,7 @@
     skill1: 801101
     skill2: 801108
     normal_attack: 801102
-    passive_skill: "200412,801107,200403,201435,201001,202001,702016"
+    passive_skill: "200412,200403,201435,201001,202001,702016"
     dynamic_passive_skill: "801103,801104,801106,801109"
     effect_grid_center: 13
     effect_guntype: "4"
@@ -36475,7 +36476,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026062
     normal_attack: 402601
     passive_skill: "402602"
     effect_grid_center: 19
@@ -36511,7 +36512,7 @@
     armor_piercing: 15
     eat_ratio: 100
     ratio_range: 100
-    skill1: 402606
+    skill1: 4026062
     normal_attack: 402601
     passive_skill: "402602"
     effect_grid_center: 19
@@ -39271,6 +39272,7 @@
     skill1: 801702
     skill2: 801701
     normal_attack: 300115
+    passive_skill: "1003404"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14,18"
     effect_grid_effect: "1,12;3,30"
@@ -39357,7 +39359,7 @@
     skill1: 800101
     skill2: 800102
     normal_attack: 300101
-    passive_skill: "900156"
+    passive_skill: "900156,759313"
     dynamic_passive_skill: "800103,800104,800105,800106,800107,800108"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14,18"
@@ -39448,7 +39450,7 @@
     skill1: 800505
     skill2: 800504
     normal_attack: 800503
-    passive_skill: "800502,800501"
+    passive_skill: "800502,800501,1002404"
     effect_grid_center: 13
     effect_grid_pos: "8,12,14"
     effect_grid_effect: "1,18;5,10"
@@ -39951,7 +39953,7 @@
     skill1: 740040
     skill2: 740041
     normal_attack: 300101
-    passive_skill: "740044,200427,756161"
+    passive_skill: "740044,200427,756161,1004904"
     dynamic_passive_skill: "740042,740061"
     effect_grid_center: 13
     effect_grid_pos: "7,8,9,12,14,17,18,19"
@@ -40540,6 +40542,7 @@
     skill1: 801901
     skill2: 801902
     normal_attack: 300104
+    passive_skill: "1005304"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "17,19"
@@ -41305,7 +41308,7 @@
     skill1: 801101
     skill2: 801108
     normal_attack: 801102
-    passive_skill: "200412,801107,200403,201435,201001,202001,702016,702026"
+    passive_skill: "200412,200403,201435,201001,202001,702016,702026,702041,756232"
     dynamic_passive_skill: "801103,801104,801106,801109"
     effect_grid_center: 13
     effect_guntype: "4"
@@ -41407,7 +41410,7 @@
     skill1: 801601
     skill2: 801602
     normal_attack: 300103
-    passive_skill: "801605,801604,900156,200417,201433,201005,202007,702020"
+    passive_skill: "801605,801604,900156,200417,201433,201005,202007,702020,702041,756232"
     dynamic_passive_skill: "801603"
     effect_grid_center: 13
     effect_guntype: "2"
@@ -41706,7 +41709,7 @@
     skill1: 802502
     skill2: 802504
     normal_attack: 300103
-    passive_skill: "900156"
+    passive_skill: "900224,900620"
     dynamic_passive_skill: "802503,802501"
     effect_grid_center: 13
     effect_guntype: "2,4"
@@ -41714,7 +41717,7 @@
     effect_grid_effect: "4,20;3,60"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8,19
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 61
     launch_time: 2016-05-20 00:00:00
     obtain_ids: "35"
@@ -42954,7 +42957,7 @@
     skill1: 800702
     skill2: 800703
     normal_attack: 300102
-    passive_skill: "710806"
+    passive_skill: "710806,1003904"
     dynamic_passive_skill: "800701"
     effect_grid_center: 13
     effect_guntype: "4"
@@ -43788,7 +43791,7 @@
     skill1: 900893
     skill2: 900894
     normal_attack: 900890
-    passive_skill: "900891,900892"
+    passive_skill: "900891,900892,756232"
     effect_grid_center: 13
     effect_guntype: "2"
     effect_grid_pos: "17,18"
@@ -44503,7 +44506,7 @@
     skill1: 803301
     skill2: 803302
     normal_attack: 300106
-    passive_skill: "300202,300203,803309,803311"
+    passive_skill: "300202,300203,803309,803311,1003105,1003104"
     dynamic_passive_skill: "803303,803304,803305,803306,803307,803308"
     effect_grid_center: 7
     effect_guntype: "5"
@@ -45240,7 +45243,7 @@
     skill1: 750334
     skill2: 750340
     normal_attack: 750339
-    passive_skill: "750338,750337,750336,750335,750341,750313,702041"
+    passive_skill: "750338,750337,750336,750335,750341,750313,702041,200489"
     effect_grid_center: 12
     effect_guntype: "2"
     effect_grid_pos: "17,18,16"
@@ -45667,7 +45670,6 @@
     skill1: 803201
     skill2: 803205
     normal_attack: 803203
-    passive_skill: "702033"
     dynamic_passive_skill: "803204,803206"
     effect_grid_center: 13
     effect_grid_pos: "12,14,18,7,8,9"
@@ -46272,7 +46274,7 @@
     skill1: 750323
     skill2: 750324
     normal_attack: 900415
-    passive_skill: "900416,702028,118011,118013,750325,750326,750327,750328,750329,750333,750344"
+    passive_skill: "900416,702028,118011,118013,750325,750326,750327,750328,750329,750333,750344,200490"
     dynamic_passive_skill: "900423,750331"
     effect_grid_center: 13
     effect_guntype: "2"

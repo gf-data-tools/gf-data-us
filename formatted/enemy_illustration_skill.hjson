@@ -1233,6 +1233,36 @@
     description: Embla will receive a high-powered shield and taunt all friendly units to attack her. If the shield is broken after some time, all enemy units will be paralysed and receive massively increased damage. Otherwise, all enemy units will receive high HP shields and a huge increase to damage.
   }
   {
+    id: 243
+    name: Hallucinogen
+    description: Select a tile which a unit is currently standing on and apply "Surveilance From The Eye of Truth". The unit standing in the tile will receive continuous damage and huge debuffs to armor and evasion.
+  }
+  {
+    id: 244
+    name: Combo Attack
+    description: Use "Sword Dance" to deal 4 instances of damage to current target. If this causes the target to be removed from formation, reset cooldown for the combo.
+  }
+  {
+    id: 245
+    name: Poisoned Stinger
+    description: Fire a poisoned stinger at a unit. If the unit is currently under the effects of "Hallucinogen", it will die immediately, otherwise it will receive continuous damage.
+  }
+  {
+    id: 246
+  }
+  {
+    id: 247
+  }
+  {
+    id: 248
+  }
+  {
+    id: 249
+  }
+  {
+    id: 250
+  }
+  {
     id: 999
     name: enemy_illustration_skill-10000999
     description: enemy_illustration_skill-20000999
@@ -1267,9 +1297,15 @@
     description: When M16A1 loses HP, she gains a shield, deals burning damage in a cross-shaped area occupied by your forces, and throws a flashbang every 12 seconds that stuns all your units.
   }
   {
+    id: 8103
+  }
+  {
     id: 8201
     name: Venue Restriction
     description: The area occupied by your forces will burn continuously.
+  }
+  {
+    id: 8202
   }
   {
     id: 8301
@@ -1410,6 +1446,39 @@
     id: 10058
     name: Crippling Fear
     description: Enters RPG Mode. Killing an enemy unit frants shields.
+  }
+  {
+    id: 10059
+  }
+  {
+    id: 10060
+  }
+  {
+    id: 10061
+  }
+  {
+    id: 10062
+  }
+  {
+    id: 10063
+  }
+  {
+    id: 10064
+  }
+  {
+    id: 10065
+  }
+  {
+    id: 10066
+  }
+  {
+    id: 10067
+  }
+  {
+    id: 10068
+  }
+  {
+    id: 10069
   }
   {
     id: 10087
