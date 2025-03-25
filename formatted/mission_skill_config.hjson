@@ -76452,7 +76452,7 @@
     spot_echelon: "-1"
     cd_time_type: 1
     target_id: "1"
-    subsidiary_mission_skill: "9721603,9721604"
+    subsidiary_mission_skill: "9721603"
   }
   {
     id: 9721602
@@ -76489,6 +76489,20 @@
     start_range: 1
     target_id: 102010091&&101030190
     special_spot_add: 1010201:1,1010301:1
+  }
+  {
+    id: 9721605
+    name: mission_skill_config-19721605
+    description: mission_skill_config-29721605
+    lvup_description: mission_skill_config-39721605
+    skill_group_id: 9721605
+    level: 1
+    spot_type: "-1"
+    spot_belong: "-1"
+    spot_echelon: "-1"
+    cd_time_type: 1
+    target_id: "1"
+    subsidiary_mission_skill: "9721604"
   }
   {
     id: 9722701
