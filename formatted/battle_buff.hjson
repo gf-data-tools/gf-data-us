@@ -60592,6 +60592,146 @@
     forced_skill: "1005206"
   }
   {
+    id: 9759
+    name: FP-6套装装备1
+    conflict_type: 9759
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9760
+    name: FP-6套装装备2
+    conflict_type: 9760
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9761
+    name: FP-6套装
+    conflict_type: 9761
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9762
+    name: 80式套装装备1
+    conflict_type: 9762
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9763
+    name: 80式套装装备2
+    conflict_type: 9763
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9764
+    name: 80式套装
+    conflict_type: 9764
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9765
+    name: FP6套装盾牌护盾
+    conflict_type: 9765
+    max_tier: 1
+    type: 109
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    shield_number: "40"
+    trigger_creation_id: "220"
+    buff_animation: BlueFlash
+    buff_description: ShieldText
+  }
+  {
+    id: 9766
+    name: 80式套装减前置冷却30%
+    conflict_type: 9766
+    max_tier: 3
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "70"
+  }
+  {
+    id: 9767
+    name: 80式套装减前置冷却27%
+    conflict_type: 9767
+    max_tier: 1
+    type: 129
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    cdr_number: "73"
+  }
+  {
+    id: 9768
+    name: 80式套装穿甲提升
+    conflict_type: 9768
+    max_tier: 1
+    type: 111
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    arp_number: "300"
+  }
+  {
+    id: 9769
+    name: 刘易斯装备
+    conflict_type: 9769
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9770
+    name: 刘易斯专属伤害提升
+    conflict_type: 9770
+    max_tier: 2
+    type: 101
+    duration_type: 1
+    duration: *101
+    boss_available: 1
+    pow_number: *201
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 9771
+    name: 刘易斯专属暴击伤害提升
+    conflict_type: 9771
+    max_tier: 3
+    type: 112
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+    critical_damage_number: "115"
+  }
+  {
     id: 10000
     name: 主动技能用
     conflict_type: 101
