@@ -27143,6 +27143,231 @@
     interact_point_offset: *-0.613,2.874,-0.285
   }
   {
+    id: 11401
+    name: When You Wish Upon a Sakura - Fallen Petals
+    classes: 114
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The moment you take a step forward, a breeze blows past. Cherry blossoms flutters like mist, covering your footprints on the gray-yellow grass.
+    code: NewYear2025_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11402
+    name: When You Wish Upon a Sakura - Clear Skies
+    classes: 114
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The clear blue sky is just like the unchanging clarity reflected in your eyes.
+    code: NewYear2025_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11403
+    name: When You Wish Upon a Sakura - Multitudinous Blossoms
+    classes: 114
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: It is said that the speed at which the cherry blossoms fall is like the interval between heartbeats. If we must put a number to it... it's about five centimeters per second.
+    code: NewYear2025_deco_01_A,NewYear2025_deco_01_B,NewYear2025_deco_01_C,NewYear2025_deco_01_D,NewYear2025_deco_A
+    texture_type: "1,1,1,1,2"
+    sorting: "10,10,10,10,0"
+    offset: "0,-0.146,-0.031|0,4.338,1.001|4.608,4.338,1.001|4.608,-0.146,-0.031|0,2.398,0.553"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11404
+    name: When You Wish Upon a Sakura - Wagashi Stall
+    classes: 114
+    type: 201
+    position: "24,7"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Would you like a hanami dango skewer? The pink represents cherry blossoms in spring, the white symbolizes snow in winter, and the green... is the summer that I want to spend with you.
+    code: NewYear2025_deco_02
+    texture_type: "1"
+    sorting: "20"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "17"
+    interact_point_offset: *-0.350,0.285,-0.285
+  }
+  {
+    id: 11405
+    name: When You Wish Upon a Sakura - Remembrance of the Eighth Year
+    classes: 114
+    type: 201
+    position: "7,13"
+    space: "4,1,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: '''"Eight springs and autumns have come and gone. It seems like such a long time..." You gaze upon the carefully decorated gallery wall of photos and take a dream-like stroll down memory lane.'''
+    code: NewYear2025_deco_03
+    texture_type: "1"
+    offset: "0,-0.104,0"
+    rotate: "2"
+  }
+  {
+    id: 11406
+    name: When You Wish Upon a Sakura - Raindrops on the Azure Pond
+    classes: 114
+    type: 201
+    position: "27,11"
+    space: "6,3,0,0,0,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: The petals flutter slowly into the water, creating ripples, petal by petal, one circle after another.
+    code: NewYear2025_deco_04
+    texture_type: "1"
+    sorting: "10"
+    offset: "0,-0.104,0"
+    rotate: "2"
+  }
+  {
+    id: 11407
+    name: When You Wish Upon a Sakura - Myriad Blossoms
+    classes: 114
+    type: 201
+    position: "32,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: It is said that the speed at which the cherry blossoms fall is like the interval between heartbeats. If we must put a number to it... it's about five centimeters per second.
+    code: NewYear2025_deco_05_A,NewYear2025_deco_05_B,NewYear2025_deco_05_C,NewYear2025_deco_05_D,NewYear2025_deco_A
+    texture_type: "1,1,1,1,2"
+    sorting: "10,10,10,10,0"
+    offset: "-0.886,-0.156,-0.031|-0.886,4.327,1.001|3.721,4.327,1.001|3.721,-0.156,-0.031|-0.886,2.387,0.553"
+    rotate: "2,2,2,2,2"
+  }
+  {
+    id: 11408
+    name: When You Wish Upon a Sakura - Springtime Company
+    classes: 114
+    type: 201
+    position: "12,5"
+    space: "8,7,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: With just a thin blanket, a pot of hot tea and a few close friends, you can enjoy the spring together—how many times can one experience such a rare moment?
+    code: NewYear2025_deco_06_A,NewYear2025_deco_06_B,NewYear2025_deco_06_C
+    texture_type: "1,1,1"
+    sorting: "0,10,10"
+    offset: "-0.146,-0.156,0|-1.157,0.083,0|0.980,0.083,0"
+    rotate: "2,2,2"
+    interact_point: "18,19"
+    interact_point_offset: *2.508,0.996,-0.285|*-3.063,0.996,-0.285
+  }
+  {
+    id: 11409
+    name: When You Wish Upon a Sakura - Time for Tea
+    classes: 114
+    type: 201
+    position: "1,3"
+    space: "8,7,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: I finally have someone I can enjoy the cherry blossoms with, drink tea with, and talk to... I'm so very glad.
+    code: NewYear2025_deco_07
+    texture_type: "1"
+    offset: "0,-0.313,0"
+    rotate: "2"
+    interact_point: "20"
+    interact_point_offset: *-1.167,0.000,-0.285
+  }
+  {
+    id: 11410
+    name: When You Wish Upon a Sakura - Lanterns of Dreams
+    classes: 114
+    type: 201
+    position: "32,9"
+    space: "1,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: The shadows of lights and flowers intertwine, forming a picture of flowing dreams that gets broken up by the reflections in the water.
+    code: NewYear2025_deco_C
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 11411
+    name: When You Wish Upon a Sakura - Hanami Banners
+    classes: 114
+    type: 201
+    position: "9,2"
+    space: "3,2,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: Banners with a cherry blossom festival design. Even without such ostentatious displays, the fragrance of the spring breeze will herald the occasion.
+    code: NewYear2025_deco_08,NewYear2025_deco_08
+    texture_type: "1,1"
+    sorting: "0,10"
+    offset: "-0.521,0,0|0.104,0,0"
+    rotate: "2,2"
+  }
+  {
+    id: 11412
+    name: When You Wish Upon a Sakura - Driving Towards Our Encounter
+    classes: 114
+    type: 201
+    position: "3,0"
+    space: "14,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Through the hazy train window, I see you standing on the platform, waving at me. At that moment, I understand what this journey means to me.
+    code: NewYear2025_deco_09_A,NewYear2025_deco_09_B,NewYear2025_deco_B
+    texture_type: "1,1,2"
+    sorting: "0,0,10"
+    offset: "-0.085,-0.157,0|4.513,-0.157,0|0.886,1.376,0.349"
+    rotate: "2,2,2"
+  }
+  {
+    id: 11413
+    name: When You Wish Upon a Sakura - Trinket Stall
+    classes: 114
+    type: 201
+    position: "22,1"
+    space: "9,3,1,1,1,0"
+    deco_rate: 1050
+    decompose_gift: 100003
+    description: Take this wind chime—with every gentle tinkle, it carries with it the breeze and the tangible whispers of my longing.
+    code: NewYear2025_deco_10,NewYear2025_deco_D
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0,-0.417,0|-0.782,1.001,0.315"
+    rotate: "2,2"
+  }
+  {
+    id: 11414
+    name: When You Wish Upon a Sakura - Vibrant Beverages
+    classes: 114
+    type: 201
+    position: "1,12"
+    space: "5,2,1,1,1,0"
+    deco_rate: 950
+    decompose_gift: 100003
+    description: The window is filled with soda pops in pink packaging, which seem to be specially made with cherry blossom flavor... You shudder as you imagine that peculiar taste.
+    code: NewYear2025_deco_11
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
     id: 20005
     name: By the Azure
     classes: 81
@@ -44183,6 +44408,96 @@
     decompose_gift: 100003
     description: MP40's Poster
     code: poster_Bunny24_MP40
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311201
+    name: Pepper Blossom Lady
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SPAS-15's poster.
+    code: poster_NewYear2025_SPAS15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311202
+    name: Slash, Dance of the Feathered Crane
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Python's poster.
+    code: poster_NewYear2025_Python
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311203
+    name: Springtime Excursion
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Savage 99's poster.
+    code: poster_NewYear2025_Savage99
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311204
+    name: Dawn at Fushimi
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M37's poster.
+    code: poster_NewYear2025_Ithaca37
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311205
+    name: Hazy Fragrance
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ZiP .22's poster.
+    code: poster_NewYear2025_ZIP22
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311206
+    name: Red Plums, Thou Knowest Mine Heart
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Astra's poster.
+    code: poster_NewYear2025_357
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
