@@ -4316,13 +4316,13 @@
     eat_ratio: 120
     ratio_range: 130
     skill1: 100404
-    normal_attack: 300104
+    normal_attack: 1002305
     passive_skill: "710807,1002304"
     effect_grid_center: 13
     effect_guntype: "1"
     effect_grid_pos: "18"
     effect_grid_effect: "6,18"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 48
@@ -39457,7 +39457,7 @@
     effect_grid_effect: "1,18;5,10"
     type_equip1: 1;4,13,16,18
     type_equip2: 2;6
-    type_equip3: 3;10
+    type_equip3: 3;10,20
     ai: 5
     launch_time: 2020-07-01 00:00:00
     obtain_ids: "35"
