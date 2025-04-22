@@ -14996,6 +14996,24 @@
     rank: 1
   }
   {
+    id: 2649
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_06TypeSMG
+    item_name: Simmering Memories
+    introduction: Simmering Memories
+    rank: 1
+  }
+  {
+    id: 2650
+    type: 5
+    arg: "1"
+    code: card_BattlePass_CF05
+    item_name: ID: Best Hotpot Partner
+    introduction: ID: Best Hotpot Partner
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -16236,6 +16254,15 @@
     code: gift_bundle_BattlePass_MartiniHenry
     item_name: Martini-Henry - Berry-Colored Palpitations
     introduction: Here to buy berry mousse, Commander? It really is just as I expected~ Here, I've already bought it for you in advance! My reward shall be... a smile from the Commander!
+    rank: 1
+  }
+  {
+    id: 30026
+    type: 1
+    arg: "30026"
+    code: gift_bundle_BattlePass_06TypeSMG
+    item_name: Simmering Memories
+    introduction: Commander! Look, I've finally found a friend who can have hotpot with me while sharing the Whirlwind Inferno Mala soup base! This friend doesn't say much, but I love the way they eat! The bill? We'll talk about that after we finish~
     rank: 1
   }
   {
@@ -20797,6 +20824,15 @@
     rank: 1
   }
   {
+    id: 200051
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_06TypeSMG
+    item_name: Icon Frame - Bliss From the Tip of the Tongue
+    introduction: Icon Frame - Bliss From the Tip of the Tongue
+    rank: 1
+  }
+  {
     id: 900030
     type: 4
     arg: "900030"
@@ -22866,6 +22902,50 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Visitors from the Snowfields. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500186
+    type: 15
+    arg: "1500186"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Hot and Spicy Winter, Warm Sunshine. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500187
+    type: 15
+    arg: "1500187"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Hot and Spicy Winter. Obtain a piece of ammunition-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500188
+    type: 15
+    arg: "1500188"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Hot and Spicy Winter, Warm Sunshine. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500189
+    type: 15
+    arg: "1500189"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Hot and Spicy Winter, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1
