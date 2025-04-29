@@ -4646,7 +4646,7 @@
 
       Rate of fire               750 rounds per minute  
 
-      Feed system                120-round detachable box magazine
+      Feed system                20-round detachable box magazine
 
       Sights                     Rear aperture, front post
       '''
@@ -17330,11 +17330,12 @@
     effect_grid_effect: "2,12;4,15"
     type_equip1: 1;1,2,3,4,13
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 196
     launch_time: 2018-11-13 01:00:00
     obtain_ids: "1,2"
     rank_display: 5
+    mindupdate_consume: 10:25,45:200,51:2;10:50,45:1200,51:3;10:75,45:2400,51:5
     explore_tag: "51"
     org_id: 10802
     related_story_id: 100196
@@ -23306,7 +23307,7 @@
     effect_grid_pos: "18,19"
     effect_grid_effect: "6,15"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
+    type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 48
     launch_time: 2020-11-24 01:00:00
@@ -27988,7 +27989,7 @@
     effect_guntype: "1"
     effect_grid_pos: "11,12,17,18"
     effect_grid_effect: "6,18"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15
     ai: 241
@@ -44930,6 +44931,94 @@
     atk_speed_max: 120
     ratio_rec: 120
     recommended_team_ids: "1,2,3,6,7"
+  }
+  {
+    id: 20196
+    name: Zas M21
+    en_name: Zastava M21
+    code: ZastavaM21Mod
+    introduce:
+      '''
+      类型            突击步枪
+      总重            空枪：3.85公斤
+      全长            枪托缩折：750毫米
+                      枪托伸展：998毫米
+      枪管长度        460毫米
+      弹药            5.56×45毫米NATO
+      枪机种类        长行程导气式活塞 ，转拴式枪机
+      发射速率        680 发/分钟
+      枪口初速        925 米／秒
+      有效射程        450 米
+      供弹方式        30发弹匣
+      瞄准具型式      可调式照门、可加装瞄准镜
+      '''
+    dialogue: 指挥官……嗯，和资料上的信息一致呢，我是Zastava M21，希望您接下来不会介意我的表现。
+    extra: nineo,Asakura Azumi,
+    en_introduce:
+      '''
+      Type                       Assault rifle, submachine gun
+      Weight                     4.15 kg (9.1 lb) (M21 A)
+                                 4.07 kg (9.0 lb) (M21 S)
+                                 3.91 kg (8.6 lb) (M21 C)
+      Length                     1,000 mm (39 in) stock extended, 750 mm (30 in) stock folded (M21A)
+                                 915 mm (36.0 in) stock extended, 666 mm (26.2 in) stock folded (M21S)
+                                 825 mm (32.5 in) stock extended, 575 mm (22.6 in) stock folded (M21C)
+      Barrel length              460 mm (18 in) (M21 A)
+                                 375 mm (14.8 in) (M21 S)
+                                 325 mm (12.8 in) (M21 C)
+      Cartridge                  5.56×45mm NATO
+      Action                     Gas-operated (rotating bolt)
+      Rate of fire               680 rounds/min
+      Muzzle velocity            925 m/s
+      Effective firing range     450 m (490 yd) with iron sights
+                                 600 m (660 yd) with optics 
+      Feed system                30-round detachable box magazine
+      Sights                     Adjustable iron sights, optional mount required for optical sights
+      '''
+    type: 4
+    rank: 6
+    develop_duration: 14700
+    baseammo: 20
+    basemre: 20
+    ammo_add_withnumber: 10
+    mre_add_withnumber: 10
+    retiremp: 2
+    retireammo: 5
+    retiremre: 5
+    ratio_life: 110
+    ratio_pow: 133
+    ratio_rate: 108
+    ratio_speed: 100
+    ratio_hit: 118
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 40
+    eat_ratio: 132
+    ratio_range: 100
+    skill1: 992515
+    skill2: 992517
+    normal_attack: 300103
+    passive_skill: "108004,900156,992516,992519,992520"
+    dynamic_passive_skill: "108005"
+    effect_grid_center: 13
+    effect_guntype: "2"
+    effect_grid_pos: "17,19,18"
+    effect_grid_effect: "2,15;4,20"
+    type_equip1: 1;1,2,3,4,13
+    type_equip2: 2;8
+    type_equip3: 3;9,10,20
+    ai: 196
+    launch_time: 2017-12-07 00:00:00
+    obtain_ids: "35"
+    rank_display: 6
+    prize_id: 3196
+    explore_tag: "51"
+    related_story_id: 100196
+    show_damage_skin: ",0,2104,4304,1603,"
+    gun_tag_ids: "121,153,108"
+    atk_speed_max: 135
+    ratio_rec: 110
+    recommended_team_ids: "6"
   }
   {
     id: 20199

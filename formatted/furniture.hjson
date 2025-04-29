@@ -28674,6 +28674,24 @@
     rotate: "3"
   }
   {
+    id: 20102
+    name: Orchestra Pit
+    classes: 81
+    type: 201
+    space: "8,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The dance floor is ready, and so are the girls. Once the concertmaster is in position, the 7th Anniversary celebration can begin... Wait, who knocked over the music scores?! Pick them up before they storm off!
+    code: 2023Anniversay_deco_A,2023Anniversay_deco_B,2023Anniversay_deco_C,2023Anniversay_deco_D,2023Anniversay_deco_E
+    texture_type: "1,1,1,1,1"
+    sorting: "0,5,25,25,10"
+    offset: "0,-0.10427,0|0,-0.10427,0|0,-0.10427,0|0,-0.10427,0|0,-0.10427,0"
+    rotate: "2,2,2,2,2"
+    interact_point: "16,16"
+    interact_point_offset: *-1.983,2.959,0.142|*0.146,2.333,0
+    touch_area: "8,4,4"
+  }
+  {
     id: 20105
     name: '''"All of the Above" Blender'''
     classes: 81
@@ -29060,6 +29078,35 @@
     code: 202408Activity_Medal
     texture_type: "1"
     offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20152
+    name: Isolation Forest Guardian Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Isolation Forest". "A forest of trees stroll towards their sunset and death, withering away as they arrive. The dead may die, but only the living can perceive it."
+    code: 202410Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20153
+    name: Poster - 2025 Angular Gyrus
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2025 Limited-Time Event - Angular Gyrus special poster.
+    code: pv_202408activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
     rotate: "3"
   }
   {
@@ -43994,6 +44041,141 @@
     rotate: "3"
   }
   {
+    id: 310401
+    name: Racing Heartbeat
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HMG21's poster.
+    code: poster_Anniversary2024_HK21
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310402
+    name: Lost in the Moment
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Vector's poster.
+    code: poster_Anniversary2024_Vector
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310403
+    name: Song of Crows
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 97's poster.
+    code: poster_Anniversary2024_97type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310404
+    name: Serenade of the Fox Forest
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ART556's poster.
+    code: poster_Anniversary2024_ART556
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310405
+    name: Maple Syrup Champagne
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TAC-50's poster.
+    code: poster_Anniversary2024_TAC50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310406
+    name: Sweet Rescue
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: FO-12's poster.
+    code: poster_Anniversary2024_FO12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310407
+    name: Dorota's Whisper
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Stevens M520's poster.
+    code: poster_Anniversary2024_Stevens520
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310408
+    name: Break from the Banquet
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M2HB's poster.
+    code: poster_Anniversary2024_M2HB
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310409
+    name: Music of Time
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 6P62's poster.
+    code: poster_Anniversary2024_6P62
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 310501
     name: Swan's-Down Phantom
     classes: 300
@@ -44408,6 +44590,111 @@
     decompose_gift: 100003
     description: MP40's Poster
     code: poster_Bunny24_MP40
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310901
+    name: Jailer from the Abyss
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HS.50's poster.
+    code: poster_Revenge2024_HS50
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310902
+    name: Bloody Brambles
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1887's poster
+    code: poster_Revenge2024_M1887
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310903
+    name: Whispers of Pan
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SPAS-15's poster.
+    code: poster_Revenge2024_SPAS15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310904
+    name: Viper's Kiss
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SR-2's poster.
+    code: poster_Revenge2024_SR2
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310905
+    name: Ballad of the Marionette
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Welrod MkⅡ's poster
+    code: poster_Revenge2024_Welrod
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310906
+    name: I, am Chaos
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ST AR-15's poster.
+    code: poster_Revenge2024_AR15
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 310907
+    name: Netherworld Spider Lily
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: C14's poster.
+    code: poster_Revenge2024_C14
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
@@ -44872,6 +45159,21 @@
     decompose_gift: 100003
     description: CF-05's poster.
     code: poster_BattlePass_06TypeSMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350001
+    name: Ad Astra
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 88's poster.
+    code: poster_Anniversary2024_88type
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

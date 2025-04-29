@@ -25870,6 +25870,7 @@
     mission_skill: 0;0;0;2000017
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
+    name: Smoking Goliath
     code: Boomer
     shifting_spot: "45,100"
     shifting_team: "-30,0"
@@ -25881,7 +25882,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 730002
@@ -25900,7 +25901,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 730003
@@ -51713,7 +51714,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9720402
@@ -51843,7 +51844,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9720408
@@ -51863,7 +51864,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9720409
@@ -51883,7 +51884,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721101
@@ -52027,7 +52028,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721107
@@ -52047,7 +52048,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721108
@@ -52067,7 +52068,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721401
@@ -52225,7 +52226,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721601
@@ -52319,7 +52320,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721605
@@ -52338,7 +52339,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9721606
@@ -52380,7 +52381,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740101
@@ -52400,7 +52401,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740102
@@ -52422,7 +52423,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740103
@@ -52447,7 +52448,7 @@
     working_spot_activation: 1;0
     initial_state: 1
     des: Provides fire support for allied units within its support range, inflicting a sustained bombardment on enemy units during combat.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740104
@@ -52470,8 +52471,8 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
     initial_state: 1
-    des: Imposes airspace denial on heliports within its range. Airdrops, echelon deployment and hostage recovery cannot be performed on affected heliports.
-    confront_des: This facility cannot be destroyed in this battle.
+    des: Imposes airspace denial on heliports within its range. Airdrops, echelon deployment, and hostage recovery cannot be performed on affected heliports.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740105
@@ -52489,7 +52490,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740701
@@ -52515,7 +52516,7 @@
     working_spot_activation: 1;0
     initial_state: 1
     des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9740702
@@ -52587,7 +52588,7 @@
     mission_skill: 9741103;9741103;9741103;9741103
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: Command Tower
+    name: Control Tower
     code: AirportTower
     shifting_spot: "-1,170"
     shifting_team: "-30,0"
@@ -52599,8 +52600,8 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
-    des: Provides air traffic control for friendly-controlled helipads within its range, strengthening the reinforcements which they provide.
-    confront_des: This facility cannot be destroyed in this battle.
+    des: Provides air traffic control for friendly-controlled helipads within its range, strengthening the reinforcements that they provide.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741103
@@ -52611,7 +52612,7 @@
     mission_skill: 9741104;9741104;9741104;9741104
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:2,1:2;0:0,1:0
-    name: Substation
+    name: Transformer
     code: Substation
     shifting_spot: "50,100"
     shifting_team: "-30,0"
@@ -52624,7 +52625,7 @@
     working_spot_activation: 1;1,1
     initial_state: -1
     des: Provides power to stationary EMPs. It overloads after the EMP is triggered and needs a while to return to normal.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741104
@@ -52643,7 +52644,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741401
@@ -52667,7 +52668,11 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     des: A pile of rubble blocking movement along the thoroughfare.
-    confront_des: The following countermeasure is available in this battle: Heavy Arms Strike
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+      Attack with HOC units.
+      '''
   }
   {
     id: 9741402
@@ -52691,7 +52696,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
     des: This Goliath has been abandoned for some reason. When recovered and reactivated, it can be used to demolish specific facilities.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741403
@@ -52718,7 +52723,7 @@
     working_spot_activation: 1;1
     active_building_info: iaso;Iaso's Box;0,0;0
     des: Sends control orders to the linked installations.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741901
@@ -52741,9 +52746,14 @@
     type: 7
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
+    active_building_info: Rock_S;Destroyed Thoroughfare;0,0;2000008|Birdge_Left_4;Thoroughfare;0,0;2000009
     initial_state: -1
     des: A fundamental structure that links key routes. Once destroyed, it will severely impede movement efficiency.
-    confront_des: The following countermeasure is available in this battle: Heavy Arms Strike
+    confront_des:
+      '''
+      Countermeasures available in this mission:
+      Attack with HOC units.
+      '''
   }
   {
     id: 9741902
@@ -52765,7 +52775,7 @@
     type: 7
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741903
@@ -52787,7 +52797,7 @@
     type: 5
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741904
@@ -52810,7 +52820,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
     des: A fundamental structure that links key routes. Once destroyed, it will severely impede movement efficiency.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741905
@@ -52830,7 +52840,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9741906
@@ -52850,7 +52860,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742401
@@ -52861,7 +52871,7 @@
     mission_skill: 0;0;0;2000017
     battle_skill: 0;0;0;0
     condition: 0:1,1:1;0:1,1:0
-    name: EMP Grenades
+    name: EMP Grenade
     code: Build_PortableEMP
     shifting_spot: "65,150"
     shifting_team: "-30,0"
@@ -52874,8 +52884,8 @@
     is_focus: "-1"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    des: A hand-carried EMP device which can perform EMP attacks on a specific enemy unit, lowering its fighting strength and immobilizing it.
-    confront_des: This facility cannot be destroyed in this battle.
+    des: A hand-carried EMP device that can perform EMP attacks on a specific enemy unit, lowering its fighting strength and immobilizing it.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742402
@@ -52894,7 +52904,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
     missionskill_on_death: "2,9742401,9742401,0"
   }
   {
@@ -52906,7 +52916,7 @@
     mission_skill: 0;0;0;2000005
     battle_skill: 0;0;0;0
     condition: 0:0,1:0;0:0,1:1
-    name: Control Terminal
+    name: Control Panel
     code: Console
     shifting_spot: "40,150"
     shifting_team: "-30,0"
@@ -52919,7 +52929,7 @@
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;0
     des: Sends control orders to the linked installations.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742902
@@ -52945,7 +52955,7 @@
     working_spot_activation: 1;0
     initial_state: -1
     des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742903
@@ -52971,7 +52981,7 @@
     working_spot_activation: 1;0
     initial_state: -1
     des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742904
@@ -52997,7 +53007,7 @@
     working_spot_activation: 1;0
     initial_state: -1
     des: When closed, it cuts off the path leading through it. Units present when it is closed will suffer a certain amount of damage.
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
   }
   {
     id: 9742905
@@ -53076,7 +53086,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
     missionskill_on_death: "2,9743901,9742401,0"
   }
   {
@@ -53117,7 +53127,7 @@
     is_focus: "-1,0"
     belong_color: "#83CCFF,#FF4646,#FFE683,#C3C3C3"
     working_spot_activation: 1;1
-    confront_des: This facility cannot be destroyed in this battle.
+    confront_des: This installation cannot be destroyed in this mission.
     missionskill_on_death: "2,9744401,9742401,0"
   }
   {

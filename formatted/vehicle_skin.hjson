@@ -1236,123 +1236,195 @@
     is_show: 1
   }
   {
+    id: 11200
+    name: Model Annus 64 - Galaxy - Tactical Mech Design
+    type: 1
+    vehicle_id: "2"
+    class_id: 12
+    code: Warjack_1012
+    item_id: 133130
+    obtain: "41"
+    introduction: A galaxy-themed set designed for the Tactical Mech. It will rend all darkness for us.
+    is_show: 1
+  }
+  {
+    id: 11201
+    name: Model Annus 64 - Galaxy
+    type: 2
+    group_id: 118
+    class_id: 12
+    code: Small_Missile_Launcher_1012
+    item_id: 133131
+    obtain: "41"
+    introduction: The Galaxy's custom-fitted small missile launcher, which provides accurate strikes in battles.
+    is_show: 1
+  }
+  {
+    id: 11202
+    name: Model Annus 64 - Galaxy
+    type: 2
+    group_id: 142
+    class_id: 12
+    code: ElecGun_1012
+    item_id: 133132
+    obtain: "41"
+    introduction: The Galaxy's custom-fitted rapid-fire railgun, capable of continuous small-scale attacks using electromagnetic projectiles.
+    is_show: 1
+  }
+  {
+    id: 11203
+    name: Model Annus 64 - Galaxy
+    type: 2
+    group_id: 107
+    class_id: 12
+    code: MG_Cannon_1012
+    item_id: 133133
+    obtain: "41"
+    introduction: The Galaxy's custom-fitted small-caliber shell launcher.
+    is_show: 1
+  }
+  {
+    id: 11204
+    name: Model Annus 64 - Galaxy
+    type: 2
+    group_id: 124
+    class_id: 12
+    code: AutoDef_1012
+    item_id: 133134
+    obtain: "41"
+    introduction: The Galaxy's custom-fitted shield generator, which provides defense for the Mobile Armor.
+    is_show: 1
+  }
+  {
+    id: 11205
+    name: Model Annus 64 - Galaxy
+    type: 2
+    group_id: 143
+    class_id: 12
+    code: LaserSup_1012
+    item_id: 133135
+    obtain: "41"
+    introduction: The Galaxy's custom-fitted laser suppression system, which interferes with enemies' aim.
+    is_show: 1
+  }
+  {
     id: 11401
-    name: vehicle_skin-10011401
+    name: Universal Type - Desert Yellow
     type: 2
     group_id: 144
     class_id: 1
     code: ShotgunVehicle_1001
     item_id: 133136
     obtain: "3003"
-    introduction: vehicle_skin-20011401
+    introduction: A shotgun for short-range attacks on clusters of enemies. Painted in the Desert Yellow design.
     is_show: 1
   }
   {
     id: 11402
-    name: vehicle_skin-10011402
+    name: Universal Type - Desert Yellow
     type: 2
     group_id: 145
     class_id: 1
     code: MortarVehicle_1001
     item_id: 133137
     obtain: "3003"
-    introduction: vehicle_skin-20011402
+    introduction: A mortar that can perform small-area bombardment. Painted in the Desert Yellow design.
     is_show: 1
   }
   {
     id: 11403
-    name: vehicle_skin-10011403
+    name: Universal Type - Desert Yellow
     type: 2
     group_id: 146
     class_id: 1
     code: LaserRangefinder_1001
     item_id: 133138
     obtain: "3003"
-    introduction: vehicle_skin-20011403
+    introduction: A piece of support equipment that enhances the precision of long-range attacks. Painted in the Desert Yellow design.
     is_show: 1
   }
   {
     id: 11404
-    name: vehicle_skin-10011404
+    name: Universal Type - Desert Yellow
     type: 2
     group_id: 147
     class_id: 1
     code: CamouflageNet_1001
     item_id: 133139
     obtain: "3003"
-    introduction: vehicle_skin-20011404
+    introduction: A camouflage component that effectively hides your tracks on the battlefield. Painted in the Desert Yellow design.
     is_show: 1
   }
   {
     id: 11405
-    name: vehicle_skin-10011405
+    name: Universal Type - Desert Yellow
     type: 2
     group_id: 148
     class_id: 1
     code: GrilleArmor_1001
     item_id: 133140
     obtain: "3003"
-    introduction: vehicle_skin-20011405
+    introduction: Multi-purpose armor that can adapt to shifting combat situations. Painted in the Desert Yellow design.
     is_show: 1
   }
   {
     id: 11406
-    name: vehicle_skin-10011406
+    name: Universal Type - Urban Camouflage
     type: 2
     group_id: 144
     class_id: 2
     code: ShotgunVehicle_1002
     item_id: 133141
     obtain: "3003"
-    introduction: vehicle_skin-20011406
+    introduction: A shotgun for short-range attacks on clusters of enemies. Painted in the Urban Camouflage design.
     is_show: 1
   }
   {
     id: 11407
-    name: vehicle_skin-10011407
+    name: Universal Type - Urban Camouflage
     type: 2
     group_id: 145
     class_id: 2
     code: MortarVehicle_1002
     item_id: 133142
     obtain: "3003"
-    introduction: vehicle_skin-20011407
+    introduction: A mortar that can perform small-area bombardment. Painted in the Urban Camouflage design.
     is_show: 1
   }
   {
     id: 11408
-    name: vehicle_skin-10011408
+    name: Universal Type - Urban Camouflage
     type: 2
     group_id: 146
     class_id: 2
     code: LaserRangefinder_1002
     item_id: 133143
     obtain: "3003"
-    introduction: vehicle_skin-20011408
+    introduction: A piece of support equipment that enhances the precision of long-range attacks. Painted in the Urban Camouflage design.
     is_show: 1
   }
   {
     id: 11409
-    name: vehicle_skin-10011409
+    name: Universal Type - Urban Camouflage
     type: 2
     group_id: 147
     class_id: 2
     code: CamouflageNet_1002
     item_id: 133144
     obtain: "3003"
-    introduction: vehicle_skin-20011409
+    introduction: A camouflage component that effectively hides your tracks on the battlefield. Painted in the Urban Camouflage design.
     is_show: 1
   }
   {
     id: 11410
-    name: vehicle_skin-10011410
+    name: Universal Type - Urban Camouflage
     type: 2
     group_id: 148
     class_id: 2
     code: GrilleArmor_1002
     item_id: 133145
     obtain: "3003"
-    introduction: vehicle_skin-20011410
+    introduction: Multi-purpose armor that can adapt to shifting combat situations. Painted in the Urban Camouflage design.
     is_show: 1
   }
 ]

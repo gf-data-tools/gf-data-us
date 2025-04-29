@@ -13001,4 +13001,105 @@
     obtain_ids: "3110"
     description_skill: 1003201
   }
+  {
+    id: 424
+    name: Zas Chip
+    description:
+      '''
+      DMG+<pow> ROF<rate>
+      CRIT DMG+<critical_harm_rate><%> Enhances skill $Zas M21 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    rate: "-5,-1"
+    critical_harm_rate: "16,20"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_ZasM21
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "196,20196"
+    equip_introduction: A chip specially configured for Zas M21, customized in colors according to her wishes whilst providing unbelievable processing speed.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_harm_rate:500
+    passive_skill: "992518"
+    max_level: 10
+    auto_select_id: 20088
+    is_show: 1
+    obtain_ids: "3016"
+    description_skill: 992518
+  }
+  {
+    id: 425
+    name: HS Augmented Rounds
+    description:
+      '''
+      DMG+<pow>
+      AP+<armor_piercing> $HS.50 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "3,5"
+    armor_piercing: "95,100"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_HS50
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "348"
+    equip_introduction: Augmented 12.7mm rounds belonging to HS.50, further improving her firepower against her enemies.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:600
+    max_level: 10
+    auto_select_id: 19086
+    is_show: 1
+    obtain_ids: "517"
+  }
+  {
+    id: 426
+    name: SSG Goggles
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      CRIT DMG+<critical_harm_rate><%> Enhances skill $SSG3000 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    critical_harm_rate: "6,10"
+    critical_percent: "17,24"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_SSG3000
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "273"
+    equip_introduction: SSG 3000's most frequently worn goggles. They help her lock on to prey quickly.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,critical_harm_rate:500
+    passive_skill: "1003701"
+    max_level: 10
+    auto_select_id: 18092
+    is_show: 1
+    obtain_ids: "3111"
+    description_skill: 1003701
+  }
 ]

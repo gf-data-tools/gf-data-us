@@ -9731,8 +9731,7 @@
   }
   {
     id: 9720401
-    name: mission_buff_config-19720401
-    description: mission_buff_config-29720401
+    name: 【标记】梯队标记
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -9743,8 +9742,7 @@
   }
   {
     id: 9720402
-    name: mission_buff_config-19720402
-    description: mission_buff_config-29720402
+    name: 【标记】梯队标记_NPC
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -9755,8 +9753,7 @@
   }
   {
     id: 9720403
-    name: mission_buff_config-19720403
-    description: mission_buff_config-29720403
+    name: 【标记】杂物堆选择标记
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -9767,8 +9764,12 @@
   }
   {
     id: 9720404
-    name: mission_buff_config-19720404
-    description: mission_buff_config-29720404
+    name: 持有物资
+    description:
+      '''
+      携带物资中，不能拾取更多了。
+      可以将物资堆积在收集点上或其他没有物资和杂物的无人的路径点上。
+      '''
     code: GunBox
     type: 1
     duration_type: "1"
@@ -9779,8 +9780,12 @@
   }
   {
     id: 9720405
-    name: mission_buff_config-19720405
-    description: mission_buff_config-29720405
+    name: 持有杂物
+    description:
+      '''
+      携带杂物中，不能拾取更多了。
+      可以将杂物放置在没有物资和杂物的无人的路径点上。
+      '''
     code: GunBox
     type: 2
     duration_type: "1"
@@ -9791,8 +9796,8 @@
   }
   {
     id: 9721401
-    name: mission_buff_config-19721401
-    description: mission_buff_config-29721401
+    name: Enhancement
+    description: 不会受到福音枢椎的效果影响
     code: AK74M
     type: 1
     duration_type: "1"
@@ -9803,8 +9808,7 @@
   }
   {
     id: 9721602
-    name: mission_buff_config-19721602
-    description: mission_buff_config-29721602
+    name: 【标记】BOSS · 4动
     code: ExtraMove3
     type: 1
     duration_type: "1"
