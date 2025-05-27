@@ -5713,6 +5713,15 @@
     note: Original Costume
   }
   {
+    id: 5079
+    name: CR-21 - Original Model
+    fit_gun: 20288
+    voice: 4
+    is_hidden: 2
+    dialog: Original Costume
+    note: Original Costume
+  }
+  {
     id: 5101
     name: Willow Foxfire
     fit_gun: 316
@@ -9744,6 +9753,16 @@
     class_id: 111
   }
   {
+    id: 30027
+    name: Decisive Reinforcement
+    fit_gun: 37
+    voice: 4
+    dialog: Breach complete! Heheh, M14 helped out, right? Huh? Was it too loud?
+    illustrator_cv: YoYo,Saori Oonishi,
+    order: 150
+    class_id: 112
+  }
+  {
     id: 50001
     name: Ad Astra
     fit_gun: 95
@@ -9752,6 +9771,52 @@
     gift_position: "-231.9,39.7"
     order: 132
     class_id: 99
+    skin_source: 1
+  }
+  {
+    id: 50002
+    name: Complex Respiration
+    fit_gun: 1045
+    voice: 4
+    dialog: '''"Your injuries aren't serious, so there's no need for you to sign the organ donation agreement form— It's pretty common for a military medic to carry a sidearm, don't make a big deal out of it. You don't want me to anesthetize you with it, do you?"'''
+    gift_position: "-12.8,63.7"
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50003
+    name: Fatal Focus
+    fit_gun: 1046
+    voice: 4
+    dialog: '''"When it comes to war, either someone else dies, or you die. Anyone who's lived long enough is bound to have a scary nickname or two. You'll get used to it; no need to be alarmed."'''
+    gift_position: "-67,71"
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50004
+    name: Phantasmal Vanguard
+    fit_gun: 245
+    voice: 4
+    dialog: '''"You can leave the support role to me. My forte is bamboozling my opponents—don't freak out even if you see a whole army thousands of men strong, okay? Though I suppose it's normal to feel dizzy and faint at the sight... You're looking at an illusion, after all."'''
+    gift_position: "-130.8,-38.7"
+    illustrator_cv: RIRE, Sumire Morohoshi,
+    order: 142
+    class_id: 53
+    skin_source: 1
+  }
+  {
+    id: 50005
+    name: DDOS Attack Force
+    fit_gun: 215
+    voice: 4
+    dialog: '''"Hahaha! That's right! It's me again! The mighty MDR is here! You can count on me for any—Huh? Why have I teamed up with P90? Commander, have you heard of a DDOS attack? The two of us can launch similar attacks in both digital space and in real life... You'd also like to see the enemy drowning in data traffic, right?"'''
+    gift_position: "-127.5,-85.9"
+    illustrator_cv: 小枪, Aimi,
+    order: 142
+    class_id: 53
     skin_source: 1
   }
 ]

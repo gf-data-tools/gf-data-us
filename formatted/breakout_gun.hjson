@@ -3,7 +3,7 @@
     id: -1
     code: CommanderSelf
     icon: CommanderSelf
-    name: 指挥官
+    name: Commander
     type: 1
     hp: "200"
     atk: "200"
@@ -15,7 +15,7 @@
     speed: "200"
     shield: "200"
     skills: "701,702,703,704"
-    skill_dec: 呀哈哈
+    skill_dec: Ahaha
     deployment_cd: 60
     bt_tree: Tarkov/ItemSkill
   }
@@ -38,7 +38,7 @@
     speed: "10,11,12"
     shield: "0,0,0"
     skills: "100,101"
-    skill_dec: 战斗中会交替提高自身伤害及射速，每3秒替换一次
+    skill_dec: Alternates between increasing damage and rate of fire every 3 seconds during battle
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_MDR
   }
@@ -46,7 +46,7 @@
     id: 2
     code: G3
     icon: G3
-    name: G3
+    name: Gr G3
     type: 4
     cost_deploy: 4
     cost_upgrade: "50,100"
@@ -61,7 +61,7 @@
     speed: "10,11,12"
     shield: "0,0,0"
     skills: "100,102"
-    skill_dec: 发射榴弹对落点附近的敌人造成伤害，冷却时间6秒
+    skill_dec: Launches a grenade that deals damage to enemies around its point of impact with a 6 second cooldown
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_G3
   }
@@ -86,8 +86,8 @@
     skills: "103,104"
     skill_dec:
       '''
-      攻击时使目标减速，持续2秒，冷却时间6秒
-      普通攻击对被减速的目标造成的伤害提高
+      Attacks reduce the target's speed for 2 seconds with a 6 second cooldown.
+      Normal attacks deal increased damage against slowed targets
       '''
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_ACR
@@ -111,7 +111,7 @@
     speed: "8,9,10"
     shield: "0,0,0"
     skills: "200,201"
-    skill_dec: 提升自身射速，持续时间3秒，冷却时间6秒
+    skill_dec: Increases rate of fire for 3 seconds with a 6 second cooldown
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_wz.29
   }
@@ -119,7 +119,7 @@
     id: 5
     code: M1
     icon: M1
-    name: M1加兰德
+    name: M1 Garand
     type: 3
     cost_deploy: 4
     cost_upgrade: "50,100"
@@ -134,7 +134,7 @@
     speed: "8,9,10"
     shield: "0,0,0"
     skills: "200,202"
-    skill_dec: 对射程内的随机目标发动一次狙击，冷却时间3秒，可跨行攻击
+    skill_dec: Fires a sniper shot at a random target within range with a 3 second cooldown. Attacks can target enemies on obstructed rows
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_M1
   }
@@ -142,7 +142,7 @@
     id: 6
     code: 4type
     icon: 4type
-    name: 四式
+    name: 4 Shiki
     type: 3
     cost_deploy: 4
     cost_upgrade: "50,100"
@@ -157,7 +157,7 @@
     speed: "8,9,10"
     shield: "0,0,0"
     skills: "203"
-    skill_dec: 攻击时可以贯穿第1个目标，对射程内的第2个目标造成一半的伤害
+    skill_dec: Attacks pierce through the first target and deal 50% damage to a second target within range
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_Type4
   }
@@ -180,7 +180,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "301"
-    skill_dec: 自身攻击提高，但会攻击射程内的随机目标，可跨行
+    skill_dec: Increases attack stat, but attacks now target random enemies within range, possibly on obstructed rows
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_RPD
   }
@@ -188,7 +188,7 @@
     id: 8
     code: MG5
     icon: MG5
-    name: MG5
+    name: Gr MG5
     type: 5
     cost_deploy: 5
     cost_upgrade: "50,100"
@@ -203,7 +203,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "302"
-    skill_dec: 每3次攻击后下一次攻击伤害提高
+    skill_dec: After every 3 attacks, the next attack deals increased damage
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_MG5
   }
@@ -226,7 +226,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "303"
-    skill_dec: 每次攻击时提高自身伤害，换弹时清零
+    skill_dec: Increases damage with each attack; resets upon reload
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_MG338
   }
@@ -249,7 +249,7 @@
     speed: "10,11,12"
     shield: "0,0,0"
     skills: "400,401"
-    skill_dec: 在场时使同一行的所有敌人伤害小幅下降，不可叠加
+    skill_dec: Slightly reduces the damage of all enemies on the same row when present on the field. Not stackable
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_AK74U
   }
@@ -257,7 +257,7 @@
     id: 11
     code: VZ61
     icon: VZ61
-    name: 蝎式
+    name: Skorpion
     type: 2
     cost_deploy: 4
     cost_upgrade: "50,100"
@@ -272,7 +272,7 @@
     speed: "10,11,12"
     shield: "0,0,0"
     skills: "400,402"
-    skill_dec: 投掷燃烧瓶对落点附近的敌人造成伤害并将其点燃，持续时间5秒，冷却时间6秒
+    skill_dec: Launches a Molotov cocktail that deals damage to enemies around its point of impact and sets them on fire for 5 seconds with a 6 second cooldown
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_Vz.61
   }
@@ -295,7 +295,7 @@
     speed: "10,11,12"
     shield: "0,0,0"
     skills: "400,403"
-    skill_dec: 战斗中持续提高自身闪避，达到最大层数后清零
+    skill_dec: Increases evasion continuously in battle; resets to 0 upon reaching maximum stacks
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_P90
   }
@@ -303,7 +303,7 @@
     id: 13
     code: KSG
     icon: KSG
-    name: KSG
+    name: Am KSG
     type: 6
     cost_deploy: 5
     cost_upgrade: "50,100"
@@ -318,7 +318,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "500,501"
-    skill_dec: 提升自身护甲，持续时间3秒，冷却时间6秒
+    skill_dec: Increases armor for 3 seconds with a 6 second cooldown
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_KSG
   }
@@ -326,7 +326,7 @@
     id: 14
     code: 97typeS
     icon: 97typeS
-    name: 97式霰
+    name: Type 97S
     type: 6
     cost_deploy: 5
     cost_upgrade: "50,100"
@@ -341,7 +341,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "502"
-    skill_dec: 攻击时击退目标并将其减速，持续时间1秒
+    skill_dec: Attacks knock enemies back and reduce their speed for 1 second
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_Type97S
   }
@@ -364,7 +364,7 @@
     speed: "9,10,11"
     shield: "0,0,0"
     skills: "503"
-    skill_dec: 同时攻击最近的3个目标，但射程降低
+    skill_dec: Attacks the 3 nearest targets simultaneously, but attack range is reduced
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_MK3A1
   }
@@ -372,7 +372,7 @@
     id: 16
     code: M1873
     icon: M1873
-    name: 柯尔特左轮
+    name: SAA
     type: 1
     cost_deploy: 3
     cost_upgrade: "50,100"
@@ -387,7 +387,7 @@
     speed: "12,13,14"
     shield: "0,0,0"
     skills: "600,601"
-    skill_dec: 在场时使同一行的所有友军伤害小幅提升，不可叠加
+    skill_dec: Slightly increases the damage of all allies on the same row when present on the field. Not stackable
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_M1873
   }
@@ -395,7 +395,7 @@
     id: 17
     code: "357"
     icon: "357"
-    name: 阿斯特拉左轮
+    name: Astra
     type: 1
     cost_deploy: 3
     cost_upgrade: "50,100"
@@ -410,7 +410,7 @@
     speed: "12,13,14"
     shield: "0,0,0"
     skills: "600,602"
-    skill_dec: 在场时使同一行的所有友军射速小幅提升，不可叠加
+    skill_dec: Slightly increases the rate of fire of all allies on the same row when present on the field. Not stackable
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_357
   }
@@ -418,7 +418,7 @@
     id: 18
     code: TT33
     icon: TT33
-    name: 托卡列夫
+    name: Tokarev
     type: 1
     cost_deploy: 3
     cost_upgrade: "50,100"
@@ -433,7 +433,7 @@
     speed: "12,13,14"
     shield: "0,0,0"
     skills: "600,603"
-    skill_dec: 在场时使同一行的所有友军回避小幅提升，不可叠加
+    skill_dec: Slightly increases the evasion of all allies on the same row when present on the field. Not stackable
     deployment_cd: 60
     bt_tree: Tarkov/Units/Guns/GunAI_TT33
   }

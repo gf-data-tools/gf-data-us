@@ -8636,6 +8636,138 @@
     rotate: "2"
   }
   {
+    id: 3119
+    name: Weapon Display Wall
+    classes: 31
+    type: 202
+    space: "9,8,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: In Kamona, only those who bear arms have the right to choose. Even a single bullet could win you the opportunity to speak up in the dark jungle.
+    code: aqtw2024_deco_02_A,aqtw2024_deco_02_B
+    texture_type: "1,1"
+    sorting: "0,5"
+    offset: "0.010,-0.052,0|0.010,-0.052,0"
+    rotate: "2,2"
+    interact_point: "20"
+    interact_point_offset: *-0.146,1.309,-0.285
+  }
+  {
+    id: 3120
+    name: Trophy Collection
+    classes: 31
+    type: 201
+    space: "18,4,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Why haven't you sold these trophies like you usually would? Are you holding onto some memories... or trying to forget them?
+    code: aqtw2024_deco_03_A,aqtw2024_deco_03_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.875,0,0|3.733,0,0"
+    rotate: "2,2"
+  }
+  {
+    id: 3121
+    name: Badge of Honor
+    classes: 31
+    type: 302
+    space: "3,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Every operator has an honor rating which they try to improve by completing more jobs. In fact, many have the potential to achieve a "Legendary" honor rating, they simply lack the luck to last that long.
+    code: aqtw2024_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 3122
+    name: Morale Patch Collection
+    classes: 31
+    type: 302
+    space: "7,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Some of these morale patches belonged to enemies, others belonged to friends. Every time you see them placed side by side, you feel momentarily disoriented.
+    code: aqtw2024_deco_05
+    texture_type: "1"
+    offset: "0,0.09,0"
+    rotate: "3"
+  }
+  {
+    id: 3123
+    name: Kitty Claws Weapon Rack
+    classes: 31
+    type: 201
+    space: "7,6,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Nobody ever complains about having too many weapons, be they firearms, ammunition, protective gear... or sharp claws that a cat keeps hidden in its paw pads.
+    code: aqtw2024_deco_06,ArenaBreakout_weaponrack
+    texture_type: "1,2"
+    sorting: "0,5"
+    offset: "0,0,0|-0.428,0.250,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 3124
+    name: High-Voltage Box
+    classes: 31
+    type: 302
+    space: "3,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Despite the "danger" warning sign, it is far less dangerous than toeing a "high-voltage" line, such as asking whether a certain male boss is wearing sunglasses to hide his crow's feet.
+    code: aqtw2024_deco_07
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 3125
+    name: Practical Pendant Light
+    classes: 31
+    type: 201
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Forget about its extravagant appearance and complex functions. To bring light—that is the single most important purpose of a pendant light.
+    code: ArenaBreakout_lamp
+    texture_type: "2"
+    offset: "0,3.806,0"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 3126
+    name: Misty Bog
+    classes: 31
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The way forward and the place to return to—one must keep either in sight. As long as you have the strength to pull yourself out of the sinking bog, even a snail can crawl its way to its destination.
+    code: aqtw2024_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 3127
+    name: Raven-Black Forest
+    classes: 31
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A lone raven flies into the dark forest, and you lose sight of its inky wings. When black is the only camouflage, please bring a light with you.
+    code: aqtw2024_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 3201
     name: Seaside Lodge - Changing Room Floor
     classes: 32
@@ -29124,6 +29256,35 @@
     rotate: "3"
   }
   {
+    id: 20154
+    name: Light Chaser Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Butterfly Nebula". "The mist of the Dark Zone has never truly extinguished the light, for the light comes from the heavens."
+    code: 2024ArenaBreakout_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20166
+    name: Poster: 2025 Isolation Forest
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Special poster for 2025 Limited-Time Event - Isolation Forest
+    code: pv_202410activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 30001
     name: Pumpkin Mishka
     classes: 300
@@ -45179,6 +45340,21 @@
     rotate: "3"
   }
   {
+    id: 330027
+    name: Decisive Reinforcement
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M14's poster.
+    code: poster_BattlePass_M14
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 350001
     name: Ad Astra
     classes: 300
@@ -45188,6 +45364,66 @@
     decompose_gift: 100003
     description: Type 88's poster.
     code: poster_Anniversary2024_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350002
+    name: Complex Respiration
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Evita's poster.
+    code: poster_ArenaBreakout_Evita
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350003
+    name: Fatal Focus
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Hecate's poster.
+    code: poster_ArenaBreakout_Hecate
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350004
+    name: Phantasmal Vanguard
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: P90's Poster
+    code: poster_ArenaBreakout_P90
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 350005
+    name: DDOS Attack Force
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MDR's Poster
+    code: poster_ArenaBreakout_MDR
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

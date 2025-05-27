@@ -12861,6 +12861,22 @@
     type_sort: 6
   }
   {
+    id: 30027
+    name: Decisive Reinforcement
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 37
+    skin: 30027
+    poster: 330027
+    code: gift_bundle_BattlePass_M14
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
     id: 50001
     name: Ad Astra
     type: 2
@@ -12870,6 +12886,70 @@
     skin: 50001
     poster: 350001
     code: gift_bundle_Anniversary2024_88type
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50002
+    name: Complex Respiration
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1045
+    skin: 50002
+    poster: 350002
+    code: gift_bundle_ArenaBreakout_Evita
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50003
+    name: Fatal Focus
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 1046
+    skin: 50003
+    poster: 350003
+    code: gift_bundle_ArenaBreakout_Hecate
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50004
+    name: Phantasmal Vanguard
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 245
+    skin: 50004
+    poster: 350004
+    code: gift_bundle_ArenaBreakout_P90
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 50005
+    name: DDOS Attack Force
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 215
+    skin: 50005
+    poster: 350005
+    code: gift_bundle_ArenaBreakout_MDR
     normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
     bonus_description: Unlocks a new costume for your T-Doll
     description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
@@ -13187,6 +13267,21 @@
     type_sort: 5
   }
   {
+    id: 100023
+    name: Energy Bar
+    type: 1
+    rank: 5
+    favor: 30000
+    code: gift_item_ArenaBreakoutBiscuits
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: None
+    description: Gift this item to a T-Doll in your dormitory to increase her Affection by 3 point.
+    item_access: "2"
+    detail_introduction: Food made from processed grains that can quickly replenish calories in a short amount of time. An essential in high demand within the Dark Zone.
+    sort: -1018
+    type_sort: 5
+  }
+  {
     id: 200001
     name: Combat Report
     type: 3
@@ -13495,6 +13590,21 @@
     item_access: "2"
     detail_introduction: A data fragment intercepted in Sector 2Z64. Analyze it to obtain the experience it contains.
     sort: -1017
+    type_sort: 2
+  }
+  {
+    id: 200023
+    name: Steel Core Rounds
+    type: 3
+    rank: 5
+    code: gift_item_ArenaBreakoutBullet
+    normal_description: T-Dolls and Fairies can obtain experience
+    bonus_description: None
+    description: Gift to the corresponding Doll in the dorm to obtain 10,000 EXP.
+    exp: 10000
+    item_access: "2"
+    detail_introduction: Both supplies and spoils of war, these rounds represent the battles that a special operator has won or is about to win, and are the capital for survival in the Dark Zone.
+    sort: -1018
     type_sort: 2
   }
   {

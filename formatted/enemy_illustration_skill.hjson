@@ -1224,18 +1224,18 @@
       '''
       Embla will switch between recovery mode and assault mode:
       Recovery Mode: Restore shields of other enemy units every 3 seconds.
-      Assault Mode:Increase ROF and movement speed of other enemy units every 3 seconds.
+      Assault Mode: Increase ROF and movement speed of other enemy units every 3 seconds.
       '''
   }
   {
     id: 242
     name: Obsession
-    description: Embla will receive a high-powered shield and taunt all friendly units to attack her. If the shield is broken after some time, all enemy units will be paralysed and receive massively increased damage. Otherwise, all enemy units will receive high HP shields and a huge increase to damage.
+    description: Embla will receive a high-powered shield and taunt all friendly units to attack her. If the shield is broken after some time, all enemy units will be paralyzed and receive massively increased damage. Otherwise, all enemy units will receive high HP shields and a huge increase to damage.
   }
   {
     id: 243
     name: Hallucinogen
-    description: Select a tile which a unit is currently standing on and apply "Surveilance From The Eye of Truth". The unit standing in the tile will receive continuous damage and huge debuffs to armor and evasion.
+    description: Select a tile which a unit is currently standing on and apply "Surveillance From The Eye of Truth". The unit standing in the tile will receive continuous damage and huge debuffs to armor and evasion.
   }
   {
     id: 244
@@ -1249,18 +1249,28 @@
   }
   {
     id: 246
+    name: Paralytic Toxin
+    description: Each attack injects the target with paralytic toxin, reducing their rate of fire and movement speed. When the target reaches 5 stacks, they take a large amount of extra damage.
   }
   {
     id: 247
+    name: Overload
+    description: Cause an overload with every 5 attacks and launch a missile at a random position, dealing damage that scales with Dummy-Links.
   }
   {
     id: 248
+    name: Charged Thunderstorm
+    description: Continuously release accumulated electric charges, dealing multiple instances of damage to surrounding units. The greater the number of overloads, the larger the range of the thunderstorm (no damage is taken for the duration of the skill).
   }
   {
     id: 249
+    name: Electric Field
+    description: Generate an electric field at the location of your unit with the highest maximum HP that continuously attacks nearby units (no damage is taken for the duration of the skill).
   }
   {
     id: 250
+    name: Entangling Whip
+    description: She swings her whip in a straight line to attack her target and ensnares the hit enemy with electric current.
   }
   {
     id: 999
@@ -1270,6 +1280,7 @@
   {
     id: 1801
     name: Strafe
+    description: After every third attack, the Andvari performs a sweeping attack which does great damage to all enemy units within a certain radius.
   }
   {
     id: 5801
@@ -1298,6 +1309,8 @@
   }
   {
     id: 8103
+    name: Stratagem - Beluga
+    description: Throw a flashbang every 15 seconds that stuns all enemy units.
   }
   {
     id: 8201
@@ -1306,6 +1319,8 @@
   }
   {
     id: 8202
+    name: Detector
+    description: Beluga places a beacon at a random position in your formation. The beacon will scan the gun type of your unit and give Beluga a corresponding buffâ€”HG <Increase firepower>, SMG <Increase accuracy>, RF <Increase rate of fire>, AR <Increase armor>, MG <Increase evasion>, SG <Increase armor-piercing>. If the position is empty, she gains all the buffs.
   }
   {
     id: 8301
@@ -1449,36 +1464,62 @@
   }
   {
     id: 10059
+    name: Swap Weapons
+    description:
+      '''
+      When Doss' HP is above 50%, he attacks with a handgun, dealing damage that ignores shields to the nearest target.
+      When Doss' HP is below 50%, he switches to a melee weapon, dealing damage that ignores armor and evasion to the nearest target.
+      '''
   }
   {
     id: 10060
+    name: Summon Aid
+    description: Doss will call in aid from the Antonio family to join the fray.
   }
   {
     id: 10061
+    name: Cardiac Stimulant
+    description: Doss gains a powerful shield and significant damage reduction.
   }
   {
     id: 10062
+    name: Vengeance
+    description: Doss performs a melee attack on your unit with the highest damage output, dealing high damage that is reduced significantly for each ally present around the target in a cross-shaped formation.
   }
   {
     id: 10063
+    name: Change Mode
+    description: Hecate enters Offense mode when her HP is above 50% and enters Defense mode when her HP is below 50%.
   }
   {
     id: 10064
+    name: Offense - EMP
+    description: When in Offense mode, Hecate randomly deals guaranteed damage to her target, reduces the target's armor and evasion, while also removing all buffs on nearby units.
   }
   {
     id: 10065
+    name: Offense - Boost
+    description: When in Offense mode, Hecate's damage and accuracy increases every time your units lose a Dummy-Link.
   }
   {
     id: 10066
+    name: Offense - Beacon
+    description: When in Offense mode, Hecate launches a beacon at the location of your unit with the highest damage output, which will trigger an airstrike after a warning, dealing massive damage.
   }
   {
     id: 10067
+    name: Defense - Weaken
+    description: When in Defense mode, Hecate significantly reduces the damage dealt by your units on a random row.
   }
   {
     id: 10068
+    name: Defense - Protection
+    description: When in Defense mode, Hecate frequently gains shields and damage intake reduction.
   }
   {
     id: 10069
+    name: Defense - Rebound
+    description: When in Defense mode, Hecate fires continuously at the target on a random tile, dealing a large amount of damage. The stronger Hecate's shield, the higher the damage.
   }
   {
     id: 10087

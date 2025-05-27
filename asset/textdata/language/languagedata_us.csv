@@ -841,15 +841,15 @@ COMMON,1829,Screenshot saved,,0
 COMMON,1830,Current letter has not been edited,,0
 COMMON,1831,Video file failed to download. Retry?,,0
 COMMON,1832,Special Enemy,,0
-COMMON,1833,,,0
-COMMON,1834,,,0
-COMMON,1835,,,0
-COMMON,1836,,,0
-COMMON,1837,,,0
-COMMON,1838,,,0
-COMMON,1839,,,0
-COMMON,1840,,,0
-COMMON,1841,,,0
+COMMON,1833,Search Name,,0
+COMMON,1834,Please select a type,,0
+COMMON,1835,Item already in possession. Cannot be redeemed again.,,0
+COMMON,1836,Window Screenshot,,0
+COMMON,1837,Show Character Info,,0
+COMMON,1838,Screenshot will be saved to {0},,0
+COMMON,1839,Gain Gem*{0} for the first screenshot of each week.,,0
+COMMON,1840,Screenshot taken,,0
+COMMON,1841,Hidden Base UI,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,1
 BATTLE,10002,WITHDRAW,,1
@@ -1276,7 +1276,9 @@ HOME,20205,Requests,,0
 HOME,20206,{0}/{1},,0
 HOME,20207,Request cancelled,,0
 HOME,20208,Current level is {0}/{1}//c Function to send friend requests is not yet available,,0
-HOME,20209,,,0
+HOME,20209,You have reached the maximum number of friend requests. Please organize them before proceeding further.,,0
+HOME,20210,,,0
+HOME,20211,,,0
 DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,1
@@ -4124,13 +4126,13 @@ SETTING,52153,*Slow down time when a T-Doll is selected.,,0
 SETTING,52154,Simplify Damage Numbers,,0
 SETTING,52155,Allow Girls' Frontline access to your gallery? You will be able to store photos once the app receives permission.,,0
 SETTING,52156,Please allow Girls' Frontline access to your gallery through your "Settings" app.,,0
-SETTING,52157,,,0
-SETTING,52158,,,0
-SETTING,52159,,,0
-SETTING,52160,,,0
-SETTING,52161,,,0
-SETTING,52162,,,0
-SETTING,52163,,,0
+SETTING,52157,Graphics Settings,,0
+SETTING,52158,Resolution,,0
+SETTING,52159,Display Mode,,0
+SETTING,52160,Audio in Background,,0
+SETTING,52161,Windowed,,0
+SETTING,52162,Borderless,,0
+SETTING,52163,Fullscreen,,0
 STOREROOM,53000,T-Doll,,0
 STOREROOM,53001,FIGURINE,,0
 STOREROOM,53002,Equipment,,0
@@ -5127,31 +5129,31 @@ SEPCIALOPS,60822,Retreat,,0
 SEPCIALOPS,60823,Mission Target,,0
 SEPCIALOPS,60824,Cancel,,0
 SEPCIALOPS,60825,Tutorial,,0
-SEPCIALOPS,60826,60 can be received every day//c capped at 180 maximum//Remaining receivable: {0},,0
+SEPCIALOPS,60826,Availability regenerates by {1} per day//c accumulating to a maximum of {2}.//nCurrently Available: {0},,0
 SEPCIALOPS,60827,Received Parts,,0
 SEPCIALOPS,60828,Discard Portion,,0
 SEPCIALOPS,60829,*Equipment exceeding the limit of the backpack cannot be brought back//c so please plan accordingly.,,0
 SEPCIALOPS,60830,Total Value,,0
 SEPCIALOPS,60831,No stock for purchase currently,,0
-SEPCIALOPS,60832,,,0
-SEPCIALOPS,60833,,,0
-SEPCIALOPS,60834,,,0
-SEPCIALOPS,60835,,,0
-SEPCIALOPS,60836,,,0
-SEPCIALOPS,60837,,,0
-SEPCIALOPS,60838,,,0
+SEPCIALOPS,60832,In Combat: {0},,0
+SEPCIALOPS,60833,Commander//c I could use your help with a mission...,,0
+SEPCIALOPS,60834,A new job just came in. How well do you get along with the "locals"?,,0
+SEPCIALOPS,60835,There's a commission here that asked for you specifically. Are you taking it?,,0
+SEPCIALOPS,60836,Total Battle Duration,,0
+SEPCIALOPS,60837,Total Parts,,0
+SEPCIALOPS,60838,Sell,,0
 SEPCIALOPS,60839,Close,,0
-SEPCIALOPS,60840,,,0
-SEPCIALOPS,60841,,,0
+SEPCIALOPS,60840,Withdrawing//c please defend the position.,,0
+SEPCIALOPS,60841,Battle Settlement,,0
 SEPCIALOPS,60842,Combat Report,,0
 SEPCIALOPS,60843,Enemies eliminated,,0
-SEPCIALOPS,60844,,,0
-SEPCIALOPS,60845,,,0
-SEPCIALOPS,60846,,,0
-SEPCIALOPS,60847,,,0
-SEPCIALOPS,60848,,,0
-SEPCIALOPS,60849,,,0
-SEPCIALOPS,60850,,,0
+SEPCIALOPS,60844,Lost Units,,0
+SEPCIALOPS,60845,Battle Duration,,0
+SEPCIALOPS,60846,Leader,,0
+SEPCIALOPS,60847,Retry,,0
+SEPCIALOPS,60848,Nib of Innocence,,0
+SEPCIALOPS,60849,Dreamcatcher,,0
+SEPCIALOPS,60850,Historical Letters,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -5799,8 +5801,8 @@ OTHER,100329,Enable direct reassignment of characters in other echelons,,0
 OTHER,100330,Scan sharing code,,0
 OTHER,100331,{0} added to purchase limit at 12AM on the first of every month.//nUnused purchase chances can be accumulated.,,0
 OTHER,100332,Order Information Abnormal,,0
-OTHER,100333,,,0
-OTHER,100334,,,0
+OTHER,100333,Please scroll down to read all the content.,,0
+OTHER,100334,This server is full. Please select another server.,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
 FRIEND,110002,Friend Points,,0
@@ -8642,33 +8644,33 @@ MINIGAME,280573,No more planning mode nodes,,0
 MINIGAME,280574,Resources insufficient for completing all selected nodes,,0
 MINIGAME,280575,- None -,,0
 MINIGAME,280576,Clear this stage once,,0
-MINIGAME,280577,,,0
-MINIGAME,280578,,,0
-MINIGAME,280579,,,0
-MINIGAME,280580,,,0
-MINIGAME,280581,,,0
-MINIGAME,280582,,,0
-MINIGAME,280583,,,0
-MINIGAME,280584,,,0
-MINIGAME,280585,,,0
-MINIGAME,280586,,,0
-MINIGAME,280587,,,0
-MINIGAME,280588,,,0
-MINIGAME,280589,,,0
-MINIGAME,280590,,,0
-MINIGAME,280591,,,0
-MINIGAME,280592,,,0
+MINIGAME,280577,Insufficient Dark Zone Rations,,0
+MINIGAME,280578,Leader cannot be dismissed,,0
+MINIGAME,280579,You cannot assemble more units when the team is full.,,0
+MINIGAME,280580,The team is full. Cannot assemble more units.,,0
+MINIGAME,280581,Insufficient Dark Zone Parts,,0
+MINIGAME,280582,Backpack is full,,0
+MINIGAME,280583,Restart?//n(From the first battle),,0
+MINIGAME,280584,Terminate?,,0
+MINIGAME,280585,Backpack+Depot Value,,0
+MINIGAME,280586,[Item Value in Echelon {0}'s Backpack + {0} Depot Balance],,0
+MINIGAME,280587,Remaining Targets:,,0
+MINIGAME,280588,Mission target accomplished.//nRemaining Enemies in Extra Wave:,,0
+MINIGAME,280589,Can be used to trade for supplies or expand your backpack. Even the most basic supplies are sometimes easier to measure in value than widely circulated currencies.,,0
+MINIGAME,280590,Can be used to assemble combat units. In places where there is a lack of stable food supply//c securing a food source is the top priority for survival.,,0
+MINIGAME,280591,Return to Preparation,,0
+MINIGAME,280592,Victory,,0
 MINIGAME,280593,Purchase successful,,0
-MINIGAME,280594,,,0
-MINIGAME,280595,,,0
-MINIGAME,280596,,,0
-MINIGAME,280597,,,0
-MINIGAME,280598,,,0
-MINIGAME,280599,,,0
-MINIGAME,280600,,,0
-MINIGAME,280601,,,0
-MINIGAME,280602,,,0
-MINIGAME,280603,,,0
+MINIGAME,280594,Sold,,0
+MINIGAME,280595,Assembled,,0
+MINIGAME,280596,Dark Zone Rations,,0
+MINIGAME,280597,Dark Zone Parts,,0
+MINIGAME,280598,Dismissed,,0
+MINIGAME,280599,The leader must be alive,,0
+MINIGAME,280600,Finish sorting backpack and return to preparation?,,0
+MINIGAME,280601,Complete [{0}] to unlock the corresponding intel,,0
+MINIGAME,280602,Total Kills,,0
+MINIGAME,280603,Total Casualties,,0
 VEHICLE,290001,Universal Components,,0
 VEHICLE,290002,Heavy Weapon,,0
 VEHICLE,290003,Light Weapon,,0

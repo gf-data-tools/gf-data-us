@@ -1247,6 +1247,7 @@
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
     forces: 1
+    if_capture: 1
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1271,6 +1272,7 @@
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
     forces: 1
+    if_capture: 1
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1295,6 +1297,7 @@
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
     forces: 1
+    if_capture: 1
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1319,6 +1322,7 @@
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
     forces: 1
+    if_capture: 1
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -1343,6 +1347,7 @@
     code: M16A1_Boss
     introduce: After being infected by the Parapluie virus, Griffin Tactical Doll M16A1, former member of the AR Team, has been converted to a Sangvis unit and underwent drastic changes in both her appearance and personality. The only thing that remains unchanged is her reliable combat capabilities. She makes a reassuring friend and a terrifying foe.
     forces: 1
+    if_capture: 1
     pow_rank: 6
     life_rank: 6
     hit_rank: 6
@@ -6702,6 +6707,269 @@
     counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10056,10057,10058"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100060001
+    id: 100060
+    name: Doss' Bodyguard
+    sub_name: Doss' Bodyguard - AR
+    type: 3
+    code: Guard1Breakout
+    introduce: A bodyguard who has been in Doss' service for many years. Possesses a ruthlessness found typically in underground operatives.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "106"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100061001
+    id: 100061
+    name: Doss' Bodyguard
+    sub_name: Doss' Bodyguard - RF
+    type: 3
+    code: Guard2Breakout
+    introduce: A bodyguard who has been in Doss' service for many years. Possesses a ruthlessness found typically in underground operatives.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "106"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100062001
+    id: 100062
+    name: Doss' Bodyguard
+    sub_name: Doss' Bodyguard - SG
+    type: 3
+    code: Guard3Breakout
+    introduce: A bodyguard who has been in Doss' service for many years. Possesses a ruthlessness found typically in underground operatives.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "106"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100063001
+    id: 100063
+    name: Blackgold Operative
+    sub_name: Blackgold Operative - AR
+    type: 3
+    code: BG1Breakout
+    introduce: A member of Abyss Squad under Blackgold Universal. An elite combatant who has undergone rigorous training.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "107"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100064001
+    id: 100064
+    name: Blackgold Operative
+    sub_name: Blackgold Operative - SMG
+    type: 3
+    code: BG2Breakout
+    introduce: A member of Abyss Squad under Blackgold Universal. An elite combatant who has undergone rigorous training.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "107"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100065001
+    id: 100065
+    name: Blackgold Operative
+    sub_name: Blackgold Operative - RF
+    type: 3
+    code: BG3Breakout
+    introduce: A member of Abyss Squad under Blackgold Universal. An elite combatant who has undergone rigorous training.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "107"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100066001
+    id: 100066
+    name: Doss' Assassin
+    sub_name: Doss' Assassin
+    type: 3
+    code: DisGuardBreakout
+    introduce: Assassin dispatched by Doss to eradicate targets on his behalf.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "106"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100067001
+    id: 100067
+    name: Special Operative
+    sub_name: Special Operative
+    type: 3
+    code: DisBGBreakout
+    introduce: A special operative of unknown origin. Judging by his fighting style, he seems to have received formal military training.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "107"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100068001
+    id: 100068
+    name: Doss' Elite Bodyguard
+    sub_name: Doss' Elite Bodyguard
+    type: 3
+    code: EliteGuardBreakout
+    introduce: Chief of Doss' complement of bodyguards. Deeply trusted by Doss because of his strong capabilities.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,106"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100069001
+    id: 100069
+    name: Blackgold Elite Operative
+    sub_name: Blackgold Elite Operative
+    type: 3
+    code: EliteBGBreakout
+    introduce: An elite member of Abyss Squad under Blackgold Universal with outstanding capabilities.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,107"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100070001
+    id: 100070
+    name: Doss
+    sub_name: Doss
+    type: 1
+    code: DosBreakout
+    introduce: Leader of the Antonio family, a local faction in the Dark Zone. As a man who runs all kinds of underground businesses, he is shrewd, ruthless, and surrounded by bodyguards all year round. He is a local tyrant who must not be underestimated.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,106"
+    enemy_skill: "10059,10060,10061,10062"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100071001
+    id: 100071
+    name: Beluga
+    sub_name: Beluga
+    type: 1
+    code: M16A1Arena
+    introduce: An operative of unknown origin and purpose, she appears to be one of Doss' capable new recruits. She is particularly interested in the box that the Commander is escorting and seems to know something about it.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,1004"
+    enemy_skill: "8103,8202,8301"
+    launch_time: 2035-12-31 00:00:00
+  }
+  {
+    sub_id: 100072001
+    id: 100072
+    name: Hecate
+    sub_name: Hecate
+    type: 1
+    code: HecateBoss
+    introduce: Leader of Abyss Squad under Blackgold Universal. Adept at climbing and night ops, she is intelligent, a brilliant fighter, and a fearsome troop leader in the Dark Zone.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,107"
+    enemy_skill: "10063,10064,10065,10066,10067,10068,10069"
     launch_time: 2035-12-31 00:00:00
   }
   {

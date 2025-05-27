@@ -772,6 +772,15 @@
     rank: 1
   }
   {
+    id: 143
+    type: 3
+    arg: "44"
+    code: Medal_2024ArenaBreakout
+    item_name: Light Chaser Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Butterfly Nebula". "The mist of the Dark Zone has never truly extinguished the light, for the light comes from the heavens."
+    rank: 1
+  }
+  {
     id: 146
     type: 3
     arg: "47"
@@ -15169,6 +15178,123 @@
     rank: 1
   }
   {
+    id: 2586
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_Evita
+    item_name: Complex Respiration
+    introduction: Complex Respiration
+    rank: 1
+  }
+  {
+    id: 2587
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_Hecate
+    item_name: Fatal Focus
+    introduction: Fatal Focus
+    rank: 1
+  }
+  {
+    id: 2588
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_P90
+    item_name: Phantasmal Vanguard
+    introduction: Phantasmal Vanguard
+    rank: 1
+  }
+  {
+    id: 2589
+    type: 5
+    arg: "1"
+    code: profilePic_ArenaBreakout_MDR
+    item_name: DDOS Attack Force
+    introduction: DDOS Attack Force
+    rank: 1
+  }
+  {
+    id: 2590
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_M16A1_Boss
+    item_name: Beluga Icon
+    introduction: Beluga Icon
+    rank: 1
+  }
+  {
+    id: 2591
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_01
+    item_name: Icon: Wandering Blade
+    introduction: Icon: Wandering Blade
+    rank: 1
+  }
+  {
+    id: 2592
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_02
+    item_name: Icon: Always With You
+    introduction: Icon: Always With You
+    rank: 1
+  }
+  {
+    id: 2593
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_03
+    item_name: Icon: Climber
+    introduction: Icon: Climber
+    rank: 1
+  }
+  {
+    id: 2594
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_04
+    item_name: Icon: A Trial
+    introduction: Icon: A Trial
+    rank: 1
+  }
+  {
+    id: 2595
+    type: 5
+    arg: "1"
+    code: profilePic_2024ArenaBreakout_05
+    item_name: Icon: Foreign Visitor
+    introduction: Icon: Foreign Visitor
+    rank: 1
+  }
+  {
+    id: 2596
+    type: 5
+    arg: "1"
+    code: card_2024ArenaBreakout_01
+    item_name: ID: Barrage of Chaos
+    introduction: ID: Barrage of Chaos
+    rank: 1
+  }
+  {
+    id: 2597
+    type: 5
+    arg: "1"
+    code: card_2024ArenaBreakout_02
+    item_name: ID: Gold Label 16
+    introduction: ID: Gold Label 16
+    rank: 1
+  }
+  {
+    id: 2598
+    type: 5
+    arg: "1"
+    code: cg_2024ArenaBreakout_01
+    item_name: Background: Lonely Silver Moon
+    introduction: Background: Lonely Silver Moon
+    rank: 1
+  }
+  {
     id: 2599
     type: 5
     arg: "1"
@@ -15277,6 +15403,24 @@
     rank: 1
   }
   {
+    id: 2652
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M14
+    item_name: Decisive Reinforcement
+    introduction: Decisive Reinforcement
+    rank: 1
+  }
+  {
+    id: 2653
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M14
+    item_name: ID: Catalyst of Chaos
+    introduction: ID: Catalyst of Chaos
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -15292,6 +15436,15 @@
     code: profilePic_rank6_ZastavaM21Mod
     item_name: Zas M21 Neural Upgrade Icon
     introduction: Zas M21 Neural Upgrade Icon
+    rank: 1
+  }
+  {
+    id: 3503
+    type: 5
+    arg: "1"
+    code: profilePic_rank5_CR21Mod
+    item_name: CR-21 Neural Upgrade Icon
+    introduction: CR-21 Neural Upgrade Icon
     rank: 1
   }
   {
@@ -16295,6 +16448,156 @@
     is_hide_info: 1
   }
   {
+    id: 9301
+    type: 1
+    arg: "9301"
+    code: intelligence1
+    item_name: A Tidy Medical Kit
+    introduction:
+      '''
+      >>>>A tidy medical kit.
+      This medkit looks very familiar. You seem to recall seeing it many times at Evita's.
+      Most people bought something that ended up saving their lives from Evita when they first came to the Dark Zone.
+      First-aid kits, painkillers, sets of surgical tools... Medical supplies are just like weapons—you get what you pay for, right?
+      This medkit is so tidy and well-maintained, it looks as if it had never been used.
+      That's the sign of a good doctor.
+      '''
+    rank: 1
+  }
+  {
+    id: 9302
+    type: 1
+    arg: "9302"
+    code: intelligence2
+    item_name: A Garbled Audio Recording
+    introduction:
+      '''
+      >>>>A garbled audio recording of locals murmuring in fragmented conversation.
+      "Those... (static) ...fell for it. They're all gone!"
+      "It doesn't matter if it's Coren or Tvera—none of them are any good. They've all got their eyes on us!"
+      "...Isn't there anyone decent left?"
+      "That doctor..."
+      "Her? Hahaha, if you ask me..."
+      "You should be careful too, that... (static) ...Evita... isn't exactly... (static) ..."
+      >>>>End of Recording.
+      '''
+    rank: 1
+  }
+  {
+    id: 9303
+    type: 1
+    arg: "9303"
+    code: intelligence3
+    item_name: An Old Compass
+    introduction:
+      '''
+      >>>>An old compass.
+      It is not for military use and is not very accurate. Even though it has been carefully preserved, the paint on the outer shell has peeled off.
+      If this is a keepsake carried by somebody famous, it may fetch a pretty price on the market.
+      But no matter how you look at it, it is just an ordinary old thing.
+      You wonder whose hands had held it and to what place it had guided them.
+      '''
+    rank: 1
+  }
+  {
+    id: 9304
+    type: 1
+    arg: "9304"
+    code: intelligence4
+    item_name: A Worn, Ancient Gold Coin
+    introduction:
+      '''
+      >>>>A worn, ancient gold coin.
+      Most currencies are made of hard-wearing materials, but this one is simply too ancient.
+      Worn down by the passage of time, the patterns and inscriptions on the gold coin have faded, its edges are chipped and imperfect.
+      Doss often tosses and catches the ancient coin, as if trying to grasp something through it...
+      And when you hold it in your hand, what do you feel?,The lure of power? The echoes of history? Or simply—this thing must be worth a fortune?
+      '''
+    rank: 1
+  }
+  {
+    id: 9305
+    type: 1
+    arg: "9305"
+    code: intelligence5
+    item_name: A Dried Rose
+    introduction:
+      '''
+      >>>>A dried rose.
+      People say this valley used to be a hub for the flower trade.
+      Many have heard of Doss' floral business, which is said to revolve mainly around romantic roses.
+      There must be a massive market for flowers in Kamona for the Antonio family's trade to have grown so large.
+      Through the exchange of flowers and plants—along with some well-placed connections—they've come close to controlling the entire valley...
+      If given the chance, one should really take a stroll through his flower fields.
+      '''
+    rank: 1
+  }
+  {
+    id: 9306
+    type: 1
+    arg: "9306"
+    code: intelligence6
+    item_name: A Box of 5.56×45mm M955 Armor-Piercing Rounds
+    introduction:
+      '''
+      >>>>A box of 5.56×45mm M955 armor-piercing rounds.
+      When venturing into the Dark Zone, weapons and ammunition are absolute necessities.
+      And who could refuse good bullets?
+      Penetration, accuracy, and, of course, cost-effectiveness—all are key factors to consider.
+      As for this particular batch, it seems to have been specially prepared for someone's beloved firearm.
+      Will you claim it for yourself or leave it for this rare "friend"? Either choice would be understandable.
+      But if it were the "Commander" making the decision...
+      '''
+    rank: 1
+  }
+  {
+    id: 9307
+    type: 1
+    arg: "9307"
+    code: intelligence7
+    item_name: A Well-Maintained Carabiner
+    introduction:
+      '''
+      >>>>A well-maintained carabiner.
+      Anyone familiar with Hecate knows that this carabiner is her treasured possession.
+      Everyone carries secrets from their past, but Hecate has never tried to hide hers.
+      Climbing and mountaineering are both her passions and her personal badge of honor.
+      Grasping every opportunity tightly and climbing tirelessly upward—that's just who she is.
+      '''
+    rank: 1
+  }
+  {
+    id: 9308
+    type: 1
+    arg: "9308"
+    code: intelligence8
+    item_name: A Hand-Drawn Map of the Dark Zone
+    introduction:
+      '''
+      >>>>A hand-drawn map of the Dark Zone.
+      This map has seen some years. Though the paper remains intact, it has been altered multiple times with markings in different colors.
+      In Kamona, both Blackgold Universal and White Wolf Squad have their own forces entrenched in the Dark Zone.
+      These territories have changed hands many times, with those in power sometimes engaging in fierce conflict, sometimes forming uneasy alliances.
+      Until the very last moment, no one can predict how many more times the name of the "owner" on this map will be rewritten...
+      '''
+    rank: 1
+  }
+  {
+    id: 9309
+    type: 1
+    arg: "9309"
+    code: intelligence9
+    item_name: A Damaged Dog Tag
+    introduction:
+      '''
+      >>>>A damaged dog tag.
+      This military dog tag has been severely damaged—pierced by bullet holes, its inscriptions barely legible.
+      Normally, a small metal plate like this would contain essential details about its owner—name, blood type, service number, and even their hometown—all condensed into just a few short lines...
+      The design and material seem strangely familiar. You must have seen something like it before.
+      '''
+    rank: 1
+  }
+  {
     id: 10603
     type: 1
     arg: "1"
@@ -16544,6 +16847,15 @@
     code: gift_bundle_BattlePass_06TypeSMG
     item_name: Simmering Memories
     introduction: Commander! Look, I've finally found a friend who can have hotpot with me while sharing the Whirlwind Inferno Mala soup base! This friend doesn't say much, but I love the way they eat! The bill? We'll talk about that after we finish~
+    rank: 1
+  }
+  {
+    id: 30027
+    type: 1
+    arg: "30027"
+    code: gift_bundle_BattlePass_M14
+    item_name: Decisive Reinforcement
+    introduction: Breach complete! Heheh, M14 helped out, right? Huh? Was it too loud?
     rank: 1
   }
   {
@@ -18330,6 +18642,34 @@
     item_name: Corrupted Heart Mask - Isolation Forest
     introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
     rank: 1
+  }
+  {
+    id: 100245
+    type: 4
+    arg: "100245"
+    code: Nova_medal_black
+    item_name: Nova Medal - Butterfly Nebula
+    introduction: Nova Medal - Butterfly Nebula
+    rank: 1
+  }
+  {
+    id: 100246
+    type: 4
+    arg: "100246"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - Butterfly Nebula
+    introduction: Platinum Medal - Butterfly Nebula
+    rank: 1
+  }
+  {
+    id: 100247
+    type: 9
+    arg: "100247"
+    code: Coin_202411LorenzButterfly
+    item_name: Koen
+    introduction: The currency in circulation in the Dark Zone. Recognized both officially and on the black market.
+    rank: 1
+    daily_limit: 60;180
   }
   {
     id: 100258
@@ -20799,6 +21139,26 @@
     detail_introduction: item-30140052
   }
   {
+    id: 140053
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140053
+    introduction: item-20140053
+    rank: 1
+    detail_introduction: item-30140053
+  }
+  {
+    id: 140054
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140054
+    introduction: item-20140054
+    rank: 1
+    detail_introduction: item-30140054
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21240,6 +21600,15 @@
     code: profileFrame_BattlePass_06TypeSMG
     item_name: Icon Frame - Bliss From the Tip of the Tongue
     introduction: Icon Frame - Bliss From the Tip of the Tongue
+    rank: 1
+  }
+  {
+    id: 200052
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M14
+    item_name: Icon Frame - Skyborne Sentinel
+    introduction: Icon Frame - Skyborne Sentinel
     rank: 1
   }
   {
@@ -23400,6 +23769,50 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Hot and Spicy Winter, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500193
+    type: 15
+    arg: "1500193"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Smoke and Light. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500194
+    type: 15
+    arg: "1500194"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Smoke and Light. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500195
+    type: 15
+    arg: "1500195"
+    code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Smoke and Light. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500196
+    type: 15
+    arg: "1500196"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Smoke and Light. Obtain a random item from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1

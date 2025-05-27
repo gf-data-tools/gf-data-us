@@ -7740,6 +7740,7 @@
   {
     id: 13321
     type: 3
+    name: Doss' Bodyguard
     enemy_info: 多斯保镖-AR
     code: Guard1Breakout
     maxlife: 1140
@@ -7764,6 +7765,7 @@
   {
     id: 13322
     type: 3
+    name: Doss' Bodyguard
     enemy_info: 多斯保镖-RF
     code: Guard2Breakout
     maxlife: 600
@@ -7789,6 +7791,7 @@
   {
     id: 13323
     type: 3
+    name: Doss' Bodyguard
     enemy_info: 多斯保镖-SG
     code: Guard3Breakout
     maxlife: 1320
@@ -7814,6 +7817,7 @@
   {
     id: 13324
     type: 3
+    name: Blackgold Operative
     enemy_info: 黑金队员-AR
     code: BG1Breakout
     maxlife: 850
@@ -7838,6 +7842,7 @@
   {
     id: 13325
     type: 3
+    name: Blackgold Operative
     enemy_info: 黑金队员-SMG
     code: BG2Breakout
     maxlife: 1350
@@ -7862,6 +7867,7 @@
   {
     id: 13326
     type: 3
+    name: Blackgold Operative
     enemy_info: 黑金队员-RF
     code: BG3Breakout
     maxlife: 650
@@ -7887,6 +7893,7 @@
   {
     id: 13327
     type: 3
+    name: Doss' Assassin
     enemy_info: 伪装的多斯保镖
     code: DisGuardBreakout
     maxlife: 1050
@@ -7912,6 +7919,7 @@
   {
     id: 13328
     type: 3
+    name: Special Operative
     enemy_info: 伪装的黑金队员
     code: DisBGBreakout
     maxlife: 1050
@@ -7937,6 +7945,7 @@
   {
     id: 13329
     type: 3
+    name: Doss' Elite Bodyguard
     enemy_info: 精英多斯保镖
     code: EliteGuardBreakout
     maxlife: 23000
@@ -7961,6 +7970,7 @@
   {
     id: 13330
     type: 3
+    name: Blackgold Elite Operative
     enemy_info: 精英黑金队员
     code: EliteBGBreakout
     maxlife: 23000
@@ -9409,6 +9419,7 @@
   {
     id: 17001
     type: 4
+    name: Hydra
     enemy_info: 绿无敌-装甲突击34
     code: Hydra
     maxlife: 15000
@@ -9422,6 +9433,7 @@
     rate: 42
     def: 99999
     level: 100
+    character: Fully Armed, Precision Targeting, Invincible
     normal_attack: 402601
     passive_skill: "200303,200304,402602,119020,770043"
     effect_ratio: 1.25
@@ -24964,6 +24976,7 @@
   {
     id: 900841
     type: 1
+    name: Doss
     enemy_info: 多斯70
     code: DosBreakout
     maxlife: 46000
@@ -24990,6 +25003,7 @@
   {
     id: 900842
     type: 1
+    name: Doss
     enemy_info: 多斯100
     code: DosBreakout
     maxlife: 260000
@@ -25016,6 +25030,7 @@
   {
     id: 900843
     type: 1
+    name: Beluga
     enemy_info: M16-大将军70
     code: M16A1Arena
     maxlife: 32000
@@ -25044,6 +25059,7 @@
   {
     id: 900844
     type: 1
+    name: Beluga
     enemy_info: M16-大将军100
     code: M16A1Arena
     maxlife: 220000
@@ -25072,6 +25088,7 @@
   {
     id: 900845
     type: 1
+    name: Hecate
     enemy_info: 黑卡蒂80
     code: HecateBoss
     maxlife: 52000
@@ -25098,6 +25115,7 @@
   {
     id: 900846
     type: 1
+    name: Hecate
     enemy_info: 黑卡蒂110
     code: HecateBoss
     maxlife: 320000
@@ -25124,6 +25142,7 @@
   {
     id: 900851
     type: 1
+    name: Styx
     enemy_info: 斯提克斯70（半血撤退）
     code: StyxBoss
     maxlife: 38000
@@ -25138,6 +25157,7 @@
     boss_hp: 38000
     def: 800
     level: 100
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042,755187"
     effect_ratio: 1.1
@@ -25150,6 +25170,7 @@
   {
     id: 900852
     type: 1
+    name: Styx
     enemy_info: 斯提克斯120（半血撤退）
     code: StyxBoss
     maxlife: 320000
@@ -25164,6 +25185,7 @@
     boss_hp: 320000
     def: 4000
     level: 100
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042,755187"
     effect_ratio: 1.1
@@ -25176,6 +25198,7 @@
   {
     id: 900853
     type: 1
+    name: Styx
     enemy_info: 斯提克斯80
     code: StyxBoss
     maxlife: 45000
@@ -25190,6 +25213,7 @@
     boss_hp: 45000
     def: 800
     level: 100
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
     effect_ratio: 1.1
@@ -25202,6 +25226,7 @@
   {
     id: 900854
     type: 1
+    name: Styx
     enemy_info: 斯提克斯130
     code: StyxBoss
     maxlife: 380000
@@ -25216,6 +25241,7 @@
     boss_hp: 380000
     def: 5000
     level: 100
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
     effect_ratio: 1.1
@@ -25228,6 +25254,7 @@
   {
     id: 900855
     type: 1
+    name: Hebe
     enemy_info: 赫柏30级（半血撤退）
     code: HebeBoss
     maxlife: 22000
@@ -25242,6 +25269,7 @@
     boss_hp: 22000
     def: 400
     level: 100
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042,755187"
     effect_ratio: 1
@@ -25254,6 +25282,7 @@
   {
     id: 900856
     type: 1
+    name: Hebe
     enemy_info: 赫柏100级（半血撤退）
     code: HebeBoss
     maxlife: 165000
@@ -25268,6 +25297,7 @@
     boss_hp: 165000
     def: 2000
     level: 100
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042,755187"
     effect_ratio: 1
@@ -25280,6 +25310,7 @@
   {
     id: 900857
     type: 1
+    name: Hebe
     enemy_info: 赫柏70级
     code: HebeBoss
     maxlife: 75000
@@ -25294,6 +25325,7 @@
     boss_hp: 75000
     def: 800
     level: 100
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
     effect_ratio: 1
@@ -25306,6 +25338,7 @@
   {
     id: 900858
     type: 1
+    name: Hebe
     enemy_info: 赫柏120级
     code: HebeBoss
     maxlife: 270000
@@ -25320,6 +25353,7 @@
     boss_hp: 270000
     def: 4000
     level: 100
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
     effect_ratio: 1
@@ -25332,6 +25366,7 @@
   {
     id: 900859
     type: 1
+    name: Nemhran
     enemy_info: 尼梅兰30
     code: Nimeylan
     maxlife: 22000
@@ -25347,6 +25382,7 @@
     boss_hp: 22000
     def: 800
     level: 100
+    character: Elite
     normal_attack: 755167
     passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029,770042"
     effect_ratio: 1
@@ -25359,6 +25395,7 @@
   {
     id: 900860
     type: 1
+    name: Nemhran
     enemy_info: 尼梅兰100
     code: Nimeylan
     maxlife: 125000
@@ -25374,6 +25411,7 @@
     boss_hp: 125000
     def: 1200
     level: 100
+    character: Elite
     normal_attack: 755167
     passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,119029,770042"
     effect_ratio: 1
@@ -25386,6 +25424,7 @@
   {
     id: 900861
     type: 1
+    name: Morridow
     enemy_info: 默莉朵80级
     code: Morridow
     maxlife: 9000
@@ -25400,6 +25439,7 @@
     boss_hp: 9000
     def: 800
     level: 100
+    character: Elite, Weaken, Certain Death
     normal_attack: 900107
     passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
     effect_ratio: 1
@@ -25412,6 +25452,7 @@
   {
     id: 900862
     type: 1
+    name: Morridow
     enemy_info: 默莉朵130
     code: Morridow
     maxlife: 36000
@@ -25426,6 +25467,7 @@
     boss_hp: 36000
     def: 5000
     level: 100
+    character: Elite, Weaken, Certain Death
     normal_attack: 900107
     passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
     effect_ratio: 1
@@ -25438,6 +25480,7 @@
   {
     id: 900863
     type: 1
+    name: Styx
     enemy_info: 斯提克斯【秃洞150】
     code: StyxBoss
     maxlife: 560000
@@ -25452,6 +25495,7 @@
     boss_hp: 560000
     def: 6000
     level: 100
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
     effect_ratio: 1.1
@@ -25464,6 +25508,7 @@
   {
     id: 900864
     type: 1
+    name: Hebe
     enemy_info: 赫柏【秃洞135】
     code: HebeBoss
     maxlife: 370000
@@ -25478,6 +25523,7 @@
     boss_hp: 370000
     def: 4000
     level: 100
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
     effect_ratio: 1
@@ -25490,6 +25536,7 @@
   {
     id: 900865
     type: 1
+    name: Nemhran
     enemy_info: 尼梅兰【秃洞135】
     code: Nimeylan
     maxlife: 420000
@@ -25505,6 +25552,7 @@
     boss_hp: 420000
     def: 7000
     level: 100
+    character: Elite
     normal_attack: 755167
     passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,770042"
     effect_ratio: 1
@@ -25517,6 +25565,7 @@
   {
     id: 900866
     type: 1
+    name: Bramedb
     enemy_info: 布拉梅德【秃洞120】
     code: Bramede
     maxlife: 180000
@@ -25532,6 +25581,7 @@
     boss_hp: 180000
     def: 4000
     level: 100
+    character: Elite, Summoner, Stealer
     normal_attack: 117701
     passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042,450100"
     effect_ratio: 1
@@ -25545,6 +25595,7 @@
   {
     id: 900867
     type: 1
+    name: Morridow
     enemy_info: 默莉朵【秃洞100】
     code: Morridow
     maxlife: 32000
@@ -25559,6 +25610,7 @@
     boss_hp: 32000
     def: 1200
     level: 100
+    character: Elite, Weaken, Certain Death
     normal_attack: 900107
     passive_skill: "902325,902326,902327,902328,902329,902330,119029,407302,770042"
     effect_ratio: 1
