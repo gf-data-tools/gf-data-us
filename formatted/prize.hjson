@@ -26405,6 +26405,62 @@
     icon: Medal_Chess
   }
   {
+    id: 10778
+    name: Major
+    user_exp: 30
+    item_ids: 106-5,2357-1,200008-1
+    content: Congratulations on achieving the rank of Major in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*5, Commander EXP*30, Icon "Anchored Thoughts", Icon Frame - Fuse of Victory
+    icon: Medal_Chess
+  }
+  {
+    id: 10779
+    name: Lieutenant Colonel
+    user_exp: 60
+    item_ids: 106-10
+    content: Congratulations on achieving the rank of Lieutenant Colonel in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*10, Commander EXP*60
+    icon: Medal_Chess
+  }
+  {
+    id: 10780
+    name: Colonel
+    user_exp: 100
+    item_ids: 106-20
+    content: Congratulations on achieving the rank of Colonel in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*20, Commander EXP*100
+    icon: Medal_Chess
+  }
+  {
+    id: 10781
+    name: Major General
+    user_exp: 200
+    item_ids: 106-30,2358-1,200007-1
+    content: Congratulations on achieving the rank of Major General in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*30, Commander EXP*200, Icon "Bridging Vision", Icon Frame - Stratagem
+    icon: Medal_Chess
+  }
+  {
+    id: 10782
+    name: Lieutenant General
+    user_exp: 500
+    item_ids: 106-40
+    content: Congratulations on achieving the rank of Lieutenant General in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*40, Commander EXP*500
+    icon: Medal_Chess
+  }
+  {
+    id: 10783
+    name: General
+    user_exp: 1000
+    item_ids: 106-50
+    content: Congratulations on achieving the rank of General in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*50, Commander EXP*1000
+    icon: Medal_Chess
+  }
+  {
+    id: 10784
+    name: Field Marshal
+    user_exp: 2000
+    item_ids: 106-60,2359-1,200006-1
+    content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Empathetic Vow", Icon Frame - Good Omen
+    icon: Medal_Chess
+  }
+  {
     id: 11000
     name: I Need an Empty Coat Rack
     user_exp: 30
@@ -48587,6 +48643,30 @@
     commander_uniform: "5152"
   }
   {
+    id: 95411
+    name: Polar Wanderer&Shadow in the Valley&Storm in the Dunes
+    icon: chessgahsa_95411
+    commander_uniform: "5411,5431,5451"
+  }
+  {
+    id: 95412
+    name: Perfect Traveler&Searcher of Ruins&Stillness in the Jungle
+    icon: chessgahsa_95412
+    commander_uniform: "5412,5432,5452"
+  }
+  {
+    id: 95420
+    name: Protector from the Sun&Temporal Navigator
+    icon: chessgahsa_95420
+    commander_uniform: "5420,5440"
+  }
+  {
+    id: 95451
+    name: Retrograde Livewire
+    item_ids: 130021-1
+    icon: chessgahsa_95451
+  }
+  {
     id: 95711
     name: prize-10095711
     content: prize-20095711
@@ -57782,6 +57862,231 @@
     name: prize-10220552
     gun_id: "207"
     content: prize-20220552
+  }
+  {
+    id: 220553
+    name: prize-10220553
+    gift: 902-1
+    content: prize-20220553
+  }
+  {
+    id: 220554
+    name: prize-10220554
+    gift: 2206-1
+    content: prize-20220554
+  }
+  {
+    id: 220555
+    name: prize-10220555
+    gift: 2204-1
+    content: prize-20220555
+  }
+  {
+    id: 220556
+    name: prize-10220556
+    gift: 3405-1
+    content: prize-20220556
+  }
+  {
+    id: 220557
+    name: prize-10220557
+    gift: 3406-1
+    content: prize-20220557
+  }
+  {
+    id: 220558
+    name: prize-10220558
+    gift: 4607-1
+    content: prize-20220558
+  }
+  {
+    id: 220559
+    name: prize-10220559
+    gift: 4606-1
+    content: prize-20220559
+  }
+  {
+    id: 220560
+    name: prize-10220560
+    gift: 5905-1
+    content: prize-20220560
+  }
+  {
+    id: 220561
+    name: prize-10220561
+    gift: 5907-1
+    content: prize-20220561
+  }
+  {
+    id: 220562
+    name: prize-10220562
+    gift: 5906-1
+    content: prize-20220562
+  }
+  {
+    id: 220563
+    name: prize-10220563
+    gift: 5908-1
+    content: prize-20220563
+  }
+  {
+    id: 220564
+    name: prize-10220564
+    gift: 7204-1
+    content: prize-20220564
+  }
+  {
+    id: 220565
+    name: prize-10220565
+    gift: 7206-1
+    content: prize-20220565
+  }
+  {
+    id: 220566
+    name: prize-10220566
+    gift: 901-1
+    content: prize-20220566
+  }
+  {
+    id: 220567
+    name: prize-10220567
+    gift: 903-1
+    content: prize-20220567
+  }
+  {
+    id: 220568
+    name: prize-10220568
+    gift: 904-1
+    content: prize-20220568
+  }
+  {
+    id: 220569
+    name: prize-10220569
+    gift: 905-1
+    content: prize-20220569
+  }
+  {
+    id: 220570
+    name: prize-10220570
+    gift: 2201-1
+    content: prize-20220570
+  }
+  {
+    id: 220571
+    name: prize-10220571
+    gift: 2202-1
+    content: prize-20220571
+  }
+  {
+    id: 220572
+    name: prize-10220572
+    gift: 2205-1
+    content: prize-20220572
+  }
+  {
+    id: 220573
+    name: prize-10220573
+    gift: 3403-1
+    content: prize-20220573
+  }
+  {
+    id: 220574
+    name: prize-10220574
+    gift: 3404-1
+    content: prize-20220574
+  }
+  {
+    id: 220575
+    name: prize-10220575
+    gift: 3402-1
+    content: prize-20220575
+  }
+  {
+    id: 220576
+    name: prize-10220576
+    gift: 4602-1
+    content: prize-20220576
+  }
+  {
+    id: 220577
+    name: prize-10220577
+    gift: 4603-1
+    content: prize-20220577
+  }
+  {
+    id: 220578
+    name: prize-10220578
+    gift: 4604-1
+    content: prize-20220578
+  }
+  {
+    id: 220579
+    name: prize-10220579
+    gift: 4605-1
+    content: prize-20220579
+  }
+  {
+    id: 220580
+    name: prize-10220580
+    gift: 5904-1
+    content: prize-20220580
+  }
+  {
+    id: 220581
+    name: prize-10220581
+    gift: 5903-1
+    content: prize-20220581
+  }
+  {
+    id: 220582
+    name: prize-10220582
+    gift: 5902-1
+    content: prize-20220582
+  }
+  {
+    id: 220583
+    name: prize-10220583
+    gift: 7203-1
+    content: prize-20220583
+  }
+  {
+    id: 220584
+    name: prize-10220584
+    gift: 7205-1
+    content: prize-20220584
+  }
+  {
+    id: 220585
+    name: prize-10220585
+    gift: 7201-1
+    content: prize-20220585
+  }
+  {
+    id: 220586
+    name: prize-10220586
+    gift: 2203-1,3401-1,4601-1,5901-1,7202-1
+    content: prize-20220586
+  }
+  {
+    id: 220587
+    name: prize-10220587
+    item_ids: 9000016-1
+    content: prize-20220587
+    icon: Bumdle_ChildrenDayCoupons1
+  }
+  {
+    id: 220588
+    name: prize-10220588
+    item_ids: 9000017-1
+    content: prize-20220588
+    icon: Bumdle_ChildrenDayCoupons2
+  }
+  {
+    id: 220589
+    name: prize-10220589
+    item_ids: 9000018-1
+    content: prize-20220589
+    icon: Bumdle_ChildrenDayCoupons3
   }
   {
     id: 330248
