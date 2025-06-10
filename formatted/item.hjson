@@ -16859,6 +16859,15 @@
     rank: 1
   }
   {
+    id: 10721
+    type: 18
+    arg: "10721"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -24302,6 +24311,39 @@
     id: 1700039
     type: 15
     arg: "1700039"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700040
+    type: 15
+    arg: "1700040"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700041
+    type: 15
+    arg: "1700041"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700042
+    type: 15
+    arg: "1700042"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
