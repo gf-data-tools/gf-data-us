@@ -34910,7 +34910,7 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11100301
+    name: Standby
   }
   {
     id: 1100302
@@ -34920,7 +34920,7 @@
     probability: 0.5
     voice: GUN|MK3A1|FIX
     text: GUN|MK3A1|FIX
-    name: live2d_motions-11100302
+    name: Standby(Special) 1
     camera: 1
     delay: 1000
     voice_code: FIX
@@ -34933,7 +34933,7 @@
     probability: 0.5
     voice: GUN|MK3A1|LOWMOOD
     text: GUN|MK3A1|LOWMOOD
-    name: live2d_motions-11100303
+    name: Standby(Special) 2
     camera: 1
     delay: 5000
     voice_code: LOWMOOD
@@ -34946,7 +34946,7 @@
     probability: 1
     voice: GUN|MK3A1|SKILL2
     text: GUN|MK3A1|SKILL2
-    name: live2d_motions-11100304
+    name: Interaction 1
     camera: 1
     voice_code: SKILL2
   }
@@ -34958,7 +34958,7 @@
     probability: 1
     voice: GUN|MK3A1|GOATTACK
     text: GUN|MK3A1|GOATTACK
-    name: live2d_motions-11100305
+    name: Interaction 2
     camera: 1
     voice_code: GOATTACK
   }
@@ -34970,7 +34970,7 @@
     probability: 1
     voice: GUN|MK3A1|MEET
     text: GUN|MK3A1|MEET
-    name: live2d_motions-11100306
+    name: Interaction 3
     camera: 1
     delay: 3000
     voice_code: MEET
@@ -34983,7 +34983,7 @@
     probability: 1
     voice: GUN|MK3A1|LOADING
     text: GUN|MK3A1|LOADING
-    name: live2d_motions-11100307
+    name: Interaction 4
     camera: 1
     delay: 1000
     voice_code: LOADING
@@ -34996,7 +34996,7 @@
     probability: 1
     voice: GUN|MK3A1|ATTACK
     text: GUN|MK3A1|ATTACK
-    name: live2d_motions-11100308
+    name: Interaction 5
     camera: 1
     delay: 1000
     voice_code: ATTACK
@@ -35009,7 +35009,7 @@
     probability: 1
     voice: GUN|MK3A1|DIALOGUEWEDDING
     text: GUN|MK3A1|DIALOGUEWEDDING
-    name: live2d_motions-11100309
+    name: Post-Oath
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -35020,7 +35020,7 @@
     probability: 1
     voice: GUN|MK3A1|BREAK
     text: GUN|MK3A1|BREAK
-    name: live2d_motions-11100310
+    name: Login
     camera: 1
     delay: 1000
     voice_code: BREAK
@@ -35031,7 +35031,7 @@
     motion_name: shake.mtn
     probability: 1
     voice: GUN|MK3A1|MOOD2
-    name: live2d_motions-11100311
+    name: Shaking
     camera: 1
     voice_code: MOOD2
   }
@@ -35042,7 +35042,7 @@
     probability: 1
     voice: GUN|MK3A1|SOULCONTRACT
     text: GUN|MK3A1|SOULCONTRACT
-    name: live2d_motions-11100312
+    name: Oath Scene
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -35051,7 +35051,7 @@
     type: 401
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11100313
+    name: Standby
     is_hurt: 1
   }
   {
@@ -35062,7 +35062,7 @@
     probability: 1
     voice: GUN|MK3A1|OPERATIONBEGIN
     text: GUN|MK3A1|OPERATIONBEGIN
-    name: live2d_motions-11100314
+    name: Interaction 1
     camera: 1
     is_hurt: 1
     voice_code: OPERATIONBEGIN
@@ -35075,7 +35075,7 @@
     probability: 1
     voice: GUN|MK3A1|TIP
     text: GUN|MK3A1|TIP
-    name: live2d_motions-11100315
+    name: Interaction 2
     camera: 1
     is_hurt: 1
     voice_code: TIP
@@ -35088,7 +35088,7 @@
     probability: 1
     voice: GUN|MK3A1|BREAK
     text: GUN|MK3A1|BREAK
-    name: live2d_motions-11100316
+    name: Interaction 3
     camera: 1
     is_hurt: 1
     voice_code: BREAK
@@ -35101,7 +35101,7 @@
     probability: 1
     voice: GUN|MK3A1|SKILL1
     text: GUN|MK3A1|SKILL1
-    name: live2d_motions-11100317
+    name: Interaction 4
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -35115,7 +35115,7 @@
     probability: 1
     voice: GUN|MK3A1|FEED
     text: GUN|MK3A1|FEED
-    name: live2d_motions-11100318
+    name: Interaction 5
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -35128,7 +35128,7 @@
     probability: 1
     voice: GUN|MK3A1|LOADING
     text: GUN|MK3A1|LOADING
-    name: live2d_motions-11100319
+    name: Login
     camera: 1
     is_hurt: 1
     delay: 2000
@@ -35139,7 +35139,7 @@
     type: 301
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11100320
+    name: Shaking
     camera: 1
     is_hurt: 1
   }
@@ -35148,7 +35148,7 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11110101
+    name: Standby
   }
   {
     id: 1110102
@@ -35156,7 +35156,7 @@
     motion_name: wait_1.mtn
     hold_time: "13,15"
     probability: 0.5
-    name: live2d_motions-11110102
+    name: Standby(Special) 1
     camera: 1
   }
   {
@@ -35165,7 +35165,7 @@
     motion_name: wait_2.mtn
     hold_time: "23,25"
     probability: 0.5
-    name: live2d_motions-11110103
+    name: Standby(Special) 2
     camera: 1
   }
   {
@@ -35176,7 +35176,7 @@
     probability: 1
     voice: GUN|Erma|DIALOGUE2
     text: GUN|Erma|DIALOGUE2
-    name: live2d_motions-11110104
+    name: Interaction 1
     camera: 1
     voice_code: DIALOGUE2
   }
@@ -35188,7 +35188,7 @@
     probability: 1
     voice: GUN|Erma|HELLO
     text: GUN|Erma|HELLO
-    name: live2d_motions-11110105
+    name: Interaction 2
     camera: 1
     voice_code: HELLO
   }
@@ -35200,7 +35200,7 @@
     probability: 1
     voice: GUN|Erma|BREAK
     text: GUN|Erma|BREAK
-    name: live2d_motions-11110106
+    name: Interaction 3
     camera: 1
     voice_code: BREAK
   }
@@ -35212,7 +35212,7 @@
     probability: 1
     voice: GUN|Erma|OPERATIONBEGIN
     text: GUN|Erma|OPERATIONBEGIN
-    name: live2d_motions-11110107
+    name: Interaction 4
     camera: 1
     voice_code: OPERATIONBEGIN
   }
@@ -35224,7 +35224,7 @@
     probability: 1
     voice: GUN|Erma|OPERATIONOVER
     text: GUN|Erma|OPERATIONOVER
-    name: live2d_motions-11110108
+    name: Interaction 5
     camera: 1
     voice_code: OPERATIONOVER
   }
@@ -35236,7 +35236,7 @@
     probability: 1
     voice: GUN|Erma|DIALOGUEWEDDING
     text: GUN|Erma|DIALOGUEWEDDING
-    name: live2d_motions-11110109
+    name: Post-Oath
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -35247,7 +35247,7 @@
     probability: 1
     voice: GUN|Erma|CHRISTMAS
     text: GUN|Erma|CHRISTMAS
-    name: live2d_motions-11110110
+    name: Login
     camera: 1
     voice_code: CHRISTMAS
   }
@@ -35256,7 +35256,7 @@
     type: 300
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11110111
+    name: Shaking
     camera: 1
   }
   {
@@ -35266,7 +35266,7 @@
     probability: 1
     voice: GUN|Erma|SOULCONTRACT
     text: GUN|Erma|SOULCONTRACT
-    name: live2d_motions-11110112
+    name: Oath Scene
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -35275,7 +35275,7 @@
     type: 401
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11110113
+    name: Standby
     is_hurt: 1
   }
   {
@@ -35286,7 +35286,7 @@
     probability: 1
     voice: GUN|Erma|CHRISTMAS
     text: GUN|Erma|CHRISTMAS
-    name: live2d_motions-11110114
+    name: Interaction 1
     camera: 1
     is_hurt: 1
     voice_code: CHRISTMAS
@@ -35299,7 +35299,7 @@
     probability: 1
     voice: GUN|Erma|BREAK
     text: GUN|Erma|BREAK
-    name: live2d_motions-11110115
+    name: Interaction 2
     camera: 1
     is_hurt: 1
     voice_code: BREAK
@@ -35312,7 +35312,7 @@
     probability: 1
     voice: GUN|Erma|PHRASE
     text: GUN|Erma|PHRASE
-    name: live2d_motions-11110116
+    name: Interaction 3
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -35326,7 +35326,7 @@
     probability: 1
     voice: GUN|Erma|MEET
     text: GUN|Erma|MEET
-    name: live2d_motions-11110117
+    name: Interaction 4
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -35340,7 +35340,7 @@
     probability: 1
     voice: GUN|Erma|LOWMOOD
     text: GUN|Erma|LOWMOOD
-    name: live2d_motions-11110118
+    name: Interaction 5
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -35353,7 +35353,7 @@
     probability: 1
     voice: GUN|Erma|HELLO
     text: GUN|Erma|HELLO
-    name: live2d_motions-11110119
+    name: Login
     camera: 1
     is_hurt: 1
     delay: 1000
@@ -35366,7 +35366,7 @@
     probability: 1
     voice: GUN|Erma|AGREE
     text: GUN|Erma|AGREE
-    name: live2d_motions-11110120
+    name: Shaking
     camera: 1
     is_hurt: 1
     voice_code: AGREE
@@ -35376,7 +35376,7 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11120101
+    name: Standby
   }
   {
     id: 1120102
@@ -35384,7 +35384,7 @@
     motion_name: wait_1.mtn
     hold_time: "13,15"
     probability: 0.5
-    name: live2d_motions-11120102
+    name: Standby(Special) 1
     camera: 1
   }
   {
@@ -35393,7 +35393,7 @@
     motion_name: wait_2.mtn
     hold_time: "23,25"
     probability: 0.5
-    name: live2d_motions-11120103
+    name: Standby(Special) 2
     camera: 1
   }
   {
@@ -35404,7 +35404,7 @@
     probability: 1
     voice: GUN|SPAS15|FORMATION
     text: GUN|SPAS15|FORMATION
-    name: live2d_motions-11120104
+    name: Interaction 1
     camera: 1
     voice_code: FORMATION
   }
@@ -35416,7 +35416,7 @@
     probability: 1
     voice: GUN|SPAS15|BREAK
     text: GUN|SPAS15|BREAK
-    name: live2d_motions-11120105
+    name: Interaction 2
     camera: 1
     delay: 1000
     voice_code: BREAK
@@ -35429,7 +35429,7 @@
     probability: 1
     voice: GUN|SPAS15|FIX
     text: GUN|SPAS15|FIX
-    name: live2d_motions-11120106
+    name: Interaction 3
     camera: 1
     voice_code: FIX
   }
@@ -35441,7 +35441,7 @@
     probability: 1
     voice: GUN|SPAS15|LOADING
     text: GUN|SPAS15|LOADING
-    name: live2d_motions-11120107
+    name: Interaction 4
     camera: 1
     voice_code: LOADING
   }
@@ -35452,7 +35452,7 @@
     touch_area: head
     probability: 1
     voice: GUN|SPAS15|MOOD1
-    name: live2d_motions-11120108
+    name: Interaction 5
     camera: 1
     delay: 300
     voice_code: MOOD1
@@ -35465,7 +35465,7 @@
     probability: 1
     voice: GUN|SPAS15|DIALOGUEWEDDING
     text: GUN|SPAS15|DIALOGUEWEDDING
-    name: live2d_motions-11120109
+    name: Post-Oath
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -35476,7 +35476,7 @@
     probability: 1
     voice: GUN|SPAS15|HELLO
     text: GUN|SPAS15|HELLO
-    name: live2d_motions-11120110
+    name: Login
     camera: 1
     voice_code: HELLO
   }
@@ -35486,7 +35486,7 @@
     motion_name: shake.mtn
     probability: 1
     voice: GUN|SPAS15|LOWMOOD
-    name: live2d_motions-11120111
+    name: Shaking
     camera: 1
     voice_code: LOWMOOD
   }
@@ -35497,7 +35497,7 @@
     probability: 1
     voice: GUN|SPAS15|SOULCONTRACT
     text: GUN|SPAS15|SOULCONTRACT
-    name: live2d_motions-11120112
+    name: Oath Scene
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -35506,7 +35506,7 @@
     type: 401
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11120113
+    name: Standby
     is_hurt: 1
   }
   {
@@ -35517,7 +35517,7 @@
     probability: 1
     voice: GUN|SPAS15|BREAK
     text: GUN|SPAS15|BREAK
-    name: live2d_motions-11120114
+    name: Interaction 1
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -35531,7 +35531,7 @@
     probability: 1
     voice: GUN|SPAS15|HELLO
     text: GUN|SPAS15|HELLO
-    name: live2d_motions-11120115
+    name: Interaction 2
     camera: 1
     is_hurt: 1
     voice_code: HELLO
@@ -35544,7 +35544,7 @@
     probability: 1
     voice: GUN|SPAS15|OPERATIONOVER
     text: GUN|SPAS15|OPERATIONOVER
-    name: live2d_motions-11120116
+    name: Interaction 3
     camera: 1
     is_hurt: 1
     voice_code: OPERATIONOVER
@@ -35557,7 +35557,7 @@
     probability: 1
     voice: GUN|SPAS15|SKILL2
     text: GUN|SPAS15|SKILL2
-    name: live2d_motions-11120117
+    name: Interaction 4
     camera: 1
     is_hurt: 1
     voice_code: SKILL2
@@ -35570,7 +35570,7 @@
     probability: 1
     voice: GUN|SPAS15|FIX
     text: GUN|SPAS15|FIX
-    name: live2d_motions-11120118
+    name: Interaction 5
     camera: 1
     is_hurt: 1
     voice_code: FIX
@@ -35582,7 +35582,7 @@
     probability: 1
     voice: GUN|SPAS15|LOADING
     text: GUN|SPAS15|LOADING
-    name: live2d_motions-11120119
+    name: Login
     camera: 1
     is_hurt: 1
     delay: 4000
@@ -35593,7 +35593,7 @@
     type: 301
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11120120
+    name: Shaking
     camera: 1
     is_hurt: 1
   }
@@ -35602,7 +35602,7 @@
     type: 101
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11130101
+    name: Standby
   }
   {
     id: 1130102
@@ -35610,7 +35610,7 @@
     motion_name: wait_1.mtn
     hold_time: "13,15"
     probability: 0.5
-    name: live2d_motions-11130102
+    name: Standby(Special) 1
     camera: 1
   }
   {
@@ -35619,7 +35619,7 @@
     motion_name: wait_2.mtn
     hold_time: "23,25"
     probability: 0.5
-    name: live2d_motions-11130103
+    name: Standby(Special) 2
     camera: 1
   }
   {
@@ -35630,7 +35630,7 @@
     probability: 1
     voice: GUN|MartiniHenry|DIALOGUE2
     text: GUN|MartiniHenry|DIALOGUE2
-    name: live2d_motions-11130104
+    name: Interaction 1
     camera: 1
     voice_code: DIALOGUE2
   }
@@ -35642,7 +35642,7 @@
     probability: 1
     voice: GUN|MartiniHenry|NEWYEAR
     text: GUN|MartiniHenry|NEWYEAR
-    name: live2d_motions-11130105
+    name: Interaction 2
     camera: 1
     voice_code: NEWYEAR
   }
@@ -35654,7 +35654,7 @@
     probability: 1
     voice: GUN|MartiniHenry|OPERATIONOVER
     text: GUN|MartiniHenry|OPERATIONOVER
-    name: live2d_motions-11130106
+    name: Interaction 3
     camera: 1
     voice_code: OPERATIONOVER
   }
@@ -35666,7 +35666,7 @@
     probability: 1
     voice: GUN|MartiniHenry|GOATTACK
     text: GUN|MartiniHenry|GOATTACK
-    name: live2d_motions-11130107
+    name: Interaction 4
     camera: 1
     voice_code: GOATTACK
   }
@@ -35678,7 +35678,7 @@
     probability: 1
     voice: GUN|MartiniHenry|HELLO
     text: GUN|MartiniHenry|HELLO
-    name: live2d_motions-11130108
+    name: Interaction 5
     camera: 1
     delay: 2000
     voice_code: HELLO
@@ -35691,7 +35691,7 @@
     probability: 1
     voice: GUN|MartiniHenry|DIALOGUEWEDDING
     text: GUN|MartiniHenry|DIALOGUEWEDDING
-    name: live2d_motions-11130109
+    name: Post-Oath
     camera: 1
     voice_code: DIALOGUEWEDDING
   }
@@ -35702,7 +35702,7 @@
     probability: 1
     voice: GUN|MartiniHenry|WIN
     text: GUN|MartiniHenry|WIN
-    name: live2d_motions-11130110
+    name: Login
     camera: 1
     voice_code: WIN
   }
@@ -35711,7 +35711,7 @@
     type: 300
     motion_name: shake.mtn
     probability: 1
-    name: live2d_motions-11130111
+    name: Shaking
     camera: 1
   }
   {
@@ -35721,7 +35721,7 @@
     probability: 1
     voice: GUN|MartiniHenry|SOULCONTRACT
     text: GUN|MartiniHenry|SOULCONTRACT
-    name: live2d_motions-11130112
+    name: Oath Scene
     camera: 1
     voice_code: SOULCONTRACT
   }
@@ -35730,7 +35730,7 @@
     type: 401
     motion_name: daiji_idle_01.mtn
     probability: 1
-    name: live2d_motions-11130113
+    name: Standby
     is_hurt: 1
   }
   {
@@ -35741,7 +35741,7 @@
     probability: 1
     voice: GUN|MartiniHenry|DEFENSE
     text: GUN|MartiniHenry|DEFENSE
-    name: live2d_motions-11130114
+    name: Interaction 1
     camera: 1
     is_hurt: 1
     delay: 2500
@@ -35755,7 +35755,7 @@
     probability: 1
     voice: GUN|MartiniHenry|BREAK
     text: GUN|MartiniHenry|BREAK
-    name: live2d_motions-11130115
+    name: Interaction 2
     camera: 1
     is_hurt: 1
     voice_code: BREAK
@@ -35767,7 +35767,7 @@
     touch_area: head
     probability: 1
     voice: GUN|MartiniHenry|LOWMOOD
-    name: live2d_motions-11130116
+    name: Interaction 3
     camera: 1
     is_hurt: 1
     voice_code: LOWMOOD
@@ -35780,7 +35780,7 @@
     probability: 1
     voice: GUN|MartiniHenry|LOADING
     text: GUN|MartiniHenry|LOADING
-    name: live2d_motions-11130117
+    name: Interaction 4
     camera: 1
     is_hurt: 1
     voice_code: LOADING
@@ -35793,7 +35793,7 @@
     probability: 1
     voice: GUN|MartiniHenry|DIALOGUE3
     text: GUN|MartiniHenry|DIALOGUE3
-    name: live2d_motions-11130118
+    name: Interaction 5
     camera: 1
     is_hurt: 1
     voice_code: DIALOGUE3
@@ -35805,7 +35805,7 @@
     probability: 1
     voice: GUN|MartiniHenry|RETREAT
     text: GUN|MartiniHenry|RETREAT
-    name: live2d_motions-11130119
+    name: Login
     camera: 1
     is_hurt: 1
     delay: 3000
@@ -35817,7 +35817,7 @@
     motion_name: shake.mtn
     probability: 1
     voice: GUN|MartiniHenry|MOOD2
-    name: live2d_motions-11130120
+    name: Shaking
     camera: 1
     is_hurt: 1
     voice_code: MOOD2
