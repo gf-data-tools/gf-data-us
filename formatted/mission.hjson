@@ -22101,13 +22101,12 @@
     boss_team_id: "6400100"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "225"
     limit_team: "2"
     map_res_name: OPS28_Y
     map_information: "16000,16000|4000,5500|5000,3200"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "413"
+    support_available: 1
     drop_mission_key: "0,0,1050400:1"
     mission_group_id: 13
     round_config: 1:1,2:5,3:3
@@ -22135,13 +22134,12 @@
     boss_team_id: "6400200"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "119"
     limit_team: "2"
     map_res_name: OPS28_Y
     map_information: "12000,12000|4500,3200|2800,-1800"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "414"
+    support_available: 1
     drop_mission_key: "0,0,1050500:1"
     mission_group_id: 13
     open_mission_keys: 1050400:1
@@ -22170,13 +22168,12 @@
     boss_team_id: "6400300"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "59"
     limit_team: "1"
     map_res_name: OPS28_Y
     map_information: "32000,32000|5000,4000|500,-2600"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "414"
+    support_available: 1
     drop_mission_key: "0,0,1050600:1"
     mission_group_id: 13
     open_mission_keys: 1050500:1
@@ -22204,12 +22201,11 @@
     boss_team_id: "6400400"
     turn_duration: 360000000
     turn_limit: 99
-    limit_gun_pool: "251"
     map_res_name: OPS28_Y
     map_information: "40000,40000|5000,4800|-1000,-1000"
     fog_length: "0,500"
     fog_color: "#000000FF"
-    draw_event_s_id: "414"
+    support_available: 1
     expect_hostage_num: "2,2"
     mission_group_id: 13
     open_mission_keys: 1050600:1

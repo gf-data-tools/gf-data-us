@@ -13386,4 +13386,39 @@
     obtain_ids: "3112"
     description_skill: 1004001
   }
+  {
+    id: 438
+    name: Matryoshka Dangle
+    description:
+      '''
+      ROF<rate> DMG+<pow>
+      CRIT RATE+<critical_percent><%> Enhances skill $Fedorov only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    rate: "-8,-5"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Fedorov
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "335"
+    equip_introduction: A cherished gift from a teammate who wished Fedorov could leave her fears behind.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,pow:1000
+    passive_skill: "1004701"
+    max_level: 10
+    auto_select_id: 18095
+    is_show: 1
+    obtain_ids: "3121"
+    description_skill: 1004701
+  }
 ]

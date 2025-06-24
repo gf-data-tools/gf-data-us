@@ -8326,6 +8326,7 @@
     sub_type: 2
     gem: 400
     item_ids: 508-10000
+    onsale: 1
     code: card_YZ2020
     order: 1
     rarity: 5
@@ -9212,6 +9213,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_20halloween
+    event_id: 4152
   }
   {
     id: 742
@@ -9226,6 +9228,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_20halloween
+    event_id: 4153
   }
   {
     id: 743
@@ -9977,12 +9980,16 @@
     id: 806
     item_id: 1806
     sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
     code: profilePic_Winter2021_Grey
     order: 1
     rarity: 5
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_21winter
+    event_id: 4154
   }
   {
     id: 807
@@ -10938,6 +10945,19 @@
     frame_id: 200005
   }
   {
+    id: 887
+    item_id: 1887
+    sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    onsale: 1
+    code: card_5years_A
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    event_id: 4149
+  }
+  {
     id: 889
     item_id: 1889
     sub_type: 1
@@ -11093,10 +11113,12 @@
     sub_type: 2
     gem: 400
     item_ids: 508-10000
+    onsale: 1
     code: card_Summer2021
     order: 1
     rarity: 5
     filter_type: "1,2"
+    event_id: 4150
   }
   {
     id: 902
@@ -11620,10 +11642,14 @@
     id: 948
     item_id: 1948
     sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    onsale: 1
     code: card_Summer2021_01
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 4151
   }
   {
     id: 949
