@@ -13333,6 +13333,15 @@
     rank: 1
   }
   {
+    id: 2355
+    type: 5
+    arg: "1"
+    code: profilePic_OfficeLady2023_LWMMG
+    item_name: Salary Wizard
+    introduction: Salary Wizard
+    rank: 1
+  }
+  {
     id: 2356
     type: 5
     arg: "1"
@@ -15529,6 +15538,24 @@
     rank: 1
   }
   {
+    id: 2663
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_Beowulf
+    item_name: Seafront Huntress
+    introduction: Seafront Huntress
+    rank: 1
+  }
+  {
+    id: 2664
+    type: 5
+    arg: "1"
+    code: card_BattlePass_Beowulf
+    item_name: ID: Crest Dancer
+    introduction: ID: Crest Dancer
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -16973,6 +17000,15 @@
     code: gift_bundle_BattlePass_M14
     item_name: Decisive Reinforcement
     introduction: Breach complete! Heheh, M14 helped out, right? Huh? Was it too loud?
+    rank: 1
+  }
+  {
+    id: 30028
+    type: 1
+    arg: "30028"
+    code: gift_bundle_BattlePass_Beowulf
+    item_name: Seafront Huntress
+    introduction: If there is thrilling prey by the sea... I will definitely capture it.
     rank: 1
   }
   {
@@ -18526,6 +18562,34 @@
     code: Mind_Coin
     item_name: Thought Token
     introduction: Thought Token
+    rank: 1
+    daily_limit: "60"
+  }
+  {
+    id: 100194
+    type: 4
+    arg: "100194"
+    code: Nova_medal
+    item_name: Novel Medal - Permitted! Reloading...
+    introduction: Novel Medal - Permitted! Reloading...
+    rank: 1
+  }
+  {
+    id: 100195
+    type: 4
+    arg: "100195"
+    code: Platinum_medal
+    item_name: Platinum Medal - Permitted! Reloading...
+    introduction: Platinum Medal - Permitted! Reloading...
+    rank: 1
+  }
+  {
+    id: 100196
+    type: 9
+    arg: "100196"
+    code: Loading_Coin
+    item_name: Reload Token
+    introduction: Reload Token
     rank: 1
     daily_limit: "60"
   }
@@ -21285,6 +21349,26 @@
     detail_introduction: item-30140054
   }
   {
+    id: 140055
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140055
+    introduction: item-20140055
+    rank: 1
+    detail_introduction: item-30140055
+  }
+  {
+    id: 140056
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140056
+    introduction: item-20140056
+    rank: 1
+    detail_introduction: item-30140056
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21735,6 +21819,15 @@
     code: profileFrame_BattlePass_M14
     item_name: Icon Frame - Skyborne Sentinel
     introduction: Icon Frame - Skyborne Sentinel
+    rank: 1
+  }
+  {
+    id: 200053
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_Beowulf
+    item_name: Icon Frame - Waves by the Palms
+    introduction: Icon Frame - Waves by the Palms
     rank: 1
   }
   {
@@ -23944,6 +24037,42 @@
     type_sort: 1
   }
   {
+    id: 1500206
+    type: 15
+    arg: "1500176"
+    code: package_choose
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500207
+    type: 15
+    arg: "1500177"
+    code: package_choose
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500208
+    type: 15
+    arg: "1500178"
+    code: package_random
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500209
+    type: 15
+    arg: "1500179"
+    code: package_random
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -24821,6 +24950,39 @@
     id: 9000018
     type: 15
     arg: "9000018"
+    code: Bumdle_ChildrenDayCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000019
+    type: 15
+    arg: "9000019"
+    code: Bumdle_ChildrenDayCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000020
+    type: 15
+    arg: "9000020"
+    code: Bumdle_ChildrenDayCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000021
+    type: 15
+    arg: "9000021"
     code: Bumdle_ChildrenDayCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.

@@ -9757,6 +9757,7 @@
     fit_gun: 54
     voice: 4
     dialog: I think the other jacket looks better on you after all. Change back into it, Commander. Now that the others are here, let's prepare to set out. A day off? What's that got to do with us?
+    gift_position: "-260.7,415.5"
     illustrator_cv: 小枪, Nozomi Yamane,
     order: 125
   }
@@ -9824,6 +9825,7 @@
     fit_gun: 85
     voice: 4
     dialog: I heard that a gigantic beast would appear during snowy nights, trapping every lost traveler. That does not apply to me however... Because I'm the one capable of putting a leash on this beast.
+    gift_position: "-163,146.9"
     illustrator_cv: --,Kaori Nazuka,
     order: 145
   }
@@ -9833,6 +9835,7 @@
     fit_gun: 295
     voice: 4
     dialog: Commander! Look, I've finally found a friend who can have hotpot with me while sharing the Whirlwind Inferno Mala soup base! This friend doesn't say much, but I love the way they eat! The bill? We'll talk about that after we finish~
+    gift_position: "79.6,190.1"
     order: 149
     class_id: 111
   }
@@ -9842,9 +9845,19 @@
     fit_gun: 37
     voice: 4
     dialog: Breach complete! Heheh, M14 helped out, right? Huh? Was it too loud?
+    gift_position: "-196.3,372.3"
     illustrator_cv: YoYo,Saori Oonishi,
     order: 150
     class_id: 112
+  }
+  {
+    id: 30028
+    name: Seafront Huntress
+    fit_gun: 393
+    voice: 4
+    dialog: If there is thrilling prey by the sea... I will definitely capture it.
+    gift_position: "-159.8,71.3"
+    order: 152
   }
   {
     id: 50001
