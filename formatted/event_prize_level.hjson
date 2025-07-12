@@ -176,6 +176,26 @@
       '''
   }
   {
+    id: 11
+    name: Vortex of Secrets+
+    type: 2
+    value: "110066"
+    condition: 100000:40609;300000:40610;500000:40611;800000:40612;1100000:40613;1300000:40614;1500000:40615;1800000:40616;2150000:40617;2400000:40618;2700000:40619;3000000:40620
+    start_time: 2025-07-08 00:00:00
+    end_time: 2025-07-21 23:59:59
+    prize_start_time: 2025-07-08 00:00:00
+    prize_end_time: 2025-07-28 23:59:59
+    left_icon: f9c0188ce9a30111_draw_250707173841.png
+    background: f8e5aac1888b7f2a_draw_250707173840.png
+    notice_txt:
+      '''
+      1. For the duration of the event, accumulate points in the designated scoring stage for "Vortex of Secrets+" and complete score targets to obtain the corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. After the end of the event, no more points can be scored, but the event interface will remain until the reward collection deadline.
+      4. While the event interface is still accessible, you can enter this reward interface through the rolling event banner on the home page. You will not be able to collect your rewards past the deadline.
+      '''
+  }
+  {
     id: 1001
     name: event_prize_level-10001001
     type: 2
