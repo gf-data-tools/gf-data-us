@@ -1254,6 +1254,38 @@
     is_hide_info: 1
   }
   {
+    id: 531
+    type: 1
+    arg: "531"
+    code: assess202309_item1
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 532
+    type: 1
+    arg: "532"
+    code: assess202309_item2
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 533
+    type: 1
+    arg: "533"
+    code: assess202309_item3
+    rank: 1
+    is_hide_info: 1
+  }
+  {
+    id: 534
+    type: 1
+    arg: "534"
+    code: assess202309_item3
+    rank: 1
+    is_hide_info: 1
+  }
+  {
     id: 535
     type: 1
     arg: "1"
@@ -25091,6 +25123,54 @@
     code: Bumdle_ChildrenDayCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000022
+    type: 15
+    arg: "9000022"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use this Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000023
+    type: 15
+    arg: "9000023"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000024
+    type: 15
+    arg: "9000024"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000025
+    type: 15
+    arg: "9000025"
+    code: Bumdle_equipment
+    item_name: 5-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
     rank: 1
     sort: -1
     type_sort: 1

@@ -8162,8 +8162,8 @@
   }
   {
     id: 6620001
-    name: mission_buff_config-16620001
-    description: mission_buff_config-26620001
+    name: 携带buff
+    description: Carrying EMP
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8174,8 +8174,8 @@
   }
   {
     id: 6629000
-    name: mission_buff_config-16629000
-    description: mission_buff_config-26629000
+    name: 携带buff
+    description: Carrying Goliath
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8186,8 +8186,8 @@
   }
   {
     id: 6629001
-    name: mission_buff_config-16629001
-    description: mission_buff_config-26629001
+    name: 携带buff
+    description: Carrying EMP
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8198,8 +8198,8 @@
   }
   {
     id: 6629002
-    name: mission_buff_config-16629002
-    description: mission_buff_config-26629002
+    name: 携带buff
+    description: 携带传送技能
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8210,8 +8210,8 @@
   }
   {
     id: 6629003
-    name: mission_buff_config-16629003
-    description: mission_buff_config-26629003
+    name: 加速
+    description: 移动力提升
     code: SpeedUp
     type: 1
     duration_type: "3"
@@ -8222,8 +8222,8 @@
   }
   {
     id: 6629004
-    name: mission_buff_config-16629004
-    description: mission_buff_config-26629004
+    name: 冷却减少
+    description: 技能冷却降低30%
     code: assess202309_13
     type: 1
     duration_type: "1"
@@ -8234,8 +8234,8 @@
   }
   {
     id: 6629005
-    name: mission_buff_config-16629005
-    description: mission_buff_config-26629005
+    name: 额外支援
+    description: 战斗开始时对力场盾直接造成伤害
     code: assess202309_14
     type: 1
     duration_type: "1"
@@ -8246,8 +8246,7 @@
   }
   {
     id: 6629006
-    name: mission_buff_config-16629006
-    description: mission_buff_config-26629006
+    name: 【标记】战场效果1
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8257,8 +8256,7 @@
   }
   {
     id: 6629007
-    name: mission_buff_config-16629007
-    description: mission_buff_config-26629007
+    name: 【标记】战场效果2
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8268,8 +8266,7 @@
   }
   {
     id: 6629008
-    name: mission_buff_config-16629008
-    description: mission_buff_config-26629008
+    name: 【标记】战场效果3
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8279,8 +8276,7 @@
   }
   {
     id: 6629009
-    name: mission_buff_config-16629009
-    description: mission_buff_config-26629009
+    name: 【标记】BOSS霸体
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8289,8 +8285,7 @@
   }
   {
     id: 6629100
-    name: mission_buff_config-16629100
-    description: mission_buff_config-26629100
+    name: Enhancement
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8299,8 +8294,12 @@
   }
   {
     id: 6629101
-    name: mission_buff_config-16629101
-    description: mission_buff_config-26629101
+    name: Enhancement
+    description:
+      '''
+      Increase ACC and EVA
+      <color=#CF8000>lv: 1</color>
+      '''
     code: assess202309_1
     type: 1
     duration_type: "1"
@@ -8312,8 +8311,12 @@
   }
   {
     id: 6629102
-    name: mission_buff_config-16629102
-    description: mission_buff_config-26629102
+    name: Enhancement
+    description:
+      '''
+      Increase ACC and EVA
+      <color=#CF8000>lv: 2</color>
+      '''
     code: assess202309_2
     type: 1
     duration_type: "1"
@@ -8325,8 +8328,12 @@
   }
   {
     id: 6629103
-    name: mission_buff_config-16629103
-    description: mission_buff_config-26629103
+    name: Enhancement
+    description:
+      '''
+      Increase ACC and EVA
+      <color=#CF8000>lv: 3</color>
+      '''
     code: assess202309_3
     type: 1
     duration_type: "1"
@@ -8338,8 +8345,12 @@
   }
   {
     id: 6629104
-    name: mission_buff_config-16629104
-    description: mission_buff_config-26629104
+    name: Enhancement
+    description:
+      '''
+      Increase ACC and EVA
+      <color=#CF8000>lv: 4</color>
+      '''
     code: assess202309_4
     type: 1
     duration_type: "1"
@@ -8351,8 +8362,7 @@
   }
   {
     id: 6629200
-    name: mission_buff_config-16629200
-    description: mission_buff_config-26629200
+    name: Enhancement
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8361,8 +8371,12 @@
   }
   {
     id: 6629201
-    name: mission_buff_config-16629201
-    description: mission_buff_config-26629201
+    name: Enhancement
+    description:
+      '''
+      Increase Armor and AP
+      <color=#CF8000>lv: 1</color>
+      '''
     code: assess202309_5
     type: 1
     duration_type: "1"
@@ -8374,8 +8388,12 @@
   }
   {
     id: 6629202
-    name: mission_buff_config-16629202
-    description: mission_buff_config-26629202
+    name: Enhancement
+    description:
+      '''
+      Increase Armor and AP
+      <color=#CF8000>lv: 2</color>
+      '''
     code: assess202309_6
     type: 1
     duration_type: "1"
@@ -8387,8 +8405,12 @@
   }
   {
     id: 6629203
-    name: mission_buff_config-16629203
-    description: mission_buff_config-26629203
+    name: Enhancement
+    description:
+      '''
+      Increase Armor and AP
+      <color=#CF8000>lv: 3</color>
+      '''
     code: assess202309_7
     type: 1
     duration_type: "1"
@@ -8400,8 +8422,12 @@
   }
   {
     id: 6629204
-    name: mission_buff_config-16629204
-    description: mission_buff_config-26629204
+    name: Enhancement
+    description:
+      '''
+      Increase Armor and AP
+      <color=#CF8000>lv: 4</color>
+      '''
     code: assess202309_8
     type: 1
     duration_type: "1"
@@ -8413,8 +8439,7 @@
   }
   {
     id: 6629300
-    name: mission_buff_config-16629300
-    description: mission_buff_config-26629300
+    name: Enhancement
     type: 1
     duration_type: "1"
     duration_time: "99"
@@ -8423,8 +8448,12 @@
   }
   {
     id: 6629301
-    name: mission_buff_config-16629301
-    description: mission_buff_config-26629301
+    name: Enhancement
+    description:
+      '''
+      Increase DMG and ROF
+      <color=#CF8000>lv: 1</color>
+      '''
     code: assess202309_9
     type: 1
     duration_type: "1"
@@ -8436,8 +8465,12 @@
   }
   {
     id: 6629302
-    name: mission_buff_config-16629302
-    description: mission_buff_config-26629302
+    name: Enhancement
+    description:
+      '''
+      Increase DMG and ROF
+      <color=#CF8000>lv: 2</color>
+      '''
     code: assess202309_10
     type: 1
     duration_type: "1"
@@ -8449,8 +8482,12 @@
   }
   {
     id: 6629303
-    name: mission_buff_config-16629303
-    description: mission_buff_config-26629303
+    name: Enhancement
+    description:
+      '''
+      Increase DMG and ROF
+      <color=#CF8000>lv: 3</color>
+      '''
     code: assess202309_11
     type: 1
     duration_type: "1"
@@ -8462,8 +8499,12 @@
   }
   {
     id: 6629304
-    name: mission_buff_config-16629304
-    description: mission_buff_config-26629304
+    name: Enhancement
+    description:
+      '''
+      Increase DMG and ROF
+      <color=#CF8000>lv: 4</color>
+      '''
     code: assess202309_12
     type: 1
     duration_type: "1"

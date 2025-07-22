@@ -5453,6 +5453,29 @@
     launch_time: 2035-5-20 00:00:00
   }
   {
+    sub_id: 236001
+    id: 236
+    name: Gager - VWV Model
+    sub_name: Gager - VWV Model
+    type: 1
+    code: GagerSwimwear
+    introduce: Gager - Seaside Combat Specialist type, or VWV for short, is a specialized frame modified and optimized for naval combat based on Gager's original frame. If Gager is not near the sea, she will modify the surrounding environment to that of a seaside-like environment using stored material before commencing combat. The anchor-like weapon allows her to dole out brutal firepower while also providing the ability to summon wind waves.
+    forces: 1
+    if_capture: 1
+    pow_rank: 6
+    life_rank: 5
+    hit_rank: 4
+    dodge_rank: 3
+    rate_rank: 3
+    speed_rank: 3
+    range_rank: 5
+    counter: Now having switched to a naval combat frame, Gager boasts stronger combat engineering abilities and an improvement to firepower and command ability.
+    character: "1001,207"
+    launch_time: 2035-5-20 00:00:00
+    spine_scale: "85,85,1"
+    org_id: 10602
+  }
+  {
     sub_id: 237001
     id: 237
     name: Otr

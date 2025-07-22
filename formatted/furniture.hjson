@@ -28855,6 +28855,48 @@
     touch_area: "3,3,0"
   }
   {
+    id: 20107
+    name: DIY Special Supply Center
+    classes: 81
+    type: 302
+    space: "4,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Just as each combat report is written diligently stroke-by-stroke by Kalina, the empty papers that the printer is spitting out non-stop will be filled out by the Dolls—"It's about time everyone got a taste of the hard work that goes into DIY!"
+    code: 2023SepActivity_deco_A
+    texture_type: "1"
+    offset: "0.000,0.699,0.000"
+    rotate: "3"
+  }
+  {
+    id: 20108
+    name: Competitive Black Hole
+    classes: 81
+    type: 201
+    space: "5,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An antique gaming device found during exploration. Its aggravating difficulty and bizarre randomness make it unexpected addictive to the T-Dolls—"What?! I'm the No. 1 elite of Griffin, so how come I can't beat it?! This isn't scientific at all! Let me have another go!"
+    code: 2023SepActivity_deco_B
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20109
+    name: Nightmare Before Exam
+    classes: 81
+    type: 201
+    space: "6,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"G&K PMC was founded in 205... uh... what year was it again? ...Oh right, 2051!" (Flips through book...) "Aaaaarrgh! Idiot, it's 2053!!"'''
+    code: 2023SepActivity_deco_C
+    texture_type: "1"
+    offset: "0.000,-0.209,-0.052"
+    rotate: "2"
+  }
+  {
     id: 20110
     name: Fun and Furious
     classes: 81
@@ -39179,6 +39221,21 @@
     decompose_gift: 100003
     description: 6P62's poster.
     code: poster_OfficeLady2023_6P62
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 38611
+    name: Salary Wizard
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LWMMG's poster.
+    code: poster_OfficeLady2023_LWMMG
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

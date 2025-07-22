@@ -11307,6 +11307,39 @@
     obtain_ids: "3096"
   }
   {
+    id: 360
+    name: Teddy Bear Auxiliary Processor
+    description:
+      '''
+      DMG+<pow> ROF<rate>
+      CRIT RATE+<critical_harm_rate><%>$AS Val only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "8,10"
+    rate: "-5,-1"
+    critical_harm_rate: "15,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: 人形_特殊_ASVal
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "60,20060"
+    equip_introduction: A processor designed according to AS Val's personal request. It is loaded with special features... Let's hope it won't interfere with her missions.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,critical_harm_rate:1000
+    max_level: 10
+    auto_select_id: 20067
+    is_show: 1
+    obtain_ids: "3099"
+  }
+  {
     id: 364
     name: Patrol Helmet
     description:
