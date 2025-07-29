@@ -13526,4 +13526,37 @@
     obtain_ids: "3121"
     description_skill: 1004701
   }
+  {
+    id: 441
+    name: TLL Amplified Rounds
+    description:
+      '''
+      DMG+<pow>
+       Enhances Skill $AK-Alfa only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "10,15"
+    retire_ammo: 5
+    retire_mre: 3
+    retire_part: 2
+    code: Magazine_SP_AKAlfa
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "306"
+    equip_introduction: .223 caliber rifle rounds specially developed for AK-Alfa. The design incorporates elements of sci-fi.
+    powerup_mp: 0.15
+    powerup_ammo: 0.6
+    powerup_mre: 0.38
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: pow:700
+    passive_skill: "1005001"
+    max_level: 10
+    auto_select_id: 19089
+    is_show: 1
+    obtain_ids: "3125"
+    description_skill: 1005001
+  }
 ]
