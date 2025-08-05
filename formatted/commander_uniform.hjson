@@ -3492,4 +3492,144 @@
     position: "-0.172,0.008"
     color_icon_id: "958"
   }
+  {
+    id: 6311
+    name: Windward Amble
+    description: Push your hair back and show off those carefully shaped brows and the ring of light. That little circle won't give away your "instability"—after all, you're 100% human... Well, maybe 80%?
+    code: Head1
+    icon: commander_6311_icon
+    type: 1
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6311_N
+    color_0: Commander_6311_0
+    color_1: Commander_6311_1
+    color_2: Commander_6311_2
+    color_3: Commander_6311_3
+    color_4: Commander_6311_4
+    color_icon_id: "962"
+  }
+  {
+    id: 6312
+    name: Against the Wind
+    description: Is baring your forehead a new trend? I think it's mostly to show off the finely crafted seams of your cybernetic implants. Sure, the latest tech can pass as real skin, but if there aren't any visible seams, how else will people know you splurged on high-end prosthetics?
+    code: Head2
+    icon: commander_6312_icon
+    type: 1
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6312_N
+    color_0: Commander_6312_0
+    color_1: Commander_6312_1
+    color_2: Commander_6312_2
+    color_3: Commander_6312_3
+    color_4: Commander_6312_4
+    color_icon_id: "963"
+  }
+  {
+    id: 6320
+    name: Sensory Module
+    description: The latest and most reliable piece of tech in the jungle of steel—combining exploration lighting, music playback, signal hacking, and environmental scanning in one. The price of this multi-functional gear? Eh, don't ask so many questions!
+    code: HeadAcco
+    icon: commander_6320_icon
+    type: 2
+    uniform_class: "63"
+    color_normal: Commander_6320_N
+    color_0: Commander_6320_0
+    color_1: Commander_6320_1
+    color_2: Commander_6320_2
+    color_3: Commander_6320_3
+    color_4: Commander_6320_4
+    bone_name: HairBinder2
+    scale: 0.2
+    position: "-0.066,0.214"
+    color_icon_id: "964"
+  }
+  {
+    id: 6331
+    name: Cyber Camo
+    description: This hooded, wind-resistant jacket pairs perfectly with that athletic street style—and helps you weather sudden downpours. For a city wanderer, this kind of outfit is as clever as its bold color coordination.
+    code: Body1
+    icon: commander_6331_icon
+    type: 3
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6331_N
+    color_0: Commander_6331_0
+    color_1: Commander_6331_1
+    color_2: Commander_6331_2
+    color_3: Commander_6331_3
+    color_4: Commander_6331_4
+    color_icon_id: "965"
+  }
+  {
+    id: 6332
+    name: Hydrophobic Skinwear
+    description: The cropped top under the coat signals mobility, and with temperature shifts, just slip the coat on or off to keep your body temperature stable... What, a thermal regulation system? That's so last season!
+    code: Body2
+    icon: commander_6332_icon
+    type: 3
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6332_N
+    color_0: Commander_6332_0
+    color_1: Commander_6332_1
+    color_2: Commander_6332_2
+    color_3: Commander_6332_3
+    color_4: Commander_6332_4
+    color_icon_id: "966"
+  }
+  {
+    id: 6340
+    name: Mobility Module
+    description: You've got to choose your travel gear wisely. This bright, boxy backpack with a built-in lightbox is a solid pick! What? It also contains a kinetic firearm and alloy knife? Ahaha... don't worry about that detail.
+    code: BodyAcco
+    icon: commander_6340_icon
+    type: 4
+    uniform_class: "63"
+    color_normal: Commander_6340_N
+    color_0: Commander_6340_0
+    color_1: Commander_6340_1
+    color_2: Commander_6340_2
+    color_3: Commander_6340_3
+    color_4: Commander_6340_4
+    bone_name: BodyBinder1
+    scale: 0.2
+    position: "0.013,0.057"
+    color_icon_id: "967"
+  }
+  {
+    id: 6351
+    name: Cold-Weather Boost
+    description: No one really knows why street kids these days love their cropped sweat pants so much—but there must be a point to showing off your ankles no matter the weather, right?
+    code: Foot1
+    icon: commander_6351_icon
+    type: 5
+    gender: 1
+    uniform_class: "63"
+    color_normal: Commander_6351_N
+    color_0: Commander_6351_0
+    color_1: Commander_6351_1
+    color_2: Commander_6351_2
+    color_3: Commander_6351_3
+    color_4: Commander_6351_4
+    color_icon_id: "968"
+  }
+  {
+    id: 6352
+    name: Sunblock Boost
+    description: This bionic skin for the legs not only even out your skin tone, but also keep you warm in winter and shielded from the sun in summer! A little pricey, sure—but isn't that exactly what a trendsetter in the city needs?
+    code: Foot2
+    icon: commander_6352_icon
+    type: 5
+    gender: 2
+    uniform_class: "63"
+    color_normal: Commander_6352_N
+    color_0: Commander_6352_0
+    color_1: Commander_6352_1
+    color_2: Commander_6352_2
+    color_3: Commander_6352_3
+    color_4: Commander_6352_4
+    color_icon_id: "969"
+  }
 ]

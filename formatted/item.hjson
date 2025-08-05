@@ -15651,6 +15651,24 @@
     rank: 1
   }
   {
+    id: 2673
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_LTLX7000
+    item_name: A Midsummer Night's Tryst
+    introduction: A Midsummer Night's Tryst
+    rank: 1
+  }
+  {
+    id: 2674
+    type: 5
+    arg: "1"
+    code: card_BattlePass_LTLX7000
+    item_name: ID Card: Star-Studded Dinner
+    introduction: ID Card: Star-Studded Dinner
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -17113,6 +17131,15 @@
     code: gift_bundle_BattlePass_Beowulf
     item_name: Seafront Huntress
     introduction: If there is thrilling prey by the sea... I will definitely capture it.
+    rank: 1
+  }
+  {
+    id: 30029
+    type: 1
+    arg: "30029"
+    code: gift_bundle_BattlePass_LTLX7000
+    item_name: A Midsummer Night's Tryst
+    introduction: The air in the woods is so refreshing... ah, Commander, what are you doing here? I was preparing a picnic for everyone, not specially for you--oh well, since you're here, you might as well sit down with me...
     rank: 1
   }
   {
@@ -19856,6 +19883,15 @@
     rank: 1
   }
   {
+    id: 130025
+    type: 12
+    arg: "130025"
+    code: Y_Z_zhihuiguan_huilu
+    item_name: Gathered Circuit
+    introduction: Hacking technology, cyberlimb actuation and combat modules... they're all contained in this little chip. How far can it take you? Perhaps only your cyberdoc knows.
+    rank: 1
+  }
+  {
     id: 133007
     type: 13
     arg: "7"
@@ -21473,6 +21509,26 @@
     detail_introduction: item-30140056
   }
   {
+    id: 140057
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140057
+    introduction: item-20140057
+    rank: 1
+    detail_introduction: item-30140057
+  }
+  {
+    id: 140058
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140058
+    introduction: item-20140058
+    rank: 1
+    detail_introduction: item-30140058
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -21932,6 +21988,15 @@
     code: profileFrame_BattlePass_Beowulf
     item_name: Icon Frame - Waves by the Palms
     introduction: Icon Frame - Waves by the Palms
+    rank: 1
+  }
+  {
+    id: 200054
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_LTLX7000
+    item_name: Icon Frame: Placid Moonlight
+    introduction: Icon Frame: Placid Moonlight
     rank: 1
   }
   {
@@ -24145,6 +24210,8 @@
     type: 15
     arg: "1500176"
     code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Sand and Sunshine. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
     rank: 1
     sort: -1
     type_sort: 1
@@ -24154,6 +24221,8 @@
     type: 15
     arg: "1500177"
     code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Sand and Sunshine. Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
     rank: 1
     sort: -1
     type_sort: 1
@@ -24163,6 +24232,8 @@
     type: 15
     arg: "1500178"
     code: package_random
+    item_name: Guaranteed Locked T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Sand and Sunshine. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
     rank: 1
     sort: -1
     type_sort: 1
@@ -24172,6 +24243,52 @@
     type: 15
     arg: "1500179"
     code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Sand and Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500217
+    type: 15
+    arg: "1500217"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Sylvan Nocturne. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500218
+    type: 15
+    arg: "1500218"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Sylvan Nocturne. Obtain a piece of ammunition-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500219
+    type: 15
+    arg: "1500219"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Sylvan Nocturne. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500220
+    type: 15
+    arg: "1500220"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Sylvan Nocturne. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1
@@ -25171,6 +25288,39 @@
     code: Bumdle_equipment
     item_name: 5-Star Equipment Selection Voucher
     introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000026
+    type: 15
+    arg: "9000026"
+    code: Bumdle_FantasyCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000027
+    type: 15
+    arg: "9000027"
+    code: Bumdle_FantasyCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000028
+    type: 15
+    arg: "9000028"
+    code: Bumdle_FantasyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1
     sort: -1
     type_sort: 1
