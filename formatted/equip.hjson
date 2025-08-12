@@ -6682,11 +6682,12 @@
     powerup_part: 0.48
     exclusive_rate: 3
     bonus_type: critical_percent:1000,pow:900
-    passive_skill: "115807"
+    passive_skill: "115807,1004201"
     max_level: 10
     auto_select_id: 19027
+    group_id: "44"
     is_show: 1
-    obtain_ids: "3005"
+    obtain_ids: "3005,3096"
     sp_description: Target-2
     description_skill: 115807
   }
@@ -10202,11 +10203,12 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: armor_piercing:1000,pow:700
-    passive_skill: "759072"
+    passive_skill: "759072,1004101"
     max_level: 10
     auto_select_id: 19048
+    group_id: "43"
     is_show: 1
-    obtain_ids: "3082"
+    obtain_ids: "3082,3096"
     description_skill: 759072
   }
   {
@@ -13490,6 +13492,77 @@
     is_show: 1
     obtain_ids: "3112"
     description_skill: 1004001
+  }
+  {
+    id: 433
+    name: Dream Butterfly Pouch
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      DMG+<pow> ACC+<hit> $ZB-26 only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "3,5"
+    hit: "1,3"
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_ZB26
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "307"
+    equip_introduction: A pouch that ZB-26 often carries with her. It cheers her up even when she is busy with work.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000,hit:700,pow:1000
+    passive_skill: "1004102"
+    max_level: 10
+    auto_select_id: 18094
+    group_id: "43"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 434
+    name: DF Assault Shield
+    description:
+      '''
+      DMG+<pow> ACC<hit>
+      ARMOR+<armor> $Defender only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    hit: "-1,-1"
+    armor: "6,8"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_ColtDefender
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "302"
+    equip_introduction: Defender's most commonly used equipment. It effectively relieves her tension and also controls her emotional module to a certain extent.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:1000,armor:400
+    passive_skill: "1004202"
+    max_level: 10
+    auto_select_id: 20093
+    group_id: "44"
+    is_show: 1
+    obtain_ids: "3096"
   }
   {
     id: 438
