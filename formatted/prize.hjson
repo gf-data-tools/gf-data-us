@@ -12148,6 +12148,12 @@
     content: prize-20001974
   }
   {
+    id: 1979
+    name: prize-10001979
+    item_ids: 121003-1
+    content: prize-20001979
+  }
+  {
     id: 1989
     name: prize-10001989
     gem: 90
@@ -16307,6 +16313,18 @@
     name: prize-10004324
     item_ids: 2396-1
     content: prize-20004324
+  }
+  {
+    id: 4325
+    name: prize-10004325
+    sangvis: "1028"
+    content: prize-20004325
+  }
+  {
+    id: 4326
+    name: prize-10004326
+    item_ids: 2556-1
+    content: prize-20004326
   }
   {
     id: 4327
@@ -26717,6 +26735,62 @@
     user_exp: 2000
     item_ids: 106-60,2359-1,200006-1
     content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code Ten: Coronal Loop". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Empathetic Vow", Icon Frame - Good Omen
+    icon: Medal_Chess
+  }
+  {
+    id: 10785
+    name: Major
+    user_exp: 30
+    item_ids: 106-5,2384-1,200008-1
+    content: Congratulations on achieving the rank of Major in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*5, Commander EXP*30, Icon " Decisive Strategy", Icon Frame - Fuse of Victory
+    icon: Medal_Chess
+  }
+  {
+    id: 10786
+    name: Lieutenant Colonel
+    user_exp: 60
+    item_ids: 106-10
+    content: Congratulations on achieving the rank of Lieutenant Colonel in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*10, Commander EXP*60
+    icon: Medal_Chess
+  }
+  {
+    id: 10787
+    name: Colonel
+    user_exp: 100
+    item_ids: 106-20
+    content: Congratulations on achieving the rank of Colonel in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*20, Commander EXP*100
+    icon: Medal_Chess
+  }
+  {
+    id: 10788
+    name: Major General
+    user_exp: 200
+    item_ids: 106-30,2385-1,200007-1
+    content: Congratulations on achieving the rank of Major General in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*30, Commander EXP*200, Icon "Guileful Scheme", Icon Frame - Stratagem
+    icon: Medal_Chess
+  }
+  {
+    id: 10789
+    name: Lieutenant General
+    user_exp: 500
+    item_ids: 106-40
+    content: Congratulations on achieving the rank of Lieutenant General in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*40, Commander EXP*500
+    icon: Medal_Chess
+  }
+  {
+    id: 10790
+    name: General
+    user_exp: 1000
+    item_ids: 106-50
+    content: Congratulations on achieving the rank of General in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*50, Commander EXP*1000
+    icon: Medal_Chess
+  }
+  {
+    id: 10791
+    name: Field Marshal
+    user_exp: 2000
+    item_ids: 106-60,2386-1,200006-1
+    content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code Eleven: Dark Rift ". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Masterful Gambit", Icon Frame - Good Omen
     icon: Medal_Chess
   }
   {
