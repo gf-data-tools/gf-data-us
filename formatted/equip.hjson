@@ -13565,6 +13565,103 @@
     obtain_ids: "3096"
   }
   {
+    id: 435
+    name: Multi-Purpose Exoskeleton
+    description:
+      '''
+      DMG<pow>
+      EVA+<dodge>$MP41 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-6,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_MP41
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "267,20267"
+    equip_introduction: This exoskeleton created specifically for MP41 is very much to her liking. She always brings it along when she is deployed on missions.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20094
+    is_show: 1
+    obtain_ids: "3016"
+  }
+  {
+    id: 436
+    name: .440 DE Rounds
+    description:
+      '''
+      DMG+<pow>
+      CRIT RATE+<critical_percent><%> $Desert Eagle only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "7,11"
+    critical_percent: "8,10"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_DesertEagle
+    develop_duration: 3180
+    company: IOP
+    fit_guns: "272"
+    equip_introduction: Combining the bottleneck cartridge case with a .44 caliber bullet, these rounds are a bit more compact than the usual pistol ammunition, much to Desert Eagle's delight.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000,critical_percent:500
+    max_level: 10
+    auto_select_id: 19088
+    is_show: 1
+    obtain_ids: "3119"
+  }
+  {
+    id: 437
+    name: General Liu's Saber
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      ECH DMG+5% $General Liu only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    critical_percent: "18,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_GeneralLiu
+    develop_duration: 2700
+    company: IOP
+    fit_guns: "316"
+    equip_introduction: A military saber that General Liu spent a fortune on commissioning. The craftsmanship is exquisite, but it seems to be much more expensive than the market price.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: critical_percent:1000
+    passive_skill: "1004301"
+    max_level: 10
+    auto_select_id: 18092
+    is_show: 1
+    obtain_ids: "3120"
+    sp_description: ECH DMG+5%
+  }
+  {
     id: 438
     name: Matryoshka Dangle
     description:

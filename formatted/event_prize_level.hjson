@@ -196,6 +196,26 @@
       '''
   }
   {
+    id: 14
+    name: Leaping from the Penrose Stairs
+    type: 2
+    value: "110075"
+    condition: 100000:40781;200000:40782;300000:40783;400000:40784;500000:40785;650000:40786;800000:40787;1000000:40788;1200000:40789;1400000:40790;1600000:40791;1800000:40792
+    start_time: 2025-09-02 00:00:00
+    end_time: 2025-09-22 23:59:59
+    prize_start_time: 2025-09-02 00:00:00
+    prize_end_time: 2025-09-29 23:59:59
+    left_icon: 70be59bd52009717_draw_250828173545.png
+    background: b4b166ed76614b39_draw_250828173544.png
+    notice_txt:
+      '''
+      1. During the event, accumulate points in specific "Leaping from the Penrose Stairs" map and meet point targets to unlock corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. You can score no more points once the "Leaping from the Penrose Stairs" event has ended, but the event interface will remain until the deadline for collecting rewards(Spe. 29th 23:59:59 UTC-8).
+      4. Before the event interface expires, you can access the reward collection interface through the rotating banners in the bottom left corner on the home page. Once the interface expires, you will no longer be able to collect your rewards.
+      '''
+  }
+  {
     id: 1001
     name: event_prize_level-10001001
     type: 2

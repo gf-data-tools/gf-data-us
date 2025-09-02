@@ -29312,6 +29312,165 @@
     rotate: "3"
   }
   {
+    id: 20155
+    name: Underground Shelter
+    classes: 19
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A cataclysm has forced humans to leave their homes and set up this crude shelter 30 meters underground. Discord and conflict are eternal themes, but the occasional displays of humanity could also mark the start of a brand new chapter.
+    code: 202412Activity_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 20156
+    name: Diamond Floor Tiles
+    classes: 19
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Thanks to the relentless efforts of the cleaning staff, all the bloodstains, water stains, and grime were finally removed from the uneven floor.
+    code: 202412Activity_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20157
+    name: Murmur on a Sickbed
+    classes: 19
+    type: 202
+    space: "8,6,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Humans are always the most vulnerable when lying on their sickbeds, and as they drift into and out of delirium, they are often found murmuring about their mother.
+    code: 202412Activity_deco_01
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "20"
+    interact_point_offset: *0.175,2.817,-0.285
+  }
+  {
+    id: 20158
+    name: Cold Gaze
+    classes: 19
+    type: 201
+    space: "1,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The incandescent lamp continues to emit a cold blue light, paying no heed to the joys and sorrows of the people it shines upon.
+    code: 202412Activity_deco_02
+    texture_type: "1"
+    offset: "0.000,3.149,0.000"
+    rotate: "2"
+    touch_area: "3,5,0,0,10,0"
+  }
+  {
+    id: 20159
+    name: Confessions of a Trash Can
+    classes: 19
+    type: 201
+    space: "4,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Test reports, expired medicines, blood-stained cotton pads, and used instruments... Everyone throws them in all at once, along with their broken hearts and inner turmoil.
+    code: 202412Activity_deco_03
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20160
+    name: Portal of Worlds
+    classes: 19
+    type: 201
+    space: "8,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The seemingly shabby door actually connects two different worlds. On one side is a hopeful wait, and on the other is a tense race against time.
+    code: 202412Activity_deco_04
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20161
+    name: Lonely Reception
+    classes: 19
+    type: 201
+    space: "12,5,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The old reception desk is always deserted and covered with a thin layer of dust.
+    code: 202412Activity_deco_05
+    texture_type: "1"
+    offset: "0.156,-0.302,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20162
+    name: Cart of Unpredictability
+    classes: 19
+    type: 201
+    space: "3,3,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: After obediently swallowing the bitter pill, there is a certain chance that you will be rewarded with a sweet. Of course, it is more likely that only the bitterness will linger in your mouth, just like in life.
+    code: 202412Activity_deco_06
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20163
+    name: Barrier of Pain
+    classes: 19
+    type: 201
+    space: "10,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The obstructed view brings momentary peace. Not being able to see the reality behind the curtain may allow one to temporarily delude oneself into believing that they are not in pain.
+    code: 202412Activity_deco_07
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 20164
+    name: Story of the Transfusion Chair
+    classes: 19
+    type: 202
+    space: "8,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: For the next few hours, you will be confined to this chair, and the only things you can interpret are the IV bag, the drip rate, and the few words of your neighbor.
+    code: 202412Activity_deco_08
+    texture_type: "1"
+    offset: "0.000,-0.188,0.000"
+    rotate: "2"
+    interact_point: "20,20,20"
+    interact_point_offset: *-2.275,1.423,0|*0.000,1.423,0|*2.188,1.423,0
+  }
+  {
+    id: 20165
+    name: Fire in the Ashes Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: To commend this Commander and the T-Dolls under their command for their exceptional performance in "Convolutional Kernel". "You journey to the realm of the dead, seeking flames in the ashes, and searching for a new beginning at the end of the world."
+    code: 202412Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 20166
     name: Poster: 2025 Isolation Forest
     classes: 20
@@ -44927,6 +45086,111 @@
     decompose_gift: 100003
     description: C14's poster.
     code: poster_Revenge2024_C14
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311001
+    name: Witch of the Gate of Hell
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Boys' poster.
+    code: poster_Mahoushaojiu2024_BoysAntiTank
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311002
+    name: Pure White Elegy
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Kar98k's poster.
+    code: poster_Mahoushaojiu2024_98K
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311003
+    name: Garden of Fairy Tales
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: MK3A1's poster.
+    code: poster_Mahoushaojiu2024_MK3A1
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311004
+    name: Kaleidoscope of Nightmares
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: ZB-26's poster.
+    code: poster_Mahoushaojiu2024_ZB26
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311005
+    name: Lullaby of the Bountiful Harvest
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Colt M1851N's poster.
+    code: poster_Mahoushaojiu2024_M1851N
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311006
+    name: Specter of the Void
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mk 12's poster.
+    code: poster_Mahoushaojiu2024_Mk12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311007
+    name: Phantom of Black Water
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Tokarev's poster.
+    code: poster_Mahoushaojiu2024_TT33
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"
