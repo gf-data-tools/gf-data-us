@@ -5345,6 +5345,42 @@
     bonus_id: 3027
   }
   {
+    id: 2029
+    name: Sweetie Bear
+    classes: 81
+    type: 202
+    position: "2,2"
+    space: "7,4,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Sweetness may not be a girl, but a dangerous bear. Danger may also not be a bear, but a sweet girl.
+    code: Xmas2018_beer_A,Xmas2018_beer_B
+    texture_type: "1,1"
+    sorting: "0,15"
+    offset: "0,-0.05,0|0,-0.05,0"
+    rotate: "2,2"
+    interact_point: "19,104"
+    interact_point_offset: "0.45,0.55,0|*1.679,3.472,0.000"
+  }
+  {
+    id: 2030
+    name: Christmas Cat Basket
+    classes: 81
+    type: 203
+    position: "2,2"
+    space: "8,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: You know this was not originally a cat basket, but to a cat, neither your opinion nor that of Christmas matters.
+    code: Xmas2018_bed_A,Xmas2018_bed_B
+    texture_type: "1,1"
+    sorting: "0,15"
+    offset: "0,0,0|0,0,0"
+    rotate: "2,2"
+    interact_point: "13,104"
+    interact_point_offset: "0.52,0.23,0|*0.683,4.753,0.000"
+  }
+  {
     id: 2032
     name: Blueberry Nights Wine Table
     classes: 20
@@ -18772,6 +18808,118 @@
     interact_point: "872191"
     interact_point_offset: "0,0,0"
     touch_area: "5,5,0"
+  }
+  {
+    id: 7220
+    name: PAC-GIRL
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "5,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: You can dominate a virtual character's life with just a controller. Such is a gamer's prerogative.
+    code: hssd_pacman
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-1.954,-0.683,-0.341
+    touch_area: "5,4,0"
+  }
+  {
+    id: 7221
+    name: Radiation Observatory
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "5,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An early model of a piece of equipment for observing irradiated areas. With all the superfluous parts removed, it is now better suited for appreciating the view in the dorm.
+    code: hssd_elevator_01,hssd_elevator_02
+    texture_type: "2,2"
+    sorting: "20,0"
+    offset: "0,0,0.865441|0,0,0.865441"
+    rotate: "2,2"
+    interact_point: "47"
+    interact_point_offset: "0,0,0"
+    touch_area: "5,5,0"
+  }
+  {
+    id: 7222
+    name: Sangvis Ferri Air Raid Shelter Entrance
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "6,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This leads to the actual assembly point of real T-Dolls. We're not like those repurposed civilian Dolls at Griffin! We'll show you what makes us pros!
+    code: hssd_subwaystationA,hssd_subwaystationB
+    texture_type: "1,1"
+    sorting: "0,20"
+    offset: "0,-0.333664,0.427507|0,-0.333664,0.427507"
+    rotate: "2,2"
+    interact_point: "27"
+    interact_point_offset: *0.350,-0.569,1.394
+    touch_area: "0,0,0"
+  }
+  {
+    id: 7223
+    name: Goliath Balloon
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Floating, drifting; warmly, lightly. Aside from the instant when one gets blown up by a bomb, these words also describe the sense of safety in dreams.
+    code: hssd_balloon,hssd_balloonB
+    texture_type: "2,2"
+    sorting: "50,0"
+    offset: "0,0,0|0,0,0"
+    rotate: "2,2"
+    interact_point: "50"
+    interact_point_offset: "0,0,0"
+    touch_area: "3,3,0"
+  }
+  {
+    id: 7224
+    name: Sangvis Mine Shaker
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "6,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A Sangvis Ferri machine that automatically distributes suitable unit types to echelons preparing for battle. But according to Intruder's tests, it churns out nothing but mini Goliaths.
+    code: hssd_LotteryMachine
+    texture_type: "2"
+    offset: "0,0,0.6694134"
+    rotate: "2"
+    interact_point: "55"
+    interact_point_offset: "0,0,0"
+    touch_area: "7,3,0"
+  }
+  {
+    id: 7225
+    name: Air Force Basic Simulator
+    classes: 72
+    type: 201
+    position: "0,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Before boarding a helicopter, one must first go through a series of tests to evaluate their sense of balance, but just the thought of that is enough to make M1014 shudder.
+    code: hssd_planeToyA,hssd_planeToyB
+    texture_type: "2,2"
+    sorting: "20,0"
+    offset: "0,0,0|0,0,0"
+    rotate: "2,2"
+    interact_point: "87225"
+    interact_point_offset: "0,0,0"
+    touch_area: "3,3,0"
   }
   {
     id: 7301
@@ -45910,6 +46058,21 @@
     decompose_gift: 100003
     description: LTLX7000's poster.
     code: poster_BattlePass_LTLX7000
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330030
+    name: Parfait Baguette
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: FO-12's Poster
+    code: poster_BattlePass_FO12
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

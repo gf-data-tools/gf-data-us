@@ -7336,12 +7336,14 @@
     exclusive_rate: 3
     bonus_type: dodge:600
     skill: 116202
-    passive_skill: "116201"
+    passive_skill: "116201,1004801"
     max_level: 10
     auto_select_id: 20036
+    group_id: "45"
     is_show: 1
     obtain_ids: "3007,3096"
     sp_description: equip-40000236
+    description_skill: 116201
   }
   {
     id: 237
@@ -9379,9 +9381,10 @@
     powerup_part: 0.25
     exclusive_rate: 3
     bonus_type: hit:1000
-    passive_skill: "300903"
+    passive_skill: "300903,1004901"
     max_level: 10
     auto_select_id: 19043
+    group_id: "46"
     is_show: 1
     obtain_ids: "3016"
     sp_description: Echelon ACC+10%
@@ -13695,6 +13698,74 @@
     is_show: 1
     obtain_ids: "3121"
     description_skill: 1004701
+  }
+  {
+    id: 439
+    name: TS Custom Compensator
+    description:
+      '''
+      EVA+<dodge>
+      CRIT RATE+<critical_percent><%>$Thompson only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "7,10"
+    critical_percent: "8,11"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_mre: 2
+    retire_part: 2
+    code: Accessories_SP_M1928A1
+    develop_duration: 2820
+    company: IOP
+    fit_guns: "16"
+    equip_introduction: A muzzle compensator custom-designed for Thompson. It has multiple vents on its upper side which considerably decrease muzzle climb when firing.
+    powerup_mp: 0.55
+    powerup_ammo: 0.23
+    powerup_mre: 0.23
+    powerup_part: 0.23
+    exclusive_rate: 3
+    bonus_type: dodge:500,critical_percent:1000
+    passive_skill: "1004802"
+    max_level: 10
+    auto_select_id: 18096
+    group_id: "45"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 440
+    name: Type 92 Exoskeleton
+    description:
+      '''
+      EVA+<dodge>
+      $Type 92 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "11,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_92typeMod
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "20013"
+    equip_introduction: It's made of very common materials. While its performance isn't the best, its performance-to-cost ratio is extremely high.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1004902"
+    max_level: 10
+    auto_select_id: 20095
+    group_id: "46"
+    is_show: 1
+    obtain_ids: "3096"
   }
   {
     id: 441
