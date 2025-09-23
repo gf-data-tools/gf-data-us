@@ -19101,6 +19101,41 @@
     touch_area: "3,3,3"
   }
   {
+    id: 7236
+    name: Call From the Distant Past
+    classes: 72
+    type: 201
+    space: "6,5,0,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Big news! A large prehistoric beast has appeared in the Griffin dorms! No Doll can stand in its way! Are you sure you don't want to put on this costume and walk around the dorms?
+    code: qjyd_20220902
+    texture_type: "2"
+    sorting: "15"
+    offset: "0,0.156405,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-3.5,0.4375,0
+    touch_area: "4,6,3"
+  }
+  {
+    id: 7237
+    name: Prayer Through Millennia
+    classes: 72
+    type: 201
+    space: "5,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A pair of moai have been contemplating what to eat for dinner for so long, civilizations have risen and fallen, and they've forgotten they're just statues. "Commander, they seem to be staring at the strawberry cake in FF FNC's hands..."
+    code: qjyd_20220901
+    texture_type: "2"
+    offset: "-0.10427,0.156405,0"
+    rotate: "2"
+    interact_point: "48,64"
+    interact_point_offset: *-2.3333,0.4375,0|*2.91667,0.4375,0
+    touch_area: "5,5,3"
+  }
+  {
     id: 7301
     name: Aquarium - Floorboards
     classes: 73
@@ -29594,6 +29629,34 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20150
+    name: Crimson Flower-Adorned Statue (Left)
+    classes: 81
+    type: 201
+    space: "6,4,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The silent stone statue sculpted by the winds and sands of time has borne witness to the hasted travels of countless travelers, recording a tale of love and farewell.
+    code: 2024NationalDay_deco1
+    texture_type: "1"
+    offset: "0.000,-0.209,0.000"
+    rotate: "2"
+  }
+  {
+    id: 20151
+    name: Crimson Flower-Adorned Statue (Right)
+    classes: 81
+    type: 201
+    space: "6,4,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The tranquil stone statue weathered by the frosty winds of time has stood guard over the endless changing seasons of countless travelers, recounting a fable of love and hope.
+    code: 2024NationalDay_deco2
+    texture_type: "1"
+    offset: "0.000,-0.209,0.000"
+    rotate: "2"
   }
   {
     id: 20152

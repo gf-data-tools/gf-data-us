@@ -13834,4 +13834,39 @@
     obtain_ids: "3123"
     description_skill: 1005101
   }
+  {
+    id: 447
+    name: Custom Pan Magazine
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+       CRIT RATE+<critical_percent><%> Skill Enhancement$Lewis Only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "2,3"
+    hit: "3,5"
+    critical_percent: "21,25"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_Lewis
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "253"
+    equip_introduction: Below its thick, pan-shaped exterior lies a practicality that isn't often seen in large-capacity magazines. After removing the flashy but useless elements of its design, what remains has been improved to be lighter and more reliable.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000,pow:1000,critical_percent:1000
+    passive_skill: "1005601"
+    max_level: 10
+    auto_select_id: 18122
+    is_show: 1
+    obtain_ids: "3124"
+    description_skill: 1005601
+  }
 ]
