@@ -15930,6 +15930,24 @@
     rank: 1
   }
   {
+    id: 2694
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_STG44
+    item_name: Wilderness Search
+    introduction: Wilderness Search
+    rank: 1
+  }
+  {
+    id: 2695
+    type: 5
+    arg: "1"
+    code: card_BattlePass_STG44
+    item_name: ID Card: Encounter In The Mountains
+    introduction: ID Card: Encounter In The Mountains
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -16505,6 +16523,60 @@
     code: qjyd_20220903
     item_name: Golden Legend
     introduction: The winners with their trophy raised up high are the center of all attention. With the radiant light as their witness, the girls have created yet another legend.
+    rank: 1
+  }
+  {
+    id: 7042
+    type: 7
+    arg: "7042"
+    code: qjyd_20230101
+    item_name: Libero
+    introduction: Look at our opponent's formation! It's nothing special! Other than some necessary defenses, we only have to do three things—attack, attack, and attack!
+    rank: 1
+  }
+  {
+    id: 7043
+    type: 7
+    arg: "7043"
+    code: qjyd_20230102
+    item_name: Hat-Trick
+    introduction: One goal, the opponent may still think they have a chance. Second goal, they start adjusting their strategy. Third goal... their goalie seems to need a mental therapist?
+    rank: 1
+  }
+  {
+    id: 7044
+    type: 7
+    arg: "7044"
+    code: qjyd_20230103
+    item_name: Worldie
+    introduction: Goal! GOOOOOOAL!! That was the most brilliant goal scored in this match!!! We have our camera zoomed in on the hero responsible for this historic moment—oh, h-how positively dazzling!!!
+    rank: 1
+  }
+  {
+    id: 7045
+    type: 7
+    arg: "7042"
+    code: qjyd_20230501
+    item_name: Dancing Butterfly
+    introduction: The girl who loves sleeping often hears the whispers of a butterfly—"When you dream of me, I also dream of you."
+    rank: 1
+  }
+  {
+    id: 7046
+    type: 7
+    arg: "7043"
+    code: qjyd_20230502
+    item_name: Returning Swallow
+    introduction: Only the gentle girl can understand what troubles the swallow—"It is spring, and the flowers are blooming. It's time I visited Area S09."
+    rank: 1
+  }
+  {
+    id: 7047
+    type: 7
+    arg: "7044"
+    code: qjyd_20230503
+    item_name: Dreaming Fish
+    introduction: Only the stubborn girl agrees with the red fantail goldfish's declaration—"The sky is but the reflection of the pond."
     rank: 1
   }
   {
@@ -17413,6 +17485,15 @@
     rank: 1
   }
   {
+    id: 10725
+    type: 18
+    arg: "10725"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -17464,6 +17545,15 @@
     code: gift_bundle_BattlePass_FO12
     item_name: Parfait Baguette
     introduction: I, I confess that Jack ate some donuts while working... Aw, c'mon, don't be so mad, it's part of the QA process too! Isn't that right, Commander?
+    rank: 1
+  }
+  {
+    id: 30031
+    type: 1
+    arg: "30031"
+    code: gift_bundle_BattlePass_STG44
+    item_name: Wilderness Search
+    introduction: Commander, shall we head out? The mountain trails might be a little messy, but don't worry... I'll plot the cleanest course for you.
     rank: 1
   }
   {
@@ -19083,6 +19173,34 @@
     code: Platinum_medal_black
     item_name: Platinum Medal - Through the Looking-Glass
     introduction: Platinum Medal - Through the Looking-Glass
+    rank: 1
+  }
+  {
+    id: 100207
+    type: 9
+    arg: "100207"
+    code: Scar2022
+    item_name: Penumbra Coin
+    introduction: Penumbra Coin
+    rank: 1
+    daily_limit: "120"
+  }
+  {
+    id: 100208
+    type: 4
+    arg: "100208"
+    code: Nova_medal
+    item_name: Nova Medal - Eclipses & Saros
+    introduction: Nova Medal - Eclipses & Saros
+    rank: 1
+  }
+  {
+    id: 100209
+    type: 4
+    arg: "100209"
+    code: Platinum_medal
+    item_name: Platinum Medal - Eclipses & Saros
+    introduction: Platinum Medal - Eclipses & Saros
     rank: 1
   }
   {
@@ -22039,6 +22157,26 @@
     detail_introduction: item-30140060
   }
   {
+    id: 140061
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140061
+    introduction: item-20140061
+    rank: 1
+    detail_introduction: item-30140061
+  }
+  {
+    id: 140062
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140062
+    introduction: item-20140062
+    rank: 1
+    detail_introduction: item-30140062
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -22516,6 +22654,15 @@
     code: profileFrame_BattlePass_FO12
     item_name: Icon Frame - Frosted Candy Squares
     introduction: Icon Frame - Frosted Candy Squares
+    rank: 1
+  }
+  {
+    id: 200056
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_STG44
+    item_name: Icon Frame - Autumn Raccoon
+    introduction: Icon Frame - Autumn Raccoon
     rank: 1
   }
   {
@@ -24857,6 +25004,50 @@
     type_sort: 1
   }
   {
+    id: 1500249
+    type: 15
+    arg: "1500249"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Let's Go, Raccoon Explorers! Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500250
+    type: 15
+    arg: "1500250"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Let's Go, Raccoon Explorers! Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500251
+    type: 15
+    arg: "1500251"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Let's Go, Raccoon Explorers! Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500252
+    type: 15
+    arg: "1500252"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Let's Go, Raccoon Explorers! Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -25437,6 +25628,39 @@
     id: 1700051
     type: 15
     arg: "1700051"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700052
+    type: 15
+    arg: "1700052"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700053
+    type: 15
+    arg: "1700053"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700054
+    type: 15
+    arg: "1700054"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
@@ -26029,6 +26253,39 @@
     type: 15
     arg: "9000035"
     code: Bumdle_UrbanBeautyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000036
+    type: 15
+    arg: "9000036"
+    code: Bumdle_HalloweenCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000037
+    type: 15
+    arg: "9000037"
+    code: Bumdle_HalloweenCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000038
+    type: 15
+    arg: "9000038"
+    code: Bumdle_HalloweenCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1

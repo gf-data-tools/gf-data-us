@@ -19136,6 +19136,109 @@
     touch_area: "5,5,3"
   }
   {
+    id: 7238
+    name: Invincible Daruma Doll
+    classes: 72
+    type: 201
+    space: "4,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: It will not fall down no matter what; it is the embodiment of your indomitable belief! Wait... P7, don't think nobody noticed! What kind of funny business do you have with it?
+    code: qjyd_20230102_deco_01
+    texture_type: "2"
+    offset: "0.000,0.136,0.031"
+    rotate: "2"
+    touch_area: "4,4,4"
+  }
+  {
+    id: 7239
+    name: Maneki-Calico
+    classes: 72
+    type: 201
+    space: "5,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Being a maneki-neko is a job that many cats can only dream of. You get pampered just by just sitting and beckoning... Though there are precedents of broken arms, so please treat your beckoning cat at home well!
+    code: qjyd_20230101_deco_01
+    texture_type: "2"
+    offset: "0.000,0.334,0.073"
+    rotate: "2"
+    interact_point: "43"
+    interact_point_offset: *0.379,0.911,0.199
+    touch_area: "5,5,5"
+  }
+  {
+    id: 7240
+    name: Clamorous Rock
+    classes: 72
+    type: 201
+    space: "4,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A tombstone in an overgrown field that constantly attracts wandering spirits to gather. They are very happy to take part in a tea party if someone lights some white candles to create the right atmosphere.
+    code: qjyd_20230501_deco_01
+    texture_type: "2"
+    sorting: "20"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "48"
+    interact_point_offset: *-2.3,0.05,0
+    touch_area: "4,4,0"
+  }
+  {
+    id: 7241
+    name: Mysterious Gateway
+    classes: 72
+    type: 201
+    space: "6,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: A red Eastern architectural structure that, according to legend, can cleanse one's spirit and lead them into the spiritual realm. If the visitor isn't sufficiently pious, they could get beaten up by the resident fox spirit and their friends.
+    code: qjyd_20230502_deco,qjyd_20230502_deco_01,qjyd_20230502_deco_02
+    texture_type: "1,2,2"
+    sorting: "10,20,0"
+    offset: "0,0,0|0.010427,0.062562,0|0,0.062562,0"
+    rotate: "2,2,2"
+    interact_point: "69"
+    interact_point_offset: *0,0.06,0
+  }
+  {
+    id: 7242
+    name: Swaying Sky
+    classes: 72
+    type: 201
+    space: "7,4,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This playground facility known as a "see-saw" was once dismantled by humans due to safety reasons, but it's the perfect toy for a certain petite daredevil Doll at the base to burn off excess energy—what? Architect is about to use it as a trebuchet and launch shells off it?! RUN!!!
+    code: qjyd_20230901_deco_1,qjyd_20230901_deco_2,qjyd_20230901_deco_3
+    texture_type: "2,2,2"
+    sorting: "20,10,0"
+    offset: "0,0,0|0.010427,0.062562,0|0,0.062562,0"
+    rotate: "2,2,2"
+    interact_point: "872421,872422"
+    interact_point_offset: "0,0,0|0,0,0"
+    touch_area: "4,4,0"
+  }
+  {
+    id: 7243
+    name: Abyss of Drowsiness
+    classes: 72
+    type: 201
+    space: "6,2,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This large, ferocious-looking shark is unexpectedly popular with the Dolls at the base. Word has it the moment you put your head into its gaping mouth, you'll instantly fall into a miraculous slumber as peaceful and quiet as the deep sea—not even humans like the Commander can be spared.
+    code: qjyd_20230902_deco
+    texture_type: "2"
+    sorting: "20"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "87243"
+    interact_point_offset: *-2.567,0.911,0.000
+    touch_area: "4,4,0"
+  }
+  {
     id: 7301
     name: Aquarium - Floorboards
     classes: 73
@@ -27874,6 +27977,23 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "2"
+  }
+  {
+    id: 20004
+    name: 5th Time Shining on Stage
+    classes: 31
+    type: 201
+    space: "25,12,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Memories are never accurate. Just as sounds get distorted through radio waves, some of our memories are embellished, while others are skewed. Will our memory of this very moment on stage also be tainted in the future?
+    code: 5years_deco_A,5years_deco_B,5years_deco_C,5years_deco_D,5years_deco_E,5years_deco_F,5years_deco_G
+    texture_type: "1,1,1,1,1,1,1"
+    sorting: "0,0,0,0,0,20,20"
+    offset: "-2.6973512457,-1.7204362314,4.462756|1.9007232322,-1.7204362314,4.462756|6.5040091247,-1.7204362314,4.462756|-2.6973512457,2.76294646,5.505403865|1.9101064895,2.76294646,5.505403865|-0.458788,-1.35551,4.462756|4.1538832352,-1.35551,4.462756"
+    rotate: "2,2,2,2,2,2,2"
+    interact_point: "17,17"
+    interact_point_offset: *2.853,-1.693,11.046|*-3.754,-1.693,11.046
   }
   {
     id: 20005
@@ -46315,6 +46435,21 @@
     decompose_gift: 100003
     description: FO-12's Poster
     code: poster_BattlePass_FO12
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330031
+    name: Wilderness Search
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: StG44's Poster
+    code: poster_BattlePass_STG44
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

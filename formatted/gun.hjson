@@ -493,7 +493,7 @@
     effect_grid_pos: "12,14,17,19"
     effect_grid_effect: "2,10;3,25"
     type_equip1: 1;4,13,16
-    type_equip2: 2;6
+    type_equip2: 2;6,19
     type_equip3: 3;10
     ai: 6
     launch_time: 1970-01-01 08:00:00
@@ -3194,7 +3194,7 @@
     effect_grid_pos: "12,14"
     effect_grid_effect: "6,12"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
+    type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15
     ai: 35
     launch_time: 1970-01-01 08:00:00
@@ -7955,7 +7955,7 @@
     effect_grid_pos: "25"
     effect_grid_effect: "1,20"
     type_equip1: 2;5,17
-    type_equip2: 1;1,2,3,16
+    type_equip2: 1;1,2,3,16,18
     type_equip3: 3;14,21
     ai: 87
     launch_time: 1970-01-01 08:00:00
@@ -12804,7 +12804,7 @@
     effect_grid_center: 13
     effect_grid_pos: "8,12,14,18"
     effect_grid_effect: "1,8;2,5"
-    type_equip1: 1;4,13,16
+    type_equip1: 1;4,13,16,18
     type_equip2: 2;6
     type_equip3: 3;10
     ai: 139
@@ -15599,7 +15599,7 @@
     effect_guntype: "1"
     effect_grid_pos: "19"
     effect_grid_effect: "6,12"
-    type_equip1: 2;5
+    type_equip1: 2;5,19
     type_equip2: 1;1,2,3,13
     type_equip3: 3;15
     ai: 174
@@ -18911,7 +18911,7 @@
     effect_grid_effect: "1,25;3,65"
     type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
-    type_equip3: 3;9,10
+    type_equip3: 3;9,10,20
     ai: 215
     launch_time: 2019-04-16 00:00:00
     obtain_ids: "1,2"
@@ -22709,7 +22709,7 @@
     effect_guntype: "2"
     effect_grid_pos: "17,19"
     effect_grid_effect: "1,10;4,10"
-    type_equip1: 1;1,2,3,4,13
+    type_equip1: 1;1,2,3,4,13,18
     type_equip2: 2;8
     type_equip3: 3;9,10
     ai: 105
@@ -40897,7 +40897,7 @@
     effect_grid_effect: "6,15"
     type_equip1: 2;5
     type_equip2: 1;1,2,3,13,18
-    type_equip3: 3;15
+    type_equip3: 3;15,20
     ai: 37
     launch_time: 2019-09-23 00:00:00
     obtain_ids: "35"

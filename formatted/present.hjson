@@ -1377,6 +1377,38 @@
     present_info: present-11500245
   }
   {
+    item_id: 1500249
+    type: 1
+    prize_id: 140001
+    due_time: 2025/11/30 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500249
+  }
+  {
+    item_id: 1500250
+    type: 1
+    prize_id: 140002
+    due_time: 2025/11/30 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500250
+  }
+  {
+    item_id: 1500251
+    type: 2
+    drop_package_id: 2598
+    due_time: 2025/11/30 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500251
+  }
+  {
+    item_id: 1500252
+    type: 2
+    drop_package_id: 945
+    due_time: 2025/11/30 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500252
+  }
+  {
     item_id: 1700001
     type: 1
     prize_id: 150089
@@ -1783,6 +1815,30 @@
     due_time: 2025/11/13  00:00:00
     due_prize_id: 140075
     present_info: present-11700051
+  }
+  {
+    item_id: 1700052
+    type: 1
+    prize_id: 150140
+    due_time: 2025/12/11  00:00:00
+    due_prize_id: 140073
+    present_info: present-11700052
+  }
+  {
+    item_id: 1700053
+    type: 1
+    prize_id: 150141
+    due_time: 2025/12/11  00:00:00
+    due_prize_id: 140074
+    present_info: present-11700053
+  }
+  {
+    item_id: 1700054
+    type: 1
+    prize_id: 150142
+    due_time: 2025/12/11  00:00:00
+    due_prize_id: 140075
+    present_info: present-11700054
   }
   {
     item_id: 1800001
@@ -2252,5 +2308,32 @@
     due_time: 2025/11/09  23:59:59
     due_prize_id: 220438
     present_info: present-19000035
+  }
+  {
+    item_id: 9000036
+    type: 2
+    poster: PackageImage_3
+    drop_package_id: 20156
+    due_time: 2025/12/14  23:59:59
+    due_prize_id: 7395
+    present_info: present-19000036
+  }
+  {
+    item_id: 9000037
+    type: 2
+    poster: PackageImage_5
+    drop_package_id: 20157
+    due_time: 2025/12/14  23:59:59
+    due_prize_id: 7396
+    present_info: present-19000037
+  }
+  {
+    item_id: 9000038
+    type: 1
+    poster: PackageImage_8
+    prize_id: 220848
+    due_time: 2025/12/14  23:59:59
+    due_prize_id: 220438
+    present_info: present-19000038
   }
 ]
