@@ -30701,39 +30701,147 @@
   }
   {
     id: 12342
-    name: prize-10012342
+    name: 6.5x50mm Modified Rounds
     equip_ids: "322"
-    content: prize-20012342
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+10
+      AP+180
+      Type 81R only
+      '''
   }
   {
     id: 12343
-    name: prize-10012343
+    name: MHS-33
     equip_ids: "323"
-    content: prize-20012343
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+8
+      Crit RATE+48%
+      Gr HK33 only
+      '''
   }
   {
     id: 12344
-    name: prize-10012344
+    name: Dreibein 34
     equip_ids: "324"
-    content: prize-20012344
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+8 ACC+10
+      Crit RATE+48%
+      MG34 only
+      '''
   }
   {
     id: 12345
-    name: prize-10012345
+    name: Custom Nylon Grip
     equip_ids: "344"
-    content: prize-20012345
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      EVA+22
+      Crit RATE+30%
+      Bren Ten only
+      '''
   }
   {
     id: 12346
-    name: prize-10012346
+    name: Custom Skeleton Stock
     equip_ids: "345"
-    content: prize-20012346
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+10
+      Crit RATE+50%
+      M1A1 only
+      '''
   }
   {
     id: 12347
-    name: prize-10012347
+    name: Tokarev Pistol Rounds
     equip_ids: "346"
-    content: prize-20012347
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+20
+      AP-7
+      Tokarev only
+      '''
+  }
+  {
+    id: 12348
+    name: 12.7mm Modified Rounds
+    equip_ids: "361"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+20
+      AP+200
+      6P62 only
+      '''
+  }
+  {
+    id: 12349
+    name: Beretta Custom Chip
+    equip_ids: "363"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+18 ROF+25
+      Crit DMG-50%
+      AR70 only
+      '''
+  }
+  {
+    id: 12350
+    name: MAS Custom Rounds
+    equip_ids: "362"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+5
+      AP+500
+      AAT-52 only
+      '''
+  }
+  {
+    id: 12351
+    name: Largo Modified Rounds
+    equip_ids: "378"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+20
+      AP-7
+      Z-62 only
+      '''
+  }
+  {
+    id: 12352
+    name: TMP Exoskeleton
+    equip_ids: "379"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG-3
+      EVA+42
+      TMP only
+      '''
+  }
+  {
+    id: 12353
+    name: High-Speed Processor
+    equip_ids: "377"
+    content:
+      '''
+      <color=#ffb400>Stats after full calibration</color>
+      DMG+18 ROF+25
+      Crit DMG-50%
+      L85A1 only
+      '''
   }
   {
     id: 12401
@@ -31016,6 +31124,42 @@
     name: prize-10012447
     item_ids: 7047-1
     content: prize-20012447
+  }
+  {
+    id: 12448
+    name: prize-10012448
+    item_ids: 7048-1
+    content: prize-20012448
+  }
+  {
+    id: 12449
+    name: prize-10012449
+    item_ids: 7049-1
+    content: prize-20012449
+  }
+  {
+    id: 12450
+    name: prize-10012450
+    item_ids: 7050-1
+    content: prize-20012450
+  }
+  {
+    id: 12451
+    name: prize-10012451
+    item_ids: 7051-1
+    content: prize-20012451
+  }
+  {
+    id: 12452
+    name: prize-10012452
+    item_ids: 7052-1
+    content: prize-20012452
+  }
+  {
+    id: 12453
+    name: prize-10012453
+    item_ids: 7053-1
+    content: prize-20012453
   }
   {
     id: 12501
@@ -53026,6 +53170,12 @@
     content: prize-20120161
   }
   {
+    id: 120162
+    name: prize-10120162
+    item_ids: 41-30,1500249-1
+    content: prize-20120162
+  }
+  {
     id: 120163
     name: prize-10120163
     item_ids: 41-30
@@ -53092,6 +53242,54 @@
     name: prize-10121008
     furniture: "2082"
     content: prize-20121008
+  }
+  {
+    id: 121009
+    name: prize-10121009
+    furniture: "20016"
+    content: prize-20121009
+  }
+  {
+    id: 121010
+    name: prize-10121010
+    furniture: "20017"
+    content: prize-20121010
+  }
+  {
+    id: 121011
+    name: prize-10121011
+    furniture: "20018"
+    content: prize-20121011
+  }
+  {
+    id: 121012
+    name: prize-10121012
+    furniture: "20019"
+    content: prize-20121012
+  }
+  {
+    id: 121013
+    name: prize-10121013
+    furniture: "20020"
+    content: prize-20121013
+  }
+  {
+    id: 121014
+    name: prize-10121014
+    furniture: "20021"
+    content: prize-20121014
+  }
+  {
+    id: 121015
+    name: prize-10121015
+    furniture: "7244"
+    content: prize-20121015
+  }
+  {
+    id: 121016
+    name: prize-10121016
+    furniture: "7245"
+    content: prize-20121016
   }
   {
     id: 121019
@@ -62843,6 +63041,25 @@
     item_ids: 9000038-1
     content: prize-20220851
     icon: Bumdle_HalloweenCoupons3
+  }
+  {
+    id: 220852
+    name: prize-10220852
+    item_ids: 10603-24
+    content: prize-20220852
+    bp_pay: 24
+  }
+  {
+    id: 220853
+    name: prize-10220853
+    content: prize-20220853
+    commander_uniform: "6240"
+  }
+  {
+    id: 220854
+    name: prize-10220854
+    gun_id: "407"
+    content: prize-20220854
   }
   {
     id: 330248

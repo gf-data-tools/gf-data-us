@@ -19239,6 +19239,45 @@
     touch_area: "4,4,0"
   }
   {
+    id: 7244
+    name: Explosive Party
+    classes: 72
+    type: 201
+    space: "4,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: '''"Every grain of corn kernel has to be carefully refined and undergo a grueling process in a special machine to become aromatic and fulfill its true worth..." I wonder if putting up this slogan in the lounge would bolster everyone's motivation at work...?'''
+    code: qjyd_20240101_deco01,qjyd_20240101_popcorn
+    texture_type: "1,2"
+    sorting: "0,0"
+    offset: "0.000,0.000,0.000|-0.182,0.692,0.105"
+    rotate: "2,2"
+    interact_point: "44"
+    interact_point_offset: *1.050,0.541,1.736
+  }
+  {
+    id: 7245
+    name: Dinergate Rescue Mission
+    classes: 72
+    type: 201
+    space: "4,3,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description:
+      '''
+      According to the myths, the Buddha lowers a thread of spider silk into the depths of Hell, hoping to redeem the suffering sinners. However, the sinners keeps grappling for the thread, causing it to break again and again...
+      "What's the meaning of this?"
+      "I'm not a scrub; they just keep slipping the hook themselves."
+      '''
+    code: qjyd_20240101_clawcrane
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    interact_point: "64,71,72"
+    interact_point_offset: *2.348,-0.347,0.000|*-2.873,-0.296,0.000|*0.000,-0.407,0.000
+    touch_area: "3,3,3"
+  }
+  {
     id: 7301
     name: Aquarium - Floorboards
     classes: 73

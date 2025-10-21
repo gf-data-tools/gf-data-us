@@ -1247,7 +1247,6 @@
     type: 1
     prize_id: 12613
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 208
@@ -1260,49 +1259,42 @@
     type: 1
     prize_id: 12198
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 210
     type: 1
     prize_id: 12199
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 211
     type: 4
     prize_id: 12442
     cost: 4003-1500|4004-1500
-    is_new: 1
   }
   {
     id: 212
     type: 4
     prize_id: 12443
     cost: 4001-1500|4004-1500
-    is_new: 1
   }
   {
     id: 213
     type: 4
     prize_id: 12444
     cost: 4002-1500|4004-1500
-    is_new: 1
   }
   {
     id: 214
     type: 3
     prize_id: 12342
     cost: 4003-5000
-    is_new: 1
   }
   {
     id: 215
     type: 3
     prize_id: 12343
     cost: 4003-5000
-    is_new: 1
   }
   {
     id: 216
@@ -1310,7 +1302,6 @@
     prize_id: 12344
     cost: 4003-4000
     start_time: " "
-    is_new: 1
   }
   {
     id: 217
@@ -1323,49 +1314,42 @@
     type: 1
     prize_id: 121001
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 219
     type: 1
     prize_id: 121002
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 220
     type: 4
     prize_id: 12445
     cost: 4003-1500|4004-1500
-    is_new: 1
   }
   {
     id: 221
     type: 4
     prize_id: 12446
     cost: 4001-1500|4004-1500
-    is_new: 1
   }
   {
     id: 222
     type: 4
     prize_id: 12447
     cost: 4002-1500|4004-1500
-    is_new: 1
   }
   {
     id: 223
     type: 3
     prize_id: 12345
     cost: 4003-5000
-    is_new: 1
   }
   {
     id: 224
     type: 3
     prize_id: 12346
     cost: 4003-5000
-    is_new: 1
   }
   {
     id: 225
@@ -1373,7 +1357,6 @@
     prize_id: 12347
     cost: 4003-5000
     start_time: " "
-    is_new: 1
   }
   {
     id: 226
@@ -1395,20 +1378,60 @@
     prize_id: 121005
     cost: 4001-8000
     start_time: " "
-    is_new: 1
   }
   {
     id: 229
     type: 1
     prize_id: 121006
     cost: 4001-8000
-    is_new: 1
   }
   {
     id: 230
     type: 1
     prize_id: 121007
     cost: 4001-8000
+  }
+  {
+    id: 231
+    type: 4
+    prize_id: 12448
+    cost: 4003-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 232
+    type: 4
+    prize_id: 12449
+    cost: 4001-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 233
+    type: 4
+    prize_id: 12450
+    cost: 4002-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 234
+    type: 3
+    prize_id: 12348
+    cost: 4003-5000
+    is_new: 1
+  }
+  {
+    id: 235
+    type: 3
+    prize_id: 12349
+    cost: 4003-5000
+    is_new: 1
+  }
+  {
+    id: 236
+    type: 3
+    prize_id: 12350
+    cost: 4003-4000
+    start_time: " "
     is_new: 1
   }
   {
@@ -1423,6 +1446,105 @@
     prize_id: 12508
     cost: 4001-4500
     quota: 1
+  }
+  {
+    id: 239
+    type: 1
+    prize_id: 121009
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 240
+    type: 1
+    prize_id: 121010
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 241
+    type: 1
+    prize_id: 121011
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 242
+    type: 1
+    prize_id: 121012
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 243
+    type: 1
+    prize_id: 121013
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 244
+    type: 1
+    prize_id: 121014
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 245
+    type: 1
+    prize_id: 121015
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 246
+    type: 1
+    prize_id: 121016
+    cost: 4001-8000
+    is_new: 1
+  }
+  {
+    id: 247
+    type: 4
+    prize_id: 12451
+    cost: 4003-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 248
+    type: 4
+    prize_id: 12452
+    cost: 4001-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 249
+    type: 4
+    prize_id: 12453
+    cost: 4002-1500|4004-1500
+    is_new: 1
+  }
+  {
+    id: 250
+    type: 3
+    prize_id: 12351
+    cost: 4003-5000
+    is_new: 1
+  }
+  {
+    id: 251
+    type: 3
+    prize_id: 12352
+    cost: 4003-5000
+    is_new: 1
+  }
+  {
+    id: 252
+    type: 3
+    prize_id: 12353
+    cost: 4003-4000
+    start_time: " "
+    is_new: 1
   }
   {
     id: 261

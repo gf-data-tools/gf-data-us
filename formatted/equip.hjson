@@ -11544,6 +11544,103 @@
     obtain_ids: "3099"
   }
   {
+    id: 361
+    name: 12.7mm Modified Rounds
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> $6P62 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "5,10"
+    armor_piercing: "95,100"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_6P62
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "138"
+    equip_introduction: The modification made to the regular 12.7mm cartridge makes it even more lethal than the .50 BMG and a better fit for 6P62.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:1000
+    max_level: 10
+    auto_select_id: 19064
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 362
+    name: MAS Custom Rounds
+    description:
+      '''
+      AP+<armor_piercing>
+      DMG+<pow> $AAT-52 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "1,3"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: 弹匣_特殊_AAT52
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "111"
+    equip_introduction: The upgraded 7.5Ã—54 mm cartridge makes use of less corrosive gunpowder and also packs a more powerful punch.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,pow:700
+    max_level: 10
+    auto_select_id: 19065
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 363
+    name: Beretta Custom Chip
+    description:
+      '''
+      DMG+<pow> ROF+<rate>
+      CRIT DMG<critical_harm_rate><%> $AR70 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: 人形_特殊_AR70
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "134"
+    equip_introduction: An enhancement chip custom made for AR70 that greatly improves the potency of her attacks.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    max_level: 10
+    auto_select_id: 20068
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
     id: 364
     name: Patrol Helmet
     description:
@@ -11987,6 +12084,103 @@
     is_show: 1
     obtain_ids: "3102"
     description_skill: 759316
+  }
+  {
+    id: 377
+    name: High-Speed Processor
+    description:
+      '''
+      DMG+<pow> ROF+<rate>
+      CRIT DMG<critical_harm_rate><%> $L85A1 only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "10,12"
+    rate: "12,16"
+    critical_harm_rate: "-50,-50"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_L85A1
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "68"
+    equip_introduction: The new upgrade on the second-generation processor developed by IOP greatly enhances the chip's processing speed.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:500,rate:600
+    max_level: 10
+    auto_select_id: 20075
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 378
+    name: Largo Modified Rounds
+    description:
+      '''
+      DMG+<pow>
+      AP<armor_piercing> $Z-62 only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    pow: "8,10"
+    armor_piercing: "-10,-7"
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Z62
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "116"
+    equip_introduction: The old cartridge specially modified for Z-62 features an upgrade in the casing material.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: pow:1000
+    max_level: 10
+    auto_select_id: 19072
+    is_show: 1
+    obtain_ids: "3003"
+  }
+  {
+    id: 379
+    name: TMP Exoskeleton
+    description:
+      '''
+      DMG<pow>
+       EVA+<dodge> $TMP only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-5,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_TMP
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "176"
+    equip_introduction: The exoskeleton tailor-made for TMP features aesthetic and structural designs requested and deeply appreciated by the Doll.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    max_level: 10
+    auto_select_id: 20076
+    is_show: 1
+    obtain_ids: "3003"
   }
   {
     id: 380
