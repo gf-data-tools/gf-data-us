@@ -28815,6 +28815,21 @@
     interact_point_offset: "0,0,0"
   }
   {
+    id: 20057
+    name: Time-Tested Ally Display Rack
+    classes: 81
+    type: 302
+    space: "6,10,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: When an Imprint comes into effect, a firearm's fate becomes closely bound to its owner. Is this just a matter of chance or is it meant to be? In any case, the passage of time has fostered their deep friendship and camaraderie, which neither time nor distance will weaken easily.
+    code: 2022Anniversay_deco_A
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 20059
     name: Balloon Target
     classes: 19
@@ -29030,6 +29045,20 @@
     code: 2022SummerActivity_Medal
     texture_type: "1"
     offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20076
+    name: Blue Saturday Freeze Frame
+    classes: 81
+    type: 302
+    space: "6,7,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: The weekend is short and fleeting, but the moment frozen in film is forever.
+    code: 2022_Carnival_deco_drawing
+    texture_type: "1"
+    offset: "0,0.542204,0"
     rotate: "3"
   }
   {
@@ -29699,6 +29728,36 @@
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
+  }
+  {
+    id: 20135
+    name: Woodland Scenery
+    classes: 19
+    type: 201
+    space: "8,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An essential outdoor camping set for camping enthusiasts. With it, you can leave the hustle and bustle behind and enjoy the peace and quiet of the wilderness... You want some coffee? You'll have to work for it. Here, take this knife and axe. We'll start with chopping some wood for fire...
+    code: qjyd_20240530_camping_deco1,qjyd_20240530_camping_deco2,qjyd_20240530_camping_deco3,qjyd_20240530_camping_deco4
+    texture_type: "1,1,1,1"
+    sorting: "0,10,20,30"
+    offset: "0.156,-0.886,0.000|0.156,-0.886,0.000|0.156,-0.886,0.000|0.156,-0.886,0.000"
+    rotate: "2,2,2,2"
+  }
+  {
+    id: 20136
+    name: Mountain Flavors
+    classes: 19
+    type: 201
+    space: "6,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: An essential large-size barbecue for camping enthusiasts. With it, you can enjoy cooking and eating delicious food out in the woods. The smell of barbecue will attract the wild beasts in the area...? Look on the bright side - you'll get the freshest ingredients, no?
+    code: qjyd_20240530_bbq_deco1,qjyd_202405_bbq
+    texture_type: "1,2"
+    sorting: "0,10"
+    offset: "0.177,-0.094,0.000|-0.542,0.344,0.000"
+    rotate: "2,2"
   }
   {
     id: 20137

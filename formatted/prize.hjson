@@ -14937,6 +14937,13 @@
     content: prize-20002846
   }
   {
+    id: 2850
+    name: prize-10002850
+    gem: 90
+    equip_ids: "450"
+    content: prize-20002850
+  }
+  {
     id: 3001
     name: SAA
     item_ids: 1318-1
@@ -30844,6 +30851,24 @@
       '''
   }
   {
+    id: 12354
+    name: prize-10012354
+    equip_ids: "400"
+    content: prize-20012354
+  }
+  {
+    id: 12355
+    name: prize-10012355
+    equip_ids: "401"
+    content: prize-20012355
+  }
+  {
+    id: 12356
+    name: prize-10012356
+    equip_ids: "402"
+    content: prize-20012356
+  }
+  {
     id: 12401
     name: Candy Pocket
     item_ids: 7001-1
@@ -31160,6 +31185,24 @@
     name: prize-10012453
     item_ids: 7053-1
     content: prize-20012453
+  }
+  {
+    id: 12454
+    name: prize-10012454
+    item_ids: 7054-1
+    content: prize-20012454
+  }
+  {
+    id: 12455
+    name: prize-10012455
+    item_ids: 7055-1
+    content: prize-20012455
+  }
+  {
+    id: 12456
+    name: prize-10012456
+    item_ids: 7056-1
+    content: prize-20012456
   }
   {
     id: 12501
@@ -42496,6 +42539,651 @@
     core: 20
   }
   {
+    id: 37119
+    name: 3-α2 Wind, Sand and Stars - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37120
+    name: 5-α6 Chaconne - Mission Reward
+    gift: 200001-100
+  }
+  {
+    id: 37121
+    name: 5-α8 Stradivarius' Magic - Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 37122
+    name: 26 Thus Spoke Zarathustra - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37123
+    name: 5-α6 Chaconne - EX - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37124
+    name: 5-α8 Stradivarius' Magic - EX - Mission Reward
+    coins: 1-300
+  }
+  {
+    id: 37125
+    name: 26 Thus Spoke Zarathustra - EX - Mission Reward
+    item_ids: 44-100
+  }
+  {
+    id: 37126
+    name: 5-α6 Chaconne - UX- Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 37127
+    name: 5-α8 Stradivarius' Magic - UX- Mission Reward
+    item_ids: 44-150
+  }
+  {
+    id: 37128
+    name: 26 Thus Spoke Zarathustra - UX- Mission Reward
+    core: 10
+  }
+  {
+    id: 37129
+    name: 3-β2 Symphony No.2 in C Major - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 37130
+    name: 5-β6 Symphony No. 9 - Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 37131
+    name: 5-β8 The Firebird - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37132
+    name: 13 Goldberg Variations - Mission Reward
+    core: 5
+  }
+  {
+    id: 37133
+    name: 22 Night on Bald Mountain - Mission Reward
+    item_ids: 506-100
+  }
+  {
+    id: 37134
+    name: 5-β6 Symphony No. 9 - EX - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37135
+    name: 5-β8 The Firebird - EX - Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 37136
+    name: 13 Goldberg Variations - EX- Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 37137
+    name: 22 Night on Bald Mountain - EX- Mission Reward
+    coins: 2-300
+  }
+  {
+    id: 37138
+    name: 5-β6 Symphony No. 9 - UX - Mission Reward
+    core: 10
+  }
+  {
+    id: 37139
+    name: 5-β8 The Firebird - UX- Mission Reward
+    item_ids: 14-100
+  }
+  {
+    id: 37140
+    name: 13 Goldberg Variations - UX - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 37141
+    name: 22 Night on Bald Mountain - UX - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37142
+    name: 3-γ2 Courante - Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 37143
+    name: 5-γ6 Hour of Grief - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37144
+    name: 5-γ8 Torna a Surriento - Mission Reward
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 37145
+    name: 9 Ghost - Mission Reward
+    item_ids: 506-100
+  }
+  {
+    id: 37146
+    name: 30 Symphony No. 6 - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37147
+    name: 32 1812 Overture- Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 37148
+    name: 5-γ6 Hour of Grief - EX- Mission Reward
+    item_ids: 51-2
+  }
+  {
+    id: 37149
+    name: 5-γ8 Torna a Surriento - EX- Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37150
+    name: 9 Ghost - EX - Mission Reward
+    item_ids: 44-150
+  }
+  {
+    id: 37151
+    name: 30 Symphony No. 6 - EX - Mission Reward
+    item_ids: 9-50
+  }
+  {
+    id: 37152
+    name: 32 1812 Overture - EX - Mission Reward
+    coins: 3-300
+  }
+  {
+    id: 37153
+    name: 5-γ6 Hour of Grief - UX - Mission Reward
+    core: 10
+  }
+  {
+    id: 37154
+    name: 5-γ8 Torna a Surriento - UX - Mission Reward
+    item_ids: 15-100
+  }
+  {
+    id: 37155
+    name: 9 Ghost - UX- Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37156
+    name: 30 Symphony No. 6 - UX - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37157
+    name: 32 1812 Overture - UX - Mission Reward
+    core: 10
+  }
+  {
+    id: 37158
+    name: Quartet Rondo - Largo - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37159
+    name: Quartet Rondo - Andante - Mission Reward
+    gift: 200001-100
+  }
+  {
+    id: 37160
+    name: Quartet Rondo - Presto - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37161
+    name: Quintet Rondo - Largo - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37162
+    name: Quintet Rondo - Andante - Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 37163
+    name: Quintet Rondo - Presto - Mission Reward
+    item_ids: 525-30
+  }
+  {
+    id: 37164
+    name: Transcendental Études - Mission Reward
+    item_ids: 44-200
+  }
+  {
+    id: 37165
+    name: Études-Tableaux - Mission Reward
+    item_ids: 45-300
+  }
+  {
+    id: 37166
+    name: 1 Train Timetable - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37167
+    name: 3-α1 Waltz in A minor - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37168
+    name: 3-α3 Raindrop - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37169
+    name: 3-α4 Little Prelude in G minor - Mission Reward
+    item_ids: 45-50
+  }
+  {
+    id: 37170
+    name: 5-α5 Moonlight Sonata - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 37171
+    name: 5-α7 Winter - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37172
+    name: 16 Concerto Grosso in A minor - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37173
+    name: 17 Brahms Intermezzi - Mission Reward
+    item_ids: 9-50
+  }
+  {
+    id: 37174
+    name: 18 The Swan - Mission Reward
+    coins: 1-100
+  }
+  {
+    id: 37175
+    name: 25 Ruslan and Lyudmila - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37176
+    name: 27 Ride of the Valkyries - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37177
+    name: 3-β1 Gene Takes a Drink - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37178
+    name: 3-β3 Symphony No. 3 - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37179
+    name: 5-β4 Introduction and Rondo Capriccioso - Mission Reward
+    item_ids: 45-50
+  }
+  {
+    id: 37180
+    name: 5-β5 Danse Macabre - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 37181
+    name: 5-β7 Cavalleria Rusticana - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37182
+    name: 12 Gnossienne No. 1 - Mission Reward
+    item_ids: 9-50
+  }
+  {
+    id: 37183
+    name: 14 Ballade in G minor - Mission Reward
+    item_ids: 15-50
+  }
+  {
+    id: 37184
+    name: 21 La Campanella - Mission Reward
+    item_ids: 14-50
+  }
+  {
+    id: 37185
+    name: 23 Con Espressione - Mission Reward
+    coins: 2-100
+  }
+  {
+    id: 37186
+    name: 3-γ1 Méditation from Thaïs - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37187
+    name: 3-γ3 Vladimir's Blues - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37188
+    name: 3-γ4 The Well-Tempered Clavier - Mission Reward
+    item_ids: 45-50
+  }
+  {
+    id: 37189
+    name: 5-γ5 The Canary - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 37190
+    name: 5-γ7 Choral Fantasy - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37191
+    name: 8 Rhapsody on a Theme of Paganini - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37192
+    name: 10 L'estro Armonico - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37193
+    name: 29 Summer - Mission Reward
+    item_ids: 15-50
+  }
+  {
+    id: 37194
+    name: 31 Zigeunerweisen - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37195
+    name: 33 Air on the G String - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37196
+    name: 2 Radiation Alarm - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37197
+    name: 3 Bar Counter - Mission Reward
+    coins: 1-100
+  }
+  {
+    id: 37198
+    name: 4 Vintage Gramophone - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37199
+    name: 5 Toilet - Mission Reward
+    item_ids: 506-200
+  }
+  {
+    id: 37200
+    name: 6 World Time Zone Clocks - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37201
+    name: 7 Door to First-Class Carriage - Mission Reward
+    coins: 2-100
+  }
+  {
+    id: 37202
+    name: 11 Large Luggage Rack - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37203
+    name: 15 Window with a View - Mission Reward
+    item_ids: 14-50
+  }
+  {
+    id: 37204
+    name: 19 Elegant Bouquet on the Table - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37205
+    name: 20 Vendor's Pushcart- Mission Reward
+    coins: 3-100
+  }
+  {
+    id: 37206
+    name: 24 Humorous Graffiti - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37207
+    name: 28 Maintenance Room - Mission Reward
+    mp: 300
+    ammo: 300
+    mre: 300
+    part: 300
+  }
+  {
+    id: 37208
+    name: 34 Trapdoor - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37209
+    name: 35 Hanging Screen - Mission Reward
+    core: 20
+  }
+  {
+    id: 37210
+    name: 36 Vox Lux - Mission Reward
+    item_ids: 45-100,161000-1
+  }
+  {
+    id: 37211
+    name: 35-T1 Étude No. 2 - Mission Reward
+    mp: 200
+    ammo: 200
+    mre: 200
+    part: 200
+  }
+  {
+    id: 37212
+    name: 35-T2 Prelude No. 5 - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37213
+    name: 35-T3 Romance - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37214
+    name: 35-T4 Moments Musicaux - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37215
+    name: 35-W1 Solveig's Song - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37216
+    name: 35-W2 Clarinet Concerto in A Major - Mission Reward
+    coins: 1-200
+  }
+  {
+    id: 37217
+    name: 35-W3 Tour di Mantova - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37218
+    name: 35-W4 Tristesse - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37219
+    name: 35-N1 Fantaisie-Impromptu - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37220
+    name: 35-N2 Spring Sonata - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37221
+    name: 35-N3 Minuet - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37222
+    name: 35-C1 Gymnopedie - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37223
+    name: 35-C2 Moon River - Mission Reward
+    coins: 3-200
+  }
+  {
+    id: 37224
+    name: 35-C3 Starry Starry Night - Mission Reward
+    coins: 2-200
+  }
+  {
+    id: 37225
+    name: 35-C4 O Sole Mio- Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37226
+    name: 35-R1 Tzigane - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37227
+    name: 35-R2 Sommeraften - Mission Reward
+    item_ids: 46-100
+  }
+  {
+    id: 37228
+    name: 35-R3 Piano Quintet in B minor - Mission Reward
+    item_ids: 525-10
+  }
+  {
+    id: 37229
+    name: 35-R4 Piano Concerto in F minor - Mission Reward
+    item_ids: 45-100
+  }
+  {
+    id: 37230
+    name: 35-P1 Twelve Variations on "Ah vous dirai-je, Maman" - Mission Reward
+    mp: 100
+    ammo: 100
+    mre: 100
+    part: 100
+  }
+  {
+    id: 37231
+    name: 35-P2 Death and the Maiden - Mission Reward
+    coins: 3-100
+  }
+  {
+    id: 37232
+    name: 35-P3 Salut d'Amour - Mission Reward
+    item_ids: 45-100
+  }
+  {
     id: 40001
     name: T-Doll: Thompson
     gun_id: "16"
@@ -53292,6 +53980,18 @@
     content: prize-20121016
   }
   {
+    id: 121017
+    name: prize-10121017
+    furniture: "20135"
+    content: prize-20121017
+  }
+  {
+    id: 121018
+    name: prize-10121018
+    furniture: "20136"
+    content: prize-20121018
+  }
+  {
     id: 121019
     name: prize-10121019
     furniture: "20038"
@@ -53338,6 +54038,78 @@
     name: prize-10121026
     furniture: "20045"
     content: prize-20121026
+  }
+  {
+    id: 121027
+    name: prize-10121027
+    furniture: "20057"
+    content: prize-20121027
+  }
+  {
+    id: 121028
+    name: prize-10121028
+    furniture: "20076"
+    content: prize-20121028
+  }
+  {
+    id: 121029
+    name: prize-10121029
+    furniture: "20063"
+    content: prize-20121029
+  }
+  {
+    id: 121030
+    name: prize-10121030
+    furniture: "20064"
+    content: prize-20121030
+  }
+  {
+    id: 121031
+    name: prize-10121031
+    furniture: "20065"
+    content: prize-20121031
+  }
+  {
+    id: 121032
+    name: prize-10121032
+    furniture: "20066"
+    content: prize-20121032
+  }
+  {
+    id: 121033
+    name: prize-10121033
+    furniture: "20067"
+    content: prize-20121033
+  }
+  {
+    id: 121034
+    name: prize-10121034
+    furniture: "20068"
+    content: prize-20121034
+  }
+  {
+    id: 121035
+    name: prize-10121035
+    furniture: "20069"
+    content: prize-20121035
+  }
+  {
+    id: 121036
+    name: prize-10121036
+    furniture: "20070"
+    content: prize-20121036
+  }
+  {
+    id: 121037
+    name: prize-10121037
+    furniture: "20071"
+    content: prize-20121037
+  }
+  {
+    id: 121038
+    name: prize-10121038
+    furniture: "20072"
+    content: prize-20121038
   }
   {
     id: 121059

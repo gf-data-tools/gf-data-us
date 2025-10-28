@@ -850,6 +850,51 @@ COMMON,1838,Screenshot will be saved to {0},,0
 COMMON,1839,Gain Gem*{0} for the first screenshot of each week.,,0
 COMMON,1840,Screenshot taken,,0
 COMMON,1841,Hidden Base UI,,0
+COMMON,1842,,,0
+COMMON,1843,2018.07.17,,0
+COMMON,1844,Operation Cube,,0
+COMMON,1845,2019.01.22,,0
+COMMON,1846,Arctic Warfare,,0
+COMMON,1847,2019.04.30,,0
+COMMON,1848,Deep Dive,,0
+COMMON,1849,2019.11.19,,0
+COMMON,1850,Singularity,,0
+COMMON,1851,2020.02.18,,0
+COMMON,1852,Continuum Turbulence,,0
+COMMON,1853,2020.07.07,,0
+COMMON,1854,Isomer,,0
+COMMON,1855,2020.11.24,,0
+COMMON,1856,Shattered Connexion,,0
+COMMON,1857,2021.04.27,,0
+COMMON,1858,Polarized Light,,0
+COMMON,1859,2022.01.25,,0
+COMMON,1860,Dual Randomness,,0
+COMMON,1861,2022.07.26,,0
+COMMON,1862,Mirror Stage,,0
+COMMON,1863,2022.11.01,,0
+COMMON,1864,Poincaré Recurrence,,0
+COMMON,1865,2023.01.17,,0
+COMMON,1866,Fixed Point,,0
+COMMON,1867,2023.08.01,,0
+COMMON,1868,Longitudinal Strain,,0
+COMMON,1869,2023.06.13,,0
+COMMON,1870,Eclipses & Saros,,0
+COMMON,1871,2023.12.26,,0
+COMMON,1872,Slow Shock,,0
+COMMON,1873,2024.08.06,,0
+COMMON,1874,The Summer Garden of Forking Paths,,0
+COMMON,1875,2024.10.29,,0
+COMMON,1876,Cartesian Theater,,0
+COMMON,1877,2024.12.24,,0
+COMMON,1878,Zero Charge,,0
+COMMON,1879,2025.02.18,,0
+COMMON,1880,Angular Gyrus,,0
+COMMON,1881,2025.04.29,,0
+COMMON,1882,Isolation Forest,,0
+COMMON,1883,SUMMER SP EVENT,,0
+COMMON,1884,WINTER SP EVENT,,0
+COMMON,1885,SP EVENT,,0
+COMMON,1886,,,0
 BATTLE,10000,Retreat,,0
 BATTLE,10001,Withdraw,,1
 BATTLE,10002,WITHDRAW,,1
@@ -1278,7 +1323,32 @@ HOME,20207,Request cancelled,,0
 HOME,20208,Current level is {0}/{1}//c Function to send friend requests is not yet available,,0
 HOME,20209,You have reached the maximum number of friend requests. Please organize them before proceeding further.,,0
 HOME,20210,,,0
-HOME,20211,,,0
+HOME,20211,<color=#ffb400ff><size=48><b>Event Rules:</b></size></color>//n1. During the event//c enter another Commander's invite code on the returnee invite page to receive the returnee reward.//n2. Each returnee can only accept an invitation from one Commander.//n3. Completing returnee missions will help the Commander who invited you receive invitation rewards.,,0
+HOME,20212,Desktop Adjutant,,0
+HOME,20213,Adjutant Selection,,0
+HOME,20214,Chibi Form,,0
+HOME,20215,Do you wish to repeat construction?,,0
+HOME,20216,Preview,,0
+HOME,20217,Notification Settings,,0
+HOME,20218,Activate,,0
+HOME,20219,Factory Production,,0
+HOME,20220,,,0
+HOME,20221,,,0
+HOME,20222,,,0
+HOME,20223,,,0
+HOME,20224,,,0
+HOME,20225,,,0
+HOME,20226,,,0
+HOME,20227,,,0
+HOME,20228,,,0
+HOME,20229,,,0
+HOME,20230,,,0
+HOME,20231,,,0
+HOME,20232,,,0
+HOME,20233,,,0
+HOME,20234,,,0
+HOME,20235,,,0
+HOME,20236,,,0
 DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,1
@@ -3024,6 +3094,19 @@ ILLUSTRATEDBOOK,35206,Mobile Armors,,0
 ILLUSTRATEDBOOK,35207,Mobile Armor Appearance,,0
 ILLUSTRATEDBOOK,35208,Search,,0
 ILLUSTRATEDBOOK,35209,Model Details,,0
+ILLUSTRATEDBOOK,35210,,,0
+ILLUSTRATEDBOOK,35211,,,0
+ILLUSTRATEDBOOK,35212,This story recollection will be unlocked after clearing the stages in {0}.,,0
+ILLUSTRATEDBOOK,35213,No festive event stories unlocked at the moment. Please proceed to [Battle - Permanent Events] and attempt the event stages.,,0
+ILLUSTRATEDBOOK,35214,Unlocked after clearing {0},,0
+ILLUSTRATEDBOOK,35215,,,0
+ILLUSTRATEDBOOK,35216,,,0
+ILLUSTRATEDBOOK,35217,,,0
+ILLUSTRATEDBOOK,35218,,,0
+ILLUSTRATEDBOOK,35219,,,0
+ILLUSTRATEDBOOK,35220,,,0
+ILLUSTRATEDBOOK,35221,,,0
+ILLUSTRATEDBOOK,35222,,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -3106,6 +3189,8 @@ LOGIN,36079,Client server is intact and requires no repairs.,,0
 LOGIN,36080,Client server repaired!,,0
 LOGIN,36081,Resource Verification,,0
 LOGIN,36082,Resource decompression failed. Please restart client and try again.,,0
+LOGIN,36083,Current queue is full//c please wait a while and try again!,,0
+LOGIN,36084,Currently server load is high//c you may have to wait a while,,0
 MAIL,37000,GET,,0
 MAIL,37001,NO NEW MESSAGES,,0
 MAIL,37002,NONEWMESSAGES,,0
@@ -3803,6 +3888,14 @@ MISSIONSELECTION,40510,Skill activated,,0
 MISSIONSELECTION,40511,Skill not activated,,0
 MISSIONSELECTION,40512,You have reached the maximum number of single Sweeps you can do.,,0
 MISSIONSELECTION,40513,Insufficient Sim Energy/Potential Energy. Unable to continue Sweep.,,0
+MISSIONSELECTION,40514,Do you wish to spend {0} gems to purchase this?,,0
+MISSIONSELECTION,40515,The special support price changes with the main storyline stage medals you've received//c we sell genuine merchandise and never overcharge~♪~,,0
+MISSIONSELECTION,40516,You have fully cleared//nall the stages in this special support,,0
+MISSIONSELECTION,40517,*After automatically clearing campaign missions//c you can revisit the campaign story scenes in Gallery - Story Recollections,,0
+MISSIONSELECTION,40518,- Click an empty space to close -,,0
+MISSIONSELECTION,40519,After purchasing//c campaign storyline completion will be directly boosted to the following and the corresponding medal will be unlocked.,,0
+MISSIONSELECTION,40520,The "Combat Special Support" function unlocks after completing Mission 1-6 Normal//c allowing you to quick-complete campaign stages.,,0
+MISSIONSELECTION,40521,Purchase,,0
 REINFORCEMENT,50000,Select,,0
 REINFORCEMENT,50001,Locked,,0
 REINFORCEMENT,50002,LOCKED,,0
@@ -5154,6 +5247,27 @@ SEPCIALOPS,60847,Retry,,0
 SEPCIALOPS,60848,Nib of Innocence,,0
 SEPCIALOPS,60849,Dreamcatcher,,0
 SEPCIALOPS,60850,Historical Letters,,0
+SEPCIALOPS,60851,Morning,,0
+SEPCIALOPS,60852,Afternoon,,0
+SEPCIALOPS,60853,Night,,0
+SEPCIALOPS,60854,Late Night,,0
+SEPCIALOPS,60855,The Death of Christ,,0
+SEPCIALOPS,60856,Disciple,,0
+SEPCIALOPS,60857,Blood of God,,0
+SEPCIALOPS,60858,Book of the Saints,,0
+SEPCIALOPS,60859,Last Supper,,0
+SEPCIALOPS,60860,Easter,,0
+SEPCIALOPS,60861,Skip,,0
+SEPCIALOPS,60862,Do you wish to spend resources to skip this stage?,,0
+SEPCIALOPS,60863,Expend necessary resources,,0
+SEPCIALOPS,60864,Not enough resources to begin mission,,0
+SEPCIALOPS,60865,,,0
+SEPCIALOPS,60866,,,0
+SEPCIALOPS,60867,,,0
+SEPCIALOPS,60868,,,0
+SEPCIALOPS,60869,,,0
+SEPCIALOPS,60870,,,0
+SEPCIALOPS,60871,,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -5803,6 +5917,21 @@ OTHER,100331,{0} added to purchase limit at 12AM on the first of every month.//n
 OTHER,100332,Order Information Abnormal,,0
 OTHER,100333,Please scroll down to read all the content.,,0
 OTHER,100334,This server is full. Please select another server.,,0
+OTHER,100335,Commissioning Svarog Heavy Industries to retrieve Coalition Units has dynamic probability yields. The probabilities for the current area are:,,0
+OTHER,100336,{0} (Remaining {1}/{2}): {3}%,,0
+OTHER,100337,Unknown {0}-star units: {1} (Remaining {2}/{3}): {4}%,,0
+OTHER,100338,<size=36> - Unknown {0}-star units that may appear in {1}: {2}. Appearance rate is the same.</size>,,0
+OTHER,100339,Rate Display,,0
+OTHER,100340,Purchase Rates://n      Doll Costumes（2%）//n{0}      5-star Furniture（8%）//n{1}      4-star Furniture（34.2%）//n{2}      4-star Gifts（1.8%）//n{3}      3-star Furniture（54%）//n{4},,0
+OTHER,100341,,,0
+OTHER,100342,,,0
+OTHER,100343,,,0
+OTHER,100344,Resource verification in progress. Do you wish to cancel it?,,0
+OTHER,100345,Please wait for resource download to finish.,,0
+OTHER,100346,,,0
+OTHER,100347,,,0
+OTHER,100348,,,0
+OTHER,100349,,,0
 ACTIVITY,110000,Operation: Cube,,0
 ACTIVITY,110001,Blindfold Theorem,,0
 FRIEND,110002,Friend Points,,0
@@ -5970,6 +6099,7 @@ FAIRY,130054,Evolution 2 Enhancement,,0
 FAIRY,130055,Perform 3 Enhancements,,0
 FAIRY,130056,Perform 1 Enhancement,,0
 FAIRY,130057,Full,,0
+FAIRY,130058,You do not have any Fairies at the moment. Please proceed to [Factory - Fairy Production] to obtain Fairies.,,0
 GUIDE,140000,Every calibration provides a chance to <color=#FFB400FF>rollback to your previous calibration</color>. So feel free to calibrate without worry.,,0
 GUIDE,140001,//nThere are several <color=#FFB400FF>Radar nodes</color> on the battlefield.//nOccupying a <color=#FFB400FF>Radar</color> will grant vision within 2 nodes of that Radar.,,0
 GUIDE,140002,//nCommander//c welcome to the <color=#FFB400FF>T-Dolls' Dormitory</color>!//nYou can <color=#FFB400FF>arrange furniture</color> and <color=#FFB400FF>interact</color> with your T-Dolls here.//n,,0
@@ -6357,6 +6487,17 @@ GUIDE,140385,Overview of the Mobile Armor’s currently equipped Components and 
 GUIDE,140386,Overview of the Mobile Armor’s current Component skills and entries,,0
 GUIDE,140387,Mobile Armor Universal Component Slots,,0
 GUIDE,140388,Mobile Armor presets that can be edited and applied,,0
+GUIDE,140393,Commander//c you're just in time. We've received news from HQ here. Please head to <color=#FFB400FF>[Combat Missions]</color> to take a look at them.,,0
+GUIDE,140394,Commander//c how do the S.F. cleanup missions feel? Are you getting more and more used to them? We've just received news about a special support service from HQ//c and you can access it over here.,,0
+GUIDE,140395,Thanks to your outstanding performance//c Griffin has provided a special support service to help complete campaign missions quickly so you can prove yourself on a bigger stage sooner.,,0
+GUIDE,140396,By using special support//c you can fully complete the appropriate campaign stage and you won't have to worry about missing out on the story scenes in those areas. You can view them by looking in <color=#FFB400FF>Gallery - Story Recollections</color>.,,0
+GUIDE,140397,Of course//c Griffin can provide even more high-end special support; all you need to do is spend a few gems to quickly complete more stages. Expenses needed will <color=#FFB400FF>dynamically change</color> according to the number of stage clear medals obtained//c so you can purchase them as needed.,,0
+GUIDE,140398,Commander//c the main campaign stages have been automatically completed by special support. Efficient//c isn't it? You can collect your rewards from <color=#FFB400FF>Missions</color>.,,0
+GUIDE,140399,Oh yes//c if you're not sure about your tasks//c you can check their completion status and progress over here//c in <color=#FFB400FF>To-Do List</color>. Go take a look if you're not sure what you ought to be doing next.,,0
+GUIDE,140400,I'm sure you must have unlocked the <color=#FFB400FF>Equipment</color> and <color=#FFB400FF>Fairy</color> systems by now//c right? Make sure you build more of them to strengthen your echelons.,,0
+GUIDE,140401,Commander//c you should have unlocked the <color=#FFB400FF>Protocol Assimilation</color> and <color=#FFB400FF>Fire Support</color> systems//c right? They can provide a huge boost in firepower//c so make sure you raise them well.,,0
+GUIDE,140402,Surely you've unlocked <color=#FFB400FF>Gray Zone Exploration</color> and the <color=#FFB400FF>Mobile Armor System</color>//c right? Exploring the Gray Zone can yield lucrative rewards//c so go give it a try.,,0
+GUIDE,140403,Do you want to skip this tutorial?//nIf you skip it//c you can view a picture guide in [Main Page - Handbook],,0
 BEGINNERGUIDE,150000,Please head to the [COMBAT] screen.,,0
 BEGINNERGUIDE,150001,After obtaining the three medals for a mission//c you can use the [Auto-Battle] command.,,0
 BEGINNERGUIDE,150002,Different Auto-Battle missions require different numbers of Echelons to engage.,,0
@@ -8071,6 +8212,7 @@ FORMATION,270079,You cannot share an echelon with no members,,0
 FORMATION,270080,Coalition Echelon locked,,0
 FORMATION,270081,Echelon cost has exceeded the maximum limit. Please double check before sharing again.,,0
 FORMATION,270082,Please input echelon sharing code...,,0
+FORMATION,270083,The equipment you have chosen is already in use,,0
 MINIGAME,280001,Turn,,0
 MINIGAME,280002,Finding a room//c please wait...,,0
 MINIGAME,280003,Waiting,,0
