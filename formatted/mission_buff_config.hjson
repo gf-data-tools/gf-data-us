@@ -5852,6 +5852,61 @@
     priority: 1
   }
   {
+    id: 750000
+    name: mission_buff_config-10750000
+    description: mission_buff_config-20750000
+    code: SAC2045_CamouflageSkill
+    type: 1
+    duration_type: "1"
+    duration_time: "2"
+    exp_buff: "1"
+    conflict_type: 750000
+    priority: 1
+    effect_birth: 1000072
+    effect_death: 1000072
+    leader_code_switch: hideaway,0
+    battleunit_code_switch: "0,hideaway,0"
+  }
+  {
+    id: 750001
+    name: mission_buff_config-10750001
+    description: mission_buff_config-20750001
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 750001
+    priority: 1
+  }
+  {
+    id: 751401
+    name: mission_buff_config-10751401
+    description: mission_buff_config-20751401
+    code: Theresa_Back
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    cannot_move: "1"
+    conflict_type: 751401
+    priority: 1
+  }
+  {
+    id: 751502
+    name: mission_buff_config-10751502
+    description: mission_buff_config-20751502
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    manual_ui_code: CarryBoomerIcon#EC4702
+    conflict_type: 751502
+    priority: -1
+    carry_mission_skill: "751512"
+  }
+  {
     id: 910630
     name: mission_buff_config-10910630
     description: mission_buff_config-20910630

@@ -1460,6 +1460,28 @@
     spine_scale: "90,90,1"
   }
   {
+    sub_id: 47002
+    id: 47
+    name: Rodelero
+    sub_name: Rodelero
+    type: 3
+    code: Rodelero
+    introduce: An agile heavy-fire unit equipped with a jetpack that can propel it quickly from the back of the field to the forefront. It then charges up and cuts through its enemies with a massive laser beam. It is also outfitted with a force field generator that can repel physical fire.
+    forces: 3
+    pow_rank: 3
+    life_rank: 4
+    hit_rank: 3
+    dodge_rank: 3
+    rate_rank: 1
+    armor_rank: 2
+    speed_rank: 3
+    range_rank: 4
+    character: "309,312,320"
+    enemy_skill: "27"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "90,90,1"
+  }
+  {
     sub_id: 48001
     id: 48
     name: Doppels?ldner
@@ -1479,6 +1501,27 @@
     character: "1003,302,309,312,319"
     enemy_skill: "28,29"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "60,60,1"
+  }
+  {
+    sub_id: 48002
+    id: 48
+    name: Doppels?ldner
+    sub_name: Doppels?ldner
+    type: 3
+    code: Doppelsoldner
+    introduce: A mech with immense firepower. Apart from the bulky armor, it is also equipped with a force field generator. It can attack with the high-velocity autocannons in both hands as well as its multiple grenade launchers, causing wide-spread damage.
+    forces: 3
+    pow_rank: 2
+    life_rank: 4
+    hit_rank: 3
+    rate_rank: 3
+    armor_rank: 4
+    speed_rank: 1
+    range_rank: 3
+    character: "1003,302,309,312,319"
+    enemy_skill: "28,29"
+    launch_time: 2035-12-31 00:00:00
     spine_scale: "60,60,1"
   }
   {
@@ -3067,6 +3110,28 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 119002
+    id: 119
+    name: Patroler
+    sub_name: Patroler
+    type: 4
+    code: Thunder_New
+    introduce: This unit attacks with the cannon mounted on its lower section and leaps to evade attacks. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 2
+    range_rank: 4
+    character: "1001,302,309,310,315"
+    enemy_skill: "36"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "50,50,1"
+  }
+  {
     sub_id: 120001
     id: 120
     name: Gunner
@@ -3086,6 +3151,26 @@
     character: "1003,312,316"
     enemy_skill: "39"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "100,100,1"
+  }
+  {
+    sub_id: 120002
+    id: 120
+    name: Gunner
+    sub_name: Gunner
+    type: 3
+    code: Soldier_New
+    introduce: A unit very similar to the Stretlet, but with improved firepower and uses special ammo that reduces enemies' evasion. Related to the mysterious faction.
+    forces: 3
+    pow_rank: 4
+    life_rank: 3
+    hit_rank: 3
+    dodge_rank: 5
+    rate_rank: 3
+    speed_rank: 1
+    range_rank: 4
+    character: "1003,312,316"
+    launch_time: 2035-12-31 00:00:00
     spine_scale: "100,100,1"
   }
   {
@@ -3460,6 +3545,7 @@
     code: Teal
     introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
     forces: 3
+    if_capture: 1
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3471,6 +3557,29 @@
     character: "1001,216,440"
     enemy_skill: "131,132,133,134"
     launch_time: 2016-5-20 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 138002
+    id: 138
+    name: Grig
+    sub_name: Grig
+    type: 1
+    code: Teal
+    introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
+    forces: 3
+    if_capture: 1
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit has terrifying killing and sustained combat ability. Friendly units with strong DPS should take care that she does not lock onto them.
+    character: "1001,216,440"
+    enemy_skill: "256,257,258,259,260,261,262,263"
+    launch_time: 2035-5-20 00:00:00
     spine_scale: "70,70,1"
   }
   {
@@ -5538,7 +5647,7 @@
     counter: This unit possesses a certain degree of armor, so make sure your echelon has enough armor piercing and try to maximize your defenses in the front row. In addition, take care to move units targeted by its powerful cannon shot to prevent your backliners from taking damage.
     character: "1001,1003,302,309,317,316"
     enemy_skill: "52,53"
-    launch_time: 2035-5-20 00:00:00
+    launch_time: 2016-5-20 00:00:00
     spine_scale: "40,40,1"
   }
   {
@@ -5739,6 +5848,126 @@
     spine_scale: "50,50,1"
   }
   {
+    sub_id: 249001
+    id: 249
+    name: Autonomous Doll - Bren Ten
+    sub_name: Autonomous Doll - Bren Ten
+    type: 3
+    code: BrenTen_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 250001
+    id: 250
+    name: Autonomous Doll - FNP-9
+    sub_name: Autonomous Doll - FNP-9
+    type: 3
+    code: FNP9_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 251001
+    id: 251
+    name: Autonomous Doll - IDW
+    sub_name: Autonomous Doll - IDW
+    type: 3
+    code: IDW_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 252001
+    id: 252
+    name: Autonomous Doll - Spectre M4
+    sub_name: Autonomous Doll - Spectre M4
+    type: 3
+    code: SpectreM4_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 253001
+    id: 253
+    name: Autonomous Doll - Type 63
+    sub_name: Autonomous Doll - Type 63
+    type: 3
+    code: 63type_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 254001
+    id: 254
+    name: Autonomous Doll - L85A1
+    sub_name: Autonomous Doll - L85A1
+    type: 3
+    code: L85A1_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
     sub_id: 100001001
     id: 100001
     name: Gebbennu
@@ -5758,510 +5987,34 @@
     counter: To be introduced
     character: "1001,309"
     launch_time: 2035-12-31 00:00:00
+    spine_scale: "100,100,1"
   }
   {
-    sub_id: 100011001
-    id: 100011
-    name: Shield
-    sub_name: Shield
-    type: 3
-    code: DivMauler
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Kill this unit promptly by activating your T-Dolls' skills once he closes in.
-    character: "401,402"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100012001
-    id: 100012
-    name: Fumigator
-    sub_name: Fumigator
-    type: 3
-    code: DivGrenadier
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit deals considerable burning damage to flagged positions. Be sure to move your Dolls in time to evade his attacks.
-    character: "403"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100013001
-    id: 100013
-    name: Sweeper
-    sub_name: Sweeper
-    type: 3
-    code: DivSweeper
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Keep a close eye on this unit's movements. Attract his attention with Dolls that are close to him and direct your Dolls to avoid the AoE damage caused by his flamethrower.
-    character: "1001,404,415"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100014001
-    id: 100014
-    name: Runner
-    sub_name: Runner
-    type: 3
-    code: DivRunner
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Hinder this units' movements and defeat him before he approaches your formation.
-    character: "1001,405"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100015001
-    id: 100015
-    name: Guard
-    sub_name: Guard
-    type: 3
-    code: DivGuard
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit deals considerable projectile damage to flagged positions. Be sure to move your Dolls in time to evade his attacks. It is also advised to confront him with an echelon that has decent survivability.
-    character: "1001,406,407"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100016001
-    id: 100016
-    name: Enforcer
-    sub_name: Enforcer
-    type: 3
-    code: DivExecutor
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
-    character: "300"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100017001
-    id: 100017
-    name: Rifleman
-    sub_name: Rifleman
-    type: 3
-    code: DivRifleman
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
-    character: "408"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100018001
-    id: 100018
-    name: Scout
-    sub_name: Scout
-    type: 3
-    code: DivScout
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit deals projectile damage to flagged positions and places debuffs on affected targets. Be sure to move your Dolls on the back row in time to evade his attacks.
-    character: "409,410"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100019001
-    id: 100019
-    name: Engineer
-    sub_name: Engineer
-    type: 3
-    code: DivEngineer
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Engineers set up mortars that pose a large threat and deal AoE damage that could be a bother to deal with for your units.
-    character: "411,412,413"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100020001
-    id: 100020
-    name: Rogue Agent
-    sub_name: Rogue Agent
-    type: 3
-    code: DivTraitor
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Dolls with sticky bombs must be moved to an unoccupied area or they will cause significant damage to other friendly units.
-    character: "1001,414,415"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100021001
-    id: 100021
-    name: Agent 47
-    sub_name: Agent 47
+    sub_id: 100001002
+    id: 100001
+    name: Gebbennu
+    sub_name: Gebbennu
     type: 1
-    code: AK47_enemy
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
+    code: Gebbennu
+    introduce: A massive duplex combat unit. Other than its incredible firepower, everything else is a mystery.
+    forces: 3
+    pow_rank: 6
+    life_rank: 7
     hit_rank: 5
     dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
+    rate_rank: 4
+    armor_rank: 4
+    speed_rank: 4
     range_rank: 5
-    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness. Yep.
-    character: "1001,423"
+    counter: Information unavailable, Proceed with caution!
+    character: "1001"
+    enemy_skill: "251,252,253,254,255"
     launch_time: 2035-12-31 00:00:00
+    spine_scale: "100,100,1"
   }
   {
-    sub_id: 100022001
-    id: 100022
-    name: Incinerator: Robert
-    sub_name: Incinerator: Robert
-    type: 1
-    code: DivBurn
-    introduce: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated. Focus on attacking the weak point on his back first using units with high accuracy.
-    character: "1001,417,404,416"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100023001
-    id: 100023
-    name: Fang
-    sub_name: Fang
-    type: 1
-    code: HK416Boss
-    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
-    character: "1001,420,421,422"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100024001
-    id: 100024
-    name: Hellfire
-    sub_name: Hellfire
-    type: 1
-    code: VectorBoss
-    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
-    character: "1001,419,418,416"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100025001
-    id: 100025
-    name: Fang
-    sub_name: Fang
-    type: 1
-    code: HK416Boss
-    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Fire! Move! Face the formidable foes and prevail!
-    character: "1001,424,425"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100026001
-    id: 100026
-    name: Hellfire
-    sub_name: Hellfire
-    type: 1
-    code: VectorBoss
-    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Fire! Move! Face the formidable foes and prevail!
-    character: "1001,424,425"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100027001
-    id: 100027
-    name: Vector
-    sub_name: Vector
-    type: 1
-    code: Vector_enemy
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
-    character: "1001,300"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100028001
-    id: 100028
-    name: Demonic Knight
-    sub_name: Demonic Knight
-    type: 3
-    code: Dropkick_MeleeDevil
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: A frontline unit with extremely thick armor. Attack it with armor-piercing rounds.
-    character: "1001,303,309"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100029001
-    id: 100029
-    name: Demonic Beast
-    sub_name: Demonic Beast
-    type: 3
-    code: Dropkick_RemoteDevil
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: A backline unit with extremely thick armor. Attack it with armor-piercing rounds.
-    character: "1001,309"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100030001
-    id: 100030
-    name: Shaved Ice Sprite
-    sub_name: Shaved Ice Sprite
-    type: 3
-    code: Dropkick_IceGhost
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This unit places freezing stacks on target enemies and deals increased damage. It is recommended that you dispose of her quickly.
-    character: "1001,315,324,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100031001
-    id: 100031
-    name: Tangan-chan
-    sub_name: Tangan-chan
-    type: 3
-    code: Dropkick_CyclopsChan
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
-    character: "1001,303"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100032001
-    id: 100032
-    name: Herald of Beans
-    sub_name: Herald of Beans
-    type: 3
-    code: Dropkick_BeansEmissary
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This well-balanced unit can daze enemies. Engage with an echelon that has adequate overall combat effectiveness.
-    character: "1001,324"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100033001
-    id: 100033
-    name: B?te
-    sub_name: B?te
-    type: 3
-    code: Dropkick_Beth
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: This extremely maneuverable unit buffs his allies' damage output. He also mangles enemy units and prolongs their skill cooldown. It is recommended that you dispose of him quickly.
-    character: "1001,304,333"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100034001
-    id: 100034
-    name: Yurine's Facsimile
-    sub_name: Yurine's Facsimile
-    type: 1
-    code: Dropkick_YurineBoss
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: A unit that can summon enhanced low-tier demons and grant them strong defend shields, dealing massive and frequent AoE damage to enemies. But when the facsimile is busy suppressing the enemy's strongest damage dealers, her weaknesses are also exposed. Use this opportunity to defeat her!
-    character: "1001,321,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100035001
-    id: 100035
-    name: Enraged Minos
-    sub_name: Enraged Minos
-    type: 1
-    code: Dropkick_MinosBoss
-    introduce: An enemy that's unaccounted for.
-    pow_rank: 5
-    life_rank: 5
-    hit_rank: 5
-    dodge_rank: 5
-    rate_rank: 5
-    armor_rank: 5
-    speed_rank: 5
-    range_rank: 5
-    counter: Minos in a state of extreme rage. Best give her a wide berth.
-    character: "1001,329"
-    launch_time: 2035-12-31 00:00:00
-  }
-  {
-    sub_id: 100036001
-    id: 100036
+    sub_id: 100009001
+    id: 100009
     name: Seaside Watermelon
     sub_name: Seaside Watermelon
     type: 2
@@ -6278,10 +6031,681 @@
     counter: Bash it up!
     character: "903"
     launch_time: 2035-12-31 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100011001
+    id: 100011
+    name: Elphelt Valentine
+    sub_name: Elphelt Valentine
+    type: 3
+    code: GG_Elfeldt_SF
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100012001
+    id: 100012
+    name: Shield Girl
+    sub_name: Shield Girl
+    type: 3
+    code: BH2_Shield
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100013001
+    id: 100013
+    name: Normal Girl
+    sub_name: Normal Girl
+    type: 3
+    code: BH2_Normal
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100014001
+    id: 100014
+    name: Shooter Girl
+    sub_name: Shooter Girl
+    type: 3
+    code: BH2_Archer
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100015001
+    id: 100015
+    name: Self-Explosion Girl
+    sub_name: Self-Explosion Girl
+    type: 3
+    code: BH2_Burst
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100016001
+    id: 100016
+    name: Dark Seele
+    sub_name: Dark Seele
+    type: 1
+    code: SeeleVollerei
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100017001
+    id: 100017
+    name: Theresa
+    sub_name: Theresa
+    type: 1
+    code: TheresaApocalypse
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1004"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100018001
+    id: 100018
+    name: Shield
+    sub_name: Shield
+    type: 3
+    code: DivMauler
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Kill this unit promptly by activating your T-Dolls' skills once he closes in.
+    character: "401,402"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100019001
+    id: 100019
+    name: Fumigator
+    sub_name: Fumigator
+    type: 3
+    code: DivGrenadier
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals considerable burning damage to flagged positions. Be sure to move your Dolls in time to evade his attacks.
+    character: "403"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100020001
+    id: 100020
+    name: Sweeper
+    sub_name: Sweeper
+    type: 3
+    code: DivSweeper
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Keep a close eye on this unit's movements. Attract his attention with Dolls that are close to him and direct your Dolls to avoid the AoE damage caused by his flamethrower.
+    character: "1001,404,415"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100021001
+    id: 100021
+    name: Runner
+    sub_name: Runner
+    type: 3
+    code: DivRunner
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Hinder this units' movements and defeat him before he approaches your formation.
+    character: "1001,405"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100022001
+    id: 100022
+    name: Guard
+    sub_name: Guard
+    type: 3
+    code: DivGuard
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals considerable projectile damage to flagged positions. Be sure to move your Dolls in time to evade his attacks. It is also advised to confront him with an echelon that has decent survivability.
+    character: "1001,406,407"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100023001
+    id: 100023
+    name: Enforcer
+    sub_name: Enforcer
+    type: 3
+    code: DivExecutor
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "300"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100024001
+    id: 100024
+    name: Rifleman
+    sub_name: Rifleman
+    type: 3
+    code: DivRifleman
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "408"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100025001
+    id: 100025
+    name: Scout
+    sub_name: Scout
+    type: 3
+    code: DivScout
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit deals projectile damage to flagged positions and places debuffs on affected targets. Be sure to move your Dolls on the back row in time to evade his attacks.
+    character: "409,410"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100026001
+    id: 100026
+    name: Engineer
+    sub_name: Engineer
+    type: 3
+    code: DivEngineer
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Engineers set up mortars that pose a large threat and deal AoE damage that could be a bother to deal with for your units.
+    character: "411,412,413"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100027001
+    id: 100027
+    name: Rogue Agent
+    sub_name: Rogue Agent
+    type: 3
+    code: DivTraitor
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Dolls with sticky bombs must be moved to an unoccupied area or they will cause significant damage to other friendly units.
+    character: "1001,414,415"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100028001
+    id: 100028
+    name: Agent 47
+    sub_name: Agent 47
+    type: 1
+    code: AK47_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness. Yep.
+    character: "1001,423"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100029001
+    id: 100029
+    name: Incinerator: Robert
+    sub_name: Incinerator: Robert
+    type: 1
+    code: DivBurn
+    introduce: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A Cleaner who roams the streets and firmly believes that the only way to save the city is to burn everything that's contaminated. Once he locks onto a target, he never gives up in his pursuit until it is completely incinerated. Focus on attacking the weak point on his back first using units with high accuracy.
+    character: "1001,417,404,416"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100030001
+    id: 100030
+    name: Fang
+    sub_name: Fang
+    type: 1
+    code: HK416Boss
+    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    character: "1001,420,421,422"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100030002
+    id: 100030
+    name: Fang
+    type: 1
+    code: HK416Boss
+    introduce: This unit bears the same appearance as 416 but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Last Man Battalion, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Fire! Move! Face the formidable foes and prevail!
+    character: "1001,424,425"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100031001
+    id: 100031
+    name: Hellfire
+    sub_name: Hellfire
+    type: 1
+    code: VectorBoss
+    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    character: "1001,419,418,416"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100031002
+    id: 100031
+    name: Hellfire
+    type: 1
+    code: VectorBoss
+    introduce: This unit bears the same appearance as Vector but seems to be an AI that exists only in the world of "The Division". Other than her ability to direct the Cleaners, everything about her is unknown.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Fire! Move! Face the formidable foes and prevail!
+    character: "1001,424,425"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100032001
+    id: 100032
+    name: Vector
+    sub_name: Vector
+    type: 1
+    code: Vector_enemy
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,300"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100033001
+    id: 100033
+    name: Demonic Knight
+    sub_name: Demonic Knight
+    type: 3
+    code: Dropkick_MeleeDevil
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A frontline unit with extremely thick armor. Attack it with armor-piercing rounds.
+    character: "1001,303,309"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100034001
+    id: 100034
+    name: Demonic Beast
+    sub_name: Demonic Beast
+    type: 3
+    code: Dropkick_RemoteDevil
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A backline unit with extremely thick armor. Attack it with armor-piercing rounds.
+    character: "1001,309"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100035001
+    id: 100035
+    name: Shaved Ice Sprite
+    sub_name: Shaved Ice Sprite
+    type: 3
+    code: Dropkick_IceGhost
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This unit places freezing stacks on target enemies and deals increased damage. It is recommended that you dispose of her quickly.
+    character: "1001,315,324,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100036001
+    id: 100036
+    name: Tangan-chan
+    sub_name: Tangan-chan
+    type: 3
+    code: Dropkick_CyclopsChan
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
+    character: "1001,303"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
     sub_id: 100037001
     id: 100037
+    name: Herald of Beans
+    sub_name: Herald of Beans
+    type: 3
+    code: Dropkick_BeansEmissary
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This well-balanced unit can daze enemies. Engage with an echelon that has adequate overall combat effectiveness.
+    character: "1001,324"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100038001
+    id: 100038
+    name: B?te
+    sub_name: B?te
+    type: 3
+    code: Dropkick_Beth
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: This extremely maneuverable unit buffs his allies' damage output. He also mangles enemy units and prolongs their skill cooldown. It is recommended that you dispose of him quickly.
+    character: "1001,304,333"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100039001
+    id: 100039
+    name: Yurine's Facsimile
+    sub_name: Yurine's Facsimile
+    type: 1
+    code: Dropkick_YurineBoss
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: A unit that can summon enhanced low-tier demons and grant them strong defend shields, dealing massive and frequent AoE damage to enemies. But when the facsimile is busy suppressing the enemy's strongest damage dealers, her weaknesses are also exposed. Use this opportunity to defeat her!
+    character: "1001,321,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100040001
+    id: 100040
+    name: Enraged Minos
+    sub_name: Enraged Minos
+    type: 1
+    code: Dropkick_MinosBoss
+    introduce: An enemy that's unaccounted for.
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Minos in a state of extreme rage. Best give her a wide berth.
+    character: "1001,329"
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
+  }
+  {
+    sub_id: 100041001
+    id: 100041
     name: Bathhouse Assassin
     sub_name: Bathhouse Assassin
     type: 3
@@ -6298,11 +6722,12 @@
     counter: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
     character: "303,313"
     enemy_skill: "10037"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100038001
-    id: 100038
+    sub_id: 100042001
+    id: 100042
     name: Bathhouse Assassin
     sub_name: Bathhouse Assassin
     type: 3
@@ -6319,11 +6744,12 @@
     counter: An unknown idler who enjoys having baths at the bathhouse. Manic and prone to violence, he also has a habit of engaging in water sports such as artistic swimming all of a sudden, which makes him the most undesirable patron at the bathhouse.
     character: "309,312,316"
     enemy_skill: "10038,140"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100039001
-    id: 100039
+    sub_id: 100043001
+    id: 100043
     name: Speed Demon's Wheel
     sub_name: Speed Demon's Wheel
     type: 4
@@ -6340,11 +6766,12 @@
     counter: An allegedly sentient wheel. It will suddenly appear in the streets and barrel up to a victim to its liking... The subject of an urban legend among the younger generation.
     character: "304,319"
     enemy_skill: "10039"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100040001
-    id: 100040
+    sub_id: 100044001
+    id: 100044
     name: Truck-kun
     sub_name: Truck-kun
     type: 4
@@ -6361,11 +6788,12 @@
     counter: A mysterious and unpredictable light cargo truck. Despite having never passed the traffic safety test, it still speeds around everywhere recklessly and has a special penchant for hurtling down the streets in quiet residential areas.
     character: "1001,1003,304,902"
     enemy_skill: "10040"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100041001
-    id: 100041
+    sub_id: 100045001
+    id: 100045
     name: Bubble Machine
     sub_name: Bubble Machine
     type: 4
@@ -6382,11 +6810,12 @@
     counter: A micro-factory that creates Drifting Bubbles. Due to its slow movements and general harmlessness, it often ends up getting chased around by children and their parents.
     character: "321"
     enemy_skill: "10041"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100042001
-    id: 100042
+    sub_id: 100046001
+    id: 100046
     name: Drifting Bubble
     sub_name: Drifting Bubble
     type: 2
@@ -6403,11 +6832,12 @@
     counter: A bubble that appears just like a bubble blown from soapy water, complete with the faint fragrance of soap and a prismatic glint. It makes for the perfect recon scout in the bathhouse as it can sneak up quietly on an enemy and vanish in a "pop" when it is discovered.
     character: "319"
     enemy_skill: "10042"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100043001
-    id: 100043
+    sub_id: 100047001
+    id: 100047
     name: Romero
     sub_name: Romero
     type: 2
@@ -6424,11 +6854,12 @@
     counter: A zombie dog of unknown origin that loves dried shredded squid. He carries out his duty of guarding his home and protecting Franchouchou very diligently. He may look small and weak, but he can transform into a vicious beast that razes everything.
     character: "304,315"
     enemy_skill: "10043"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100044001
-    id: 100044
+    sub_id: 100048001
+    id: 100048
     name: Gray Singer
     sub_name: Gray Singer
     type: 3
@@ -6445,11 +6876,12 @@
     counter: Member of Late Night Café. She will dash towards her target while shouting "Big Sister" and punish anyone who does not give the correct response.
     character: "100"
     enemy_skill: "10044"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100045001
-    id: 100045
+    sub_id: 100049001
+    id: 100049
     name: Green Singer
     sub_name: Green Singer
     type: 3
@@ -6466,11 +6898,12 @@
     counter: Member of Late Night Café. She will dash toward her target while shouting "angle of my bangs" and punish anyone who does not give the correct response.
     character: "100"
     enemy_skill: "10045"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100046001
-    id: 100046
+    sub_id: 100050001
+    id: 100050
     name: Red Singer
     sub_name: Red Singer
     type: 3
@@ -6487,11 +6920,12 @@
     counter: Member of Late Night Café. She will dash towards her target while shouting "red all over" and punish anyone who does not give the correct response.
     character: "100"
     enemy_skill: "10046"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100047001
-    id: 100047
+    sub_id: 100051001
+    id: 100051
     name: Spirited Vocalist
     sub_name: Spirited Vocalist
     type: 3
@@ -6508,11 +6942,12 @@
     counter: Main vocalist of the band Gray Tree. Seemingly cold and willful, she looks like someone you really don't want to mess with. However, she is actually a well-known pacifist and often cleans up after her band members.
     character: "100"
     enemy_skill: "10047"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100048001
-    id: 100048
+    sub_id: 100052001
+    id: 100052
     name: Fiery Guitarist
     sub_name: Fiery Guitarist
     type: 3
@@ -6529,11 +6964,12 @@
     counter: Guitarist of the band Gray Tree. She loves colors that are bright like a flame and always has red hair dye and incendiary devices with her. She starts a fire when she is in an irritable mood.
     character: "100"
     enemy_skill: "10048"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100049001
-    id: 100049
+    sub_id: 100053001
+    id: 100053
     name: Breakneck Drummer
     sub_name: Breakneck Drummer
     type: 3
@@ -6550,11 +6986,12 @@
     counter: Drummer of the band Gray Tree. Her drumming speed is faster than the eye can see, and she is also good at creating dazzling visual effects with her drone, but sometimes she messes up and sends her drone careening toward the audience.
     character: "100"
     enemy_skill: "10049"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100050001
-    id: 100050
+    sub_id: 100054001
+    id: 100054
     name: Bassist with Shades
     sub_name: Bassist with Shades
     type: 3
@@ -6571,11 +7008,12 @@
     counter: Bassist of the band Gray Tree. Her face is always obscured by a pair of shades, making it difficult to tell if she is awake or asleep and whether she is playing the bass guitar or just a broom.
     character: "100"
     enemy_skill: "10050"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100051001
-    id: 100051
+    sub_id: 100055001
+    id: 100055
     name: Mysterious Keyboardist
     sub_name: Mysterious Keyboardist
     type: 3
@@ -6592,11 +7030,12 @@
     counter: Keyboardist of the band Gray Tree. She only ever shows herself at performances and is seldom seen otherwise. She seems to be on a mysterious mission.
     character: "100"
     enemy_skill: "10051"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100052001
-    id: 100052
+    sub_id: 100056001
+    id: 100056
     name: Serf of the City
     sub_name: Serf of the City
     type: 3
@@ -6612,11 +7051,12 @@
     counter: Information unavailable, Proceed with caution!
     character: "303"
     enemy_skill: "40"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100053001
-    id: 100053
+    sub_id: 100057001
+    id: 100057
     name: Serf of the City
     sub_name: Serf of the City
     type: 3
@@ -6632,11 +7072,12 @@
     counter: Information unavailable, Proceed with caution!
     character: "303"
     enemy_skill: "40"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100054001
-    id: 100054
+    sub_id: 100058001
+    id: 100058
     name: Serdyukov's Dummy
     sub_name: Serdyukov's Dummy
     type: 3
@@ -6651,11 +7092,12 @@
     range_rank: 5
     counter: Information unavailable, Proceed with caution!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100055001
-    id: 100055
+    sub_id: 100059001
+    id: 100059
     name: KSVK's Dummy
     sub_name: KSVK's Dummy
     type: 3
@@ -6670,11 +7112,12 @@
     range_rank: 5
     counter: Information unavailable, Proceed with caution!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100056001
-    id: 100056
+    sub_id: 100060001
+    id: 100060
     name: A-545's Dummy
     sub_name: A-545's Dummy
     type: 3
@@ -6690,11 +7133,12 @@
     range_rank: 5
     counter: Information unavailable, Proceed with caution!
     character: "100"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100057001
-    id: 100057
+    sub_id: 100061001
+    id: 100061
     name: Purin Esaki
     sub_name: Purin Esaki
     type: 1
@@ -6711,11 +7155,12 @@
     counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10052,10053"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100058001
-    id: 100058
+    sub_id: 100062001
+    id: 100062
     name: Takashi Shimamura
     sub_name: Takashi Shimamura
     type: 1
@@ -6732,11 +7177,12 @@
     counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10054,10055"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100059001
-    id: 100059
+    sub_id: 100063001
+    id: 100063
     name: Suzuka Mizukane
     sub_name: Suzuka Mizukane
     type: 1
@@ -6753,11 +7199,12 @@
     counter: Information unavailable, Proceed with caution!
     character: "1001"
     enemy_skill: "10056,10057,10058"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100060001
-    id: 100060
+    sub_id: 100064001
+    id: 100064
     name: Doss' Bodyguard
     sub_name: Doss' Bodyguard - AR
     type: 3
@@ -6773,11 +7220,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100061001
-    id: 100061
+    sub_id: 100065001
+    id: 100065
     name: Doss' Bodyguard
     sub_name: Doss' Bodyguard - RF
     type: 3
@@ -6793,11 +7241,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100062001
-    id: 100062
+    sub_id: 100066001
+    id: 100066
     name: Doss' Bodyguard
     sub_name: Doss' Bodyguard - SG
     type: 3
@@ -6813,11 +7262,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100063001
-    id: 100063
+    sub_id: 100067001
+    id: 100067
     name: Blackgold Operative
     sub_name: Blackgold Operative - AR
     type: 3
@@ -6833,11 +7283,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100064001
-    id: 100064
+    sub_id: 100068001
+    id: 100068
     name: Blackgold Operative
     sub_name: Blackgold Operative - SMG
     type: 3
@@ -6853,11 +7304,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100065001
-    id: 100065
+    sub_id: 100069001
+    id: 100069
     name: Blackgold Operative
     sub_name: Blackgold Operative - RF
     type: 3
@@ -6873,11 +7325,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100066001
-    id: 100066
+    sub_id: 100070001
+    id: 100070
     name: Doss' Assassin
     sub_name: Doss' Assassin
     type: 3
@@ -6893,11 +7346,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100067001
-    id: 100067
+    sub_id: 100071001
+    id: 100071
     name: Special Operative
     sub_name: Special Operative
     type: 3
@@ -6913,11 +7367,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100068001
-    id: 100068
+    sub_id: 100072001
+    id: 100072
     name: Doss' Elite Bodyguard
     sub_name: Doss' Elite Bodyguard
     type: 3
@@ -6933,11 +7388,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,106"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100069001
-    id: 100069
+    sub_id: 100073001
+    id: 100073
     name: Blackgold Elite Operative
     sub_name: Blackgold Elite Operative
     type: 3
@@ -6953,11 +7409,12 @@
     range_rank: 5
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,107"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100070001
-    id: 100070
+    sub_id: 100074001
+    id: 100074
     name: Doss
     sub_name: Doss
     type: 1
@@ -6974,11 +7431,12 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,106"
     enemy_skill: "10059,10060,10061,10062"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100071001
-    id: 100071
+    sub_id: 100075001
+    id: 100075
     name: Beluga
     sub_name: Beluga
     type: 1
@@ -6995,11 +7453,12 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,1004"
     enemy_skill: "8103,8202,8301"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
-    sub_id: 100072001
-    id: 100072
+    sub_id: 100076001
+    id: 100076
     name: Hecate
     sub_name: Hecate
     type: 1
@@ -7016,7 +7475,8 @@
     counter: This enemy is well-balanced so be sure to fight her with an echelon that has adequate overall combat effectiveness.
     character: "1001,107"
     enemy_skill: "10063,10064,10065,10066,10067,10068,10069"
-    launch_time: 2035-12-31 00:00:00
+    launch_time: 2016-5-20 00:00:00
+    is_additional: 1
   }
   {
     sub_id: 100082001

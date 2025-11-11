@@ -14202,6 +14202,42 @@
     rank: 1
   }
   {
+    id: 2444
+    type: 5
+    arg: "1"
+    code: profilePic_ChessBonus_MG42
+    item_name: Radiant Chess Star
+    introduction: Radiant Chess Star
+    rank: 1
+  }
+  {
+    id: 2445
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season14_1
+    item_name: Primitive Timepiece - Code Twelve: Light Cone
+    introduction: Primitive Timepiece - Code Twelve: Light Cone
+    rank: 1
+  }
+  {
+    id: 2446
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season14_2
+    item_name: Sidereal Dial - Code Twelve: Light Cone
+    introduction: Sidereal Dial - Code Twelve: Light Cone
+    rank: 1
+  }
+  {
+    id: 2447
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season14_3
+    item_name: Degenerate Age - Code Twelve: Light Cone
+    introduction: Degenerate Age - Code Twelve: Light Cone
+    rank: 1
+  }
+  {
     id: 2449
     type: 5
     arg: "1"
@@ -17575,6 +17611,15 @@
     rank: 1
   }
   {
+    id: 10726
+    type: 18
+    arg: "10726"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -19569,6 +19614,34 @@
     item_name: Red Packet
     introduction: Red Packet
     rank: 1
+  }
+  {
+    id: 100284
+    type: 4
+    arg: "100284"
+    code: Nova_medal
+    item_name: Nova Medal - Butterfly Nebula
+    introduction: Nova Medal - Butterfly Nebula
+    rank: 1
+  }
+  {
+    id: 100285
+    type: 4
+    arg: "100285"
+    code: Platinum_medal
+    item_name: Platinum Medal - Butterfly Nebula
+    introduction: Platinum Medal - Butterfly Nebula
+    rank: 1
+  }
+  {
+    id: 100286
+    type: 9
+    arg: "100286"
+    code: Coin_202411LorenzButterfly
+    item_name: Koen
+    introduction: The currency in circulation in the Dark Zone. Recognized both officially and on the black market.
+    rank: 1
+    daily_limit: 60;180
   }
   {
     id: 110001
@@ -25129,6 +25202,21 @@
     type_sort: 1
   }
   {
+    id: 1500270
+    type: 15
+    arg: "1500270"
+    code: Bumdle_sangvischoose
+    item_name: Butterfly Nebula Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base 3 star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -25742,6 +25830,39 @@
     id: 1700054
     type: 15
     arg: "1700054"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700055
+    type: 15
+    arg: "1700055"
+    code: package_choose
+    item_name: Basic Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700056
+    type: 15
+    arg: "1700056"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700057
+    type: 15
+    arg: "1700057"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.

@@ -16439,6 +16439,1080 @@
     no_battle_damage: -1
   }
   {
+    id: 750001
+    name: ally_team-10750001
+    guns: "750001"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "750202"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 750002
+    name: ally_team-10750002
+    guns: "750002"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "750212"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 750501
+    name: ally_team-10750501
+    guns: "1"
+    enemy_team_id: 750501
+    initial_type: 2
+    ai: 0;0;101
+    ai_content: 0;0;87427,87428,87424,87419,87418,87422,87427
+    transform_condition: "6"
+    transform_number: "750501"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 750800
+    name: ally_team-10750800
+    guns: "570011"
+    enemy_team_id: 750800
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 751001
+    name: ally_team-10751001
+    guns: "1"
+    enemy_team_id: 751001
+    initial_type: 2
+    ai: 0;0;101
+    ai_content: 0;0;87452,87453,87449,87444,87443,87447,87452
+    transform_condition: "6"
+    transform_number: "750501"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 751401
+    name: ally_team-10751401
+    guns: "1"
+    enemy_team_id: 751401
+    initial_type: 2
+    ai: 0;0;104
+    ai_content: 0;0;87488,87483,87479,87475,87487,87470,87469,87468,87467,87472,87477,87482,87488
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 751402
+    name: ally_team-10751402
+    guns: "1"
+    enemy_team_id: 751402
+    initial_type: 2
+    ai: 0;0;104
+    ai_content: 0;0;87489,87463,87467,87471,87486,87476,87477,87478,87479,87474,87469,87464,87489
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760201
+    name: ally_team-10760201
+    guns: "760201,760202,760203"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760202
+    name: ally_team-10760202
+    guns: "760204,760205,760206"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760403
+    name: ally_team-10760403
+    guns: "1"
+    enemy_team_id: 760403
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "6"
+    transform_number: "760452"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760407
+    name: ally_team-10760407
+    guns: "1"
+    enemy_team_id: 760407
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760500
+    name: ally_team-10760500
+    guns: "1"
+    enemy_team_id: 760500
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "2"
+    transform_number: "88305,88326,88347"
+    transform_result: 1:9066-1,1:9066-1,1:9066-1
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760601
+    name: ally_team-10760601
+    guns: "760601"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "760611,760612"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: "760603,760603"
+    betray_result_ai: "20100#20100"
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 760602
+    name: ally_team-10760602
+    guns: "760602"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760611,760612"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760700
+    name: ally_team-10760700
+    guns: "760701,760702"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760702
+    name: ally_team-10760702
+    guns: "1"
+    enemy_team_id: 760702
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760703
+    name: ally_team-10760703
+    guns: "1"
+    enemy_team_id: 760703
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760704
+    name: ally_team-10760704
+    guns: "1"
+    enemy_team_id: 760704
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760705
+    name: ally_team-10760705
+    guns: "1"
+    enemy_team_id: 760705
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760800
+    name: ally_team-10760800
+    guns: "760800"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 1065
+  }
+  {
+    id: 760801
+    name: ally_team-10760801
+    guns: "760204,760205,760206"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 760900
+    name: ally_team-10760900
+    guns: "760900"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 761203
+    name: ally_team-10761203
+    guns: "1"
+    enemy_team_id: 761203
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 2;0;2
+    transform_condition: "6"
+    transform_number: "760452"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761207
+    name: ally_team-10761207
+    guns: "1"
+    enemy_team_id: 761207
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761402
+    name: ally_team-10761402
+    guns: "1"
+    enemy_team_id: 761402
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761403
+    name: ally_team-10761403
+    guns: "1"
+    enemy_team_id: 761403
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761404
+    name: ally_team-10761404
+    guns: "1"
+    enemy_team_id: 761404
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761405
+    name: ally_team-10761405
+    guns: "1"
+    enemy_team_id: 761405
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 761807
+    name: ally_team-10761807
+    guns: "1"
+    enemy_team_id: 761807
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762002
+    name: ally_team-10762002
+    guns: "1"
+    enemy_team_id: 762002
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "1"
+    transform_number: "2"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762003
+    name: ally_team-10762003
+    guns: "1"
+    enemy_team_id: 762003
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760701"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762004
+    name: ally_team-10762004
+    guns: "1"
+    enemy_team_id: 762004
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760702"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762005
+    name: ally_team-10762005
+    guns: "1"
+    enemy_team_id: 762005
+    initial_type: 2
+    ai: 102;0;102
+    ai_content: 1;0;1
+    transform_condition: "6"
+    transform_number: "760703"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762102
+    name: ally_team-10762102
+    guns: "1"
+    enemy_team_id: 762102
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88723,88724,88725,88722,88719,88718,88717,88720,88723;0;88723,88724,88725,88722,88719,88718,88717,88720,88723"
+    transform_condition: "6"
+    transform_number: "762103"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762103
+    name: ally_team-10762103
+    guns: "1"
+    enemy_team_id: 762103
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88731,88732,88733;0;88731,88732,88733"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 762104
+    name: ally_team-10762104
+    guns: "1"
+    enemy_team_id: 762104
+    initial_type: 2
+    ai: 101;0;101
+    ai_content: "88734,88735,88736;0;88734,88735,88736"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770001
+    name: ally_team-10770001
+    guns: "1"
+    enemy_team_id: 770001
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+  }
+  {
+    id: 770002
+    name: ally_team-10770002
+    guns: "1"
+    enemy_team_id: 770002
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 15
+  }
+  {
+    id: 770003
+    name: ally_team-10770003
+    guns: "1"
+    enemy_team_id: 770003
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 30
+  }
+  {
+    id: 770004
+    name: ally_team-10770004
+    guns: "1"
+    enemy_team_id: 770004
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 45
+  }
+  {
+    id: 770005
+    name: ally_team-10770005
+    guns: "1"
+    enemy_team_id: 770005
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 60
+  }
+  {
+    id: 770006
+    name: ally_team-10770006
+    guns: "1"
+    enemy_team_id: 770006
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 75
+  }
+  {
+    id: 770007
+    name: ally_team-10770007
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770021"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1030
+  }
+  {
+    id: 770008
+    name: ally_team-10770008
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770022"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1020
+  }
+  {
+    id: 770009
+    name: ally_team-10770009
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "770023"
+    transform_result: "2"
+    enemy_panel_type: 1
+    no_battle_damage: 1010
+  }
+  {
+    id: 770010
+    name: ally_team-10770010
+    guns: "770000"
+    initial_type: 1
+    ai: 0;20100;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: 1000
+  }
+  {
+    id: 770011
+    name: ally_team-10770011
+    guns: "770001,770002,770003"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770012
+    name: ally_team-10770012
+    guns: "770004,770005,770006,770007"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770013
+    name: ally_team-10770013
+    guns: "770008,770009,770010"
+    fairy: 30
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770014
+    name: ally_team-10770014
+    guns: "770011"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    betray_condition: "6"
+    betray_number: "760611,760612"
+    betray_result: "1,1"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    betray_result_guns: "770013,770013"
+    betray_result_ai: 20110:5,10,0,0#20110:5,10,0,0
+    betray_result_ai_content: "0#0"
+  }
+  {
+    id: 770015
+    name: ally_team-10770015
+    initial_type: 1
+    ai: 0;20110:10,10,0,0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+    sangvis: 770001-8,770002-17,770003-18,770004-19,770005-12,770006-13,770007-14,770008-7,770009-9
+  }
+  {
+    id: 770016
+    name: ally_team-10770016
+    guns: "770012"
+    initial_type: 1
+    ai: 0;20110:5,10,0,0;0
+    ai_content: 0;0;0
+    transform_condition: "6"
+    transform_number: "760611,760612"
+    transform_result: "2,2"
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770021
+    name: ally_team-10770021
+    guns: "1"
+    enemy_team_id: 770021
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770022
+    name: ally_team-10770022
+    guns: "1"
+    enemy_team_id: 770022
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770023
+    name: ally_team-10770023
+    guns: "1"
+    enemy_team_id: 770023
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770024
+    name: ally_team-10770024
+    guns: "1"
+    enemy_team_id: 770024
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770025
+    name: ally_team-10770025
+    guns: "1"
+    enemy_team_id: 770025
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770026
+    name: ally_team-10770026
+    guns: "1"
+    enemy_team_id: 770026
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770027
+    name: ally_team-10770027
+    guns: "1"
+    enemy_team_id: 770027
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770028
+    name: ally_team-10770028
+    guns: "1"
+    enemy_team_id: 770028
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770029
+    name: ally_team-10770029
+    guns: "1"
+    enemy_team_id: 770029
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770030
+    name: ally_team-10770030
+    guns: "1"
+    enemy_team_id: 770030
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770031
+    name: ally_team-10770031
+    guns: "1"
+    enemy_team_id: 770031
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770032
+    name: ally_team-10770032
+    guns: "1"
+    enemy_team_id: 770032
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770033
+    name: ally_team-10770033
+    guns: "1"
+    enemy_team_id: 770033
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770034
+    name: ally_team-10770034
+    guns: "1"
+    enemy_team_id: 770034
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770035
+    name: ally_team-10770035
+    guns: "1"
+    enemy_team_id: 770035
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770036
+    name: ally_team-10770036
+    guns: "1"
+    enemy_team_id: 770036
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770037
+    name: ally_team-10770037
+    guns: "1"
+    enemy_team_id: 770037
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770038
+    name: ally_team-10770038
+    guns: "1"
+    enemy_team_id: 770038
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770039
+    name: ally_team-10770039
+    guns: "1"
+    enemy_team_id: 770039
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770040
+    name: ally_team-10770040
+    guns: "1"
+    enemy_team_id: 770040
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770041
+    name: ally_team-10770041
+    guns: "1"
+    enemy_team_id: 770041
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770042
+    name: ally_team-10770042
+    guns: "1"
+    enemy_team_id: 770042
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770043
+    name: ally_team-10770043
+    guns: "1"
+    enemy_team_id: 770043
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770044
+    name: ally_team-10770044
+    guns: "1"
+    enemy_team_id: 770044
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770045
+    name: ally_team-10770045
+    guns: "1"
+    enemy_team_id: 770045
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770046
+    name: ally_team-10770046
+    guns: "1"
+    enemy_team_id: 770046
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770047
+    name: ally_team-10770047
+    guns: "1"
+    enemy_team_id: 770047
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770048
+    name: ally_team-10770048
+    guns: "1"
+    enemy_team_id: 770048
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770049
+    name: ally_team-10770049
+    guns: "1"
+    enemy_team_id: 770049
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770050
+    name: ally_team-10770050
+    guns: "1"
+    enemy_team_id: 770050
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770051
+    name: ally_team-10770051
+    guns: "1"
+    enemy_team_id: 770051
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770052
+    name: ally_team-10770052
+    guns: "1"
+    enemy_team_id: 770052
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770053
+    name: ally_team-10770053
+    guns: "1"
+    enemy_team_id: 770053
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770054
+    name: ally_team-10770054
+    guns: "1"
+    enemy_team_id: 770054
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770055
+    name: ally_team-10770055
+    guns: "1"
+    enemy_team_id: 770055
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770056
+    name: ally_team-10770056
+    guns: "1"
+    enemy_team_id: 770056
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770057
+    name: ally_team-10770057
+    guns: "1"
+    enemy_team_id: 770057
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770058
+    name: ally_team-10770058
+    guns: "1"
+    enemy_team_id: 770058
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770059
+    name: ally_team-10770059
+    guns: "1"
+    enemy_team_id: 770059
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770060
+    name: ally_team-10770060
+    guns: "1"
+    enemy_team_id: 770060
+    initial_type: 2
+    ai: 0;0;0
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
+    id: 770061
+    name: ally_team-10770061
+    guns: "1"
+    enemy_team_id: 770061
+    initial_type: 2
+    ai: 203;0;203
+    ai_content: 0;0;0
+    enemy_panel_type: 1
+    no_battle_damage: -1
+  }
+  {
     id: 1013101
     code: profilePic_AI
     ui_image_icon: ally0
@@ -24721,7 +25795,7 @@
   {
     id: 9742901
     name: Squad Falcon
-    guns: "9740106,9740107,9740108,9740109,9740110"
+    guns: "9740110,9740109,9740108,9740107,9740106"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;20100;0
@@ -24843,7 +25917,7 @@
   {
     id: 9744501
     name: Squad Falcon
-    guns: "9740306,9740307,9740308,9740309,9740310"
+    guns: "9740310,9740309,9740308,9740307,9740306"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;20100;0
@@ -24885,7 +25959,7 @@
   {
     id: 9747401
     name: Squad Falcon
-    guns: "9740206,9740207,9740208,9740209,9740210"
+    guns: "9740210,9740209,9740208,9740207,9740206"
     enemy_team_id: 1
     initial_type: 1
     ai: 0;20100;0

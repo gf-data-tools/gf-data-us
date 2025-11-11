@@ -400,7 +400,7 @@
   {
     id: 45
     name: BOSS
-    des: A bespoke suit fitted for Thompson. It helps her better adhere to the union rules and carry out the boss' will.
+    des: A bespoke outfit made to measure for Thompson. It helps her stick to the organization's rules and complete the Boss' orders.
     code: EgroupM1928A1
     equip_unit: "236,0,439"
     group_skill: 2:1004803
@@ -408,8 +408,8 @@
   }
   {
     id: 46
-    name: Simple and Clean
-    des: A bespoke suit fitted for Type 92. The best defense is a lightweight offense!
+    name: Economic Simplicity
+    des: A made-to-measure outfit for Type 92. The best defense is an attack!
     code: Egroup92type
     equip_unit: "0,296,440"
     group_skill: 2:1004903
@@ -417,8 +417,8 @@
   }
   {
     id: 47
-    name: Master Surfer
-    des: May this set custom-made for MDR alleviate the irritability caused by her daily high-intensity surfing.
+    name: Surfing Expert
+    des: A made-to-measure outfit for MDR. Hopefully, it helps relieve the irritability caused by high-intensity surfing every day.
     code: EgroupMDR
     equip_unit: "175,0,442"
     group_skill: 2:1005203
@@ -426,11 +426,29 @@
   }
   {
     id: 48
-    name: Goddess of War
-    des: This set custom-made for M14 is every bit as lethal as military-grade weaponry.
+    name: Wargod's True Colors
+    des: A made-to-measure outfit for M14. Her strength is on par with those of military-grade weapons.
     code: EgroupM14
     equip_unit: "0,129,443"
     group_skill: 2:1005303
     fit_gun: "20037"
+  }
+  {
+    id: 49
+    name: Sinner's Judgement
+    des: A made-to-measure outfit for FP-6. Features plenty of anti-riot equipment to subdue more evildoers.
+    code: EgroupFP6
+    equip_unit: "445,0,315"
+    group_skill: 2:1005403
+    fit_gun: "164"
+  }
+  {
+    id: 50
+    name: Bubble Phantom
+    des: A made-to-measure outfit for Type 80. One must thoroughly prepare even for leisure time.
+    code: Egroup80type
+    equip_unit: "215,446,0"
+    group_skill: 2:1005503
+    fit_gun: "20199"
   }
 ]

@@ -3354,6 +3354,48 @@
     code_b: Console_Icon
   }
   {
+    id: 750000
+    code_a: hideaway
+    code_b: Console_Icon
+  }
+  {
+    id: 750011
+    code_a: lighttrap
+    description_c: Close
+    code_b: Console_Icon
+  }
+  {
+    id: 750202
+    code_a: TargetPoint_Radar
+    description_a: Griffin
+    description_c: Retreat
+    code_b: Console_Icon
+  }
+  {
+    id: 750501
+    code_a: Console_Icon
+    code_b: Console_Icon
+  }
+  {
+    id: 751411
+    code_a: Console_Icon
+    description_c: Standby
+    code_b: Console_Icon
+  }
+  {
+    id: 751502
+    code_a: Viscosity_Bomb
+    description_c: Pick Up
+    code_b: Console_Icon
+  }
+  {
+    id: 751512
+    code_a: Viscosity_Bomb
+    description_c: Setting
+    code_b: Console_Icon
+    is_manual_target: 2
+  }
+  {
     id: 1000101
     code_a: Rock
     description_a: Friendly Echelons

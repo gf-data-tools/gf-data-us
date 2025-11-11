@@ -12286,6 +12286,126 @@
     boss_available: 1
   }
   {
+    id: 2610
+    name: 己方伤害提升50%
+    conflict_type: 2610
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "150"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2611
+    name: 己方伤害提升100%
+    conflict_type: 2611
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "200"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2612
+    name: 己方伤害提升150%
+    conflict_type: 2612
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "250"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2613
+    name: 己方伤害提升200%
+    conflict_type: 2613
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "300"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2614
+    name: 己方伤害提升250%
+    conflict_type: 2614
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "350"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2615
+    name: 己方伤害提升300%
+    conflict_type: 2615
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "400"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2616
+    name: 己方伤害提升350%
+    conflict_type: 2616
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "450"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
+    id: 2617
+    name: 己方伤害提升400%
+    conflict_type: 2617
+    max_tier: 1
+    type: 101
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+    pow_number: "500"
+    is_form_play: 1
+    buff_animation: YellowFlash
+    buff_description: PowBuffText
+    buff_sp_attributes: "1"
+  }
+  {
     id: 3000
     name: Beer
     description: Beer
@@ -61845,6 +61965,90 @@
     duration: "30"
     boss_available: 1
     forced_skill: "1007007"
+  }
+  {
+    id: 9862
+    name: Kord装备
+    conflict_type: 9862
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9863
+    name: Hecate II冥魂
+    conflict_type: 9863
+    max_tier: 99
+    type: 401
+    duration_type: 1
+    duration: "99999"
+    boss_available: 1
+  }
+  {
+    id: 9864
+    name: Hecate II友方掉编监视
+    conflict_type: 9864
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1076
+  }
+  {
+    id: 9865
+    name: Hecate II敌方掉编监视
+    conflict_type: 9865
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1077
+  }
+  {
+    id: 9866
+    name: Hecate II友方死亡监视
+    conflict_type: 9866
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1074
+  }
+  {
+    id: 9867
+    name: Hecate II敌方死亡监视
+    conflict_type: 9867
+    max_tier: 1
+    type: 400
+    duration_type: 1
+    duration: "10"
+    boss_available: 1
+    watch_id: 1075
+  }
+  {
+    id: 9868
+    name: Hecate II强化攻击累计次数
+    conflict_type: 9868
+    max_tier: 5
+    type: 415
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
+  }
+  {
+    id: 9869
+    name: Hecate II触发不死身
+    conflict_type: 9869
+    max_tier: 1
+    type: 500
+    duration_type: 1
+    duration: "-1"
+    boss_available: 1
   }
   {
     id: 10000

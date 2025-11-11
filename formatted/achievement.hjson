@@ -15,6 +15,8 @@
     type_sort: 2
     sort: 22
     icon_code: 获得N把不同枪支
+    if_steam: 1
+    steam_code: different_gun_10
   }
   {
     identity: 2
@@ -69,6 +71,8 @@
     type_sort: 2
     sort: 22
     icon_code: 获得N把不同枪支
+    if_steam: 1
+    steam_code: different_gun_60
   }
   {
     identity: 5
@@ -503,6 +507,8 @@
     type_sort: 2
     sort: 21
     icon_code: 首次获得N星人形
+    if_steam: 1
+    steam_code: if_rank5_gun_1
   }
   {
     identity: 30
@@ -927,6 +933,8 @@
     type_sort: 1
     sort: 2
     icon_code: 消灭N个敌人
+    if_steam: 1
+    steam_code: enemy_die_1
   }
   {
     identity: 56
@@ -959,6 +967,8 @@
     type_sort: 1
     sort: 2
     icon_code: 消灭N个敌人
+    if_steam: 1
+    steam_code: enemy_die_1000
   }
   {
     identity: 58
@@ -1152,6 +1162,8 @@
     type_sort: 1
     sort: 4
     icon_code: 胜利
+    if_steam: 1
+    steam_code: mission_win_1
   }
   {
     identity: 70
@@ -1184,6 +1196,8 @@
     type_sort: 1
     sort: 4
     icon_code: 胜利
+    if_steam: 1
+    steam_code: mission_win_100
   }
   {
     identity: 72
@@ -1264,6 +1278,8 @@
     type_sort: 1
     sort: 5
     icon_code: 失败
+    if_steam: 1
+    steam_code: mission_lose_1
   }
   {
     identity: 77
@@ -1487,6 +1503,8 @@
     type_sort: 11
     sort: 161
     icon_code: 后勤支援
+    if_steam: 1
+    steam_code: operation_1
   }
   {
     identity: 91
@@ -1519,6 +1537,8 @@
     type_sort: 11
     sort: 161
     icon_code: 后勤支援
+    if_steam: 1
+    steam_code: operation_100
   }
   {
     identity: 93
@@ -2989,6 +3009,8 @@
     sort: 41
     icon_code: 首次获得N星装备
     unlock_function: 2
+    if_steam: 1
+    steam_code: get_equip_rank5_1
   }
   {
     identity: 187
@@ -5059,6 +5081,8 @@
     type_sort: 7
     sort: 102
     icon_code: 誓约
+    if_steam: 1
+    steam_code: soul_bond_gun_1
   }
   {
     identity: 312
@@ -5186,6 +5210,8 @@
     type_sort: 7
     sort: 103
     icon_code: 150好感度
+    if_steam: 1
+    steam_code: favor150_gun_1
   }
   {
     identity: 320
@@ -5303,6 +5329,8 @@
     type_sort: 6
     sort: 81
     icon_code: 进行N次家居采购
+    if_steam: 1
+    steam_code: gasha_count_1
   }
   {
     identity: 328
@@ -5933,6 +5961,8 @@
     type_sort: 6
     sort: 87
     icon_code: 解锁N件装扮
+    if_steam: 1
+    steam_code: different_skin_1
   }
   {
     identity: 378
@@ -7208,6 +7238,8 @@
     type_sort: 6
     sort: 91
     icon_code: 收集N只不同的宠物
+    if_steam: 1
+    steam_code: adopt_pet_1
   }
   {
     identity: 472
@@ -8342,6 +8374,8 @@
     sort: 202
     icon_code: 获得妖精
     unlock_function: 1
+    if_steam: 1
+    steam_code: different_fairy_1
   }
   {
     identity: 547
@@ -9402,6 +9436,8 @@
     sort: 242
     icon_code: 解锁火力小组
     unlock_function: 15
+    if_steam: 1
+    steam_code: squad_get_type1_unit_1
   }
   {
     identity: 622
@@ -10533,6 +10569,8 @@
     sort: 247
     icon_code: 探索N小时
     unlock_function: 17
+    if_steam: 1
+    steam_code: explore_has_time_100
   }
   {
     identity: 751
@@ -11268,6 +11306,8 @@
     icon_code: 免费捕获
     prize_id: 640
     unlock_function: 21
+    if_steam: 1
+    steam_code: sangvis_daily_retrieval_5
   }
   {
     identity: 806
@@ -15393,6 +15433,8 @@
     sort: 309
     icon_code: 解锁不同载具图鉴
     unlock_function: 30
+    if_steam: 1
+    steam_code: different_vehicle_1
   }
   {
     identity: 1095
