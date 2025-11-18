@@ -15984,6 +15984,24 @@
     rank: 1
   }
   {
+    id: 2703
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_Six12
+    item_name: Azure Firmament
+    introduction: Azure Firmament
+    rank: 1
+  }
+  {
+    id: 2704
+    type: 5
+    arg: "1"
+    code: card_BattlePass_Six12
+    item_name: ID card: Solo Labyrinth
+    introduction: ID card: Solo Labyrinth
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -17680,6 +17698,15 @@
     code: gift_bundle_BattlePass_STG44
     item_name: Wilderness Search
     introduction: Commander, shall we head out? The mountain trails might be a little messy, but don't worry... I'll plot the cleanest course for you.
+    rank: 1
+  }
+  {
+    id: 30032
+    type: 1
+    arg: "30032"
+    code: gift_bundle_BattlePass_Six12
+    item_name: Azure Firmament
+    introduction: When I look down upon this city from on high, it solidifies mu resolve to protect it... Will the ocean of the future be as beautiful as this?
     rank: 1
   }
   {
@@ -22331,6 +22358,26 @@
     detail_introduction: item-30140062
   }
   {
+    id: 140063
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140063
+    introduction: item-20140063
+    rank: 1
+    detail_introduction: item-30140063
+  }
+  {
+    id: 140064
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140064
+    introduction: item-20140064
+    rank: 1
+    detail_introduction: item-30140064
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -22817,6 +22864,15 @@
     code: profileFrame_BattlePass_STG44
     item_name: Icon Frame - Autumn Raccoon
     introduction: Icon Frame - Autumn Raccoon
+    rank: 1
+  }
+  {
+    id: 200057
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_Six12
+    item_name: Icon Frame - Towering Marvel
+    introduction: Icon Frame - Towering Marvel
     rank: 1
   }
   {
@@ -25197,6 +25253,50 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Let's Go, Raccoon Explorers! Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500263
+    type: 15
+    arg: "1500263"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Dreamless City, Warm Sunshine. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500264
+    type: 15
+    arg: "1500264"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Dreamless City. Obtain a piece of ammunition-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500265
+    type: 15
+    arg: "1500265"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Dreamless City, Warm Sunshine. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500266
+    type: 15
+    arg: "1500266"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Dreamless City, Warm Sunshine. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1
