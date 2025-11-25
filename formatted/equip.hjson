@@ -14533,7 +14533,42 @@
     max_level: 10
     auto_select_id: 18124
     is_show: 1
-    obtain_ids: "321"
+    obtain_ids: "3215"
     description_skill: 1006301
+  }
+  {
+    id: 454
+    name: Reactive Armor Shield
+    description:
+      '''
+      ACC+<hit>
+      ARM+<armor> Skill Enhancement$S.A.T.8 Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    hit: "3,5"
+    armor: "3,6"
+    retire_mp: 2
+    retire_ammo: 2
+    retire_mre: 3
+    retire_part: 3
+    code: TDoll_SP_SAT8
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "188"
+    equip_introduction: A reactive armor suite unique to S.A.T.8, able to go head to head with grenades, shells and even missiles.
+    powerup_mp: 0.23
+    powerup_ammo: 0.23
+    powerup_mre: 0.33
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: armor:1000,hit:1000
+    passive_skill: "1006601"
+    max_level: 10
+    auto_select_id: 20099
+    is_show: 1
+    obtain_ids: "3126"
+    description_skill: 1006601
   }
 ]

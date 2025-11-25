@@ -15842,6 +15842,138 @@
     classification_id: 1007
   }
   {
+    id: 12647
+    type: 9
+    item_ids: 2153-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: ID: End of the Long Night
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12648
+    type: 9
+    item_ids: 2154-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: ID: Memory of the End
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12649
+    type: 9
+    item_ids: 2155-1
+    gemprice: 4000
+    original_price: 10000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: ID: Hope of Survival
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12650
+    type: 9
+    item_ids: 1946-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: Icon: Each Searching A Corner
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12651
+    type: 9
+    item_ids: 1947-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: Icon: Rainy Night Whisky
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12652
+    type: 9
+    item_ids: 1990-1
+    gemprice: 2000
+    original_price: 5000
+    if_cheap: 1
+    quota: 2001
+    giftbag_name: Icon: Pink Eye of Enthrallment
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12653
+    type: 9
+    item_ids: 10604-1
+    gemprice: 2000
+    quota: 2001
+    giftbag_name: Extra Impulse
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12654
+    type: 9
+    gift: 100003-1
+    gemprice: 150
+    quota: 2003
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12655
+    type: 9
+    gift: 100002-1
+    gemprice: 60
+    quota: 2003
+    giftbag_name: Ice Cream Cone
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
+    id: 12656
+    type: 9
+    gift: 100001-1
+    gemprice: 30
+    quota: 2003
+    giftbag_name: Lollipop
+    event_code: dailyGiftbag
+    discount: 1
+    pay_type: 1
+    classification_id: 1007
+  }
+  {
     id: 20001
     type: 8
     mp: 9000
@@ -48234,6 +48366,32 @@
     daily_quota: 1
     discount: 1
     prize_id: 220061
+    classification_id: 3002
+  }
+  {
+    id: 22462
+    type: 8
+    item_ids: 8-1,41-100,506-1000
+    gift: 100003-10
+    gemprice: 580
+    quota: 2002
+    giftbag_name: Dec Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_aki2
+    discount: 1
+    classification_id: 3002
+  }
+  {
+    id: 22463
+    type: 8
+    item_ids: 506-100,605-1,516-200
+    gemprice: 158
+    quota: 2001
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_purple
+    daily_quota: 1
+    discount: 1
     classification_id: 3002
   }
   {
