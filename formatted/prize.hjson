@@ -26215,84 +26215,84 @@
     id: 10086
     name: Carnival Reward
     mp: 100
-    item_ids: 110035-10
+    item_ids: 110036-10
   }
   {
     id: 10087
     name: Carnival Reward
     mp: 100
-    item_ids: 110035-20
+    item_ids: 110036-20
   }
   {
     id: 10088
     name: Carnival Reward
     ammo: 200
-    item_ids: 110035-20
+    item_ids: 110036-20
   }
   {
     id: 10089
     name: Carnival Reward
     ammo: 200
-    item_ids: 110035-30
+    item_ids: 110036-30
   }
   {
     id: 10090
     name: Carnival Reward
     mre: 200
-    item_ids: 110035-20
+    item_ids: 110036-20
   }
   {
     id: 10091
     name: Carnival Reward
     mre: 200
-    item_ids: 110035-30
+    item_ids: 110036-30
   }
   {
     id: 10092
     name: Carnival Reward
     mre: 200
-    item_ids: 110035-50
+    item_ids: 110036-50
   }
   {
     id: 10093
     name: Carnival Reward
     part: 100
-    item_ids: 110035-30
+    item_ids: 110036-30
   }
   {
     id: 10094
     name: Carnival Reward
     part: 100
-    item_ids: 110035-50
+    item_ids: 110036-50
   }
   {
     id: 10095
     name: Carnival Reward
     part: 100
-    item_ids: 110035-100
+    item_ids: 110036-100
   }
   {
     id: 10096
     name: Carnival Reward
     part: 200
-    item_ids: 110035-50
+    item_ids: 110036-50
   }
   {
     id: 10097
     name: Carnival Reward
     part: 200
-    item_ids: 110035-100
+    item_ids: 110036-100
   }
   {
     id: 10098
     name: Carnival Reward
     part: 300
-    item_ids: 110035-150
+    item_ids: 110036-150
   }
   {
     id: 10099
     name: Carnival Reward
-    item_ids: 110035-200,45-200
+    item_ids: 110036-200,45-200
   }
   {
     id: 10100
@@ -26310,14 +26310,14 @@
   {
     id: 10102
     name: Active Reward
-    item_ids: 3-5,525-5,2303-1
+    item_ids: 3-5,525-5
     coins: 2-200
     icon: Bumdle_indigo
   }
   {
     id: 10103
     name: Active Reward
-    item_ids: 1-5,45-100,506-200,601-2,525-5,2304-1
+    item_ids: 1-5,45-100,506-200,601-2,525-5
     icon: Bumdle_guoqing
   }
   {
@@ -26325,13 +26325,12 @@
     name: Active Reward
     core: 10
     item_ids: 41-20,8-1
-    furniture: "20102"
     icon: Bumdle_yellow
   }
   {
     id: 10105
     name: Active Reward
-    gift: 10408-1,100003-10
+    gift: 11107-1,100003-10
     icon: Bumdle_bline
   }
   {
@@ -26370,12 +26369,12 @@
     id: 10111
     name: Carnival Reward
     mre: 200
-    item_ids: 110035-40
+    item_ids: 110036-40
   }
   {
     id: 10112
     name: Carnival Reward
-    item_ids: 110035-50,45-200
+    item_ids: 110036-50,45-200
   }
   {
     id: 10113
@@ -26389,19 +26388,19 @@
     id: 10114
     name: Carnival Reward
     ammo: 200
-    item_ids: 110035-50
+    item_ids: 110036-50
   }
   {
     id: 10115
     name: Carnival Reward
     ammo: 300
-    item_ids: 110035-50
+    item_ids: 110036-50
   }
   {
     id: 10116
     name: prize-10010116
     mre: 300
-    item_ids: 110035-50
+    item_ids: 110036-50
     content: prize-20010116
   }
   {
@@ -64216,6 +64215,309 @@
     name: prize-10220854
     gun_id: "407"
     content: prize-20220854
+  }
+  {
+    id: 220855
+    name: prize-10220855
+    gift: 305-1
+    content: prize-20220855
+  }
+  {
+    id: 220856
+    name: prize-10220856
+    gift: 301-1
+    content: prize-20220856
+  }
+  {
+    id: 220857
+    name: prize-10220857
+    gift: 304-1
+    content: prize-20220857
+  }
+  {
+    id: 220858
+    name: prize-10220858
+    gift: 303-1
+    content: prize-20220858
+  }
+  {
+    id: 220859
+    name: prize-10220859
+    gift: 1605-1
+    content: prize-20220859
+  }
+  {
+    id: 220860
+    name: prize-10220860
+    gift: 1606-1
+    content: prize-20220860
+  }
+  {
+    id: 220861
+    name: prize-10220861
+    gift: 1608-1
+    content: prize-20220861
+  }
+  {
+    id: 220862
+    name: prize-10220862
+    gift: 2807-1
+    content: prize-20220862
+  }
+  {
+    id: 220863
+    name: prize-10220863
+    gift: 4006-1
+    content: prize-20220863
+  }
+  {
+    id: 220864
+    name: prize-10220864
+    gift: 4007-1
+    content: prize-20220864
+  }
+  {
+    id: 220865
+    name: prize-10220865
+    gift: 5309-1
+    content: prize-20220865
+  }
+  {
+    id: 220866
+    name: prize-10220866
+    gift: 5308-1
+    content: prize-20220866
+  }
+  {
+    id: 220867
+    name: prize-10220867
+    gift: 6606-1
+    content: prize-20220867
+  }
+  {
+    id: 220868
+    name: prize-10220868
+    gift: 6607-1
+    content: prize-20220868
+  }
+  {
+    id: 220869
+    name: prize-10220869
+    gift: 6608-1
+    content: prize-20220869
+  }
+  {
+    id: 220870
+    name: prize-10220870
+    gift: 7804-1
+    content: prize-20220870
+  }
+  {
+    id: 220871
+    name: prize-10220871
+    gift: 7806-1
+    content: prize-20220871
+  }
+  {
+    id: 220872
+    name: prize-10220872
+    gift: 7807-1
+    content: prize-20220872
+  }
+  {
+    id: 220873
+    name: prize-10220873
+    gift: 7809-1
+    content: prize-20220873
+  }
+  {
+    id: 220874
+    name: prize-10220874
+    gift: 306-1
+    content: prize-20220874
+  }
+  {
+    id: 220875
+    name: prize-10220875
+    gift: 309-1
+    content: prize-20220875
+  }
+  {
+    id: 220876
+    name: prize-10220876
+    gift: 308-1
+    content: prize-20220876
+  }
+  {
+    id: 220877
+    name: prize-10220877
+    gift: 302-1
+    content: prize-20220877
+  }
+  {
+    id: 220878
+    name: prize-10220878
+    gift: 307-1
+    content: prize-20220878
+  }
+  {
+    id: 220879
+    name: prize-10220879
+    gift: 1602-1
+    content: prize-20220879
+  }
+  {
+    id: 220880
+    name: prize-10220880
+    gift: 1604-1
+    content: prize-20220880
+  }
+  {
+    id: 220881
+    name: prize-10220881
+    gift: 1603-1
+    content: prize-20220881
+  }
+  {
+    id: 220882
+    name: prize-10220882
+    gift: 2803-1
+    content: prize-20220882
+  }
+  {
+    id: 220883
+    name: prize-10220883
+    gift: 2804-1
+    content: prize-20220883
+  }
+  {
+    id: 220884
+    name: prize-10220884
+    gift: 2805-1
+    content: prize-20220884
+  }
+  {
+    id: 220885
+    name: prize-10220885
+    gift: 2802-1
+    content: prize-20220885
+  }
+  {
+    id: 220886
+    name: prize-10220886
+    gift: 2806-1
+    content: prize-20220886
+  }
+  {
+    id: 220887
+    name: prize-10220887
+    gift: 4003-1
+    content: prize-20220887
+  }
+  {
+    id: 220888
+    name: prize-10220888
+    gift: 4004-1
+    content: prize-20220888
+  }
+  {
+    id: 220889
+    name: prize-10220889
+    gift: 4002-1
+    content: prize-20220889
+  }
+  {
+    id: 220890
+    name: prize-10220890
+    gift: 4005-1
+    content: prize-20220890
+  }
+  {
+    id: 220891
+    name: prize-10220891
+    gift: 5301-1
+    content: prize-20220891
+  }
+  {
+    id: 220892
+    name: prize-10220892
+    gift: 5303-1
+    content: prize-20220892
+  }
+  {
+    id: 220893
+    name: prize-10220893
+    gift: 5305-1
+    content: prize-20220893
+  }
+  {
+    id: 220894
+    name: prize-10220894
+    gift: 5304-1
+    content: prize-20220894
+  }
+  {
+    id: 220895
+    name: prize-10220895
+    gift: 5306-1
+    content: prize-20220895
+  }
+  {
+    id: 220896
+    name: prize-10220896
+    gift: 5307-1
+    content: prize-20220896
+  }
+  {
+    id: 220897
+    name: prize-10220897
+    gift: 6603-1
+    content: prize-20220897
+  }
+  {
+    id: 220898
+    name: prize-10220898
+    gift: 6605-1
+    content: prize-20220898
+  }
+  {
+    id: 220899
+    name: prize-10220899
+    gift: 6604-1
+    content: prize-20220899
+  }
+  {
+    id: 220900
+    name: prize-10220900
+    gift: 7802-1
+    content: prize-20220900
+  }
+  {
+    id: 220901
+    name: prize-10220901
+    gift: 310-1,1601-1,2801-1,4001-1,5302-1,6601-1,7801-1
+    content: prize-20220901
+  }
+  {
+    id: 220902
+    name: prize-10220902
+    item_ids: 9000039-1
+    content: prize-20220902
+    icon: Bumdle_ChristmasCoupons1
+  }
+  {
+    id: 220903
+    name: prize-10220903
+    item_ids: 9000040-1
+    content: prize-20220903
+    icon: Bumdle_ChristmasCoupons2
+  }
+  {
+    id: 220904
+    name: prize-10220904
+    item_ids: 9000041-1
+    content: prize-20220904
+    icon: Bumdle_ChristmasCoupons3
   }
   {
     id: 330248
