@@ -4956,8 +4956,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: pow:900,hit:500
+    passive_skill: "1006201"
     max_level: 10
     auto_select_id: 18044
+    group_id: "52"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000166
@@ -7378,9 +7380,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:500
-    passive_skill: "100507"
+    passive_skill: "100507,1006101"
     max_level: 10
     auto_select_id: 20037
+    group_id: "51"
     is_show: 1
     obtain_ids: "3008,3096"
     sp_description: equip-40000237
@@ -14501,6 +14504,76 @@
     is_show: 1
     obtain_ids: "3124"
     description_skill: 1005601
+  }
+  {
+    id: 448
+    name: Mark V Flaregun
+    description:
+      '''
+      ACC+<hit>
+      Echelon ACC+20%$Grizzly Mk Ⅴ Only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_Grizzly
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "96"
+    equip_introduction: A sporterized version of its original design, it can effectively relay information to nearby teammates.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006102,759034"
+    max_level: 10
+    auto_select_id: 19091
+    group_id: "51"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon ACC+20%
+  }
+  {
+    id: 449
+    name: Beretta Flaregun
+    description:
+      '''
+      ACC+<hit>
+      Echelon ACC+20%$Beretta Model 38 Mod Only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    hit: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_ammo: 4
+    retire_part: 2
+    code: Magazine_SP_MAB38Mod
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "20031"
+    equip_introduction: Beretta Model 38 carries this flaregun with her at all times. It can fires signal flares for communications and rescue.
+    powerup_mp: 0.48
+    powerup_ammo: 0.48
+    powerup_mre: 0.08
+    powerup_part: 0.25
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006202,759034"
+    max_level: 10
+    auto_select_id: 19092
+    group_id: "52"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon ACC+20%
   }
   {
     id: 450
