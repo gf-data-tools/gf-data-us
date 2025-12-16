@@ -291,14 +291,33 @@
   }
   {
     id: 10004
-    name: event_prize_level-10010004
+    name: Hurricane Rescue PLUS Campaign
     type: 1
     permanent_type: 1
     value: "10766"
     condition: 50000:40645;100000:40646;200000:40647;300000:40648;400000:40649;550000:40650;700000:40651;800000:40652
     left_icon: 0f032ef88d6e5908_draw_250723180735.png
     background: 15180ac70572abfa_draw_250723180736.png
-    notice_txt: event_prize_level-20010004
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Hurricane Rescue PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10005
+    name: Reign of Chaos PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "11116"
+    condition: 50000:40653;100000:40654;200000:40655;300000:40656;450000:40657;600000:40658;750000:40659;900000:40660
+    left_icon: f4bb6f6540570d61_draw_251210141354.png
+    background: 05c064eafe1366bd_draw_251210144507.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Reign of Chaos PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
   }
   {
     id: 90001
