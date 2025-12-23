@@ -709,6 +709,15 @@
     rank: 1
   }
   {
+    id: 133
+    type: 3
+    arg: "34"
+    code: Medal_21winter_re_rank
+    item_name: Beyond the Mist Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their brilliant performance in the scoring map of "Mirror Stage". "When the mist finally dissipates, sunlight shall shine upon our smiles."
+    rank: 1
+  }
+  {
     id: 134
     type: 3
     arg: "35"
@@ -1311,6 +1320,16 @@
     item_name: Combat Simulation Sim Energy
     introduction: Consume Sim Energy to conduct certain combat simulations and obtain necessary materials for upgrading T-Dolls and Fairies.
     rank: 1
+  }
+  {
+    id: 542
+    type: 1
+    arg: "542"
+    code: 2020winter_rabbit_plus
+    item_name: Operation Mistbuster+
+    introduction: Vouchers of certified enemy kills in Operation Mistbuster+. Can be exchanged for buffs at a control terminal. Unit price at 10/buff.
+    rank: 1
+    is_hide_info: 1
   }
   {
     id: 601
@@ -16065,6 +16084,24 @@
     rank: 1
   }
   {
+    id: 2708
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_HK416
+    item_name: Blushing Sakura
+    introduction: Blushing Sakura
+    rank: 1
+  }
+  {
+    id: 2709
+    type: 5
+    arg: "1"
+    code: card_BattlePass_HK416
+    item_name: IDcard: Sakura Iro Days
+    introduction: IDcard: Sakura Iro Days
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -17779,6 +17816,15 @@
     code: gift_bundle_BattlePass_Six12
     item_name: Azure Firmament
     introduction: When I look down upon this city from on high, it solidifies my resolve to protect it... Will the ocean of the future be as beautiful as this?
+    rank: 1
+  }
+  {
+    id: 30033
+    type: 1
+    arg: "30033"
+    code: gift_bundle_BattlePass_HK416
+    item_name: Blushing Sakura
+    introduction: Cherry blossoms only take a few seconds to fall... So take advantage of these fleeting moments and engrave my form - and this scenery - into your memories.
     rank: 1
   }
   {
@@ -22450,6 +22496,26 @@
     detail_introduction: item-30140064
   }
   {
+    id: 140065
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140065
+    introduction: item-20140065
+    rank: 1
+    detail_introduction: item-30140065
+  }
+  {
+    id: 140066
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140066
+    introduction: item-20140066
+    rank: 1
+    detail_introduction: item-30140066
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -22945,6 +23011,15 @@
     code: profileFrame_BattlePass_Six12
     item_name: Icon Frame - Towering Marvel
     introduction: Icon Frame - Towering Marvel
+    rank: 1
+  }
+  {
+    id: 200058
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_HK416
+    item_name: Icon Frame - Floral Messenger
+    introduction: Icon Frame - Floral Messenger
     rank: 1
   }
   {
@@ -25384,6 +25459,50 @@
       Use this commission in the armory to select from a specified range of Protocol Assimilation units with base 3 star rarity. 
       * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
       '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500275
+    type: 15
+    arg: "1500275"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - When Cherry Blooms. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500276
+    type: 15
+    arg: "1500276"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - When Cherry Blooms. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500277
+    type: 15
+    arg: "1500277"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - When Cherry Blooms. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500278
+    type: 15
+    arg: "1500278"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - When Cherry Blooms. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1

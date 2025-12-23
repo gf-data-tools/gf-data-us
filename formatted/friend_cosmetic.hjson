@@ -19677,6 +19677,27 @@
     rarity: 5
   }
   {
+    id: 1708
+    item_id: 2708
+    sub_type: 1
+    gem: 200
+    item_ids: 508-5000
+    onsale: 1
+    code: profilePic_BattlePass_HK416
+    order: 1
+    rarity: 5
+    skin: 30033
+    filter_type: "4"
+  }
+  {
+    id: 1709
+    item_id: 2709
+    sub_type: 2
+    code: card_BattlePass_HK416
+    order: 1
+    rarity: 5
+  }
+  {
     id: 2501
     item_id: 3501
     sub_type: 1
@@ -20223,6 +20244,15 @@
     item_id: 200057
     sub_type: 4
     code: profileFrame_BattlePass_Six12
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100058
+    item_id: 200058
+    sub_type: 4
+    code: profileFrame_BattlePass_HK416
     order: 1
     rarity: 5
     filter_type: "5"

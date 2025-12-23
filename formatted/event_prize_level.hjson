@@ -193,6 +193,26 @@
       '''
   }
   {
+    id: 12
+    name: Operation Mistbuster+
+    type: 2
+    value: "110071"
+    condition: 50000:40677;100000:40678;300000:40679;500000:40680;700000:40681;900000:40682;1100000:40683;1300000:40684;1500000:40685;1700000:40686;1900000:40687;2100000:40688
+    start_time: 2025-12-23 00:00:00
+    end_time: 2026-01-05 23:59:59
+    prize_start_time: 2025-12-23 00:00:00
+    prize_end_time: 2026-01-12 23:59:59
+    left_icon: 37e17316bced463c_draw_251217162217.png
+    background: cd10d10898993692_draw_251217162217.png
+    notice_txt:
+      '''
+      1. For the duration of the event, accumulate points in the designated scoring stage for "Operation Mistbuster+" and complete score targets to obtain the corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. After the end of the event, no more points can be scored, but the event interface will remain until the reward collection deadline.
+      4. While the event interface is still accessible, you can enter this reward interface through the rolling event banner on the home page. You will not be able to collect your rewards past the deadline.
+      '''
+  }
+  {
     id: 14
     name: Leaping from the Penrose Stairs
     type: 2
