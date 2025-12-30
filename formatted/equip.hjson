@@ -14644,4 +14644,38 @@
     obtain_ids: "3126"
     description_skill: 1006601
   }
+  {
+    id: 460
+    name: Glorious Banner
+    description:
+      '''
+      DMG<pow>
+      EVA+<dodge>$C-93 Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "-6,-3"
+    dodge: "16,21"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_C93
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "285"
+    equip_introduction: A flag and pole set that seems to be C-93's constant companion. Supposedly it helps her farm aura quickly.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1007801"
+    max_level: 10
+    auto_select_id: 20103
+    is_show: 1
+    obtain_ids: "3128"
+    description_skill: 1007801
+  }
 ]

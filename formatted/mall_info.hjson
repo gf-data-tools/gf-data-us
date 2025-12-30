@@ -15974,6 +15974,138 @@
     classification_id: "1007"
   }
   {
+    id: "12662"
+    type: "9"
+    item_ids: 2202-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: Scales of Destiny
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12663"
+    type: "9"
+    item_ids: 2295-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: Oath of Honor
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12664"
+    type: "9"
+    item_ids: 2296-1
+    gemprice: "4000"
+    original_price: "10000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: ID: Endless Song
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12665"
+    type: "9"
+    item_ids: 1991-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Purple Night of Rapture
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12666"
+    type: "9"
+    item_ids: 2028-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: Clandestine Sniping
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12667"
+    type: "9"
+    item_ids: 2029-1
+    gemprice: "2000"
+    original_price: "5000"
+    if_cheap: "1"
+    quota: "2001"
+    giftbag_name: Icon: All-Sugar Cake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12668"
+    type: "9"
+    item_ids: 10604-1
+    gemprice: "2000"
+    quota: "2001"
+    giftbag_name: Extra Impulse
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12669"
+    type: "9"
+    gift: 100003-1
+    gemprice: "150"
+    quota: "2003"
+    giftbag_name: Strawberry Custard Cheesecake
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12670"
+    type: "9"
+    gift: 100002-1
+    gemprice: "60"
+    quota: "2003"
+    giftbag_name: Ice Cream Cone
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
+    id: "12671"
+    type: "9"
+    gift: 100001-1
+    gemprice: "30"
+    quota: "2003"
+    giftbag_name: Lollipop
+    event_code: dailyGiftbag
+    discount: "1.00"
+    pay_type: "1"
+    classification_id: "1007"
+  }
+  {
     id: "20001"
     type: "8"
     mp: "9000"
@@ -48407,6 +48539,63 @@
     icon: Bumdle_Christmas
     discount: "1.00"
     classification_id: "3003"
+  }
+  {
+    id: "22465"
+    type: "8"
+    item_ids: 506-100,605-1,516-200
+    gemprice: "158"
+    quota: "2001"
+    giftbag_name: Daily Special Offer Package
+    event_code: dailyGiftbag
+    icon: Bumdle_purple
+    daily_quota: "1"
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22466"
+    type: "8"
+    item_ids: 41-500,45-300
+    mp: "2026"
+    ammo: "2026"
+    mre: "2026"
+    part: "2026"
+    gemprice: "2026"
+    quota: "2001"
+    giftbag_name: Lucky Horse Package
+    event_code: dailyGiftbag
+    icon: Bumdle_2026_1
+    discount: "1.00"
+    classification_id: "3002"
+  }
+  {
+    id: "22467"
+    type: "8"
+    gemprice: "2026"
+    quota: "2001"
+    giftbag_name: Fortune Horse Package
+    event_code: dailyGiftbag
+    icon: Bumdle_2026_2
+    discount: "1.00"
+    prize_id: "220905"
+    classification_id: "3002"
+  }
+  {
+    id: "22468"
+    type: "8"
+    item_ids: 516-1000,605-20
+    mp: "2026"
+    ammo: "2026"
+    mre: "2026"
+    part: "2026"
+    gemprice: "2026"
+    quota: "2001"
+    giftbag_name: Blessing Horse Package
+    event_code: dailyGiftbag
+    icon: Bumdle_2026_3
+    discount: "1.00"
+    classification_id: "3002"
   }
   {
     id: "30001"
