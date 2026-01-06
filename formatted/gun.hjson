@@ -15985,7 +15985,7 @@
     effect_grid_pos: "18,23"
     effect_grid_effect: "6,18"
     type_equip1: 2;5
-    type_equip2: 1;1,2,3,13
+    type_equip2: 1;1,2,3,13,18
     type_equip3: 3;15,23,20
     ai: 179
     launch_time: 2019-04-30 00:00:00
@@ -42690,13 +42690,14 @@
     skill1: 902130
     skill2: 902132
     normal_attack: 902131
+    passive_skill: "1006504,1006505"
     dynamic_passive_skill: "902147"
     effect_grid_center: 13
     effect_guntype: "2,4"
     effect_grid_pos: "18,12,14"
     effect_grid_effect: "3,55;4,15"
     type_equip1: 1;1,2,3,4,13
-    type_equip2: 2;8
+    type_equip2: 2;8,19
     type_equip3: 3;9,10,20
     ai: 71
     launch_time: 2016-05-20 00:00:00

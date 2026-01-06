@@ -17747,6 +17747,15 @@
     rank: 1
   }
   {
+    id: 10728
+    type: 18
+    arg: "10728"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -26195,6 +26204,39 @@
     type_sort: 1
   }
   {
+    id: 1700061
+    type: 15
+    arg: "1700061"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700062
+    type: 15
+    arg: "1700062"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700063
+    type: 15
+    arg: "1700063"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1800001
     type: 15
     arg: "1800001"
@@ -26845,7 +26887,40 @@
     type: 15
     arg: "9000041"
     code: Bumdle_ChristmasCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000042
+    type: 15
+    arg: "9000042"
+    code: Bumdle_SpringFestivalCoupons1
     item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000043
+    type: 15
+    arg: "9000043"
+    code: Bumdle_SpringFestivalCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000044
+    type: 15
+    arg: "9000044"
+    code: Bumdle_SpringFestivalCoupons3
+    item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1
     sort: -1
