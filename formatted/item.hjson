@@ -835,6 +835,15 @@
     rank: 1
   }
   {
+    id: 149
+    type: 3
+    arg: "50"
+    code: Medal_202505Activity
+    item_name: Roche Radius Medal
+    introduction: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Roche Limit event. "Even as the gunsmoke fades, your form still remains."
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -16012,6 +16021,78 @@
     rank: 1
   }
   {
+    id: 2665
+    type: 5
+    arg: "1"
+    code: profilePic_202505Activity_01
+    item_name: Icon - The Price of Truth
+    introduction: Icon - The Price of Truth
+    rank: 1
+  }
+  {
+    id: 2666
+    type: 5
+    arg: "1"
+    code: profilePic_202505Activity_02
+    item_name: Icon - Wordless Grief
+    introduction: Icon - Wordless Grief
+    rank: 1
+  }
+  {
+    id: 2667
+    type: 5
+    arg: "1"
+    code: profilePic_202505Activity_03
+    item_name: Icon - To The Pain
+    introduction: Icon - To The Pain
+    rank: 1
+  }
+  {
+    id: 2668
+    type: 5
+    arg: "1"
+    code: card_202505Activity_01
+    item_name: Namecard - Silent Farewell
+    introduction: Namecard - Silent Farewell
+    rank: 1
+  }
+  {
+    id: 2669
+    type: 5
+    arg: "1"
+    code: card_202505Activity_02
+    item_name: Namecard - A Promise That Can't Be Kept
+    introduction: Namecard - A Promise That Can't Be Kept
+    rank: 1
+  }
+  {
+    id: 2670
+    type: 5
+    arg: "1"
+    code: card_202505Activity_03
+    item_name: Namecard - Balefire Ashes
+    introduction: Namecard - Balefire Ashes
+    rank: 1
+  }
+  {
+    id: 2671
+    type: 5
+    arg: "1"
+    code: cg_202505Activity_01
+    item_name: Background - Shattered Ramparts
+    introduction: Background - Shattered Ramparts
+    rank: 1
+  }
+  {
+    id: 2672
+    type: 5
+    arg: "1"
+    code: cg_202505Activity_02
+    item_name: Background - Abandoned Hub
+    introduction: Background - Abandoned Hub
+    rank: 1
+  }
+  {
     id: 2673
     type: 5
     arg: "1"
@@ -16027,6 +16108,24 @@
     code: card_BattlePass_LTLX7000
     item_name: ID Card: Star-Studded Dinner
     introduction: ID Card: Star-Studded Dinner
+    rank: 1
+  }
+  {
+    id: 2686
+    type: 5
+    arg: "1"
+    code: profilePic_202505Activity_04
+    item_name: Icon - Ultimate Illusion
+    introduction: Icon - Ultimate Illusion
+    rank: 1
+  }
+  {
+    id: 2687
+    type: 5
+    arg: "1"
+    code: card_202505Activity_04
+    item_name: Namecard - A Scene I Thought Would Last Forever
+    introduction: Namecard - A Scene I Thought Would Last Forever
     rank: 1
   }
   {
@@ -16099,6 +16198,51 @@
     code: card_BattlePass_HK416
     item_name: IDcard: Sakura Iro Days
     introduction: IDcard: Sakura Iro Days
+    rank: 1
+  }
+  {
+    id: 2750
+    type: 5
+    arg: "1"
+    code: profilePic_TacticalAcademy_Type64-AR
+    item_name: Paradox Cardinal
+    introduction: Paradox Cardinal
+    rank: 1
+  }
+  {
+    id: 2751
+    type: 5
+    arg: "1"
+    code: profilePic_TacticalAcademy_UKM2000
+    item_name: Advent Apostle
+    introduction: Advent Apostle
+    rank: 1
+  }
+  {
+    id: 2752
+    type: 5
+    arg: "1"
+    code: profilePic_TacticalAcademy_Tabuk
+    item_name: Fantasy Hermit
+    introduction: Fantasy Hermit
+    rank: 1
+  }
+  {
+    id: 2753
+    type: 5
+    arg: "1"
+    code: profilePic_TacticalAcademy_CETME556
+    item_name: Adjudicator
+    introduction: Adjudicator
+    rank: 1
+  }
+  {
+    id: 2754
+    type: 5
+    arg: "1"
+    code: profilePic_TacticalAcademy_Z62
+    item_name: Logos Messenger
+    introduction: Logos Messenger
     rank: 1
   }
   {
@@ -27001,6 +27145,54 @@
     code: Bumdle_SpringFestivalCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000045
+    type: 15
+    arg: "9000045"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000046
+    type: 15
+    arg: "9000046"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000047
+    type: 15
+    arg: "9000047"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000048
+    type: 15
+    arg: "9000048"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
     rank: 1
     sort: -1
     type_sort: 1

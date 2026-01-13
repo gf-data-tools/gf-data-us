@@ -18058,4 +18058,37 @@
     if_hidden: 1
     steam_code: c_mission_15.75
   }
+  {
+    identity: 1264
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    content: Roche Limit - Public Enemy: Rescue all hostages and achieve victory.
+    type_sort: 100
+    sort: 335
+    icon_code: 人质解救
+    condition: 11885:1188502,11891:1188502,11895:1189502
+  }
+  {
+    identity: 1265
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Solo Legend
+    content: Roche Limit - Double-Oh Five: Complete the stage without using the control terminal.
+    type_sort: 100
+    sort: 336
+    icon_code: 不使用控制台
+    condition: 11887:1188702,11892:1188702,11896:1189602
+  }
 ]

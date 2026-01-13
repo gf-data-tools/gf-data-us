@@ -58688,6 +58688,976 @@
     difficulty_recommend: "1000,15;1000,15;0,0;0,0"
   }
   {
+    id: 11883
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 1
+    if_emergency: -1
+    special_type: 9
+    name: Tokarev's Memory Ⅰ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1188300:1"
+    mission_group_id: 40
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11884
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 2
+    if_emergency: -1
+    name: Miraculous Escape
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS305_Y
+    map_information: "8000,8000|5500,3000|1200,-2500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1329"
+    drop_mission_key: "0,0,1188400:1"
+    mission_group_id: 40
+    open_mission_keys: 1190100:1
+    round_config: 1:1,2:36,3:3
+    win_type: "1188401"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+    lose_type: "1188402"
+  }
+  {
+    id: 11885
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 3
+    if_emergency: -1
+    name: Public Enemy
+    difficulty: 3500
+    recommend_gun_level: 35
+    exp_parameter: 28
+    type: "7"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "343"
+    limit_team: "0,3"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1317"
+    expect_hostage_num: "1,2"
+    drop_mission_key: "0,0,1188500:1"
+    mission_group_id: 40
+    open_mission_keys: 1190300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75001
+    medal_type_silver: "1188502"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11886
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 4
+    if_emergency: -1
+    name: Secret Infiltration
+    difficulty: 5500
+    recommend_gun_level: 55
+    exp_parameter: 33
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS314_Y
+    map_information: "8000,8000|5000,5000|-1500,1500"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1330"
+    drop_mission_key: "0,0,1188600:1"
+    mission_group_id: 40
+    open_mission_keys: 1190600:1
+    round_config: 1:1,2:36,3:3
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+    lose_type: "1188402"
+  }
+  {
+    id: 11887
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 5
+    if_emergency: -1
+    name: Double-Oh Five
+    difficulty: 5500
+    recommend_gun_level: 55
+    exp_parameter: 33
+    type: "6"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 3
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "370"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1318"
+    expect_defend_line_turn: 1
+    drop_mission_key: "0,0,1188700:1"
+    mission_group_id: 40
+    open_mission_keys: 1190900:1
+    round_config: 1:1,2:36,3:3
+    mapped_mission_id: 75002
+    win_type: "1188701"
+    medal_type_silver: "1188702"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11888
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 6
+    if_emergency: -1
+    name: Watchdog
+    difficulty: 7000
+    recommend_gun_level: 65
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_team: "-1"
+    map_res_name: OPS304_Y
+    map_information: "12000,12000|6000,6000|3000,-3000"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1331"
+    drop_mission_key: "0,0,1188800:1"
+    mission_group_id: 40
+    open_mission_keys: 1191200:1
+    round_config: 1:1,2:36,3:3
+    win_type: "1188801"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+    lose_type: "1188402"
+  }
+  {
+    id: 11889
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 7
+    if_emergency: -1
+    name: Deus Ex
+    difficulty: 7000
+    recommend_gun_level: 65
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "179"
+    limit_team: "0,5"
+    map_res_name: OPS20_Y
+    map_information: "12000,12000|5000,6000|3000,-1800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1320"
+    drop_mission_key: "0,0,1188900:1"
+    mission_group_id: 40
+    open_mission_keys: 1191300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75003
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11890
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 8
+    if_emergency: -1
+    name: DIsgrace
+    difficulty: 10000
+    recommend_gun_level: 75
+    exp_parameter: 40
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "331"
+    limit_team: "0,5"
+    map_res_name: OPS62_Y
+    map_information: "8000,8000|6000,6000|500,300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1323"
+    drop_mission_key: "0,0,1189000:1"
+    mission_group_id: 40
+    open_mission_keys: 1191400:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75004
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11891
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 9
+    if_emergency: -1
+    name: Public Enemy - EX
+    difficulty: 14000
+    recommend_gun_level: 87
+    exp_parameter: 44
+    type: "7"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 2
+    expect_turn: 4
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "343"
+    limit_team: "0,3"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1318"
+    expect_hostage_num: "1,2"
+    drop_mission_key: "0,0,1188500:1"
+    mission_group_id: 40
+    open_mission_keys: 1190300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75001
+    medal_type_silver: "1188502"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11892
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 10
+    if_emergency: -1
+    name: Double-Oh Five - EX
+    difficulty: 20000
+    recommend_gun_level: 100
+    exp_parameter: 48
+    type: "6"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 3
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "370"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1319"
+    expect_defend_line_turn: 1
+    drop_mission_key: "0,0,1188700:1"
+    mission_group_id: 40
+    open_mission_keys: 1190900:1
+    round_config: 1:1,2:36,3:3
+    mapped_mission_id: 75002
+    win_type: "1188701"
+    medal_type_silver: "1188702"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11893
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 11
+    if_emergency: -1
+    name: Deus Ex - EX
+    difficulty: 22000
+    recommend_gun_level: 105
+    exp_parameter: 49
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "179"
+    limit_team: "0,5"
+    map_res_name: OPS20_Y
+    map_information: "12000,12000|5000,6000|3000,-1800"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1323"
+    drop_mission_key: "0,0,1188900:1"
+    mission_group_id: 40
+    open_mission_keys: 1191300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75003
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11894
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 12
+    if_emergency: -1
+    name: DIsgrace - EX
+    difficulty: 26000
+    recommend_gun_level: 110
+    exp_parameter: 51
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "331"
+    limit_team: "0,5"
+    map_res_name: OPS62_Y
+    map_information: "8000,8000|6000,6000|500,300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1325"
+    drop_mission_key: "0,0,1189000:1"
+    mission_group_id: 40
+    open_mission_keys: 1191400:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75004
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11895
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 13
+    if_emergency: -1
+    name: Public Enemy - UX
+    difficulty: 28000
+    recommend_gun_level: 115
+    exp_parameter: 52
+    type: "7"
+    enemy_ai_type: 4
+    expect_turn: 5
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "343"
+    limit_team: "0,3"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6500,4000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1321"
+    expect_hostage_num: "2,3"
+    drop_mission_key: "0,0,1188500:1"
+    mission_group_id: 40
+    open_mission_keys: 1190300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75001
+    medal_type_silver: "1189502"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11896
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 14
+    if_emergency: -1
+    name: Double-Oh Five - UX
+    difficulty: 30000
+    recommend_gun_level: 120
+    exp_parameter: 53
+    type: "6"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 3
+    expect_turn: 6
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "370"
+    limit_team: "0,5"
+    map_res_name: OPS5_Y
+    map_information: "8000,8000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1324"
+    expect_defend_line_turn: 1
+    drop_mission_key: "0,0,1188700:1"
+    mission_group_id: 40
+    open_mission_keys: 1190900:1
+    round_config: 1:1,2:36,3:3
+    mapped_mission_id: 75002
+    win_type: "1188701"
+    medal_type_silver: "1189602"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11897
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 15
+    if_emergency: -1
+    name: Deus Ex - UX
+    difficulty: 32000
+    recommend_gun_level: 120
+    exp_parameter: 54
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 7
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "179"
+    limit_team: "0,5"
+    map_res_name: OPS20_Y
+    map_information: "12000,12000|5000,8000|2700,-300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1326"
+    drop_mission_key: "0,0,1188900:1"
+    mission_group_id: 40
+    open_mission_keys: 1191300:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75003
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11898
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 16
+    if_emergency: -1
+    name: DIsgrace - UX
+    difficulty: 34000
+    recommend_gun_level: 120
+    exp_parameter: 55
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 5
+    expect_turn: 8
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "331"
+    limit_team: "0,5"
+    map_res_name: OPS62_Y
+    map_information: "8000,8000|6500,6000|0,300"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1328"
+    drop_mission_key: "0,0,1189000:1"
+    mission_group_id: 40
+    open_mission_keys: 1191400:1
+    round_config: 1:1,2:29,3:3
+    mapped_mission_id: 75004
+    win_type: "1188601"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11899
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 17
+    if_emergency: -1
+    name: Sidereal Loop ∞
+    difficulty: 7000
+    recommend_gun_level: 65
+    exp_parameter: 36
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "343,370,179,331"
+    limit_team: "0,2"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1322"
+    drop_mission_key: "0,0,1189900:1"
+    mission_group_id: 40
+    open_mission_keys: 1188400:1
+    round_config: 1:1,2:36,3:3
+    mapped_mission_id: 75005
+    win_type: "1189901"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11900
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 18
+    if_emergency: -1
+    name: Sidereal Loop ∞ - EX
+    difficulty: 28000
+    recommend_gun_level: 115
+    exp_parameter: 52
+    type: "3"
+    enemy_ai_type: 4
+    expect_enemy_die_num: 4
+    expect_turn: 3
+    boss_team_id: "1"
+    turn_duration: 360000000
+    limit_gun_pool: "343,370,179,331"
+    limit_team: "0,2"
+    map_res_name: OPS5_Y
+    map_information: "6000,6000|6000,6000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    draw_event_s_id: "1327"
+    drop_mission_key: "0,0,1189900:1"
+    mission_group_id: 40
+    open_mission_keys: 1188400:1
+    round_config: 1:1,2:36,3:3
+    mapped_mission_id: 75005
+    win_type: "1189901"
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11901
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 19
+    if_emergency: -1
+    special_type: 9
+    name: IOP-Branch
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190100:1"
+    mission_group_id: 40
+    open_mission_keys: 1188300:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11902
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 20
+    if_emergency: -1
+    special_type: 9
+    name: Frankfurt
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190200:1"
+    mission_group_id: 40
+    open_mission_keys: 1188400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11903
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 21
+    if_emergency: -1
+    special_type: 9
+    name: Tokarev's Memory Ⅱ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190300:1"
+    mission_group_id: 40
+    open_mission_keys: 1190200:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11904
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 22
+    if_emergency: -1
+    special_type: 9
+    name: The Elmo
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190400:1"
+    mission_group_id: 40
+    open_mission_keys: 1188500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11905
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 23
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Entrance
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190500:1"
+    mission_group_id: 40
+    open_mission_keys: 1190400:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11906
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 24
+    if_emergency: -1
+    special_type: 9
+    name: White Zone -
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190600:1"
+    mission_group_id: 40
+    open_mission_keys: 1190500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11907
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 25
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Ground Zero
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190700:1"
+    mission_group_id: 40
+    open_mission_keys: 1188600:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11908
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 26
+    if_emergency: -1
+    special_type: 9
+    name: Tokarev's Memory Ⅲ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190800:1"
+    mission_group_id: 40
+    open_mission_keys: 1190700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11909
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 27
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Hospital
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1190900:1"
+    mission_group_id: 40
+    open_mission_keys: 1190800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11910
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 28
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Central Hospital
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191000:1"
+    mission_group_id: 40
+    open_mission_keys: 1188700:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11911
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 29
+    if_emergency: -1
+    special_type: 9
+    name: Tokarev's Memory Ⅳ
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191100:1"
+    mission_group_id: 40
+    open_mission_keys: 1191000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11912
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 30
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Frankfurt
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191200:1"
+    mission_group_id: 40
+    open_mission_keys: 1191100:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11913
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 31
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Abandoned Transport Hub
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191300:1"
+    mission_group_id: 40
+    open_mission_keys: 1188800:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11914
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 32
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Abandoned Metro Network
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191400:1"
+    mission_group_id: 40
+    open_mission_keys: 1188900:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11915
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 33
+    if_emergency: -1
+    special_type: 9
+    name: White Zone - Abandoned Metro Network Final Phase
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191500:1"
+    mission_group_id: 40
+    open_mission_keys: 1189000:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
+    id: 11916
+    integration_switch: 1-1;4-40:80:160
+    campaign: -75
+    sub: 34
+    if_emergency: -1
+    special_type: 9
+    name: Singularity
+    difficulty: 1000
+    recommend_gun_level: 15
+    exp_parameter: 21
+    type: "3"
+    enemy_ai_type: 4
+    expect_turn: 9
+    boss_team_id: "1"
+    turn_duration: 360000000
+    map_res_name: Chapter1_Y
+    map_information: "8000,8000|8000,8000|0,0"
+    fog_length: "0,500"
+    fog_color: "#000000FF"
+    drop_mission_key: "0,0,1191600:1"
+    mission_group_id: 40
+    open_mission_keys: 1191500:1
+    round_config: 1:1,2:2,3:3
+    difficulty_recommend: "1000,15;0,0;0,0;0,0;0,0"
+  }
+  {
     id: 90001
     integration_switch: 1-1;4-40:80:160
     campaign: 1

@@ -3356,11 +3356,16 @@
   {
     id: 750000
     code_a: hideaway
+    description_a: Sneaking Box
+    description_b: Sneaking Box
+    description_c: Enter
     code_b: Console_Icon
   }
   {
     id: 750011
     code_a: lighttrap
+    description_a: Shackling Eye
+    description_b: Shackling Eye
     description_c: Close
     code_b: Console_Icon
   }
@@ -3368,29 +3373,39 @@
     id: 750202
     code_a: TargetPoint_Radar
     description_a: Griffin
+    description_b: Evac Point
     description_c: Retreat
     code_b: Console_Icon
   }
   {
     id: 750501
     code_a: Console_Icon
+    description_a: Security System
+    description_b: Firewall Module
+    description_c: Shutdown
     code_b: Console_Icon
   }
   {
     id: 751411
     code_a: Console_Icon
+    description_a: Security System
+    description_b: Firewall Module
     description_c: Standby
     code_b: Console_Icon
   }
   {
     id: 751502
     code_a: Viscosity_Bomb
+    description_a: Special Explosive
+    description_b: Special Explosive
     description_c: Pick Up
     code_b: Console_Icon
   }
   {
     id: 751512
     code_a: Viscosity_Bomb
+    description_a: Special Explosive
+    description_b: Special Explosive
     description_c: Setting
     code_b: Console_Icon
     is_manual_target: 2

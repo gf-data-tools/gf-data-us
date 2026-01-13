@@ -14613,6 +14613,41 @@
     description_skill: 1006301
   }
   {
+    id: 451
+    name: Explosive Cyberarm
+    description:
+      '''
+      CRIT RATE+<critical_percent><%> EVA<dodge>
+      CRIT DMG+<critical_harm_rate><%>$M4 SOPMOD II Only
+      '''
+    rank: 5
+    category: 1
+    type: 16
+    dodge: "-6,-6"
+    critical_harm_rate: "8,10"
+    critical_percent: "21,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: Accessories_SP_M4SOPMODII
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "56,20056"
+    equip_introduction: This cybernetic arm features a whole new level of destructive power. With Banana's help, it can project a considerable amount of force.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: critical_harm_rate:500,critical_percent:1000
+    passive_skill: "1006001"
+    max_level: 10
+    auto_select_id: 18123
+    is_show: 1
+    obtain_ids: "3133"
+    description_skill: 1006001
+  }
+  {
     id: 452
     name: BC Suppressor
     description:

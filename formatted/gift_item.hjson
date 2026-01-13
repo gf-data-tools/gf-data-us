@@ -399,7 +399,7 @@
   }
   {
     id: 210
-    name: C12H22O11
+    name: Persical - C12H22O11
     type: 2
     rank: 6
     favor: 50000
@@ -410,6 +410,21 @@
     bonus_description: Unlocks a new costume for Persica.
     description: Gift this item to the corresponding NPC in your dormitory to obtain a costume.
     sort: 2000
+  }
+  {
+    id: 212
+    name: Kalina - Primly Professional
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: -1
+    skin: 212
+    code: gift_bundle_kalina_212
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for Kalina.
+    description: Gift this item to the corresponding NPC in your dormitory to obtain a costume.
+    sort: 2000
+    type_sort: 6
   }
   {
     id: 301
@@ -12934,6 +12949,86 @@
     skin: 11407
     poster: 311407
     code: gift_bundle_WhiteValentina2025_M1895
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 11701
+    name: Paradox Cardinal
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 243
+    skin: 11701
+    poster: 311701
+    code: gift_bundle_TacticalAcademy_Type64-AR
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 11702
+    name: Advent Apostle
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 254
+    skin: 11702
+    poster: 311702
+    code: gift_bundle_TacticalAcademy_UKM2000
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 11703
+    name: Fantasy Hermit
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 305
+    skin: 11703
+    poster: 311703
+    code: gift_bundle_TacticalAcademy_Tabuk
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 11704
+    name: Adjudicator
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 223
+    skin: 11704
+    poster: 311704
+    code: gift_bundle_TacticalAcademy_CETME556
+    normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
+    bonus_description: Unlocks a new costume for your T-Doll
+    description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
+    sort: 2000
+    type_sort: 6
+  }
+  {
+    id: 11705
+    name: Logos Messenger
+    type: 2
+    rank: 6
+    favor: 50000
+    fit_gun: 116
+    skin: 11705
+    poster: 311705
+    code: gift_bundle_TacticalAcademy_Z62
     normal_description: Gift this item to a T-Doll in your dormitory to increase her Affection.
     bonus_description: Unlocks a new costume for your T-Doll
     description: Gift this item to the corresponding T-Doll in your dormitory to obtain a costume, a poster, and Affection.
