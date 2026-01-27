@@ -12696,6 +12696,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_22winter
+    event_id: 4423
   }
   {
     id: 1031
@@ -12710,6 +12711,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_22winter
+    event_id: 4424
   }
   {
     id: 1032
@@ -12724,6 +12726,7 @@
     filter_type: "1"
     frame_id: 200005
     logo_code: logo_22winter
+    event_id: 4425
   }
   {
     id: 1033
@@ -15737,19 +15740,27 @@
     id: 1297
     item_id: 2297
     sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    onsale: 1
     code: card_SlowShockActivity2023_03
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 4420
   }
   {
     id: 1298
     item_id: 2298
     sub_type: 2
+    gem: 400
+    item_ids: 508-10000
+    onsale: 1
     code: card_SlowShockActivity2023_04
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 4421
   }
   {
     id: 1299
@@ -15816,6 +15827,7 @@
     order: 1
     rarity: 5
     filter_type: "1"
+    event_id: 4422
   }
   {
     id: 1305
@@ -17834,6 +17846,39 @@
     filter_type: "1"
   }
   {
+    id: 1483
+    item_id: 2483
+    sub_type: 1
+    code: profilePic_ChessFlight_season15_1
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200008
+    logo_code: logo_flightchess_major
+  }
+  {
+    id: 1484
+    item_id: 2484
+    sub_type: 1
+    code: profilePic_ChessFlight_season15_2
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200007
+    logo_code: logo_flightchess_general
+  }
+  {
+    id: 1485
+    item_id: 2485
+    sub_type: 1
+    code: profilePic_ChessFlight_season15_3
+    order: 1
+    rarity: 5
+    filter_type: "1"
+    frame_id: 200006
+    logo_code: logo_flightchess_chief
+  }
+  {
     id: 1486
     item_id: 2486
     sub_type: 2
@@ -19835,6 +19880,27 @@
     rarity: 5
   }
   {
+    id: 1733
+    item_id: 2733
+    sub_type: 1
+    gem: 160
+    item_ids: 508-4000
+    onsale: 1
+    code: profilePic_BattlePass_SPAS12
+    order: 1
+    rarity: 5
+    skin: 30034
+    filter_type: "4"
+  }
+  {
+    id: 1734
+    item_id: 2734
+    sub_type: 2
+    code: card_BattlePass_SPAS12
+    order: 1
+    rarity: 5
+  }
+  {
     id: 1750
     item_id: 2750
     sub_type: 1
@@ -20455,6 +20521,15 @@
     item_id: 200058
     sub_type: 4
     code: profileFrame_BattlePass_HK416
+    order: 1
+    rarity: 5
+    filter_type: "5"
+  }
+  {
+    id: 100059
+    item_id: 200059
+    sub_type: 4
+    code: profileFrame_BattlePass_SPAS12
     order: 1
     rarity: 5
     filter_type: "5"

@@ -14572,6 +14572,27 @@
     rank: 1
   }
   {
+    id: 2483
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_1
+    rank: 1
+  }
+  {
+    id: 2484
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_2
+    rank: 1
+  }
+  {
+    id: 2485
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season15_3
+    rank: 1
+  }
+  {
     id: 2486
     type: 5
     arg: "1"
@@ -16198,6 +16219,24 @@
     code: card_BattlePass_HK416
     item_name: IDcard: Sakura Iro Days
     introduction: IDcard: Sakura Iro Days
+    rank: 1
+  }
+  {
+    id: 2733
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_SPAS12
+    item_name: Exercise Mileage
+    introduction: Exercise Mileage
+    rank: 1
+  }
+  {
+    id: 2734
+    type: 5
+    arg: "1"
+    code: card_BattlePass_SPAS12
+    item_name: IDcard: Cheese Is Power
+    introduction: IDcard: Cheese Is Power
     rank: 1
   }
   {
@@ -18020,6 +18059,15 @@
     code: gift_bundle_BattlePass_HK416
     item_name: Blushing Sakura
     introduction: Cherry blossoms only take a few seconds to fall... So take advantage of these fleeting moments and engrave my form - and this scenery - into your memories.
+    rank: 1
+  }
+  {
+    id: 30034
+    type: 1
+    arg: "30034"
+    code: gift_bundle_BattlePass_SPAS12
+    item_name: Exercise Mileage
+    introduction: One-two, one-two... One more kilometer and I'll unlock that cheeseburger reward!
     rank: 1
   }
   {
@@ -22748,6 +22796,26 @@
     detail_introduction: item-30140066
   }
   {
+    id: 140067
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140067
+    introduction: item-20140067
+    rank: 1
+    detail_introduction: item-30140067
+  }
+  {
+    id: 140068
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140068
+    introduction: item-20140068
+    rank: 1
+    detail_introduction: item-30140068
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -23252,6 +23320,15 @@
     code: profileFrame_BattlePass_HK416
     item_name: Icon Frame - Floral Messenger
     introduction: Icon Frame - Floral Messenger
+    rank: 1
+  }
+  {
+    id: 200059
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_SPAS12
+    item_name: Icon Frame - Hunger Game
+    introduction: Icon Frame - Hunger Game
     rank: 1
   }
   {
@@ -25735,6 +25812,50 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - When Cherry Blooms. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500286
+    type: 15
+    arg: "1500286"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Burning Calories! Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500287
+    type: 15
+    arg: "1500287"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Burning Calories! Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500288
+    type: 15
+    arg: "1500288"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Burning Calories! Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500289
+    type: 15
+    arg: "1500289"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Burning Calories! Obtain a random piece of equipment from this Interval Air-Drop Indicator.
     rank: 1
     sort: -1
     type_sort: 1

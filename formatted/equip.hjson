@@ -14750,6 +14750,39 @@
     description_skill: 1006601
   }
   {
+    id: 457
+    name: ST Exoskeleton
+    description:
+      '''
+      EVA+<dodge>
+       Skill Enhancement$P30 Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "11,18"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_P30
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "269"
+    equip_introduction: P30 placed a special request for this exoskeleton so she can deliver swift revenge to the people who bullied her!
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1006901"
+    max_level: 10
+    auto_select_id: 20101
+    is_show: 1
+    obtain_ids: "3127,3096"
+    description_skill: 1006901
+  }
+  {
     id: 460
     name: Glorious Banner
     description:

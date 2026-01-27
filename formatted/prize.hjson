@@ -26175,6 +26175,42 @@
     content: prize-20008634
   }
   {
+    id: 8635
+    name: prize-10008635
+    item_ids: 140067-1
+    content: prize-20008635
+  }
+  {
+    id: 8636
+    name: prize-10008636
+    item_ids: 140068-1,10606-300,200059-1,2734-1
+    content: prize-20008636
+  }
+  {
+    id: 8637
+    name: prize-10008637
+    item_ids: 140068-1,10606-300,200059-1,2734-1
+    content: prize-20008637
+  }
+  {
+    id: 8638
+    name: prize-10008638
+    gift: 30023-1
+    content: prize-20008638
+  }
+  {
+    id: 8639
+    name: prize-10008639
+    gift: 30011-1
+    content: prize-20008639
+  }
+  {
+    id: 8640
+    name: prize-10008640
+    gift: 30001-1
+    content: prize-20008640
+  }
+  {
     id: 9101
     name: Photo From Christmas 2018
     item_ids: 1212-1
@@ -27424,6 +27460,62 @@
     user_exp: 2000
     item_ids: 106-60,2447-1,200006-1
     content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code Twelve: Light Cone". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Degenerate Age", Icon Frame - Good Omen
+    icon: Medal_Chess
+  }
+  {
+    id: 10799
+    name: Major
+    user_exp: 30
+    item_ids: 106-5,2483-1,200008-1
+    content: Congratulations on achieving the rank of Major in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*5, Commander EXP*30, Icon "Array Chronology", Icon Frame - Fuse of Victory
+    icon: Medal_Chess
+  }
+  {
+    id: 10800
+    name: Lieutenant Colonel
+    user_exp: 60
+    item_ids: 106-10
+    content: Congratulations on achieving the rank of Lieutenant Colonel in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*10, Commander EXP*60
+    icon: Medal_Chess
+  }
+  {
+    id: 10801
+    name: Colonel
+    user_exp: 100
+    item_ids: 106-20
+    content: Congratulations on achieving the rank of Colonel in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*20, Commander EXP*100
+    icon: Medal_Chess
+  }
+  {
+    id: 10802
+    name: Major General
+    user_exp: 200
+    item_ids: 106-30,2484-1,200007-1
+    content: Congratulations on achieving the rank of Major General in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*30, Commander EXP*200, Icon "Axial Fluctuation", Icon Frame - Stratagem
+    icon: Medal_Chess
+  }
+  {
+    id: 10803
+    name: Lieutenant General
+    user_exp: 500
+    item_ids: 106-40
+    content: Congratulations on achieving the rank of Lieutenant General in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*40, Commander EXP*500
+    icon: Medal_Chess
+  }
+  {
+    id: 10804
+    name: General
+    user_exp: 1000
+    item_ids: 106-50
+    content: Congratulations on achieving the rank of General in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*50, Commander EXP*1000
+    icon: Medal_Chess
+  }
+  {
+    id: 10805
+    name: Field Marshal
+    user_exp: 2000
+    item_ids: 106-60,2485-1,200006-1
+    content: Congratulations on achieving the rank of Field Marshal in the tournament season "Code Thirteen: Time Zone". Reward: Luffberry Medal*60, Commander EXP*2000, Icon "Frequency Domain", Icon Frame - Good Omen
     icon: Medal_Chess
   }
   {
@@ -31721,6 +31813,13 @@
     name: prize-10012642
     item_ids: 133145-1
     content: prize-20012642
+  }
+  {
+    id: 13001
+    name: prize-10013001
+    gem: 90
+    equip_ids: "457"
+    content: prize-20013001
   }
   {
     id: 13006
@@ -49551,6 +49650,100 @@
     icon: Bumdle_ruby
   }
   {
+    id: 40689
+    name: Stage Reward I
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gift: 200001-100
+    coins: 1-100,2-100
+    icon: Bumdle_black
+  }
+  {
+    id: 40690
+    name: Stage Reward II
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    gem: 50
+    gift: 200001-100
+    coins: 1-200,2-200
+    icon: Bumdle_blue
+    fairy_ids: 26-0-100-5
+  }
+  {
+    id: 40691
+    name: Stage Reward III
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gift: 200001-200
+    coins: 2-200,3-100
+    icon: Bumdle_brown
+  }
+  {
+    id: 40692
+    name: Stage Reward IV
+    mp: 2000
+    ammo: 2000
+    mre: 2000
+    part: 2000
+    gem: 50
+    gift: 200001-200,400001-200
+    equip_ids: "160"
+    coins: 3-200
+    icon: Bumdle_purple
+  }
+  {
+    id: 40693
+    name: Stage Reward V
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    item_ids: 514-150,515-150
+    gift: 400001-200
+    icon: Bumdle_red
+  }
+  {
+    id: 40694
+    name: Stage Reward VI
+    mp: 3000
+    ammo: 3000
+    mre: 3000
+    part: 3000
+    gem: 100
+    item_ids: 514-250,515-250,516-200
+    icon: Bumdle_ruby
+    commander_uniform: "1510"
+  }
+  {
+    id: 40695
+    name: Stage Reward VII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    item_ids: 515-300,516-400
+    icon: Bumdle_white
+  }
+  {
+    id: 40696
+    name: Stage Reward VIII
+    mp: 5000
+    ammo: 5000
+    mre: 5000
+    part: 5000
+    gem: 100
+    item_ids: 45-500
+    gift: 200001-500
+    icon: Bumdle_yellow
+    fairy_ids: 22-0
+  }
+  {
     id: 40781
     name: "100,000 Points Reward"
     item_ids: 514-40,41-6
@@ -54952,6 +55145,32 @@
     content: prize-20120173
   }
   {
+    id: 120174
+    name: prize-10120174
+    item_ids: 41-30,1500286-1
+    content: prize-20120174
+  }
+  {
+    id: 120175
+    name: prize-10120175
+    item_ids: 41-30
+    gift: 30034-1
+    content: prize-20120175
+  }
+  {
+    id: 120176
+    name: prize-10120176
+    item_ids: 41-30,1500287-1
+    content: prize-20120176
+  }
+  {
+    id: 120177
+    name: prize-10120177
+    gem: 680
+    item_ids: 1500288-1
+    content: prize-20120177
+  }
+  {
     id: 121001
     name: prize-10121001
     furniture: "7240"
@@ -55838,6 +56057,24 @@
     name: prize-10130099
     item_ids: 10606-300,200058-1,2709-1
     content: prize-20130099
+  }
+  {
+    id: 130100
+    name: prize-10130100
+    item_ids: 1500289-1
+    content: prize-20130100
+  }
+  {
+    id: 130101
+    name: prize-10130101
+    item_ids: 602-1,1500286-1,30034-1,1500287-1,1500288-1,505-680
+    content: prize-20130101
+  }
+  {
+    id: 130102
+    name: prize-10130102
+    item_ids: 10606-300,200059-1,2734-1
+    content: prize-20130102
   }
   {
     id: 140001
@@ -57554,6 +57791,54 @@
     name: prize-10140284
     gun_id: "388"
     content: prize-20140284
+  }
+  {
+    id: 140285
+    name: prize-10140285
+    gun_id: "339"
+    content: prize-20140285
+  }
+  {
+    id: 140286
+    name: prize-10140286
+    gun_id: "329"
+    content: prize-20140286
+  }
+  {
+    id: 140287
+    name: prize-10140287
+    gun_id: "122"
+    content: prize-20140287
+  }
+  {
+    id: 140288
+    name: prize-10140288
+    gun_id: "50"
+    content: prize-20140288
+  }
+  {
+    id: 140289
+    name: prize-10140289
+    gun_id: "348"
+    content: prize-20140289
+  }
+  {
+    id: 140290
+    name: prize-10140290
+    gun_id: "243"
+    content: prize-20140290
+  }
+  {
+    id: 140291
+    name: prize-10140291
+    gun_id: "135"
+    content: prize-20140291
+  }
+  {
+    id: 140292
+    name: prize-10140292
+    gun_id: "148"
+    content: prize-20140292
   }
   {
     id: 150001
