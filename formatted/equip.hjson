@@ -7491,8 +7491,10 @@
     powerup_part: 0.33
     exclusive_rate: 3
     bonus_type: armor:500
+    passive_skill: "1006801"
     max_level: 10
     auto_select_id: 20038
+    group_id: "56"
     is_show: 1
     obtain_ids: "3016"
     sp_description: equip-40000240
@@ -12415,11 +12417,12 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: hit:1000,critical_percent:1000
-    passive_skill: "1000301"
+    passive_skill: "1000301,1006701"
     max_level: 10
     auto_select_id: 18118
+    group_id: "55"
     is_show: 1
-    obtain_ids: "3103"
+    obtain_ids: "3103,3096"
     description_skill: 1000301
   }
   {
@@ -14748,6 +14751,75 @@
     is_show: 1
     obtain_ids: "3126"
     description_skill: 1006601
+  }
+  {
+    id: 455
+    name: New Custom Bag
+    description:
+      '''
+      CRIT DMG+<critical_harm_rate><%>
+      CLIP+<bullet_number_up>$MG5 Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    critical_harm_rate: "3,5"
+    bullet_number_up: "3,5"
+    retire_mp: 1
+    retire_ammo: 1
+    retire_mre: 1
+    retire_part: 5
+    code: TDoll_SP_MG5
+    develop_duration: 3420
+    company: IOP
+    fit_guns: "109"
+    equip_introduction: A unique, custom-made piece of infantry gear, it has high storage capacity and can features compartments to sort its contents. Its usage is also very unique.
+    powerup_mp: 0.1
+    powerup_ammo: 0.1
+    powerup_mre: 0.1
+    powerup_part: 0.55
+    exclusive_rate: 3
+    bonus_type: bullet_number_up:1000,critical_harm_rate:1000
+    passive_skill: "1006702"
+    max_level: 10
+    auto_select_id: 20100
+    group_id: "55"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 456
+    name: Red Star Dangle
+    description:
+      '''
+      ACC+<hit>
+      EVA+<dodge>$RMB-93 Mod Only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    hit: "12,18"
+    dodge: "3,5"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_RMB93Mod
+    develop_duration: 3000
+    company: IOP
+    fit_guns: "20159"
+    equip_introduction: A pendant that symbolizes glory and trust, it spurs RMB-93 to follow the rules ever more diligently.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: hit:1000
+    passive_skill: "1006802"
+    max_level: 10
+    auto_select_id: 18125
+    group_id: "56"
+    is_show: 1
+    obtain_ids: "3096"
   }
   {
     id: 457
