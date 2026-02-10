@@ -14888,4 +14888,38 @@
     obtain_ids: "3128"
     description_skill: 1007801
   }
+  {
+    id: 464
+    name: SAF Chip
+    description:
+      '''
+      EVA+<dodge> DMG+<pow>
+      Enhances Skill$SAF Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "3,5"
+    dodge: "20,25"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_SAF
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "304"
+    equip_introduction: A chip specially made for SAF.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:450,pow:1000
+    passive_skill: "1008101"
+    max_level: 10
+    auto_select_id: 20106
+    is_show: 1
+    obtain_ids: "3129"
+    description_skill: 1008101
+  }
 ]
