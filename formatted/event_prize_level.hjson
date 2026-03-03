@@ -356,14 +356,32 @@
   }
   {
     id: 10006
-    name: event_prize_level-10010006
+    name: Flowers of the End PLUS Campaign
     type: 1
     permanent_type: 1
     value: "11320"
     condition: 100000:40689;200000:40690;300000:40691;500000:40692;700000:40693;900000:40694;1200000:40695;1500000:40696
     left_icon: 2e49372c05237f76_draw_260121160530.png
     background: c067622743eaddb0_draw_260121163646.png
-    notice_txt: event_prize_level-20010006
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Flowers of the End PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10013
+    name: Self-Portrait Campaign
+    type: 3
+    permanent_type: 1
+    value: "11402,11403"
+    condition: 100000:40773;300000:40774;500000:40775;700000:40776;900000:40777;1100000:40778;1300000:40779;1500000:40780
+    background: ff4b959d3b2c24e6_draw_260225140532.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Self-Portrait" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
   }
   {
     id: 90001

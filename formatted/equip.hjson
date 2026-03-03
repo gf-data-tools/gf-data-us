@@ -8754,9 +8754,10 @@
     powerup_part: 0.23
     exclusive_rate: 3
     bonus_type: dodge:1000,hit:700
-    passive_skill: "759031"
+    passive_skill: "759031,1007001"
     max_level: 10
     auto_select_id: 18088
+    group_id: "57"
     is_show: 1
     obtain_ids: "3066,3096"
     description_skill: 759031
@@ -10664,8 +10665,10 @@
     powerup_part: 0.38
     exclusive_rate: 3
     bonus_type: dodge:800
+    passive_skill: "1007101"
     max_level: 10
     auto_select_id: 20056
+    group_id: "58"
     is_show: 1
     obtain_ids: "3016"
   }
@@ -14853,6 +14856,76 @@
     is_show: 1
     obtain_ids: "3127,3096"
     description_skill: 1006901
+  }
+  {
+    id: 458
+    name: Squirrel Processor
+    description:
+      '''
+      MOVE SPEED+<speed>
+      EVA+<dodge>$P90 Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    dodge: "14,19"
+    speed: "2,2"
+    retire_mp: 4
+    retire_ammo: 2
+    retire_part: 4
+    code: TDoll_SP_P90
+    develop_duration: 3120
+    company: IOP
+    fit_guns: "245"
+    equip_introduction: A processor chip specially designed for P90, it improves her mimicry skills in an intangible manner.
+    powerup_mp: 0.3
+    powerup_ammo: 0.25
+    powerup_mre: 0.12
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: dodge:1000
+    passive_skill: "1007002"
+    max_level: 10
+    auto_select_id: 20102
+    group_id: "57"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 459
+    name: Orb of Destiny
+    description:
+      '''
+      Echelon Night Vision+5%
+      EVA+<dodge>$K5 Mod Only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    dodge: "6,10"
+    skill_effect: 300
+    retire_mp: 3
+    retire_ammo: 1
+    retire_mre: 4
+    retire_part: 2
+    code: Accessories_SP_K5Mod
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "20212"
+    equip_introduction: K5 always carries this crystal ball with her. It can forecast weal or woe for many situations and is widely acclaimed by the Dolls.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: dodge:500
+    passive_skill: "759061,1007102"
+    max_level: 10
+    auto_select_id: 18126
+    group_id: "58"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Echelon Night Vision+5%
   }
   {
     id: 460

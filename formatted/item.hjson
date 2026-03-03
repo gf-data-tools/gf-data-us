@@ -16285,6 +16285,24 @@
     rank: 1
   }
   {
+    id: 2755
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_MK18
+    item_name: Whitecrest Finchaser
+    introduction: Whitecrest Finchaser
+    rank: 1
+  }
+  {
+    id: 2756
+    type: 5
+    arg: "1"
+    code: card_BattlePass_MK18
+    item_name: ID Card: Subzero Emergency
+    introduction: ID Card: Subzero Emergency
+    rank: 1
+  }
+  {
     id: 2759
     type: 5
     arg: "1"
@@ -17999,6 +18017,15 @@
     rank: 1
   }
   {
+    id: 10730
+    type: 18
+    arg: "10730"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -18086,6 +18113,15 @@
     code: gift_bundle_BattlePass_SPAS12
     item_name: Exercise Mileage
     introduction: One-two, one-two... One more kilometer and I'll unlock that cheeseburger reward!
+    rank: 1
+  }
+  {
+    id: 30035
+    type: 1
+    arg: "30035"
+    code: gift_bundle_BattlePass_MK18
+    item_name: Whitecrest Finchaser
+    introduction: So this is what they call "skiing". It feels a lot like riding the ocean flows... Please follow me closely, Nautilus. We're going to pick up speed.
     rank: 1
   }
   {
@@ -22862,6 +22898,26 @@
     detail_introduction: item-30140068
   }
   {
+    id: 140069
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140069
+    introduction: item-20140069
+    rank: 1
+    detail_introduction: item-30140069
+  }
+  {
+    id: 140070
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140070
+    introduction: item-20140070
+    rank: 1
+    detail_introduction: item-30140070
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -23375,6 +23431,15 @@
     code: profileFrame_BattlePass_SPAS12
     item_name: Icon Frame - Hunger Game
     introduction: Icon Frame - Hunger Game
+    rank: 1
+  }
+  {
+    id: 200060
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_MK18
+    item_name: Icon Frame: Snowline Vanguard
+    introduction: Icon Frame: Snowline Vanguard
     rank: 1
   }
   {
@@ -25907,6 +25972,50 @@
     type_sort: 1
   }
   {
+    id: 1500346
+    type: 15
+    arg: "1500346"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Polar Voyager. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500347
+    type: 15
+    arg: "1500347"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Polar Voyager. Obtain a piece of ammunition-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500348
+    type: 15
+    arg: "1500348"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Polar Voyager. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500349
+    type: 15
+    arg: "1500349"
+    code: package_random
+    item_name: Frontline Protocol - Bonus Reward
+    introduction: Acquired from Frontline Protocol - Polar Voyager. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -26652,6 +26761,39 @@
     id: 1700066
     type: 15
     arg: "1700066"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700067
+    type: 15
+    arg: "1700067"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700068
+    type: 15
+    arg: "1700068"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700069
+    type: 15
+    arg: "1700069"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
