@@ -3010,7 +3010,7 @@
   {
     id: 10116
     type: 2
-    name: enemy_character_type-20010116
+    name: Goliath
     enemy_info: 歌莉娅-射程加大
     code: Golyat
     maxlife: 15000
@@ -3023,12 +3023,11 @@
     rate: 150
     def: 99999
     level: 100
-    character: enemy_character_type-10010116
+    character: Destructive, Keep Away!
     normal_attack: 900107
     passive_skill: "310325,119020,770044"
     effect_ratio: 0.25
     deployment_scale: 1
-    recommend_description: enemy_character_type-30010116
     enemy_illustration_id: 31
     danger: 60
     enemy_illustration_sub_id: 31001
@@ -3036,7 +3035,7 @@
   {
     id: 10117
     type: 2
-    name: enemy_character_type-20010117
+    name: Red Self-Explosion Enemy
     enemy_info: 红色自爆怪-射程加大
     code: GolyatPlus
     maxlife: 150000
@@ -3049,12 +3048,11 @@
     rate: 150
     def: 99999
     level: 100
-    character: enemy_character_type-10010117
+    character: Destructive, Keep Away!
     normal_attack: 900107
     passive_skill: "310325,119020,770044"
     effect_ratio: 0.25
     deployment_scale: 1
-    recommend_description: enemy_character_type-30010117
     enemy_illustration_id: 32
     danger: 60
     enemy_illustration_sub_id: 32001
@@ -8047,7 +8045,7 @@
   {
     id: 13331
     type: 3
-    name: enemy_character_type-20013331
+    name: Autonomous Doll - Bren Ten
     enemy_info: 自律人形-布伦·坦
     code: BrenTen_enemy
     maxlife: 1260
@@ -8061,19 +8059,18 @@
     rate: 30
     def: 99999
     level: 30100
-    character: enemy_character_type-10013331
+    character: Griffin
     normal_attack: 902266
     passive_skill: "902265,902267,902268,200304"
     effect_ratio: 1.2
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013331
     enemy_illustration_id: 249
     enemy_illustration_sub_id: 249001
   }
   {
     id: 13332
     type: 3
-    name: enemy_character_type-20013332
+    name: Autonomous Doll - FNP-9
     enemy_info: 自律人形-FNP-9
     code: FNP9_enemy
     maxlife: 1260
@@ -8087,19 +8084,18 @@
     rate: 30
     def: 99999
     level: 30100
-    character: enemy_character_type-10013332
+    character: Griffin
     normal_attack: 902266
     passive_skill: "902265,902267,902268,200304"
     effect_ratio: 1.2
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013332
     enemy_illustration_id: 250
     enemy_illustration_sub_id: 250001
   }
   {
     id: 13333
     type: 3
-    name: enemy_character_type-20013333
+    name: Autonomous Doll - IDW
     enemy_info: 自律人形-IDW
     code: IDW_enemy
     maxlife: 1320
@@ -8113,19 +8109,18 @@
     rate: 60
     def: 99999
     level: 30100
-    character: enemy_character_type-10013333
+    character: Griffin
     normal_attack: 755155
     passive_skill: "200304"
     effect_ratio: 1.4
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013333
     enemy_illustration_id: 251
     enemy_illustration_sub_id: 251001
   }
   {
     id: 13334
     type: 3
-    name: enemy_character_type-20013334
+    name: Autonomous Doll - Spectre M4
     enemy_info: 自律人形-幽灵M4
     code: SpectreM4_enemy
     maxlife: 1320
@@ -8139,19 +8134,18 @@
     rate: 60
     def: 99999
     level: 30100
-    character: enemy_character_type-10013334
+    character: Griffin
     normal_attack: 755155
     passive_skill: "200304"
     effect_ratio: 1.4
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013334
     enemy_illustration_id: 252
     enemy_illustration_sub_id: 252001
   }
   {
     id: 13335
     type: 3
-    name: enemy_character_type-20013335
+    name: Autonomous Doll - Type 63
     enemy_info: 自律人形-63式
     code: 63type_enemy
     maxlife: 1140
@@ -8165,19 +8159,18 @@
     rate: 28
     def: 99999
     level: 30100
-    character: enemy_character_type-10013335
+    character: Griffin
     normal_attack: 300301
     passive_skill: "200304"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013335
     enemy_illustration_id: 253
     enemy_illustration_sub_id: 253001
   }
   {
     id: 13336
     type: 3
-    name: enemy_character_type-20013336
+    name: Autonomous Doll - L85A1
     enemy_info: 自律人形-L85A1
     code: L85A1_enemy
     maxlife: 1140
@@ -8191,19 +8184,18 @@
     rate: 28
     def: 99999
     level: 30100
-    character: enemy_character_type-10013336
+    character: Griffin
     normal_attack: 300301
     passive_skill: "200304"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013336
     enemy_illustration_id: 254
     enemy_illustration_sub_id: 254001
   }
   {
     id: 13337
     type: 3
-    name: enemy_character_type-20013337
+    name: Commander
     enemy_info: 指挥官
     code: CommanderSelf
     maxlife: 1260
@@ -8217,17 +8209,16 @@
     rate: 30
     def: 99999
     level: 30100
-    character: enemy_character_type-10013337
+    character: Griffin
     normal_attack: 902266
     passive_skill: "902265,902267,902268,200304"
     effect_ratio: 1.2
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013337
   }
   {
     id: 13338
     type: 3
-    name: enemy_character_type-20013338
+    name: Garrison Forces - AR
     enemy_info: 卫戍军-AR
     code: Soldier_Deutsch_AR
     maxlife: 1140
@@ -8241,12 +8232,11 @@
     rate: 28
     def: 1500
     level: 30100
-    character: enemy_character_type-10013338
+    character: Elite
     normal_attack: 300301
     passive_skill: "770043"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013338
     enemy_illustration_id: 240
     danger: 20
     enemy_illustration_sub_id: 240001
@@ -8254,7 +8244,7 @@
   {
     id: 13339
     type: 5
-    name: enemy_character_type-20013339
+    name: Garrison Forces - SG
     enemy_info: 卫戍军-SG
     code: Soldier_Deutsch_SG
     maxlife: 1320
@@ -8269,12 +8259,11 @@
     rate: 18
     def: 1500
     level: 30100
-    character: enemy_character_type-10013339
+    character: Elite, Armor, Strafe
     normal_attack: 301106
     passive_skill: "770043"
     effect_ratio: 1.17
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013339
     enemy_illustration_id: 241
     danger: 20
     enemy_illustration_sub_id: 241001
@@ -8282,7 +8271,7 @@
   {
     id: 13340
     type: 3
-    name: enemy_character_type-20013340
+    name: Garrison Forces - RF
     enemy_info: 卫戍军-RF
     code: Soldier_Deutsch_RF
     maxlife: 600
@@ -8297,12 +8286,11 @@
     rate: 18
     def: 1500
     level: 30100
-    character: enemy_character_type-10013340
+    character: Elite, Accurate
     normal_attack: 300301
     passive_skill: "770043"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013340
     enemy_illustration_id: 242
     danger: 20
     enemy_illustration_sub_id: 242001
@@ -8310,7 +8298,7 @@
   {
     id: 13341
     type: 3
-    name: enemy_character_type-20013341
+    name: Garrison Forces - MG
     enemy_info: 卫戍军-MG
     code: Soldier_Deutsch_MG
     maxlife: 650
@@ -8325,12 +8313,11 @@
     rate: 100
     def: 1500
     level: 100
-    character: enemy_character_type-10013341
+    character: Elite, Consecutive Shots, Armor-Piercing
     normal_attack: 300301
     passive_skill: "770043"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013341
     enemy_illustration_id: 243
     danger: 20
     enemy_illustration_sub_id: 243001
@@ -8338,7 +8325,7 @@
   {
     id: 13342
     type: 3
-    name: enemy_character_type-20013342
+    name: '''"Fake"'''
     enemy_info: 玛赫莲赝品
     code: assassin_M
     maxlife: 100000
@@ -8353,13 +8340,12 @@
     rate: 100
     def: 99999
     level: 100
-    character: enemy_character_type-10013342
+    character: Elite, Specialist
     normal_attack: 300316
     passive_skill: "770042"
     effect_ratio: 1
     unable_buff_type: "221"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013342
     enemy_illustration_id: 256
     danger: 40
     enemy_illustration_sub_id: 256001
@@ -8367,7 +8353,7 @@
   {
     id: 13343
     type: 3
-    name: enemy_character_type-20013343
+    name: Rodelero
     enemy_info: 剑盾士
     code: Rodelero
     maxlife: 8000
@@ -8382,14 +8368,13 @@
     rate: 15
     def: 300
     level: 100
-    character: enemy_character_type-10013343
+    character: Jumps, Laser, Forcefield
     normal_attack: 404002
     passive_skill: "200303,200304,770042"
     effect_ratio: 1.04
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034,8747,6347"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013343
     enemy_illustration_id: 47
     danger: 30
     enemy_illustration_sub_id: 47002
@@ -8397,7 +8382,7 @@
   {
     id: 13344
     type: 4
-    name: enemy_character_type-20013344
+    name: Patroler
     enemy_info: 巨像-新
     code: Thunder_New
     maxlife: 55000
@@ -8412,14 +8397,13 @@
     rate: 80
     def: 5000
     level: 30100
-    character: enemy_character_type-10013344
+    character: Elite, Colossal, Armor, Shield, Armor-Piercing
     normal_attack: 403503
     passive_skill: "200303,403501,403502,755000,740089,770042"
     effect_ratio: 2.19
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034,8747,6347"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013344
     enemy_illustration_id: 119
     danger: 40
     enemy_illustration_sub_id: 119002
@@ -8427,7 +8411,7 @@
   {
     id: 13345
     type: 3
-    name: enemy_character_type-20013345
+    name: Gunner
     enemy_info: 加强白色兵-新
     code: Soldier_New
     maxlife: 1950
@@ -8442,12 +8426,11 @@
     rate: 40
     def: 1500
     level: 30100
-    character: enemy_character_type-10013345
+    character: High Threat,Force Field,Weaken
     normal_attack: 300313
     passive_skill: "200304,119019,770042"
     effect_ratio: 0.8
     deployment_scale: 1
-    recommend_description: enemy_character_type-30013345
     enemy_illustration_id: 120
     danger: 50
     enemy_illustration_sub_id: 120002
@@ -8455,7 +8438,7 @@
   {
     id: 13346
     type: 3
-    name: enemy_character_type-20013346
+    name: Doppels?ldner
     enemy_info: 高达19夏活加强版
     code: Doppelsoldner
     maxlife: 15000
@@ -8470,14 +8453,13 @@
     rate: 30
     def: 2250
     level: 100
-    character: enemy_character_type-10013346
+    character: High-Threat, Colossal, Armor, Force Field, AoE Damage
     normal_attack: 404001
     passive_skill: "200303,404024,200304,119019,740089,770042"
     effect_ratio: 1.38
     unable_buff_type: "221"
     able_buff_id: "133,135,136,137,3918,8034,8747,6347"
     deployment_scale: 0.8
-    recommend_description: enemy_character_type-30013346
     enemy_illustration_id: 48
     danger: 50
     enemy_illustration_sub_id: 48002
@@ -9166,7 +9148,7 @@
   {
     id: 14235
     type: 3
-    name: enemy_character_type-20014235
+    name: Nyto(?)
     enemy_info: 涅托-零态潮汐
     code: Nyto_black
     maxlife: 1600
@@ -9181,18 +9163,17 @@
     rate: 40
     def: 3000
     level: 100
-    character: enemy_character_type-10014235
+    character: Elite, "Nyto", Armor, Force Field
     normal_attack: 900107
     passive_skill: "900452,119029,407302,755000,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30014235
   }
   {
     id: 14236
     type: 3
-    name: enemy_character_type-20014236
+    name: Failed Isomer(?)
     enemy_info: 失格异构体-零态潮汐
     code: Nyto_Isomer_White
     maxlife: 48000
@@ -9208,19 +9189,18 @@
     rate: 40
     def: 3000
     level: 100
-    character: enemy_character_type-10014236
+    character: Elite, Armor, Failed Isomer
     normal_attack: 404801
     passive_skill: "404802,404803,404848,404849,404850,404908,404910,404911,404912,404913,404914,404847,404901,119029,770042"
     effect_ratio: 0.71
     unable_buff_type: "221"
     voice: "1,2"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30014236
   }
   {
     id: 14237
     type: 3
-    name: enemy_character_type-20014237
+    name: M4A1(?)
     enemy_info: M4A1-零态潮汐
     code: M4A1_Boss
     maxlife: 100000
@@ -9236,14 +9216,12 @@
     rate: 40
     def: 99999
     level: 100
-    character: enemy_character_type-10014237
     normal_attack: 404703
     passive_skill: "404701,404702,404704,404705,404706,404707,404730,404732,119029"
     effect_ratio: 0.51
     unable_buff_type: "221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30014237
   }
   {
     id: 15001
@@ -26176,7 +26154,7 @@
   {
     id: 900868
     type: 1
-    name: enemy_character_type-20900868
+    name: Elisa
     enemy_info: 伊莱莎-60级
     code: Eliza_boss
     maxlife: 15000
@@ -26192,13 +26170,12 @@
     boss_hp: 15000
     def: 99999
     level: 100
-    character: enemy_character_type-10900868
+    character: Elite, ???
     normal_attack: 406202
     passive_skill: "406203,406204,406205,406206,406221,406201,406222,406227,119029,770044"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900868
     enemy_illustration_id: 81
     danger: 1000
     enemy_illustration_sub_id: 81002
@@ -26206,7 +26183,7 @@
   {
     id: 900869
     type: 1
-    name: enemy_character_type-20900869
+    name: Elisa
     enemy_info: 伊莱莎-80级
     code: Eliza_boss
     maxlife: 50000
@@ -26222,13 +26199,12 @@
     boss_hp: 50000
     def: 99999
     level: 100
-    character: enemy_character_type-10900869
+    character: Elite, ???
     normal_attack: 406202
     passive_skill: "406203,406204,406205,406206,406221,406201,406222,406227,119029,770044"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900869
     enemy_illustration_id: 81
     danger: 1000
     enemy_illustration_sub_id: 81002
@@ -26236,7 +26212,7 @@
   {
     id: 900870
     type: 1
-    name: enemy_character_type-20900870
+    name: Elisa
     enemy_info: 伊莱莎-105级
     code: Eliza_boss
     maxlife: 140000
@@ -26252,13 +26228,12 @@
     boss_hp: 140000
     def: 99999
     level: 100
-    character: enemy_character_type-10900870
+    character: Elite, ???
     normal_attack: 406202
     passive_skill: "406203,406204,406205,406206,406221,406201,406222,406227,119029,770044"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900870
     enemy_illustration_id: 81
     danger: 1000
     enemy_illustration_sub_id: 81002
@@ -26266,7 +26241,7 @@
   {
     id: 900871
     type: 1
-    name: enemy_character_type-20900871
+    name: Gray
     enemy_info: 格雷-75级
     code: Mrsgray
     maxlife: 32000
@@ -26281,13 +26256,12 @@
     boss_hp: 32000
     def: 600
     level: 100
-    character: enemy_character_type-10900871
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900871
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -26295,7 +26269,7 @@
   {
     id: 900872
     type: 1
-    name: enemy_character_type-20900872
+    name: Gray
     enemy_info: 格雷-100级
     code: Mrsgray
     maxlife: 140000
@@ -26310,13 +26284,12 @@
     boss_hp: 140000
     def: 1500
     level: 100
-    character: enemy_character_type-10900872
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900872
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -26324,7 +26297,7 @@
   {
     id: 900873
     type: 1
-    name: enemy_character_type-20900873
+    name: Gray
     enemy_info: 格雷-115级
     code: Mrsgray
     maxlife: 260000
@@ -26339,13 +26312,12 @@
     boss_hp: 260000
     def: 4000
     level: 100
-    character: enemy_character_type-10900873
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900873
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -26353,7 +26325,7 @@
   {
     id: 900874
     type: 1
-    name: enemy_character_type-20900874
+    name: Bramedb
     enemy_info: 布拉梅德-100级
     code: Bramede
     maxlife: 25000
@@ -26369,14 +26341,13 @@
     boss_hp: 25000
     def: 2000
     level: 100
-    character: enemy_character_type-10900874
+    character: Elite, Summoner, Stealer
     normal_attack: 117701
     passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042"
     effect_ratio: 1
     unable_buff_type: "104"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900874
     enemy_illustration_id: 139
     danger: 1000
     enemy_illustration_sub_id: 139001
@@ -26384,7 +26355,7 @@
   {
     id: 900875
     type: 1
-    name: enemy_character_type-20900875
+    name: Morridow
     enemy_info: 默莉朵-100级
     code: morridow_boss
     maxlife: 100000
@@ -26400,13 +26371,12 @@
     boss_hp: 100000
     def: 6000
     level: 100
-    character: enemy_character_type-10900875
+    character: Elite, ???
     normal_attack: 900107
     passive_skill: "902325,902326,902327,902328,902329,902330,119029,407401,407407,407408,407409,407410,407411,119029,407302,119029,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900875
     enemy_illustration_id: 154
     danger: 1000
     enemy_illustration_sub_id: 154001
@@ -26414,7 +26384,7 @@
   {
     id: 900876
     type: 1
-    name: enemy_character_type-20900876
+    name: Hebe
     enemy_info: 赫柏-100级
     code: HebeBoss
     maxlife: 165000
@@ -26429,13 +26399,12 @@
     boss_hp: 165000
     def: 2000
     level: 100
-    character: enemy_character_type-10900876
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900876
     enemy_illustration_id: 247
     danger: 1000
     enemy_illustration_sub_id: 247001
@@ -26443,7 +26412,7 @@
   {
     id: 900877
     type: 1
-    name: enemy_character_type-20900877
+    name: Styx
     enemy_info: 斯提克斯-100级
     code: StyxBoss
     maxlife: 180000
@@ -26458,13 +26427,12 @@
     boss_hp: 180000
     def: 2200
     level: 100
-    character: enemy_character_type-10900877
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900877
     enemy_illustration_id: 248
     danger: 1000
     enemy_illustration_sub_id: 248001
@@ -26472,7 +26440,7 @@
   {
     id: 900878
     type: 1
-    name: enemy_character_type-20900878
+    name: William
     enemy_info: 威廉【演出关】
     code: BossWilliam
     maxlife: 1000000
@@ -26486,12 +26454,11 @@
     boss_hp: 1000000
     def: 99999
     level: 100
-    character: enemy_character_type-10900878
+    character: ???
     normal_attack: 450102
     passive_skill: "450103,450105,450106,450108,450109,450110,450112,450113,450114,450116,450118,450119,450120"
     effect_ratio: 1
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900878
     enemy_illustration_id: 255
     danger: 1000
     enemy_illustration_sub_id: 255001
@@ -26499,7 +26466,7 @@
   {
     id: 900879
     type: 1
-    name: enemy_character_type-20900879
+    name: Gebbennu
     enemy_info: 鹗视虎
     code: Gebbennu
     maxlife: 1000000
@@ -26514,7 +26481,7 @@
     boss_hp: 1000000
     def: 10000
     level: 100
-    character: enemy_character_type-10900879
+    character: Elite, Armor
     normal_attack: 450401
     passive_skill: "450402,450403,450404,450405,450406,450413,450414,450415,450416,450417,450418,119029,770042,450419,450421"
     effect_ratio: 1
@@ -26522,7 +26489,6 @@
     able_buff_id: "2638,2654"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900879
     enemy_illustration_id: 100001
     danger: 1000
     enemy_illustration_sub_id: 100001002
@@ -26530,7 +26496,7 @@
   {
     id: 900880
     type: 1
-    name: enemy_character_type-20900880
+    name: William
     enemy_info: 威廉
     code: BossWilliam
     maxlife: 1000
@@ -26544,14 +26510,13 @@
     boss_hp: 1000
     def: 10000
     level: 100
-    character: enemy_character_type-10900880
+    character: ???
     normal_attack: 450501
     passive_skill: "450502,450504,450507,450510,450512,450513,450514,450515,119029,770042,450518,450519"
     effect_ratio: 1
     unable_buff_type: "221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900880
     enemy_illustration_id: 255
     danger: 1000
     enemy_illustration_sub_id: 255002
@@ -26559,7 +26524,7 @@
   {
     id: 900881
     type: 1
-    name: enemy_character_type-20900881
+    name: Grig
     enemy_info: 缇
     code: Teal
     maxlife: 1000000
@@ -26575,14 +26540,13 @@
     boss_hp: 1000000
     def: 10000
     level: 100
-    character: enemy_character_type-10900881
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900881
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -26590,7 +26554,7 @@
   {
     id: 900882
     type: 1
-    name: enemy_character_type-20900882
+    name: Laplace's Demon
     enemy_info: 拉普拉斯妖
     code: LaplaceBoss
     maxlife: 200000
@@ -26607,14 +26571,13 @@
     boss_hp: 200000
     def: 10000
     level: 100
-    character: enemy_character_type-10900882
+    character: Elite,???,EMP Resistance
     normal_attack: 450001
     passive_skill: "450002,450003,450004,450005,450006,450007,450014,450015,450016,450017,450018,450019,450020,450021,450022,450023,450024,450025,119029,450026,450027,450028,450029,450030,450031,450032,450033,450712,450713,450714"
     effect_ratio: 1
     unable_buff_type: "221"
     voice: "1,2"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900882
     enemy_illustration_id: 233
     danger: 1000
     enemy_illustration_sub_id: 233001
@@ -26622,7 +26585,7 @@
   {
     id: 900883
     type: 1
-    name: enemy_character_type-20900883
+    name: Morridow
     enemy_info: 默莉朵
     code: morridow_boss
     maxlife: 300000
@@ -26638,13 +26601,12 @@
     boss_hp: 300000
     def: 10000
     level: 100
-    character: enemy_character_type-10900883
+    character: Elite, ???
     normal_attack: 900107
     passive_skill: "902325,902326,902327,902328,902329,902330,119029,407401,407407,407408,407409,407410,407411,119029,407302,770042"
     effect_ratio: 1
     unable_buff_type: "221"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900883
     enemy_illustration_id: 154
     danger: 1000
     enemy_illustration_sub_id: 154001
@@ -26652,7 +26614,7 @@
   {
     id: 900884
     type: 1
-    name: enemy_character_type-20900884
+    name: Embla
     enemy_info: 恩布拉
     code: RPK16Reborn
     maxlife: 320000
@@ -26668,14 +26630,13 @@
     boss_hp: 320000
     def: 10000
     level: 100
-    character: enemy_character_type-10900884
+    character: Elite,Command,Summoner
     normal_attack: 450049
     passive_skill: "450034,450035,450036,450037,450038,450040,450041,450042,450043,450044,450045,450046,450047,770042,119029"
     effect_ratio: 1
     unable_buff_type: "221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900884
     enemy_illustration_id: 235
     danger: 1000
     enemy_illustration_sub_id: 235001
@@ -26683,7 +26644,7 @@
   {
     id: 900885
     type: 1
-    name: enemy_character_type-20900885
+    name: Gray
     enemy_info: 格雷
     code: Mrsgray
     maxlife: 300000
@@ -26698,14 +26659,13 @@
     boss_hp: 300000
     def: 10000
     level: 100
-    character: enemy_character_type-10900885
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     unable_buff_type: "221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900885
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -26713,7 +26673,7 @@
   {
     id: 900886
     type: 1
-    name: enemy_character_type-20900886
+    name: Bramedb
     enemy_info: 布拉梅德
     code: Bramede
     maxlife: 220000
@@ -26729,14 +26689,13 @@
     boss_hp: 220000
     def: 10000
     level: 100
-    character: enemy_character_type-10900886
+    character: Elite, Summoner, Stealer
     normal_attack: 117701
     passive_skill: "117702,117703,117704,117705,117707,117708,117709,117716,117717,117718,117719,117720,117721,117722,117723,117724,117735,117738,117802,117803,755083,755084,755085,755086,755087,755089,119029,407302,770042,450100"
     effect_ratio: 1
     unable_buff_type: "104,221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900886
     enemy_illustration_id: 139
     danger: 1000
     enemy_illustration_sub_id: 139001
@@ -26744,7 +26703,7 @@
   {
     id: 900887
     type: 1
-    name: enemy_character_type-20900887
+    name: Styx
     enemy_info: 斯提克斯
     code: StyxBoss
     maxlife: 560000
@@ -26759,13 +26718,12 @@
     boss_hp: 560000
     def: 10000
     level: 100
-    character: enemy_character_type-10900887
+    character: Elite
     normal_attack: 450090
     passive_skill: "450091,450092,450093,450094,450095,450096,450097,119029,407302,770042"
     effect_ratio: 1.1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900887
     enemy_illustration_id: 248
     danger: 1000
     enemy_illustration_sub_id: 248001
@@ -26773,7 +26731,7 @@
   {
     id: 900888
     type: 1
-    name: enemy_character_type-20900888
+    name: Hebe
     enemy_info: 赫柏
     code: HebeBoss
     maxlife: 450000
@@ -26788,13 +26746,12 @@
     boss_hp: 450000
     def: 10000
     level: 100
-    character: enemy_character_type-10900888
+    character: Elite, Certain Death, Cyborg
     normal_attack: 450054
     passive_skill: "450055,450056,450057,450059,450060,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900888
     enemy_illustration_id: 247
     danger: 1000
     enemy_illustration_sub_id: 247001
@@ -26802,7 +26759,7 @@
   {
     id: 900889
     type: 1
-    name: enemy_character_type-20900889
+    name: Nemhran
     enemy_info: 尼梅兰
     code: Nimeylan
     maxlife: 420000
@@ -26818,13 +26775,12 @@
     boss_hp: 420000
     def: 10000
     level: 100
-    character: enemy_character_type-10900889
+    character: Elite
     normal_attack: 755167
     passive_skill: "755168,755171,755174,755175,755176,755177,755178,755179,755180,755181,755182,755185,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900889
     enemy_illustration_id: 155
     danger: 1000
     enemy_illustration_sub_id: 155002
@@ -26832,7 +26788,7 @@
   {
     id: 900890
     type: 1
-    name: enemy_character_type-20900890
+    name: Laplace's Demon
     enemy_info: 拉普拉斯妖
     code: LaplaceBoss
     maxlife: 240000
@@ -26849,14 +26805,13 @@
     boss_hp: 240000
     def: 6000
     level: 100
-    character: enemy_character_type-10900890
+    character: Elite,???,EMP Resistance
     normal_attack: 450001
     passive_skill: "450002,450003,450004,450005,450006,450007,450014,450015,450016,450017,450018,450019,450020,450021,450022,450023,450024,450025,119029,450026,450027,450028,450029,450030,450031,450032,450033,450712,450713,450714"
     effect_ratio: 0.8
     unable_buff_type: "221"
     voice: "1,2"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900890
     enemy_illustration_id: 233
     danger: 1000
     enemy_illustration_sub_id: 233001
@@ -26864,7 +26819,7 @@
   {
     id: 900894
     type: 1
-    name: enemy_character_type-20900894
+    name: Grig
     enemy_info: 捕获Boss
     code: Teal
     maxlife: 80000
@@ -26880,13 +26835,12 @@
     boss_hp: 80000
     def: 400
     level: 100
-    character: enemy_character_type-10900894
+    character: Elite, "Nyto", Assassin
     normal_attack: 755065
     passive_skill: "119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900894
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138001
@@ -26894,7 +26848,7 @@
   {
     id: 900895
     type: 1
-    name: enemy_character_type-20900895
+    name: Grig
     enemy_info: 缇-50级
     code: Teal
     maxlife: 700000
@@ -26909,14 +26863,13 @@
     boss_hp: 700000
     def: 10000
     level: 100
-    character: enemy_character_type-10900895
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900895
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -26924,7 +26877,7 @@
   {
     id: 900896
     type: 1
-    name: enemy_character_type-20900896
+    name: Grig
     enemy_info: 缇-100级
     code: Teal
     maxlife: 800000
@@ -26940,14 +26893,13 @@
     boss_hp: 800000
     def: 10000
     level: 100
-    character: enemy_character_type-10900896
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900896
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -26955,7 +26907,7 @@
   {
     id: 900897
     type: 1
-    name: enemy_character_type-20900897
+    name: Grig
     enemy_info: 缇-115级
     code: Teal
     maxlife: 1000000
@@ -26971,14 +26923,13 @@
     boss_hp: 1000000
     def: 10000
     level: 100
-    character: enemy_character_type-10900897
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900897
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -26986,7 +26937,7 @@
   {
     id: 900898
     type: 1
-    name: enemy_character_type-20900898
+    name: Grig
     enemy_info: 缇-80级
     code: Teal
     maxlife: 750000
@@ -27001,14 +26952,13 @@
     boss_hp: 750000
     def: 10000
     level: 100
-    character: enemy_character_type-10900898
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900898
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -27016,7 +26966,7 @@
   {
     id: 900899
     type: 1
-    name: enemy_character_type-20900899
+    name: Grig
     enemy_info: 缇-110级
     code: Teal
     maxlife: 900000
@@ -27032,14 +26982,13 @@
     boss_hp: 900000
     def: 10000
     level: 100
-    character: enemy_character_type-10900899
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900899
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -27047,7 +26996,7 @@
   {
     id: 900900
     type: 1
-    name: enemy_character_type-20900900
+    name: Grig
     enemy_info: 缇-125级
     code: Teal
     maxlife: 1000000
@@ -27063,14 +27012,13 @@
     boss_hp: 1000000
     def: 10000
     level: 100
-    character: enemy_character_type-10900900
+    character: Elite, "Nyto", Assassin
     normal_attack: 450601
     passive_skill: "450602,450605,450608,450609,450611,450612,450613,450614,450615,450616,450617,119029,407302,770042,450618,450619,450621,450622"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900900
     enemy_illustration_id: 138
     danger: 1000
     enemy_illustration_sub_id: 138002
@@ -27078,7 +27026,7 @@
   {
     id: 900901
     type: 1
-    name: enemy_character_type-20900901
+    name: Lunasia
     enemy_info: 露尼西亚-90级
     code: BossLunasia
     maxlife: 9999999
@@ -27095,14 +27043,13 @@
     tenacity: 100
     debuff_resistance: 100
     level: 100
-    character: enemy_character_type-10900901
+    character: ???
     normal_attack: 450801
     passive_skill: "450802,450803,450804,450805,450809,450810,450811,450812,450813,450816,450817,450818,450822,450824,450826,450828,450829,450830,450831,450832,450833,450834,450835,450838,450841,450842,450843,450844"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900901
     enemy_illustration_id: 257
     danger: 1000
     enemy_illustration_sub_id: 257001
@@ -27110,7 +27057,7 @@
   {
     id: 900902
     type: 1
-    name: enemy_character_type-20900902
+    name: Lunasia
     enemy_info: 露尼西亚-110级
     code: BossLunasia
     maxlife: 9999999
@@ -27127,14 +27074,13 @@
     tenacity: 100
     debuff_resistance: 100
     level: 100
-    character: enemy_character_type-10900902
+    character: ???
     normal_attack: 450801
     passive_skill: "450802,450803,450804,450805,450809,450810,450811,450812,450813,450816,450817,450818,450822,450824,450826,450828,450829,450830,450831,450832,450833,450834,450835,450838,450841,450842,450843,450844"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900902
     enemy_illustration_id: 257
     danger: 1000
     enemy_illustration_sub_id: 257001
@@ -27142,7 +27088,7 @@
   {
     id: 900903
     type: 1
-    name: enemy_character_type-20900903
+    name: Lunasia
     enemy_info: 露尼西亚-130级
     code: BossLunasia
     maxlife: 9999999
@@ -27159,14 +27105,13 @@
     tenacity: 100
     debuff_resistance: 100
     level: 100
-    character: enemy_character_type-10900903
+    character: ???
     normal_attack: 450801
     passive_skill: "450802,450803,450804,450805,450809,450810,450811,450812,450813,450816,450817,450818,450822,450824,450826,450828,450829,450830,450831,450832,450833,450834,450835,450838,450841,450842,450843,450844"
     effect_ratio: 1
     unable_buff_type: "221,110"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900903
     enemy_illustration_id: 257
     danger: 1000
     enemy_illustration_sub_id: 257001
@@ -27174,7 +27119,7 @@
   {
     id: 900904
     type: 3
-    name: enemy_character_type-20900904
+    name: William
     enemy_info: 威廉-断手版
     code: BossWilliam_NoAam
     maxlife: 1000
@@ -27188,14 +27133,13 @@
     boss_hp: 1000
     def: 10000
     level: 100
-    character: enemy_character_type-10900904
+    character: ???
     normal_attack: 450840
     passive_skill: "450827,450836,450837,450839"
     effect_ratio: 1
     unable_buff_type: "221"
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900904
     enemy_illustration_id: 255
     danger: 1000
     enemy_illustration_sub_id: 255003
@@ -27203,7 +27147,7 @@
   {
     id: 900905
     type: 1
-    name: enemy_character_type-20900905
+    name: Gray
     enemy_info: 格雷-50级
     code: Mrsgray
     maxlife: 40000
@@ -27218,13 +27162,12 @@
     boss_hp: 40000
     def: 800
     level: 100
-    character: enemy_character_type-10900905
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900905
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -27232,7 +27175,7 @@
   {
     id: 900906
     type: 1
-    name: enemy_character_type-20900906
+    name: Gray
     enemy_info: 格雷-90级
     code: Mrsgray
     maxlife: 120000
@@ -27247,13 +27190,12 @@
     boss_hp: 120000
     def: 1500
     level: 100
-    character: enemy_character_type-10900906
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900906
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001
@@ -27261,7 +27203,7 @@
   {
     id: 900907
     type: 1
-    name: enemy_character_type-20900907
+    name: Gray
     enemy_info: 格雷-110级
     code: Mrsgray
     maxlife: 260000
@@ -27276,13 +27218,12 @@
     boss_hp: 260000
     def: 4000
     level: 100
-    character: enemy_character_type-10900907
+    character: Elite, Weaken, Hacking, Support
     normal_attack: 900107
     passive_skill: "902332,902333,902334,902335,902336,902337,902338,119029,407302,770042"
     effect_ratio: 1
     voice: "1,2,3"
     deployment_scale: 1
-    recommend_description: enemy_character_type-30900907
     enemy_illustration_id: 110
     danger: 1000
     enemy_illustration_sub_id: 110001

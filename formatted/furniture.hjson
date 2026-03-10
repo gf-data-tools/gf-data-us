@@ -30014,6 +30014,19 @@
     rotate: "3"
   }
   {
+    id: 20139
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    code: pv_202404activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 20140
     name: An Ordinary Day
     classes: 19
@@ -30375,6 +30388,50 @@
     texture_type: "1"
     sorting: "5"
     offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20173
+    name: Poster - 2025 Roche Limit
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2025 Limited Time Event - Roche Limit Limited-Edition Poster.
+    code: pv_202505activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20174
+    name: DLP Projection Device
+    classes: 19
+    type: 201
+    space: "4,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Once, this was ■■'s personal projector, but after modification and reprogramming, it only projects pleasing images of kitties. That's right, it'll never show that nauseating face again, so feel free to use it.
+    code: 202507Activity_Kalina_Cat
+    texture_type: "2"
+    offset: "0.000,0.188,0.000"
+    rotate: "2"
+    touch_area: "2,2,2"
+  }
+  {
+    id: 20175
+    name: Virtual Observer Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Roche Limit event. "Even as the gunsmoke fades, your form still remains."
+    code: 202507Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
     rotate: "3"
   }
   {

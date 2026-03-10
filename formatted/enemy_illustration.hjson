@@ -3545,7 +3545,6 @@
     code: Teal
     introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
     forces: 3
-    if_capture: 1
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -3568,7 +3567,6 @@
     code: Teal
     introduce: An elite Paradeus unit, she is calm and cautious, possessing excellent judgement and the ability to control her emotions. She often fights alongside Grey and has great trust in her. She is adept at using her longsword for ambushes and assassination, and if the enemy exposes their weakness for even  a moment, she will seize on it and deliver a fatal blow with blinding speed.
     forces: 3
-    if_capture: 1
     pow_rank: 5
     life_rank: 5
     hit_rank: 5
@@ -5964,6 +5962,28 @@
     range_rank: 5
     counter: Information unavailable, Proceed with caution!
     character: "100"
+    launch_time: 2035-12-31 00:00:00
+    spine_scale: "70,70,1"
+  }
+  {
+    sub_id: 255001
+    id: 255
+    name: William
+    sub_name: William
+    type: 1
+    code: BossWilliam
+    introduce: The door to the brave new world is at hand. This is the finale William has longed for and he will not allow anyone to stand in his way.
+    forces: 3
+    pow_rank: 5
+    life_rank: 5
+    hit_rank: 5
+    dodge_rank: 5
+    rate_rank: 5
+    armor_rank: 5
+    speed_rank: 5
+    range_rank: 5
+    counter: Information unavailable, Proceed with caution!
+    character: "1004"
     launch_time: 2035-12-31 00:00:00
     spine_scale: "70,70,1"
   }

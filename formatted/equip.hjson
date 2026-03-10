@@ -14962,6 +14962,40 @@
     description_skill: 1007801
   }
   {
+    id: 461
+    name: 12.7mm KD Rounds
+    description:
+      '''
+      CRIT RATE+<critical_percent><%>
+      AP+<armor_piercing> Skill Enhancement$Kord Only
+      '''
+    rank: 5
+    category: 2
+    type: 19
+    critical_percent: "6,10"
+    armor_piercing: "245,250"
+    retire_ammo: 4
+    retire_mre: 2
+    retire_part: 3
+    code: Magazine_SP_Kord
+    develop_duration: 3300
+    company: IOP
+    fit_guns: "276"
+    equip_introduction: This classic design uses new propellant technology to greatly increase chamber pressures. Its explosive filler has also been improved and it boasts incredible destructive power.
+    powerup_mp: 0.08
+    powerup_ammo: 0.5
+    powerup_mre: 0.3
+    powerup_part: 0.3
+    exclusive_rate: 3
+    bonus_type: armor_piercing:1000,critical_percent:1000
+    passive_skill: "1007201"
+    max_level: 10
+    auto_select_id: 19090
+    is_show: 1
+    obtain_ids: "3134"
+    description_skill: 1007201
+  }
+  {
     id: 464
     name: SAF Chip
     description:

@@ -844,6 +844,15 @@
     rank: 1
   }
   {
+    id: 150
+    type: 3
+    arg: "51"
+    code: Medal_202507Activity
+    item_name: Virtual Observer Medal
+    introduction: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Virtual Pair event. "A virtual particle's life comes from the attention of its observer. Gazing at it preserves its existing, while ignoring it makes it vanish. This is what you believe."
+    rank: 1
+  }
+  {
     id: 301
     type: 1
     arg: "1"
@@ -16186,6 +16195,69 @@
     rank: 1
   }
   {
+    id: 2696
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_01
+    item_name: Icon - Battle-Lover
+    introduction: Icon - Battle-Lover
+    rank: 1
+  }
+  {
+    id: 2697
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_02
+    item_name: Icon - Ticket To The Brave New World
+    introduction: Icon - Ticket To The Brave New World
+    rank: 1
+  }
+  {
+    id: 2698
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_03
+    item_name: Icon - Hidden Moon
+    introduction: Icon - Hidden Moon
+    rank: 1
+  }
+  {
+    id: 2699
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_04
+    item_name: Icon - Melancholy
+    introduction: Icon - Melancholy
+    rank: 1
+  }
+  {
+    id: 2700
+    type: 5
+    arg: "1"
+    code: profilePic_202507Activity_05
+    item_name: Icon - Keen Blade
+    introduction: Icon - Keen Blade
+    rank: 1
+  }
+  {
+    id: 2701
+    type: 5
+    arg: "1"
+    code: card_202507Activity_01
+    item_name: IDcard - Before The Finale
+    introduction: IDcard - Before The Finale
+    rank: 1
+  }
+  {
+    id: 2702
+    type: 5
+    arg: "1"
+    code: card_202507Activity_02
+    item_name: Namecard - Fiery Spark
+    introduction: Namecard - Fiery Spark
+    rank: 1
+  }
+  {
     id: 2703
     type: 5
     arg: "1"
@@ -20119,6 +20191,43 @@
     arg: "100271"
     code: coremask2_202505RocheLimit
     item_name: Corrupted Heart Mask -  Roche Limit
+    introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
+    rank: 1
+  }
+  {
+    id: 100280
+    type: 4
+    arg: "100280"
+    code: Nova_medal_black
+    item_name: Nova Medal - Virtual Pair
+    introduction: Nova Medal - Virtual Pair
+    rank: 1
+  }
+  {
+    id: 100281
+    type: 4
+    arg: "100281"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - Virtual Pair
+    introduction: Platinum Medal - Virtual Pair
+    rank: 1
+  }
+  {
+    id: 100282
+    type: 9
+    arg: "100282"
+    code: Coin_202507VirtualPair​
+    item_name: Annihilation Torus
+    introduction: Lonely particles attract each other. The moment they decide to fuse is the moment they start down the path to destruction.
+    rank: 1
+    daily_limit: 60;180
+  }
+  {
+    id: 100283
+    type: 4
+    arg: "100283"
+    code: coremask2_202507VirtualPair​
+    item_name: Corrupted Heart Mask - Virtual Pair
     introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
     rank: 1
   }
@@ -27623,6 +27732,87 @@
     type: 15
     arg: "9000056"
     code: Bumdle_JPnewyear3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000057
+    type: 15
+    arg: "9000057"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000058
+    type: 15
+    arg: "9000058"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000059
+    type: 15
+    arg: "9000059"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000060
+    type: 15
+    arg: "9000060"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000061
+    type: 15
+    arg: "9000061"
+    code: Bumdle_WhiteValentineCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000062
+    type: 15
+    arg: "9000062"
+    code: Bumdle_WhiteValentineCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000063
+    type: 15
+    arg: "9000063"
+    code: Bumdle_WhiteValentineCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1
