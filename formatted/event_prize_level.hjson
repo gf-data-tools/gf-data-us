@@ -370,6 +370,21 @@
       '''
   }
   {
+    id: 10007
+    name: Labyrinthine Defense PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "11435"
+    condition: 100000:40697;200000:40698;400000:40699;600000:40700;800000:40701;1000000:40702;1300000:40703;1600000:40704
+    left_icon: fc9d31c2cefdfd8c_draw_260311190253.png
+    background: 8e6e33791b91e705_draw_260312144711.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Labyrinthine Defense PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
     id: 10013
     name: Self-Portrait Campaign
     type: 3

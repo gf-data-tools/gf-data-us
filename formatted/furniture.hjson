@@ -29285,6 +29285,36 @@
     rotate: "3"
   }
   {
+    id: 20077
+    name: Poster - Fixed Point 2023
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Special poster for Fixed Point, winter event in 2023.
+    code: pv_2022winter
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
+    id: 20078
+    name: Poster - Longitudinal Strain 2023
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Special poster for Longitudinal Strain, summer event in 2023.
+    code: pv_2022summer
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 20080
     name: Uncle
     classes: 299
@@ -29950,6 +29980,21 @@
     code: 202404Activity_Meal
     texture_type: "1"
     offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20131
+    name: Poster - 2023 Slow Shock
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2023 Winter Event - Slow Shock special poster.
+    code: pv_2023spring
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
     rotate: "3"
   }
   {
