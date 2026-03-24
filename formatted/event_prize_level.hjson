@@ -385,6 +385,21 @@
       '''
   }
   {
+    id: 10008
+    name: Vortex of Secrets PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "11497"
+    condition: 150000:40733;200000:40734;300000:40735;500000:40736;700000:40737;1000000:40738;1400000:40739;1800000:40740
+    left_icon: e1526a7e83a1289d_draw_260318163910.png
+    background: 7db2635af1091bef_draw_260318170253.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Vortex of Secrets PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
     id: 10013
     name: Self-Portrait Campaign
     type: 3
