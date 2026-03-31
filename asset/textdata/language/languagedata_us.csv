@@ -27,7 +27,7 @@ NUM,25,is surprised to find a massage mode on the robotic arm and wants to give 
 NUM,26,walks around the Mobile Armor and spots a memo stuck on the Mobile Armor which reads//c "Please do not put up any notes.",,0
 NUM,27,realizes that the robotic arm is holding up a cake. Is it this Mobile Armor's birthday today?,,0
 NUM,28,The prototypes of some trial Components are stashed in a corner of the Garage. One of them seems to be a laser rangefinder with an ice cream making function.,,0
-NUM,99,,,0
+NUM,99,Loop,,0
 COMMON,1000,Gifts,,0
 COMMON,1001,Costume,,0
 COMMON,1002,EXP,,0
@@ -851,7 +851,7 @@ COMMON,1838,Screenshot will be saved to {0},,0
 COMMON,1839,Gain Gem*{0} for the first screenshot of each week.,,0
 COMMON,1840,Screenshot taken,,0
 COMMON,1841,Hidden Base UI,,0
-COMMON,1842,,,0
+COMMON,1842,Skin/Gift,,0
 COMMON,1843,2018.07.17,,0
 COMMON,1844,Operation Cube,,0
 COMMON,1845,2019.01.22,,0
@@ -1333,23 +1333,23 @@ HOME,20216,Preview,,0
 HOME,20217,Notification Settings,,0
 HOME,20218,Activate,,0
 HOME,20219,Factory Production,,0
-HOME,20220,,,0
-HOME,20221,,,0
-HOME,20222,,,0
-HOME,20223,,,0
-HOME,20224,,,0
-HOME,20225,,,0
-HOME,20226,,,0
-HOME,20227,,,0
-HOME,20228,,,0
-HOME,20229,,,0
-HOME,20230,,,0
-HOME,20231,,,0
-HOME,20232,,,0
-HOME,20233,,,0
-HOME,20234,,,0
-HOME,20235,,,0
-HOME,20236,,,0
+HOME,20220,m,,0
+HOME,20221,Location reset,,0
+HOME,20222,Cannot deploy//c does not meet requirements,,0
+HOME,20223,*Click the button in the upper right corner to reset your adjutant's position on the desktop,,0
+HOME,20224,An echelon has returned from a logistics mission//c do you wish to send them out again?,,0
+HOME,20225,An echelon has returned from an auto-battle deployment//c do you wish to send them out again?,,0
+HOME,20226,An exploration team has returned to the Forward Basecamp//c do you wish to send them out again?,,0
+HOME,20227,Forward Basecamp storage is full,,0
+HOME,20228,Doll skill training complete,,0
+HOME,20229,Fairy skill training complete,,0
+HOME,20230,Coalition unit skill training complete,,0
+HOME,20231,HOC skill training complete,,0
+HOME,20232,Doll production complete,,0
+HOME,20233,Heavy production complete,,0
+HOME,20234,Equipment production complete,,0
+HOME,20235,Fairy heavy production complete,,0
+HOME,20236,Network connection lost,,0
 DEPLOYMENT,30000,Deploy,,1
 DEPLOYMENT,30001,Move,,0
 DEPLOYMENT,30002,Swap,,1
@@ -2824,6 +2824,7 @@ FACTORY,32339,This unit is currently in battle and cannot be enhanced.,,0
 FACTORY,32340,This unit is currently in battle and cannot be calibrated.,,0
 FACTORY,32341,Callback Event Deadline:,,0
 FACTORY,32342,You are about to select an unenhanced Component without skill entries (including <color=#FFB400FF>five-star Components</color>). Confirm?,,0
+FACTORY,32343,No Dolls meet the listed requirements,,0
 DEVELOP,33000,Reached T-Doll capacity limit//c please make more space!,,0
 DEVELOP,33001,Using this service costs,,0
 DEVELOP,33002,<color=#76DFCEFF>Quick Production</color>X,,0
@@ -3095,19 +3096,19 @@ ILLUSTRATEDBOOK,35206,Mobile Armors,,0
 ILLUSTRATEDBOOK,35207,Mobile Armor Appearance,,0
 ILLUSTRATEDBOOK,35208,Search,,0
 ILLUSTRATEDBOOK,35209,Model Details,,0
-ILLUSTRATEDBOOK,35210,,,0
-ILLUSTRATEDBOOK,35211,,,0
+ILLUSTRATEDBOOK,35210,Music Collection,,0
+ILLUSTRATEDBOOK,35211,Art Collection,,0
 ILLUSTRATEDBOOK,35212,This story recollection will be unlocked after clearing the stages in {0}.,,0
 ILLUSTRATEDBOOK,35213,No festive event stories unlocked at the moment. Please proceed to [Battle - Permanent Events] and attempt the event stages.,,0
-ILLUSTRATEDBOOK,35214,Unlocked after clearing {0},,0
-ILLUSTRATEDBOOK,35215,,,0
-ILLUSTRATEDBOOK,35216,,,0
-ILLUSTRATEDBOOK,35217,,,0
-ILLUSTRATEDBOOK,35218,,,0
-ILLUSTRATEDBOOK,35219,,,0
-ILLUSTRATEDBOOK,35220,,,0
-ILLUSTRATEDBOOK,35221,,,0
-ILLUSTRATEDBOOK,35222,,,0
+ILLUSTRATEDBOOK,35214,Unlocks after completing <color=#FFB400FF>{0}</color>.,,0
+ILLUSTRATEDBOOK,35215,Audio resources absent. Please proceed to <color=#FFB400FF>[Settings - Audio]</color> to download the necessary resource pack.,,0
+ILLUSTRATEDBOOK,35216,Manga,,0
+ILLUSTRATEDBOOK,35217,PV,,0
+ILLUSTRATEDBOOK,35218,Gallery,,0
+ILLUSTRATEDBOOK,35219,Recollections,,0
+ILLUSTRATEDBOOK,35220,Past Events,,0
+ILLUSTRATEDBOOK,35221,Main Storyline,,0
+ILLUSTRATEDBOOK,35222,Festive,,0
 LOGIN,36000,Forget password,,0
 LOGIN,36001,Customer Support,,0
 LOGIN,36002,User EULA,,0
@@ -3342,6 +3343,7 @@ QUESTS,38096,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}
 QUESTS,38097,Redeeming this item will consume <color=#e7a300>Black Card Chip*{0}</color> and <color=#e7a300>Black Card*{1}</color>. Proceed?//nYou have not unlocked this T-Doll yet!,,0
 QUESTS,38098,New Mission,,0
 QUESTS,38099,Received at Level 25,,0
+QUESTS,38100,Weekly Quests,,0
 RANKINGLIST,39000,Bottom,,0
 RANKINGLIST,39001,Unranked,,0
 RANKINGLIST,39002,Move to Data Mode,,0
@@ -5262,13 +5264,13 @@ SEPCIALOPS,60861,Skip,,0
 SEPCIALOPS,60862,Do you wish to spend resources to skip this stage?,,0
 SEPCIALOPS,60863,Expend necessary resources,,0
 SEPCIALOPS,60864,Not enough resources to begin mission,,0
-SEPCIALOPS,60865,,,0
-SEPCIALOPS,60866,,,0
-SEPCIALOPS,60867,,,0
-SEPCIALOPS,60868,,,0
-SEPCIALOPS,60869,,,0
-SEPCIALOPS,60870,,,0
-SEPCIALOPS,60871,,,0
+SEPCIALOPS,60865,Do you wish to spend <Color=#FFB400FF>{0} of each resource</Color> to skip this stage?,,0
+SEPCIALOPS,60866,Scene 1,,0
+SEPCIALOPS,60867,Scene 2,,0
+SEPCIALOPS,60868,Scene 3,,0
+SEPCIALOPS,60869,Memory Log,,0
+SEPCIALOPS,60870,Adventure Log,,0
+SEPCIALOPS,60871,Returner's Log,,0
 GASHAPON,70000,Furniture storage capacity is insufficient(,,0
 GASHAPON,70001,)//c Please organize first before carrying out procurement!,,0
 GASHAPON,70002,Can't purchase//c not enough procurement Tokens.,,0
@@ -5773,13 +5775,13 @@ OTHER,100184,This unit is in combat//c unable to enhance!,,0
 OTHER,100185,This unit is in combat and cannot be edited.,,0
 OTHER,100186,The unit equipped with this chip is in combat//c unable to change.,,0
 OTHER,100187,No Coalition Units available for Analysis.,,0
-OTHER,100188,,,0
+OTHER,100188,/,,0
 OTHER,100189,She's waiting for you...to raise the curtains on a glorious new stage.,,0
 OTHER,100190,You're about to lead her away from the past… The future is reflected in her eyes.,,0
 OTHER,100191,Continue,,0
 OTHER,100192,This feature is locked. Clear missions and increase your Commander level to unlock more features.,,0
 OTHER,100193,No items obtained//c//n maximum amount of items exceeded.,,0
-OTHER,100195,Maximum number of disassembly selections has been reached//c no more units can be selected.,,0
+OTHER,100195,You have reached the maximum capacity for recycling. You cannot select any more items.,,0
 OTHER,100196,Commander:,,0
 OTHER,100197,Upon terminating Auto Battles//c rewards will be given for battles that have been completed//c while resources for incomplete battles will be refunded. Incomplete battles yield no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
 OTHER,100198,Upon terminating Auto Battles//c resources for incomplete battles will be refunded//c but you will gain no reward.//n//n Spend <color=#ffb400>{1}</color>*<color=#ffb400>{0}</color> <color=#ffb400>{1}</color> (<color=#ffb400>{2}</color> left)//n to complete all current Auto Battles immediately.,,0
@@ -5929,8 +5931,8 @@ OTHER,100342,,,0
 OTHER,100343,,,0
 OTHER,100344,Resource verification in progress. Do you wish to cancel it?,,0
 OTHER,100345,Please wait for resource download to finish.,,0
-OTHER,100346,,,0
-OTHER,100347,,,0
+OTHER,100346,Papasha has shot up the server again. Due to long periods of inactivity//c you will be automatically logged off. Close this window within <color=#FFB400FF>{0}</color> seconds to return to the game.,,0
+OTHER,100347,Papasha has shot up the server again. Due to long periods of inactivity//c you will be automatically logged off. Please log in again.,,0
 OTHER,100348,,,0
 OTHER,100349,,,0
 ACTIVITY,110000,Operation: Cube,,0
@@ -8814,7 +8816,7 @@ MINIGAME,280600,Finish sorting backpack and return to preparation?,,0
 MINIGAME,280601,Complete [{0}] to unlock the corresponding intel,,0
 MINIGAME,280602,Total Kills,,0
 MINIGAME,280603,Total Casualties,,0
-MINIGAME,280604,,,0
+MINIGAME,280604,Long-term effect,,0
 VEHICLE,290001,Universal Components,,0
 VEHICLE,290002,Heavy Weapon,,0
 VEHICLE,290003,Light Weapon,,0

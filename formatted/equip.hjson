@@ -1450,8 +1450,10 @@
     powerup_part: 0.3
     exclusive_rate: 3
     bonus_type: rate:300,armor_piercing:500
+    passive_skill: "1008001"
     max_level: 10
     auto_select_id: 19001
+    group_id: "60"
     is_show: 1
     obtain_ids: "3"
     sp_description: equip-40000059
@@ -9361,9 +9363,10 @@
     powerup_part: 0.15
     exclusive_rate: 3
     bonus_type: critical_percent:850,critical_harm_rate:500
-    passive_skill: "759055"
+    passive_skill: "759055,1007901"
     max_level: 10
     auto_select_id: 18101
+    group_id: "59"
     is_show: 1
     obtain_ids: "3072,3096"
     description_skill: 759055
@@ -14933,7 +14936,7 @@
     description:
       '''
       DMG<pow>
-      EVA+<dodge>$C-93 Only
+      EVA+<dodge> Enhances skill$C-93 only
       '''
     rank: 5
     category: 3
@@ -14996,12 +14999,81 @@
     description_skill: 1007201
   }
   {
+    id: 462
+    name: Funerary Spencer
+    description:
+      '''
+      DMG+<pow> ROF<rate>
+      CRIT DMG+<critical_harm_rate><%>$AUG Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "5,8"
+    rate: "-5,-1"
+    critical_harm_rate: "18,25"
+    retire_mp: 4
+    retire_ammo: 3
+    retire_part: 2
+    code: TDoll_SP_AUG
+    develop_duration: 3060
+    company: IOP
+    fit_guns: "73"
+    equip_introduction: AUG's favorite cape, filled with a tender yet painful brokenness.
+    powerup_mp: 0.3
+    powerup_ammo: 0.23
+    powerup_mre: 0.15
+    powerup_part: 0.38
+    exclusive_rate: 3
+    bonus_type: pow:900,critical_harm_rate:400
+    passive_skill: "1007902"
+    max_level: 10
+    auto_select_id: 20104
+    group_id: "59"
+    is_show: 1
+    obtain_ids: "3096"
+  }
+  {
+    id: 463
+    name: Work Apron
+    description:
+      '''
+      DMG+<pow>
+      Initial CD -80%$Springfield Only
+      '''
+    rank: 5
+    category: 3
+    type: 20
+    pow: "6,10"
+    skill_effect: 150
+    retire_mp: 4
+    retire_mre: 5
+    code: TDoll_SP_M1903
+    develop_duration: 3360
+    company: IOP
+    fit_guns: "36"
+    equip_introduction: Springfield usually wears this apron when working in the cafe. Supposedly, the Dolls who see it cheer up immediately~
+    powerup_mp: 0.55
+    powerup_ammo: 0.16
+    powerup_mre: 0.6
+    powerup_part: 0.16
+    exclusive_rate: 3
+    bonus_type: pow:500
+    passive_skill: "759059,1008002"
+    max_level: 10
+    auto_select_id: 20105
+    group_id: "60"
+    is_show: 1
+    obtain_ids: "3096"
+    sp_description: Initial CD -80%
+  }
+  {
     id: 464
     name: SAF Chip
     description:
       '''
       EVA+<dodge> DMG+<pow>
-      Enhances Skill$SAF Only
+       Enhances skill$SAF only
       '''
     rank: 5
     category: 3
@@ -15015,7 +15087,7 @@
     develop_duration: 3600
     company: IOP
     fit_guns: "304"
-    equip_introduction: A chip specially made for SAF.
+    equip_introduction: A tactical chip specially manufactured for SAF. It emits a pleasant smell when running.
     powerup_mp: 0.3
     powerup_ammo: 0.25
     powerup_mre: 0.12
@@ -15028,5 +15100,40 @@
     is_show: 1
     obtain_ids: "3129"
     description_skill: 1008101
+  }
+  {
+    id: 468
+    name: Exquisite Dangle
+    description:
+      '''
+      DMG+<pow> ACC+<hit>
+      EVA+<dodge> Enhances skill$AUG Para only
+      '''
+    rank: 5
+    category: 1
+    type: 18
+    pow: "5,7"
+    hit: "7,11"
+    dodge: "10,10"
+    retire_mp: 4
+    retire_mre: 3
+    retire_part: 2
+    code: Accessories_SP_AUGPARA
+    develop_duration: 3600
+    company: IOP
+    fit_guns: "315"
+    equip_introduction: A decoration that's said to be able to attract squirrels. Any human would love an item like this.
+    powerup_mp: 0.45
+    powerup_ammo: 0.15
+    powerup_mre: 0.3
+    powerup_part: 0.15
+    exclusive_rate: 3
+    bonus_type: pow:450,hit:400,dodge:500
+    passive_skill: "1009101"
+    max_level: 10
+    auto_select_id: 18127
+    is_show: 1
+    obtain_ids: "3130"
+    description_skill: 1009101
   }
 ]

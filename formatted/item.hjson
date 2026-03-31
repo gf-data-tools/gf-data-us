@@ -18098,6 +18098,15 @@
     rank: 1
   }
   {
+    id: 10731
+    type: 18
+    arg: "10731"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -20156,6 +20165,34 @@
     item_name: Red Packet
     introduction: Red Packet
     rank: 1
+  }
+  {
+    id: 100259
+    type: 4
+    arg: "100259"
+    code: Nova_medal_black
+    item_name: Novel Medal - Cartesian Theater
+    introduction: Novel Medal - Cartesian Theater
+    rank: 1
+  }
+  {
+    id: 100260
+    type: 4
+    arg: "100260"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - Cartesian Theater
+    introduction: Platinum Medal - Cartesian Theater
+    rank: 1
+  }
+  {
+    id: 100261
+    type: 9
+    arg: "100261"
+    code: Coin_202406CartesianTheatre
+    item_name: Destiny Dice
+    introduction: Unlike other kinds of dice, the result of a four-sided die is hidden on the bottom. Only by knowing all the wrong answers will you come to understand the true message of fate.
+    rank: 1
+    daily_limit: 60;180
   }
   {
     id: 100268
@@ -26911,6 +26948,39 @@
     type_sort: 1
   }
   {
+    id: 1700070
+    type: 15
+    arg: "1700070"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700071
+    type: 15
+    arg: "1700071"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700072
+    type: 15
+    arg: "1700072"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1800001
     type: 15
     arg: "1800001"
@@ -27815,6 +27885,54 @@
     code: Bumdle_WhiteValentineCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000064
+    type: 15
+    arg: "9000064"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000065
+    type: 15
+    arg: "9000065"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000066
+    type: 15
+    arg: "9000066"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000067
+    type: 15
+    arg: "9000067"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
     rank: 1
     sort: -1
     type_sort: 1
