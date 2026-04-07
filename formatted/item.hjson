@@ -16375,6 +16375,24 @@
     rank: 1
   }
   {
+    id: 2757
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_JS9mm
+    item_name: Upon The Ruins
+    introduction: Upon The Ruins
+    rank: 1
+  }
+  {
+    id: 2758
+    type: 5
+    arg: "1"
+    code: card_BattlePass_JS9mm
+    item_name: ID: Dawn is Nigh
+    introduction: ID: Dawn is Nigh
+    rank: 1
+  }
+  {
     id: 2759
     type: 5
     arg: "1"
@@ -18203,6 +18221,15 @@
     code: gift_bundle_BattlePass_MK18
     item_name: Whitecrest Finchaser
     introduction: So this is what they call "skiing". It feels a lot like riding the ocean flows... Please follow me closely, Nautilus. We're going to pick up speed.
+    rank: 1
+  }
+  {
+    id: 30036
+    type: 1
+    arg: "30036"
+    code: gift_bundle_BattlePass_JS9mm
+    item_name: Upon The Ruins
+    introduction: Will I be inspecting this location today? ...Alright, I understand. No matter how bad things get, I'll follow proper procedure every step of the way.
     rank: 1
   }
   {
@@ -23064,6 +23091,26 @@
     detail_introduction: item-30140070
   }
   {
+    id: 140071
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140071
+    introduction: item-20140071
+    rank: 1
+    detail_introduction: item-30140071
+  }
+  {
+    id: 140072
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140072
+    introduction: item-20140072
+    rank: 1
+    detail_introduction: item-30140072
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -23586,6 +23633,15 @@
     code: profileFrame_BattlePass_MK18
     item_name: Icon Frame: Snowline Vanguard
     introduction: Icon Frame: Snowline Vanguard
+    rank: 1
+  }
+  {
+    id: 200061
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_JS9mm
+    item_name: Icon Frame - Sunrays Through Rubble
+    introduction: Icon Frame - Sunrays Through Rubble
     rank: 1
   }
   {
@@ -26162,6 +26218,50 @@
     type_sort: 1
   }
   {
+    id: 1500355
+    type: 15
+    arg: "1500355"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Rules of Daybreak. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500356
+    type: 15
+    arg: "1500356"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Rules of Daybreak. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500357
+    type: 15
+    arg: "1500357"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Rules of Daybreak. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500358
+    type: 15
+    arg: "1500358"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Rules of Daybreak. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1600001
     type: 1
     arg: "1600001"
@@ -27933,6 +28033,39 @@
     code: Bumdle_equipment
     item_name: Five-Star Equipment Selection Voucher
     introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000068
+    type: 15
+    arg: "9000068"
+    code: Bumdle_FantasyCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000069
+    type: 15
+    arg: "9000069"
+    code: Bumdle_FantasyCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000070
+    type: 15
+    arg: "9000070"
+    code: Bumdle_FantasyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1
     sort: -1
     type_sort: 1

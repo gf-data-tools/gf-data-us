@@ -1546,6 +1546,38 @@
     present_info: present-11500349
   }
   {
+    item_id: 1500355
+    type: 1
+    prize_id: 140001
+    due_time: 2026/05/24 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500355
+  }
+  {
+    item_id: 1500356
+    type: 1
+    prize_id: 140004
+    due_time: 2026/05/24 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500356
+  }
+  {
+    item_id: 1500357
+    type: 2
+    drop_package_id: 2730
+    due_time: 2026/05/24 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500357
+  }
+  {
+    item_id: 1500358
+    type: 2
+    drop_package_id: 945
+    due_time: 2026/05/24 23:59:59
+    due_prize_id: 140016
+    present_info: present-11500358
+  }
+  {
     item_id: 1700001
     type: 1
     prize_id: 150089
@@ -2868,5 +2900,32 @@
     due_time: 2026/09/30  23:59:59
     due_prize_id: 2599
     present_info: present-19000067
+  }
+  {
+    item_id: 9000068
+    type: 2
+    poster: PackageImage_3
+    drop_package_id: 20166
+    due_time: 2026/06/07  23:59:59
+    due_prize_id: 7395
+    present_info: present-19000068
+  }
+  {
+    item_id: 9000069
+    type: 2
+    poster: PackageImage_5
+    drop_package_id: 20167
+    due_time: 2026/06/07  23:59:59
+    due_prize_id: 7396
+    present_info: present-19000069
+  }
+  {
+    item_id: 9000070
+    type: 1
+    poster: PackageImage_8
+    prize_id: 221132
+    due_time: 2026/06/07  23:59:59
+    due_prize_id: 220438
+    present_info: present-19000070
   }
 ]
