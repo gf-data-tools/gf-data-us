@@ -1274,128 +1274,226 @@
   }
   {
     id: 251
-    name: enemy_illustration_skill-10000251
-    description: enemy_illustration_skill-20000251
+    name: Machinegun Strafe
+    description: Deals somewhat low shield-ignoring damage to the nearest unit. If the target's damage stat is somewhat low, this damage automatically hits and is greatly increased.
   }
   {
     id: 252
-    name: enemy_illustration_skill-10000252
-    description: enemy_illustration_skill-20000252
+    name: Trial - Gebbenu
+    description:
+      '''
+      Damage taken by the Gebbenu is greatly reduced. This effect is removed after one of the following conditions is met:
+      I. Attack the Gebbenu 2000 times
+      II. Only one class of Dolls is present on the battlefield at the start of battle
+      III. Ally units have Strike, Alert, Valor, Wall and Persist effects
+      '''
   }
   {
     id: 253
-    name: enemy_illustration_skill-10000253
-    description: enemy_illustration_skill-20000253
+    name: Verdict
+    description: In this battle, the Gebbenu is immune to vulnerability effects that are not inflicted by itself. Any damage-increasing effects gained by ally units will be immediately removed by the Gebbenu.
   }
   {
     id: 254
-    name: enemy_illustration_skill-10000254
-    description: enemy_illustration_skill-20000254
+    name: Exilium
+    description: The Gebbenu marks a large area for bombardment. After the bombardment, the Gebbenu loses its Trial status and becomes vulnerable.
   }
   {
     id: 255
-    name: enemy_illustration_skill-10000255
-    description: enemy_illustration_skill-20000255
+    name: Fantasy Garden
+    description:
+      '''
+      The Gebbenu inflicts devastating damage to all enemies. After performing 5 attacks, it becomes paralyzed for a while. This effect triggers when one of the following conditions is met:
+      I. Battle lasts longer than 60 seconds
+      II. The Gebbenu's HP goes below 30%
+      III. There is an ally unit near the Gebbenu.
+      '''
   }
   {
     id: 256
-    name: enemy_illustration_skill-10000256
-    description: enemy_illustration_skill-20000256
+    name: Keen Blade
+    description: Deals 2 instances of guaranteed damage to the nearest target.
   }
   {
     id: 257
-    name: enemy_illustration_skill-10000257
-    description: enemy_illustration_skill-20000257
+    name: Trial - Grig
+    description:
+      '''
+      During this battle, Grig has extremely high damage resistance and ally units' attack speed is greatly reduced. This effect will be removed if one of the following conditions is met:
+      I. Gray is within the echelon at the start of the battle
+      II. The CPR buff is active on the echelon
+      '''
   }
   {
     id: 258
-    name: enemy_illustration_skill-10000258
-    description: enemy_illustration_skill-20000258
+    name: Butterfly's Dream
+    description: Damage Grig takes from Fairies is greatly reduced.
   }
   {
     id: 259
-    name: enemy_illustration_skill-10000259
-    description: enemy_illustration_skill-20000259
+    name: Probing Shadow
+    description: If Grig does not deal damage to an ally on the battlefield within 20 seconds, her evasion is greatly reduced.
   }
   {
     id: 260
-    name: enemy_illustration_skill-10000260
-    description: enemy_illustration_skill-20000260
+    name: Cruel Claw - Extreme
+    description: Selects the row containing the frontmost unit and marks it. After that, she moves to it and deals shield-ignoring piercing damage to it.
   }
   {
     id: 261
-    name: enemy_illustration_skill-10000261
-    description: enemy_illustration_skill-20000261
+    name: Overload
+    description: If Grig has not dealt damage to units on the battlefield within 50 seconds and there are 4 or more units present on the battlefield, she loses large amounts of HP for a short period.
   }
   {
     id: 262
-    name: enemy_illustration_skill-10000262
-    description: enemy_illustration_skill-20000262
+    name: Failed Cicada - Extreme
+    description: When Grig is not in Overload and her health drops below 75%/50%/25%, she locks onto the ally unit with the highest damage output, teleports to them and performs an assassination attack from behind, dealing extremely high damage and applying the Shred effect.
   }
   {
     id: 263
-    name: enemy_illustration_skill-10000263
-    description: enemy_illustration_skill-20000263
+    name: Cicada Dance
+    description:
+      '''
+      Grig continuously performs Failed Cicada - Extreme without regard for the Overload status. This effect triggers when one of the following conditions is met:
+      I. Battle lasts longer than 60 seconds
+      II. Only one unit from the start of the battle remains on the battlefield.
+      '''
   }
   {
     id: 264
-    name: enemy_illustration_skill-10000264
-    description: enemy_illustration_skill-20000264
+    name: Defensive Alert
+    description: WIlliam has three defensive units protecting him in this battle. The bodyguard unit has extremely high evasion, the armored unit has extremely high armor and the Nyto unit deals extremely high damage. William cannot be harmed until all defensive units are defeated.
   }
   {
     id: 265
-    name: enemy_illustration_skill-10000265
-    description: enemy_illustration_skill-20000265
+    name: Trial - William
+    description:
+      '''
+      During this battle, ally units' accuracy and critical rate is greatly reduced. This effect will be removed if one of the following conditions is met:
+      I. M16A1 and Beak are within the echelon at the start of the battle
+      II. The Symbiosis buff is active on the echelon
+      '''
   }
   {
     id: 266
-    name: enemy_illustration_skill-10000266
-    description: enemy_illustration_skill-20000266
+    name: Crisis Alert
+    description: If HOC units and Coalition Assimilation units are providing fire support for this battle, damage taken by the bodyguard units is greatly reduced.
   }
   {
     id: 267
-    name: enemy_illustration_skill-10000267
-    description: enemy_illustration_skill-20000267
+    name: Unison
+    description: When bodyguard units are on the field, they will apply Devastation Marks to William. Each unit that dies applies strong damage reduction to other units on the field.
   }
   {
     id: 268
-    name: enemy_illustration_skill-10000268
-    description: enemy_illustration_skill-20000268
+    name: Underworld Epilogue
+    description:
+      '''
+      William summons reinforcements to perform a devastating strike on ally units. This effect triggers when one of the following conditions is met:
+      I. Battle lasts longer than 120 seconds
+      II. William has 100 Devastation Marks
+      '''
   }
   {
     id: 269
-    name: enemy_illustration_skill-10000269
-    description: enemy_illustration_skill-20000269
+    name: Blossom
+    description: Each attack Lunasia performs hits all units and gradually increases in damage.
   }
   {
     id: 270
-    name: enemy_illustration_skill-10000270
-    description: enemy_illustration_skill-20000270
+    name: Inviolate Domain
+    description: Lunasia has extreme damage reduction and damage taken is gated.
   }
   {
     id: 271
-    name: enemy_illustration_skill-10000271
-    description: enemy_illustration_skill-20000271
+    name: Way-Seeking of the World
+    description:
+      '''
+      Lunasis performs three Spiritual Refinements on ally units:
+      <color=#70ad47>Sequential Backtrack</color>: Binds ally units with incomplete neural upgrades. If this effect is successfully removed, all units who have lost HP gain a powerful damage reduction effect.
+      <color=#2e74b5>Quantum Analysis</color>: Binds ally units with the highest stats. If this effect is removed, all units who are still fighting gain a powerful damage increase effect.
+      <color=#db3d3d>Singularity Simulation</color>: Binds non-leader units. If this effect is removed, all ally units gain immunity to Lunasia's skill debuff effect.
+      '''
   }
   {
     id: 272
-    name: enemy_illustration_skill-10000272
-    description: enemy_illustration_skill-20000272
+    name: Raytrace
+    description: Summons butterflies to graze past ally units, inflicting extremely high damage and greatly reducing their accuracy and ammunition count.
   }
   {
     id: 273
-    name: enemy_illustration_skill-10000273
-    description: enemy_illustration_skill-20000273
+    name: Lightthorn
+    description: Throws spikes at the three units with the highest DPS, dealing extremely high continuous damage and greatly reducing their attack speed and damage.
   }
   {
     id: 274
-    name: enemy_illustration_skill-10000274
-    description: enemy_illustration_skill-20000274
+    name: Fated End
+    description: If ally units do not have sufficient friend support, Lunasia performs a devastating attack on the ally echelon.
   }
   {
     id: 275
-    name: enemy_illustration_skill-10000275
-    description: enemy_illustration_skill-20000275
+    name: Fates Interwoven
+    description: If ally units have sufficient friend support, Lunasia'sdefensive ability are greatly weakened and ally units' damage output is greatly increased.
+  }
+  {
+    id: 276
+  }
+  {
+    id: 277
+  }
+  {
+    id: 278
+  }
+  {
+    id: 279
+  }
+  {
+    id: 280
+  }
+  {
+    id: 281
+  }
+  {
+    id: 282
+  }
+  {
+    id: 283
+  }
+  {
+    id: 284
+  }
+  {
+    id: 285
+  }
+  {
+    id: 286
+  }
+  {
+    id: 287
+  }
+  {
+    id: 288
+  }
+  {
+    id: 289
+  }
+  {
+    id: 290
+  }
+  {
+    id: 291
+  }
+  {
+    id: 292
+  }
+  {
+    id: 293
+  }
+  {
+    id: 294
+  }
+  {
+    id: 295
   }
   {
     id: 999

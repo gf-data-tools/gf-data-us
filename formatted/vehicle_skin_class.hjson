@@ -63,10 +63,31 @@
     desc: A TCW48-A3 set designed for the Tactical Mech that effectively reduces the dustiness inside the cockpit.
   }
   {
+    id: 10
+    name: Pegasus
+    vehicle_ids: "1,2"
+    pic_code: 1:TankM1_1010_set
+    desc: A Pegasus set designed for the Main Battle Tank. The primary goal of the design is to free the tank from the constraint of its caterpillar treads.
+  }
+  {
+    id: 11
+    name: Qilin
+    vehicle_ids: "1,2"
+    pic_code: 1:TankM1_1011_set
+    desc: A Qilin set designed for the Main Battle Tank. Everything about it is simple yet effective.
+  }
+  {
     id: 12
     name: Model Annus 64 - Galaxy
     vehicle_ids: "1,2"
     pic_code: 2:Warjack_1012_set
     desc: A galaxy-themed set designed for the Tactical Mech. It will rend all darkness for us.
+  }
+  {
+    id: 13
+    name: AA-02M Redeemer
+    vehicle_ids: "1,2"
+    pic_code: 2:Warjack_1013_set
+    desc: A Tactical Mech set based on the design of the seized AA-02 Sinner, with various modifications and improvements on the original unit.
   }
 ]

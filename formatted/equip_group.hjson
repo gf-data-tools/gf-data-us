@@ -168,8 +168,8 @@
     name: Jungle Operation
     des: NTW-20's custom set is outstanding for both fighting and motorbiking.
     code: EgroupNTW20
-    equip_unit: "170,0,371"
-    group_skill: 2:759295
+    equip_unit: "170,494,371"
+    group_skill: 2:759295,3:759508
     fit_gun: "20053"
   }
   {
@@ -186,8 +186,8 @@
     name: For Everyone
     des: Gr G3's custom set reflects her determination to help others.
     code: EgroupG3
-    equip_unit: "124,0,374"
-    group_skill: 2:759308
+    equip_unit: "124,491,374"
+    group_skill: 2:759308,3:759505
     fit_gun: "20063"
   }
   {
@@ -195,8 +195,8 @@
     name: Darling
     des: M1911's custom set is named thus at the Doll's personal behest.
     code: EgroupM1911
-    equip_unit: "375,101,0"
-    group_skill: 2:759312
+    equip_unit: "375,101,485"
+    group_skill: 2:759312,3:759502
     fit_gun: "20002"
   }
   {
@@ -222,8 +222,8 @@
     name: The Maid's Code
     des: This set tailor-made for Gr G36 helps her maintain her poise as a maid while working.
     code: EgroupG36
-    equip_unit: "130,0,390"
-    group_skill: 2:1000403
+    equip_unit: "130,492,390"
+    group_skill: 2:1000403,3:1000410
     fit_gun: "20064"
   }
   {
@@ -258,8 +258,8 @@
     name: Operation Pin
     des: A set custom-made for SV-98 that facilitates more effective computation.
     code: EgroupSV98
-    equip_unit: "398,0,115"
-    group_skill: 2:1001403
+    equip_unit: "398,489,115"
+    group_skill: 2:1001403,3:1001406
     fit_gun: "20044"
   }
   {
@@ -285,8 +285,8 @@
     name: Queen of Unintentional Discharge
     des: A set custom-made for STEN MkII. Now that she faces up to her flaws, she can finally stand on her own.
     code: EgroupStenMK2
-    equip_unit: "407,0,128"
-    group_skill: 2:1001803
+    equip_unit: "407,487,128"
+    group_skill: 2:1001803,3:1001806
     fit_gun: "20029"
   }
   {
@@ -303,8 +303,8 @@
     name: Unwavering Purpose
     des: StG44's custom set enables her to fulfil her purpose and accomplish entrusted tasks; to achieve that, equipment upgrades are inevitable.
     code: EgroupStG44
-    equip_unit: "0,136,410"
-    group_skill: 2:1002103
+    equip_unit: "490,136,410"
+    group_skill: 2:1002103,3:1002106
     fit_gun: "20061"
   }
   {
@@ -321,8 +321,8 @@
     name: Collector
     des: M1895's custom set helps her shine in missions such as cleaning up battlefields and sorting through salvage. Perhaps at some point it will even help her obtain important information.
     code: EgroupM1895
-    equip_unit: "113,0,415"
-    group_skill: 2:1002403
+    equip_unit: "113,486,415"
+    group_skill: 2:1002403,3:1002406
     fit_gun: "20005"
   }
   {
@@ -357,8 +357,8 @@
     name: Western Cola
     des: SAA's custom set. One can only have the strength for a duel after a cola!
     code: EgroupM1873
-    equip_unit: "122,423,0"
-    group_skill: 2:1003403
+    equip_unit: "122,423,493"
+    group_skill: 2:1003403,3:1003406
     fit_gun: "20001"
   }
   {
@@ -540,5 +540,113 @@
     equip_unit: "59,0,463"
     group_skill: 2:1008003
     fit_gun: "36"
+  }
+  {
+    id: 61
+    name: Hygiene Inspection
+    des: An equipment set tailor-made for Saiga-12, because battlefield cleanup is part of a Doll's job!
+    code: EgroupSaiga12
+    equip_unit: "465,0,292"
+    group_skill: 2:1008203
+    fit_gun: "160"
+  }
+  {
+    id: 62
+    name: Bonechilling Cold
+    des: An equipment set tailor-made for PK, it will show her enemies the agony of the cold.
+    code: EgroupPK
+    equip_unit: "466,264,0"
+    group_skill: 2:1008303
+    fit_gun: "85"
+  }
+  {
+    id: 63
+    name: Winter Has Come
+    des: An equipment set tailor-made for CZ75, it's perfect for dealing with enemies who come looking for trouble.
+    code: EgroupCZ75
+    equip_unit: "270,469,0"
+    group_skill: 2:1009203
+    fit_gun: "166"
+  }
+  {
+    id: 64
+    name: Jungle Poet
+    des: An equipment set tailor-made for F1, it's great for outdoor excursions and adventures.
+    code: EgroupF1
+    equip_unit: "214,0,470"
+    group_skill: 2:1009303
+    fit_gun: "20178"
+  }
+  {
+    id: 65
+    name: Cool Justice
+    des: An equipment set tailor-made for VSK-94, no criminal is beyond the reach of the law.
+    code: EgroupVSK94
+    equip_unit: "474,0,354"
+    group_skill: 2:1009603
+    fit_gun: "312"
+  }
+  {
+    id: 66
+    name: Lightward Heart
+    des: An equipment set tailor-made for Ribeyrolles, may she walk out of the darkness and into the light.
+    code: EgroupRibeyrolles
+    equip_unit: "261,0,475"
+    group_skill: 2:1009703
+    fit_gun: "20171"
+  }
+  {
+    id: 67
+    name: Power
+    des: An equipment set tailor-made for Lewis. You can instantly tell it's filled with might.
+    code: EgroupLewis
+    equip_unit: "483,447,0"
+    group_skill: 2:1011003
+    fit_gun: "253"
+  }
+  {
+    id: 68
+    name: Trench Sweeper
+    des: An equipment set tailor-made for M1897, allowing her to effectively clean up all unnecessary trash on the battlefield.
+    code: EgroupM1897
+    equip_unit: "484,206,0"
+    group_skill: 2:1011103
+    fit_gun: "20152"
+  }
+  {
+    id: 69
+    name: Core Crisis
+    des: An equipment set tailor-made for C96, it brings out tremendous fighting power from her team at night.
+    code: EgrouC96
+    equip_unit: "167,488,353"
+    group_skill: 3:1011204
+    fit_gun: "20012"
+  }
+  {
+    id: 70
+    name: Misha
+    des: An equipment set tailor-made for AS Val, it's perfect for night battles.
+    code: EgroupASVAL
+    equip_unit: "497,135,360"
+    group_skill: 3:1011504
+    fit_gun: "20060"
+  }
+  {
+    id: 71
+    name: Royal Glory
+    des: An equipment set tailor-made for Lee Enfield, it constantly reminds her to hold glory in her heart and never bend the knee even to the mightiest foes.
+    code: EgroupMLEMK1
+    equip_unit: "298,160,495"
+    group_skill: 3:1011304
+    fit_gun: "20050"
+  }
+  {
+    id: 72
+    name: Noble Chariot
+    des: An equipment set tailor-made for Kar98k, it's perfect for Dolls who value honor above all else when carrying out combat missions.
+    code: Egroup98K
+    equip_unit: "496,105,297"
+    group_skill: 3:1011404
+    fit_gun: "20046"
   }
 ]

@@ -888,6 +888,78 @@
     is_show: 1
   }
   {
+    id: 10077
+    name: Pegasus Design
+    type: 1
+    vehicle_id: "1"
+    class_id: 10
+    code: TankM1_1010
+    item_id: 133083
+    obtain: "40"
+    introduction: A perfect marriage of heft and nimbleness!
+    is_show: 1
+  }
+  {
+    id: 10078
+    name: Pegasus Design
+    type: 2
+    group_id: 117
+    class_id: 10
+    code: Smoke_Emitter_1010
+    item_id: 133084
+    obtain: "40"
+    introduction: The Pegasus' custom-fitted smoke grenade launcher, which can create pinpointed smoke interference.
+    is_show: 1
+  }
+  {
+    id: 10079
+    name: Pegasus
+    type: 2
+    group_id: 119
+    class_id: 10
+    code: Medium_Missile_Launcher_1010
+    item_id: 133085
+    obtain: "40"
+    introduction: The Pegasus' custom-fitted medium missile launcher, which provides powerful fire support for allies.
+    is_show: 1
+  }
+  {
+    id: 10080
+    name: Pegasus
+    type: 2
+    group_id: 142
+    class_id: 10
+    code: ElecGun_1010
+    item_id: 133086
+    obtain: "40"
+    introduction: The Pegasus' custom-fitted rapid-fire railgun, which can perform consecutive small-scale electromagnetic attacks.
+    is_show: 1
+  }
+  {
+    id: 10081
+    name: Pegasus
+    type: 2
+    group_id: 107
+    class_id: 10
+    code: MG_Cannon_1010
+    item_id: 133087
+    obtain: "40"
+    introduction: The Pegasus' custom-fitted shell launcher, which can deal damage to a small area.
+    is_show: 1
+  }
+  {
+    id: 10082
+    name: Pegasus
+    type: 2
+    group_id: 115
+    class_id: 10
+    code: Jammer_1010
+    item_id: 133088
+    obtain: "40"
+    introduction: The Pegasus' custom-fitted jammer, which creates interference in an area.
+    is_show: 1
+  }
+  {
     id: 10083
     name: KV-2 Universal - Universal
     type: 2
@@ -1305,6 +1377,78 @@
     item_id: 133135
     obtain: "41"
     introduction: The Galaxy's custom-fitted laser suppression system, which interferes with enemies' aim.
+    is_show: 1
+  }
+  {
+    id: 11300
+    name: AA-02M Redeemer Design
+    type: 1
+    vehicle_id: "2"
+    class_id: 13
+    code: Warjack_1013
+    item_id: 133124
+    obtain: "40"
+    introduction: Wolf Pack, attack!
+    is_show: 1
+  }
+  {
+    id: 11301
+    name: AA-02M Redeemer
+    type: 2
+    group_id: 118
+    class_id: 13
+    code: Small_Missile_Launcher_1013
+    item_id: 133125
+    obtain: "40"
+    introduction: The AA-02M's custom-fitted small missile launcher, which provides accurate strikes in battles.
+    is_show: 1
+  }
+  {
+    id: 11302
+    name: AA-02M Redeemer
+    type: 2
+    group_id: 101
+    class_id: 13
+    code: MG_Single_1013
+    item_id: 133126
+    obtain: "40"
+    introduction: The AA-02M's universal machine gun, a basic model.
+    is_show: 1
+  }
+  {
+    id: 11303
+    name: AA-02M Redeemer
+    type: 2
+    group_id: 107
+    class_id: 13
+    code: MG_Cannon_1013
+    item_id: 133127
+    obtain: "40"
+    introduction: The AA-02M's custom-fitted small-caliber shell launcher.
+    is_show: 1
+  }
+  {
+    id: 11304
+    name: AA-02M Redeemer
+    type: 2
+    group_id: 124
+    class_id: 13
+    code: AutoDef_1013
+    item_id: 133128
+    obtain: "40"
+    introduction: The AA-02M's custom-fitted shield generator, which provides defense for the Mobile Armor.
+    is_show: 1
+  }
+  {
+    id: 11305
+    name: AA-02M Redeemer
+    type: 2
+    group_id: 116
+    class_id: 13
+    code: Signal_Tower_1013
+    item_id: 133129
+    obtain: "40"
+    introduction: The AA-02M's signal transciever, which boosts allies.
     is_show: 1
   }
   {

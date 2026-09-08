@@ -1,78 +1,105 @@
 [
   {
     identity: 1
-    type: battery_collect
-    count: 3
-    title: Weekly Task: Power Harvesting
-    content: Collect Dorm Batteries 3 times
+    type: win_normal
+    count: 50
+    title: Weekly Quest: Normal Units
+    content: Eliminate a total of 50 Normal Units
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 2
-    type: procurement
+    type: win_boss
     count: 1
-    title: Weekly Task: Fashion Purchasing
-    content: Perform 1 roll on the resupply gacha.
+    title: Weekly Quest: Boss Units
+    content: Eliminate 1 Boss Unit
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 3
-    type: sangvis_daily_retrieval
+    type: s_win
     count: 8
-    title: Weekly Task: Protocol Assimilation
-    content: Perform 8 Capture Operations (Including both Standard Captures and Aided Captures).
-    function_control_id: 21
+    title: Weekly Quest: Victory
+    content: Win 8 battles with S ranks
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 4
-    type: upgrade_skill
-    count: 3
-    title: Weekly Task: Centralized Training
-    content: Perform 3 Skill Trainings.
-    function_control_id: 4
-    prize_id: 8309
-    exchange_prize_id: 8316
-  }
-  {
-    identity: 5
-    type: sp_develop
-    count: 4
-    title: Weekly Task: Armory Expansion
-    content: Perform 4 Heavy Productions (Including Dolls and Fairies)
-    function_control_id: 3
-    prize_id: 8309
-    exchange_prize_id: 8316
-  }
-  {
-    identity: 6
     type: map_capture
     count: 15
-    title: Weekly Task: Gray Zone Exploration
-    content: Occupy a total of 15 nodes in Gray Zone Exploration.
+    title: Weekly Quest: Gray Zone Exploration
+    content: Capture a total of 15 nodes in Gray Zone Exploration
     function_control_id: 29
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
+    identity: 5
+    type: develop_all
+    count: 8
+    title: Weekly Quest: Armory Expansion
+    content: Perform a total of 8 productions of any kind (Doll, Equipment or Fairy)
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 6
+    type: operation
+    count: 10
+    title: Weekly Quest: Logistical Support
+    content: Complete a total of 10 Logistics missions
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
     identity: 7
-    type: daily_complete
-    count: 15
-    title: Weekly Task: Secretary
-    content: Complete a total of 15 Daily Missions.
+    type: combat_simulation
+    count: 12
+    title: Weekly Quest: Sim Battle
+    content: Complete a total of 12 Combat Simulations or Coalition Drills
+    function_control_id: 4
     prize_id: 8309
     exchange_prize_id: 8316
   }
   {
     identity: 8
-    type: win_boss
-    count: 1
-    title: Weekly Task: Ace Destroyer
-    content: Destroy 1 Enemy Boss Unit and achieve victory in the battle.
+    type: explore
+    count: 5
+    title: Weekly Quest: Forward Base Camp
+    content: Perform a total of 5 Forward Basecamp Explorations
+    function_control_id: 17
     prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 9
+    type: procurement
+    count: 1
+    title: Weekly Quest: Outfit Purchase
+    content: Perform 1 roll on the resupply gacha.
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 10
+    type: sangvis_daily_retrieval
+    count: 8
+    title: Weekly Quest: Recovery Mission
+    content: Perform a total of 8 Capture Operations (either Standard Captures or Aided Captures).
+    function_control_id: 21
+    prize_id: 8309
+    exchange_prize_id: 8316
+  }
+  {
+    identity: 11
+    type: weekly_complete
+    count: 4
+    title: Weekly Quest: Special Mission
+    content: Complete a total of 4 other weekly missions
+    prize_id: 8318
     exchange_prize_id: 8316
   }
 ]

@@ -94,22 +94,22 @@
     id: "8"
     name: Event Ranking
     type: "6"
-    sub_type: "11549"
-    refresh: end:2024-05-23 10:00:00
-    title: <Operation Mistbuster+> Ranking (Rewards at Jan. 13th)
-    top_rewards: 1:40661,2:40662,3:40663,4:40664,5:40665,6:40666,7:40667,8:40668,9:40669,10:40670,100:40671
+    sub_type: "11630"
+    refresh: end:2026-07-06 23:59:59
+    title: <City of Nightmares+> Ranking (Rewards at Jul. 7th)
+    top_rewards: 1:40705,2:40706,3:40707,4:40708,5:40709,6:40710,7:40711,8:40712,9:40713,10:40714,100:40715
     visable_rank: "100"
     visable_count: "100"
-    score_rewards: 200000:40672,300000:40673,350000:40674,550000:40675,650000:40676
+    score_rewards: 200000:40716,300000:40717,600000:40718,900000:40719,1300000:40720
     ranking_onlist_number: "80000"
     every_table_num: "30000"
     rank_list_num: "1"
-    begin_refresh_time: 2025-12-23
-    end_refresh_time: 2026-01-06
-    begin_show_time: 2025-12-23 00:00:00
-    end_show_time: 2026-01-12 23:59:59
-    sub_mission_group: "11549"
-    prize_preview: https://gfus-cdn.sunborngame.com/banner/listAward20251223.html
+    begin_refresh_time: 2026-06-23
+    end_refresh_time: 2026-07-07
+    begin_show_time: 2026-06-23 00:00:00
+    end_show_time: 2026-07-13 23:59:59
+    sub_mission_group: "11630"
+    prize_preview: https://gfus-cdn.sunborngame.com/banner/listAward20260623.html
     sub_rank_name: rank-30000008
   }
   {
@@ -1052,6 +1052,52 @@
     sub_rank_name: Point
   }
   {
+    id: "310"
+    name: City of Nightmares PLUS Campaign
+    type: "10"
+    sub_type: "11630"
+    refresh: test
+    title: <City of Nightmares+>Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
+    id: "311"
+    name: Betti number Campaign
+    type: "10"
+    sub_type: "11002,11003,11004,11005,11006,11007,11008,11009,11010"
+    refresh: test
+    title: <Betti number> Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "2"
+    sub_mission_group: 11002&&(11003||11004)&&(11005||11006||11007||11008||11009||11010)
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
+    id: "312"
+    name: Waterfall Campaign
+    type: "10"
+    sub_type: "11118"
+    refresh: test
+    title: <Waterfall> Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
     id: "313"
     name: Self-Portrait Campaign
     type: "10"
@@ -1064,6 +1110,51 @@
     every_table_num: "30000"
     mission_rank_type: "2"
     sub_mission_group: 11402||11403
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
+    id: "314"
+    name: Leaping from the Penrose Stairs Campaign
+    type: "10"
+    sub_type: "11603"
+    refresh: test
+    title: <Leaping from the Penrose Stairs> Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
+    id: "315"
+    name: Silent Sandtable Campaign
+    type: "10"
+    sub_type: "11946"
+    refresh: test
+    title: <Silent Sandtable> Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
+    sub_rank: "1"
+    sub_rank_name: Point
+  }
+  {
+    id: "316"
+    name: Steel Rain Salute Campaign
+    type: "10"
+    sub_type: "11988"
+    refresh: test
+    title: <Steel Rain Salute> Ranking
+    visable_rank: "100"
+    visable_count: "100"
+    ranking_onlist_number: "80000"
+    every_table_num: "30000"
+    mission_rank_type: "1"
     sub_rank: "1"
     sub_rank_name: Point
   }

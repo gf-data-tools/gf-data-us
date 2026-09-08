@@ -6520,8 +6520,8 @@
   }
   {
     id: 780013
-    name: mission_buff_config-10780013
-    description: mission_buff_config-20780013
+    name: Strike
+    description: During the next battle, accuracy is increased by 999
     code: Chasing_AIm
     type: 1
     duration_type: "1"
@@ -6533,8 +6533,8 @@
   }
   {
     id: 780014
-    name: mission_buff_config-10780014
-    description: mission_buff_config-20780014
+    name: Flash
+    description: During the next battle, evasion is increased by 999
     code: apc556
     type: 1
     duration_type: "4"
@@ -6546,8 +6546,8 @@
   }
   {
     id: 780015
-    name: mission_buff_config-10780015
-    description: mission_buff_config-20780015
+    name: Hot Blood
+    description: During the next battle, damage  is increased by 100%
     code: m190
     type: 1
     duration_type: "4"
@@ -6559,8 +6559,8 @@
   }
   {
     id: 780016
-    name: mission_buff_config-10780016
-    description: mission_buff_config-20780016
+    name: Wall
+    description: During the next battle, armor is increased by 30
     code: armorBuffSelf
     type: 1
     duration_type: "1"
@@ -6572,8 +6572,8 @@
   }
   {
     id: 780017
-    name: mission_buff_config-10780017
-    description: mission_buff_config-20780017
+    name: Persist
+    description: During the next battle, damage taken  is reduced by 75%
     code: Invincible
     type: 1
     duration_type: "4"
@@ -6585,8 +6585,8 @@
   }
   {
     id: 780018
-    name: mission_buff_config-10780018
-    description: mission_buff_config-20780018
+    name: Soul
+    description: During the next battle, damage  is increased by 120%
     code: BossArchitect1
     type: 1
     duration_type: "4"
@@ -6598,8 +6598,8 @@
   }
   {
     id: 780019
-    name: mission_buff_config-10780019
-    description: mission_buff_config-20780019
+    name: Fury
+    description: During the next battle, remove all enemy forcefield effects.
     code: assess202309_14
     type: 1
     duration_type: "4"
@@ -6611,8 +6611,8 @@
   }
   {
     id: 780020
-    name: mission_buff_config-10780020
-    description: mission_buff_config-20780020
+    name: 二级平层的丹德莱
+    description: 强 无敌
     code: 561mod
     type: 1
     duration_type: "1"
@@ -6621,6 +6621,42 @@
     conflict_type: 780020
     priority: 1
     is_still_alive: 1
+  }
+  {
+    id: 800001
+    name: mission_buff_config-10800001
+    description: mission_buff_config-20800001
+    type: 1
+    duration_type: "1"
+    duration_time: "999"
+    exp_buff: "1"
+    conflict_type: 800001
+    priority: 1
+    carry_mission_skill: "800004"
+  }
+  {
+    id: 800002
+    name: Pyrotechnic Illumination
+    description: mission_buff_config-20800002
+    code: 561mod
+    type: 1
+    duration_type: "4"
+    duration_time: "1"
+    exp_buff: "1"
+    battle_skill_config_id: 451401
+    conflict_type: 800002
+    priority: 1
+  }
+  {
+    id: 800010
+    name: mission_buff_config-10800010
+    description: mission_buff_config-20800010
+    type: 1
+    duration_type: "1"
+    duration_time: "1"
+    exp_buff: "1"
+    conflict_type: 800010
+    priority: 1
   }
   {
     id: 910630

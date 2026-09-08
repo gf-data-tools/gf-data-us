@@ -19415,7 +19415,7 @@
   }
   {
     id: 780502
-    name: special_spot_config-10780502
+    name: "[avg]-77-A-50"
     description: special_spot_config-20780502
     priority: 1
     duration_type: "1"
@@ -19550,8 +19550,7 @@
   }
   {
     id: 780912
-    name: special_spot_config-10780912
-    description: special_spot_config-20780912
+    name: "[avg]-78-8-1"
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -19569,8 +19568,7 @@
   }
   {
     id: 780913
-    name: special_spot_config-10780913
-    description: special_spot_config-20780913
+    name: "[avg]-78-8-2"
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -19588,8 +19586,7 @@
   }
   {
     id: 780914
-    name: special_spot_config-10780914
-    description: special_spot_config-20780914
+    name: "[avg]-78-8-3"
     priority: 1
     duration_type: "1"
     duration_time: "1"
@@ -19623,6 +19620,148 @@
     skill_config_id_on_birth: "0,0,0"
     skill_config_id_on_death: "0,0,0"
     death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 800001
+    name: special_spot_config-10800001
+    description: special_spot_config-20800001
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    mission_buff_config_id: 800001
+    detect_target_type: "1,3,301,10,305,304,8"
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800001
+    conditions_type: 3;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "800001,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 800002
+    name: special_spot_config-10800002
+    description: special_spot_config-20800002
+    priority: 1
+    duration_type: "1"
+    duration_time: "3"
+    mission_buff_config_id: 800002
+    detect_target_type: "-1"
+    detect_range: 2
+    effect_target_type: "1,3,301,10,305,304,8"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 2
+    effect_range: 2
+    conflict_type: 800002
+    conditions_type: 2;0
+    conditions_time: 0-1;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 5
+    is_still_alive: 1
+  }
+  {
+    id: 800003
+    name: special_spot_config-10800003
+    description: special_spot_config-20800003
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800003
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 800004
+    name: special_spot_config-10800004
+    description: special_spot_config-20800004
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800004
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_duration: 1004
+    is_still_alive: 1
+  }
+  {
+    id: 800005
+    name: special_spot_config-10800005
+    description: special_spot_config-20800005
+    priority: 1
+    duration_type: "1"
+    duration_time: "3"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800005
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    spot_buff_config_id: 1
+    is_still_alive: 1
+  }
+  {
+    id: 800008
+    name: special_spot_config-10800008
+    description: special_spot_config-20800008
+    priority: 1
+    duration_type: "1"
+    duration_time: "99"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800008
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    is_still_alive: 1
+  }
+  {
+    id: 800009
+    name: special_spot_config-10800009
+    description: special_spot_config-20800009
+    priority: 1
+    duration_type: "1"
+    duration_time: "3"
+    detect_target_type: "-1"
+    effect_target_type: "-1"
+    effect_spotbelong_type: "0,1,2,3"
+    effect_range_type: 1
+    conflict_type: 800009
+    conditions_type: 0;0
+    conditions_time: 0-0;0-0
+    skill_config_id_on_birth: "0,0,0"
+    skill_config_id_on_death: "0,0,0"
+    death_effect_target_type: "-1"
+    effect_death: 660003
+    effect_duration: 660002
     is_still_alive: 1
   }
   {

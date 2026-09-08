@@ -3537,24 +3537,31 @@
     id: 770021
     code_a: WorkBench
     description_a: Commander
+    description_b: Armor Upgrade
+    description_c: Mk I
     code_b: Console_Icon
   }
   {
     id: 770022
     code_a: WorkBench
     description_a: Commander
+    description_b: Armor Upgrade
+    description_c: Mk II
     code_b: Console_Icon
   }
   {
     id: 770023
     code_a: WorkBench
     description_a: Commander
+    description_b: Armor Upgrade
+    description_c: Mk III
     code_b: Console_Icon
   }
   {
     id: 770024
     code_a: WorkBench
     description_a: Commander
+    description_b: Repair Device
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3562,6 +3569,7 @@
     id: 770025
     code_a: WorkBench
     description_a: Commander
+    description_b: Supply Device
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3569,72 +3577,95 @@
     id: 770026
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Vigor
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770027
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Mobile Battle
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770028
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Sense
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770029
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Prediction
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770030
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Hot Blood
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770031
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Wall
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770032
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Ultimate Defense
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770033
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Ultimate Mobility
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770034
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Ultimate Advance
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770035
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Ultimate Penetration
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770036
     code_a: WorkBench
     description_a: Commander
+    description_b: Secret of Command
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 770037
     code_a: WorkBench
     description_a: Commander
+    description_b: AR Team Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3642,6 +3673,7 @@
     id: 770038
     code_a: WorkBench
     description_a: Commander
+    description_b: 404 Squad Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3649,6 +3681,7 @@
     id: 770039
     code_a: WorkBench
     description_a: Commander
+    description_b: DEFY Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3656,6 +3689,7 @@
     id: 770040
     code_a: WorkBench
     description_a: Commander
+    description_b: M16 Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3663,6 +3697,7 @@
     id: 770041
     code_a: WorkBench
     description_a: Commander
+    description_b: Agent Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3670,6 +3705,7 @@
     id: 770042
     code_a: WorkBench
     description_a: Commander
+    description_b: ??? Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3677,6 +3713,7 @@
     id: 770043
     code_a: WorkBench
     description_a: Commander
+    description_b: Paradeus Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3684,6 +3721,7 @@
     id: 770044
     code_a: WorkBench
     description_a: Commander
+    description_b: Paradeus Type II Signal Emitter
     description_c: Spawner
     code_b: Console_Icon
   }
@@ -3691,6 +3729,8 @@
     id: 770051
     code_a: Griffin
     description_a: Commander
+    description_b: Repair
+    description_c: Use Device
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3699,6 +3739,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Resupply
+    description_c: Use Device
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3707,12 +3748,15 @@
     code_a: Griffin
     description_a: Commander
     description_b: Guts
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 770054
     code_a: Griffin
     description_a: Commander
+    description_b: Sense
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3720,6 +3764,8 @@
     id: 770055
     code_a: Griffin
     description_a: Commander
+    description_b: Predict
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3728,6 +3774,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Hot-blooded
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3736,6 +3783,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Stalwart
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3743,6 +3791,8 @@
     id: 770058
     code_a: Griffin
     description_a: Commander
+    description_b: Persist
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3750,6 +3800,8 @@
     id: 770059
     code_a: Griffin
     description_a: Commander
+    description_b: Soul
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3757,6 +3809,8 @@
     id: 770060
     code_a: Griffin
     description_a: Commander
+    description_b: Fury
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3800,6 +3854,7 @@
     id: 770085
     code_a: Griffin
     description_a: Commander
+    description_b: S.F. Sky Team
     description_c: Deploy
     code_b: Console_Icon
     is_manual_target: 2
@@ -3818,6 +3873,7 @@
     code_a: morridow_boss
     description_a: Commander
     description_b: Morridow
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3826,6 +3882,7 @@
     code_a: RPK16Reborn
     description_a: Commander
     description_b: Embla
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3834,6 +3891,7 @@
     code_a: Mrsgray
     description_a: Commander
     description_b: Gray
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3842,6 +3900,7 @@
     code_a: Bramede
     description_a: Commander
     description_b: Bramedb
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3849,6 +3908,8 @@
     id: 770094
     code_a: Gebbennu
     description_a: Commander
+    description_b: Gebbenu
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3857,6 +3918,7 @@
     code_a: StyxBoss
     description_a: Commander
     description_b: Styx
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3865,6 +3927,7 @@
     code_a: HebeBoss
     description_a: Commander
     description_b: Hebe
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3873,6 +3936,7 @@
     code_a: Nimeylan
     description_a: Commander
     description_b: Nemhran
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3881,6 +3945,7 @@
     code_a: Teal
     description_a: Commander
     description_b: Grig
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3889,6 +3954,7 @@
     code_a: BossWilliam
     description_a: Commander
     description_b: William
+    description_c: Lure
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3896,12 +3962,16 @@
     id: 770111
     code_a: Griffin
     description_a: AR Team
+    description_b: Strike
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 770112
     code_a: Griffin
     description_a: Squad 404
+    description_b: Alert
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
@@ -3909,72 +3979,95 @@
     code_a: Griffin
     description_a: Task Force DEFY
     description_b: Hot-blooded
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 770114
     code_a: Griffin
+    description_a: S.F. Team
     description_b: Stalwart
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780001
     code_a: WorkBench
     description_a: Friendly Echelon
+    description_b: Basic Battle Techniques
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780002
     code_a: Boomer
     description_a: Friendly Echelon
+    description_b: Goliath Usage Manual
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780003
     code_a: Console
     description_a: Friendly Echelon
+    description_b: Basic Hacking Techniques
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780004
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Sustained Battle
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780005
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Mobile Battle
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780006
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Ultimate Defense
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780007
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Ultimate Mobility
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780008
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Ultimate Advance
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780009
     code_a: 202404book
     description_a: Friendly Echelon
+    description_b: Secret of Ultimate Penetration
+    description_c: Learn
     code_b: Console_Icon
   }
   {
     id: 780011
     code_a: Griffin
     description_a: Commander
+    description_b: Repair
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3983,6 +4076,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Resupply
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3990,6 +4084,8 @@
     id: 780013
     code_a: Griffin
     description_a: Commander
+    description_b: Sense
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -3997,6 +4093,8 @@
     id: 780014
     code_a: Griffin
     description_a: Commander
+    description_b: Predict
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4005,6 +4103,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Hot-blooded
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4013,6 +4112,7 @@
     code_a: Griffin
     description_a: Commander
     description_b: Stalwart
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4020,6 +4120,8 @@
     id: 780017
     code_a: Griffin
     description_a: Commander
+    description_b: Persist
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4027,6 +4129,8 @@
     id: 780018
     code_a: Griffin
     description_a: Commander
+    description_b: Soul
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4034,6 +4138,8 @@
     id: 780019
     code_a: Griffin
     description_a: Commander
+    description_b: Fury
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4042,6 +4148,7 @@
     code_a: Griffin
     description_a: Friendly Echelon
     description_b: Guts
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
@@ -4049,6 +4156,7 @@
     code_a: Griffin
     description_a: Friendly Echelon
     description_b: Throw Goliath
+    description_c: Command Active
     code_b: Console_Icon
     is_manual_target: 2
   }
@@ -4056,18 +4164,24 @@
     id: 780022
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Active Defense
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780023
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Strike
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780024
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Alert
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
@@ -4075,6 +4189,7 @@
     code_a: Griffin
     description_a: Friendly Echelon
     description_b: Hot-blooded
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
@@ -4082,24 +4197,31 @@
     code_a: Griffin
     description_a: Friendly Echelon
     description_b: Stalwart
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780027
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Persist
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780028
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Soul
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780029
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Fury
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
@@ -4122,36 +4244,40 @@
     id: 780501
     code_a: Griffin
     description_a: Friendly Echelon
+    description_b: Hacking Action
+    description_c: Command Active
     code_b: Console_Icon
   }
   {
     id: 780601
     code_a: Griffin
     description_a: Dandelion
+    description_b: Level II
+    description_c: Infiltrate
     code_b: Console_Icon
   }
   {
     id: 800002
     code_a: Detonator
-    description_a: manual_ui-10800002
-    description_b: manual_ui-20800002
-    description_c: manual_ui-30800002
+    description_a: Friendly Echelon
+    description_b: Detonator
+    description_c: Activate
     code_b: Console_Icon
   }
   {
     id: 800004
     code_a: 2022_Bikini_Fireworks
-    description_a: manual_ui-10800004
-    description_b: manual_ui-20800004
-    description_c: manual_ui-30800004
+    description_a: Friendly Echelon
+    description_b: Fireworks???
+    description_c: Place
     code_b: Console_Icon
   }
   {
     id: 800010
     code_a: datapatch
-    description_a: manual_ui-10800010
-    description_b: manual_ui-20800010
-    description_c: manual_ui-30800010
+    description_a: Friendly Echelon
+    description_b: Supply Point+
+    description_c: Battlefield Resupply
     code_b: Console_Icon
   }
   {

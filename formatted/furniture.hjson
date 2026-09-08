@@ -5381,6 +5381,24 @@
     interact_point_offset: "0.52,0.23,0|*0.683,4.753,0.000"
   }
   {
+    id: 2031
+    name: Reincat
+    classes: 299
+    type: 299
+    position: "2,2"
+    space: "3,4,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: This cat has been dressed up like a reindeer, and as it goes around looking for the source of the bell's ringing, it will surely fill this Christmas with rowdiness.
+    code: Xmas2018_cat,SP_CatHouseBase
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "0.15,0.3,0|0,0,0"
+    rotate: "2,2"
+    touch_area: "3,3,3"
+    bonus_id: 3031
+  }
+  {
     id: 2032
     name: Blueberry Nights Wine Table
     classes: 20
@@ -28018,6 +28036,215 @@
     rotate: "2"
   }
   {
+    id: 11501
+    name: Griffin's 8th - Yacht Flooring
+    classes: 115
+    type: 101
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: '''"I heard the deck has great anti-slip properties, you'll never fall down no matter what..." "Is that why you're breakdancing on it, then?!"'''
+    code: 2025Anniversay_floor
+    texture_type: "1"
+    sorting: "15"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11502
+    name: Griffin's 8th - Lamplit Metropolis
+    classes: 115
+    type: 301
+    space: "1,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: A nighttime view of a bustling city. The towering skyscrapers are like rows of giants, protecting the specks of starlight scattering before them.
+    code: 2025Anniversay_wall
+    texture_type: "1"
+    sorting: "15"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11503
+    name: Griffin's 8th - Celebration's Corner
+    classes: 115
+    type: 201
+    position: "17,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: It seems just about every party has a place like this where people lurk in the corner to observe the happenings. Still, they are an irreplaceable part of the whole.
+    code: 2025Anniversay_deco_01
+    texture_type: "1"
+    sorting: "15"
+    offset: "0.021,-0.031,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11504
+    name: Griffin's 8th - Sightseeing Cabin
+    classes: 115
+    type: 201
+    position: "26,1"
+    space: "9,12,1,1,1,0"
+    deco_rate: 1300
+    decompose_gift: 100003
+    description: From here, you can look down and watch the rippling lights of the ocean's surface and countless smiling faces... in that moment, you'll realize just how precious everything before your eyes really is.
+    code: 2025Anniversay_deco_02_A,2025Anniversay_deco_02_B,2025Anniversay_deco_02_C,2025Anniversay_deco_02_D,2025Anniversay_4,2025Anniversay_deco_02_E
+    texture_type: "1,1,1,1,2,1"
+    sorting: "0,0,0,0,0,10"
+    offset: "0.490,-0.058,0.000|0.490,4.424,0.000|5.088,-0.058,0.000|1.084,-0.261,-0.094|-1.112,3.062,0.768|0.488,-0.060,0.000"
+    rotate: "2,2,2,2,2,2"
+    interact_point: "27"
+    interact_point_offset: *-2.319,6.260,0.996
+  }
+  {
+    id: 11506
+    name: Griffin's 8th - Into The Blue
+    classes: 115
+    type: 201
+    position: "27,13"
+    space: "2,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: From the deck to the pool, we sink down, down, down into the depths until at last, we embrace in the sapphire waters.
+    code: 2025Anniversay_deco_04
+    texture_type: "1"
+    offset: "0.021,-0.417,-0.189"
+    rotate: "2"
+  }
+  {
+    id: 11507
+    name: Griffin's 8th - Crystalline Incandescence
+    classes: 115
+    type: 201
+    position: "16,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: In this rare moment, we pray that this fleeting flash will be eternal.
+    code: 2025Anniversay_deco_05_A,2025Anniversay_deco_05_B,2025Anniversay_deco_05_C,2025Anniversay_deco_05_D
+    texture_type: "1,1,1,1"
+    sorting: "0,0,0,0"
+    offset: "-2.699,0.000,0.000|1.887,0.000,0.000|6.493,0.000,0.000|6.492,4.479,1.033"
+    rotate: "2,2,2,2"
+  }
+  {
+    id: 11508
+    name: Griffin's 8th - Shared Dinner
+    classes: 115
+    type: 201
+    position: "18,7"
+    space: "5,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Flowers, delicacies, places — everything is set. Just take your seat and the party can begin.
+    code: 2025Anniversay_deco_06_A,2025Anniversay_deco_06_B,2025Anniversay_deco_06_C
+    texture_type: "1,1,1"
+    sorting: "0,0,0"
+    offset: "-0.073,-0.054,0.000|-0.970,-0.098,0.000|0.784,-0.054,0.000"
+    rotate: "2,2,2"
+  }
+  {
+    id: 11509
+    name: Griffin's 8th - Under The Tree (R)
+    classes: 115
+    type: 201
+    position: "32,0"
+    space: "3,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Obviously, trees can't grow on yachts and yachts can't sprout lights — so the reason why they're both here is because someone went to a lot of trouble to set them up.
+    code: 2025Anniversay_deco_07_A,2025Anniversay_deco_07_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-0.104,0.000,0.000|-0.104,4.466,1.043"
+    rotate: "2,2"
+  }
+  {
+    id: 11510
+    name: Griffin's 8th - Under The Tree (L)
+    classes: 115
+    type: 201
+    position: "1,0"
+    space: "3,1,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Obviously, trees can't grow on yachts and yachts can't sprout lights — so the reason why they're both here is because someone went to a lot of trouble to set them up.
+    code: 2025Anniversay_deco_08
+    texture_type: "1"
+    offset: "0.198,0.000,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11511
+    name: Griffin's 8th - Showoff's Swimming Pool
+    classes: 115
+    type: 201
+    position: "0,1"
+    space: "9,13,0,0,0,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: A swimming pool filled with starlight. It's okay if you can't swim, because the Dolls have thoughtfully provided you with floaties — albeit rather uniquely-styled ones.
+    code: 2025Anniversay_deco_09_B,2025Anniversay_deco_09_C,2025Anniversay_deco_09_E,2025Anniversay_2,2025Anniversay_deco_09_F
+    texture_type: "1,1,1,2,1"
+    sorting: "0,0,10,5,1"
+    offset: "3.786,-0.042,0.000|-0.820,-0.042,0.000|0.240,-0.042,0.000|-0.117,0.632,0.077|-2.065,-0.042,0.000"
+    rotate: "2,2,2,2,2"
+    interact_point: "45"
+    interact_point_offset: *-1.079,2.448,0.797
+    touch_area: "3,3,3"
+  }
+  {
+    id: 11512
+    name: Griffin's 8th - Our Eight Years
+    classes: 115
+    type: 201
+    position: "23,0"
+    space: "2,2,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: Eight is the most perfect number. We should rejoice that we have accompanied each other through the youth we will never get back again.
+    code: 2025Anniversay_deco_10,2025Anniversay_3
+    texture_type: "1,2"
+    sorting: "0,0"
+    offset: "0.003,-0.083,0.358|-0.042,1.585,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11513
+    name: Griffin's 8th - Joyous Moment
+    classes: 115
+    type: 201
+    position: "20,10"
+    space: "5,4,1,1,1,0"
+    deco_rate: 1100
+    decompose_gift: 100003
+    description: The lights reflect off the champagne bottle and the night wind blows across their mouths like the sounds of a flute — and so we raise our glasses, toasting to meeting each other.
+    code: 2025Anniversay_deco_11_A,2025Anniversay_deco_11_B
+    texture_type: "1,1"
+    sorting: "0,0"
+    offset: "-1.220,0.014,0.000|0.164,0.014,0.000"
+    rotate: "2,2"
+  }
+  {
+    id: 11514
+    name: Griffin's 8th - Restful Time
+    classes: 115
+    type: 201
+    position: "9,4"
+    space: "6,9,1,1,1,0"
+    deco_rate: 1200
+    decompose_gift: 100003
+    description: The starlight shines on this angled deck chair as waves lap against the side of the pool, a gentle, slow refrain of the night — and so we relax, letting the tension seep out of our minds and bodies.
+    code: 2025Anniversay_deco_12_A,2025Anniversay_deco_12_B,2025Anniversay_deco_12_C,2025Anniversay_deco_12_D,2025Anniversay_deco_12_E
+    texture_type: "1,1,1,1,1"
+    sorting: "10,0,15,5,10"
+    offset: "-0.057,0.033,-0.514|-0.057,0.033,-0.514|-0.057,0.043,-0.514|-0.057,0.043,-0.514|-0.067,0.033,-0.514"
+    rotate: "2,2,2,2,2"
+  }
+  {
     id: 11601
     name: Here Comes The Big One - Sections of Time
     classes: 116
@@ -28238,6 +28465,250 @@
     code: 2025Wedding_floor
     texture_type: "1"
     offset: "0,0,0"
+    rotate: "2"
+  }
+  {
+    id: 11701
+    name: Eight Years On - Scarless Journey
+    classes: 117
+    type: 101
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: It's been designed for extreme wear resistance, to the point where endless days of travel won't leave a mark on it. The road ahead is very long, but for these floorboards, it's as though we'd never even set out.
+    code: 2025Afterword_floor
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "1"
+  }
+  {
+    id: 11702
+    name: Eight Years On - Unchanging Landscape
+    classes: 117
+    type: 301
+    position: "0,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 800
+    decompose_gift: 100003
+    description: The scenery outside the window changes constantly, and only the patterns on this wall have remained the same. No matter how far you drift, being enfolded by these walls means your "home" is still here.
+    code: 2025Afterword_wall
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 11703
+    name: Eight Years On - Silent Oasis
+    classes: 117
+    type: 201
+    position: "2,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: During an endless journey, greenery is as valuable as clean water. "It doesn't produce any resources, doesn't take part in battles, and all it does is waste water." "Yes, but it's alive, and that's enough."
+    code: 2025Afterword_deco_01
+    texture_type: "1"
+    offset: "-0.125,-0.031,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11704
+    name: Eight Years On - Non-Essential Command Console
+    classes: 117
+    type: 201
+    position: "2,12"
+    space: "7,2,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: No longer is it only used for typing up combat reports and giving orders. Now, you can sit here and browse files from the old world or download old movies â€” after all, the soul needs to be fed too.
+    code: 2025Afterword_deco_02
+    texture_type: "1"
+    offset: "0.282,-0.042,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11705
+    name: Eight Years On - Non-Official Workstation
+    classes: 117
+    type: 201
+    position: "6,3"
+    space: "5,1,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: '''"Live from the scene, we're now looking at large quantities of books and bottles containing unknown fluids. We have reason to believe that a brainstorm took place here, but the thinker was ultimately taken captive by the sofa."'''
+    code: 2025Afterword_deco_03
+    texture_type: "1"
+    offset: "-0.042,-0.010,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11706
+    name: Eight Years On - Showcase of Days
+    classes: 117
+    type: 201
+    position: "5,0"
+    space: "6,1,1,1,0,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Everyone's feelings are like a jigsaw puzzle which have been haphazardly hung up here. Joy, sorrow, boredom... They all come together to form a picture called "us".
+    code: 2025Afterword_deco_04
+    texture_type: "1"
+    offset: "0.125,-0.073,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11707
+    name: Eight Years On - Inspirational Spinny Chair
+    classes: 117
+    type: 202
+    position: "6,5"
+    space: "3,3,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: Supposedly, if you lean back at the right angle, you can catch a fleeting flash of inspiration. Unfortunately, all you've managed to catch on it so far is forty winks.
+    code: 2025Afterword_deco_05
+    texture_type: "1"
+    offset: "0.021,-0.167,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11708
+    name: Eight Years On - Soft Corner
+    classes: 117
+    type: 201
+    position: "14,0"
+    space: "7,4,1,1,0,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: When you sink into this sofa, you can contemplate what you'll do tomorrow and what you'll have for supper tonight. Both of these are enjoyable burdens, are they not?
+    code: 2025Afterword_deco_06
+    texture_type: "1"
+    offset: "0.000,-0.031,0.000"
+    rotate: "2"
+    interact_point: "3"
+    interact_point_offset: *-0.496,2.020,-0.285
+  }
+  {
+    id: 11709
+    name: Eight Years On - Rest Zone
+    classes: 117
+    type: 201
+    position: "14,6"
+    space: "8,6,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: Once you enter the range of this carpet, all disputes must come to a halt. You can put your feet up on the table, but you must leave your bad vibes at the door.
+    code: 2025Afterword_deco_07
+    texture_type: "1"
+    offset: "0.052,-0.031,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11710
+    name: Eight Years On - Weather Checklist
+    classes: 117
+    type: 201
+    position: "21,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 700
+    decompose_gift: 100003
+    description: '''"Weather report: Sunny, suitable for adventures." "Tag Report: Cloudy, suitable for sleeping in." We choose to believe the latter.'''
+    code: 2025Afterword_deco_08
+    texture_type: "1"
+    offset: "-0.103,2.555,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11711
+    name: Eight Years On - Confluence of Dreams
+    classes: 117
+    type: 201
+    position: "24,1"
+    space: "6,1,1,1,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Before you sleep, you store your travel supplies for the next day here. Upon waking, you draw forth the courage to face a brand new day from this place.
+    code: 2025Afterword_deco_09
+    texture_type: "1"
+    offset: "0.010,-0.031,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11712
+    name: Eight Years On - Wishlist
+    classes: 117
+    type: 201
+    position: "29,0"
+    space: "1,1,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: '''"I want to eat lots of lollipops", "I want to see the seaside", "I want to go on a vacation with the Commander"... The girls stick their wishes by the side of the bed, as though doing that would make them come true tomorrow.'''
+    code: 2025Afterword_deco_10
+    texture_type: "1"
+    offset: "-0.103,1.512,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11713
+    name: Eight Years On - Pizza Slippers
+    classes: 117
+    type: 201
+    position: "25,11"
+    space: "3,3,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: Take off those cold combat boots and put on these soft flipflops. Only then will you truly have shed your burdens. "Don't be scared, Mr. Pizza doesn't bite."
+    code: 2025Afterword_deco_11
+    texture_type: "1"
+    offset: "0.021,-0.073,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11714
+    name: Eight Years On - Vessel of Hope
+    classes: 117
+    type: 201
+    position: "30,0"
+    space: "3,3,1,1,1,0"
+    deco_rate: 900
+    decompose_gift: 100003
+    description: It's spacious, but the only thing there is a single vase. We've left plenty of room for future decorations to join it.
+    code: 2025Afterword_deco_12
+    texture_type: "1"
+    offset: "0.115,-0.052,0.000"
+    rotate: "2"
+  }
+  {
+    id: 11715
+    name: Eight Years On - Goodnight World
+    classes: 117
+    type: 203
+    position: "24,3"
+    space: "10,7,0,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Lie down, close your eyes, and the soft pillow will take you to a world of dreams where there's no more fighting... And how will you get back? Don't worry, the scent of tomorrow's breakfast will wake you.
+    code: 2025Afterword_deco_13
+    texture_type: "1"
+    offset: "0.188,-0.334,0.000"
+    rotate: "2"
+    interact_point: "6"
+    interact_point_offset: *-2.508,2.703,-0.148
+  }
+  {
+    id: 11716
+    name: Eight Years On - Dream Interface
+    classes: 117
+    type: 201
+    position: "30,10"
+    space: "3,3,1,1,1,0"
+    deco_rate: 850
+    decompose_gift: 100003
+    description: When you reach out, you can just barely touch it, and it always contains something precious. Carefully packing your things away is like saying, "thank you, you worked hard" to today's you, and saying "goodnight" to today's world.
+    code: 2025Afterword_deco_14
+    texture_type: "1"
+    offset: "0.000,-0.070,0.000"
     rotate: "2"
   }
   {
@@ -29998,6 +30469,20 @@
     rotate: "3"
   }
   {
+    id: 20132
+    name: Eight Years, Like A Dream
+    classes: 81
+    type: 201
+    space: "6,6,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: It feels only like yesterday when the Commander first reported for duty, but it has already been eight years. The Commander had thought the story of these eight years would make for a long speech, but at this moment, all they want is to share this cake with everyone.
+    code: 2024Anniversay_deco1
+    texture_type: "1"
+    offset: "-0.209,-0.188,0.000"
+    rotate: "2"
+  }
+  {
     id: 20135
     name: Woodland Scenery
     classes: 19
@@ -30101,6 +30586,21 @@
     rotate: "3"
   }
   {
+    id: 20142
+    name: Poster - 2024 "Cartesian Theater"
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2024 Limited-Time Event - Cartesian Theater special poster.
+    code: pv_202406activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
+    rotate: "3"
+  }
+  {
     id: 20147
     name: Call of the Endgame
     classes: 19
@@ -30127,6 +30627,21 @@
     code: 202408Activity_Medal
     texture_type: "1"
     offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20149
+    name: Poster - 2025 "Zero Charge"
+    classes: 20
+    type: 302
+    space: "11,11,0,0,0,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: 2025 Limited-Time Event - Zero Charge special poster.
+    code: pv_202407activity
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0.05,0"
     rotate: "3"
   }
   {
@@ -30436,6 +30951,21 @@
     rotate: "3"
   }
   {
+    id: 20172
+    name: Warm Welcome
+    classes: 19
+    type: 201
+    space: "2,2,0,0,0,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: In order to celebrate our 8th anniversary, Kalina has painstakingly put together a set of balloon ornaments to welcome our guests. While it doesn't quite looks like the original... Oh well, the money's already been spent, might as well make the most of it!
+    code: Carnival202505
+    texture_type: "2"
+    offset: "0,0,0"
+    rotate: "2"
+    touch_area: "2,2,2"
+  }
+  {
     id: 20173
     name: Poster - 2025 Roche Limit
     classes: 20
@@ -30473,8 +31003,38 @@
     space: "2,5,1,1,1,0"
     deco_rate: 1000
     decompose_gift: 100003
-    description: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Roche Limit event. "Even as the gunsmoke fades, your form still remains."
+    description: Awarded to the Commander and the T-Dolls under their command to commend their outstanding service. "The perception of the observer is a virtual particle's lifeline. Paying attention to them causes them to exist, ignoring them makes them vanish. This is the truth you recognize."
     code: 202507Activity_Medal
+    texture_type: "1"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 20176
+    name: Cute Dinergate
+    classes: 19
+    type: 201
+    space: "3,3,0,0,0,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: A Dinergate that has been rendered harmless and converted into an accessory. It typically raises the screen on its back and gives you a sweet and polite smile... well, when it's not being commandeered by someone else, that is.
+    code: 2025NationalDay_Dinergate
+    texture_type: "2"
+    sorting: "15"
+    offset: "-0.008,0.083,0.000"
+    rotate: "2"
+    touch_area: "3,3,3"
+  }
+  {
+    id: 20177
+    name: Light On The Far Shore Medal
+    classes: 19
+    type: 302
+    space: "2,5,1,1,1,0"
+    deco_rate: 1000
+    decompose_gift: 100003
+    description: Awarded to the Commander and the T-Dolls under their command to commend their outstanding service during the "Quantum Fluctuations" event. "You didn't come here to find something you lost, but to sow the light of your heart in this paradise. And from it, love and hope shall take form."
+    code: 202509Activity_Medal
     texture_type: "1"
     offset: "0,0,0"
     rotate: "3"
@@ -46611,6 +47171,246 @@
     rotate: "3"
   }
   {
+    id: 311501
+    name: Monet's Daylight
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: HK433's poster.
+    code: poster_Anniversary2025_HK433
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311502
+    name: Wings of Flowing Light
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 95's poster.
+    code: poster_Anniversary2025_95type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311503
+    name: Moonlit Vestment
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: QBZ-191's poster.
+    code: poster_Anniversary2025_QBZ191
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311504
+    name: Pink Punch-Out
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SIG MCX's poster.
+    code: poster_Anniversary2025_SIGMCX
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311505
+    name: Orchid Bell
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: TAR-21's poster.
+    code: poster_Anniversary2025_TAR21
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311506
+    name: Hourglass' Mirror
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: G43's poster.
+    code: poster_Anniversary2025_G43
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311507
+    name: Sweet Dreams Rondo
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Bren Ten's poster.
+    code: poster_Anniversary2025_BrenTen
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311508
+    name: Special Blend Time
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Howa Type 89's poster.
+    code: poster_Anniversary2025_HowaType89
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311601
+    name: Stationary Moment
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: SCAR-H's Poster
+    code: poster_2025Afterword_SCARH
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311602
+    name: Hunting Mirages
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: NTW-20's Poster
+    code: poster_2025Afterword_NTW20
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311603
+    name: Sky In A Bottle
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: General Liu's poster.
+    code: poster_2025Afterword_GeneralLiu
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311604
+    name: Windsong Journey
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 64's poster.
+    code: poster_2025Afterword_64type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311605
+    name: Gazing At The Horizon
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: LWMMG's poster.
+    code: poster_2025Afterword_LWMMG
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311606
+    name: Leaping Signal
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Gr G28's Poster
+    code: poster_2025Afterword_G28
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311608
+    name: Daybreak March
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M2HB's Poster
+    code: poster_2025Afterword_M2HB
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 311609
+    name: Shape Of Her Heart
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Type 88's poster.
+    code: poster_202511_88type
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
     id: 311701
     name: Paradox Cardinal
     classes: 300
@@ -47204,6 +48004,66 @@
     decompose_gift: 100003
     description: JS 9's poster.
     code: poster_BattlePass_JS9mm
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330037
+    name: Heart-Racing Match
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: 6P62's poster.
+    code: poster_BattlePass_6P62
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330038
+    name: Flowers and Daydreams
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: AUG Para's poster.
+    code: poster_BattlePass_AUGPARA
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330039
+    name: Wintermist Traveler
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: Mosin-Nagant's Poster
+    code: poster_BattlePass_M1891
+    texture_type: "1"
+    sorting: "5"
+    offset: "0,0,0"
+    rotate: "3"
+  }
+  {
+    id: 330040
+    name: Duckling Assault
+    classes: 300
+    type: 303
+    space: "3,6,1,1,1,0"
+    deco_rate: 750
+    decompose_gift: 100003
+    description: M1919A4's Poster
+    code: poster_BattlePass_M1919A4
     texture_type: "1"
     sorting: "5"
     offset: "0,0,0"

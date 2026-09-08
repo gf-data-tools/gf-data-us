@@ -349,12 +349,12 @@
   }
   {
     id: "34"
-    name: medal-10000034
+    name: Beyond the Mist Medal
     order: "66"
     evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
     appearance_id: "198,199,200,201,202,203,204,205,206,207,208,209"
     item_id: "133"
-    medal_obtain: medal-20000034
+    medal_obtain: Awarded to Commanders who have achieved a brilliant score in the ranking stage "Operation Mistbuster+" in the major event "Mirror Stage".
     medal_color: "#ff0000"
     is_date: "2"
     decorate_code: Logo_Events
@@ -395,6 +395,18 @@
     is_date: "2"
     decorate_code: Logo_Events
     if_elite_medal: "1"
+  }
+  {
+    id: "38"
+    name: End of the Ominous Nightmare Medal
+    order: "62"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "224,225,226,227,228,229,230,231,232,233,234,235"
+    item_id: "137"
+    medal_obtain: Awarded to Commanders who have achieved a brilliant score in the ranking stage "City of Nightmares+" in the major event "Poincare Recurrence".
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
   }
   {
     id: "39"
@@ -523,12 +535,12 @@
   }
   {
     id: "50"
-    name: medal-10000050
+    name: Roche Radius Medal
     order: "50"
     evo_step: "1"
     appearance_id: "280"
     item_id: "149"
-    medal_obtain: medal-20000050
+    medal_obtain: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Roche Limit event.
     medal_color: "#ff0000"
     is_date: "2"
     decorate_code: Logo_Events
@@ -536,15 +548,52 @@
   }
   {
     id: "51"
-    name: medal-10000051
+    name: Virtual Observer Medal
     order: "49"
     evo_step: "1"
     appearance_id: "281"
     item_id: "150"
-    medal_obtain: medal-20000051
+    medal_obtain: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Virtual Pair event.
     medal_color: "#ff0000"
     is_date: "2"
     decorate_code: Logo_Events
     if_elite_medal: "1"
+  }
+  {
+    id: "52"
+    name: Flow-Defyer's Medal
+    order: "48"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "283,284,285,286,287,288,289,290,291,292,293,294"
+    item_id: "151"
+    medal_obtain: Granted to Commanders who completed all missions in the new ranking mode Silent Sandtable.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+  }
+  {
+    id: "54"
+    name: Light On The Far Shore Medal
+    order: "46"
+    evo_step: "1"
+    appearance_id: "282"
+    item_id: "153"
+    medal_obtain: Granted to Commanders who completed all missions in the major limited-time event Quantum Fluctuations.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
+    if_elite_medal: "1"
+  }
+  {
+    id: "55"
+    name: Rainmaker Badge Medal
+    order: "45"
+    evo_step: "1,2,3,4,5,6,7,8,9,10,11,12"
+    appearance_id: "308,309,310,311,312,313,314,315,316,317,318,319"
+    item_id: "154"
+    medal_obtain: Awarded to Commanders who achieve outstanding scores during the "Steel Rain Salute" ranked battle.
+    medal_color: "#ff0000"
+    is_date: "2"
+    decorate_code: Logo_Events
   }
 ]

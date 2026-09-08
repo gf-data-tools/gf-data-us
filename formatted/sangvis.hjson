@@ -1692,9 +1692,10 @@
     name: Beluga
     en_name: Beluga
     code: M16A1_Boss
-    introduce: "Originally an elite T-Doll created in Persica's lab, she left Griffin and traveled from place to place after being infected by the Parapluie virus, but she never once forgot her mission. M16A1, Leinad Kcaj, \ufffd\ufffd\ufffd\u05a7\u0767\ufffd\u0527\ufffd, Beluga... To her, these are all just code names that represent different phases in her life; she is still her own true self. Her frame may be covered in scars, but her wealth of experience has only made her more sagacious and accomplished, enabling her to take on enemies effortlessly alongside different allies."
+    introduce: Originally an elite T-Doll created in Persica's lab, she left Griffin and traveled from place to place after being infected by the Parapluie virus, but she never once forgot her mission. M16A1, Leinad Kcaj, ֧ݧԧ, Beluga... To her, these are all just code names that represent different phases in her life; she is still her own true self. Her frame may be covered in scars, but her wealth of experience has only made her more sagacious and accomplished, enabling her to take on enemies effortlessly alongside different allies.
     dialogue: 待定，单独提出语言包最好
     extra: ",,"
+    en_introduce: sangvis-30001029
     forces: 1
     type: 1
     character: "2,4,6"
@@ -1746,6 +1747,67 @@
     gun_tag_ids: "118,103,164,108"
     ratio_rec: 110
     recommended_team_ids: "2"
+  }
+  {
+    id: 1030
+    name: Grig
+    en_name: Teal
+    code: Teal
+    introduce: Calm and perceptive, she is adept at using the longsword and her claws. She can precisely target the moment an opponent exposes themselves and assassinate them with extremely swift movements. For the reawakened "Grig", the person who once held her heart in her hands is gone. Even if someone with her shape still remains in this world, she can never reclaim the bond they used to have. As such, she has chosen to focus on every single attack she makes in the present.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30001030
+    forces: 3
+    type: 1
+    character: "2,4,5"
+    formation: 1
+    resolution: 130
+    shape_scale: "80,120"
+    ap_cost: 10
+    rank: 5
+    skill1: 760027
+    skill2_type: 1
+    skill2: 760031
+    skill3: 760034
+    skill_advance: 760035
+    skill_resolution: "760028"
+    passive_skill2: "760025,760026,760032,760036,760037,760038,760039,760040"
+    dynamic_passive_skill: "760029,760030"
+    normal_attack: 760024
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 100
+    ratio_pow: 140
+    ratio_rate: 90
+    ratio_hit: 160
+    ratio_dodge: 120
+    armor_piercing: 100
+    crit: 50
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 20
+    attack_range_type: 1
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 3
+    effect_grid_effect: 4:2,30;4,50
+    type_chip1: "1,2,3"
+    type_chip2: "1,2,3"
+    type_chip3: "1,2,3"
+    illustration_id: 138
+    ai: 11002
+    is_additional: 1
+    launch_time: 2016-05-20 00:00:00
+    display_enemy_team: 930030
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    org_id: 10604
+    gun_tag_ids: "139,109,122,103"
+    ratio_rec: 250
+    recommended_team_ids: "8"
   }
   {
     id: 2001
@@ -3156,17 +3218,14 @@
     extra: ",,"
     en_introduce: sangvis-30009001
     forces: 1
-    type: 1
+    type: 2
     character: "2,4,6"
     formation: 1
     resolution: 107
     shape_scale: "80,120"
     ap_cost: 10
     rank: 5
-    skill1: 900833
-    skill2_type: 2
-    skill2: 30008
-    skill3: 900831
+    skill2_type: 1
     skill_advance: 900832
     skill_resolution: "900834"
     passive_skill2: "902167"
@@ -3190,10 +3249,6 @@
     assist_attack_range: 15
     ratio_range: 500
     search_range: 7
-    effect_grid_effect: 0:4,15;5,15|2:1,12;3,12
-    type_chip1: "1,2,3"
-    type_chip2: "1,2,3"
-    type_chip3: "1,2,3"
     illustration_id: 21
     ai: 11002
     is_additional: 1
@@ -3205,6 +3260,383 @@
     ratio_rec: 100
   }
   {
+    id: 9002
+    name: Scarecrow
+    en_name: Scarecrow
+    code: Scarecrow
+    introduce: A Sangvis specialized in gathering and analyzing intelligence. She isn't the best in direct confrontations, which earns her little respect among Sangvis Dolls. Rational, curt, and dutiful, she despises sentimentality and looks down on emotional Griffin Dolls who blindly follow their orders.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009002
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 101
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450704,450703"
+    normal_attack: 900510
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 95
+    ratio_pow: 95
+    ratio_rate: 116
+    ratio_hit: 90
+    ratio_dodge: 120
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 12
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 5
+    ai: 11001
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930001
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 95
+  }
+  {
+    id: 9003
+    name: Executioner
+    en_name: Excutioner
+    code: Excutioner
+    introduce: An elite scout who often partners with Scarecrow but is slightly higher in rank. A rough-mannered and impulsive tomboy who takes delight in fair fights and dislikes bullying the weak.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009003
+    forces: 1
+    type: 2
+    character: "2,4,5"
+    formation: 1
+    resolution: 102
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450705,450703"
+    normal_attack: 600309
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 125
+    ratio_pow: 105
+    ratio_rate: 88
+    ratio_hit: 95
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 40
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 5
+    illustration_id: 8
+    ai: 11002
+    is_additional: 2
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930002
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 150
+  }
+  {
+    id: 9004
+    name: Hunter
+    en_name: Hunter
+    code: Hunter
+    introduce: Mobile and intelligent, she's skilled at harassment and pursuit battles. Her true power can only be shown when coordinating with Scarecrow and Executioner. She is calm and subdued, and cornering her foes through various means before capturing them alive. While she has an arrogant attitude toward Griffin, it does not preclude her from using overly despicable methods against them.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009004
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 103
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450706,450703"
+    normal_attack: 900591
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 100
+    ratio_pow: 100
+    ratio_rate: 110
+    ratio_hit: 105
+    ratio_dodge: 105
+    armor_piercing: 15
+    crit: 30
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 11
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930003
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 110
+  }
+  {
+    id: 9005
+    name: Destroyer
+    en_name: Destroyer
+    code: Destroyer
+    introduce: An expert in blowing things up and disarming bombs who also possesses decent combat abilities. Occasionally teams up with Alchemist. She's usually haughty and sharp-tongued, but is actually a tsundere with a somewhat childish temper. She cries under pressure and is very sensitive about her height.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009005
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 105
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450707,450703"
+    normal_attack: 900730
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 110
+    ratio_pow: 135
+    ratio_rate: 70
+    ratio_hit: 100
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 18
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930005
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 110
+  }
+  {
+    id: 9006
+    name: Architect
+    en_name: Architect
+    code: BossArchitect
+    introduce: A loner with high combat prowess that specializes in long-range attacks and fire support. A cheerful and energetic airhead of a girl who's always in high spirits. She isn't particularly antagonistic towards Griffin and doesn't always go out of her way to follow orders from Sangvis Ferri. However, her passion for bombardment and destruction still makes her a highly dangerous enemy.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009006
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 106
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450708,450703"
+    normal_attack: 900780
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 110
+    ratio_pow: 120
+    ratio_rate: 110
+    ratio_hit: 105
+    ratio_dodge: 70
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 27
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930006
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 110
+  }
+  {
+    id: 9007
+    name: Dreamer
+    en_name: Dreamer
+    code: Dreamer
+    introduce: Combat-oriented and possesses ultra long-range pinpoint sniping capability. A Doll created after the Buttlerfly Incident who answers directly to Elisa. Since she isn't designed to engage enemies directly, she spends most of her time hanging around Sangvis Ferri HQ and bullying Judge for her own amusement. Her charming smile is a flimsy disguise for her arrogance and capriciousness. She is extremely mentally unstable and egotistical, and is prone to becoming frenzied and losing control in battle. She has formidable destructive power and will often disregard her allies' safety. Fortunately, she rarely ever appears in direct combat.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009007
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 109
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450709,450703"
+    normal_attack: 900965
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 95
+    ratio_pow: 125
+    ratio_rate: 100
+    ratio_hit: 110
+    ratio_dodge: 100
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 24
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930009
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 95
+  }
+  {
+    id: 9008
+    name: Gager
+    en_name: Gager
+    code: BossGager
+    introduce: Mostly in charge of issuing commands and deploying units. Relatively high in rank, she is in command of combat units, yet is quite adept at combat herself. Answers directly to Agent. Serious, uptight, and meticulous, she always appears cool and businesslike both in speech and action. She holds herself to a code of honor even against her enemies.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009008
+    forces: 1
+    type: 2
+    character: "2,4,6"
+    formation: 1
+    resolution: 110
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "901036,901037,450710,450703"
+    normal_attack: 901035
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 105
+    ratio_pow: 100
+    ratio_rate: 120
+    ratio_hit: 125
+    ratio_dodge: 95
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 26
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930010
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 105
+  }
+  {
+    id: 9009
+    name: Judge
+    en_name: Justice
+    code: Justice
+    introduce: Command-oriented and responsible for Sangvis Ferri HQ's defense and security systems. She is essentially Elisa's bodyguard and only obeys Elisa's personal orders. A Doll created after the Butterfly Incident. Having to deal with Dreamer's antics every day gives her a headache. Stern and old-fashioned, she possesses a soldier's dignity and bearing. She is absolutely loyal to Elisa, but her short stature doesn't make her very imposing to most people. Anyone who points that out will suffer terribly, friend or foe.
+    dialogue: 待定，单独提出语言包最好
+    extra: ",,"
+    en_introduce: sangvis-30009009
+    forces: 1
+    type: 2
+    character: "1,4,6"
+    formation: 1
+    resolution: 111
+    shape_scale: "80,120"
+    rank: 5
+    skill2_type: 1
+    passive_skill2: "450711,450703"
+    normal_attack: 901223
+    baseammo: 10
+    basemre: 10
+    ammo_add_withnumber: 5
+    mre_add_withnumber: 5
+    ratio_hp: 130
+    ratio_pow: 95
+    ratio_rate: 110
+    ratio_hit: 110
+    ratio_dodge: 80
+    ratio_armor: 48
+    armor_piercing: 15
+    crit: 20
+    crit_dmg: 150
+    eat_ratio: 100
+    ratio_speed: 15
+    attack_range_type: 2
+    assist_attack_range: 15
+    ratio_range: 500
+    search_range: 7
+    illustration_id: 35
+    ai: 11002
+    is_additional: 1
+    launch_time: 2035-05-20 00:00:00
+    display_enemy_team: 930011
+    picture_offset: "-100.001,-65.021"
+    picture_scale: "0.864,0.864"
+    dorm_scale: 100
+    ratio_rec: 140
+  }
+  {
     id: 90001
     name: PPSh-41
     en_name: PPSh-41
@@ -3214,17 +3646,14 @@
     extra: ",,"
     en_introduce: sangvis-30090001
     forces: 1
-    type: 1
+    type: 2
     character: "2,4,6"
     formation: 1
     resolution: 107
     shape_scale: "80,120"
     ap_cost: 10
     rank: 5
-    skill1: 900833
-    skill2_type: 2
-    skill2: 30008
-    skill3: 900831
+    skill2_type: 1
     skill_advance: 900832
     skill_resolution: "900834"
     passive_skill2: "902167"
@@ -3248,10 +3677,6 @@
     assist_attack_range: 15
     ratio_range: 500
     search_range: 7
-    effect_grid_effect: 0:4,15;5,15|2:1,12;3,12
-    type_chip1: "1,2,3"
-    type_chip2: "1,2,3"
-    type_chip3: "1,2,3"
     illustration_id: 21
     ai: 11002
     is_additional: 1

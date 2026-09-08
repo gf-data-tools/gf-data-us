@@ -22,7 +22,7 @@
     is_class: 1
     des_year: "2019"
     source: 2
-    source_description: commander_class-40000011
+    source_description: New Recruit Basic Uniform
   }
   {
     id: 12
@@ -50,7 +50,7 @@
     is_class: 1
     des_year: "2019"
     source: 2
-    source_description: commander_class-40000013
+    source_description: Obtained from Shattered Connexion
   }
   {
     id: 14
@@ -75,7 +75,7 @@
     path: CLASS15
     des_year: "2019"
     source: 2
-    source_description: commander_class-40000015
+    source_description: Shattered Connexion Ranking Reward
   }
   {
     id: 16
@@ -139,7 +139,7 @@
     path: CLASS20
     des_year: "2020"
     source: 2
-    source_description: commander_class-40000020
+    source_description: Polarized Light Ranking Reward
   }
   {
     id: 21
@@ -201,8 +201,8 @@
   }
   {
     id: 26
-    name: Defender
-    description: One must take on greater responsibilities to enjoy greater glory. Come, fight to protect everything that you have.
+    name: Fortress Defender
+    description: The greater the glory, the greater the responsibility. Fight – for the sake of protecting all that you have.
     group_id: "68"
     code: commander_2632_icon
     bonus_plastic: "130008"
@@ -270,16 +270,31 @@
     source_description: Griffin Memories Star Collection Stage Reward
   }
   {
+    id: 32
+    name: Fashion Gala
+    description: Don't wear your uniform to a gala, Commander! We've prepared a new set of clothes for you.
+    group_id: "74"
+    code: commander_3230_icon
+    path: CLASS32
+    des_year: "2021"
+    source: 2
+    source_description: TW Server 4th Anniversary Commemorative Commander Outfit
+  }
+  {
     id: 33
+    name: G&K 500
+    description: Trade-offs have to be made in war. Don't hold onto someone you must let go.
     group_id: "75"
     code: commander_3310_icon
     path: CLASS33
+    des_year: "2021"
     source: 2
+    source_description: Mirror Stage Ranking Reward
   }
   {
     id: 34
-    name: Our Last Bow
-    description: If it will truly lead to the termination of crime, then for the sake public interest, we shall gladly welcome death.
+    name: Final Salute
+    description: If it would ensure that evil was eliminated, then we would gladly welcome death for the benefit of the public.
     group_id: "76"
     code: commander_3432_icon
     bonus_plastic: "130011"
@@ -288,12 +303,22 @@
     is_class: 1
     des_year: "2021"
     source: 1
-    source_description: commander_class-40000034
+  }
+  {
+    id: 35
+    name: Convenient Travel
+    description: Even if your eyes are currently shut, miracles are still taking place somewhere...
+    group_id: "77"
+    code: commander_3520_icon
+    path: CLASS35
+    des_year: "2021"
+    source: 2
+    source_description: Girls' Frontline x Lawson Offline Collaboration Exchange
   }
   {
     id: 36
-    name: Tactical Game
-    description: Your life is a grand expo, Commander. Wrap up the journey you've been through and proceed to your next one.
+    name: Strategic Enjoyment
+    description: Your life is a sprawling expo, Commander. Bring a conclusion to your journeys thus far, and then continue with the next leg of your travels.
     group_id: "78"
     code: commander_3640_icon
     path: CLASS36
@@ -351,6 +376,8 @@
   }
   {
     id: 41
+    name: Pioneer's Will
+    description: No matter what dust clouds the wheels of history churn up, it will never be able to cover up their will.
     group_id: "83"
     code: commander_4120_icon
     path: CLASS41
@@ -397,8 +424,8 @@
   }
   {
     id: 45
-    name: Urban Trendsetters
-    description: True business elites are always dressed to impress. They give off an air that's 50% competence and 50% meticulousness.
+    name: Urban Vanguard
+    description: The true elite of the mercantile class often carry themselves with style. Their disposition is 50% keenness and 50% sternness.
     group_id: "87"
     code: commander_4532_icon
     bonus_plastic: "130016"
@@ -407,6 +434,17 @@
     is_class: 1
     des_year: "2022"
     source: 1
+  }
+  {
+    id: 46
+    name: Drunken Dream Invitation
+    description: Bring me to a party in Dreamland. When you awaken, those who shared your drunken stupor will still be by your side.
+    group_id: "88"
+    code: commander_4640_icon
+    path: CLASS46
+    des_year: "2022"
+    source: 2
+    source_description: 6th Anniversary Login Event Rewards
   }
   {
     id: 47
@@ -461,7 +499,7 @@
   {
     id: 51
     name: Master of the Seas
-    description: Drop anchor in a hidden bay and weather the vicious storm. Sing amidst the waves and meet your foe with steel in hand—"Listen up, me hearties, after I finish this bottle of rum, we'll weigh anchor and search for the next trove of booty!"
+    description: Into the mysterious bay, through the ferocious storm. Singing boisterous songs as we sail the waves, pointing our swords at our enemies... Listen up, sailors! Drink this bottle of rum, then let's raise the sails, weigh anchor, and search for the next treasure trove!
     group_id: "93"
     code: commander_5132_icon
     bonus_plastic: "130020"
@@ -480,6 +518,7 @@
     path: CLASS52
     des_year: "2023"
     source: 2
+    source_description: Slow Shock Event Ranking Reward
   }
   {
     id: 53
@@ -505,6 +544,29 @@
     des_year: "2025"
     source: 2
     source_description: Luffberry Chess Gachapon Prize
+  }
+  {
+    id: 55
+    name: When the Lanterns are First Lit
+    description: Brilliant light, clinking glasses. Friendship, intoxication, and even shrewd hunting are all quietly obscured by the flurry of skirts amidst a buoyant scene of jubilation.
+    group_id: "97"
+    code: commander_5531_icon
+    bonus_plastic: "130022"
+    skill_id: 110
+    path: CLASS55
+    is_class: 1
+    des_year: "2024"
+    source: 1
+  }
+  {
+    id: 56
+    name: Gathering Forces
+    description: Tis the white snow clinging to bows and blades, the black clouds pressing down on the rampart... Before heading into battle, remember to bury your fear deep in your heart and carry your mission upon your shoulders.
+    group_id: "98"
+    code: commander_5640_icon
+    path: CLASS56
+    is_class: 1
+    source: 2
   }
   {
     id: 57
@@ -554,6 +616,8 @@
   }
   {
     id: 62
+    name: Inspirational Serpentine
+    description: Out with the old and in with the new. It's time to take up the scepter of the new year and learn the rhythm of life through dance.
     group_id: "103"
     code: commander_6240_icon
     path: CLASS62
@@ -571,5 +635,72 @@
     is_class: 1
     des_year: "2025"
     source: 2
+  }
+  {
+    id: 64
+    name: Vitality Focus
+    description: Becoming the focus of the big anniversary party and imparting joy and energy to everyone is your truest wish.
+    group_id: "103"
+    code: commander_6440_icon
+    path: CLASS64
+    des_year: "2025"
+    source: 2
+    source_description: 2025 Anniversary Reward
+  }
+  {
+    id: 65
+    name: Entendre of Return
+    description: This isn't a grand celebration, but an exclusive gesture of thanks for you. May the warm and peace from the rear heal your frazzled nerves.
+    group_id: "103"
+    code: commander_6520_icon
+    path: CLASS65
+    des_year: "2025"
+    source: 2
+    source_description: Quantum Fluctuations Ranking Reward
+  }
+  {
+    id: 66
+    name: Voyage Protocol
+    description: '''"Are you ready? It's time to pack up your memories, Commander. Time to set out once again toward that unknown horizon."'''
+    group_id: "104"
+    code: commander_6620_icon
+    path: CLASS66
+    des_year: "2025"
+    source: 2
+    source_description: Quantum Fluctuations Event Reward
+  }
+  {
+    id: 67
+    name: Lucky Beasts In Spring
+    description: Banish all the bad luck and gloom of the previous year with the most vibrant merriment and the brightest colors!
+    group_id: "105"
+    code: commander_6720_icon
+    path: CLASS67
+    des_year: "2026"
+    source: 2
+    source_description: Steel Rain Salute ranking reward
+  }
+  {
+    id: 68
+    name: Top Secret Mission
+    description: Whether in the city, the wilderness, the snowfields or the desert... This is a mission which only you can complete.
+    group_id: "106"
+    code: commander_6831_icon
+    skill_id: 109
+    path: CLASS68
+    is_class: 1
+    des_year: "2026"
+    source: 2
+  }
+  {
+    id: 99
+    name: Mask of Deception
+    description: Hide your thoughts and embody your desire.
+    group_id: "60"
+    code: commander_9920_icon
+    path: EMOJI
+    des_year: "2019"
+    source: 2
+    source_description: Appears with bad luck.
   }
 ]

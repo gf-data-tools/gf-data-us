@@ -213,6 +213,26 @@
       '''
   }
   {
+    id: 13
+    name: City of Nightmares+
+    type: 2
+    value: "110073"
+    condition: 100000:40721;200000:40722;400000:40723;600000:40724;800000:40725;1000000:40726;1100000:40727;1300000:40728;1500000:40729;1700000:40730;1900000:40731;2100000:40732
+    start_time: 2026-06-23 00:00:00
+    end_time: 2026-07-06 23:59:59
+    prize_start_time: 2026-06-23 00:00:00
+    prize_end_time: 2026-07-13 23:59:59
+    left_icon: fbed0c0816499ee0_draw_260621143715.png
+    background: bc14b88bbeaaffce_draw_260621143715.png
+    notice_txt:
+      '''
+      1. For the duration of the event, accumulate points in the designated scoring stage for "City of Nightmares" and complete score targets to obtain the corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. After the end of the event, no more points can be scored, but the event interface will remain until the reward collection deadline.
+      4. While the event interface is still accessible, you can enter this reward interface through the rolling event banner on the home page. You will not be able to collect your rewards past the deadline.
+      '''
+  }
+  {
     id: 14
     name: Leaping from the Penrose Stairs
     type: 2
@@ -229,6 +249,46 @@
       1. During the event, accumulate points in specific "Leaping from the Penrose Stairs" map and meet point targets to unlock corresponding rewards.
       2. Each event reward can only be collected once.
       3. You can score no more points once the "Leaping from the Penrose Stairs" event has ended, but the event interface will remain until the deadline for collecting rewards(Spe. 29th 23:59:59 UTC-8).
+      4. Before the event interface expires, you can access the reward collection interface through the rotating banners in the bottom left corner on the home page. Once the interface expires, you will no longer be able to collect your rewards.
+      '''
+  }
+  {
+    id: 15
+    name: Silent Sandtable
+    type: 2
+    value: "110078"
+    condition: 50000:40809;100000:40810;150000:40811;200000:40812;250000:40813;300000:40814;500000:40815;700000:40816;900000:40817;1200000:40818;1500000:40819;1800000:40820
+    start_time: 2026-05-26 00:00:00
+    end_time: 2026-06-15 23:59:59
+    prize_start_time: 2026-05-26 00:00:00
+    prize_end_time: 2026-06-22 23:59:59
+    left_icon: d2f6287af0ceb1a8_draw_260507203957.png
+    background: d7418e32cc2237b6_draw_260511174651.png
+    notice_txt:
+      '''
+      1. During the event, accumulate points in specific "Silent Sandtable" map and meet point targets to unlock corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. You can score no more points once the "Silent Sandtable" event has ended, but the event interface will remain until the deadline for collecting rewards(Jun. 9th 23:59:59 UTC-8).
+      4. Before the event interface expires, you can access the reward collection interface through the rotating banners in the bottom left corner on the home page. Once the interface expires, you will no longer be able to collect your rewards.
+      '''
+  }
+  {
+    id: 16
+    name: Steel Rain Salute
+    type: 2
+    value: "110081"
+    condition: 30000:40853;60000:40854;90000:40855;120000:40856;150000:40857;180000:40858;300000:40859;400000:40860;550000:40861;700000:40862;900000:40863;1100000:40864
+    start_time: 2026-04-21 00:00:00
+    end_time: 2026-05-11 23:59:59
+    prize_start_time: 2026-04-21 00:00:00
+    prize_end_time: 2026-05-18 23:59:59
+    left_icon: 5118d4e898e52a52_draw_260417181848.png
+    background: f6190b0c35f33858_draw_260417181851.png
+    notice_txt:
+      '''
+      1. During the event, accumulate points in specific "Steel Rain Salute" map and meet point targets to unlock corresponding rewards.
+      2. Each event reward can only be collected once.
+      3. You can score no more points once the "Steel Rain Salute" event has ended, but the event interface will remain until the deadline for collecting rewards(May 19th 23:59:59 UTC-8).
       4. Before the event interface expires, you can access the reward collection interface through the rotating banners in the bottom left corner on the home page. Once the interface expires, you will no longer be able to collect your rewards.
       '''
   }
@@ -401,14 +461,62 @@
   }
   {
     id: 10009
-    name: event_prize_level-10010009
+    name: Operation Mistbuster PLUS Campaign
     type: 1
     permanent_type: 1
     value: "11549"
     condition: 150000:40741;250000:40742;350000:40743;500000:40744;700000:40745;900000:40746;1100000:40747;1400000:40748
     left_icon: f7d8f3c4bda8f350_draw_260402160143.png
     background: e2911695eb1d95ac_draw_260402160638.png
-    notice_txt: event_prize_level-20010009
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Operation Mistbuster PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10010
+    name: City of Nightmares PLUS Campaign
+    type: 1
+    permanent_type: 1
+    value: "11630"
+    condition: 200000:40749;300000:40750;400000:40751;500000:40752;800000:40753;1000000:40754;1250000:40755;1500000:40756
+    left_icon: b1d357cacf39f293_draw_260721173654.png
+    background: bc14b88bbeaaffce_draw_260721173656.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "City of Nightmares PLUS" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10011
+    name: Betti number Campaign
+    type: 3
+    permanent_type: 1
+    value: "11002,11003,11004,11005,11006,11007,11008,11009,11010"
+    condition: 200000:40757;400000:40758;500000:40759;700000:40760;900000:40761;1100000:40762;1350000:40763;1600000:40764
+    left_icon: 9851aca3939cdd74_draw_260611152804.png
+    background: 9f4330cc33ff717d_draw_260611153751.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Betti number" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10012
+    name: Waterfall Campaign
+    type: 1
+    permanent_type: 1
+    value: "11118"
+    condition: 200000:40765;400000:40766;500000:40767;700000:40768;900000:40769;1100000:40770;1350000:40771;1600000:40772
+    background: a9a418cd39a4c623_draw_260415174115.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Waterfall" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
   }
   {
     id: 10013
@@ -421,6 +529,48 @@
     notice_txt:
       '''
       1. Complete score targets in the Campaign "Self-Portrait" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10014
+    name: Leaping from the Penrose Stairs Campaign
+    type: 1
+    permanent_type: 1
+    value: "11603"
+    condition: 100000:40837;300000:40838;400000:40839;600000:40840;800000:40841;1000000:40842;1200000:40843;1400000:40844
+    background: b4b166ed76614b39_draw_250828173544.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Leaping from the Penrose Stairs" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10015
+    name: Silent Sandtable Campaign
+    type: 1
+    permanent_type: 1
+    value: "11946"
+    condition: 100000:40845;150000:40846;200000:40847;300000:40848;450000:40849;600000:40850;800000:40851;1000000:40852
+    background: d7418e32cc2237b6_draw_260511174651.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Silent Sandtable" to obtain the corresponding rewards.
+      2. Each point reward can only be collected once.
+      '''
+  }
+  {
+    id: 10016
+    name: Steel Rain Salute Campaign
+    type: 1
+    permanent_type: 1
+    value: "11988"
+    condition: 30000:40881;50000:40882;100000:40883;150000:40884;200000:40885;300000:40886;450000:40887;600000:40888
+    background: e9ae3a5c53116fef_draw_260527165233.png
+    notice_txt:
+      '''
+      1. Complete score targets in the Campaign "Steel Rain Salute" to obtain the corresponding rewards.
       2. Each point reward can only be collected once.
       '''
   }

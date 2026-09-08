@@ -745,6 +745,15 @@
     rank: 1
   }
   {
+    id: 137
+    type: 3
+    arg: "38"
+    code: Medal_21summer_re_rank
+    item_name: End of the Ominous Nightmare Medal
+    introduction: To commend this Commander and the T-Dolls under their command for their outstanding achievements in the scoring map of "Poincare Recurrence". "That endless purgatory has been erased by your efforts, so people may once again sleep in peace, and dream of happiness."
+    rank: 1
+  }
+  {
     id: 138
     type: 3
     arg: "39"
@@ -850,6 +859,33 @@
     code: Medal_202507Activity
     item_name: Virtual Observer Medal
     introduction: This medal is awarded as a commendation to the Commander and their Dolls for their outstanding performance in the Virtual Pair event. "A virtual particle's life comes from the attention of its observer. Gazing at it preserves its existing, while ignoring it makes it vanish. This is what you believe."
+    rank: 1
+  }
+  {
+    id: 151
+    type: 3
+    arg: "52"
+    code: Medal_202509Activity_rank
+    item_name: Flow-Defyer's Medal
+    introduction: Awarded to the Commander and the T-Dolls under their command to commend their impressive accomplishments during the ranking stage "Silent Sandtable". "The  tides of chaos fell silent beneath your calculations, and you laid the order of civilization down in your sandtable."
+    rank: 1
+  }
+  {
+    id: 153
+    type: 3
+    arg: "54"
+    code: Medal_202509Activity
+    item_name: Light On The Far Shore Medal
+    introduction: Awarded to the Commander and the T-Dolls under their command to commend their outstanding results during the "Quantum Fluctuations" event. "You didn't come here to find something you lost, but to sow the light of your heart in this paradise. And from it, love and hope shall take form."
+    rank: 1
+  }
+  {
+    id: 154
+    type: 3
+    arg: "55"
+    code: Medal_202602Activity_rank
+    item_name: Rainmaker Badge
+    introduction: In commemoration of the dazzling results achieved by the Commander and the T-Dolls under them during the "Steel Rain Salute" ranked battle. "It shall serve as a shelter that spreads clear skies over the future of these scorched lands."
     rank: 1
   }
   {
@@ -4720,6 +4756,16 @@
     introduction: Background: Midsummer Beach
     rank: 1
     detail_introduction: item-30001348
+  }
+  {
+    id: 1349
+    type: 5
+    arg: "1"
+    code: cg_2018Autumn_moon
+    item_name: Background: Full Moon, Long Life
+    introduction: Background: Full Moon, Long Life
+    rank: 1
+    detail_introduction: item-30001349
   }
   {
     id: 1350
@@ -9015,6 +9061,15 @@
     rank: 1
   }
   {
+    id: 1834
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Nemeum_HD
+    item_name: Nemeum Icon - HD
+    introduction: Nemeum Icon - HD
+    rank: 1
+  }
+  {
     id: 1835
     type: 5
     arg: "1"
@@ -9458,12 +9513,30 @@
     rank: 1
   }
   {
+    id: 1886
+    type: 5
+    arg: "1"
+    code: profilePic_mask_5years_A
+    item_name: Icon: Startling Grace
+    introduction: Icon: Startling Grace
+    rank: 1
+  }
+  {
     id: 1887
     type: 5
     arg: "1"
     code: card_5years_A
     item_name: ID: Breaking Dawn
     introduction: ID: Breaking Dawn
+    rank: 1
+  }
+  {
+    id: 1888
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Aegis_HD
+    item_name: Aegis Icon – HD
+    introduction: Aegis Icon – HD
     rank: 1
   }
   {
@@ -10477,6 +10550,15 @@
     rank: 1
   }
   {
+    id: 2008
+    type: 5
+    arg: "1"
+    code: cg_bomuxueyuan
+    item_name: Background: Misty Snowfield
+    introduction: Background: Misty Snowfield
+    rank: 1
+  }
+  {
     id: 2009
     type: 5
     arg: "1"
@@ -10828,6 +10910,15 @@
     rank: 1
   }
   {
+    id: 2049
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Guard_chm_HD
+    item_name: Gingerbread Guard Icon - HD
+    introduction: Gingerbread Guard Icon - HD
+    rank: 1
+  }
+  {
     id: 2050
     type: 5
     arg: "1"
@@ -10951,6 +11042,24 @@
     code: profilePic_sangvis_Hunter_WhiteDay
     item_name: Hunter - Nightfall Moth Icon
     introduction: Hunter - Nightfall Moth Icon
+    rank: 1
+  }
+  {
+    id: 2064
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Vespid_bride
+    item_name: Zombie Bride Icon
+    introduction: Zombie Bride Icon
+    rank: 1
+  }
+  {
+    id: 2065
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Vespid_bride_HD
+    item_name: Zombie Bride Icon - HD
+    introduction: Zombie Bride Icon - HD
     rank: 1
   }
   {
@@ -11150,6 +11259,15 @@
     code: profilePic_Anniversary2022_64type
     item_name: Sips in the Whispering Wind
     introduction: Sips in the Whispering Wind
+    rank: 1
+  }
+  {
+    id: 2088
+    type: 5
+    arg: "1"
+    code: profilePic_6years_A
+    item_name: Icon: Drunken Bliss
+    introduction: Icon: Drunken Bliss
     rank: 1
   }
   {
@@ -14719,6 +14837,24 @@
     rank: 1
   }
   {
+    id: 2500
+    type: 5
+    arg: "1"
+    code: profilePic_8years_A
+    item_name: Icon: Drunken Flush
+    introduction: Icon: Drunken Flush
+    rank: 1
+  }
+  {
+    id: 2501
+    type: 5
+    arg: "1"
+    code: card_8years_A
+    item_name: ID: Warmth, Fragrance, Sweetness
+    introduction: ID: Warmth, Fragrance, Sweetness
+    rank: 1
+  }
+  {
     id: 2502
     type: 5
     arg: "1"
@@ -14896,6 +15032,33 @@
     code: card_BattlePass_M1897
     item_name: ID Card - Perplexing Interlud
     introduction: ID Card - Perplexing Interlud
+    rank: 1
+  }
+  {
+    id: 2522
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season16_1
+    item_name: Making Miracles - Code Fourteen: Relaxation
+    introduction: Making Miracles - Code Fourteen: Relaxation
+    rank: 1
+  }
+  {
+    id: 2523
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season16_2
+    item_name: Stratagem Planning - Code Fourteen: Relaxation
+    introduction: Stratagem Planning - Code Fourteen: Relaxation
+    rank: 1
+  }
+  {
+    id: 2524
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season16_3
+    item_name: Strategy Simulation - Code Fourteen: Relaxation
+    introduction: Strategy Simulation - Code Fourteen: Relaxation
     rank: 1
   }
   {
@@ -16141,6 +16304,105 @@
     rank: 1
   }
   {
+    id: 2675
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_Kalina
+    item_name: Icon - Eightfold Jubilation
+    introduction: Icon - Eightfold Jubilation
+    rank: 1
+  }
+  {
+    id: 2676
+    type: 5
+    arg: "1"
+    code: profilePic_9years_01
+    item_name: Icon - The Power Of Money
+    introduction: Icon - The Power Of Money
+    rank: 1
+  }
+  {
+    id: 2677
+    type: 5
+    arg: "1"
+    code: card_9years_01
+    item_name: Namecard - Fleeting Moments Eternally Preserved
+    introduction: Namecard - Fleeting Moments Eternally Preserved
+    rank: 1
+  }
+  {
+    id: 2678
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_HK433
+    item_name: Monet's Daylight
+    introduction: Monet's Daylight
+    rank: 1
+  }
+  {
+    id: 2679
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_95type
+    item_name: Wings of Flowing Light
+    introduction: Wings of Flowing Light
+    rank: 1
+  }
+  {
+    id: 2680
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_QBZ191
+    item_name: Moonlit Vestment
+    introduction: Moonlit Vestment
+    rank: 1
+  }
+  {
+    id: 2681
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_SIGMCX
+    item_name: Pink Punch-Out
+    introduction: Pink Punch-Out
+    rank: 1
+  }
+  {
+    id: 2682
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_TAR21
+    item_name: Orchid Bell
+    introduction: Orchid Bell
+    rank: 1
+  }
+  {
+    id: 2683
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_G43
+    item_name: Hourglass' Mirror
+    introduction: Hourglass' Mirror
+    rank: 1
+  }
+  {
+    id: 2684
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_BrenTen
+    item_name: Sweet Dreams Rondo
+    introduction: Sweet Dreams Rondo
+    rank: 1
+  }
+  {
+    id: 2685
+    type: 5
+    arg: "1"
+    code: profilePic_Anniversary2025_HowaType89
+    item_name: Special Blend Time
+    introduction: Special Blend Time
+    rank: 1
+  }
+  {
     id: 2686
     type: 5
     arg: "1"
@@ -16294,6 +16556,213 @@
     rank: 1
   }
   {
+    id: 2710
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_SCARH
+    item_name: Stationary Moment
+    introduction: Stationary Moment
+    rank: 1
+  }
+  {
+    id: 2711
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_NTW20
+    item_name: Hunting Mirages
+    introduction: Hunting Mirages
+    rank: 1
+  }
+  {
+    id: 2712
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_GeneralLiu
+    item_name: Sky In A Bottle
+    introduction: Sky In A Bottle
+    rank: 1
+  }
+  {
+    id: 2713
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_64type
+    item_name: Windsong Journey
+    introduction: Windsong Journey
+    rank: 1
+  }
+  {
+    id: 2714
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_LWMMG
+    item_name: Gazing At The Horizon
+    introduction: Gazing At The Horizon
+    rank: 1
+  }
+  {
+    id: 2715
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_G28
+    item_name: Leaping Signal
+    introduction: Leaping Signal
+    rank: 1
+  }
+  {
+    id: 2716
+    type: 5
+    arg: "1"
+    code: profilePic_2025Afterword_M2HB
+    item_name: Daybreak March
+    introduction: Daybreak March
+    rank: 1
+  }
+  {
+    id: 2717
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_01
+    item_name: Icon: Mimetic Phantom
+    introduction: Icon: Mimetic Phantom
+    rank: 1
+  }
+  {
+    id: 2718
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_02
+    item_name: Icon: Symbiotic Shape
+    introduction: Icon: Symbiotic Shape
+    rank: 1
+  }
+  {
+    id: 2719
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_03
+    item_name: Icon: Blood and Abyss
+    introduction: Icon: Blood and Abyss
+    rank: 1
+  }
+  {
+    id: 2720
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_04
+    item_name: Icon: Goddess' Prayer
+    introduction: Icon: Goddess' Prayer
+    rank: 1
+  }
+  {
+    id: 2721
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_05
+    item_name: Icon: Misha
+    introduction: Icon: Misha
+    rank: 1
+  }
+  {
+    id: 2722
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_06
+    item_name: Icon: Griffin
+    introduction: Icon: Griffin
+    rank: 1
+  }
+  {
+    id: 2723
+    type: 5
+    arg: "1"
+    code: profilePic_202509Activity_07
+    item_name: Icon: By Your Side
+    introduction: Icon: By Your Side
+    rank: 1
+  }
+  {
+    id: 2724
+    type: 5
+    arg: "1"
+    code: card_202509Activity_01
+    item_name: ID Card: Fading Warmth
+    introduction: ID Card: Fading Warmth
+    rank: 1
+  }
+  {
+    id: 2725
+    type: 5
+    arg: "1"
+    code: card_202509Activity_02
+    item_name: ID Card: Holy Judgement, Original Sin
+    introduction: ID Card: Holy Judgement, Original Sin
+    rank: 1
+  }
+  {
+    id: 2726
+    type: 5
+    arg: "1"
+    code: card_202509Activity_03
+    item_name: ID Card: Goodbye, But Not Farewell
+    introduction: ID Card: Goodbye, But Not Farewell
+    rank: 1
+  }
+  {
+    id: 2727
+    type: 5
+    arg: "1"
+    code: cg_202509Activity_01
+    item_name: Background: Incubator of Evil
+    introduction: Background: Incubator of Evil
+    rank: 1
+  }
+  {
+    id: 2728
+    type: 5
+    arg: "1"
+    code: cg_202509Activity_02
+    item_name: Background: Cradle of Delusion
+    introduction: Background: Cradle of Delusion
+    rank: 1
+  }
+  {
+    id: 2729
+    type: 5
+    arg: "1"
+    code: cg_202509Activity_03
+    item_name: Background: The Elmo
+    introduction: Background: The Elmo
+    rank: 1
+  }
+  {
+    id: 2730
+    type: 5
+    arg: "1"
+    code: cg_AA02M
+    item_name: Background: Land of Rebirth
+    introduction: Background: Land of Rebirth
+    rank: 1
+  }
+  {
+    id: 2731
+    type: 5
+    arg: "1"
+    code: cg_Tank
+    item_name: Background: Floating Fortress
+    introduction: Background: Floating Fortress
+    rank: 1
+  }
+  {
+    id: 2732
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Teal
+    item_name: Grig Icon
+    introduction: Grig Icon
+    rank: 1
+  }
+  {
     id: 2733
     type: 5
     arg: "1"
@@ -16309,6 +16778,132 @@
     code: card_BattlePass_SPAS12
     item_name: IDcard: Cheese Is Power
     introduction: IDcard: Cheese Is Power
+    rank: 1
+  }
+  {
+    id: 2736
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season22_1
+    item_name: Shackled Seedling - Code Infinity: Shared Form
+    introduction: Shackled Seedling - Code Infinity: Shared Form
+    rank: 1
+  }
+  {
+    id: 2737
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season22_2
+    item_name: Bosonic Core - Code Infinity: Shared Form
+    introduction: Bosonic Core - Code Infinity: Shared Form
+    rank: 1
+  }
+  {
+    id: 2738
+    type: 5
+    arg: "1"
+    code: profilePic_ChessFlight_season22_3
+    item_name: Eternal Cleistogamy - Code Infinity: Shared Form
+    introduction: Eternal Cleistogamy - Code Infinity: Shared Form
+    rank: 1
+  }
+  {
+    id: 2739
+    type: 5
+    arg: "1"
+    code: profilePic_202511_88type
+    item_name: Shape Of Her Heart
+    introduction: Shape Of Her Heart
+    rank: 1
+  }
+  {
+    id: 2740
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Brute
+    item_name: Brute Icon - HD
+    introduction: Brute Icon - HD
+    rank: 1
+  }
+  {
+    id: 2741
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Dragoon
+    item_name: Dragoon Icon - HD
+    introduction: Dragoon Icon - HD
+    rank: 1
+  }
+  {
+    id: 2742
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Guard_SWAP
+    item_name: Guard SWAP Icon - HD
+    introduction: Guard SWAP Icon - HD
+    rank: 1
+  }
+  {
+    id: 2743
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Ripper_SWAP
+    item_name: Ripper SWAP Icon - HD
+    introduction: Ripper SWAP Icon - HD
+    rank: 1
+  }
+  {
+    id: 2744
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Dragoon_SWAP
+    item_name: Dragoon SWAP Icon - HD
+    introduction: Dragoon SWAP Icon - HD
+    rank: 1
+  }
+  {
+    id: 2745
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Ripper
+    item_name: Ripper Icon - HD
+    introduction: Ripper Icon - HD
+    rank: 1
+  }
+  {
+    id: 2746
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Vespid
+    item_name: Vespid Icon - HD
+    introduction: Vespid Icon - HD
+    rank: 1
+  }
+  {
+    id: 2747
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Guard
+    item_name: Guard Icon - HD
+    introduction: Guard Icon - HD
+    rank: 1
+  }
+  {
+    id: 2748
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Jaeger
+    item_name: Jaeger Icon - HD
+    introduction: Jaeger Icon - HD
+    rank: 1
+  }
+  {
+    id: 2749
+    type: 5
+    arg: "1"
+    code: profilePic_sangvis_Striker
+    item_name: Striker Icon - HD
+    introduction: Striker Icon - HD
     rank: 1
   }
   {
@@ -16402,6 +16997,78 @@
     rank: 1
   }
   {
+    id: 2760
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_6P62
+    item_name: Heart-Racing Match
+    introduction: Heart-Racing Match
+    rank: 1
+  }
+  {
+    id: 2761
+    type: 5
+    arg: "1"
+    code: card_BattlePass_6P62
+    item_name: IDcard: 6P62's Clear Command
+    introduction: IDcard: 6P62's Clear Command
+    rank: 1
+  }
+  {
+    id: 2762
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_AUGPARA
+    item_name: Flowers and Daydreams
+    introduction: Flowers and Daydreams
+    rank: 1
+  }
+  {
+    id: 2763
+    type: 5
+    arg: "1"
+    code: card_BattlePass_AUGPARA
+    item_name: ID Card: Floral Pillow
+    introduction: ID Card: Floral Pillow
+    rank: 1
+  }
+  {
+    id: 2764
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1891
+    item_name: Wintermist Traveler
+    introduction: Wintermist Traveler
+    rank: 1
+  }
+  {
+    id: 2765
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1891
+    item_name: ID card - Mistlocked Winter Journey
+    introduction: ID card - Mistlocked Winter Journey
+    rank: 1
+  }
+  {
+    id: 2766
+    type: 5
+    arg: "1"
+    code: profilePic_BattlePass_M1919A4
+    item_name: Duckling Assault
+    introduction: Duckling Assault
+    rank: 1
+  }
+  {
+    id: 2767
+    type: 5
+    arg: "1"
+    code: card_BattlePass_M1919A4
+    item_name: ID card - Quack Their Cheeks
+    introduction: ID card - Quack Their Cheeks
+    rank: 1
+  }
+  {
     id: 3501
     type: 5
     arg: "1"
@@ -16435,6 +17102,15 @@
     code: profilePic_rank4_MP41Mod
     item_name: MP41 Neural Upgrade Icon
     introduction: MP41 Neural Upgrade Icon
+    rank: 1
+  }
+  {
+    id: 3505
+    type: 5
+    arg: "1"
+    code: profilePic_rank4_TT33Mod
+    item_name: Tokarev Neural Upgrade Icon
+    introduction: Tokarev Neural Upgrade Icon
     rank: 1
   }
   {
@@ -17642,6 +18318,16 @@
     is_hide_info: 1
   }
   {
+    id: 9053
+    type: 1
+    arg: "9053"
+    code: Griffin
+    item_name: Fireworks
+    introduction: Fireworks
+    rank: 1
+    is_hide_info: 1
+  }
+  {
     id: 9301
     type: 1
     arg: "9301"
@@ -18125,6 +18811,24 @@
     rank: 1
   }
   {
+    id: 10732
+    type: 18
+    arg: "10732"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
+    id: 10736
+    type: 18
+    arg: "10736"
+    code: daily_points
+    item_name: Gray Zone Exploration Score
+    introduction: Gray Zone Exploration Score
+    rank: 1
+  }
+  {
     id: 30023
     type: 1
     arg: "30023"
@@ -18230,6 +18934,42 @@
     code: gift_bundle_BattlePass_JS9mm
     item_name: Upon The Ruins
     introduction: Will I be inspecting this location today? ...Alright, I understand. No matter how bad things get, I'll follow proper procedure every step of the way.
+    rank: 1
+  }
+  {
+    id: 30037
+    type: 1
+    arg: "30037"
+    code: gift_bundle_BattlePass_6P62
+    item_name: Heart-Racing Match
+    introduction: This gaming cave is our secret base that's only open to special people - so do you want to play a round with me, Commander? Loser has to do a forfeit!
+    rank: 1
+  }
+  {
+    id: 30038
+    type: 1
+    arg: "30038"
+    code: gift_bundle_BattlePass_AUGPARA
+    item_name: Flowers and Daydreams
+    introduction: This sunflower is for Miss SOP2, this is for... Hm? You're asking how I know everyone so well? That's because observing my cute coworkers is part of my job~
+    rank: 1
+  }
+  {
+    id: 30039
+    type: 1
+    arg: "30039"
+    code: gift_bundle_BattlePass_M1891
+    item_name: Wintermist Traveler
+    introduction: The fragrance of tea always brings back memories... But the most important one still dates back to the day when I met you.
+    rank: 1
+  }
+  {
+    id: 30040
+    type: 1
+    arg: "30040"
+    code: gift_bundle_BattlePass_M1919A4
+    item_name: Duckling Assault
+    introduction: Commander, hurry up~ I'm going to take home all the discount food and the ducklings on this aisle!
     rank: 1
   }
   {
@@ -19917,6 +20657,15 @@
     rank: 1
   }
   {
+    id: 100216
+    type: 4
+    arg: "100216"
+    code: Bumdle_20248year
+    item_name: Mobius Box
+    introduction: Mobius Box
+    rank: 1
+  }
+  {
     id: 100222
     type: 4
     arg: "100222"
@@ -20322,6 +21071,106 @@
     introduction: The currency in circulation in the Dark Zone. Recognized both officially and on the black market.
     rank: 1
     daily_limit: 60;180
+  }
+  {
+    id: 100288
+    type: 4
+    arg: "100288"
+    code: Bumdle_October4
+    item_name: Maple Woods Cruise Box
+    introduction: Maple Woods Cruise Box
+    rank: 1
+  }
+  {
+    id: 100289
+    type: 4
+    arg: "100289"
+    code: Nova_medal_black
+    item_name: Nova Medal - Quantum Fluctuations
+    introduction: Nova Medal - Quantum Fluctuations
+    rank: 1
+  }
+  {
+    id: 100290
+    type: 4
+    arg: "100290"
+    code: Platinum_medal_black
+    item_name: Platinum Medal - Quantum Fluctuations
+    introduction: Platinum Medal - Quantum Fluctuations
+    rank: 1
+  }
+  {
+    id: 100291
+    type: 9
+    arg: "100291"
+    code: Coin_202509QuantumFluctuation
+    item_name: Quantum Residue
+    introduction: When the world returns to its original state and the intertwined lines resume their original flucturations, this is the proof granted to the one who terminated them.
+    rank: 1
+    daily_limit: 60;180
+  }
+  {
+    id: 100292
+    type: 4
+    arg: "100292"
+    code: coremask2_202509QuantumFluctuation
+    item_name: Corrupted Heart Mask - ·Quantum Fluctuations
+    introduction: A sinister-looking mask that can only be obtained by passing an extremely arduous trial. It does not have any practical use, but it can be exchanged at the Shop for a long-awaited encounter.
+    rank: 1
+  }
+  {
+    id: 100293
+    type: 4
+    arg: "100293"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
+  }
+  {
+    id: 100294
+    type: 4
+    arg: "100294"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
+  }
+  {
+    id: 100295
+    type: 4
+    arg: "100295"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
+  }
+  {
+    id: 100296
+    type: 4
+    arg: "100296"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
+  }
+  {
+    id: 100297
+    type: 4
+    arg: "100297"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
+  }
+  {
+    id: 100298
+    type: 4
+    arg: "100298"
+    code: core_mask
+    item_name: True Core Mask
+    introduction: True Core Mask
+    rank: 1
   }
   {
     id: 110001
@@ -21027,6 +21876,69 @@
     rank: 1
   }
   {
+    id: 110078
+    type: 4
+    arg: "110078"
+    code: EventPT7
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110079
+    type: 4
+    arg: "110079"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110080
+    type: 4
+    arg: "110080"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110081
+    type: 4
+    arg: "110081"
+    code: EventPT5
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110082
+    type: 4
+    arg: "110082"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110083
+    type: 4
+    arg: "110083"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
+    id: 110084
+    type: 4
+    arg: "110084"
+    code: PT
+    item_name: Event Points
+    introduction: Event Points
+    rank: 1
+  }
+  {
     id: 120001
     type: 10
     arg: "1"
@@ -21304,6 +22216,15 @@
     code: Y_Z_zhihuiguan_zidan
     item_name: Retrograde Livewire
     introduction: Keep your eyes forward, leave the bullet holes behind—"Relax. Those mooks' aim is even worse than the shower head in my bathroom."
+    rank: 1
+  }
+  {
+    id: 130022
+    type: 12
+    arg: "130022"
+    code: Y_Z_zhihuiguan_Dancer
+    item_name: Age of Dreams
+    introduction: The brilliant glitter ball shines equally on every dancer. At this moment, dance has nothing to do with social standing or personal interests. It is merely an expression of joy.
     rank: 1
   }
   {
@@ -22261,6 +23182,114 @@
     rank: 5
   }
   {
+    id: 133112
+    type: 13
+    arg: "55"
+    code: TankM1_1011
+    item_name: Qilin - Main Battle Tank Armor Design
+    introduction: We are lions that make enemies tremble. We are qilins that bring victory.
+    rank: 5
+  }
+  {
+    id: 133113
+    type: 13
+    arg: "55"
+    code: GrenadeComponent_1011
+    item_name: Qilin - Grenade Launcher
+    introduction: The Qilin's custom-fitted grenade launcher, which can fire all kinds of projectiles with great versatility.
+    rank: 5
+  }
+  {
+    id: 133114
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1011
+    item_name: Qilin - Smoke Grenade Launcher
+    introduction: The Qilin's custom-fitted smoke grenade launcher, which can create pinpointed smoke interference.
+    rank: 5
+  }
+  {
+    id: 133115
+    type: 13
+    arg: "55"
+    code: Smoke_Emitter_1011
+    item_name: Qilin - Laser Suppression System
+    introduction: The Qilin's custom-fitted laser suppression system, which interferes with enemies' aim.
+    rank: 5
+  }
+  {
+    id: 133116
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1011
+    item_name: Qilin - Missile Launcher MK1
+    introduction: The Qilin's small missile launcher, which provides accurate strikes in battles.
+    rank: 5
+  }
+  {
+    id: 133117
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1011
+    item_name: Qilin - Shell Launcher
+    introduction: The Qilin's custom-fitted shell launcher, which can deal damage to a small area.
+    rank: 5
+  }
+  {
+    id: 133124
+    type: 13
+    arg: "55"
+    code: Warjack_1013
+    item_name: AA-02M Redeemer Design
+    introduction: Wolf Pack, attack!
+    rank: 5
+  }
+  {
+    id: 133125
+    type: 13
+    arg: "55"
+    code: Small_Missile_Launcher_1013
+    item_name: AA-02M Redeemer - Missile Launcher MK1
+    introduction: The AA-02M's custom-fitted small missile launcher, which provides accurate strikes in battles.
+    rank: 5
+  }
+  {
+    id: 133126
+    type: 13
+    arg: "55"
+    code: MG_Single_1013
+    item_name: AA-02M Redeemer - Universal Machine Gun MK-I
+    introduction: The AA-02M's universal machine gun, a basic model.
+    rank: 5
+  }
+  {
+    id: 133127
+    type: 13
+    arg: "55"
+    code: MG_Cannon_1013
+    item_name: AA-02M Redeemer - Shell Launcher
+    introduction: The AA-02M's custom-fitted small-caliber shell launcher.
+    rank: 5
+  }
+  {
+    id: 133128
+    type: 13
+    arg: "55"
+    code: AutoDef_1013
+    item_name: AA-02M Redeemer - Shield Generator
+    introduction: The AA-02M's custom-fitted shield generator, which provides defense for the Mobile Armor.
+    rank: 5
+  }
+  {
+    id: 133129
+    type: 13
+    arg: "55"
+    code: Signal_Tower_1013
+    item_name: AA-02M Redeemer - Signal Transceiver
+    introduction: The AA-02M's signal transciever, which boosts allies.
+    rank: 5
+  }
+  {
     id: 133130
     type: 13
     arg: "55"
@@ -23111,6 +24140,206 @@
     detail_introduction: item-30140072
   }
   {
+    id: 140073
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140073
+    introduction: item-20140073
+    rank: 1
+    detail_introduction: item-30140073
+  }
+  {
+    id: 140074
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140074
+    introduction: item-20140074
+    rank: 1
+    detail_introduction: item-30140074
+  }
+  {
+    id: 140075
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140075
+    introduction: item-20140075
+    rank: 1
+    detail_introduction: item-30140075
+  }
+  {
+    id: 140076
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140076
+    introduction: item-20140076
+    rank: 1
+    detail_introduction: item-30140076
+  }
+  {
+    id: 140077
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140077
+    introduction: item-20140077
+    rank: 1
+    detail_introduction: item-30140077
+  }
+  {
+    id: 140078
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140078
+    introduction: item-20140078
+    rank: 1
+    detail_introduction: item-30140078
+  }
+  {
+    id: 140079
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140079
+    introduction: item-20140079
+    rank: 1
+    detail_introduction: item-30140079
+  }
+  {
+    id: 140080
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140080
+    introduction: item-20140080
+    rank: 1
+    detail_introduction: item-30140080
+  }
+  {
+    id: 140081
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140081
+    introduction: item-20140081
+    rank: 1
+    detail_introduction: item-30140081
+  }
+  {
+    id: 140082
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140082
+    introduction: item-20140082
+    rank: 1
+    detail_introduction: item-30140082
+  }
+  {
+    id: 140083
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140083
+    introduction: item-20140083
+    rank: 1
+    detail_introduction: item-30140083
+  }
+  {
+    id: 140084
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140084
+    introduction: item-20140084
+    rank: 1
+    detail_introduction: item-30140084
+  }
+  {
+    id: 140085
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140085
+    introduction: item-20140085
+    rank: 1
+    detail_introduction: item-30140085
+  }
+  {
+    id: 140086
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140086
+    introduction: item-20140086
+    rank: 1
+    detail_introduction: item-30140086
+  }
+  {
+    id: 140087
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140087
+    introduction: item-20140087
+    rank: 1
+    detail_introduction: item-30140087
+  }
+  {
+    id: 140088
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140088
+    introduction: item-20140088
+    rank: 1
+    detail_introduction: item-30140088
+  }
+  {
+    id: 140089
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140089
+    introduction: item-20140089
+    rank: 1
+    detail_introduction: item-30140089
+  }
+  {
+    id: 140090
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140090
+    introduction: item-20140090
+    rank: 1
+    detail_introduction: item-30140090
+  }
+  {
+    id: 140091
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140091
+    introduction: item-20140091
+    rank: 1
+    detail_introduction: item-30140091
+  }
+  {
+    id: 140092
+    type: 14
+    arg: "1"
+    code: Y_Z_zhihuiguan_Chessman
+    item_name: item-10140092
+    introduction: item-20140092
+    rank: 1
+    detail_introduction: item-30140092
+  }
+  {
     id: 160001
     type: 1
     arg: "1"
@@ -23645,6 +24874,42 @@
     rank: 1
   }
   {
+    id: 200062
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_6P62
+    item_name: Icon Frame: Block Fantasy
+    introduction: Icon Frame: Block Fantasy
+    rank: 1
+  }
+  {
+    id: 200063
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_AUGPARA
+    item_name: Icon Frame: Swaying Springtime
+    introduction: Icon Frame: Swaying Springtime
+    rank: 1
+  }
+  {
+    id: 200064
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1891
+    item_name: Icon Frame - Rippling Tea Party
+    introduction: Icon Frame - Rippling Tea Party
+    rank: 1
+  }
+  {
+    id: 200065
+    type: 1
+    arg: "1"
+    code: profileFrame_BattlePass_M1919A4
+    item_name: Icon Frame - Duck Them Up!
+    introduction: Icon Frame - Duck Them Up!
+    rank: 1
+  }
+  {
     id: 900030
     type: 4
     arg: "900030"
@@ -23652,6 +24917,7 @@
     item_name: Nova Medal
     introduction: Nova Medal
     rank: 1
+    detail_introduction: item-30900030
   }
   {
     id: 900031
@@ -23661,6 +24927,7 @@
     item_name: Platinum Medal
     introduction: Platinum Medal
     rank: 1
+    detail_introduction: item-30900031
   }
   {
     id: 900032
@@ -26174,6 +27441,110 @@
     type_sort: 1
   }
   {
+    id: 1500293
+    type: 15
+    arg: "1500293"
+    code: package_choose
+    item_name: 16Lab Five-Star Equipment Selection Indicator
+    introduction: Use this Selection Indicator in the Warehouse to obtain a piece of 16Lab five-star equipment from a specific range.
+    rank: 5
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500339
+    type: 15
+    arg: "1500339"
+    code: Bumdle_sangvischoose_rank3
+    item_name: Coalition Force Three-Star Unit Selection Indicator
+    introduction:
+      '''
+      Use this Selection Indicator in the Warehouse to obtain an initial three-star Coalition Unit.
+      *If you have not unlocked the "Protocol Assimilation" system, you will not be able to use this item temporarily after obtaining the selected Coalition unit. It can be used normally after you unlock the "Protocol Assimilation" system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500340
+    type: 15
+    arg: "1500340"
+    code: Bumdle_sangvischoose_rank2
+    item_name: Coalition Force Two-Star Unit Selection Indicator
+    introduction:
+      '''
+      Use this Selection Indicator in the Warehouse to obtain an initial two-star Coalition Unit.
+      *If you have not unlocked the "Protocol Assimilation" system, you will not be able to use this item temporarily after obtaining the selected Coalition unit. It can be used normally after you unlock the "Protocol Assimilation" system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500341
+    type: 15
+    arg: "1500341"
+    code: Bumdle_sangvischoose_rank1
+    item_name: Coalition Force One-Star Unit Selection Indicator
+    introduction:
+      '''
+      Use this Selection Indicator in the Warehouse to obtain an initial one-star Coalition Unit.
+      *If you have not unlocked the "Protocol Assimilation" system, you will not be able to use this item temporarily after obtaining the selected Coalition unit. It can be used normally after you unlock the "Protocol Assimilation" system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500342
+    type: 15
+    arg: "1500342"
+    code: Bumdle_sangvischoose_avatar3
+    item_name: Three-Star Unit Icon Selection Indicator
+    introduction: Use this Selection Indicator in the Warehouse to obtain an initial three-star Coalition Unit's icon from within a specified range.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500343
+    type: 15
+    arg: "1500343"
+    code: Bumdle_sangvischoose_avatar2
+    item_name: Two-Star Unit Icon Selection Indicator
+    introduction: Use this Selection Indicator in the Warehouse to obtain an initial two-star Coalition Unit's icon from within a specified range.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500344
+    type: 15
+    arg: "1500344"
+    code: Bumdle_sangvischoose_avatar1
+    item_name: One-Star Unit Icon Selection Indicator
+    introduction: Use this Selection Indicator in the Warehouse to obtain an initial one-star Coalition Unit's icon from within a specified range.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500345
+    type: 15
+    arg: "1500345"
+    code: Bumdle_sangvischoose_rank3
+    item_name: Coalition Force Three-Star Unit Selection Indicator
+    introduction:
+      '''
+      Use this Selection Indicator in the Warehouse to obtain an initial three-star Coalition Unit.
+      *If you have not unlocked the "Protocol Assimilation" system, you will not be able to use this item temporarily after obtaining the selected Coalition unit. It can be used normally after you unlock the "Protocol Assimilation" system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1500346
     type: 15
     arg: "1500346"
@@ -26218,6 +27589,65 @@
     type_sort: 1
   }
   {
+    id: 1500350
+    type: 15
+    arg: "1500350"
+    code: Bumdle_invocation_1
+    item_name: 3-Star T-Doll Transfer Letter
+    introduction: Use this Transfer Letter in the Armory to obtain a 3-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500351
+    type: 15
+    arg: "1500351"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500352
+    type: 15
+    arg: "1500352"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500353
+    type: 15
+    arg: "1500353"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500354
+    type: 15
+    arg: "1500354"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
     id: 1500355
     type: 15
     arg: "1500355"
@@ -26257,6 +27687,424 @@
     code: package_random
     item_name: Frontline Protocol - Extra Prize
     introduction: Acquired from Frontline Protocol - Rules of Daybreak. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500359
+    type: 15
+    arg: "1500359"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Heart-Racing Invitation. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500360
+    type: 15
+    arg: "1500360"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Heart-Racing Invitation. Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500361
+    type: 15
+    arg: "1500361"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Heart-Racing Invitation. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500362
+    type: 15
+    arg: "1500362"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Heart-Racing Invitation. Obtain a random item from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500363
+    type: 15
+    arg: "1500363"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - A Flower For You. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500364
+    type: 15
+    arg: "1500364"
+    code: package_choose
+    item_name: Ammunition-Type Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - A Flower For You. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500365
+    type: 15
+    arg: "1500365"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - A Flower For You. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500366
+    type: 15
+    arg: "1500366"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - A Flower For You. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500367
+    type: 15
+    arg: "1500367"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Snowy Night Express. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500368
+    type: 15
+    arg: "1500368"
+    code: package_choose
+    item_name: Wearable Equipment Selection Indicator
+    introduction: Acquired from Frontline Protocol - Snowy Night Express. Obtain a piece of wearable equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500369
+    type: 15
+    arg: "1500369"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Snowy Night Express. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500370
+    type: 15
+    arg: "1500370"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Snowy Night Express. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500371
+    type: 15
+    arg: "1500371"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Surprise Shopping Day. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500372
+    type: 15
+    arg: "1500372"
+    code: package_choose
+    item_name: Accessory Equipment Indicator
+    introduction: Acquired from Frontline Protocol - Surprise Shopping Day. Obtain a piece of accessory-type equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500373
+    type: 15
+    arg: "1500373"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol - Surprise Shopping Day. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500374
+    type: 15
+    arg: "1500374"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol - Surprise Shopping Day. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500375
+    type: 15
+    arg: "1500375"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500376
+    type: 15
+    arg: "1500376"
+    code: package_choose
+    item_name: Advanced Equipment Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500377
+    type: 15
+    arg: "1500377"
+    code: package_random
+    item_name: Guaranteed T-Doll Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a T-Doll that you have not unlocked from this Indicator. If all T-Dolls have been unlocked, obtain a random one.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500378
+    type: 15
+    arg: "1500378"
+    code: package_random
+    item_name: Frontline Protocol - Extra Prize
+    introduction: Acquired from Frontline Protocol. Obtain a random piece of equipment from this Interval Air-Drop Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500379
+    type: 15
+    arg: "1500379"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500380
+    type: 15
+    arg: "1500380"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500381
+    type: 15
+    arg: "1500381"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500382
+    type: 15
+    arg: "1500382"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500383
+    type: 15
+    arg: "1500383"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500384
+    type: 15
+    arg: "1500384"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500385
+    type: 15
+    arg: "1500385"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500386
+    type: 15
+    arg: "1500386"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500387
+    type: 15
+    arg: "1500387"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500388
+    type: 15
+    arg: "1500388"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500389
+    type: 15
+    arg: "1500389"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500390
+    type: 15
+    arg: "1500390"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500391
+    type: 15
+    arg: "1500391"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500392
+    type: 15
+    arg: "1500392"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500393
+    type: 15
+    arg: "1500393"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500394
+    type: 15
+    arg: "1500394"
+    code: package_choose
+    item_name: Frontline Protocol Costume Indicator
+    introduction: Acquired from Frontline Protocol. Obtain a Costume of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500395
+    type: 15
+    arg: "1500395"
+    code: package_choose
+    item_name: Frontline Protocol Icon Frame Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an Icon Frame of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1500396
+    type: 15
+    arg: "1500396"
+    code: package_choose
+    item_name: Frontline Protocol ID Card Indicator
+    introduction: Acquired from Frontline Protocol. Obtain an ID Card of your choice from this Specified Delivery Indicator.
     rank: 1
     sort: -1
     type_sort: 1
@@ -27073,6 +28921,72 @@
     id: 1700072
     type: 15
     arg: "1700072"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700073
+    type: 15
+    arg: "1700073"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700074
+    type: 15
+    arg: "1700074"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700075
+    type: 15
+    arg: "1700075"
+    code: package_choose
+    item_name: Advanced Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700085
+    type: 15
+    arg: "1700085"
+    code: package_choose
+    item_name: Basic Equipment Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of equipment of your choice from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700086
+    type: 15
+    arg: "1700086"
+    code: package_choose
+    item_name: Basic Exclusive Equipment Selection Indicator
+    introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of exclusive equipment of your choice for a Doll that's four-star or below from this Specified Delivery Indicator.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 1700087
+    type: 15
+    arg: "1700087"
     code: package_choose
     item_name: Advanced Exclusive Equipment Selection Indicator
     introduction: Acquired from Gray Zone Exploration. Open it to obtain a piece of 5-star T-Doll exclusive equipment of your choice from this Specified Delivery Indicator.
@@ -28064,6 +29978,450 @@
     type: 15
     arg: "9000070"
     code: Bumdle_FantasyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000071
+    type: 15
+    arg: "9000071"
+    code: Bumdle_invocation_3
+    item_name: 4-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 4-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000072
+    type: 15
+    arg: "9000072"
+    code: Bumdle_invocation_2
+    item_name: 5-Star T-Doll Transfer Letter
+    introduction: Use a Transfer Letter in the Armory to obtain a 5-star T-Doll within the given parameters.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000073
+    type: 15
+    arg: "9000073"
+    code: Bumdle_sangvischoose
+    item_name: Coalition Unit Specified Capture Commission
+    introduction:
+      '''
+      Use this commission in the armory to select from a specified range of Protocol Assimilation units with base three star rarity. 
+      * If the Commander has not yet unlocked the "Protocol Assimilation" system, the selected unit will be temporarily unusable until the Commander has unlocked the system.
+      '''
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000074
+    type: 15
+    arg: "9000074"
+    code: Bumdle_equipment
+    item_name: Five-Star Equipment Selection Voucher
+    introduction: Use this voucher in the armory to select from a specified range of non-exclusive five star equipment.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000075
+    type: 15
+    arg: "9000075"
+    code: Bumdle_AnniversaryCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000076
+    type: 15
+    arg: "9000076"
+    code: Bumdle_AnniversaryCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9000077
+    type: 15
+    arg: "9000077"
+    code: Bumdle_AnniversaryCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500083
+    type: 15
+    arg: "9500083"
+    code: Bumdle_JPnewyear1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500084
+    type: 15
+    arg: "9500084"
+    code: Bumdle_JPnewyear2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500085
+    type: 15
+    arg: "9500085"
+    code: Bumdle_JPnewyear3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500086
+    type: 15
+    arg: "9500086"
+    code: Bumdle_SpringFestivalCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500087
+    type: 15
+    arg: "9500087"
+    code: Bumdle_SpringFestivalCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500088
+    type: 15
+    arg: "9500088"
+    code: Bumdle_SpringFestivalCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500089
+    type: 15
+    arg: "9500089"
+    code: Bumdle_WhiteValentineCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500090
+    type: 15
+    arg: "9500090"
+    code: Bumdle_WhiteValentineCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500091
+    type: 15
+    arg: "9500091"
+    code: Bumdle_WhiteValentineCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500092
+    type: 15
+    arg: "9500092"
+    code: Bumdle_FantasyCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500093
+    type: 15
+    arg: "9500093"
+    code: Bumdle_FantasyCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500094
+    type: 15
+    arg: "9500094"
+    code: Bumdle_FantasyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500095
+    type: 15
+    arg: "9500095"
+    code: Bumdle_SummerdayCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500096
+    type: 15
+    arg: "9500096"
+    code: Bumdle_SummerdayCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500097
+    type: 15
+    arg: "9500097"
+    code: Bumdle_SummerdayCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500101
+    type: 15
+    arg: "9500101"
+    code: Bumdle_AnniversaryCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500102
+    type: 15
+    arg: "9500102"
+    code: Bumdle_AnniversaryCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500103
+    type: 15
+    arg: "9500103"
+    code: Bumdle_AnniversaryCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500104
+    type: 15
+    arg: "9500104"
+    code: Bumdle_UrbanBeautyCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500105
+    type: 15
+    arg: "9500105"
+    code: Bumdle_UrbanBeautyCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500106
+    type: 15
+    arg: "9500106"
+    code: Bumdle_UrbanBeautyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500107
+    type: 15
+    arg: "9500107"
+    code: Bumdle_UrbanBeautyCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500108
+    type: 15
+    arg: "9500108"
+    code: Bumdle_UrbanBeautyCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500109
+    type: 15
+    arg: "9500109"
+    code: Bumdle_UrbanBeautyCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500110
+    type: 15
+    arg: "9500110"
+    code: Bumdle_HalloweenCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500111
+    type: 15
+    arg: "9500111"
+    code: Bumdle_HalloweenCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500112
+    type: 15
+    arg: "9500112"
+    code: Bumdle_HalloweenCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500113
+    type: 15
+    arg: "9500113"
+    code: Bumdle_ChildrenDayCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500114
+    type: 15
+    arg: "9500114"
+    code: Bumdle_ChildrenDayCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500115
+    type: 15
+    arg: "9500115"
+    code: Bumdle_ChildrenDayCoupons3
+    item_name: Exclusive Costume Ticket
+    introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500116
+    type: 15
+    arg: "9500116"
+    code: Bumdle_ChristmasCoupons1
+    item_name: Collection Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500117
+    type: 15
+    arg: "9500117"
+    code: Bumdle_ChristmasCoupons2
+    item_name: Luxury Costume Ticket
+    introduction: Use this costume voucher in the Armory to obtain a random costume that you have yet to obtain from a specific pool.
+    rank: 1
+    sort: -1
+    type_sort: 1
+  }
+  {
+    id: 9500118
+    type: 15
+    arg: "9500118"
+    code: Bumdle_ChristmasCoupons3
     item_name: Exclusive Costume Ticket
     introduction: Use this costume voucher in the Armory to select a costume to obtain from a specific pool.
     rank: 1

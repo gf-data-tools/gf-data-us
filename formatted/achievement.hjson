@@ -18068,6 +18068,7 @@
     mre: 1000
     part: 1000
     core: 5
+    title: Miracle of Zero
     content: Roche Limit - Public Enemy: Rescue all hostages and achieve victory.
     type_sort: 100
     sort: 335
@@ -18124,5 +18125,111 @@
     sort: 338
     icon_code: 无形之手
     condition: 11924:1192402
+  }
+  {
+    identity: 1268
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Walk In The Light
+    content: During Quantum Fluctuations - "Return to Patriotism", complete the stage without turning off the transformer.
+    type_sort: 100
+    sort: 339
+    icon_code: 与光同行
+    condition: 11950:1195002
+  }
+  {
+    identity: 1269
+    type: c_mission_win_type
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Street Sweeper
+    content: During Quantum Fluctuations - "The Price for the Future", complete the stage while killing at least 12 enemies.
+    type_sort: 100
+    sort: 340
+    icon_code: 清道夫
+    condition: 11953:1195302,11958:1195302,11963:1195302
+  }
+  {
+    identity: 1270
+    type: c_no_skip_activity
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: Thank You
+    content: Finish viewing the entire credit roll for Quantum Fluctuations.
+    type_sort: 100
+    sort: 341
+    icon_code: 感恩有你
+    condition: "11985"
+  }
+  {
+    identity: 1271
+    type: speical_mission_final
+    count: 1
+    user_exp: 1000
+    mp: 1000
+    ammo: 1000
+    mre: 1000
+    part: 1000
+    core: 5
+    title: The Shining Beacon In A Brave New World
+    content: Complete all main storyline chapters and major storyline events in Girls' Frontline.
+    type_sort: 100
+    sort: 342
+    icon_code: 更新世界锋芒
+  }
+  {
+    identity: 1272
+    type: c_mission
+    count: 1
+    title: Silent Farewell
+    content: Complete the permanent event Roche Limit.
+    type_sort: 100
+    sort: 334
+    condition: "11916"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.7
+  }
+  {
+    identity: 1273
+    type: c_mission
+    count: 1
+    title: To The New World
+    content: Complete the permanent event Virtual Pair.
+    type_sort: 100
+    sort: 334
+    condition: "11945"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.8
+  }
+  {
+    identity: 1274
+    type: c_mission
+    count: 1
+    title: No Why
+    content: Complete the permanent event Quantum Fluctuations.
+    type_sort: 100
+    sort: 334
+    condition: "11985"
+    if_steam: 1
+    if_hidden: 1
+    steam_code: c_mission_15.9
   }
 ]
