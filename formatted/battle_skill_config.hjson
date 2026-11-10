@@ -570396,13 +570396,14 @@
     id: 101170501
     skill_group_id: 1011705
     level: 1
-    type: 2
+    type: 4
     skill_priority: 25
     cd_type: 1
-    cd_time: 99999
+    cd_time: 15
     start_cd_time: 150
     target_select_ai: 1
     action_id: 223
+    buff_type_self: 402:-99
     train_coin_type: 1
     is_switch: 1
     passive_name: battle_skill_config-501170501
